@@ -398,13 +398,6 @@ iframe {
     margin-left: 75px;
     border: 5px solid red;
 }
-.iconeyt {
-    color: #e20b0b;    
-    margin-left: 70px;
-    font-size: 18px;
-    list-style: none;
-   
-}
 
 
 
@@ -426,12 +419,12 @@ table blockquote {
   
   
 .skillgray tr{    
-    border: 1px solid rgb(0, 7, 11);
-    background-color: rgb(87, 116, 131);
+    border: 1px solid rgb(133, 169, 245);
+    background-color: rgb(178, 198, 207);
     
 }
 .skillgray blockquote{
-    background-color: hsl(240, 9%, 74%);
+    background-color: hsl(240, 36%, 89%);
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
     margin-left: 70px;
@@ -440,7 +433,7 @@ table blockquote {
 
 .skillblue th{    
     border: 1px solid rgb(0, 7, 11);
-    background-color: rgb(27, 42, 180);
+    background-color: #9aa6fd;
     text-align: lef;
     margin-left: 70px;
     margin-right: 70px;    
@@ -456,7 +449,7 @@ table blockquote {
 }
 .skillgreen th{    
     border: 1px solid rgb(0, 7, 11);
-    background-color: #048c32;
+    background-color: #6af799;
     text-align: lef;
     margin-left: 70px;
     margin-right: 70px;    
@@ -464,7 +457,7 @@ table blockquote {
 
 
 .skillgreen blockquote{
-    background-color: hwb(151 35% 3%);
+    background-color: #92ffca;
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
     margin-left: 70px;
@@ -472,7 +465,7 @@ table blockquote {
 }
 .skillviolet th{    
     border: 1px solid rgb(0, 7, 11);
-    background-color: hsl(300, 100%, 32%);
+    background-color: rgb(255, 85, 255);
     text-align: lef;
     margin-left: 70px;
     margin-right: 70px;    
@@ -480,7 +473,7 @@ table blockquote {
 
 
 .skillviolet blockquote{
-    background-color: #ff5fff;
+    background-color: #e4a3d8;
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
     margin-left: 70px;
