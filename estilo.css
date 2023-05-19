@@ -428,15 +428,15 @@ table blockquote {
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
     margin-left: 70px;
-    margin-right: 70px;
+    margin-right: 50px;
 }
 
 .skillblue th{    
     border: 1px solid rgb(0, 7, 11);
-    background-color: #9aa6fd;
+    background-color: #c3c9f9;
     text-align: lef;
     margin-left: 70px;
-    margin-right: 70px;    
+    margin-right: 50px;    
 }
 
 
@@ -445,14 +445,14 @@ table blockquote {
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
     margin-left: 70px;
-    margin-right: 70px;
+    margin-right: 50px;
 }
 .skillgreen th{    
     border: 1px solid rgb(0, 7, 11);
     background-color: #6af799;
     text-align: lef;
     margin-left: 70px;
-    margin-right: 70px;    
+    margin-right: 50px;    
 }
 
 
@@ -461,14 +461,14 @@ table blockquote {
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
     margin-left: 70px;
-    margin-right: 70px;
+    margin-right: 50px;
 }
 .skillviolet th{    
     border: 1px solid rgb(0, 7, 11);
     background-color: rgb(255, 85, 255);
     text-align: lef;
     margin-left: 70px;
-    margin-right: 70px;    
+    margin-right: 50px;    
 }
 
 
@@ -477,7 +477,7 @@ table blockquote {
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
     margin-left: 70px;
-    margin-right: 70px;
+    margin-right: 50px;
 }
   
 
