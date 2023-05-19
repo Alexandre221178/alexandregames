@@ -441,7 +441,7 @@ table blockquote {
 
 
 .skillblue blockquote{
-    background-color: hwb(228 35% 3%);
+    background-color: #9ec9f5;
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
     margin-left: 70px;
