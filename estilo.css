@@ -310,21 +310,14 @@ section blockquote{
         
         /* guide imagem do logo do guia de Heróis */
 .img-logoguide{
-    width: 380px;
-    height: 380px; 
-    margin: 80px;
-    
+    margin: 150px;
     margin-inline: center; 
     float: center;
     image-orientation: center;    
-    border: 1px solid white;
+    
     
 }
-.img-logo guide img{
-    width: 100%;
-    margin-inline-start: 50px; 
-        
-}
+
     /*imagens de sugestões no rodapé */
 .img-sugestion{
     width: 120px;
@@ -556,14 +549,14 @@ pre{
     }
     /* imagem do logo para mobile*/
     .img-logoguide{
-        width: 120px;
-        height: 120px; 
+        width: 100px;
+        height: 100px; 
+        margin-top: 20px;
+        margin-left: 480px;        
         transform: scaleX(-1);
-        margin-left: 280px;
         
-        margin-inline: center; 
-        float: center;
-        image-orientation: center;   
+        
+          
     }
     
     
