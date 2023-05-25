@@ -315,7 +315,6 @@ section blockquote{
     float: center;
     image-orientation: center;    
     
-    
 }
 
     /*imagens de sugestões no rodapé */
@@ -383,12 +382,18 @@ section blockquote{
     margin-bottom: 0px;
     border: 7px solid #5654b3;
 }
-/* Videos youtube posicao */
-iframe {
-    margin-left: 75px;
-    border: 5px solid red;
-}
 
+   /* Videos youtube posicao */
+
+iframe{        
+       margin-left: 30px;
+}
+          
+          
+        
+       
+
+  
 
 
     /* fontes para tabelas de habilidades */
@@ -678,11 +683,12 @@ pre{
         margin-left: 10px;
         margin-right: 10px;
     }
-    iframe {
-            margin-left: 1px;
-            width: 100%;
-            border: 5px solid red;
-        }
+    iframe{
+        
+        margin-left: 5px;
+            
+           
+    }
     .footer a img{
             width: 10%;
     }
