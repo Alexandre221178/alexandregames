@@ -173,7 +173,7 @@ h1 {
     margin-top: 30px;
 }
 h2 {
-    margin-left: 70px;
+    margin-left: 30px;
     margin-top: 30px;
     color: #5656b3;
     font-size: 28px;
@@ -182,7 +182,7 @@ h2 {
     text-align: left;
 }
 h3 {
-    margin-left: 70px;
+    margin-left: 30px;
     margin-top: 30px;
     color: #f9464f;
     font-size: 24px;
@@ -197,7 +197,7 @@ h4 {
 }
 h5 {
         color: #18a84d;
-        margin-left: 70px;
+        margin-left: 30px;
         padding: 0,2%;
         text-align: left;
 
@@ -212,7 +212,7 @@ h6 {
 
 /* letras texto de caixa na seção */
 section p{
-    margin-left: 70px;
+    margin-left: 30px;
     margin-right: 70px;
     font-size: 20px;
     color: black;
@@ -378,7 +378,7 @@ section blockquote{
     }
 
 .img-max img{
-    margin-left: 72px;
+    margin-left: 32px;
     margin-bottom: 0px;
     border: 7px solid #5654b3;
 }
@@ -402,7 +402,7 @@ table {
     font-size: 22px;
     border-collapse: collapse;
     width: 91%;
-    margin-left: 70px;
+    margin-left: 30px;
     text-align: left;
     margin-left: 70px;
     margin-right: 70px;
@@ -413,65 +413,40 @@ table blockquote {
 }       
   
   
-.skillgray tr{    
-    border: 1px solid rgb(133, 169, 245);
-    background-color: rgb(178, 198, 207);
-    
-}
 .skillgray blockquote{
+    padding: 1%;
     background-color: hsl(240, 36%, 89%);
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
-    margin-left: 70px;
+    margin-left: 31px;
     margin-right: 62px;
 }
-
-.skillblue th{    
-    border: 1px solid rgb(0, 7, 11);
-    background-color: #c3c9f9;
-    text-align: lef;
-    margin-left: 70px;
-    margin-right: 62px;
-}
-
 
 .skillblue blockquote{
+    padding: 1%;
     background-color: #9ec9f5;
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
-    margin-left: 70px;
+    margin-left: 31px;
     margin-right: 62px;
-}
-.skillgreen th{    
-    border: 1px solid rgb(0, 7, 11);
-    background-color: #6af799;
-    text-align: lef;
-    margin-left: 70px;
-    margin-right: 62px;    
 }
 
 
 .skillgreen blockquote{
+    padding: 1%;
     background-color: #92ffca;
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
-    margin-left: 70px;
+    margin-left: 31px;
     margin-right: 62px;
 }
-.skillviolet th{    
-    border: 1px solid rgb(0, 7, 11);
-    background-color: rgb(255, 85, 255);
-    text-align: lef;
-    margin-left: 70px;
-    margin-right: 62px;    
-}
-
 
 .skillviolet blockquote{
+    padding: 1%;
     background-color: #e4a3d8;
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
-    margin-left: 70px;
+    margin-left: 31px;
     margin-right: 62px;
 }
   
@@ -688,6 +663,10 @@ pre{
         margin-left: 5px;
             
            
+    }
+    main{        
+        align-items: block;
+       
     }
     .footer a img{
             width: 10%;
