@@ -154,6 +154,7 @@ main{
 }
 p {
     text-align: left;
+    text-indent: 40px;
     margin: 5px;
     margin-top: 10px;
     margin-left: 1px;
