@@ -280,23 +280,23 @@ section blockquote{
 /* imagem do menu da página home index */
 .img-menu{
     width: 280px;
-    height: 280px;
+    height: 240px;
     margin: 0 auto;
-    padding: 0 4%;
+    padding: 1%;
     align-items: center;
     text-align: center;
     float: left;
-    padding: 10px;
     border: 1px solid white;
 }
 .img-menu a :hover{
     color: #f9464f;
 }
 .img-menu a{
+    padding: 1%;
     float: center;
     border: 1px solid rgb(255, 255, 255);
     image-orientation: flex;
-    margin-top: 1px;
+    margin-top: 10px;
     text-decoration: none;
     font-size: 18px;
 }
@@ -535,12 +535,11 @@ pre{
         margin-top: 20px;
         margin-left: 480px;        
         transform: scaleX(-1);
-        
-        
+    }
+    .img-menu img{
+        width: 98%;
           
     }
-    
-    
     .img-max{
         width: 330px;
         height: 300px; 
