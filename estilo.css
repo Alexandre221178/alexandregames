@@ -30,6 +30,7 @@ nav .menu-icon{
 nav .logo a{
     font-size: 30px;
     font-weight: bold;
+    /* cor da letra do logo */
     color: #5654b3;
     text-decoration: none;
 }
@@ -44,22 +45,26 @@ nav ul{
 }
 nav ul li{
     padding: 0 15px;
-   
+
 }
 nav ul li a{
     text-decoration: none;
     font-size: 17px;
     text-transform: uppercase;
+    /* cor dos textos nav */
     color: #5654b3;
 }
 nav ul button a{
-
+        
     color: white;
 }
+
 nav ul button{
+    
     border: none;
     color: white;
-    background-color: hsl(249, 86%, 39%);    
+    /* cor botao ingles */
+    background-color: #150df8;    
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -69,10 +74,10 @@ nav ul button{
     cursor: pointer;
 }
 .buttonEnglish{
-    background-color: #0fac0f;
+    background-color: #0ce60c;
     color: white;
-
 }
+
 main{
     margin-top: 20px;
     display: flex;
@@ -118,7 +123,7 @@ main{
   }
   
   .dropdown:hover .dropbtn {
-    background-color: hsl(357, 86%, 72%);
+    background-color: rgb(122, 126, 245);
   }
     /* letras de listas com pontos */
 .check-list li{
@@ -510,7 +515,7 @@ pre{
          color: hsl(183, 73%, 77%);
     }
     nav ul button{
-        background-color: #e20b0b;
+        background-color: #360be2;
         font-size: 18px;
         margin: 10px;
     }
