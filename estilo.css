@@ -421,26 +421,24 @@ table blockquote {
   
 .skillgray blockquote{
     padding: 1%;
-    background-color: hsl(240, 36%, 89%);
+    background-color: #eeeeee;
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
     margin-left: 31px;
     margin-right: 62px;
 }
-
-.skillblue blockquote{
-    padding: 1%;
-    background-color: #9ec9f5;
-    border: 1px solid rgb(0, 7, 11);
-    text-align: left;
-    margin-left: 31px;
-    margin-right: 62px;
-}
-
 
 .skillgreen blockquote{
     padding: 1%;
-    background-color: #92ffca;
+    background-color: #cfffe8;
+    border: 1px solid rgb(0, 7, 11);
+    text-align: left;
+    margin-left: 31px;
+    margin-right: 62px;
+}
+.skillblue blockquote{
+    padding: 1%;
+    background-color: #d7d3fe;
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
     margin-left: 31px;
@@ -449,7 +447,7 @@ table blockquote {
 
 .skillviolet blockquote{
     padding: 1%;
-    background-color: #e4a3d8;
+    background-color: #ffbaf2;
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
     margin-left: 31px;
