@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -12,9 +11,9 @@ body{
     
 }
 .container{
-    max-width: 1300px;
+    max-width: 1500px;
     margin: 0 auto;
-    padding: 0 4%;
+    padding: 0 2%;
 }
 nav{
     display: flex;
@@ -31,6 +30,7 @@ nav .menu-icon{
 nav .logo a{
     font-size: 30px;
     font-weight: bold;
+    /* cor da letra do logo */
     color: #5654b3;
     text-decoration: none;
 }
@@ -45,35 +45,39 @@ nav ul{
 }
 nav ul li{
     padding: 0 15px;
-   
+
 }
 nav ul li a{
     text-decoration: none;
     font-size: 17px;
     text-transform: uppercase;
+    /* cor dos textos nav */
     color: #5654b3;
 }
 nav ul button a{
-
+        
     color: white;
 }
+
 nav ul button{
+    
     border: none;
     color: white;
-    background-color: hsl(249, 86%, 39%);    
+    /* cor botao ingles */
+    background-color: #150df8;    
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
     font-size: 16px;
     letter-spacing: 1px;
-    margin-left: 20px;
+    margin-left: 10px;
     cursor: pointer;
 }
 .buttonEnglish{
-    background-color: #0fac0f;
+    background-color: #0ce60c;
     color: white;
-
 }
+
 main{
     margin-top: 20px;
     display: flex;
@@ -119,7 +123,7 @@ main{
   }
   
   .dropdown:hover .dropbtn {
-    background-color: hsl(357, 86%, 72%);
+    background-color: rgb(122, 126, 245);
   }
     /* letras de listas com pontos */
 .check-list li{
@@ -155,6 +159,7 @@ main{
 }
 p {
     text-align: left;
+    text-indent: 30px;
     margin: 5px;
     margin-top: 10px;
     margin-left: 1px;
@@ -174,7 +179,7 @@ h1 {
     margin-top: 30px;
 }
 h2 {
-    margin-left: 70px;
+    margin-left: 30px;
     margin-top: 30px;
     color: #5656b3;
     font-size: 28px;
@@ -183,7 +188,7 @@ h2 {
     text-align: left;
 }
 h3 {
-    margin-left: 70px;
+    margin-left: 30px;
     margin-top: 30px;
     color: #f9464f;
     font-size: 24px;
@@ -198,7 +203,7 @@ h4 {
 }
 h5 {
         color: #18a84d;
-        margin-left: 70px;
+        margin-left: 30px;
         padding: 0,2%;
         text-align: left;
 
@@ -213,7 +218,7 @@ h6 {
 
 /* letras texto de caixa na seção */
 section p{
-    margin-left: 70px;
+    margin-left: 30px;
     margin-right: 70px;
     font-size: 20px;
     color: black;
@@ -277,25 +282,47 @@ section blockquote{
     cursor: pointer;
     font-size: 15px;
 }
+/* imagem do menu da página home index */
+.img-menu{
+    width: 280px;
+    height: 240px;
+    margin: 0 auto;
+    padding: 1%;
+    align-items: center;
+    text-align: center;
+    float: left;
+    border: 1px solid white;
+}
+.img-menu a :hover{
+    color: #f9464f;
+}
+.img-menu a{
+    padding: 1%;
+    float: center;
+    border: 1px solid rgb(255, 255, 255);
+    image-orientation: flex;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.img-menu a:hover{
+    color: #f9464f;
+    }
 
-
+.img-menu img{
+        width: 100%;
+        border: 4px solid #5654b3;
+}
+        
         /* guide imagem do logo do guia de Heróis */
 .img-logoguide{
-    width: 380px;
-    height: 380px; 
-    margin: 80px;
-    
+    margin: 150px;
     margin-inline: center; 
     float: center;
     image-orientation: center;    
-    border: 1px solid white;
     
 }
-.img-logo guide img{
-    width: 100%;
-    margin-inline-start: 50px; 
-        
-}
+
     /*imagens de sugestões no rodapé */
 .img-sugestion{
     width: 120px;
@@ -323,24 +350,59 @@ section blockquote{
     border: 1px solid #777;
 }
 
+    /* imagens do menu guia de heróis */    
+.img-menuguide{
+    width: 200px;
+    height: 160px;       
+    align-items: center;
+    text-align: center;
+    float: left;
+    image-orientation: left;
+    padding: 2% 3%;
+    
+}
+.img-menuguide a{
+    float: center;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+.img-menuguide img{
+    width: 100%;
+}
+
+.img-menuguide a:hover{
+    color: red;
+    }
+
  
+
     /* imagem do herói no nível máximo*/
+   
 .img-max{
     width: 450px;
     height: 400px; 
     }
+ 
 
 .img-max img{
-    margin-left: 72px;
+    margin-left: 32px;
     margin-bottom: 0px;
     border: 7px solid #5654b3;
 }
-/* Videos youtube posicao */
-iframe {
-    margin-left: 75px;
-    border: 5px solid red;
-}
 
+   /* Videos youtube posicao */
+
+iframe{        
+       margin: 17px;
+      
+}
+          
+          
+        
+       
+
+  
 
 
     /* fontes para tabelas de habilidades */
@@ -349,76 +411,53 @@ table {
     font-size: 22px;
     border-collapse: collapse;
     width: 91%;
-    margin-left: 70px;
-    text-align: left;
-    margin-left: 70px;
+    margin-left: 30px;
+    text-align: left;    
     margin-right: 70px;
 }
+table th{
+    color: #f9464f;
+}
+
     
 table blockquote {
     font-size: 24px;
 }       
   
   
-.skillgray tr{        
-    background-color: #d4e0e6;
-    border: 1px solid black;
-    margin-left: 70px;
-    margin-right: 68px;
-    
-}
 .skillgray blockquote{
-    background-color: hsl(240, 36%, 89%);
-    border: 1px solid black;
-    text-align: left;
-    margin-left: 70px;
-    margin-right: 68px;
-}
-
-.skillblue th{    
-    background-color: #c3c9f9;
-    border: 1px solid black;
-    text-align: lef;
-    
-}
-
-
-.skillblue blockquote{
-    background-color: #9ec9f5;
-    border: 1px solid black;
-    text-align: left;
-    margin-left: 70px;
-    margin-right: 68px;  
-}
-    
-
-.skillgreen th{    
+    padding: 1%;
+    background-color: #eeeeee;
     border: 1px solid rgb(0, 7, 11);
-    background-color: #6af799;
-    text-align: lef;
+    text-align: left;
+    margin-left: 31px;
+    margin-right: 62px;
 }
-
 
 .skillgreen blockquote{
-    background-color: #92ffca;
+    padding: 1%;
+    background-color: #cfffe8;
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
-    margin-left: 70px;
-    margin-right: 68px;
+    margin-left: 31px;
+    margin-right: 62px;
 }
-.skillviolet th{    
+.skillblue blockquote{
+    padding: 1%;
+    background-color: #d7d3fe;
     border: 1px solid rgb(0, 7, 11);
-    background-color: rgb(255, 85, 255);
-    text-align: lef;
+    text-align: left;
+    margin-left: 31px;
+    margin-right: 62px;
 }
-
 
 .skillviolet blockquote{
-    background-color: #e4a3d8;
+    padding: 1%;
+    background-color: #ffbaf2;
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
-    margin-left: 70px;
-    margin-right: 68px;
+    margin-left: 31px;
+    margin-right: 62px;
 }
   
 
@@ -459,8 +498,8 @@ pre{
         position: fixed;
         width: 60%;
         height: 100%;
-        top: 0;
-        left: 0;
+        top: 0px;
+        left: 0px;
         transform: translateX(-100%);
         display: flex;
         align-items: left;
@@ -480,9 +519,9 @@ pre{
          color: hsl(183, 73%, 77%);
     }
     nav ul button{
-        background-color: #e20b0b;
-        font-size: 18px;
-        margin: 10px;
+        background-color: #360be2;
+        font-size: 15px;
+        margin: auto;
     }
     main{
         flex-direction: column;
@@ -500,19 +539,16 @@ pre{
     }
     /* imagem do logo para mobile*/
     .img-logoguide{
-        width: 120px;
-        height: 120px; 
+        width: 100px;
+        height: 100px; 
+        margin-top: 20px;
+        margin-left: 480px;        
         transform: scaleX(-1);
-        margin-left: 280px;
-        margin-bottom: 150px;
-        margin-inline: center; 
-        float: center;
-        image-orientation: center;   
-        
-        
     }
-    
-    
+    .img-menu img{
+        width: 98%;
+          
+    }
     .img-max{
         width: 330px;
         height: 300px; 
@@ -537,8 +573,28 @@ pre{
         float: center;
         image-orientation: center;
     }   
-      
+    .img-menuguide{
+        Width: 30%;
+    }
    
+    .img-ale{
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        text-align: center;
+        float: left;
+        padding: 10px;
+        border: 1px solid white;
+            }
+    .img-ale a{
+            float: center;
+        border: 1px solid rgb(255, 255, 255);
+        image-orientation: flex;
+        margin-top: 1px;
+    }
+    .img-ale img{
+        width: 50%;
+        }
     section p{
         margin-left: 5px;
         margin-right: 5px;
@@ -611,11 +667,16 @@ pre{
         margin-left: 10px;
         margin-right: 10px;
     }
-    iframe {
-            margin-left: 1px;
-            width: 100%;
-            border: 5px solid red;
-        }
+    iframe{        
+         margin: auto;
+         
+            
+           
+    }
+    main{        
+        align-items: block;
+       
+    }
     .footer a img{
             width: 10%;
     }
@@ -649,7 +710,7 @@ pre{
     
     .footer .row a{
     text-decoration:none;
-    font-size: 18px;
+    font-size: 14px;
     color: black;
     transition:0.5s;
     }

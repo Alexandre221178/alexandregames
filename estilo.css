@@ -378,10 +378,7 @@ section blockquote{
  
 
     /* imagem do herói no nível máximo*/
-.img-max{
-    width: 450px;
-    height: 400px; 
-    }
+   
 
 .img-max img{
     margin-left: 32px;
