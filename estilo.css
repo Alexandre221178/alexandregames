@@ -410,10 +410,13 @@ table {
     border-collapse: collapse;
     width: 91%;
     margin-left: 30px;
-    text-align: left;
-    margin-left: 70px;
+    text-align: left;    
     margin-right: 70px;
 }
+table th{
+    color: #f9464f;
+}
+
     
 table blockquote {
     font-size: 24px;

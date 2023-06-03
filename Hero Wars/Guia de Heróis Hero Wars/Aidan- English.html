@@ -35,11 +35,11 @@
                     <li><a href="/alexandregames/Documentos/Contact.html">Contact</a></li>
                                
                 <!-- Botão de troca de idioma -->
-                <button class="buttonEnglish"><a href="/alexandregames/Hero Wars/Guia de Heróis Hero Wars/Amira.html"><strong>Português</strong></a></button>
+                <button class="buttonEnglish"><a href="/alexandregames/Hero Wars/Guia de Heróis Hero Wars/Aidan.html"><strong>Português</strong></a></button>
                 
             </ul>
             <div class="menu-icon">
-                <img src="/alexandregames/imagens/menu.png" alt="Computer Man" style="width:48px;height:48px;">
+                <img src="./imagens/menu.png" alt="Computer Man" style="width:48px;height:48px;">
             </div>
             
         </nav>
@@ -47,14 +47,14 @@
         <main>
                        <!-- Titulo Imagem do herói na página principal-->
             <div class="img-logoguide">
-                <img src="/alexandregames/img-HWM/Amira-img/Amira300x260.webp" alt="Aidan Hero Wars" cite=https://nexters.app.box.com/s/kh0dj74mzc4kk4sux9frozldxjka4z6o?fbclid=IwAR3boTfxeQ60oB5NXeOdK0WUJ2uEaOCt1LG1UcvKDUxwt77yrXU6CcRoyfQ>
+                <img src="/alexandregames/img-HWM/Aidan-img/aidan-300x260.webp" alt="Aidan Hero Wars" cite=https://nexters.app.box.com/s/kh0dj74mzc4kk4sux9frozldxjka4z6o?fbclid=IwAR3boTfxeQ60oB5NXeOdK0WUJ2uEaOCt1LG1UcvKDUxwt77yrXU6CcRoyfQ>
                 </a>
             </div>
 
             <div class="text-bx">
                 <header>
             <ul class="check-list">    
-                <h1> Amira <br><b>Guide </b></h1><br>
+                <h1> Aidan <br><b>Guide </b></h1><br>
                 </header>
                 <ul>
                 <li style="color: #4538b4;"><b>Main Attributes</b></li></p>
@@ -246,19 +246,20 @@
 
 </table> 
 <Section> 
-    <h3>1st Titan`s Fist</h3>
+    <h3>1st Phoenix Ritual    </h3>
     <div class="skillgray">
         <blockquote cite="https://play.google.com/store/apps/details?id=com.nexters.herowars"> 
-            Strikes the nearest enemy with a giant fist, dealing damage and stunning the target and nearby enemies for 3.0 seconds.
+            Aidan sacrifices 20% of his maximum health. Then he increases allies' maximum and current health and sets them on fire. Burning heroes take damage over time equal to the health bonus for 8.0 seconds. If Kayla in the allied team is dead, she gets resurrected. Aidan's abilities do not deal damage to heroes on his team if their health is less than 25%.
 
-            
         </blockquote>
         <blockquote cite="https://play.google.com/store/apps/details?id=com.nexters.herowars">
-            Damage: Max (46998) - (110% Physical attack + 100 * Level);
-
- Chance: The chance to block a displacement or knock-up effect is lowered if the target's level is above skill level (max is {hero_max_level} = 1 * Skill Level)
+            Aidan's Health Sacrifice:
+Max(54844) - (20% * Health)
+Allies' Health Increase:
+Max(57244) - (20% * Health) + (Skill level * 20)
 <br>
-Keywords: Stun
+Keywords:
+Sacrifice
         </blockquote>
     </div>
 </Section> 
@@ -267,15 +268,21 @@ Keywords: Stun
 <!--------Tabela de Habilidades - Habilidade 2 Verde -------->
 
 <Section>
-    <h3>2nd Living Earth</h3>
+    <h3>2nd Fire Embrace</h3>
     <div class="skillgreen"> 
         <blockquote cite="https://play.google.com/store/apps/details?id=com.nexters.herowars"> 
-            Passive skill. While Andvari is still alive, he protects his allies behind him from displacement and knockdown effects. This skill protects allies against Karkh.
+            Heals the hero with the lowest health on the team and all the heroes on the team who lost health from friendly skills since the last time this skill was applied. Chaos Heroes gain more healing.
+
         </blockquote>
         <blockquote cite="https://play.google.com/store/apps/details?id=com.nexters.herowars"> 
-            Chance to block a displacement or knock-up effect is lowered if the target's level is above skill level (120 = 1 * Skill Level);
-            <br>
- Keywords: Knock Up
+            Healing:
+Max(22818) - ((30% * Magic Attack) + (Skill Level * 40))
+Healing to each Chaos Hero:
+Max(45637) - ((60% * Magic Attack) + (Skill Level * 80))
+
+Timers and Distances:
+Skill Timeout:12
+
         </blockquote>
     </div> 
 </Section>
@@ -284,17 +291,22 @@ Keywords: Stun
    <!---------Tabela de Habilidades - Habilidade 3 Azul ---------->
    
 <Section> 
-    <h3>3rd Stone Grasp</h3>
+    <h3>3rd Bonds of Fire    </h3>
     <div class="skillblue"> 
         <blockquote cite="https://play.google.com/store/apps/details?id=com.nexters.herowars"> 
-            Summons a stone hand that grabs the enemy with the lowest health. The hand deals physical damage, stuns the target, and pins them to the ground for 2.0 seconds.
+            Aidan deals damage to the ally with the highest health, as well as all other allies with more than 80% health, equal to 2.5% of their maximum health, increasing his maximum and current health by the value sacrificed by the allies, and heals them.
+
         </blockquote>
         <blockquote cite="https://play.google.com/store/apps/details?id=com.nexters.herowars"> 
-            Damage: Max (37598) - (80% Physical attack + 80 * (skill level+20)).
+            Healing:
+Max(14025) - (50% * Magic Attack) + ((Skill Level + 20) * 100)
 
-Chance: Chance to stun and bind is lowered if the target's level is above skill level (120 = 1 * (Skill Level + 20)).
-<br>
-Keywords: Stun
+Timers and Distances:
+Initial Timeout:6
+Skill Timeout:12
+Animation Delay:0.98
+Range:3500
+
         </blockquote>
     </div>  
 </Section> 
@@ -303,13 +315,23 @@ Keywords: Stun
    <!----------  Tabela de Habilidades - Habilidade 4  ---------->
    
 <section>
-    <h3>4th Nature`s Barrier</h3>
+    <h3>4th Flame Shield    </h3>
     <div class="skillviolet"> 
         <blockquote cite="https://play.google.com/store/apps/details?id=com.nexters.herowars"> 
-            Covers the lowest armored ally in a protective barrier that absorbs physical damage and pure damage. The hero who is protected by the barrier receives bonus energy for all damage absorbed.
+            When Aidan or an ally that he started the fight with has less than 30% health left, Aidan creates a powerful shield around that hero that absorbs physical and magical damage for 4.0 seconds. The shield durability depends on the total maximum health of the team's heroes. This skill can be only applied once every 15.0 seconds to each ally.
+
         </blockquote>
         <blockquote cite="https://play.google.com/store/apps/details?id=com.nexters.herowars"> 
-            Damage absorbed by the barrier: MAX (99393) -  (15% Health + 150 * (Skill Level + 40)) 
+            Shield Durability (% of team max health):
+            Max(24)% - ((Skill Level + 40) * 20%)%
+            
+            Keywords:
+            Shield
+            
+            Timers and Distances:
+            Skill Timeout:15
+            Duration:4
+            
         </blockquote>
     </div>  
 </section> 
