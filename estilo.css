@@ -11,7 +11,7 @@ body{
     
 }
 .container{
-    max-width: 2900px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 2%;
 }
@@ -21,7 +21,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 15px;
     height: 100px;
 }
 nav .menu-icon{
@@ -393,7 +392,8 @@ section blockquote{
    /* Videos youtube posicao */
 
 iframe{        
-       margin: 20px;
+       margin: 17px;
+      
 }
           
           
@@ -496,8 +496,8 @@ pre{
         position: fixed;
         width: 60%;
         height: 100%;
-        top: 0;
-        left: 0;
+        top: 0px;
+        left: 0px;
         transform: translateX(-100%);
         display: flex;
         align-items: left;
@@ -518,8 +518,8 @@ pre{
     }
     nav ul button{
         background-color: #360be2;
-        font-size: 18px;
-        margin: 10px;
+        font-size: 15px;
+        margin: auto;
     }
     main{
         flex-direction: column;
@@ -665,9 +665,9 @@ pre{
         margin-left: 10px;
         margin-right: 10px;
     }
-    iframe{
-        
-        margin-left: 5px;
+    iframe{        
+         margin: auto;
+         
             
            
     }
