@@ -491,7 +491,7 @@ pre{
     }
     nav ul{
         position: fixed;
-        width: 60%;
+        width: 65%;
         height: 100%;
         top: 0px;
         left: 0px;
@@ -540,13 +540,12 @@ pre{
         margin-left: 480px;        
         transform: scaleX(-1);
     }
+   
     .img-menu img{
         width: 98%;
           
     }
     .img-max{
-        width: 330px;
-        height: 300px; 
         margin-inline: center; 
         float: center;
         image-orientation: center;    
@@ -554,7 +553,7 @@ pre{
     }
     
     .img-max img{
-        width: 100%;
+        width: 98%;
         margin: 5px;
     }
     .img-sugestion{
