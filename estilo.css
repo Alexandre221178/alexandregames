@@ -123,7 +123,7 @@ main{
   }
   
   .dropdown:hover .dropbtn {
-    background-color: rgb(122, 126, 245);
+    background-color: #f9c8c1;
   }
     /* letras de listas com pontos */
 .check-list li{
