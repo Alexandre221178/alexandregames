@@ -347,7 +347,7 @@ section blockquote{
     width: 100%;
 }
 .img-sugestion a:hover {
-    border: 1px solid #777;
+    color: #f9464f;
 }
 
     /* imagens do menu guia de heróis */    
@@ -557,9 +557,7 @@ pre{
         margin: 5px;
     }
     .img-sugestion{
-        width: 20%;
-        margin: left;
-        border: none;
+        width: 20%;  
         
     }
     .img-sugestion a{
@@ -567,6 +565,7 @@ pre{
         float: center;
         image-orientation: center;
     }   
+    
     .img-menuguide{
         Width: 30%;
     }
