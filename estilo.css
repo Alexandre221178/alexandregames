@@ -381,6 +381,7 @@ section blockquote{
    
 
 .img-max img{
+    width: auto;
     margin-left: 32px;
     margin-bottom: 0px;
     border: 7px solid #5654b3;
