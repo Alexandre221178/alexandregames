@@ -487,6 +487,11 @@ pre{
 .img-bx img{
     width: 100%;
 }
+
+
+
+
+
 @media (max-width:970px) {
     nav .menu-icon{
         display: block;
@@ -747,6 +752,7 @@ pre{
     .footer .row a i{
         margin:0% 3%;
         }
+    
     
         
     
