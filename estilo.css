@@ -282,6 +282,10 @@ section blockquote{
     cursor: pointer;
     font-size: 15px;
 }
+.text-lucca{
+    margin-left: 400px;
+    color: #e20b0b;
+}
 /* imagem do menu da página home index */
 .img-menu{
     width: 280px;
@@ -552,6 +556,10 @@ pre{
     }
     .text-bx .input-bx{
         justify-content: center;
+    }
+    .text-lucca{
+        margin-left: 5px;
+        color: #e20b0b;
     }
     /* imagem do logo para mobile*/
     .img-logoguide{
