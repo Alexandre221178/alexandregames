@@ -226,9 +226,7 @@ section p{
     text-align: left;
         font-family: Arial, Helvetica, sans-serif;
 }
-section blockquote{
-    font-size: 20px;
-}
+
 .text-bx p{
     margin: center;
        
@@ -321,7 +319,8 @@ section blockquote{
         
         /* guide imagem do logo do guia de Heróis */
 .img-logoguide{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     margin: 150px;
     margin-inline: center; 
     float: center;
@@ -401,6 +400,7 @@ section blockquote{
 
 iframe{        
        margin: 17px;
+       
          
 }
 
@@ -413,27 +413,13 @@ iframe{
 
 
     /* fontes para tabelas de habilidades */
-table {
-    font-family: arial, sans-serif;
-    font-size: 22px;
-    border-collapse: collapse;
-    width: 91%;
-    margin-left: 30px;
-    text-align: left;    
-    margin-right: 70px;
-}
-table th{
-    color: #f9464f;
-}
 
-    
-table blockquote {
-    font-size: 24px;
-}       
+
   
   
 .skillgray blockquote{
     padding: 1%;
+    font-size: 20px;
     background-color: #eeeeee;
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
@@ -443,6 +429,7 @@ table blockquote {
 
 .skillgreen blockquote{
     padding: 1%;
+    font-size: 20px;
     background-color: #cfffe8;
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
@@ -451,6 +438,7 @@ table blockquote {
 }
 .skillblue blockquote{
     padding: 1%;
+    font-size: 20px;
     background-color: #d7d3fe;
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
@@ -460,6 +448,7 @@ table blockquote {
 
 .skillviolet blockquote{
     padding: 1%;
+    font-size: 20px;
     background-color: #ffbaf2;
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
@@ -468,6 +457,7 @@ table blockquote {
 }
 .Lucca blockquote{
     padding: 1%;
+    font-size: 20px;
     background-color: #f9fbfc;
     border: 1px solid rgb(0, 7, 11);
     text-align: left;
@@ -565,13 +555,12 @@ pre{
     }
     /* imagem do logo para mobile*/
     .img-logoguide{
-        width: 90px;
-        height: 90px;
+        
         margin-top: 5px;
-        margin-left: 420px;        
-        transform: scaleX(-1);
-    }
-   
+        margin-bottom: 5px; 
+    }  
+        
+
     .img-menu img{
         width: 98%;
           
@@ -686,6 +675,11 @@ pre{
             margin-right: 10px;
     }
     .skillviolet blockquote{            
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .Lucca blockquote{
+        
         margin-left: 10px;
         margin-right: 10px;
     }

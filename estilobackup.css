@@ -323,6 +323,14 @@ section blockquote{
     
 }
 
+ /* -- old img-logoguide --
+        width: 90px;
+        height: 90px;
+        margin-top: 5px;
+        margin-left: 420px;  
+        transform: scaleX(-1);      */     
+    
+
     /*imagens de sugestões no rodapé */
 .img-sugestion{
     width: 120px;
