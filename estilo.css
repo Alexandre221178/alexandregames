@@ -322,6 +322,8 @@ section p{
     max-width: 100%;
     height: auto;
     margin: 150px;
+    text-align: center;
+    
     margin-inline: center; 
     float: center;
     image-orientation: center;        
