@@ -92,15 +92,16 @@
                 <li><b>Como conseguir:</b> Eventos, baú heroico, Campanha</li>
             </ul>
             <br>
-              <!--Data de Atualização da página-->
-            <script>
-                function loadTime() {
-                    document.getElementById("demo").innerHTML = document.lastModified;
-                }
-            </script>
+              
              <ul>
                 <li style="color: #404541;">Última Atualização:<li id="demo"></li>  
             </ul>
+            <!--Data de Atualização da página-->
+            <script>
+                let text = document.lastModified;
+                document.getElementById("demo").innerHTML = text;
+                document.getElementById("demo").style.color = "#18a84d";
+            </script>
             </div>
             
             

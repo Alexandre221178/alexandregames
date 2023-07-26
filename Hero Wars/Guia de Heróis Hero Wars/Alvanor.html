@@ -87,18 +87,18 @@
                 <li><b>Como conseguir:</b> Eventos, baú heroico, loja da Masmorra</li><br>
                
 
-               <!--Data de Atualização da página-->
+              
             
-             <ul>
-                <li style="color: #404541;">Última Atualização:<li id="demo"></li>  
-            </ul>
-            <script>
-                function loadTime() {
-                    document.getElementById("demo").innerHTML = document.lastModified;
-                }
-            </script>
-            
-            </div>
+                <ul>
+                    <li style="color: #404541;">Última Atualização:<li id="demo"></li>  
+                </ul>
+                <!--Data de Atualização da página-->
+                <script>
+                    let text = document.lastModified;
+                    document.getElementById("demo").innerHTML = text;
+                    document.getElementById("demo").style.color = "#18a84d";
+                </script>
+                </div>
             
             
 
