@@ -78,6 +78,16 @@ nav ul button{
     color: white;
 }
 
+.buttonlang a{  
+    border-color: #e3f0ff;
+    font-size: 17px;
+    text-decoration: none;
+    
+    text-transform: uppercase;
+    /* cor dos textos botao lingua */
+    color: #5654b3;
+}
+
 main{
     margin-top: 20px;
     display: flex;
@@ -131,6 +141,17 @@ main{
     line-height: 30px;
     font-weight: normal;
     margin-left: 70px;
+    margin-right: 30px;
+    color: Black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;   
+
+}
+.check-list2 li{
+    text-align: left;
+    line-height: 30px;
+    font-weight: normal;
+    margin-left: 10px;
     margin-right: 30px;
     color: Black;
     font-size: 20px;
@@ -507,6 +528,9 @@ pre{
     nav .menu-icon{
         display: block;
     }
+    nav .logo{
+        display: block;
+    }
     nav ul{
         position: fixed;
         width: 65%;
@@ -521,6 +545,9 @@ pre{
         transition: 0.3s ease-in;
         background-color: black;
     }
+
+    
+    
     nav ul.active{
         transform: translateX(0);
     }
