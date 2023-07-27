@@ -53,39 +53,55 @@ nav ul li a{
     text-transform: uppercase;
     /* cor dos textos nav */
     color: #5654b3;
+    
 }
 nav ul button a{
         
     color: white;
+    
 }
 
 nav ul button{
     
     border: none;
     color: white;
-    /* cor botao ingles */
-    background-color: #150df8;    
+    
+    
+    /* cor botao fundo ingles */
+    background-color: #1766f7;    
     padding: 10px 20px;
     border-radius: 5px;
-    text-decoration: none;
-    font-size: 16px;
+    
+    font-size: 20px;
     letter-spacing: 1px;
     margin-left: 10px;
     cursor: pointer;
 }
-.buttonEnglish{
-    background-color: #0ce60c;
+/* cor botao fundo pt-br */
+.buttonEnglish a{
+    background-color: #1f986cbd;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    cursor: pointer;
     color: white;
+    text-decoration: none;
 }
 
 .buttonlang a{  
-    border-color: #e3f0ff;
+    
     font-size: 17px;
+    
     text-decoration: none;
+
+    
     
     text-transform: uppercase;
-    /* cor dos textos botao lingua */
-    color: #5654b3;
+    /* cor dos textos botao lingua en-us */
+    color: #fcfbfb;
 }
 
 main{

@@ -547,6 +547,12 @@ pre{
         transform: translateX(0);
     }
     
+    nav .dropbtn.active{
+        transform: translateX(0);
+    }
+    nav .buttonEnglish.active{
+        transform: translateX(0);
+    }
     
     
     
