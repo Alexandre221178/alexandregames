@@ -60,6 +60,7 @@ nav ul button a{
     color: #5654b3;
     text-transform: uppercase;
     text-decoration: none;
+
     
 }
 
@@ -67,6 +68,7 @@ nav ul button{
     
     border: none;
     color: #5654b3;
+    
     
     
     /* cor botao fundo ingles */
@@ -96,8 +98,10 @@ nav ul button{
 .buttonlang a{  
     
     font-size: 17px;
-    
+    border: none;
     text-decoration: none;
+    color: #5654b3;
+    border-color: none;
 
     
     
@@ -171,6 +175,17 @@ main{
     font-weight: normal;
     margin-left: 10px;
     margin-right: 30px;
+    color: Black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;   
+
+}
+.checklist-stats li{
+    padding: 2%;
+    margin-left: 0px;
+    text-align: left;
+    line-height: 10px;
+    font-weight: normal;
     color: Black;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;   
@@ -702,6 +717,7 @@ pre{
     .check-list ol{
         margin-left: 20px;
     }
+    
     table {
         width: 95%;
         margin-left: 10px;
@@ -742,6 +758,9 @@ pre{
     .footer a img{
             width: 10%;
     }
+
+    
+
     .iconeyt {
             color: #e20b0b;    
             margin-left: 3px;
