@@ -57,18 +57,20 @@ nav ul li a{
 }
 nav ul button a{
         
-    color: white;
+    color: #5654b3;
+    text-transform: uppercase;
+    text-decoration: none;
     
 }
 
 nav ul button{
     
     border: none;
-    color: white;
+    color: #5654b3;
     
     
     /* cor botao fundo ingles */
-    background-color: #1766f7;    
+    
     padding: 10px 20px;
     border-radius: 5px;
     
@@ -79,15 +81,15 @@ nav ul button{
 }
 /* cor botao fundo pt-br */
 .buttonEnglish a{
-    background-color: #1f986cbd;
+   
     padding: 10px 20px;
     border-radius: 5px;
-    
+    text-transform: uppercase;
     font-size: 20px;
     letter-spacing: 1px;
     margin-left: 10px;
     cursor: pointer;
-    color: white;
+    color: #5654b3;
     text-decoration: none;
 }
 
@@ -101,7 +103,7 @@ nav ul button{
     
     text-transform: uppercase;
     /* cor dos textos botao lingua en-us */
-    color: #fcfbfb;
+    color: #5654b3;
 }
 
 main{
