@@ -290,15 +290,32 @@ section p{
     width: 100%;
     
 }
+/* texto do título */
 .text-bx h1{
     font-size: 3rem;
     text-transform: uppercase;
+    
 }
+
+/* text title do título novo */
+.text-title h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-left: 220px;
+    
+    text-transform: uppercase;
+}
+.text-title h1 b{
+    color: #f1676d;
+}
+                             
+
 .text-bx li{
     font-size: 20px;
     list-style-type: none;
     text-align: left;
 }
+
 .text-bx h1 b{
     color: #f1676d;
 }
@@ -334,8 +351,14 @@ section p{
     cursor: pointer;
     font-size: 15px;
 }
+/* texto para ads */
 .text-ads p{
-    margin-left: 30px;
+    margin-left: 50px;
+    color:#5e5f60fd
+    
+}
+.text-adsnative p{
+    margin-left: 450px;
     color:#5e5f60fd
     
 }
@@ -610,11 +633,27 @@ pre{
     .text-bx .input-bx{
         justify-content: center;
     }
+
+    .text-title h1{
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-left: 30px;
+        
+        text-transform: uppercase;
+    }
     .text-ads p{
         margin-left: 5px;
         color:#5e5f60fd
        
     }
+    
+    .text-adsnative p{
+    margin-left: 5px;
+    color:#5e5f60fd
+    
+    }
+    
+    
     /* imagem do logo para mobile*/
     .img-logoguide{
         
