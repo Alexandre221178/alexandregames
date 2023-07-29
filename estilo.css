@@ -169,22 +169,12 @@ main{
     font-family: Arial, Helvetica, sans-serif;   
 
 }
-.check-list2 li{
-    text-align: left;
-    line-height: 30px;
-    font-weight: normal;
-    margin-left: 10px;
-    margin-right: 30px;
-    color: Black;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;   
 
-}
 .checklist-stats li{
     padding: 2%;
     margin-left: 0px;
     text-align: left;
-    line-height: 10px;
+    line-height: 25px;
     font-weight: normal;
     color: Black;
     font-size: 20px;
