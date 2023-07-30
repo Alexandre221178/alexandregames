@@ -455,16 +455,31 @@ section p{
 
 .img-max img{
     width: auto;
-    margin-left: 32px;
+    margin-left: 30px;
     margin-bottom: 0px;
     border: 7px solid #5654b3;
 }
+.img-max a{
+    
+    margin-left: 30px;
+    }
+
 .img-artifact img{
     width: auto;
-    margin-left: 32px;
-    margin-bottom: 0px;
-    border: 7px solid #5654b3;
+    
+    text-align: center;
+    margin-left: 30px;
+    align-items: center;
+    
 }
+.img-artifact a{
+    
+    margin-left: 30px;
+    
+
+    
+}
+
    /* Videos youtube posicao */
 
 iframe{        
@@ -656,6 +671,7 @@ pre{
         width: 98%;
           
     }
+    
     .img-max{
         margin-inline: center; 
         float: center;
@@ -666,7 +682,19 @@ pre{
     .img-max img{
         width: 98%;
         margin: 5px;
+        
     }
+    .img-max a{
+        
+        margin: 5px;
+        
+    }
+    .img-artifact img{
+        width: 60%;
+       
+        
+    }
+
     .img-sugestion{
         width: 20%;  
         
@@ -680,25 +708,8 @@ pre{
     .img-menuguide{
         Width: 30%;
     }
+    
    
-    .img-ale{
-        width: 100px;
-        height: 100px;
-        align-items: center;
-        text-align: center;
-        float: left;
-        padding: 10px;
-        border: 1px solid white;
-            }
-    .img-ale a{
-            float: center;
-        border: 1px solid rgb(255, 255, 255);
-        image-orientation: flex;
-        margin-top: 1px;
-    }
-    .img-ale img{
-        width: 50%;
-        }
     section p{
         margin-left: 10px;
         margin-right: 5px;

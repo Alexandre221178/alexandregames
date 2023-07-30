@@ -169,22 +169,12 @@ main{
     font-family: Arial, Helvetica, sans-serif;   
 
 }
-.check-list2 li{
-    text-align: left;
-    line-height: 30px;
-    font-weight: normal;
-    margin-left: 10px;
-    margin-right: 30px;
-    color: Black;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;   
 
-}
 .checklist-stats li{
     padding: 2%;
     margin-left: 0px;
     text-align: left;
-    line-height: 10px;
+    line-height: 25px;
     font-weight: normal;
     color: Black;
     font-size: 20px;
@@ -301,14 +291,14 @@ section p{
 .text-title h1{
     font-size: 3rem;
     text-transform: uppercase;
-    margin-left: 200px;
+    margin-left: 220px;
     
     text-transform: uppercase;
 }
 .text-title h1 b{
     color: #f1676d;
 }
-
+                             
 
 .text-bx li{
     font-size: 20px;
@@ -353,7 +343,12 @@ section p{
 }
 /* texto para ads */
 .text-ads p{
-    margin-left: 30px;
+    margin-left: 50px;
+    color:#5e5f60fd
+    
+}
+.text-adsnative p{
+    margin-left: 450px;
     color:#5e5f60fd
     
 }
@@ -460,16 +455,31 @@ section p{
 
 .img-max img{
     width: auto;
-    margin-left: 32px;
+    margin-left: 30px;
     margin-bottom: 0px;
     border: 7px solid #5654b3;
 }
+.img-max a{
+    
+    margin-left: 30px;
+    }
+
 .img-artifact img{
     width: auto;
-    margin-left: 32px;
-    margin-bottom: 0px;
-    border: 7px solid #5654b3;
+    
+    text-align: center;
+    margin-left: 30px;
+    align-items: center;
+    
 }
+.img-artifact a{
+    
+    margin-left: 30px;
+    
+
+    
+}
+
    /* Videos youtube posicao */
 
 iframe{        
@@ -630,13 +640,25 @@ pre{
     }
 
     .text-title h1{
-        margin-left: 40px;
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-left: 30px;
+        
+        text-transform: uppercase;
     }
     .text-ads p{
         margin-left: 5px;
         color:#5e5f60fd
        
     }
+    
+    .text-adsnative p{
+    margin-left: 5px;
+    color:#5e5f60fd
+    
+    }
+    
+    
     /* imagem do logo para mobile*/
     .img-logoguide{
         
@@ -649,6 +671,7 @@ pre{
         width: 98%;
           
     }
+    
     .img-max{
         margin-inline: center; 
         float: center;
@@ -659,7 +682,19 @@ pre{
     .img-max img{
         width: 98%;
         margin: 5px;
+        
     }
+    .img-max a{
+        
+        margin: 5px;
+        
+    }
+    .img-artifact img{
+        width: 60%;
+       
+        
+    }
+
     .img-sugestion{
         width: 20%;  
         
@@ -673,25 +708,8 @@ pre{
     .img-menuguide{
         Width: 30%;
     }
+    
    
-    .img-ale{
-        width: 100px;
-        height: 100px;
-        align-items: center;
-        text-align: center;
-        float: left;
-        padding: 10px;
-        border: 1px solid white;
-            }
-    .img-ale a{
-            float: center;
-        border: 1px solid rgb(255, 255, 255);
-        image-orientation: flex;
-        margin-top: 1px;
-    }
-    .img-ale img{
-        width: 50%;
-        }
     section p{
         margin-left: 10px;
         margin-right: 5px;
