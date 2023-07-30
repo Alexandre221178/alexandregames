@@ -640,11 +640,11 @@ pre{
     }
 
     .text-title h1{
-        font-size: 2rem;
+        font-size: 27px;
         text-transform: uppercase;
-        margin-left: 30px;
+        margin-left: 10px;
         
-        text-transform: uppercase;
+        
     }
     .text-ads p{
         margin-left: 5px;
