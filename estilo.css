@@ -398,29 +398,26 @@ section p{
 
     /*imagens de sugestões no rodapé */
 .img-sugestion{
-    width: 120px;
-    height: 120px;
-    margin: 0 auto;
-    padding: 0 4%;
+    width: 180px;
+    height:auto;       
     align-items: center;
     text-align: center;
-    float: center;
-    padding: 10px;
-    border: 1px solid white;
+    float: left;
+    image-orientation: left;
+    padding: 2% 3%;
 }
 .img-sugestion a{  
+    float: center;
     text-align: center;
-    border: 1px solid rgb(255, 255, 255);
-    image-orientation: flex;
-    margin-top: 1px;
     text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
     
 }
 .img-sugestion img{
-    width: 100%;
+    width: 80%;
 }
 .img-sugestion a:hover {
-    color: #f9464f;
+    color: red;
 }
 
     /* imagens do menu guia de heróis */    
@@ -640,7 +637,7 @@ pre{
     }
 
     .text-title h1{
-        font-size: 25px;
+        font-size: 24px;
         text-transform: uppercase;
         margin-left: 5px;
         
@@ -696,14 +693,10 @@ pre{
     }
 
     .img-sugestion{
-        width: 20%;  
+        width: 30%;
         
     }
-    .img-sugestion a{
-        margin-inline: center; 
-        float: center;
-        image-orientation: center;
-    }   
+    
     
     .img-menuguide{
         Width: 30%;
