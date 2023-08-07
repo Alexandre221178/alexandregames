@@ -1,0 +1,6 @@
+#robot.txt_Alexndre_Games
+
+User-Agent: *
+Allow: /
+
+Sitemap: https://alexandregames.com/sitemap.xml
