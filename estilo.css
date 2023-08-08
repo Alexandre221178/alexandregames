@@ -348,6 +348,13 @@ section p{
     color:#5e5f60fd
     
 }
+.text-ads li{
+    list-style-type: none;
+    font-size: 14px;
+    margin-left: 50px;
+    color:#5e5f60fd
+
+}
 .text-adsnative p{
     font-size: 14px;
     margin-left: 450px;
@@ -650,6 +657,12 @@ pre{
         margin-left: 5px;
         color:#5e5f60fd
        
+    }
+    .text-ads li{
+            list-style-type: none;
+            font-size: 14px;
+            margin-left: 15px;
+            color:#5e5f60fd
     }
     
     .text-adsnative p{
