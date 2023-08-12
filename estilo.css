@@ -361,6 +361,10 @@ section p{
     color:#5e5f60fd
     
 }
+.text-ads{
+    margin-left: 50px;
+    
+}
 /* imagem do menu da página home index */
 .img-menu{
     width: 280px;
@@ -658,6 +662,11 @@ pre{
         color:#5e5f60fd
        
     }
+
+    .text-ads{
+    margin-left: 10px;
+
+    }
     .text-ads li{
             list-style-type: none;
             font-size: 14px;
@@ -670,6 +679,9 @@ pre{
     color:#5e5f60fd
     
     }
+    
+
+
     
     
     /* imagem do logo para mobile*/
