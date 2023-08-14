@@ -343,13 +343,26 @@ section p{
 }
 /* texto para ads */
 .text-ads p{
+    font-size: 14px;
     margin-left: 50px;
     color:#5e5f60fd
     
 }
+.text-ads li{
+    list-style-type: none;
+    font-size: 14px;
+    margin-left: 50px;
+    color:#5e5f60fd
+
+}
 .text-adsnative p{
+    font-size: 14px;
     margin-left: 450px;
     color:#5e5f60fd
+    
+}
+.text-ads{
+    margin-left: 50px;
     
 }
 /* imagem do menu da página home index */
@@ -398,29 +411,26 @@ section p{
 
     /*imagens de sugestões no rodapé */
 .img-sugestion{
-    width: 120px;
-    height: 120px;
-    margin: 0 auto;
-    padding: 0 4%;
+    width: 180px;
+    height:auto;       
     align-items: center;
     text-align: center;
-    float: center;
-    padding: 10px;
-    border: 1px solid white;
+    float: left;
+    image-orientation: left;
+    padding: 2% 3%;
 }
 .img-sugestion a{  
+    float: center;
     text-align: center;
-    border: 1px solid rgb(255, 255, 255);
-    image-orientation: flex;
-    margin-top: 1px;
     text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
     
 }
 .img-sugestion img{
-    width: 100%;
+    width: 80%;
 }
 .img-sugestion a:hover {
-    color: #f9464f;
+    color: red;
 }
 
     /* imagens do menu guia de heróis */    
@@ -463,7 +473,21 @@ section p{
     
     margin-left: 30px;
     }
-
+.img-builds img{
+    width: auto;
+    margin-left: 80px;
+    margin-right: 180px;
+    
+    
+    float: left;
+    
+    
+    }
+.img-builds a{
+    
+    margin-left: 80px;
+        }
+       
 .img-artifact img{
     width: auto;
     
@@ -647,9 +671,21 @@ pre{
         
     }
     .text-ads p{
+        font-size: 14px;
         margin-left: 5px;
         color:#5e5f60fd
        
+    }
+
+    .text-ads{
+    margin-left: 10px;
+
+    }
+    .text-ads li{
+            list-style-type: none;
+            font-size: 14px;
+            margin-left: 15px;
+            color:#5e5f60fd
     }
     
     .text-adsnative p{
@@ -657,6 +693,9 @@ pre{
     color:#5e5f60fd
     
     }
+    
+
+
     
     
     /* imagem do logo para mobile*/
@@ -696,14 +735,10 @@ pre{
     }
 
     .img-sugestion{
-        width: 20%;  
+        width: 30%;
         
     }
-    .img-sugestion a{
-        margin-inline: center; 
-        float: center;
-        image-orientation: center;
-    }   
+    
     
     .img-menuguide{
         Width: 30%;

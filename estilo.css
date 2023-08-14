@@ -342,29 +342,21 @@ section p{
     font-size: 15px;
 }
 /* texto para ads */
-.text-ads p{
-    font-size: 14px;
-    margin-left: 50px;
-    color:#5e5f60fd
+
     
-}
+
 .text-ads li{
     list-style-type: none;
     font-size: 14px;
-    margin-left: 50px;
+    margin-left: 40px;
     color:#5e5f60fd
 
 }
-.text-adsnative p{
-    font-size: 14px;
-    margin-left: 450px;
-    color:#5e5f60fd
+
+
+
     
-}
-.text-ads{
-    margin-left: 50px;
-    
-}
+
 /* imagem do menu da página home index */
 .img-menu{
     width: 280px;
