@@ -450,7 +450,6 @@ section p{
     color: red;
     }
 
- 
 
     /* imagem do herói no nível máximo*/
    
@@ -592,7 +591,7 @@ pre{
         display: block;
     }
     nav .logo{
-        display: block;
+        display: block; 
     }
     nav ul{
         position: fixed;
