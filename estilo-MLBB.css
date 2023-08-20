@@ -572,6 +572,29 @@ iframe{
     margin-left: 31px;
     margin-right: 62px;
 }
+
+.table-combos th{
+    color: red;
+}
+
+
+.table-combos th, td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+.table-combos table{
+    margin: 31px;
+    
+    font-size: 20px;
+    
+    border: 1px solid rgb(0, 7, 11);
+    text-align: left;
+}
+  
+
+
+    
   
   
 
@@ -825,6 +848,16 @@ pre{
         margin-left: 10px;
         margin-right: 10px;
     }
+
+    .table-combos table{
+        margin: auto;
+        margin-top: 10px;
+        
+    }
+    .table-combos th,td{
+        font-size: 18px;
+    }
+
     iframe{        
          margin: auto;
          margin-top: 9px;           
