@@ -100,7 +100,7 @@ nav ul button{
     font-size: 17px;
     border: none;
     text-decoration: none;
-    color: #5654b3;
+    color: black;
     border-color: none;
 
     
@@ -119,6 +119,7 @@ main{
 
 /* teste dropdown menu */
 .dropbtn {
+    /* cor do botao no menu nav dropbtn */
     background-color: #e3f0ff;
     color: #5654b3;
     padding: 16px;
@@ -135,9 +136,10 @@ main{
   .dropdown-content {
     display: none;
     position: absolute;
+    /* cor hover quando clica sobre no mobile */
     background-color: #e3f0ff;
     min-width: 180px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(225, 223, 230, 0.632);
     z-index: 1;
   }
   
@@ -147,7 +149,7 @@ main{
     text-decoration: none;
     display: block;
   }
-  
+  /* hover quando clica ou passa mouse sobre */
   .dropdown-content a:hover {background-color: #e3f0ff}
   
   .dropdown:hover .dropdown-content {
@@ -605,7 +607,7 @@ pre{
         flex-direction: column;
         justify-content: left;
         transition: 0.3s ease-in;
-        background-color: black;
+        background-color: #e3f0ff;
     }
 
     
@@ -618,10 +620,10 @@ pre{
     }
     nav ul li a{
         font-size: 18px;
-         color: hsl(183, 73%, 77%);
+         color: black;
     }
     nav ul button{
-        background-color: #360be2;
+       
         font-size: 15px;
         margin: auto;
     }

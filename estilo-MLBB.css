@@ -651,7 +651,7 @@ pre{
         flex-direction: column;
         justify-content: left;
         transition: 0.3s ease-in;
-        background-color: black;
+        background-color: #e3f0ff;
     }
 
     
@@ -664,10 +664,10 @@ pre{
     }
     nav ul li a{
         font-size: 18px;
-         color: hsl(183, 73%, 77%);
+        color: black;
     }
     nav ul button{
-        background-color: #360be2;
+        
         font-size: 15px;
         margin: auto;
     }
