@@ -411,8 +411,8 @@ section p{
 
     /*imagens de sugestões no rodapé */
 .img-sugestion{
-    width: 180px;
-    height:auto;       
+    width: 150px;
+    height: 130px;       
     align-items: center;
     text-align: center;
     float: left;
@@ -427,7 +427,7 @@ section p{
     
 }
 .img-sugestion img{
-    width: 80%;
+    width: 100%;
 }
 .img-sugestion a:hover {
     color: red;
