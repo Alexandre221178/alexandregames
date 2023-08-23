@@ -469,7 +469,7 @@ section p{
 
 .img-artifact img{
     width: auto;
-    
+    border: 7px solid #5654b3;
     text-align: center;
     margin-left: 30px;
     align-items: center;

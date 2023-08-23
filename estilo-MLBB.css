@@ -401,12 +401,13 @@ section p{
 .img-logoguide{
     max-width: 100%;
     height: auto;
-    margin: 150px;
+    margin: 50px;
     text-align: center;
     
     margin-inline: center; 
     float: center;
-    image-orientation: center;        
+    image-orientation: center;  
+     
 }
 
     /*imagens de sugestões no rodapé */
@@ -477,7 +478,7 @@ section p{
     width: 320px;
     height: auto;
     margin-left: 30px;
-        
+    border: 7px solid #5654b3;    
     
     
     
@@ -494,7 +495,7 @@ section p{
     text-align: center;
     margin-left: 30px;
     align-items: center;
-    
+    border: 7px solid #5654b3;
 }
 .img-artifact a{
     
@@ -589,7 +590,7 @@ iframe{
     font-size: 20px;
     
     border: 1px solid rgb(0, 7, 11);
-    text-align: left;
+    text-align: center;
 }
   
 
@@ -722,10 +723,9 @@ pre{
     
     
     /* imagem do logo para mobile*/
-    .img-logoguide{
+    .img-logoguide img{
         
-        margin-top: 5px;
-        margin-bottom: 5px; 
+        width: 95%;
     }  
         
 
@@ -857,7 +857,7 @@ pre{
     .table-combos th,td{
         font-size: 18px;
     }
-
+    
     iframe{        
          margin: auto;
          margin-top: 9px;           
