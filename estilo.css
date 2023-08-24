@@ -293,7 +293,7 @@ section p{
 .text-title h1{
     font-size: 3rem;
     text-transform: uppercase;
-    margin-left: 220px;
+    margin-left: 140px;
     
     text-transform: uppercase;
 }
@@ -395,7 +395,7 @@ section p{
 .img-logoguide{
     max-width: 100%;
     height: auto;
-    margin: 150px;
+    margin: 80px;
     text-align: center;
     
     margin-inline: center; 

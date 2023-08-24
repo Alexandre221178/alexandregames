@@ -50,7 +50,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     font-size: 17px;
-    
+    text-transform: uppercase;
     /* cor dos textos nav */
     color: #5654b3;
     
@@ -58,7 +58,7 @@ nav ul li a{
 nav ul button a{
         
     color: #5654b3;
-    
+    text-transform: uppercase;
     text-decoration: none;
 
     
@@ -100,7 +100,7 @@ nav ul button{
     font-size: 17px;
     border: none;
     text-decoration: none;
-    color: #5654b3;
+    color: black;
     border-color: none;
 
     
@@ -119,6 +119,7 @@ main{
 
 /* teste dropdown menu */
 .dropbtn {
+    /* cor do botao no menu nav dropbtn */
     background-color: #e3f0ff;
     color: #5654b3;
     padding: 16px;
@@ -135,9 +136,10 @@ main{
   .dropdown-content {
     display: none;
     position: absolute;
+    /* cor hover quando clica sobre no mobile */
     background-color: #e3f0ff;
     min-width: 180px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(225, 223, 230, 0.632);
     z-index: 1;
   }
   
@@ -147,7 +149,7 @@ main{
     text-decoration: none;
     display: block;
   }
-  
+  /* hover quando clica ou passa mouse sobre */
   .dropdown-content a:hover {background-color: #e3f0ff}
   
   .dropdown:hover .dropdown-content {
@@ -291,7 +293,7 @@ section p{
 .text-title h1{
     font-size: 3rem;
     text-transform: uppercase;
-    margin-left: 100px;
+    margin-left: 220px;
     
     text-transform: uppercase;
 }
@@ -342,29 +344,21 @@ section p{
     font-size: 15px;
 }
 /* texto para ads */
-.text-ads p{
-    font-size: 14px;
-    margin-left: 50px;
-    color:#5e5f60fd
+
     
-}
+
 .text-ads li{
     list-style-type: none;
     font-size: 14px;
-    margin-left: 50px;
+    margin-left: 40px;
     color:#5e5f60fd
 
 }
-.text-adsnative p{
-    font-size: 14px;
-    margin-left: 450px;
-    color:#5e5f60fd
+
+
+
     
-}
-.text-ads{
-    margin-left: 50px;
-    
-}
+
 /* imagem do menu da página home index */
 .img-menu{
     width: 280px;
@@ -401,19 +395,18 @@ section p{
 .img-logoguide{
     max-width: 100%;
     height: auto;
-    margin: 50px;
+    margin: 150px;
     text-align: center;
     
     margin-inline: center; 
     float: center;
-    image-orientation: center;  
-     
+    image-orientation: center;        
 }
 
     /*imagens de sugestões no rodapé */
 .img-sugestion{
-    width: 150px;
-    height: 130px;       
+    width: 180px;
+    height:auto;       
     align-items: center;
     text-align: center;
     float: left;
@@ -428,7 +421,7 @@ section p{
     
 }
 .img-sugestion img{
-    width: 100%;
+    width: 80%;
 }
 .img-sugestion a:hover {
     color: red;
@@ -459,7 +452,6 @@ section p{
     color: red;
     }
 
- 
 
     /* imagem do herói no nível máximo*/
    
@@ -474,28 +466,14 @@ section p{
     
     margin-left: 30px;
     }
-.img-builds img{
-    width: 320px;
-    height: auto;
-    margin-left: 30px;
-    border: 7px solid #5654b3;    
-    
-    
-    
-    
-    }
-.img-builds a{
-    
-    margin-left: 30px;
-        }
-       
+
 .img-artifact img{
     width: auto;
-    
+    border: 7px solid #5654b3;
     text-align: center;
     margin-left: 30px;
     align-items: center;
-    border: 7px solid #5654b3;
+    
 }
 .img-artifact a{
     
@@ -573,29 +551,6 @@ iframe{
     margin-left: 31px;
     margin-right: 62px;
 }
-
-.table-combos th{
-    color: red;
-}
-
-
-.table-combos th, td {
-    border: 1px solid black;
-    padding: 5px;
-  }
-
-.table-combos table{
-    margin: 31px;
-    
-    font-size: 20px;
-    
-    border: 1px solid rgb(0, 7, 11);
-    text-align: center;
-}
-  
-
-
-    
   
   
 
@@ -638,7 +593,7 @@ pre{
         display: block;
     }
     nav .logo{
-        display: block;
+        display: block; 
     }
     nav ul{
         position: fixed;
@@ -665,10 +620,10 @@ pre{
     }
     nav ul li a{
         font-size: 18px;
-        color: black;
+         color: black;
     }
     nav ul button{
-        
+       
         font-size: 15px;
         margin: auto;
     }
@@ -688,10 +643,9 @@ pre{
     }
 
     .text-title h1{
-        font-size: 20px;
+        font-size: 24px;
         text-transform: uppercase;
         margin-left: 5px;
-       
         
         
     }
@@ -724,10 +678,10 @@ pre{
     
     
     /* imagem do logo para mobile*/
-    .img-logoguide img{
+    .img-logoguide{
         
-        width: 95%;
-       
+        margin-top: 5px;
+        margin-bottom: 5px; 
     }  
         
 
@@ -767,10 +721,6 @@ pre{
     
     .img-menuguide{
         Width: 30%;
-    }
-
-    .img-builds img{
-        width: 80%;
     }
     
    
@@ -850,16 +800,6 @@ pre{
         margin-left: 10px;
         margin-right: 10px;
     }
-
-    .table-combos table{
-        margin: auto;
-        margin-top: 10px;
-        
-    }
-    .table-combos th,td{
-        font-size: 18px;
-    }
-    
     iframe{        
          margin: auto;
          margin-top: 9px;           
