@@ -50,7 +50,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     font-size: 17px;
-    text-transform: uppercase;
+    
     /* cor dos textos nav */
     color: #5654b3;
     
@@ -58,7 +58,7 @@ nav ul li a{
 nav ul button a{
         
     color: #5654b3;
-    text-transform: uppercase;
+    
     text-decoration: none;
 
     
@@ -493,7 +493,7 @@ section p{
 
 .table-combos table{
     margin: 31px;
-    
+    margin-top: 3px;
     font-size: 20px;
     
     border: 1px solid rgb(0, 7, 11);
@@ -823,6 +823,7 @@ pre{
         margin-top: 10px;
         
     }
+   
     .table-combos th,td{
         font-size: 18px;
     }

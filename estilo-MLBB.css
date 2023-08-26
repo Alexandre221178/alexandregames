@@ -574,6 +574,7 @@ iframe{
     margin-right: 62px;
 }
 
+
 .table-combos th{
     color: red;
 }
@@ -586,7 +587,7 @@ iframe{
 
 .table-combos table{
     margin: 31px;
-    
+    margin-top: 3px;
     font-size: 20px;
     
     border: 1px solid rgb(0, 7, 11);
@@ -766,11 +767,14 @@ pre{
     
     
     .img-menuguide{
-        Width: 30%;
+        Width: 33%;
+      
     }
+    
 
     .img-builds img{
         width: 80%;
+
     }
     
    
