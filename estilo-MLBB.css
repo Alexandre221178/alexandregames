@@ -292,11 +292,12 @@ section p{
     font-size: 3rem;
     text-transform: uppercase;
     margin-left: 100px;
-    
+    color: #f1676d;
     text-transform: uppercase;
 }
+/* cor H1 parte dois no titulo */
 .text-title h1 b{
-    color: #f1676d;
+    color: #5656b3;
 }
                              
 
@@ -311,7 +312,7 @@ section p{
 }
 .text-bx p{
     color: #372c62;
-        font-weight: 400;
+        
     margin-top: 22px;
 }
 .text-bx .input-bx{
@@ -361,8 +362,9 @@ section p{
     color:#5e5f60fd
     
 }
-.text-ads{
+.text-ads li{
     margin-left: 50px;
+    
     
 }
 /* imagem do menu da página home index */
