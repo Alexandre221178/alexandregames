@@ -3,4 +3,7 @@
 User-Agent: *
 Allow: /
 
+User-agent: Googlebot
+Allow: /ads.txt
+
 Sitemap: https://alexandregames.com/sitemap.xml
