@@ -784,9 +784,14 @@ pre{
     .check-list li{        
         margin-left: 40px;
         
+        
     }
     .check-list ol{
         margin-left: 20px;
+    }
+
+    .checklist-stats li{
+         line-height: 22px;
     }
     
     table {
