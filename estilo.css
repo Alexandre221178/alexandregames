@@ -359,8 +359,8 @@ section p{
 }
 
 .img-banner img{
-    margin-left: 90px;
-    width: 1050px;
+   
+    max-width: 1050px;
     height: auto;
 }
 
