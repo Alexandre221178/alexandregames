@@ -885,12 +885,12 @@ pre{
     margin:1% 0%;
     padding: 0,1% 0%;
     color:rgb(4, 2, 25);
-    font-size:0.8em;
+    font-size:1em;
     }
     
     .footer .row a{
     text-decoration:none;
-    font-size: 14px;
+    font-size: 17px;
     color: black;
     transition:0.5s;
     }
