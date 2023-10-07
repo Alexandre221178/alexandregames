@@ -359,8 +359,8 @@ section p{
 }
 
 .img-banner img{
-    
-    width: 1000px;
+       
+    width: 100%;
     height: auto;
 }
 
