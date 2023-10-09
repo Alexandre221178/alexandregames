@@ -352,7 +352,7 @@ section p{
 
 .text-ads li{
     list-style-type: none;
-    font-size: 14px;
+    font-size: 18px;
     margin-left: 40px;
     color:#5e5f60fd
 
@@ -674,19 +674,20 @@ pre{
         
     }
     .text-ads p{
-        font-size: 14px;
+        font-size: 16px;
         margin-left: 5px;
         color:#5e5f60fd
        
     }
 
     .text-ads{
-    margin-left: 10px;
+        
+        margin-left: 10px;
 
     }
     .text-ads li{
             list-style-type: none;
-            font-size: 14px;
+            font-size: 18px;
             margin-left: 15px;
             color:#5e5f60fd
     }
