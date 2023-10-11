@@ -269,9 +269,9 @@ h6 {
 section p{
     margin-left: 30px;
     margin-right: 70px;
-    font-size: 20px;
+    font-size: 22px;
     color: black;
-    padding: 0,2%;
+    padding: 0,1%;
     text-align: left;
         font-family: Arial, Helvetica, sans-serif;
 }
@@ -354,7 +354,7 @@ section p{
     list-style-type: none;
     font-size: 18px;
     margin-left: 40px;
-    color:#5e5f60fd
+    color:#242424fd
 
 }
 
@@ -640,15 +640,15 @@ pre{
         transform: translateX(0);
     }
     nav ul li{
-        padding: 10px;
+        padding: 12px;
     }
     nav ul li a{
-        font-size: 18px;
+        font-size: 20px;
          color: black;
     }
     nav ul button{
        
-        font-size: 15px;
+        font-size: 19px;
         margin: auto;
     }
     main{
@@ -676,7 +676,7 @@ pre{
     .text-ads p{
         font-size: 16px;
         margin-left: 5px;
-        color:#5e5f60fd
+        color:#222223fd
        
     }
 
@@ -687,9 +687,9 @@ pre{
     }
     .text-ads li{
             list-style-type: none;
-            font-size: 18px;
+            font-size: 19px;
             margin-left: 15px;
-            color:#5e5f60fd
+            color:#1a1b1bfd
     }
     
     .text-adsnative p{
@@ -701,7 +701,7 @@ pre{
     .img-banner img{
        
         width: 93%; 
-        margin: 5px;  
+        margin: 3px;  
        
     }
 
@@ -755,6 +755,7 @@ pre{
     
    
     section p{
+        
         margin-left: 10px;
         margin-right: 5px;
         color: black;
@@ -791,7 +792,7 @@ pre{
         color: black;
         padding: 0,2%;
         text-align: left;
-        font-size: 20px;
+        
         font-family: Arial, Helvetica, sans-serif;    
     }
     .check-list li{        
