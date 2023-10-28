@@ -434,6 +434,12 @@ section p{
     color: red;
 }
 
+.img-counters img{
+    width: 40%;
+}
+
+
+
     /* imagens do menu guia de heróis */    
 .img-menuguide{
     width: 200px;
@@ -743,10 +749,15 @@ pre{
         
     }
 
+    
     .img-sugestion{
         width: 30%;
         
     }
+
+    
+
+    
     
     
     .img-menuguide{
