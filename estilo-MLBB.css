@@ -507,6 +507,10 @@ section p{
     
 }
 
+.img-counters img{
+    width: 50%;
+}
+
    /* Videos youtube posicao */
 
 iframe{        
