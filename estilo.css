@@ -755,7 +755,9 @@ pre{
         
     }
 
-    
+    .img-counters img{
+        width: 70%;
+    } 
 
     
     
