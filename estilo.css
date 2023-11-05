@@ -843,8 +843,8 @@ pre{
         margin-right: 10px;
     }
 
-    table-combos {
-        width: 95%;
+    .table-combos {
+        width: auto;
         margin-left: 10px;
                
     }
