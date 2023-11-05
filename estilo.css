@@ -843,7 +843,7 @@ pre{
         margin-right: 10px;
     }
 
-    .table-combos {
+    .table-combos table{
         width: auto;
         margin-left: 10px;
                
@@ -851,13 +851,13 @@ pre{
 
     .table-combos table{
         margin: auto;
-        margin-top: 10px;
+        margin-top: 5px;
 
         
     }
    
     .table-combos th,td{
-        font-size: 18px;
+        font-size: 15px;
     }
 
     iframe{        
