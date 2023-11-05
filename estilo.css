@@ -818,11 +818,7 @@ pre{
          line-height: 22px;
     }
     
-    table {
-        width: 95%;
-        margin-left: 10px;
-               
-    }
+    
     .skillgray blockquote{  
        
         margin-left: 10px;
@@ -847,9 +843,16 @@ pre{
         margin-right: 10px;
     }
 
+    table-combos {
+        width: 95%;
+        margin-left: 10px;
+               
+    }
+
     .table-combos table{
         margin: auto;
         margin-top: 10px;
+
         
     }
    
