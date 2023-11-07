@@ -368,24 +368,24 @@ section p{
 
 /* imagem do menu da página home index */
 .img-menu{
-    width: 280px;
-    height: 240px;
-    margin: 0 auto;
-    padding: 1%;
+    height: 200px;
+    width: 270px;
+    
     align-items: center;
     text-align: center;
     float: left;
-    border: 1px solid white;
+    image-orientation: left;
+    padding: 1% 2%;
 }
 .img-menu a :hover{
     color: #f9464f;
 }
 .img-menu a{
-    padding: 1%;
+    padding: 0.1%;
     float: center;
     border: 1px solid rgb(255, 255, 255);
     image-orientation: flex;
-    margin-top: 10px;
+    margin-top: 1px;
     text-decoration: none;
     font-size: 18px;
 }
@@ -719,7 +719,7 @@ pre{
         
 
     .img-menu img{
-        width: 98%;
+        width: 85%;
           
     }
     
