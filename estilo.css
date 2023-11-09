@@ -353,7 +353,7 @@ section p{
 .text-ads li{
     list-style-type: none;
     font-size: 18px;
-    margin-left: 40px;
+    margin-left: 165px;
     color:#242424fd
 
 }
@@ -612,6 +612,14 @@ pre{
     width: 100%;
 }
 
+iframe{    
+        
+      margin: 140px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+            
+}
+
 
 
 
@@ -638,6 +646,7 @@ pre{
         background-color: #e3f0ff;
     }
 
+    
     
     
     nav ul.active{
@@ -860,8 +869,10 @@ pre{
         font-size: 15px;
     }
 
-    iframe{        
-         margin: auto;
+    iframe{    
+        
+        max-width: 300px;    
+         margin: center;
          margin-top: 9px;           
     }
     
