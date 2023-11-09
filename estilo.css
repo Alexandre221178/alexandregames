@@ -517,20 +517,15 @@ section p{
 
 
 
-   /* Videos youtube posicao */
+   
 
-iframe{        
-       margin: 17px;
-       
-         
-}
+
 
 
 
     /* fontes para tabelas de habilidades */
 
 
-  
   
 .skillgray blockquote{
     padding: 1%;
@@ -614,7 +609,7 @@ pre{
 
 iframe{    
         
-      margin: 140px;
+      margin: 50px;
       margin-top: 5px;
       margin-bottom: 5px;
             
@@ -871,7 +866,7 @@ iframe{
 
     iframe{    
         
-        max-width: 320px;    
+        max-width: 310px;    
          margin-left: 0px;
             
     }
