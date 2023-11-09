@@ -864,16 +864,18 @@ iframe{
         font-size: 15px;
     }
 
+    .container{
+        width: auto;
+    
+    }
+
     iframe{    
         
-        max-width: 305px;    
+        max-width: 350px;    
          margin-left: 0px;
             
     }
-    .container{
-        max-width: 320px;
     
-    }
     
     main{        
         align-items: block;
