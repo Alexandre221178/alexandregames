@@ -640,7 +640,7 @@ pre{
 
 
 
-@media (max-width:970px) {
+@media (max-width:760px) {
     nav .menu-icon{
         display: block;
     }
