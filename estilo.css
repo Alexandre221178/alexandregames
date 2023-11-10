@@ -871,8 +871,9 @@ iframe{
 
     iframe{    
         
-        max-width: 350px;    
-         margin-left: 0px;
+        width: auto;    
+        align-items: center;
+         margin: center;
             
     }
     
