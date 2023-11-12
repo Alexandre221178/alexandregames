@@ -755,7 +755,8 @@ iframe{
         
     }
     .img-artifact img{
-        width: 60%;
+        width: auto;
+        height: 50%;
        
         
     }
