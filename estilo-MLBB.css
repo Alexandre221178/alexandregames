@@ -299,6 +299,14 @@ section p{
 .text-title h1 b{
     color: #5656b3;
 }
+
+.text-title h1 b::before {
+    content: "\a";
+    font-size: 0;
+    display: block;
+    line-height: 0;
+}
+
                              
 
 .text-bx li{
