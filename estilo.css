@@ -355,6 +355,18 @@ section p{
     cursor: pointer;
     font-size: 15px;
 }
+
+.text-ale{
+    margin: 50px;
+}
+
+.text-ale h1 b::before{
+        content: "\a";
+        font-size: 0;
+        display: block;
+        line-height: 0;
+    
+}
 /* texto para ads */
 
     
@@ -690,6 +702,12 @@ iframe{
         
         
     }
+
+
+    .text-ale{
+        margin: 10px;
+    }
+
     .text-ads p{
         font-size: 16px;
         margin-left: 5px;

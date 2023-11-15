@@ -350,6 +350,21 @@ section p{
     cursor: pointer;
     font-size: 15px;
 }
+
+.text-ale{
+    margin: 50px;
+}
+
+.text-ale h1 b::before{
+        content: "\a";
+        font-size: 0;
+        display: block;
+        line-height: 0;
+    
+}
+
+
+
 /* texto para ads */
 .text-ads p{
     font-size: 14px;
@@ -732,6 +747,10 @@ pre{
     margin-left: 5px;
     color:#5e5f60fd
     
+    }
+
+    .text-ale{
+        margin: 10px;
     }
     
 
