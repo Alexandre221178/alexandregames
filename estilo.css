@@ -630,7 +630,10 @@ pre{
 
 iframe{    
         
-      margin: 50px;
+    width: auto;    
+    height: auto;
+    margin: center;
+   
       margin-top: 5px;
       margin-bottom: 5px;
             
@@ -899,8 +902,9 @@ iframe{
 
     iframe{    
         
-        width: auto;    
-        margin: auto;
+        width: auto; 
+        height: auto;   
+        margin: center;
        
             
     }
