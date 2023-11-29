@@ -555,6 +555,65 @@ section p{
     color: red;
     }
 
+     /* imagens do menu guia de heróis */    
+.img-home{
+    height: 210px;       
+    width: 80%;
+    
+   margin-bottom: 80px;
+    align-items: center;
+    text-align: center;
+    float: left;
+    image-orientation: left;
+    padding: 2% 3%;
+    
+}
+.img-home a{
+    float: center;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+
+.img-home a:hover{
+    color: red;
+    }
+.img-home img{
+    border: 4px solid #5654b3;
+}
+
+
+/*imagens de sugestões no rodapé */
+.img-new{
+    width: 320px;
+    height: auto;       
+    align-items: center;
+    text-align: center;
+    float: left;
+    image-orientation: left;
+    
+    margin-top: 30px;
+}
+.img-new a{  
+    padding: 0.1%;
+    float: center;
+    border: 1px solid rgb(255, 255, 255);
+    image-orientation: flex;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.img-new img{
+    width: 40%;
+    
+}
+
+.img-new a:hover {
+    color: red;
+}
+
+
 
     /* imagem do herói no nível máximo*/
    
@@ -853,7 +912,7 @@ iframe{
 
     
     .img-sugestion{
-        width: 30%;
+        width: 40%;
         
     }
 
@@ -865,6 +924,21 @@ iframe{
     .img-menuguide{
         Width: 32%;
         height: 160px;       
+    }
+    
+    .img-home img{  
+        width: 100%;
+        margin-bottom: 5px;       
+    }
+    .img-home{  
+        margin-bottom: 5px;       
+    }
+
+    .img-new img{
+        width: 30%;
+    }
+    .img-new a{
+        font-size: 15px;
     }
     
    
