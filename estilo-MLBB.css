@@ -241,6 +241,7 @@ h3 {
     }
 h4 {
         color: #5656b3;
+        margin-left: 30px;
         font-size: 20px;
         padding: 0,2%;
         text-align: left;
@@ -840,6 +841,10 @@ pre{
         padding: 0,2%;
         text-align: left;
     }
+    h4 {
+       
+        margin-left: 10px;
+       }
     h5 {
         color: #18a84d;
         padding: 0,2%;
