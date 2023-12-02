@@ -126,16 +126,43 @@ nav ul button{
     -ms-flex: 35%; /* IE10 */
     flex: 35%;
     background-color: white;
-    padding: 20px;
+   
+    
     
   }
-
-  .main a{   
-    font-size: 19px;
+  .main img{
+    
+        width: 180px;
+        height:auto;       
+        align-items: center;
+        text-align: center;
+        float: left;
+        image-orientation: left;
+        padding: 2% 3%;
+        margin-top: 10px;
+   
+  }
+  .main a{  
+    padding: 0.1%;
+    float: center;
+    
+    image-orientation: flex;
+    margin-top: 1px;
     text-decoration: none;
+    font-size: 18px;
+    text-decoration: none;
+    font-size: 19px;
     
-  }
-  
+    
+}
+.main img{
+    width: 80%;
+}
+.main a:hover {
+    color: red;
+}
+
+ 
   /* Fake image, just for this example */
   .fakeimg {
     background-color: #aaa;
@@ -149,8 +176,8 @@ nav ul button{
 
 /* cor botao fundo pt-br */
 .buttonEnglish a{
-   
-    padding: 10px 20px;
+    
+    
     border-radius: 5px;
     text-transform: uppercase;
     font-size: 20px;
@@ -159,6 +186,7 @@ nav ul button{
     cursor: pointer;
     color: #5654b3;
     text-decoration: none;
+    
 }
 
 .buttonlang a{  
@@ -168,6 +196,7 @@ nav ul button{
     text-decoration: none;
     color: black;
     border-color: none;
+    
 
     
     
@@ -471,7 +500,7 @@ section p{
 .img-menu a{
     padding: 0.1%;
     float: center;
-    border: 1px solid rgb(255, 255, 255);
+    
     image-orientation: flex;
     margin-top: 1px;
     text-decoration: none;
@@ -538,20 +567,17 @@ section p{
     float: center;
     text-align: center;
     text-decoration: none;
-    border: 1px solid rgb(255, 255, 255);
+    
     
 }
 .img-visited img{
     width: 80%;
+   
 }
 .img-visited a:hover {
     color: red;
 }
 
-
-.img-counters img{
-    width: 40%;
-}
 
 
 
@@ -609,36 +635,31 @@ section p{
 }
 
 
-/*imagens de sugestões no rodapé */
+
+/*imagens de mais visitados */
 .img-new{
-    width: 320px;
-    height: auto;       
+    width: 180px;
+    height:auto;       
     align-items: center;
     text-align: center;
     float: left;
     image-orientation: left;
-    
-    margin-top: 30px;
+    padding: 2% 3%;
+    margin-top: 10px;
 }
 .img-new a{  
-    padding: 0.1%;
     float: center;
-    border: 1px solid rgb(255, 255, 255);
-    image-orientation: flex;
-    margin-bottom: 10px;
+    text-align: center;
     text-decoration: none;
-    font-size: 18px;
-}
-
-.img-new img{
-    width: 40%;
+    
     
 }
-
+.img-new img{
+    width: 80%;
+}
 .img-new a:hover {
     color: red;
 }
-
 
 
     /* imagem do herói no nível máximo*/
@@ -941,10 +962,28 @@ iframe{
         width: 40%;
         
     }
-    .img-visited{
-        width: 50%;
-        
+    .img-visited img{
+      width: 90%;
+         
     }
+    .img-visited a{  
+        float: center;
+    text-align: center;
+    text-decoration: none;
+    }
+
+    
+
+    .img-new img{
+        width: 70%;
+          
+      }
+    
+      .main img{
+        width: 80%;
+          
+      }
+    
 
     .img-counters img{
         width: 70%;
@@ -964,12 +1003,10 @@ iframe{
         margin-bottom: 5px;       
     }
 
-    .img-new img{
-        width: 50%;
-    }
-    .img-new a{
-        font-size: 15px;
-    }
+    
+
+   
+    
     
    
     section p{
