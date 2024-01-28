@@ -1064,7 +1064,9 @@ iframe{
 .msg-cookies {
     padding: 8px;
 }
-
+.msg-cookies a{
+    color: white;
+}
 
 
 

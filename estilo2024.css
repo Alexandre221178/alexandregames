@@ -218,7 +218,7 @@ main{
     background-color: #e3f0ff;
     color: #5654b3;
     padding: 16px;
-    font-size: 18px;
+    
     border: none;
     cursor: pointer;
   }
@@ -226,6 +226,8 @@ main{
   .dropdown {
     position: relative;
     display: inline-block;
+    font-size: 18px;
+    margin-top: 8px;
   }
   
   .dropdown-content {
@@ -1278,6 +1280,9 @@ iframe{
 
 .msg-cookies {
     padding: 8px;
+}
+.msg-cookies a{
+    color: white;
 }
 
 
