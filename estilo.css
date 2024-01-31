@@ -127,7 +127,7 @@ main{
     background-color: #e3f0ff;
     color: #5654b3;
     padding: 16px;
-    font-size: 18px;
+    font-size: 20px;
     border: none;
     cursor: pointer;
   }
@@ -635,6 +635,7 @@ iframe{
         
     width: auto;    
     height: auto;
+    margin-left: 30px;
     margin: center;
    
       margin-top: 16px;
@@ -911,7 +912,8 @@ iframe{
     iframe{    
         
         width: auto; 
-        height: auto;   
+        height: auto; 
+        margin-left: 2px;  
         margin: center;
        
             
