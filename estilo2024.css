@@ -217,7 +217,7 @@ main{
     /* cor do botao no menu nav dropbtn */
     background-color: #e3f0ff;
     color: #5654b3;
-    padding: 16px;
+    padding: 10px;
     
     border: none;
     cursor: pointer;
@@ -226,7 +226,7 @@ main{
   .dropdown {
     position: relative;
     display: inline-block;
-    font-size: 18px;
+    
     margin-top: 8px;
   }
   
@@ -242,8 +242,9 @@ main{
   
   .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 12px 17px;
     text-decoration: none;
+    
     display: block;
   }
   /* hover quando clica ou passa mouse sobre */
