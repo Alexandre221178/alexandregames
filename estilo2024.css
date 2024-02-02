@@ -51,6 +51,7 @@ nav ul li{
 
 }
 nav ul li a{
+
     text-decoration: none;
     font-size: 17px;
     
@@ -59,7 +60,7 @@ nav ul li a{
     
 }
 nav ul button a{
-        
+    
     color: #5654b3;
     
     text-decoration: none;
@@ -176,8 +177,8 @@ nav ul button{
 
 /* cor botao fundo pt-br */
 .buttonEnglish a{
-    
-    
+   
+    padding: 10px 20px;
     border-radius: 5px;
     text-transform: uppercase;
     font-size: 20px;
@@ -186,17 +187,15 @@ nav ul button{
     cursor: pointer;
     color: #5654b3;
     text-decoration: none;
-    
 }
 
 .buttonlang a{  
-    
+    background-color: none;
     font-size: 17px;
     border: none;
     text-decoration: none;
-    color: black;
+    color: #5654b3;
     border-color: none;
-    
 
     
     
@@ -214,40 +213,39 @@ main{
 
 /* teste dropdown menu */
 .dropbtn {
-    /* cor do botao no menu nav dropbtn */
-    background-color: #e3f0ff;
+    border-radius: 5px;
     color: #5654b3;
-    padding: 10px;
-    
+    padding: 16px;
+    font-size: 20px;
     border: none;
     cursor: pointer;
   }
   
   .dropdown {
+    border-radius: 5px;
     position: relative;
     display: inline-block;
-    
-    margin-top: 8px;
+    border: none;
   }
   
   .dropdown-content {
     display: none;
     position: absolute;
-    /* cor hover quando clica sobre no mobile */
     background-color: #e3f0ff;
     min-width: 180px;
-    box-shadow: 0px 8px 16px 0px rgba(225, 223, 230, 0.632);
+    
     z-index: 1;
   }
   
   .dropdown-content a {
     color: black;
-    padding: 12px 17px;
+    padding: 12px 16px;
     text-decoration: none;
-    
     display: block;
+    border: none;
+    cursor: pointer;
   }
-  /* hover quando clica ou passa mouse sobre */
+  
   .dropdown-content a:hover {background-color: #e3f0ff}
   
   .dropdown:hover .dropdown-content {
