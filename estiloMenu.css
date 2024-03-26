@@ -754,62 +754,49 @@ pre{
 
     
 
-/** CSS cokies **/
-.box-cookies.hide {
-    display: none !important;
-}
-
-.box-cookies {
+/** CSS cokies 2024 **/
+.cookie-banner {
     position: fixed;
-    background: rgba(14, 23, 39, .8);
-    width: 100%;
-    max-width: 980px;
-    z-index: 998;
     bottom: 0;
-    right: 0;
-    border-radius: 8px 0px 0px 0px;
-    border: dashed 3px rgba(236, 13, 13, 0.6);
-    border-bottom: none;
-    border-right: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    left: 0;
+    width: 100%;
+    background-color: #a3b265;
+    padding: 10px 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 999;
 }
 
-.box-cookies a {
-    color: rgb(14, 46, 15);
-    font-weight: bold;
+.button-container {
+    margin-top: 10px;
 }
 
-.box-cookies a:hover {
-    text-decoration: underline;
-}
-
-.msg-cookies,
-.box-cookies .btn-cookies {
-    text-align: left;
-    padding: 5px;
-    color: white;
-    font-size: 14px;
-    margin-bottom: 5px;
-}
-
-.box-cookies .btn-cookies {
-    cursor: pointer;
-    color: black;
-    height: auto;
-    margin: 11px 10px 10px;
-    padding: 3px 8px;
+.btn {
+    padding: 8px 20px;
+    margin: 0 5px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-.msg-cookies {
-    padding: 8px;
+.accept-btn {
+    background-color: #4caf50;
+    color: white;
 }
 
+.reject-btn {
+    background-color: #f44336;
+    color: white;
+}
 
+.privacy-link {
+    color: #171717;
+    text-decoration: none;
+}
 
+.privacy-link:hover {
+    text-decoration: underline;
+}
 
 
 @media screen and (max-width: 600px) {
