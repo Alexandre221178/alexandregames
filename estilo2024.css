@@ -707,8 +707,10 @@ section p{
 }
 
 .table-combos th{
-    color: red;
+    color: black;
+    
 }
+
 
 
 .table-combos th, td {
