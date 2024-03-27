@@ -285,6 +285,17 @@ main{
     font-family: Arial, Helvetica, sans-serif;   
 
 }
+li{
+    padding: 0.7%;
+    margin-left: 50px;
+    text-align: left;
+    line-height: 28px;
+    font-weight: normal;
+    color: Black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;   
+
+}
 
   /* numeros 1º 2º 3º */
 .check-list ol{
@@ -378,6 +389,7 @@ section p{
     text-align: left;
         font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .text-bx p{
     margin: center;
@@ -726,7 +738,28 @@ section p{
     border: 1px solid rgb(0, 7, 11);
     text-align: center;
 }
-
+/* Estilo para o cabeçalho da tabela modelo novo 2024 */
+table {
+    margin: 30px;
+    width: 70%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo para o cabeçalho da tabela */
+  th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* Estilo para as células da tabela */
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
 
 
 
@@ -1036,6 +1069,14 @@ iframe{
         padding: 0,2%;
         text-align: left;
     }
+    section ul li a{
+        
+        margin-left: 10px;
+        margin-right: 5px;
+        color: black;
+        padding: 0,2%;
+        text-align: left;
+    }
     h1 {
         color: #5654b3;
         margin-left: 10px;
@@ -1073,6 +1114,7 @@ iframe{
         
         font-family: Arial, Helvetica, sans-serif;    
     }
+    
     .check-list li{        
         margin-left: 40px;
         
@@ -1113,8 +1155,11 @@ iframe{
 
     .table-combos table{
         width: auto;
-        margin-left: 10px;
-               
+        margin-left: 10px;          
+    }
+    table {
+        width: auto;
+        margin-left: 10px;  
     }
 
     .table-combos table{
@@ -1122,6 +1167,10 @@ iframe{
         margin-top: 5px;
 
         
+    }
+    table {
+    margin: 30px;
+    width: 70%;
     }
    
     .table-combos th,td{
