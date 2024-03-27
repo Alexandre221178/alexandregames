@@ -36,7 +36,12 @@ nav .logo a{
     /* cor da letra do logo */
     color: #5654b3;
     text-decoration: none;
+    
 }
+
+
+
+
 .container a:hover{
     color: #f9464f;
     }
@@ -60,21 +65,18 @@ nav ul li a{
     
 }
 nav ul button a{
-    
+    align-items: left;
     color: #5654b3;
-    
+    font-size: 19px;
     text-decoration: none;
-
-    
 }
 
 nav ul button{
-    
+   
     border: none;
     color: #5654b3;
     
-    
-    
+       
     /* cor botao fundo ingles */
     
     padding: 10px 20px;
@@ -105,6 +107,9 @@ nav ul button{
     color: white;
   }
   
+
+
+
   /* Column container */
   .column {  
     display: -ms-flexbox; /* IE10 */
@@ -222,7 +227,8 @@ main{
   }
   
   .dropdown {
-    border-radius: 5px;
+    border-radius: 15px;
+    
     position: relative;
     display: inline-block;
     border: none;
@@ -514,6 +520,10 @@ section p{
 .img-menu img{
         width: 100%;
         border: 4px solid #5654b3;
+}
+.logo img{
+    width: 100%;
+    height: auto;
 }
         
         /* guide imagem do logo do guia de Heróis */
