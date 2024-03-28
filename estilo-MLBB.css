@@ -34,6 +34,10 @@ nav .logo a{
     color: #5654b3;
     text-decoration: none;
 }
+.logo img{
+    width: 30%;
+    height: auto;
+}
 .container a:hover{
     color: #f9464f;
     }

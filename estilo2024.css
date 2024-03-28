@@ -924,12 +924,12 @@ iframe{
     }
 
     .text-title h1{
-        font-size: 24px;
+        font-size: 30px;
         text-transform: uppercase;
         margin-left: 5px;
-        
-        
+        margin-top: 10px;
     }
+    
 
 
     .text-ale{
@@ -972,9 +972,8 @@ iframe{
     
     /* imagem do logo para mobile*/
     .img-logoguide img{
-        width: 100%;
-        height: auto;
-        margin-top: 5px;
+        width: 110%;
+        
         
     }  
         
