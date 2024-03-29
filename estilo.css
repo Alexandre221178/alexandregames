@@ -466,7 +466,13 @@ section p{
 .img-counters img{
     width: 40%;
 }
-
+figcaption {
+    margin-left: 30px;
+    color: black;
+    font-style: italic;
+    padding: 0px;
+    text-align: left;
+  }
 
 
     /* imagens do menu guia de heróis */    
@@ -799,6 +805,9 @@ iframe{
 
     .img-counters img{
         width: 70%;
+    }
+    figcaption {
+        margin-left: 5px; 
     } 
 
        

@@ -539,6 +539,13 @@ section p{
 .img-counters img{
     width: 50%;
 }
+figcaption {
+    margin-left: 30px;
+    color: black;
+    font-style: italic;
+    padding: 0px;
+    text-align: left;
+  }
 
    /* Videos youtube posicao */
 
@@ -767,8 +774,11 @@ pre{
     .img-logoguide img{
         
         width: 95%;
-       
     }  
+    .logo img{
+        width: 20%;
+        height: auto;
+    }
         
 
     .img-menu img{
@@ -818,7 +828,11 @@ pre{
 
     .img-counters img{
         width: 90%;
+    }
+    figcaption {
+        margin-left: 5px; 
     } 
+
     
    
     section p{

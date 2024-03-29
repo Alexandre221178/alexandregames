@@ -694,7 +694,7 @@ section p{
     width: auto;
     margin-left: 30px;
     margin-bottom: 0px;
-    border: 7px solid #5654b3;
+    border: 5px solid #5654b3;
 }
 .img-max a{
     
@@ -717,6 +717,13 @@ section p{
 .img-counters img{
     width: 40%;
 }
+figcaption {
+    margin-left: 30px;
+    color: black;
+    font-style: italic;
+    padding: 0px;
+    text-align: left;
+  }
 
 .table-combos th{
     color: black;
@@ -972,10 +979,12 @@ iframe{
     
     /* imagem do logo para mobile*/
     .img-logoguide img{
-        width: 110%;
-        
-        
+        width: 110%;  
     }  
+    .logo img{
+        width: 20%;
+        height: auto;
+    }
         
 
     .img-menu img{
@@ -1038,6 +1047,9 @@ iframe{
     .img-counters img{
         width: 70%;
     } 
+    figcaption {
+        margin-left: 5px; 
+    }
 
        
     .img-menuguide{
