@@ -60,25 +60,25 @@ nav ul li a{
     
 }
 nav ul button a{
+    align-items: left;
+    /* cor do fundo do texto no button nav */
     background-color: none;
-        
+    /* cor das letras no button nav */
     color: #5654b3;
+    font-weight: bold;
+    font-size: 19px;
     
     text-decoration: none;
-
-    
 }
 
 nav ul button{
-    
+    /* cor do fundo do button nav */
+   background-color: #e3f0ff;
     border: none;
     color: #5654b3;
-    
-    
-    
-    /* cor botao fundo ingles */
-    
-    padding: 10px 20px;
+       
+     /* comandos para letras button nav padding: 10px 20px;*/
+     padding: 10px 15px;
     border-radius: 5px;
     
     font-size: 20px;
@@ -126,7 +126,9 @@ main{
 .dropbtn {
     background-color: #e3f0ff;
     color: #5654b3;
-    padding: 16px;
+    /* cor buttom MAIS  */
+    font-weight: bold;
+    padding: 18px;
     font-size: 20px;
     border: none;
     cursor: pointer;
@@ -232,7 +234,7 @@ h2 {
     margin-top: 30px;
     color: #5656b3;
     font-size: 28px;
-    background-color: #e3f0ff;
+   
     padding: 0,2%;
     text-align: left;
 }

@@ -20,6 +20,7 @@ body{
 
 nav{
     display: flex;
+     /* cor do fundo do no nav #e3f0ff */
     background-color:  #e3f0ff;
     justify-content: space-between;
     align-items: center;
@@ -66,25 +67,29 @@ nav ul li a{
 }
 nav ul button a{
     align-items: left;
+    /* cor do fundo do texto no button nav */
+    background-color: none;
+    /* cor das letras no button nav */
     color: #5654b3;
+    font-weight: bold;
     font-size: 19px;
+    
     text-decoration: none;
 }
 
 nav ul button{
-   
+    /* cor do fundo do button nav */
+   background-color: #e3f0ff;
     border: none;
     color: #5654b3;
-    
        
-    /* cor botao fundo ingles */
-    
-    padding: 10px 20px;
+    /* comandos para letras button nav padding: 10px 20px;*/
+    padding: 10px 15px;
     border-radius: 5px;
     
     font-size: 20px;
     letter-spacing: 1px;
-    margin-left: 10px;
+    
     cursor: pointer;
 }
 
@@ -219,8 +224,10 @@ main{
 /* teste dropdown menu */
 .dropbtn {
     border-radius: 5px;
+    /* cor buttom MAIS  */
+    font-weight: bold;
+    padding: 18px;
     color: #5654b3;
-    padding: 16px;
     font-size: 20px;
     border: none;
     cursor: pointer;
@@ -343,7 +350,7 @@ h2 {
     
     color: #5656b3;
     font-size: 28px;
-    background-color: #e3f0ff;
+    
     padding: 0,2%;
     text-align: left;
 }
