@@ -709,7 +709,7 @@ section p{
     }
 
 .img-artifact img{
-    width: auto;
+    width: 20%;
     border: 7px solid #5654b3;
     text-align: center;
     margin-left: 30px;
@@ -1017,8 +1017,8 @@ iframe{
         
     }
     .img-artifact img{
-        width: auto;
-        height: 50%;
+        width: 60%;
+        
        
         
     }
