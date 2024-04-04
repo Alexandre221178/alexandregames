@@ -237,7 +237,7 @@ h2 {
     margin-left: 30px;
     margin-top: 30px;
     color: #5656b3;
-    font-size: 28px;
+    font-size: 30px;
     background-color: #e3f0ff;
     padding: 0,2%;
     text-align: left;
@@ -302,7 +302,7 @@ section p{
 
 /* text title do título novo */
 .text-title h1{
-    font-size: 3rem;
+    font-size: 4rem;
     text-transform: uppercase;
     margin-left: 140px;
     
@@ -333,7 +333,7 @@ section p{
 }
 .text-bx p{
     color: #372c62;
-        font-weight: 400;
+        
     margin-top: 22px;
 }
 .text-bx .input-bx{
@@ -827,6 +827,7 @@ iframe{
     }
     h1 {
         color: #5654b3;
+        
         margin-left: 10px;
         padding: 0,2%;
         text-align: left;
