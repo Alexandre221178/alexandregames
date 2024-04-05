@@ -120,9 +120,10 @@
             <img src="./imagens/banner-alexandre-games-small.webp"  alt="Kai em Hero Wars" title="Kai em Hero Wars" >
         </div> 
 
-        <form action="/search" method="GET">
-            <label for="search">Pesquisar?:</label>
-            <input type="search" id="search" name="q" placeholder="Digite sua pesquisa aqui" required>
+        <form action="https://www.google.com/search" method="GET" target="_blank">
+            <input type="hidden" name="q" value="Alexandre Games Mobile">
+            <label for="search">Pesquisar:</label>
+            <input type="search" id="search" name="as_q" placeholder="Digite sua pesquisa aqui" required>
             <button type="submit">Buscar</button>
         </form>
 
