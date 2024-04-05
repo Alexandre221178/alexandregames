@@ -1236,6 +1236,7 @@ iframe{
     }
     .footer a img{
             width: 10%;
+            
     }
 
     
@@ -1253,6 +1254,7 @@ iframe{
 }
     
 
+/* width mesmo tamanho do nav */        
 /* width mesmo tamanho do nav */        
 .footer{
     max-width: 1000px;
@@ -1311,13 +1313,20 @@ iframe{
     }
     
     .footer .row ul li{
-        display:block;
-        margin:10px 40px;
+        display:inline-table;
+        margin:5px 20px;
         text-align:center;
         }
     .footer .row a i{
         margin:0% 3%;
         }
+    
+    
+        
+    
+    
+        
+    
     
     
         
