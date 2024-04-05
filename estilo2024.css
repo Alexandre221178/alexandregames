@@ -1258,7 +1258,7 @@ iframe{
 /* width mesmo tamanho do nav */        
 .footer{
     max-width: 1000px;
-    background-color: #b4d2f5;
+    background-color: #f9f9f9;
     padding:3px 0px;
     justify-content: space-between;
     text-align: center;
@@ -1270,12 +1270,12 @@ iframe{
     margin:1% 0%;
     padding: 0,1% 0%;
     color:rgb(4, 2, 25);
-    font-size: 17px;
+    
     }
     
     .footer .row a{
     text-decoration:none;
-    font-size: 17px;
+    font-size: 16px;
     color: black;
     transition:0.5s;
     }
@@ -1289,11 +1289,13 @@ iframe{
     
     .footer .row ul{
     width:100%;
+    
     }
     
     .footer .row ul li{
     display:inline-block;
     margin:0px 5px;
+    font-size: 12px;
     }
     
     .footer .row a i{
