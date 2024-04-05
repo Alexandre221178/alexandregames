@@ -386,6 +386,10 @@ h6 {
     font-size: 20px;
     text-align: left;
 }
+/* form para pesquisa no site */
+.form {
+    text-align: right;
+}
 
 /* letras texto de caixa na seção */
 section p{
