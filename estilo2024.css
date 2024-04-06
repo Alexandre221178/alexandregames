@@ -45,42 +45,80 @@ nav .logo a{
 .container a:hover{
     color: #f9464f;
     }
-nav ul{
-    display: flex;
-    list-style: none;
-    align-items: center;
+    nav{
+        display: flex;
+         /* cor do fundo do no nav #e3f0ff */
+        background-color:  #e3f0ff;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+    }
+    nav .menu-icon{
+        cursor: pointer;
+        display: none;
+    }
+    nav .logo a{
+        font-size: 30px;
+        font-weight: bold;
+        /* cor da letra do logo */
+        color: #5654b3;
+        text-decoration: none;
+        
+    }
     
-}
-
-
-nav ul button a{
-    align-items: center;
     
-    /* cor do fundo do texto no button nav */
-    background-color: none;
-    /* cor das letras no button nav menos o mais do drop */
-    color: #5654b3;
-    font-weight: bold;
-    font-size: 19px;
     
-    text-decoration: none;
-}
-
-nav ul button{
-    /* cor do fundo do button nav */
-   background-color: #e3f0ff;
-    border: none;
-    color: #5654b3;
-      
-
-    /* comandos para letras button nav padding: 10px 20px;*/
-    padding: 1px 20px;
-   
-    font-size: 20px;
-    letter-spacing: 1px;
     
-    cursor: pointer;
-}
+    .container a:hover{
+        color: #f9464f;
+        }
+    nav ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        
+    }
+    nav ul li{
+        padding: 0 15px;
+    
+    }
+    nav ul li a{
+    
+        text-decoration: none;
+        font-size: 17px;
+        
+        /* cor dos textos nav */
+        color: #5654b3;
+        
+    }
+    nav ul button a{
+        align-items: left;
+        /* cor do fundo do texto no button nav */
+        background-color: none;
+        /* cor das letras no button nav */
+        color: #5654b3;
+        font-weight: bold;
+        font-size: 19px;
+        
+        text-decoration: none;
+    }
+    
+    nav ul button{
+        /* cor do fundo do button nav */
+       background-color: #e3f0ff;
+        border: none;
+        color: #5654b3;
+           
+        /* comandos para letras button nav padding: 10px 20px;*/
+        padding: 10px 15px;
+        border-radius: 5px;
+        
+        font-size: 20px;
+        letter-spacing: 1px;
+        
+        cursor: pointer;
+    }
 
 
   /* Fake image, just for this example */
