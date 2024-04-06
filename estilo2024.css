@@ -19,11 +19,10 @@ body{
 }
 
 nav{
-    display: flex;
+    display:flex;
      /* cor do fundo do no nav #e3f0ff */
     background-color:  #e3f0ff;
-    justify-content: space-between;
-    align-items: center;
+    
     width: 100%;
     height: 100px;
 }
@@ -52,24 +51,14 @@ nav ul{
     align-items: center;
     
 }
-nav ul li{
-    padding: 0 15px;
 
-}
-nav ul li a{
 
-    text-decoration: none;
-    font-size: 17px;
-    
-    /* cor dos textos nav */
-    color: #5654b3;
-    
-}
 nav ul button a{
-    align-items: left;
+    align-items: center;
+    
     /* cor do fundo do texto no button nav */
     background-color: none;
-    /* cor das letras no button nav */
+    /* cor das letras no button nav menos o mais do drop */
     color: #5654b3;
     font-weight: bold;
     font-size: 19px;
@@ -82,11 +71,11 @@ nav ul button{
    background-color: #e3f0ff;
     border: none;
     color: #5654b3;
-       
+      
+
     /* comandos para letras button nav padding: 10px 20px;*/
-    padding: 10px 15px;
-    border-radius: 5px;
-    
+    padding: 1px 20px;
+   
     font-size: 20px;
     letter-spacing: 1px;
     
