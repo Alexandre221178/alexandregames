@@ -986,6 +986,7 @@ iframe{
     
     .autor ul li{
         margin: 5px; 
+        font-size: 14px;
     }
     .autor li b::before {
         content: "\a";
