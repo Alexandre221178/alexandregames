@@ -590,6 +590,38 @@ section p{
     width: 30%;
     height: auto;
 }
+/* imagem do embed index */
+.img-embed{
+    width: 300px;
+    height: 180px;
+    margin-bottom: 120px;
+    align-items: center;
+    text-align: center;
+    float: left;
+    image-orientation: left;
+    padding: 1% 2%;
+}
+.img-embed a :hover{
+    color: #f9464f;
+}
+.img-embed a{
+    padding: 0.1%;
+    float: center;
+    color: black;
+    image-orientation: flex;
+    margin-top: 1px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.img-embed a:hover{
+    color: #f9464f;
+    }
+
+.img-embed img{
+        width: 100%;
+        height: 100%;
+        border: 4px solid #5654b3;
+}
         
         /* guide imagem do logo do guia de Heróis */
 .img-logoguide{
