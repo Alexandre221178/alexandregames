@@ -597,6 +597,8 @@ section p{
 .img-embed{
     width: 300px;
     height: 180px;
+   
+    
     margin-bottom: 120px;
     align-items: center;
     text-align: center;
@@ -609,7 +611,9 @@ section p{
 }
 .img-embed a{
     padding: 0.1%;
-    float: center;
+    /* float e text align para texto a esquerda */
+    float: left;
+    text-align: left;
     color: black;
     image-orientation: flex;
     margin-top: 1px;
