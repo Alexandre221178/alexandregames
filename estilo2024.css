@@ -82,6 +82,7 @@ nav .logo a{
     nav ul li{
         padding: 0 15px;
         
+        
     
     }
     nav ul li a{
@@ -106,9 +107,10 @@ nav .logo a{
         text-decoration: none;
     }
     
+    
     nav ul button{
         /* cor do fundo do button nav */
-       background-color: black;
+       background-color: rgb(0, 0, 0);
         border: none;
        
            
@@ -116,7 +118,7 @@ nav .logo a{
         padding: 10px 15px;
         border-radius: 5px;
         
-        font-size: 20px;
+        
         letter-spacing: 1px;
         
         cursor: pointer;
@@ -996,12 +998,12 @@ iframe{
         transform: translateX(0);
     }
     nav ul li{
-        padding: 12px;
+        padding: 2px;
         margin: left;
     }
     nav ul li a{
         text-align: left;
-        font-size: 20px;
+        font-size: 16px;
         margin-left: 5px;
          color: white;
         
