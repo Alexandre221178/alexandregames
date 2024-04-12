@@ -557,6 +557,12 @@ section p{
     width: 100%;
     height: auto;
 }
+.img-ale img{
+       margin: 30px;
+    width: 2%;
+    height: auto;
+}
+
 
     
 
@@ -1288,8 +1294,8 @@ iframe{
         
     }
     table {
-    margin: 30px;
-    width: 70%;
+    margin: 10px;
+    width: 95%;
     }
    
     .table-combos th,td{
