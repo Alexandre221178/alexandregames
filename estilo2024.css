@@ -675,9 +675,9 @@ section p{
     color: red;
 }
 
-/*imagens de mais visitados */
+/*imagens de mais 180 e auto visitados */
 .img-visited{
-    width: 180px;
+    width: 200px;
     height:auto;   
    
     align-items: center;
