@@ -555,7 +555,8 @@ section p{
 .img-banner img{
        
     width: 100%;
-    height: auto;
+    height: 400px;
+    
 }
 .img-ale img{
        margin: 30px;
@@ -1088,6 +1089,7 @@ iframe{
     .img-banner img{
        
         width: 100%; 
+        height: auto;
          
        
     }
