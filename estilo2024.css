@@ -133,8 +133,13 @@ nav .menu-icon{
     background-color: #666;
     color: white;
   }
-  
-
+  /* esse main separa footer da tela se mexer estraga tudo */
+  main{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
   /* Column container */
