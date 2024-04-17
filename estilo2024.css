@@ -956,7 +956,7 @@ iframe{
 
 
 
-@media (max-width:700px) {
+@media (max-width:540px) {
     nav .menu-icon{
         display: block;
     }
@@ -1151,7 +1151,7 @@ iframe{
            
     }
     .img-home{  
-        margin-bottom: 100px;       
+        margin-bottom: 110px;       
     }
     .img-visited{
         width: 100%;
