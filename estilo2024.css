@@ -715,8 +715,9 @@ section p{
 
      /* imagens do menu guia de heróis */    
 .img-home{
-    height: 210px;       
-    width: 80%;
+    width: 100%;
+    
+    
     
    margin-bottom: 80px;
     align-items: center;
@@ -738,6 +739,9 @@ section p{
     }
 .img-home img{
     border: 4px solid #5654b3;
+    width: 400px;
+    height: 200px;       
+    
 }
 
 
@@ -1146,8 +1150,9 @@ iframe{
     }
     
     .img-home img{  
-        width: 120%;
-        margin: 10px;
+        width: 98%;
+        height: auto;
+       
            
     }
     .img-home{  
