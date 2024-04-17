@@ -956,7 +956,7 @@ iframe{
 
 
 
-@media (max-width:760px) {
+@media (max-width:700px) {
     nav .menu-icon{
         display: block;
     }
@@ -1160,7 +1160,7 @@ iframe{
     }
     .img-embed{
         width: 100%;
-        margin-bottom: 100px; 
+        margin-bottom: 103px; 
         
        
     }
