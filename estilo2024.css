@@ -242,7 +242,7 @@ nav .menu-icon{
     display: none;
     position: absolute;
     background-color: black;
-    min-width: 175px;
+    min-width: 170px;
     
     z-index: 1;
   }
@@ -1006,6 +1006,7 @@ iframe{
     }
     nav ul button a{
         margin: 5px;
+        font-size: 17px;
           
      }
     
