@@ -242,7 +242,7 @@ nav .menu-icon{
     display: none;
     position: absolute;
     background-color: black;
-    min-width: 180px;
+    min-width: 190px;
     
     z-index: 1;
   }
