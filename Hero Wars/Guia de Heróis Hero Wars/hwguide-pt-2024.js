@@ -16,38 +16,41 @@ menuBar.addEventListener('click',function(){
 
 // last modified inicio
 
-        // Function to extract and display modification date
-        function displayModificationDate() {
-            var metaTags = document.getElementsByTagName('meta');
-            var modificationDate;
 
-            // Array with month names
-            var months = [
-                "January", "February", "March", "April", "May", "June",
-                "July", "August", "September", "October", "November", "December"
-            ];
+// Função para extrair e exibir a data de modificação
+function exibirDataModificacao() {
+    var metaTags = document.getElementsByTagName('meta');
+    var dataModificacao;
 
-            // Find the meta tag with property="article:modified_time"
-            for (var i = 0; i < metaTags.length; i++) {
-                if (metaTags[i].getAttribute('property') === 'article:modified_time') {
-                    modificationDate = metaTags[i].getAttribute('content');
-                    break;
-                }
-            }
+    // Array com os nomes dos meses por extenso
+    var meses = [
+        "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
+        "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
+    ];
 
-            // Display the modification date on the page
-            if (modificationDate) {
-                var formattedDate = new Date(modificationDate);
-                var day = formattedDate.getDate();
-                var month = months[formattedDate.getMonth()]; // Get the month name
-                var year = formattedDate.getFullYear();
-                var dateElement = document.getElementById('data-modificacao');
-                dateElement.textContent = 'Last updated: ' + month + ' ' + day + ', ' + year;
-            }
+    // Procurar pela tag meta com property="article:modified_time"
+    for (var i = 0; i < metaTags.length; i++) {
+        if (metaTags[i].getAttribute('property') === 'article:modified_time') {
+            dataModificacao = metaTags[i].getAttribute('content');
+            break;
         }
+    }
 
-        // Call the function when the page loads
-        window.onload = displayModificationDate;
+    // Exibir a data de modificação na página
+    if (dataModificacao) {
+        var dataFormatada = new Date(dataModificacao);
+        var dia = dataFormatada.getDate();
+        var mes = meses[dataFormatada.getMonth()]; // Obtém o nome do mês
+        var ano = dataFormatada.getFullYear();
+        var elementoData = document.getElementById('data-modificacao');
+        elementoData.textContent = 'Última Atualização: ' + dia + ' de ' + mes + ' de ' + ano;
+    }
+}
+
+// Chamar a função ao carregar a página
+window.onload = exibirDataModificacao;
+
+
     
 // last modified fim
 
