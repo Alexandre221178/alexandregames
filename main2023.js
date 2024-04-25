@@ -52,3 +52,17 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
   //  fim do cookies alexandregames
+
+   
+  // JavaScript para adicionar a mensagem no footer
+   document.addEventListener("DOMContentLoaded", function() {
+    // Seleciona o elemento do footer onde a mensagem será adicionada
+    var footerMessage = document.getElementById("message");
+    // Cria um novo nó de texto contendo a mensagem desejada
+    var messageText = document.createTextNode("©2024 Alexandre Games Blog");
+    // Adiciona o nó de texto ao elemento do footer
+    footerMessage.appendChild(messageText);
+});
+// FIM DO JavaScript para adicionar a mensagem no footer
+
+
