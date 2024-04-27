@@ -534,11 +534,7 @@ section p{
     width: 100%;
     height: auto;
 }
-.img-ale img{
-       margin: 30px;
-    width: 2%;
-    height: auto;
-}
+
 
 
     
@@ -807,7 +803,31 @@ section p{
 }
 .img-counters img{
     width: 40%;
+    align-items: left;
 }
+
+.img-spells {
+    display: inline-block;
+    text-align: center; /* Alinha o texto ao centro */
+    margin-right: 20px; /* Espaçamento entre as imagens */
+    margin-left: 30px;
+}
+
+.img-spells a {
+    display: block; /* Transforma o link em um bloco */
+}
+.img-builds {
+    display: inline-block;
+    text-align: center; /* Alinha o texto ao centro */
+    margin-right: 20px; /* Espaçamento entre as imagens */
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.img-builds img{
+    width: 90%;
+}
+
+
 figcaption {
     margin-left: 30px;
     color: black;
