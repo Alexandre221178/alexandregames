@@ -1437,6 +1437,9 @@ iframe{
     .footer .row a i{
         margin:0% 3%;
         }
+    #message {
+        font-size: 14px; /* font copyright footer - Altere este valor para o tamanho de fonte desejado */
+        }
     
     
         
