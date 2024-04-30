@@ -837,15 +837,20 @@ img-middle figcaption {
 
 
 .img-builds {
-    display: inline-block;
-    text-align: center; /* Alinha o texto ao centro */
-    margin-right: 20px; /* Espaçamento entre as imagens */
-    margin-left: 30px;
-    margin-bottom: 30px;
+    text-align: left;
+    margin-bottom: 15px;
 }
-.img-builds img{
-    width: 300px;
-    height: 150px;
+.img-builds img {
+    width: 370px;
+    height: 250px;
+   margin-left: 30px;
+    display: block; /* Garante que a imagem tenha um comportamento de bloco */
+    margin: left; /* Centraliza a imagem horizontalmente */
+}
+.img-builds figcaption {
+    text-align: left;
+    width: 100%;
+    
 }
 
 
@@ -1180,8 +1185,16 @@ iframe{
         width: 70%;
           
       }
+      .img-builds {
+        margin: left;
+    } 
+      .img-builds img{
+        margin-left: 9px;
+       width: 95%;
+    } 
     
-      
+        
+     
     
 
     .img-counters img{
