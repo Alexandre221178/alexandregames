@@ -4,10 +4,10 @@ var iconMenu = document.querySelector('nav .menu-icon img');
 
 menuBar.addEventListener('click',function(){
 
-    if (iconMenu.getAttribute("src") == '../imagens/close.webp') {
-        iconMenu.setAttribute("src","../imagens/menu.png");
+    if (iconMenu.getAttribute("src") == './imagens/close.webp') {
+        iconMenu.setAttribute("src","./imagens/menu.png");
     }else{
-        iconMenu.setAttribute("src","../imagens/close.webp");
+        iconMenu.setAttribute("src","./imagens/close.webp");
     }
     
     menu.classList.toggle('active')
@@ -16,41 +16,38 @@ menuBar.addEventListener('click',function(){
 
 // last modified inicio
 
+        // Function to extract and display modification date
+        function displayModificationDate() {
+            var metaTags = document.getElementsByTagName('meta');
+            var modificationDate;
 
-// Função para extrair e exibir a data de modificação
-function exibirDataModificacao() {
-    var metaTags = document.getElementsByTagName('meta');
-    var dataModificacao;
+            // Array with month names
+            var months = [
+                "January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December"
+            ];
 
-    // Array com os nomes dos meses por extenso
-    var meses = [
-        "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
-        "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
-    ];
+            // Find the meta tag with property="article:modified_time"
+            for (var i = 0; i < metaTags.length; i++) {
+                if (metaTags[i].getAttribute('property') === 'article:modified_time') {
+                    modificationDate = metaTags[i].getAttribute('content');
+                    break;
+                }
+            }
 
-    // Procurar pela tag meta com property="article:modified_time"
-    for (var i = 0; i < metaTags.length; i++) {
-        if (metaTags[i].getAttribute('property') === 'article:modified_time') {
-            dataModificacao = metaTags[i].getAttribute('content');
-            break;
+            // Display the modification date on the page
+            if (modificationDate) {
+                var formattedDate = new Date(modificationDate);
+                var day = formattedDate.getDate();
+                var month = months[formattedDate.getMonth()]; // Get the month name
+                var year = formattedDate.getFullYear();
+                var dateElement = document.getElementById('data-modificacao');
+                dateElement.textContent = 'Last updated: ' + month + ' ' + day + ', ' + year;
+            }
         }
-    }
 
-    // Exibir a data de modificação na página
-    if (dataModificacao) {
-        var dataFormatada = new Date(dataModificacao);
-        var dia = dataFormatada.getDate();
-        var mes = meses[dataFormatada.getMonth()]; // Obtém o nome do mês
-        var ano = dataFormatada.getFullYear();
-        var elementoData = document.getElementById('data-modificacao');
-        elementoData.textContent = 'Última Atualização: ' + dia + ' de ' + mes + ' de ' + ano;
-    }
-}
-
-// Chamar a função ao carregar a página
-window.onload = exibirDataModificacao;
-
-
+        // Call the function when the page loads
+        window.onload = displayModificationDate;
     
 // last modified fim
 
@@ -97,8 +94,9 @@ document.addEventListener("DOMContentLoaded", function() {
 });
   //  fim do cookies alexandregames
 
-// JavaScript para adicionar a mensagem no footer
-document.addEventListener("DOMContentLoaded", function() {
+   
+  // JavaScript para adicionar a mensagem no footer
+  document.addEventListener("DOMContentLoaded", function() {
     // Seleciona o elemento do footer onde a mensagem será adicionada
     var footerMessage = document.getElementById("message");
     // Cria um novo nó de texto contendo a mensagem desejada
@@ -107,3 +105,5 @@ document.addEventListener("DOMContentLoaded", function() {
     footerMessage.appendChild(messageText);
 });
 // FIM DO JavaScript para adicionar a mensagem no footer
+
+
