@@ -1201,6 +1201,7 @@ iframe{
         width: 70%;
     } 
     figcaption {
+        font-size: 14px;
         margin-left: 5px; 
     }
 
