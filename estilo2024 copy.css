@@ -19,11 +19,10 @@ body{
 }
 
 nav{
-    display: flex;
+    display:flex;
      /* cor do fundo do no nav #e3f0ff */
-    background-color:  #e3f0ff;
-    justify-content: space-between;
-    align-items: center;
+    
+    
     width: 100%;
     height: 100px;
 }
@@ -31,67 +30,92 @@ nav .menu-icon{
     cursor: pointer;
     display: none;
 }
-nav .logo a{
-    font-size: 30px;
-    font-weight: bold;
-    /* cor da letra do logo */
-    color: #5654b3;
-    text-decoration: none;
-    
-}
-
-
 
 
 .container a:hover{
     color: #f9464f;
     }
-nav ul{
-    display: flex;
-    list-style: none;
-    align-items: center;
-    
-}
-nav ul li{
-    padding: 0 15px;
-
-}
-nav ul li a{
-
-    text-decoration: none;
-    font-size: 17px;
-    
-    /* cor dos textos nav */
-    color: #5654b3;
-    
-}
-nav ul button a{
-    align-items: left;
-    /* cor do fundo do texto no button nav */
-    background-color: none;
-    /* cor das letras no button nav */
-    color: #5654b3;
-    font-weight: bold;
-    font-size: 19px;
-    
-    text-decoration: none;
-}
-
-nav ul button{
-    /* cor do fundo do button nav */
-   background-color: #e3f0ff;
-    border: none;
-    color: #5654b3;
+    nav{
+        display: flex;
+         /* cor do fundo do no nav #e3f0ff */
+        background-color:  black;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 70px;
+    }
+    nav .menu-icon{
+        cursor: pointer;
+        display: none;
+    }
+    nav .logo a{
+        font-size: 12px;
+        font-weight: bold;
+        /* cor da letra do logo */
+        color: #faf9f9;
+        text-decoration: none;
        
-    /* comandos para letras button nav padding: 10px 20px;*/
-    padding: 10px 15px;
-    border-radius: 5px;
+        
+    }
     
-    font-size: 20px;
-    letter-spacing: 1px;
     
-    cursor: pointer;
-}
+    
+    
+    .container a:hover{
+        color: #f9464f;
+        }
+    nav ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        
+    }
+    nav ul li{
+        padding: 0 15px;
+        
+        
+    
+    }
+    nav ul li a{
+    
+        text-decoration: none;
+        font-size: 17px;
+        
+        
+        /* cor dos textos nav */
+        
+        
+    }
+    nav ul button a{
+        align-items: left;
+        /* cor do fundo do texto no button nav */
+        background-color: none;
+        /* cor das letras no button nav */
+        color: white;
+        font-weight: bold;
+        font-size: 19px;
+        
+        text-decoration: none;
+    }
+    
+    
+    nav ul button{
+        /* cor do fundo do button nav */
+       background-color: rgb(0, 0, 0);
+        border: none;
+       text-decoration: none;
+       color: white;
+       font-size: 19px;
+           
+        /* comandos para letras button nav padding: 10px 20px;*/
+        padding: 10px 15px;
+        border-radius: 5px;
+        
+        
+        letter-spacing: 1px;
+        
+        cursor: pointer;
+    }
 
 
   /* Fake image, just for this example */
@@ -111,8 +135,13 @@ nav ul button{
     background-color: #666;
     color: white;
   }
-  
-
+  /* esse main separa footer da tela se mexer estraga tudo */
+  main{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
   /* Column container */
@@ -129,46 +158,21 @@ nav ul button{
     -ms-flex: 65%; /* IE10 */
     flex: 65%;
     background-color: #f1f1f1;
-    padding: 20px;
+    
   }
   
   /* Main column */
   .main {   
     -ms-flex: 35%; /* IE10 */
     flex: 35%;
-    background-color: white;
+    background-color: black;
    
     
     
   }
-  .main img{
-    
-        width: 180px;
-        height:auto;       
-        align-items: center;
-        text-align: center;
-        float: left;
-        image-orientation: left;
-        padding: 2% 3%;
-        margin-top: 10px;
-   
-  }
-  .main a{  
-    padding: 0.1%;
-    float: center;
-    
-    image-orientation: flex;
-    margin-top: 1px;
-    text-decoration: none;
-    font-size: 18px;
-    text-decoration: none;
-    font-size: 19px;
-    
-    
-}
-.main img{
-    width: 80%;
-}
+  
+  
+
 .main a:hover {
     color: red;
 }
@@ -185,7 +189,7 @@ nav ul button{
 
 
 
-/* cor botao fundo pt-br */
+/* cor botao fundo pt-br 
 .buttonEnglish a{
    
     padding: 10px 20px;
@@ -197,8 +201,8 @@ nav ul button{
     cursor: pointer;
     color: #5654b3;
     text-decoration: none;
-}
-
+}*/
+ /* cor dos textos botao lingua en-us 
 .buttonlang a{  
     background-color: none;
     font-size: 17px;
@@ -210,16 +214,11 @@ nav ul button{
     
     
     text-transform: uppercase;
-    /* cor dos textos botao lingua en-us */
+    
     color: #5654b3;
-}
+}*/
 
-main{
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 /* teste dropdown menu */
 .dropbtn {
@@ -227,7 +226,7 @@ main{
     /* cor buttom MAIS  */
     font-weight: bold;
     padding: 18px;
-    color: #5654b3;
+    color: white;
     font-size: 20px;
     border: none;
     cursor: pointer;
@@ -244,14 +243,14 @@ main{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #e3f0ff;
-    min-width: 180px;
+    background-color: black;
+    min-width: 170px;
     
     z-index: 1;
   }
   
   .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -259,16 +258,14 @@ main{
     cursor: pointer;
   }
   
-  .dropdown-content a:hover {background-color: #e3f0ff}
+  .dropdown-content a:hover {background-color: black}
   
   .dropdown:hover .dropdown-content {
     display: block;
   }
   
-  .dropdown:hover .dropbtn {
-    background-color: #f9c8c1;
-  }
-    /* letras de listas com pontos */
+  
+    /* letras de listas com pontos positivos e negativos dos herois
 .check-list li{
     text-align: left;
     line-height: 30px;
@@ -279,24 +276,27 @@ main{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;   
 
-}
-
+}     */
+/* margim das letras exclusivo para ponto positivos e negativos */      
+/* margim das letras aba mais 
 .checklist-stats li{
     padding: 2%;
     margin-left: 0px;
     text-align: left;
     line-height: 19px;
     font-weight: normal;
-    color: Black;
+    
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;   
+}   */
 
-}
 li{
     padding: 0.7%;
-    margin-left: 50px;
+    /* margim das letras li gpt */
+    margin-left: 70px;
     text-align: left;
-    line-height: 28px;
+    /* distancia das letras li gpt */
+    line-height: 25px;
     font-weight: normal;
     color: Black;
     font-size: 20px;
@@ -339,25 +339,28 @@ p {
 
 
 h1 {
-    color: #5654b3;
+    color: #5105cb;
+    
     padding: 0,2%;
     text-align: left;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 h2 {
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 25px;
     
-    color: #5656b3;
-    font-size: 28px;
+    color: #31017d;
+    font-size: 29px;
     
     padding: 0,2%;
     text-align: left;
 }
 h3 {
     margin-left: 30px;
-    margin-top: 30px;
-    color: #f9464f;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #bc0006;
     font-size: 24px;
     padding: 0,2%;
     text-align: left;
@@ -385,6 +388,10 @@ h6 {
     font-size: 20px;
     text-align: left;
 }
+/* form para pesquisa no site */
+form {
+    text-align: right;
+}
 
 /* letras texto de caixa na seção */
 section p{
@@ -411,19 +418,24 @@ section p{
 .text-bx h1{
     font-size: 3rem;
     text-transform: uppercase;
+    margin-bottom: 0px;
+    
     
 }
 
 /* text title do título novo */
 .text-title h1{
-    font-size: 3rem;
+    font-size: 40px;
+    font-weight: bold;
     text-transform: uppercase;
-    margin-left: 140px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 0px;
     
     text-transform: uppercase;
 }
 .text-title h1 b{
-    color: #f1676d;
+    color: #e20c17;
     
 }
 
@@ -447,8 +459,8 @@ section p{
 }
 .text-bx p{
     color: #372c62;
-        font-weight: 400;
-    margin-top: 22px;
+        
+    margin-top: 10px;
 }
 .text-bx .input-bx{
     margin: 2px 0;
@@ -500,12 +512,31 @@ section p{
     color:#242424fd
 
 }
+.autor ul{
+    list-style: none;
+    margin-top: 0px;
+    
+    
+}
+.autor ul li{
+    
+    margin: 30px; 
+    margin-top: 0px;
+    font-size: 14px;
+}
 
 .img-banner img{
        
     width: 100%;
+    height: 400px;    
+}
+.img-banner-index img{
+       
+    width: 100%;
     height: auto;
 }
+
+
 
     
 
@@ -541,8 +572,44 @@ section p{
         border: 4px solid #5654b3;
 }
 .logo img{
-    width: 30%;
+    width: 50%;
     height: auto;
+}
+/* imagem do embed index */
+.img-embed{
+    width: 300px;
+    height: 180px;
+   
+    
+    margin-bottom: 120px;
+    align-items: center;
+    text-align: center;
+    float: left;
+    image-orientation: left;
+    padding: 1% 2%;
+}
+.img-embed a :hover{
+    color: #f9464f;
+}
+.img-embed a{
+    padding: 0.1%;
+    /* float e text align para texto a esquerda */
+    float: left;
+    text-align: left;
+    color: black;
+    image-orientation: flex;
+    margin-top: 1px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.img-embed a:hover{
+    color: #f9464f;
+    }
+
+.img-embed img{
+        width: 100%;
+        height: 100%;
+        border: 4px solid #5654b3;
 }
         
         /* guide imagem do logo do guia de Heróis */
@@ -582,35 +649,45 @@ section p{
     color: red;
 }
 
-/*imagens de mais visitados */
+/*imagens de mais old180 e auto visitados */
+
+/* imagem do embed index */
 .img-visited{
-    width: 180px;
-    height:auto;   
+    width: 300px;
+    height: 180px;
    
+    
+    margin-bottom: 70px;
     align-items: center;
     text-align: center;
     float: left;
-    image-orientation: center;
-    padding: 2% 3%;
-    margin-top: 10px;
+    image-orientation: left;
+    padding: 1% 2%;
 }
-.img-visited a{  
-   text-align: justify;
+.img-visited a :hover{
+    color: #f9464f;
+}
+.img-visited a{
+    padding: 0.1%;
+    /* float e text align para texto a esquerda */
+    float: left;
+    text-align: left;
+    color: white;
+    image-orientation: flex;
+    margin-top: 1px;
     text-decoration: none;
-    
-    
+    font-size: 14px;
 }
+.img-visited a:hover{
+    color: #f9464f;
+    }
+
 .img-visited img{
-    width: 80%;
-    margin: 10px;
-    
-   
+        width: 100%;
+        height: 100%;
+        border: 4px solid #5654b3;
 }
-.img-visited a:hover {
-    color: red;
-}
-
-
+        
 
 
     /* imagens do menu guia de heróis */    
@@ -641,8 +718,9 @@ section p{
 
      /* imagens do menu guia de heróis */    
 .img-home{
-    height: 210px;       
-    width: 80%;
+    width: 100%;
+    
+    
     
    margin-bottom: 80px;
     align-items: center;
@@ -664,6 +742,9 @@ section p{
     }
 .img-home img{
     border: 4px solid #5654b3;
+    width: 400px;
+    height: 200px;       
+    
 }
 
 
@@ -723,7 +804,57 @@ section p{
 }
 .img-counters img{
     width: 40%;
+    align-items: left;
 }
+
+.img-spells {
+    display: inline-block;
+    text-align: center; /* Alinha o texto ao centro */
+    margin-right: 20px; /* Espaçamento entre as imagens */
+    margin-left: 30px;
+}
+
+.img-spells a {
+    display: block; /* Transforma o link em um bloco */
+}
+
+
+.img-middle {
+    margin-left: 40px;
+    font-style: italic;
+    font-size: 14px;
+    text-align: left; /* Alinha o texto à esquerda */
+    width: 300px; /* Ajuste conforme o tamanho da imagem */
+    margin-bottom: 20px;
+}
+
+.img-middle img {
+    width: 90%; /* Para garantir que a imagem preencha a largura */
+    height: auto; /* Para manter a proporção da imagem */
+}
+img-middle figcaption {
+    font-style: italic; /* Deixa o texto em itálico */
+}
+
+
+.img-builds {
+    text-align: left;
+    margin-bottom: 15px;
+}
+.img-builds img {
+    width: 370px;
+    height: 250px;
+   margin-left: 30px;
+    display: block; /* Garante que a imagem tenha um comportamento de bloco */
+    margin: left; /* Centraliza a imagem horizontalmente */
+}
+.img-builds figcaption {
+    text-align: left;
+    width: 100%;
+    
+}
+
+
 figcaption {
     margin-left: 30px;
     color: black;
@@ -882,7 +1013,7 @@ iframe{
 
 
 
-@media (max-width:760px) {
+@media (max-width:540px) {
     nav .menu-icon{
         display: block;
     }
@@ -901,7 +1032,7 @@ iframe{
         flex-direction: column;
         justify-content: left;
         transition: 0.3s ease-in;
-        background-color: #e3f0ff;
+        background-color: black;
     }
 
     
@@ -911,20 +1042,27 @@ iframe{
         transform: translateX(0);
     }
     nav ul li{
-        padding: 12px;
+        padding: 2px;
+        margin: left;
     }
     nav ul li a{
-        font-size: 20px;
-         color: black;
+        text-align: left;
+        font-size: 16px;
+        margin-left: 5px;
+         color: white;
+        
+        
     }
     nav ul button{
-       
-        font-size: 19px;
-        margin: auto;
+      text-align: justify;
+        font-size: 17px;     
     }
-    main{
-        flex-direction: column;
-    }
+    nav ul button a{
+        margin: 5px;
+        font-size: 17px;
+          
+     }
+    
     .text-bx,
     .img-bx{
         width: 100%;
@@ -938,10 +1076,10 @@ iframe{
     }
 
     .text-title h1{
-        font-size: 30px;
+        font-size: 25px;
         text-transform: uppercase;
         margin-left: 5px;
-        margin-top: 10px;
+        
     }
     
 
@@ -969,27 +1107,39 @@ iframe{
             color:#1a1b1bfd
     }
     
-    .text-adsnative p{
-    margin-left: 5px;
-    color:#5e5f60fd
     
+    .autor ul li{
+        margin: 5px; 
+        font-size: 14px;
     }
+    .autor li b::before {
+        content: "\a";
+        font-size: 0;
+        display: block;
+        line-height: 0;
+    }
+    
     
     .img-banner img{
        
-        width: 93%; 
-        margin: 3px;  
+        width: 100%; 
+        height: auto;
        
     }
+    .img-banner-index img{
+       
+        width: 100%; 
+        height: auto;
+      
+    }
 
-    
     
     /* imagem do logo para mobile*/
     .img-logoguide img{
         width: 110%;  
     }  
     .logo img{
-        width: 20%;
+        width: 50%;
         height: auto;
     }
         
@@ -1028,15 +1178,7 @@ iframe{
         width: 40%;
         
     }
-    .img-visited img{
-      width: 90%;
-         
-    }
-    .img-visited a{  
-        float: center;
-    text-align: center;
-    text-decoration: none;
-    }
+    
 
     
 
@@ -1044,17 +1186,23 @@ iframe{
         width: 70%;
           
       }
+      .img-builds {
+        margin: left;
+    } 
+      .img-builds img{
+        margin-left: 9px;
+       width: 95%;
+    } 
     
-      .main img{
-        width: 80%;
-          
-      }
+        
+     
     
 
     .img-counters img{
         width: 70%;
     } 
     figcaption {
+        font-size: 14px;
         margin-left: 5px; 
     }
 
@@ -1065,12 +1213,28 @@ iframe{
     }
     
     .img-home img{  
-        width: 100%;
-        margin-bottom: 5px;       
+        width: 98%;
+        height: auto;
+       
+           
     }
     .img-home{  
-        margin-bottom: 5px;       
+        margin-bottom: 110px;       
     }
+    .img-visited{
+        width: 100%;
+        margin-bottom: 100px; 
+       
+    }
+    .img-embed{
+        width: 100%;
+        margin-bottom: 103px; 
+        
+       
+    }
+    
+    
+    
     
 
     
@@ -1096,20 +1260,23 @@ iframe{
         text-align: left;
     }
     h1 {
-        color: #5654b3;
+        color: #5105cb;
         margin-left: 10px;
         padding: 0,2%;
         text-align: left;
     }
     h2 {
         margin-left: 10px;
-        color: #5656b3;
+        font-size: 24px;
+        color:  #31017d;
         padding: 0,2%;
         text-align: left;
     }
     h3 {
         margin-left: 10px;
-        color: #f9464f;
+        font-size: 22px;
+       
+        color: #bc0006;
         padding: 0,2%;
         text-align: left;
     }
@@ -1187,8 +1354,8 @@ iframe{
         
     }
     table {
-    margin: 30px;
-    width: 70%;
+    margin: 10px;
+    width: 95%;
     }
    
     .table-combos th,td{
@@ -1207,15 +1374,19 @@ iframe{
            
     }
     
-    
-    
-    
-    main{        
-        align-items: block;
-       
+    .main {   
+        -ms-flex:100%; /* IE10 */
+        flex: 100%;
+        background-color: black;
     }
+    main{
+        flex-direction: column;
+    }
+    
+    
     .footer a img{
             width: 10%;
+            
     }
 
     
@@ -1234,9 +1405,10 @@ iframe{
     
 
 /* width mesmo tamanho do nav */        
+/* width mesmo tamanho do nav */        
 .footer{
     max-width: 1000px;
-    background-color: #b4d2f5;
+    background-color: #f9f9f9;
     padding:3px 0px;
     justify-content: space-between;
     text-align: center;
@@ -1248,12 +1420,12 @@ iframe{
     margin:1% 0%;
     padding: 0,1% 0%;
     color:rgb(4, 2, 25);
-    font-size: 17px;
+    
     }
     
     .footer .row a{
     text-decoration:none;
-    font-size: 17px;
+    font-size: 16px;
     color: black;
     transition:0.5s;
     }
@@ -1267,11 +1439,13 @@ iframe{
     
     .footer .row ul{
     width:100%;
+    
     }
     
     .footer .row ul li{
     display:inline-block;
     margin:0px 5px;
+    font-size: 12px;
     }
     
     .footer .row a i{
@@ -1287,17 +1461,28 @@ iframe{
         height: 30px;
         margin: 1% 2%;
         padding: 0,9% 1%;
+        border-radius: 100%;
         
     }
     
     .footer .row ul li{
-        display:block;
-        margin:10px 40px;
+        display:inline-table;
+        margin:5px 20px;
         text-align:center;
         }
     .footer .row a i{
         margin:0% 3%;
         }
+    #message {
+        font-size: 14px; /* font copyright footer - Altere este valor para o tamanho de fonte desejado */
+        }
+    
+    
+        
+    
+    
+        
+    
     
     
         
@@ -1314,6 +1499,7 @@ iframe{
 
 /** CSS cokies 2024 **/
 .cookie-banner {
+    
     position: fixed;
     bottom: 0;
     left: 0;
@@ -1322,7 +1508,7 @@ iframe{
     padding: 10px 20px;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
-    z-index: 999;
+    z-index: 1000;
 }
 
 .button-container {
