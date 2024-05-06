@@ -1034,7 +1034,10 @@ iframe{
         transition: 0.3s ease-in;
         background-color: black;
     }
-
+    nav {
+        position: relative;
+        z-index: 1000; /* Ou qualquer valor maior que o z-index do anúncio */
+    }
     
     
     
