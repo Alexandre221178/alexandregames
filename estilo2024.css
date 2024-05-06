@@ -1499,8 +1499,8 @@ iframe{
 
 /** CSS cokies 2024 **/
 .cookie-banner {
-    /** position: fixed; **/
-    position: relative;
+    
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
