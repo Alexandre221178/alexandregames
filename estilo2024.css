@@ -1065,6 +1065,10 @@ iframe{
         font-size: 17px;
           
      }
+
+    .top-margin {
+        margin-top: 10cm; /* ou o valor que você deseja */
+    }
     
     .text-bx,
     .img-bx{
