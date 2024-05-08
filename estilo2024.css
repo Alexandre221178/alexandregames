@@ -1022,7 +1022,7 @@ iframe{
     }
     nav ul{
         position: fixed;
-        width: 80%;
+        width: 83%;
         height: 100%;
         top: 0px;
         left: 0px;
@@ -1058,10 +1058,10 @@ iframe{
     }
     nav ul button{
       text-align: justify;
-        font-size: 17px; 
+        font-size: 16px; 
         
-        margin-top: 15px; /* Mantém o margin-top */
-        line-height: 0.1; /* Reduz o espaço entre as linhas */
+        margin-top: 18px; /* Mantém o margin-top */
+        line-height: 0.1 /* Reduz o espaço entre as linhas */
          
     }
     
