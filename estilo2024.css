@@ -1062,7 +1062,8 @@ iframe{
     }
     nav ul button a{
         margin: 5px;
-        font-size: 17px;
+        
+        font-size: 17px; /* tamanho letras nav mobile*/
           
      }
     
