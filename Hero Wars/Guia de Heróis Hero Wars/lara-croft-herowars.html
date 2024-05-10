@@ -426,7 +426,6 @@ data-full-width-responsive="true"></ins>
 
 <div id="graphcomment"></div>
 <script type="text/javascript">
-
   /* - - - CONFIGURATION VARIABLES - - - */
 
   var __semio__params = {
@@ -447,13 +446,15 @@ data-full-width-responsive="true"></ins>
     __semio__gc_graphlogin(__semio__params)
   }
 
+  function loadGraphComment() {
+    var gc = document.createElement('script');
+    gc.type = 'text/javascript';
+    gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
+    gc.onload = __semio__onload;
+    document.getElementsByTagName('head')[0].appendChild(gc);
+  }
 
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
+  window.onload = loadGraphComment;
 
 </script>
 
