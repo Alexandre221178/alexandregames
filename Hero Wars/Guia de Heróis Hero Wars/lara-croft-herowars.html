@@ -424,39 +424,13 @@ data-full-width-responsive="true"></ins>
 </div> 
 </main>
 
-<div id="graphcomment"></div>
-<script type="text/javascript">
-  /* - - - CONFIGURATION VARIABLES - - - */
-
-  var __semio__params = {
-    graphcommentId: "Alexandre-Games-Blog", // make sure the id is yours
-
-    behaviour: {
-      // HIGHLY RECOMMENDED
-      //  uid: "...", // uniq identifer for the comments thread on your page (ex: your page id)
-    },
-
-    // configure your variables here
-
-  }
-
-  /* - - - DON'T EDIT BELOW THIS LINE - - - */
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-  function loadGraphComment() {
-    var gc = document.createElement('script');
-    gc.type = 'text/javascript';
-    gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    gc.onload = __semio__onload;
-    document.getElementsByTagName('head')[0].appendChild(gc);
-  }
-
-  window.onload = loadGraphComment;
-
-</script>
+<script>
+    var idcomments_acct = '67d023cf8db7afb2d990f7f4ff3fdbfc';
+    var idcomments_post_id;
+    var idcomments_post_url;
+    </script>
+    <span id="IDCommentsPostTitle" style="display:none"></span>
+<script type='text/javascript' src='https://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
 
 <!------------- Footer Inicio ------------->
 <footer>
