@@ -999,9 +999,14 @@ pre{
 }
 
 iframe{    
-    
+        
+    width: auto;    
+    height: auto;
     margin-left: 30px;
-       
+    margin: center;
+    margin-top: 16px;
+            
+     
 }
 
 
@@ -1066,11 +1071,7 @@ iframe{
         font-size: 17px; /* tamanho letras nav mobile*/
           
      }
-     iframe{    
-    
-        margin-left: 5px;
-           
-    }
+
     
     
     .text-bx,
@@ -1377,7 +1378,12 @@ iframe{
     
     }
 
-    
+    iframe{    
+        width: 100%; 
+        height: auto;
+        margin-left: 0px;
+           
+    }
     
     .main {   
         -ms-flex:100%; /* IE10 */
