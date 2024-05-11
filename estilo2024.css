@@ -1510,7 +1510,7 @@ iframe{
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #c9bdba;
+    background-color: #faebe4;
     padding: 10px 20px;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -1530,12 +1530,12 @@ iframe{
 }
 
 .accept-btn {
-    background-color: #4caf50;
+    background-color: #00611E;
     color: white;
 }
 
 .reject-btn {
-    background-color: #f44336;
+    background-color: #9E251A;
     color: white;
 }
 
