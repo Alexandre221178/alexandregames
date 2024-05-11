@@ -104,3 +104,15 @@ document.addEventListener("DOMContentLoaded", function() {
     footerMessage.appendChild(messageText);
 });
 // FIM DO JavaScript para adicionar a mensagem no footer
+
+//  botao graphcomments
+document.getElementById('loadScript').addEventListener('click', function() {
+    // Ocultar o botão depois de clicado
+    this.style.display = 'none';
+
+    // Exibir a mensagem de carregamento
+    document.getElementById('loadingMessage').style.display = 'block';
+
+    // Chamada para a função de carregamento de comentários
+    loadComments();
+  });
