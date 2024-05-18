@@ -525,6 +525,11 @@ section p{
     font-size: 14px;
 }
 
+.suggestion {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .img-banner img{
        
     width: 100%;
