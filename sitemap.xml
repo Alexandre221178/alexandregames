@@ -155,7 +155,12 @@
 <url>
   <loc>https://alexandregames.com/mobile-legends/arlott-english.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.84</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/mobile-legends/arlott.html</loc>
+  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/mobile-legends/change-mlbb.html</loc>
@@ -165,27 +170,52 @@
 <url>
   <loc>https://alexandregames.com/mobile-legends/dyrroth-english.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.84</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/mobile-legends/dyrroth.html</loc>
+  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/mobile-legends/floryn-english.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/mobile-legends/floryn.html</loc>
+  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/mobile-legends/karina-english.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.84</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/mobile-legends/karina.html</loc>
+  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/mobile-legends/layla-english.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.84</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/mobile-legends/layla.html</loc>
+  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/mobile-legends/miya-english.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.84</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/mobile-legends/miya.html</loc>
+  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/roblox-br.html</loc>
@@ -303,41 +333,17 @@
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://alexandregames.com/mobile-legends/arlott.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+
 <url>
   <loc>https://alexandregames.com/mobile-legends/change.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://alexandregames.com/mobile-legends/dyrroth.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://alexandregames.com/mobile-legends/floryn.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://alexandregames.com/mobile-legends/karina.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://alexandregames.com/mobile-legends/layla.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://alexandregames.com/mobile-legends/miya.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+
+
+
+
+
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Aidan-%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
@@ -391,7 +397,7 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Chabba%20-%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Cleaver%20-%20English.html</loc>
@@ -426,22 +432,22 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/elmir-herowars.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Faceless-English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Fafnir%20-%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/fox-herowars.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.60</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Galahad.html</loc>
@@ -451,12 +457,12 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/heidi-english.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Helios%20-%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Iris%20-%20English.html</loc>
@@ -471,12 +477,12 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Ishmael%20-%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Jet%20-%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Jhu%20-%20English.html</loc>
@@ -486,7 +492,7 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Jorgen%20-%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Judge%20-%20English.html</loc>
@@ -496,7 +502,7 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Julius%20-%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/k'arkh-english.html</loc>
@@ -516,22 +522,22 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Krista%20-%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Lars%20-%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/lian-herowars.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Lilith%20-%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Luther%20-%20English.html</loc>
@@ -541,7 +547,7 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Markus-English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Martha%20-%20English.html</loc>
@@ -551,7 +557,7 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Maya%20-%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.84</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Mojo%20-%20English.html</loc>
@@ -566,7 +572,7 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Mushy%20and%20Shroom%20-%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.84</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Nebula%20-%20English.html</loc>
@@ -581,7 +587,7 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/orion-herowars.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/oya-herowars.html</loc>
@@ -591,32 +597,32 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Phobos%20-%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/qingmao-herowars.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Rufus%20%20-%20%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Satori%20-%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.84</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Sebastian%20-%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.84</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Thea%20-%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.60</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Tristan%20-%20English.html</loc>
@@ -626,22 +632,22 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Xe'sha.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.60</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/ziri-english.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Tit%C3%A3s%20Hero%20Wars/Amon-English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Tit%C3%A3s%20Hero%20Wars/araji-herowars.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Tit%C3%A3s%20Hero%20Wars/Avalon-English.html</loc>
@@ -651,22 +657,22 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Tit%C3%A3s%20Hero%20Wars/brustar-herowars.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.84</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Tit%C3%A3s%20Hero%20Wars/Eden-English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.84</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Tit%C3%A3s%20Hero%20Wars/Hyperion-English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.84</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Tit%C3%A3s%20Hero%20Wars/Iyari-English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Tit%C3%A3s%20Hero%20Wars/Keros-English.html</loc>
@@ -686,27 +692,27 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Tit%C3%A3s%20Hero%20Wars/solaris-herowars.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.84</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Xe'sha%20-%20English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.84</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Fac%C3%A7%C3%B5es%20Hero%20Wars.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.51</priority>
+  <priority>0.81</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/talisman-tutorial.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.51</priority>
+  <priority>0.71</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Classes-de-glifos.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.51</priority>
+  <priority>0.71</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Dicas%20de%20Hero%20Wars.html</loc>
