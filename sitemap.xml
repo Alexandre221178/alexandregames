@@ -20,44 +20,27 @@
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars%20English/Hero%20Wars%20English.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <lastmod>2024-05-25T10:20-03:00</lastmod>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://alexandregames.com/HeroWars.html</loc>
+  <lastmod>2024-05-25T10:20-03:00</lastmod>
+  <priority>0.74</priority>
+</url>
+
 <url>
   <loc>https://alexandregames.com/MobileLegends-English.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
 <url>
   <loc>https://alexandregames.com/roblox-us.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://alexandregames.com/Documentos/about.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.20</priority>
-</url>
-<url>
-  <loc>https://alexandregames.com/Documentos/Contact.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.20</priority>
-</url>
-<url>
-  <loc>https://alexandregames.com/Documentos/disclaimer.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.20</priority>
-</url>
-<url>
-  <loc>https://alexandregames.com/Documentos/PrivacyPolicy.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.20</priority>
-</url>
-<url>
-  <loc>https://alexandregames.com/Documentos/TermsofUse.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.20</priority>
-</url>
+
 
 <url>
   <loc>https://alexandregames.com/MobileLegends.html</loc>
@@ -155,11 +138,7 @@
   <priority>0.80</priority>
 </url>
 
-<url>
-  <loc>https://alexandregames.com/HeroWars.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+
 <url>
   <loc>https://alexandregames.com/Hero%20Wars%20English/Factions%20Hero%20Wars.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
@@ -1169,40 +1148,62 @@
 
 
 
-
-
-
-
-
-
-
-
-
+<url>
+  <loc>https://alexandregames.com/Documentos/about.html</loc>
+  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <priority>0.20</priority>
+</url>
 <url>
   <loc>https://alexandregames.com/Documentos/Sobre.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
   <priority>0.24</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/Documentos/Contact.html</loc>
+  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <priority>0.20</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Documentos/Contato.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
   <priority>0.24</priority>
 </url>
+
+<url>
+  <loc>https://alexandregames.com/Documentos/disclaimer.html</loc>
+  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <priority>0.20</priority>
+</url>
 <url>
   <loc>https://alexandregames.com/Documentos/aviso-legal.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
   <priority>0.24</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/Documentos/PrivacyPolicy.html</loc>
+  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <priority>0.20</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Documentos/Pol%C3%ADtica%20de%20privacidade.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
   <priority>0.24</priority>
 </url>
+
+<url>
+  <loc>https://alexandregames.com/Documentos/TermsofUse.html</loc>
+  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <priority>0.20</priority>
+</url>
 <url>
   <loc>https://alexandregames.com/Documentos/Termos%20de%20uso.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
   <priority>0.24</priority>
 </url>
+
+
 
 
 
