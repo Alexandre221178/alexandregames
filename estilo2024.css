@@ -374,7 +374,7 @@ h4 {
 }
 h5 {
         color: #000000;
-        font-size: 18px;
+        font-size: 22px;
         margin-top: 10px;
         margin-left: 30px;
         padding: 0,2%;
@@ -526,8 +526,8 @@ section p{
 }
 
 .suggestion {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .img-banner img{
@@ -607,11 +607,13 @@ section p{
     text-decoration: none;
     font-size: 14px;
 }
+
 .img-embed a:hover{
     color: #f9464f;
     }
 
 .img-embed img{
+    
         width: 100%;
         height: 100%;
         border: 4px solid #5654b3;
@@ -900,13 +902,13 @@ table {
   /* Estilo para o cabeçalho da tabela */
   th {
     background-color: #f2f2f2;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(141, 136, 136);
     padding: 8px;
   }
   
   /* Estilo para as células da tabela */
   td {
-    border: 1px solid #ddd;
+    border: 1px solid rgb(141, 136, 136);
     padding: 8px;
   }
   
@@ -1300,10 +1302,7 @@ iframe{
         margin-left: 10px;
        }
     h5 {
-        color: #18a84d;
-        padding: 0,2%;
-        text-align: left;
-        margin-left: 15px;
+        margin-left: 10px;
     }
     section p{
         margin-left: 15px;
