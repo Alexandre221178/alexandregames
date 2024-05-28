@@ -913,15 +913,21 @@ table {
   }
   
 
-
-
+/* fonte para comentarios click no botao abaixo */
+  #loadScript {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.mobile-only {
+    display: none;
+}
    
 
 
 
 
 
-    /* fontes para tabelas de habilidades */
+    
 
 
   
