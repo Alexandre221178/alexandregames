@@ -813,7 +813,16 @@ section p{
     width: 40%;
     align-items: left;
 }
-
+.image-spells {
+    text-align: center; /* Centraliza o conteúdo da célula */
+    vertical-align: middle; /* Centraliza verticalmente */
+  }
+  .image-spells img {
+    display: block; /* Faz com que a imagem seja tratada como bloco */
+    margin: 0 auto; /* Margem automática para centralização horizontal da imagem */
+    max-width: 100%; /* Garante que a imagem não exceda a largura da célula */
+    height: auto; /* Mantém a proporção da imagem */
+  }
 .img-spells {
     display: inline-block;
     text-align: center; /* Alinha o texto ao centro */
@@ -823,6 +832,19 @@ section p{
 
 .img-spells a {
     display: block; /* Transforma o link em um bloco */
+}
+
+.emblem {
+    margin-bottom: 20px;
+}
+.emblem-title {
+    display: flex;
+    align-items: center;
+}
+.emblem-title img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
 }
 
 
