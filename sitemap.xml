@@ -20,12 +20,12 @@
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars%20English/Hero%20Wars%20English.html</loc>
-  <lastmod>2024-05-25T10:20-03:00</lastmod>
+  <lastmod>2024-05-30T12:41-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/HeroWars.html</loc>
-  <lastmod>2024-05-25T10:20-03:00</lastmod>
+  <lastmod>2024-05-30T12:41-03:00</lastmod>
   <priority>0.74</priority>
 </url>
 
@@ -704,23 +704,23 @@
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Krista%20-%20English.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <lastmod>2024-05-30T13:48-03:00</lastmod>
   <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Krista.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <lastmod>2024-05-30T13:48-03:00</lastmod>
   <priority>0.51</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Lars%20-%20English.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <lastmod>2024-05-30T14:05-03:00</lastmod>
   <priority>0.74</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Lars.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <lastmod>2024-05-30T14:05-03:00</lastmod>
   <priority>0.51</priority>
 </url>
 
@@ -814,12 +814,12 @@
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Mushy%20and%20Shroom%20-%20English.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <lastmod>2024-05-30T14:22-03:00</lastmod>
   <priority>0.84</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Cogu%20e%20M%C3%A9lio.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <lastmod>2024-05-30T14:22-03:00</lastmod>
   <priority>0.51</priority>
 </url>
 
@@ -1168,6 +1168,19 @@
   <priority>0.51</priority>
 </url>
 
+<url>
+  <loc>https://alexandregames.com/Hero%20Wars/articles-herowars/angelskins-en-krista-lars-mushy.html</loc>
+  <lastmod>2024-05-30T12:35-03:00</lastmod>
+  <priority>0.81</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/Hero%20Wars/articles-herowars/angelskins-pt-krista-lars-cogu.html</loc>
+  <lastmod>2024-05-30T12:35-03:00</lastmod>
+  <priority>0.71</priority>
+</url>
+
+
+
 
 
 
@@ -1225,9 +1238,6 @@
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
   <priority>0.24</priority>
 </url>
-
-
-
 
 
 </urlset>
