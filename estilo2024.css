@@ -813,6 +813,20 @@ section p{
     width: 40%;
     align-items: left;
 }
+
+.hero-tierlist {
+    text-align: left; /* Centraliza o conteúdo */
+    margin-top: 40px;
+}
+
+.hero-tierlist img{
+    margin: left;
+    display: block; /* Imagem tratada com elemento de bloco */
+     /* margin: auto; Centraliza a imagem na div */
+    width: 20%; /* Define a imagem para 50% do tamanho original */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
 .image-spells {
     text-align: center; /* Centraliza o conteúdo da célula */
     vertical-align: middle; /* Centraliza verticalmente */
@@ -1103,7 +1117,7 @@ iframe{
      }
      iframe{    
     
-        margin-left: 5px;
+        margin-left: 3px;
            
     }
     
@@ -1274,7 +1288,10 @@ iframe{
     .img-embed{
         width: 100%;
         margin-bottom: 103px; 
+    }
+    .hero-tierlist img{
         
+        width: 30%; /* Define a imagem para 50% do tamanho original */
        
     }
     
@@ -1300,7 +1317,7 @@ iframe{
         
         margin-left: 10px;
         margin-right: 5px;
-        color: black;
+        
         padding: 0,2%;
         text-align: left;
     }
