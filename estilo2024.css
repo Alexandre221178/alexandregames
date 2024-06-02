@@ -135,6 +135,12 @@ nav .menu-icon{
     background-color: #666;
     color: white;
   }
+
+ /* Estilos para ocultar o conteúdo até ser carregado lazy load css */
+ .hidden {
+    display: none;
+}
+
   /* esse main separa footer da tela se mexer estraga tudo */
   main{
     margin-top: 20px;
