@@ -20,12 +20,12 @@
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars%20English/Hero%20Wars%20English.html</loc>
-  <lastmod>2024-06-02T15:38-03:00</lastmod>
+  <lastmod>2024-06-05T21:28-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/HeroWars.html</loc>
-  <lastmod>2024-06-02T15:38-03:00</lastmod>
+  <lastmod>2024-06-05T21:28-03:00</lastmod>
   <priority>0.84</priority>
 </url>
 
@@ -1064,6 +1064,17 @@
   <priority>0.51</priority>
 </url>
 
+<url>
+  <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Tit%C3%A3s%20Hero%20Wars/tenebris-en-herowars-mobile.html</loc>
+  <lastmod>2024-06-05T21:39:00-03:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Tit%C3%A3s%20Hero%20Wars/tenebris-pt-herowars-mobile.html</loc>
+  <lastmod>2024-06-05T21:39:00-03:00</lastmod>
+  <priority>0.75</priority>
+</url>
+
 <!-- fim Titans SiteMap Alexandre Games -->
 
 
@@ -1088,10 +1099,29 @@
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
   <priority>0.81</priority>
 </url>
+
+<url>
+  <loc>https://alexandregames.com/Hero%20Wars%20English/harbor-herowars.html</loc>
+  <lastmod>2024-06-05T21:17-03:00</lastmod>
+  <priority>0.81</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/Hero%20Wars/porto-herowars.html</loc>
+  <lastmod>2024-06-05T21:17-03:00</lastmod>
+  <priority>0.71</priority>
+</url>
+
+
+
 <url>
   <loc>https://alexandregames.com/Hero%20Wars%20English/talisman-herowars.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <lastmod>2024-06-05T21:17-03:00</lastmod>
   <priority>0.84</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/Hero%20Wars/talisman-tutorial.html</loc>
+  <lastmod>2024-06-05T21:17-03:00</lastmod>
+  <priority>0.71</priority>
 </url>
 
 <url>
@@ -1105,11 +1135,7 @@
   <priority>0.84</priority>
 </url>
 
-<url>
-  <loc>https://alexandregames.com/Hero%20Wars/talisman-tutorial.html</loc>
-  <lastmod>2024-05-18T16:32:14+00:00</lastmod>
-  <priority>0.71</priority>
-</url>
+
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars%20English/glyph-class.html</loc>
