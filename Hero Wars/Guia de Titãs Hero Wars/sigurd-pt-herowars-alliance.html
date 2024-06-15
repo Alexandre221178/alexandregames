@@ -533,6 +533,43 @@ data-full-width-responsive="true"></ins>
             </figure>
         </div>
     </main>
+
+    <style>
+        .share-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .share-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .whatsapp { background-color: #25D366; }
+        .facebook { background-color: #4267B2; }
+        .link { background-color: #777; }
+    </style>
+
+<h2>Compartilhar:</2>
+<div class="share-buttons">
+    <a id="whatsapp-share" class="share-button whatsapp" href="#" target="_blank">WhatsApp</a>
+    <a id="facebook-share" class="share-button facebook" href="#" target="_blank">Facebook</a>
+    <a id="link-share" class="share-button link" href="#" target="_blank">Link</a>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const currentUrl = encodeURIComponent(window.location.href);
+
+        document.getElementById('whatsapp-share').href = `https://api.whatsapp.com/send?text=Confira%20este%20conteúdo:%20${currentUrl}`;
+        document.getElementById('facebook-share').href = `https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`;
+        document.getElementById('link-share').href = currentUrl;
+    });
+</script>
     
 
 <!-- fim Hero Wars Footer -->
