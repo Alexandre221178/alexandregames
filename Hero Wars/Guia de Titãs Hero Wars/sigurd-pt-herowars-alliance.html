@@ -507,9 +507,14 @@ data-full-width-responsive="true"></ins>
    <figcaption>Vídeo: Como subir de nível as skins dos Titãs, Hero Wars Alliance.(Legendado)</figcaption>
  </div> 
 </section> 
-</br>
-<br>
-<br>
+
+
+<h2>Compartilhe o Guia do Sigurd com seus amigos:</h2>
+    <div class="share-buttons">
+        <a id="whatsapp-share" class="share-button whatsapp" href="#" target="_blank">WhatsApp</a>
+        <a id="facebook-share" class="share-button facebook" href="#" target="_blank">Facebook</a>
+        <div id="link-share" class="share-button link">Copiar Link</div>
+    </div>
 
     <!-------- Sugestões para os visitantes imagem 300x260 ---------->
 
@@ -534,55 +539,14 @@ data-full-width-responsive="true"></ins>
         </div>
     </main>
 
-    <style>
-        .share-buttons {
-            display: flex;
-            gap: 10px;
-        }
 
-        .share-button {
-            display: inline-block;
-            padding: 10px;
-            color: white;
-            text-align: center;
-            border-radius: 5px;
-            text-decoration: none;
-            font-size: 16px;
-        }
-
-        .whatsapp { background-color: #1fc55c; }
-        .facebook { background-color: #3b5998; }
-        .link { background-color: #000000; cursor: pointer; }
-    </style>
-
-    <h2>Compartilhar:</h2>
-    <div class="share-buttons">
-        <a id="whatsapp-share" class="share-button whatsapp" href="#" target="_blank"><b>WhatsApp</b></a>
-        <a id="facebook-share" class="share-button facebook" href="#" target="_blank">Facebook</a>
-        <div id="link-share" class="share-button link">Copiar Link</div>
-    </div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            const currentUrl = encodeURIComponent(window.location.href);
-
-            document.getElementById('whatsapp-share').href = `https://api.whatsapp.com/send?text=Confira%20este%20conteúdo:%20${currentUrl}`;
-            document.getElementById('facebook-share').href = `https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`;
-
-            document.getElementById('link-share').addEventListener('click', () => {
-                navigator.clipboard.writeText(window.location.href).then(() => {
-                    alert('Link copiado para a área de transferência!');
-                }).catch(err => {
-                    console.error('Erro ao copiar o link: ', err);
-                });
-            });
-        });
-    </script>
+    
+    
     
 
 <!-- fim Hero Wars Footer -->
 <section>
-    <h2>Compartilhe Sua Opinião!</h2>
+    <h2>Deixe Sua Opinião!</h2>
     <p id="commentParagraph">Você gostou do nosso Guia do Sigurd? Há algo que não entendeu ou gostaria de sugerir mudanças? Convidamos você a se juntar à nossa sessão de comentários na página do Alexandre Games Blog. Não hesite em expressar sua opinião, clarificar suas dúvidas e compartilhar sua sugestões.<br> Clique no botão abaixo para começar:</p>
     <button id="loadScript">Carregar Comentários</button>
     <!-- código do botão está no js do footer -->
@@ -590,6 +554,9 @@ data-full-width-responsive="true"></ins>
     <div id="graphcomment"></div>
 
 </section>
+
+
+
 
 
        
@@ -634,6 +601,7 @@ data-full-width-responsive="true"></ins>
 
         <script src="../../Documentos/java3-pt-footer.js"></script>
         <script src="../../Documentos/graphcomments.js"></script>
+        <script src="../../Documentos/share-pt.js"></script>
 
 <!-- close <div class="container"> -->
 </div>
