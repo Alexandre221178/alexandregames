@@ -1,14 +1,16 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-  const currentUrl = encodeURIComponent(window.location.href);
+    const canonicalLink = document.querySelector('link[rel="canonical"]');
+    const currentUrl = canonicalLink ? canonicalLink.href : window.location.href;
+    const encodedUrl = encodeURIComponent(currentUrl);
 
-  document.getElementById('whatsapp-share').href = `https://api.whatsapp.com/send?text=Confira%20este%20conteúdo:%20${currentUrl}`;
-  document.getElementById('facebook-share').href = `https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`;
+    document.getElementById('whatsapp-share').href = `https://api.whatsapp.com/send?text=Confira%20este%20conteúdo:%20${encodedUrl}`;
+    document.getElementById('facebook-share').href = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
 
-  document.getElementById('link-share').addEventListener('click', () => {
-      navigator.clipboard.writeText(window.location.href).then(() => {
-          alert('Link copiado para a área de transferência!');
-      }).catch(err => {
-          console.error('Erro ao copiar o link: ', err);
-      });
-  });
+    document.getElementById('link-share').addEventListener('click', () => {
+        navigator.clipboard.writeText(currentUrl).then(() => {
+            alert('Link copiado para a área de transferência!');
+        }).catch(err => {
+            console.error('Erro ao copiar o link: ', err);
+        });
+    });
 });
