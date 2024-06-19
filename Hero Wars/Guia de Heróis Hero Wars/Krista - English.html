@@ -560,37 +560,32 @@ When in danger of taking damage, Krista summons an ice block that protects the c
     <!-- Video Title -->
     
     <section>
-        <div style="width: 560px; max-width: 100%; height: 315px; margin-bottom: 40px;">
-            <div style="position: relative; width: 100%; height: 100%;">
-                <iframe 
-                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
-                    loading="lazy"
-                    srcdoc="<style>
-                        * {
-                            padding: 0;
-                            margin: 0;
-                            overflow: hidden;
-                        }
-                        img {
-                            position: absolute;
-                            width: 100%;
-                            height: 100%;
-                            top: 0;
-                            left: 0;
-                        }
-                        .play-button {
-                            position: absolute;
-                            width: 64px;
-                            height: 64px;
-                            top: 50%;
-                            left: 50%;
-                            transform: translate(-50%, -50%);
-                            cursor: pointer;
-                        }
-                        .play-button:hover {
-                            transform: translate(-50%, -50%) scale(1.2);
-                        }
-                    </style>
+        <div class="video-container">
+            <div class="video-wrapper">
+                <iframe class="video-iframe"
+                  loading="lazy"
+                  srcdoc="<style>
+                    * {
+                      padding: 0;
+                      margin: 0;
+                      overflow: hidden;
+                    }
+                    img, svg {
+                      position: absolute;
+                      width: 100%;
+                      top: 0;
+                      bottom: 0;
+                      margin: auto;
+                    }
+                    svg {
+                      filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
+                      transition: all 250ms ease-in-out;
+                    }
+                    body:hover svg {
+                      filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
+                      transform: scale(1.2);
+                    }
+                  </style>
             <a href='https://www.youtube.com/embed/TZ7rLc9koMI?autoplay=1'>
               <img src='https://img.youtube.com/vi/TZ7rLc9koMI/hqdefault.jpg' alt='Krista and Lars Best Teams'>
               <svg class='play-button' xmlns='http://www.w3.org/2000/svg' width='84' height='84' viewBox='0 0 24 24' fill='none' stroke='red' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-play-circle'>
@@ -605,7 +600,7 @@ When in danger of taking damage, Krista summons an ice block that protects the c
             notallowfullscreen>
           </iframe>
         </div>
-        <figcaption>Video: Krista and Lars Best Teams. </figcaption>
+        <figcaption class="video-caption">Video: Krista and Lars Best Teams. </figcaption>
       </div> 
     </section> 
     

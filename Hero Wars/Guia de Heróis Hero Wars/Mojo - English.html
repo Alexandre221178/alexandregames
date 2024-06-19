@@ -498,38 +498,32 @@ The skill remains active after Mojo dies, dealing an extra 20% of the damage the
 <section>
     <!-- Video Title -->
     
-    <div style="width: auto; max-width: 660px; margin: 13px;">
-        <div style="position: relative; padding-bottom: 56.15%; padding-right: 0%; height: 0; overflow: hidden; ">
-          <iframe 
-          style="position: absolute; top: 0; left: 0px; right: 0px; width: 100%; height: 100%; border: 0; "
-          loading="lazy";
-            srcdoc="<style>
-              * {
-              padding: 0%;
-              margin: 0px;
-              overflow: hidden;
-              }
-          
-        
-          
-          img, svg {
-            position: absolute;
-            width: 96%;
-            top: 0px;
-            bottom: 5%;
-            margin: auto;
-          }
-          
-          svg {
-            filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
-            transition: all 250ms ease-in-out;
-          }
-          
-          body:hover svg {
-            filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
-            transform: scale(1.2);
-          }
-
+    <div class="video-container">
+        <div class="video-wrapper">
+            <iframe class="video-iframe"
+              loading="lazy"
+              srcdoc="<style>
+                * {
+                  padding: 0;
+                  margin: 0;
+                  overflow: hidden;
+                }
+                img, svg {
+                  position: absolute;
+                  width: 100%;
+                  top: 0;
+                  bottom: 0;
+                  margin: auto;
+                }
+                svg {
+                  filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
+                  transition: all 250ms ease-in-out;
+                }
+                body:hover svg {
+                  filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
+                  transform: scale(1.2);
+                }
+              </style>
         </style>
         <a href='https://www.youtube.com/embed/#Mv7MY4j9Ylo?autoplay=1'>
           <img src='https://img.youtube.com/vi/Mv7MY4j9Ylo/hqdefault.jpg' alt='Mojo Revamp vs Hydras'>
