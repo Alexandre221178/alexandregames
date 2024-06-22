@@ -1065,8 +1065,9 @@ iframe{
 }
  /* botoes compartilhar */
 .share-button {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    margin-left: 30px;
     display: inline-block;
     padding: 10px;
     font-weight: bold;
@@ -1363,6 +1364,14 @@ iframe{
         
         width: 30%; /* Define a imagem para 50% do tamanho original */
        
+    }
+
+    .share-button {
+        margin-top: 1px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        
+        font-size: 14px;
     }
     
     
