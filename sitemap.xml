@@ -9,23 +9,23 @@
 
 <url>
   <loc>https://alexandregames.com/</loc>
-  <lastmod>2024-06-08T18:38-03:00</lastmod>
+  <lastmod>2024-06-24T20:55-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/index-pt.html</loc>
-  <lastmod>2024-06-08T18:38-03:00</lastmod>
+  <lastmod>2024-06-24T20:55-03:00</lastmod>
   <priority>0.95</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/herowars-alliance-en.html</loc>
-  <lastmod>2024-06-22T18:28-03:00</lastmod>
+  <lastmod>2024-06-24T20:55-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/HeroWars.html</loc>
-  <lastmod>2024-06-22T19:34-03:00</lastmod>
+  <lastmod>2024-06-24T20:55-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 
@@ -1211,6 +1211,22 @@
   <priority>0.71</priority>
 </url>
 <!-- fim artigos SiteMap Alexandre Games -->
+
+<!-- inicio dicas de eventos events SiteMap Alexandre Games -->
+<url>
+  <loc>https://alexandregames.com/Hero%20Wars/events/treasures-of-valkyries-en-hwa.html</loc>
+  <lastmod>2024-06-24T20:33-03:00</lastmod>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/Hero%20Wars/events/treasures-of-valkyries-pt-hwa.html</loc>
+  <lastmod>2024-06-24T20:33-03:00</lastmod>
+  <priority>0.61</priority>
+</url>
+
+
+
+<!-- fim dicas de eventos events SiteMap Alexandre Games -->
 
 
 <!-- inicio Roblox SiteMap Alexandre Games -->
