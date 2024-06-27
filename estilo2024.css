@@ -815,10 +815,24 @@ section p{
     margin-left: 30px;
     
 }
+.img-counters strong{
+    
+   
+    margin-left: 20px;
+
+}
 .img-counters img{
     width: 40%;
     align-items: left;
 }
+
+
+.hero-link img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
 
 .hero-tierlist {
     text-align: left; /* Centraliza o conteúdo */

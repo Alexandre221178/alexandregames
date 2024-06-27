@@ -1216,12 +1216,23 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/events/treasures-of-valkyries-en-hwa.html</loc>
   <lastmod>2024-06-24T20:33-03:00</lastmod>
-  <priority>0.71</priority>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/events/treasures-of-valkyries-pt-hwa.html</loc>
   <lastmod>2024-06-24T20:33-03:00</lastmod>
-  <priority>0.61</priority>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/Hero%20Wars/events/runic-event-en-hwa.html</loc>
+  <lastmod>2024-06-26T21:10-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/Hero%20Wars/events/runic-event-pt-hwa.html</loc>
+  <lastmod>2024-06-26T21:10-03:00</lastmod>
+  <priority>0.60</priority>
 </url>
 
 
