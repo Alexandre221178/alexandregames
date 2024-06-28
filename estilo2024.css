@@ -870,6 +870,7 @@ section p{
 
 .emblem {
     margin-bottom: 20px;
+    margin-left: 30px;
 }
 .emblem-title {
     display: flex;
@@ -877,8 +878,8 @@ section p{
 }
 .emblem-title img {
     margin-right: 10px;
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
 }
 
 
@@ -1374,6 +1375,12 @@ iframe{
         width: 100%;
         margin-bottom: 103px; 
     }
+
+    .emblem {
+       
+        margin-left: 5px;
+    }
+
     .hero-tierlist img{
         
         width: 30%; /* Define a imagem para 50% do tamanho original */
