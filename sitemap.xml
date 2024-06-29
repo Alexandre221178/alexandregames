@@ -1211,16 +1211,7 @@
   <priority>0.51</priority>
 </url>
 
-<url>
-  <loc>https://alexandregames.com/Hero%20Wars/articles-herowars/angelskins-en-krista-lars-mushy.html</loc>
-  <lastmod>2024-05-30T12:35-03:00</lastmod>
-  <priority>0.81</priority>
-</url>
-<url>
-  <loc>https://alexandregames.com/Hero%20Wars/articles-herowars/angelskins-pt-krista-lars-cogu.html</loc>
-  <lastmod>2024-05-30T12:35-03:00</lastmod>
-  <priority>0.71</priority>
-</url>
+
 <!-- fim artigos SiteMap Alexandre Games -->
 
 <!-- inicio analises de skin SiteMap Alexandre Games -->
@@ -1244,7 +1235,18 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/articles-herowars/aidan-celestial-skin-pt-hwa.html</loc>
   <lastmod>2024-06-28T19:15-03:00</lastmod>
+  <priority>0.61</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/Hero%20Wars/articles-herowars/octavia-super-skin-en-hwa.html</loc>
+  <lastmod>2024-06-28T22:15-03:00</lastmod>
   <priority>0.71</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/Hero%20Wars/articles-herowars/octavia-super-skin-pt-hwa.html</loc>
+  <lastmod>2024-06-28T22:15-03:00</lastmod>
+  <priority>0.61</priority>
 </url>
 
 <!-- fim analises de skin SiteMap Alexandre Games -->
