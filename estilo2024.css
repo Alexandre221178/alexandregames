@@ -270,6 +270,12 @@ nav .menu-icon{
     display: block;
   }
   
+  blockquote {
+    margin: 30px;
+    background-color: hsl(0, 4%, 86%); /* Fundo cinza */
+    padding: 10px;
+    border-left: 5px solid rgba(152, 152, 152, 0.74);
+}
   
     /* letras de listas com pontos positivos e negativos dos herois
 .check-list li{
