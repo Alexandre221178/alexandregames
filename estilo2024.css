@@ -1639,9 +1639,87 @@ iframe{
         font-size: 14px; /* font copyright footer - Altere este valor para o tamanho de fonte desejado */
         }
     
-    
-        
-    
+    /* calendar Hero Wars Alliance pc e mobile */
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+        .calendar .event-container {
+            position: relative;
+            padding: 10px;
+            background-color: #f9c74f;
+            border-radius: 5px;
+            text-align: center;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .event {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+        .event a {
+            color: #fff;
+            text-decoration: none;
+            z-index: 2;
+            position: relative;
+            font-weight: bold;
+            top: 50px;
+            left: 2px;
+        }
+        .event img {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 55%;
+            left: 51%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+        .date {
+            position: absolute;
+            z-index: 2;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            top: 1px;
+            left: 2px;
+            font-weight: bold;
+        }
+        .event-title {
+            position: absolute;
+            z-index: 2;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            bottom: 5px;
+            left: 5px;
+            right: 5px;
+            text-align: center;
+            font-weight: bold;
+        } 
+        @media (max-width: 768px) {
+            .calendar {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+        @media (max-width: 480px) {
+            .calendar {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
     
         
     
