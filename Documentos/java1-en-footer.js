@@ -1,90 +1,127 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const navHTML = `
-        <div class="logo">
-            <a href="https://alexandregames.com/"><img src="../imagens/exandregames318x318-removebg.webp" alt="Logo Alexandre Games" title="Alexandre Games - Página Inicial"></a>
-        </div>                    
-        <ul>                     
-            <div class="dropdown">
-                <button><a href="../herowars-alliance-pt.html">Hero Wars Alliance</a></button>
-            </div>
-            <div class="dropdown">
-                <button><a href="../MobileLegends-Portuguese.html">Mobile Legends</a></button>
-            </div>
-            <div class="dropdown">
-                <button><a href="../roblox-br.html">Roblox</a></button>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Mais</button>
-                <div class="dropdown-content">
-                    <a href="../Documentos/sobre.html">Sobre Nós</a>
-                    <a href="../Documentos/contato.html">Contato</a>
-                    <a href="../Documentos/aviso-legal.html">Aviso Legal</a>
-                    <a href="../Documentos/politica-de-privacidade.html">Política de Privacidade</a>
-                    <a href="../Documentos/termos-de-uso.html">Termos de Uso</a>
-                </div>
-            </div>
-        </ul>
-        <div class="menu-icon">
-            <img src="../imagens/menu.png" alt="Menu" style="width:48px;height:48px;">
-        </div>
-    `;
+var menu = document.querySelector('nav ul');
+var menuBar = document.querySelector('nav .menu-icon');
+var iconMenu = document.querySelector('nav .menu-icon img');
 
-    const navElement = document.createElement('nav');
-    navElement.innerHTML = navHTML;
-    document.querySelector('.container').prepend(navElement);
+menuBar.addEventListener('click',function(){
 
-    // Move o botão de troca de idioma para dentro do nav
-    const langButton = document.querySelector('.language-switch');
-    navElement.querySelector('ul').appendChild(langButton);
-
-    var menu = document.querySelector('nav ul');
-    var menuBar = document.querySelector('nav .menu-icon');
-    var iconMenu = document.querySelector('nav .menu-icon img');
-
-    menuBar.addEventListener('click', function() {
-        if (iconMenu.getAttribute("src") === '../imagens/close.webp') {
-            iconMenu.setAttribute("src", "../imagens/menu.png");
-        } else {
-            iconMenu.setAttribute("src", "../imagens/close.webp");
-        }
-        
-        menu.classList.toggle('active');
-    });
+    if (iconMenu.getAttribute("src") == './imagens/close.webp') {
+        iconMenu.setAttribute("src","./imagens/menu.png");
+    }else{
+        iconMenu.setAttribute("src","./imagens/close.webp");
+    }
+    
+    menu.classList.toggle('active')
 });
 
-// Última modificação início
 
-// Função para extrair e exibir a data de modificação
-function displayModificationDate() {
-    var metaTags = document.getElementsByTagName('meta');
-    var modificationDate;
+// last modified inicio
 
-    // Array com nomes dos meses
-    var months = [
-        "janeiro", "fevereiro", "março", "abril", "maio", "junho",
-        "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"
-    ];
+        // Function to extract and display modification date
+        function displayModificationDate() {
+            var metaTags = document.getElementsByTagName('meta');
+            var modificationDate;
 
-    // Procura a meta tag com property="article:modified_time"
-    for (var i = 0; i < metaTags.length; i++) {
-        if (metaTags[i].getAttribute('property') === 'article:modified_time') {
-            modificationDate = metaTags[i].getAttribute('content');
-            break;
+            // Array with month names
+            var months = [
+                "January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December"
+            ];
+
+            // Find the meta tag with property="article:modified_time"
+            for (var i = 0; i < metaTags.length; i++) {
+                if (metaTags[i].getAttribute('property') === 'article:modified_time') {
+                    modificationDate = metaTags[i].getAttribute('content');
+                    break;
+                }
+            }
+
+            // Display the modification date on the page
+            if (modificationDate) {
+                var formattedDate = new Date(modificationDate);
+                var day = formattedDate.getDate();
+                var month = months[formattedDate.getMonth()]; // Get the month name
+                var year = formattedDate.getFullYear();
+                var dateElement = document.getElementById('data-modificacao');
+                dateElement.textContent = 'Last updated: ' + month + ' ' + day + ', ' + year;
+            }
         }
+
+        // Call the function when the page loads
+        window.onload = displayModificationDate;
+    
+// last modified fim
+
+
+
+
+//  cookies alexandregames
+document.addEventListener("DOMContentLoaded", function() {
+    const acceptCookiesBtn = document.getElementById('accept-cookies');
+    const rejectCookiesBtn = document.getElementById('reject-cookies');
+    const cookieBanner = document.getElementById('cookie-banner');
+
+    acceptCookiesBtn.addEventListener('click', function() {
+        setCookie('cookie_consent', 'accepted', 365);
+        cookieBanner.style.display = 'none';
+    });
+
+    rejectCookiesBtn.addEventListener('click', function() {
+        setCookie('cookie_consent', 'rejected', 365);
+        cookieBanner.style.display = 'none';
+    });
+
+    function setCookie(name, value, days) {
+        const expires = new Date();
+        expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+        document.cookie = name + '=' + value + ';expires=' + expires.toUTCString() + ';path=/';
     }
 
-    // Exibe a data de modificação na página
-    if (modificationDate) {
-        var formattedDate = new Date(modificationDate);
-        var day = formattedDate.getDate();
-        var month = months[formattedDate.getMonth()]; // Obtém o nome do mês
-        var year = formattedDate.getFullYear();
-        var dateElement = document.getElementById('data-modificacao');
-        dateElement.textContent = 'Última atualização: ' + day + ' ' + month + ', ' + year;
+    function getCookie(name) {
+        const cookieArray = document.cookie.split(';');
+        for (let i = 0; i < cookieArray.length; i++) {
+            const cookiePair = cookieArray[i].split('=');
+            if (name === cookiePair[0].trim()) {
+                return decodeURIComponent(cookiePair[1]);
+            }
+        }
+        return null;
     }
-}
 
-// Chama a função quando a página carrega
-window.onload = displayModificationDate;
+    const consent = getCookie('cookie_consent');
+    if (consent === 'accepted' || consent === 'rejected') {
+        cookieBanner.style.display = 'none';
+    }
+});
+  //  fim do cookies alexandregames
 
-// Última modificação fim
+   
+  // JavaScript para adicionar a mensagem no footer
+  document.addEventListener("DOMContentLoaded", function() {
+    // Seleciona o elemento do footer onde a mensagem será adicionada
+    var footerMessage = document.getElementById("message");
+    // Cria um novo nó de texto contendo a mensagem desejada
+    var messageText = document.createTextNode("©2024 Alexandre Games Blog");
+    // Adiciona o nó de texto ao elemento do footer
+    footerMessage.appendChild(messageText);
+});
+// FIM DO JavaScript para adicionar a mensagem no footer
+
+
+//  botao graphcomments
+document.getElementById('loadScript').addEventListener('click', function() {
+    // Ocultar o botão depois de clicado
+    this.style.display = 'none';
+  
+    // Ocultar o parágrafo
+    var commentParagraph = document.getElementById('commentParagraph');
+    if (commentParagraph) {
+      commentParagraph.style.display = 'none';
+    }
+  
+    // Exibir a mensagem de carregamento
+    document.getElementById('loadingMessage').style.display = 'block';
+  
+    // Chamada para a função de carregamento de comentários
+    loadComments();
+  });
+  
