@@ -1382,8 +1382,18 @@
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://alexandregames.com/Hero%20Wars/events/talisman-keepers-en-hwa.html</loc>
+  <loc>https://alexandregames.com/Hero%20Wars/events/talisman-keepers-pt-hwa.html</loc>
   <lastmod>2024-07-16T21:07-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/Hero%20Wars/events/way-of-honor-event-en-hwa.html</loc>
+  <lastmod>2024-07-17T19:40-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/Hero%20Wars/events/way-of-honor-event-pt-hwa.html</loc>
+  <lastmod>2024-07-17T19:40-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 
