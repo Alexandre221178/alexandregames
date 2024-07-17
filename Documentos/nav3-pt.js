@@ -19,7 +19,16 @@ document.addEventListener('DOMContentLoaded', () => {
                      
                   </div> 
                   
-                  
+            <div class="dropdown">
+                <button class="dropbtn">Top Troops</button>
+                <div class="dropdown-content">
+                
+                    <a href="../top-troops/tips-and-tricks-pt-top-troops.html">Dicas e Truques</a>
+                    <a href="../top-troops/top-troops-pt-tier-list.html">Tier List</a>
+                    
+                </div>
+            </div>
+
             <div class="dropdown">
                 <button class="dropbtn">More</button>
                 <div class="dropdown-content">

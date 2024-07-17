@@ -13,6 +13,17 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="dropdown">
                 <button><a href="../roblox-us.html">Roblox</a></button>
             </div>
+
+<div class="dropdown">
+                <button class="dropbtn">Top Troops</button>
+                <div class="dropdown-content">
+                
+                    <a href="../top-troops/tips-and-tricks-en-top-troops.html">Tips and Tricks</a>
+                    <a href="../top-troops/top-troops-us-tier-list.html">Tier List</a>
+                    
+                </div>
+            </div>
+
             <div class="dropdown">
                 <button class="dropbtn">More</button>
                 <div class="dropdown-content">
