@@ -1,8 +1,4 @@
 
-
-
-
-
 //  cookies alexandregames
 document.addEventListener("DOMContentLoaded", function() {
     const acceptCookiesBtn = document.getElementById('accept-cookies');

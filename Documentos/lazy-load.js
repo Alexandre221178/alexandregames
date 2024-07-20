@@ -4,4 +4,4 @@
 }
 
 // Simula um atraso antes de carregar a segunda metade do conteúdo
-setTimeout(loadSecondHalf, 2000); // Atraso de 2 segundos
+setTimeout(loadSecondHalf, 200); // Atraso de 2 segundos
