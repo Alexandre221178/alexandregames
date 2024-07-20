@@ -1,25 +1,25 @@
 document.addEventListener('DOMContentLoaded', () => {
     const navHTML = `
         <div class="logo">
-            <a href="https://alexandregames.com"><img src="../../imagens/exandregames318x318-removebg.webp" alt="Alexandre Games Logo" title="Alexandre Games - Home"></a>
+            <a href="https://alexandregames.com"><img src="../imagens/exandregames318x318-removebg.webp" alt="Alexandre Games Logo" title="Alexandre Games - Home"></a>
         </div>                    
         <ul>                     
             <div class="dropdown">
-                <button><a href="../../herowars-alliance-en.html">Hero Wars Alliance</a></button>
+                <button><a href="../herowars-alliance-en.html">Hero Wars Alliance</a></button>
             </div>
             <div class="dropdown">
-                <button><a href="../../MobileLegends-English.html">Mobile Legends</a></button>
+                <button><a href="../MobileLegends-English.html">Mobile Legends</a></button>
             </div>
             <div class="dropdown">
-                <button><a href="../../roblox-us.html">Roblox</a></button>
+                <button><a href="../roblox-us.html">Roblox</a></button>
             </div>
 
 <div class="dropdown">
                 <button class="dropbtn">Top Troops</button>
                 <div class="dropdown-content">
                 
-                    <a href="../../top-troops/tips-and-tricks-en-top-troops.html">Tips and Tricks</a>
-                    <a href="../../top-troops/top-troops-us-tier-list.html">Tier List</a>
+                    <a href="../top-troops/tips-and-tricks-en-top-troops.html">Tips and Tricks</a>
+                    <a href="../top-troops/top-troops-us-tier-list.html">Tier List</a>
                     
                 </div>
             </div>
@@ -27,18 +27,18 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="dropdown">
                 <button class="dropbtn">More</button>
                 <div class="dropdown-content">
-                <a href="../../ragnarok-origin/codes-ragnarok-us.html">Ragnarok ROO</a>
+                <a href="../ragnarok-origin/codes-ragnarok-us.html">Ragnarok ROO</a>
                     <a>_____________</a>
-                    <a href="../../Documentos/about.html">About Us</a>
-                    <a href="../../Documentos/Contact.html">Contact</a>
-                    <a href="../../Documentos/disclaimer.html">Disclaimer</a>
-                    <a href="../../Documentos/PrivacyPolicy.html">Privacy Policy</a>
-                    <a href="../../Documentos/TermsofUse.html">Terms of Use</a>
+                    <a href="../Documentos/about.html">About Us</a>
+                    <a href="../Documentos/Contact.html">Contact</a>
+                    <a href="../Documentos/disclaimer.html">Disclaimer</a>
+                    <a href="../Documentos/PrivacyPolicy.html">Privacy Policy</a>
+                    <a href="../Documentos/TermsofUse.html">Terms of Use</a>
                 </div>
             </div>
         </ul>
         <div class="menu-icon">
-            <img src="../../imagens/menu.png" alt="Menu" style="width:48px;height:48px;">
+            <img src="../imagens/menu.png" alt="Menu" style="width:48px;height:48px;">
         </div>
     `;
 
@@ -55,10 +55,10 @@ document.addEventListener('DOMContentLoaded', () => {
     var iconMenu = document.querySelector('nav .menu-icon img');
 
     menuBar.addEventListener('click', function() {
-        if (iconMenu.getAttribute("src") === '../../imagens/close.webp') {
-            iconMenu.setAttribute("src", "../../imagens/menu.png");
+        if (iconMenu.getAttribute("src") === '../imagens/close.webp') {
+            iconMenu.setAttribute("src", "../imagens/menu.png");
         } else {
-            iconMenu.setAttribute("src", "../../imagens/close.webp");
+            iconMenu.setAttribute("src", "../imagens/close.webp");
         }
         
         menu.classList.toggle('active');
