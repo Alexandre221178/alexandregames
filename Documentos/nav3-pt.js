@@ -1,38 +1,29 @@
 document.addEventListener('DOMContentLoaded', () => {
     const navHTML = `
-       <div class="logo">
-                  <a href="https://alexandregames.com/index-pt.html"><img src="../../imagens/exandregames318x318-removebg.webp" alt="logo Alexandre Games Mobile" title="logo Alexandre Games Mobile" ></a>
-              </div>                     
-              <ul>                     
-                  <div class="dropdown">
-                    <button><a href="../../HeroWars.html">Hero Wars Alliance</a></button>
-                      
-                  </div>              
-                      
-                  <div class="dropdown">
-                      <button><a href="../../MobileLegends.html">Mobile Legends</a></button> 
-                     
-                  </div> 
-      
-                  <div class="dropdown">
-                      <button><a href="../../roblox-br.html">Roblox</a></button> 
-                     
-                  </div> 
-                  
-            <div class="dropdown">
-                <button class="dropbtn">Top Troops</button>
+        <div class="logo">
+            <a href="https://alexandregames.com/index-pt.html"><img src="../../imagens/exandregames318x318-removebg.webp" alt="logo Alexandre Games Mobile" title="logo Alexandre Games Mobile"></a>
+        </div>                    
+        <ul>                     
+            <li class="dropdown">
+                <a href="../../HeroWars.html">Hero Wars Alliance</a>
+            </li>              
+            <li class="dropdown">
+                <a href="../../MobileLegends.html">Mobile Legends</a>
+            </li> 
+            <li class="dropdown">
+                <a href="../../roblox-br.html">Roblox</a>
+            </li> 
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Top Troops</a>
                 <div class="dropdown-content">
-                
                     <a href="../../top-troops/tips-and-tricks-pt-top-troops.html">Dicas e Truques</a>
                     <a href="../../top-troops/top-troops-pt-tier-list.html">Tier List</a>
-                    
                 </div>
-            </div>
-
-            <div class="dropdown">
-                <button class="dropbtn">More</button>
+            </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Mais</a>
                 <div class="dropdown-content">
-                <a href="../../ragnarok-origin/codigos-ragnarok-br.html">Ragnarok ROO</a>
+                    <a href="../../ragnarok-origin/codigos-ragnarok-br.html">Ragnarok ROO</a>
                     <a>_____________</a>
                     <a href="../../Documentos/Contato.html">Contato</a>
                     <a href="../../Documentos/aviso-legal.html">Isenção de Responsabilidade</a>
@@ -40,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <a href="../../Documentos/Sobre.html">Sobre Nós</a>                   
                     <a href="../../Documentos/Termos de uso.html">Termos de Uso</a>
                 </div>
-            </div>
+            </li>
         </ul>
         <div class="menu-icon">
             <img src="../../imagens/menu.png" alt="Menu" style="width:48px;height:48px;">
@@ -53,7 +44,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Move the language switch button inside the nav
     const langButton = document.querySelector('.language-switch');
-    navElement.querySelector('ul').appendChild(langButton);
+    if (langButton) {
+        navElement.querySelector('ul').appendChild(langButton);
+    }
 
     var menu = document.querySelector('nav ul');
     var menuBar = document.querySelector('nav .menu-icon');
@@ -69,6 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
         menu.classList.toggle('active');
     });
 });
+
 
 // last modified inicio
 

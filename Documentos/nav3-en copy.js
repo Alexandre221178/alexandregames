@@ -3,21 +3,31 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="logo">
             <a href="https://alexandregames.com"><img src="../../imagens/exandregames318x318-removebg.webp" alt="Alexandre Games Logo" title="Alexandre Games - Home"></a>
         </div>                    
-        <ul>
-            <li><a href="../../herowars-alliance-en.html">Hero Wars Alliance</a></li>
-            <li><a href="../../MobileLegends-English.html">Mobile Legends</a></li>
-            <li><a href="../../roblox-us.html">Roblox</a></li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Top Troops</a>
+        <ul>                     
+            <div class="dropdown">
+                <button><a href="../../herowars-alliance-en.html">Hero Wars Alliance</a></button>
+            </div>
+            <div class="dropdown">
+                <button><a href="../../MobileLegends-English.html">Mobile Legends</a></button>
+            </div>
+            <div class="dropdown">
+                <button><a href="../../roblox-us.html">Roblox</a></button>
+            </div>
+
+<div class="dropdown">
+                <button class="dropbtn">Top Troops</button>
                 <div class="dropdown-content">
+                
                     <a href="../../top-troops/tips-and-tricks-en-top-troops.html">Tips and Tricks</a>
                     <a href="../../top-troops/top-troops-us-tier-list.html">Tier List</a>
+                    
                 </div>
-            </li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">More</a>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">More</button>
                 <div class="dropdown-content">
-                    <a href="../../ragnarok-origin/codes-ragnarok-us.html">Ragnarok ROO</a>
+                <a href="../../ragnarok-origin/codes-ragnarok-us.html">Ragnarok ROO</a>
                     <a>_____________</a>
                     <a href="../../Documentos/about.html">About Us</a>
                     <a href="../../Documentos/Contact.html">Contact</a>
@@ -25,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <a href="../../Documentos/PrivacyPolicy.html">Privacy Policy</a>
                     <a href="../../Documentos/TermsofUse.html">Terms of Use</a>
                 </div>
-            </li>
+            </div>
         </ul>
         <div class="menu-icon">
             <img src="../../imagens/menu.png" alt="Menu" style="width:48px;height:48px;">
@@ -38,13 +48,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Move the language switch button inside the nav
     const langButton = document.querySelector('.language-switch');
-    if (langButton) {
-        navElement.querySelector('ul').appendChild(langButton);
-    }
+    navElement.querySelector('ul').appendChild(langButton);
 
-    const menu = document.querySelector('nav ul');
-    const menuBar = document.querySelector('nav .menu-icon');
-    const iconMenu = document.querySelector('nav .menu-icon img');
+    var menu = document.querySelector('nav ul');
+    var menuBar = document.querySelector('nav .menu-icon');
+    var iconMenu = document.querySelector('nav .menu-icon img');
 
     menuBar.addEventListener('click', function() {
         if (iconMenu.getAttribute("src") === '../../imagens/close.webp') {
@@ -52,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             iconMenu.setAttribute("src", "../../imagens/close.webp");
         }
-
+        
         menu.classList.toggle('active');
     });
 });
