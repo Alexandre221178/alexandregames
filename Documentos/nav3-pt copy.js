@@ -40,8 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const navElement = document.createElement('nav');
     navElement.innerHTML = navHTML;
-    const navPlaceholder = document.getElementById('nav-placeholder');
-    navPlaceholder.replaceWith(navElement);
+    document.querySelector('.container').prepend(navElement);
 
     // Move the language switch button inside the nav
     const langButton = document.querySelector('.language-switch');
@@ -64,54 +63,67 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// Código para exibir a data de modificação
-document.addEventListener('DOMContentLoaded', () => {
-    function displayModificationDate() {
-        var metaTags = document.getElementsByTagName('meta');
-        var modificationDate;
 
-        // Array com nomes dos meses
-        var months = [
-            "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
-            "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
-        ];
+// last modified inicio
 
-        // Encontra a meta tag com a propriedade "article:modified_time"
-        for (var i = 0; i < metaTags.length; i++) {
-            if (metaTags[i].getAttribute('property') === 'article:modified_time') {
-                modificationDate = metaTags[i].getAttribute('content');
-                break;
+        // Function to extract and display modification date
+        function displayModificationDate() {
+            var metaTags = document.getElementsByTagName('meta');
+            var modificationDate;
+
+            // Array com nomes dos meses
+            var months = [
+                "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
+                "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
+];
+
+            // Find the meta tag with property="article:modified_time"
+            for (var i = 0; i < metaTags.length; i++) {
+                if (metaTags[i].getAttribute('property') === 'article:modified_time') {
+                    modificationDate = metaTags[i].getAttribute('content');
+                    break;
+                }
+            }
+
+            // Display the modification date on the page
+            if (modificationDate) {
+                var formattedDate = new Date(modificationDate);
+                var day = formattedDate.getDate();
+                var month = months[formattedDate.getMonth()]; // Get the month name
+                var year = formattedDate.getFullYear();
+                var dateElement = document.getElementById('data-modificacao');
+                dateElement.textContent = 'Última atualização: ' + month + ' ' + day + ', ' + year;
             }
         }
 
-        // Exibe a data de modificação na página
-        if (modificationDate) {
-            var formattedDate = new Date(modificationDate);
-            var day = formattedDate.getDate();
-            var month = months[formattedDate.getMonth()]; // Obtém o nome do mês
-            var year = formattedDate.getFullYear();
-            var dateElement = document.getElementById('data-modificacao');
-            dateElement.textContent = 'Última atualização: ' + month + ' ' + day + ', ' + year;
-        }
-    }
+        // Call the function when the page loads
+        window.onload = displayModificationDate;
+    
+// last modified fim
 
-    // Chama a função quando a página carregar
-    displayModificationDate();
-});
 
-// Código para ajustar a altura do container de anúncios
+// ad container responsivo
 window.addEventListener('load', function() {
     var adContainer = document.getElementById('ad-container');
     var adElement = adContainer.querySelector('.adsbygoogle');
-
+  
     function adjustAdHeight() {
-        if (adElement && adElement.clientHeight > 0) {
-            adContainer.style.height = adElement.clientHeight + 'px';
-        }
+      if (adElement && adElement.clientHeight > 0) {
+        adContainer.style.height = adElement.clientHeight + 'px';
+      }
     }
-
+  
     adjustAdHeight();
-
+  
     // Verifica periodicamente se a altura do anúncio mudou
     setInterval(adjustAdHeight, 500);
-});
+  });
+// fim ad container responsivo
+
+
+
+
+
+  
+
+
