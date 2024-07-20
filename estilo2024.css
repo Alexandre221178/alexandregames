@@ -17,6 +17,14 @@ body{
     margin: 0 auto;
     padding: 0 2%;
 }
+.ad-container {
+    width: 100%;
+    min-height: 250px; /* Altura mínima para garantir espaço reservado */
+    background-color: #f0f0f0; /* Cor de fundo para visualização enquanto o anúncio carrega */
+  }
+
+
+
 /* inicio nav novo em java */
 nav {
     display: flex;
@@ -614,7 +622,7 @@ section p{
     
     margin: 30px; 
     margin-top: 0px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .suggestion {
@@ -1328,7 +1336,7 @@ iframe{
     
     .autor ul li{
         margin: 5px; 
-        font-size: 14px;
+        font-size: 15px;
     }
     .autor li b::before {
         content: "\a";

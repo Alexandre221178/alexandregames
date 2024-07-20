@@ -77,10 +77,10 @@ document.addEventListener('DOMContentLoaded', () => {
             var metaTags = document.getElementsByTagName('meta');
             var modificationDate;
 
-            // Array with month names
+            // Array com nomes dos meses
             var months = [
-                "January", "February", "March", "April", "May", "June",
-                "July", "August", "September", "October", "November", "December"
+            "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
+            "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
             ];
 
             // Find the meta tag with property="article:modified_time"
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 var month = months[formattedDate.getMonth()]; // Get the month name
                 var year = formattedDate.getFullYear();
                 var dateElement = document.getElementById('data-modificacao');
-                dateElement.textContent = 'Last updated: ' + month + ' ' + day + ', ' + year;
+                dateElement.textContent = 'Última atualização: ' + month + ' ' + day + ', ' + year;
             }
         }
 

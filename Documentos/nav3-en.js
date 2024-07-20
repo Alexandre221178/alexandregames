@@ -94,9 +94,23 @@ document.addEventListener('DOMContentLoaded', () => {
     
 // last modified fim
 
-
-
-
+// ad container responsivo
+window.addEventListener('load', function() {
+    var adContainer = document.getElementById('ad-container');
+    var adElement = adContainer.querySelector('.adsbygoogle');
+  
+    function adjustAdHeight() {
+      if (adElement && adElement.clientHeight > 0) {
+        adContainer.style.height = adElement.clientHeight + 'px';
+      }
+    }
+  
+    adjustAdHeight();
+  
+    // Verifica periodicamente se a altura do anúncio mudou
+    setInterval(adjustAdHeight, 500);
+  });
+// fim ad container responsivo
 
 
   
