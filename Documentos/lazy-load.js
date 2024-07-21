@@ -49,5 +49,5 @@ document.addEventListener("DOMContentLoaded", function() {
 }
 
 // Simula um atraso antes de carregar a segunda metade do conteúdo
-setTimeout(loadSecondHalf, 300); // 2000 = Atraso de 2 segundos 
+setTimeout(loadSecondHalf, 150); // 2000 = Atraso de 2 segundos 
 
