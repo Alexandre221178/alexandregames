@@ -114,7 +114,7 @@ nav ul li a:hover {
 
   /* Estilos do botão de troca de idioma */
   .language-switch {
-    position: absolute;
+    
     top: 10px;
     right: 10px;
     background-color: transparent;
@@ -124,7 +124,7 @@ nav ul li a:hover {
 
   .language-switch a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
   }
