@@ -39,6 +39,9 @@ document.addEventListener("DOMContentLoaded", function() {
 //  fim do cookies alexandregames
  
  
+
+
+
  
  // Função para carregar a segunda metade do conteúdo após um atraso
  function loadSecondHalf() {
