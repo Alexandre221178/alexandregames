@@ -105,6 +105,38 @@ nav ul li a:hover {
 
 /* fim nav novo java */
 
+/* inicio Reserve espaço para o menu de navegação */
+.nav-placeholder {
+    height: 80px; /* Altura do menu de navegação */
+    width: 100%; /* Largura do menu de navegação */
+    background-color: #f0f0f0; /* Cor de fundo para visualizar o espaço reservado */
+  }
+
+  /* Estilos do botão de troca de idioma */
+  .language-switch {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .language-switch a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+
+  .language-switch img {
+    width: 24px;
+    height: 16px;
+    margin-right: 5px;
+  }
+/* fim Reserve espaço para o menu de navegação */
+
+
 nav{
     display:flex;
      /* cor do fundo do no nav #e3f0ff */
