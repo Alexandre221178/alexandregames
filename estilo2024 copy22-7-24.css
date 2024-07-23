@@ -25,6 +25,117 @@ body{
 
 
 
+/* inicio nav novo em java */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+nav .logo a img {
+    height: 10%;
+}
+
+nav ul {
+    
+    list-style: none;
+    display: flex;
+    align-items: left;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1px;
+}
+
+nav ul li a {
+    
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #161616;
+    border-radius: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+    
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menu-icon {
+    display: none;
+}
+
+/* fim nav novo java */
+
+/* inicio Reserve espaço para o menu de navegação */
+.nav-placeholder {
+    height: 80px; /* Altura do menu de navegação */
+    width: 100%; /* Largura do menu de navegação */
+    background-color: #f0f0f0; /* Cor de fundo para visualizar o espaço reservado */
+  }
+
+  /* Estilos do botão de troca de idioma */
+  .language-switch {
+    
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .language-switch a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+  }
+
+  .language-switch img {
+    width: 24px;
+    height: 16px;
+    margin-right: 5px;
+  }
+/* fim Reserve espaço para o menu de navegação */
+
 
 nav{
     display:flex;
