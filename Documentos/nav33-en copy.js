@@ -1,40 +1,44 @@
 document.addEventListener('DOMContentLoaded', () => {
     const navHTML = `
         <div class="logo">
-            <a href="https://alexandregames.com"><img src="https://alexandregames.com/imagens/exandregames318x318-removebg.webp" alt="Alexandre Games Logo" title="Alexandre Games - Home"></a>
+            <a href="https://alexandregames.com"><img src="../../imagens/exandregames318x318-removebg.webp" alt="Alexandre Games Logo" title="Alexandre Games - Home"></a>
         </div>                    
         <ul>                     
             <div class="dropdown">
-                <button><a href="https://alexandregames.com/herowars-alliance-en.html">Hero Wars Alliance</a></button>
+                <button><a href="../../herowars-alliance-en.html">Hero Wars Alliance</a></button>
             </div>
             <div class="dropdown">
-                <button><a href="https://alexandregames.com/MobileLegends-English.html">Mobile Legends</a></button>
+                <button><a href="../../MobileLegends-English.html">Mobile Legends</a></button>
             </div>
             <div class="dropdown">
-                <button><a href="https://alexandregames.com/roblox-us.html">Roblox</a></button>
+                <button><a href="../../roblox-us.html">Roblox</a></button>
             </div>
-            <div class="dropdown">
+
+<div class="dropdown">
                 <button class="dropbtn">Top Troops</button>
                 <div class="dropdown-content">
-                    <a href="https://alexandregames.com/top-troops/tips-and-tricks-en-top-troops.html">Tips and Tricks</a>
-                    <a href="https://alexandregames.com/top-troops/top-troops-us-tier-list.html">Tier List</a>
+                
+                    <a href="../../top-troops/tips-and-tricks-en-top-troops.html">Tips and Tricks</a>
+                    <a href="../../top-troops/top-troops-us-tier-list.html">Tier List</a>
+                    
                 </div>
             </div>
+
             <div class="dropdown">
                 <button class="dropbtn">More</button>
                 <div class="dropdown-content">
-                    <a href="https://alexandregames.com/ragnarok-origin/codes-ragnarok-us.html">Ragnarok ROO</a>
+                <a href="../../ragnarok-origin/codes-ragnarok-us.html">Ragnarok ROO</a>
                     <a>_____________</a>
-                    <a href="https://alexandregames.com/Documentos/about.html">About Us</a>
-                    <a href="https://alexandregames.com/Documentos/Contact.html">Contact</a>
-                    <a href="https://alexandregames.com/Documentos/disclaimer.html">Disclaimer</a>
-                    <a href="https://alexandregames.com/Documentos/PrivacyPolicy.html">Privacy Policy</a>
-                    <a href="https://alexandregames.com/Documentos/TermsofUse.html">Terms of Use</a>
+                    <a href="../../Documentos/about.html">About Us</a>
+                    <a href="../../Documentos/Contact.html">Contact</a>
+                    <a href="../../Documentos/disclaimer.html">Disclaimer</a>
+                    <a href="../../Documentos/PrivacyPolicy.html">Privacy Policy</a>
+                    <a href="../../Documentos/TermsofUse.html">Terms of Use</a>
                 </div>
             </div>
         </ul>
         <div class="menu-icon">
-            <img src="https://alexandregames.com/imagens/menu.png" alt="Menu" style="width:48px;height:48px;">
+            <img src="../../imagens/menu.png" alt="Menu" style="width:48px;height:48px;">
         </div>
     `;
 
@@ -42,26 +46,24 @@ document.addEventListener('DOMContentLoaded', () => {
     navElement.innerHTML = navHTML;
     document.querySelector('.container').prepend(navElement);
 
+    // Move the language switch button inside the nav
     const langButton = document.querySelector('.language-switch');
-    if (langButton) {
-        navElement.querySelector('ul').appendChild(langButton);
-    }
+    navElement.querySelector('ul').appendChild(langButton);
 
-    const menu = document.querySelector('nav ul');
-    const menuBar = document.querySelector('nav .menu-icon');
-    const iconMenu = document.querySelector('nav .menu-icon img');
+    var menu = document.querySelector('nav ul');
+    var menuBar = document.querySelector('nav .menu-icon');
+    var iconMenu = document.querySelector('nav .menu-icon img');
 
     menuBar.addEventListener('click', function() {
-        if (iconMenu.getAttribute("src") === 'https://alexandregames.com/imagens/close.webp') {
-            iconMenu.setAttribute("src", "https://alexandregames.com/imagens/menu.png");
+        if (iconMenu.getAttribute("src") === '../../imagens/close.webp') {
+            iconMenu.setAttribute("src", "../../imagens/menu.png");
         } else {
-            iconMenu.setAttribute("src", "https://alexandregames.com/imagens/close.webp");
+            iconMenu.setAttribute("src", "../../imagens/close.webp");
         }
         
         menu.classList.toggle('active');
     });
 });
-
 
 // last modified inicio
 
