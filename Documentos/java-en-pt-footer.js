@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     rejectCookiesBtn.addEventListener('click', function() {
-        setCookie('cookie_consent', 'rejected', 365);
+        setCookie('cookie_consent', 'rejected', 180);
         cookieBanner.style.display = 'none';
     });
 
