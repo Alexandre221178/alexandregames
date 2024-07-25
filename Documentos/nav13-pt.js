@@ -5,22 +5,16 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>                     
         <ul>                     
             <div class="dropdown">
-                <button class="dropbtn">Hero Wars Alliance</button>
-                <div class="dropdown-content">
-                    <a href="https://alexandregames.com/HeroWars.html">Hero Wars Alliance</a>
-                </div>
+                <button class="dropbtn"><a href="https://alexandregames.com/HeroWars.html">Hero Wars Alliance</a></button>
+               
             </div>              
             <div class="dropdown">
-                <button class="dropbtn">Mobile Legends</button>
-                <div class="dropdown-content">
-                    <a href="https://alexandregames.com/MobileLegends.html">Mobile Legends</a>
-                </div>
+                <button class="dropbtn"><a href="https://alexandregames.com/MobileLegends.html">Mobile Legends</a></button>
+                
             </div> 
             <div class="dropdown">
-                <button class="dropbtn">Roblox</button>
-                <div class="dropdown-content">
-                    <a href="https://alexandregames.com/roblox-br.html">Roblox</a>
-                </div>
+                <button class="dropbtn"><a href="https://alexandregames.com/roblox-br.html">Roblox</a></button>
+                
             </div> 
             <div class="dropdown">
                 <button class="dropbtn">Top Troops</button>

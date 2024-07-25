@@ -2,25 +2,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const navHTML = `
         <div class="logo">
             <a href="https://alexandregames.com"><img src="https://alexandregames.com/imagens/exandregames318x318-removebg.webp" alt="Alexandre Games Mobile Logo" title="Alexandre Games Mobile Logo"></a>
-        </div>                     
+        </div>
+        
         <ul>                     
             <div class="dropdown">
-                <button class="dropbtn">Hero Wars Alliance</button>
-                <div class="dropdown-content">
-                    <a href="https://alexandregames.com/herowars-alliance-en.html">Hero Wars Alliance</a>
-                </div>
+                <button class="dropbtn"><a href="https://alexandregames.com/herowars-alliance-en.html">Hero Wars Alliance</a></button>
+                
             </div>              
             <div class="dropdown">
-                <button class="dropbtn">Mobile Legends</button>
-                <div class="dropdown-content">
-                    <a href="https://alexandregames.com/MobileLegends-English.html">Mobile Legends</a>
-                </div>
+                <button class="dropbtn"><a href="https://alexandregames.com/MobileLegends-English.html">Mobile Legends</a></button>
+                
             </div> 
             <div class="dropdown">
-                <button class="dropbtn">Roblox</button>
-                <div class="dropdown-content">
-                    <a href="https://alexandregames.com/roblox-us.html">Roblox</a>
-                </div>
+                <button class="dropbtn"><a href="https://alexandregames.com/roblox-us.html">Roblox</a></button>
+                
             </div> 
             <div class="dropdown">
                 <button class="dropbtn">Top Troops</button>
