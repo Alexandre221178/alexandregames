@@ -912,12 +912,12 @@
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/soleil-en-herowarsalliance.html</loc>
-  <lastmod>2024-07-17T21:35-03:00</lastmod>
+  <lastmod>2024-07-25T22:22-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/soleil-pt-herowarsalliance.html</loc>
-  <lastmod>2024-07-17T21:35-03:00</lastmod>
+  <lastmod>2024-07-25T22:22-03:00</lastmod>
   <priority>0.81</priority>
 </url>
 
@@ -1423,9 +1423,20 @@
   <priority>0.60</priority>
 </url>
 
-
-
 <!-- fim dicas de eventos events SiteMap Alexandre Games -->
+
+<!-- inicio best teams hero wars alliance Alexandre Games -->
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/best-teams/soleil-best-teams-en-hwa.html</loc>
+  <lastmod>2024-07-25T22:22-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/best-teams/soleil-best-teams-pt-hwa.html</loc>
+  <lastmod>2024-07-25T22:22-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<!-- fim best teams hero wars alliance Alexandre Games -->
 
 
 <!-- inicio Roblox SiteMap Alexandre Games -->
