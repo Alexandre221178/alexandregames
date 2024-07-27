@@ -18,11 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 
             </div> 
             <div class="dropdown">
-                <button class="dropbtn">Top Troops</button>
-                <div class="dropdown-content">
-                    <a href="https://alexandregames.com/top-troops/tips-and-tricks-en-top-troops.html">Tips and Tricks</a>
-                    <a href="https://alexandregames.com/top-troops/top-troops-us-tier-list.html">Tier List</a>
-                </div>
+               <button><a href="https://alexandregames.com/top-troops/top-troops-en-home.html">Top Troops</a></button>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">More</button>
