@@ -8,15 +8,20 @@ function doubleEncode(url) {
     return encodeURIComponent(encodeURIComponent(url));
 }
 
+// Detect if the user is on an iOS device
+function isIOS() {
+    return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+}
+
 document.addEventListener('DOMContentLoaded', (event) => {
     const canonicalLink = document.querySelector('link[rel="canonical"]');
     const currentUrl = canonicalLink ? canonicalLink.href : window.location.href;
-    
+
     // Use single encoding for WhatsApp
     const encodedUrlForWhatsApp = singleEncode(currentUrl);
-    
-    // Use double encoding for Facebook
-    const encodedUrlForFacebook = doubleEncode(currentUrl);
+
+    // Conditional encoding for Facebook based on platform
+    const encodedUrlForFacebook = isIOS() ? singleEncode(currentUrl) : doubleEncode(currentUrl);
 
     document.getElementById('whatsapp-share').href = `https://api.whatsapp.com/send?text=Confira%20este%20conteúdo:%20${encodedUrlForWhatsApp}`;
     document.getElementById('facebook-share').href = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrlForFacebook}`;
@@ -29,3 +34,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
         });
     });
 });
+
