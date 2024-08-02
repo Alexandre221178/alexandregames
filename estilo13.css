@@ -871,16 +871,18 @@ section p{
     margin-left: 30px;
     
 }
-.img-counters strong{
-    
-   
-    margin-left: 20px;
 
+.img-counters {
+    text-align: center; /* Center the image horizontally within the parent container */
 }
-.img-counters img{
-    width: 40%;
-    align-items: left;
+
+.img-counters img {
+    width: 80%; /* Maintain the desired width of the image */
+    display: block; /* Treat the image as a block element */
+    margin: 0 auto; /* Automatically center the image within its container */
 }
+
+
 
 
 .hero-link img {
