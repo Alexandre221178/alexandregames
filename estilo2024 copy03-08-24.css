@@ -935,72 +935,6 @@ img-middle figcaption {
 }
 
 
-/* Contêiner principal para organizar as imagens */
-/* imagens do menu guia de heróis */    
-.img-menumobile{
-    height: 210px;       
-    width: 190px;
-   
-    align-items: center;
-    text-align: center;
-    float: left;
-    image-orientation: left;
-    padding: 2% 3%;
-    
-}
-.img-menumobile a{
-    float: center;
-    text-decoration: none;
-    border: 1px solid rgb(255, 255, 255);
-    
-}
-.img-menumobile img{
-    width: 80%;
-}
-
-.img-menumobile a:hover{
-    color: red;
-    }
-/* imagem do embed index */
-.img-menupc{
-    width: 300px;
-    height: 180px;
-   
-    
-    margin-bottom: 120px;
-    align-items: center;
-    text-align: center;
-    float: left;
-    image-orientation: left;
-    padding: 1% 2%;
-}
-.img-menupc a :hover{
-    color: #f9464f;
-}
-.img-menupc a{
-    padding: 0.1%;
-    /* float e text align para texto a esquerda */
-    float: left;
-    text-align: left;
-    color: black;
-    image-orientation: flex;
-    margin-top: 1px;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.img-menupc a:hover{
-    color: #f9464f;
-    }
-
-.img-menupc img{
-    
-        width: 100%;
-        height: 100%;
-        border: 4px solid #5654b3;
-}
-
-
 figcaption {
     margin-left: 30px;
     color: black;
@@ -1438,11 +1372,6 @@ iframe{
         Width: 32%;
         height: 160px;       
     }
-
-    .img-menumobile{
-        Width: 32%;
-        height: 160px;       
-    }
     
     .img-home img{  
         width: 98%;
@@ -1871,31 +1800,3 @@ iframe{
     }
 } 
     
-
-/* Estilos para a imagem dos menus Alexandre Games */
-
-
-
-/* Classe para esconder conteúdo em telas maiores que 700px */
-.mobile-only {
-    display: none;
-}
-
-/* Classe para esconder conteúdo em telas maiores que 700px */
-.desktop-only {
-    display: none;
-}
-
-/* Exibir conteúdo mobile em telas até 700px */
-@media only screen and (max-width: 700px) {
-    .mobile-only {
-        display: block;
-    }
-}
-
-/* Exibir conteúdo desktop em telas maiores que 701px */
-@media only screen and (min-width: 701px) {
-    .desktop-only {
-        display: block;
-    }
-}
