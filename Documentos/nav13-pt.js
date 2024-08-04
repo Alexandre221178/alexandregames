@@ -26,9 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     <a>_____________</a>
                     <a href="https://alexandregames.com/Documentos/Contato.html">Contato</a>
                     <a href="https://alexandregames.com/Documentos/aviso-legal.html">Isenção de Responsabilidade</a>
-                    <a href="https://alexandregames.com/Documentos/Politica-de-privacidade.html">Política de Privacidade</a>
+                    <a href="https://alexandregames.com/Documentos/Pol%C3%ADtica%20de%20privacidade.html">Política de Privacidade</a>
                     <a href="https://alexandregames.com/Documentos/Sobre.html">Sobre Nós</a>
-                    <a href="https://alexandregames.com/Documentos/Termos-de-uso.html">Termos de Uso</a>
+                    <a href="https://alexandregames.com/Documentos/Termos%20de%20uso.html">Termos de Uso</a>
                 </div>
             </div>
         </ul>
