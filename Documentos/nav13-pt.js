@@ -73,7 +73,7 @@ function displayModificationDate() {
         "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
     ];
 
-    // Find the meta tag with property="article:modified_time"
+    // Encontrar a meta tag com property="article:modified_time"
     for (var i = 0; i < metaTags.length; i++) {
         if (metaTags[i].getAttribute('property') === 'article:modified_time') {
             modificationDate = metaTags[i].getAttribute('content');
@@ -81,16 +81,16 @@ function displayModificationDate() {
         }
     }
 
-    // Display the modification date on the page
+    // Exibir a data de modificação na página
     if (modificationDate) {
         var formattedDate = new Date(modificationDate);
         var day = formattedDate.getDate();
-        var month = months[formattedDate.getMonth()]; // Get the month name
+        var month = months[formattedDate.getMonth()]; // Obter o nome do mês
         var year = formattedDate.getFullYear();
         var dateElement = document.getElementById('data-modificacao');
-        dateElement.textContent = 'Última atualização: ' + month + ' ' + day + ', ' + year;
+        dateElement.textContent = 'Última atualização: ' + day + ' de ' + month + ' de ' + year;
     }
 }
 
-// Call the function when the page loads
+// Chamar a função quando a página carregar
 window.onload = displayModificationDate;
