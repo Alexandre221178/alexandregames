@@ -9,23 +9,23 @@
 
 <url>
   <loc>https://alexandregames.com</loc>
-  <lastmod>2024-08-04T11:35-03:00</lastmod>
+  <lastmod>2024-08-05T21:20-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/index-pt.html</loc>
-  <lastmod>2024-08-04T11:35-03:00</lastmod>
+  <lastmod>2024-08-05T21:20-03:00</lastmod>
   <priority>0.95</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/herowars-alliance-en.html</loc>
-  <lastmod>2024-08-04T11:35-03:00</lastmod>
+  <lastmod>2024-08-05T21:20-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/HeroWars.html</loc>
-  <lastmod>2024-08-04T11:35-03:00</lastmod>
+  <lastmod>2024-08-05T21:20-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 
@@ -1361,12 +1361,12 @@
 <!-- inicio dicas de eventos events SiteMap Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html</loc>
-  <lastmod>2024-08-04T11:23-03:00</lastmod>
+  <lastmod>2024-08-05T21:20-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html</loc>
-  <lastmod>2024-08-04T11:23-03:00</lastmod>
+  <lastmod>2024-08-05T21:20-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
@@ -1478,6 +1478,17 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/events/gift-of-the-elements-en-hwa.html</loc>
   <lastmod>2024-07-28T14:43-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/Hero%20Wars/events/folio-event-en-herowarsalliance.html</loc>
+  <lastmod>2024-08-05T21:20-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/Hero%20Wars/events/folio-event-pt-herowarsalliance.html</loc>
+  <lastmod>2024-08-05T21:20-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 
