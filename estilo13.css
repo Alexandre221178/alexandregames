@@ -877,7 +877,7 @@ section p{
 }
 
 .img-counters img {
-    width: 80%; /* Maintain the desired width of the image */
+    width: 50%; /* Maintain the desired width of the image */
     display: block; /* Treat the image as a block element */
     margin: 0 auto; /* Automatically center the image within its container */
 }
@@ -937,8 +937,8 @@ section p{
 }
 .emblem-title img {
     margin-right: 10px;
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: 60px;
 }
 
 
