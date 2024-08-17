@@ -546,6 +546,8 @@ section p{
     font-size: 16px;
 }
 
+
+
 .suggestion {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -1330,6 +1332,10 @@ iframe{
         font-size: 0;
         display: block;
         line-height: 0;
+    }
+    ul li{
+        margin: 30px;
+
     }
     
     
