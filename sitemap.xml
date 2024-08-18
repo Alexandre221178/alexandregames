@@ -20,12 +20,12 @@
 
 <url>
   <loc>https://alexandregames.com/herowars-alliance-en.html</loc>
-  <lastmod>2024-08-17T13:30-03:00</lastmod>
+  <lastmod>2024-08-18T20:35-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/HeroWars.html</loc>
-  <lastmod>2024-08-17T13:30-03:00</lastmod>
+  <lastmod>2024-08-18T20:35-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 
@@ -530,12 +530,12 @@
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/folio-en-hwa.html</loc>
-  <lastmod>2024-08-18T17:18-03:00</lastmod>
+  <lastmod>2024-08-18T20:35-03:00</lastmod>
   <priority>0.88</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/folio-pt-hwa.html</loc>
-  <lastmod>2024-08-18T17:18-03:00</lastmod>
+  <lastmod>2024-08-18T20:35-03:00</lastmod>
   <priority>0.78</priority>
 </url>
 
@@ -1373,12 +1373,12 @@
 <!-- inicio dicas de eventos events SiteMap Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html</loc>
-  <lastmod>2024-08-09T22:58-03:00</lastmod>
+  <lastmod>2024-08-18T20:35-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html</loc>
-  <lastmod>2024-08-09T22:58-03:00</lastmod>
+  <lastmod>2024-08-18T20:35-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
@@ -1526,6 +1526,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/best-teams/soleil-best-teams-pt-hwa.html</loc>
   <lastmod>2024-07-25T22:22-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/best-teams/folio-best-teams-en-hwa.html</loc>
+  <lastmod>2024-08-18T20:35-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/best-teams/folio-best-teams-pt-hwa.html</loc>
+  <lastmod>2024-08-18T20:35-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 <!-- fim best teams hero wars alliance Alexandre Games -->
