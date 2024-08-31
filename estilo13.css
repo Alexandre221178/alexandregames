@@ -1224,6 +1224,7 @@ iframe{
 .whatsapp { background-color: #1fc55c; }
 .facebook { background-color: #3b5998; }
 .link { background-color: #000000; cursor: pointer; }
+.reddit { background-color: #FF4500; cursor: pointer; }
 
 /* inicio video youtube 2024  */
 .video-container {
@@ -1530,7 +1531,7 @@ iframe{
         margin-bottom: 5px;
         margin-left: 5px;
         
-        font-size: 14px;
+        font-size: 12px;
     }
     
     
