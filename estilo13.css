@@ -1206,6 +1206,16 @@ iframe{
     display: flex;
     gap: 10px;
 }
+
+.share-buttons a {
+    color: white; /* Cor inicial */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Mantém a borda preta ao passar o mouse */
+}
+
+.share-buttons a:hover {
+    color: rgb(247, 2, 210); /* Cor quando o mouse está sobre a legenda */
+}
  /* botoes compartilhar */
 .share-button {
     margin-top: 1px;
