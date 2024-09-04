@@ -20,12 +20,12 @@
 
 <url>
   <loc>https://alexandregames.com/herowars-alliance-en.html</loc>
-  <lastmod>2024-09-02T23:10-03:00</lastmod>
+  <lastmod>2024-09-03T22:05-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/HeroWars.html</loc>
-  <lastmod>2024-09-02T23:10-03:00</lastmod>
+  <lastmod>2024-09-03T22:05-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 
@@ -1439,12 +1439,12 @@
 <!-- inicio dicas de eventos events SiteMap Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html</loc>
-  <lastmod>2024-09-02T23:10-03:00</lastmod>
+  <lastmod>2024-09-03T22:05-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html</loc>
-  <lastmod>2024-09-02T23:10-03:00</lastmod>
+  <lastmod>2024-09-03T22:05-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
@@ -1589,6 +1589,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/way-of-progress-pt-hwa.html</loc>
   <lastmod>2024-08-09T22:58-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/magic-tree-en-hwa.html</loc>
+  <lastmod>2024-09-03T22:05-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/magic-tree-pt-hwa.html</loc>
+  <lastmod>2024-09-03T22:05-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 
