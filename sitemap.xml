@@ -20,12 +20,12 @@
 
 <url>
   <loc>https://alexandregames.com/herowars-alliance-en.html</loc>
-  <lastmod>2024-09-07T18:00-03:00</lastmod>
+  <lastmod>2024-09-08T20:38-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/HeroWars.html</loc>
-  <lastmod>2024-09-07T18:00-03:00</lastmod>
+  <lastmod>2024-09-08T20:38-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 
@@ -1439,12 +1439,23 @@
 <!-- inicio dicas de eventos events SiteMap Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html</loc>
-  <lastmod>2024-09-04T19:30-03:00</lastmod>
+  <lastmod>2024-09-08T20:38-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html</loc>
-  <lastmod>2024-09-04T19:30-03:00</lastmod>
+  <lastmod>2024-09-08T20:38-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/autumn-festival-en-hwa.html</loc>
+  <lastmod>2024-09-08T20:38-03:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/autumn-festival-pt-hwa.html</loc>
+  <lastmod>2024-09-08T20:38-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
