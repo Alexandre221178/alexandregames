@@ -42,12 +42,12 @@
 
 <url>
   <loc>https://alexandregames.com/MobileLegends-English.html</loc>
-  <lastmod>2024-08-04T08:10-03:00</lastmod>
+  <lastmod>2024-09-21T20:22-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/MobileLegends.html</loc>
-  <lastmod>2024-08-04T08:10-03:00</lastmod>
+  <lastmod>2024-09-21T20:22-03:00</lastmod>
   <priority>0.85</priority>
 </url>
 
@@ -261,6 +261,17 @@
 <url>
   <loc>https://alexandregames.com/mobile-legends/phoveus-pt-mlbb.html</loc>
   <lastmod>2024-08-08T22:05-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/mobile-legends/suyou-en-mlbb.html</loc>
+  <lastmod>2024-09-21T20:22-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/mobile-legends/suyou-en-mlbb.html</loc>
+  <lastmod>2024-09-21T20:22-03:00</lastmod>
   <priority>0.70</priority>
 </url>
 
