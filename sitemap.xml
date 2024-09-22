@@ -42,12 +42,12 @@
 
 <url>
   <loc>https://alexandregames.com/MobileLegends-English.html</loc>
-  <lastmod>2024-09-21T20:22-03:00</lastmod>
+  <lastmod>2024-09-22T15:50-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/MobileLegends.html</loc>
-  <lastmod>2024-09-21T20:22-03:00</lastmod>
+  <lastmod>2024-09-22T15:50-03:00</lastmod>
   <priority>0.85</priority>
 </url>
 
@@ -84,6 +84,17 @@
 <url>
   <loc>https://alexandregames.com/mobile-legends/aamon-pt-mlbb.html</loc>
   <lastmod>2024-08-24T18:20-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/mobile-legends/alpha-en-mlbb.html</loc>
+  <lastmod>2024-09-22T15:50-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/mobile-legends/alpha-pt-mlbb.html</loc>
+  <lastmod>2024-09-22T15:50-03:00</lastmod>
   <priority>0.70</priority>
 </url>
 
