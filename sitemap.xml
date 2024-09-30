@@ -20,12 +20,12 @@
 
 <url>
   <loc>https://alexandregames.com/herowars-alliance-en.html</loc>
-  <lastmod>2024-09-29T16:08-03:00</lastmod>
+  <lastmod>2024-09-29T21:58-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/HeroWars.html</loc>
-  <lastmod>2024-09-29T16:08-03:00</lastmod>
+  <lastmod>2024-09-29T21:58-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 
@@ -1530,12 +1530,12 @@
 <!-- inicio dicas de eventos events SiteMap Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html</loc>
-  <lastmod>2024-09-29T16:06-03:00</lastmod>
+  <lastmod>2024-09-29T21:58-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html</loc>
-  <lastmod>2024-09-29T16:06-03:00</lastmod>
+  <lastmod>2024-09-29T21:58-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
@@ -1726,6 +1726,19 @@
   <lastmod>2024-09-04T19:30-03:00</lastmod>
   <priority>0.60</priority>
 </url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/tempus-event-en-hwa.html</loc>
+  <lastmod>2024-09-29T21:58-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/tempus-event-en-hwa.html</loc>
+  <lastmod>2024-09-29T21:58-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+
 
 <!-- fim eventos dicas de events SiteMap Alexandre Games -->
 
