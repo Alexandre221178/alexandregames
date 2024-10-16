@@ -95,7 +95,7 @@
   <priority>0.74</priority>
 </url>
 
-<!-- inicio Mobile Legens heroes Alexandre Games -->
+<!-- inicio Mobile Legens MLBB-heroes Alexandre Games -->
 
 <url>
   <loc>https://alexandregames.com/mobile-legends/aamon-en-mlbb.html</loc>
@@ -226,6 +226,17 @@
 <url>
   <loc>https://alexandregames.com/mobile-legends/harith-pt-mlbb.html</loc>
   <lastmod>2024-06-27T21:50-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/mobile-legends/johnson-en-mlbb.html</loc>
+  <lastmod>2024-10-15T22:57-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/mobile-legends/johnson-pt-mlbb.html</loc>
+  <lastmod>2024-10-15T22:57-03:00</lastmod>
   <priority>0.70</priority>
 </url>
 
