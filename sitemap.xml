@@ -20,12 +20,12 @@
 
 <url>
   <loc>https://alexandregames.com/herowars-alliance-en.html</loc>
-  <lastmod>2024-10-18T20:16-03:00</lastmod>
+  <lastmod>2024-10-20T10:47-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/HeroWars.html</loc>
-  <lastmod>2024-10-18T20:16-03:00</lastmod>
+  <lastmod>2024-10-20T10:47-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 
@@ -76,12 +76,12 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/menu-best-teams-en-hwa.html</loc>
-  <lastmod>2024-10-13T11:25-03:00</lastmod>
+  <lastmod>2024-10-20T10:47-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/menu-best-teams-pt-hwa.html</loc>
-  <lastmod>2024-10-13T11:25-03:00</lastmod>
+  <lastmod>2024-10-20T10:47-03:00</lastmod>
   <priority>0.74</priority>
 </url>
 <url>
@@ -1841,7 +1841,18 @@
 
 <!-- fim eventos dicas de events SiteMap Alexandre Games -->
 
-<!-- inicio best teams hero wars alliance Alexandre Games -->
+<!-- inicio best-teams- hero wars alliance Alexandre Games -->
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/best-teams/ginger-best-teams-en-hwa.html</loc>
+  <lastmod>2024-10-20T10:47-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/best-teams/ginger-best-teams-pt-hwa.html</loc>
+  <lastmod>2024-10-20T10:47-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/best-teams/tempus-best-team-en-hwa.html</loc>
   <lastmod>2024-10-09T21:25-03:00</lastmod>
