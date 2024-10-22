@@ -42,12 +42,12 @@
 
 <url>
   <loc>https://alexandregames.com/MobileLegends-English.html</loc>
-  <lastmod>2024-09-22T15:50-03:00</lastmod>
+  <lastmod>2024-10-21T23:00-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/MobileLegends.html</loc>
-  <lastmod>2024-09-22T15:50-03:00</lastmod>
+  <lastmod>2024-10-21T23:00-03:00</lastmod>
   <priority>0.85</priority>
 </url>
 
@@ -248,6 +248,17 @@
 <url>
   <loc>https://alexandregames.com/mobile-legends/johnson-pt-mlbb.html</loc>
   <lastmod>2024-10-15T22:57-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/mobile-legends/julian-en-mlbb.html</loc>
+  <lastmod>2024-10-21T23:00-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/mobile-legends/julian-pt-mlbb.html</loc>
+  <lastmod>2024-10-21T23:00-03:00</lastmod>
   <priority>0.70</priority>
 </url>
 
