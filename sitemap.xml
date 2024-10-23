@@ -9,12 +9,12 @@
 
 <url>
   <loc>https://alexandregames.com</loc>
-  <lastmod>2024-10-20T23:42-03:00</lastmod>
+  <lastmod>2024-10-22T22:30-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/index-pt.html</loc>
-  <lastmod>2024-10-20T23:42-03:00</lastmod>
+  <lastmod>2024-10-22T22:30-03:00</lastmod>
   <priority>0.95</priority>
 </url>
 
@@ -2003,6 +2003,17 @@
 <!-- fim Roblox SiteMap Alexandre Games -->
 
 <!-- inicio Throne and Liberty SiteMap Alexandre Games -->
+<url>
+  <loc>https://alexandregames.com/throne-and-liberty/gameplay-review/en-gameplay-review-throne-and-liberty.html</loc>
+  <lastmod>2024-10-22T22:30-03:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/throne-and-liberty/gameplay-review/pt-gameplay-review-throne-and-liberty.html</loc>
+  <lastmod>2024-10-22T22:30-03:00</lastmod>
+  <priority>0.75</priority>
+</url>
+
 <url>
   <loc>https://alexandregames.com/throne-and-liberty/weapons-guide/weapon-tier-list-en-throne-and-liberty.html</loc>
   <lastmod>2024-10-21T23:11-03:00</lastmod>
