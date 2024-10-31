@@ -57,7 +57,7 @@ body{
 .dropbtn:hover { color: #f70441; }
 
 
-
+/* Espaço para AD no top-header para evitar CLS Veualiah */
 .ad-container {
     width: 100%;
     min-height: 280px; /* Altura mínima para garantir espaço reservado */
