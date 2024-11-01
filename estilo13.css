@@ -1219,7 +1219,7 @@ iframe{
  /* botoes compartilhar */
 .share-button {
     margin-top: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-left: 30px;
     display: inline-block;
     padding: 10px;
@@ -1543,15 +1543,11 @@ iframe{
         
         font-size: 12px;
     }
-    
-    
-    
-    
 
-    
-
-   
-    
+    .share-button {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
     
    
     section p{
