@@ -805,31 +805,33 @@ Casts a spark of light which deals damage to all rivals in its way.
     </div> 
     </main>
     
+
+    <section>
+        <h2>Leave Your Opinion!</h2>
+        <p id="commentParagraph">Did you like our Aurora Guide Tips? Is there something you didn't understand or would like to suggest changes to? We invite you to join our comment section on the Alexandre Games Blog page. Feel free to express your opinion, clarify your doubts, and share your suggestions.<br> Click the button below to get started:</p>
+        <button id="loadScript">Load Comments</button>
+        <!-- button code is in the footer JS -->
+        <div id="loadingMessage" style="display: none;">Loading comments... Please wait</div>
+        <div id="graphcomment"></div>
+    
+    </section>
  
 <!------------- Footer Inicio ------------->
+<!-- Footer estrutural -->
 <footer>
     <div class="footer">
-    <div class="row">
-        <a href="https://www.facebook.com/profile.php?id=100093242163291"><img src="../../imagens/facebookblack.webp" alt="facebook" title="Facebook"></i></a>
-        <a href="https://www.youtube.com/channel/UCVXIv4Movg3KAaPHVE7dstw"><img src="../../imagens/youtube-black.webp" alt="youtube" title="Youtube"></i></a>
-        <a href="https://www.twitch.tv/ytalexandre"><img src="../../imagens/twitchblack.webp" alt="Twitch" title="Twitch"></i></a>
+        <div class="row" id="social-links"></div> <!-- Links de redes sociais serão inseridos aqui -->
+        <div class="row">
+            <ul id="navigation-links"></ul> <!-- Links de navegação serão inseridos aqui -->
+        </div>
+        <div class="row">
+            <ul>
+                <li id="message"></li> <!-- Mensagem será inserida aqui -->
+            </ul>
+        </div> 
     </div>
-    <div class="row">
-        <ul>
-            <li><a href="../../Documentos/about.html">About Us</a></li>
-            <li><a href="../../Documentos/Contact.html">Contact</a></li>
-            <li><a href="../../Documentos/disclaimer.html">Disclaimer</a></li>
-            <li><a href="../../Documentos/PrivacyPolicy.html">Privacy Policy</a></li>
-            <li><a href="../../Documentos/TermsofUse.html">Terms of Use</a></li>
-        </ul>
-    </div>
-    <div class="row">
-        <ul>
-            <li id="message"></li>
-        </ul>
-    </div> 
-</footer>
-<!-- Fim do Footer Alexandre Games -->
+  </footer>
+  <!-- Fim do Footer Alexandre Games -->
                  
        <!---------   HTML cookies US  ------------>  
        <div id="cookie-banner" class="cookie-banner">
@@ -844,12 +846,8 @@ Casts a spark of light which deals damage to all rivals in its way.
 
 
 
-
-
-    <script src="./hwguide-en-2024.js"></script>
-<!-- Footer -->
-
-
+    <script src="../../Documentos/java-insert-footer-en.js"></script>
+    <script src="../../Documentos/graphcomments.js"></script>
 </body>
 
 
