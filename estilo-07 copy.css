@@ -39,55 +39,8 @@ body{
     box-sizing: border-box;
 }
 
-/* Container para o anúncio */
-.ad-container {
-    width: 300px; /* Largura do anúncio */
-    height: 250px; /* Altura do anúncio */
-    background-color: #f9f9f9; /* Cor de fundo para indicar espaço reservado */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px dashed #ccc; /* Borda para destacar o espaço */
-    margin-bottom: 20px; /* Espaçamento abaixo do anúncio */
-    box-sizing: border-box;
-    text-align: center;
-    color: #888; /* Cor do texto */
-    font-size: 14px;
-}
 
-/* Texto padrão quando não houver anúncio */
-.ad-container:empty::before {
-    content: "Ad - 300x250";
-}
 
-/* Estilos para o menu fixo */
-.menu-fixo {
-    margin-top: 30px;
-    width: 200px;
-    background-color: #f1f1f1;
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 8px;
-    position: fixed;
-    top: 290px;
-    left: 0;
-    height: calc(100vh - 290px);
-    overflow-y: auto;
-}
-
-.menu-fixo a {
-    display: block;
-    color: #333;
-    text-decoration: none;
-    padding: 10px 0;
-    font-size: 16px;
-    transition: background-color 0.3s;
-}
-
-.menu-fixo a:hover {
-    background-color: #ddd;
-    border-radius: 4px;
-}
 
 
   /* Estilos para reservar o espaço do menu */
@@ -516,8 +469,8 @@ h5 {
 }
     /* h6 Fonte da data de atualização */
 h6 {
-    color: #000105;
-   
+    color: #18a84d;
+    margin-top: 10px;
     font-size: 20px;
     text-align: left;
 }
