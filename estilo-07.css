@@ -20,7 +20,7 @@ body{
     height: 100vh; /* Altura total da tela */
     position: sticky; /* Fica fixo ao rolar a página */
     top: 0; /* Fixa no topo */
-    background-color: #c21919; /* Cor de fundo #f1f1f1 */
+    background-color: #f1f1f1; /* Cor de fundo #f1f1f1 */
     padding: 20px; /* Espaçamento interno */
     box-sizing: border-box;
 }
