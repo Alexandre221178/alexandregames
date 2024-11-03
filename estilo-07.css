@@ -12,12 +12,7 @@ body{
 }
 
 
-/* Container principal para organizar o layout */
-.container-principal {
-    max-width: 1280px; /* Limita a largura total */
-    margin: auto; /* Centraliza na tela */
-    display: flex; /* Utiliza flexbox para alinhar os elementos */
-}
+
 
 /* Estilização para o container fixo */
 .container-fixo {
@@ -39,42 +34,53 @@ body{
     box-sizing: border-box;
 }
 
-/* Container para o anúncio */
+/* Container principal para organizar o layout em desktop */
+.container-principal {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    gap: 20px; /* Espaço entre os elementos */
+}
+
+/* Estilos padrão para o container de anúncio */
 .ad-container {
-    width: 300px; /* Largura do anúncio */
-    height: 250px; /* Altura do anúncio */
-    background-color: #f9f9f9; /* Cor de fundo para indicar espaço reservado */
+    width: 300px;
+    height: 250px;
+    background-color: #f9f9f9;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px dashed #ccc; /* Borda para destacar o espaço */
-    margin-bottom: 20px; /* Espaçamento abaixo do anúncio */
+    border: 1px dashed #ccc;
     box-sizing: border-box;
     text-align: center;
-    color: #888; /* Cor do texto */
+    color: #888;
     font-size: 14px;
 }
 
 /* Texto padrão quando não houver anúncio */
 .ad-container:empty::before {
-    content: "Ad - 300x250";
+    content: "Anúncio - 300x250";
+}
+
+/* Esconde o anúncio de mobile inicialmente */
+.mobile-ad {
+    display: none;
 }
 
 /* Estilos para o menu fixo */
 .menu-fixo {
-    margin-top: 30px;
     width: 200px;
     background-color: #f1f1f1;
     padding: 20px;
     box-sizing: border-box;
     border-radius: 8px;
-    position: fixed;
-    top: 290px;
-    left: 0;
-    height: calc(100vh - 290px);
+    position: sticky;
+    top: 20px;
     overflow-y: auto;
+    max-height: calc(100vh - 40px);
 }
 
+/* Links do menu */
 .menu-fixo a {
     display: block;
     color: #333;
@@ -89,7 +95,10 @@ body{
     border-radius: 4px;
 }
 
-
+/* Conteúdo principal */
+.conteudo-principal {
+    flex: 1;
+}
   /* Estilos para reservar o espaço do menu */
   #menu-container {
     width: 100%;
@@ -1404,12 +1413,21 @@ iframe{
           
      }
 
-     .container-fixo {
-        display: none; /* Esconde o menu fixo */
+     .menu-fixo {
+        display: none;
     }
 
-    .container-rolavel {
-        width: 100%; /* Ocupa 100% da largura disponível no mobile */
+    /* Esconde o anúncio de desktop no mobile */
+    .desktop-ad {
+        display: none;
+    }
+
+    /* Mostra o anúncio de mobile */
+    .mobile-ad {
+        display: block;
+        margin: 0 auto; /* Centraliza o anúncio no mobile */
+        width: 300px;
+        height: 250px;
     }
 
 
