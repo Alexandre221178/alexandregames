@@ -20,7 +20,7 @@ body{
     height: 100vh; /* Altura total da tela */
     position: sticky; /* Fica fixo ao rolar a página */
     top: 0; /* Fixa no topo */
-    background-color: #f1f1f1; /* Cor de fundo */
+    background-color: #c21919; /* Cor de fundo #f1f1f1 */
     padding: 20px; /* Espaçamento interno */
     box-sizing: border-box;
 }
@@ -69,6 +69,7 @@ body{
 
 /* Estilos para o menu fixo */
 .menu-fixo {
+    margin-top: 2px;
     width: 200px;
     background-color: #f1f1f1;
     padding: 20px;
@@ -1413,7 +1414,8 @@ iframe{
           
      }
 
-     .menu-fixo {
+     /* Esconde o container fixo no mobile */
+     .container-fixo {
         display: none;
     }
 
@@ -1425,11 +1427,16 @@ iframe{
     /* Mostra o anúncio de mobile */
     .mobile-ad {
         display: block;
-        margin: 0 auto; /* Centraliza o anúncio no mobile */
+        margin: 0 auto;
         width: 300px;
         height: 250px;
     }
 
+    /* Container principal ajusta o layout para uma coluna */
+    .container-principal {
+        display: block;
+        padding: 0 16px;
+    }
 
 
 
