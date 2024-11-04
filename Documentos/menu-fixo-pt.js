@@ -6,6 +6,7 @@ const menuContent = `
     <a href="https://alexandregames.com/ragnarok-origin/codigos-ragnarok-br.html">Ragnarok ROO</a>
     <a href="https://alexandregames.com/roblox-br.html">Roblox</a>
     <a href="https://alexandregames.com/top-troops/top-troops-pt-home.html">Top Troops</a>
+    <a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-pt.html">Throne and Liberty</a>
     
 `;
 

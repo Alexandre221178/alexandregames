@@ -40,27 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
   //  fim do cookies alexandregames
 
    
-  
-
-//  botao graphcomments
-document.getElementById('loadScript').addEventListener('click', function() {
-    // Ocultar o botão depois de clicado
-    this.style.display = 'none';
-  
-    // Ocultar o parágrafo
-    var commentParagraph = document.getElementById('commentParagraph');
-    if (commentParagraph) {
-      commentParagraph.style.display = 'none';
-    }
-  
-    // Exibir a mensagem de carregamento
-    document.getElementById('loadingMessage').style.display = 'block';
-  
-    // Chamada para a função de carregamento de comentários
-    loadComments();
-  });
-  
-
+ 
 
   // Chamada para injetar footer Páginas em português no html 
   document.addEventListener("DOMContentLoaded", function() {
@@ -110,3 +90,25 @@ document.getElementById('loadScript').addEventListener('click', function() {
 
 
 
+
+
+ 
+
+//  botao graphcomments
+document.getElementById('loadScript').addEventListener('click', function() {
+    // Ocultar o botão depois de clicado
+    this.style.display = 'none';
+  
+    // Ocultar o parágrafo
+    var commentParagraph = document.getElementById('commentParagraph');
+    if (commentParagraph) {
+      commentParagraph.style.display = 'none';
+    }
+  
+    // Exibir a mensagem de carregamento
+    document.getElementById('loadingMessage').style.display = 'block';
+  
+    // Chamada para a função de carregamento de comentários
+    loadComments();
+  });
+  

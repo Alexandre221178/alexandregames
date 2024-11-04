@@ -41,24 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
    
   
-//  botao graphcomments
-document.getElementById('loadScript').addEventListener('click', function() {
-    // Ocultar o botão depois de clicado
-    this.style.display = 'none';
-  
-    // Ocultar o parágrafo
-    var commentParagraph = document.getElementById('commentParagraph');
-    if (commentParagraph) {
-      commentParagraph.style.display = 'none';
-    }
-  
-    // Exibir a mensagem de carregamento
-    document.getElementById('loadingMessage').style.display = 'block';
-  
-    // Chamada para a função de carregamento de comentários
-    loadComments();
-  });
-  
+
 
 
 
@@ -108,3 +91,25 @@ document.getElementById('loadScript').addEventListener('click', function() {
     footerMessage.appendChild(messageText);
 });
 
+
+
+
+
+//  botao graphcomments
+document.getElementById('loadScript').addEventListener('click', function() {
+    // Ocultar o botão depois de clicado
+    this.style.display = 'none';
+  
+    // Ocultar o parágrafo
+    var commentParagraph = document.getElementById('commentParagraph');
+    if (commentParagraph) {
+      commentParagraph.style.display = 'none';
+    }
+  
+    // Exibir a mensagem de carregamento
+    document.getElementById('loadingMessage').style.display = 'block';
+  
+    // Chamada para a função de carregamento de comentários
+    loadComments();
+  });
+  

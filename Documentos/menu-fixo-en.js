@@ -6,6 +6,7 @@ const menuContent = `
     <a href="https://alexandregames.com/ragnarok-origin/codes-ragnarok-us.html">Ragnarok ROO</a>
     <a href="https://alexandregames.com/roblox-us.html">Roblox</a>
     <a href="https://alexandregames.com/top-troops/top-troops-en-home.html">Top Troops</a>
+    <a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-en.html">Throne and Liberty</a>
 `;
 
 // Seleciona a div existente com a classe "menu-fixo"

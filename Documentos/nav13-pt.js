@@ -13,11 +13,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 
             </div> 
             <div class="dropdown">
-                <button class="dropbtn"><a href="https://alexandregames.com/roblox-br.html">Roblox</a></button>
+                <button class="dropbtn"><a href="https://alexandregames.com/roblox-br.html">Roblox PC/Mobile</a></button>
                 
             </div> 
-             <div class="dropdown">
+<div class="dropdown">
             <button><a href="https://alexandregames.com/top-troops/top-troops-pt-home.html">Top Troops</a></button> 
+            </div>
+
+             <div class="dropdown">
+               <button><a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-pt.html">Throne and Liberty</a></button>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">Mais</button>
