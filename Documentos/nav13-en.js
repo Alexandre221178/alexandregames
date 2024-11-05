@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
                <button><a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-en.html">Throne and Liberty</a></button>
             </div>
             <div class="dropdown">
-                <button class="dropbtn">More</button>
+                <button class="dropbtn">More Games</button>
                 <div class="dropdown-content">
                     <a href="https://alexandregames.com/ragnarok-origin/codes-ragnarok-us.html">Ragnarok ROO</a>
                     <a>_____________</a>
