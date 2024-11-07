@@ -1439,6 +1439,11 @@ iframe{
     }
 
 
+    .ad-container {
+        width: 300px;
+        height: 280px;
+    }
+
 
      iframe{    
     
