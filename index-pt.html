@@ -104,48 +104,50 @@ NA PAGINA DE PORTUGUES
 
 </head>
 <body>
-    <div class="container-principal">
-        <div class="container-fixo">
+   <div class="container-principal">
+        <div class="container-fixo" style="position: relative;">
 
-             <div class="menu-fixo">
+            <!-- Script do AdSense (apenas uma vez na página) -->
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
+            crossorigin="anonymous"></script>
+
+            <!-- Contêiner do anúncio que será exibido apenas em telas de desktop -->
+            <div id="desktop-ad-container" style="position: fixed; top: 0; left: 0; width: 300px; z-index: 1000; height: auto; background-color: white;">
+                <!-- O bloco de anúncio ficará fixo na lateral esquerda -->
+            </div>
+
+            <script>
+            if (window.innerWidth > 840) { // Verifica se a tela é de desktop
+                var adContainer = document.getElementById('desktop-ad-container');
+
+                if (adContainer) {
+                    var adBlock = document.createElement('ins');
+                    adBlock.className = 'adsbygoogle';
+                    adBlock.style = 'display:inline-block;width:300px;height:250px'; // Formato específico 300x250
+                    adBlock.setAttribute('data-ad-client', 'ca-pub-7838775403194689');
+                    adBlock.setAttribute('data-ad-slot', '5478112485');
+                    adBlock.setAttribute('data-ad-format', 'auto');
+
+                    adContainer.appendChild(adBlock);
+
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                }
+            }
+            </script>
+
+            <!-- div para fechar ad fixo lateral -->
+
+            <div class="menu-fixo">
                 <!-- O conteúdo do menu será inserido aqui via JavaScript -->
             </div>
-       <!-- Script para inserir o menu fixo -->
-<script src="./Documentos/menu-fixo-pt.js"></script>
+            <!-- Script para inserir o menu fixo 6-->
+            <script src="./Documentos/menu-fixo-pt.js"></script>
+        </div>
+    </div>
 
-          <!-- Script do AdSense (apenas uma vez na página) -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-crossorigin="anonymous"></script>
 
-<!-- Contêiner do anúncio que será fixo na parte superior da tela -->
-<div id="desktop-ad-container" style="position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; background-color: white; text-align: center;">
-</div>
 
-<script>
-if (window.innerWidth > 840) { // Verifica se a tela é de desktop
-    var adContainer = document.getElementById('desktop-ad-container');
-
-    if (adContainer) {
-        var adBlock = document.createElement('ins');
-        adBlock.className = 'adsbygoogle';
-        adBlock.style = 'display:inline-block;width:300px;height:250px'; // Formato específico 300x250
-        adBlock.setAttribute('data-ad-client', 'ca-pub-7838775403194689');
-        adBlock.setAttribute('data-ad-slot', '5478112485');
-        adBlock.setAttribute('data-ad-format', 'auto');
-
-        adContainer.appendChild(adBlock);
-
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    }
-}
-</script>
-
-        <!-- div para fechar ad fixo lateral 5-->
-       
-           
-<!-- div para fechar container lateral -->
-</div>
-
+    
     <div class="container">
         <nav>
             <div class="logo">
