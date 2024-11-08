@@ -106,31 +106,38 @@ NA PAGINA DE PORTUGUES
 <body>
 <div class="container-principal">
     <div class="container-fixo">
+        <div id="ad-placeholder"></div> <!-- Placeholder para o anúncio -->
 
-      <div class="ad-container desktop-ad">
-        <!-- Insira o código do anúncio aqui, ou deixe vazio se não houver anúncio -->
-  <!-- Script do AdSense (carregado uma vez, mas o anúncio será exibido apenas em desktop) -->
-<!-- Script do AdSense (carregado uma vez na página) -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-crossorigin="anonymous"></script>
-
-<!-- Bloco de anúncio exibido apenas em telas maiores que 840px com formato específico -->
-<script>
-if (window.innerWidth > 840) { // Verifica se a tela é de desktop
-    var adBlock = document.createElement('ins');
-    adBlock.className = 'adsbygoogle';
-    adBlock.style = 'display:inline-block;width:300px;height:250px'; // Formato específico
-    adBlock.setAttribute('data-ad-client', 'ca-pub-7838775403194689');
-    adBlock.setAttribute('data-ad-slot', '5478112485');
-    adBlock.setAttribute('data-ad-format', 'auto');
-    document.body.appendChild(adBlock);
-    
-    (adsbygoogle = window.adsbygoogle || []).push({});
-}
-</script>
-<!-- div para fechar ad fixo lateral -->
+        <div class="menu-fixo">
+            <!-- O conteúdo do menu será inserido aqui via JavaScript -->
+        </div>
+    </div>
 </div>
-    
+
+<script>
+// Função para inserir o código do anúncio somente em telas maiores que 840px
+function loadAdForDesktop() {
+    const adPlaceholder = document.getElementById('ad-placeholder');
+
+    // Garante que o anúncio seja carregado apenas uma vez e somente para telas a partir de 840px
+    if (window.innerWidth >= 840 && !adPlaceholder.hasChildNodes()) {
+        adPlaceholder.innerHTML = `
+            <div class="ad-container desktop-ad">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+                <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-7838775403194689" data-ad-slot="2145372134" data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+        `;
+    } else if (window.innerWidth < 840 && adPlaceholder.hasChildNodes()) {
+        // Remove o anúncio em telas menores para evitar contagem de impressões
+        adPlaceholder.innerHTML = '';
+    }
+}
+
+// Carrega o anúncio ao abrir a página e ao redimensionar a janela
+window.addEventListener('load', loadAdForDesktop);
+window.addEventListener('resize', loadAdForDesktop);
+</script>
 
         <div class="menu-fixo">
             <!-- O conteúdo do menu será inserido aqui via JavaScript -->
