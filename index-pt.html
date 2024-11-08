@@ -122,7 +122,7 @@ if (window.innerWidth > 840) { // Verifica se a tela é de desktop
     if (adContainer) {
         var adBlock = document.createElement('ins');
         adBlock.className = 'adsbygoogle';
-        adBlock.style = 'display:inline-block;width:300px;height:250px'; // Formato específico 300x250
+        adBlock.style = 'display:inline-block;'; // Formato específico 300x250
         adBlock.setAttribute('data-ad-client', 'ca-pub-7838775403194689');
         adBlock.setAttribute('data-ad-slot', '5478112485');
         adBlock.setAttribute('data-ad-format', 'auto');
@@ -133,13 +133,16 @@ if (window.innerWidth > 840) { // Verifica se a tela é de desktop
     }
 }
 </script>
-      </div>
+     <!-- div para fechar ad fixo lateral -->
+</div>
+    
 
-         <div class="menu-fixo">
-            <!-- O conteúdo do menu será inserido aqui via JavaScript -->
-        </div>
-
-<!-- div para fechar ad fixo lateral -->
+<div class="menu-fixo">
+    <!-- O conteúdo do menu será inserido aqui via JavaScript -->
+</div>
+<!-- Script para inserir o menu fixo -->
+<script src="./Documentos/menu-fixo-pt.js"></script>
+<!-- div do menu-fixo -->
 </div>
     
 
