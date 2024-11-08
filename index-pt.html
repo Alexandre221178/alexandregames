@@ -108,26 +108,32 @@ NA PAGINA DE PORTUGUES
     <div class="container-fixo">
 
       <div class="ad-container desktop-ad">
-        <!-- Insira o código do anúncio aqui, ou deixe vazio se não houver anúncio -->
-  <!-- Script do AdSense (carregado uma vez, mas o anúncio será exibido apenas em desktop) -->
-<!-- Script do AdSense (carregado uma vez na página) -->
+      <!-- Script do AdSense (apenas uma vez na página) -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
 crossorigin="anonymous"></script>
 
-<!-- Bloco de anúncio exibido apenas em telas maiores que 840px com formato específico -->
+<!-- Contêiner do anúncio que será exibido apenas em telas de desktop -->
+<div id="desktop-ad-container"></div>
+
 <script>
 if (window.innerWidth > 840) { // Verifica se a tela é de desktop
-    var adBlock = document.createElement('ins');
-    adBlock.className = 'adsbygoogle';
-    adBlock.style = 'display:inline-block;width:300px;height:250px'; // Formato específico
-    adBlock.setAttribute('data-ad-client', 'ca-pub-7838775403194689');
-    adBlock.setAttribute('data-ad-slot', '5478112485');
-    adBlock.setAttribute('data-ad-format', 'auto');
-    document.body.appendChild(adBlock);
-    
-    (adsbygoogle = window.adsbygoogle || []).push({});
+    var adContainer = document.getElementById('desktop-ad-container');
+
+    if (adContainer) {
+        var adBlock = document.createElement('ins');
+        adBlock.className = 'adsbygoogle';
+        adBlock.style = 'display:inline-block;width:300px;height:250px'; // Formato específico 300x250
+        adBlock.setAttribute('data-ad-client', 'ca-pub-7838775403194689');
+        adBlock.setAttribute('data-ad-slot', '5478112485');
+        adBlock.setAttribute('data-ad-format', 'auto');
+
+        adContainer.appendChild(adBlock);
+
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
 }
 </script>
+
 <!-- div para fechar ad fixo lateral -->
 </div>
     
