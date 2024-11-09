@@ -12,12 +12,7 @@ body{
 }
 
 
-/* Container principal para organizar o layout */
-.container-principal {
-    max-width: 1280px; /* Limita a largura total */
-    margin: auto; /* Centraliza na tela */
-    display: flex; /* Utiliza flexbox para alinhar os elementos */
-}
+
 
 /* Estilização para o container fixo */
 .container-fixo {
@@ -25,7 +20,7 @@ body{
     height: 100vh; /* Altura total da tela */
     position: sticky; /* Fica fixo ao rolar a página */
     top: 0; /* Fixa no topo */
-    background-color: #f1f1f1; /* Cor de fundo */
+    background-color: #f1f1f1; /* Cor de fundo #f1f1f1 */
     padding: 20px; /* Espaçamento interno */
     box-sizing: border-box;
 }
@@ -39,10 +34,72 @@ body{
     box-sizing: border-box;
 }
 
+/* Container principal para organizar o layout em desktop */
+.container-principal {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    gap: 20px; /* Espaço entre os elementos */
+}
 
+/* Estilos padrão para o container de anúncio */
+.ad-container {
+    width: 300px;
+    height: 250px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}
 
+/* Texto padrão quando não houver anúncio */
+.ad-container:empty::before {
+    content: "Anúncio - 300x250";
+}
 
+/* Esconde o anúncio de mobile inicialmente */
+.mobile-ad {
+    display: none;
+}
 
+/* Estilos para o menu fixo */
+.menu-fixo {
+    margin-top: 2px;
+    width: 300px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    position: sticky;
+    top: 20px;
+    overflow-y: auto;
+    max-height: calc(100vh - 40px);
+}
+
+/* Links do menu */
+.menu-fixo a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 0;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.menu-fixo a:hover {
+    background-color: #ddd;
+    border-radius: 4px;
+}
+
+/* Conteúdo principal */
+.conteudo-principal {
+    flex: 1;
+}
   /* Estilos para reservar o espaço do menu */
   #menu-container {
     width: 100%;
@@ -87,6 +144,26 @@ body{
     min-height: 280px; /* Altura mínima para garantir espaço reservado */
     background-color: #f0f0f0; /* Cor de fundo para visualização enquanto o anúncio carrega */
   }
+
+  .author-container {
+    min-width: 100px; /* Define uma largura mínima para evitar mudanças no layout */
+    min-height: 20px; /* Define uma altura mínima para reservar o espaço */
+    background-color: #ffffff; /* Cor de fundo para visualização enquanto o conteúdo carrega */
+    padding: 5px; /* Espaço interno para organizar o conteúdo */
+}
+
+
+
+.author-container ul {
+    list-style-type: none; /* Remove o estilo da lista */
+    margin: 0;
+    padding: 0;
+}
+
+.author-container li {
+    font-size: 14px; /* Ajuste de tamanho de fonte */
+    color: #000000; /* Cor do texto */
+}
 
 
 
@@ -469,8 +546,8 @@ h5 {
 }
     /* h6 Fonte da data de atualização */
 h6 {
-    color: #18a84d;
-    margin-top: 10px;
+    color: #000105;
+   
     font-size: 20px;
     text-align: left;
 }
@@ -1357,15 +1434,35 @@ iframe{
           
      }
 
+     /* Esconde o container fixo no mobile */
      .container-fixo {
-        display: none; /* Esconde o menu fixo */
+        display: none;
     }
 
-    .container-rolavel {
-        width: 100%; /* Ocupa 100% da largura disponível no mobile */
+    /* Esconde o anúncio de desktop no mobile */
+    .desktop-ad {
+        display: none;
+    }
+
+    /* Mostra o anúncio de mobile */
+    .mobile-ad {
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        height: 250px;
+    }
+
+    /* Container principal ajusta o layout para uma coluna */
+    .container-principal {
+        display: block;
+        padding: 0 16px;
     }
 
 
+    .ad-container {
+        width: 300px;
+        height: 300px;
+    }
 
 
      iframe{    
@@ -1373,6 +1470,12 @@ iframe{
         margin-left: 2px;
            
     }
+
+
+    .share-buttons{        
+        margin-bottom: 15px;
+            }
+    
     
     
     .text-bx,
