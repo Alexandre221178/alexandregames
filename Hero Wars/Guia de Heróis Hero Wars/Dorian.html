@@ -4,7 +4,7 @@
     <!-- Metadescrição -->
     <meta charset="UTF-8">
     <meta property="article:published_time" content="2023-07-01" />
-    <meta property="article:modified_time" content="2024-04-25T22:53" />
+    <meta property="article:modified_time" content="2024-11-09T17:59-03:00" />
     <meta name="description" content="Tutorial de como jogar com Dorian em Hero Wars Mobile, melhores times, counters, talismã estratégias para hidras, e habilidades.">
     <meta name="keywords" content="Dorian, Hero-Wars-Mobile,Tutorial,Dicas,counter,melhores-times">
     <meta name="author" content="Alexandre Pereira Domingos">
@@ -29,6 +29,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../../imagens/favicon-16x16.png">
     <link rel="manifest" href="../../imagens/site.webmanifest">
     <link rel="stylesheet" href="../../estilo2024.css">
+    <script src="../../Documentos/lazy-load.js"></script>
+
    
    <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-P90XK71HW9"></script>
@@ -62,6 +64,18 @@
 </head>
 
 <body>
+
+<!---------   HTML cookies BR  ------------>  
+<div id="cookie-banner" class="cookie-banner">
+    <p>Nós utilizamos cookies para melhorar a sua experiência. Ao continuar navegando, você concorda com a nossa política de cookies.</p>
+    <div class="button-container">
+        <button id="accept-cookies" class="btn accept-btn">Aceitar Tudo</button>
+        <button id="reject-cookies" class="btn reject-btn">Rejeitar Tudo</button>
+    </div>
+    <a href="../../Documentos/Política de privacidade.html" class="privacy-link">Política de Privacidade</a>
+</div> 
+
+
     <div class="container">
         <nav>
             <div class="logo">
@@ -108,8 +122,15 @@
         </nav>
 
         <figure class="img-banner">
-            <img src="../../img-HWM/Dorian-img/dorian-hero-wars-1200px.webp"  alt="Dorian wallpaper Hero Wars" title="Dorian wallpaper Hero Wars" > 
-        </figure>  
+            <picture>
+                <!-- Para telas grandes (PC) de 80kb a 150kb -->
+                <source media="(min-width: 768px)" srcset="../../img-HWM/Dorian-img/dorian-hero-wars-1200px.webp">
+                <!-- Para telas menores (mobile) de 30kb a 70kb -->
+                <img src="../../img-HWM/Dorian-img/dorian-hero-wars-600px.webp" alt="Papel de parede do Guia de Dorian Hero Wars" title="Papel de parede do Guia de Dorian Hero Wars"> 
+            </picture>
+            <figcaption>Ilustração de Dorian do jogo Hero Wars Alliance, um jogo desenvolvido pela Nexters.</figcaption>
+        </figure>
+        
 
 
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
@@ -137,6 +158,11 @@
   </ul>
   </div>
 </header>
+
+<!-- second half retirar </div> -->        
+<div id="second-half" class="hidden">
+    <!-- second half retirar </div> -->  
+
 <section>
     <div>
     <table>
@@ -218,50 +244,80 @@
 </section>
 
 
+
 <section>
-<!-- talismã -->
-<h2>Talismã de Dorian</h2>
-<p>
-    Com talismã, Dorian irá receber mais pontos de ataque mágico e defesa mágica e bastante perfuração mágica no Reroll, em relação a dano e a melhoria de habilidade de suporte para o time. Pouca coisa irá mudar com o talismã de Dorian, pois as habilidades dele dependem mais de porcentagem e não de aumento das estatísticas.
+    <!-- talismã -->
+    <h2>Análise do Talismã de Sangue de Dorian</h2>
+    <p>
+        Com o primeiro talismã, Dorian receberá mais pontos para ataque mágico e defesa mágica, além de uma boa penetração mágica no Re-roll, em termos de dano e melhoria das habilidades de suporte para a equipe. Pouca coisa mudará com o talismã de Dorian, pois suas habilidades dependem mais de porcentagens do que do aumento de atributos.
+    </p>
 
-<div>
-     
+    <div></div>
+    
+    <div>
+        <table>
+            <caption>Atributos do Talismã de Sangue</caption>
+            <tr>
+                <th>Slot</th>
+                <th>Estatísticas</th>
+                <th>Pontos Máximos</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>Inteligência</td>
+                <td>+2000</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Penetração Mágica</td>
+                <td>+6000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Penetração Mágica</td>
+                <td>+6000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Penetração Mágica</td>
+                <td>+6000</td>
+            </tr>
+        </table>
+    </div>
 
-</div>
-<div>
-<table>
-    <caption>Atributos do Talismã de Sangue</caption>
-<tr>
-<th>Slot</th>
-<th>Estatísticas</th>
-<th>Máximo de pontos</th>
-
-</tr>
-<tr>
-<td>0</td>
-<td>Inteligência</td>
-<td>+2.000</td>
-</tr>
-<tr>
-<td>1</td>
-<td>Perfuração Mágica</td>
-<td>+66000</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Perfuração Mágica</td>
-<td>+66000</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Perfuração Mágica</td>
-<td>+66000</td>
-</tr>
-
-</table>
-</div>
-
+    <figure class="img-max">
+        <img src="../../img-HWM/Dorian-img/dorian-talisman-of-blood.webp" alt="Dorian com o Talismã de Sangue, Hero Wars." title="Dorian com o Talismã de Sangue, Hero Wars." loading="lazy">
+        <figcaption>Dorian com o Talismã de Sangue, Hero Wars.</figcaption>
+    </figure>
 </section>
+
+<!-- Talisman multiplex 500x400 -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:500px;height:400px"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="6748065776"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+<section>
+    <h2>Análise do Talismã da Sede de Dorian</h2>
+
+    <p>O segundo talismã de Dorian, o Talismã da Sede, é extremamente valioso para seu papel de suporte durável em <em>Hero Wars Alliance</em>. Ao conceder uma armadura significativa e mais pontos de vida, esse talismã atende à necessidade de sobrevivência de Dorian, permitindo que ele suporte mais dano e continue apoiando sua equipe sem ser facilmente derrubado. Essa durabilidade o torna especialmente eficaz contra equipes focadas em dano físico.</p>
+
+    
+
+    <p>Em equipes que dependem de suporte e cura constantes, o Talismã da Sede maximiza a capacidade de Dorian de sacrificar sua própria vida para curar os aliados, sem comprometer sua sobrevivência. Esse talismã é essencial quando Dorian é priorizado como um suporte defensivo, permitindo-lhe aumentar a resiliência e estabilidade da equipe em batalhas prolongadas.</p>
+
+    <figure class="img-max">
+        <img src="../../img-HWM/Dorian-img/dorian-talisman-of-thirst.webp" alt="Dorian com o Talismã da Sede, Hero Wars." title="Dorian com o Talismã da Sede, Hero Wars." loading="lazy">
+        <figcaption>Dorian com o Talismã da Sede, Hero Wars.</figcaption>
+    </figure>
+</section>
+
 
 
     <!-- Box #1 Pontos Positivos -->
@@ -679,15 +735,7 @@ Palavras-chave: Sacrifício
 </footer>
 <!------------- Fim Footer Alexandre Games ------------->
             
-       <!---------   HTML cookies BR  ------------>  
-      <div id="cookie-banner" class="cookie-banner">
-        <p>Nós utilizamos cookies para melhorar a sua experiência. Ao continuar navegando, você concorda com a nossa política de cookies.</p>
-        <div class="button-container">
-            <button id="accept-cookies" class="btn accept-btn">Aceitar Tudo</button>
-            <button id="reject-cookies" class="btn reject-btn">Rejeitar Tudo</button>
-        </div>
-        <a href="../../Documentos/Política de privacidade.html" class="privacy-link">Política de Privacidade</a>
-    </div>
+      
 
 
     <script src="./hwguide-pt-2024.js"></script>
