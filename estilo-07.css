@@ -145,6 +145,26 @@ body{
     background-color: #f0f0f0; /* Cor de fundo para visualização enquanto o anúncio carrega */
   }
 
+  .author-container {
+    min-width: 100px; /* Define uma largura mínima para evitar mudanças no layout */
+    min-height: 20px; /* Define uma altura mínima para reservar o espaço */
+    background-color: #ffffff; /* Cor de fundo para visualização enquanto o conteúdo carrega */
+    padding: 5px; /* Espaço interno para organizar o conteúdo */
+}
+
+
+
+.author-container ul {
+    list-style-type: none; /* Remove o estilo da lista */
+    margin: 0;
+    padding: 0;
+}
+
+.author-container li {
+    font-size: 14px; /* Ajuste de tamanho de fonte */
+    color: #000000; /* Cor do texto */
+}
+
 
 
 
