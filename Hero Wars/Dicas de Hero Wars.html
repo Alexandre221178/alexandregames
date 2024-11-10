@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dicas de Hero Wars Mobile</title>
+    <title>Dicas e Truques para Iniciantes em Hero Wars Alliance</title>
     <!-- Data de exemplo ano mês dia -->
     <meta property="article:published_time" content="2023-07-31T00:00:00+00:00" />
-    <meta property="article:modified_time" content="2024-04-21T21:40" />
+    <meta property="article:modified_time" content="2024-11-10T12:28-03:00" />
     <meta name="description" content="Aqui você encontra um tutorial completo com muitas dicas para quem está iniciando em Hero Wars Mobile.">
 
 
@@ -34,10 +34,13 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../imagens/favicon-16x16.png">
     <link rel="manifest" href="../imagens/site.webmanifest">
+    <link rel="stylesheet" href="../estilo-07.css">
+    <script src="../Documentos/lazy-load.js"></script>
     
-    <link rel="stylesheet" href="../estilo2024.css">
    
-    <!-- Google tag (gtag.js) -->
+   
+   
+   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-P90XK71HW9"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -47,8 +50,8 @@
   gtag('config', 'G-P90XK71HW9');
 </script>
 
-
-   <!--
+   
+    <!--
 <pre>
  
    ┌──────▀▀▀▀ ▀▀─────────────── ██ ──────────────────────▀▀▄▄▄  ▄▄▄───── ─┐
@@ -56,73 +59,110 @@
    |                                                                       |
    |        I'am  working hard to build this website.                      |
    |                                                                       |
-   |        🌎 Global            🧕 Diverse             💪 The best      |
+   |        🌎 Global            🧕 Diverse             💪 The best       |
    |                                                                       |
    |                                                                       |
    |        https://www.alexadregames.com                   Follow me!     |
    |                                                                       |
-   |               Designed By: Alexandre Domingos                         |
+   |                                                                       |
    | ░                                                                   ░ |
    └───────▀▀▀▀ ▀▀───────────────────────────────────────────▀▀ ▀▀─────────┘
 </pre>
 -->
-    
-     
-    
+
 </head>
+
 <body>
-    <div class="container">
-        <nav>
-            <div class="logo">
-                <a href="https://alexandregames.com/index-pt.html"><img src="../imagens/exandregames318x318-removebg.webp" alt="logo Alexandre Games Mobile" title="logo Alexandre Games Mobile" ></a>
-            </div>                     
-            <ul>                     
-                <div class="dropdown">
-                  <button><a href="../HeroWars.html">Hero Wars Alliance</a></button>
-                    
-                </div>              
-                    
-                <div class="dropdown">
-                    <button><a href="../MobileLegends.html">Mobile Legends</a></button> 
-                   
-                </div> 
+ <!---------   HTML cookies BR  ------------>  
+ <div id="cookie-banner" class="cookie-banner">
+  <p>Nós utilizamos cookies para melhorar a sua experiência. Ao continuar navegando, você concorda com a nossa política de cookies.</p>
+  <div class="button-container">
+      <button id="accept-cookies" class="btn accept-btn">Aceitar Tudo</button>
+      <button id="reject-cookies" class="btn reject-btn">Rejeitar Tudo</button>
+  </div>
+  <a href="../Documentos/Política de privacidade.html" class="privacy-link">Política de Privacidade</a>
+</div>
+
+
+<div class="container-principal">
+  <div class="container-fixo">
+
+    <div id="ad-container" style="display: none;">
+      <!-- Contêiner vazio para o anúncio AdSense que será carregado via JavaScript -->
+  
+    <!-- hwa-articles-only-PC-screen -->
+    <script>
+      // Verifica a largura da janela
+      if (window.innerWidth > 840) {
+        // Torna o contêiner visível
+        document.getElementById("ad-container").style.display = "block";
     
-                <div class="dropdown">
-                    <button><a href="../roblox-br.html">Roblox</a></button> 
-                   
-                </div> 
-                
-                    <div class="dropdown">
-                        <button class="dropbtn">Mais</button>
-                        <div class="dropdown-content">
-                            <a href="../Documentos/Contato.html">Contato</a>
-                            <a href="../Documentos/aviso-legal.html">Isenção de Responsabilidade</a>
-                            <a href="../Documentos/Política de privacidade.html">Política de Privacidade</a>
-                            <a href="../Documentos/Sobre.html">Sobre Nós</a>                   
-                            <a href="../Documentos/Termos de uso.html">Termos de Uso</a>
-                            </div>
-                    </div>    
+        // Cria e insere o script do AdSense dinamicamente
+        var adsenseScript = document.createElement("script");
+        adsenseScript.async = true;
+        adsenseScript.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689";
+        adsenseScript.crossOrigin = "anonymous";
+        document.head.appendChild(adsenseScript);
     
-    <!-- Botão de troca de idioma - Colocar link da página InglÊs English.html -->          
-  <button><a href="../Hero Wars English/Tips for Hero Wars Mobile.html"><img src="../imagens/flag-us-32x32.png" alt="bandeira USA" title="bandeira" USA style="width:24px;height:16px" ><strong> EN</strong></a></button>
-              
-            </ul>
-            <div class="menu-icon">
-                <img src="../imagens/menu.png" alt="Computer Main" Title="menu" style="width:48px;height:48px;">
-            </div>
-        <!--Cabeçalho de título-->
+        // Insere o código do anúncio
+        var adIns = document.createElement("ins");
+        adIns.className = "adsbygoogle";
+        adIns.style = "display:inline-block;width:300px;height:250px";
+        adIns.setAttribute("data-ad-client", "ca-pub-7838775403194689");
+        adIns.setAttribute("data-ad-slot", "3194666285");
+        document.getElementById("ad-container").appendChild(adIns);
+    
+        // Executa o anúncio
+        adsenseScript.onload = function() {
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        };
+      }
+    </script>
         
-        </nav>
-        <div class="img-banner">
-            <img src="../img-HWM/tips-secrets-herowars-1200px.webp" alt="Dicas e Truques, Hero Wars Mobile." title="Dicas e Truques, Hero Wars Mobile." >
+   <!-- div para fechar ad fixo lateral -->
+</div>
+        <div class="menu-fixo">
+            <!-- O conteúdo do menu será inserido aqui via JavaScript -->
         </div>
+        <script src="../alex-java/menu-fixo-hwa-pt.js"></script>
+       
+   <!-- Script para inserir o menu fixo -->
+
+<!-- div do menu-fixo -->
+</div>
 
 
-
+<div class="container">
+    <div id="menu-container"></div><!-- Contêiner do menu -->
+    <!-- O menu <nav></nav> será inserido aqui pelo JavaScript -->
+    <!-- Botão de troca de idioma -->            
+   
+    <button class="language-switch"><!-- Botão de troca de idioma colocar página em en-us -->
+        <a href="../Hero Wars English/Tips for Hero Wars Mobile.html">
+        <img src="../imagens/flag-brazil-32x32.png" alt="Brazil flag" title="Brazil flag" style="width:24px;height:16px">
+        <strong> PT</strong></a>
+    </button>
+    
+    <script src="../Documentos/nav13-en.js"></script>
+  
+        <figure class="img-banner">
+          <picture>
+              <!-- Para telas grandes (PC) de 80kb a 150kb -->
+              <source media="(min-width: 768px)" srcset="../img-HWM/tips-secrets-herowars-1200px.webp">
+              <!-- Para telas menores (mobile) de 30kb a 70kb -->
+              <img src="../img-HWM/tips-secrets-herowars-500px.webp" alt="Dicas e Truques, Hero Wars Mobile." title="Dicas e Truques, Hero Wars Mobile." >
+          </picture>
+          <figcaption>Ilustração de Dicas e Truques de Hero Wars Alliance, um jogo desenvolvido pela Nexters.</figcaption>
+      </figure>
+      
         <header>
             <div class="text-title">   
-                <h1>Dicas e Truques<b>Iniciantes Hero Wars Alliance</b></h1>   
-            </div>    
+                <h1>Dicas e Truques para Iniciantes <b>em Hero Wars Alliance</b></h1>   
+            </div>  
+            <section>
+              <p> Quer saber o segredo para dominar Hero Wars? Descubra por que focar em um único herói poderoso pode ser o divisor de águas no seu jogo. Não perca dicas essenciais! </p>
+            </section>
+            
         </header>
         <div class="autor">
             <ul>
@@ -130,6 +170,24 @@
                 <li><i>Por: Alexandre Domingos.</i><b></b> <i id="data-modificacao"></i>.</li>   
             </ul>
         </div>
+
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
+        crossorigin="anonymous"></script>
+    <!-- Hero Wars Articles Header new-07 -->
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-7838775403194689"
+        data-ad-slot="6522674809"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+      <!-- second half retirar </div> -->        
+      <div id="second-half" class="hidden">
+      <!-- second half retirar </div> -->   
+
+
         
 <section>
     <article>     
@@ -141,20 +199,7 @@
     </p>
 
 
-<!-- Inicio Hero Wars Articles Header -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-     crossorigin="anonymous"></script>
-<!-- Hero Wars Articles Header -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7838775403194689"
-     data-ad-slot="8170436697"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<!-- Fim Hero Wars Articles Header -->      
+      
 
         <h2>2. Complete as missões diárias  </h2>
     <p>
@@ -260,7 +305,7 @@
 
         <h2>15. Reivindique sua energia gratuita todos os dias!</h2>
 
-        <p>Aproveite sua dose diária de energia gratuita visitando a loja da Wendy!!</p>
+        <p>Aproveite sua dose diária de energia gratuita visitando a loja de esmeraldas!!</p>
         
         <p>Você tem direito a isso uma vez por dia!!!</p>
         
@@ -330,12 +375,11 @@
 
  
 <section>
-    <div style="width: 99%; max-width: 450px; ">
-        <div style="position: relative; padding-bottom: 49.5%; padding-right: 0%; height: 0; overflow: hidden; ">
-          <iframe 
-          style="position: absolute; bottom: 0; top: 1; left: 0px; right: 1; width: 87%; height: 100%; border: 0; "
-          loading="lazy";
-            srcdoc="<style>
+  <div class="video-container">
+    <div class="video-wrapper">
+        <iframe class="video-iframe"
+          loading="lazy"
+          srcdoc="<style>
               * {
               padding: 0%;
               margin: 0px;
@@ -380,11 +424,46 @@
 </section> 
 
 
+<!-- multiplex-lazy-hwa -->
+  <!-- Script do AdSense, carregado no final do body -->
+  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+  
+  <!-- Container do anúncio -->
+  <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="7494171230"></ins>
+  
+  <script>
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+  
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme desejado
+  
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+  </script>
 
 
 
 
-<h2>Você pode ter interesse:</h2>
+<h2>Explore novas habilidades com nossos guias em destaque!</h2>
 <main> 
     <div>
       <div class="img-embed">
@@ -417,47 +496,43 @@
 
 
  
-<footer>
+  <section>
+    <h2>Deixe Sua Opinião!</h2>
+    <p id="commentParagraph">Você gostou das nossas dicas para Hero Wars Mobile? Há algo que não entendeu ou gostaria de sugerir mudanças? Convidamos você a se juntar à nossa sessão de comentários na página do Alexandre Games Blog. Não hesite em expressar sua opinião, clarificar suas dúvidas e compartilhar sua sugestões.<br> Clique no botão abaixo para começar:</p>
+    <button id="loadScript">Carregar Comentários</button>
+    <!-- código do botão está no js do footer -->
+    <div id="loadingMessage" style="display: none;">Carregando comentários... Aguarde</div>
+    <div id="graphcomment"></div>
+  
+  </section>
+  
+                
+  
+  <!------------- Footer Inicio ------------->
+  <!------------- Footer Inicio ------------->
+  <!-- Footer estrutural -->
+  <footer>
     <div class="footer">
-    <div class="row">
-       
-        <a href="https://www.youtube.com/@alexandreekilvinhagames"><img src="../imagens/youtube-black.webp" alt="youtube" title="Youtube"></i></a>
-        <a href="https://www.twitch.tv/ytalexandre"><img src="../imagens/twitchblack.webp" alt="Twitch" title="Twitch"></i></a>
-       
-
-    
+        <div class="row" id="social-links"></div> <!-- Links de redes sociais serão inseridos aqui -->
+        <div class="row">
+            <ul id="navigation-links"></ul> <!-- Links de navegação serão inseridos aqui -->
+        </div>
+        <div class="row">
+            <ul>
+                <li id="message"></li> <!-- Mensagem será inserida aqui -->
+            </ul>
+        </div> 
     </div>
-    <div class="row">
-      <ul>
-        <li><a href="../Documentos/Contato.html">Contato</a></li>
-        <li><a href="../Documentos/aviso-legal.html">Isenção de Responsabilidade</a></li>
-        <li><a href="../Documentos/Política de privacidade.html">Política de Privacidade</a></li>
-        <li><a href="../Documentos/Sobre.html">Sobre Nós</a></li>                        
-        <li><a href="../Documentos/Termos de uso.html">Termos de Uso</a></li>          
-      </ul>
-    <div class="row">
-        <ul>
-           
-          <li>© 2023-2024 Alexandre Games Blog</li>
+  
+  </footer>
+  
+   
         
-    </ul>
-       
-</footer>
-        
-    
-       <!---------   HTML cookies BR  ------------>  
-       <div id="cookie-banner" class="cookie-banner">
-        <p>Nós utilizamos cookies para melhorar a sua experiência. Ao continuar navegando, você concorda com a nossa política de cookies.</p>
-        <div class="button-container">
-            <button id="accept-cookies" class="btn accept-btn">Aceitar Tudo</button>
-            <button id="reject-cookies" class="btn reject-btn">Rejeitar Tudo</button>
-        </div>
-        <a href="../Documentos/Política de privacidade.html" class="privacy-link">Política de Privacidade</a>
-        </div>
-
-
-
-        <script src="../Documentos/java-pt-footer.js"></script>
+  
+        <script src="../Documentos/java-insert-footer-pt.js"></script>
+        <script src="../Documentos/graphcomments.js"></script>
+        <script src="../Documentos/share-pt-reddit.js"></script>
+  
 
 
 
