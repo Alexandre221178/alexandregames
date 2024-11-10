@@ -480,13 +480,7 @@ data-full-width-responsive="true"></ins>
             <a href="../Hero Wars/Guia de Heróis Hero Wars/ziri-english.html">
             <img src="../img-HWM/Ziri-img/ziri-300x260.webp" alt="Ziri in Hero Wars Alliance" title="Ziri in Hero Wars Alliance" loading="lazy"  >Ziri</a>
         </div>
-        
-
-
-       
-                    
-                 
-               
+         
             </div>
 
 
@@ -495,20 +489,40 @@ data-full-width-responsive="true"></ins>
 
 </main>
 
-<!-- inicio Ad Quadrado guia de herois -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-crossorigin="anonymous"></script>
+<!-- inicio Ad Quadrado guia de herois lazy loading display -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
 
 <ins class="adsbygoogle"
-style="display:block"
-data-ad-client="ca-pub-7838775403194689"
-data-ad-slot="1712227177"
-data-ad-format="auto"
-data-full-width-responsive="true"></ins>
+     style="display:block"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="1712227177"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
 <script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<!-- fim Ad Quadrado -->    
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para de observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme necessário
+
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+</script>  
 
 <section>
     <article>
