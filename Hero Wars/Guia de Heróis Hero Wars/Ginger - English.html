@@ -119,9 +119,16 @@
         </nav>
 
         <figure class="img-banner">
-            <img src="../../img-HWM/Ginger-img/ginger-herowars-1200px.webp"  alt="Illustration of Ginger in Hero Wars" title="Ginger Wallpaper - Hero Wars" > 
-        </figure>
+            <picture>
+                <!-- Para telas grandes (PC) de 80kb a 150kb -->
+                <source media="(min-width: 768px)" srcset="../../img-HWM/Ginger-img/ginger-herowars-1200px.webp">
+                <!-- Para telas menores (mobile) de 30kb a 70kb -->
+                <img src="../../img-HWM/Ginger-img/ginger-herowars-600px.webp"  alt="Illustration of Ginger in Hero Wars" title="Ginger Wallpaper - Hero Wars" > 
+            </picture>
+            <figcaption>Illustration of Ginger a character from the game Hero Wars Alliance, developed by Nexters.</figcaption>
+            </figure>
 
+        
 
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
      crossorigin="anonymous"></script>
