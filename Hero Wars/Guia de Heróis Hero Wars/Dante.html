@@ -121,8 +121,15 @@
         </nav>
 
         <figure class="img-banner">
-            <img src="../../img-HWM/Dante-img/dante-hero-wars-1200px.webp"  alt="Imagem: Dante wallpaper Hero Wars" title="Imagem: Dante wallpaper Hero Wars" > 
-        </figure>       
+            <picture>
+                <!-- Para telas grandes (PC) de 80kb a 150kb -->
+                <source media="(min-width: 768px)" srcset="../../img-HWM/Dante-img/dante-hero-wars-1200px.webp">
+                <!-- Para telas menores (mobile) de 30kb a 70kb -->
+                <img src="../../img-HWM/Dante-img/dante-hero-wars-600px.webp" alt="Papel de parede do guia Dante em Hero Wars" title="Guia de Dante - Hero Wars">
+            </picture>
+            <figcaption>Ilustração de Dante do jogo Hero Wars Alliance, desenvolvido pela Nexters.</figcaption>
+        </figure>
+             
 
 
 
