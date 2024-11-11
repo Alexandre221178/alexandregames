@@ -16,7 +16,7 @@ body{
 
 /* Estilização para o container fixo */
 .container-fixo {
-    width: 35%; /* Define a largura fixa */
+    width: 300px; /* Define a largura fixa */
     height: 100vh; /* Altura total da tela */
     position: sticky; /* Fica fixo ao rolar a página */
     top: 0; /* Fixa no topo */
