@@ -43,6 +43,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../../imagens/favicon-16x16.png">
     <link rel="manifest" href="../../imagens/site.webmanifest">
         <link rel="stylesheet" href="../../estilo2024.css">
+        <script src="../../Documentos/lazy-load.js"></script>
+
+
    
    
     <!-- Google tag (gtag.js) -->
@@ -77,6 +80,16 @@
 </head>
 
 <body>
+  <!---------   HTML cookies US  ------------>  
+  <div id="cookie-banner" class="cookie-banner">
+    <p>We use cookies to enhance your experience. By continuing to browse, you agree to our cookie policy.</p>
+    <div class="button-container">
+        <button id="accept-cookies" class="btn accept-btn">Accept All</button>
+        <button id="reject-cookies" class="btn reject-btn">Reject All</button>
+    </div>
+    <a href="../../Documentos/PrivacyPolicy.html" class="privacy-link">Privacy Policy</a>
+</div>
+
     <div class="container">
         <nav>
             <div class="logo">
@@ -149,7 +162,9 @@
 
          
     
-
+<!-- second half retirar melhora - pagespeed test</div> -->        
+<div id="second-half" class="hidden">
+    <!-- second half retirar </div> -->
 
 
 
@@ -530,15 +545,7 @@ data-full-width-responsive="true"></ins>
 </footer>
 <!-- Fim do Footer Alexandre Games -->
                 
-       <!---------   HTML cookies US  ------------>  
-       <div id="cookie-banner" class="cookie-banner">
-        <p>We use cookies to enhance your experience. By continuing to browse, you agree to our cookie policy.</p>
-        <div class="button-container">
-            <button id="accept-cookies" class="btn accept-btn">Accept All</button>
-            <button id="reject-cookies" class="btn reject-btn">Reject All</button>
-        </div>
-        <a href="../../Documentos/PrivacyPolicy.html" class="privacy-link">Privacy Policy</a>
-    </div>
+     
 
 
 
