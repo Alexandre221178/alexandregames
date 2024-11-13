@@ -78,6 +78,18 @@
 -->
 </head>
 <body>
+<!---------   HTML cookies BR  ------------>  
+<div id="cookie-banner" class="cookie-banner">
+  <p>Nós utilizamos cookies para melhorar a sua experiência. Ao continuar navegando, você concorda com a nossa política de cookies.</p>
+  <div class="button-container">
+      <button id="accept-cookies" class="btn accept-btn">Aceitar Tudo</button>
+      <button id="reject-cookies" class="btn reject-btn">Rejeitar Tudo</button>
+  </div>
+  <a href="../../Documentos/Política de privacidade.html" class="privacy-link">Política de Privacidade</a>
+  </div>
+
+
+
   <div class="container">
     <div id="menu-container"></div><!-- Contêiner do menu -->
     <!-- Botão de troca de idioma -->
@@ -162,7 +174,7 @@
     
     <h2>Melhores Atiradores de Mobile Legends - Tier List</h2>
     <p>Os Atiradores são heróis de longo alcance e alto dano, que se destacam em causar grandes quantidades de dano ao longo do tempo, especialmente nas fases finais do jogo. Seu alcance permite que se posicionem com segurança atrás das linhas de frente, eliminando inimigos à distância.</p>
-    <p>Atiradores importantes como <strong>Roger</strong> também podem atuar como lutadores, sendo excelentes em rotações na selva e tornando-se incrivelmente perigosos em lutas no meio do jogo.</p>
+    <p>Atiradores importantes como <strong>Roger</strong> também podem atuar como soldados, sendo excelentes em rotações na selva e tornando-se incrivelmente perigosos em lutas no meio do jogo.</p>
     
     <p>Alguns Atiradores, como <strong>Popol e Kupa</strong>, oferecem mais do que apenas DPS alto, proporcionando controle de multidão e zona por meio de pets ou torres, enquanto <strong>Edith</strong> brilha em rotações, tornando-se uma escolha flexível em várias funções. O sucesso com um atirador depende muitas vezes de um bom posicionamento e do suporte de aliados para cobrir suas vulnerabilidades.</p>
     
@@ -225,15 +237,15 @@
     
     <hr>
     
-    <h2>Melhores Lutadores de Mobile Legends - Tier List</h2>
+    <h2>Melhores Soldados de Mobile Legends - Tier List</h2>
     <p>Os Lutadores são heróis duráveis de linha de frente, capazes de suportar uma quantidade considerável de dano enquanto causam bastante dano em troca.</p>
-    <p>Muitos lutadores, como <strong>Arlott</strong> e <a href="../julian-pt-mlbb.html"><strong>Julian</strong></a>, se saem excepcionalmente bem na rota EXP, permitindo que dominem confrontos 1v1. <strong>Masha</strong> é outro exemplo de um híbrido tanque-lutador que se destaca com suas habilidades únicas de regeneração de saúde, enquanto <strong>Yin</strong> é eficaz apenas em configurações específicas de selva.</p>
+    <p>Muitos soldados, como <strong>Arlott</strong> e <a href="../julian-pt-mlbb.html"><strong>Julian</strong></a>, se saem excepcionalmente bem na rota EXP, permitindo que dominem confrontos 1v1. <strong>Masha</strong> é outro exemplo de um híbrido tanque-lutador que se destaca com suas habilidades únicas de regeneração de saúde, enquanto <strong>Yin</strong> é eficaz apenas em configurações específicas de selva.</p>
     
-    <p>Os lutadores geralmente oferecem forte controle de multidão ou durabilidade similar à de tanques, sendo valiosos em lutas de equipe onde podem absorver dano e desorganizar a formação inimiga. Sua versatilidade e resiliência os tornam peças-chave em qualquer equipe, fornecendo tanto ofensiva quanto defensiva em igual medida.</p>
+    <p>Os soldados geralmente oferecem forte controle de multidão ou durabilidade similar à de tanques, sendo valiosos em lutas de equipe onde podem absorver dano e desorganizar a formação inimiga. Sua versatilidade e resiliência os tornam peças-chave em qualquer equipe, fornecendo tanto ofensiva quanto defensiva em igual medida.</p>
     
     <table>
       <thead>
-        <caption>Tabela: Tier List de Melhores Lutadores de MLBB</caption>
+        <caption>Tabela: Tier List de Melhores Soldados de MLBB</caption>
         <tr>
           <th>Tier</th>
           <th>Heróis</th>
@@ -251,8 +263,43 @@
     
     <hr>
 
-    <section>
-      <article>
+  
+        <!---------- mlbb counters multiplex ----------->
+<!-- multiplex-lazy-mlbb -->
+  <!-- Script do AdSense, carregado no final do body -->
+  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+  
+  <!-- Container do anúncio -->
+  <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="5985407193"></ins>
+  
+  <script>
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+  
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme desejado
+  
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+  </script>
         
         <h2>Melhores Magos de Mobile Legends - Tier List</h2>
         <p>Magos são heróis de alto dano mágico e explosão, especializados em atrapalhar os inimigos com poderosos feitiços e controle de área. <strong>Julian</strong> é um híbrido único entre mago e lutador, destacando-se em papéis de selva e podendo atuar como assassino. Magos como <strong>Harley</strong> e <strong>Cyclops</strong> também têm bom desempenho na selva, adicionando mais versatilidade a essa classe.</p>
@@ -276,6 +323,9 @@
         </table>
         
         <hr>
+
+
+
         
         <h2>Melhores Tanques de Mobile Legends - Tier List</h2>
         <p>Tanques são a base de qualquer equipe, absorvendo dano e iniciando lutas com suas habilidades de controle de multidão. Alguns tanques, como <a href="../minotaur-pt-mlbb.html"><strong>Minotauro</strong></a> e <strong>Carmilla</strong>, também atuam como suportes, oferecendo habilidades de cura e defesa. Outros, como <strong>Fredrinn</strong> e <strong>Esmeralda</strong>, são mais eficazes na rota EXP ou na selva, trazendo flexibilidade adicional à classe.</p>
@@ -328,44 +378,7 @@
       </article>
   </section>
 
-  <!---------- mlbb counters multiplex ----------->
-<!-- multiplex-lazy-mlbb -->
-  <!-- Script do AdSense, carregado no final do body -->
-  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
   
-  <!-- Container do anúncio -->
-  <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="autorelaxed"
-     data-ad-client="ca-pub-7838775403194689"
-     data-ad-slot="5985407193"></ins>
-  
-  <script>
-    // Função para carregar o anúncio
-    function loadAd() {
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    }
-  
-    // Verifica se o navegador suporta IntersectionObserver
-    if ('IntersectionObserver' in window) {
-        const adContainer = document.querySelector('.adsbygoogle');
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    loadAd();
-                    observer.unobserve(adContainer); // Para observar após o carregamento
-                }
-            });
-        }, { rootMargin: '100px' }); // Ajuste conforme desejado
-  
-        observer.observe(adContainer);
-    } else {
-        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
-        loadAd();
-    }
-  </script>
-
-
 
 
 
@@ -485,16 +498,7 @@
        
 </footer>
          
-          <!---------   HTML cookies BR  ------------>  
-          <div id="cookie-banner" class="cookie-banner">
-            <p>Nós utilizamos cookies para melhorar a sua experiência. Ao continuar navegando, você concorda com a nossa política de cookies.</p>
-            <div class="button-container">
-                <button id="accept-cookies" class="btn accept-btn">Aceitar Tudo</button>
-                <button id="reject-cookies" class="btn reject-btn">Rejeitar Tudo</button>
-            </div>
-            <a href="../../Documentos/Política de privacidade.html" class="privacy-link">Política de Privacidade</a>
-            </div>
-    
+          
     
 
 
