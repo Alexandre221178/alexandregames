@@ -330,6 +330,44 @@
         <img src="../img-MLBB/brody-img/brody-top-global-build.webp" alt="Brody com a Melhor Build Global, Mobile Legends: Bang Bang" title="Brody com a Melhor Build Global, Mobile Legends: Bang Bang" loading="lazy">
         <figcaption>Brody com a Melhor Build Global, Mobile Legends: Bang Bang</figcaption>
       </figure>
+
+ <!-- mlbb multiplex top global build -->
+  <!-- Script do AdSense, carregado no final do body -->
+  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+  
+  <!-- Container do anúncio -->
+  <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="5046915372"></ins>
+  
+  <script>
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+  
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para observar após o carregamento
+                }
+            });
+        }, { rootMargin: '50px' }); // Ajuste conforme desejado
+  
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+  </script>
+
+
         
       <h2>Estrategia para o Início do Jogo</h2>
       <p>No início do jogo, concentre-se em farmar e construir seus itens principais. Brody é excelente para atacar inimigos à distância com sua primeira habilidade e aplicar as marcas do Abismo para reduzir lentamente a vida deles. No entanto, evite lutas prolongadas, pois Brody é vulnerável sem seus itens chave.</p>
