@@ -163,8 +163,10 @@
 </picture>
 <figcaption>Illustration of Oya with Skin+ in the game Hero Wars Alliance.</figcaption>
 </figure>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-     crossorigin="anonymous"></script>
+
+
+<!-- hwa reviews header -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
 <!-- hwa reviews header -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -172,9 +174,32 @@
      data-ad-slot="9300951199"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para de observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme necessário
+
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
 </script>
+<!-- hwa reviews header -->
     
 <section>
     <article>
@@ -189,6 +214,43 @@
 
 <h3>Event Participation</h3>
 <p>The Skin+ Solar for Oya can only be obtained during specific in-game events. Players need to actively participate in these events to gather the necessary event currency to purchase the skin. These events often come with various challenges and tasks that test the players' skills and dedication, making the acquisition of the skin a rewarding experience.</p>
+
+
+<!-- hero wars alliance review 2nd -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+<!-- hero wars alliance review 2nd -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="6126471094"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para de observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme necessário
+
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+</script>
+<!-- hero wars alliance review 2nd -->
 
 <h3>Heroic Chests</h3>
 <p>For those who miss the event, there's still hope. The Skin+ Solar will eventually become available through Heroic Chests, although this method can be time-consuming and relies heavily on luck. Opening Heroic Chests requires patience and perseverance, as the chances of obtaining the skin are random and can vary significantly.</p>

@@ -172,8 +172,10 @@
   </picture>
   <figcaption>Ilustração de Kayla com visual Celestial, um personagem do jogo Hero Wars Alliance, desenvolvido pela Nexters.</figcaption>
 </figure>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-     crossorigin="anonymous"></script>
+
+
+<!-- hwa reviews header -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
 <!-- hwa reviews header -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -181,10 +183,32 @@
      data-ad-slot="9300951199"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
+<script>
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para de observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme necessário
+
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+</script>
+<!-- hwa reviews header -->
 
 <section>
   <article>
@@ -202,7 +226,41 @@
   <p>Quando Kayla usa suas habilidades para pular na equipe inimiga, ela frequentemente se encontra no meio de um combate intenso. O aumento de armadura da Skin Celestial é crucial para ela sobreviver a esses encontros. Isso permite que ela permaneça mais tempo na luta, proporcionando a defesa necessária para executar suas habilidades de forma eficaz e contribuir para o sucesso da equipe.</p>
 
   
-  
+  <!-- hero wars alliance review 2nd -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+<!-- hero wars alliance review 2nd -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="6126471094"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para de observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme necessário
+
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+</script>
+<!-- hero wars alliance review 2nd -->
   
   
   <h2>Prioridade de Skins para Kayla</h2>

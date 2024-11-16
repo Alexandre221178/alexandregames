@@ -121,8 +121,10 @@
 </picture>
 <figcaption>Illustration of Stellar Skins Guide for Ginger, Cascade, and Mojo in Hero Wars Alliance.</figcaption>
 </figure>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-     crossorigin="anonymous"></script>
+
+
+<!-- hwa reviews header -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
 <!-- hwa reviews header -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -130,9 +132,32 @@
      data-ad-slot="9300951199"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para de observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme necessário
+
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
 </script>
+<!-- hwa reviews header -->
     
 <section>
     <article>
