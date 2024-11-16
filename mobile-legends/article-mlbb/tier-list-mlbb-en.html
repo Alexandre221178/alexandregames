@@ -43,7 +43,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../../imagens/favicon-16x16.png">
     <link rel="manifest" href="../../imagens/site.webmanifest">
     <link rel="stylesheet" href="../../estilo13.css">
-    <script src="../../Documentos/lazy-load.js"></script>
+    
     
    
     
@@ -145,21 +145,45 @@
     </figure> 
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-crossorigin="anonymous"></script>
+<!-- mobile legends abaixo do wallpaper -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
 <!-- mobile legends abaixo do wallpaper -->
 <ins class="adsbygoogle"
-style="display:block"
-data-ad-client="ca-pub-7838775403194689"
-data-ad-slot="9783145426"
-data-ad-format="auto"
-data-full-width-responsive="true"></ins>
+     style="display:block"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="9783145426"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
 <script>
-(adsbygoogle = window.adsbygoogle || []).push({});
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para de observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme necessário
+
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
 </script>
+<!-- mobile legends abaixo do wallpaper -->
 
 
-<div id="second-half" class="hidden"></div>
+
+
    
 
 
