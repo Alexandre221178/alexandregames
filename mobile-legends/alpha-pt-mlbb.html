@@ -374,6 +374,43 @@
     <p><strong>Análise: </strong>Dá a você uma segunda chance em lutas no fim de jogo.</p>
 </div>
 
+<!---------- mlbb counters multiplex ----------->
+<!-- multiplex-lazy-mlbb -->
+  <!-- Script do AdSense, carregado no final do body -->
+  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+  
+  <!-- Container do anúncio -->
+  <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="5985407193"></ins>
+  
+  <script>
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+  
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para observar após o carregamento
+                }
+            });
+        }, { rootMargin: '50px' }); // Ajuste conforme desejado
+  
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+  </script>
+
   
 <h2>Emblemas e Talentos</h2>
 
@@ -439,42 +476,7 @@
   <p>Embora Alpha seja poderoso, ele tem dificuldades contra heróis com <strong>múltiplas habilidades de dash</strong>, como <strong>Lancelot, Chou, Gusion, Guinevere, Cici e Benedetta</strong>. Esses heróis podem evitar facilmente as habilidades de Alpha e impedir que ele acumule suas marcas passivas. Ao enfrentar esses heróis, posicione-se com cuidado e tente prever seus dashes para acertar suas habilidades de forma eficaz.</p>
 
 
-<!---------- mlbb counters multiplex ----------->
-<!-- multiplex-lazy-mlbb -->
-  <!-- Script do AdSense, carregado no final do body -->
-  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
-  
-  <!-- Container do anúncio -->
-  <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="autorelaxed"
-     data-ad-client="ca-pub-7838775403194689"
-     data-ad-slot="5985407193"></ins>
-  
-  <script>
-    // Função para carregar o anúncio
-    function loadAd() {
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    }
-  
-    // Verifica se o navegador suporta IntersectionObserver
-    if ('IntersectionObserver' in window) {
-        const adContainer = document.querySelector('.adsbygoogle');
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    loadAd();
-                    observer.unobserve(adContainer); // Para observar após o carregamento
-                }
-            });
-        }, { rootMargin: '50px' }); // Ajuste conforme desejado
-  
-        observer.observe(adContainer);
-    } else {
-        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
-        loadAd();
-    }
-  </script>
+
 
 
   <h2>Conclusão do Guia do Alpha</h2>
