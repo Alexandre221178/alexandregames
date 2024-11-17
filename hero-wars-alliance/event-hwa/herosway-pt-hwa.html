@@ -133,20 +133,42 @@
   <p>O evento "Caminho do Herói Temporada Anoitecer" em Hero Wars oferece aos jogadores uma variedade de missões para completar todos os dias. Essas tarefas são projetadas para aprimorar sua jogabilidade, fortalecer seus heróis e ajudar você a ganhar recompensas valiosas, como recursos, equipamentos e melhorias de heróis. Durante o período de 30 dias, cada dia apresenta novos desafios, incentivando sua participação ativa em várias partes do jogo, incluindo batalhas, melhorias de elementos e coleta de moedas valiosas do jogo.</p>
   <p>Consistência e jogo estratégico ajudarão você a maximizar suas recompensas durante este evento. Abaixo está uma descrição detalhada das missões diárias que os jogadores precisam completar, categorizadas por cada dia da semana para fácil referência.</p>
   
-<!-- inicio events hero wars header -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-crossorigin="anonymous"></script>
-<!-- events hero wars header -->
-<ins class="adsbygoogle"
-style="display:block"
-data-ad-client="ca-pub-7838775403194689"
-data-ad-slot="8112532261"
-data-ad-format="auto"
-data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 <!-- fim events hero wars header -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+ <!-- fim events hero wars header -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="8112532261"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para de observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme necessário
+
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+</script>
+ <!-- fim events hero wars header -->
+
 
   
 
@@ -454,20 +476,6 @@ data-full-width-responsive="true"></ins>
 
 
 
-<!-- events hero wars alliance deep2 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-crossorigin="anonymous"></script>
-<!-- events hero wars alliance deep2 -->
-<ins class="adsbygoogle"
-style="display:block"
-data-ad-client="ca-pub-7838775403194689"
-data-ad-slot="4249308873"
-data-ad-format="auto"
-data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<!-- events hero wars alliance deep2 -->
 
 <h3>Conclusão</h3>
 <p>O evento "Caminho do Herói" oferece uma oportunidade fantástica para aprimorar seus heróis e ganhar recompensas valiosas em Hero Wars. Quer você esteja batalhando na Arena, melhorando as habilidades dos heróis ou completando missões diárias, há inúmeras maneiras de coletar recursos e progredir no jogo. Seguindo este guia de missões diárias, os jogadores podem manter-se no topo de seus objetivos e alocar seu tempo e recursos de maneira eficiente ao longo do mês. A participação consistente garantirá que você colha as recompensas deste emocionante evento e leve seus heróis a novos patamares.</p>

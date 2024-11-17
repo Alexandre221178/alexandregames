@@ -135,20 +135,41 @@
     <p>The <strong>Autumn Festival</strong> is an exciting three-day event in <strong>Hero Wars Alliance</strong> that rewards players for completing a series of quests. By participating in this event, players can collect <strong>Harunian Brew</strong>, a valuable event currency that can be used to obtain various resources. These include high-rarity heroes’ gear, such as purple and orange equipment, which can significantly enhance your heroes' performance in battle. The event provides an excellent opportunity to strengthen your team while enjoying the festive theme of the autumn season.</p>
 
 
-<!-- inicio events hero wars header -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-crossorigin="anonymous"></script>
-<!-- events hero wars header -->
-<ins class="adsbygoogle"
-style="display:block"
-data-ad-client="ca-pub-7838775403194689"
-data-ad-slot="8112532261"
-data-ad-format="auto"
-data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 <!-- fim events hero wars header -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+ <!-- fim events hero wars header -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="8112532261"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para de observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme necessário
+
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+</script>
+ <!-- fim events hero wars header -->
 
     <h2>Event Overview</h2>
     <p>This special Autumn Festival event is featured in the <strong>Special Events</strong> tab within the game. You can find it listed separately under a unique tab, allowing easy access to the event quests and rewards. During the event, you will embark on a series of quest chains, each offering a chance to earn <strong>Harunian Brew</strong>. The event is designed to cater to a wide variety of play styles and game focuses, ensuring that all players have the opportunity to participate.</p>
@@ -168,21 +189,7 @@ data-full-width-responsive="true"></ins>
         <figcaption>Autumn Festival Quest Chains, Hero Wars Alliance.</figcaption>
       </figure>
 
-    <!-- events hero wars alliance deep2 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-crossorigin="anonymous"></script>
-<!-- events hero wars alliance deep2 -->
-<ins class="adsbygoogle"
-style="display:block"
-data-ad-client="ca-pub-7838775403194689"
-data-ad-slot="4249308873"
-data-ad-format="auto"
-data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<!-- events hero wars alliance deep2 -->
-
+    
 
     <h3>1. Welcome Guest</h3>
     <p><strong>Objective:</strong> Log in to the game daily.</p>

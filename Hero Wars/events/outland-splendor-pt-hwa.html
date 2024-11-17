@@ -136,20 +136,7 @@
             
 </nav>
 
-<!-- hero wars alliance articles and event top header -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-     crossorigin="anonymous"></script>
-<!-- hero wars alliance articles top header -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7838775403194689"
-     data-ad-slot="2702231404"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<!-- hero wars alliance articles top header -->
+
 
 <header>
      
@@ -225,6 +212,44 @@
       <h3>Tesouros de Terralém</h3>
       <p><strong>Objetivo:</strong> Faça compras para receber Baús de Pedras de Pele e Pontos do Caminho do Herói.</p>
       <p><strong>Estratégia:</strong></p>
+      
+      <!---------- multiplex event deep2 down pic ----------->
+  <!-- Script do AdSense, carregado no final do body -->
+  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+  <!---------- multiplex event deep2 down pic ----------->
+  <!-- Container do anúncio -->
+  <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="3367331761"></ins>
+  
+  <script>
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+  
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme desejado
+  
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+  </script>
+  <!---------- multiplex event deep2 down pic ----------->
+      
       <ul>
           <li><strong>Planeje suas Compras:</strong> Se você planejava fazer alguma compra no jogo, faça isso durante este evento para maximizar suas recompensas.</li>
           <li><strong>Foco nos Pacotes de Valor:</strong> Procure por pacotes de valor especial ou ofertas que ofereçam mais pelo seu dinheiro, garantindo que você obtenha o maior número de Baús de Pedras de Pele e Pontos do Caminho do Herói.</li>

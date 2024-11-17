@@ -136,20 +136,42 @@
         <p>The <strong>Chronicle of Dominion: Folio Event</strong> is an exciting opportunity for players to delve into the mysteries of Dominion with a new hero, Folio. This event spans 28 days and is divided into two parts, each lasting 14 days. Both parts feature identical tasks, but you can benefit from careful planning and resource management to maximize rewards. This guide will provide a comprehensive strategy for navigating the event, focusing on daily objectives, resource allocation, and event-specific missions.</p>
     
 
-<!-- inicio events hero wars header -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-crossorigin="anonymous"></script>
-<!-- events hero wars header -->
-<ins class="adsbygoogle"
-style="display:block"
-data-ad-client="ca-pub-7838775403194689"
-data-ad-slot="8112532261"
-data-ad-format="auto"
-data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<!-- fim events hero wars header -->
+
+        <!-- fim events hero wars header -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+        <!-- fim events hero wars header -->
+        <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-7838775403194689"
+            data-ad-slot="8112532261"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        
+        <script>
+           // Função para carregar o anúncio
+           function loadAd() {
+               (adsbygoogle = window.adsbygoogle || []).push({});
+           }
+        
+           // Verifica se o navegador suporta IntersectionObserver
+           if ('IntersectionObserver' in window) {
+               const adContainer = document.querySelector('.adsbygoogle');
+               const observer = new IntersectionObserver(entries => {
+                   entries.forEach(entry => {
+                       if (entry.isIntersecting) {
+                           loadAd();
+                           observer.unobserve(adContainer); // Para de observar após o carregamento
+                       }
+                   });
+               }, { rootMargin: '100px' }); // Ajuste conforme necessário
+        
+               observer.observe(adContainer);
+           } else {
+               // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+               loadAd();
+           }
+        </script>
+        <!-- fim events hero wars header -->
    
 
 
@@ -245,20 +267,7 @@ data-full-width-responsive="true"></ins>
     </tbody>
 </table>
 
-<!-- events hero wars alliance deep2 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-crossorigin="anonymous"></script>
-<!-- events hero wars alliance deep2 -->
-<ins class="adsbygoogle"
-style="display:block"
-data-ad-client="ca-pub-7838775403194689"
-data-ad-slot="4249308873"
-data-ad-format="auto"
-data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<!-- events hero wars alliance deep2 -->
+
 
 
 <h4>Additional Details</h4>

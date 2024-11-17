@@ -125,20 +125,7 @@
         </nav>
 <header>
        
-<!-- hero wars alliance articles and event top header -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-     crossorigin="anonymous"></script>
-<!-- hero wars alliance articles top header -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7838775403194689"
-     data-ad-slot="2702231404"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<!-- hero wars alliance articles top header -->
+
 
 
 
@@ -181,20 +168,42 @@
   <h3>Visão Geral dos Eventos Rúnicos</h3>
   <p>Os Eventos Rúnicos são ocasiões especiais em Hero Wars Alliance onde você pode ganhar recursos valiosos como Esferas de Runas e Pedras Rúnicas para melhorar Glifos.</p>
   
-  <!-- inicio events hero wars header -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-crossorigin="anonymous"></script>
-<!-- events hero wars header -->
+  <!-- fim events hero wars header -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+<!-- fim events hero wars header -->
 <ins class="adsbygoogle"
-style="display:block"
-data-ad-client="ca-pub-7838775403194689"
-data-ad-slot="8112532261"
-data-ad-format="auto"
-data-full-width-responsive="true"></ins>
+    style="display:block"
+    data-ad-client="ca-pub-7838775403194689"
+    data-ad-slot="8112532261"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+
 <script>
-(adsbygoogle = window.adsbygoogle || []).push({});
+   // Função para carregar o anúncio
+   function loadAd() {
+       (adsbygoogle = window.adsbygoogle || []).push({});
+   }
+
+   // Verifica se o navegador suporta IntersectionObserver
+   if ('IntersectionObserver' in window) {
+       const adContainer = document.querySelector('.adsbygoogle');
+       const observer = new IntersectionObserver(entries => {
+           entries.forEach(entry => {
+               if (entry.isIntersecting) {
+                   loadAd();
+                   observer.unobserve(adContainer); // Para de observar após o carregamento
+               }
+           });
+       }, { rootMargin: '100px' }); // Ajuste conforme necessário
+
+       observer.observe(adContainer);
+   } else {
+       // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+       loadAd();
+   }
 </script>
 <!-- fim events hero wars header -->
+
   
   <p> Existem dois eventos principais:</p>
   <ol>
@@ -238,20 +247,44 @@ data-full-width-responsive="true"></ins>
       <img src="../../img-HWM/events-img/runic-events/rune-sphere-hwa-600px.webp" alt="Missões da Aliança das Forças, Hero Wars Alliance." title="Missões da Aliança das Forças, Hero Wars Alliance." loading="lazy">
       <figcaption>Missões da Aliança das Forças, Hero Wars Alliance.</figcaption>
   </figure>
-  <!-- events hero wars alliance deep2 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-crossorigin="anonymous"></script>
-<!-- events hero wars alliance deep2 -->
-<ins class="adsbygoogle"
-style="display:block"
-data-ad-client="ca-pub-7838775403194689"
-data-ad-slot="4249308873"
-data-ad-format="auto"
-data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<!-- events hero wars alliance deep2 -->
+
+  <!---------- multiplex event deep2 down pic ----------->
+  <!-- Script do AdSense, carregado no final do body -->
+  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+  <!---------- multiplex event deep2 down pic ----------->
+  <!-- Container do anúncio -->
+  <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="3367331761"></ins>
+  
+  <script>
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+  
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme desejado
+  
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+  </script>
+  <!---------- multiplex event deep2 down pic ----------->
+  
 
   <br>
   <h4>Moinho Rúnico:</h4>

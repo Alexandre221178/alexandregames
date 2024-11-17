@@ -119,20 +119,42 @@
           <p>Hero Wars Alliance está se preparando para um dos eventos mais esperados do ano: o <strong>Evento da Árvore Mágica 2024</strong>. Este emocionante desafio de três dias reúne guildas de todo o mundo em uma competição para cultivar a árvore mágica mais alta e magnífica. É uma corrida contra o tempo, e a colaboração é a chave para o sucesso.</p>
       
 
-<!-- inicio events hero wars header -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-crossorigin="anonymous"></script>
-<!-- events hero wars header -->
-<ins class="adsbygoogle"
-style="display:block"
-data-ad-client="ca-pub-7838775403194689"
-data-ad-slot="8112532261"
-data-ad-format="auto"
-data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 <!-- fim events hero wars header -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+ <!-- fim events hero wars header -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="8112532261"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para de observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme necessário
+
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+</script>
+ <!-- fim events hero wars header -->
+
 
           <p>Abaixo, vamos orientá-lo sobre tudo o que você precisa saber sobre o evento, as recompensas e como maximizar as chances de vitória da sua guilda!</p>
       
@@ -145,20 +167,7 @@ data-full-width-responsive="true"></ins>
             </figure>
 
 
-<!-- events hero wars alliance deep2 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-crossorigin="anonymous"></script>
-<!-- events hero wars alliance deep2 -->
-<ins class="adsbygoogle"
-style="display:block"
-data-ad-client="ca-pub-7838775403194689"
-data-ad-slot="4249308873"
-data-ad-format="auto"
-data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<!-- events hero wars alliance deep2 -->
+
 
             <p>O objetivo é simples: <strong>Cultivar uma árvore maior do que as outras guildas</strong>! Quanto maior for a sua árvore, melhores serão as recompensas que sua guilda receberá. O trabalho em equipe é essencial, pois todos os membros da guilda devem se unir para contribuir com recursos e completar as missões do evento. Quanto mais membros da guilda participarem, maiores serão as chances de vitória.</p>
 
