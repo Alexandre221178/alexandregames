@@ -231,8 +231,50 @@
 </ul>
 
 
+<!---------- mlbb counters multiplex ----------->
+<!-- multiplex-lazy-mlbb -->
+  <!-- Script do AdSense, carregado no final do body -->
+  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+  
+  <!-- Container do anúncio -->
+  <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="5985407193"></ins>
+  
+  <script>
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+  
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme desejado
+  
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+  </script>
+
+
 <h3>2. Early Game Strategies:</h3>
 <p>Share Flower of Hope with a key ally in the base for added survivability. Assist the jungle in taking buffs and Lithowanderer for mana. Rotate with the jungle for ambushes in other lanes, focusing on teamwork.</p>
+
+
+
+
 
 <h3>3. Mid to Late Game Tactics:</h3>
 <p>Continuously rotate around the map to secure objectives like buffs, ambushes, kills, and turrets. Prioritize supporting teammates with heals and crowd control in team fights. Keep an eye on the minimap and your allies' health, ready to use Flourish to heal them.</p>
@@ -355,42 +397,7 @@
     </div>
 </section>
 
-<!---------- mlbb counters multiplex ----------->
-<!-- multiplex-lazy-mlbb -->
-  <!-- Script do AdSense, carregado no final do body -->
-  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
-  
-  <!-- Container do anúncio -->
-  <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="autorelaxed"
-     data-ad-client="ca-pub-7838775403194689"
-     data-ad-slot="5985407193"></ins>
-  
-  <script>
-    // Função para carregar o anúncio
-    function loadAd() {
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    }
-  
-    // Verifica se o navegador suporta IntersectionObserver
-    if ('IntersectionObserver' in window) {
-        const adContainer = document.querySelector('.adsbygoogle');
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    loadAd();
-                    observer.unobserve(adContainer); // Para observar após o carregamento
-                }
-            });
-        }, { rootMargin: '50px' }); // Ajuste conforme desejado
-  
-        observer.observe(adContainer);
-    } else {
-        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
-        loadAd();
-    }
-  </script>
+
 
    
     <!---------- Feitiços - Spell MLBB English ----------->
