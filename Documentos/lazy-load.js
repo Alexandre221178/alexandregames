@@ -1,17 +1,12 @@
  
   
- // Função para carregar a segunda metade do conteúdo
-function loadSecondHalf() {
-  const secondHalf = document.getElementById('second-half');
-  if (secondHalf) {
-    secondHalf.classList.remove('hidden'); // Exibe a segunda metade do conteúdo
-  } else {
-    console.warn('Elemento #second-half não encontrado.');
-  }
+ 
+  
+ // Função para carregar a segunda metade do conteúdo após um atraso
+ function loadSecondHalf() {
+  document.getElementById('second-half').classList.remove('hidden');
 }
 
-// Carrega a segunda metade do conteúdo assim que o DOM estiver pronto
-document.addEventListener('DOMContentLoaded', () => {
-  setTimeout(loadSecondHalf, 107); // Pequeno atraso (opcional, ajuste conforme necessário)
-});
+// Simula um atraso antes de carregar a segunda metade do conteúdo
+setTimeout(loadSecondHalf, 113); // estava 1300 em 11-11-24, 2000 = Atraso de 2 segundos 
 
