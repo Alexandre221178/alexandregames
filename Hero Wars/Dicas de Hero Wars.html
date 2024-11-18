@@ -258,6 +258,45 @@
 
             </div>
 
+
+<!-- multiplex-lazy-hwa -->
+  <!-- Script do AdSense, carregado no final do body -->
+  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+  
+  <!-- Container do anúncio -->
+  <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="3558763835"></ins>
+  
+  <script>
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+  
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme desejado
+  
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+  </script>
+
+
+
         <h2>5. Desbloqueie incursão instantânea "RAID"</h2>
         <p> 
             Quando você completa uma missão com incursão instantânea "RAID" seus heróis não obtêm experiência diretamente, em vez disso, os pontos de experiência EXP adquiridos são convertidos em poções de EXP que você pode encontrar em seu inventário e usar para atualizar em qualquer herói de sua escolha.
@@ -456,41 +495,7 @@
 </section> 
 
 
-<!-- multiplex-lazy-hwa -->
-  <!-- Script do AdSense, carregado no final do body -->
-  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
-  
-  <!-- Container do anúncio -->
-  <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="autorelaxed"
-     data-ad-client="ca-pub-7838775403194689"
-     data-ad-slot="3558763835"></ins>
-  
-  <script>
-    // Função para carregar o anúncio
-    function loadAd() {
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    }
-  
-    // Verifica se o navegador suporta IntersectionObserver
-    if ('IntersectionObserver' in window) {
-        const adContainer = document.querySelector('.adsbygoogle');
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    loadAd();
-                    observer.unobserve(adContainer); // Para observar após o carregamento
-                }
-            });
-        }, { rootMargin: '50px' }); // Ajuste conforme desejado
-  
-        observer.observe(adContainer);
-    } else {
-        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
-        loadAd();
-    }
-  </script>
+
 
 
 

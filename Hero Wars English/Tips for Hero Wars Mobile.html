@@ -243,24 +243,25 @@
                     <img src="../img-HWM/quais-herois-investir-em-hero-wars.webp" alt="Beginners Team in Hero Wars Alliance" title="Beginners Team in Hero Wars Alliance" >
                 <figcaption>Beginners Team in Hero Wars Alliance </figcaption>
                 </div>
-    
 
-<!-- Hero wars Articles 2nd lazy -->    
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
 
-<ins class="adsbygoogle"
+<!-- multiplex-lazy-hwa -->
+  <!-- Script do AdSense, carregado no final do body -->
+  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+  
+  <!-- Container do anúncio -->
+  <ins class="adsbygoogle"
      style="display:block"
+     data-ad-format="autorelaxed"
      data-ad-client="ca-pub-7838775403194689"
-     data-ad-slot="2298207967"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
+     data-ad-slot="3558763835"></ins>
+  
+  <script>
     // Função para carregar o anúncio
     function loadAd() {
         (adsbygoogle = window.adsbygoogle || []).push({});
     }
-
+  
     // Verifica se o navegador suporta IntersectionObserver
     if ('IntersectionObserver' in window) {
         const adContainer = document.querySelector('.adsbygoogle');
@@ -268,17 +269,18 @@
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     loadAd();
-                    observer.unobserve(adContainer); // Para de observar após o carregamento
+                    observer.unobserve(adContainer); // Para observar após o carregamento
                 }
             });
-        }, { rootMargin: '300px' }); // Ajuste conforme necessário
-
+        }, { rootMargin: '100px' }); // Ajuste conforme desejado
+  
         observer.observe(adContainer);
     } else {
         // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
         loadAd();
     }
-</script>   
+  </script>
+
 
 
 
@@ -483,41 +485,7 @@
 </br>
 
 
-<!-- multiplex-lazy-hwa -->
-  <!-- Script do AdSense, carregado no final do body -->
-  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
-  
-  <!-- Container do anúncio -->
-  <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="autorelaxed"
-     data-ad-client="ca-pub-7838775403194689"
-     data-ad-slot="3558763835"></ins>
-  
-  <script>
-    // Função para carregar o anúncio
-    function loadAd() {
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    }
-  
-    // Verifica se o navegador suporta IntersectionObserver
-    if ('IntersectionObserver' in window) {
-        const adContainer = document.querySelector('.adsbygoogle');
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    loadAd();
-                    observer.unobserve(adContainer); // Para observar após o carregamento
-                }
-            });
-        }, { rootMargin: '50px' }); // Ajuste conforme desejado
-  
-        observer.observe(adContainer);
-    } else {
-        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
-        loadAd();
-    }
-  </script>
+
   
 
                
