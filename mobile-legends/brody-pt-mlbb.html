@@ -256,6 +256,45 @@
         <img src="../img-MLBB/brody-img/brody-abyss-mark-mlbb.webp" alt="Brody marcas do Abismos, Mobile Legends: Bang Bang" title="Brody stacking marcas do Abismos, Mobile Legends: Bang Bang" loading="lazy">
         <figcaption>Brody acumulo de marcas do Abismos, Mobile Legends: Bang Bang</figcaption>
       </figure>
+
+
+<!---------- mlbb counters multiplex ----------->
+<!-- multiplex-lazy-mlbb -->
+  <!-- Script do AdSense, carregado no final do body -->
+  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+  
+  <!-- Container do anúncio -->
+  <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="5985407193"></ins>
+  
+  <script>
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+  
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme desejado
+  
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+  </script>
+
         
       <h3>Primeira Habilidade - Impacto do Abismo</h3>
       <p>A primeira habilidade de Brody é uma onda de choque linear que causa dano físico a todos os inimigos em seu caminho e aplica uma marca do Abismo. O primeiro inimigo atingido receberá uma marca, o segundo duas marcas e assim por diante. A habilidade também reduz a velocidade dos inimigos em 30% por 1,2 segundos.</p>

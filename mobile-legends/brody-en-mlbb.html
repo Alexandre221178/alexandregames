@@ -255,6 +255,45 @@
         <img src="../img-MLBB/brody-img/brody-abyss-mark-mlbb.webp" alt="Brody stacking Abyss Mark, Mobile Legends: Bang Bang" title="Brody stacking Abyss Mark, Mobile Legends: Bang Bang" loading="lazy">
         <figcaption>Brody stacking Abyss Mark, Mobile Legends: Bang Bang</figcaption>
       </figure>
+
+
+<!---------- mlbb counters multiplex ----------->
+<!-- multiplex-lazy-mlbb -->
+  <!-- Script do AdSense, carregado no final do body -->
+  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+  
+  <!-- Container do anúncio -->
+  <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="5985407193"></ins>
+  
+  <script>
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+  
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme desejado
+  
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+  </script>
+
   
       <h3>First Skill - Abyss Impact</h3>
       <p>Brody’s first skill is a linear shockwave that deals physical damage to all enemies in its path and applies a stack of Abyss Mark. The first enemy hit will receive one stack of Abyss Mark, the second enemy hit will receive two stacks, and so on. The skill also slows enemies by 30% for 1.2 seconds.</p>

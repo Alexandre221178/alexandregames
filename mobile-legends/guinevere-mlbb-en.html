@@ -252,7 +252,46 @@
       <figure class="img-max">
         <img src="../img-MLBB/guinevere-img/guinevere-supermagic-and-mark.webp" alt="Guinevere stacks of Super Magic and marks, Mobile Legends." title="Guinevere stacks of Super Magic and marks, Mobile Legends." loading="lazy">
         <figcaption>Guinevere stacks of Super Magic and marks, Mobile Legends.</figcaption>
-      </figure>  
+      </figure> 
+      
+      
+<!---------- mlbb counters multiplex ----------->
+<!-- multiplex-lazy-mlbb -->
+  <!-- Script do AdSense, carregado no final do body -->
+  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+  
+  <!-- Container do anúncio -->
+  <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="5985407193"></ins>
+  
+  <script>
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+  
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para observar após o carregamento
+                }
+            });
+        }, { rootMargin: '100px' }); // Ajuste conforme desejado
+  
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+  </script>
+
 
       Those with 3 marks will be knocked airborne when hit by her Violet Requiem.</p>
     <ul>

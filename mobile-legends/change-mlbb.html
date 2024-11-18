@@ -230,7 +230,6 @@
     <a>Crescent Moon Ability and Marks of Change.</a>
 </div>
 
-
 <!---------- mlbb counters multiplex ----------->
 <!-- multiplex-lazy-mlbb -->
   <!-- Script do AdSense, carregado no final do body -->
@@ -267,6 +266,7 @@
         loadAd();
     }
   </script>
+
 
   <h4>3rd Skill: Meteor Shower</h4>
   <p>Chang'e fires 30 meteors in the target direction over 4s, each dealing damage to the first enemy hit. Deals extra damage to minions and creeps. Chang'e also gains movement speed for the duration.</p>
@@ -464,7 +464,7 @@
 
               <div class="img-middle">
                 <img src="../img-MLBB/change-img/change-400x300.webp" alt="Change Build with Impure Rage Emblem MLBB MOBA" title="Change Build with Impure Rage Emblem Mobile Legends Bang Bang"  >
-                <br><a>Change Build with Impure Rage Emblem</a>
+                <br><a>Change Build with Top Global Impure Rage Emblem</a>
                 </div>
 
               <li>
@@ -481,12 +481,47 @@
             
             <div class="img-middle">
             <img src="../img-MLBB/change-img/change400x300.webp" alt="Change Build with Lethal Ignition Emblem Build MLBB MOBA" title="Change Build with Lethal Ignition Emblem Mobile Legends Bang Bang"  >
-            <br><a>Change Build with Lethal Ignition Emblem</a>
+            <br><a>Change Build with Top Global Lethal Ignition Emblem</a>
             </div>
-     
-        
-       
 </section>
+
+<!-- mlbb multiplex top global build -->
+  <!-- Script do AdSense, carregado no final do body -->
+  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+  
+  <!-- Container do anúncio -->
+  <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="5046915372"></ins>
+  
+  <script>
+    // Função para carregar o anúncio
+    function loadAd() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+  
+    // Verifica se o navegador suporta IntersectionObserver
+    if ('IntersectionObserver' in window) {
+        const adContainer = document.querySelector('.adsbygoogle');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAd();
+                    observer.unobserve(adContainer); // Para observar após o carregamento
+                }
+            });
+        }, { rootMargin: '50px' }); // Ajuste conforme desejado
+  
+        observer.observe(adContainer);
+    } else {
+        // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+        loadAd();
+    }
+  </script>
+
+
    
     
     <!-------- Skill Table - Title 
