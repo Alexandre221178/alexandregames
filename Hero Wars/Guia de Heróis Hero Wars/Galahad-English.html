@@ -282,30 +282,42 @@ data-ad-slot="7494171230"></ins>
 </figure>
 </div>
 
-<!-- Talisman multiplex 500x400 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-     crossorigin="anonymous"></script>
+<!-- multiplex-talisman hwa -->
+<!-- Script do AdSense, carregado no final do body -->
+<script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous"></script>
+<!-- multiplex-talisman hwa -->
+<!-- Container do anúncio -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:500px;height:400px"
-     data-ad-client="ca-pub-7838775403194689"
-     data-ad-slot="6748065776"></ins>
+   style="display:block"
+   data-ad-format="autorelaxed"
+   data-ad-client="ca-pub-7838775403194689"
+   data-ad-slot="9101964049"></ins>
+
 <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
+  // Função para carregar o anúncio
+  function loadAd() {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  }
+
+  // Verifica se o navegador suporta IntersectionObserver
+  if ('IntersectionObserver' in window) {
+      const adContainer = document.querySelector('.adsbygoogle');
+      const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                  loadAd();
+                  observer.unobserve(adContainer); // Para observar após o carregamento
+              }
+          });
+      }, { rootMargin: '150px' }); // Ajuste conforme desejado
+
+      observer.observe(adContainer);
+  } else {
+      // Se o navegador não suportar IntersectionObserver, carrega o anúncio imediatamente
+      loadAd();
+  }
 </script>
-
-<section>
-<h2>Analysis of Galahad's Second Talisman in Hero Wars Alliance</h2>
-<p>Galahad's second talisman in Hero Wars Alliance significantly enhances his offensive capabilities by providing Physical Attack and Armor Penetration. Unlike the War Talisman, which boosts his Strength and critical hit chance, this talisman specifically addresses Galahad's historical limitation in dealing consistent damage due to his lack of armor penetration.</p>
-
-<p>With this talisman, Galahad can bypass enemy defenses, making his area attacks, like his multi-sword skill, far more effective. This allows him to deal substantial damage against heavily armored foes, transforming him into a formidable warrior rather than a tank, which many players mistakenly perceive him to be.</p>
-
-<p>This armor penetration effect is especially advantageous when paired with other heroes from the Honor faction, amplifying team damage output. Additionally, the extra Physical Attack synergizes well with Galahad's abilities, allowing him to achieve greater damage overall and secure a more impactful role on the battlefield.</p>
-<figure class="img-max">
-    <img src="../../img-HWM/Galahad-img/galahad-talisman-of-chivalry.webp" alt="Galahad Hero Wars Mobile Talisman of Chivalry" title="Galahad Hero Wars Mobile Talisman of Chivalry" loading="lazy">
-    <figcaption>Galahad with Talisman of Chivalry, Hero Wars.</figcaption>
-</figure>
-
-</section>
+<!-- multiplex-talisman hwa -->
 
 
         </Section> 
