@@ -16,5 +16,5 @@ function loadSecondHalf() {
 
 // Carrega a segunda metade do conteúdo assim que o DOM estiver pronto
 document.addEventListener('DOMContentLoaded', () => {
-  setTimeout(loadSecondHalf, 754); // Pequeno atraso (opcional, ajuste conforme necessário)
+  setTimeout(loadSecondHalf, 913); // Pequeno atraso (opcional, ajuste conforme necessário)
 });
