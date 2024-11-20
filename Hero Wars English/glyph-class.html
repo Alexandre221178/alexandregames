@@ -37,7 +37,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../imagens/favicon-16x16.png">
     <link rel="manifest" href="../imagens/site.webmanifest">
 
-    <link rel="stylesheet" href="../estilo2024.css">
+    <link rel="stylesheet" href="../estilo13.css">
    
 
     
@@ -76,56 +76,41 @@
         
 </head>
 <body>
-  <div class="container">
-    <nav>
-      <div class="logo">
-        <a href="https://alexandregames.com/"><img src="../imagens/exandregames318x318-removebg.webp" alt="Alexandre Games Logo" title="Alexandre Games - Home"></a>
-      </div>                  
-        <ul>                     
-            <div class="dropdown">
-                 <button><a href="../herowars-alliance-en.html">Hero Wars Alliance</a></button>
-            </div>
-
-            <div class="dropdown">
-                <button><a href="../MobileLegends-English.html">Mobile Legends</a> 
-                                              
-            </div>
-            <div class="dropdown">
-                <button><a href="../roblox-us.html">Roblox</a> 
-                                              
-            </div>
-                  
-            <div class="dropdown">
-                <button class="dropbtn">More</button>
-                <div class="dropdown-content">
-                    <a href="../Documentos/about.html">About Us</a>
-                    <a href="../Documentos/Contact.html">Contact</a>
-                    <a href="../Documentos/disclaimer.html">Disclaimer</a>
-                    <a href="../Documentos/PrivacyPolicy.html">Privacy Policy</a>
-                    <a href="../Documentos/TermsofUse.html">Terms of Use</a>
-                   
-                </div>
-            </div>
-           
-                               
-               <!-- Botão de troca de idioma Colocar link da página em PortuguÊs-br.html -->
-               <button><a href="../Hero Wars/Classes-de-glifos.html"><img src="../imagens/flag-brazil-32x32.png" alt="Brazil flag" title="Brazil flag" style="width:24px;height:16px"><strong> PT</strong></a></button>
-      
-          
-                
-            </ul>
-            <div class="menu-icon">
-                <img src="../imagens/menu.png" alt="Menu" title="icon-menu" style="width:48px;height:48px;">
-            </div>
-            
-        <!--Cabeçalho de título-->
-        
-    </nav>
-<header>
-    <div class="img-banner">
-      <img src="../img-HWM/glyph-class-1200px.webp" alt="Glyph Class Skill Guide, Hero Wars Mobile." title="Glyph Class Skill Guide, Hero Wars Mobile." >
+  <div id="cookie-banner" class="cookie-banner">
+    <p>We use cookies to enhance your experience. By continuing to browse, you agree to our cookie policy.</p>
+    <div class="button-container">
+        <button id="accept-cookies" class="btn accept-btn">Accept All</button>
+        <button id="reject-cookies" class="btn reject-btn">Reject All</button>
+    </div>
+    <a href="../Documentos/PrivacyPolicy.html" class="privacy-link">Privacy Policy</a>
   </div>
-  
+
+
+  <div class="container">
+    <div id="menu-container"></div><!-- Contêiner do menu -->
+    <!-- O menu <nav></nav> será inserido aqui pelo JavaScript -->
+    <!-- Botão de troca de idioma -->            
+    <button class="language-switch"><!-- Botão de troca de idioma colocar página em PT-BR -->
+        <a href="../Hero Wars/Classes-de-glifos.html">
+        <img src="../imagens/flag-brazil-32x32.png" alt="Brazil flag" title="Brazil flag" style="width:24px;height:16px">
+        <strong> PT</strong></a>
+    </button>
+    <script src="../Documentos/nav13-en.js"></script>
+           
+             
+<header>
+
+  <figure class="img-banner">
+    <picture>
+        <!-- Para telas grandes (PC) de 80kb a 150kb -->
+        <source media="(min-width: 768px)" srcset="../img-HWM/glyph-class-1200px.webp">
+        <!-- Para telas menores (mobile) de 30kb a 70kb -->
+        <img src="../img-HWM/glyph-class-600px.webp" alt="Illustration of Glyph Class Skill Guide - Wallpaper" title="Illustration of Glyph Class Skill Guide - Hero Wars Alliance">
+    </picture>
+    <figcaption>Illustration of Glyph Class Skill Guide, from the game Hero Wars Alliance.</figcaption>
+  </figure>
+
+     
 
 
     <div class="text-title">   
@@ -497,58 +482,43 @@
   </div>
 </main>
 
-<section>
-<h2>Comment Section</h2>
-<p id="commentParagraph">To participate in the chat session on Guide to Glyph Class page on Alexandre Games Blog, click the button below:</p>
-  <button id="loadScript">Load Comments</button>
-  <div id="loadingMessage" style="display: none;">Loading comments... Please wait</div>
-  <div id="graphcomment"></div>
-</section>
+
 
          
-                <!-- Footer -->
+<section>
+  <h2>Leave Your Opinion!</h2>
+  <p id="commentParagraph">To participate in the chat session on Guide to Glyph Class page on Alexandre Games Blog, click the button below:</p>
+  <button id="loadScript">Load Comments</button>
+  <!-- button code is in the footer JS -->
+  <div id="loadingMessage" style="display: none;">Loading comments... Please wait</div>
+  <div id="graphcomment"></div>
 
-                <footer>
-                  <div class="footer">
-                  <div class="row">
-                   
-                    <a href="https://www.youtube.com/channel/UCVXIv4Movg3KAaPHVE7dstw"><img src="../imagens/youtube-black.webp" alt="youtube" title="Youtube"></i></a>
-                    <a href="https://www.twitch.tv/ytalexandre"><img src="../imagens/twitchblack.webp" alt="Twitch" title="Twitch"></i></a>
-                    
-                  </div>
-                  <div class="row">
-                    <ul>
-                      <li><a href="../Documentos/about.html">About Us</a></li>
-                      <li><a href="../Documentos/Contact.html">Contact</a></li>
-                      <li><a href="../Documentos/disclaimer.html">Disclaimer</a></li>
-                      <li><a href="../Documentos/PrivacyPolicy.html">Privacy Policy</a></li>
-                      <li><a href="../Documentos/TermsofUse.html">Terms of Use</a></li>
-                     
-                    </ul>
-                </div>
-                  <div class="row">
-                      <ul>
-                       
-                        <li>©2023-2024 Alexandre Games Blog</li>
-                       
-                      </ul>
-                  </div>
-                      
-              </footer>
-              
-              <!---------   HTML cookies US  ------------>  
-<div id="cookie-banner" class="cookie-banner">
-  <p>We use cookies to enhance your experience. By continuing to browse, you agree to our cookie policy.</p>
-  <div class="button-container">
-      <button id="accept-cookies" class="btn accept-btn">Accept All</button>
-      <button id="reject-cookies" class="btn reject-btn">Reject All</button>
+</section>
+
+
+
+<!------------- New Footer Java Script Inicio ------------->
+<footer>
+  <div class="footer">
+      <div class="row" id="social-links"></div> <!-- Links de redes sociais serão inseridos aqui -->
+      <div class="row">
+          <ul id="navigation-links"></ul> <!-- Links de navegação serão inseridos aqui -->
+      </div>
+      <div class="row">
+          <ul>
+              <li id="message"></li> <!-- Mensagem será inserida aqui -->
+          </ul>
+      </div> 
   </div>
-  <a href="../Documentos/PrivacyPolicy.html" class="privacy-link">Privacy Policy</a>
-</div>
-   
-
-<script src="../Documentos/java-en-footer.js"></script>
-<script src="../Documentos/graphcomments.js"></script>
+</footer>
+<!-- Fim do Footer Alexandre Games Java Script -->
+          
+              
+    
+  <script src="../Documentos/java-insert-footer-en.js"></script>
+  <script src="../Documentos/graphcomments.js"></script>
+  <script src="../Documentos/share-en-reddit.js"></script>
+  <!-- Footer -->
 
 </body> 
 
