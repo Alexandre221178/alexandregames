@@ -63,6 +63,13 @@ body{
     min-height: 280px; /* Altura mínima para garantir espaço reservado */
     background-color: #f0f0f0; /* Cor de fundo para visualização enquanto o anúncio carrega */
   }
+/* Espaço para AD no top-header para evitar CLS Veualiah */
+.wallpaper-container {
+    width: 100%;
+    min-height: 200px; /* Altura mínima para garantir espaço reservado */
+    background-color: #f0f0f0; /* Cor de fundo para visualização enquanto o anúncio carrega */
+  }
+
 
 
 
