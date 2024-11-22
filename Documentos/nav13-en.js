@@ -4,18 +4,27 @@ document.addEventListener('DOMContentLoaded', () => {
             <a href="https://alexandregames.com"><img src="https://alexandregames.com/imagens/exandregames318x318-removebg.webp" alt="Alexandre Games Mobile Logo" title="Alexandre Games Mobile Logo"></a>
         </div>
         
-        <ul>                     
-            <div class="dropdown">
-                <button class="dropbtn"><a href="https://alexandregames.com/herowars-alliance-en.html">Hero Wars Alliance</a></button>
-                
+        <ul> 
+                <div class="dropdown">
+                <button class="dropbtn">Hero Wars Alliance</button>
+                <div class="dropdown-content">
+                 
+                <a href="https://alexandregames.com/herowars-alliance-en.html">HWA - Home</a>
+                    <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-en-hwa.html">Best Teams Guide</a>
+                    <a href="https://alexandregames.com/Hero%20Wars%20English/Heroes%20Guide%20Hero%20Wars.html">Heroes Guide</a>
+                    <a href="https://alexandregames.com/hero-wars-alliance/menu-review-en-hwa.html">Reviews</a>
+                    <a href="https://alexandregames.com/Hero%20Wars%20English/Titans%20Guide%20Hero%20Wars.html">Titans Guide</a>
+                   
+                    
+                    
+                   
+                </div>
             </div>              
             <div class="dropdown">
-                <button class="dropbtn"><a href="https://alexandregames.com/MobileLegends-English.html">Mobile Legends</a></button>
-                
+                <button class="dropbtn"><a href="https://alexandregames.com/MobileLegends-English.html">Mobile Legends</a></button> 
             </div> 
             <div class="dropdown">
                 <button class="dropbtn"><a href="https://alexandregames.com/roblox-us.html">Roblox PC/Mobile</a></button>
-                
             </div> 
             <div class="dropdown">
                <button><a href="https://alexandregames.com/top-troops/top-troops-en-home.html">Top Troops</a></button>

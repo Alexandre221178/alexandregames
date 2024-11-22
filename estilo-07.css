@@ -16,7 +16,7 @@ body{
 
 /* Estilização para o container fixo */
 .container-fixo {
-    width: 305px; /* Define a largura fixa */
+    width: 310px; /* Define a largura fixa */
     height: 100vh; /* Altura total da tela */
     position: sticky; /* Fica fixo ao rolar a página */
     top: 0; /* Fixa no topo */
@@ -38,8 +38,10 @@ body{
 .container-principal {
     max-width: 1280px;
     margin: auto;
+    
     display: flex;
-    gap: 25px; /* Espaço entre os elementos - margin entre fixo lateral e conteudo  */
+    gap: 10px; /* Espaço entre os elementos - margin entre fixo lateral e conteudo  */
+    
 }
 
 /* Estilos padrão para o container de anúncio */
