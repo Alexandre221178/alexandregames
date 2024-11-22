@@ -40,7 +40,7 @@ body{
     margin: auto;
     
     display: flex;
-    gap: 7px; /* Espaço entre os elementos - margin entre fixo lateral e conteudo  */
+    gap: 8px; /* Espaço entre os elementos - margin entre fixo lateral e conteudo  */
     
 }
 
