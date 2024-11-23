@@ -5,9 +5,21 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>                     
         <ul>                     
             <div class="dropdown">
-                <button class="dropbtn"><a href="https://alexandregames.com/HeroWars.html">Hero Wars Alliance</a></button>
-               
-            </div>              
+                <button class="dropbtn">Hero Wars Alliance</button>
+                <div class="dropdown-content">
+                 
+                <a href="https://alexandregames.com/herowars-alliance-pt.html">HWA - Início</a>  
+                <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-pt-hwa.html">Guia de Melhores Times</a>  
+                <a href="https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html">Calendário & Eventos</a>
+                <a href="https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-pt-hwa.html">Caminho do Herói</a>  
+                <a href="https://alexandregames.com/Hero%20Wars/Guiadeherois.html">Guia de Heróis</a>  
+                <a href="https://alexandregames.com/hero-wars-alliance/menu-review-pt-hwa.html">Análises de Skins</a>  
+                <a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-en.html">Táticas & Segredos</a>  
+                <a href="https://alexandregames.com/Hero%20Wars/Guia%20de%20Titans.html">Guia de Titãs</a>  
+                    
+                   
+                </div>  
+            </div>           
             <div class="dropdown">
                 <button class="dropbtn"><a href="https://alexandregames.com/MobileLegends.html">Mobile Legends</a></button>
                 

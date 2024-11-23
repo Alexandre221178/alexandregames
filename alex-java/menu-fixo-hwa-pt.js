@@ -1,12 +1,15 @@
 // Define o conteúdo HTML do menu
 const menuContent = `
-    <h6>Alexandre Games</h6>
-    <a href="https://alexandregames.com/HeroWars.html">Hero Wars Alliance</a>
-    <a href="https://alexandregames.com/MobileLegends.html">Mobile Legends</a>
-    <a href="https://alexandregames.com/ragnarok-origin/codigos-ragnarok-br.html">Ragnarok ROO</a>
-    <a href="https://alexandregames.com/roblox-br.html">Roblox</a>
-    <a href="https://alexandregames.com/top-troops/top-troops-pt-home.html">Top Troops</a>
-    <a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-pt.html">Throne and Liberty</a>
+  
+    <a href="https://alexandregames.com/herowars-alliance-pt.html">Hero Wars Alliance</a>  
+                <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-pt-hwa.html">Guia de Melhores Times</a>  
+                <a href="https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html">Calendário & Eventos</a>
+                <a href="https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-pt-hwa.html">Caminho do Herói</a>  
+                <a href="https://alexandregames.com/Hero%20Wars/Guiadeherois.html">Guia de Heróis</a>  
+                <a href="https://alexandregames.com/hero-wars-alliance/menu-review-pt-hwa.html">Análises de Skins</a>  
+                <a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-en.html">Táticas & Segredos</a>  
+                <a href="https://alexandregames.com/Hero%20Wars/Guia%20de%20Titans.html">Guia de Titãs</a>  
+                
     
 `;
 
