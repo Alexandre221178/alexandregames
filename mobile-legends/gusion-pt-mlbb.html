@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta property="article:published_time" content="2024-05-27T22:25-03:00"/>
-    <meta property="article:modified_time" content="2024-05-27T22:25-03:00" />
+    <meta property="article:modified_time" content="2024-11-23T20:00-03:00" />
     <title>Como Jogar de Gusion Mobile Legends Tutorial</title>
     <meta name="author" content="Alexandre Pereira Domingos">
 
@@ -36,7 +36,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../imagens/favicon-16x16.png"> 
     <link rel="manifest" href="../imagens/site.webmanifest">
-    <link rel="stylesheet" href="../estilo2024.css">
+    <link rel="stylesheet" href="../estilo-07.css">
+    <script src="../Documentos/lazy-load.js"></script>
+
+
     
 
    
@@ -83,64 +86,78 @@
   </div>
 
 
-    <div class="container">
-        <nav>
-            <div class="logo">
-                <a href="https://alexandregames.com/index-pt.html"><img src="../imagens/exandregames318x318-removebg.webp" alt="logo Alexandre Games Mobile" title="logo Alexandre Games Mobile" ></a>
-            </div>                     
-            <ul>                     
-                <div class="dropdown">
-                    <button><a href="../HeroWars.html">Hero Wars Mobile</a></button>
-                    
-                </div>   
-                <div class="dropdown">
-                <button><a href="../MobileLegends.html">Mobile Legends</a></button> 
-                        
-                </div>
-                  
-                   
-                                 
-                   
-                <div class="dropdown">
-                    <button class="dropbtn">Mais</button>
-                    <div class="dropdown-content">
-                        <a href="../Documentos/aviso-legal.html">Aviso Legal</a>
-                        <a href="../Documentos/Contato.html">Contato</a>
-                        <a href="../Documentos/Sobre.html">Sobre Nós</a>
-                        <a href="../Documentos/Termos de uso.html">Termos de Uso</a>
-                        <a href="../Documentos/Política de privacidade.html">Política de Privacidade</a>
-                    </div>
-                </div>      
+  <div class="container-principal">
+    <div class="container-fixo">
+  
+      <div id="ad-container" style="display: none;">
+        <!-- Contêiner vazio para o anúncio AdSense que será carregado via JavaScript -->
     
-    
-    
-                
-     <!-- Botão de troca de idiomas pt/en  colocar Hero - English.html -->
-     <button><a href="../mobile-legends/gusion-en-mlbb.html"><img src="../imagens/flag-us-32x32.png" alt="bandeira USA" title="bandeira" USA style="width:24px;height:16px" ><strong> EN</strong></a></button>
-                
-                     
-            </ul>
-            <div class="menu-icon">
-                <img src="../imagens/menu.png" alt="Icone Menu" title="icone menu" style="width:48px;height:48px;">
-            </div>
-            
-        </nav>
-<header>
-  <figure class="img-banner">
-    <picture>
-        <!-- Para telas grandes (PC) de 80kb a 150kb -->
-        <source media="(min-width: 768px)" srcset="../img-MLBB/gusion-img/gusion-1200px.webp">
-        <!-- Para telas menores (mobile) de 30kb a 70kb -->
-        <img src="../img-MLBB/gusion-img/gusion-600px.webp" alt="Gusion Mobile Legends Bang Bang - Papel de Parede" title="Guia do Gusion - Mobile Legends Bang Bang">
-    </picture>
-    <figcaption>Ilustração de Gusion, um personagem do jogo Mobile Legends, desenvolvido pela Moonton.</figcaption>
-</figure>
-
+      <!-- hwa-articles-only-PC-screen -->
+      <script>
+        // Verifica a largura da janela
+        if (window.innerWidth > 840) {
+          // Torna o contêiner visível
+          document.getElementById("ad-container").style.display = "block";
       
-            
+          // Cria e insere o script do AdSense dinamicamente
+          var adsenseScript = document.createElement("script");
+          adsenseScript.async = true;
+          adsenseScript.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689";
+          adsenseScript.crossOrigin = "anonymous";
+          document.head.appendChild(adsenseScript);
+      
+          // Insere o código do anúncio
+          var adIns = document.createElement("ins");
+          adIns.className = "adsbygoogle";
+          adIns.style = "display:inline-block;width:300px;height:250px";
+          adIns.setAttribute("data-ad-client", "ca-pub-7838775403194689");
+          adIns.setAttribute("data-ad-slot", "3946125699");
+          document.getElementById("ad-container").appendChild(adIns);
+      
+          // Executa o anúncio
+          adsenseScript.onload = function() {
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          };
+        }
+      </script>
+          
+     <!-- div para fechar ad fixo lateral -->
+  </div>
+          <div class="menu-fixo">
+              <!-- O conteúdo do menu será inserido aqui via JavaScript -->
+          </div>
+          <script src="../Documentos/menu-fixo-pt.js" ></script>
+         
+     <!-- Script para inserir o menu fixo -->
+  
+  <!-- div do menu-fixo -->
+  </div>
+  
+
+  <div class="container">
+    <div id="menu-container"></div><!-- Contêiner do menu -->
+    <!-- Botão de troca de idioma -->
+    <!-- O menu <nav></nav> será inserido aqui pelo JavaScript -->
+    <button class="language-switch"><!-- Botão de troca de idioma - Colocar link pag. English.html-->
+      <a href="../mobile-legends/article-mlbb/tier-list-mlbb-en.html">
+      <img src="../imagens/flag-us-32x32.png" alt="bandeira USA" title="bandeira" USA style="width:24px;height:16px" >
+      <strong> EN</strong></a>
+    </button>
+    <script src="../Documentos/nav13-pt.js"></script>   
+    
+  
+    
+<header>
+  
         <div class="text-title">   
             <h1>Como Jogar de Gusion<b>Mobile Legends Bang Bang</b></h1>
            
+        </div>
+        <div class="share-buttons">
+          <a id="whatsapp-share" class="share-button whatsapp" href="#" target="_blank">WhatsApp</a>
+          <a id="facebook-share" class="share-button facebook" href="#" target="_blank">Facebook</a>
+          <a id="reddit-share" class="share-button reddit" href="#" target="_blank">Reddit</a>
+          <div id="link-share" class="share-button link">Link</div>
         </div>
 <div class="autor">
     <ul>
@@ -149,6 +166,45 @@
     </ul>
 </div> 
 </header>
+
+
+
+<div class="container">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
+     crossorigin="anonymous"></script>
+<!-- mlbb up the fold - 4717217669 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="4717217669"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+ </div>
+
+ <section>
+  <p>
+    Gusion é um herói versátil de assassino/mago em <strong>Mobile Legends: Bang Bang</strong>, conhecido por seus movimentos rápidos e dano explosivo devastador. Dominar sua jogabilidade exige compreender o equilíbrio delicado entre mobilidade, execução de habilidades e posicionamento. Este guia irá orientá-lo por táticas e estratégias-chave para desbloquear todo o potencial de Gusion no jogo.
+  </p>
+</section>
+
+ <!-- second half retirar melhora - pagespeed test</div> -->        
+<div id="second-half" class="hidden">
+  <!-- second half retirar </div> -->  
+  
+
+<figure class="img-banner">
+  <picture>
+      <!-- Para telas grandes (PC) de 80kb a 150kb -->
+      <source media="(min-width: 768px)" srcset="../img-MLBB/gusion-img/gusion-1200px.webp">
+      <!-- Para telas menores (mobile) de 30kb a 70kb -->
+      <img src="../img-MLBB/gusion-img/gusion-600px.webp" alt="Gusion Mobile Legends Bang Bang - Papel de Parede" title="Guia do Gusion - Mobile Legends Bang Bang">
+  </picture>
+  <figcaption>Ilustração de Gusion, um personagem do jogo Mobile Legends, desenvolvido pela Moonton.</figcaption>
+</figure>
+
       
 <div>
 <table border="1">
@@ -204,16 +260,18 @@
 <!------- Inicio AD MLBB Tier List --------->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
      crossorigin="anonymous"></script>
-<!-- Mobile Legends Tier List -->
+<!-- mlbb 1st down fold - 4548760924 -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-7838775403194689"
-     data-ad-slot="6654073415"
+     data-ad-slot="4548760924"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+<!------- Fim AD MLBB Tier List --------->
+
 <!------- Fim AD MLBB Tier List --------->
 
            
@@ -703,36 +761,30 @@
 
 
 
+<!------------- Footer Inicio ------------->
+<!-- Footer estrutural -->
 <footer>
-    <div class="footer">
-    <div class="row">
-         
-        <a href="https://www.youtube.com/@alexandreekilvinhagames"><img src="../imagens/youtube-black.webp" alt="youtube" title="Youtube"></i></a>
-        <a href="https://www.twitch.tv/ytalexandre"><img src="../imagens/twitchblack.webp" alt="twithc" title="Twitch"></i></a>  
-    </div> 
-    <div class="row">
-        <ul>     
-            <li><a href="../Documentos/Contato.html">Contato</a></li>                    
-            <li><a href="../Documentos/aviso-legal.html">Isenção de Responsabilidade</a></li>
-            <li><a href="../Documentos/Política de privacidade.html">Política de Privacidade</a></li>                     
-            <li><a href="../Documentos/Sobre.html">Sobre Nós</a></li>                    
-            <li><a href="../Documentos/Termos de uso.html">Termos de Uso</a></li>
-        </ul>      
-        <ul>
-            <li id="message"></li>
-        </ul>   
-        </div>          
+  <div class="footer">
+      <div class="row" id="social-links"></div> <!-- Links de redes sociais serão inseridos aqui -->
+      <div class="row">
+          <ul id="navigation-links"></ul> <!-- Links de navegação serão inseridos aqui -->
+      </div>
+      <div class="row">
+          <ul>
+              <li id="message"></li> <!-- Mensagem será inserida aqui -->
+          </ul>
+      </div> 
+  </div>
+
 </footer>
-         
-          
-    
-    
 
+ 
+      
 
-<script src="../Documentos/java-pt-footer.js"></script>
-<script src="../../Documentos/graphcomments.js"></script>
+      <script src="../Documentos/java-insert-footer-pt.js"></script>
+      <script src="../Documentos/graphcomments.js"></script>
+      <script src="../Documentos/share-pt-reddit.js"></script>
 <!-- Footer -->
-
 
 </body>
 
