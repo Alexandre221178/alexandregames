@@ -42,7 +42,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../../imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../imagens/favicon-16x16.png">
     <link rel="manifest" href="../../imagens/site.webmanifest">
-    <link rel="stylesheet" href="../../estilo13.css">
+    <link rel="stylesheet" href="../../estilo-07.css">
+    <script src="../../Documentos/lazy-load.js"></script>
+
+
     
     
    
@@ -89,6 +92,53 @@
   </div>
 
 
+  <div class="container-principal">
+    <div class="container-fixo">
+    
+      <div id="ad-container" style="display: none;">
+          <!-- Contêiner vazio para o anúncio AdSense que será carregado via JavaScript -->
+      
+        <!-- hwa-articles-only-PC-screen -->
+        <script>
+          // Verifica a largura da janela
+          if (window.innerWidth > 840) {
+            // Torna o contêiner visível
+            document.getElementById("ad-container").style.display = "block";
+        
+            // Cria e insere o script do AdSense dinamicamente
+            var adsenseScript = document.createElement("script");
+            adsenseScript.async = true;
+            adsenseScript.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689";
+            adsenseScript.crossOrigin = "anonymous";
+            document.head.appendChild(adsenseScript);
+        
+            // Insere o código do anúncio
+            var adIns = document.createElement("ins");
+            adIns.className = "adsbygoogle";
+            adIns.style = "display:inline-block;width:300px;height:250px";
+            adIns.setAttribute("data-ad-client", "ca-pub-7838775403194689");
+            adIns.setAttribute("data-ad-slot", "1323831786");
+            document.getElementById("ad-container").appendChild(adIns);
+        
+            // Executa o anúncio
+            adsenseScript.onload = function() {
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            };
+          }
+        </script>
+        
+    <!-- div para fechar ad fixo lateral -->
+    </div>
+    
+      <div class="menu-fixo">
+          <!-- O conteúdo do menu será inserido aqui via JavaScript -->
+      </div>
+    <!-- Script para inserir o menu fixo -->
+        <script src="../../Documentos/menu-fixo-en.js" ></script>
+    <!-- div do menu-fixo -->
+    </div>
+
+
   <div class="container">
     <div id="menu-container"></div><!-- Contêiner do menu -->
     <!-- O menu <nav></nav> será inserido aqui pelo JavaScript -->
@@ -121,13 +171,36 @@
         <li><i>By: Alexandre Domingos.</i><b></b> <i id="data-modificacao"></i>.</li>   
         </ul>
     </div> 
+  </header>
+
+
+  <div class="container">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
+    crossorigin="anonymous"></script>
+<!-- mlbb top folder - 3539867363 -->
+<ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-7838775403194689"
+    data-ad-slot="3539867363"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+   </div>
+
     <section>
       <p>Welcome to Mobile Legends: Bang Bang Tier List November 2024! This guide ranks Marksmen, Assassins, Fighters, Mages, Tanks, and Supports, highlighting the best meta heroes in each category. Whether you’re new to the 5v5 MOBA or a veteran seeking top meta picks, this list will help you dominate matches.</p> 
     </section>
     
 
     
-</header>
+   
+
+
+<!-- second half retirar melhora - pagespeed test</div> -->        
+<div id="second-half" class="hidden">
+  <!-- second half retirar </div> -->  
 
 <figure class="img-banner">
   <picture>
@@ -140,32 +213,15 @@
 </figure> 
 
 
-
-
 <section>
   <article>
-    
-   
-
-
-
-
-
-
-
-   
-
-
-<!-------
+    <!-------
 
 <p>Each hero in this Tier List has unique strengths, skill sets, and optimal roles within a team. Our tier list categorizes them based on performance, adaptability, and synergy potential across various game phases and situations. From damage-dealing Marksmen to tanky front-liners, we’ve got you covered on who’s hot in the current Mobile Legends meta and which heroes can turn the tide of battle.</p>
       
 <p>Dive in and discover the top heroes across all classes in Mobile Legends, the ultimate 5v5 MOBA experience!</p>
 ------>
-        
-      
-
-        
+                
       <h2>Mobile Legends Best Marksman - Tier List</h2>
       <p>Marksmen are high-damage, ranged heroes who excel at dealing massive amounts of damage over time, especially in the later stages of the game. Their range allows them to position safely behind the front lines, taking down enemies from a distance. Key marksmen like <strong>Roger</strong> can also double as fighters, excelling in jungle rotations and becoming incredibly dangerous in mid-game fights.</p>
       
@@ -530,44 +586,33 @@
  
 
        
-        <!------------- Footer ------------->
-
+      <!------------- New Footer Java Script Inicio ------------->
 <footer>
-    <div class="footer">
-    <div class="row">
-     
-        <a href="https://www.youtube.com/channel/UCVXIv4Movg3KAaPHVE7dstw"><img src="../../imagens/youtube-black.webp" alt="youtube" title="Youtube"></i></a>
-        <a href="https://www.twitch.tv/ytalexandre"><img src="../../imagens/twitchblack.webp" alt="Twitch" title="Twitch"></i></a>        
-    </div>
-    <div class="row">
-        <ul>
-            <li><a href="../../Documentos/about.html">About Us</a></li>
-            <li><a href="../../Documentos/Contact.html">Contact</a></li>
-            <li><a href="../../Documentos/disclaimer.html">Disclaimer</a></li>         
-            <li><a href="../../Documentos/TermsofUse.html">Terms of Use</a></li>
-            <li><a href="../../Documentos/PrivacyPolicy.html">Privacy Policy</a></li>
-                            
-        </ul>
-        <ul>
-        <li id="message"></li>
-        </ul>
-    </div>
-    </div> 
+  <div class="footer">
+      <div class="row" id="social-links"></div> <!-- Links de redes sociais serão inseridos aqui -->
+      <div class="row">
+          <ul id="navigation-links"></ul> <!-- Links de navegação serão inseridos aqui -->
+      </div>
+      <div class="row">
+          <ul>
+              <li id="message"></li> <!-- Mensagem será inserida aqui -->
+          </ul>
+      </div> 
+  </div>
 
- 
 
 
 </footer>
-    
+
+          
+              
+     
 
 
-
-
-
-
-        <script src="../../Documentos/java-en-pt-footer.js"></script>
-        <script src="../../Documentos/graphcomments.js"></script>
-        <script src="../../Documentos/share-en-reddit.js"></script>
+  <script src="../../Documentos/java-insert-footer-en.js"></script>
+  <script src="../../Documentos/graphcomments.js"></script>
+  <script src="../../Documentos/share-en-reddit.js"></script>
+  <!-- Footer -->
 </body>
 
 
