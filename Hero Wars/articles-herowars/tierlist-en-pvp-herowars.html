@@ -40,7 +40,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../../imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../imagens/favicon-16x16.png">
     <link rel="manifest" href="../../imagens/site.webmanifest">
-        <link rel="stylesheet" href="../../estilo2024.css">
+        <link rel="stylesheet" href="../../estilo13.css">
         <script src="../../Documentos/lazy-load.js"></script>
 <!---- atrasar carregamento da tela <div class="content hidden" id="second-half">  --cuidado p/ nao fechar a </div> ao colar ---->
         
@@ -91,61 +91,19 @@
     </div>
 
     <div class="container">
-        <nav>
-            <div class="logo">
-                <a href="https://alexandregames.com/"><img src="../../imagens/exandregames318x318-removebg.webp" alt="Alexandre Games Logo" title="Alexandre Games - Home"></a>
-            </div>                    
-            <ul>                     
-                <div class="dropdown">
-                     <button><a href="../../herowars-alliance-en.html">Hero Wars Alliance</a></button>
-                </div>
-  
-                <div class="dropdown">
-                    <button><a href="../../MobileLegends-English.html">Mobile Legends</a> 
-                                                  
-                </div>
-                <div class="dropdown">
-                    <button><a href="../../roblox-us.html">Roblox</a> 
-                                                  
-                </div>
-                      
-                <div class="dropdown">
-                    <button class="dropbtn">More</button>
-                    <div class="dropdown-content">
-                        <a href="../../Documentos/about.html">About Us</a>
-                        <a href="../../Documentos/Contact.html">Contact</a>
-                        <a href="../../Documentos/disclaimer.html">Disclaimer</a>
-                        <a href="../../Documentos/PrivacyPolicy.html">Privacy Policy</a>
-                        <a href="../../Documentos/TermsofUse.html">Terms of Use</a>
-                       
-                    </div>
-                </div>
-                
-    <!-- Botão de troca de idioma Colocar link da página em PortuguÊs-br.html -->
-    <button><a href="../../Hero Wars/articles-herowars/tierlist-pt-jvj-herowars.html"><img src="../../imagens/flag-brazil-32x32.png" alt="Brazil flag" title="Brazil flag" style="width:24px;height:16px"><strong> PT</strong></a></button>
-            </ul>
-            <div class="menu-icon">
-                <img src="../../imagens/menu.png" alt="Menu" style="width:48px;height:48px;">
-            </div>
-            
-        </nav>
+        <div id="menu-container"></div><!-- Contêiner do menu -->
+        <!-- O menu <nav></nav> será inserido aqui pelo JavaScript -->
+        <!-- Botão de troca de idioma -->            
+        <button class="language-switch"><!-- Botão de troca de idioma colocar página em PT-BR -->
+            <a href="../../Hero Wars/articles-herowars/tierlist-pt-jvj-herowars.html">
+            <img src="../../imagens/flag-brazil-32x32.png" alt="Brazil flag" title="Brazil flag" style="width:24px;height:16px">
+            <strong> PT</strong></a>
+        </button>
+        <script src="../../Documentos/nav13-en.js"></script>
+    
+   
 
-<!-- top header div container testes -->
-<div class="ad-container">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-    crossorigin="anonymous"></script>
-  <!-- articles top header -->
-  <ins class="adsbygoogle"
-    style="display:block"
-    data-ad-client="ca-pub-7838775403194689"
-    data-ad-slot="5891786274"
-    data-ad-format="auto"
-    data-full-width-responsive="true"></ins>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-  </div>
-  <!-- top header div container testes -->   
+
     
 
 
@@ -158,6 +116,12 @@
 <header>       
         <div class="text-title">   
             <h1>Best Heroes in Hero Wars Alliance<b> Tier List PvP</b></h1>         
+        </div>
+        <div class="share-buttons">
+            <a id="whatsapp-share" class="share-button whatsapp" href="#" target="_blank">WhatsApp</a>
+            <a id="facebook-share" class="share-button facebook" href="#" target="_blank">Facebook</a>
+            <a id="reddit-share" class="share-button reddit" href="#" target="_blank">Reddit</a>
+            <div id="link-share" class="share-button link">Link</div>
         </div>
         <div class="autor">
             <ul>
@@ -176,6 +140,26 @@
 </p>
 </section>
 
+<!-- top header div container testes -->
+<div class="ad-container">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
+    crossorigin="anonymous"></script>
+  <!-- articles top header -->
+  <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-7838775403194689"
+    data-ad-slot="5891786274"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+  </div>
+  <!-- top header div container testes -->   
+   <!-- second half retirar melhora - pagespeed test</div> -->        
+<div id="second-half" class="hidden">
+    <!-- second half retirar </div> -->
+
 <figure class="img-banner">
     <picture>
         <!-- Para telas grandes (PC) de 80kb a 150kb -->
@@ -189,9 +173,7 @@
 
 
     
-<!-- second half retirar melhora - pagespeed test</div> -->        
-<div id="second-half" class="hidden">
-    <!-- second half retirar </div> -->
+
     
 
 <section>
@@ -1644,15 +1626,17 @@ data-full-width-responsive="true"></ins>
 </section> 
 ---------->
 
-<section>
-    <h2>Share Your Opinion!</h2>
-    <p id="commentParagraph">Did you enjoy our PvP Battles Tier List for Hero Wars? Is there something you didn't understand or would like to suggest changes? We invite you to join our comments section on the Alexandre Games Blog page. Don't hesitate to express your opinion, clarify your doubts, and share your suggestions.</p>
-    <p class="mobile-only">Click the button below to start:</p>
-    <button id="loadScript" style="display: none;">Load Comments</button>
+
+
+  <section>
+    <h2>Leave Your Opinion!</h2>
+    <p id="commentParagraph">Did you enjoy our PvP Battles Tier List for Hero Wars? Is there something you didn't understand or would like to suggest changes to? We invite you to join our comment section on the Alexandre Games Blog page. Feel free to express your opinion, clarify your doubts, and share your suggestions.<br> Click the button below to get started:</p>
+    <button id="loadScript">Load Comments</button>
+    <!-- button code is in the footer JS -->
     <div id="loadingMessage" style="display: none;">Loading comments... Please wait</div>
     <div id="graphcomment"></div>
-    
-  </section>
+
+</section>
 
     <!-------- Sugestões para os visitantes img 300x260 and English.html---------->
 
@@ -1687,40 +1671,33 @@ data-full-width-responsive="true"></ins>
 
 
 
-<!------------- Footer Inicio ------------->
 <footer>
     <div class="footer">
-    <div class="row">
-        
-        <a href="https://www.youtube.com/channel/UCVXIv4Movg3KAaPHVE7dstw"><img src="../../imagens/youtube-black.webp" alt="youtube" title="Youtube"></i></a>
-        <a href="https://www.twitch.tv/ytalexandre"><img src="../../imagens/twitchblack.webp" alt="Twitch" title="Twitch"></i></a>
+        <div class="row" id="social-links"></div> <!-- Links de redes sociais serão inseridos aqui -->
+        <div class="row">
+            <ul id="navigation-links"></ul> <!-- Links de navegação serão inseridos aqui -->
+        </div>
+        <div class="row">
+            <ul>
+                <li id="message"></li> <!-- Mensagem será inserida aqui -->
+            </ul>
+        </div> 
     </div>
-    <div class="row">
-        <ul>
-            <li><a href="../../Documentos/about.html">About Us</a></li>
-            <li><a href="../../Documentos/Contact.html">Contact</a></li>
-            <li><a href="../../Documentos/disclaimer.html">Disclaimer</a></li>
-            <li><a href="../../Documentos/PrivacyPolicy.html">Privacy Policy</a></li>
-            <li><a href="../../Documentos/TermsofUse.html">Terms of Use</a></li>
-        </ul>
-    </div>
-    <div class="row">
-        <ul>
-            <li id="message"></li>
-        </ul>
-    </div> 
-</footer>
+  
+  
+  
+  </footer>
+  
+            
+                
+       
+  
+  
+    <script src="../../Documentos/java-insert-footer-en.js"></script>
+    <script src="../../Documentos/graphcomments.js"></script>
+    <script src="../../Documentos/share-en-reddit.js"></script>
+    <!-- Footer -->
 
-
-
-
-
-
-
-
-<script src="../../Documentos/java3-en-footer.js"></script>
-<script src="../../Documentos/graphcomments2024.js"></script>
-<!-- Footer -->
 
 </div>
 </body>
