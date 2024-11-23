@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-en.html">Táticas & Segredos</a>  
                 <a href="https://alexandregames.com/Hero%20Wars/Guia%20de%20Titans.html">Guia de Titãs</a>  
                     
-                   
+                   <br><br><br>
                 </div>  
             </div>           
             <div class="dropdown">
@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <a href="https://alexandregames.com/Documentos/Pol%C3%ADtica%20de%20privacidade.html">Política de Privacidade</a>
                     <a href="https://alexandregames.com/Documentos/Sobre.html">Sobre Nós</a>
                     <a href="https://alexandregames.com/Documentos/Termos%20de%20uso.html">Termos de Uso</a>
+                    <br><br><br>
                 </div>
             </div>
         </ul>
