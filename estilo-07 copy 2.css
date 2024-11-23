@@ -14,37 +14,34 @@ body{
 
 
 
+/* Estilização para o container fixo */
+.container-fixo {
+    width: 320px; /* Define a largura fixa */
+    height: 100vh; /* Altura total da tela */
+    position: sticky; /* Fica fixo ao rolar a página */
+    top: 0; /* Fixa no topo */
+    background-color: #f1f1f1; /* Cor de fundo #f1f1f1 */
+    padding: 20px; /* Espaçamento interno */
+    box-sizing: border-box;
+}
+
+/* Estilização para o container rolável */
+.container-rolavel {
+    flex: 1; /* Permite que ocupe o restante do espaço */
+    height: 100vh; /* Altura total da tela */
+    overflow-y: auto; /* Rolagem vertical */
+    padding: 0 2%; /* Ajusta as margens internas */
+    box-sizing: border-box;
+}
+
 /* Container principal para organizar o layout em desktop */
 .container-principal {
     max-width: 1280px;
     margin: auto;
     
     display: flex;
-    gap: 8px; /* Espaço entre os elementos */
-    flex-direction: row; /* Itens lado a lado */
-}
-
-/* Estilização para o container fixo */
-.container-fixo {
-    width: 320px; /* Define a largura fixa */
-    height: 100vh; /* Altura total da tela */
-    position: sticky; /* Fixa ao rolar a página */
-    top: 0; /* Posição fixa no topo */
-    background-color: #f1f1f1; /* Cor de fundo */
-    padding: 20px; /* Espaçamento interno */
-    margin-right: 30px; /* Margem para evitar cliques acidentais */
-    box-sizing: border-box;
-    order: 2; /* Move para o lado direito */
-}
-
-/* Estilização para o container rolável */
-.container-rolavel {
-    flex: 1; /* O conteúdo principal ocupa o restante do espaço */
-    height: 100vh; /* Altura total da tela */
-    overflow-y: auto; /* Rolagem vertical */
-    padding: 0 2%; /* Ajusta as margens internas */
-    box-sizing: border-box;
-    order: 1; /* Garante que fique no início (esquerda) */
+    gap: 8px; /* Espaço entre os elementos - margin entre fixo lateral e conteudo  */
+    
 }
 
 /* Estilos padrão para o container de anúncio */
