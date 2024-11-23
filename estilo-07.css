@@ -853,7 +853,7 @@ section p{
    /* imagens do menu guia de heróis */
 .img-menuguide {
     width: 30%; /* usa porcentagem para um layout responsivo */
-    max-width: 190px; /* tamanho máximo para telas grandes */
+    max-width: 180px; /* tamanho máximo para telas grandes */
     padding: 2% 3%;
     float: left;
     box-sizing: border-box; /* para que padding não afete o width */
@@ -861,9 +861,14 @@ section p{
 }
 
 .img-menuguide a {
-    text-decoration: none;
-    border: 1px solid rgb(255, 255, 255);
-    display: block; /* para que o link ocupe toda a área do contêiner */
+    text-decoration: none; /* Remove o sublinhado */
+    border: 1px solid rgb(255, 255, 255); /* Define a borda */
+    display: flex; /* Usa flexbox para alinhar o conteúdo */
+    flex-direction: column; /* Organiza a imagem e o texto verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    text-align: center; /* Garante que o texto fique no centro */
+    padding: 10px 0; /* Adiciona espaçamento interno para o texto */
 }
 
 .img-menuguide img {
