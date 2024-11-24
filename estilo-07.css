@@ -494,7 +494,7 @@ h1 {
     margin-bottom: 0px;
 }
 h2 {
-    margin-left: 30px;
+    margin-left: 27px;
     margin-top: 25px;
     
     color: #31017d;
@@ -572,7 +572,7 @@ section p{
 
 /* text title do título novo */
 .text-title h1{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     text-transform: uppercase;
     margin-left: 30px;
@@ -669,6 +669,7 @@ section p{
     
     margin: 30px; 
     margin-top: 0px;
+    margin-bottom: 0px;
     font-size: 16px;
 }
 
