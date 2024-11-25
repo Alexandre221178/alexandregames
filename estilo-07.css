@@ -470,6 +470,20 @@ li{
     width: 25px;
     height: 20px;
 }
+
+.content-wrapper {
+    max-width: auto; /* Limita a largura do conteúdo */
+    margin: 0 auto;   /* Centraliza no container */
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 20px;    /* Adiciona espaçamento interno */
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste */
+  }
+  .content-wrapper {
+    min-height: 100px; /* Altura mínima */
+  }
+
 p {
     text-align: left;
     text-indent: 30px;
