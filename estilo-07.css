@@ -475,6 +475,7 @@ li{
     max-width: auto; /* Limita a largura do conteúdo */
     margin: 0 auto;   /* Centraliza no container */
     font-size: 16px;
+    text-align: left;
     line-height: 1.5;
     padding: 20px;    /* Adiciona espaçamento interno */
     box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
@@ -482,6 +483,10 @@ li{
   }
   .content-wrapper {
     min-height: 100px; /* Altura mínima */
+  }
+  .content-wrapper p{
+    margin-top: 0px;
+    
   }
 
 p {
@@ -666,26 +671,21 @@ section p{
 
     
 
-.text-ads li{
-    list-style-type: none;
-    font-size: 18px;
-    margin-left: 165px;
-    color:#242424fd
 
-}
 .autor ul{
     list-style: none;
-    margin-top: 0px;
-    
-    
+   
+   
 }
 .autor ul li{
-    
-    margin: 30px; 
+    margin-left: 25px;
+    list-style: none;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 16px;
+   
 }
+
+
 
 .suggestion {
     margin-top: 10px;
@@ -1329,8 +1329,8 @@ iframe{
 }
  /* botoes compartilhar */
 .share-button {
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 0px;
     margin-left: 30px;
     display: inline-block;
     padding: 10px;
@@ -1339,7 +1339,7 @@ iframe{
     text-align: center;
     border-radius: 5px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .whatsapp { background-color: #1fc55c; }
@@ -1476,9 +1476,6 @@ iframe{
     }
 
 
-    .share-buttons{        
-        margin-bottom: 15px;
-            }
     
     
     
@@ -1495,7 +1492,7 @@ iframe{
     }
 
     .text-title h1{
-        font-size: 25px;
+        font-size: 20px;
         text-transform: uppercase;
         margin-left: 5px;
         
@@ -1525,9 +1522,30 @@ iframe{
             margin-left: 15px;
             color:#1a1b1bfd
     }
+
+    body{
+        margin-left: 1px;
+        
+    }
+
+    .content-wrapper p{
+        line-height: 1.5; /* Altura da linha para melhorar a legibilidade */
+        margin-left: 0px;
+        margin-right: 15px;
+        color: black;       
+        text-align: left;
+        
+        font-family: Arial, Helvetica, sans-serif;    
+      
+      
+       
+      }
+    
+    
     
     
     .autor ul li{
+      
         margin: 5px; 
         font-size: 15px;
     }
@@ -1727,12 +1745,12 @@ iframe{
         margin-bottom: 5px;
         margin-left: 5px;
         
-        font-size: 12px;
+        font-size: 8px;
     }
 
     .share-button {
         margin-top: 10px;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
     
    
@@ -1760,7 +1778,7 @@ iframe{
     }
     h2 {
         margin-left: 10px;
-        font-size: 24px;
+        font-size: 2px;
         color:  #31017d;
         padding: 0,2%;
         text-align: left;
