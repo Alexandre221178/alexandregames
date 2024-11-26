@@ -90,9 +90,9 @@ body{
 /* Links do menu */
 .menu-fixo a {
     display: block;
-    color: #333;
+    color: #201e1e;
     text-decoration: none;
-    padding: 10px 0;
+    padding: 5px 0;
     font-size: 16px;
     transition: background-color 0.3s;
 }
