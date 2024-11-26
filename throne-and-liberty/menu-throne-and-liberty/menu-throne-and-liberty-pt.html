@@ -76,33 +76,57 @@
 </head>
 
 <body>
+
     <div class="container-principal">
         <div class="container-fixo">
-    
-            <div class="ad-container desktop-ad">
-              <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-              crossorigin="anonymous"></script>
-         <!-- 300-250-pc-mobile-2nd -->
-         <ins class="adsbygoogle"
-              style="display:inline-block;width:300px;height:250px"
-              data-ad-client="ca-pub-7838775403194689"
-              data-ad-slot="5478112485"></ins>
-         <script>
-              (adsbygoogle = window.adsbygoogle || []).push({});
-         </script>
-            </div>
-    
+      
+          <div id="ad-container" style="display: none;">
+            <!-- Contêiner vazio para o anúncio AdSense que será carregado via JavaScript -->
         
+          <!-- hwa-articles-only-PC-screen -->
+          <script>
+            // Verifica a largura da janela
+            if (window.innerWidth > 840) {
+              // Torna o contêiner visível
+              document.getElementById("ad-container").style.display = "block";
+          
+              // Cria e insere o script do AdSense dinamicamente
+              var adsenseScript = document.createElement("script");
+              adsenseScript.async = true;
+              adsenseScript.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689";
+              adsenseScript.crossOrigin = "anonymous";
+              document.head.appendChild(adsenseScript);
+          
+              // Insere o código do anúncio
+              var adIns = document.createElement("ins");
+              adIns.className = "adsbygoogle";
+              adIns.style = "display:inline-block;width:300px;height:250px";
+              adIns.setAttribute("data-ad-client", "ca-pub-7838775403194689");
+              adIns.setAttribute("data-ad-slot", "5478112485");
+              document.getElementById("ad-container").appendChild(adIns);
+          
+              // Executa o anúncio
+              adsenseScript.onload = function() {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+              };
+            }
+          </script>
+              
+         <!-- div para fechar ad fixo lateral -->
+      </div>
+              <div class="menu-fixo">
+                  <!-- O conteúdo do menu será inserido aqui via JavaScript -->
+              </div>
+              <script src="../../Documentos/menu-fixo-pt.js" ></script>
+             
+         <!-- Script para inserir o menu fixo -->
+      
+      <!-- div do menu-fixo -->
+      </div>
+      
+
+
     
-            <div class="menu-fixo">
-                <!-- O conteúdo do menu será inserido aqui via JavaScript -->
-            </div>
-       <!-- Script para inserir o menu fixo -->
-    <script src="../../Documentos/menu-fixo-pt.js"></script>
-    <!-- div do menu-fixo -->
-    </div>
-
-
     <div class="container">
         <div id="menu-container"></div><!-- Contêiner do menu -->
         <!-- O menu <nav></nav> será inserido aqui pelo JavaScript -->
@@ -113,21 +137,16 @@
                 <strong> EN</strong></a>
         </button>
         <script src="../../Documentos/nav13-pt.js"></script>
-        
+        <script src="../../Documentos/lazy-load.js"></script>
+
+
     
   
 <header>          
 <div class="text-title">   
     <h1>Dominando Throne and Liberty: <b>Guia Essencial para PC, PS5, X|S</b></h1>
-    </div> 
-    <section> 
-    <p> 
-    Descubra guias e dicas essenciais para dominar Throne and Liberty no PC, PS5 e Xbox Series X|S. Aprenda sobre estratégias, classes de personagens, lista de armas por nível e mecânicas de jogo para elevar sua experiência! 
+</div> 
 
-    </p>
-</section>
-</section>
-    
 
 <div class="autor">
 <ul>
@@ -140,23 +159,40 @@
     <a id="whatsapp-share" class="share-button whatsapp" href="#" target="_blank">WhatsApp</a>
     <a id="facebook-share" class="share-button facebook" href="#" target="_blank">Facebook</a>
     <a id="reddit-share" class="share-button reddit" href="#" target="_blank">Reddit</a>
-    <div id="link-share" class="share-button link">Copiar Link</div>
+    <div id="link-share" class="share-button link">Link</div>
   </div>
 
 
-  <div class="ad-container mobile-ad">
-    <!-- Insira o código do anúncio aqui, ou deixe vazio se não houver anúncio -->
+  <div class="content-wrapper">
+    <p> 
+    Descubra guias e dicas essenciais para dominar Throne and Liberty no PC, PS5 e Xbox Series X|S. Aprenda sobre estratégias, classes de personagens, lista de armas por nível e mecânicas de jogo para elevar sua experiência! 
+
+    </p>
+  </div>
+
+
+  <!-- top header div container testes -->
+<div class="ad-container">
+    <!-- Inicio ad header menus in -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-     crossorigin="anonymous"></script>
-  <!-- 300-250-pc-mobile-2nd -->
-  <ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:250px"
-     data-ad-client="ca-pub-7838775403194689"
-     data-ad-slot="5478112485"></ins>
-  <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-  </div>  
+    crossorigin="anonymous"></script>
+    <!-- ad header menus in -->
+    <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-7838775403194689"
+    data-ad-slot="5099130776"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    <!-- Fim ad header menus in -->   
+    </div>   
+
+<!-- second half retirar melhora - pagespeed test</div> -->        
+<div id="second-half" class="hidden">
+<!-- second half retirar </div> -->  
+    
 
 
   <h2>Encontre os melhores guias de Throne and Liberty</h2>
