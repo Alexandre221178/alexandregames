@@ -1,0 +1,2166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+body{
+    margin-left: 13px;
+    background-color: white;
+    min-height: 100vh;
+    width: 100%;
+    
+}
+
+
+
+
+/* Container principal para organizar o layout em desktop */
+.container-principal {
+    max-width: 1280px;
+    margin: auto;
+    
+    display: flex;
+    gap: 8px; /* Espaço entre os elementos */
+    flex-direction: row; /* Itens lado a lado */
+}
+
+/* Estilização para o container fixo */
+.container-fixo {
+    width: 320px; /* Define a largura fixa */
+    height: 100vh; /* Altura total da tela */
+    position: sticky; /* Fixa ao rolar a página */
+    top: 0; /* Posição fixa no topo */
+    background-color: #f1f1f1; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    margin-right: 30px; /* Margem para evitar cliques acidentais */
+    box-sizing: border-box;
+    order: 2; /* Move para o lado direito */
+}
+
+/* Estilização para o container rolável */
+.container-rolavel {
+    flex: 1; /* O conteúdo principal ocupa o restante do espaço */
+    height: 100vh; /* Altura total da tela */
+    overflow-y: auto; /* Rolagem vertical */
+    padding: 0 2%; /* Ajusta as margens internas */
+    box-sizing: border-box;
+    order: 1; /* Garante que fique no início (esquerda) */
+}
+
+/* Estilos padrão para o container de anúncio */
+.ad-container {
+    width: 300px;
+    height: 250px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}
+
+/* Texto padrão quando não houver anúncio */
+.ad-container:empty::before {
+    content: "Anúncio - 300x250";
+}
+
+/* Esconde o anúncio de mobile inicialmente */
+.mobile-ad {
+    display: none;
+}
+
+/* Estilos para o menu fixo */
+.menu-fixo {
+    margin-top: 2px;
+    width: 287px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    position: sticky;
+    top: 20px;
+    overflow-y: auto;
+    max-height: calc(100vh - 40px);
+}
+
+/* Links do menu */
+.menu-fixo a {
+    display: block;
+    color: #201e1e;
+    text-decoration: none;
+    padding: 5px 0;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.menu-fixo a:hover {
+    background-color: #d2bfbf;
+    border-radius: 4px;
+}
+
+/* Conteúdo principal */
+.conteudo-principal {
+    flex: 1;
+}
+  /* Estilos para reservar o espaço do menu */
+  #menu-container {
+    width: 100%;
+    min-height: 80px; /* Altura mínima para garantir espaço reservado */
+    background-color: #f0f0f0; /* Cor de fundo para visualização enquanto o menu carrega */
+}
+.menu-icon img { width: 48px; height: 48px; cursor: pointer; }
+
+/* Estilos do dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    min-height: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover { background-color: #f1f1f1; }
+
+.dropdown:hover .dropdown-content { display: block; }
+/* Change dropbtn color on hover */
+.dropbtn:hover { color: #f70441; }
+
+
+/* Espaço para AD no top-header para evitar CLS Veualiah */
+.ad-container {
+    width: 100%;
+    min-height: 280px; /* Altura mínima para garantir espaço reservado */
+    background-color: #f0f0f0; /* Cor de fundo para visualização enquanto o anúncio carrega */
+  }
+
+  
+nav{
+    display:flex;
+     /* cor do fundo do no nav #e3f0ff */
+    
+    
+    width: 100%;
+    height: 100px;
+}
+nav .menu-icon{
+    cursor: pointer;
+    display: none;
+}
+
+
+.container a:hover{
+    color: #f9464f;
+    }
+    nav{
+        display: flex;
+         /* cor do fundo do no nav #e3f0ff */
+        background-color:  black;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 80px;
+    }
+    nav .menu-icon{
+        cursor: pointer;
+        display: none;
+    }
+    nav .logo a{
+        font-size: 12px;
+        font-weight: bold;
+        /* cor da letra do logo */
+        color: #faf9f9;
+        text-decoration: none;
+       
+        
+    }
+    
+    
+    
+    
+    .container a:hover{
+        color: #f9464f;
+        }
+    nav ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        
+    }
+    nav ul li{
+        padding: 0 15px;
+        
+        
+    
+    }
+    nav ul li a{
+    
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+        
+        
+        /* cor dos textos nav */
+        
+        
+    }
+    nav ul button a{
+        align-items: left;
+        /* cor do fundo do texto no button nav */
+        background-color: none;
+        /* cor das letras no button nav */
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        
+        text-decoration: none;
+    }
+    
+    
+    nav ul button{
+        /* cor do fundo do button nav o font size aqui aumenta e diminui o tamanho do button */
+       background-color: rgb(0, 0, 0);
+        border: none;
+       text-decoration: none;
+       color: white;
+       font-size: 4px;
+           
+        /* comandos para letras button nav padding: 10px 20px;*/
+        padding: 10px 15px;
+        border-radius: 5px;
+        
+        
+        letter-spacing: 1px;
+        
+        cursor: pointer;
+    }
+
+
+  /* Fake image, just for this example */
+  /* Right-aligned link */
+.navbar a.right {
+    float: right;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Active/current link */
+  .navbar a.active {
+    background-color: #666;
+    color: white;
+  }
+
+ /* Estilos para ocultar o conteúdo até ser carregado lazy load css */
+ .hidden {
+    display: none;
+}
+
+  /* esse main separa footer da tela se mexer estraga tudo */
+  main{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+  /* Column container */
+  .column {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    -ms-flex: 65%; /* IE10 */
+    flex: 65%;
+    background-color: #f1f1f1;
+    
+  }
+  
+  /* Main column */
+  .main {   
+    -ms-flex: 35%; /* IE10 */
+    flex: 35%;
+    background-color: black;
+   
+    
+    
+  }
+  
+  
+
+.main a:hover {
+    color: red;
+}
+
+ 
+  /* Fake image, just for this example */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Fake image, just for this example */
+
+
+
+/* cor botao fundo pt-br 
+.buttonEnglish a{
+   
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #5654b3;
+    text-decoration: none;
+}*/
+ /* cor dos textos botao lingua en-us 
+.buttonlang a{  
+    background-color: none;
+    font-size: 17px;
+    border: none;
+    text-decoration: none;
+    color: #5654b3;
+    border-color: none;
+
+    
+    
+    text-transform: uppercase;
+    
+    color: #5654b3;
+}*/
+
+
+
+/* teste dropdown menu botao mais */
+.dropbtn {
+    border-radius: 2px;
+    /* cor buttom MAIS  */
+    font-weight: bold;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    border-radius: 15px;
+    
+    position: relative;
+    display: inline-block;
+    border: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 170px;
+    
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content a:hover {background-color: black}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  blockquote {
+    margin: 30px;
+    background-color: hsl(0, 4%, 86%); /* Fundo cinza */
+    padding: 10px;
+    border-left: 5px solid rgba(152, 152, 152, 0.74);
+}
+  
+    /* letras de listas com pontos positivos e negativos dos herois
+.check-list li{
+    text-align: left;
+    line-height: 30px;
+    font-weight: normal;
+    margin-left: 70px;
+    margin-right: 30px;
+    color: Black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;   
+
+}     */
+/* margim das letras exclusivo para ponto positivos e negativos */      
+/* margim das letras aba mais 
+.checklist-stats li{
+    padding: 2%;
+    margin-left: 0px;
+    text-align: left;
+    line-height: 19px;
+    font-weight: normal;
+    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;   
+}   */
+
+li{
+    padding: 0.7%;
+    /* margim das letras li gpt */
+    margin-left: 70px;
+    text-align: left;
+    /* distancia das letras li gpt */
+    line-height: 25px;
+    font-weight: normal;
+    color: Black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;   
+
+}
+
+  /* numeros 1º 2º 3º */
+.check-list ol{
+    text-align: left;
+    line-height: 30px;
+    font-weight: normal;
+    margin-left: 70px;
+    margin-right: 30px;
+    color: Black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.check-list a{
+    color: red;
+}
+.check-list img{
+    width: 25px;
+    height: 20px;
+}
+
+.content-wrapper {
+    max-width: auto; /* Limita a largura do conteúdo */
+    margin: 0 auto;   /* Centraliza no container */
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.5;
+    padding: 20px;    /* Adiciona espaçamento interno */
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste */
+  }
+  .content-wrapper {
+    min-height: 100px; /* Altura mínima */
+  }
+  .content-wrapper p{
+    margin-top: 0px;
+    
+  }
+
+p {
+    text-align: left;
+    text-indent: 30px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-left: 1px;
+    margin-right: 30px;
+    line-height: 2;
+    padding: 0,1%;
+    color: Black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    color: #5105cb;
+    
+    padding: 0,2%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+h2 {
+    margin-left: 27px;
+    margin-top: 25px;
+    
+    color: #31017d;
+    font-size: 29px;
+    
+    padding: 0,2%;
+    text-align: left;
+}
+h3 {
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #bc0006;
+    font-size: 24px;
+    padding: 0,2%;
+    text-align: left;
+    }
+h4 {
+        color: #000000;
+        margin-left: 30px;
+        font-size: 22px;
+        padding: 0,2%;
+        text-align: left;
+}
+h5 {
+        color: #000000;
+        font-size: 22px;
+        margin-top: 10px;
+        margin-left: 30px;
+        padding: 0,2%;
+        text-align: left;
+
+}
+    /* h6 Fonte da data de atualização */
+h6 {
+    color: #000105;
+   
+    font-size: 20px;
+    text-align: left;
+}
+/* form para pesquisa no site */
+form {
+    text-align: right;
+}
+
+/* letras texto de caixa na seção */
+section p{
+    margin-left: 30px;
+    margin-right: 70px;
+    font-size: 22px;
+    color: black;
+    padding: 0,1%;
+    text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.text-bx p{
+    margin: center;
+       
+    }
+
+.text-bx{
+    width: 100%;
+    
+}
+/* texto do título */
+.text-bx h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    
+    
+}
+
+/* text title do título novo */
+.text-title h1{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    
+    text-transform: uppercase;
+}
+.text-title h1 b{
+    color: #e20c17;
+    
+}
+
+.text-title h1 b::before {
+    content: "\a";
+    font-size: 0;
+    display: block;
+    line-height: 0;
+}
+
+                             
+
+.text-bx li{
+    font-size: 20px;
+    list-style-type: none;
+    text-align: left;
+}
+
+.text-bx h1 b{
+    color: #f1676d;
+}
+.text-bx p{
+    color: #372c62;
+        
+    margin-top: 10px;
+}
+.text-bx .input-bx{
+    margin: 2px 0;
+    display: flex;
+}
+.text-bx .input-bx input{
+    width: 60%;
+    display: block;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #8997b9;
+    font-size: 20px;
+    text-align: left;
+}
+.text-bx .input-bx input::placeholder{
+    color: #8997b9;
+}
+.text-bx .input-bx button{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: #5654b3;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.text-ale{
+    margin: 50px;
+}
+
+.text-ale h1 b::before{
+        content: "\a";
+        font-size: 0;
+        display: block;
+        line-height: 0;
+    
+}
+/* texto para ads */
+
+    
+
+
+.autor ul{
+    list-style: none;
+   
+   
+}
+.autor ul li{
+    margin-left: 25px;
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+}
+
+
+
+.suggestion {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img-banner img{
+       
+    width: 100%;
+    height: 500px;    
+}
+.img-banner-index img{
+       
+    width: 100%;
+    height: auto;
+}
+
+
+
+    
+
+/* imagem do menu da página home index */
+.img-menu{
+    height: 200px;
+    width: 270px;
+    
+    align-items: center;
+    text-align: center;
+    float: left;
+    image-orientation: left;
+    padding: 1% 2%;
+}
+.img-menu a :hover{
+    color: #f9464f;
+}
+.img-menu a{
+    padding: 0.1%;
+    float: center;
+    
+    image-orientation: flex;
+    margin-top: 1px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.img-menu a:hover{
+    color: #f9464f;
+    }
+
+.img-menu img{
+        width: 100%;
+        border: 4px solid #5654b3;
+}
+.logo img{
+    width: 50%;
+    height: auto;
+}
+/* imagem do embed index */
+
+
+
+.img-embed {
+    width: 300px;
+    height: 180px;
+    margin-bottom: 70px; /* Espaçamento inferior para separar as imagens do caption */
+    object-fit: cover; /* Ajuste para preencher o espaço sem distorção */
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    float: left; /* Alinha a imagem à esquerda */
+    margin-left: 50px; /* Define a margem esquerda de 30px */
+}
+
+.img-embed img {
+    width: 100%;
+    height: 100%;
+    border: 4px solid #5654b3;
+}
+
+
+.img-embed a :hover{
+    color: #f9464f;
+}
+.img-embed a{
+    padding: 0.1%;
+    /* float e text align para texto a esquerda */
+    float: left;
+    text-align: left;
+    color: black;
+    image-orientation: flex;
+    margin-top: 1px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.img-embed a:hover{
+    color: #f9464f;
+    }
+
+
+    
+        /* guide imagem do logo do guia de Heróis */
+.img-logoguide{
+    max-width: 100%;
+    height: auto;
+    margin: 80px;
+    text-align: center;
+    
+    margin-inline: center; 
+    float: center;
+    image-orientation: center;        
+}
+
+    /*imagens de sugestões no rodapé */
+.img-sugestion{
+    width: 180px;
+    height:auto;       
+    align-items: center;
+    text-align: center;
+    float: left;
+    image-orientation: left;
+    padding: 2% 3%;
+    margin-top: 10px;
+}
+.img-sugestion a{  
+    float: center;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+.img-sugestion img{
+    width: 80%;
+}
+.img-sugestion a:hover {
+    color: red;
+}
+
+/*imagens de mais old180 e auto visitados */
+
+/* imagem do embed index */
+.img-visited{
+    width: 300px;
+    height: 180px;
+   
+    
+    margin-bottom: 70px;
+    align-items: center;
+    text-align: center;
+    float: left;
+    image-orientation: left;
+    padding: 1% 2%;
+}
+.img-visited a :hover{
+    color: #f9464f;
+}
+.img-visited a{
+    padding: 0.1%;
+    /* float e text align para texto a esquerda */
+    float: left;
+    text-align: left;
+    color: white;
+    image-orientation: flex;
+    margin-top: 1px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.img-visited a:hover{
+    color: #f9464f;
+    }
+
+.img-visited img{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px; /* Espaçamento inferior para separar as imagens do caption */
+    object-fit: cover; /* Ajuste para preencher o espaço sem distorção */
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+        border: 4px solid #5654b3;
+}
+        
+
+
+   /* imagens do menu guia de heróis */
+.img-menuguide {
+    width: 30%; /* usa porcentagem para um layout responsivo */
+    max-width: 180px; /* tamanho máximo para telas grandes */
+    padding: 2% 3%;
+    float: left;
+    box-sizing: border-box; /* para que padding não afete o width */
+    text-align: center; /* centraliza o conteúdo do link */
+}
+
+.img-menuguide a {
+    text-decoration: none; /* Remove o sublinhado */
+    border: 1px solid rgb(255, 255, 255); /* Define a borda */
+    display: flex; /* Usa flexbox para alinhar o conteúdo */
+    flex-direction: column; /* Organiza a imagem e o texto verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    text-align: center; /* Garante que o texto fique no centro */
+    padding: 10px 0; /* Adiciona espaçamento interno para o texto */
+}
+
+.img-menuguide img {
+    width: 100%; /* imagem ocupa 100% do contêiner */
+    height: auto; /* mantém a proporção da imagem */
+}
+
+.img-menuguide a:hover {
+    color: red;
+}
+
+
+
+     /* imagens do menu guia de heróis */    
+.img-home{
+    width: 100%;
+    
+    
+   margin-bottom: 80px;
+    align-items: center;
+    text-align: center;
+    float: left;
+    image-orientation: left;
+    padding: 2% 3%;
+    
+}
+.img-home a{
+    float: center;
+    text-decoration: none;
+   
+    
+}
+
+.img-home a:hover{
+    color: red;
+    }
+.img-home img{
+    border: 4px solid #5654b3;
+    width: 400px;
+    height: 200px;       
+    
+}
+
+
+
+/*imagens de mais visitados */
+.img-new{
+    width: 180px;
+    height:auto;       
+    align-items: center;
+    text-align: center;
+    float: left;
+    image-orientation: left;
+    padding: 2% 3%;
+    margin-top: 10px;
+}
+.img-new a{  
+    float: center;
+    text-align: center;
+    text-decoration: none;
+    
+    
+}
+.img-new img{
+    width: 80%;
+}
+.img-new a:hover {
+    color: red;
+}
+
+
+    /* imagem do herói no nível máximo*/
+   
+
+.img-max img{
+    width: 40%;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    border: 5px solid #5654b3;
+}
+.img-max a{
+    
+    margin-left: 30px;
+    }
+
+.img-artifact img{
+    width: 20%;
+    border: 7px solid #5654b3;
+    text-align: center;
+    margin-left: 30px;
+    align-items: center;
+    
+}
+.img-artifact a{
+    
+    margin-left: 30px;
+    
+}
+
+.img-counters {
+    text-align: center; /* Center the image horizontally within the parent container */
+}
+
+.img-counters img {
+    width: 50%; /* Maintain the desired width of the image */
+    display: block; /* Treat the image as a block element */
+    margin: 0 auto; /* Automatically center the image within its container */
+}
+
+
+
+
+.hero-link img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+
+.hero-tierlist {
+    text-align: left; /* Centraliza o conteúdo */
+    margin-top: 40px;
+}
+
+.hero-tierlist img{
+    margin: left;
+    display: block; /* Imagem tratada com elemento de bloco */
+     /* margin: auto; Centraliza a imagem na div */
+    width: 20%; /* Define a imagem para 50% do tamanho original */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.image-spells {
+    text-align: center; /* Centraliza o conteúdo da célula */
+    vertical-align: middle; /* Centraliza verticalmente */
+  }
+  .image-spells img {
+    display: block; /* Faz com que a imagem seja tratada como bloco */
+    margin: 0 auto; /* Margem automática para centralização horizontal da imagem */
+    max-width: 100%; /* Garante que a imagem não exceda a largura da célula */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+.img-spells {
+    display: inline-block;
+    text-align: center; /* Alinha o texto ao centro */
+    margin-right: 20px; /* Espaçamento entre as imagens */
+    margin-left: 30px;
+}
+
+.img-spells a {
+    display: block; /* Transforma o link em um bloco */
+}
+
+.emblem {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.emblem-title {
+    display: flex;
+    align-items: center;
+}
+.emblem-title img {
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+
+.img-middle {
+    margin-left: 40px;
+    font-style: italic;
+    font-size: 14px;
+    text-align: left; /* Alinha o texto à esquerda */
+    width: 300px; /* Ajuste conforme o tamanho da imagem */
+    margin-bottom: 20px;
+}
+
+.img-middle img {
+    width: 90%; /* Para garantir que a imagem preencha a largura */
+    height: auto; /* Para manter a proporção da imagem */
+}
+img-middle figcaption {
+    font-style: italic; /* Deixa o texto em itálico */
+}
+
+
+.img-builds {
+    text-align: left;
+    margin-bottom: 15px;
+}
+.img-builds img {
+    width: 370px;
+    height: 250px;
+   margin-left: 30px;
+    display: block; /* Garante que a imagem tenha um comportamento de bloco */
+    margin: left; /* Centraliza a imagem horizontalmente */
+}
+.img-builds figcaption {
+    text-align: left;
+    width: 100%;
+    
+}
+
+
+/* Contêiner principal para organizar as imagens */
+/* imagens do menu guia de heróis */    
+.img-menumobile{
+    height: 210px;       
+    width: 190px;
+   
+    align-items: center;
+    text-align: center;
+    float: left;
+    image-orientation: left;
+    padding: 2% 3%;
+    
+}
+.img-menumobile a{
+    float: center;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+.img-menumobile img{
+    width: 80%;
+}
+
+.img-menumobile a:hover{
+    color: red;
+    }
+/* imagem do embed index */
+.img-menupc{
+    width: 300px;
+    height: 180px;
+   
+    
+    margin-bottom: 120px;
+    align-items: center;
+    text-align: center;
+    float: left;
+    image-orientation: left;
+    padding: 1% 2%;
+}
+.img-menupc a :hover{
+    color: #f9464f;
+}
+.img-menupc a{
+    padding: 0.1%;
+    /* float e text align para texto a esquerda */
+    float: left;
+    text-align: left;
+    color: black;
+    image-orientation: flex;
+    margin-top: 1px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.img-menupc a:hover{
+    color: #f9464f;
+    }
+
+.img-menupc img{
+    
+        width: 100%;
+        height: 100%;
+        border: 4px solid #5654b3;
+}
+
+
+
+
+figcaption {
+    margin-left: 30px;
+    margin-bottom: 15px;
+    color: black;
+    font-style: italic;
+    padding: 0px;
+    text-align: left;
+  }
+
+.table-combos th{
+    color: black;
+    
+}
+
+
+
+.table-combos th, td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+.table-combos table{
+    margin: 31px;
+    margin-top: 3px;
+    font-size: 20px;
+    
+    border: 1px solid rgb(0, 7, 11);
+    text-align: center;
+}
+/* Estilo para o cabeçalho da tabela modelo novo 2024 */
+table {
+    margin: 30px;
+    width: 70%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo para o cabeçalho da tabela */
+  th {
+    background-color: #f2f2f2;
+    border: 1px solid rgb(141, 136, 136);
+    padding: 8px;
+  }
+  
+  /* Estilo para as células da tabela */
+  td {
+    border: 1px solid rgb(141, 136, 136);
+    padding: 8px;
+  }
+  
+
+/* fonte para comentarios click no botao abaixo */
+  #loadScript {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.mobile-only {
+    display: none;
+}
+   
+
+
+
+
+
+    
+
+
+  
+.skillgray blockquote{
+    padding: 1%;
+    font-size: 20px;
+    background-color: #eeeeee;
+    border: 1px solid rgb(0, 7, 11);
+    text-align: left;
+    margin-left: 31px;
+    margin-right: 62px;
+}
+
+.skillgreen blockquote{
+    padding: 1%;
+    font-size: 20px;
+    background-color: #cfffe8;
+    border: 1px solid rgb(0, 7, 11);
+    text-align: left;
+    margin-left: 31px;
+    margin-right: 62px;
+}
+.skillblue blockquote{
+    padding: 1%;
+    font-size: 20px;
+    background-color: #d7d3fe;
+    border: 1px solid rgb(0, 7, 11);
+    text-align: left;
+    margin-left: 31px;
+    margin-right: 62px;
+}
+
+.skillviolet blockquote{
+    padding: 1%;
+    font-size: 20px;
+    background-color: #ffbaf2;
+    border: 1px solid rgb(0, 7, 11);
+    text-align: left;
+    margin-left: 31px;
+    margin-right: 62px;
+}
+.Lucca blockquote{
+    padding: 1%;
+    font-size: 20px;
+    background-color: #f9fbfc;
+    border: 1px solid rgb(0, 7, 11);
+    text-align: left;
+    margin-left: 31px;
+    margin-right: 62px;
+}
+  
+  
+
+
+
+pre{
+    text-align: left;
+}
+
+.medias-socias{
+    margin-top: 30px;
+}
+.medias-socias a{
+    text-decoration: none;
+}
+
+.medias-socias i{
+    font-size: 23px;
+    margin: 0 3px;
+    color: white;
+    background-color: #372c62;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+
+.img-bx{
+    width: 30%;
+}
+.img-bx img{
+    width: 100%;
+}
+
+iframe{    
+    
+    margin-left: 1px;
+       
+}
+
+.share-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.share-buttons a {
+    color: white; /* Cor inicial */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Mantém a borda preta ao passar o mouse */
+}
+
+.share-buttons a:hover {
+    color: rgb(247, 2, 210); /* Cor quando o mouse está sobre a legenda */
+}
+ /* botoes compartilhar */
+.share-button {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.whatsapp { background-color: #1fc55c; }
+.facebook { background-color: #3b5998; }
+.link { background-color: #000000; cursor: pointer; }
+.reddit { background-color: #FF4500; cursor: pointer; }
+
+/* inicio video youtube 2024  */
+.video-container {
+    width: 99%;
+    max-width: 500px;
+    margin: 30px;
+}
+.video-wrapper {
+    position: relative;
+    padding-bottom: 49.5%;
+    height: 0;
+    overflow: hidden;
+}
+.video-iframe {
+    position: absolute;
+    bottom: 0;
+    top: 1px;
+    left: 0;
+    right: 1px;
+    width: 87%;
+    height: 100%;
+    border: 5px solid #fa0303; 
+}
+.video-caption {
+    text-align: left;
+    margin: 2px 0 0 0;
+    font-size: 14px;
+    width: 100%;
+}
+
+/* fim video youtube 2024  */
+
+
+@media (max-width:840px) {
+    nav .menu-icon{
+        display: block;
+    }
+    nav .logo{
+        display: block; 
+    }
+    nav ul{
+        position: fixed;
+        width: 83%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        transform: translateX(-100%);
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        justify-content: left;
+        transition: 0.3s ease-in;
+        background-color: black;
+    }
+    nav {
+        position: relative;
+        z-index: 1000; /* Ou qualquer valor maior que o z-index do anúncio */
+    }
+    
+    
+    
+    nav ul.active{
+        transform: translateX(0);
+    }
+    nav ul li{
+        padding: 2px;
+        margin: left;
+    }
+    nav ul li a{
+        text-align: left;
+        font-size: 16px;
+        margin-left: 5px;
+         color: white;
+        
+        
+    }
+    nav ul button{
+      text-align: justify;
+        font-size: 16px; 
+        
+        margin-top: 18px; /* Mantém o margin-top */
+        line-height: 0.1 /* Reduz o espaço entre as linhas */
+         
+    }
+    
+    nav ul button a{
+        margin: 5px;
+       
+        font-size: 17px; /* tamanho letras nav mobile*/
+          
+     }
+
+     /* Esconde o container fixo no mobile */
+     .container-fixo {
+        display: none;
+    }
+
+    /* Esconde o anúncio de desktop no mobile */
+    .desktop-ad {
+        display: none;
+    }
+
+    /* Mostra o anúncio de mobile */
+    .mobile-ad {
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        height: 250px;
+    }
+
+    /* Container principal ajusta o layout para uma coluna */
+    .container-principal {
+        display: block;
+        padding: 0 16px;
+    }
+
+
+    .ad-container {
+        width: 300px;
+        height: 300px;
+    }
+
+
+     iframe{    
+    
+        margin-left: 2px;
+           
+    }
+
+
+    
+    
+    
+    .text-bx,
+    .img-bx{
+        width: 100%;
+        text-align: center;
+    }
+    .text-bx{
+        margin-bottom: 40px;
+    }
+    .text-bx .input-bx{
+        justify-content: center;
+    }
+
+    .text-title h1{
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-left: 5px;
+        
+    }
+    
+
+
+    .text-ale{
+        margin: 10px;
+    }
+
+    .text-ads p{
+        font-size: 16px;
+        margin-left: 5px;
+        color:#222223fd
+       
+    }
+
+    .text-ads{
+        
+        margin-left: 10px;
+
+    }
+    .text-ads li{
+            list-style-type: none;
+            font-size: 19px;
+            margin-left: 15px;
+            color:#1a1b1bfd
+    }
+
+    body{
+        margin-left: 1px;
+        
+    }
+
+    .content-wrapper p{
+        line-height: 1.5; /* Altura da linha para melhorar a legibilidade */
+        margin-left: 0px;
+        margin-right: 15px;
+        color: black;       
+        text-align: left;
+        
+        font-family: Arial, Helvetica, sans-serif;    
+      
+      
+       
+      }
+    
+    
+    
+    
+    .autor ul li{
+      
+        margin: 5px; 
+        font-size: 15px;
+    }
+    .autor li b::before {
+        content: "\a";
+        font-size: 0;
+        display: block;
+        line-height: 0;
+    }
+
+    ul li{
+        margin: 30px;
+
+    }
+    
+    
+    .img-banner img{
+       
+        width: 100%; 
+        height: auto;
+       
+    }
+    .img-banner-index img{
+       
+        width: 100%; 
+        height: auto;
+      
+    }
+
+    
+    /* imagem do logo para mobile*/
+    .img-logoguide img{
+        width: 110%;  
+    }  
+    .logo img{
+        width: 50%;
+        height: auto;
+    }
+        
+
+    .img-menu img{
+        width: 85%;
+          
+    }
+    
+    .img-max{
+        margin-inline: center; 
+        float: center;
+        image-orientation: center;    
+       
+    }
+    
+    .img-max img{
+        width: 98%;
+        margin: 5px;
+        
+    }
+    .img-max a{
+        
+        margin: 5px;
+        
+    }
+    .img-artifact img{
+        width: 60%;
+        
+       
+        
+    }
+
+    
+    .img-sugestion{
+        width: 40%;
+        
+    }
+    
+
+    
+
+    .img-new img{
+        width: 70%;
+          
+      }
+      .img-builds {
+        margin: left;
+    } 
+      .img-builds img{
+        margin-left: 9px;
+       width: 95%;
+    } 
+    
+        
+     
+    
+
+    .img-counters img{
+        width: 70%;
+    } 
+    figcaption {
+        font-size: 14px;
+        margin-left: 5px; 
+    }
+
+
+    .video-container {
+    
+        margin: 5px;
+    }
+    
+    
+    .video-caption {
+       
+        margin: 5px;
+        font-size: 14px;
+       
+    }
+
+       
+    .img-menuguide{
+        width: 40%; /* ajusta para 1 imagem por linha em telas muito pequenas */
+        height: auto; /* altura automática para manter a proporção */    
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .img-menumobile{
+        Width: 30%;
+        height: 160px;       
+    }
+
+    .img-home {
+        width: 300px;
+        height: 180px;
+        margin-bottom: 30px; /* Espaçamento inferior para separar as imagens do caption */
+        object-fit: cover; /* Ajuste para preencher o espaço sem distorção */
+        display: block; /* Garante que a imagem seja tratada como um bloco */
+        float: left; /* Alinha a imagem à esquerda */
+        margin-left: 10px; /* Define a margem esquerda de 30px */
+        
+    }
+    
+    .img-home img{  
+        width: 100%;
+        height: auto;
+       
+    }
+    
+    .img-visited {
+        width: 300px;
+        height: 180px;
+        margin-bottom: 70px; /* Espaçamento inferior para separar as imagens do caption */
+        object-fit: cover; /* Ajuste para preencher o espaço sem distorção */
+        display: block; /* Garante que a imagem seja tratada como um bloco */
+        float: left; /* Alinha a imagem à esquerda */
+        margin-left: 10px; /* Define a margem esquerda de 30px */
+    }
+    
+    .img-visited img {
+        width: 100%;
+        height: 100%;
+        border: 4px solid #5654b3;
+    }
+    
+    
+    
+    
+    .img-embed {
+        width: 300px;
+        height: 180px;
+        margin-bottom: 70px; /* Espaçamento inferior para separar as imagens do caption */
+        object-fit: cover; /* Ajuste para preencher o espaço sem distorção */
+        display: block; /* Garante que a imagem seja tratada como um bloco */
+        float: left; /* Alinha a imagem à esquerda */
+        margin-left: 10px; /* Define a margem esquerda de 30px */
+    }
+    
+    .img-embed img {
+        width: 100%;
+        height: 100%;
+        border: 4px solid #5654b3;
+    }
+    
+    
+
+    .emblem {
+       
+        margin-left: 5px;
+    }
+
+    .hero-tierlist img{
+        
+        width: 30%; /* Define a imagem para 50% do tamanho original */
+       
+    }
+
+    .share-button {
+        margin-top: 1px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        
+        font-size: 8px;
+    }
+
+    .share-button {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+   
+    section p{
+        
+        margin-left: 10px;
+        margin-right: 5px;
+        color: black;
+        padding: 0,2%;
+        text-align: left;
+    }
+    section ul li a{
+        
+        margin-left: 10px;
+        margin-right: 5px;
+        
+        padding: 0,2%;
+        text-align: left;
+    }
+    h1 {
+        color: #5105cb;
+        margin-left: 10px;
+        padding: 0,2%;
+        text-align: left;
+    }
+    h2 {
+        margin-left: 10px;
+        font-size: 20px;
+        color:  #31017d;
+        padding: 0,2%;
+        text-align: left;
+    }
+    h3 {
+        margin-left: 10px;
+        font-size: 22px;
+       
+        color: #bc0006;
+        padding: 0,2%;
+        text-align: left;
+    }
+    h4 {
+       
+        margin-left: 10px;
+       }
+    h5 {
+        margin-left: 10px;
+    }
+    section p{
+        margin-left: 15px;
+        margin-right: 15px;
+        color: black;
+        padding: 0,2%;
+        text-align: left;
+        
+        font-family: Arial, Helvetica, sans-serif;    
+    }
+    
+    .check-list li{        
+        margin-left: 40px;
+        
+        
+    }
+    .check-list ol{
+        margin-left: 20px;
+    }
+
+    .checklist-stats li{
+         line-height: 22px;
+    }
+    
+    
+    .skillgray blockquote{  
+       
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .skillgreen blockquote{            
+            margin-left: 10px;
+            margin-right: 10px;
+    }
+        
+    .skillblue blockquote{            
+            margin-left: 10px;
+            margin-right: 10px;
+    }
+    .skillviolet blockquote{            
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .Lucca blockquote{
+        
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .table-combos table{
+        width: auto;
+        margin-left: 10px;          
+    }
+    table {
+        width: auto;
+        margin-left: 10px;  
+    }
+
+    .table-combos table{
+       
+        margin-top: 5px;
+
+        
+    }
+    table {
+    margin: 10px;
+    width: 95%;
+    }
+   
+    .table-combos th,td{
+        font-size: 15px;
+    }
+
+    .container{
+        width: auto;
+    
+    }
+
+    
+    
+    .main {   
+        -ms-flex:100%; /* IE10 */
+        flex: 100%;
+        background-color: black;
+    }
+    main{
+        flex-direction: column;
+    }
+    
+    
+    .footer a img{
+            width: 10%;
+            
+    }
+
+    
+
+    .iconeyt {
+            color: #e20b0b;    
+            margin-left: 3px;
+            font-size: 18px;
+            list-style: none;    
+}
+    
+
+        
+
+}
+    
+
+/* width mesmo tamanho do nav */        
+/* width mesmo tamanho do nav */        
+.footer{
+    max-width: 1000px;
+    background-color: #c8e4ee;
+    padding:3px 0px;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10px;
+}
+
+        
+.footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding: 0,1% 0%;
+    color:rgb(4, 2, 25);
+    
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    font-size: 16px;
+    color: black;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color: red;
+    }
+    .footer image:hover{
+    color: red;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 5px;
+    font-size: 12px;
+    }
+    
+    .footer .row a i{
+    font-size: 2em;
+    margin:0% 1%;
+    }
+    .footer p{
+      
+        text-align: center;
+    }
+    .footer img{
+        width: auto;
+        height: 30px;
+        margin: 1% 2%;
+        padding: 0,9% 1%;
+        border-radius: 100%;
+        
+    }
+    
+    .footer .row ul li{
+        display:inline-table;
+        margin:5px 20px;
+        text-align:center;
+        }
+    .footer .row a i{
+        margin:0% 3%;
+        }
+    #message {
+        font-size: 14px; /* font copyright footer - Altere este valor para o tamanho de fonte desejado */
+        }
+    
+    /* calendar Hero Wars Alliance pc e mobile */
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+        .calendar .event-container {
+            position: relative;
+            padding: 10px;
+            background-color: #19a244;
+            border-radius: 5px;
+            text-align: center;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .event {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+        .event a {
+            color: #fff;
+            text-decoration: none;
+            z-index: 2;
+            position: relative;
+            font-weight: bold;
+            top: 50px;
+            left: 2px;
+        }
+        .event img {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 55%;
+            left: 51%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+        .date {
+            position: absolute;
+            z-index: 2;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            top: 1px;
+            left: 2px;
+            font-weight: bold;
+        }
+        .event-title {
+            position: absolute;
+            z-index: 2;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            bottom: 5px;
+            left: 5px;
+            right: 5px;
+            text-align: center;
+            font-weight: bold;
+        } 
+        @media (max-width: 768px) {
+            .calendar {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+        @media (max-width: 480px) {
+            .calendar {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    
+        
+    
+    
+    
+        
+    
+    
+
+    
+    
+        
+    
+    
+
+    
+
+/** CSS cokies 2024 **/
+.cookie-banner {
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #faebe4;
+    padding: 10px 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1000;
+}
+.cookie-banner p {
+    margin: 0;
+    text-align: center;
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 0 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.accept-btn {
+    background-color: #00611E;
+    color: white;
+}
+
+.reject-btn {
+    background-color: #9E251A;
+    color: white;
+}
+
+.privacy-link {
+    color: #171717;
+    text-decoration: none;
+}
+
+.privacy-link:hover {
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .box-cookies {
+        flex-direction: column;
+        border-left: none;
+    }
+} 
+    
+/* Estilos para a imagem dos menus Alexandre Games */
+
+
+
+/* Classe para esconder conteúdo em telas maiores que 700px */
+.mobile-only {
+    display: none;
+}
+
+/* Classe para esconder conteúdo em telas maiores que 700px */
+.desktop-only {
+    display: none;
+}
+
+/* Exibir conteúdo mobile em telas até 700px */
+@media only screen and (max-width: 700px) {
+    .mobile-only {
+        display: block;
+    }
+}
+
+/* Exibir conteúdo desktop em telas maiores que 701px */
+@media only screen and (min-width: 701px) {
+    .desktop-only {
+        display: block;
+    }
+}
