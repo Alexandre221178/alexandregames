@@ -474,10 +474,6 @@ li{
 .content-wrapper {
     max-width: auto; /* Limita a largura do conteúdo */
     margin: 0 auto;   /* Centraliza no container */
-    font-size: 16px;
-    text-align: left;
-    line-height: 1.5;
-    padding: 20px;    /* Adiciona espaçamento interno */
     box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
     background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste */
   }
@@ -485,8 +481,11 @@ li{
     min-height: 100px; /* Altura mínima */
   }
   .content-wrapper p{
-    margin-top: 0px;
-    
+    font-size: 20px; 
+    margin-left: 30px;
+    margin-top: 5px;
+    line-height: 30px;
+    text-align: left;
   }
 
 p {
@@ -496,7 +495,7 @@ p {
     margin-top: 10px;
     margin-left: 1px;
     margin-right: 30px;
-    line-height: 2;
+    line-height: 35px;
     padding: 0,1%;
     color: Black;
     font-size: 20px;
@@ -582,10 +581,10 @@ section p{
 }
 /* texto do título */
 .text-bx h1{
+    
     font-size: 3rem;
     text-transform: uppercase;
-    margin-bottom: 0px;
-    
+    margin-bottom: 0px; 
     
 }
 
@@ -595,9 +594,8 @@ section p{
     font-weight: bold;
     text-transform: uppercase;
     margin-left: 30px;
-    margin-top: 15px;
+    margin-top: 5px;
     margin-bottom: 0px;
-    
     text-transform: uppercase;
 }
 .text-title h1 b{
