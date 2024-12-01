@@ -10,9 +10,8 @@ const menuContent = `
 <a href="https://alexandregames.com/roblox/redeem-code-pt-roblox.html">Códigos do Roblox</a>
 <a href="https://alexandregames.com/roblox/roblox-br/fujadainstalacao-dicas-marretao.html">Marretão: Fuja da Instalação</a>
 <a href="https://alexandregames.com/roblox/roblox-br/roblox-man-face-pt.html">Rosto Masculino do Roblox</a>
-<a href="https://alexandregames.com/roblox/roblox-br/murder-tutorial-roblox.html">Murder Mystery</a>
 
-<br>
+
 <h6><a href="https://alexandregames.com/roblox-br.html">Roblox: Mais Recentes</a></h6>
 <a href="https://alexandregames.com/roblox/best-roblox-horror-games-pt.html">Melhores Jogos de Terror - Roblox</a>
     

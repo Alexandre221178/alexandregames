@@ -9,9 +9,9 @@ const menuContent = `
     <a href="https://alexandregames.com/roblox/redeem-code-en-roblox.html">Roblox Codes</a>
     <a href="https://alexandregames.com/roblox/roblox-us/flee-the-facility-tips.html">Flee the Facility</a>
     <a href="https://alexandregames.com/roblox/roblox-us/roblox-man-face-en.html">Roblox Man Face</a>
-    <a href="https://alexandregames.com/roblox/roblox-us/murder-guide-roblox.html">Murder Mystery</a>
+    
 
-    <br><h6><a href="https://alexandregames.com/roblox-us.html">Roblox: Newest</a></h6>
+    <h6><a href="https://alexandregames.com/roblox-us.html">Roblox: Newest</a></h6>
     <a href="https://alexandregames.com/roblox/best-roblox-horror-games-en.html">Best Roblox Horror Games</a>
     
 `;

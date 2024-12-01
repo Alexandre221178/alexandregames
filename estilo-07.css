@@ -549,7 +549,7 @@ h5 {
     /* h6 Fonte da data de atualização */
 h6 {
     color: #000105;
-   
+   margin-top: 7px;
     font-size: 20px;
     text-align: left;
 }
