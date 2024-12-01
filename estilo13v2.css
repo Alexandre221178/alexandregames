@@ -1123,6 +1123,31 @@ table {
     border: 1px solid rgb(141, 136, 136);
     padding: 8px;
   }
+
+
+/* Estilo para Description List FAQ(dl, dt, dd) */
+dl {
+    border: 2px solid #444; /* Borda ao redor da lista */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #f9f9f9; /* Fundo claro */
+    margin: 20px 0; /* Espaçamento externo */
+    font-family: 'Arial', sans-serif; /* Fonte padrão */
+}
+/* Estilo para Description List FAQ(dl, dt, dd) */
+dt {
+    font-weight: bold; /* Destaque para as perguntas */
+    font-size: 1.2rem; /* Tamanho maior para o título */
+    margin-bottom: 5px; /* Espaço abaixo das perguntas */
+    color: #333; /* Cor escura */
+}
+/* Estilo para Description List FAQ(dl, dt, dd) */
+dd {
+    margin: 0 0 20px 20px; /* Recuo para alinhar com as perguntas */
+    font-size: 1rem; /* Tamanho da resposta */
+    line-height: 1.6; /* Melhor espaçamento entre linhas */
+    color: #302d2d; /* Cor levemente mais clara */
+}
   
 
 /* fonte para comentarios click no botao abaixo */
