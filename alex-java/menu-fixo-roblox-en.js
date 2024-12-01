@@ -1,13 +1,19 @@
 // Define o conteúdo HTML do menu
 const menuContent = `
+    <h6><a href="https://alexandregames.com/roblox-us.html">Roblox: Most Visited</a></h6>
+   
+    <a href="https://alexandregames.com/roblox/roblox-us/brookhaven-guide-roblox.html">Exploring Brookhaven</a>
+    <a href="https://alexandregames.com/roblox/roblox-us/secret-tricks-to-win-at-roblox.html">13 Secret Tricks to Win at Roblox</a>
+    <a href="https://alexandregames.com/roblox/roblox-us/how-to-get-voice-chat-en-roblox.html">How to Get Voice Chat on Roblox</a>
+     <a href="https://alexandregames.com/roblox/what-abc-means-roblox-en.html">What Does "ABC" Mean in Roblox</a>
+    <a href="https://alexandregames.com/roblox/redeem-code-en-roblox.html">Roblox Codes</a>
+    <a href="https://alexandregames.com/roblox/roblox-us/flee-the-facility-tips.html">Flee the Facility</a>
+    <a href="https://alexandregames.com/roblox/roblox-us/roblox-man-face-en.html">Roblox Man Face</a>
+    <a href="https://alexandregames.com/roblox/roblox-us/murder-guide-roblox.html">Murder Mystery</a>
+
+    <br><h6><a href="https://alexandregames.com/roblox-us.html">Roblox: Newest</a></h6>
+    <a href="https://alexandregames.com/roblox/best-roblox-horror-games-en.html">Best Roblox Horror Games</a>
     
-    <h6>Alexandre Games</h6>
-    <a href="https://alexandregames.com/herowars-alliance-en.html">Hero Wars Alliance</a>
-    <a href="https://alexandregames.com/MobileLegends-English.html">Mobile Legends</a>
-    <a href="https://alexandregames.com/ragnarok-origin/codes-ragnarok-us.html">Ragnarok ROO</a>
-    <a href="https://alexandregames.com/roblox-us.html">Roblox</a>
-    <a href="https://alexandregames.com/top-troops/top-troops-en-home.html">Top Troops</a>
-    <a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-en.html">Throne and Liberty</a>
 `;
 
 // Seleciona a div existente com a classe "menu-fixo"
