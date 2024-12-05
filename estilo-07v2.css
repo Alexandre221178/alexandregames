@@ -192,7 +192,14 @@ nav .menu-icon{
         
     }
     
-    
+    .language-switch strong {
+        text-transform: uppercase; /* Garante que o texto seja maiúsculo */
+        font-size: 16px; /* Ajuste o tamanho da fonte, se necessário */
+        font-weight: bold; /* Mantém o estilo negrito */
+        display: inline-block; /* Alinha com a bandeira */
+        vertical-align: middle; /* Centraliza verticalmente com a bandeira */
+    }
+     
     
     
     .container a:hover{
