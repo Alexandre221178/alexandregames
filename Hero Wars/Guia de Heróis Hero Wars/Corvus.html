@@ -4,10 +4,11 @@
   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guia do Corvus Hero Wars Mobile</title>
-
     <meta property="article:published_time" content="2023-07-01" />
-    <meta property="article:modified_time" content="2024-04-24T21:28" />
+    <meta property="article:modified_time" content="2024-12-05T22:02-03:00" />
+    <link rel="stylesheet" href="../../estilo13v2.css">
+
+    <title>Guia do Corvus Hero Wars Mobile</title>
     <meta name="description" content="Tutorial de como jogar com Corvus em Hero Wars Mobile, melhores times, counters, estratégias para hidras, e habilidades em nível máximo.">
     <meta name="keywords" content="Hero-Wars-Mobile,Tutorial,Dicas,counter,melhores-times">
     <meta name="author" content="Alexandre Pereira Domingos">
@@ -17,13 +18,12 @@
     <link rel="alternate" hreflang="pt" href="https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Corvus.html">
 
 
-    
     <meta property="og:image" content="https://alexandregames.com/img-HWM/Corvus-img/corvus-hero-wars-1200px.webp" />
     <link rel="apple-touch-icon" sizes="180x180" href="../../imagens/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../../imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../imagens/favicon-16x16.png">
     <link rel="manifest" href="../../imagens/site.webmanifest">
-    <link rel="stylesheet" href="../../estilo13.css">
+    <script src="../../Documentos/nav13-pt-v2.js"></script>   
     <script src="../../Documentos/lazy-load.js"></script>
 
 
@@ -81,13 +81,11 @@
 <div class="container">
   <div id="menu-container"></div><!-- Contêiner do menu -->
   <!-- Botão de troca de idioma -->
-  <!-- O menu <nav></nav> será inserido aqui pelo JavaScript -->
-  <button class="language-switch"><!-- Botão de troca de idioma - Colocar link pag. English.html-->
-    <a href="../Guia de Heróis Hero Wars/Corvus - English.html">
-    <img src="../../imagens/flag-us-32x32.png" alt="bandeira USA" title="bandeira" USA style="width:24px;height:16px" >
-    <strong> EN</strong></a>
-  </button>
-  <script src="../../Documentos/nav13-pt.js"></script>   
+    <!-- O menu <nav></nav> será inserido aqui pelo JavaScript -->
+    <!-- Colocar link pag. English.html - O link fica definido aqui no HTML Botão de troca de idioma -->
+    <a href="../Guia de Heróis Hero Wars/Corvus - English.html" class="language-link" style="display:none;"></a>
+    
+    
            
     
        
@@ -134,7 +132,16 @@
 <div id="second-half" class="hidden">
   <!-- second half retirar </div> -->    
 
-
+  <figure class="img-banner">
+    <picture>
+        <!-- Para telas grandes (PC) de 80kb a 150kb -->
+        <source media="(min-width: 768px)" srcset="../../img-HWM/Corvus-img/corvus-hero-wars-1200px.webp">
+        <!-- Para telas menores (mobile) de 30kb a 70kb -->
+        <img src="../../img-HWM/Corvus-img/corvus-hero-wars-600px.webp" alt="Papel de parede do guia de Corvus Hero Wars" title="Papel de parede do guia de Corvus Hero Wars">
+    </picture>
+    <figcaption>Ilustração de Corvus do jogo Hero Wars Alliance, desenvolvido pela Nexters.</figcaption>
+  </figure>
+  
 
   <h2>Estatísticas Principais de Corvus</h2>
     <table>
@@ -272,51 +279,130 @@
   </section>
   
 
-<section>
-      <!-- talismã -->              
-     <div> 
-         
-                                            
-     </div>
-     <div>
-         <table>
-            <caption>Atributos do Talismã dos Amaldiçoados</caption>     
-           <tr>
-             <th>Slot</th>
-             <th>Estatística</th>
-             <th>Máximo de Pontos</th>
-         
-           </tr>
-           <tr>
-             <td>0</td>
-             <td>Força</td>
-             <td>+2000</td>
-           </tr>
-           <tr>
-             <td>1</td>
-             <td>Ataque Físico</td>
-             <td>+4000</td>
-             </tr>
-             <tr>
-             <td>2</td>
-             <td>Ataque Físico</td>
-             <td>+4000</td>
-           </tr>
-           <tr>
-             <td>3</td>
-             <td>Ataque Físico</td>
-             <td>+4000</td>
-         </tr>
-         
-         </table>  
-     </div>
-    
-     
-<br>
-</section>
+  
+  <section>
+    <h2><strong>Talismã do Maldito de Corvus (1º Talismã)</strong></h2>
+  
+    <p>O <strong>Talismã do Maldito</strong> é o primeiro talismã de Corvus e se concentra em melhorar suas capacidades ofensivas. Aqui estão seus detalhes:</p>
+  
+    <div>
+      <table>
+        <caption>Atributos do Talismã do Maldito</caption>
+        <tr>
+          <th>Slot</th>
+          <th>Estatísticas</th>
+          <th>Pontos Máximos</th>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>Força</td>
+          <td>+2000</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Ataque Físico</td>
+          <td>+4000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Ataque Físico</td>
+          <td>+4000</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Ataque Físico</td>
+          <td>+4000</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  
+  <ul>
+    <li><strong>Estatística Base:</strong> Adiciona <strong>Força</strong>, que melhora o ataque físico geral e a reserva de saúde de Corvus.</li>
+    <li><strong>Ataque Físico nos Slots:</strong> Até <strong>3 slots</strong>, com cada slot fornecendo <strong>6.600 de Ataque Físico</strong> dependendo do nível de refinamento.</li>
+    <li><strong>Propósito:</strong> Aumenta o dano de Corvus, melhorando especialmente a eficácia de sua habilidade <strong>Altar das Almas</strong> e seu potencial geral de causar dano.</li>
+  </ul>
+  
+  <figure class="img-max">
+    <img src="../../img-HWM/Corvus-img/corvus-talisman-of-damned.webp" alt="Corvus com Talismã do Maldito, Hero Wars." title="Corvus com Talismã do Maldito, Hero Wars." loading="lazy">
+    <figcaption>Corvus com Talismã do Maldito, Hero Wars.</figcaption>
+  </figure>
+  
+  <h3><strong>Vantagens:</strong></h3>
+  <ol>
+    <li><strong>Aumento de Dano:</strong> O bônus de ataque físico aumenta significativamente o dano das habilidades de Corvus, tornando-o mais impactante ofensivamente.</li>
+    <li><strong>Sinergia com Força:</strong> Como herói baseado em Força, a Força adicional proporcionada pelo Talismã do Maldito também melhora ligeiramente sua sobrevivência, aumentando sua saúde.</li>
+  </ol>
+  
+  <h3><strong>Desvantagens:</strong></h3>
+  <ul>
+    <li>Não possui bônus defensivos, que são essenciais para um tanque como Corvus.</li>
+    <li>Embora amplifique o dano, não aborda a necessidade de maior durabilidade de Corvus na linha de frente.</li>
+  </ul>
+  
+  <hr>
+  
+  <h2><strong>Talismã do Rei de Corvus (2º Talismã)</strong></h2>
+  
+  <p>O <strong>Talismã do Rei</strong> se concentra em tornar Corvus um tanque mais resiliente, melhorando significativamente suas estatísticas defensivas. Aqui estão suas características:</p>
+  
+  <ul>
+    <li><strong>Defesa Mágica Base:</strong> +12.000 pontos.</li>
+    <li><strong>Armadura nos Slots:</strong> Até <strong>3 slots</strong>, com cada slot fornecendo <strong>6.600 de Armadura</strong> com base no refinamento.</li>
+    <li><strong>Propósito:</strong> Melhora a sobrevivência de Corvus ao reforçar suas defesas contra ataques mágicos e físicos.</li>
+  </ul>
+  
+  <figure class="img-max">
+    <img src="../../img-HWM/Corvus-img/corvus-talisman-of-kings.webp" alt="Corvus com Talismã do Rei, Hero Wars." title="Corvus com Talismã do Rei, Hero Wars." loading="lazy">
+    <figcaption>Corvus com Talismã do Rei, Hero Wars.</figcaption>
+  </figure>
+  
+  <h3><strong>Vantagens:</strong></h3>
+  <ol>
+    <li><strong>Defesa Voltada para Tanque:</strong> A combinação de Defesa Mágica e Armadura torna Corvus muito mais difícil de eliminar, especialmente contra equipes de dano misto.</li>
+    <li><strong>Presença Sustentada:</strong> Com maior sobrevivência, Corvus pode permanecer mais tempo na luta, oferecendo suporte consistente e redução de dano através de sua habilidade <strong>Altar das Almas</strong>.</li>
+  </ol>
+  
+  <h3><strong>Desvantagens:</strong></h3>
+  <ul>
+    <li>Não oferece melhorias diretas às habilidades de causar dano, focando apenas na sobrevivência.</li>
+    <li>Não é ideal para jogadores que priorizam estratégias ofensivas.</li>
+  </ul>
+  
+  <hr>
+  
+  <h2><strong>Resumo dos Talismãs de Corvus</strong></h2>
+  
+  <ol>
+    <li><strong>Talismã do Maldito (T1):</strong>
+      <ul>
+        <li>Melhor para melhorar a <strong>ofensiva</strong> de Corvus.</li>
+        <li>Fornece bônus de <strong>Força</strong> e <strong>Ataque Físico</strong>, que aumentam o dano das habilidades, mas não alteram suas capacidades defensivas.</li>
+      </ul>
+    </li>
+    <li><strong>Talismã do Rei (T2):</strong>
+      <ul>
+        <li>Melhor para melhorar a <strong>defesa</strong> de Corvus.</li>
+        <li>Adiciona <strong>Defesa Mágica</strong> e <strong>Armadura</strong>, tornando-o um tanque mais confiável enquanto mantém sua capacidade de causar dano indiretamente com suas habilidades.</li>
+      </ul>
+    </li>
+  </ol>
+  
+  <hr>
+  
+  <h2><strong>Qual Talismã é Melhor para Corvus?</strong></h2>
+  
+  <ul>
+    <li><strong>Para Construções Defensivas:</strong> O <strong>Talismã do Rei</strong> é superior para tankar, permitindo que Corvus suporte mais dano e cumpra seu papel na linha de frente de forma eficaz.</li>
+    <li><strong>Para Construções Ofensivas:</strong> O <strong>Talismã do Maldito</strong> é mais adequado se você prefere focar no dano de Corvus, embora sacrifique sua sobrevivência.</li>
+  </ul>
+  
+  <p>No geral, o <strong>Talismã do Rei</strong> é a melhor escolha para a maioria das composições de equipe, já que o papel principal de Corvus é tankar e proteger seus aliados.</p>
+  
+  </section>
+  
 
 
-</br>
     <!-- Box #1 Pontos Positivos -->
 <section>
                         
@@ -676,43 +762,33 @@
 
 
  
-<!------------- Inicio Footer Alexandre Games ------------->
+<!-- Footer estrutural -->
 <footer>
   <div class="footer">
-  <div class="row">
-       
-      <a href="https://www.youtube.com/@alexandreekilvinhagames"><img src="../../imagens/youtube-black.webp" alt="youtube"></i></a>
-      <a href="https://www.twitch.tv/ytalexandre"><img src="../../imagens/twitchblack.webp" alt="twithc"></i></a>
-      
-  
-  
+      <div class="row" id="social-links"></div> <!-- Links de redes sociais serão inseridos aqui -->
+      <div class="row">
+          <ul id="navigation-links"></ul> <!-- Links de navegação serão inseridos aqui -->
+      </div>
+      <div class="row">
+          <ul>
+              <li id="message"></li> <!-- Mensagem será inserida aqui -->
+          </ul>
+      </div> 
   </div>
-  <div class="row">
-      <ul>
-          <li><a href="../../Documentos/Contato.html">Contato</a></li>
-          <li><a href="../../Documentos/aviso-legal.html">Isenção de Responsabilidade</a></li>
-          <li><a href="../../Documentos/Política de privacidade.html">Política de Privacidade</a></li>
-          <li><a href="../../Documentos/Sobre.html">Sobre Nós</a></li>                        
-          <li><a href="../../Documentos/Termos de uso.html">Termos de Uso</a></li>
-          
-  </ul>
-  </div>
-  <div class="row">
-      <ul>
-          <li id="message"></li>
-      </ul>
-  </div>      
 </footer>
+<!-- Fim do Footer Alexandre Games -->
 <!------------- Fim Footer Alexandre Games ------------->
-       
-      
+
+   
 
 
 
 
 
-    <script src="./hwguide-pt-2024.js"></script>
-<!-- Footer -->
+        <script src="../../Documentos/java-insert-footer-pt.js"></script>
+        <script src="../../Documentos/graphcomments.js"></script>
+        <script src="../../Documentos/share-pt-reddit.js"></script>
+
 
 
 </body>
