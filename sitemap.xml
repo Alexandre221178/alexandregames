@@ -42,12 +42,12 @@
 
 <url>
   <loc>https://alexandregames.com/MobileLegends-English.html</loc>
-  <lastmod>2024-10-21T23:00-03:00</lastmod>
+  <lastmod>2024-12-07T18:40-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/MobileLegends.html</loc>
-  <lastmod>2024-10-21T23:00-03:00</lastmod>
+  <lastmod>2024-12-07T18:40-03:00</lastmod>
   <priority>0.85</priority>
 </url>
 
@@ -216,6 +216,17 @@
 <url>
   <loc>https://alexandregames.com/mobile-legends/change.html</loc>
   <lastmod>2024-05-18T16:32:14+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/mobile-legends/chou-mlbb-en.html</loc>
+  <lastmod>2024-12-07T18:40-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/mobile-legends/chou-mlbb-pt.html</loc>
+  <lastmod>2024-12-07T18:40-03:00</lastmod>
   <priority>0.70</priority>
 </url>
 
