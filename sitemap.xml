@@ -42,12 +42,12 @@
 
 <url>
   <loc>https://alexandregames.com/MobileLegends-English.html</loc>
-  <lastmod>2024-12-07T18:40-03:00</lastmod>
+  <lastmod>2024-12-08T09:00-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/MobileLegends.html</loc>
-  <lastmod>2024-12-07T18:40-03:00</lastmod>
+  <lastmod>2024-12-08T09:00-03:00</lastmod>
   <priority>0.85</priority>
 </url>
 
@@ -281,6 +281,17 @@
 <url>
   <loc>https://alexandregames.com/mobile-legends/harith-pt-mlbb.html</loc>
   <lastmod>2024-06-27T21:50-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/mobile-legends/harley-mlbb-en.html</loc>
+  <lastmod>2024-12-08T09:00-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/mobile-legends/harley-mlbb-pt.html</loc>
+  <lastmod>2024-12-08T09:00-03:00</lastmod>
   <priority>0.70</priority>
 </url>
 
