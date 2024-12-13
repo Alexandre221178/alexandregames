@@ -1617,9 +1617,21 @@
 
 
 
+
 <!-- fim artigos Hero wars articles Hero Wars SiteMap Alexandre Games -->
 
 <!-- inicio review Skin analises de skin SiteMap Alexandre Games -->
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/review/new-arena-and-tower-en.html</loc>
+  <lastmod>2024-12-13T20:53-03:00</lastmod>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/review/new-arena-and-tower-pt.html</loc>
+  <lastmod>2024-12-13T20:53-03:00</lastmod>
+  <priority>0.61</priority>
+</url>
+
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/review/cybernetic-skin-aidan-kayla-mushy-en.html</loc>
   <lastmod>2024-11-16T16:10-03:00</lastmod>
@@ -1630,7 +1642,6 @@
   <lastmod>2024-11-16T16:10-03:00</lastmod>
   <priority>0.61</priority>
 </url>
-
 
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/review/stellar-skin-en-ginger-cascade-mojo.html</loc>
