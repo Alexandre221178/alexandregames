@@ -81,53 +81,53 @@
       <button id="reject-cookies" class="btn reject-btn">Reject All</button>
   </div>
   <a href="../Documentos/PrivacyPolicy.html" class="privacy-link">Privacy Policy</a>
-  </div>
+</div>
 
-  <div class="container-principal">
-    <div class="container-fixo">
+<div class="container-principal">
+<div class="container-fixo">
+
+  <div id="ad-container" style="display: none;">
+      <!-- Contêiner vazio para o anúncio AdSense que será carregado via JavaScript -->
+  
+  <!-- mlbb side right fix heroes guide - 3946125699 -->
+    <script>
+      // Verifica a largura da janela
+      if (window.innerWidth > 840) {
+        // Torna o contêiner visível
+        document.getElementById("ad-container").style.display = "block";
     
-      <div id="ad-container" style="display: none;">
-          <!-- Contêiner vazio para o anúncio AdSense que será carregado via JavaScript -->
-      
-      <!-- mlbb side right fix heroes guide - 3946125699 -->
-        <script>
-          // Verifica a largura da janela
-          if (window.innerWidth > 840) {
-            // Torna o contêiner visível
-            document.getElementById("ad-container").style.display = "block";
-        
-            // Cria e insere o script do AdSense dinamicamente
-            var adsenseScript = document.createElement("script");
-            adsenseScript.async = true;
-            adsenseScript.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689";
-            adsenseScript.crossOrigin = "anonymous";
-            document.head.appendChild(adsenseScript);
-        
-            // Insere o código do anúncio
-            var adIns = document.createElement("ins");
-            adIns.className = "adsbygoogle";
-            adIns.style = "display:inline-block;width:300px;height:250px";
-            adIns.setAttribute("data-ad-client", "ca-pub-7838775403194689");
-            adIns.setAttribute("data-ad-slot", "3946125699");
-            document.getElementById("ad-container").appendChild(adIns);
-        
-            // Executa o anúncio
-            adsenseScript.onload = function() {
-              (adsbygoogle = window.adsbygoogle || []).push({});
-            };
-          }
-        </script>
-        
-    <!-- div para fechar ad fixo lateral -->
-    </div>
+        // Cria e insere o script do AdSense dinamicamente
+        var adsenseScript = document.createElement("script");
+        adsenseScript.async = true;
+        adsenseScript.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689";
+        adsenseScript.crossOrigin = "anonymous";
+        document.head.appendChild(adsenseScript);
     
-      <div class="menu-fixo">
-          <!-- O conteúdo do menu será inserido aqui via JavaScript -->
-      </div>
-    <!-- Script para inserir o menu fixo -->
-        <script src="../Documentos/menu-fixo-en.js" ></script>
-    <!-- div do menu-fixo -->
-    </div>
+        // Insere o código do anúncio
+        var adIns = document.createElement("ins");
+        adIns.className = "adsbygoogle";
+        adIns.style = "display:inline-block;width:300px;height:250px";
+        adIns.setAttribute("data-ad-client", "ca-pub-7838775403194689");
+        adIns.setAttribute("data-ad-slot", "3946125699");
+        document.getElementById("ad-container").appendChild(adIns);
+    
+        // Executa o anúncio
+        adsenseScript.onload = function() {
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        };
+      }
+    </script>
+    
+<!-- div para fechar ad fixo lateral -->
+</div>
+
+  <div class="menu-fixo">
+      <!-- O conteúdo do menu será inserido aqui via JavaScript -->
+  </div>
+<!-- Script para inserir o menu fixo -->
+    <script src="../Documentos/menu-fixo-en.js" ></script>
+<!-- div do menu-fixo -->
+</div>
 
 
     <div class="container">
@@ -137,11 +137,10 @@
           <!-- O menu <nav></nav> será inserido aqui pelo JavaScript -->
           <!-- Colocar link pag. Português.html - O link fica definido aqui no HTML Botão de troca de idioma -->
           <a href="../mobile-legends/aamon-pt-mlbb.html" class="language-link" style="display:none;"></a>    
-         
-    
-    <script src="../Documentos/nav13-en-v2.js"></script>
-    <script src="../Documentos/lazy-load.js"></script>
-    
+      
+<script src="../Documentos/nav13-en-v2.js"></script>
+<script src="../Documentos/lazy-load.js"></script>
+
 
 
 <header>
