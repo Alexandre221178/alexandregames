@@ -278,7 +278,27 @@ nav .menu-icon{
     color: white;
   }
 
- /* Estilos para ocultar o conteúdo até ser carregado lazy load css */
+ 
+
+.content-wrapper {
+    max-width: auto; /* Limita a largura do conteúdo */
+    margin: 0 auto;   /* Centraliza no container */
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste */
+  }
+  .content-wrapper {
+    min-height: 100px; /* Altura mínima */
+  }
+  .content-wrapper p{
+    font-size: 20px; 
+    margin-left: 30px;
+    margin-top: 5px;
+    line-height: 30px;
+    text-align: left;
+  }
+
+
+  /* Estilos para ocultar o conteúdo até ser carregado lazy load css */
  .hidden {
     display: none;
 }
@@ -477,23 +497,6 @@ li{
     width: 25px;
     height: 20px;
 }
-
-.content-wrapper {
-    max-width: auto; /* Limita a largura do conteúdo */
-    margin: 0 auto;   /* Centraliza no container */
-    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
-    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste */
-  }
-  .content-wrapper {
-    min-height: 100px; /* Altura mínima */
-  }
-  .content-wrapper p{
-    font-size: 20px; 
-    margin-left: 30px;
-    margin-top: 5px;
-    line-height: 30px;
-    text-align: left;
-  }
 
 p {
     text-align: left;
@@ -1466,6 +1469,18 @@ iframe{
           
      }
 
+     .content-wrapper {
+        min-height: 210px; /* Altura mínima */
+      }  
+      .content-wrapper p{
+        line-height: 1.5; /* Altura da linha para melhorar a legibilidade */
+        margin-left: 0px;
+        margin-right: 15px;
+        color: black;       
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;    
+      }
+
      /* Esconde o container fixo no mobile */
      .container-fixo {
         display: none;
@@ -1556,22 +1571,7 @@ iframe{
         
     }
 
-    .content-wrapper p{
-        line-height: 1.5; /* Altura da linha para melhorar a legibilidade */
-        margin-left: 0px;
-        margin-right: 15px;
-        color: black;       
-        text-align: left;
-        
-        font-family: Arial, Helvetica, sans-serif;    
-      
-      
-       
-      }
-    
-    
-    
-    
+         
     .autor ul li{
       
         margin: 5px; 
