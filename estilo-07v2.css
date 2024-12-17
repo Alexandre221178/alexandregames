@@ -271,6 +271,26 @@ nav .menu-icon{
     background-color: #ddd;
     color: black;
   }
+
+
+  .content-wrapper {
+    max-width: auto; /* Limita a largura do conteúdo */
+    margin: 0 auto;   /* Centraliza no container */
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+  }
+  .content-wrapper {
+    min-height: 100px; /* Altura mínima */
+  }
+  .content-wrapper p{
+    font-size: 20px; 
+    margin-left: 30px;
+    margin-top: 5px;
+    line-height: 30px;
+    text-align: left;
+  }
+
+
   
   /* Active/current link */
   .navbar a.active {
@@ -478,22 +498,7 @@ li{
     height: 20px;
 }
 
-.content-wrapper {
-    max-width: auto; /* Limita a largura do conteúdo */
-    margin: 0 auto;   /* Centraliza no container */
-    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
-    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
-  }
-  .content-wrapper {
-    min-height: 100px; /* Altura mínima */
-  }
-  .content-wrapper p{
-    font-size: 20px; 
-    margin-left: 30px;
-    margin-top: 5px;
-    line-height: 30px;
-    text-align: left;
-  }
+
 
 p {
     text-align: left;
@@ -1466,6 +1471,10 @@ iframe{
           
      }
 
+     .content-wrapper {
+        min-height: 210px; /* Altura mínima */
+      }  
+
      /* Esconde o container fixo no mobile */
      .container-fixo {
         display: none;
@@ -1503,11 +1512,6 @@ iframe{
            
     }
 
-
-    .content-wrapper {
-        min-height: 210px; /* Altura mínima */
-      }  
-    
     
     .text-bx,
     .img-bx{
