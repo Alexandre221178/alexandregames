@@ -300,7 +300,7 @@ nav .menu-icon{
 .ad-fold-container {
     width: 100%; /* Ocupa toda a largura disponível */
     max-width: 728px; /* Tamanho máximo para anúncios no desktop */
-    min-height: 90px; /* Altura mínima padrão para anúncios */
+    min-height: 190px; /* Altura mínima padrão para anúncios */
     margin: 0 auto; /* Centraliza horizontalmente */
     display: flex; /* Garante alinhamento do conteúdo */
     align-items: center; /* Alinha o anúncio verticalmente */
