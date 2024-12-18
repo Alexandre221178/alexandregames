@@ -211,28 +211,18 @@ nav .menu-icon{
   }
 
   .ad-fold-container {
-    width: 100%; /* Ocupa 100% da largura disponível */
-    max-width: auto; /* Largura máxima para anúncios maiores no desktop */
-    min-height: 60px; /* Altura mínima (4 dedos em dispositivos menores) */
-    height: 38vh; /* Altura relativa (~8% da altura da tela, ajustável) */
+    width: 100%; /* Ocupa toda a largura disponível */
+    max-width: 728px; /* Tamanho máximo para anúncios no desktop */
+    min-height: 293px; /* Altura mínima padrão para anúncios */
     margin: 0 auto; /* Centraliza horizontalmente */
+    display: flex; /* Garante alinhamento do conteúdo */
+    align-items: center; /* Alinha o anúncio verticalmente */
+    justify-content: center; /* Alinha o anúncio horizontalmente */
     box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho */
-    background-color: #f9f9f9; /* Cor de fundo para placeholder */
-    overflow: hidden; /* Evita conteúdo ultrapassar o container */
-    position: relative; /* Necessário para o espaço reservado funcionar */
-    display: flex; /* Centraliza o anúncio internamente */
-    align-items: center; /* Alinha verticalmente */
-    justify-content: center; /* Alinha horizontalmente */
+    background-color: #f9f9f9; /* Placeholder visual cor #f9f9f9; */
+    overflow: hidden; /* Evita transbordo de conteúdo */
+    position: relative; /* Define um contexto para elementos filhos */
 }
-
-.ad-fold-container::before {
-    content: ""; /* Espaço reservado para evitar CLS */
-    display: block;
-    width: 100%;
-    height: 100%; /* Garante que ocupa a altura do container */
-    background-color: #e0e0e0; /* Placeholder com cor cinza clara */
-}
-
  /* Estilos para ocultar o conteúdo até ser carregado lazy load css */
  .hidden {
     display: none;
