@@ -297,15 +297,18 @@ nav .menu-icon{
     text-align: left;
   }
 
-  .ad-fold-container {
-    max-width: auto; /* Limita a largura do conteúdo */
-    margin: 0 auto;   /* Centraliza no container */
-    
-    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste */
-}
-
-.ad-fold-container{
-   min-height: 38vh; /* Altura mínima */
+.ad-fold-container {
+    width: 100%; /* Ocupa toda a largura disponível */
+    max-width: 728px; /* Tamanho máximo para anúncios no desktop */
+    min-height: 90px; /* Altura mínima padrão para anúncios */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: flex; /* Garante alinhamento do conteúdo */
+    align-items: center; /* Alinha o anúncio verticalmente */
+    justify-content: center; /* Alinha o anúncio horizontalmente */
+    box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho */
+    background-color: #f9f9f9; /* Placeholder visual */
+    overflow: hidden; /* Evita transbordo de conteúdo */
+    position: relative; /* Define um contexto para elementos filhos */
 }
 
 
