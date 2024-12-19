@@ -1,7 +1,7 @@
 // Define o conteúdo HTML do menu
 const menuContent = `
   
-    <a href="https://alexandregames.com/herowars-alliance-pt.html">Hero Wars Alliance</a>  
+    <a href="https://alexandregames.com/HeroWars.html">Hero Wars Alliance</a>  
                 <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-pt-hwa.html">Guia de Melhores Times</a>  
                 <a href="https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html">Calendário & Eventos</a>
                 <a href="https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-pt-hwa.html">Caminho do Herói</a>  
