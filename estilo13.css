@@ -195,11 +195,13 @@ nav .menu-icon{
 
  
 
-.content-wrapper {
+  .content-wrapper {
     max-width: auto; /* Limita a largura do conteúdo */
     margin: 0 auto;   /* Centraliza no container */
+    margin-top: 5px;
+    margin-bottom: 5px;
     box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
-    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste */
+    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
   }
   .content-wrapper {
     min-height: 100px; /* Altura mínima */
