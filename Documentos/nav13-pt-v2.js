@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <button class="dropbtn">Hero Wars Alliance</button>
                 <div class="dropdown-content">
                  
-                <a href="https://alexandregames.com/herowars-alliance-pt.html">HWA - Início</a>  
+                <a href="https://alexandregames.com/HeroWars.html">HWA - Início</a>  
                 <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-pt-hwa.html">Guia de Melhores Times</a>  
                 <a href="https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html">Calendário & Eventos</a>
                 <a href="https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-pt-hwa.html">Caminho do Herói <br>Nov. 25 a Dez. 22</a>  
