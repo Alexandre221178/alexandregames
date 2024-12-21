@@ -207,7 +207,7 @@ nav .menu-icon{
     min-height: 100px; /* Altura mínima */
   }
   .content-wrapper p{
-    font-size: 20px; 
+    font-size: 22px; 
     margin-left: 30px;
     margin-top: 5px;
     line-height: 30px;
@@ -223,10 +223,10 @@ nav .menu-icon{
     background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
   }
   .content-wrapper2 {
-    min-height: 130px; /* Altura mínima */
+    min-height: 135px; /* Altura mínima */
   }
   .content-wrapper2 p{
-    font-size: 20px; 
+    font-size: 22px; 
     margin-left: 30px;
     margin-top: 5px;
     line-height: 30px;
