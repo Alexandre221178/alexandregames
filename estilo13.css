@@ -23,7 +23,7 @@ body{
   #menu-container {
     width: 100%;
     min-height: 80px; /* era 80 aumentei para 90 e passa a borda Altura mínima para garantir espaço reservado é 80 */
-    background-color: #f0f0f0; /* Cor de fundo para visualização enquanto o menu carrega */
+    background-color: #323131; /* Cor de fundo para visualização enquanto o menu carrega */
 }
 .menu-icon img { width: 48px; height: 48px; cursor: pointer; }
 
