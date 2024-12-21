@@ -292,8 +292,27 @@ nav .menu-icon{
     text-align: left;
   }
 
+  .content-wrapper2 {
+    max-width: auto; /* Limita a largura do conteúdo */
+    margin: 0 auto;   /* Centraliza no container */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+  }
+  .content-wrapper2 {
+    min-height: 130px; /* Altura mínima */
+  }
+  .content-wrapper2 p{
+    font-size: 20px; 
+    margin-left: 30px;
+    margin-top: 5px;
+    line-height: 30px;
+    text-align: left;
+  }
 
-  .ad-fold-container {
+
+.ad-fold-container {
     width: 100%; /* Ocupa toda a largura disponível */
     max-width: 728px; /* Tamanho máximo para anúncios no desktop */
     min-height: 293px; /* Altura mínima padrão para anúncios */
@@ -306,7 +325,6 @@ nav .menu-icon{
     overflow: hidden; /* Evita transbordo de conteúdo */
     position: relative; /* Define um contexto para elementos filhos */
 }
-
 
   
   /* Active/current link */

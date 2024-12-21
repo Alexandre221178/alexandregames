@@ -214,6 +214,39 @@ nav .menu-icon{
     text-align: left;
   }
 
+  .content-wrapper2 {
+    max-width: auto; /* Limita a largura do conteúdo */
+    margin: 0 auto;   /* Centraliza no container */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+  }
+  .content-wrapper2 {
+    min-height: 130px; /* Altura mínima */
+  }
+  .content-wrapper2 p{
+    font-size: 20px; 
+    margin-left: 30px;
+    margin-top: 5px;
+    line-height: 30px;
+    text-align: left;
+  }
+
+
+.ad-fold-container {
+    width: 100%; /* Ocupa toda a largura disponível */
+    max-width: 728px; /* Tamanho máximo para anúncios no desktop */
+    min-height: 293px; /* Altura mínima padrão para anúncios */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: flex; /* Garante alinhamento do conteúdo */
+    align-items: center; /* Alinha o anúncio verticalmente */
+    justify-content: center; /* Alinha o anúncio horizontalmente */
+    box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho */
+    background-color: #f9f9f9; /* Placeholder visual cor #f9f9f9; */
+    overflow: hidden; /* Evita transbordo de conteúdo */
+    position: relative; /* Define um contexto para elementos filhos */
+}
 
   /* Estilos para ocultar o conteúdo até ser carregado lazy load css */
  .hidden {
@@ -1381,33 +1414,7 @@ iframe{
           
      }
 
-     .content-wrapper {
-        min-height: 210px; /* Altura mínima */
-      }  
-
-      .content-wrapper p{
-        line-height: 1.5; /* Altura da linha para melhorar a legibilidade */
-        margin-left: 0px;
-        margin-right: 15px;
-        color: black;       
-        text-align: left; 
-        font-family: Arial, Helvetica, sans-serif;    
-      }
-
-      .ad-fold-container {
-        width: 100%; /* Ocupa toda a largura disponível */
-        max-width: 728px; /* Tamanho máximo para anúncios no desktop */
-        min-height: 293px; /* Altura mínima padrão para anúncios */
-        margin: 0 auto; /* Centraliza horizontalmente */
-        display: flex; /* Garante alinhamento do conteúdo */
-        align-items: center; /* Alinha o anúncio verticalmente */
-        justify-content: center; /* Alinha o anúncio horizontalmente */
-        box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho */
-        background-color: #f9f9f9; /* Placeholder visual cor #f9f9f9; */
-        overflow: hidden; /* Evita transbordo de conteúdo */
-        position: relative; /* Define um contexto para elementos filhos */
-    }
-
+    
      iframe{    
     
         margin-left: 2px;
