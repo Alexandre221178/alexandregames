@@ -17,8 +17,9 @@
     text-align: left;
   }
 
- /* Estilos aplicados apenas para telas menores que 768px (dispositivos móveis) */
- @media (max-width: 576px) {
+
+/* Estilos aplicados apenas para telas menores que 768px (dispositivos móveis) */
+@media (max-width: 576px) {
     .content-wrapper1 {
       min-height: 220px; /* Altura mínima */
       background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
@@ -27,7 +28,9 @@
     .content-wrapper1 p {
       font-size: 19px;
     }
-  
+}
+
+ 
 .ad-fold-container-wrapper {
     width: 100%; /* Ocupa toda a largura disponível */
     max-width: 728px; /* Tamanho máximo para anúncios no desktop */
@@ -42,4 +45,4 @@
     position: relative; /* Define um contexto para elementos filhos */
 }
 
-  
+    
