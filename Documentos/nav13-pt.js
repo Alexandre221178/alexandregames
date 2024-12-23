@@ -1,3 +1,4 @@
+ // atualizar somente os nav13-en-v2.js e nav13-pt-v2.js esses são com a bandeira no nav
 document.addEventListener('DOMContentLoaded', () => {
     const navHTML = `
         <div class="logo">
@@ -11,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <a href="https://alexandregames.com/herowars-alliance-pt.html">HWA - Início</a>  
                 <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-pt-hwa.html">Guia de Melhores Times</a>  
                 <a href="https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html">Calendário & Eventos</a>
-                <a href="https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-pt-hwa.html">Caminho do Herói <br>Nov. 25 a Dez. 22</a>  
+                <a href="https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-pt-hwa.html">Caminho do Herói</a>  
                 <a href="https://alexandregames.com/Hero%20Wars/Guiadeherois.html">Guia de Heróis</a>  
                 <a href="https://alexandregames.com/hero-wars-alliance/menu-review-pt-hwa.html">Análises de Skins</a>  
                 <a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-en.html">Táticas & Segredos</a>  
