@@ -631,6 +631,8 @@ section p{
     margin-top: 0px;
     margin-bottom: 0;
     font-size: 16px;
+    min-height: 50px; /* Altura mínima */
+    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
 }
 
 .suggestion {
