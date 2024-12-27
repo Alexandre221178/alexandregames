@@ -44,8 +44,7 @@
     <link rel="manifest" href="../imagens/site.webmanifest">
 
         <link rel="stylesheet" href="../estilo13.css">
-        <script src="../Documentos/lazy-load.js"></script>
-
+      
 
 
         
@@ -94,20 +93,16 @@
 </div>
 
 
-    <div class="container">
-        <div id="menu-container"></div><!-- Contêiner do menu -->
-        <!-- O menu <nav></nav> será inserido aqui pelo JavaScript -->
-        <!-- Botão de troca de idioma -->            
-        <button class="language-switch"><!-- Botão de troca de idioma colocar página em PT-BR -->
-            <a href="../top-troops/tips-and-tricks-pt-top-troops.html">
-            <img src="../imagens/flag-brazil-32x32.png" alt="Brazil flag" title="Brazil flag" style="width:24px;height:16px">
-            <strong> PT</strong></a></button>
-        </button>
-        <script src="../Documentos/nav13-en.js"></script>
-
-    
-
-       
+<div class="container">
+    <div id="menu-container"></div><!-- Contêiner do menu -->
+    <!-- Botão de troca de idioma -->
+    <!-- O menu <nav></nav> será inserido aqui pelo JavaScript -->
+    <!-- Colocar link pag. Português.html - O link fica definido aqui no HTML Botão de troca de idioma -->
+  <a href="../top-troops/tips-and-tricks-pt-top-troops.html" class="language-link" style="display:none;"></a>
+  
+    <script src="../Documentos/nav13-en-v2.js" defer></script>
+    <script src="../Documentos/lazy-load.js"></script>
+  
 
 
 <header>       
@@ -150,28 +145,33 @@
     </script>
   </div>
 
-  <!-- second half retirar melhora - pagespeed test</div> -->        
-<div id="second-half" class="hidden">
-    <!-- second half retirar </div> -->  
-    
+  
           
 
-<figure class="img-banner">
-<picture>
-    <!-- Para telas grandes (PC) de 80kb a 150kb -->
-    <source media="(min-width: 768px)" srcset="../top-troops/img-top-troops/beginners-tips/beginnersguide-top-troops-1200px.webp">
-    <!-- Para telas menores (mobile) de 30kb a 70kb -->
-    <img src="../top-troops/img-top-troops/beginners-tips/beginnersguide-top-troops-600px.webp" alt="Illustration of Top Troops beginners Map - Wallpaper" title="Top Troops beginners Map">
-</picture>
-<figcaption>Illustration of Top Troops beginners Map, a game developed by Socialpoint.</figcaption>
-</figure>
-
-    
 <section>
-    <article>
         
     <p>Welcome to our beginner's guide on Top Troops! Whether you're just starting out or looking to enhance your gameplay, this comprehensive tutorial will provide you with essential tips and strategies to help you succeed. Let's dive in and explore the top tips for mastering Top Troops.</p>
     
+</section>
+
+<!-- second half retirar melhora - pagespeed test</div> -->        
+<div id="second-half" class="hidden">
+    <!-- second half retirar </div> -->  
+    
+
+    <figure class="img-banner">
+        <picture>
+            <!-- Para telas grandes (PC) de 80kb a 150kb -->
+            <source media="(min-width: 768px)" srcset="../top-troops/img-top-troops/beginners-tips/beginnersguide-top-troops-1200px.webp">
+            <!-- Para telas menores (mobile) de 30kb a 70kb -->
+            <img src="../top-troops/img-top-troops/beginners-tips/beginnersguide-top-troops-600px.webp" alt="Illustration of Top Troops beginners Map - Wallpaper" title="Top Troops beginners Map">
+        </picture>
+        <figcaption>Illustration of Top Troops beginners Map, a game developed by Socialpoint.</figcaption>
+        </figure>
+        
+            
+     
+
 <!-- top troops header -->    
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
     crossorigin="anonymous"></script>
@@ -186,7 +186,8 @@
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 <!-- top troops header -->
-
+<section>
+    <article>
 
 
     <h2>Table of Contents</h2>
@@ -416,13 +417,13 @@
     <div>
         <figure class="img-embed">
             <a href="../top-troops/top-troops-us-tier-list.html">
-            <img src="../top-troops/img-top-troops/top-troops-400px.webp" alt="Ultimate Top Troops Tier List Guide" Title="Ultimate Top Troops Tier List Guide" >
+            <img src="../top-troops/img-top-troops/top-troops-400px.webp" alt="Ultimate Top Troops Tier List Guide" Title="Ultimate Top Troops Tier List Guide" loading="lazy">
             <strong>Ultimate Top Troops Tier List Guide</strong><br>The Top Troops Tier List is designed to help you identify top-tier champions...</a>
         </figure>
 
         <figure class="img-embed">
             <a href="../top-troops/how-to-get-gems-en-toptroops.html">
-                <img src="../top-troops/img-top-troops/how-to-get-gems/top-troops-gems-missons-400px.webp" alt="Ultimate Guide to Top Troops Tier List" title="Ultimate Guide to Top Troops Tier List">
+                <img src="../top-troops/img-top-troops/how-to-get-gems/top-troops-gems-missons-400px.webp" alt="Ultimate Guide to Top Troops Tier List" title="Ultimate Guide to Top Troops Tier List" loading="lazy">
                 <strong>How to Get Gems in Top Troops</strong><br>Discover the best strategies for earning gems in Top Troops. Learn how to...</a>
         </figure>
         
@@ -474,9 +475,9 @@
 
 
 
-<script src="../Documentos/java-en-pt-footer.js"></script>
-<script src="../Documentos/graphcomments.js"></script>
-<script src="../Documentos/share-en.js"></script>
+<script src="../Documentos/java-en-pt-footer.js" defer></script>
+<script src="../Documentos/graphcomments.js" defer></script>
+<script src="../Documentos/share-en.js" defer></script>
 <!-- Footer -->
 
 

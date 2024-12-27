@@ -39,10 +39,6 @@
     <link rel="manifest" href="../imagens/site.webmanifest">
     
     <link rel="stylesheet" href="../estilo13.css">
-    <script src="../Documentos/lazy-load.js"></script>
-
-   
-
      
     
     <!-- Google tag (gtag.js) -->
@@ -93,13 +89,13 @@
     <div id="menu-container"></div><!-- Contêiner do menu -->
     <!-- Botão de troca de idioma -->
     <!-- O menu <nav></nav> será inserido aqui pelo JavaScript -->
-    <button class="language-switch"><!-- Botão de troca de idioma - Colocar link pag. English.html-->
-      <a href="../top-troops/how-to-get-gems-en-toptroops.html">
-      <img src="../imagens/flag-us-32x32.png" alt="bandeira USA" title="bandeira" USA style="width:24px;height:16px" >
-      <strong> EN</strong></a>
-    </button>
-    <script src="../Documentos/nav13-pt.js"></script>   
+    <!-- Colocar link pag. English.html - O link fica definido aqui no HTML Botão de troca de idioma -->
+    <a href="../top-troops/how-to-get-gems-en-toptroops.html" class="language-link" style="display:none;"></a>
     
+    <script src="../Documentos/nav13-pt-v2.js" defer></script>   
+    <script src="../Documentos/lazy-load.js"></script>
+    
+ 
     
    
 <header>
@@ -119,11 +115,13 @@
   <li><i>Por: Alexandre Domingos.</i><b></b> <i id="data-modificacao"></i>.</li>   
   </ul>
 </div>
+</header>
 <div class="content-wrapper">
   <p>
       Descubra as melhores estratégias para ganhar gemas em Top Troops. Aprenda como coletar gemas através de atividades diárias, eventos, missões e muito mais. Maximize sua jogabilidade com o nosso guia abrangente.
   </p>
 </div>
+
 <!-- top troops nav top header - 5664026968 -->
 <div class="ad-fold-container">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous" type="aff1201e96dc0c28d4c39d7a-text/javascript"></script>
@@ -139,32 +137,34 @@
   </script>
 </div>
       
-</header>
 
 
 
 
+
+
+  <section>
+<h2>O que são Gemas em Top Troops</h2>
+    <p>Gemas são a moeda premium em Top Troops e desempenham um papel crucial em melhorar sua experiência de jogo. Se você deseja desbloquear tropas poderosas, acelerar seu progresso ou adquirir itens exclusivos, ter um bom estoque de gemas pode fazer toda a diferença. Neste guia abrangente, exploraremos todas as maneiras de ganhar gemas em Top Troops, garantindo que você aproveite ao máximo seu jogo.</p>
+
+  </section>
+
+  
 <!-- second half retirar melhora - pagespeed test</div> -->        
 <div id="second-half" class="hidden">
   <!-- second half retirar </div> -->  
   
-
-
-<figure class="img-banner">
-<picture>
-  <!-- Para telas grandes (PC) de 80kb a 150kb -->
-  <source media="(min-width: 768px)" srcset="../top-troops/img-top-troops/how-to-get-gems/top-troops-gems-missons-1200px.webp">
-  <!-- Para telas menores (mobile) de 30kb a 70kb -->
-  <img src="../top-troops/img-top-troops/how-to-get-gems/top-troops-gems-missons-600px.webp" alt="Ilustração das Missões Diárias de Top Troops, um jogo desenvolvido pela Social Point. - Papel de Parede" title="Missões Diárias de Top Troops">
-</picture>
-<figcaption>Ilustração das Missões Diárias de Top Troops, um jogo desenvolvido pela Social Point.</figcaption>
-</figure>
-
-
-<section>
-    <article>     
-<h2>O que são Gemas em Top Troops</h2>
-    <p>Gemas são a moeda premium em Top Troops e desempenham um papel crucial em melhorar sua experiência de jogo. Se você deseja desbloquear tropas poderosas, acelerar seu progresso ou adquirir itens exclusivos, ter um bom estoque de gemas pode fazer toda a diferença. Neste guia abrangente, exploraremos todas as maneiras de ganhar gemas em Top Troops, garantindo que você aproveite ao máximo seu jogo.</p>
+    
+    <figure class="img-banner">
+      <picture>
+        <!-- Para telas grandes (PC) de 80kb a 150kb -->
+        <source media="(min-width: 768px)" srcset="../top-troops/img-top-troops/how-to-get-gems/top-troops-gems-missons-1200px.webp">
+        <!-- Para telas menores (mobile) de 30kb a 70kb -->
+        <img src="../top-troops/img-top-troops/how-to-get-gems/top-troops-gems-missons-600px.webp" alt="Ilustração das Missões Diárias de Top Troops, um jogo desenvolvido pela Social Point. - Papel de Parede" title="Missões Diárias de Top Troops" loading="lazy">
+      </picture>
+      <figcaption>Ilustração das Missões Diárias de Top Troops, um jogo desenvolvido pela Social Point.</figcaption>
+      </figure>
+      
 
     <!-- top troops header -->    
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
@@ -181,6 +181,9 @@ data-full-width-responsive="true"></ins>
 </script>
 <!-- top troops header -->
  
+
+<section>
+  <article>   
     <h2>Atividades Diárias</h2>
 
     <h3>1. Colete o Pacote de Invocação Diariamente</h3>
@@ -306,13 +309,13 @@ data-full-width-responsive="true"></ins>
     
       <figure class="img-embed">
         <a href="../top-troops/tips-and-tricks-pt-top-troops.html">
-            <img src="../top-troops/img-top-troops/beginners-tips/beginnersguide-top-troops-400px.webp" alt="Guia Definitivo da Tier List de Top Troops" title="Guia Definitivo da Tier List de Top Troops">
+            <img src="../top-troops/img-top-troops/beginners-tips/beginnersguide-top-troops-400px.webp" alt="Guia Definitivo da Tier List de Top Troops" title="Guia Definitivo da Tier List de Top Troops" loading="lazy">
             <strong>Top Troops: Dicas e Truques</strong><br>Descubra dicas e estratégias essenciais para dominar as tropas em Top Troops...</a>
     </figure>
       
     <figure class="img-embed">
       <a href="../top-troops/top-troops-pt-tier-list.html">
-          <img src="../top-troops/img-top-troops/top-troops-400px.webp" alt="Guia Definitivo da Tier List de Top Troops" title="Guia Definitivo da Tier List de Top Troops">
+          <img src="../top-troops/img-top-troops/top-troops-400px.webp" alt="Guia Definitivo da Tier List de Top Troops" title="Guia Definitivo da Tier List de Top Troops" loading="lazy">
           <strong>Guia Definitivo da Tier List de Top Troops</strong><br>A Tier List de Top Troops foi criada para ajudar a identificar os campeões de alto...</a>
   </figure>
   
@@ -367,9 +370,9 @@ data-full-width-responsive="true"></ins>
        
 
 
-        <script src="../Documentos/java-en-pt-footer.js"></script>
-        <script src="../Documentos/graphcomments.js"></script>
-        <script src="../Documentos/share-pt.js"></script>
+        <script src="../Documentos/java-en-pt-footer.js" defer></script>
+        <script src="../Documentos/graphcomments.js" defer></script>
+        <script src="../Documentos/share-pt.js" defer></script>
 
 
 

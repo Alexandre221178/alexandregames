@@ -44,10 +44,6 @@
     <link rel="manifest" href="../imagens/site.webmanifest">
 
     
-    <script src="../Documentos/lazy-load.js"></script>
-
-    
-    
     
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-P90XK71HW9"></script>
@@ -97,8 +93,8 @@
           <!-- Colocar link pag. Português.html - O link fica definido aqui no HTML Botão de troca de idioma -->
           <a href="../top-troops/top-troops-pt-tier-list.html" class="language-link" style="display:none;"></a>       
                                
-    <script src="../Documentos/nav13-en-v2.js"></script>
-
+    <script src="../Documentos/nav13-en-v2.js" defer></script>
+    <script src="../Documentos/lazy-load.js"></script>
 
 <header>   
     <div class="text-title">   
@@ -152,6 +148,10 @@
         </p>
       </div>
     
+ <!-- second half retirar melhora - pagespeed test</div> -->        
+ <div id="second-half" class="hidden">
+  <!-- second half retirar </div> -->  
+
       <div class="content-wrapper">
         <p>
           The Top Troops Class Tier List is designed to help you identify the most effective heroes, from the top-tier champions who dominate the battlefield to the unsung heroes who provide crucial support. Whether you're focusing on PvP or PvE scenarios, understanding the strengths and weaknesses of each tier can enhance your gameplay and strategic planning. Dive into our comprehensive tier list to discover the best heroes for your team and learn how to maximize their potential in your quests for glory.
@@ -162,16 +162,14 @@
         
 
 
-      <!-- second half retirar melhora - pagespeed test</div> -->        
-<div id="second-half" class="hidden">
-  <!-- second half retirar </div> -->  
+     
 
 <figure class="img-banner">
   <picture>
       <!-- Para telas grandes (PC) de 80kb a 150kb -->
       <source media="(min-width: 768px)" srcset="../top-troops/img-top-troops/top-troops-1200px.webp">
       <!-- Para telas menores (mobile) de 30kb a 70kb -->
-      <img src="../top-troops/img-top-troops/top-troops-600px.webp" alt="Illustration by Top Troops, photo publicity Take-Two Interactive Software, Inc. - Wallpaper" title="Illustration by Top Troops, photo publicity Take-Two Interactive Software, Inc.">
+      <img src="../top-troops/img-top-troops/top-troops-600px.webp" alt="Illustration by Top Troops, photo publicity Take-Two Interactive Software, Inc. - Wallpaper" title="Illustration by Top Troops, photo publicity Take-Two Interactive Software, Inc." loading="lazy">
   </picture>
   <figcaption>Illustration by Top Troops, photo publicity Socialpoint.</figcaption>
 </figure>
@@ -879,19 +877,14 @@
 
       <figure class="img-embed">
         <a href="../top-troops/tips-and-tricks-en-top-troops.html">
-            <img src="../top-troops/img-top-troops/beginners-tips/beginnersguide-top-troops-400px.webp" alt="Ultimate Guide to Top Troops Tier List" title="Ultimate Guide to Top Troops Tier List">
+            <img src="../top-troops/img-top-troops/beginners-tips/beginnersguide-top-troops-400px.webp" alt="Ultimate Guide to Top Troops Tier List" title="Ultimate Guide to Top Troops Tier List" loading="lazy">
             <strong>Top Troops: Tips and Tricks</strong><br>Discover essential tips and strategies for mastering troops in Top Troops...</a>
     </figure>
 
-    <figure class="img-embed">
-      <a href="../top-troops/how-to-get-gems-en-toptroops.html">
-          <img src="../top-troops/img-top-troops/how-to-get-gems/top-troops-gems-missons-400px.webp" alt="Ultimate Guide to Top Troops Tier List" title="Ultimate Guide to Top Troops Tier List">
-          <strong>How to Get Gems in Top Troops</strong><br>Discover the best strategies for earning gems in Top Troops. Learn how to...</a>
-  </figure>
-
+    
   <figure class="img-embed">
     <a href="../top-troops/maximizing-epic-heroes-en-toptroops.html">
-    <img src="../top-troops/img-top-troops/maximizing-epic-heroes/maximizing-epic-heroes-toptroops-400px.webp" alt="Ultimate Top Troops Tier List Guide" Title="Ultimate Top Troops Tier List Guide" >
+    <img src="../top-troops/img-top-troops/maximizing-epic-heroes/maximizing-epic-heroes-toptroops-400px.webp" alt="Ultimate Top Troops Tier List Guide" Title="Ultimate Top Troops Tier List Guide" loading="lazy">
     <strong>Master Epic Heroes: F2P Guide</strong><br>Learn how to maximize your epic heroes, build powerful teams, and dominate the...</a>
 </figure>
           
@@ -933,9 +926,9 @@
 
 
 
-  <script src="../Documentos/java-insert-footer-en.js"></script>
-  <script src="../Documentos/graphcomments.js"></script>
-  <script src="../Documentos/share-en-reddit.js"></script>
+  <script src="../Documentos/java-insert-footer-en.js" defer></script>
+  <script src="../Documentos/graphcomments.js" defer></script>
+  <script src="../Documentos/share-en-reddit.js" defer></script>
 
 
 
