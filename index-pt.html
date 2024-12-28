@@ -153,10 +153,18 @@ NA PAGINA DE PORTUGUES
                
     
        
-        <div class="img-banner-index">
-            <img src="./imagens/banner-alexandre-games-small.webp" height="auto" alt="Banner Alexandre Games Blog" title="Banner Alexandre Games Blog" >
-        </div> 
-
+    <div class="img-banner-index">
+        <picture>
+            <!-- Imagem para telas menores (mobile) -->
+            <source srcset="./imagens/banner-alexandre-games-small-640px.webp" media="(max-width: 640px)" type="image/webp">
+            <!-- Imagem padrão para telas maiores (desktop) -->
+            <source srcset="./imagens/banner-alexandre-games-small.webp" type="image/webp">
+            <!-- Fallback para navegadores sem suporte a WebP -->
+            <img src="./imagens/alexandregames318x318.png" 
+                 alt="Alexandre Games Blog Banner" 
+                 title="Alexandre Games Blog Banner">
+        </picture>
+    </div>
         
 
         <form action="https://www.google.com/search" method="GET" target="_blank">
