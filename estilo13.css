@@ -264,7 +264,7 @@ nav .menu-icon{
   .ad-fold-container {
     width: 100%; /* Ocupa toda a largura disponível */
     /* Retirado 28-12-24 - max-width: 728px; - Tamanho máximo para anúncios no desktop */
-    min-height: 350px; /* Altura mínima padrão para anúncios */
+    min-height: 330px; /* Altura mínima padrão para anúncios */
     margin: 0 auto; /* Centraliza horizontalmente */
     display: flex; /* Garante alinhamento do conteúdo */
     align-items: center; /* Alinha o anúncio verticalmente */
@@ -273,6 +273,8 @@ nav .menu-icon{
     background-color: #f9f9f9; /* Placeholder visual cor #f9f9f9; */
     overflow: hidden; /* Evita transbordo de conteúdo */
     position: relative; /* Define um contexto para elementos filhos */
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
   
   
