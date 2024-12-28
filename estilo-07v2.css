@@ -314,7 +314,7 @@ nav .menu-icon{
 
 .ad-fold-container {
     width: 100%; /* Ocupa toda a largura disponível */
-    max-width: 728px; /* Tamanho máximo para anúncios no desktop */
+    
     min-height: 300px; /* Altura mínima padrão para anúncios */
     margin: 0 auto; /* Centraliza horizontalmente */
     display: flex; /* Garante alinhamento do conteúdo */
@@ -1385,6 +1385,8 @@ iframe{
 .share-buttons {
     display: flex;
     gap: 10px;
+    min-height: 40px; /* Altura mínima */
+    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
 }
 
 .share-buttons a {
@@ -1506,6 +1508,14 @@ iframe{
         font-size: 17px; /* tamanho letras nav mobile*/
           
      }
+
+     
+     .share-buttons {
+        display: flex;
+        gap: 10px;
+        min-height: 55px; /* Altura mínima */
+        background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+    }
 
      /* Estilos aplicados apenas para telas menores que 768px (dispositivos móveis) */
 @media (max-width: 576px) {

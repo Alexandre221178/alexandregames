@@ -216,14 +216,14 @@ nav .menu-icon{
 
   .ad-fold-container {
     width: 100%; /* Ocupa toda a largura disponível */
-    max-width: 728px; /* Tamanho máximo para anúncios no desktop */
+     /* Retirado 28-12-24 - max-width: 728px; - Tamanho máximo para anúncios no desktop */
     min-height: 300px; /* Altura mínima padrão para anúncios */
     margin: 0 auto; /* Centraliza horizontalmente */
     display: flex; /* Garante alinhamento do conteúdo */
     align-items: center; /* Alinha o anúncio verticalmente */
     justify-content: center; /* Alinha o anúncio horizontalmente */
     box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho */
-    background-color: #f9f9f9; /* Placeholder visual cor #f9f9f9; */
+    background-color: #f90909; /* Placeholder visual cor #f9f9f9; */
     overflow: hidden; /* Evita transbordo de conteúdo */
     position: relative; /* Define um contexto para elementos filhos */
 }
@@ -1271,6 +1271,8 @@ iframe{
 .share-buttons {
     display: flex;
     gap: 10px;
+    min-height: 40px; /* Altura mínima */
+    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
 }
 
 .share-buttons a {
@@ -1393,7 +1395,13 @@ iframe{
           
      }
 
-       
+    
+     .share-buttons {
+        display: flex;
+        gap: 10px;
+        min-height: 55px; /* Altura mínima */
+        background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+    }
 
 
      iframe{    
