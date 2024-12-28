@@ -193,6 +193,8 @@ nav .menu-icon{
     color: white;
   }
 
+  
+
  
 
    /* Estilos aplicados apenas para telas menores que 768px (dispositivos móveis) */
@@ -216,20 +218,7 @@ nav .menu-icon{
     }
   }
 
-
-.ad-fold-container {
-    width: 100%; /* Ocupa toda a largura disponível */
-    
-    min-height: 300px; /* Altura mínima padrão para anúncios */
-    margin: 0 auto; /* Centraliza horizontalmente */
-    display: flex; /* Garante alinhamento do conteúdo */
-    align-items: center; /* Alinha o anúncio verticalmente */
-    justify-content: center; /* Alinha o anúncio horizontalmente */
-    box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho */
-    background-color: #f9f9f9; /* Placeholder visual cor #f9f9f9; */
-    overflow: hidden; /* Evita transbordo de conteúdo */
-    position: relative; /* Define um contexto para elementos filhos */
-}
+  
 
   /* Estilos para ocultar o conteúdo até ser carregado lazy load css */
  .hidden {
@@ -271,6 +260,20 @@ nav .menu-icon{
     
     
   }
+
+  .ad-fold-container {
+    width: 100%; /* Ocupa toda a largura disponível */
+    /* Retirado 28-12-24 - max-width: 728px; - Tamanho máximo para anúncios no desktop */
+    min-height: 350px; /* Altura mínima padrão para anúncios */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: flex; /* Garante alinhamento do conteúdo */
+    align-items: center; /* Alinha o anúncio verticalmente */
+    justify-content: center; /* Alinha o anúncio horizontalmente */
+    box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho */
+    background-color: #f9f9f9; /* Placeholder visual cor #f9f9f9; */
+    overflow: hidden; /* Evita transbordo de conteúdo */
+    position: relative; /* Define um contexto para elementos filhos */
+}
   
   
 
