@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // 3. Adicionar mensagem de direitos autorais
     const footerMessage = document.getElementById("message");
-    const messageText = document.createTextNode("©2023-2024 Alexandre Games Blog");
+    const messageText = document.createTextNode("©2023-2025 Alexandre Games Blog");
     footerMessage.appendChild(messageText);
 });
 
