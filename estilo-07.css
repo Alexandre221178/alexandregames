@@ -275,7 +275,7 @@ nav .menu-icon{
 
   .content-wrapper {
     max-width: auto; /* Limita a largura do conteúdo */
-    margin: 0 auto;   /* Centraliza no container */
+    margin-left: 0px;
     margin-top: 5px;
     margin-bottom: 5px;
     box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
@@ -285,8 +285,8 @@ nav .menu-icon{
     min-height: 100px; /* Altura mínima */
   }
   .content-wrapper p{
-    font-size: 22px; 
-    margin-left: 30px;
+    font-size: 20px; 
+    margin-left: 0px;
     margin-top: 5px;
     line-height: 30px;
     text-align: left;
@@ -294,7 +294,7 @@ nav .menu-icon{
 
   .content-wrapper2 {
     max-width: auto; /* Limita a largura do conteúdo */
-    margin: 0 auto;   /* Centraliza no container */
+    margin-left: 0px;
     margin-top: 5px;
     margin-bottom: 5px;
     box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
@@ -304,7 +304,7 @@ nav .menu-icon{
     min-height: 135px; /* Altura mínima */
   }
   .content-wrapper2 p{
-    font-size: 22px; 
+    font-size: 20px; 
     margin-left: 30px;
     margin-top: 5px;
     line-height: 30px;
@@ -1522,12 +1522,13 @@ iframe{
      /* Estilos aplicados apenas para telas menores que 768px (dispositivos móveis) */
 @media (max-width: 576px) {
     .content-wrapper {
-      min-height: 220px; /* Altura mínima */
+      min-height: 210px; /* Altura mínima */
       background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
     }
   
     .content-wrapper p {
-      font-size: 19px;
+        margin-left: 5px;
+        font-size: 18px;
     }
   
     .content-wrapper2 {
@@ -1536,7 +1537,8 @@ iframe{
     }
   
     .content-wrapper2 p {
-      font-size: 19px;
+        margin-left: 5px;
+        font-size: 18px;
     }
   }
   

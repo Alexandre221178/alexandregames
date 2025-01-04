@@ -363,7 +363,7 @@ li{
 
 .content-wrapper {
     max-width: auto; /* Limita a largura do conteúdo */
-    margin: 0 auto;   /* Centraliza no container */
+    margin-left: 0px;
     margin-top: 5px;
     margin-bottom: 5px;
     box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
@@ -373,8 +373,8 @@ li{
     min-height: 100px; /* Altura mínima */
   }
   .content-wrapper p{
-    font-size: 22px; 
-    margin-left: 30px;
+    font-size: 20px; 
+   
     margin-top: 5px;
     line-height: 30px;
     text-align: left;
@@ -382,7 +382,7 @@ li{
 
   .content-wrapper2 {
     max-width: auto; /* Limita a largura do conteúdo */
-    margin: 0 auto;   /* Centraliza no container */
+    margin-left: 0px;
     margin-top: 5px;
     margin-bottom: 5px;
     box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
@@ -392,8 +392,8 @@ li{
     min-height: 135px; /* Altura mínima */
   }
   .content-wrapper2 p{
-    font-size: 22px; 
-    margin-left: 30px;
+    font-size: 20px; 
+    
     margin-top: 5px;
     line-height: 30px;
     text-align: left;
@@ -415,27 +415,6 @@ li{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-h2 {
-    margin-left: 27px;
-    margin-top: 25px;
-    
-    color: #31017d;
-    font-size: 29px;
-    
-    padding: 0,2%;
-    text-align: left;
-}
- 
-/* form para pesquisa no site */
-form {
-    text-align: right;
-}
-/* Estilos para ocultar o conteúdo até ser carregado lazy load css */
-.hidden {
-    display: none;
-}
-
 
 /** CSS cokies 2024 **/
 .cookie-banner {
@@ -494,7 +473,31 @@ form {
 } 
 
 
-/* Mobile */
+
+h2 {
+    margin-left: 27px;
+    margin-top: 25px;
+    
+    color: #31017d;
+    font-size: 29px;
+    
+    padding: 0,2%;
+    text-align: left;
+}
+ 
+/* form para pesquisa no site */
+form {
+    text-align: right;
+}
+/* Estilos para ocultar o conteúdo até ser carregado lazy load css */
+.hidden {
+    display: none;
+}
+
+
+
+
+/* tela Mobile */
 @media (max-width:840px) {
     nav .menu-icon{
         display: block;
@@ -626,8 +629,9 @@ section p{
       background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
     }
   
-    .content-wrapper p {
-      font-size: 19px;
+    .content-wrapper p{
+        margin-left: 5px;
+      font-size: 18px;
     }
   
     .content-wrapper2 {
@@ -635,7 +639,8 @@ section p{
       background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
     }
   
-    .content-wrapper2 p {
-      font-size: 19px;
+    .content-wrapper2 p{
+        margin-left: 5px;
+        font-size: 18px;
     }
   }
