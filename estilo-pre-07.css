@@ -362,60 +362,6 @@ li{
     height: 20px;
 }
 
-.content-wrapper {
-    max-width: auto; /* Limita a largura do conteúdo */
-    margin-left: 0px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
-    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
-  }
-  .content-wrapper {
-    min-height: 100px; /* Altura mínima */
-  }
-  .content-wrapper p{
-    font-size: 20px; 
-   
-    margin-top: 5px;
-    line-height: 30px;
-    text-align: left;
-  }
-
-  .content-wrapper2 {
-    max-width: auto; /* Limita a largura do conteúdo */
-    margin-left: 0px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
-    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
-  }
-  .content-wrapper2 {
-    min-height: 135px; /* Altura mínima */
-  }
-  .content-wrapper2 p{
-    font-size: 20px; 
-    
-    margin-top: 5px;
-    line-height: 30px;
-    text-align: left;
-  }
-
-
-  .ad-fold-container {
-    width: 100%; /* Ocupa toda a largura disponível */
-    /* Retirado 28-12-24 - max-width: 728px; - Tamanho máximo para anúncios no desktop */
-    min-height: 330px; /* Altura mínima padrão para anúncios */
-    margin: 0 auto; /* Centraliza horizontalmente */
-    display: flex; /* Garante alinhamento do conteúdo */
-    align-items: center; /* Alinha o anúncio verticalmente */
-    justify-content: center; /* Alinha o anúncio horizontalmente */
-    box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho */
-    background-color: #f9f9f9; /* Placeholder visual cor #f9f9f9; */
-    overflow: hidden; /* Evita transbordo de conteúdo */
-    position: relative; /* Define um contexto para elementos filhos */
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
 /** CSS cokies 2024 **/
 .cookie-banner {
@@ -472,6 +418,63 @@ li{
         border-left: none;
     }
 } 
+
+.content-wrapper {
+    max-width: auto; /* Limita a largura do conteúdo */
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+  }
+  .content-wrapper {
+    min-height: 100px; /* Altura mínima */
+  }
+  .content-wrapper p{
+    font-size: 20px; 
+   
+    margin-top: 5px;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .content-wrapper2 {
+    max-width: auto; /* Limita a largura do conteúdo */
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+  }
+  .content-wrapper2 {
+    min-height: 135px; /* Altura mínima */
+  }
+  .content-wrapper2 p{
+    font-size: 20px; 
+    
+    margin-top: 5px;
+    line-height: 30px;
+    text-align: left;
+  }
+
+
+  .ad-fold-container {
+    width: 100%; /* Ocupa toda a largura disponível */
+    /* Retirado 28-12-24 - max-width: 728px; - Tamanho máximo para anúncios no desktop */
+    min-height: 330px; /* Altura mínima padrão para anúncios */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: flex; /* Garante alinhamento do conteúdo */
+    align-items: center; /* Alinha o anúncio verticalmente */
+    justify-content: center; /* Alinha o anúncio horizontalmente */
+    box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho */
+    background-color: #f9f9f9; /* Placeholder visual cor #f9f9f9; */
+    overflow: hidden; /* Evita transbordo de conteúdo */
+    position: relative; /* Define um contexto para elementos filhos */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 
 
 
