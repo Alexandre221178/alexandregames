@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+body{
+    margin-left: 13px;
+    background-color: white;
+    min-height: 100vh;
+    width: 100%;
+    
+}
+
+
+
+
+/* Container principal para organizar o layout em desktop */
+.container-principal {
+    max-width: 1280px;
+    margin: auto;
+    
+    display: flex;
+    gap: 8px; /* Espaço entre os elementos */
+    flex-direction: row; /* Itens lado a lado */
+}
+
+/* Estilização para o container fixo */
+.container-fixo {
+    width: 320px; /* Define a largura fixa */
+    height: 100vh; /* Altura total da tela */
+    position: sticky; /* Fixa ao rolar a página */
+    top: 0; /* Posição fixa no topo */
+    background-color: #f1f1f1; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    margin-right: 30px; /* Margem para evitar cliques acidentais */
+    box-sizing: border-box;
+    order: 2; /* Move para o lado direito */
+}
+
+/* Estilização para o container rolável */
+.container-rolavel {
+    flex: 1; /* O conteúdo principal ocupa o restante do espaço */
+    height: 100vh; /* Altura total da tela */
+    overflow-y: auto; /* Rolagem vertical */
+    padding: 0 2%; /* Ajusta as margens internas */
+    box-sizing: border-box;
+    order: 1; /* Garante que fique no início (esquerda) */
+}
+
+/* Estilos padrão para o container de anúncio */
+.ad-container {
+    width: 300px;
+    height: 250px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}
+
+/* Texto padrão quando não houver anúncio */
+.ad-container:empty::before {
+    content: "Anúncio - 300x250";
+}
+
+
+/* Estilos para o menu fixo */
+.menu-fixo {
+    margin-top: 2px;
+    width: 287px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    position: sticky;
+    top: 20px;
+    overflow-y: auto;
+    max-height: calc(100vh - 40px);
+}
+
+/* Links do menu */
+.menu-fixo a {
+    display: block;
+    color: #201e1e;
+    text-decoration: none;
+    padding: 5px 0;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.menu-fixo a:hover {
+    background-color: #d2bfbf;
+    border-radius: 4px;
+}
+
+/* Conteúdo principal */
+.conteudo-principal {
+    flex: 1;
+}
+  /* Estilos para reservar o espaço do menu */
+  #menu-container {
+    width: 100%;
+    min-height: 80px; /* Altura mínima para garantir espaço reservado */
+    background-color: #323131; /* Cor de fundo para visualização enquanto o menu carrega */
+}
+.menu-icon img { width: 48px; height: 48px; cursor: pointer; }
+
+nav{
+    display:flex;
+     /* cor do fundo do no nav #e3f0ff */
+    width: 100%;
+    height: 100px;
+}
+nav .menu-icon{
+    cursor: pointer;
+    display: none;
+}
+
+.container a:hover{
+    color: #f9464f;
+    }
+    nav{
+        display: flex;
+         /* cor do fundo do no nav #e3f0ff */
+        background-color:  black;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 80px;
+    }
+    nav .menu-icon{
+        cursor: pointer;
+        display: none;
+    }
+    nav .logo a{
+        font-size: 12px;
+        font-weight: bold;
+        /* cor da letra do logo */
+        color: #faf9f9;
+        text-decoration: none; 
+    }
+    
+    .language-switch strong {
+        text-transform: uppercase; /* Garante que o texto seja maiúsculo */
+        font-size: 16px; /* Ajuste o tamanho da fonte, se necessário */
+        font-weight: bold; /* Mantém o estilo negrito */
+        display: inline-block; /* Alinha com a bandeira */
+        vertical-align: middle; /* Centraliza verticalmente com a bandeira */
+    }
+
+    .container a:hover{
+        color: #f9464f;
+        }
+    nav ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+    nav ul li{
+        padding: 0 15px;  
+    }
+    nav ul li a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+        /* cor dos textos nav */
+        
+        
+    }
+
+    nav ul button a{
+        align-items: left;
+        /* cor do fundo do texto no button nav */
+        background-color: none;
+        /* cor das letras no button nav */
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    
+    nav ul button{
+        /* cor do fundo do button nav o font size aqui aumenta e diminui o tamanho do button */
+       background-color: rgb(0, 0, 0);
+        border: none;
+       text-decoration: none;
+       color: white;
+       font-size: 4px; 
+        /* comandos para letras button nav padding: 10px 20px;*/
+        padding: 10px 15px;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+
+
+   
+
+
+/* teste dropdown menu botao mais */
+.dropbtn {
+    border-radius: 2px;
+    /* cor buttom MAIS  */
+    font-weight: bold;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    border-radius: 15px;
+    
+    position: relative;
+    display: inline-block;
+    border: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 170px;
+    
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content a:hover {background-color: black}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+.logo img{
+    width: 50%;
+    height: auto;
+}
+
+/* text title do título novo */
+.text-title h1{
+    color: #5105cb;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.text-title h1 b{
+    color: #e20c17; 
+}
+.text-title h1 b::before {
+    content: "\a";
+    font-size: 0;
+    display: block;
+    line-height: 0;
+}
+
+.share-buttons {
+    display: flex;
+   
+    gap: 10px;
+    min-height: 40px; /* Altura mínima */
+    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+}
+
+.share-buttons a {
+    font-size: 13px;
+    color: white; /* Cor inicial */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Mantém a borda preta ao passar o mouse */
+}
+
+.share-buttons a:hover {
+    color: rgb(247, 2, 210); /* Cor quando o mouse está sobre a legenda */
+}
+ /* botoes compartilhar */
+.share-button {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.whatsapp { background-color: #1fc55c; }
+.facebook { background-color: #3b5998; }
+.link { background-color: #000000; cursor: pointer; }
+.reddit { background-color: #FF4500; cursor: pointer; }
+
+
+.autor ul{
+    list-style: none;
+   
+   
+}
+.autor ul li{
+    margin-left: 25px;
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    min-height: 50px; /* Altura mínima */
+    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+}
+
+
+
+li{
+    padding: 0.7%;
+    /* margim das letras li gpt */
+    margin-left: 70px;
+    text-align: left;
+    /* distancia das letras li gpt */
+    line-height: 25px;
+    font-weight: normal;
+    color: Black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;   
+
+}
+
+  /* numeros 1º 2º 3º */
+.check-list ol{
+    text-align: left;
+    line-height: 30px;
+    font-weight: normal;
+    margin-left: 70px;
+    margin-right: 30px;
+    color: Black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.check-list a{
+    color: red;
+}
+.check-list img{
+    width: 25px;
+    height: 20px;
+}
+
+.content-wrapper {
+    max-width: auto; /* Limita a largura do conteúdo */
+    margin: 0 auto;   /* Centraliza no container */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+  }
+  .content-wrapper {
+    min-height: 100px; /* Altura mínima */
+  }
+  .content-wrapper p{
+    font-size: 22px; 
+    margin-left: 30px;
+    margin-top: 5px;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .content-wrapper2 {
+    max-width: auto; /* Limita a largura do conteúdo */
+    margin: 0 auto;   /* Centraliza no container */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+  }
+  .content-wrapper2 {
+    min-height: 135px; /* Altura mínima */
+  }
+  .content-wrapper2 p{
+    font-size: 22px; 
+    margin-left: 30px;
+    margin-top: 5px;
+    line-height: 30px;
+    text-align: left;
+  }
+
+
+  .ad-fold-container {
+    width: 100%; /* Ocupa toda a largura disponível */
+    /* Retirado 28-12-24 - max-width: 728px; - Tamanho máximo para anúncios no desktop */
+    min-height: 330px; /* Altura mínima padrão para anúncios */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: flex; /* Garante alinhamento do conteúdo */
+    align-items: center; /* Alinha o anúncio verticalmente */
+    justify-content: center; /* Alinha o anúncio horizontalmente */
+    box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho */
+    background-color: #f9f9f9; /* Placeholder visual cor #f9f9f9; */
+    overflow: hidden; /* Evita transbordo de conteúdo */
+    position: relative; /* Define um contexto para elementos filhos */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-left: 27px;
+    margin-top: 25px;
+    
+    color: #31017d;
+    font-size: 29px;
+    
+    padding: 0,2%;
+    text-align: left;
+}
+ 
+/* form para pesquisa no site */
+form {
+    text-align: right;
+}
+/* Estilos para ocultar o conteúdo até ser carregado lazy load css */
+.hidden {
+    display: none;
+}
+
+
+/* Mobile */
+@media (max-width:840px) {
+    nav .menu-icon{
+        display: block;
+    }
+    nav .logo{
+        display: block; 
+    }
+    nav ul{
+        position: fixed;
+        width: 83%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        transform: translateX(-100%);
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        justify-content: left;
+        transition: 0.3s ease-in;
+        background-color: black;
+    }
+    nav {
+        position: relative;
+        z-index: 1000; /* Ou qualquer valor maior que o z-index do anúncio */
+    }
+    
+    
+    
+    nav ul.active{
+        transform: translateX(0);
+    }
+    nav ul li{
+        padding: 2px;
+        margin: left;
+    }
+    nav ul li a{
+        text-align: left;
+        font-size: 16px;
+        margin-left: 5px;
+         color: white;
+        
+        
+    }
+    nav ul button{
+      text-align: justify;
+        font-size: 16px; 
+        
+        margin-top: 18px; /* Mantém o margin-top */
+        line-height: 0.1 /* Reduz o espaço entre as linhas */
+         
+    }
+    
+    nav ul button a{
+        margin: 5px;
+        font-size: 17px; /* tamanho letras nav mobile*/
+          
+     }
+     
+  /* Esconde o container fixo no mobile */
+  .container-fixo {
+    display: none;
+}
+
+.text-title h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 5px;
+    
+}
+
+.autor ul li{
+      
+    margin: 5px; 
+    font-size: 15px;
+}
+.autor li b::before {
+    content: "\a";
+    font-size: 0;
+    display: block;
+    line-height: 0;
+}
+
+ul li{
+    margin: 30px;
+
+}
+
+.share-button {
+    margin-top: 1px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+    font-size: 14px;
+}
+
+.share-button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.ad-fold-container {
+    min-height: 280px; /* Altura mínima padrão para anúncios */
+    background-color: #f9f9f9; /* Placeholder visual cor #f9f9f9; */
+}
+
+h2 {
+    margin-left: 10px;
+    font-size: 22px;
+    color:  #31017d;
+    padding: 0,2%;
+    text-align: left;
+}
+
+section p{
+    font-size: 19px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: black;
+    padding: 0,2%;
+    text-align: left;
+}
+
+}
+
+/* Estilos aplicados apenas para telas menores que 768px (dispositivos móveis) */
+@media (max-width: 576px) {
+    .content-wrapper {
+      min-height: 210px; /* Altura mínima */
+      background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+    }
+  
+    .content-wrapper p {
+      font-size: 19px;
+    }
+  
+    .content-wrapper2 {
+      min-height: 350px; /* Altura mínima */
+      background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+    }
+  
+    .content-wrapper2 p {
+      font-size: 19px;
+    }
+  }
