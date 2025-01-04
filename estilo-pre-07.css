@@ -673,26 +673,4 @@ section p{
         border-left: none;
     }
 } 
-/* Classe para esconder conteúdo em telas maiores que 700px */
-.mobile-only {
-    display: none;
-}
 
-/* Classe para esconder conteúdo em telas maiores que 700px */
-.desktop-only {
-    display: none;
-}
-
-/* Exibir conteúdo mobile em telas até 700px */
-@media only screen and (max-width: 700px) {
-    .mobile-only {
-        display: block;
-    }
-}
-
-/* Exibir conteúdo desktop em telas maiores que 701px */
-@media only screen and (min-width: 701px) {
-    .desktop-only {
-        display: block;
-    }
-}
