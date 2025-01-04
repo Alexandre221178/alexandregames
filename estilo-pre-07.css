@@ -412,6 +412,12 @@ li{
 .privacy-link:hover {
     text-decoration: underline;
 }
+@media screen and (max-width: 600px) {
+    .box-cookies {
+        flex-direction: column;
+        border-left: none;
+    }
+} 
 
 .content-wrapper {
     max-width: auto; /* Limita a largura do conteúdo */
@@ -667,10 +673,5 @@ section p{
 
 
 
-  @media screen and (max-width: 600px) {
-    .box-cookies {
-        flex-direction: column;
-        border-left: none;
-    }
-} 
+ 
 
