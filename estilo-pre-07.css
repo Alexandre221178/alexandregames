@@ -120,6 +120,10 @@ nav .menu-icon{
     cursor: pointer;
     display: none;
 }
+nav .logo img{
+    width: 50%;
+    height: auto;
+}
 
 .container a:hover{
     color: #f9464f;
@@ -246,10 +250,7 @@ nav .menu-icon{
     display: block;
   }
   
-.logo img{
-    width: 50%;
-    height: auto;
-}
+  
 
 /* text title do título novo */
 .text-title h1{
@@ -502,9 +503,16 @@ form {
     nav .menu-icon{
         display: block;
     }
+    
     nav .logo{
         display: block; 
     }
+
+    nav .logo img{
+        width: 40%;
+        height: auto;
+    }
+    
     nav ul{
         position: fixed;
         width: 83%;
@@ -555,6 +563,11 @@ form {
         font-size: 17px; /* tamanho letras nav mobile*/
           
      }
+
+     .logo img{
+        width: 110%;
+        height: auto;
+    }
      
   /* Esconde o container fixo no mobile */
   .container-fixo {
