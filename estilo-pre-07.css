@@ -617,7 +617,7 @@ ul li{
 }
 
 .ad-fold-container {
-    min-height: 280px; /* Altura mínima padrão para anúncios */
+    min-height: 250px; /* Altura mínima padrão para anúncios */
     background-color: #f9f9f9; /* Placeholder visual cor #f9f9f9; */
 }
 
