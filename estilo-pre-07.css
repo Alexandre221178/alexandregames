@@ -574,6 +574,11 @@ form {
     display: none;
 }
 
+body{
+    margin-left: 1px;
+    
+}    
+
 .text-title h1{
     font-size: 20px;
     text-transform: uppercase;
