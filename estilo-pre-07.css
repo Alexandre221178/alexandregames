@@ -653,7 +653,7 @@ section p{
     }
   
     .content-wrapper2 {
-      min-height: 350px; /* Altura mínima */
+      min-height: 340px; /* Altura mínima */
       background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
     }
   
