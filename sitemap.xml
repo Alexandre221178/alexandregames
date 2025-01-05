@@ -42,12 +42,12 @@
 
 <url>
   <loc>https://alexandregames.com/MobileLegends-English.html</loc>
-  <lastmod>2024-12-08T09:00-03:00</lastmod>
+  <lastmod>2025-01-05T13:45-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/MobileLegends.html</loc>
-  <lastmod>2024-12-08T09:00-03:00</lastmod>
+  <lastmod>2025-01-05T13:45-03:00</lastmod>
   <priority>0.85</priority>
 </url>
 
@@ -348,6 +348,17 @@
 <url>
   <loc>https://alexandregames.com/mobile-legends/ling-pt-mlbb.html</loc>
   <lastmod>2024-12-19T22:43-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/mobile-legends/lukas-mlbb-en.html</loc>
+  <lastmod>2025-01-05T13:45-03:00</lastmod>
+  <priority>0.84</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/mobile-legends/lukas-mlbb-pt.html</loc>
+  <lastmod>2025-01-05T13:45-03:00</lastmod>
   <priority>0.70</priority>
 </url>
 
