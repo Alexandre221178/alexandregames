@@ -234,30 +234,6 @@ nav .menu-icon{
  
 
  
-
-   /* Estilos aplicados apenas para telas menores que 768px (dispositivos móveis) */
-@media (max-width: 576px) {
-    .content-wrapper {
-      min-height: 210px; /* Altura mínima */
-      background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
-    }
-  
-    .content-wrapper p {
-        margin-left: 5px;
-        font-size: 18px;
-    }
-  
-    .content-wrapper2 {
-      min-height: 350px; /* Altura mínima */
-      background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
-    }
-  
-    .content-wrapper2 p {
-        margin-left: 5px;
-        font-size: 18px;
-    }
-  }
-
   
 
   /* Estilos para ocultar o conteúdo até ser carregado lazy load css */
@@ -1388,7 +1364,7 @@ iframe{
 /* fim video youtube 2024  */
 
 
-@media (max-width:540px) {
+@media (max-width:768px) {
     nav .menu-icon{
         display: block;
     }
@@ -1523,6 +1499,29 @@ iframe{
         margin: 30px;
 
     }
+
+
+    /* Estilos aplicados apenas para telas menores que 768px (dispositivos móveis) */
+
+    .content-wrapper {
+        min-height: 210px; /* Altura mínima */
+        background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+      }
+    
+      .content-wrapper p {
+          margin-left: 5px;
+          font-size: 18px;
+      }
+    
+      .content-wrapper2 {
+        min-height: 350px; /* Altura mínima */
+        background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+      }
+    
+      .content-wrapper2 p {
+          margin-left: 5px;
+          font-size: 18px;
+      }
     
     
     .img-banner img{

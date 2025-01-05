@@ -1452,7 +1452,7 @@ iframe{
 /* fim video youtube 2024  */
 
 
-@media (max-width:840px) {
+@media (max-width:768px) {
     nav .menu-icon{
         display: block;
     }
@@ -1520,7 +1520,7 @@ iframe{
     }
 
      /* Estilos aplicados apenas para telas menores que 768px (dispositivos móveis) */
-@media (max-width: 576px) {
+
     .content-wrapper {
       min-height: 210px; /* Altura mínima */
       background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
@@ -1540,7 +1540,7 @@ iframe{
         margin-left: 5px;
         font-size: 18px;
     }
-  }
+  
   
     
      /* Esconde o container fixo no mobile */
