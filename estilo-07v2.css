@@ -1647,6 +1647,10 @@ iframe{
 
     }
     
+    .box-cookies {
+        flex-direction: column;
+        border-left: none;
+    }
     
     .img-banner img{
        
@@ -2221,12 +2225,6 @@ iframe{
 
 
 
-@media screen and (max-width: 600px) {
-    .box-cookies {
-        flex-direction: column;
-        border-left: none;
-    }
-} 
     
 /* Estilos para a imagem dos menus Alexandre Games */
 

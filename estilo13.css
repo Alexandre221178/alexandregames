@@ -1500,6 +1500,11 @@ iframe{
 
     }
 
+    .box-cookies {
+        flex-direction: column;
+        border-left: none;
+    }
+
 
     /* Estilos aplicados apenas para telas menores que 768px (dispositivos móveis) */
 
@@ -2059,12 +2064,7 @@ iframe{
 
 
 
-@media screen and (max-width: 600px) {
-    .box-cookies {
-        flex-direction: column;
-        border-left: none;
-    }
-} 
+
     
 /* Estilos para a imagem dos menus Alexandre Games */
 
