@@ -927,6 +927,7 @@ section p{
 }
 
 .img-menuguide a {
+    font-size: 22px;
     text-decoration: none; /* Remove o sublinhado */
     border: 1px solid rgb(255, 255, 255); /* Define a borda */
     display: flex; /* Usa flexbox para alinhar o conteúdo */
@@ -1756,13 +1757,13 @@ iframe{
         font-size: 14px;
        
     }
-
-       
+    
     .img-menuguide{
+        font-size: 108px;
         width: 40%; /* ajusta para 1 imagem por linha em telas muito pequenas */
         height: auto; /* altura automática para manter a proporção */    
         margin-bottom: 20px;
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .img-menumobile{
