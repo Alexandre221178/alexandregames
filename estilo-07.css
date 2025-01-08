@@ -1584,6 +1584,12 @@ iframe{
            
     }
 
+    .ad-fold-container {
+        width: 100%; /* Ocupa toda a largura disponível */
+        /* Retirado 28-12-24 - max-width: 728px; - Tamanho máximo para anúncios no desktop */
+        min-height: 250px; /* Altura mínima padrão para anúncios */
+    }
+
     
     .text-bx,
     .img-bx{
