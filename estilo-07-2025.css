@@ -911,6 +911,10 @@ section p{
         
 
 
+.img-menuguide img{
+    aspect-ratio: 300 / 260; /* Ajusta a proporção para mobile */
+}
+
    /* imagens do menu guia de heróis */
 .img-menuguide {
     width: 25%; /* usa porcentagem para um layout responsivo */
@@ -919,9 +923,11 @@ section p{
     float: left;
     box-sizing: border-box; /* para que padding não afete o width */
     text-align: center; /* centraliza o conteúdo do link */
+    
 }
 
 .img-menuguide a {
+    font-size: 22px;
     text-decoration: none; /* Remove o sublinhado */
     border: 1px solid rgb(255, 255, 255); /* Define a borda */
     display: flex; /* Usa flexbox para alinhar o conteúdo */
@@ -940,8 +946,6 @@ section p{
 .img-menuguide a:hover {
     color: red;
 }
-
-
 
      /* imagens do menu guia de heróis */    
 .img-home{
@@ -1749,10 +1753,11 @@ iframe{
 
        
     .img-menuguide{
+        font-size: 108px;
         width: 40%; /* ajusta para 1 imagem por linha em telas muito pequenas */
         height: auto; /* altura automática para manter a proporção */    
         margin-bottom: 20px;
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .img-menumobile{
