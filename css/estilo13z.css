@@ -5,7 +5,6 @@
     font-family: 'Roboto',sans-serif;
 }
 body{
-    margin-left: 13px;
     background-color: white;
     min-height: 100vh;
     width: 100%;
@@ -13,101 +12,17 @@ body{
 }
 
 
-/* Container principal para organizar o layout em desktop */
-.container-principal {
-    max-width: 1280px;
-    margin: auto;
+.container{
+    max-width: 950px;
+    margin: 0 auto;
     
-    display: flex;
-    gap: 8px; /* Espaço entre os elementos */
-    flex-direction: row; /* Itens lado a lado */
 }
 
-/* Estilização para o container fixo */
-.container-fixo {
-    width: 320px; /* Define a largura fixa */
-    height: 100vh; /* Altura total da tela */
-    position: sticky; /* Fixa ao rolar a página */
-    top: 0; /* Posição fixa no topo */
-    background-color: #f1f1f1; /* Cor de fundo */
-    padding: 20px; /* Espaçamento interno */
-    margin-right: 30px; /* Margem para evitar cliques acidentais */
-    box-sizing: border-box;
-    order: 2; /* Move para o lado direito */
-}
 
-/* Estilização para o container rolável */
-.container-rolavel {
-    flex: 1; /* O conteúdo principal ocupa o restante do espaço */
-    height: 100vh; /* Altura total da tela */
-    overflow-y: auto; /* Rolagem vertical */
-    padding: 0 2%; /* Ajusta as margens internas */
-    box-sizing: border-box;
-    order: 1; /* Garante que fique no início (esquerda) */
-}
-
-/* Estilos padrão para o container de anúncio */
-.ad-container {
-    width: 300px;
-    height: 250px;
-    background-color: #f9f9f9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px dashed #ccc;
-    box-sizing: border-box;
-    text-align: center;
-    color: #888;
-    font-size: 14px;
-}
-
-/* Texto padrão quando não houver anúncio */
-.ad-container:empty::before {
-    content: "Anúncio - 300x250";
-}
-
-/* Esconde o anúncio de mobile inicialmente */
-.mobile-ad {
-    display: none;
-}
-
-/* Estilos para o menu fixo */
-.menu-fixo {
-    margin-top: 2px;
-    width: 287px;
-    background-color: #f1f1f1;
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 8px;
-    position: sticky;
-    top: 20px;
-    overflow-y: auto;
-    max-height: calc(100vh - 40px);
-}
-
-/* Links do menu */
-.menu-fixo a {
-    display: block;
-    color: #201e1e;
-    text-decoration: none;
-    padding: 5px 0;
-    font-size: 16px;
-    transition: background-color 0.3s;
-}
-
-.menu-fixo a:hover {
-    background-color: #d2bfbf;
-    border-radius: 4px;
-}
-
-/* Conteúdo principal */
-.conteudo-principal {
-    flex: 1;
-}
   /* Estilos para reservar o espaço do menu */
   #menu-container {
     width: 100%;
-    min-height: 80px; /* Altura mínima para garantir espaço reservado */
+    min-height: 80px; /* era 80 aumentei para 90 e passa a borda Altura mínima para garantir espaço reservado é 80 */
     background-color: #323131; /* Cor de fundo para visualização enquanto o menu carrega */
 }
 .menu-icon img { width: 48px; height: 48px; cursor: pointer; }
@@ -149,7 +64,16 @@ body{
     background-color: #f0f0f0; /* Cor de fundo para visualização enquanto o anúncio carrega */
   }
 
-  
+  /* Espaço para AD no top-header para evitar CLS Veualiah */
+.wallpaper-container {
+    width: 100%;
+    min-height: 200px; /* Altura mínima para garantir espaço reservado */
+    background-color: #f0f0f0; /* Cor de fundo para visualização enquanto o anúncio carrega */
+  }
+
+
+
+
 nav{
     display:flex;
      /* cor do fundo do no nav #e3f0ff */
@@ -190,14 +114,7 @@ nav .menu-icon{
         
     }
     
-    .language-switch strong {
-        text-transform: uppercase; /* Garante que o texto seja maiúsculo */
-        font-size: 16px; /* Ajuste o tamanho da fonte, se necessário */
-        font-weight: bold; /* Mantém o estilo negrito */
-        display: inline-block; /* Alinha com a bandeira */
-        vertical-align: middle; /* Centraliza verticalmente com a bandeira */
-    }
-     
+    
     
     
     .container a:hover{
@@ -240,12 +157,12 @@ nav .menu-icon{
     
     
     nav ul button{
-        /* cor do fundo do button nav o font size aqui aumenta e diminui o tamanho do button */
+        /* cor do fundo do button nav */
        background-color: rgb(0, 0, 0);
         border: none;
        text-decoration: none;
        color: white;
-       font-size: 4px;
+       font-size: 19px;
            
         /* comandos para letras button nav padding: 10px 20px;*/
         padding: 10px 15px;
@@ -269,6 +186,13 @@ nav .menu-icon{
     background-color: #ddd;
     color: black;
   }
+  
+  /* Active/current link */
+  .navbar a.active {
+    background-color: #666;
+    color: white;
+  }
+
 
 
   .content-wrapper {
@@ -284,7 +208,7 @@ nav .menu-icon{
   }
   .content-wrapper p{
     font-size: 20px; 
-    margin-left: 0px;
+ 
     margin-top: 5px;
     line-height: 30px;
     text-align: left;
@@ -303,12 +227,15 @@ nav .menu-icon{
   }
   .content-wrapper2 p{
     font-size: 20px; 
-    margin-left: 30px;
+   
     margin-top: 5px;
     line-height: 30px;
     text-align: left;
   }
 
+
+
+   
 
   .ad-fold-container {
     width: 100%; /* Ocupa toda a largura disponível */
@@ -325,14 +252,6 @@ nav .menu-icon{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-  
-  /* Active/current link */
-  .navbar a.active {
-    background-color: #666;
-    color: white;
-  }
-
  /* Estilos para ocultar o conteúdo até ser carregado lazy load css */
  .hidden {
     display: none;
@@ -423,13 +342,13 @@ nav .menu-icon{
 
 
 
-/* teste dropdown menu botao mais */
+/* teste dropdown menu */
 .dropbtn {
-    border-radius: 2px;
+    border-radius: 5px;
     /* cor buttom MAIS  */
     font-weight: bold;
-    padding: 5px;
-    color: rgb(255, 255, 255);
+    padding: 18px;
+    color: white;
     font-size: 14px;
     border: none;
     cursor: pointer;
@@ -533,8 +452,6 @@ li{
     height: 20px;
 }
 
-
-
 p {
     text-align: left;
     text-indent: 30px;
@@ -549,7 +466,6 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 h1 {
     color: #5105cb;
     
@@ -559,7 +475,7 @@ h1 {
     margin-bottom: 0px;
 }
 h2 {
-    margin-left: 27px;
+    margin-left: 30px;
     margin-top: 25px;
     
     color: #31017d;
@@ -593,7 +509,7 @@ h5 {
         text-align: left;
 
 }
-   /* h6 Fonte da data de atualização */
+    /* h6 Fonte da data de atualização */
 h6 {
     color: #000105;
    margin-top: 7px;
@@ -716,22 +632,26 @@ section p{
 
     
 
+.text-ads li{
+    list-style-type: none;
+    font-size: 18px;
+    margin-left: 165px;
+    color:#242424fd
 
+}
 .autor ul{
     list-style: none;
-   
-   
-}
-.autor ul li{
-    margin-left: 25px;
-    list-style: none;
     margin-top: 0px;
-    margin-bottom: 0px;
+      
+}
+.autor ul li{ 
+    margin: 30px; 
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 16px;
     min-height: 50px; /* Altura mínima */
     background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
 }
-
-
 
 .suggestion {
     margin-top: 10px;
@@ -753,7 +673,6 @@ section p{
     width: 100%;
     height: auto;
 }
-
 
 
 
@@ -795,26 +714,18 @@ section p{
     height: auto;
 }
 /* imagem do embed index */
-
-
-
-.img-embed {
+.img-embed{
     width: 300px;
     height: 180px;
-    margin-bottom: 70px; /* Espaçamento inferior para separar as imagens do caption */
-    object-fit: cover; /* Ajuste para preencher o espaço sem distorção */
-    display: block; /* Garante que a imagem seja tratada como um bloco */
-    float: left; /* Alinha a imagem à esquerda */
-    margin-left: 50px; /* Define a margem esquerda de 30px */
+   
+    
+    margin-bottom: 120px;
+    align-items: center;
+    text-align: center;
+    float: left;
+    image-orientation: left;
+    padding: 1% 2%;
 }
-
-.img-embed img {
-    width: 100%;
-    height: 100%;
-    border: 4px solid #5654b3;
-}
-
-
 .img-embed a :hover{
     color: #f9464f;
 }
@@ -834,8 +745,13 @@ section p{
     color: #f9464f;
     }
 
-
+.img-embed img{
     
+        width: 100%;
+        height: 100%;
+        border: 4px solid #5654b3;
+}
+        
         /* guide imagem do logo do guia de Heróis */
 .img-logoguide{
     max-width: 100%;
@@ -909,9 +825,6 @@ section p{
 .img-visited img{
         width: 100%;
         height: 100%;
-        margin-bottom: 10px; /* Espaçamento inferior para separar as imagens do caption */
-    object-fit: cover; /* Ajuste para preencher o espaço sem distorção */
-    display: block; /* Garante que a imagem seja tratada como um bloco */
         border: 4px solid #5654b3;
 }
         
@@ -956,6 +869,7 @@ section p{
      /* imagens do menu guia de heróis */    
 .img-home{
     width: 100%;
+    
     
     
    margin-bottom: 80px;
@@ -1058,6 +972,9 @@ section p{
     margin-right: 10px;
 }
 
+.img-menuguide img{
+    aspect-ratio: 300 / 260; /* Ajusta a proporção para mobile */
+}
 
 .hero-tierlist {
     text-align: left; /* Centraliza o conteúdo */
@@ -1264,6 +1181,7 @@ table {
     padding: 8px;
   }
 
+
 /* Estilo para Description List FAQ(dl, dt, dd) */
 dl {
     border: 2px solid #444; /* Borda ao redor da lista */
@@ -1287,6 +1205,7 @@ dd {
     line-height: 1.6; /* Melhor espaçamento entre linhas */
     color: #302d2d; /* Cor levemente mais clara */
 }
+  
 
 /* fonte para comentarios click no botao abaixo */
   #loadScript {
@@ -1409,7 +1328,7 @@ iframe{
     color: rgb(247, 2, 210); /* Cor quando o mouse está sobre a legenda */
 }
  /* botoes compartilhar */
-.share-button {
+ .share-button {
     margin-top: 5px;
     margin-bottom: 0px;
     margin-left: 30px;
@@ -1518,67 +1437,12 @@ iframe{
         font-size: 17px; /* tamanho letras nav mobile*/
           
      }
-
-     
+    
      .share-buttons {
         display: flex;
         gap: 10px;
         min-height: 55px; /* Altura mínima */
         background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
-    }
-
-     /* Estilos aplicados apenas para telas menores que 768px (dispositivos móveis) */
-
-    .content-wrapper {
-      min-height: 210px; /* Altura mínima */
-      background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
-    }
-  
-    .content-wrapper p {
-        margin-left: 5px;
-        font-size: 18px;
-    }
-  
-    .content-wrapper2 {
-      min-height: 350px; /* Altura mínima */
-      background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
-    }
-  
-    .content-wrapper2 p {
-        margin-left: 5px;
-        font-size: 18px;
-    }
-  
-  
-    
-     /* Esconde o container fixo no mobile */
-     .container-fixo {
-        display: none;
-    }
-
-    /* Esconde o anúncio de desktop no mobile */
-    .desktop-ad {
-        display: none;
-    }
-
-    /* Mostra o anúncio de mobile */
-    .mobile-ad {
-        display: block;
-        margin: 0 auto;
-        width: 300px;
-        height: 250px;
-    }
-
-    /* Container principal ajusta o layout para uma coluna */
-    .container-principal {
-        display: block;
-        padding: 0 16px;
-    }
-
-
-    .ad-container {
-        width: 300px;
-        height: 300px;
     }
 
 
@@ -1587,7 +1451,7 @@ iframe{
         margin-left: 2px;
            
     }
-
+    
     
     .text-bx,
     .img-bx{
@@ -1602,11 +1466,34 @@ iframe{
     }
 
     .text-title h1{
-        font-size: 20px;
+        font-size: 25px;
         text-transform: uppercase;
         margin-left: 5px;
         
     }
+
+    /* Estilos aplicados apenas para telas menores que 768px (dispositivos móveis) */
+
+    .content-wrapper {
+        min-height: 210px; /* Altura mínima */
+        background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+      }
+    
+      .content-wrapper p {
+          margin-left: 5px;
+          font-size: 18px;
+      }
+    
+      .content-wrapper2 {
+        min-height: 350px; /* Altura mínima */
+        background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+      }
+    
+      .content-wrapper2 p {
+          margin-left: 5px;
+          font-size: 18px;
+      }
+    
     
 
 
@@ -1632,17 +1519,12 @@ iframe{
             margin-left: 15px;
             color:#1a1b1bfd
     }
-
-    body{
-        margin-left: 1px;
-        
-    }
-   
+    
+    
+    
     .autor ul li{
         margin: 5px; 
         font-size: 15px;
-        min-height: 50px; /* Altura mínima */
-    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
     }
     .autor li b::before {
         content: "\a";
@@ -1656,7 +1538,11 @@ iframe{
 
     }
 
-      
+    .box-cookies {
+        flex-direction: column;
+        border-left: none;
+    }
+    
     .img-banner img{
         aspect-ratio: 500 / 200; /* Ajusta a proporção para mobile */
     }
@@ -1777,46 +1663,24 @@ iframe{
     }
 
     .img-menumobile{
-        Width: 30%;
+        Width: 32%;
         height: 160px;       
-    }
-
-    .img-home {
-        width: 300px;
-        height: 180px;
-        margin-bottom: 30px; /* Espaçamento inferior para separar as imagens do caption */
-        object-fit: cover; /* Ajuste para preencher o espaço sem distorção */
-        display: block; /* Garante que a imagem seja tratada como um bloco */
-        float: left; /* Alinha a imagem à esquerda */
-        margin-left: 10px; /* Define a margem esquerda de 30px */
-        
     }
     
     .img-home img{  
-        width: 100%;
+        width: 98%;
         height: auto;
        
+           
     }
-    
-    .img-visited {
-        width: 300px;
-        height: 180px;
-        margin-bottom: 70px; /* Espaçamento inferior para separar as imagens do caption */
-        object-fit: cover; /* Ajuste para preencher o espaço sem distorção */
-        display: block; /* Garante que a imagem seja tratada como um bloco */
-        float: left; /* Alinha a imagem à esquerda */
-        margin-left: 10px; /* Define a margem esquerda de 30px */
+    .img-home{  
+        margin-bottom: 110px;       
     }
-    
-    .img-visited img {
+    .img-visited{
         width: 100%;
-        height: 100%;
-        border: 4px solid #5654b3;
+        margin-bottom: 100px; 
+       
     }
-    
-    
-    
-    
     .img-embed {
         width: 300px;
         height: 180px;
@@ -1833,7 +1697,6 @@ iframe{
         border: 4px solid #5654b3;
     }
     
-    
 
     .emblem {
        
@@ -1841,9 +1704,11 @@ iframe{
     }
 
     .hero-tierlist img{
-        
-        width: 30%; /* Define a imagem para 50% do tamanho original */
-       
+        font-size: 108px;
+        width: 40%; /* ajusta para 1 imagem por linha em telas muito pequenas */
+        height: auto; /* altura automática para manter a proporção */    
+        margin-bottom: 20px;
+        font-size: 20px;
     }
 
     .share-button {
@@ -1851,12 +1716,12 @@ iframe{
         margin-bottom: 5px;
         margin-left: 5px;
         
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .share-button {
         margin-top: 10px;
-        margin-bottom: 5px;
+        margin-bottom: 15px;
     }
     
    
@@ -1873,7 +1738,7 @@ iframe{
         font-size: 19px;
     }
     section ul li a{
-       
+        
         margin-left: 10px;
         margin-right: 5px;
         
@@ -1917,7 +1782,6 @@ iframe{
         
         font-family: Arial, Helvetica, sans-serif;    
     }
-  
     
     .check-list li{        
         margin-left: 40px;
@@ -1925,7 +1789,7 @@ iframe{
         
     }
     .check-list ol{
-        margin-left: 19px;
+        margin-left: 20px;
     }
 
     .checklist-stats li{
@@ -2102,7 +1966,7 @@ iframe{
         .calendar .event-container {
             position: relative;
             padding: 10px;
-            background-color: #ff2323;
+            background-color: #7297cb;
             border-radius: 5px;
             text-align: center;
             height: 150px;
@@ -2174,4 +2038,99 @@ iframe{
             }
         }
     
-  
+        
+    
+    
+    
+        
+    
+    
+
+    
+    
+        
+    
+    
+
+    
+
+/** CSS cokies 2024 **/
+.cookie-banner {
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #faebe4;
+    padding: 10px 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1000;
+}
+.cookie-banner p {
+    margin: 0;
+    text-align: center;
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 0 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.accept-btn {
+    background-color: #00611E;
+    color: white;
+}
+
+.reject-btn {
+    background-color: #9E251A;
+    color: white;
+}
+
+.privacy-link {
+    color: #171717;
+    text-decoration: none;
+}
+
+.privacy-link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+    
+/* Estilos para a imagem dos menus Alexandre Games */
+
+
+
+/* Classe para esconder conteúdo em telas maiores que 700px */
+.mobile-only {
+    display: none;
+}
+
+/* Classe para esconder conteúdo em telas maiores que 700px */
+.desktop-only {
+    display: none;
+}
+
+/* Exibir conteúdo mobile em telas até 700px */
+@media only screen and (max-width: 700px) {
+    .mobile-only {
+        display: block;
+    }
+}
+
+/* Exibir conteúdo desktop em telas maiores que 701px */
+@media only screen and (min-width: 701px) {
+    .desktop-only {
+        display: block;
+    }
+}
