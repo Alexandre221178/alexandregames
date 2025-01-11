@@ -48,19 +48,21 @@ body{
     order: 1; /* Garante que fique no início (esquerda) */
 }
 
-/* Estilos padrão para o container de anúncio */
+/* Estilos padrão para o container de anúncio ad pc e mobile separados*/
 .ad-container {
-    width: 300px;
-    height: 250px;
-    background-color: #f9f9f9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px dashed #ccc;
-    box-sizing: border-box;
-    text-align: center;
-    color: #888;
-    font-size: 14px;
+    width: 100%; /* Ocupa toda a largura disponível */
+    /* Retirado 28-12-24 - max-width: 728px; - Tamanho máximo para anúncios no desktop */
+    min-height: 330px; /* Altura mínima padrão para anúncios */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: flex; /* Garante alinhamento do conteúdo */
+    align-items: center; /* Alinha o anúncio verticalmente */
+    justify-content: center; /* Alinha o anúncio horizontalmente */
+    box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho */
+    background-color: #f9f9f9; /* Placeholder visual cor #f9f9f9; */
+    overflow: hidden; /* Evita transbordo de conteúdo */
+    position: relative; /* Define um contexto para elementos filhos */
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Texto padrão quando não houver anúncio */
@@ -144,12 +146,6 @@ body{
 .dropbtn:hover { color: #f70441; }
 
 
-/* Espaço para AD no top-header para evitar CLS Veualiah */
-.ad-container {
-    width: 100%;
-    min-height: 280px; /* Altura mínima para garantir espaço reservado */
-    background-color: #f0f0f0; /* Cor de fundo para visualização enquanto o anúncio carrega */
-  }
 
   
 nav{
@@ -335,10 +331,12 @@ nav .menu-icon{
     color: white;
   }
 
+
  /* Estilos para ocultar o conteúdo até ser carregado lazy load css */
  .hidden {
     display: none;
 }
+
 
   /* esse main separa footer da tela se mexer estraga tudo */
   main{
@@ -1574,7 +1572,8 @@ iframe{
 
     .ad-container {
         width: 300px;
-        height: 300px;
+        min-height: 250px;
+        background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
     }
 
 
@@ -1589,6 +1588,8 @@ iframe{
         /* Retirado 28-12-24 - max-width: 728px; - Tamanho máximo para anúncios no desktop */
         min-height: 250px; /* Altura mínima padrão para anúncios */
     }
+
+    
 
     
     .text-bx,
