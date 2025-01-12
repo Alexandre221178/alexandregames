@@ -1414,8 +1414,9 @@ iframe{
     text-align: center;
     border-radius: 5px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
 }
+
 
 .whatsapp { background-color: #1fc55c; }
 .facebook { background-color: #3b5998; }
@@ -1514,12 +1515,7 @@ iframe{
      }
 
      
-     .share-buttons {
-        display: flex;
-        gap: 10px;
-        min-height: 55px; /* Altura mínima */
-        background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
-    }
+    
 
      /* Estilos aplicados apenas para telas menores que 768px (dispositivos móveis) */
 
@@ -1847,15 +1843,13 @@ iframe{
         margin-top: 1px;
         margin-bottom: 5px;
         margin-left: 5px;
-        
-        font-size: 8px;
+        font-size: 13px;
     }
 
     .share-button {
         margin-top: 10px;
         margin-bottom: 5px;
-    }
-    
+    } 
    
     section p{
         font-size: 19px;

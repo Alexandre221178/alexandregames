@@ -1314,7 +1314,7 @@ iframe{
 .share-buttons {
     display: flex;
     gap: 10px;
-    min-height: 40px; /* Altura mínima */
+    min-height: 50px; /* Altura mínima */
     background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
 }
 
@@ -1438,13 +1438,18 @@ iframe{
           
      }
     
-     .share-buttons {
-        display: flex;
-        gap: 10px;
-        min-height: 55px; /* Altura mínima */
-        background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+     .share-button {
+        margin-top: 1px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        font-size: 13px;
     }
 
+    .share-button {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
 
      iframe{    
     

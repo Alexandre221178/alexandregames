@@ -1310,7 +1310,7 @@ iframe{
     color: rgb(247, 2, 210); /* Cor quando o mouse está sobre a legenda */
 }
  /* botoes compartilhar */
- .share-button {
+.share-button {
     margin-top: 5px;
     margin-bottom: 0px;
     margin-left: 30px;
@@ -1321,8 +1321,9 @@ iframe{
     text-align: center;
     border-radius: 5px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
 }
+
 
 .whatsapp { background-color: #1fc55c; }
 .facebook { background-color: #3b5998; }
@@ -1420,14 +1421,7 @@ iframe{
           
      }
     
-     .share-buttons {
-        display: flex;
-        gap: 10px;
-        min-height: 55px; /* Altura mínima */
-        background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
-    }
-
-
+    
      iframe{    
     
         margin-left: 2px;
@@ -1685,13 +1679,12 @@ iframe{
         margin-top: 1px;
         margin-bottom: 5px;
         margin-left: 5px;
-        
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .share-button {
         margin-top: 10px;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
     
    
