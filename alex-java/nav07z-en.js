@@ -1,0 +1,98 @@
+ // atualizar somente os nav13-en-v2.js e nav13-pt-v2.js esses são com a bandeira no nav
+document.addEventListener('DOMContentLoaded', () => {
+    const navHTML = `
+        <div class="logo">
+            <a href="https://alexandregames.com"><img src="https://alexandregames.com/imagens/exandregames318x318-removebg.webp" alt="Alexandre Games Mobile Logo" title="Alexandre Games Mobile Logo" width="50" height="50">
+        </div>
+        
+        <ul> 
+                <div class="dropdown">
+                <button class="dropbtn">Hero Wars Alliance</button>
+                <div class="dropdown-content">
+                 
+                <a href="https://alexandregames.com/herowars-alliance-en.html">HWA - Home</a>
+                    <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-en-hwa.html">Best Teams Guide</a>
+                    <a href="https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html">Calendar & Events</a>
+                    <a href="https://alexandregames.com/Hero%20Wars%20English/Heroes%20Guide%20Hero%20Wars.html">Heroes Guide</a>
+                    <a href="https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-en-hwa.html">Hero's Way <br>Dec. 23 - Jan. 19</a>  
+                    <a href="https://alexandregames.com/hero-wars-alliance/menu-review-en-hwa.html">Skins Reviews</a>
+                    <a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-en.html">Tactics & Secrets</a>
+                    <a href="https://alexandregames.com/Hero%20Wars%20English/Titans%20Guide%20Hero%20Wars.html">Titans Guide</a>
+                    
+                   <br><br><br>
+                   
+                </div>
+            </div>              
+            <div class="dropdown">
+                <button class="dropbtn"><a href="https://alexandregames.com/MobileLegends-English.html">Mobile Legends</a></button> 
+            </div> 
+            <div class="dropdown">
+                <button class="dropbtn"><a href="https://alexandregames.com/roblox-us.html">Roblox PC/Mobile</a></button>
+            </div> 
+            <div class="dropdown">
+               <button><a href="https://alexandregames.com/top-troops/top-troops-en-home.html">Top Troops</a></button>
+            </div>
+            <div class="dropdown">
+               <button><a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-en.html">Throne and Liberty</a></button>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">More Games</button>
+                <div class="dropdown-content">
+                    <a href="https://alexandregames.com/ragnarok-origin/codes-ragnarok-us.html">Ragnarok ROO</a>
+                    <a>_____________</a>
+                    <a href="https://alexandregames.com/Documentos/Contact.html">Contact</a>
+                    <a href="https://alexandregames.com/Documentos/disclaimer.html">Disclaimer</a>
+                    <a href="https://alexandregames.com/Documentos/PrivacyPolicy.html">Privacy Policy</a>
+                    <a href="https://alexandregames.com/Documentos/about.html">About Us</a>
+                    <a href="https://alexandregames.com/Documentos/TermsofUse.html">Terms of Use</a>
+                    <br><br><br>
+                </div>
+            </div>
+           <div class="dropdown">
+        <button class="language-switch">
+            <img src="https://alexandregames.com/imagens/flag-brazil-32x32.png" alt="Brazil flag" title="Brazil flag" style="width:24px;height:16px">
+            <strong>PT</strong>
+        </button>
+    </div>
+        </ul>
+        <div class="menu-icon">
+            <img src="https://alexandregames.com/imagens/menu.png" alt="Menu" style="width:48px;height:48px;">
+        </div>
+    `;
+
+    const navElement = document.createElement('nav');
+    navElement.innerHTML = navHTML;
+    document.querySelector('#menu-container').prepend(navElement);
+
+    // Captura o botão de troca de idioma
+const langButton = document.querySelector('.language-switch');
+
+// Captura o link definido no HTML
+const langLink = document.querySelector('.language-link');
+
+if (langButton && langLink) {
+    // Adiciona o link ao botão
+    langButton.addEventListener('click', () => {
+        window.location.href = langLink.href;
+    });
+}
+
+    const menu = document.querySelector('nav ul');
+    const menuBar = document.querySelector('nav .menu-icon');
+    const iconMenu = document.querySelector('nav .menu-icon img');
+
+    menuBar.addEventListener('click', function() {
+        if (iconMenu.getAttribute("src") === 'https://alexandregames.com/imagens/close.webp') {
+            iconMenu.setAttribute("src", "https://alexandregames.com/imagens/menu.png");
+        } else {
+            iconMenu.setAttribute("src", "https://alexandregames.com/imagens/close.webp");
+        }
+        
+        menu.classList.toggle('active');
+    });
+});
+
+
+
+
+  
