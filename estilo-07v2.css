@@ -68,6 +68,24 @@ body{
     content: "Anúncio - 300x250";
 }
 
+.ad-responsive {
+    display: none;
+}
+
+ /* Espaço reservado para o anúncio responsivo */
+ .ad-responsive {
+    width: 100%; /* Adapta-se à largura do container */
+    max-width: 728px; /* Tamanho máximo para desktop */
+    height: auto; /* Altura ajustável */
+    aspect-ratio: 728 / 90; /* Mantém a proporção inicial */
+    margin: 10px auto; /* Centraliza o anúncio */
+    background-color: #f0f0f0; /* Cor do esqueleto visual */
+}
+
+#mobile-ad {
+    display: block;
+}
+
 /* Esconde o anúncio de mobile inicialmente */
 .mobile-ad {
     display: none;
@@ -1563,6 +1581,11 @@ iframe{
         padding: 0 16px;
     }
 
+    
+    .ad-responsive {
+        max-width: 300px; /* Tamanho máximo para mobile */
+        aspect-ratio: 300 / 250; /* Proporção ajustada */
+    }
 
     .ad-container {
         width: 300px;
