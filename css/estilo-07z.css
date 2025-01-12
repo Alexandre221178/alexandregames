@@ -1641,7 +1641,7 @@ iframe{
     .autor ul li{
         margin: 5px; 
         font-size: 15px;
-        min-height: 50px; /* Altura mínima */
+        min-height: 70px; /* Altura mínima */
     background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
     }
     .autor li b::before {
