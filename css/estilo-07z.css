@@ -1395,7 +1395,7 @@ iframe{
 .share-buttons {
     display: flex;
     gap: 10px;
-    min-height: 40px; /* Altura mínima */
+    min-height: 43px; /* Altura mínima */
     background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
 }
 
