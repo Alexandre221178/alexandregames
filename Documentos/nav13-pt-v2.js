@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <button class="dropbtn">Mobile Legends</button>
                 <div class="dropdown-content"><br>
                  
-                <a href="https://alexandregames.com/MobileLegends.html">MLBB - Home</a>
+                <a href="https://alexandregames.com/MobileLegends.html">Guia de Heróis</a>
                     <a href="https://alexandregames.com/mobile-legends/article-mlbb/tier-list-mlbb-pt.html">MLBB - Tier List</a>
                                       
                     
