@@ -11,3 +11,8 @@ Sitemap: https://alexandregames.com/sitemap.xml
 User-agent: AhrefsBot
 Allow: /sitemap.xml
 
+User-agent: OpenAI
+Disallow: /
+
+User-agent: ChatGPT
+Disallow: /
