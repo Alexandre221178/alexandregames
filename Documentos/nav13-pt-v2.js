@@ -20,11 +20,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     
                    <br><br><br>
                 </div>  
-            </div>           
+            </div>   
+            
             <div class="dropdown">
-                <button class="dropbtn"><a href="https://alexandregames.com/MobileLegends.html">Mobile Legends</a></button>
-                
-            </div> 
+                <button class="dropbtn">Mobile Legends</button>
+                <div class="dropdown-content"><br>
+                 
+                <a href="https://alexandregames.com/MobileLegends.html">MLBB - Home</a>
+                    <a href="https://alexandregames.com/mobile-legends/article-mlbb/tier-list-mlbb-pt.html">MLBB - Tier List</a>
+                                      
+                    
+                   <br><br><br>
+                </div>
+            </div>      
+
+            
             <div class="dropdown">
                 <button class="dropbtn"><a href="https://alexandregames.com/roblox-br.html">Roblox PC/Mobile</a></button>
                 

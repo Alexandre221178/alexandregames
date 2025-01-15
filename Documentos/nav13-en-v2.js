@@ -2,15 +2,15 @@
 document.addEventListener('DOMContentLoaded', () => {
     const navHTML = `
         <div class="logo">
-            <a href="https://alexandregames.com"><img src="https://alexandregames.com/imagens/exandregames318x318-removebg.webp" alt="Alexandre Games Mobile Logo" title="Alexandre Games Mobile Logo" width="50" height="50">
+            <a href="https://alexandregames.com"><img src="https://alexandregames.com/imagens/exandregames318x318-removebg.webp" alt="Alexandre Games Mobile Logo" title="Alexandre Games Mobile Logo" width="50" height="50"></a>
         </div>
         
         <ul> 
-                <div class="dropdown">
+               <div class="dropdown">
+
                 <button class="dropbtn">Hero Wars Alliance</button>
-                <div class="dropdown-content">
-                 
-                <a href="https://alexandregames.com/herowars-alliance-en.html">HWA - Home</a>
+                <div class="dropdown-content">                 
+                    <a href="https://alexandregames.com/herowars-alliance-en.html">HWA - Home</a>
                     <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-en-hwa.html">Best Teams Guide</a>
                     <a href="https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html">Calendar & Events</a>
                     <a href="https://alexandregames.com/Hero%20Wars%20English/Heroes%20Guide%20Hero%20Wars.html">Heroes Guide</a>
@@ -22,10 +22,20 @@ document.addEventListener('DOMContentLoaded', () => {
                    <br><br><br>
                    
                 </div>
-            </div>              
+            </div>  
+
             <div class="dropdown">
-                <button class="dropbtn"><a href="https://alexandregames.com/MobileLegends-English.html">Mobile Legends</a></button> 
-            </div> 
+                <button class="dropbtn">Mobile Legends</button>
+                <div class="dropdown-content"><br>
+                 
+                <a href="https://alexandregames.com/MobileLegends-English.html">MLBB - Home</a>
+                    <a href="https://alexandregames.com/mobile-legends/article-mlbb/tier-list-mlbb-pt.html">MLBB - Tier List</a>
+                                      
+                    
+                   <br><br><br>
+                </div>
+            </div>      
+
             <div class="dropdown">
                 <button class="dropbtn"><a href="https://alexandregames.com/roblox-us.html">Roblox PC/Mobile</a></button>
             </div> 
