@@ -283,7 +283,7 @@ nav .menu-icon{
     min-height: 100px; /* Altura mínima */
   }
   .content-wrapper p{
-    font-size: 20px; 
+    font-size: 22px; 
     margin-left: 0px;
     margin-top: 5px;
     line-height: 30px;
@@ -292,7 +292,7 @@ nav .menu-icon{
 
   .content-wrapper2 {
     max-width: auto; /* Limita a largura do conteúdo */
-    margin-left: 0px;
+    margin-left: 15px;
     margin-top: 5px;
     margin-bottom: 5px;
     box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
@@ -302,8 +302,8 @@ nav .menu-icon{
     min-height: 135px; /* Altura mínima */
   }
   .content-wrapper2 p{
-    font-size: 20px; 
-    margin-left: 0px;
+    font-size: 22px; 
+    margin-left: 15px;
     margin-top: 5px;
     line-height: 30px;
     text-align: left;
@@ -1525,22 +1525,22 @@ iframe{
      /* Estilos aplicados apenas para telas menores que 768px (dispositivos móveis) */
 
     .content-wrapper {
+        margin-left: 0px;
       min-height: 210px; /* Altura mínima */
       background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
     }
   
     .content-wrapper p {
-        margin-left: 5px;
         font-size: 18px;
     }
   
     .content-wrapper2 {
+        margin-left: 0px;
       min-height: 350px; /* Altura mínima */
       background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
     }
   
     .content-wrapper2 p {
-        margin-left: 5px;
         font-size: 18px;
     }
   
