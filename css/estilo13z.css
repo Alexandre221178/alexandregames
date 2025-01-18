@@ -246,7 +246,7 @@ nav .menu-icon{
     align-items: center; /* Alinha o anúncio verticalmente */
     justify-content: center; /* Alinha o anúncio horizontalmente */
     box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho */
-    background-color: #f9f9f9; /* Placeholder visual cor #f9f9f9; */
+    background-color: #ffffff; /* Placeholder visual cor #f9f9f9; */
     overflow: hidden; /* Evita transbordo de conteúdo */
     position: relative; /* Define um contexto para elementos filhos */
     margin-top: 20px;
@@ -650,7 +650,7 @@ section p{
     margin-bottom: 0;
     font-size: 16px;
     min-height: 50px; /* Altura mínima */
-    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+    background-color: #ffffff; /* Cor de fundo clara para melhorar contraste #ffffff */
 }
 
 .suggestion {
@@ -1501,6 +1501,14 @@ iframe{
           font-size: 18px;
       }
     
+      .ad-fold-container {
+        width: 100%; /* Ocupa toda a largura disponível */
+        /* Retirado 28-12-24 - max-width: 728px; - Tamanho máximo para anúncios no desktop */
+        min-height: 250px; /* Altura mínima padrão para anúncios */
+        background-color: #ffffff; /* Cor de fundo clara para melhorar contraste #ffffff */
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
     
 
 
@@ -1533,7 +1541,9 @@ iframe{
         margin: 5px; 
         font-size: 15px;
         min-height: 70px; /* Altura mínima */
-    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+    background-color: #ffffff; /* Cor de fundo clara para melhorar contraste #ffffff */
+    margin-top: 0px;
+    margin-bottom: 0px;
     }
     .autor li b::before {
         content: "\a";
