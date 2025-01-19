@@ -161,9 +161,32 @@
 
 </header>
 
-<div class="ad-fold-container">
+<style>
+    /* Exibir por padrão no mobile, esconder no desktop */
+    .custom-ad-mobile {
+        display: block;
+    }
+
+    .custom-ad-desktop {
+        display: none;
+    }
+
+    /* Reverter visibilidade no desktop */
+    @media (min-width: 768px) {
+        .custom-ad-mobile {
+            display: none;
+        }
+
+        .custom-ad-desktop {
+            display: block;
+        }
+    }
+</style>
+
+<!-- Contêiner Mobile -->
+<div class="ad-fold-container custom-ad-mobile">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous" type="aff1201e96dc0c28d4c39d7a-text/javascript"></script>
-   <!-- hero wars alliance - aurora teste -->
+    <!-- hero wars alliance - aurora teste -->
     <ins class="adsbygoogle"
          style="display:block; width:100%; height:auto;"
          data-ad-client="ca-pub-7838775403194689"
@@ -173,7 +196,8 @@
     <script type="aff1201e96dc0c28d4c39d7a-text/javascript">
         (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
-  </div>       
+</div>
+     
             
 
                        
@@ -182,6 +206,21 @@
 <p>
     Aurora, the protective light of Riversar, is a formidable force in Hero Wars Alliance. Her inspiring story and formidable abilities make her a valuable addition to any team.
 </p>
+</div>
+
+<!-- Contêiner Desktop -->
+<div class="ad-fold-container custom-ad-desktop">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" crossorigin="anonymous" type="aff1201e96dc0c28d4c39d7a-text/javascript"></script>
+    <!-- hero wars alliance - aurora teste -->
+    <ins class="adsbygoogle"
+         style="display:block; width:100%; height:auto;"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="8973717942"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script type="aff1201e96dc0c28d4c39d7a-text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
 </div>
             
 <!-- second half retirar melhora - pagespeed test</div> -->        
