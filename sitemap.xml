@@ -20,12 +20,12 @@
 
 <url>
   <loc>https://alexandregames.com/herowars-alliance-en.html</loc>
-  <lastmod>2025-01-17T20:43-03:00</lastmod>
+  <lastmod>2025-01-19T22:52-03:00</lastmod>
   <priority>0.99</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/HeroWars.html</loc>
-  <lastmod>2025-01-17T20:43-03:00</lastmod>
+  <lastmod>2025-01-19T22:52-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -76,12 +76,12 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/menu-best-teams-en-hwa.html</loc>
-  <lastmod>2025-01-08T23:32-03:00</lastmod>
+  <lastmod>2025-01-19T22:52-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/menu-best-teams-pt-hwa.html</loc>
-  <lastmod>2025-01-08T23:32-03:00</lastmod>
+  <lastmod>2025-01-19T22:52-03:00</lastmod>
   <priority>0.74</priority>
 </url>
 <url>
@@ -497,16 +497,7 @@
   <priority>0.78</priority>
 </url>
 
-<url>
-  <loc>https://alexandregames.com/hero-wars-alliance/guide/ninja-turtles-synergy-en.html</loc>
-  <lastmod>2024-12-11T22:47-03:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://alexandregames.com/hero-wars-alliance/guide/ninja-turtles-synergy-en.html</loc>
-  <lastmod>2024-12-11T22:47-03:00</lastmod>
-  <priority>0.78</priority>
-</url>
+
 
 <!-- fim Mobile Legens articles Alexandre Games -->
 
@@ -1623,11 +1614,31 @@
   <priority>0.61</priority>
 </url>
 
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/guide/ninja-turtles-synergy-en.html</loc>
+  <lastmod>2024-12-11T22:47-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/guide/ninja-turtles-synergy-en.html</loc>
+  <lastmod>2024-12-11T22:47-03:00</lastmod>
+  <priority>0.78</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/guide/best-hero-wars-combos-2025-en.html</loc>
+  <lastmod>2025-01-19T22:52-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/guide/best-hero-wars-combos-2025-pt.html</loc>
+  <lastmod>2025-01-19T22:52-03:00</lastmod>
+  <priority>0.78</priority>
+</url>
 
 
 
-
-<!-- fim artigos Hero wars articles Hero Wars SiteMap Alexandre Games -->
+<!-- fim artigos Hero wars articles Hero Wars guide hero wars SiteMap Alexandre Games -->
 
 <!-- inicio review Skin analises de skin SiteMap Alexandre Games -->
 <url>
