@@ -10,13 +10,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="dropdown-content">
                  
                 <a href="https://alexandregames.com/HeroWars.html">HWA - Início</a>  
-                <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-pt-hwa.html">Guia de Melhores Times</a>  
-                <a href="https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html">Calendário & Eventos</a>
-                <a href="https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-pt-hwa.html">Caminho do Herói</a>  
-                <a href="https://alexandregames.com/Hero%20Wars/Guiadeherois.html">Guia de Heróis</a>  
                 <a href="https://alexandregames.com/hero-wars-alliance/menu-review-pt-hwa.html">Análises de Skins</a>  
-                <a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-en.html">Táticas & Segredos</a>  
-                <a href="https://alexandregames.com/Hero%20Wars/Guia%20de%20Titans.html">Guia de Titãs</a>  
+                <a href="https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html">Calendário & Eventos</a>
+                <a href="https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-pt-hwa.html">Caminho do Herói</a> 
+                <a href="https://alexandregames.com/Hero%20Wars/Guiadeherois.html">Guia de Heróis</a>   
+                <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-pt-hwa.html">Guia de Melhores Times</a> 
+                <a href="https://alexandregames.com/Hero%20Wars/Guia%20de%20Titans.html">Guia de Titãs</a>                                 
+                <a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-en.html">Táticas & Segredos</a> 
+                <a href="https://alexandregames.com/Hero%20Wars/articles-herowars/tierlist-pt-pvp-herowars.html">Tier List</a> 
+                
+                
                     
                    <br><br><br>
                 </div>  
