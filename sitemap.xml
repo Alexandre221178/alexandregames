@@ -20,12 +20,12 @@
 
 <url>
   <loc>https://alexandregames.com/herowars-alliance-en.html</loc>
-  <lastmod>2025-01-19T22:52-03:00</lastmod>
+  <lastmod>2025-01-21T23:17-03:00</lastmod>
   <priority>0.99</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/HeroWars.html</loc>
-  <lastmod>2025-01-19T22:52-03:00</lastmod>
+  <lastmod>2025-01-21T23:17-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -1642,6 +1642,17 @@
 
 <!-- inicio review Skin analises de skin SiteMap Alexandre Games -->
 <url>
+  <loc>https://alexandregames.com/hero-wars-alliance/review/hero-wars-qing-mao-rework-en.html</loc>
+  <lastmod>2025-01-21T23:17-03:00</lastmod>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/review/hero-wars-qing-mao-rework-pt.html</loc>
+  <lastmod>2025-01-21T23:17-03:00</lastmod>
+  <priority>0.61</priority>
+</url>
+
+<url>
   <loc>https://alexandregames.com/hero-wars-alliance/review/new-stats-in-hero-wars-alliance-en.html</loc>
   <lastmod>2025-01-16T22:59-03:00</lastmod>
   <priority>0.71</priority>
@@ -1813,12 +1824,12 @@
 <!-- inicio dicas de eventos event- SiteMap Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html</loc>
-  <lastmod>2025-01-19T14:23-03:00</lastmod>
+  <lastmod>2025-01-21T23:17-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html</loc>
-  <lastmod>2025-01-19T14:23-03:00</lastmod>
+  <lastmod>2025-01-21T23:17-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
