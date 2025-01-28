@@ -2394,12 +2394,12 @@
 <!-- inicio top troops SiteMap Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/top-troops/top-troops-en-home.html</loc>
-  <lastmod>2025-01-26T08:33-03:00</lastmod>
+  <lastmod>2025-01-27T22:11-03:00</lastmod>
   <priority>0.89</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/top-troops/top-troops-pt-home.html</loc>
-  <lastmod>2025-01-26T08:33-03:00</lastmod>
+  <lastmod>2025-01-27T22:11-03:00</lastmod>
   <priority>0.79</priority>
 </url>
 
@@ -2503,6 +2503,17 @@
 <url>
   <loc>https://alexandregames.com/top-troops/heroes-guide/werewolf-unit-in-top-troops-guide-pt.html</loc>
   <lastmod>2025-01-25T19:19-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/top-troops/heroes-guide/ymir-top-troops-unit-guide-en.html</loc>
+  <lastmod>2025-01-27T22:11-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/top-troops/heroes-guide/ymir-top-troops-unit-guide-pt.html</loc>
+  <lastmod>2025-01-27T22:11-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 
