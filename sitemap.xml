@@ -20,12 +20,12 @@
 
 <url>
   <loc>https://alexandregames.com/herowars-alliance-en.html</loc>
-  <lastmod>2025-01-21T23:17-03:00</lastmod>
+  <lastmod>2025-01-28T22:30-03:00</lastmod>
   <priority>0.99</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/HeroWars.html</loc>
-  <lastmod>2025-01-21T23:17-03:00</lastmod>
+  <lastmod>2025-01-28T22:30-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -76,12 +76,12 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/menu-best-teams-en-hwa.html</loc>
-  <lastmod>2025-01-19T22:52-03:00</lastmod>
+  <lastmod>2025-01-28T22:30-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/menu-best-teams-pt-hwa.html</loc>
-  <lastmod>2025-01-19T22:52-03:00</lastmod>
+  <lastmod>2025-01-28T22:30-03:00</lastmod>
   <priority>0.74</priority>
 </url>
 <url>
@@ -97,13 +97,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-en.html</loc>
-  <lastmod>2024-12-08T18:10-03:00</lastmod>
+  <lastmod>2025-01-28T22:30-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-pt.html</loc>
-  <lastmod>2024-12-08T18:10-03:00</lastmod>
-  <priority>0.74</priority>
+  <lastmod>2025-01-28T22:30-03:00</lastmod>
+  <priority>0.84</priority>
 </url>
 
 <!-- inicio Mobile Legens MLBB-heroes Alexandre Games -->
@@ -2112,6 +2112,17 @@
 <!-- fim eventos dicas de events SiteMap Alexandre Games -->
 
 <!-- inicio best-teams- hero wars alliance Alexandre Games -->
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/best-teams/best-qing-mao-rework-teams-en.html</loc>
+  <lastmod>2025-01-28T22:30-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/best-teams/best-qing-mao-rework-teams-pt.html</loc>
+  <lastmod>2025-01-28T22:30-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/best-teams/best-kayla-and-aidan-teams-hwa-en.html</loc>
   <lastmod>2025-01-08T23:32-03:00</lastmod>
