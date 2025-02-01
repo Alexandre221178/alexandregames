@@ -2405,12 +2405,12 @@
 <!-- inicio top troops SiteMap Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/top-troops/top-troops-en-home.html</loc>
-  <lastmod>2025-02-01T16:40-03:00</lastmod>
+  <lastmod>2025-02-01T20:15-03:00</lastmod>
   <priority>0.89</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/top-troops/top-troops-pt-home.html</loc>
-  <lastmod>2025-02-01T16:40-03:00</lastmod>
+  <lastmod>2025-02-01T20:15-03:00</lastmod>
   <priority>0.79</priority>
 </url>
 
@@ -2473,6 +2473,17 @@
 
 
 <!-- inicio top troops heroes guide SiteMap Alexandre Games -->
+
+<url>
+  <loc>https://alexandregames.com/top-troops/heroes-guide/el-bandolero-guide-en.html</loc>
+  <lastmod>2025-02-01T20:15-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/top-troops/heroes-guide/el-bandolero-guide-pt.html</loc>
+  <lastmod>2025-02-01T20:15-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
 
 <url>
   <loc>https://alexandregames.com/top-troops/heroes-guide/frozen-bowman-guide-en.html</loc>
