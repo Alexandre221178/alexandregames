@@ -976,6 +976,11 @@ section p{
     aspect-ratio: 300 / 260; /* Ajusta a proporção para mobile */
 }
 
+.hero-tierlist img{
+    aspect-ratio: 300 / 260; /* Ajusta a proporção para mobile */
+}
+
+
 .hero-tierlist {
     text-align: left; /* Centraliza o conteúdo */
     margin-top: 40px;
