@@ -9,23 +9,23 @@
 
 <url>
   <loc>https://alexandregames.com</loc>
-  <lastmod>2025-02-01T00:43-03:00</lastmod>
+  <lastmod>2025-02-21T20:47-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/index-pt.html</loc>
-  <lastmod>2025-02-01T00:43-03:00</lastmod>
+  <lastmod>2025-02-21T20:47-03:00</lastmod>
   <priority>0.95</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/herowars-alliance-en.html</loc>
-  <lastmod>2025-02-17T23:24-03:00</lastmod>
+  <lastmod>2025-02-21T20:47-03:00</lastmod>
   <priority>0.99</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/HeroWars.html</loc>
-  <lastmod>2025-02-17T23:24-03:00</lastmod>
+  <lastmod>2025-02-21T20:47-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -2145,16 +2145,7 @@
 <!-- fim eventos dicas de events SiteMap Alexandre Games -->
 
 <!-- inicio best-teams- hero wars alliance Alexandre Games -->
-<url>
-  <loc>https://alexandregames.com/hero-wars-alliance/best-teams/best-qing-mao-rework-teams-en.html</loc>
-  <lastmod>2025-01-28T22:30-03:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://alexandregames.com/hero-wars-alliance/best-teams/best-qing-mao-rework-teams-pt.html</loc>
-  <lastmod>2025-01-28T22:30-03:00</lastmod>
-  <priority>0.70</priority>
-</url>
+
 
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/best-teams/best-kayla-and-aidan-teams-hwa-en.html</loc>
@@ -2211,6 +2202,29 @@
   <lastmod>2024-11-02T17:06-03:00</lastmod>
   <priority>0.70</priority>
 </url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/best-teams/best-qing-mao-rework-teams-en.html</loc>
+  <lastmod>2025-01-28T22:30-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/best-teams/best-qing-mao-rework-teams-pt.html</loc>
+  <lastmod>2025-01-28T22:30-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/best-teams/peech-best-teams-hwa-en.html</loc>
+  <lastmod>2025-02-21T20:47-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/best-teams/peech-best-teams-hwa-pt.html</loc>
+  <lastmod>2025-02-21T20:47-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
 
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/best-teams/tempus-best-team-en-hwa.html</loc>
