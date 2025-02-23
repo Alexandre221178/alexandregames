@@ -4,7 +4,21 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="logo">
             <a href="https://alexandregames.com/index-pt.html"><img src="https://alexandregames.com/imagens/exandregames318x318-removebg.webp" alt="logo Alexandre Games Mobile" title="logo Alexandre Games Mobile"></a>
         </div>                     
-        <ul>                     
+        <ul>             
+        
+        <div class="dropdown">
+            <button class="dropbtn">Análises de Gameplay</button>
+            <div class="dropdown-content"><br>
+                
+            <a href="https://alexandregames.com/gaming-guide/review/echoes-of-eternity-game-review-pt.html">Echoes of Eternity</a>
+                <a href="https://alexandregames.com/gaming-guide/review/the-dragon-odyssey-gameplay-pt.html">The Dragon Odyssey</a>
+                                    
+                
+                <br><br><br>
+            </div>
+        </div>    
+
+
             <div class="dropdown">
                 <button class="dropbtn">Hero Wars Alliance</button>
                 <div class="dropdown-content">
