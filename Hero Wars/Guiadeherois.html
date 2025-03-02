@@ -88,31 +88,40 @@
     
     <div class="container-principal">
         <div class="container-fixo">
+            <!-- Anúncio para Desktop -->
+            <div id="ad-desktop" style="display: none;"></div>
     
-            <div id="ad-container" style="display: none;">
-                <!-- Contêiner para o anúncio Joinads -->
-              
-                <script>
-                    // Verifica a largura da janela
-                    if (window.innerWidth > 840) {
-                        // Torna o contêiner visível
-                        document.getElementById("ad-container").style.display = "block";
+          
+      
     
-                        // Cria e insere o script do Joinads dinamicamente
-                        var joinadsScript = document.createElement("script");
-                        joinadsScript.async = true;
-                        joinadsScript.src = "https://cdn.joinads.com/joinads.js"; // URL do script do Joinads (substitua pela correta se necessário)
-                        document.head.appendChild(joinadsScript);
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" 
+        crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            function inserirAnuncio(id) {
+                var adContainer = document.getElementById(id);
+                if (adContainer) {
+                    adContainer.style.display = "block";
+                    var adDiv = document.createElement("ins");
+                    adDiv.className = "adsbygoogle";
+                    adDiv.style.display = "block";
+                    adDiv.setAttribute("data-ad-client", "ca-pub-7838775403194689");
+                    adDiv.setAttribute("data-ad-slot", "5891786274");
+                    adDiv.setAttribute("data-ad-format", "auto");
+                    adDiv.setAttribute("data-full-width-responsive", "true");
+                    adContainer.appendChild(adDiv);
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                }
+            }
     
-                        // Insere o código do anúncio
-                        var adDiv = document.createElement("div");
-                        adDiv.setAttribute("joinadscode", "Content7");
-                        adDiv.setAttribute("lazyload", "true");
-                        document.getElementById("ad-container").appendChild(adDiv);
-                    }
-                </script>
-    
-            </div>
+            if (window.innerWidth > 840) {
+                inserirAnuncio("ad-desktop"); // Mostra no desktop
+            } else {
+                inserirAnuncio("ad-mobile"); // Mostra no mobile
+            }
+        });
+    </script>
+   
 
         <div class="menu-fixo">
             <!-- O conteúdo do menu será inserido aqui via JavaScript -->
@@ -123,6 +132,8 @@
 
 <!-- div do menu-fixo -->
 </div>
+  <!-- Anúncio para Mobile -->
+  
 
 <div class="container">
   <div id="menu-container"></div><!-- Contêiner do menu -->
@@ -135,6 +146,7 @@
 <script src="../alex-java/nav07z-pt.js" defer></script>
     <script src="../Documentos/lazy-load.js"></script>
 
+    
      
         <header>
             <div class="text-title">   
@@ -155,10 +167,12 @@
            
         </header>
 
-          <!-- hwa top header heroes guide -->
+        <div id="ad-mobile" style="display: none;"></div>
+
+          <!-- hwa top header heroes guide 
      <div class="ad-fold-container">
         <div joinadscode="Content1"></div>
-      </div>
+      </div>-->
 
         <div class="content-wrapper1">
             <p>
@@ -206,8 +220,19 @@
 
     </div>
 
-
-          
+<br>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
+     crossorigin="anonymous"></script>
+<!-- teste 2 - hero wars alliance - fold - heroes A - C / 3711448675 - teste abaixo h2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="3711448675"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>      
 
 <main>
     <div>
