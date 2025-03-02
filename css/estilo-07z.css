@@ -46,6 +46,25 @@ body{
     order: 1; /* Garante que fique no início (esquerda) */
 }
 
+#ad-desktop, #ad-mobile {
+    width: 300px;
+    height: 250px; /* Mantém o espaço reservado */
+    background-color: #f9f9f9;
+    /* se quiser deixar bordas no ad: border: 1px dashed #ccc; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    margin: auto;
+}
+
+/* Placeholder para quando o anúncio ainda não carregou */
+#ad-desktop:empty::before, #ad-mobile:empty::before {
+    content: "Anúncio - 300x250";
+}
+
 /* Estilos padrão para o container de anúncio */
 .ad-container {
     width: 300px;

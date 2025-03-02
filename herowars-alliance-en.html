@@ -129,29 +129,36 @@ window.__h82AlnkH6D91__("WyJwdWItNzgzODc3NTQwMzE5NDY4OSIsW251bGwsbnVsbCxudWxsLCJ
 
     <div class="container-principal">
         <div class="container-fixo">
-    
-            <div id="ad-container" style="display: none;">
-                <!-- Contêiner para o anúncio Joinads -->
-              
-                <script>
-                    // Verifica a largura da janela
-                    if (window.innerWidth > 840) {
-                        // Torna o contêiner visível
-                        document.getElementById("ad-container").style.display = "block";
-    
-                        // Cria e insere o script do Joinads dinamicamente
-                        var joinadsScript = document.createElement("script");
-                        joinadsScript.async = true;
-                        joinadsScript.src = "https://cdn.joinads.com/joinads.js"; // URL do script do Joinads (substitua pela correta se necessário)
-                        document.head.appendChild(joinadsScript);
-    
-                        // Insere o código do anúncio
-                        var adDiv = document.createElement("div");
-                        adDiv.setAttribute("joinadscode", "Content7");
-                        adDiv.setAttribute("lazyload", "true");
-                        document.getElementById("ad-container").appendChild(adDiv);
+    <!-- Anúncio para Desktop -->
+<div id="ad-desktop" style="display: none;">
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    // Cria e insere o script do Joinads dinamicamente
+                    var joinadsScript = document.createElement("script");
+                    joinadsScript.async = true;
+                    joinadsScript.src = "https://cdn.joinads.com/joinads.js";
+                    document.head.appendChild(joinadsScript);
+            
+                    // Função para inserir o anúncio
+                    function inserirAnuncio(id) {
+                        var adContainer = document.getElementById(id);
+                        if (adContainer) {
+                            adContainer.style.display = "block";
+                            var adDiv = document.createElement("div");
+                            adDiv.setAttribute("joinadscode", "Content7");
+                            adDiv.setAttribute("lazyload", "true");
+                            adContainer.appendChild(adDiv);
+                        }
                     }
-                </script>
+            
+                    // Verifica se está no mobile ou desktop
+                    if (window.innerWidth > 840) {
+                        inserirAnuncio("ad-desktop"); // Mostra no desktop
+                    } else {
+                        inserirAnuncio("ad-mobile"); // Mostra no mobile
+                    }
+                });
+            </script>
     
             </div>
         
@@ -206,14 +213,12 @@ window.__h82AlnkH6D91__("WyJwdWItNzgzODc3NTQwMzE5NDY4OSIsW251bGwsbnVsbCxudWxsLCJ
             </ul>
         </div> 
    
-
+<!-- Anúncio para Mobile -->
+<div id="ad-mobile" style="display: none;"></div>
 </header>
 
  
-<!-- AdSense Block menus in -->
-<div class="ad-fold-container">
-  <div joinadscode="Content1"></div>
-  </div>
+
 
 <h2>Welcome to the Hero Wars Alliance Guide!</h2>
 
@@ -221,6 +226,9 @@ window.__h82AlnkH6D91__("WyJwdWItNzgzODc3NTQwMzE5NDY4OSIsW251bGwsbnVsbCxudWxsLCJ
 <p>
     <strong>Exciting updates on the site:</strong>
     <p>Maximize your heroes’ potential with their second talismans! Our latest analysis covers their effects and best strategies on the Alexandre Games Blog.</p>
+
+
+
 
     <ul>
     <li> <a href="./Hero Wars/Guia de Heróis Hero Wars/Amira - English.html"><strong>Amira 2nd Talisman Guide</strong></a></li> 
@@ -256,6 +264,11 @@ window.__h82AlnkH6D91__("WyJwdWItNzgzODc3NTQwMzE5NDY4OSIsW251bGwsbnVsbCxudWxsLCJ
 4 ou mais-linha pc 170px mobile 360px */  }
 }
 </style>
+
+<!-- AdSense Block menus in -->
+<div class="ad-fold-container">
+    <div joinadscode="Content1"></div>
+    </div>
 
  
      <!-- 🐢🍕second half retirar melhora - pagespeed test</div> -->        

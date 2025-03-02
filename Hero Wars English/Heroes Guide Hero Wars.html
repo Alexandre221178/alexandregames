@@ -65,29 +65,36 @@ gtag('config', 'G-P90XK71HW9');
 
 <div class="container-principal">
         <div class="container-fixo">
-    
-            <div id="ad-container" style="display: none;">
-                <!-- Contêiner para o anúncio Joinads -->
-              
-                <script>
-                    // Verifica a largura da janela
-                    if (window.innerWidth > 840) {
-                        // Torna o contêiner visível
-                        document.getElementById("ad-container").style.display = "block";
-    
-                        // Cria e insere o script do Joinads dinamicamente
-                        var joinadsScript = document.createElement("script");
-                        joinadsScript.async = true;
-                        joinadsScript.src = "https://cdn.joinads.com/joinads.js"; // URL do script do Joinads (substitua pela correta se necessário)
-                        document.head.appendChild(joinadsScript);
-    
-                        // Insere o código do anúncio
-                        var adDiv = document.createElement("div");
-                        adDiv.setAttribute("joinadscode", "Content7");
-                        adDiv.setAttribute("lazyload", "true");
-                        document.getElementById("ad-container").appendChild(adDiv);
+    <!-- Anúncio para Desktop -->
+<div id="ad-desktop" style="display: none;">
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    // Cria e insere o script do Joinads dinamicamente
+                    var joinadsScript = document.createElement("script");
+                    joinadsScript.async = true;
+                    joinadsScript.src = "https://cdn.joinads.com/joinads.js";
+                    document.head.appendChild(joinadsScript);
+            
+                    // Função para inserir o anúncio
+                    function inserirAnuncio(id) {
+                        var adContainer = document.getElementById(id);
+                        if (adContainer) {
+                            adContainer.style.display = "block";
+                            var adDiv = document.createElement("div");
+                            adDiv.setAttribute("joinadscode", "Content7");
+                            adDiv.setAttribute("lazyload", "true");
+                            adContainer.appendChild(adDiv);
+                        }
                     }
-                </script>
+            
+                    // Verifica se está no mobile ou desktop
+                    if (window.innerWidth > 840) {
+                        inserirAnuncio("ad-desktop"); // Mostra no desktop
+                    } else {
+                        inserirAnuncio("ad-mobile"); // Mostra no mobile
+                    }
+                });
+            </script>
     
             </div>
 
@@ -110,7 +117,8 @@ gtag('config', 'G-P90XK71HW9');
   <script src="../alex-java/nav07z-en.js"  defer></script>
   <script src="../Documentos/lazy-load.js"></script>
   
-
+<!-- Anúncio para Mobile -->
+<div id="ad-mobile" style="display: none;"></div>
 
 <header>      
 <div class="text-title">   
@@ -132,11 +140,7 @@ gtag('config', 'G-P90XK71HW9');
 </div>
 </header>  
 
-  <!-- hwa top header heroes guide -->
-  <div class="ad-fold-container">
-    <div joinadscode="Content1"></div>
-  </div>
-    
+  
 
 <div class="content-wrapper">
     <p>
@@ -144,6 +148,11 @@ gtag('config', 'G-P90XK71HW9');
     </p>
 </div>
 
+<!-- hwa top header heroes guide -->
+<div class="ad-fold-container">
+    <div joinadscode="Content1"></div>
+  </div>
+    
 
 
 <!-- second half retirar melhora - pagespeed test</div> -->        
