@@ -90,42 +90,34 @@
 </div>  
 
 <div class="container-principal">
-    <div class="container-fixo">
+  <div class="container-fixo">
 
-        <div id="ad-container" style="display: none;">
-            <!-- Contêiner vazio para o anúncio AdSense que será carregado via JavaScript -->
-         <!-- hwa right side best teams guide - 6539938363 -->
-          
+      <div id="ad-container" style="display: none;">
+          <!-- Contêiner para o anúncio Joinads -->
+        
           <script>
-            // Verifica a largura da janela
-            if (window.innerWidth > 840) {
-              // Torna o contêiner visível
-              document.getElementById("ad-container").style.display = "block";
-          
-              // Cria e insere o script do AdSense dinamicamente
-              var adsenseScript = document.createElement("script");
-              adsenseScript.async = true;
-              adsenseScript.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689";
-              adsenseScript.crossOrigin = "anonymous";
-              document.head.appendChild(adsenseScript);
-          
-              // Insere o código do anúncio
-              var adIns = document.createElement("ins");
-              adIns.className = "adsbygoogle";
-              adIns.style = "display:inline-block;width:300px;height:300px";
-              adIns.setAttribute("data-ad-client", "ca-pub-7838775403194689");
-              adIns.setAttribute("data-ad-slot", "9459223784");
-              document.getElementById("ad-container").appendChild(adIns);
-          
-              // Executa o anúncio
-              adsenseScript.onload = function() {
-                (adsbygoogle = window.adsbygoogle || []).push({});
-              };
-            }
+              // Verifica a largura da janela
+              if (window.innerWidth > 840) {
+                  // Torna o contêiner visível
+                  document.getElementById("ad-container").style.display = "block";
+
+                  // Cria e insere o script do Joinads dinamicamente
+                  var joinadsScript = document.createElement("script");
+                  joinadsScript.async = true;
+                  joinadsScript.src = "https://cdn.joinads.com/joinads.js"; // URL do script do Joinads (substitua pela correta se necessário)
+                  document.head.appendChild(joinadsScript);
+
+                  // Insere o código do anúncio
+                  var adDiv = document.createElement("div");
+                  adDiv.setAttribute("joinadscode", "Content7");
+                  adDiv.setAttribute("lazyload", "true");
+                  document.getElementById("ad-container").appendChild(adDiv);
+              }
           </script>
-          
-     <!-- div para fechar ad fixo lateral ----->
-</div>
+
+      </div>
+
+      
 <div class="menu-fixo">
     <!-- O conteúdo do menu será inserido aqui via JavaScript ------>
 </div>
