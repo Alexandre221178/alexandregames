@@ -10,12 +10,14 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="dropdown">
             <button class="dropbtn">Gameplay Reviews</button>
             <div class="dropdown-content"><br>
-                
+            <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-en.html">Install AppGallery on Android for Hero Wars Discounts</a>   
             <a href="https://alexandregames.com/gaming-guide/review/echoes-of-eternity-game-review-en.html">Echoes of Eternity</a>
-                <a href="https://alexandregames.com/gaming-guide/review/the-dragon-odyssey-gameplay-en.html">The Dragon Odyssey</a>
-                                    
+            <a href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html">Play Hero Wars Alliance on PC & Mac</a> 
+            <a href="https://alexandregames.com/gaming-guide/review/the-dragon-odyssey-gameplay-en.html">The Dragon Odyssey</a>
+                                
                 
                 <br><br><br>
+                  <br><br><br>
             </div>
         </div>    
 
@@ -24,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="dropdown">
 
             <button class="dropbtn">Hero Wars Alliance</button>
-            <div class="dropdown-content">                 
+            <div class="dropdown-content"> <br>                
                 <a href="https://alexandregames.com/herowars-alliance-en.html">HWA - Home</a>
                 <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-en-hwa.html">Best Teams Guide</a>
                 <a href="https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html">Calendar & Events</a>
@@ -36,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <a href="https://alexandregames.com/Hero%20Wars%20English/Titans%20Guide%20Hero%20Wars.html">Titans Guide</a>
                 
                 
-                <br><br><br>
+                <br><br><br><br>
                 
             </div>
         </div>  
@@ -65,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         <div class="dropdown">
             <button class="dropbtn">More Games</button>
-            <div class="dropdown-content">
+            <div class="dropdown-content"><br>
                 <a href="https://alexandregames.com/ragnarok-origin/codes-ragnarok-us.html">Ragnarok ROO</a>
                 <a>_____________</a>
                 <a href="https://alexandregames.com/Documentos/Contact.html">Contact</a>

@@ -10,18 +10,22 @@ document.addEventListener('DOMContentLoaded', () => {
             <button class="dropbtn">Análises de Gameplay</button>
             <div class="dropdown-content"><br>
                 
+            <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-pt.html">Instale o AppGallery no Android para descontos em Hero Wars</a>
             <a href="https://alexandregames.com/gaming-guide/review/echoes-of-eternity-game-review-pt.html">Echoes of Eternity</a>
-                <a href="https://alexandregames.com/gaming-guide/review/the-dragon-odyssey-gameplay-pt.html">The Dragon Odyssey</a>
+            <a href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-pt.html">Jogue Hero Wars Alliance no PC e Mac</a>
+            <a href="https://alexandregames.com/gaming-guide/review/the-dragon-odyssey-gameplay-pt.html">The Dragon Odyssey</a>
                                     
                 
                 <br><br><br>
+                  <br><br><br>
+                 
             </div>
         </div>    
 
 
             <div class="dropdown">
                 <button class="dropbtn">Hero Wars Alliance</button>
-                <div class="dropdown-content">
+                <div class="dropdown-content"><br>
                  
                 <a href="https://alexandregames.com/HeroWars.html">HWA - Início</a>  
                 <a href="https://alexandregames.com/hero-wars-alliance/menu-review-pt-hwa.html">Análises de Skins</a>  
@@ -35,7 +39,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 
                     
-                   <br><br><br>
+                   <br><br><br><br>
+                 
                 </div>  
             </div>   
             
@@ -65,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             <div class="dropdown">
                 <button class="dropbtn">Mais Jogos</button>
-                <div class="dropdown-content">
+                <div class="dropdown-content"><br>
                     <a href="https://alexandregames.com/ragnarok-origin/codigos-ragnarok-br.html">Ragnarok ROO</a>
                     <a>_____________</a>
                     <a href="https://alexandregames.com/Documentos/Contato.html">Contato</a>
