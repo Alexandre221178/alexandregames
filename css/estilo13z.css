@@ -675,6 +675,22 @@ section p{
 }
 
 
+/* imagem review */
+.img-review img{
+    aspect-ratio: 800 / 400; /* Ajusta a proporção para mobile */
+}
+
+
+.img-review img{
+   min-height: 450px;
+    width: auto;
+    height: auto;    
+}
+.img-review-index img{
+       
+    width: 100%;
+    height: auto;
+}
 
     
 
@@ -1584,6 +1600,31 @@ iframe{
        
     }
     .img-banner-index img{
+       
+        width: 100%; 
+        height: auto;
+      
+    }
+
+
+    /* img review */
+    .img-review img{
+        aspect-ratio: 500 / 200; /* Ajusta a proporção para mobile */
+    }
+    
+    
+    .img-review img{
+        min-height: 200px;   
+         
+    }
+    
+    .img-review img{
+       
+        width: 100%; 
+        height: auto;
+       
+    }
+    .img-review-index img{
        
         width: 100%; 
         height: auto;
