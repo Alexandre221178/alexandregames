@@ -62,9 +62,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 <button class="dropbtn"><a href="https://alexandregames.com/roblox-br.html">Roblox PC/Mobile</a></button>
                 
             </div> 
+
 <div class="dropdown">
-            <button><a href="https://alexandregames.com/top-troops/top-troops-pt-home.html">Top Troops</a></button> 
+            <button class="dropbtn">Top Troops</button>
+            <div class="dropdown-content"><br>
+                
+            <a href="https://alexandregames.com/top-troops/top-troops-pt-home.html">Guia de Top Troops</a>
+            <a href="https://alexandregames.com/top-troops/top-troops-heroes-guide-pt.html">Guia de Heróis</a>
+            <a href="https://alexandregames.com/top-troops/top-troops-pt-tier-list.html">Tier List de Classe</a>
+                                    
+                
+                <br><br><br>
             </div>
+        </div>      
 
              <div class="dropdown">
                <button><a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-pt.html">Throne and Liberty</a></button>
