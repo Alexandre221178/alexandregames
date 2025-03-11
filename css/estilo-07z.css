@@ -46,16 +46,32 @@ body{
     order: 1; /* Garante que fique no início (esquerda) */
 }
 
-#ad-desktop, #ad-mobile {
-    width: 300px;
-    height: 250px; /* Mantém o espaço reservado */
-    background-color: #f9f9f9;
+#ad-desktop{ 
+    position: fixed;
+    
+    min-width: 300px; /* Evita que o anúncio fique muito pequeno */
+    min-height: 600px; /* Mantém o espaço reservado */
+    background-color: #e7e7e7;/* cor do fundo do ad */
     /* se quiser deixar bordas no ad: border: 1px dashed #ccc; */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #888;
+    color: #f9f3f3;
+    font-size: 14px;
+    margin: auto;
+}
+#ad-mobile{
+    position: relative;  
+    width: 300px;
+    height: 250px; /* Mantém o espaço reservado */
+    background-color: #f5f5f5;/* cor do fundo do ad */
+    /* se quiser deixar bordas no ad: border: 1px dashed #ccc; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #9a0e0e;
     font-size: 14px;
     margin: auto;
 }
