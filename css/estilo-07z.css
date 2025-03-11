@@ -289,6 +289,25 @@ nav .menu-icon{
     color: black;
   }
 
+  .content-wrapper05 {
+    max-width: auto; /* Limita a largura do conteúdo */
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+  }
+  .content-wrapper05 {
+    min-height: 70px; /* Altura mínima */
+  }
+  .content-wrapper05 p{
+    font-size: 21px; 
+   
+    margin-top: 5px;
+    line-height: 30px;
+    text-align: left;
+  }
+
 
   .content-wrapper {
     max-width: auto; /* Limita a largura do conteúdo */
@@ -1543,6 +1562,16 @@ iframe{
 
      /* Estilos aplicados apenas para telas menores que 768px (dispositivos móveis) */
 
+     .content-wrapper05 {
+        min-height: 120px; /* Altura mínima */
+        background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+      }
+    
+      .content-wrapper05 p {
+          margin-left: 5px;
+          font-size: 18px;
+      }
+     
     .content-wrapper {
         margin-left: 0px;
       min-height: 210px; /* Altura mínima */
