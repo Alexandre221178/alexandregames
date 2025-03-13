@@ -103,6 +103,23 @@
     <div id="link-share" class="share-button link">Link</div>
 </div>
 
+       <button onclick="translatePage()">Traduzir</button>
+<div id="google_translate_element"></div>
+
+<script>
+function translatePage() {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+    document.body.appendChild(script);
+
+    window.googleTranslateElementInit = function() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    };
+}
+</script>
+
+
 <div class="autor">
 <ul>
     <!--Data de Atualização da página USA mês dia,ano-->
@@ -125,6 +142,7 @@
 </script>
 </div>
 
+     
 
 <!-- second half retirar melhora - pagespeed test</div> -->        
 <div id="second-half" class="hidden">
@@ -318,23 +336,7 @@
     <script src="../../alex-java/graphcomments-07z.js" defer></script>
     <script src="../../Documentos/share-en-reddit.js" defer></script>
 
-<button onclick="translatePage()">Translate</button>
-<div id="google_translate_element"></div>
 
-<script>
-window.onload = function() {
-    document.querySelector("button").addEventListener("click", function() {
-        var script = document.createElement("script");
-        script.type = "text/javascript";
-        script.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-        document.body.appendChild(script);
-
-        window.googleTranslateElementInit = function() {
-            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-        };
-    });
-};
-</script>
 
 
 </body>
