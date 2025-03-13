@@ -98,7 +98,7 @@ nav .menu-icon{
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        height: 80px;
+        height: 87px;
     }
     nav .menu-icon{
         cursor: pointer;
@@ -581,8 +581,8 @@ section p{
     font-size: 35px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-left: 30px;
-    margin-top: 5px;
+    margin-left: 3px;
+    margin-top: 3px;
     margin-bottom: 0px;
     text-transform: uppercase;
 }
@@ -670,11 +670,11 @@ section p{
       
 }
 .autor ul li{ 
-    margin: 30px; 
+    margin: 5px; 
     margin-top: 0px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     font-size: 16px;
-    min-height: 50px; /* Altura mínima */
+    min-height: 15px; /* Altura mínima */
     background-color: #ffffff; /* Cor de fundo clara para melhorar contraste #ffffff */
 }
 
@@ -1359,9 +1359,10 @@ iframe{
 
 .share-buttons {
     display: flex;
+    margin-top: 0px;
     gap: 10px;
     min-height: 43px; /* Altura mínima */
-    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste */
 }
 
 .share-buttons a {
@@ -1373,11 +1374,9 @@ iframe{
 .share-buttons a:hover {
     color: rgb(247, 2, 210); /* Cor quando o mouse está sobre a legenda */
 }
- /* botoes compartilhar */
- .share-button {
-    margin-top: 5px;
-    margin-bottom: 0px;
-    margin-left: 30px;
+
+/* Estilização dos botões */
+.share-button {
     display: inline-block;
     padding: 10px;
     font-weight: bold;
@@ -1386,12 +1385,19 @@ iframe{
     border-radius: 5px;
     text-decoration: none;
     font-size: 16px;
+    cursor: pointer;
 }
 
+/* Estilos individuais para cada botão */
+.translate { background-color: #4285F4; } /* Azul do Google Translate */
 .whatsapp { background-color: #1fc55c; }
 .facebook { background-color: #3b5998; }
-.link { background-color: #000000; cursor: pointer; }
-.reddit { background-color: #FF4500; cursor: pointer; }
+.reddit { background-color: #FF4500; }
+.link { background-color: #000000; }
+
+#google_translate_element {
+    min-height: 40px; /* Defina uma altura mínima */
+}
 
 /* inicio video youtube 2024  */
 .video-container {
@@ -1485,14 +1491,7 @@ iframe{
      }
     
      
-     .share-button {
-       
-        margin-top: 1px;
-        margin-bottom: 5px;
-        margin-left: 5px;
-        
-    }
-
+     
     .share-button {
         margin-top: 10px;
         margin-bottom: 5px;
@@ -1518,12 +1517,7 @@ iframe{
         justify-content: center;
     }
 
-    .text-title h1{
-        font-size: 25px;
-        text-transform: uppercase;
-        margin-left: 5px;
-        
-    }
+    
 
     /* Estilos aplicados apenas para telas menores que 768px (dispositivos móveis) */
 
@@ -1602,12 +1596,16 @@ iframe{
             color:#1a1b1bfd
     }
     
+
+    
+
     
     
     .autor ul li{
-        margin: 5px; 
+        margin-left: 5px; 
+        line-height: 15px;
         font-size: 15px;
-        min-height: 70px; /* Altura mínima */
+        min-height: 47px; /* Altura mínima */
     background-color: #ffffff; /* Cor de fundo clara para melhorar contraste #ffffff */
     margin-top: 0px;
     margin-bottom: 0px;
@@ -1824,17 +1822,14 @@ iframe{
 
     .share-button {
         margin-top: 1px;
-        margin-bottom: 5px;
-        margin-left: 5px;
-        
+        margin-bottom: 1px;
+        margin-left: 1px;
+        height: 30px;
         font-size: 12px;
+        padding: 8px; /* Ajusta o padding para manter proporção */
     }
 
-    .share-button {
-        margin-top: 10px;
-        margin-bottom: 15px;
-    }
-    
+   
    
     section p{
         font-size: 19px;
@@ -1856,22 +1851,31 @@ iframe{
         padding: 0,2%;
         text-align: left;
     }
+
+    .text-title h1{
+        font-size: 21px;
+        text-transform: uppercase;
+        margin-left: 1px;
+        
+    }
+
     h1 {
+        
         color: #5105cb;
-        margin-left: 10px;
+        margin-left: 5px;
         padding: 0,2%;
         text-align: left;
     }
     h2 {
         margin-left: 10px;
-        font-size: 22px;
+        font-size: 21px;
         color:  #31017d;
         padding: 0,2%;
         text-align: left;
     }
     h3 {
         margin-left: 10px;
-        font-size: 22px;
+        font-size: 21px;
        
         color: #bc0006;
         padding: 0,2%;
