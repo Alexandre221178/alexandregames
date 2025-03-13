@@ -59,43 +59,41 @@ gtag('config', 'G-P90XK71HW9');
 <body>
 
 <div class="container-principal">
-        <div class="container-fixo">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" 
-            crossorigin="anonymous"></script>
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                function inserirAnuncio(id) {
-                    var adContainer = document.getElementById(id);
-                    if (adContainer) {
-                        adContainer.style.display = "block";
-                        var adDiv = document.createElement("ins");
-                        adDiv.className = "adsbygoogle";
-                        adDiv.style.display = "block";
-                        adDiv.setAttribute("data-ad-client", "ca-pub-7838775403194689");
-                        adDiv.setAttribute("data-ad-slot", "3843707081");
-                        adDiv.setAttribute("data-ad-format", "auto");
-                        adDiv.setAttribute("data-full-width-responsive", "true");
-                        adContainer.appendChild(adDiv);
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    }
-                }
+<div class="container-fixo">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689" 
+    crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        function inserirAnuncio(id) {
+            var adContainer = document.getElementById(id);
+            if (adContainer) {
+                adContainer.style.display = "block";
+                var adDiv = document.createElement("ins");
+                adDiv.className = "adsbygoogle";
+                adDiv.style.display = "block";
+                adDiv.setAttribute("data-ad-client", "ca-pub-7838775403194689");
+                adDiv.setAttribute("data-ad-slot", "3843707081");
+                adDiv.setAttribute("data-ad-format", "auto");
+                adDiv.setAttribute("data-full-width-responsive", "true");
+                adContainer.appendChild(adDiv);
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            }
+        }
+
+        if (window.innerWidth > 840) {
+            inserirAnuncio("ad-desktop"); // Mostra no desktop
+        } else {
+            inserirAnuncio("ad-mobile"); // Mostra no mobile
+        }
+    });
+</script>
         
-                if (window.innerWidth > 840) {
-                    inserirAnuncio("ad-desktop"); // Mostra no desktop
-                } else {
-                    inserirAnuncio("ad-mobile"); // Mostra no mobile
-                }
-            });
-        </script>
-              
-        <div class="menu-fixo">
-            <!-- O conteúdo do menu será inserido aqui via JavaScript -->
-       
-        </div>
-     <!-- Anúncio para Desktop -->
-        <div id="ad-desktop" style="display: block;"> </div>
-   
-       
+<div class="menu-fixo">
+    <!-- O conteúdo do menu será inserido aqui via JavaScript -->
+
+</div>
+<!-- Anúncio para Desktop -->
+<div id="ad-desktop" style="display: block;"> </div>
 </div> 
        
 
@@ -446,7 +444,7 @@ gtag('config', 'G-P90XK71HW9');
 </main>
 
 <!-- adx2 joinads with lazy -->
-<div joinadscode="Content2" lazyload="true"></div>
+
 <!-- adx2 joinads with lazy -->
 
 
