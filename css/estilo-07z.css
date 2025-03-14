@@ -1489,6 +1489,22 @@ iframe{
 }
 
 
+/* Esconde a barra superior do Google Tradutor */
+.goog-te-banner-frame {
+    display: none !important;
+}
+
+/* Esconde o seletor de idiomas do widget */
+.goog-te-gadget {
+    display: none !important;
+}
+
+/* Esconde o iframe interno do Google Tradutor */
+body > .skiptranslate {
+    display: none !important;
+}
+
+
 /* inicio video youtube 2024  */
 .video-container {
     width: 99%;

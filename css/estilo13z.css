@@ -1395,9 +1395,21 @@ iframe{
 .reddit { background-color: #FF4500; }
 .link { background-color: #000000; }
 
-#google_translate_element {
-    min-height: 40px; /* Defina uma altura mínima */
+/* Esconde a barra superior do Google Tradutor */
+.goog-te-banner-frame {
+    display: none !important;
 }
+
+/* Esconde o seletor de idiomas do widget */
+.goog-te-gadget {
+    display: none !important;
+}
+
+/* Esconde o iframe interno do Google Tradutor */
+body > .skiptranslate {
+    display: none !important;
+}
+
 
 /* inicio video youtube 2024  */
 .video-container {
