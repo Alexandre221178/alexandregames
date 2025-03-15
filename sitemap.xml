@@ -43,12 +43,12 @@
 
 <url>
   <loc>https://alexandregames.com/MobileLegends-English.html</loc>
-  <lastmod>2025-02-19T22:03-03:00</lastmod>
+  <lastmod>2025-03-15T20:17-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/MobileLegends.html</loc>
-  <lastmod>2025-02-19T22:03-03:00</lastmod>
+  <lastmod>2025-03-15T20:17-03:00</lastmod>
   <priority>0.85</priority>
 </url>
 
@@ -328,6 +328,7 @@
  <lastmod>2025-01-09T22:26-03:00</lastmod>
   <priority>0.70</priority>
 </url>
+
 <url>
   <loc>https://alexandregames.com/mobile-legends/layla-english.html</loc>
 <lastmod>2025-01-09T22:26-03:00</lastmod>
@@ -336,6 +337,17 @@
 <url>
   <loc>https://alexandregames.com/mobile-legends/layla.html</loc>
  <lastmod>2025-01-09T22:26-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/mobile-legends/lesley-mlbb-en.html</loc>
+<lastmod>2025-03-15T20:17-03:00</lastmod>
+  <priority>0.84</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/mobile-legends/lesley-mlbb-pt.html</loc>
+ <lastmod>2025-03-15T20:17-03:00</lastmod>
   <priority>0.70</priority>
 </url>
 
