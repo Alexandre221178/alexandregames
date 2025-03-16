@@ -1450,7 +1450,7 @@ iframe{
     display: flex;
     margin-top: 0px;
     gap: 10px;
-    min-height: 43px; /* Altura mínima */
+    min-height: 40px; /* Altura mínima */
     background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste */
 }
 
