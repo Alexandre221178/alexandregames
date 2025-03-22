@@ -2,6 +2,13 @@ function translatePage() {
     var userLang = navigator.language || navigator.userLanguage; // Detecta o idioma do navegador
     userLang = userLang.split('-')[0]; // Pega apenas a parte principal do idioma (ex: 'pt' de 'pt-BR')
 
+    var pageLang = 'en'; // Define o idioma original da página
+
+    if (userLang === pageLang) {
+        alert("It is already translated into your language!");
+        return; // Não carrega o tradutor se o idioma já for o mesmo
+    }
+
     if (!window.googleTranslateElementInit) {
         var script = document.createElement("script");
         script.type = "text/javascript";
@@ -10,7 +17,7 @@ function translatePage() {
         
         window.googleTranslateElementInit = function() {
             new google.translate.TranslateElement({
-                pageLanguage: 'en' // Idioma original da página
+                pageLanguage: pageLang // Define o idioma original da página
             }, 'google_translate_element');
 
             setTimeout(() => applyTranslation(userLang), 500); // Aplica a tradução após carregamento
@@ -27,4 +34,3 @@ function applyTranslation(lang) {
         select.dispatchEvent(new Event("change")); // Simula a troca do idioma
     }
 }
-
