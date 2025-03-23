@@ -195,7 +195,7 @@ nav .menu-icon{
 
   .content-wrapper05 {
     max-width: auto; /* Limita a largura do conteúdo */
-    margin-left: 0px;
+    margin-left: 25px;
     margin-top: 5px;
     margin-bottom: 5px;
     box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
@@ -205,7 +205,7 @@ nav .menu-icon{
     min-height: 70px; /* Altura mínima */
   }
   .content-wrapper05 p{
-    font-size: 21px; 
+    font-size: 22px; 
    
     margin-top: 5px;
     line-height: 30px;
@@ -215,7 +215,7 @@ nav .menu-icon{
 
   .content-wrapper {
     max-width: auto; /* Limita a largura do conteúdo */
-    margin-left: 0px;
+    margin-left: 25px;
     margin-top: 5px;
     margin-bottom: 5px;
     box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
@@ -234,7 +234,7 @@ nav .menu-icon{
 
   .content-wrapper2 {
     max-width: auto; /* Limita a largura do conteúdo */
-    margin-left: 0px;
+    margin-left: 25px;
     margin-top: 5px;
     margin-bottom: 5px;
     box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
@@ -244,7 +244,7 @@ nav .menu-icon{
     min-height: 135px; /* Altura mínima */
   }
   .content-wrapper2 p{
-    font-size: 21px; 
+    font-size: 22px; 
    
     margin-top: 5px;
     line-height: 30px;
@@ -1405,11 +1405,11 @@ iframe{
     display: none !important;
 }
 
-/* Esconde o iframe interno do Google Tradutor */
+/* Esconde o iframe interno do Google Tradutor 
 body > .skiptranslate {
     display: none !important;
 }
-
+*/
 
 /* inicio video youtube 2024  */
 .video-container {
@@ -1539,8 +1539,8 @@ body > .skiptranslate {
       }
     
       .content-wrapper05 p {
-          margin-left: 5px;
-          font-size: 18px;
+          margin-left: 0px;
+          font-size: 19px;
       }
 
 
@@ -1550,8 +1550,8 @@ body > .skiptranslate {
       }
     
       .content-wrapper p {
-          margin-left: 5px;
-          font-size: 18px;
+          margin-left: 0px;
+          font-size: 19px;
       }
     
       .content-wrapper2 {
@@ -1560,8 +1560,8 @@ body > .skiptranslate {
       }
     
       .content-wrapper2 p {
-          margin-left: 5px;
-          font-size: 18px;
+          margin-left: 0px;
+          font-size: 19px;
       }
 
       .content-wrapper05 {
@@ -1570,7 +1570,7 @@ body > .skiptranslate {
       }
     
       .content-wrapper05 p {
-          margin-left: 5px;
+          margin-left: 0px;
           font-size: 18px;
       }
     
