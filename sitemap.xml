@@ -43,12 +43,12 @@
 
 <url>
   <loc>https://alexandregames.com/MobileLegends-English.html</loc>
-  <lastmod>2025-03-19T23:11-03:00</lastmod>
+  <lastmod>2025-03-23T13:08-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/MobileLegends.html</loc>
-  <lastmod>2025-03-19T23:11-03:00</lastmod>
+  <lastmod>2025-03-23T13:08-03:00</lastmod>
   <priority>0.85</priority>
 </url>
 
@@ -529,6 +529,17 @@
 <url>
   <loc>https://alexandregames.com/mobile-legends/article-mlbb/gold-lane-guide-pt-mlbb.html</loc>
   <lastmod>2024-09-20T21:40-03:00</lastmod>
+  <priority>0.78</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/mobile-legends/article-mlbb/roam-guide-mlbb-en.html</loc>
+  <lastmod>2025-03-23T13:08-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/mobile-legends/article-mlbb/roam-guide-mlbb-pt.html</loc>
+  <lastmod>2025-03-23T13:08-03:00</lastmod>
   <priority>0.78</priority>
 </url>
 
