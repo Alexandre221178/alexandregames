@@ -48,7 +48,9 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="dropdown-content"><br>
                 
             <a href="https://alexandregames.com/MobileLegends-English.html">Heroes Guide</a>
-                <a href="https://alexandregames.com/mobile-legends/article-mlbb/tier-list-mlbb-en.html">MLBB - Tier List</a>
+            <a href="https://alexandregames.com/mobile-legends/article-mlbb/tier-list-mlbb-en.html">MLBB Tier List</a>
+            <a href="https://alexandregames.com/mobile-legends/article-mlbb/gold-lane-guide-en-mlbb.html">Gold Lane Guide</a>
+            <a href="https://alexandregames.com/mobile-legends/article-mlbb/roam-guide-mlbb-en.html">Roam Lane Guide</a>          
                                     
                 
                 <br><br><br>
