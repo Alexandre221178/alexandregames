@@ -9,12 +9,12 @@
 
 <url>
   <loc>https://alexandregames.com</loc>
-  <lastmod>2025-03-16T18:12-03:00</lastmod>
+  <lastmod>2025-03-29T16:56-03:000</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/index-pt.html</loc>
-  <lastmod>2025-03-16T18:12-03:00</lastmod>
+  <lastmod>2025-03-29T16:56-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -2516,6 +2516,20 @@
 </url>
 
 <!-- fim ragnarok SiteMap Alexandre Games -->
+
+<!-- inicio AFK Journey SiteMap Alexandre Games -->
+<url>
+  <loc>https://alexandregames.com/afk-journey/promo-codes/afk-journey-promo-codes-en.html</loc>
+  <lastmod>2025-03-29T16:56-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/afk-journey/promo-codes/afk-journey-promo-codes-pt.html</loc>
+  <lastmod>22025-03-29T16:56-03:00</lastmod>
+  <priority>0.90</priority>
+</url>
+
+<!-- fim AFK Journey SiteMap Alexandre Games -->
 
 <!-- inicio top troops SiteMap Alexandre Games -->
 
