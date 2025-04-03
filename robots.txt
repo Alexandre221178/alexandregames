@@ -1,4 +1,4 @@
-#robot.txt_Alexndre_Games
+# robots.txt para Alexandre Games
 
 User-Agent: *
 Allow: /
@@ -9,7 +9,7 @@ Allow: /ads.txt
 Sitemap: https://alexandregames.com/sitemap.xml
 
 User-agent: AhrefsBot
-Allow: /sitemap.xml
+Allow: /
 
 User-agent: OpenAI
 Disallow: /
