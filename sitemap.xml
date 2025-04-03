@@ -2535,12 +2535,12 @@
 
 <url>
   <loc>https://alexandregames.com/top-troops/top-troops-heroes-guide-en.html</loc>
-  <lastmod>2025-03-31T22:38-03:00</lastmod>
+  <lastmod>2025-04-02T22:04-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/top-troops/top-troops-heroes-guide-pt.html</loc>
-  <lastmod>2025-03-31T22:38-03:00</lastmod>
+  <lastmod>2025-04-02T22:04-03:00</lastmod>
   <priority>0.85</priority>
 </url>
 
@@ -2721,6 +2721,17 @@
 <url>
   <loc>https://alexandregames.com/top-troops/heroes-guide/ose-guide-pt.html</loc>
   <lastmod>2025-02-05T23:05-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/top-troops/heroes-guide/rainbow-chariot-guide-en.html</loc>
+  <lastmod>2025-04-02T22:04-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/top-troops/heroes-guide/rainbow-chariot-guide-pt.html</loc>
+  <lastmod>2025-04-02T22:04-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 
