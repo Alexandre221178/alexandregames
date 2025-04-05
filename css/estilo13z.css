@@ -1412,6 +1412,63 @@ body > .skiptranslate {
 }
 */
 
+/* inicio table best teams  */
+.team-table-wrapper {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .team-table-wrapper .team-table-header,
+  .team-table-wrapper .team-table-row {
+    display: table-row;
+  }
+
+  .team-table-wrapper .team-table-header div,
+  .team-table-wrapper .team-table-row div {
+    display: table-cell;
+    border: 1px solid #ccc;
+    padding: 8px;
+    vertical-align: middle;
+  }
+
+  .team-table-wrapper .team-table-header {
+    font-weight: bold;
+    background-color: #f4f4f4;
+  }
+
+  .team-table-wrapper ol.team-list {
+    counter-reset: team-counter;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .team-table-wrapper ol.team-list li {
+    counter-increment: team-counter;
+    display: table-row;
+  }
+
+  .team-table-wrapper ol.team-list li::before {
+    content: counter(team-counter);
+    display: table-cell;
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 50px;
+    text-align: center;
+    background-color: #fff;
+  }
+
+  .team-table-wrapper .team-name {
+    display: table-cell;
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+
+  .team-table-wrapper .team-table-body {
+    display: table-row-group;
+  }
+  /* fim table best teams  */
 /* inicio video youtube 2024  */
 .video-container {
     width: 99%;
