@@ -107,7 +107,7 @@
   <priority>0.84</priority>
 </url>
 
-<!-- inicio Mobile Legens MLBB-heroes Alexandre Games -->
+<!-- inicio sitemap mobile legens MLBB-heroes Alexandre Games -->
 
 <url>
   <loc>https://alexandregames.com/mobile-legends/aamon-en-mlbb.html</loc>
@@ -506,10 +506,10 @@
   <priority>0.78</priority>
 </url>
 
-<!-- fim Mobile Legens heroes Alexandre Games -->
+<!-- fim sitemap Mobile Legens heroes Alexandre Games -->
 
 
-<!-- inicio Mobile Legens articles Alexandre Games -->
+<!-- inicio sitemap Mobile Legens articles Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/mobile-legends/article-mlbb/tier-list-mlbb-en.html</loc>
   <lastmod>2025-03-24T20:51-03:00</lastmod>
@@ -544,12 +544,10 @@
 </url>
 
 
-
-<!-- fim Mobile Legens articles Alexandre Games -->
-
+<!-- fim sitemap mobile legens articles Alexandre Games -->
 
 
-<!-- Hero Wars Guia de Herois Alexandre Games -->
+<!-- sitemap hero wars alliance guia de herois Alexandre Games -->
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Aidan-%20English.html</loc>
@@ -1345,9 +1343,9 @@
  <lastmod>2025-01-09T21:57-03:00</lastmod>
   <priority>0.51</priority>
 </url>
-<!-- fim guia de Herois SiteMap Alexandre Games -->
+<!-- fim sitemap guia de Herois SiteMap Alexandre Games -->
 
-<!-- inicio Titans SiteMap Alexandre Games -->
+<!-- inicio sitemap titans SiteMap Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Tit%C3%A3s%20Hero%20Wars/Amon-English.html</loc>
   <lastmod>2024-11-21T15:14:00-03:00</lastmod>
@@ -1535,10 +1533,10 @@
   <priority>0.75</priority>
 </url>
 
-<!-- fim Titans SiteMap Alexandre Games -->
+<!-- fim sitemap titans SiteMap Alexandre Games -->
 
 
-<!-- inicio articles SiteMap Alexandre Games -->
+<!-- inicio sitemap articles SiteMap Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/Hero%20Wars%20English/Strategies%20for%20Hydras%20Hero%20Wars.html</loc>
   <lastmod>2025-02-03T23:23-03:00</lastmod>
@@ -1728,9 +1726,9 @@
 
 
 
-<!-- fim artigos Hero wars articles Hero Wars guide hero wars SiteMap Alexandre Games -->
+<!-- fim sitemap artigos Hero wars articles Hero Wars guide hero wars SiteMap Alexandre Games -->
 
-<!-- inicio review Skin analises de skin SiteMap Alexandre Games -->
+<!-- inicio sitemap review skin analises de skin SiteMap Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/review/masquerade-skin-satori-folio-kayla-en.html</loc>
   <lastmod>2025-04-06T17:23-03:00</lastmod>
@@ -1920,9 +1918,9 @@
 </url>
 
 
-<!-- fim review Skin analises de skin SiteMap Alexandre Games -->
+<!-- fim sitemap review skin analises de skin SiteMap Alexandre Games -->
 
-<!-- inicio dicas de eventos event- SiteMap Alexandre Games -->
+<!-- inicio sitemap dicas de eventos event- SiteMap Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html</loc>
   <lastmod>2025-03-22T22:22-03:00</lastmod>
@@ -2221,9 +2219,9 @@
 
 
 
-<!-- fim eventos dicas de events SiteMap Alexandre Games -->
+<!-- fim sitemap eventos dicas de events SiteMap Alexandre Games -->
 
-<!-- inicio best-teams- hero wars alliance Alexandre Games -->
+<!-- inicio sitemap best-teams- hero wars alliance Alexandre Games -->
 
 
 <url>
@@ -2337,10 +2335,21 @@
   <lastmod>2024-08-18T20:35-03:00</lastmod>
   <priority>0.60</priority>
 </url>
-<!-- fim best teams hero wars alliance Alexandre Games -->
+<!-- fim sitemap best teams hero wars alliance Alexandre Games -->
 
 
-<!-- inicio Roblox-SiteMap Alexandre Games -->
+<!-- inicio sitemap roblox Roblox Alexandre Games -->
+<url>
+  <loc>https://alexandregames.com/roblox/roblox-guide/forsaken-survivor-guide-en.html</loc>
+  <lastmod>2025-04-12T18:27-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/roblox/roblox-guide/forsaken-survivor-guide-pt.html</loc>
+  <lastmod>2025-04-12T18:27-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
 <url>
   <loc>https://alexandregames.com/roblox/roblox-guide/5-tips-adoptme-roblox-en.html</loc>
   <lastmod>2025-02-09T14:36-03:00</lastmod>
@@ -2472,11 +2481,9 @@
   <priority>0.61</priority>
 </url>
 
+<!-- fim sitemap roblox SiteMap Alexandre Games -->
 
-
-<!-- fim Roblox SiteMap Alexandre Games -->
-
-<!-- inicio Throne and Liberty SiteMap Alexandre Games -->
+<!-- inicio sitemap throne and liberty sitemap Alexandre Games -->
 <!-- Menu Throne and Liberty SiteMap Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-en.html</loc>
@@ -2523,9 +2530,9 @@
   <lastmod>2025-01-20T20:51-03:00</lastmod>
   <priority>0.70</priority>
 </url>
-<!-- fim Throne and Liberty SiteMap Alexandre Games -->
+<!-- fim sitemap throne and liberty Alexandre Games -->
 
-<!-- inicio ragnarok SiteMap Alexandre Games -->
+<!-- inicio sitemap ragnarok Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/ragnarok-origin/codes-ragnarok-us.html</loc>
   <lastmod>2025-03-29T15:29:00-03:00</lastmod>
@@ -2537,9 +2544,9 @@
   <priority>0.90</priority>
 </url>
 
-<!-- fim ragnarok SiteMap Alexandre Games -->
+<!-- fim sitemap ragnarok Alexandre Games -->
 
-<!-- inicio AFK Journey Guide SiteMap Alexandre Games -->
+<!-- inicio sitemap afk journey Guide Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/afk-journey/promo-codes/afk-journey-promo-codes-en.html</loc>
   <lastmod>2025-04-03T22:47-03:00</lastmod>
@@ -2551,9 +2558,9 @@
   <priority>0.90</priority>
 </url>
 
-<!-- fim AFK Journey Guide SiteMap Alexandre Games -->
+<!-- fim sitemap afk journey Guide Alexandre Games -->
 
-<!-- inicio AFK Journey characters SiteMap Alexandre Games -->
+<!-- inicio afk journey characters SiteMap Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/afk-journey/afk-characters/faramor-guide-en.html</loc>
   <lastmod>2025-04-04T22:16-03:00</lastmod>
@@ -2565,9 +2572,9 @@
   <priority>0.90</priority>
 </url>
 
-<!-- fim AFK Journey characters SiteMap Alexandre Games -->
+<!-- fim afk journey characters sitemap Alexandre Games -->
 
-<!-- inicio top troops SiteMap Alexandre Games -->
+<!-- inicio top troops sitemap Alexandre Games -->
 
 <url>
   <loc>https://alexandregames.com/top-troops/top-troops-heroes-guide-en.html</loc>
@@ -2646,10 +2653,10 @@
   <priority>0.60</priority>
 </url>
 
-<!-- fim top troops SiteMap Alexandre Games -->
+<!-- fim top troops sitemap Alexandre Games -->
 
 
-<!-- inicio top troops heroes guide SiteMap Alexandre Games -->
+<!-- inicio top troops heroes guide sitemap Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/top-troops/heroes-guide/amethyst-claymore-guide-en.html</loc>
   <lastmod>2025-04-07T22:46-03:00</lastmod>
