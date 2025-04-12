@@ -486,7 +486,7 @@ p {
 
 h1 {
     color: #5105cb;
-    
+   
     padding: 0,2%;
     text-align: left;
     margin-top: 10px;
@@ -569,7 +569,7 @@ section p{
 }
 /* texto do título */
 .text-bx h1{
-    font-size: 3rem;
+    
     text-transform: uppercase;
     margin-bottom: 0px;
     
@@ -578,9 +578,8 @@ section p{
 
 /* text title do título novo */
 .text-title h1{
-    font-size: 35px;
+    font-size: 33px;
     font-weight: bold;
-    text-transform: uppercase;
     margin-left: 3px;
     margin-top: 3px;
     margin-bottom: 0px;
@@ -1936,7 +1935,7 @@ body > .skiptranslate {
     }
 
     h1 {
-        
+        font-size: 21px;
         color: #5105cb;
         margin-left: 5px;
         padding: 0,2%;

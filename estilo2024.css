@@ -452,7 +452,7 @@ section p{
 }
 /* texto do título */
 .text-bx h1{
-    font-size: 3rem;
+   
     text-transform: uppercase;
     margin-bottom: 0px;
     
@@ -461,7 +461,7 @@ section p{
 
 /* text title do título novo */
 .text-title h1{
-    font-size: 40px;
+    font-size: 33px;
     font-weight: bold;
     text-transform: uppercase;
     margin-left: 30px;
