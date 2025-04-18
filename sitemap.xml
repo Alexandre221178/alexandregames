@@ -20,13 +20,13 @@
 
 <url>
   <loc>https://alexandregames.com/herowars-alliance-en.html</loc>
-  <lastmod>2025-04-13T18:20-03:00</lastmod>
+  <lastmod>2025-04-17T21:51-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/HeroWars.html</loc>
-  <lastmod>2025-04-13T18:20-03:00</lastmod>
+  <lastmod>2025-04-17T21:51-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -1923,12 +1923,12 @@
 <!-- inicio sitemap dicas de eventos event- SiteMap Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html</loc>
-  <lastmod>2025-04-13T10:12-03:00</lastmod>
+  <lastmod>2025-04-17T21:51-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html</loc>
-  <lastmod>2025-04-13T10:12-03:00</lastmod>
+  <lastmod>2025-04-17T21:51-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
@@ -2217,9 +2217,18 @@
   <priority>0.60</priority>
 </url>
 
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-special-hwa/spring-festival-2025-en.html</loc>
+  <lastmod>2025-04-17T21:51-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-special-hwa/spring-festival-2025-pt.html</loc>
+  <lastmod>2025-04-17T21:51-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
 
-
-<!-- fim sitemap eventos dicas de events SiteMap Alexandre Games -->
+<!-- fim sitemap event-special eventos dicas de events SiteMap Alexandre Games -->
 
 <!-- inicio sitemap best-teams- hero wars alliance Alexandre Games -->
 
