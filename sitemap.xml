@@ -2587,12 +2587,12 @@
 
 <url>
   <loc>https://alexandregames.com/top-troops/top-troops-heroes-guide-en.html</loc>
-  <lastmod>2025-04-03T22:40-03:00</lastmod>
+  <lastmod>2025-04-18T20:31-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/top-troops/top-troops-heroes-guide-pt.html</loc>
-  <lastmod>2025-04-03T22:40-03:00</lastmod>
+  <lastmod>2025-04-18T20:31-03:00</lastmod>
   <priority>0.85</priority>
 </url>
 
@@ -2752,6 +2752,17 @@
 <url>
   <loc>https://alexandregames.com/top-troops/heroes-guide/frozen-heart-guide-en.html</loc>
   <lastmod>2025-04-07T23:05-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/top-troops/heroes-guide/juggernaut-en.html</loc>
+ <lastmod>2025-04-18T20:31-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/top-troops/heroes-guide/juggernaut-pt.html</loc>
+  <lastmod>2025-04-18T20:31-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 
