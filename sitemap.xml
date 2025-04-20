@@ -9,12 +9,12 @@
 
 <url>
   <loc>https://alexandregames.com</loc>
-  <lastmod>2025-04-04T22:16-03:00</lastmod>
+  <lastmod>2025-04-20T14:51-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/index-pt.html</loc>
-  <lastmod>2025-04-04T22:16-03:00</lastmod>
+  <lastmod>2025-04-20T14:51-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -2570,6 +2570,17 @@
 <!-- fim sitemap afk journey Guide Alexandre Games -->
 
 <!-- inicio afk journey characters SiteMap Alexandre Games -->
+<url>
+  <loc>https://alexandregames.com/afk-journey/afk-characters/shemira-guide-en.html</loc>
+  <lastmod>2025-04-20T14:51-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/afk-journey/afk-characters/shemira-guide-pt.html</loc>
+  <lastmod>2025-04-20T14:51-03:00</lastmod>
+  <priority>0.90</priority>
+</url>
+
 <url>
   <loc>https://alexandregames.com/afk-journey/afk-characters/faramor-guide-en.html</loc>
   <lastmod>2025-04-04T22:16-03:00</lastmod>
