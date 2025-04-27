@@ -1111,6 +1111,36 @@ img-middle figcaption {
     
 }
 
+/* imagens 150px */    
+/* imagens 150px */
+.img-150px {
+    width: 155px;
+    height: auto; /* Melhor deixar automático */
+    margin: 10px; /* Dá espaço entre as divs */
+    text-align: center;
+    display: inline-block; /* Para alinhar em linha mas com espaçamento */
+    vertical-align: top; /* Para alinhar pela parte de cima */
+}
+
+.img-150px img {
+    width: 80%; /* Preenche o espaço certinho */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.hero-name {
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hero-name:hover {
+    color: red;
+}
+
+
 
 /* Contêiner principal para organizar as imagens */
 /* imagens do menu guia de heróis */    
@@ -1879,7 +1909,10 @@ body > .skiptranslate {
         height: 100%;
         border: 4px solid #5654b3;
     }
-    
+
+    .img-150px img{
+        width: 60%;
+    }
 
     .emblem {
        
