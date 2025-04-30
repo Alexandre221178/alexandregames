@@ -45,12 +45,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="dropdown">
 
-    <button class="dropbtn">Hero Wars: Dominion Era</button>
+<button class="dropbtn">Hero Wars: Dominion Era</button>
     <div class="dropdown-content"> <br>  
-
-        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totems-guide-en.html">Best Totems Guide</a>
-        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/pets-tier-list-en.html">PET Tier List</a>
-       
+    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-en.html">Heroes Tier List</a>
+    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totems-guide-en.html">Best Totems Guide</a>
+    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/pets-tier-list-en.html">PET Tier List</a>
+    
         
         
         
