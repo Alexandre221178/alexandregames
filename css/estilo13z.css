@@ -1075,6 +1075,19 @@ margin-left: 30px;
    font-size: 20px;
 }
 
+.emblem {
+    border: 1px solid #ccc; /* Moldura cinza claro */
+    border-radius: 6px;     /* Bordas levemente arredondadas */
+    padding: 10px;          /* Espaço interno opcional */
+    background-color: #f9f9f9; /* Fundo suave para destacar a moldura (opcional) */
+  }
+
+  .emblem img{
+    border: 3px solid #bab7b7; /* Moldura cinza claro */
+    border-radius: 1px;     /* Bordas levemente arredondadas */
+    
+  }
+
 
 .img-middle {
     margin-left: 40px;
