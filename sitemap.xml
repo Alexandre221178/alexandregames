@@ -3013,12 +3013,23 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/characters/lyria-en.html</loc>
   <lastmod>2025-05-01T17:34-03:00</lastmod>
-  <priority>1.00</priority>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/characters/lyria-pt.html</loc>
   <lastmod>2025-05-01T17:34-03:00</lastmod>
-  <priority>0.98</priority>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/characters/thea-en.htmll</loc>
+  <lastmod>2025-05-01T17:34-03:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/characters/thea-en.html</loc>
+  <lastmod>2025-05-01T17:34-03:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
