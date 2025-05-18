@@ -1030,7 +1030,7 @@ margin-left: 30px;
     margin: left;
     display: block; /* Imagem tratada com elemento de bloco */
      /* margin: auto; Centraliza a imagem na div */
-    width: 20%; /* Define a imagem para 50% do tamanho original */
+    width: 13%; /* Define a imagem para 50% do tamanho original */
     height: auto; /* Mantém a proporção da imagem */
 }
 
