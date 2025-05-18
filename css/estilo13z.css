@@ -73,7 +73,6 @@ body{
 
 
 
-
 nav{
     display:flex;
      /* cor do fundo do no nav #e3f0ff */
@@ -541,7 +540,7 @@ form {
 
 
 a {
-    text-decoration: none !important; /* Remove o sublinhado */
+     /* Remove o sublinhado:  text-decoration: none !important;   */
     color: #24084f; /* Define a cor azul escuro */
     font-weight: bold; /* Deixa o texto em negrito */
   }

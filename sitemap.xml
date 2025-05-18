@@ -3027,13 +3027,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-en.html</loc>
-  <lastmod>2025-05-17T16:15-03:00</lastmod>
+  <lastmod>2025-05-17T23:04-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-pt.html</loc>
-  <lastmod>2025-05-17T16:15-03:00</lastmod>
+  <lastmod>2025-05-17T23:04-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3083,6 +3083,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/characters/lyria-pt.html</loc>
   <lastmod>2025-05-13T21:52-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/characters/orion-en.html</loc>
+  <lastmod>2025-05-17T23:04-03:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/characters/orion-pt.html</loc>
+  <lastmod>2025-05-17T23:04-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
