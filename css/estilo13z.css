@@ -1123,35 +1123,43 @@ img-middle figcaption {
     
 }
 
-/* imagens 150px */    
 /* imagens 150px */
 .img-150px {
     width: 155px;
-    height: auto; /* Melhor deixar automático */
-    margin: 10px; /* Dá espaço entre as divs */
+    height: auto;
+    margin: 10px;
     text-align: center;
-    display: inline-block; /* Para alinhar em linha mas com espaçamento */
-    vertical-align: top; /* Para alinhar pela parte de cima */
+    display: inline-block;
+    vertical-align: top;
 }
 
 .img-150px img {
-    width: 80%; /* Preenche o espaço certinho */
+    width: 80%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
 
-.hero-name {
-    margin-top: 3px;
-    margin-bottom: 10px;
+.img-150px a:hover img {
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.img-150px a {
+   text-decoration: none
+}
+
+/* Remove o underline do nome do herói (link) */
+.hero-name a {
+    text-decoration: none !important; /* Garante que o sublinhado seja removido */
+    color: inherit;
     font-weight: bold;
-    text-decoration: none;
 }
 
-.hero-name:hover {
-    color: red;
+.hero-name a:hover {
+    color: red; /* Cor ao passar o mouse, se desejar */
 }
-
 
 
 /* Contêiner principal para organizar as imagens */
