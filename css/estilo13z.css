@@ -700,15 +700,15 @@ section p{
 
 /* imagem review */
 .img-review img{
-    aspect-ratio: 800 / 450; /* Ajusta a proporção para mobile */
+    aspect-ratio: 600 / 340; /* Ajusta a proporção era 800x450*/
 }
 
 
 .img-review img{
 margin-left: 30px;
-   min-height: 450px;
-    width: auto;
-    height: auto;    
+   min-height: 340px; /* estava 450*/
+    width: 70%; /* estava 100*/
+      
 }
 .img-review-index img{
        
