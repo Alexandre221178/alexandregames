@@ -1134,7 +1134,7 @@ img-middle figcaption {
 }
 
 .img-150px img {
-    width: 80%;
+    width: 67%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -1931,7 +1931,8 @@ body > .skiptranslate {
     }
 
     .img-150px img{
-        width: 60%;
+        margin-left: 3px;
+        width: 47%;
     }
 
     .emblem {
@@ -1941,7 +1942,7 @@ body > .skiptranslate {
 
     .hero-tierlist img{
         font-size: 108px;
-        width: 40%; /* ajusta para 1 imagem por linha em telas muito pequenas */
+        width: 23%; /* ajusta para 1 imagem por linha em telas muito pequenas */
         height: auto; /* altura automática para manter a proporção */    
         margin-bottom: 20px;
         font-size: 20px;
