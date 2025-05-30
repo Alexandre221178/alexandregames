@@ -326,7 +326,15 @@ nav .menu-icon{
   
   /* Fake image, just for this example */
 
-
+.social-title {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5em; /* footer follow alexandre games */
+}
+#social-links {
+  text-align: center;/* footer follow alexandre games */
+}
 
 /* cor botao fundo pt-br 
 .buttonEnglish a{
