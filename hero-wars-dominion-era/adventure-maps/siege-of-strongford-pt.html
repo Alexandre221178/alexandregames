@@ -159,29 +159,34 @@
 >
   Copiar Rotas
 </button>
-<span id="copy-message" style="margin-left: 10px; color: green; font-weight: bold; display: none;">Copiado!</span>
+<span id="copy-message" style="margin-left: 10px; color: green; font-weight: bold; display: none;">
+  Copiado!
+</span>
 
-<ul>
-  <li><strong>Rota Azul:</strong> 02 → 06 → 10 → 15 → 20 → 14 → 24 → 29 → 25 → 36 → 39 → 42 → 44 → Chefe (2 ataques)</li>
-  <li><strong>Rota Amarela:</strong> 03 → 08 → 12 → 11 → 07 → 16 → 21 → 26 → 30 → 31 → 32 → 35 → 37 → 40 → Chefe</li>
-  <li><strong>Rota Verde:</strong> 03 → 04 → 13 → 19 → 18 → 23 → 17 → 22 → 38 → 41 → 43 → 46 → Chefe (3 ataques)</li>
+<ul style="list-style: none; padding-left: 0;">
+  <li style="margin-bottom: 10px;"><strong>Caminho Azul:</strong> 02 → 06 → 10 → 15 → 20 → 14 → 24 → 29 → 25 → 36 → 39 → 42 → 44 → Chefe (acertar 2 vezes)</li>
+  <li style="margin-bottom: 10px;"><strong>Caminho Amarelo:</strong> 03 → 08 → 12 → 11 → 07 → 16 → 21 → 26 → 30 → 31 → 32 → 35 → 37 → 40 → Chefe</li>
+  <li style="margin-bottom: 10px;"><strong>Caminho Verde:</strong> 03 → 04 → 13 → 19 → 18 → 23 → 17 → 22 → 38 → 41 → 43 → 46 → Chefe (acertar 3 vezes)</li>
 </ul>
 
 <script>
   function copyRoutes() {
     const routes = `Azul: 02-06-10-15-20-14-24-29-25-36-39-42-44-Chefe(x2)
-Amarela: 03-08-12-11-07-16-21-26-30-31-32-35-37-40-Chefe
-Verde: 03-04-13-19-18-23-17-22-38-41-43-46-Chefe(x3)`;
+Amarelo: 03-08-12-11-07-16-21-26-30-31-32-35-37-40-Chefe
+Verde: 03-04-13-19-18-23-17-22-38-41-43-46-Chefe(x3)
+
+Mais detalhes: https://alexandregames.com/hero-wars-dominion-era/adventure-maps/siege-of-strongford-pt.html`;
 
     navigator.clipboard.writeText(routes).then(() => {
       const msg = document.getElementById('copy-message');
       msg.style.display = 'inline';
       setTimeout(() => {
         msg.style.display = 'none';
-      }, 2000); // Exibir por 2 segundos
+      }, 2000); // Mostrar por 2 segundos
     });
   }
 </script>
+
 
 <p>Coordene a destruição das torres com seus colegas de equipe. Por exemplo, espere nos nós críticos de torre como 14, 16 e 24 antes de limpá-los, permitindo que todos os jogadores aproveitem os buffs e enfraqueçam os inimigos no mapa.</p>
 <p>A estrutura do mapa exige movimentação estratégica para otimizar os Pontos de Ação. Mova-se apenas quando necessário e evite sobrepor os caminhos dos aliados.</p>

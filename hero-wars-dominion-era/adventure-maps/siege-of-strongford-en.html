@@ -166,26 +166,30 @@
 >
   Copy Routes
 </button>
-<span id="copy-message" style="margin-left: 10px; color: green; font-weight: bold; display: none;">Copied!</span>
+<span id="copy-message" style="margin-left: 10px; color: green; font-weight: bold; display: none;">
+  Copied!
+</span>
 
-<ul>
-  <li><strong>Blue Path:</strong> 02 → 06 → 10 → 15 → 20 → 14 → 24 → 29 → 25 → 36 → 39 → 42 → 44 → Boss (hit 2 times)</li>
-  <li><strong>Yellow Path:</strong> 03 → 08 → 12 → 11 → 07 → 16 → 21 → 26 → 30 → 31 → 32 → 35 → 37 → 40 → Boss</li>
-  <li><strong>Green Path:</strong> 03 → 04 → 13 → 19 → 18 → 23 → 17 → 22 → 38 → 41 → 43 → 46 → Boss (hit 3 times)</li>
+<ul style="list-style: none; padding-left: 0;">
+  <li style="margin-bottom: 10px;"><strong>Blue Path:</strong> 02 → 06 → 10 → 15 → 20 → 14 → 24 → 29 → 25 → 36 → 39 → 42 → 44 → Boss (hit 2 times)</li>
+  <li style="margin-bottom: 10px;"><strong>Yellow Path:</strong> 03 → 08 → 12 → 11 → 07 → 16 → 21 → 26 → 30 → 31 → 32 → 35 → 37 → 40 → Boss</li>
+  <li style="margin-bottom: 10px;"><strong>Green Path:</strong> 03 → 04 → 13 → 19 → 18 → 23 → 17 → 22 → 38 → 41 → 43 → 46 → Boss (hit 3 times)</li>
 </ul>
 
 <script>
   function copyRoutes() {
     const routes = `Blue: 02-06-10-15-20-14-24-29-25-36-39-42-44-Boss(x2)
 Yellow: 03-08-12-11-07-16-21-26-30-31-32-35-37-40-Boss
-Green: 03-04-13-19-18-23-17-22-38-41-43-46-Boss(x3)`;
+Green: 03-04-13-19-18-23-17-22-38-41-43-46-Boss(x3)
+
+More details: https://alexandregames.com/hero-wars-dominion-era/adventure-maps/siege-of-strongford-en.html`;
 
     navigator.clipboard.writeText(routes).then(() => {
       const msg = document.getElementById('copy-message');
       msg.style.display = 'inline';
       setTimeout(() => {
         msg.style.display = 'none';
-      }, 2000); // Some for 2 seconds
+      }, 2000); // Show for 2 seconds
     });
   }
 </script>
