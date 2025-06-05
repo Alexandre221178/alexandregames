@@ -40,6 +40,12 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Comunidade Discord"
         },
         {
+            href: "https://store.alexandregames.com/",
+            src: "https://alexandregames.com/imagens/store.webp",
+            alt: "store",
+            title: "Comunidade Discord"
+        },
+        {
             href: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY",
             src: "https://alexandregames.com/imagens/logo-whatsapp.webp",
             alt: "Comunidade no WhatsApp",
