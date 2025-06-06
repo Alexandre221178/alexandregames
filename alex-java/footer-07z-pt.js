@@ -28,6 +28,12 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Alexandre Games Facebook"
         },
         {
+            href: "https://www.instagram.com/alexandregames.oficial/",
+            src: "https://alexandregames.com/imagens/instagram.webp",
+            alt: "Alexandre Games Instagram",
+            title: "Alexandre Games Instagram"
+        },
+        {
             href: "https://www.twitch.tv/ytalexandre",
             src: "https://alexandregames.com/imagens/twitchblack.webp",
             alt: "Alexandre Games Twitch",
@@ -42,8 +48,8 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             href: "https://store.alexandregames.com/",
             src: "https://alexandregames.com/imagens/store.webp",
-            alt: "store",
-            title: "Comunidade Discord"
+            alt: "Store Alexandre Games",
+            title: "Store Alexandre Games"
         },
         {
             href: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY",
@@ -85,6 +91,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 4. Adicionar mensagem de direitos autorais
     const footerMessage = document.getElementById("message");
-    const messageText = document.createTextNode("©2023-2025 Alexandre Games Blog");
+    const messageText = document.createTextNode("©2023-2025 Alexandre Games Blog - CNPJ 60.473.728/0001-62");
     footerMessage.appendChild(messageText);
 });
