@@ -2115,10 +2115,13 @@ body > .skiptranslate {
     
     
     .footer a img{
-            width: 10%;
+            width: 10%;            
+    }
+    .footer a img{
+            margin-left: 17px;
+            margin-right: 17px;
             
     }
-
     
 
     .iconeyt {
