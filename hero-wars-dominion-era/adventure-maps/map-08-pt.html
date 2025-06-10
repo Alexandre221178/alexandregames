@@ -177,11 +177,11 @@
 
 <script>
   function copyRoutes() {
-    const routes = `Azul: 03 → 02 → 06 → 07 → 09 → 10 → 13 → 17 → 16 → 20 → 22 → 21 → 28 → Chefe (x2)
-Amarelo: 03 → 05 → 07 → 09 → 11 → 14 → 18 → 20 → 22 → 24 → 27 → 30 → 26 → 29 → 25
-Verde: 03 → 04 → 08 → 07 → 09 → 11 → 15 → 19 → 20 → 22 → 23 → 31 → Chefe (x3)
+    const routes = `Blue: 03-02-06-07-09-10-13-17-16-20-22-21-28-Boss(x2)
+Yellow: 03-05-07-09-11-14-18-20-22-24-27-30-26-29-25
+Green: 03-04-08-07-09-11-15-19-20-22-23-31-Boss(x3)
+More details: https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-08-en.html`;
 
-Mais detalhes: https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-08-en.html`;
 
     navigator.clipboard.writeText(routes).then(() => {
       const msg = document.getElementById('copy-message');
