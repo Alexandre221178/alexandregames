@@ -53,6 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
   <a href="https://alexandregames.com/hero-wars-dominion-era/guide/promo-code-hwde-pt.html">Códigos Promocionais</a>
   <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-pt.html">Guia de Heróis</a>
   <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totems-guide-pt.html">Guia de Totens</a>
+  <a href="https://alexandregames.com/hero-wars-dominion-era/menu/adventure-map-guide-pt.html">Mapas de Aventura de PET</a>
 <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-pt.html">Tier List de Heróis</a>          
 <a href="https://alexandregames.com/hero-wars-dominion-era/guide/pets-tier-list-pt.html">Tier List de PET</a>
 
