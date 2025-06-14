@@ -3049,13 +3049,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-en.html</loc>
-  <lastmod>2025-06-11T22:43-03:00</lastmod>
+  <lastmod>2025-06-14T08:59-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-pt.html</loc>
-  <lastmod>2025-06-11T22:43-03:00</lastmod>
+  <lastmod>2025-06-14T08:59-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3232,6 +3232,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/pet/khorus-pt.html</loc>
   <lastmod>2025-06-01T23:44-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/pet/oliver-en.html</loc>
+  <lastmod>2025-06-14T08:59-03:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/pet/oliver-pt.html</loc>
+  <lastmod>2025-06-14T08:59-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
