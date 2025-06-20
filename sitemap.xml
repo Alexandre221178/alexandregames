@@ -1953,7 +1953,18 @@
 
 <!-- fim sitemap review skin analises de skin SiteMap Alexandre Games -->
 
-<!-- inicio sitemap dicas de eventos event- SiteMap Alexandre Games -->
+<!-- inicio sitemap dicas de eventos event Hero Wars Alliance- SiteMap Alexandre Games -->
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/talisman-fever-event-en.html</loc>
+  <lastmod>2025-06-19T23:30-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/talisman-fever-event-pt.html</loc>
+  <lastmod>2025-06-19T23:30-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/guide/krista-and-lars-revamp-en.html</loc>
   <lastmod>2025-05-21T22:16-03:00</lastmod>
@@ -1967,12 +1978,12 @@
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html</loc>
-  <lastmod>2025-06-08T11:54-03:00</lastmod>
+  <lastmod>2025-06-19T23:30-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html</loc>
-  <lastmod>2025-06-08T11:54-03:00</lastmod>
+  <lastmod>2025-06-19T23:30-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
