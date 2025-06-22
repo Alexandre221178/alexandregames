@@ -1966,6 +1966,17 @@
 
 <!-- inicio sitemap dicas de eventos event Hero Wars Alliance- SiteMap Alexandre Games -->
 <url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/seers-game-en.html</loc>
+  <lastmod>2025-06-22T11:00-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/seers-game-pt.html</loc>
+  <lastmod>2025-06-22T11:00-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<url>
   <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/wendys-gifts-event-en.html</loc>
   <lastmod>2025-06-21T12:52-03:00</lastmod>
   <priority>0.70</priority>
@@ -2000,12 +2011,12 @@
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html</loc>
-  <lastmod>2025-06-21T12:52-03:00</lastmod>
+  <lastmod>2025-06-22T11:00-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html</loc>
-  <lastmod>2025-06-21T12:52-03:00</lastmod>
+  <lastmod>2025-06-22T11:00-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
