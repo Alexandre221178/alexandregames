@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <a href="https://alexandregames.com/Hero%20Wars/Guiadeherois.html">Guia de Heróis</a>   
     <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-pt-hwa.html">Guia de Melhores Times</a> 
     <a href="https://alexandregames.com/Hero%20Wars/Guia%20de%20Titans.html">Guia de Titãs</a>                                 
-    <a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-en.html">Táticas & Segredos</a> 
+    <a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-en.html">Guias & Segredos</a> 
     <a href="https://alexandregames.com/Hero%20Wars/articles-herowars/tierlist-pt-pvp-herowars.html">Tier List</a> 
     
     
