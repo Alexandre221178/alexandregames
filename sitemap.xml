@@ -3104,13 +3104,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-en.html</loc>
-  <lastmod>2025-06-20T23:11-03:00</lastmod>
+  <lastmod>2025-06-24T22:51-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-pt.html</loc>
-  <lastmod>2025-06-20T23:11-03:00</lastmod>
+  <lastmod>22025-06-24T22:51-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3128,13 +3128,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/adventure-map-guide-en.html</loc>
-  <lastmod>2025-06-11T22:43-03:00</lastmod>
+  <lastmod>2025-06-24T22:51-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/adventure-map-guide-pt.html</loc>
-  <lastmod>2025-06-11T22:43-03:00</lastmod>
+  <lastmod>2025-06-24T22:51-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3401,6 +3401,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/adventure-maps/siege-of-strongford-pt.html</loc>
   <lastmod>2025-06-07T08:58-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-10-en.html</loc>
+  <lastmod>2025-06-24T22:51-03:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-10-pt.html</loc>
+  <lastmod>2025-06-24T22:51-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
