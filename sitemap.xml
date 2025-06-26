@@ -3104,13 +3104,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-en.html</loc>
-  <lastmod>2025-06-24T22:51-03:00</lastmod>
+  <lastmod>2025-06-25T23:23-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-pt.html</loc>
-  <lastmod>22025-06-24T22:51-03:00</lastmod>
+  <lastmod>2025-06-25T23:23-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3309,6 +3309,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/pet/biscuit-pt.html</loc>
   <lastmod>2025-06-01T14:48-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/pet/cain-en.html</loc>
+  <lastmod>2025-06-25T23:23-03:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/pet/cain-pt.html</loc>
+  <lastmod>2025-06-25T23:23-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
