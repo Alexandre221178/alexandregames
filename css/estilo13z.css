@@ -1247,6 +1247,36 @@ figcaption {
     text-align: left;
   }
 
+/* inicio imagem tabela de eventos */
+.reward-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px; /* Pode ajustar esse valor conforme seu layout */
+}
+
+.reward-cell img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-bottom: 4px;
+  border: 2px solid #888;
+}
+
+.reward-cell span {
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.event-table img {
+  width: 47px;
+  height: 47px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+/* fim imagem tabela de eventos */
+
 .table-combos th{
     color: black;
     
