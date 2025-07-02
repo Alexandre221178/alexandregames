@@ -3116,13 +3116,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-en.html</loc>
-  <lastmod>2025-06-30T23:17-03:00</lastmod>
+  <lastmod>2025-07-01T23:29-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-pt.html</loc>
-  <lastmod>2025-06-30T23:17-03:00</lastmod>
+  <lastmod>2025-07-01T23:29-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3495,6 +3495,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/events/ascension-to-asgard-pt.html</loc>
   <lastmod>2025-06-28T00:49-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/elemental-synergy-en.html</loc>
+  <lastmod>2025-07-01T23:29-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/elemental-synergy-pt.html</loc>
+  <lastmod>2025-07-01T23:29-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 
