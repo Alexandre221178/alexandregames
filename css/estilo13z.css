@@ -689,21 +689,29 @@ section p{
     margin-bottom: 10px;
 }
 
-.img-banner img{
-    aspect-ratio: 600 / 340; /* Ajusta a proporção era 800x450*/
+.img-banner {
+  width: 70%; /* ou defina por exemplo 600px */
+  margin-left: 30px;
+  display: block;
 }
 
+.img-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
-.img-banner img{
-   margin-left: 30px;
-   min-height: 340px; /* estava 450*/
-    width: 70%; /* estava 100*/
+.img-banner figcaption {
+  width: 100%;
+  margin: 0;          /* remove margem padrão */
+     /* espaçamento interno opcional */
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;   /* garante que o texto começa da esquerda */
+  color: #030303;
+  background-color: transparent; /* opcional: pode usar cor clara se quiser destaque */
 }
-.img-banner-index img{
-       
-    width: 100%;
-    height: auto;
-}
+
 
 
 /* imagem review */
