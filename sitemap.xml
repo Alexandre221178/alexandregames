@@ -3139,13 +3139,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html</loc>
-  <lastmod>2025-07-04T23:54-03:00</lastmod>
+  <lastmod>2025-07-07T23:27-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-pt.html</loc>
-  <lastmod>2025-07-04T23:54-03:00</lastmod>
+  <lastmod>2025-07-07T23:27-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3306,6 +3306,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/characters/yasmine-pt.html</loc>
   <lastmod>2025-05-17T16:15-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/characters/ziri-en.html</loc>
+  <lastmod>2025-07-07T23:27-03:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/characters/ziri-pt.html</loc>
+  <lastmod>2025-07-07T23:27-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
