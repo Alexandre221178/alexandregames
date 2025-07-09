@@ -3127,13 +3127,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-en.html</loc>
-  <lastmod>2025-07-05T13:10-03:00</lastmod>
+  <lastmod>2025-07-08T22:50-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-pt.html</loc>
-  <lastmod>2025-07-05T13:10-03:00</lastmod>
+  <lastmod>2025-07-08T22:50-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3572,6 +3572,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/events/hero-tournament-of-power-pt.html</loc>
   <lastmod>2025-07-03T23:12-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/heroes-brawls-battles-en.html</loc>
+  <lastmod>2025-07-08T22:50-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/heroes-brawls-battles-pt.html</loc>
+  <lastmod>2025-07-08T22:50-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 
