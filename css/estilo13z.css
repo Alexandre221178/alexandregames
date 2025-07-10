@@ -1726,10 +1726,7 @@ body > .skiptranslate {
         background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
       }
     
-      .content-wrapper05 p {
-          margin-left: 0px;
-          font-size: 18px;
-      }
+     
     
       .ad-fold-container {
         width: 100%; /* Ocupa toda a largura disponível */
@@ -1796,28 +1793,27 @@ body > .skiptranslate {
         border-left: none;
     }
     
-    .img-banner img{
-        aspect-ratio: 500 / 200; /* Ajusta a proporção para mobile */
-    }
-    
-    
-    .img-banner img{
-        min-height: 200px;   
-         
-    }
-    
-    .img-banner img{
-       
-       width: 100%; 
-        height: auto;
-       
-    }
-    .img-banner-index img{
-       
-        width: 100%; 
-        height: auto;
-      
-    }
+    .img-banner {
+  width: 95%;
+  margin: auto;
+  display: block;
+}
+
+.img-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.img-banner figcaption {
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+  color: #030303;
+  background-color: transparent;
+}
 
 
     /* img review */
