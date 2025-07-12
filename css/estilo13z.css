@@ -689,6 +689,11 @@ section p{
     margin-bottom: 10px;
 }
 
+.img-banner img{
+    aspect-ratio: 600 / 340; /* Ajusta a proporção era 800x450*/
+    
+}
+
 .img-banner {
   width: 70%; /* ou defina por exemplo 600px */
   margin-left: 30px;
