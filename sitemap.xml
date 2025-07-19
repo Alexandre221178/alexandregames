@@ -2022,12 +2022,12 @@
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html</loc>
-  <lastmod>2025-07-12T12:19-03:00</lastmod>
+  <lastmod>2025-07-19T12:52-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html</loc>
-  <lastmod>2025-07-12T12:19-03:00</lastmod>
+  <lastmod>2025-07-19T12:52-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
@@ -3543,6 +3543,17 @@
 <!-- fim hero wars dominion era SiteMap Alexandre Games -->
 
 <!-- inicio  hero events hero wars dominion era SiteMap Alexandre Games -->
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/power-of-the-titans-en.html</loc>
+  <lastmod>2025-07-19T12:52-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/power-of-the-titans-pt.html</loc>
+  <lastmod>2025-07-19T12:52-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html</loc>
   <lastmod>2025-07-17T22:50-03:00</lastmod>
