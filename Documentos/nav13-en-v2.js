@@ -52,7 +52,8 @@ document.addEventListener('DOMContentLoaded', () => {
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html">Heroes Guide</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-en.html">Heroes Tier List</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu/adventure-map-guide-en.html">Pet Adventure Maps</a>
-    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/pets-tier-list-en.html">PET Tier List</a>
+    <a href="https://alexandregames.com/hero-wars-dominion-era/menu/pet-guide-menu-en.html">Pet Guide</a>   
+    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/pets-tier-list-en.html">Pet Tier List</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/promo-code-hwde-en.html">Promo Codes</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totems-guide-en.html">Totems Guide</a>
     
