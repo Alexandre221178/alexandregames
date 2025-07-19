@@ -521,7 +521,7 @@ h3 {
 h4 {
         color: #000000;
         margin-left: 30px;
-        font-size: 22px;
+        font-size: 27px;
         padding: 0,2%;
         text-align: left;
 }
@@ -1146,7 +1146,7 @@ img-middle figcaption {
 
 /* imagens 150px */
 .img-150px {
-    width: 155px;
+    width: 158px;
     height: auto;
     margin: 10px;
     text-align: center;
@@ -2058,7 +2058,7 @@ body > .skiptranslate {
         text-align: left;
     }
     h4 {
-       
+       font-size: 21px;
         margin-left: 10px;
        }
     h5 {
