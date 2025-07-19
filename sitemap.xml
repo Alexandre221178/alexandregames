@@ -3115,13 +3115,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-en.html</loc>
-  <lastmod>2025-07-09T23:25-03:00</lastmod>
+  <lastmod>2025-07-19T19:25-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-pt.html</loc>
-  <lastmod>2025-07-09T23:25-03:00</lastmod>
+  <lastmod>2025-07-19T19:25-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3139,13 +3139,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html</loc>
-  <lastmod>2025-07-17T22:50-03:00</lastmod>
+  <lastmod>2025-07-19T19:25-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-pt.html</loc>
-  <lastmod>2025-07-07T23:27-03:00</lastmod>
+  <lastmod>2025-07-19T19:25-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3178,6 +3178,18 @@
 
 
 <!-- inicio hero wars dominion era heroes guide Alexandre Games -->
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/characters/aidan-en.html</loc>
+  <lastmod>2025-07-19T19:25-03:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/characters/aidan-pt.html</loc>
+  <lastmod>2025-07-19T19:25-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/characters/astaroth-en.html</loc>
   <lastmod>2025-05-07T17:29-03:00</lastmod>
