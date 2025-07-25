@@ -3139,13 +3139,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-en.html</loc>
-  <lastmod>2025-07-08T22:50-03:00</lastmod>
+  <lastmod>2025-07-24T22:57-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-pt.html</loc>
-  <lastmod>2025-07-17T22:50-03:00</lastmod>
+  <lastmod>2025-07-24T22:57-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3708,6 +3708,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/events/the-great-storm-pt.html</loc>
   <lastmod>2025-06-28T22:51-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/titan-brawl-en.html</loc>
+  <lastmod>2025-07-24T22:57-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/titan-brawl-pt.html</loc>
+  <lastmod>2025-07-24T22:57-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 
