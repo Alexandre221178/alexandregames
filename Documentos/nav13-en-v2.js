@@ -48,6 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <button class="dropbtn">Hero Wars: Dominion Era</button>
     <div class="dropdown-content"> <br>  
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-en.html">HWDE - Home</a>
+    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/best-war-flag-en.html">Best War Flags</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-en.html">Calendar & Events</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html">Heroes Guide</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-en.html">Heroes Tier List</a>
@@ -57,6 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/pets-tier-list-en.html">Pet Tier List</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/promo-code-hwde-en.html">Promo Codes</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totems-guide-en.html">Totems Guide</a>
+    
     
         
         <br><br><br><br>
