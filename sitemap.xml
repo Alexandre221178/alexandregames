@@ -2045,12 +2045,12 @@
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html</loc>
-  <lastmod>2025-07-27T01:37-03:00</lastmod>
+  <lastmod>2025-07-27T23:10-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html</loc>
-  <lastmod>2025-07-27T01:37-03:00</lastmod>
+  <lastmod>2025-07-27T23:10-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
@@ -3719,6 +3719,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/events/legacy-of-great-ones-pt.html</loc>
   <lastmod>2025-07-02T22:36-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/summer-festival-en.html</loc>
+  <lastmod>22025-07-27T23:10-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>hhttps://alexandregames.com/hero-wars-dominion-era/events/summer-festival-pt.html</loc>
+  <lastmod>2025-07-27T23:10-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 
