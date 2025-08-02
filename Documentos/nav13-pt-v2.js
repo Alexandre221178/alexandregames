@@ -55,7 +55,9 @@ document.addEventListener('DOMContentLoaded', () => {
 <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-pt.html">Guia de Heróis</a>
 <a href="https://alexandregames.com/hero-wars-dominion-era/menu/pet-guide-menu-pt.html">Guia de Mascotes</a> 
 <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totems-guide-pt.html">Guia de Totens</a>
-<a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-pt.html">Ilha Misteriosa Julho 2025</a>
+<a href="https://alexandregames.com/hero-wars-dominion-era/guide/totem-fusion-skills-pt.html">Fusão de Totens – Ranking</a>
+
+<a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-pt.html">Ilha Misteriosa Agosto 2025</a>
 <a href="https://alexandregames.com/hero-wars-dominion-era/menu/adventure-map-guide-pt.html">Mapas de Aventura de Pet</a>
 <a href="https://alexandregames.com/hero-wars-dominion-era/guide/best-war-flag-pt.html">Melhores Bandeira de Guerra</a>
 <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-pt.html">Tier List de Heróis</a>          

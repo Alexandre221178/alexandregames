@@ -3149,13 +3149,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-en.html</loc>
-  <lastmod>2025-07-27T17:50-03:00</lastmod>
+  <lastmod>2025-08-02T13:10-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-pt.html</loc>
-  <lastmod>2025-07-27T17:50-03:00</lastmod>
+  <lastmod>2025-08-02T13:10-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3640,6 +3640,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/guide/totems-guide-pt.html</loc>
   <lastmod>2025-04-27T14:05-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/guide/totem-fusion-skills-en.html</loc>
+  <lastmod>2025-08-02T13:10-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/guide/totem-fusion-skills-pt.html</loc>
+  <lastmod>2025-08-02T13:10-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 <!-- fim hero wars dominion era SiteMap Alexandre Games -->
