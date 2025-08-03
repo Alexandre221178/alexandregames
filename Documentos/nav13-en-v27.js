@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="https://alexandregames.com/herowars-alliance-en.html">HWA - Home</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-en-hwa.html">Best Teams Guide</a>
         <a href="https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html">Calendar & Events</a>
+         <a href="https://alexandregames.com/y-m-gifts-hwa-en.html">Daily Gifts</a>
         <a href="https://alexandregames.com/Hero%20Wars%20English/Heroes%20Guide%20Hero%20Wars.html">Heroes Guide</a>
         <a href="https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-en-hwa.html">Hero's Way</a>  
         <a href="https://alexandregames.com/hero-wars-alliance/menu-review-en-hwa.html">Skins Reviews</a>
