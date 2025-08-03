@@ -2271,7 +2271,7 @@ body > .skiptranslate {
         .calendar .event-container {
             position: relative;
             padding: 10px;
-            background-color: #0caf3d;
+            background-color: #428ed4;
             border-radius: 5px;
             text-align: center;
             height: 150px;
@@ -2293,10 +2293,10 @@ body > .skiptranslate {
 .weekday {
   position: absolute;
   top: -1px; /* mais acima que a data */
-  left: 2px;
+  left: 10px;
   z-index: 2;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 10px;
   color: #fff;
   text-shadow:
       -1px -1px 0 #000,  
