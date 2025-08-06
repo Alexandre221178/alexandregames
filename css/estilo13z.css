@@ -1679,6 +1679,41 @@ body > .skiptranslate {
     }
 /* fim video wrapper2 novo video yt2025 */
 
+.about-author {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.about-author img {
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  flex-shrink: 0;
+}
+
+.about-author .author-text {
+  flex: 1 1 250px;
+}
+
+.about-author h3 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+}
+
+.about-author p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
 
 @media (max-width:768px) {
     nav .menu-icon{
@@ -1752,6 +1787,16 @@ body > .skiptranslate {
         margin-left: 2px;
            
     }
+
+    .about-author {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-author img {
+    margin-bottom: 15px;
+  }
     
     
     .text-bx,
