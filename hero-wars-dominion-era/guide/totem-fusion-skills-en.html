@@ -494,49 +494,98 @@ So gather your Catalysts, step into the Fusion chamber, and unleash your creativ
 
 <section>
   <h2>Video suggestion</h2>
-  <div class="video-container">
-    <div class="video-wrapper">
-        <iframe class="video-iframe"
-          loading="lazy"
-          srcdoc="<style>
-            * {
-              padding: 0;
-              margin: 0;
-              overflow: hidden;
-            }
-            img, svg {
-              position: absolute;
-              width: 100%;
-              top: 0;
-              bottom: 0;
-              margin: auto;
-            }
-            svg {
-              filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
-              transition: all 250ms ease-in-out;
-            }
-            body:hover svg {
-              filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
-              transform: scale(1.2);
-            }
-          </style>
-        <a href='https://www.youtube.com/embed/J3dRlFBpuok?autoplay=1'>
-          <img src='https://img.youtube.com/vi/J3dRlFBpuok/hqdefault.jpg' alt='Titans Totem Skill Fusion Guide - Hero Wars: Dominion Era' title='NEW TOTEM FUSION SYSTEM! | Complete Guide - Hero Wars: Dominion Era (PvP/PvE)' loading='lazy'>
-          <svg class='play-button' xmlns='http://www.w3.org/2000/svg' width='84' height='84' viewBox='0 0 24 24' fill='none' stroke='red' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-play-circle'>
-            <circle cx='12' cy='12' r='10'></circle>
-            <polygon points='10 8 16 12 10 16 10 8'></polygon>
-        </svg>
-        </a>"
-        src="https://www.youtube.com/embed/J3dRlFBpuok" 
-      
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-w/rite; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-      </iframe>
-    </div>
-    <figcaption class="video-caption">Video: NEW TOTEM FUSION SYSTEM! | Complete Guide - Hero Wars: Dominion Era (PvP/PvE)</figcaption>
+ <style>
+  .video-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 720px;
+    margin: 20px auto;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    background-color: #000;
+    cursor: pointer;
+  }
+  .video-wrapper img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
+  }
+  .play-button:hover {
+    background: rgba(0,0,0,0.8);
+  }
+  .play-button::before {
+    content: "";
+    display: block;
+    margin-left: 5px;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 20px solid white;
+  }
+  figcaption {
+    max-width: 720px;
+    margin: 8px auto 20px auto;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+  }
+</style>
 
-  </div> 
+<figure>
+  <div class="video-wrapper" onclick="loadYoutube(this)" aria-label="Carregar vídeo do YouTube" role="button" tabindex="0">
+    <img src="https://img.youtube.com/vi/J3dRlFBpuok/hqdefault.jpg" alt="Thumbnail do vídeo" />
+    <div class="play-button"></div>
+  </div>
+  <figcaption>
+    Video: NEW TOTEM FUSION SYSTEM! | Complete Guide - Hero Wars: Dominion Era (PvP/PvE)
+  </figcaption>
+</figure>
+
+<script>
+  function loadYoutube(container) {
+    const videoId = 'J3dRlFBpuok';
+    const iframe = document.createElement('iframe');
+    iframe.setAttribute('src', `https://www.youtube.com/embed/${videoId}?autoplay=1`);
+    iframe.setAttribute('frameborder', '0');
+    iframe.setAttribute('allowfullscreen', '1');
+    iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+    iframe.style.position = 'absolute';
+    iframe.style.width = '100%';
+    iframe.style.height = '100%';
+    iframe.style.top = '0';
+    iframe.style.left = '0';
+    container.innerHTML = '';
+    container.appendChild(iframe);
+  }
+
+  // Acessibilidade: carregar vídeo com Enter ou Espaço
+  document.querySelector('.video-wrapper').addEventListener('keydown', function(e) {
+    if(e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      loadYoutube(this);
+    }
+  });
+</script>
+
+ 
 </section> 
 
 
