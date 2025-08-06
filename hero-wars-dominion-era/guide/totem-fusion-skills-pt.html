@@ -478,45 +478,47 @@ Então, reúna seus Catalisadores, entre na câmara de Fusão e libere sua criat
 <section>
   <h2>Sugestões de Vídeo:</h2>
   <div class="video-container">
-    <div class="video-wrapper">
-        <iframe class="video-iframe"
-          loading="lazy"
-          srcdoc="<style>
-            * {
-              padding: 0;
-              margin: 0;
-              overflow: hidden;
-            }
-            img, svg {
-              position: absolute;
-              width: 100%;
-              top: 0;
-              bottom: 0;
-              margin: auto;
-            }
-            svg {
-              filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
-              transition: all 250ms ease-in-out;
-            }
-            body:hover svg {
-              filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
-              transform: scale(1.2);
-            }
-          </style>
-        <a href='https://www.youtube.com/embed/J3dRlFBpuok?autoplay=1'>
-          <img src='https://img.youtube.com/vi/J3dRlFBpuok/hqdefault.jpg' alt=' NOVO SISTEMA DE FUSÃO DE TOTENS! | Guia Completo - Hero Wars: Dominion Era (PvP/PvE)' title=' NOVO SISTEMA DE FUSÃO DE TOTENS! | Guia Completo - Hero Wars: Dominion Era (PvP/PvE)' loading='lazy'>
-          <svg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='red' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-play-circle'><circle cx='12' cy='12' r='10'></circle><polygon points='10 8 16 12 10 16 10 8'></polygon></svg>
-        </a>
-        "
-        src="https://www.youtube.com/embed/J3dRlFBpuok" 
-      
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-w/rite; encrypted-media; gyroscope; picture-in-picture" 
-        notallowfullscreen>
-      </iframe>
+  <figure>
+    <div class="video-wrapper2" onclick="loadYoutube(this)" aria-label="Carregar vídeo do YouTube" role="button" tabindex="0">
+      <img src="https://img.youtube.com/vi/J3dRlFBpuok/hqdefault.jpg" alt="Thumbnail do vídeo" />
+      <div class="play-button"></div>
     </div>
-    <figcaption class="video-caption">Vídeo:  NOVO SISTEMA DE FUSÃO DE TOTENS! | Guia Completo - Hero Wars: Dominion Era (PvP/PvE)</figcaption>
-  </div> 
+    <figcaption>
+      Vídeo: NOVO SISTEMA DE FUSÃO DE TOTENS! | Guia Completo - Hero Wars: Dominion Era (PvP/PvE)
+    </figcaption>
+  </figure>
+
+  <script>
+    function loadYoutube(container) {
+      const videoId = 'J3dRlFBpuok';
+      const iframe = document.createElement('iframe');
+      iframe.setAttribute('src', `https://www.youtube.com/embed/${videoId}?autoplay=1`);
+      iframe.setAttribute('frameborder', '0');
+      iframe.setAttribute('allowfullscreen', '1');
+      iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+      iframe.style.position = 'absolute';
+      iframe.style.width = '100%';
+      iframe.style.height = '100%';
+      iframe.style.top = '0';
+      iframe.style.left = '0';
+      container.innerHTML = '';
+      container.appendChild(iframe);
+    }
+
+    // Acessibilidade: ativar com Enter ou Espaço
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.video-wrapper2').forEach(wrapper => {
+        wrapper.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            loadYoutube(this);
+          }
+        });
+      });
+    });
+  </script>
+</section>
+</div>
 </section> 
 
 

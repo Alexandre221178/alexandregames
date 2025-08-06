@@ -1588,7 +1588,8 @@ body > .skiptranslate {
 .video-container {
     width: 99%;
     max-width: 500px;
-    margin: 30px;
+    margin: 30px auto; /* centraliza horizontalmente */
+    /* border removida */
 }
 .video-wrapper {
     position: relative;
@@ -1614,6 +1615,69 @@ body > .skiptranslate {
 }
 
 /* fim video youtube 2024  */
+
+/*  inicio video wrapper2 novo video yt2025 */
+ .video-wrapper2 {
+      position: relative;
+      width: 100%;
+      max-width: 720px;
+      margin: 0 auto;
+      padding-bottom: 56.25%; /* 16:9 */
+      height: 0;
+      background-color: #000;
+      cursor: pointer;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .video-wrapper2 img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+    }
+    
+
+    .play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 60px;
+      height: 60px;
+      background: rgba(0,0,0,0.6);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.3s ease;
+    }
+
+    .play-button:hover {
+      background: rgba(0,0,0,0.8);
+    }
+
+    .play-button::before {
+      content: "";
+      display: block;
+      margin-left: 5px;
+      width: 0;
+      height: 0;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-left: 20px solid white;
+    }
+
+    figcaption {
+      max-width: 720px;
+      margin: 8px auto 20px auto;
+      font-size: 14px;
+      color: #555;
+      text-align: center;
+    }
+/* fim video wrapper2 novo video yt2025 */
 
 
 @media (max-width:768px) {
