@@ -2062,12 +2062,12 @@
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html</loc>
-  <lastmod>2025-08-03T12:44-03:00</lastmod>
+  <lastmod>2025-08-05T23:30-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html</loc>
-  <lastmod>2025-08-03T12:44-03:00</lastmod>
+  <lastmod>2025-08-05T23:30-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
@@ -2212,6 +2212,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/blessing-of-worlds-pt.html</loc>
   <lastmod>2025-05-08T21:47-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/heroes-brawls-en.html</loc>
+  <lastmod>2025-08-05T23:30-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/heroes-brawls-pt.html</loc>
+  <lastmod>2025-08-05T23:30-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 
