@@ -1259,7 +1259,7 @@ img-middle figcaption {
 figcaption {
     margin-left: 30px;
     margin-bottom: 15px;
-    color: black;
+    color: rgb(56, 55, 63);
     font-style: italic;
     padding: 0px;
     text-align: left;
@@ -1670,13 +1670,7 @@ body > .skiptranslate {
       border-left: 20px solid white;
     }
 
-    figcaption {
-      max-width: 720px;
-      margin: 8px auto 20px auto;
-      font-size: 14px;
-      color: #555;
-      text-align: center;
-    }
+    
 /* fim video wrapper2 novo video yt2025 */
 
 .about-author {
