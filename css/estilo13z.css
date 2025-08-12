@@ -1468,8 +1468,7 @@ pre{
 }
 
 iframe {
-    display: block;
-    margin: 15px auto 0 auto; /* topo 15px, lados auto, baixo 0 */
+   margin-left: 1px;
 }
 
 .video-yt {
