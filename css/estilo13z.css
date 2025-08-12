@@ -1467,11 +1467,28 @@ pre{
     width: 100%;
 }
 
-iframe{    
-    
-    margin-left: 1px;
-       
+iframe {
+    display: block;
+    margin: 15px auto 0 auto; /* topo 15px, lados auto, baixo 0 */
 }
+
+.video-yt {
+    text-align: center;    /* Centraliza o conteúdo */
+    margin-top: 15px;      /* Espaço do conteúdo acima */
+}
+
+.video-yt iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.video-yt figcaption {
+    margin-top: 8px;       /* Espaço entre vídeo e texto */
+    font-size: 14px;
+    color: #555;
+}
+
+
 
 .share-buttons {
     display: flex;
