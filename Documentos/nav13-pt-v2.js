@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <a href="https://alexandregames.com/hero-wars-alliance/menu-review-pt-hwa.html">Análises de Skins</a>  
     <a href="https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html">Calendário & Eventos</a>
     <a href="https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-pt-hwa.html">Caminho do Herói</a> 
+    <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-pt.html">💰 Ganhe Descontos</a>
     <a href="https://alexandregames.com/Hero%20Wars/Guiadeherois.html">Guia de Heróis</a>   
     <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-pt-hwa.html">Guia de Melhores Times</a> 
     <a href="https://alexandregames.com/Hero%20Wars/Guia%20de%20Titans.html">Guia de Titãs</a>                                 
