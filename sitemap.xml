@@ -3238,13 +3238,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/pet-guide-menu-en.html</loc>
-  <lastmod>2025-08-08T23:24-03:00</lastmod>
+  <lastmod>2025-08-12T22:42-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/pet-guide-menu-pt.html</loc>
-  <lastmod>2025-08-08T23:24-03:00</lastmod>
+  <lastmod>2025-08-12T22:42-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3507,6 +3507,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/pet/khorus-pt.html</loc>
   <lastmod>2025-06-01T23:44-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/pet/mara-en.html</loc>
+  <lastmod>2025-08-12T22:42-03:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/pet/mara-pt.html</loc>
+  <lastmod>2025-08-12T22:42-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
