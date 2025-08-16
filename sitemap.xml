@@ -3201,13 +3201,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html</loc>
-  <lastmod>2025-07-20T18:56-03:00</lastmod>
+  <lastmod>2025-08-16T15:15-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-pt.html</loc>
-  <lastmod>2025-07-20T18:56-03:00</lastmod>
+  <lastmod>2025-08-16T15:15-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3415,6 +3415,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/characters/rufus-pt.html</loc>
   <lastmod>2025-05-21T22:05-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/characters/sebastian-en.html</loc>
+  <lastmod>2025-08-16T15:15-03:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/characters/sebastian-pt.html</loc>
+  <lastmod>2025-08-16T15:15-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
