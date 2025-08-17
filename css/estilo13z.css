@@ -2105,12 +2105,20 @@ body > .skiptranslate {
         width: 100%;
         height: 100%;
         border: 4px solid #5654b3;
-    }
+    } 
 
-    .img-150px img{
-        margin-left: 3px;
-        width: 47%;
-    }
+.img-150px a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+.img-150px img {
+  width: 80px;
+  height: 75px;
+  object-fit: cover;
+  margin-bottom: 3px; /* Space between image and text */
+}
 
     .emblem {
        
