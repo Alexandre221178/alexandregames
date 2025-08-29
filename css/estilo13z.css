@@ -2167,14 +2167,14 @@ body > .skiptranslate {
     }
 
     .text-title h1{
-        font-size: 21px;
+        font-size: 17px;
         text-transform: uppercase;
         margin-left: 1px;
         
     }
 
     h1 {
-        font-size: 21px;
+        font-size: 20px;
         color: #5105cb;
         margin-left: 5px;
         padding: 0,2%;
@@ -2182,27 +2182,28 @@ body > .skiptranslate {
     }
     h2 {
         margin-left: 10px;
-        font-size: 21px;
+        font-size: 20px;
         color:  #31017d;
         padding: 0,2%;
         text-align: left;
     }
     h3 {
         margin-left: 10px;
-        font-size: 21px;
+        font-size: 20px;
        
         color: #bc0006;
         padding: 0,2%;
         text-align: left;
     }
     h4 {
-       font-size: 21px;
+       font-size: 20px;
         margin-left: 10px;
        }
     h5 {
         margin-left: 10px;
     }
     section p{
+        font-size: 18px;
         margin-left: 15px;
         margin-right: 15px;
         color: black;
