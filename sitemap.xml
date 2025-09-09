@@ -3211,13 +3211,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-en.html</loc>
-  <lastmod>2025-09-07T00:03-03:00</lastmod>
+  <lastmod>2025-09-09T00:05-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-pt.html</loc>
-  <lastmod>2025-09-07T00:03-03:00</lastmod>
+  <lastmod>2025-09-09T00:05-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3835,6 +3835,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html</loc>
   <lastmod>2025-07-17T22:50-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/a-portal-anomaly-en.htmll</loc>
+  <lastmod>2025-09-09T00:05-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/a-portal-anomaly-pt.html</loc>
+  <lastmod>2025-09-09T00:05-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 
