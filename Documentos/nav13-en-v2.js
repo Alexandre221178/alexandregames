@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <div class="dropdown-content"><br>
     <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-en.html">Install AppGallery on Android for Hero Wars Discounts</a>   
     <a href="https://alexandregames.com/gaming-guide/review/echoes-of-eternity-game-review-en.html">Echoes of Eternity</a>
+     <a href="https://alexandregames.com/gaming-guide/review/path-of-exile-2-en.html">Path of Exile2 - Tier List</a>
     <a href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html">Play Hero Wars Alliance on PC & Mac</a> 
     <a href="https://alexandregames.com/gaming-guide/review/tales-of-wind-review-en.html">Tales of Wind: RR</a>
     <a href="https://alexandregames.com/gaming-guide/review/the-dragon-odyssey-gameplay-en.html">The Dragon Odyssey</a>                    
