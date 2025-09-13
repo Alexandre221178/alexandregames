@@ -15,12 +15,12 @@
 
 <url>
   <loc>https://alexandregames.com</loc>
-  <lastmod>2025-04-28T23:04-03:00</lastmod>
+  <lastmod>2025-09-13T13:48-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/index-pt.html</loc>
-  <lastmod>2025-04-28T23:04-03:00</lastmod>
+  <lastmod>2025-09-13T13:48-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3180,6 +3180,17 @@
 <url>
   <loc>https://alexandregames.com/gaming-guide/review/echoes-of-eternity-game-review-pt.html</loc>
   <lastmod>2025-02-01T10:26:00-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/gaming-guide/review/path-of-exile-2-en.html</loc>
+  <lastmod>2025-09-13T13:48-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/gaming-guide/review/path-of-exile-2-en.html</loc>
+  <lastmod>2025-09-13T13:48-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 
