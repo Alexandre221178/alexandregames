@@ -15,12 +15,12 @@
 
 <url>
   <loc>https://alexandregames.com</loc>
-  <lastmod>2025-09-13T13:48-03:00</lastmod>
+  <lastmod>2025-09-14T00:20-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/index-pt.html</loc>
-  <lastmod>2025-09-13T13:48-03:00</lastmod>
+  <lastmod>2025-09-14T00:20-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3139,6 +3139,18 @@
 <!-- fim top troops heroes guide SiteMap Alexandre Games -->
 
 <!-- inicio do gamming Gameplay Review SiteMap Alexandre Games -->
+<url>
+  <loc>https://alexandregames.com/gaming-guide/menu/gameplay-home-en.html</loc>
+  <lastmod>2025-09-14T00:20-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/gaming-guide/menu/gameplay-home-pt.html</loc>
+  <lastmod>2025-09-14T00:20-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+
 <url>
   <loc>https://alexandregames.com/gaming-guide/review/tales-of-wind-review-en.html</loc>
   <lastmod>2025-03-09T09:20-03:00</lastmod>
