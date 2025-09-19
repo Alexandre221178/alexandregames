@@ -49,12 +49,12 @@
 
 <url>
   <loc>https://alexandregames.com/MobileLegends-English.html</loc>
-  <lastmod>2025-06-20T14:29-03:00</lastmod>
+  <lastmod>2025-09-18T22:30-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/MobileLegends.html</loc>
-  <lastmod>2025-06-20T14:29-03:00</lastmod>
+  <lastmod>2025-09-18T22:30-03:00</lastmod>
   <priority>0.85</priority>
 </url>
 
@@ -442,6 +442,17 @@
 <url>
   <loc>https://alexandregames.com/mobile-legends/novaria-pt-mlbb.html</loc>
   <lastmod>2025-01-09T22:26-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/mobile-legends/obsidia-en.html</loc>
+ <lastmod>2025-09-18T22:30-03:000</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/mobile-legends/obsidia-pt.html</loc>
+  <lastmod>2025-09-18T22:30-03:00</lastmod>
   <priority>0.70</priority>
 </url>
 
