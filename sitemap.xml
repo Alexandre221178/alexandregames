@@ -3233,25 +3233,25 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-en.html</loc>
-  <lastmod>2025-09-20T18:39-03:00</lastmod>
+  <lastmod>2025-09-23T00:00-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-pt.html</loc>
-  <lastmod>2025-09-20T18:39-03:00</lastmod>
+  <lastmod>2025-09-23T00:00-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-en.html</loc>
-  <lastmod>2025-09-12T22:30-03:00</lastmod>
+  <lastmod>2025-09-23T00:00-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-pt.html</loc>
-  <lastmod>2025-09-12T22:30-03:00</lastmod>
+  <lastmod>2025-09-23T00:00-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -4070,6 +4070,21 @@
   <priority>0.60</priority>
 </url>
 <!-- fim hero events hero wars dominion era SiteMap Alexandre Games -->
+
+<!-- inicio special events hero wars dominion era SiteMap Alexandre Games -->
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events-special-hwde/cascade-event-en.html</loc>
+  <lastmod>2025-09-23T00:00-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events-special-hwde/cascade-event-pt.html</loc>
+  <lastmod>2025-09-23T00:00-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<!-- fim special events hero wars dominion era SiteMap Alexandre Games -->
 
 
 <!-- inicio Documentos SiteMap Alexandre Games -->
