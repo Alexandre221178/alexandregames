@@ -2120,6 +2120,8 @@ body > .skiptranslate {
   margin-bottom: 3px; /* Space between image and text */
 }
 
+
+
     .emblem {
        
         margin-left: 5px;
@@ -2274,6 +2276,15 @@ body > .skiptranslate {
     .table-combos th,td{
         font-size: 15px;
     }
+
+/* overflow-x e event-table usados para criar rolagem da tabela para nao passar a tela toda*/
+    .content-wrapper {
+  overflow-x: auto;
+}
+
+.event-table {
+  min-width: 300px; /* largura mínima da tabela */
+}
 
     .container{
         width: auto;
