@@ -2410,10 +2410,10 @@ body > .skiptranslate {
         .calendar .event-container {
             position: relative;
             padding: 10px;
-            background-color: #428ed4;
+            background-color: #1ab9c5;
             border-radius: 5px;
             text-align: center;
-            height: 150px;
+            height: 160px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -2455,7 +2455,7 @@ body > .skiptranslate {
     z-index: 2;
     position: relative;
     font-weight: bold;
-    top: 50px;
+    top: 23px;
     left: 2px;
     text-shadow:
         -1px -1px 0 #000,  
