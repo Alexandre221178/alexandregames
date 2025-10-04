@@ -2408,6 +2408,7 @@ body > .skiptranslate {
             padding: 20px;
         }
         .calendar .event-container {
+            font-size: 15px;
             position: relative;
             padding: 10px;
             background-color: #1ab9c5;
@@ -2419,6 +2420,7 @@ body > .skiptranslate {
             justify-content: center;
         }
         .calendar .event-container-hwde {
+            font-size: 15px;
             position: relative;
             padding: 10px;
             background-color: #6803b1;
@@ -2466,7 +2468,7 @@ body > .skiptranslate {
 
         .event img {
             width: 100%;
-            height: auto;
+            height: 85%;
             position: absolute;
             top: 55%;
             left: 51%;
