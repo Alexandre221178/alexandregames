@@ -2516,7 +2516,20 @@ body > .skiptranslate {
         }
     
         
-    
+    /* Classe padrão best teams para os personagens */
+.hero-img {
+    width: 75px; /* tamanho padrão best teams para PC */
+    height: 75px; /* mantém proporção */
+}
+
+/* Mobile best teams - telas menores que 768px */
+@media screen and (max-width: 767px) {
+    .hero-img {
+        width: 43px; /* tamanho reduzido para celular */
+         height: 45px; /* mantém proporção */
+    }
+}
+
     
     
         
