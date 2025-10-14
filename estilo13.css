@@ -660,15 +660,36 @@ section p{
 }
 
 .img-banner img{
-       
-    width: 100%;
-    height: 500px;    
+    aspect-ratio: 600 / 340; /* Ajusta a proporção era 800x450*/
+    
 }
-.img-banner-index img{
-       
-    width: 100%;
-    height: auto;
+
+.img-banner {
+  width: 70%; /* ou defina por exemplo 600px */
+  margin-left: 30px;
+  display: block;
+  
 }
+
+.img-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+   border: 3px solid #989797; /* cinza claro */
+   box-sizing: border-box; /* garante que a borda não ultrapasse o tamanho da imagem */
+}
+
+.img-banner figcaption {
+  width: 100%;
+  margin: 0;          /* remove margem padrão */
+     /* espaçamento interno opcional */
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;   /* garante que o texto começa da esquerda */
+  color: #030303;
+  background-color: transparent; /* opcional: pode usar cor clara se quiser destaque */
+}
+
 
 
 
@@ -1542,18 +1563,28 @@ iframe{
         min-height: 250px; /* Altura mínima padrão para anúncios */
     }
     
-    .img-banner img{
-       
-        width: 100%; 
-        height: auto;
-       
-    }
-    .img-banner-index img{
-       
-        width: 100%; 
-        height: auto;
-      
-    }
+     .img-banner {
+  width: 95%;
+  margin: auto;
+  display: block;
+}
+
+.img-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.img-banner figcaption {
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+  color: #030303;
+  background-color: transparent;
+}
+
 
     
     /* imagem do logo para mobile*/
