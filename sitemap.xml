@@ -3244,13 +3244,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-en.html</loc>
-  <lastmod>2025-10-13T23:15-03:00</lastmod>
+  <lastmod>2025-10-16T22:30-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-pt.html</loc>
-  <lastmod>2025-10-13T23:15-03:00</lastmod>
+  <lastmod>2025-10-16T22:30-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3640,7 +3640,20 @@
 </url>
 
 
-<!-- fim hero wars dominion era heroes guide Alexandre Games -->
+<!-- fim hero wars dominion era caracters - heroes guide Alexandre Games -->
+
+<!-- inicio hero wars dominion era titans guide Alexandre Games -->
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/titans/verdoc-and-phyto-en.html</loc>
+  <lastmod>2025-10-16T22:30-03:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/titans/verdoc-and-phyto-pt.html</loc>
+  <lastmod>2025-10-16T22:30-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<!-- fim hero wars dominion era titans guide Alexandre Games -->
 
 <!-- inicio PET hero wars dominion era heroes guide Alexandre Games -->
 <url>
