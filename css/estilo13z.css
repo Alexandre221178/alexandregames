@@ -211,7 +211,9 @@ nav .menu-icon{
     text-align: left;
   }
 
-
+.content-wrapper ul li{
+    margin-left: 5px;
+}
   .content-wrapper {
     max-width: auto; /* Limita a largura do conteúdo */
     margin-left: 25px;
