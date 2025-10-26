@@ -796,8 +796,13 @@ margin-left: 30px;
 }
 .img-embed a :hover{
     color: #f9464f;
+   
+}
+.img-embed i{
+    display: block;
 }
 .img-embed a{
+    
     padding: 0.1%;
     /* float e text align para texto a esquerda */
     float: left;
