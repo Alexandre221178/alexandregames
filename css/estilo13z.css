@@ -1097,11 +1097,21 @@ margin-left: 30px;
     display: flex;
     align-items: center;
 }
+
 .emblem-title img {
-    margin-right: 10px;
+    margin-right: 10px; /* distância entre a imagem e o texto */
     width: 60px;
     height: 60px;
 }
+
+
+/* Quando o h2 ou h3 estiverem dentro de .emblem-title */
+.emblem-title h2,
+.emblem-title h3 {
+    margin: 0;
+}
+
+
 
 .emblem span{
    font-size: 20px;
@@ -2418,7 +2428,7 @@ body > .skiptranslate {
             font-size: 15px;
             position: relative;
             padding: 10px;
-            background-color: #1ab9c5;
+            background-color: #bd5cbb;
             border-radius: 5px;
             text-align: center;
             height: 160px;
@@ -2464,7 +2474,7 @@ body > .skiptranslate {
     z-index: 2;
     position: relative;
     font-weight: bold;
-    top: 20px;
+    top: 18px;
     left: 2px;
     text-shadow:
         -1px -1px 0 #000,  
