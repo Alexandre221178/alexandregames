@@ -72,6 +72,30 @@ body{
   }
 
 
+/* =========================
+   Espaço reservado para anúncios automáticos do Google (CLS)
+   ========================= */
+
+/* Desktop (>=768px) */
+.adsbygoogle {
+    min-height: 150px; /* altura típica desktop */
+}
+
+/* Mobile (<768px) */
+@media (max-width: 767px) {
+    .adsbygoogle {
+        min-height: 80px; /* altura segura para banners mobile */
+    }
+}
+
+/* Garantir que o anúncio ocupe toda a largura e ajuste a altura automaticamente */
+.adsbygoogle {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
 
 nav{
     display:flex;
