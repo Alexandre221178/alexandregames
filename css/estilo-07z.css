@@ -887,7 +887,9 @@ section p{
 .img-embed a:hover{
     color: #f9464f;
     }
-
+.img-embed i{
+    display: block;
+}
 
     
         /* guide imagem do logo do guia de Heróis */
