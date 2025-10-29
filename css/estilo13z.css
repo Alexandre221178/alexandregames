@@ -1764,6 +1764,37 @@ body > .skiptranslate {
   line-height: 1.5;
 }
 
+.note {
+  background: linear-gradient(145deg, #ffffff, #c6d0db);
+  color: #000000;
+  border-left: 5px solid #00b7ff;
+  border-radius: 12px;
+  padding: 7px 7px;
+  margin: 20px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.note p {
+  margin: 4px 0 0 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.note b {
+  color: #000000;
+  font-weight: 600;
+}
+
+.note:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 183, 255, 0.3);
+}
+
+
 
 
 @media (max-width:768px) {
