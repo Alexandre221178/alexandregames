@@ -3254,13 +3254,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-en.html</loc>
-  <lastmod>2025-10-19T16:48-03:00</lastmod>
+  <lastmod>2025-11-01T10:58-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-pt.html</loc>
-  <lastmod>2025-10-19T16:48-03:00</lastmod>
+  <lastmod>2025-11-01T10:58-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3272,13 +3272,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-pt.html</loc>
-  <lastmod>2025-10-31T23:31-03:00</lastmod>
+  <lastmod>2025-11-01T10:58-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html</loc>
-  <lastmod>2025-10-13T23:15-03:00</lastmod>
+  <lastmod>2025-11-01T10:58-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
@@ -4101,6 +4101,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/events/seers-game-hwde-pt.html</loc>
   <lastmod>2025-10-05T08:41-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/spooky-festival-en.html</loc>
+  <lastmod>2025-11-01T10:58-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/spooky-festival-pt.html</loc>
+  <lastmod>2025-11-01T10:58-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 
