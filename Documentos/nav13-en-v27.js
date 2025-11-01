@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-en.html">Calendar & Events</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html">Heroes Guide</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-en.html">Heroes Tier List</a>
-    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-en.html">Mysterious Island October 2025</a>
+    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-en.html">Mysterious Island November 2025</a>
    
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu/pet-guide-menu-en.html">Pet Guide</a>   
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/pets-tier-list-en.html">Pet Tier List</a>
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <button class="dropbtn">Top Troops</button>
         <div class="dropdown-content"><br>
             
-        <a href="https://alexandregames.com/top-troops/top-troops-en-home.html">Top Troops Guide</a>
+       
         <a href="https://alexandregames.com/top-troops/top-troops-heroes-guide-en.html">Heroes Guide</a>
         <a href="https://alexandregames.com/top-troops/top-troops-us-tier-list.html">Class Tier List</a>
                                 
@@ -102,22 +102,19 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>      
 
     
-    <div class="dropdown">
-        <button></button>
-    </div>
+    
 
     <div class="dropdown">
         <button class="dropbtn">More Games</button>
         <div class="dropdown-content"><br>
         <a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-en.html">Throne and Liberty</a>
             <a href="https://alexandregames.com/ragnarok-origin/codes-ragnarok-us.html">Ragnarok ROO</a>
+             <a href="https://alexandregames.com/top-troops/top-troops-en-home.html">Top Troops Guide</a>
             <a>_____________</a>
             <a href="https://alexandregames.com/Documentos/Contact.html">Contact</a>
-            <a href="https://alexandregames.com/Documentos/disclaimer.html">Disclaimer</a>
-            <a href="https://alexandregames.com/Documentos/PrivacyPolicy.html">Privacy Policy</a>
-            <a href="https://alexandregames.com/Documentos/about.html">About Us</a>
-            <a href="https://alexandregames.com/Documentos/TermsofUse.html">Terms of Use</a>
-            <br><br><br>
+                      <a href="https://alexandregames.com/Documentos/about.html">About Us</a>
+           
+            <br><br><br><br><br>
         </div>
     </div>
    

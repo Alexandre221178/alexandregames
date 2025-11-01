@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totems-guide-pt.html">Guia de Totens</a>
 <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totem-fusion-skills-pt.html">Fusão de Totens – Ranking</a>
 
-<a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-pt.html">Ilha Misteriosa Outubro 2025</a>
+<a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-pt.html">Ilha Misteriosa Novembro 2025</a>
 <a href="https://alexandregames.com/hero-wars-dominion-era/menu/adventure-map-guide-pt.html">Mapas de Aventura de Pet</a>
 <a href="https://alexandregames.com/hero-wars-dominion-era/guide/best-war-flag-pt.html">Melhores Bandeira de Guerra</a>
 <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-pt.html">Tier List de Heróis</a>          
@@ -93,31 +93,19 @@ document.addEventListener('DOMContentLoaded', () => {
         
     </div> 
 
-<div class="dropdown">
-    <button class="dropbtn">Top Troops</button>
-    <div class="dropdown-content"><br>
-        
-    <a href="https://alexandregames.com/top-troops/top-troops-pt-home.html">Guia de Top Troops</a>
-    <a href="https://alexandregames.com/top-troops/top-troops-heroes-guide-pt.html">Guia de Heróis</a>
-    <a href="https://alexandregames.com/top-troops/top-troops-pt-tier-list.html">Tier List de Classe</a>
-                            
-        
-        <br><br><br>
-    </div>
-</div>      
+
 
 <div class="dropdown">
 <button class="dropbtn">Mais Jogos</button>
 <div class="dropdown-content"><br>
     <a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-pt.html">Throne and Liberty</a>
     <a href="https://alexandregames.com/ragnarok-origin/codigos-ragnarok-br.html">Ragnarok ROO</a>
+   <a href="https://alexandregames.com/top-troops/top-troops-pt-home.html">Top Troops</a>
     <a>_____________</a>
     <a href="https://alexandregames.com/Documentos/Contato.html">Contato</a>
-    <a href="https://alexandregames.com/Documentos/aviso-legal.html">Isenção de Responsabilidade</a>
-    <a href="https://alexandregames.com/Documentos/Pol%C3%ADtica%20de%20privacidade.html">Política de Privacidade</a>
-    <a href="https://alexandregames.com/Documentos/Sobre.html">Sobre Nós</a>
-    <a href="https://alexandregames.com/Documentos/Termos%20de%20uso.html">Termos de Uso</a>
-    <br><br><br>
+       <a href="https://alexandregames.com/Documentos/Sobre.html">Sobre Nós</a>
+   
+    <br><br><br><br><br>
 </div>
 </div>
 <div class="dropdown">
