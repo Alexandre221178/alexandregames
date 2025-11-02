@@ -1340,6 +1340,9 @@ td.reward-cell {
   object-fit: contain;
   vertical-align: middle;
 }
+.event-table {
+  margin-left: 10px;
+}
 /* fim imagem tabela de eventos */
 
 .table-combos th{
@@ -2243,7 +2246,7 @@ body > .skiptranslate {
     .text-title h1{
         font-size: 17px;
         text-transform: uppercase;
-        margin-left: 1px;
+        margin-left: 3px;
         
     }
 
@@ -2353,12 +2356,15 @@ body > .skiptranslate {
     .content-wrapper {
   overflow-x: auto;
 }
-
 .event-table {
   min-width: 300px; /* largura mínima da tabela */
 }
 
-    .container{
+.content-wrapper {
+  margin-left: 1px !important; /* margem mínima da tabela forçando */
+}
+
+.container{
         width: auto;
     
     }
