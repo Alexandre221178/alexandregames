@@ -1148,6 +1148,14 @@ margin-left: 30px;
     background-color: #f9f9f9; /* Fundo suave para destacar a moldura (opcional) */
   }
 
+  .sectionx {
+    border: 1px solid #ccc; /* Moldura cinza claro */
+    border-radius: 6px;     /* Bordas levemente arredondadas */
+    padding: 3px;          /* Espaço interno opcional */
+    background-color: #f2f2f2; /* Fundo suave para destacar a moldura (opcional) */
+    margin-top: 37px;
+  }
+
   .emblem img{
     border: 3px solid #bab7b7; /* Moldura cinza claro */
     border-radius: 1px;     /* Bordas levemente arredondadas */
@@ -1215,6 +1223,9 @@ img-middle figcaption {
 
 .img-150px a {
    text-decoration: none
+}
+.img-150px h3, h4 {
+   margin-top: 0px;
 }
 
 /* Remove o underline do nome do herói (link) */
@@ -2183,16 +2194,19 @@ body > .skiptranslate {
     } 
 
 .img-150px a {
+    margin-left: 1px !important;
   display: flex;
   flex-direction: column;
-  align-items: center;
   text-decoration: none;
+   
 }
+
 .img-150px img {
+    margin-left: 1px !important;
   width: 80px;
   height: 75px;
   object-fit: cover;
-  margin-bottom: 3px; /* Space between image and text */
+  
 }
 
 
