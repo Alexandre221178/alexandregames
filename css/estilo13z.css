@@ -1228,6 +1228,37 @@ img-middle figcaption {
    margin-top: 0px;
 }
 
+/* imagen menu 150px */
+.img-menu-150px {
+    width: 158px;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.img-menu-150px img {
+    width: 67%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-menu-150px a:hover img {
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.img-menu-150px a {
+   text-decoration: none
+}
+.img-menu-150px h3, h4 {
+   margin-top: 0px;
+}
+
+
 /* Remove o underline do nome do herói (link) */
 .hero-name a {
     text-decoration: none !important; /* Garante que o sublinhado seja removido */
@@ -2208,6 +2239,11 @@ body > .skiptranslate {
   object-fit: cover;
   
 }
+
+.img-menu-150px img{
+    
+       width: 47%;
+    }
 
 
 
