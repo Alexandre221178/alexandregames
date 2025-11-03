@@ -1230,7 +1230,7 @@ img-middle figcaption {
 
 /* imagen menu 150px */
 .img-menu-150px {
-    width: 158px;
+    width: 147px;
     height: auto;
     margin: 10px;
     text-align: center;
@@ -2239,11 +2239,10 @@ body > .skiptranslate {
   object-fit: cover;
   
 }
-
-.img-menu-150px img{
-    
-       width: 47%;
-    }
+.img-menu-150px {
+    width: 127px;
+   
+}
 
  .img-menu-150px a{
     margin-left: auto;
