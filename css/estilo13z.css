@@ -1578,6 +1578,7 @@ iframe {
 .share-buttons {
     display: flex;
     margin-top: 0px;
+    
     gap: 10px;
     min-height: 40px; /* Altura mínima */
     background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste */
@@ -2264,6 +2265,17 @@ body > .skiptranslate {
         font-size: 20px;
     }
 
+    .share-button {
+  margin: 0 !important;
+}
+     .share-buttons {
+        gap: 3px; /* diminui o espaço horizontal */
+            }
+    .share-buttons {
+       
+        padding: 6px 8px; /* diminui o tamanho interno dos botões */
+        font-size: 14px; /* fonte um pouco menor */
+    }
     .share-button {
         margin-top: 1px;
         margin-bottom: 1px;
