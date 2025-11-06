@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="https://alexandregames.com/herowars-alliance-en.html">HWA - Home</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-en-hwa.html">Best Teams Guide</a>
         <a href="https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html">Calendar & Events</a>
-        <a href="https://alexandregames.com/y-m-gifts-hwa-en.html">Daily Gifts</a>
+        <a href="https://alexandregames.com/y-m-gifts-hwa-en.html">Daily Gifts 🎁</a>
         <a href="https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-en-hwa.html">Daily Hero's Way</a>  
 
         <a href="https://alexandregames.com/Hero%20Wars%20English/Heroes%20Guide%20Hero%20Wars.html">Heroes Guide</a>
@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
      <a href="https://alexandregames.com/hero-wars-dominion-era/menu/adventure-map-guide-en.html">Adventure Maps</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/best-war-flag-en.html">Best War Flags</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-en.html">Calendar & Events</a>
+    <a href="https://alexandregames.com/y-redeem-gifts-hwde-en.html">Daily Gifts 🎁</a>
     
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html">Heroes Guide</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-en.html">Heroes Tier List</a>
