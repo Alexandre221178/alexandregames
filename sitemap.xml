@@ -19,17 +19,6 @@
 </url>
 
 <url>
-  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-en-hwa.html</loc>
-  <lastmod>2025-10-30T22:48-03:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-pt-hwa.html</loc>
-  <lastmod>2025-09-28T13:26-03:00</lastmod>
-  <priority>0.70</priority>
-</url>
-
-<url>
   <loc>https://alexandregames.com</loc>
   <lastmod>2025-09-14T00:20-03:00</lastmod>
   <priority>1.00</priority>
@@ -2140,6 +2129,17 @@
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html</loc>
   <lastmod>2025-11-03T00:00-03:00</lastmod>
   <priority>0.90</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-en-hwa.html</loc>
+  <lastmod>2025-11-06T21:51-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-pt-hwa.html</loc>
+  <lastmod>2025-11-06T21:51-03:00</lastmod>
+  <priority>0.70</priority>
 </url>
 
 <url>
