@@ -140,6 +140,31 @@
   }
    
 }
+/* Força as imagens do Gift 1 a ficarem lado a lado no mobile */
+@media (max-width: 768px) {
+  td:nth-child(2) > div {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+  }
+
+  td:nth-child(2) .reward-cell {
+    flex: 1 1 45%;
+    text-align: center;
+  }
+
+  td:nth-child(2) img {
+    width: 47px;
+    height: auto;
+  }
+
+  td:nth-child(2) span {
+    display: block;
+    font-size: 13px;
+  }
+}
 </style>
 <!-- second half retirar melhora - pagespeed test</div> -->      
 <div id="second-half" class="hidden">  
@@ -187,6 +212,7 @@
       <span>Titan Artifact Sphere x5</span>
     </div>
     </td>
+    
 </tr>
      
       <!-- Web box inside table -->
