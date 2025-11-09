@@ -218,7 +218,7 @@ nav .menu-icon{
 
   .content-wrapper05 {
     max-width: auto; /* Limita a largura do conteúdo */
-    margin-left: 25px;
+    margin-left: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
     box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
@@ -226,10 +226,11 @@ nav .menu-icon{
   }
   .content-wrapper05 {
     min-height: 70px; /* Altura mínima */
+    margin-left: 10px;
   }
   .content-wrapper05 p{
     font-size: 22px; 
-   
+   margin-left: 13px;
     margin-top: 5px;
     line-height: 30px;
     text-align: left;
@@ -248,10 +249,11 @@ nav .menu-icon{
   }
   .content-wrapper {
     min-height: 100px; /* Altura mínima */
+    margin-left: 13px;
   }
   .content-wrapper p{
     font-size: 22px; 
-   
+   margin-left: 13px;
     margin-top: 5px;
     line-height: 30px;
     text-align: left;
@@ -259,7 +261,7 @@ nav .menu-icon{
 
   .content-wrapper2 {
     max-width: auto; /* Limita a largura do conteúdo */
-    margin-left: 25px;
+   margin-left: 13px;
     margin-top: 5px;
     margin-bottom: 5px;
     box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
@@ -270,7 +272,7 @@ nav .menu-icon{
   }
   .content-wrapper2 p{
     font-size: 22px; 
-   
+   margin-left: 13px;
     margin-top: 5px;
     line-height: 30px;
     text-align: left;
@@ -1947,9 +1949,10 @@ body > .skiptranslate {
         min-height: 120px; /* Altura mínima */
         background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
       }
+           
     
       .content-wrapper05 p {
-          margin-left: 0px;
+          margin-left: 3px !important;
           font-size: 19px;
       }
 
@@ -1960,7 +1963,7 @@ body > .skiptranslate {
       }
     
       .content-wrapper p {
-          margin-left: 0px;
+          margin-left: 3px !important;
           font-size: 19px;
       }
     
@@ -1970,15 +1973,11 @@ body > .skiptranslate {
       }
     
       .content-wrapper2 p {
-          margin-left: 0px;
+          margin-left: 3px !important;;
           font-size: 19px;
       }
 
-      .content-wrapper05 {
-        min-height: 120px; /* Altura mínima */
-        background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
-      }
-    
+     
      
     
       .ad-fold-container {
