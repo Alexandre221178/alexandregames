@@ -1989,7 +1989,12 @@ body > .skiptranslate {
         margin-bottom: 0px;
     }
     
-
+.event a {
+    padding-top: 0px;
+    margin-top: 3px !important;
+    font-size: 14px;      /* diminui a fonte no mobile */
+    line-height: 19px !important;    /* diminui o espaçamento vertical */
+  }
 
     .text-ale{
         margin: 10px;
@@ -2595,15 +2600,16 @@ body > .skiptranslate {
             height: 100%;
         }
       .event a {
-  display: inline-block;
-  margin-bottom: 20px;
+  display: block; /* força quebra de linha */
+  line-height: 23px;
+  margin-top: 3px;
   color: #fff;
   text-decoration: none;
   position: relative;
   font-weight: bold;
   top: 18px;
   left: 2px;
-  z-index: 10; /* adiciona prioridade na camada */
+  z-index: 10;
   text-shadow:
     -1px -1px 0 #000,
      1px -1px 0 #000,
