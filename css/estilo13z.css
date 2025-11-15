@@ -1827,7 +1827,8 @@ body > .skiptranslate {
 
 .note p {
   margin: 4px 0 0 0;
-  font-size: 1rem;
+  font-size: 20px;
+  font-style: italic !important; 
   line-height: 1.6;
   font-weight: 400;
 }
