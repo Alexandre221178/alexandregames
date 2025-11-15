@@ -1929,6 +1929,9 @@ body > .skiptranslate {
     margin-bottom: 15px;
   }
     
+ .hide-mobile {
+    display: none;
+  }
     
     .text-bx,
     .img-bx{
@@ -2557,7 +2560,7 @@ body > .skiptranslate {
             padding: 20px;
         }
         .calendar .event-container {
-            font-size: 15px;
+            font-size: 16px;
             position: relative;
             padding: 10px;
             background-color: #bd5cbb;
@@ -2569,13 +2572,13 @@ body > .skiptranslate {
             justify-content: center;
         }
         .calendar .event-container-hwde {
-            font-size: 15px;
+            font-size: 16px;
             position: relative;
             padding: 10px;
             background-color: #6803b1;
             border-radius: 5px;
             text-align: center;
-            height: 176px; /* tamanho do container */
+            height: 197px; /* tamanho do container */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -2602,8 +2605,9 @@ body > .skiptranslate {
         }
       .event a {
   display: block; /* força quebra de linha */
-  line-height: 23px;
+  line-height: 17px;
   margin-top: 3px;
+  margin-bottom: 10px !important;
   color: #fff;
   text-decoration: none;
   position: relative;
