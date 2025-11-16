@@ -2566,7 +2566,7 @@ body > .skiptranslate {
             background-color: #bd5cbb;
             border-radius: 5px;
             text-align: center;
-            height: 176px;
+            height: 220px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -2578,7 +2578,7 @@ body > .skiptranslate {
             background-color: #6803b1;
             border-radius: 5px;
             text-align: center;
-            height: 197px; /* tamanho do container */
+            height: 220px; /* tamanho do container */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -2606,13 +2606,12 @@ body > .skiptranslate {
       .event a {
   display: block; /* força quebra de linha */
   line-height: 17px;
-  margin-top: 3px;
-  margin-bottom: 10px !important;
+margin-bottom: 7px !important;
   color: #fff;
   text-decoration: none;
   position: relative;
   font-weight: bold;
-  top: 18px;
+  top: 25px;
   left: 2px;
   z-index: 10;
   text-shadow:
