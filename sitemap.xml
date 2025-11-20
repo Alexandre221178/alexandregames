@@ -31,13 +31,13 @@
 
 <url>
   <loc>https://alexandregames.com/herowars-alliance-en.html</loc>
-  <lastmod>2025-11-11T23:40-03:00</lastmod>
+  <lastmod>2025-11-19T23:50-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/HeroWars.html</loc>
-  <lastmod>2025-11-11T23:40-03:00</lastmod>
+  <lastmod>2025-11-19T23:50-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -679,6 +679,17 @@
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Aurora.html</loc>
   <lastmod>2025-01-20T21:35-03:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/byrna-en.html</loc>
+ <lastmod>2025-11-19T23:50-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/byrna-pt.html</loc>
+  <lastmod>2025-11-19T23:50-03:00</lastmod>
   <priority>0.51</priority>
 </url>
 
@@ -2133,12 +2144,12 @@
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html</loc>
-  <lastmod>2025-11-11T23:40-03:00</lastmod>
+  <lastmod>2025-11-19T23:50-03:00</lastmod>
   <priority>0.97</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html</loc>
-  <lastmod>2025-11-11T23:40-03:00</lastmod>
+  <lastmod>2025-11-19T23:50-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 
