@@ -11,12 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
     <div class="dropdown-content"><br>
         
     <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-pt.html">Instale o AppGallery no Android para descontos em Hero Wars</a>
-    <a href="https://alexandregames.com/gaming-guide/review/echoes-of-eternity-game-review-pt.html">Echoes of Eternity</a>
-    <a href="https://alexandregames.com/gaming-guide/review/path-of-exile-2-pt.html">Path of Exile2 - Tier List</a>
     <a href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-pt.html">Jogue Hero Wars Alliance no PC e Mac</a>
-        <a href="https://alexandregames.com/gaming-guide/review/tales-of-wind-review-pt.html">Tales of Wind: RR</a>
-    <a href="https://alexandregames.com/gaming-guide/review/the-dragon-odyssey-gameplay-pt.html">The Dragon Odyssey</a>
-                            
+                                 
         
         <br><br><br>
             <br><br><br>
@@ -99,9 +95,13 @@ document.addEventListener('DOMContentLoaded', () => {
 <div class="dropdown">
 <button class="dropbtn">Mais Jogos</button>
 <div class="dropdown-content"><br>
+    <a href="https://alexandregames.com/top-troops/top-troops-pt-home.html">Top Troops</a>
     <a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-pt.html">Throne and Liberty</a>
-    <a href="https://alexandregames.com/ragnarok-origin/codigos-ragnarok-br.html">Ragnarok ROO</a>
-   <a href="https://alexandregames.com/top-troops/top-troops-pt-home.html">Top Troops</a>
+    <a href="https://alexandregames.com/ragnarok-origin/codigos-ragnarok-br.html">Ragnarok ROO</a>   
+    <a href="https://alexandregames.com/gaming-guide/review/echoes-of-eternity-game-review-pt.html">Echoes of Eternity</a>
+    <a href="https://alexandregames.com/gaming-guide/review/path-of-exile-2-pt.html">Path of Exile2 - Tier List</a>
+    <a href="https://alexandregames.com/gaming-guide/review/tales-of-wind-review-pt.html">Tales of Wind: RR</a>
+    <a href="https://alexandregames.com/gaming-guide/review/the-dragon-odyssey-gameplay-pt.html">The Dragon Odyssey</a>
     <a>_____________</a>
     <a href="https://alexandregames.com/Documentos/Contato.html">Contato</a>
        <a href="https://alexandregames.com/Documentos/Sobre.html">Sobre Nós</a>
