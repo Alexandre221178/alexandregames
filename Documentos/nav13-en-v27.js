@@ -8,13 +8,11 @@ document.addEventListener('DOMContentLoaded', () => {
 <ul> 
 
 <div class="dropdown">
-    <button class="dropbtn">Gameplay Reviews</button>
+    <button class="dropbtn"><span class="notranslate">Gameplay Reviews</button>
     <div class="dropdown-content"><br>
     <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-en.html">Install AppGallery on Android for Hero Wars Discounts</a>   
-    <a href="https://alexandregames.com/gaming-guide/review/echoes-of-eternity-game-review-en.html">Echoes of Eternity</a>
-    <a href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html">Play Hero Wars Alliance on PC & Mac</a> 
-    <a href="https://alexandregames.com/gaming-guide/review/tales-of-wind-review-en.html">Tales of Wind: RR</a>
-    <a href="https://alexandregames.com/gaming-guide/review/the-dragon-odyssey-gameplay-en.html">The Dragon Odyssey</a>                    
+        <a href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html">Play Hero Wars Alliance on PC & Mac</a> 
+    
         
         <br><br><br>
             <br><br><br>
@@ -25,15 +23,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     <div class="dropdown">
 
-    <button class="dropbtn">Hero Wars Alliance</button>
+   <button class="dropbtn"><span class="notranslate">Hero Wars Alliance</span></button>
     <div class="dropdown-content"> <br>                
         <a href="https://alexandregames.com/herowars-alliance-en.html">HWA - Home</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-en-hwa.html">Best Teams Guide</a>
         <a href="https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html">Calendar & Events</a>
-         <a href="https://alexandregames.com/y-m-gifts-hwa-en.html">Daily Gifts 🎁</a>
-         <a href="https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-en-hwa.html">Daily Hero's Way</a>  
+        <a href="https://alexandregames.com/y-m-gifts-hwa-en.html">Daily Gifts 🎁</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-en-hwa.html">Daily Hero's Way</a>  
+
         <a href="https://alexandregames.com/Hero%20Wars%20English/Heroes%20Guide%20Hero%20Wars.html">Heroes Guide</a>
-      
+        
         <a href="https://alexandregames.com/hero-wars-alliance/menu-review-en-hwa.html">Skins Reviews</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-en.html">Guides & Secrets</a>
         <a href="https://alexandregames.com/Hero%20Wars/articles-herowars/tierlist-en-pvp-herowars.html">Tier List</a>
@@ -47,15 +46,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="dropdown">
 
-<button class="dropbtn">Hero Wars: Dominion Era</button>
+<button class="dropbtn"><span class="notranslate">Hero Wars: Dominion Era</span></button>
     <div class="dropdown-content"> <br>  
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-en.html">HWDE - Home</a>
      <a href="https://alexandregames.com/hero-wars-dominion-era/menu/adventure-map-guide-en.html">Adventure Maps</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/best-war-flag-en.html">Best War Flags</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-en.html">Calendar & Events</a>
     <a href="https://alexandregames.com/y-redeem-gifts-hwde-en.html">Daily Gifts 🎁</a>
+    
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html">Heroes Guide</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-en.html">Heroes Tier List</a>
+     
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-en.html">Mysterious Island November 2025</a>
    
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu/pet-guide-menu-en.html">Pet Guide</a>   
@@ -72,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>  
 
 <div class="dropdown">
-    <button class="dropbtn">Mobile Legends</button>
+    <button class="dropbtn"><span class="notranslate">Mobile Legends</span></button>
     <div class="dropdown-content"><br>
         
     <a href="https://alexandregames.com/MobileLegends-English.html">Heroes Guide</a>
@@ -89,31 +90,22 @@ document.addEventListener('DOMContentLoaded', () => {
     <button class="dropbtn"><a href="https://alexandregames.com/roblox-us.html">Roblox PC/Mobile</a></button>
 </div> 
 
-<div class="dropdown">
-        <button class="dropbtn">Top Troops</button>
-        <div class="dropdown-content"><br>
-            
-       
-        <a href="https://alexandregames.com/top-troops/top-troops-heroes-guide-en.html">Heroes Guide</a>
-        <a href="https://alexandregames.com/top-troops/top-troops-us-tier-list.html">Class Tier List</a>
-                                
-            
-            <br><br><br>
-        </div>
-    </div>      
-
     
     
-
     <div class="dropdown">
         <button class="dropbtn">More Games</button>
         <div class="dropdown-content"><br>
-        <a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-en.html">Throne and Liberty</a>
-            <a href="https://alexandregames.com/ragnarok-origin/codes-ragnarok-us.html">Ragnarok ROO</a>
-             <a href="https://alexandregames.com/top-troops/top-troops-en-home.html">Top Troops Guide</a>
+            <a href="https://alexandregames.com/top-troops/top-troops-en-home.html"><span class="notranslate">Top Troops</a>
+            <a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-en.html"><span class="notranslate">Throne and Liberty</a>
+            <a href="https://alexandregames.com/ragnarok-origin/codes-ragnarok-us.html"><span class="notranslate">Ragnarok ROO</a>
+
+            <a href="https://alexandregames.com/gaming-guide/review/tales-of-wind-review-en.html"><span class="notranslate">Tales of Wind: RR</a>
+            <a href="https://alexandregames.com/gaming-guide/review/the-dragon-odyssey-gameplay-en.html"><span class="notranslate">The Dragon Odyssey</a>                    
+            <a href="https://alexandregames.com/gaming-guide/review/echoes-of-eternity-game-review-en.html"><span class="notranslate">Echoes of Eternity</a>
+            <a href="https://alexandregames.com/gaming-guide/review/path-of-exile-2-en.html"><span class="notranslate">Path of Exile2 - Tier List</a>
             <a>_____________</a>
-            <a href="https://alexandregames.com/Documentos/Contact.html">Contact</a>
-                      <a href="https://alexandregames.com/Documentos/about.html">About Us</a>
+            <a href="https://alexandregames.com/Documentos/Contact.html">Contact</a>            
+            <a href="https://alexandregames.com/Documentos/about.html">About Us</a>
            
             <br><br><br><br><br>
         </div>
