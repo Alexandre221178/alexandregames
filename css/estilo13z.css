@@ -1995,9 +1995,9 @@ body > .skiptranslate {
     
 .event a {
     padding-top: 0px;
-    margin-top: 3px !important;
+    margin-top: 1px !important;
     font-size: 14px;      /* diminui a fonte no mobile */
-    line-height: 19px !important;    /* diminui o espaçamento vertical */
+    line-height: 18px !important;    /* diminui o espaçamento vertical */
   }
 
     .text-ale{
