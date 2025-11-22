@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
 <div class="dropdown">
     <button class="dropbtn"><span class="notranslate">Gameplay Reviews</button>
     <div class="dropdown-content"><br>
-    <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-en.html">Install AppGallery on Android for Hero Wars Discounts</a>   
-        <a href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html">Play Hero Wars Alliance on PC & Mac</a> 
+    <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-en.html">How to Install AppGallery on Android for Hero Wars Discounts</a>   
+        <a href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html">How to Play Hero Wars Alliance on PC & Mac</a> 
     
         
         <br><br><br>

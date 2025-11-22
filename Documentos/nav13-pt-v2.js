@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
     <button class="dropbtn">Análises de Gameplay</button>
     <div class="dropdown-content"><br>
         
-    <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-pt.html">Instale o AppGallery no Android para descontos em Hero Wars</a>
-    <a href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-pt.html">Jogue Hero Wars Alliance no PC e Mac</a>
+    <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-pt.html">Como Instalar o AppGallery no Android para descontos em Hero Wars</a>
+    <a href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-pt.html">Como Jogar Hero Wars Alliance no PC e Mac</a>
                                  
         
         <br><br><br>
