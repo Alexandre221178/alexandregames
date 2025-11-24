@@ -1001,7 +1001,7 @@ section p{
 }
 
 .img-menuguide img {
-    width: 100%; /* imagem ocupa 100% do contêiner */
+    width: 67%; /* imagem ocupa 100% do contêiner */
     height: auto; /* mantém a proporção da imagem */
 }
 
