@@ -1676,7 +1676,7 @@ iframe {
 }
 
 /* Estilos individuais para cada botão */
-.translate { background-color: #4285F4; } /* Azul do Google Translate */
+.translate { background-color: #81bad3; } /* Azul do Google Translate */
 .whatsapp { background-color: #1fc55c; }
 .facebook { background-color: #3b5998; }
 .reddit { background-color: #FF4500; }
@@ -1692,11 +1692,28 @@ iframe {
     display: none !important;
 }
 
+/* botao para desativar botao de traduzir se ja estiver no idioma do usuario */
+.lang-notice {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    opacity: 0.95;
+    z-index: 9999;
+    transition: opacity 0.4s ease;
+}
+
+
 /* Esconde o iframe interno do Google Tradutor 
 body > .skiptranslate {
     display: none !important;
 }
-*/
+
 
 /* inicio table best teams  */
 .team-table-wrapper {
@@ -1908,6 +1925,7 @@ body > .skiptranslate {
   transform: translateY(-3px);
   box-shadow: 0 6px 18px rgba(0, 183, 255, 0.3);
 }
+
 
 
 
