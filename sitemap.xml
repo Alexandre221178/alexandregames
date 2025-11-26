@@ -3282,25 +3282,25 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-en.html</loc>
-  <lastmod>2025-11-24T23:40-03:00</lastmod>
+  <lastmod>2025-11-25T21:34-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-pt.html</loc>
-  <lastmod>2025-11-24T23:40-03:00</lastmod>
+  <lastmod>2025-11-25T21:34-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-en.html</loc>
-  <lastmod>2025-11-24T19:42-03:00</lastmod>
+  <lastmod>2025-11-25T21:34-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-pt.html</loc>
-  <lastmod>2025-11-24T19:42-03:000</lastmod>
+  <lastmod>2025-11-25T21:34-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -4120,6 +4120,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/events/elemental-synergy-pt.html</loc>
   <lastmod>2025-07-13T22:54-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/emerald-city-en.html</loc>
+  <lastmod>2025-11-25T21:34-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/emerald-city-pt.html</loc>
+  <lastmod>2025-11-25T21:34-03:000</lastmod>
   <priority>0.60</priority>
 </url>
 
