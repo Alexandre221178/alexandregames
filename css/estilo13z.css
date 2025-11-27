@@ -1773,6 +1773,30 @@ body > .skiptranslate {
     display: table-row-group;
   }
   /* fim table best teams  */
+ /* table max stats hero wars pc  */
+/* Centraliza todo o conteúdo da tabela */
+.table-stats td, 
+.table-stats th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Organiza imagem + nome do stat em coluna */
+.table-stats td.stat-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ajuste das imagens */
+.table-stats td.stat-cell img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 4px;
+}
+
 /* inicio video youtube 2024  */
 .video-container {
     width: 99%;
