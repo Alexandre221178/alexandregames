@@ -1796,6 +1796,22 @@ body > .skiptranslate {
     object-fit: contain;
     margin-bottom: 4px;
 }
+/* Ajuste das imagens table team */
+td.team-cell{
+    text-align: center !important;
+    vertical-align: middle;
+}
+td.team-cell a{
+    display: inline-flex !important;  
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-decoration: none;
+    text-align: center !important;
+}
+
+
+
 
 /* inicio video youtube 2024  */
 .video-container {
