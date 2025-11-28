@@ -1809,7 +1809,15 @@ td.team-cell a{
     text-decoration: none;
     text-align: center !important;
 }
-
+/* Ajuste dos nomes sem links abaixo imagens table team, apos todos ter link pode remover */
+td.team-cell span{
+    display: block !important;
+    margin-top: 0px;
+    text-align: center !important;
+    width: 100%;
+    cursor: not-allowed;
+    }
+   
 
 
 
@@ -2685,7 +2693,7 @@ td.team-cell a{
             padding: 20px;
         }
         .calendar .event-container {
-            font-size: 16px;
+            font-size: 14px;
             position: relative;
             padding: 10px;
             background-color: #2dbe39;
@@ -2697,7 +2705,7 @@ td.team-cell a{
             justify-content: center;
         }
         .calendar .event-container-hwde {
-            font-size: 16px;
+            font-size: 14px;
             position: relative;
             padding: 10px;
             background-color: #6803b1;
@@ -2730,7 +2738,7 @@ td.team-cell a{
         }
       .event a {
   display: block; /* força quebra de linha */
-  line-height: 17px;
+  line-height: 14px;
 margin-bottom: 7px !important;
   color: #fff;
   text-decoration: none;
