@@ -2,7 +2,7 @@ function translatePage() {
     var userLang = navigator.language || navigator.userLanguage;
     userLang = userLang.split('-')[0];
 
-    var pageLang = 'en'; // idioma original da página
+    var pageLang = 'pt'; // idioma original da página
 
     // Se já está no idioma do usuário — mostra mensagem discreta e não faz nada
     if (userLang === pageLang) {
