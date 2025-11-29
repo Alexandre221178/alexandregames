@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta property="article:published_time" content="2025-06-01T19:26-03:00" />
-<meta property="article:modified_time" content="2025-06-07T08:58-03:00" />
+<meta property="article:modified_time" content="2025-11-29T09:19-03:00" />
 <link rel="stylesheet" href="../../css/estilo13z.css">
 
 <title>Guia de Aventura do PET Mapa 9: em Hero Wars: Dominion Era</title>
@@ -155,19 +155,34 @@
   Copiado!
 </span>
 
-<ul style="list-style: none; padding-left: 0;">
-  <li style="margin-bottom: 10px;"><strong>Caminho Azul:</strong> 02 → 06 → 10 → 15 → 20 → 14 → 24 → 29 → 25 → 36 → 39 → 42 → 44 → Chefe (acertar 2 vezes)</li>
-  <li style="margin-bottom: 10px;"><strong>Caminho Amarelo:</strong> 03 → 08 → 12 → 11 → 07 → 16 → 21 → 26 → 30 → 31 → 32 → 35 → 37 → 40 → Chefe</li>
-  <li style="margin-bottom: 10px;"><strong>Caminho Verde:</strong> 03 → 04 → 13 → 19 → 18 → 23 → 17 → 22 → 38 → 41 → 43 → 46 → Chefe (acertar 3 vezes)</li>
-</ul>
+<!------nao pode ser copiado ----------->
+<!------nao pode ser copiado ----------->
+<style>
+.no-select {
+  user-select: none;
+  -webkit-user-select: none; /* Para compatibilidade com Chrome/Safari */
+  -moz-user-select: none;    /* Para compatibilidade com Firefox */
+  -ms-user-select: none;     /* Para compatibilidade com IE/Edge antigo */
+}
+</style>
+<!-----nao pode ser copiado------------>
+<div class="no-select">
+<div class="note">
 
+<ul style="list-style: none; padding-left: 0;">
+  <li style="margin-bottom: 10px;"><strong>Caminho Azul:</strong> 02 → 06 → 10 → 15 → 20 → 14 [aguarde derrotar a torre 10] → 24 → 29 → 25 → 36 [aguarde derrotar a torre 37] → 39 [aguarde derrotar a torre 40] → 42 → 44 → Chefe (acertar 2 vezes)</li>
+<li style="margin-bottom: 10px;"><strong>Caminho Amarelo:</strong> 03 → 08 → 12 → 11 → 07 [aguarde derrotar as torres 6 e 8] → 16 → 21 [aguarde derrotar a torre 20] → 26 → 30 → 31 → 32 → 35 → 37 → 40 → Chefe</li>
+<li style="margin-bottom: 10px;"><strong>Caminho Verde:</strong> 03 → 04 → 13 → 19 [aguarde derrotar a torre 12] → 18 → 23 → 17 → 22 → 38 [aguarde derrotar a torre 37] → 41 [aguarde derrotar a torre 40] → 43 → 46 → Chefe (acertar 3 vezes)</li>
+</ul>
+</div>
+</div>
 <script>
   function copyRoutes() {
-    const routes = `Azul: 02-06-10-15-20-14-24-29-25-36-39-42-44-Chefe(x2)
-Amarelo: 03-08-12-11-07-16-21-26-30-31-32-35-37-40-Chefe
-Verde: 03-04-13-19-18-23-17-22-38-41-43-46-Chefe(x3)
+    const routes = `Blue Path: 02-06-10-15-20-14-24-29-25-36-39-42-44-Boss(x2)
+_Yellow Path: 03-08-12-11-07-16-21-26-30-31-32-35-37-40-Boss
+_Green Path: 03-04-13-19-18-23-17-22-38-41-43-46-Boss(x3)
 
-Mais detalhes: https://alexandregames.com/hero-wars-dominion-era/adventure-maps/siege-of-strongford-pt.html`;
+Mais detalhes: https://alexandregames.com/hero-wars-dominion-era/adventure-maps/siege-of-strongford-en.html`;
 
     navigator.clipboard.writeText(routes).then(() => {
       const msg = document.getElementById('copy-message');

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta property="article:published_time" content="2025-06-01T19:26-03:00" />
-<meta property="article:modified_time" content="2025-06-07T08:58-03:00" />
+<meta property="article:modified_time" content="2025-11-29T09:19-03:00" />
 <link rel="stylesheet" href="../../css/estilo13z.css">   
 
 <title>PET Adventure Map 9 Guide for Hero Wars: Dominion Era</title>
@@ -155,23 +155,34 @@
   onclick="copyRoutes()" 
   style="padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 8px;"
 >
-  Copy Routes
+  Copy Routes - Map #9
 </button>
 <span id="copy-message" style="margin-left: 10px; color: green; font-weight: bold; display: none;">
   Copied!
 </span>
-
+<!------nao pode ser copiado ----------->
+<style>
+.no-select {
+  user-select: none;
+  -webkit-user-select: none; /* Para compatibilidade com Chrome/Safari */
+  -moz-user-select: none;    /* Para compatibilidade com Firefox */
+  -ms-user-select: none;     /* Para compatibilidade com IE/Edge antigo */
+}
+</style>
+<div class="no-select">
+<div class="note">
 <ul style="list-style: none; padding-left: 0;">
-  <li style="margin-bottom: 10px;"><strong>Blue Path:</strong> 02 → 06 → 10 → 15 → 20 → 14 → 24 → 29 → 25 → 36 → 39 → 42 → 44 → Boss (hit 2 times)</li>
-  <li style="margin-bottom: 10px;"><strong>Yellow Path:</strong> 03 → 08 → 12 → 11 → 07 → 16 → 21 → 26 → 30 → 31 → 32 → 35 → 37 → 40 → Boss</li>
-  <li style="margin-bottom: 10px;"><strong>Green Path:</strong> 03 → 04 → 13 → 19 → 18 → 23 → 17 → 22 → 38 → 41 → 43 → 46 → Boss (hit 3 times)</li>
+  <li style="margin-bottom: 10px;"><strong>Blue Path:</strong> 02 → 06 → 10 → 15 → 20 → 14[wait defeat tower 10]→ 24 → 29 → 25 → 36[wait defeat tower 37] → 39[wait defeat tower 40] → 42 → 44 → Boss (hit 2 times)</li>
+  <li style="margin-bottom: 10px;"><strong>Yellow Path:</strong> 03 → 08 → 12 → 11 → 07[wait defeat tower 6 and 8] → 16 → 21[wait defeat tower 20]→ 26 → 30 → 31 → 32 → 35 → 37 → 40 → Boss</li>
+  <li style="margin-bottom: 10px;"><strong>Green Path:</strong> 03 → 04 → 13 → 19[wait defeat tower 12] → 18 → 23 → 17 → 22 → 38[wait defeat tower 37] → 41[wait defeat tower 40] → 43 → 46 → Boss (hit 3 times)</li>
 </ul>
-
+</div>
+</div>
 <script>
   function copyRoutes() {
-    const routes = `Blue: 02-06-10-15-20-14-24-29-25-36-39-42-44-Boss(x2)
-Yellow: 03-08-12-11-07-16-21-26-30-31-32-35-37-40-Boss
-Green: 03-04-13-19-18-23-17-22-38-41-43-46-Boss(x3)
+    const routes = `Blue Path: 02-06-10-15-20-14-24-29-25-36-39-42-44-Boss(x2)
+_Yellow Path: 03-08-12-11-07-16-21-26-30-31-32-35-37-40-Boss
+_Green Path: 03-04-13-19-18-23-17-22-38-41-43-46-Boss(x3)
 
 More details: https://alexandregames.com/hero-wars-dominion-era/adventure-maps/siege-of-strongford-en.html`;
 
