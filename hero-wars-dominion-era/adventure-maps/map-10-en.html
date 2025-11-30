@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta property="article:published_time" content="2025-06-24T22:51-03:00" />
-<meta property="article:modified_time" content="2025-10-12T21:09-03:00" />
+<meta property="article:modified_time" content="2025-11-30T09:04-03:00" />
 <link rel="stylesheet" href="../../css/estilo13z.css">   
 
 <title>How to Beat Adventure Map 10 in Hero Wars: Dominion Era</title>
@@ -143,35 +143,48 @@
 </div>
 
 
-<h2>Recommended Paths for Map 10:</h2>
+<h2>Map #10 Routes - Valley of the Elements</h2>
 
   <button 
     onclick="copyRoutes()" 
     style="padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 8px;"
   >
-    Copy Routes
+    Copy Routes - Map #10
   </button>
   <span id="copy-message" style="margin-left: 10px; color: green; font-weight: bold; display: none;">
     Copied!
   </span>
-
+<!------nao pode ser copiado max300caracteres----------->
+<style>
+.no-select {
+  user-select: none;
+  -webkit-user-select: none; /* Para compatibilidade com Chrome/Safari */
+  -moz-user-select: none;    /* Para compatibilidade com Firefox */
+  -ms-user-select: none;     /* Para compatibilidade com IE/Edge antigo */
+}
+</style>
+<div class="note">
+<div class="no-select">
   <ul style="list-style: none; padding-left: 0;">
     <li style="margin-bottom: 10px;">
-      <strong style="color: #007BFF;">Blue Path:</strong> 03-02-06-11-17-25-30-35-34-29-24-21-17-12-07
-    </li>
-    <li style="margin-bottom: 10px;">
-      <strong style="color: #FFC107;">Yellow Path:</strong> 04-08-13-18-22-26-31-36-40-45-44-43-38-33-28
-    </li>
-    <li style="margin-bottom: 10px;">
-      <strong style="color: #28A745;">Green Path:</strong> 05-09-14-19-23-27-32-37-42-48-51-50-49-46-Boss
-    </li>
+  <strong style="color: #007BFF;">Blue Path:</strong> 03 → 02 → 06 → 11 → 17 → 25 → 30 → (35) → 34 → 29[wait defeat tower 28] → 24 → 21 → 17[wait defeat tower 13] → 12 → 07
+</li>
+<li style="margin-bottom: 10px;">
+  <strong style="color: #FFC107;">Yellow Path:</strong> 04 → 08 → 13 → 18 → 22 → 26 → 31[wait defeat tower 32 & 35]→ 36[wait defeat tower 37] → 40 → 45 → 44 → 43 → 38 → 33 → (28)
+</li>
+<li style="margin-bottom: 10px;">
+  <strong style="color: #28A745;">Green Path:</strong> 05 → 09 → 14[wait defeat tower 13] → 19 → 23 → 27 → (32) → (37) → 42 → 48 → 51 → 50 → 49 → 46 → Boss
+</li>
+
   </ul>
+</div>
+</div>
 
   <script>
     function copyRoutes() {
-      const routes = `Blue: 03-02-06-11-17-25-30-35-34-29-24-21-17-12-07
-Yellow: 04-08-13-18-22-26-31-36-40-45-44-43-38-33-28
-Green: 05-09-14-19-23-27-32-37-42-48-51-50-49-46-Boss
+      const routes = `Blue: 03→02→06→11→17→25→30→35→34→29→24→21→17→12→07
+Yellow: 04→08→13→18→22→26→31→36→40→45→44→43→38→33→28
+Green: 05→09→14→19→23→27→32→37→42→48→51→50→49→46→Boss
 More details: https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-10-en.html`;
 
       navigator.clipboard.writeText(routes).then(() => {
