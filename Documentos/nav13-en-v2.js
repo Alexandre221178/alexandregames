@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <div class="dropdown">
     <button class="dropbtn"><span class="notranslate">Gameplay Reviews</button>
     <div class="dropdown-content"><br>
-    <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-en.html">How to Install AppGallery on Android for Hero Wars Discounts</a>   
+    <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-en.html">How to Install AppGallery to Get Discounts in Hero Wars</a>   
         <a href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html">How to Play Hero Wars Alliance on PC & Mac</a> 
     
         
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html">Heroes Guide</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-en.html">Heroes Tier List</a>
      
-    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-en.html">Mysterious Island November 2025</a>
+    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-en.html">Mysterious Island December 2025</a>
    
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu/pet-guide-menu-en.html">Pet Guide</a>   
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/pets-tier-list-en.html">Pet Tier List</a>
