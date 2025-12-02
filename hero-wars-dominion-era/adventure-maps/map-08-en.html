@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta property="article:published_time" content="2025-06-09T23:27-03:00" />
-<meta property="article:modified_time" content="2025-06-09T23:27-03:00" />
+<meta property="article:modified_time" content="2025-12-01T22:38-03:00" />
 <link rel="stylesheet" href="../../css/estilo13z.css">   
 
 <title>Pet Adventure Map 8 – Fall of the Celestial City</title>
@@ -140,18 +140,33 @@
 </div>
 <div class="content-wrapper">
   <p>
-    The moment you step into the ruins of the Celestial City, you can feel the weight of what was lost. Crumbled towers, echoes of ancient magic, and the remnants of battles long past this map isn’t just a challenge, it’s a story. A story of bravery, sacrifice, and camaraderie. If you’ve made it to Adventure Map 8, you’re no beginner. You know the stakes. But here, everything is elevated: the tension, the rewards, and the reliance on your guildmates. This is where legends are born, or broken. 
+    The moment you step into the ruins of the Celestial City, you can feel the weight of what was lost. Crumbled towers, echoes of ancient magic, and the remnants of battles long past this map isn’t just a challenge, it’s a story. A story of bravery, sacrifice, and camaraderie.
+  </p>
+</div>
+<div class="content-wrapper">
+  <p>
+     If you’ve made it to Adventure Map 8, you’re no beginner. You know the stakes. But here, everything is elevated: the tension, the rewards, and the reliance on your guildmates. This is where legends are born, or broken. 
   </p>
 </div>
 
 <section>
-<p><strong>Recommended Paths for Map 8:</strong></p>
-
+<h3>Map 8 -F all of the Celestial City</h3>
+<!------nao pode ser copiado ----------->
+<style>
+.no-select {
+  user-select: none;
+  -webkit-user-select: none; /* Para compatibilidade com Chrome/Safari */
+  -moz-user-select: none;    /* Para compatibilidade com Firefox */
+  -ms-user-select: none;     /* Para compatibilidade com IE/Edge antigo */
+}
+</style>
+<div class="note">
+<div class="no-select">
 <button 
   onclick="copyRoutes()" 
   style="padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 8px;"
 >
-  Copy Routes
+  Copy Routes - Map #08
 </button>
 <span id="copy-message" style="margin-left: 10px; color: green; font-weight: bold; display: none;">
   Copied!
@@ -159,22 +174,24 @@
 
 <ul style="list-style: none; padding-left: 0;">
   <li style="margin-bottom: 10px;">
-    <strong style="color: #007BFF;">Blue Path:</strong> 03 → 02 → 06 → 07 → 09 → 10 → 13 → 17 → 16 → 20 → 22 → 21 → 28 → Boss (x2)
+    <strong style="color: #007BFF;">Blue Path:</strong> 03 → 02 → 06 → 07[wait defeat tower 2 and 4] → 09[wait defeat tower 6 and 8] → 10 → 13 → 17 → 16 → 20 → 22 → 21 → 28[wait defeat tower 25] → Boss (x2)
   </li>
   <li style="margin-bottom: 10px;">
-    <strong style="color: #FFC107;">Yellow Path:</strong> 03 → 05 → 07 → 09 → 11 → 14 → 18 → 20 → 22 → 24 → 27 → 30 → 26 → 29 → 25
+    <strong style="color: #FFC107;">Yellow Path:</strong> 03 → 05 → 07[wait defeat tower 2 and 4] → 09[wait defeat tower 6 and 8] → 11[wait defeat tower 10] → 14[wait defeat tower 19] → 18[wait defeat tower 13] → 20 → 22 → 24[wait defeat tower 21] → 27 → 30 → 26 → 29 → 25
   </li>
   <li style="margin-bottom: 10px;">
-    <strong style="color: #28A745;">Green Path:</strong> 03 → 04 → 08 → 07 → 09 → 11 → 15 → 19 → 20 → 22 → 23 → 31 → Boss (x3)
+    <strong style="color: #28A745;">Green Path:</strong> 03 → 04 → 08 → 07[wait defeat tower 2 and 4] → 09[wait defeat tower 6 and 8] → 11 → 15 → 19 → 20[wait defeat tower 19 and 16] → 22 → 23 → 31[wait defeat tower 27] → Boss (x3)
   </li>
 </ul>
-
+</div>
+</div>
 
 <script>
   function copyRoutes() {
-    const routes = `Blue: 03-02-06-07-09-10-13-17-16-20-22-21-28-Boss(x2)
-Yellow: 03-05-07-09-11-14-18-20-22-24-27-30-26-29-25
-Green: 03-04-08-07-09-11-15-19-20-22-23-31-Boss(x3)
+    const routes = `Blue Path: 03→02→06→[07]→[09]→10→13→17→16→20→22→21→[28]→Boss(x2)
+     Yellow Path: 03→05→[07]→[09]→[11]→[14]→[18]→20→22→[24]→27→30→26→29→25
+     Green Path: 03→04→08→[07]→[09]→11→15→19→[20]→22→23→[31]→Boss(x3)
+
 More details: https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-08-en.html`;
 
     navigator.clipboard.writeText(routes).then(() => {
