@@ -2740,7 +2740,7 @@ td.team-cell span{
   display: block; /* força quebra de linha */
   line-height: 14px;
 margin-bottom: 7px !important;
-  color: #fff;
+  color: yellow;/* cor das letras do calendario #fff*/
   text-decoration: none;
   position: relative;
   font-weight: bold;
