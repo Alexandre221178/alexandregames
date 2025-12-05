@@ -1134,7 +1134,8 @@ margin-left: 30px;
 
 /* Quando o h2 ou h3 estiverem dentro de .emblem-title */
 .emblem-title h2,
-.emblem-title h3 {
+.emblem-title h3,
+.emblem-title h4 {
     margin: 0;
 }
 
