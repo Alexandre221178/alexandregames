@@ -1364,6 +1364,10 @@ figcaption {
   display: flex;
   transition: transform 0.5s ease-in-out;
 }
+.carousel-slide {
+    min-height: 240px; /* Altura mínima */    
+      background-color: #edf2fe;
+  }
 
 .carousel-slide {
   flex: 0 0 70%; /* duas imagens por vez no desktop */
@@ -1413,6 +1417,9 @@ figcaption {
     font-size: 22px;
     padding: 8px;
   }
+  .carousel-slide {
+    min-height: 210px; /* Altura mínima */    
+    }
   .carousel-container {
     width: 95%;
   }
