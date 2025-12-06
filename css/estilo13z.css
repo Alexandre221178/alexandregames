@@ -1470,6 +1470,16 @@ td.reward-cell {
     
 }
 
+.event-table td img {
+  display: block;
+  margin-top: 3px;
+  align-items: center;
+margin: auto;
+}
+.event-table td {
+  text-align: center;
+}
+
 
 
 .table-combos th, td {
