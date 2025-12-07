@@ -2747,7 +2747,7 @@ td.team-cell span{
             background-color: #077dbd;
             border-radius: 5px;
             text-align: center;
-            height: 220px; /* tamanho do container */
+            height: 251px; /* tamanho do container */
             display: flex;
             align-items: center;
             justify-content: center;
