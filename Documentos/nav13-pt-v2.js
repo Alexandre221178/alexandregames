@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <button class="dropbtn"><span class="notranslate">Hero Wars: Dominion Era</button>
 <div class="dropdown-content"> <br>  
-<a href="https://alexandregames.com/hero-wars-dominion-era/menu-hero-wars-dominion-era-pt.html">HWDE - Home</a>
+<a href="https://alexandregames.com/hero-wars-dominion-era/home/hwde-pt.html">HWDE - Home</a>
 <a href="https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-pt.html">Calendário & Eventos</a>
 <a href="https://alexandregames.com/hero-wars-dominion-era/guide/promo-code-hwde-pt.html">Códigos Promocionais</a>
 <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-pt.html">Guia de Heróis</a>

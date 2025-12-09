@@ -1417,6 +1417,13 @@ figcaption {
   margin-right: 30px; 
  
 }
+.carousel-slide a {
+  font-size: 14px;
+  display: inline-block;  /* faz o link se ajustar à largura da imagem */
+  text-align: center;     /* centraliza o conteúdo dentro do link */
+  text-decoration: none;
+  color: inherit;
+}
 
 /* MOBILE: 1 imagem por vez */
 @media (max-width: 768px) {
