@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta property="article:published_time" content="2025-06-11T21:16-03:00" />
-<meta property="article:modified_time" content="2025-06-11T21:16-03:00" />
+<meta property="article:modified_time" content="2025-12-09T22:17-03:00" />
 <link rel="stylesheet" href="../../css/estilo13z.css">   
 
 <title>Pet Adventure Map #6 Guide for Hero Wars: Dominion Era</title>
@@ -136,9 +136,7 @@
   <p>
     Among the many thrilling challenges in <strong>Hero Wars: Dominion Era</strong>, none quite compare to the experience of navigating Map 6 – <strong>Valley of the Elements</strong>. This is not just another mission. It's a test of courage, collaboration, and smart planning. With each step forward, you're not only battling enemies, you're growing closer as a guild, building trust through action and shared victories.
   </p>
-  <p>
-    From the moment you step into this adventure, you're immersed in an elemental battleground where every movement counts and every choice has weight. With a powerful boss waiting at the end and tough enemies along the way, only those who plan together can hope to succeed. Whether you're a guild leader rallying your team or a support player aiding allies, your role is vital.
-  </p>
+  
 </div>
 
 <h2>PET Adventure Map 6 – Valley of the Elements</h2>
@@ -149,42 +147,49 @@
   </ul>
 </div>
 
-<div class="content-wrapper">
-  <p>
-    This map challenges you with multiple routes, powerful buff points, and a boss enhanced with devastating boosts. To progress efficiently, three players should coordinate their assigned paths and wait at buff nodes before advancing. Remember, destroying towers weakens nearby enemy squads. Always communicate and support each other.
-  </p>
-</div>
+
 
 <section>
   <p><strong>Recommended Paths for Map 6:</strong></p>
+ <button 
+  onclick="copyRoutes()" 
+  style="padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 8px;"
+>
+  Copy Routes - Map #6
+</button>
+<span id="copy-message" style="margin-left: 10px; color: green; font-weight: bold; display: none;">
+  Copied!
+</span>
+<!------nao pode ser copiado ----------->
+<style>
+.no-select {
+  user-select: none;
+  -webkit-user-select: none; /* Para compatibilidade com Chrome/Safari */
+  -moz-user-select: none;    /* Para compatibilidade com Firefox */
+  -ms-user-select: none;     /* Para compatibilidade com IE/Edge antigo */
+}
+</style>
+<div class="note">
+<div class="no-select">
 
-  <button 
-    onclick="copyRoutes()" 
-    style="padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 8px;"
-  >
-    Copy Routes
-  </button>
-  <span id="copy-message" style="margin-left: 10px; color: green; font-weight: bold; display: none;">
-    Copied!
-  </span>
 
-  <ul style="list-style: none; padding-left: 0;">
+    <ul style="list-style: none; padding-left: 0;">
     <li style="margin-bottom: 10px;">
-      <strong style="color: #007BFF;">Blue Path:</strong> 02 → 04 → 07 → 10 → 13 → 16 → 19 → 24 → 22 → Boss
+      <strong style="color: #007BFF;">Blue Path:</strong> 02 → 04 → 07 → 10 → 13[wait defeat tower 14] → 16 → 19 → 24 → 22 → Boss
     </li>
     <li style="margin-bottom: 10px;">
-      <strong style="color: #FFC107;">Yellow Path:</strong> 05 → 07 → 08 → 11 → 14 → 17 → 20 → 23 → Boss (x2)
+      <strong style="color: #FFC107;">Yellow Path:</strong> 05[wait defeat tower 6 and 4] → 07 → 08 → 11 → 14 → 17 → 20 → 23 → Boss (x2)
     </li>
     <li style="margin-bottom: 10px;">
-      <strong style="color: #28A745;">Green Path:</strong> 03 → 06 → 09 → 12 → 15 → 18 → 21 → 26 → Boss (x2)
+      <strong style="color: #28A745;">Green Path:</strong> 03 → 06 → 09 → 12 → 15[wait defeat tower 14] → 18 → 21 → 26 → Boss (x2)
     </li>
   </ul>
 
   <script>
     function copyRoutes() {
-      const routes = `Blue: 02-04-07-10-13-16-19-24-22-Boss
-yellow: 05-07-08-11-14-17-20-23-Boss(x2)
-Green: 03-06-09-12-15-18-21-26-Boss(x2)
+      const routes = `Blue: 02 → 04 → 07 → 10 → 13 → 16 → 19 → 24 → 22 → Boss
+  yellow: 05 → 07 → 08 → 11 → 14 → 17 → 20 → 23 → Boss (x2)
+  Green: 03 → 06 → 09 → 12 → 15 → 18 → 21 → 26 → Boss (x2)
 More details: https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-06-en.html`;
 
       navigator.clipboard.writeText(routes).then(() => {
@@ -206,7 +211,14 @@ More details: https://alexandregames.com/hero-wars-dominion-era/adventure-maps/m
   <figcaption>Valley of the Elements Guide - Hero Wars: Dominion Era, a game developed by Nexters.</figcaption>
 </figure>
 
-
+<div class="content-wrapper">
+  <p>
+    This map challenges you with multiple routes, powerful buff points, and a boss enhanced with devastating boosts. To progress efficiently, three players should coordinate their assigned paths and wait at buff nodes before advancing. Remember, destroying towers weakens nearby enemy squads. Always communicate and support each other.
+  </p>
+  <p>
+    From the moment you step into this adventure, you're immersed in an elemental battleground where every movement counts and every choice has weight. With a powerful boss waiting at the end and tough enemies along the way, only those who plan together can hope to succeed. Whether you're a guild leader rallying your team or a support player aiding allies, your role is vital.
+  </p>
+</div>
 
 <section>
   <h2>Map 6 Rewarding</h2>

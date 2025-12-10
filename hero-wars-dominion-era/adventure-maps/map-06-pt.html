@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta property="article:published_time" content="2025-06-11T21:16-03:00" />
-<meta property="article:modified_time" content="2025-06-11T21:16-03:00" />
+<meta property="article:modified_time" content="2025-12-09T22:17-03:00" />
 <link rel="stylesheet" href="../../css/estilo13z.css">
 
 <title>Guia do Mapa de Aventura #6 para Hero Wars: Dominion Era</title>
@@ -130,9 +130,7 @@
   <p>
     Entre os muitos desafios emocionantes em <strong>Hero Wars: Dominion Era</strong>, nenhum se compara à experiência de explorar o Mapa 6 – <strong>Vale dos Elementos</strong>. Esta não é apenas mais uma missão. É um teste de coragem, colaboração e planejamento estratégico. A cada passo, você não está apenas enfrentando inimigos – está fortalecendo os laços da guilda, construindo confiança por meio da ação e das vitórias compartilhadas.
   </p>
-  <p>
-    Desde o momento em que você entra nessa aventura, é imerso em um campo de batalha elemental onde cada movimento conta e cada escolha tem peso. Com um poderoso chefe esperando no final e inimigos difíceis ao longo do caminho, apenas aqueles que planejam juntos terão chances de sucesso. Seja você um líder de guilda motivando sua equipe ou um jogador de apoio ajudando os aliados, seu papel é essencial.
-  </p>
+  
 </div>
 
 <h2>Mapa de Aventura PET 6 – Vale dos Elementos</h2>
@@ -143,49 +141,49 @@
   </ul>
 </div>
 
-<div class="content-wrapper">
-  <p>
-    Este mapa desafia você com múltiplas rotas, pontos de reforço poderosos e um chefe com melhorias devastadoras. Para progredir de forma eficiente, três jogadores devem coordenar seus caminhos designados e aguardar nos pontos de reforço antes de avançar. Lembre-se: destruir torres enfraquece os esquadrões inimigos próximos. Comunique-se sempre e apoiem uns aos outros.
-  </p>
-</div>
 
 <section>
   <p><strong>Rotas Recomendadas para o Mapa 6:</strong></p>
 
-<button 
-    onclick="copyRoutes()" 
-    style="padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 8px;"
-  >
-    Copiar Rotas
-  </button>
-  <span id="copy-message" style="margin-left: 10px; color: green; font-weight: bold; display: none;">
-    Copiado!
-  </span>
-
-  </button>
-  <span id="copy-message" style="margin-left: 10px; color: green; font-weight: bold; display: none;">
-    Copiado!
-  </span>
-
+<section>
+  <button 
+  onclick="copyRoutes()" 
+  style="padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 8px;"
+>
+  Copiar Rotas - Mapa 6
+</button>
+<span id="copy-message" style="margin-left: 10px; color: green; font-weight: bold; display: none;">
+  Copiado!
+</span>
+<!------nao pode ser copiado ----------->
+<style>
+.no-select {
+  user-select: none;
+  -webkit-user-select: none; /* Para compatibilidade com Chrome/Safari */
+  -moz-user-select: none;    /* Para compatibilidade com Firefox */
+  -ms-user-select: none;     /* Para compatibilidade com IE/Edge antigo */
+}
+</style>
+<div class="note">
+<div class="no-select">
   <ul style="list-style: none; padding-left: 0;">
     <li style="margin-bottom: 10px;">
-      <strong style="color: #007BFF;">Rota Azul:</strong> 02 → 04 → 07 → 10 → 13 → 16 → 19 → 24 → 22 → Chefe
+      <strong style="color: #007BFF;">Caminho Azul:</strong> 02 → 04 → 07 → 10 → 13[aguardar derrotar torre 14] → 16 → 19 → 24 → 22 → Chefe
     </li>
     <li style="margin-bottom: 10px;">
-      <strong style="color: #FFC107;">Rota Amarela:</strong> 05 → 07 → 08 → 11 → 14 → 17 → 20 → 23 → Chefe (x2)
+      <strong style="color: #FFC107;">Caminho Amarelo:</strong> 05[aguardar derrotar torres 6 e 4] → 07 → 08 → 11 → 14 → 17 → 20 → 23 → Chefe (x2)
     </li>
     <li style="margin-bottom: 10px;">
-      <strong style="color: #28A745;">Rota Verde:</strong> 03 → 06 → 09 → 12 → 15 → 18 → 21 → 26 → Chefe (x2)
+      <strong style="color: #28A745;">Caminho Verde:</strong> 03 → 06 → 09 → 12 → 15[aguardar derrotar torre 14] → 18 → 21 → 26 → Chefe (x2)
     </li>
   </ul>
 
   <script>
     function copyRoutes() {
-      const routes = `Blue: 02-04-07-10-13-16-19-24-22-Chefe
-Yellow: 05-07-08-11-14-17-20-23-Chefe(x2)
-Green: 03-06-09-12-15-18-21-26-Chefe(x2)
-Mais detalhes: https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-06-en.html`;
-
+      const routes = `Blue: 02 → 04 → 07 → 10 → 13 → 16 → 19 → 24 → 22 → Boss
+  yellow: 05 → 07 → 08 → 11 → 14 → 17 → 20 → 23 → Boss (x2)
+  Green: 03 → 06 → 09 → 12 → 15 → 18 → 21 → 26 → Boss (x2)
+More details: https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-06-en.html`;
       navigator.clipboard.writeText(routes).then(() => {
         const msg = document.getElementById('copy-message');
         msg.style.display = 'inline';
@@ -206,6 +204,14 @@ Mais detalhes: https://alexandregames.com/hero-wars-dominion-era/adventure-maps/
   <figcaption>Guia do Vale dos Elementos - Hero Wars: Dominion Era, um jogo desenvolvido pela Nexters.</figcaption>
 </figure>
 
+<div class="content-wrapper">
+  <p>
+    Este mapa desafia você com múltiplas rotas, pontos de reforço poderosos e um chefe com melhorias devastadoras. Para progredir de forma eficiente, três jogadores devem coordenar seus caminhos designados e aguardar nos pontos de reforço antes de avançar. Lembre-se: destruir torres enfraquece os esquadrões inimigos próximos. Comunique-se sempre e apoiem uns aos outros.
+  </p>
+  <p>
+    Desde o momento em que você entra nessa aventura, é imerso em um campo de batalha elemental onde cada movimento conta e cada escolha tem peso. Com um poderoso chefe esperando no final e inimigos difíceis ao longo do caminho, apenas aqueles que planejam juntos terão chances de sucesso. Seja você um líder de guilda motivando sua equipe ou um jogador de apoio ajudando os aliados, seu papel é essencial.
+  </p>
+</div>
 
 
 <section>
