@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta property="article:published_time" content="2025-07-28T23:54-03:00" />
-<meta property="article:modified_time" content="2025-07-28T23:54-03:00" />
+<meta property="article:modified_time" content="2025-12-12T20:24-03:00" />
 <link rel="stylesheet" href="../../css/estilo13z.css">
 
 <title>Como Progredir no Mapa de Aventura 3 em Hero Wars: Dominion Era</title>
@@ -139,26 +139,36 @@
   onclick="copyRoutes()" 
   style="padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 8px;"
 >
-  Copiar Rotas
+  Copy Routes - Map #3
 </button>
-
 <span id="copy-message" style="margin-left: 10px; color: green; font-weight: bold; display: none;">
-  Copiado!
+  Copied!
 </span>
+<!------nao pode ser copiado ----------->
+<style>
+.no-select {
+  user-select: none;
+  -webkit-user-select: none; /* Para compatibilidade com Chrome/Safari */
+  -moz-user-select: none;    /* Para compatibilidade com Firefox */
+  -ms-user-select: none;     /* Para compatibilidade com IE/Edge antigo */
+}
+</style>
+<div class="note">
+<div class="no-select">
 
 <ul style="list-style: none; padding-left: 0;">
   <li style="margin-bottom: 10px;"><strong>Caminho Azul:</strong> 04 → 12 → 13 → Chefe (x2)</li>
-  <li style="margin-bottom: 10px;"><strong>Caminho Amarelo:</strong> 05 → 06 → 09 → Chefe (x2)</li>
-  <li style="margin-bottom: 10px;"><strong>Caminho Verde:</strong> 02 → 03 → 07 → 10 → Chefe</li>
+  <li style="margin-bottom: 10px;"><strong>Caminho Amarelo:</strong> 05 → 06 → 09[aguarde derrotar torre 7] → Chefe (x2)</li>
+  <li style="margin-bottom: 10px;"><strong>Caminho Verde:</strong> 02[aguarde derrotar torre 5] → 03 → 07 → 10 → Chefe</li>
 </ul>
 
 <script>
   function copyRoutes() {
-    const routes = `Caminho Azul: 04 → 12 → 13 → Chefe (x2)
-Caminho Amarelo: 05 → 06 → 09 → Chefe (x2)
-Caminho Verde: 02 → 03 → 07 → 10 → Chefe
+    const routes = `Blue Path: 04 → 12 → 13 → Boss (x2) 
+ Yellow Path: 05 → 06 → 09 → Boss (x2)
+ Green Path: 02 → 03 → 07 → 10 → Boss   
+  More details: https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-03-en.html`;
 
-Mais detalhes: https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-03-pt.html`;
 
     navigator.clipboard.writeText(routes).then(() => {
       const msg = document.getElementById('copy-message');
