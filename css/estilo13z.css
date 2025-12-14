@@ -2742,7 +2742,7 @@ td.team-cell span{
             background-color: #2dbe39;
             border-radius: 5px;
             text-align: center;
-            height: 220px;
+            height: 250px; /* tamanho do container */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -2754,14 +2754,14 @@ td.team-cell span{
             background-color: #077dbd;
             border-radius: 5px;
             text-align: center;
-            height: 251px; /* tamanho do container */
+            height: 250px; /* tamanho do container */
             display: flex;
             align-items: center;
             justify-content: center;
         }
 .weekday {
   position: absolute;
-  top: -1px; /* mais acima que a data */
+  top: -1px; /* dias da semana mais acima que a data */
   left: 10px;
   z-index: 2;
   font-weight: bold;
@@ -2804,9 +2804,9 @@ margin-bottom: 7px !important;
 }
         .event img {
             width: 100%;
-            height: 85%;
+            height: 95%; /* altura da foto no calendario */
             position: absolute;
-            top: 55%;
+            top: 56%; /* distancia da foto até a data no calendario */
             left: 51%;
             transform: translate(-50%, -50%);
             z-index: 1;
