@@ -1,6 +1,31 @@
  // atualizar somente os nav13-en-v2.js e nav13-pt-v2.js esses são com a bandeira no nav
 document.addEventListener('DOMContentLoaded', () => {
     const navHTML = `
+<style>
+    .dropdown-content {
+        max-height: 400px;
+        overflow-y: auto;
+    }
+    
+    .dropdown-content::-webkit-scrollbar {
+        width: 17px;
+    }
+    
+    .dropdown-content::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 10px;
+    }
+    
+    .dropdown-content::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 10px;
+    }
+    
+    .dropdown-content::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+</style>
+
 <div class="logo">
     <a href="https://alexandregames.com/index-pt.html"><img src="https://alexandregames.com/imagens/exandregames318x318-removebg.webp" alt="logo Alexandre Games Mobile" title="logo Alexandre Games Mobile"></a>
 </div>                     

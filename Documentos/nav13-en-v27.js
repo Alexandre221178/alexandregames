@@ -1,6 +1,31 @@
  // atualizar somente os nav13-en-v2.js e nav13-pt-v2.js esses são com a bandeira no nav
 document.addEventListener('DOMContentLoaded', () => {
     const navHTML = `
+<style>
+    .dropdown-content {
+        max-height: 400px;
+        overflow-y: auto;
+    }
+    
+    .dropdown-content::-webkit-scrollbar {
+        width: 17px;
+    }
+    
+    .dropdown-content::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 10px;
+    }
+    
+    .dropdown-content::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 10px;
+    }
+    
+    .dropdown-content::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+</style>
+
 <div class="logo">
     <a href="https://alexandregames.com"><img src="https://alexandregames.com/imagens/exandregames318x318-removebg.webp" alt="Alexandre Games Mobile Logo" title="Alexandre Games Mobile Logo" width="50" height="50"></a>
 </div>
@@ -46,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="dropdown">
 
-<button class="dropbtn"><span class="notranslate">Hero Wars: Dominion Era</span></button>
+<button class="dropbtn"><span class="notranslate">Hero Wars Dominion Era</span></button>
     <div class="dropdown-content"> <br>  
     <a href="https://alexandregames.com/hero-wars-dominion-era/home/hwde-en.html">HWDE - Home</a>
      <a href="https://alexandregames.com/hero-wars-dominion-era/menu/adventure-map-guide-en.html">Adventure Maps</a>
@@ -56,8 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html">Heroes Guide</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-en.html">Heroes Tier List</a>
-     
-    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-en.html">Mysterious Island December 2025</a>
+     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-en.html">Mysterious Island December 2025</a>
    
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu/pet-guide-menu-en.html">Pet Guide</a>   
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/pets-tier-list-en.html">Pet Tier List</a>
