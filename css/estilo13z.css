@@ -2635,12 +2635,10 @@ td.team-cell span{
     
     
     .footer a img{
-            width: 10%;            
-    }
-    .footer a img{
-            margin-left: 17px;
-            margin-right: 17px;
-            
+            width: auto;
+            height: 45px;
+            margin-left: 10px;
+            margin-right: 10px;
     }
     
 
@@ -2658,78 +2656,82 @@ td.team-cell span{
     
 
 /* width mesmo tamanho do nav */        
-/* width mesmo tamanho do nav */        
 .footer{
-    max-width: 1000px;
+    width: 100%;
+    max-width: 100%;
     background-color: #c8e4ee;
-    padding:3px 0px;
-    justify-content: space-between;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     margin-top: 10px;
+    box-sizing: border-box;
 }
 
-        
 .footer .row{
-    width:100%;
-    margin:1% 0%;
-    padding: 0,1% 0%;
-    color:rgb(4, 2, 25);
-    
-    }
-    
-    .footer .row a{
-    text-decoration:none;
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.1% 0%;
+    color: rgb(4, 2, 25);
+}
+
+.footer .row a{
+    text-decoration: none;
     font-size: 16px;
     color: black;
-    transition:0.5s;
-    }
-    
-    .footer .row a:hover{
+    transition: 0.5s;
+}
+
+.footer .row a:hover{
     color: red;
-    }
-    .footer image:hover{
+}
+
+.footer image:hover{
     color: red;
-    }
-    
-    .footer .row ul{
-    width:100%;
-    
-    }
-    
-    .footer .row ul li{
-    display:inline-block;
-    margin:0px 5px;
+}
+
+.footer .row ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .row ul li{
+    display: inline-block;
+    margin: 5px 20px;
     font-size: 12px;
-    }
-    
-    .footer .row a i{
+    text-align: center;
+}
+
+.footer .row a i{
     font-size: 2em;
-    margin:0% 1%;
-    }
-    .footer p{
-      
-        text-align: center;
-    }
-    .footer img{
-        width: auto;
-        height: 30px;
-        margin: 1% 2%;
-        padding: 0,9% 1%;
-        border-radius: 100%;
-        
-    }
-    
-    .footer .row ul li{
-        display:inline-table;
-        margin:5px 20px;
-        text-align:center;
-        }
-    .footer .row a i{
-        margin:0% 3%;
-        }
-    #message {
-        font-size: 14px; /* font copyright footer - Altere este valor para o tamanho de fonte desejado */
-        }
+    margin: 0% 3%;
+}
+
+.footer p{
+    text-align: center;
+}
+
+.footer img{
+    width: auto;
+    height: 50px;
+    margin: 1% 2%;
+    padding: 0.5% 1%;
+    border-radius: 100%;
+}
+
+#message {
+    font-size: 14px;
+    width: 100%;
+    margin-top: 1rem;
+}
     
     /* calendar Hero Wars Alliance pc e mobile */
         .calendar {
