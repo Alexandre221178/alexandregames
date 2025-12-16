@@ -1359,6 +1359,7 @@ figcaption {
   max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
+  
 }
 .carousel-track {
   display: flex;
@@ -1366,20 +1367,22 @@ figcaption {
 }
 .carousel-slide {
     min-height: 240px; /* Altura mínima */    
-      background-color: #edf2fe;
+      background-color: #edf2fe;      
   }
 
 .carousel-slide {
   flex: 0 0 70%; /* duas imagens por vez no desktop */
   text-align: center;
   padding: 3px; /* reduzido para aproximar mais a setas */
-  box-sizing: border-box;
+  box-sizing: border-box;  
 }
 .carousel-slide img {
+border: 4px solid #5654b3 !important;
   max-width: 80%; /* as imagens ficam mais próximas, muda o tamanho das imgs */
   display: block;
   margin: 0 auto;
   border-radius: 10px;
+  
 }
 /* Botões */
 .carousel-btn {
