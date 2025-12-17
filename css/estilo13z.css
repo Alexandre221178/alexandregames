@@ -1861,7 +1861,7 @@ td.team-cell span{
     margin-top: 0px;
     text-align: center !important;
     width: 100%;
-    cursor: not-allowed;
+    /* cursor: not-allowed; */
     }
    
 
