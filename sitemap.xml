@@ -2144,12 +2144,12 @@
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html</loc>
-  <lastmod>2025-12-16T11:12-03:00</lastmod>
+  <lastmod>2025-12-17T00:00-03:00</lastmod>
   <priority>0.97</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html</loc>
-  <lastmod>2025-12-16T11:12-03:00</lastmod>
+  <lastmod>2025-12-17T00:00-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 
@@ -2479,6 +2479,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/event-special-hwa/spring-festival-2025-pt.html</loc>
   <lastmod>2025-04-17T21:51-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/relic-season-event-en.html</loc>
+  <lastmod>2025-12-17T00:00-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/relic-season-event-pt.html</loc>
+  <lastmod>2025-12-17T00:00-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 
