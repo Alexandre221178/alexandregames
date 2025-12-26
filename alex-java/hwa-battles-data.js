@@ -3,6 +3,52 @@ const battlesData = [
     {
         winRate: "100%",
         attackTeam: {
+            power: "796k",
+            heroes: [
+                { name: "Andvari", talisman: "MR", relicLv: 0 },
+                { name: "Cascade", talisman: "Agility", relicLv: 0 },
+                { name: "Lara Croft", talisman: "Agility", relicLv: 0 },
+                { name: "Astrid", talisman: "PA", relicLv: 0 },
+                { name: "Polaris", talisman: "Intelligence", relicLv: 0 }
+            ]
+        },
+        defenseTeam: {
+            power: "816k",
+            heroes: [
+                { name: "Oya", talisman: "Strength", relicLv: 0 },
+                { name: "Yasmine", talisman: "Agility", relicLv: 0 },
+                { name: "Dante", talisman: "Agility", relicLv: 0 },
+                { name: "Sebastian", talisman: "PA", relicLv: 0 },
+                { name: "Octavia", talisman: "Toughness", relicLv: 0 }
+            ]
+        }
+    },
+    {
+        winRate: "100%",
+        attackTeam: {
+            power: "811k",
+            heroes: [
+                { name: "Corvus", talisman: "MD", relicLv: 0 },
+                { name: "Dante", talisman: "PA", relicLv: 0 },
+                { name: "Morrigan", talisman: "Armor", relicLv: 0 },
+                { name: "Iris", talisman: "Armor", relicLv: 2 },
+                { name: "Octavia", talisman: "Toughness", relicLv: 0 }
+            ]
+        },
+        defenseTeam: {
+            power: "806k",
+            heroes: [
+                { name: "Corvus", talisman: "MD", relicLv: 0 },
+                { name: "Kayla", talisman: "AP", relicLv: 0 },
+                { name: "Morrigan", talisman: "Armor", relicLv: 0 },
+                { name: "Iris", talisman: "Armor", relicLv: 2 },
+                { name: "Aidan", talisman: "Intelligence", relicLv: 0 }
+            ]
+        }
+    },
+    {
+        winRate: "100%",
+        attackTeam: {
             power: "665k",
             heroes: [
                 { name: "Electra", talisman: "Agility", relicLv: 2 },
@@ -71,7 +117,7 @@ const battlesData = [
     }
 
     
-// 3.000 times = 92.000 linhas ai precisa dividir em varios arquivos ou vai ficar muito pesado
+// 3.000 times = 92.000 linhas ai precisa dividir em varios arquivos ou vai travar o navegador
 // fecha o banco de dados nao remover abaixo   
 ];
 // Helper function to convert power string to number
