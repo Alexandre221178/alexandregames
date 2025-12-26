@@ -230,9 +230,21 @@ function initializeBattleSearch() {
     });
 }
 
+// Update battle count display
+function updateBattleCount() {
+    const countElement = document.getElementById('total-battles-count');
+    if (countElement && typeof battlesData !== 'undefined') {
+        countElement.textContent = battlesData.length;
+    }
+}
+
 // Auto-initialize when DOM is ready
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initializeBattleSearch);
+    document.addEventListener('DOMContentLoaded', () => {
+        initializeBattleSearch();
+        updateBattleCount();
+    });
 } else {
     initializeBattleSearch();
+    updateBattleCount();
 }
