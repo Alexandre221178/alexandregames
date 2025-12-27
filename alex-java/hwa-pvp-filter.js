@@ -41,7 +41,8 @@ function findClosestByPower(targetPower, battles, limit = 10) {
     
     // Calculate difference for each battle
     const battlesWithDiff = battles.map(battle => {
-        const defensePower = parsePower(battle.defenseTeam.power);
+        // Calculate defense power from heroes
+        const defensePower = calculateTotalPower(battle.defenseTeam.heroes);
         const difference = Math.abs(targetPowerNum - defensePower);
         return {
             ...battle,
@@ -85,6 +86,10 @@ function renderBattleResults(battles) {
     html += '</div>';
 
     battles.forEach((battle, index) => {
+        // Calculate total power for both teams
+        const attackTotalPower = getTeamTotalPower(battle.attackTeam);
+        const defenseTotalPower = getTeamTotalPower(battle.defenseTeam);
+        
         html += `
         <div class="battle-card">
             <div class="battle-header">
@@ -95,11 +100,12 @@ function renderBattleResults(battles) {
             <div class="teams-container">
                 <div class="team attack-team">
                     <h4>⚔️ Attack Team</h4>
-                    <div class="team-power">Power: ${battle.attackTeam.power}</div>
+                    <div class="team-power">Total Power: ${attackTotalPower}</div>
                     <div class="heroes-list">
                         ${battle.attackTeam.heroes.map(hero => `
                             <div class="hero-item">
                                 <span class="hero-name">${hero.name}</span>
+                                <span class="hero-power" title="Hero Power">${hero.power || 'N/A'}</span>
                                 <span class="hero-talisman" title="Talisman">${hero.talisman}</span>
                                 <span class="hero-relic" title="Legendary Relic Level">Relic Lv ${hero.relicLv}</span>
                             </div>
@@ -111,11 +117,12 @@ function renderBattleResults(battles) {
 
                 <div class="team defense-team">
                     <h4>🛡️ Defense Team</h4>
-                    <div class="team-power">Power: ${battle.defenseTeam.power}</div>
+                    <div class="team-power">Total Power: ${defenseTotalPower}</div>
                     <div class="heroes-list">
                         ${battle.defenseTeam.heroes.map(hero => `
                             <div class="hero-item">
                                 <span class="hero-name">${hero.name}</span>
+                                <span class="hero-power" title="Hero Power">${hero.power || 'N/A'}</span>
                                 <span class="hero-talisman" title="Talisman">${hero.talisman}</span>
                                 <span class="hero-relic" title="Legendary Relic Level">Relic Lv ${hero.relicLv}</span>
                             </div>

@@ -166,6 +166,9 @@
             <img src="../../hero-wars-alliance/images/events/shared/relic-shard.webp" alt="Relic" loading="lazy">
             <strong>Relic Lv</strong> = Legendary Relic level (0-4)
         </span>
+        <span class="legend-item" style="background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%); padding: 5px 10px; border-radius: 5px; border: 1px solid #ffa500;">
+            <strong style="color: #8b4513;">Hero Power</strong> = Individual hero power (e.g., 150k)
+        </span>
     </div>
     
     <div class="database-stats">
@@ -511,7 +514,7 @@
 
 .hero-item {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1.2fr 0.8fr 1fr 0.8fr;
     gap: 5px;
     padding: 10px;
     background: rgba(255,255,255,0.7);
@@ -523,6 +526,18 @@
     font-weight: bold;
     color: #333;
     font-size: 15px;
+}
+
+.hero-power {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 8px;
+    background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+    color: #8b4513;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #ffa500;
+    box-shadow: 0 2px 4px rgba(255, 165, 0, 0.3);
 }
 
 .hero-talisman,
@@ -603,6 +618,29 @@
     
     .search-btn, .clear-btn {
         width: 100%;
+    }
+    
+    .hero-item {
+        grid-template-columns: 1fr;
+        gap: 8px;
+        padding: 12px;
+    }
+    
+    .hero-name,
+    .hero-power,
+    .hero-talisman,
+    .hero-relic {
+        font-size: 12px;
+        text-align: left;
+    }
+    
+    .legend-container {
+        padding: 10px;
+    }
+    
+    .legend-item {
+        display: block;
+        margin: 5px 0;
     }
 }
 </style>
