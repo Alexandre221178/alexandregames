@@ -1835,12 +1835,13 @@ body > .skiptranslate {
     justify-content: center;
 }
 
-/* Ajuste das imagens */
-.table-stats td.stat-cell img {
+/* Ajuste das imagens - funciona mesmo sem a classe stat-cell */
+.table-stats td img {
     width: 40px;
     height: 40px;
     object-fit: contain;
-    margin-bottom: 4px;
+    margin: 0 auto 4px auto;
+    display: block;
 }
 /* Ajuste das imagens table team */
 td.team-cell{

@@ -3326,13 +3326,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/home/hwde-en.html</loc>
-  <lastmod>2025-12-19T08:56-03:00</lastmod>
+  <lastmod>2025-12-27T20:45-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/home/hwde-pt.html</loc>
-  <lastmod>2025-12-19T08:56-03:00</lastmod>
+  <lastmod>2025-12-27T20:45-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3350,13 +3350,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html</loc>
-  <lastmod>2025-12-11T23:32-03:00</lastmod>
+  <lastmod>2025-12-27T20:45-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-pt.html</loc>
-  <lastmod>2025-11-24T23:40-03:00</lastmod>
+  <lastmod>2025-12-27T20:45-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3708,6 +3708,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/characters/orion-pt.html</loc>
   <lastmod>2025-05-17T23:04-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/characters/qing-mao-en.html</loc>
+  <lastmod>2025-12-27T20:45-03:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/characters/qing-mao-pt.html</loc>
+  <lastmod>2025-12-27T20:45-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
