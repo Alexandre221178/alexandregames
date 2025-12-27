@@ -4,11 +4,33 @@ const battlesData = [
         winRate: "100%",
         attackTeam: {
             heroes: [
-                { name: "Electra", power: "150k", talisman: "Strength", relicLv: 2 },
-                { name: "Guus", power: "140k", talisman: "Strength", relicLv: 0 },
-                { name: "Somna", power: "130k", talisman: "Toughness", relicLv: 1 },
-                { name: "Folio", power: "129k", talisman: "Intelligence", relicLv: 0 },
-                { name: "Polaris", power: "129k", talisman: "Toughness", relicLv: 0 }
+                { name: "Electra", power: "141k", talisman: "Strength", relicLv: 2 },
+                { name: "Byrna", power: "117k", talisman: "Intelligence", relicLv: 2 },
+                { name: "Tempus", power: "133k", talisman: "Toughness", relicLv: 0 },
+                { name: "Folio", power: "148k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Polaris", power: "125k", talisman: "Toughness", relicLv: 0 }
+            ]
+        },
+        defenseTeam: {
+            heroes: [
+               { name: "Julius", power: "147k", talisman: "Physical Attack", relicLv: 0 },
+                { name: "Kayla", power: "166k", talisman: "Armor Penetration", relicLv: 0 },
+                { name: "Guus", power: "141k", talisman: "Strength", relicLv: 0 },
+                { name: "Peech", power: "130k", talisman: "Health", relicLv: 0 },
+                { name: "Aidan", power: "143k", talisman: "Toughness", relicLv: 0 }
+
+            ]
+        }
+    },
+    {
+        winRate: "100%",
+        attackTeam: {
+            heroes: [
+                { name: "Electra", power: "141k", talisman: "Strength", relicLv: 2 },
+                { name: "Guus", power: "141k", talisman: "Strength", relicLv: 0 },
+                { name: "Somna", power: "122k", talisman: "Toughness", relicLv: 1 },
+                { name: "Folio", power: "148k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Polaris", power: "125k", talisman: "Toughness", relicLv: 0 }
             ]
         },
         defenseTeam: {
@@ -26,19 +48,19 @@ const battlesData = [
         attackTeam: {
             heroes: [
                 { name: "Andvari", power: "160k", talisman: "Magic Reflection", relicLv: 0 },
-                { name: "Cascade", power: "159k", talisman: "Agility", relicLv: 0 },
-                { name: "Lara Croft", power: "159k", talisman: "Agility", relicLv: 0 },
-                { name: "Astrid", power: "159k", talisman: "Physical Attack", relicLv: 0 },
-                { name: "Polaris", power: "159k", talisman: "Intelligence", relicLv: 0 }
+                { name: "Cascade", power: "141k", talisman: "Agility", relicLv: 0 },
+                { name: "Lara Croft", power: "180k", talisman: "Agility", relicLv: 0 },
+                { name: "Astrid", power: "162k", talisman: "Physical Attack", relicLv: 0 },
+                { name: "Polaris", power: "151k", talisman: "Intelligence", relicLv: 0 }
             ]
         },
         defenseTeam: {
             heroes: [
-                { name: "Oya", power: "164k", talisman: "Strength", relicLv: 0 },
-                { name: "Yasmine", power: "163k", talisman: "Agility", relicLv: 0 },
-                { name: "Dante", power: "163k", talisman: "Agility", relicLv: 0 },
-                { name: "Sebastian", power: "163k", talisman: "Physical Attack", relicLv: 0 },
-                { name: "Octavia", power: "163k", talisman: "Toughness", relicLv: 0 }
+                { name: "Oya", power: "166k", talisman: "Strength", relicLv: 0 },
+                { name: "Yasmine", power: "166k", talisman: "Agility", relicLv: 0 },
+                { name: "Dante", power: "159k", talisman: "Agility", relicLv: 0 },
+                { name: "Sebastian", power: "164k", talisman: "Physical Attack", relicLv: 0 },
+                { name: "Octavia", power: "160k", talisman: "Toughness", relicLv: 0 }
             ]
         }
     },
@@ -46,20 +68,20 @@ const battlesData = [
         winRate: "100%",
         attackTeam: {
             heroes: [
-                { name: "Corvus", power: "163k", talisman: "Magic Defense", relicLv: 0 },
-                { name: "Dante", power: "162k", talisman: "Physical Attack", relicLv: 0 },
-                { name: "Morrigan", power: "162k", talisman: "Armor", relicLv: 0 },
-                { name: "Iris", power: "162k", talisman: "Armor", relicLv: 2 },
-                { name: "Octavia", power: "162k", talisman: "Toughness", relicLv: 0 }
+                { name: "Corvus", power: "161k", talisman: "Magic Defense", relicLv: 0 },
+                { name: "Dante", power: "160k", talisman: "Physical Attack", relicLv: 0 },
+                { name: "Morrigan", power: "156k", talisman: "Armor", relicLv: 0 },
+                { name: "Iris", power: "172k", talisman: "Armor", relicLv: 2 },
+                { name: "Octavia", power: "160k", talisman: "Toughness", relicLv: 0 }
             ]
         },
         defenseTeam: {
             heroes: [
-                { name: "Corvus", power: "162k", talisman: "Magic Defense", relicLv: 0 },
-                { name: "Kayla", power: "161k", talisman: "Armor Penetration", relicLv: 0 },
-                { name: "Morrigan", power: "161k", talisman: "Armor", relicLv: 0 },
-                { name: "Iris", power: "161k", talisman: "Armor", relicLv: 2 },
-                { name: "Aidan", power: "161k", talisman: "Intelligence", relicLv: 0 }
+                { name: "Corvus", power: "161k", talisman: "Magic Defense", relicLv: 0 },
+                { name: "Kayla", power: "160k", talisman: "Armor Penetration", relicLv: 0 },
+                { name: "Morrigan", power: "156k", talisman: "Armor", relicLv: 0 },
+                { name: "Iris", power: "172k", talisman: "Armor", relicLv: 2 },
+                { name: "Aidan", power: "155k", talisman: "Intelligence", relicLv: 0 }
             ]
         }
     },
@@ -88,11 +110,11 @@ const battlesData = [
         winRate: "100%",
         attackTeam: {
             heroes: [
-                { name: "Electra", power: "137k", talisman: "Strength", relicLv: 2 },
-                { name: "Guus", power: "136k", talisman: "Strength", relicLv: 0 },
-                { name: "Soleil", power: "136k", talisman: "Magic Reflection", relicLv: 0 },
-                { name: "Folio", power: "136k", talisman: "Intelligence", relicLv: 0 },
-                { name: "Polaris", power: "136k", talisman: "Toughness", relicLv: 0 }
+                { name: "Electra", power: "141k", talisman: "Strength", relicLv: 2 },
+                { name: "Guus", power: "141k", talisman: "Strength", relicLv: 0 },
+                { name: "Soleil", power: "125k", talisman: "Magic Reflection", relicLv: 0 },
+                { name: "Folio", power: "148k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Polaris", power: "125k", talisman: "Toughness", relicLv: 0 }
             ]
         },
         defenseTeam: {
@@ -109,11 +131,11 @@ const battlesData = [
         winRate: "100%",
         attackTeam: {
             heroes: [
-                { name: "Electra", power: "135k", talisman: "Strength", relicLv: 2 },
-                { name: "Oya", power: "135k", talisman: "Physical Attack", relicLv: 0 },
-                 { name: "Guus", power: "134k", talisman: "Strength", relicLv: 0 },
-                { name: "Folio", power: "134k", talisman: "Intelligence", relicLv: 0 },
-                { name: "Polaris", power: "135k", talisman: "Toughness", relicLv: 0 }
+                { name: "Electra", power: "141k", talisman: "Strength", relicLv: 2 },
+                { name: "Oya", power: "117k", talisman: "Physical Attack", relicLv: 0 },
+                 { name: "Guus", power: "141k", talisman: "Strength", relicLv: 0 },
+                { name: "Folio", power: "148k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Polaris", power: "125k", talisman: "Toughness", relicLv: 0 }
             ]
         },
         defenseTeam: {
@@ -130,11 +152,11 @@ const battlesData = [
         winRate: "100%",
         attackTeam: {
             heroes: [
-                { name: "Electra", power: "137k", talisman: "Strength", relicLv: 2 },
-                 { name: "Guus", power: "136k", talisman: "Strength", relicLv: 0 },
-                 { name: "Soleil", power: "136k", talisman: "Magic Reflection", relicLv: 0 },
-                { name: "Folio", power: "136k", talisman: "Intelligence", relicLv: 0 },
-                { name: "Polaris", power: "136k", talisman: "Toughness", relicLv: 0 }
+                { name: "Electra", power: "141k", talisman: "Strength", relicLv: 2 },
+                 { name: "Guus", power: "141k", talisman: "Strength", relicLv: 0 },
+                 { name: "Soleil", power: "125k", talisman: "Magic Reflection", relicLv: 0 },
+                { name: "Folio", power: "148k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Polaris", power: "125k", talisman: "Toughness", relicLv: 0 }
             ]
         },
         defenseTeam: {
@@ -143,7 +165,7 @@ const battlesData = [
                 { name: "Kayla", power: "132k", talisman: "Agility", relicLv: 0 },
                 { name: "Dante", power: "132k", talisman: "Agility", relicLv: 0 },
                 { name: "Aidan", power: "133k", talisman: "Intelligence", relicLv: 0 },
-    { name: "Octavia", power: "132k", talisman: "Toughness", relicLv: 0 }
+                { name: "Octavia", power: "132k", talisman: "Toughness", relicLv: 0 }
                            ]
         }
     },
