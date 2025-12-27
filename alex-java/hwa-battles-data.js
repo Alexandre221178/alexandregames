@@ -3,6 +3,29 @@ const battlesData = [
     {
         winRate: "100%",
         attackTeam: {
+            power: "678k",
+            heroes: [
+                { name: "Electra", talisman: "Strength", relicLv: 2 },
+                { name: "Guus", talisman: "Strength", relicLv: 0 },
+                { name: "Somna", talisman: "Toughness", relicLv: 1 },
+                { name: "Folio", talisman: "Intelligence", relicLv: 0 },
+                { name: "Polaris", talisman: "Toughness", relicLv: 0 }
+            ]
+        },
+        defenseTeam: {
+            power: "665k",
+            heroes: [
+                { name: "Julius", talisman: "Strength", relicLv: 0 },
+                { name: "Kayla", talisman: "Agility", relicLv: 0 },
+                { name: "Tempus", talisman: "Intelligence", relicLv: 0 },
+                { name: "Guus", talisman: "No Talisman", relicLv: 0 },
+                { name: "Aidan", talisman: "Intelligence", relicLv: 0 }
+            ]
+        }
+    },
+    {
+        winRate: "100%",
+        attackTeam: {
             power: "796k",
             heroes: [
                 { name: "Andvari", talisman: "Magic Reflection", relicLv: 0 },
@@ -92,6 +115,53 @@ const battlesData = [
             ]
         }
     },
+    {
+        winRate: "100%",
+        attackTeam: {
+            power: "673k",
+            heroes: [
+                { name: "Electra", talisman: "Strength", relicLv: 2 },
+                { name: "Oya", talisman: "Physical Attack", relicLv: 0 },
+                 { name: "Guus", talisman: "Strength", relicLv: 0 },
+                { name: "Folio", talisman: "Intelligence", relicLv: 0 },
+                { name: "Polaris", talisman: "Toughness", relicLv: 0 }
+            ]
+        },
+        defenseTeam: {
+            power: "727k",
+            heroes: [
+                { name: "Astaroth", talisman: "Strength", relicLv: 0 },
+                { name: "Kayla", talisman: "Agility", relicLv: 0 },
+                { name: "Xe’sha", talisman: "Intelligence", relicLv: 0 },
+                { name: "Peech", talisman: "Agility", relicLv: 0 },
+                { name: "Aidan", talisman: "Intelligence", relicLv: 0 }
+            ]
+        }
+    },
+{
+        winRate: "100%",
+        attackTeam: {
+            power: "681k",
+            heroes: [
+                { name: "Electra", talisman: "Strength", relicLv: 2 },
+                 { name: "Guus", talisman: "Strength", relicLv: 0 },
+                 { name: "Soleil", talisman: "Magic Reflection", relicLv: 0 },
+                { name: "Folio", talisman: "Intelligence", relicLv: 0 },
+                { name: "Polaris", talisman: "Toughness", relicLv: 0 }
+            ]
+        },
+        defenseTeam: {
+            power: "662k",
+            heroes: [
+                { name: "Julius", talisman: "Physical Attack", relicLv: 0 },
+                { name: "Kayla", talisman: "Agility", relicLv: 0 },
+                { name: "Dante", talisman: "Agility", relicLv: 0 },
+                { name: "Aidan", talisman: "Intelligence", relicLv: 0 },
+    { name: "Octavia", talisman: "Toughness", relicLv: 0 }
+                           ]
+        }
+    },
+
 
 
 
