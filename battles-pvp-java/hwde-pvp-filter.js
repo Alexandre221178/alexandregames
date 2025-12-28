@@ -1,4 +1,4 @@
-// PVP Battle Filter System
+// PVP Battle Filter System for Hero Wars Dominion Era
 // Search and filter battles by defense heroes and power
 
 // Get unique hero names from defense teams
@@ -10,6 +10,22 @@ function getDefenseHeroes() {
         });
     });
     return Array.from(heroesSet).sort();
+}
+
+// Get unique pet names from defense teams
+function getDefensePets() {
+    const petsSet = new Set();
+    battlesData.forEach(battle => {
+        battle.defenseTeam.heroes.forEach(hero => {
+            if (hero.pet && hero.pet !== "No Pet") {
+                petsSet.add(hero.pet);
+            }
+        });
+        if (battle.defenseTeam.mainPet) {
+            petsSet.add(battle.defenseTeam.mainPet.name);
+        }
+    });
+    return Array.from(petsSet).sort();
 }
 
 // Search battles by defense heroes
@@ -41,8 +57,8 @@ function findClosestByPower(targetPower, battles, limit = 10) {
     
     // Calculate difference for each battle
     const battlesWithDiff = battles.map(battle => {
-        // Calculate defense power from heroes
-        const defensePower = calculateTotalPower(battle.defenseTeam.heroes);
+        // Use the stored defense total power
+        const defensePower = parsePower(battle.defenseTeam.totalPower || battle.totalPower);
         const difference = Math.abs(targetPowerNum - defensePower);
         return {
             ...battle,
@@ -71,7 +87,7 @@ function searchBattles(defenseHeroes, targetPower, limit = 10) {
     return results;
 }
 
-// Render search results as HTML with clear Talisman and Legendary Relic labels
+// Render search results as HTML with HWDE-specific data
 function renderBattleResults(battles) {
     const container = document.getElementById('battle-results');
     if (!container) return;
@@ -86,9 +102,9 @@ function renderBattleResults(battles) {
     html += '</div>';
 
     battles.forEach((battle, index) => {
-        // Calculate total power for both teams
-        const attackTotalPower = getTeamTotalPower(battle.attackTeam);
-        const defenseTotalPower = getTeamTotalPower(battle.defenseTeam);
+        // Get team total powers
+        const attackTotalPower = battle.attackTeam.totalPower;
+        const defenseTotalPower = battle.defenseTeam.totalPower;
         
         html += `
         <div class="battle-card">
@@ -101,17 +117,21 @@ function renderBattleResults(battles) {
                 <div class="team attack-team">
                     <h4>⚔️ Attack Team</h4>
                     <div class="team-power">Total Power: ${attackTotalPower}</div>
-                    <div class="heroes-list">                        <div class="hero-item hero-header">
+                    <div class="team-extras">
+                        <div class="main-pet">Main Pet: ${battle.attackTeam.mainPet.name} (${battle.attackTeam.mainPet.power})</div>
+                        <div class="war-flag">War Flag: ${battle.attackTeam.warFlag}</div>
+                    </div>
+                    <div class="heroes-list">
+                        <div class="hero-item hero-header">
                             <span class="hero-name">Hero</span>
                             <span class="hero-power">Power</span>
-                            <span class="hero-talisman">Talisman</span>
-                            <span class="hero-relic">Relic Lv</span>
-                        </div>                        ${battle.attackTeam.heroes.map(hero => `
+                            <span class="hero-pet">Pet</span>
+                        </div>
+                        ${battle.attackTeam.heroes.map(hero => `
                             <div class="hero-item">
                                 <span class="hero-name">${hero.name}</span>
                                 <span class="hero-power" title="Hero Power">${hero.power || 'N/A'}</span>
-                                <span class="hero-talisman" title="Talisman">${hero.talisman}</span>
-                                <span class="hero-relic" title="Legendary Relic Level">Relic Lv ${hero.relicLv}</span>
+                                <span class="hero-pet" title="Pet">${hero.pet}</span>
                             </div>
                         `).join('')}
                     </div>
@@ -122,19 +142,21 @@ function renderBattleResults(battles) {
                 <div class="team defense-team">
                     <h4>🛡️ Defense Team</h4>
                     <div class="team-power">Total Power: ${defenseTotalPower}</div>
+                    <div class="team-extras">
+                        <div class="main-pet">Main Pet: ${battle.defenseTeam.mainPet.name} (${battle.defenseTeam.mainPet.power})</div>
+                        <div class="war-flag">War Flag: ${battle.defenseTeam.warFlag}</div>
+                    </div>
                     <div class="heroes-list">
                         <div class="hero-item hero-header">
                             <span class="hero-name">Hero</span>
                             <span class="hero-power">Power</span>
-                            <span class="hero-talisman">Talisman</span>
-                            <span class="hero-relic">Relic Lv</span>
+                            <span class="hero-pet">Pet</span>
                         </div>
                         ${battle.defenseTeam.heroes.map(hero => `
                             <div class="hero-item">
                                 <span class="hero-name">${hero.name}</span>
                                 <span class="hero-power" title="Hero Power">${hero.power || 'N/A'}</span>
-                                <span class="hero-talisman" title="Talisman">${hero.talisman}</span>
-                                <span class="hero-relic" title="Legendary Relic Level">Relic Lv ${hero.relicLv}</span>
+                                <span class="hero-pet" title="Pet">${hero.pet}</span>
                             </div>
                         `).join('')}
                     </div>
