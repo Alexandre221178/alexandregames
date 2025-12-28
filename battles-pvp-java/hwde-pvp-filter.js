@@ -57,8 +57,8 @@ function findClosestByPower(targetPower, battles, limit = 10) {
     
     // Calculate difference for each battle
     const battlesWithDiff = battles.map(battle => {
-        // Use the stored defense total power
-        const defensePower = parsePower(battle.defenseTeam.totalPower || battle.totalPower);
+        // Calculate defense power from heroes
+        const defensePower = calculateTotalPower(battle.defenseTeam.heroes);
         const difference = Math.abs(targetPowerNum - defensePower);
         return {
             ...battle,
@@ -102,9 +102,9 @@ function renderBattleResults(battles) {
     html += '</div>';
 
     battles.forEach((battle, index) => {
-        // Get team total powers
-        const attackTotalPower = battle.attackTeam.totalPower;
-        const defenseTotalPower = battle.defenseTeam.totalPower;
+        // Calculate total power for both teams
+        const attackTotalPower = getTeamTotalPower(battle.attackTeam);
+        const defenseTotalPower = getTeamTotalPower(battle.defenseTeam);
         
         html += `
         <div class="battle-card">

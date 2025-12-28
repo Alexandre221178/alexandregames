@@ -1,10 +1,34 @@
 // Hero Wars Dominion Era - Battle Database
 const battlesData = [
+{
+        winRate: "100%",
+        attackTeam: {
+           warFlag: "Pet Strength",
+            mainPet: { name: "Khorus", power: "173k" },
+            heroes: [
+                { name: "Electra", power: "92k", pet: "Biscuit" },
+                { name: "Yasmine", power: "164k", pet: "Albus" },
+                { name: "Guus", power: "79k", pet: "Khorus" },
+                { name: "Dante", power: "98k", pet: "Cain" },
+                { name: "Lara Croft", power: "118k", pet: "Fenris" }
+            ]
+        },
+        defenseTeam: {
+            warFlag: "Fervor",
+            mainPet: { name: "Albus", power: "137k" },
+            heroes: [
+                { name: "Galahad", power: "170k", pet: "Albus" },
+                {  name: "Keira", power: "140k", pet: "Vex" },
+                {  name: "Heidi", power: "123k", pet: "Biscuit" },
+                {  name: "Artemis", power: "116k", pet: "116" },
+                { name: "Thea", power: "105k", pet: "106" }
+
+            ]
+        }
+    },    
     {
         winRate: "100%",
-        totalPower: "754k",
         attackTeam: {
-            totalPower: "724k",
             warFlag: "Pet Strength",
             mainPet: { name: "Khorus", power: "173k" },
             heroes: [
@@ -16,7 +40,6 @@ const battlesData = [
             ]
         },
         defenseTeam: {
-            totalPower: "754k",
             warFlag: "Frost",
             mainPet: { name: "Vex", power: "102k" },
             heroes: [
@@ -30,9 +53,7 @@ const battlesData = [
     },
     {
         winRate: "95%",
-        totalPower: "714k",
         attackTeam: {
-            totalPower: "576k",
             warFlag: "Pet Strength",
             mainPet: { name: "Biscuit", power: "91k" },
             heroes: [
@@ -44,7 +65,6 @@ const battlesData = [
             ]
         },
         defenseTeam: {
-            totalPower: "714k",
             warFlag: "Recovery",
             mainPet: { name: "Axel", power: "110k" },
             heroes: [
@@ -58,9 +78,7 @@ const battlesData = [
     },
     {
         winRate: "100%",
-        totalPower: "780k",
         attackTeam: {
-            totalPower: "623k",
             warFlag: "Pet Strength",
             mainPet: { name: "Biscuit", power: "91k" },
             heroes: [
@@ -72,7 +90,6 @@ const battlesData = [
             ]
         },
         defenseTeam: {
-            totalPower: "780k",
             warFlag: "Frost",
             mainPet: { name: "Vex", power: "128k" },
             heroes: [
@@ -86,9 +103,7 @@ const battlesData = [
     },
     {
         winRate: "100%",
-        totalPower: "678k",
         attackTeam: {
-            totalPower: "623k",
             warFlag: "Pet Strength",
             mainPet: { name: "Biscuit", power: "91k" },
             heroes: [
@@ -100,7 +115,6 @@ const battlesData = [
             ]
         },
         defenseTeam: {
-            totalPower: "678k",
             warFlag: "Decline",
             mainPet: { name: "Cain", power: "93k" },
             heroes: [
@@ -114,9 +128,7 @@ const battlesData = [
     },
     {
         winRate: "100%",
-        totalPower: "689k",
         attackTeam: {
-            totalPower: "705k",
             warFlag: "Pet Strength",
             mainPet: { name: "Khorus", power: "173k" },
             heroes: [
@@ -128,7 +140,6 @@ const battlesData = [
             ]
         },
         defenseTeam: {
-            totalPower: "689k",
             warFlag: "Recovery",
             mainPet: { name: "Albus", power: "98k" },
             heroes: [
@@ -174,11 +185,18 @@ function calculateTotalPower(heroes) {
     }, 0);
 }
 
-// Get team total power (formatted)
+// Get team total power (formatted) - includes main pet for HWDE
 function getTeamTotalPower(team) {
     if (team.totalPower) {
         return team.totalPower;
     }
-    const total = calculateTotalPower(team.heroes);
+    // Calculate heroes power
+    let total = calculateTotalPower(team.heroes);
+    
+    // Add main pet power if exists (HWDE specific)
+    if (team.mainPet && team.mainPet.power) {
+        total += parsePower(team.mainPet.power);
+    }
+    
     return formatPower(total);
 }
