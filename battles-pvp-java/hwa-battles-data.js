@@ -1,6 +1,28 @@
 // Hero Wars Alliance - Battle Database
 const battlesData = [
-    
+    {
+        winRate: "100%",
+        attackTeam: {
+            heroes: [
+                { name: "Corvus", power: "155k", talisman: "Magic Defense", relicLv: 0 },
+                { name: "Tempus", power: "133k", talisman: "Toughness", relicLv: 0 },
+                { name: "Morrigan", power: "126k", talisman: "Armor", relicLv: 0 },
+                { name: "Soleil", power: "126k", talisman: "Magic Reflection", relicLv: 0 },
+                { name: "Iris", power: "156k", talisman: "Armor", relicLv: 2 }
+            ]
+        },
+        defenseTeam: {
+            heroes: [
+               { name: "Julius", power: "146k", talisman: "Physical Attack", relicLv: 0 },
+                { name: "Judge", power: "131k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Folio", power: "148k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Isaac", power: "129k", talisman: "Agility", relicLv: 0 },
+                { name: "Polaris", power: "126k", talisman: "Toughness", relicLv: 0 }
+
+            ]
+        }
+    },
+
     {
         winRate: "100%",
         attackTeam: {
