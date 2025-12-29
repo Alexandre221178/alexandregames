@@ -4,6 +4,74 @@ const titanBattlesData = [
         winRate: "100%",
         attackTeam: {
             titans: [
+                { name: "Angus", power: "117k" },
+                { name: "Avalon", power: "88k" },
+                { name: "Verdoc", power: "72k" },
+                { name: "Eden", power: "100k" },
+                { name: "Sylva", power: "77k" }
+            ]
+        },
+        defenseTeam: {
+            titans: [
+                 { name: "Brustar", power: "121k" },
+                { name: "Lyari", power: "117k" },
+                { name: "Solaris", power: "134k" },
+                { name: "Mort", power: "131k" },
+                { name: "Tenebris", power: "128k" }
+
+            ]
+        }
+    },
+
+    {
+        winRate: "100%",
+        attackTeam: {
+            titans: [
+                { name: "Angus", power: "117k" },
+                { name: "Avalon", power: "88k" },
+                { name: "Verdoc", power: "72k" },
+                { name: "Eden", power: "100k" },
+                { name: "Sylva", power: "77k" }
+            ]
+        },
+        defenseTeam: {
+            titans: [
+                 { name: "Sigurd", power: "143k" },
+                { name: "Araji", power: "124k" },
+                { name: "Hyperion", power: "104k" },
+                { name: "Solaris", power: "123k" },
+                { name: "Tenebris", power: "127k" }
+
+            ]
+        }
+    },
+
+    {
+        winRate: "100%",
+        attackTeam: {
+            titans: [
+                { name: "Angus", power: "117k" },
+                { name: "Avalon", power: "88k" },
+                { name: "Verdoc", power: "72k" },
+                { name: "Eden", power: "100k" },
+                { name: "Sylva", power: "77k" }
+            ]
+        },
+        defenseTeam: {
+            titans: [
+                 { name: "Brustar", power: "147k" },
+                { name: "Araji", power: "87k" },
+                { name: "Lyari", power: "145k" },
+                { name: "Solaris", power: "142k" },
+                { name: "Tenebris", power: "85k" }
+
+            ]
+        }
+    },
+    {
+        winRate: "100%",
+        attackTeam: {
+            titans: [
                 { name: "Rigel", power: "133k" },
                 { name: "Araji", power: "137k" },
                 { name: "Lumira", power: "44k" },
