@@ -4,6 +4,27 @@ const battlesData = [
         winRate: "100%",
         attackTeam: {
             heroes: [
+          	     { name: "Electra", power: "141k", talisman: "Intelligence", relicLv: 2 },
+                { name: "Byrna", power: "118k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Folio", power: "148k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Polaris", power: "126k", talisman: "Toughness", relicLv: 0 },
+                { name: "Octavia", power: "135k", talisman: "Agility", relicLv: 0 }
+            ]
+        },
+        defenseTeam: {
+            heroes: [
+               { name: "Corvus", power: "155k", talisman: "Magic Defense", relicLv: 0 },
+                { name: "Electra", power: "141k", talisman: "Intelligence", relicLv: 2 },
+                { name: "Morrigan", power: "126k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Iris", power: "156k", talisman: "Armor", relicLv: 2 },
+                { name: "Octavia", power: "135k", talisman: "Agility", relicLv: 0 }
+            ]
+        }
+    },
+    {
+        winRate: "100%",
+        attackTeam: {
+            heroes: [
                 { name: "Corvus", power: "155k", talisman: "Magic Defense", relicLv: 0 },
                 { name: "Tempus", power: "133k", talisman: "Toughness", relicLv: 0 },
                 { name: "Morrigan", power: "126k", talisman: "Armor", relicLv: 0 },
