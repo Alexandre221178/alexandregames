@@ -1,6 +1,50 @@
 // Hero Wars Alliance - Titan Battle Database
 const titanBattlesData = [
     {
+    winRate: "99%",
+    attackTeam: {
+        titans: [
+            { name: "Tenebris", power: "141k" },
+            { name: "Solaris", power: "142k" },
+            { name: "Iyari", power: "132k" },
+            { name: "Araji", power: "137k" },
+            { name: "Rigel", power: "133k" }
+        ]
+    },
+    defenseTeam: {
+        titans: [
+            { name: "Sigurd", power: "151k" },
+            { name: "Araji", power: "137k" },
+            { name: "Hyperion", power: "143k" },
+            { name: "Solaris", power: "142k" },
+            { name: "Tenebris", power: "141k" }
+        ]
+    }
+},
+
+    {
+    winRate: "99%",
+    attackTeam: {
+        titans: [
+            { name: "Tenebris", power: "141k" },
+            { name: "Solaris", power: "142k" },
+            { name: "Iyari", power: "132k" },
+            { name: "Araji", power: "137k" },
+            { name: "Brustar", power: "134k" }
+        ]
+    },
+    defenseTeam: {
+        titans: [
+            { name: "Sigurd", power: "151k" },
+            { name: "Araji", power: "137k" },
+            { name: "Hyperion", power: "143k" },
+            { name: "Solaris", power: "142k" },
+            { name: "Tenebris", power: "141k" }
+        ]
+    }
+},
+
+    {
         winRate: "100%",
         attackTeam: {
             titans: [
