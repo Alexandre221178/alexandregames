@@ -125,7 +125,7 @@ function renderBattleResults(battles) {
                         <div class="hero-item hero-header">
                             <span class="hero-name">Hero</span>
                             <span class="hero-power">Power</span>
-                            <span class="hero-pet">Pet</span>
+                            <span class="hero-pet">Patron Pet</span>
                         </div>
                         ${battle.attackTeam.heroes.map(hero => `
                             <div class="hero-item">
@@ -150,7 +150,7 @@ function renderBattleResults(battles) {
                         <div class="hero-item hero-header">
                             <span class="hero-name">Hero</span>
                             <span class="hero-power">Power</span>
-                            <span class="hero-pet">Pet</span>
+                            <span class="hero-pet">Patron Pet</span>
                         </div>
                         ${battle.defenseTeam.heroes.map(hero => `
                             <div class="hero-item">

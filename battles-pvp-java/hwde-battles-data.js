@@ -3,6 +3,60 @@ const battlesData = [
 {
         winRate: "100%",
         attackTeam: {
+           warFlag: "Recovery",
+            mainPet: { name: "Biscuit", power: "91k" },
+            heroes: [
+                { name: "Electra", power: "92k", pet: "Biscuit" },
+                { name: "Lyria", power: "164k", pet: "Albus" },
+                { name: "Yasmine", power: "164k", pet: "Albus" },
+                { name: "Guus", power: "79k", pet: "Khorus" },
+                { name: "Dante", power: "98k", pet: "Cain" }
+            ]
+        },
+        defenseTeam: {
+           warFlag: "Swift Warriors",
+            mainPet: { name: "Axel", power: "129k" },
+            heroes: [
+                { name: "Astaroth", power: "122k", pet: "Axel" },
+                {  name: "Galahad", power: "131k", pet: "Fenris" },
+                {  name: "Yasmine", power: "128k", pet: "No Pet" },
+                {  name: "Thea", power: "106k", pet: "Merlin" },
+                { name: "Martha", power: "101k", pet: "No Pet" }
+
+
+            ]
+        }
+    },
+    {
+        winRate: "100%",
+        attackTeam: {
+           warFlag: "Recovery",
+            mainPet: { name: "Biscuit", power: "91k" },
+            heroes: [
+                { name: "Electra", power: "92k", pet: "Biscuit" },
+                { name: "Lyria", power: "164k", pet: "Albus" },
+                { name: "Yasmine", power: "164k", pet: "Albus" },
+                { name: "Guus", power: "79k", pet: "Khorus" },
+                { name: "Dante", power: "98k", pet: "Cain" }
+            ]
+        },
+        defenseTeam: {
+           warFlag: "Swift Warriors",
+            mainPet: { name: "Axel", power: "145k" },
+            heroes: [
+                { name: "Kayla", power: "126k", pet: "Albus" },
+                {  name: "Lyria", power: "100k", pet: "Oliver" },
+                {  name: "Dante", power: "103k", pet: "Cain" },
+                {  name: "Aidan", power: "106k", pet: "Khorus" },
+                { name: "Martha", power: "99k", pet: "Axel" }
+
+
+            ]
+        }
+    },
+{
+        winRate: "100%",
+        attackTeam: {
            warFlag: "Pet Strength",
             mainPet: { name: "Khorus", power: "173k" },
             heroes: [
@@ -20,8 +74,8 @@ const battlesData = [
                 { name: "Galahad", power: "170k", pet: "Albus" },
                 {  name: "Keira", power: "140k", pet: "Vex" },
                 {  name: "Heidi", power: "123k", pet: "Biscuit" },
-                {  name: "Artemis", power: "116k", pet: "116" },
-                { name: "Thea", power: "105k", pet: "106" }
+                {  name: "Artemis", power: "116k", pet: "No Pet" },
+                { name: "Thea", power: "105k", pet: "Merlin" }
 
             ]
         }

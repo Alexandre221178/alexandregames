@@ -4,6 +4,30 @@ const titanBattlesData = [
         winRate: "100%",
         attackTeam: {
             titans: [
+                { name: "Rigel", power: "133k" },
+                { name: "Araji", power: "137k" },
+                { name: "Lumira", power: "44k" },
+                { name: "Solaris", power: "142k" },
+                { name: "Amon", power: "132k" }
+
+            ]
+        },
+        defenseTeam: {
+            titans: [
+                 { name: "Moloch", power: "161k" },
+                { name: "Vulcan", power: "142k" },
+                { name: "Araji", power: "137k" },
+                { name: "Asherona", power: "85k" },
+                { name: "Ignis", power: "140k" }
+
+            ]
+        }
+    },
+
+    {
+        winRate: "100%",
+        attackTeam: {
+            titans: [
                 { name: "Angus", power: "169k" },
                 { name: "Avalon", power: "129k" },
                 { name: "Verdoc", power: "85k" },

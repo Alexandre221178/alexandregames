@@ -1,5 +1,28 @@
 // Hero Wars Alliance - Battle Database
 const battlesData = [
+    
+    {
+        winRate: "100%",
+        attackTeam: {
+            heroes: [
+                { name: "Electra", power: "141k", talisman: "Strength", relicLv: 2 },
+                { name: "Tempus", power: "133k", talisman: "Toughness", relicLv: 0 },
+                { name: "Somna", power: "122k", talisman: "Toughness", relicLv: 1 },
+                { name: "Folio", power: "148k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Polaris", power: "125k", talisman: "Toughness", relicLv: 0 }
+            ]
+        },
+        defenseTeam: {
+            heroes: [
+               { name: "Julius", power: "147k", talisman: "Physical Attack", relicLv: 0 },
+                { name: "Kayla", power: "166k", talisman: "Armor Penetration", relicLv: 0 },
+                { name: "Guus", power: "141k", talisman: "Strength", relicLv: 0 },
+                { name: "Folio", power: "148k", talisman: "Health", relicLv: 0 },
+                { name: "Aidan", power: "143k", talisman: "Toughness", relicLv: 0 }
+
+            ]
+        }
+    },
     {
         winRate: "100%",
         attackTeam: {
@@ -22,7 +45,6 @@ const battlesData = [
             ]
         }
     },
-
     {
         winRate: "100%",
         attackTeam: {
@@ -45,7 +67,6 @@ const battlesData = [
             ]
         }
     },
-
     {
         winRate: "100%",
         attackTeam: {
@@ -68,7 +89,6 @@ const battlesData = [
             ]
         }
     },
-
     {
         winRate: "100%",
         attackTeam: {
@@ -91,8 +111,6 @@ const battlesData = [
             ]
         }
     },
-
-
     {
         winRate: "100%",
         attackTeam: {
