@@ -3337,13 +3337,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/home/hwde-en.html</loc>
-  <lastmod>2025-12-27T20:45-03:00</lastmod>
+  <lastmod>2025-12-30T23:34-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/home/hwde-pt.html</loc>
-  <lastmod>2025-12-27T20:45-03:00</lastmod>
+  <lastmod>2025-12-30T23:34-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3361,13 +3361,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html</loc>
-  <lastmod>2025-12-27T20:45-03:00</lastmod>
+  <lastmod>2025-12-30T23:34-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-pt.html</loc>
-  <lastmod>2025-12-27T20:45-03:00</lastmod>
+  <lastmod>2025-12-30T23:34-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3565,6 +3565,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/characters/folio-pt.html</loc>
   <lastmod>2025-06-08T19:44-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/characters/galahad-en.html</loc>
+  <lastmod>2025-12-30T23:34-03:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/characters/galahad-pt.html</loc>
+  <lastmod>2025-12-30T23:34-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
@@ -4114,12 +4125,12 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-en.html</loc>
-  <lastmod>2025-12-02T22:40-03:00</lastmod>
+  <lastmod>2025-12-30T23:34-03:00</lastmod>
   <priority>0.97</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-pt.html</loc>
-  <lastmod>2025-12-02T22:40-03:00</lastmod>
+  <lastmod>2025-12-30T23:34-03:00</lastmod>
   <priority>0.87</priority>
 </url>
 
