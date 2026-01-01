@@ -92,6 +92,29 @@ function renderBattleResults(battles) {
     const container = document.getElementById('battle-results');
     if (!container) return;
 
+    // Formata e arredonda valores de power para exibição (suporta números, strings com sufixo 'k'/'m')
+    function formatPowerDisplay(power) {
+        if (power === null || typeof power === 'undefined' || power === '') return 'N/A';
+
+        if (typeof power === 'number') {
+            if (Math.abs(power) >= 1000) return Math.round(power / 1000) + 'k';
+            return String(Math.round(power));
+        }
+
+        const s = String(power).trim();
+        const m = s.match(/^([\d.,]+)\s*([kKmM])?$/);
+        if (!m) return s;
+
+        let num = parseFloat(m[1].replace(',', '.'));
+        if (isNaN(num)) return s;
+
+        const suffix = m[2] ? m[2].toLowerCase() : '';
+        if (suffix === 'k' || suffix === 'm') return Math.round(num) + suffix;
+
+        if (Math.abs(num) >= 1000) return Math.round(num / 1000) + 'k';
+        return String(Math.round(num));
+    }
+
     if (battles.length === 0) {
         container.innerHTML = '<p class="no-results">No battles found with the selected criteria.</p>';
         return;
@@ -116,9 +139,9 @@ function renderBattleResults(battles) {
             <div class="teams-container">
                 <div class="team attack-team">
                     <h4>⚔️ Attack Team</h4>
-                    <div class="team-power">Total Power: ${attackTotalPower}</div>
+                    <div class="team-power">Total Power: ${formatPowerDisplay(attackTotalPower)}</div>
                     <div class="team-extras">
-                        <div class="main-pet">Main Pet: ${battle.attackTeam.mainPet.name} (${battle.attackTeam.mainPet.power})</div>
+                        <div class="main-pet">Main Pet: ${battle.attackTeam.mainPet.name} (${formatPowerDisplay(battle.attackTeam.mainPet.power)})</div>
                         <div class="war-flag">War Flag: ${battle.attackTeam.warFlag}</div>
                     </div>
                     <div class="heroes-list">
@@ -130,7 +153,7 @@ function renderBattleResults(battles) {
                         ${battle.attackTeam.heroes.map(hero => `
                             <div class="hero-item">
                                 <span class="hero-name">${hero.name}</span>
-                                <span class="hero-power" title="Hero Power">${hero.power || 'N/A'}</span>
+                                <span class="hero-power" title="Hero Power">${formatPowerDisplay(hero.power)}</span>
                                 <span class="hero-pet" title="Pet">${hero.pet}</span>
                             </div>
                         `).join('')}
@@ -141,9 +164,9 @@ function renderBattleResults(battles) {
 
                 <div class="team defense-team">
                     <h4>🛡️ Defense Team</h4>
-                    <div class="team-power">Total Power: ${defenseTotalPower}</div>
+                    <div class="team-power">Total Power: ${formatPowerDisplay(defenseTotalPower)}</div>
                     <div class="team-extras">
-                        <div class="main-pet">Main Pet: ${battle.defenseTeam.mainPet.name} (${battle.defenseTeam.mainPet.power})</div>
+                        <div class="main-pet">Main Pet: ${battle.defenseTeam.mainPet.name} (${formatPowerDisplay(battle.defenseTeam.mainPet.power)})</div>
                         <div class="war-flag">War Flag: ${battle.defenseTeam.warFlag}</div>
                     </div>
                     <div class="heroes-list">
@@ -155,7 +178,7 @@ function renderBattleResults(battles) {
                         ${battle.defenseTeam.heroes.map(hero => `
                             <div class="hero-item">
                                 <span class="hero-name">${hero.name}</span>
-                                <span class="hero-power" title="Hero Power">${hero.power || 'N/A'}</span>
+                                <span class="hero-power" title="Hero Power">${formatPowerDisplay(hero.power)}</span>
                                 <span class="hero-pet" title="Pet">${hero.pet}</span>
                             </div>
                         `).join('')}

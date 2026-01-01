@@ -1,6 +1,89 @@
 // Hero Wars Alliance - Battle Database
 const battlesData = [
-    
+  {
+winRate: "100%",
+attackTeam: {
+heroes: [
+{ name: "Electra", power: "141k", talisman: "Intelligence", relicLv: 2 },
+{ name: "	Byrna	", power: "	117.767	k", talisman: "	Intelligence	", relicLv: 	2	 },
+{ name: "	Soleil	", power: "	125.724	k", talisman: "	Magic Reflection	", relicLv: 	0	 },
+{ name: "Folio", power: "148k", talisman: "Intelligence", relicLv: 0 },
+{ name: "Polaris", power: "126k", talisman: "Toughness", relicLv: 0 }
+]
+},
+defenseTeam: {
+heroes: [
+{ name: "Julius", power: "152k", talisman: "Strength", relicLv: 0 },
+{ name: "Kayla", power: "174k", talisman: "Armor Penetration", relicLv: 0 },
+{ name: "Somna", power: "143k", talisman: "Agility", relicLv: 2 },
+{ name: "Folio", power: "168k", talisman: "Intelligence", relicLv: 2 },
+{ name: "Aidan", power: "137kk", talisman: "Intelligence", relicLv: 0 }
+]
+}
+},
+{
+winRate: "100%",
+attackTeam: {
+heroes: [
+{ name: "Electra", power: "141k", talisman: "Intelligence", relicLv: 2 },
+{ name: "	Byrna	", power: "	117.767	k", talisman: "	Intelligence	", relicLv: 	2	 },
+{ name: "Folio", power: "148k", talisman: "Intelligence", relicLv: 0 },
+{ name: "Polaris", power: "126k", talisman: "Toughness", relicLv: 0 },
+{ name: "	Octavia	", power: "	135.089	k", talisman: "	Agility	", relicLv: 	0	 },
+]
+},
+defenseTeam: {
+heroes: [
+{ name: "Electra", power: "149k", talisman: "Magic Reflection", relicLv: 1 },
+{ name: "Byrna", power: "154k", talisman: "Intelligence", relicLv: 2 },
+{ name: "Iris", power: "172k", talisman: "Intelligence", relicLv: 1 },
+{ name: "Somna", power: "150k", talisman: "Agility", relicLv: 2 },
+{ name: "Polaris", power: "149kk", talisman: "Intelligence", relicLv: 0 }
+]
+}
+},
+  {
+winRate: "100%",
+attackTeam: {
+heroes: [
+{ name: "Electra", power: "141k", talisman: "Intelligence", relicLv: 2 },
+{ name: "	Byrna	", power: "	117.767	k", talisman: "	Intelligence	", relicLv: 	2	 },
+{ name: "	Soleil	", power: "	125.724	k", talisman: "	Magic Reflection	", relicLv: 	0	 },
+{ name: "Folio", power: "148k", talisman: "Intelligence", relicLv: 0 },
+{ name: "Polaris", power: "126k", talisman: "Toughness", relicLv: 0 }
+]
+},
+defenseTeam: {
+heroes: [
+{ name: "Julius", power: "156k", talisman: "Strength", relicLv: 0 },
+{ name: "Kayla", power: "152k", talisman: "Agility", relicLv: 2 },
+{ name: "Somna", power: "143k", talisman: "Agility", relicLv: 2 },
+{ name: "Folio", power: "161k", talisman: "Intelligence", relicLv: 2 },
+{ name: "Aidan", power: "133k", talisman: "Intelligence", relicLv: 0 }
+]
+}
+},
+    {
+        winRate: "100%",
+        attackTeam: {
+            heroes: [
+          	     { name: "Electra", power: "141k", talisman: "Intelligence", relicLv: 2 },
+                { name: "	Byrna	", power: "	117.767	k", talisman: "	Intelligence	", relicLv: 	2	 },
+              { name: "	Soleil	", power: "	125.724	k", talisman: "	Magic Reflection	", relicLv: 	0	 },
+               { name: "Folio", power: "148k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Polaris", power: "126k", talisman: "Toughness", relicLv: 0 }
+            ]
+        },
+        defenseTeam: {
+            heroes: [
+               { name: "Julius", power: "140k", talisman: "Strenght", relicLv: 0 },
+                { name: "Kayla", power: "137k", talisman: "No Talisman", relicLv: 0 },
+                { name: "Folio", power: "142k", talisman: "Intelligence", relicLv: 2 },
+                { name: "Polaris", power: "131k", talisman: "No Talisman", relicLv: 0 },
+                { name: "Aidan", power: "136k", talisman: "Intelligence", relicLv: 0 }
+            ]
+        }
+    },
   {
     winRate: "99.93%",
     attackTeam: {
