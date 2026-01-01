@@ -91,6 +91,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 4. Adicionar mensagem de direitos autorais
     const footerMessage = document.getElementById("message");
-    const messageText = document.createTextNode("©2023-2025 Alexandre Games Blog - CNPJ 60.473.728/0001-62");
+    const messageText = document.createTextNode("©2023-2026 Alexandre Games Blog - CNPJ 60.473.728/0001-62");
     footerMessage.appendChild(messageText);
 });
