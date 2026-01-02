@@ -1,6 +1,69 @@
 // Hero Wars Alliance - Battle Database
 const battlesData = [
   {
+        winRate: "100%",
+        attackTeam: {
+            heroes: [
+                { name: "Andvari", power: "129.285k", talisman: "Strength", relicLv: 0 },
+                { name: "Dante", power: "159.275k", talisman: "Agility", relicLv: 0 },
+               { name: "Tempus", power: "132.724k", talisman: "Toughness", relicLv: 0 },
+                { name: "Heidi", power: "132.232k", talisman: "Dodge", relicLv: 0 },
+                { name: "Octavia", power: "135.089k", talisman: "Agility", relicLv: 0 }
+            ]
+        },
+        defenseTeam: {
+            heroes: [
+                { name: "Dante", power: "159.275k", talisman: "Agility", relicLv: 0 },
+                { name: "Tempus", power: "132.724k", talisman: "Toughness", relicLv: 0 },
+                { name: "Nebula", power: "136.231k", talisman: "Agility", relicLv: 0 },
+                { name: "Iris", power: "155.035k", talisman: "Armor", relicLv: 2 },
+                { name: "Peech", power: "130.436k", talisman: "Health", relicLv: 0 }
+            ]
+        }
+    },
+  {
+        winRate: "100%",
+        attackTeam: {
+            heroes: [
+                { name: "Andvari", power: "129.285k", talisman: "Strength", relicLv: 0 },
+                { name: "Dante", power: "159.275k", talisman: "Agility", relicLv: 0 },
+                { name: "Nebula", power: "136.231k", talisman: "Agility", relicLv: 0 },
+                { name: "Heidi", power: "132.232k", talisman: "Dodge", relicLv: 0 },
+                { name: "Octavia", power: "135.089k", talisman: "Agility", relicLv: 0 }
+            ]
+        },
+        defenseTeam: {
+            heroes: [
+                { name: "Dante", power: "159.275k", talisman: "Agility", relicLv: 0 },
+                { name: "Tempus", power: "132.724k", talisman: "Toughness", relicLv: 0 },
+                { name: "Nebula", power: "136.231k", talisman: "Agility", relicLv: 0 },
+                { name: "Iris", power: "155.035k", talisman: "Armor", relicLv: 2 },
+                { name: "Peech", power: "130.436k", talisman: "Health", relicLv: 0 }
+            ]
+        }
+    },  
+  {
+        winRate: "100%",
+        attackTeam: {
+            heroes: [
+                { name: "Electra", power: "141796k", talisman: "Magic Reflection", relicLv: 2 },
+                { name: "Nebula", power: "136.231k", talisman: "Agility", relicLv: 0 },
+                { name: "Soleil", power: "125.724k", talisman: "Magic Reflection", relicLv: 0 },
+                { name: "Iris", power: "155.035k", talisman: "Armor", relicLv: 2 },
+                { name: "Polaris", power: "125.516k", talisman: "Agility", relicLv: 0 }
+            ]
+        },
+        defenseTeam: {
+            heroes: [
+                { name: "Julius", power: "146k", talisman: "Physical Attack", relicLv: 0 },
+                { name: "Judge", power: "131k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Somna", power: "122k", talisman: "Toughness", relicLv: 1 },
+                { name: "Folio", power: "141k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Polaris", power: "125k", talisman: "Agility", relicLv: 0 }
+            ]
+        }
+    },
+  {
 winRate: "100%",
 attackTeam: {
 heroes: [
@@ -105,7 +168,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "99.90%",
     attackTeam: {
@@ -127,7 +189,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "99.66%",
     attackTeam: {
@@ -149,7 +210,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "100%",
     attackTeam: {
@@ -171,7 +231,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "100%",
     attackTeam: {
@@ -193,7 +252,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "100%",
     attackTeam: {
@@ -215,7 +273,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "100%",
     attackTeam: {
@@ -237,7 +294,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "100%",
     attackTeam: {
@@ -259,7 +315,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "100%",
     attackTeam: {
@@ -281,7 +336,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "100%",
     attackTeam: {
@@ -303,7 +357,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "100%",
     attackTeam: {
@@ -325,7 +378,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "100%",
     attackTeam: {
@@ -347,7 +399,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "100%",
     attackTeam: {
@@ -369,7 +420,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "100%",
     attackTeam: {
@@ -391,7 +441,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "100%",
     attackTeam: {
@@ -413,7 +462,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "100%",
     attackTeam: {
@@ -435,7 +483,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "100%",
     attackTeam: {
@@ -457,7 +504,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "100%",
     attackTeam: {
@@ -479,7 +525,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "100%",
     attackTeam: {
@@ -501,7 +546,6 @@ heroes: [
       ]
     }
   },
-
   {
     winRate: "100%",
     attackTeam: {
