@@ -4,6 +4,89 @@ const battlesData = [
         winRate: "100%",
         attackTeam: {
             heroes: [
+                { name: "Dante", power: "159.275k", talisman: "Agility", relicLv: 0 },
+               { name: "Tempus", power: "132.724k", talisman: "Toughness", relicLv: 0 },
+              { name: "Iris", power: "155.035k", talisman: "Armor", relicLv: 2 },
+               { name: "Dorian", power: "93.171k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Octavia", power: "135.089k", talisman: "Agility", relicLv: 0 }
+            ]
+        },
+        defenseTeam: {
+            heroes: [
+                { name: "Corvus", power: "155330k", talisman: "Magic Defense", relicLv: 0 },
+                { name: "Tempus", power: "132.724k", talisman: "Toughness", relicLv: 0 },
+                { name: "Morrigan", power: "126258k", talisman: "Armor", relicLv: 0 },
+                { name: "Iris", power: "155.035k", talisman: "Armor", relicLv: 2 },
+                { name: "Somna", power: "122051k", talisman: "Toughness", relicLv: 1 },
+            ]
+        }
+    },
+    {
+        winRate: "80%",
+        attackTeam: {
+            heroes: [
+                { name: "Dante", power: "159.275k", talisman: "Agility", relicLv: 0 },
+               { name: "Tempus", power: "132.724k", talisman: "Toughness", relicLv: 0 },
+              { name: "Iris", power: "155.035k", talisman: "Armor", relicLv: 2 },
+               { name: "Dorian", power: "93.171k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Octavia", power: "135.089k", talisman: "Agility", relicLv: 0 }
+            ]
+        },
+        defenseTeam: {
+            heroes: [
+                { name: "Corvus", power: "169k", talisman: "Magic Defense", relicLv: 0 },
+                { name: "Tempus", power: "173k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Morrigan", power: "165k", talisman: "Armor", relicLv: 0 },
+                { name: "Iris", power: "202k", talisman: "Intelligence", relicLv: 2 },
+                { name: "Somna", power: "193k", talisman: "Toughness", relicLv: 3 },
+            ]
+        }
+    },
+  {
+        winRate: "100%",
+        attackTeam: {
+            heroes: [
+                { name: "Electra", power: "141796k", talisman: "Magic Reflection", relicLv: 2 },
+                { name: "Guus", power: "140.666k", talisman: "Armor", relicLv: 0 },
+                { name: "Somna", power: "122.051k", talisman: "Toughness", relicLv: 1 },
+                { name: "Folio", power: "148k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Polaris", power: "125.516k", talisman: "Agility", relicLv: 0 },            ]
+        },
+        defenseTeam: {
+            heroes: [
+               { name: "Astaroth", power: "174k", talisman: "Health", relicLv: 0 },
+                { name: "Tristan", power: "169k", talisman: "Armor", relicLv: 0 },
+                { name: "Oya", power: "186k", talisman: "Physical Attack", relicLv: 0 },
+                { name: "Kayla", power: "187k", talisman: "Armor Penetration", relicLv: 1 },
+                { name: "Fafnir", power: "167k", talisman: "Physical Attack", relicLv: 0 }
+            ]
+        }
+    },
+    {
+        winRate: "100%",
+        attackTeam: {
+            heroes: [
+                { name: "Electra", power: "141796k", talisman: "Magic Reflection", relicLv: 2 },
+                { name: "Guus", power: "140.666k", talisman: "Armor", relicLv: 0 },
+                { name: "Somna", power: "122.051k", talisman: "Toughness", relicLv: 1 },
+                { name: "Folio", power: "148k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Polaris", power: "125.516k", talisman: "Agility", relicLv: 0 },            ]
+        },
+        defenseTeam: {
+            heroes: [
+               { name: "Astaroth", power: "164k", talisman: "Strength", relicLv: 0 },
+                { name: "Tristan", power: "171k", talisman: "Strength", relicLv: 0 },
+                { name: "Oya", power: "169k", talisman: "Strength", relicLv: 0 },
+                { name: "Kayla", power: "171k", talisman: "Agility", relicLv: 0 },
+                { name: "Fafnir", power: "151k", talisman: "Physical Attack", relicLv: 0 }
+            ]
+        }
+    },
+
+  {
+        winRate: "100%",
+        attackTeam: {
+            heroes: [
                 { name: "Andvari", power: "129.285k", talisman: "Strength", relicLv: 0 },
                 { name: "Dante", power: "159.275k", talisman: "Agility", relicLv: 0 },
                { name: "Tempus", power: "132.724k", talisman: "Toughness", relicLv: 0 },
@@ -58,7 +141,7 @@ const battlesData = [
                 { name: "Julius", power: "146k", talisman: "Physical Attack", relicLv: 0 },
                 { name: "Judge", power: "131k", talisman: "Intelligence", relicLv: 0 },
                 { name: "Somna", power: "122k", talisman: "Toughness", relicLv: 1 },
-                { name: "Folio", power: "141k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Folio", power: "148k", talisman: "Intelligence", relicLv: 0 },
                 { name: "Polaris", power: "125k", talisman: "Agility", relicLv: 0 }
             ]
         }
@@ -141,7 +224,7 @@ heroes: [
             heroes: [
                { name: "Julius", power: "140k", talisman: "Strenght", relicLv: 0 },
                 { name: "Kayla", power: "137k", talisman: "No Talisman", relicLv: 0 },
-                { name: "Folio", power: "142k", talisman: "Intelligence", relicLv: 2 },
+                { name: "Folio", power: "148k", talisman: "Intelligence", relicLv: 2 },
                 { name: "Polaris", power: "131k", talisman: "No Talisman", relicLv: 0 },
                 { name: "Aidan", power: "136k", talisman: "Intelligence", relicLv: 0 }
             ]
@@ -575,7 +658,13 @@ function parsePower(powerStr) {
     if (str.includes('m')) {
         return parseFloat(str) * 1000000;
     } else if (str.includes('k')) {
-        return parseFloat(str) * 1000;
+        let num = parseFloat(str);
+        // Se o número for maior que 1000 com sufixo k, significa que faltou o ponto
+        // Ex: "141796k" deveria ser "141.796k" -> 141796 / 1000 = 141.796
+        if (num >= 1000) {
+            num = num / 1000;
+        }
+        return num * 1000;
     }
     return parseFloat(str);
 }

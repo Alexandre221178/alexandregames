@@ -1,6 +1,48 @@
 // Hero Wars Alliance - Titan Battle Database
 const titanBattlesData = [
     {
+    winRate: "100%",
+    attackTeam: {
+        titans: [
+            { name: "Angus", power: "169k" },
+            { name: "Avalon", power: "129k" },
+            { name: "Verdoc", power: "85k" },
+            { name: "Eden", power: "141k" },
+            { name: "Sylva", power: "77k" }
+        ]
+    },
+    defenseTeam: {
+        titans: [
+            { name: "Rigel", power: "142k" },
+            { name: "Iyari", power: "139k" },
+            { name: "Eden", power: "141k" },
+            { name: "Solaris", power: "142k" },
+            { name: "Tenebris", power: "134k" }
+        ]
+    }
+},
+{
+    winRate: "100%",
+    attackTeam: {
+        titans: [
+            { name: "Angus", power: "169k" },
+            { name: "Avalon", power: "129k" },
+            { name: "Verdoc", power: "85k" },
+            { name: "Eden", power: "141k" },
+            { name: "Sylva", power: "77k" }
+        ]
+    },
+    defenseTeam: {
+        titans: [
+            { name: "Rigel", power: "132k" },
+            { name: "Iyari", power: "131k" },
+            { name: "Eden", power: "141k" },
+            { name: "Solaris", power: "142k" },
+            { name: "Tenebris", power: "140k" }
+        ]
+    }
+},
+    {
     winRate: "99%",
     attackTeam: {
         titans: [

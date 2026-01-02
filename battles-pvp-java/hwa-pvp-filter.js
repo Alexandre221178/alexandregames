@@ -90,6 +90,13 @@ function renderBattleResults(battles) {
         let num = parseFloat(m[1].replace(',', '.'));
         if (isNaN(num)) return s;
         const suffix = m[2] ? m[2].toLowerCase() : '';
+        
+        // Se o número for maior que 1000 e já tiver sufixo k, divida por 1000 primeiro
+        // Exemplo: "141796k" -> 141.796k -> arredonda para 142k
+        if (suffix === 'k' && num >= 1000) {
+            num = num / 1000;
+        }
+        
         if (suffix === 'm') return Math.round(num) + 'm';
         if (suffix === 'k') return Math.round(num) + 'k';
         if (Math.abs(num) >= 1000000) return Math.round(num / 1000000) + 'm';
