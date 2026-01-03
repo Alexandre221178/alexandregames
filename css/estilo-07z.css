@@ -937,7 +937,7 @@ section p{
     height: 180px;
    
     
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     align-items: center;
     text-align: center;
     float: left;
@@ -954,7 +954,7 @@ section p{
     text-align: left;
     color: white;
     image-orientation: flex;
-    margin-top: 1px;
+    margin-top: 0px !important;
     text-decoration: none;
     font-size: 14px;
 }
@@ -965,8 +965,7 @@ section p{
 .img-visited img{
         width: 100%;
         height: 100%;
-        margin-bottom: 10px; /* Espaçamento inferior para separar as imagens do caption */
-    object-fit: cover; /* Ajuste para preencher o espaço sem distorção */
+        object-fit: cover; /* Ajuste para preencher o espaço sem distorção */
     display: block; /* Garante que a imagem seja tratada como um bloco */
         border: 4px solid #5654b3;
 }
