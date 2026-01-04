@@ -108,11 +108,11 @@ document.addEventListener('DOMContentLoaded', () => {
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/best-war-flag-en.html">⚔️ Best War Flags</a>
     
     
-    <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html">Heroes Guide</a>
-    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-en.html">Heroes Tier List</a>
-     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-en.html">Mysterious Island January 2026</a>
+    <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html">📖 Heroes Guide</a>
+    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-en.html">🏆 Heroes Tier List</a>
+     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-en.html">🏝️ Mysterious Island January 2026</a>
    
-<a class="expandable-menu" onclick="toggleSubmenu(event, 'pet-maps-en27')">Pet Adventure Maps</a>
+<a class="expandable-menu" onclick="toggleSubmenu(event, 'pet-maps-en27')">🐾 Pet Adventure Maps</a>
     <div id="pet-maps-en27" class="submenu-items">
         <a href="https://alexandregames.com/hero-wars-dominion-era/menu/adventure-map-guide-en.html">All Maps Guide</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-02-en.html">Map 02</a>
@@ -128,11 +128,11 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-12-en.html">Map 12</a>
     </div>
 
-    <a href="https://alexandregames.com/hero-wars-dominion-era/menu/pet-guide-menu-en.html">Pet Guide</a>   
-    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/pets-tier-list-en.html">Pet Tier List</a>
-    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/promo-code-hwde-en.html">Promo Codes</a>
-      <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totem-fusion-skills-en.html">Totem Fusion Skills Ranked</a>
-    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totems-guide-en.html">Totems Guide</a>
+    <a href="https://alexandregames.com/hero-wars-dominion-era/menu/pet-guide-menu-en.html">🐾 Pet Guide</a>   
+    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/pets-tier-list-en.html">🏆 Pet Tier List</a>
+    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/promo-code-hwde-en.html">🎟️ Promo Codes</a>
+      <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totem-fusion-skills-en.html">⚡ Totem Fusion Skills Ranked</a>
+    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totems-guide-en.html">🗿 Totems Guide</a>
     
     
         
