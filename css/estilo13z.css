@@ -395,12 +395,13 @@ nav .menu-icon{
 
 
 
-/* teste dropdown menu */
+/* dropdown menu principal do mobile */
 .dropbtn {
     border-radius: 5px;
     /* cor buttom MAIS  */
     font-weight: bold;
-    padding: 18px;
+    padding: 13px;
+    margin-left: 13px;
     color: white;
     font-size: 14px;
     border: none;
@@ -418,10 +419,16 @@ nav .menu-icon{
   .dropdown-content {
     display: none;
     position: absolute;
+    top: 50px;
     background-color: black;
-    width: 200px;/* largura do dropdown menu */
-    
+    width: 200px;/* largura do dropdown menu */    
     z-index: 1;
+  }
+
+  /* Faz os últimos 2 dropdowns (More Games e idioma) abrirem para a esquerda para não estourar o nav */
+  .dropdown:nth-last-of-type(1) .dropdown-content,
+  .dropdown:nth-last-of-type(2) .dropdown-content {
+    width: 160px /* largura do 2 ult. dropdown menu */
   }
   
   .dropdown-content a {
@@ -2203,9 +2210,10 @@ td.team-cell span{
             color:#1a1b1bfd
     }
     
-
     
-
+.dropdown:first-of-type .dropbtn {
+    margin-top: 76px;
+  }/* faz ter margem top no drop so para mobile */
     
     
     .autor ul li{
