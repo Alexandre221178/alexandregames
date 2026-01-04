@@ -419,7 +419,7 @@ nav .menu-icon{
     display: none;
     position: absolute;
     background-color: black;
-    min-width: 170px;
+    width: 200px;/* largura do dropdown menu */
     
     z-index: 1;
   }
