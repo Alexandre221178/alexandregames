@@ -3337,25 +3337,25 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/home/hwde-en.html</loc>
-  <lastmod>2026-01-03T16:14:00-03:00</lastmod>
+  <lastmod>2026-01-04T10:14-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/home/hwde-pt.html</loc>
-  <lastmod>2026-01-03T16:14:00-03:00</lastmod>
+  <lastmod>2026-01-04T10:14-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-en.html</loc>
-  <lastmod>2025-12-31T17:51-03:00</lastmod>
+  <lastmod>2026-01-04T10:14-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-pt.html</loc>
-  <lastmod>2026-01-02T22:43-03:00</lastmod>
+  <lastmod>2026-01-04T10:14-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3818,12 +3818,12 @@
 <!-- inicio menu titan hero wars dominion era SiteMap Alexandre Games -->
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/titans-menu-hwde-en.html</loc>
-  <lastmod>2026-01-03T21:25-03:00</lastmod>
+  <lastmod>2026-01-04T10:14-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/titans-menu-hwde-pt.html</loc>
-  <lastmod>2026-01-03T21:25-03:00</lastmod>
+  <lastmod>2026-01-04T10:14-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 <!-- fim menu titan hero wars dominion era SiteMap Alexandre Games -->
@@ -4203,6 +4203,16 @@
 <!-- fim hero wars dominion era Hero Brawls Guide SiteMap Alexandre Games -->
 
 <!-- inicio hero wars dominion era Titan Brawls Guide SiteMap Alexandre Games -->
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/titans-brawls/mairi-brawls-en.html</loc>
+  <lastmod>2026-01-04T10:14-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/titans-brawls/mairi-brawls-pt.html</loc>
+  <lastmod>2026-01-04T10:14-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/titans-brawls/nova-brawls-en.html</loc>
   <lastmod>2025-12-22T19:53-03:00</lastmod>
