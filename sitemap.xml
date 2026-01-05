@@ -3337,13 +3337,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/home/hwde-en.html</loc>
-  <lastmod>2026-01-04T10:14-03:00</lastmod>
+  <lastmod>2026-01-04T22:47-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/home/hwde-pt.html</loc>
-  <lastmod>2026-01-04T10:14-03:00</lastmod>
+  <lastmod>2026-01-04T22:47-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3361,13 +3361,13 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html</loc>
-  <lastmod>2026-01-02T22:43-03:00</lastmod>
+  <lastmod>2026-01-04T22:47-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-pt.html</loc>
-  <lastmod>2025-12-30T23:34-03:00</lastmod>
+  <lastmod>2026-01-04T22:47-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -3455,6 +3455,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/characters/amira-pt.html</loc>
   <lastmod>2025-08-16T10:23-03:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/characters/arachne-en.html</loc>
+  <lastmod>2026-01-04T22:47-03:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/characters/arachne-pt.html</loc>
+  <lastmod>2026-01-04T22:47-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 
