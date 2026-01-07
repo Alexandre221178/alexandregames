@@ -405,23 +405,26 @@ nav .menu-icon{
   .column {  
     display: -ms-flexbox; /* IE10 */
     display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
+    -ms-flex-wrap: nowrap; /* IE10 - Evita quebra de linha */
+    flex-wrap: nowrap; /* Evita que colunas quebrem para baixo */
+    gap: 10px; /* Espaçamento entre colunas */
   }
   
   /* Create two unequal columns that sits next to each other */
   /* Sidebar/left column */
   .side {
-    -ms-flex: 65%; /* IE10 */
-    flex: 65%;
+    -ms-flex: 0 0 65%; /* IE10 */
+    flex: 0 0 65%; /* Não permite encolher ou crescer */
+    min-width: 0; /* Permite que o conteúdo interno seja responsivo */
     background-color: #f1f1f1;
     
   }
   
   /* Main column */
   .main {   
-    -ms-flex: 35%; /* IE10 */
-    flex: 35%;
+    -ms-flex: 0 0 35%; /* IE10 */
+    flex: 0 0 35%; /* Não permite encolher ou crescer */
+    min-width: 0; /* Permite que o conteúdo interno seja responsivo */
     background-color: black;
    
     
@@ -2157,11 +2160,18 @@ body > .skiptranslate {
     
     }
 
+    /* Em mobile, permite quebra de linha */
+    .column {
+        flex-wrap: wrap;
+    }
     
+    .side {
+        flex: 0 0 100%;
+    }
     
     .main {   
-        -ms-flex:100%; /* IE10 */
-        flex: 100%;
+        -ms-flex: 0 0 100%; /* IE10 */
+        flex: 0 0 100%;
         background-color: black;
     }
     main{
