@@ -702,6 +702,9 @@ section p{
 }
 
 /* text title do título novo */
+.text-title {
+    text-align: center;
+}
 .text-title h1{
     font-size: 35px;
     font-weight: bold;

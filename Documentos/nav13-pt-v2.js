@@ -111,6 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <a href="https://alexandregames.com/hero-wars-dominion-era/guide/promo-code-hwde-pt.html">🎟️ Códigos Promocionais</a>
 <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-pt.html">📖 Guia de Heróis</a>
 <a href="https://alexandregames.com/hero-wars-dominion-era/menu/pet-guide-menu-pt.html">🐾 Guia de Mascotes</a> 
+    <a href="https://alexandregames.com/hero-wars-dominion-era/menu/titans-menu-hwde-pt.html">⚔️ Guia de Titãs</a>
 <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totems-guide-pt.html">🗿 Guia de Totens</a>
 <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totem-fusion-skills-pt.html">⚡ Fusão de Totens – Ranking</a>
 
