@@ -25,6 +25,7 @@ body{
 
 /* Estilização para o container fixo */
 .container-fixo {
+    
     width: 320px; /* Define a largura fixa */
     height: 100vh; /* Altura total da tela */
     position: sticky; /* Fixa ao rolar a página */
@@ -401,7 +402,7 @@ nav .menu-icon{
 }
 
 
-  /* Column container */
+  /* Column container - 3 colunas */
   .column {  
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -410,20 +411,28 @@ nav .menu-icon{
     gap: 10px; /* Espaçamento entre colunas */
   }
   
-  /* Create two unequal columns that sits next to each other */
-  /* Sidebar/left column */
+  /* Coluna 1 - Menu lateral esquerdo */
   .side {
-    -ms-flex: 0 0 65%; /* IE10 */
-    flex: 0 0 65%; /* Não permite encolher ou crescer */
+    -ms-flex: 0 0 42%; /* IE10 */
+    flex: 0 0 42%; /* Não permite encolher ou crescer */
     min-width: 0; /* Permite que o conteúdo interno seja responsivo */
     background-color: #f1f1f1;
     
   }
   
-  /* Main column */
+  /* Coluna 2 - Hero Wars Dominion Era */
   .main {   
-    -ms-flex: 0 0 35%; /* IE10 */
-    flex: 0 0 35%; /* Não permite encolher ou crescer */
+    -ms-flex: 0 0 29%; /* IE10 */
+    flex: 0 0 29%; /* Não permite encolher ou crescer */
+    min-width: 0; /* Permite que o conteúdo interno seja responsivo */
+    background-color: black;
+   
+  }
+  
+  /* Coluna 3 - Hero Wars Alliance */
+  .main-alliance {   
+    -ms-flex: 0 0 29%; /* IE10 */
+    flex: 0 0 29%; /* Não permite encolher ou crescer */
     min-width: 0; /* Permite que o conteúdo interno seja responsivo */
     background-color: black;
    
@@ -1016,7 +1025,7 @@ section p{
     width: 100%;
     
     
-   margin-bottom: 80px;
+   margin-bottom: 10px;
     align-items: center;
     text-align: center;
     float: left;
@@ -2170,6 +2179,12 @@ body > .skiptranslate {
     }
     
     .main {   
+        -ms-flex: 0 0 100%; /* IE10 */
+        flex: 0 0 100%;
+        background-color: black;
+    }
+    
+    .main-alliance {   
         -ms-flex: 0 0 100%; /* IE10 */
         flex: 0 0 100%;
         background-color: black;
