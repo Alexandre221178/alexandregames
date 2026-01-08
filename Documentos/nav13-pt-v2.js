@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <ul>             
 
 <div class="dropdown">
-    <button class="dropbtn"><span class="notranslate">Análises de Gameplay</button>
+    <button class="dropbtn"><span class="notranslate">Análises de Gameplay</span></button>
     <div class="dropdown-content"><br>
         
     <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-pt.html">Como Instalar o AppGallery para Ganhar descontos em Hero Wars</a>
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 <div class="dropdown">
-    <button class="dropbtn"><span class="notranslate">Hero Wars Alliance</button>
+    <button class="dropbtn"><span class="notranslate">Hero Wars Alliance</span></button>
     <div class="dropdown-content"><br>
         
     <a href="https://alexandregames.com/HeroWars.html">🆕 HWA - Atualizações</a>   
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     <div class="dropdown">
 
-<button class="dropbtn"><span class="notranslate">Hero Wars: Dominion Era</button>
+<button class="dropbtn"><span class="notranslate">Hero Wars: Dominion Era</span></button>
 <div class="dropdown-content"> <br>  
 <a href="https://alexandregames.com/hero-wars-dominion-era/home/hwde-pt.html">🆕 HWDE - Atualizações</a>
 <a href="https://alexandregames.com/y-redeem-gifts-hwde-en.html">🎁 HWDE Presentes Diários</a>
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>  
     
     <div class="dropdown">
-        <button class="dropbtn"><span class="notranslate">Mobile Legends</button>
+        <button class="dropbtn"><span class="notranslate">Mobile Legends</span></button>
         <div class="dropdown-content"><br>
             
     <a href="https://alexandregames.com/MobileLegends.html">Guia de Heróis</a>

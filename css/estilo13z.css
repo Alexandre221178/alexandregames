@@ -419,10 +419,12 @@ nav .menu-icon{
   .dropdown-content {
     display: none;
     position: absolute;
-    top: 50px;
+    top: 100%;
+    left: 0;
     background-color: black;
     width: 267px;/* largura do dropdown menu */    
     z-index: 1;
+    margin-top: 0;
   }
 
   /* Faz os últimos 2 dropdowns (More Games e idioma) abrirem para a esquerda para não estourar o nav */
