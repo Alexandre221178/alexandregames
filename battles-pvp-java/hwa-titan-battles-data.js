@@ -1,4 +1,41 @@
 // Hero Wars Alliance - Titan Battle Database
+// INSTRUÇÕES DE USO:
+// 1. Tire o print da batalha (titans aparecem por ordem de dano)
+// 2. Copie os titans exatamente na ordem que aparecem no print
+// 3. Use a função createBattle() para adicionar - ela reorganiza automaticamente
+// 4. Não precisa se preocupar com a ordem de batalha - o sistema faz isso!
+
+// Mapeamento das posições dos Titans no jogo
+const titanBattlePositions = {
+    "Sigurd": 1, "Brustar": 2, "Rigel": 3, "Moloch": 4, "Angus": 5,
+    "Nova": 6, "Vulcan": 7, "Avalon": 8, "Verdoc": 9, "Tydus": 10,
+    "Mairi": 11, "Araji": 12, "Iyari": 13, "Asherona": 14, "Eden": 15,
+    "Lumira": 16, "Hyperion": 17, "Ignis": 18, "Solaris": 19, "Sylva": 20,
+    "Amon": 21, "Morte": 22, "Keros": 23, "Tenebris": 24
+};
+
+// Função para reorganizar titans na posição de batalha
+function sortTitansByBattlePosition(titans) {
+    return titans.sort((a, b) => {
+        const posA = titanBattlePositions[a.name] || 999;
+        const posB = titanBattlePositions[b.name] || 999;
+        return posA - posB;
+    });
+}
+
+// Função auxiliar - Cole os titans do print e ela reorganiza automaticamente
+function createBattle(winRate, attackTitansFromPrint, defenseTitansFromPrint) {
+    return {
+        winRate: winRate,
+        attackTeam: {
+            titans: sortTitansByBattlePosition([...attackTitansFromPrint])
+        },
+        defenseTeam: {
+            titans: sortTitansByBattlePosition([...defenseTitansFromPrint])
+        }
+    };
+}
+
 const titanBattlesData = [
     {
     winRate: "100%",
@@ -240,7 +277,109 @@ const titanBattlesData = [
                 { name: "Hyperion", power: "142k" }
             ]
         }
-    }
+    },
+    createBattle(
+        "100%",
+        [
+            { name: "Amon", power: "74k" },
+            { name: "Solaris", power: "129k" },
+            { name: "Iyari", power: "127k" },
+            { name: "Rigel", power: "128k" },
+            { name: "Lumira", power: "50k" }
+        ],
+        [
+            { name: "Solaris", power: "148k" },
+            { name: "Brustar", power: "147k" },
+            { name: "Tenebris", power: "146k" },
+            { name: "Iyari", power: "145k" },
+            { name: "Araji", power: "137k" }
+        ]
+    ),
+    createBattle(
+        "100%",
+        [
+            { name: "Solaris", power: "142k" },
+            { name: "Brustar", power: "147k" },
+            { name: "Mort", power: "147k" },
+            { name: "Tenebris", power: "140k" },
+            { name: "Iyari", power: "145k" }
+        ],
+        [
+            { name: "Solaris", power: "148k" },
+            { name: "Tenebris", power: "146k" },
+            { name: "Iyari", power: "145k" },
+            { name: "Rigel", power: "146k" },
+            { name: "Brustar", power: "147k" }
+        ]
+    ),
+    createBattle(
+        "100%",
+        [
+            { name: "Solaris", power: "129k" },
+            { name: "Amon", power: "145k" },
+            { name: "Tenebris", power: "127k" },
+            { name: "Iyari", power: "145k" },
+            { name: "Rigel", power: "146k" }
+        ],
+        [
+            { name: "Solaris", power: "148k" },
+            { name: "Tenebris", power: "146k" },
+            { name: "Eden", power: "142k" },
+            { name: "Mort", power: "147k" },
+            { name: "Rigel", power: "146k" }
+        ]
+    ),
+    createBattle(
+        "100%",
+        [
+            { name: "Solaris", power: "129k" },
+            { name: "Amon", power: "139k" },
+            { name: "Brustar", power: "142k" },
+            { name: "Mort", power: "147k" },
+            { name: "Iyari", power: "145k" }
+        ],
+        [
+            { name: "Solaris", power: "135k" },
+            { name: "Eden", power: "141k" },
+            { name: "Iyari", power: "145k" },
+            { name: "Tenebris", power: "127k" },
+            { name: "Rigel", power: "132k" }
+        ]
+    ),
+    createBattle(
+        "100%",
+        [
+            { name: "Solaris", power: "129k" },
+            { name: "Brustar", power: "128k" },
+            { name: "Tenebris", power: "127k" },
+            { name: "Araji", power: "137k" },
+            { name: "Mort", power: "122k" }
+        ],
+        [
+            { name: "Solaris", power: "129k" },
+            { name: "Tenebris", power: "127k" },
+            { name: "Iyari", power: "126k" },
+            { name: "Araji", power: "137k" },
+            { name: "Brustar", power: "128k" }
+        ]
+    ),
+    createBattle(
+        "100%",
+        [
+            { name: "Sylva", power: "137k" },
+            { name: "Angus", power: "149k" },
+            { name: "Avalon", power: "142k" },
+            { name: "Eden", power: "141k" },
+            { name: "Verdoc", power: "75k" }
+        ],
+        [
+            { name: "Avalon", power: "142k" },
+            { name: "Eden", power: "141k" },
+            { name: "Angus", power: "149k" },
+            { name: "Verdoc", power: "82k" },
+            { name: "Sylva", power: "137k" }
+        ]
+    )
 ];
 
 // Helper function to parse power values (e.g., "92k" -> 92000, "1.2m" -> 1200000)
