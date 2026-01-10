@@ -277,10 +277,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="https://alexandregames.com/imagens/flag-germany-32x32.png" alt="Germany flag" title="Germany flag" style="width:24px;height:16px">
                 <strong>DE</strong>
             </a>
+            <a href="#" class="lang-option" data-lang="fr">
+                <img src="https://alexandregames.com/imagens/flag-france-32x32.png" alt="France flag" title="France flag" style="width:24px;height:16px">
+                <strong>FR</strong>
+            </a>
             <a href="#" class="lang-option" data-lang="ja">
                 <img src="https://alexandregames.com/imagens/flag-japan-32x32.png" alt="Japan flag" title="Japan flag" style="width:24px;height:16px">
                 <strong>JA</strong>
             </a>
+            <br>
         </div>
     </div>
     </ul>
@@ -325,6 +330,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 'en': '-en.html',
                 'es': '-es.html',
                 'de': '-de.html',
+                'fr': '-fr.html',
                 'ja': '-ja.html'
             };
             
@@ -334,6 +340,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 .replace(/-en\.html$/, '')
                 .replace(/-es\.html$/, '')
                 .replace(/-de\.html$/, '')
+                .replace(/-fr\.html$/, '')
                 .replace(/-ja\.html$/, '')
                 .replace(/\.html$/, '');
             
