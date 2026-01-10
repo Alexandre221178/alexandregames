@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     .language-switch {
-        background-color: #333;
+        background-color: #040404ff;
         color: white;
         padding: 10px;
         border: none;
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     .language-switch:hover {
-        background-color: #555;
+        background-color: #040404ff;
     }
 
     .language-dropdown-content {
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     .language-dropdown-content a:hover {
-        background-color: #000000ff;
+        background-color: #333333ff;
     }
 
     .language-dropdown:hover .language-dropdown-content {
@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
     <div class="language-dropdown">
         <button class="language-switch">
-            <img src="https://alexandregames.com/imagens/global-icon-32x32.png" alt="USA flag" title="USA flag" style="width:24px;height:16px">
+            <img src="https://alexandregames.com/imagens/icone-global.webp" alt="USA flag" title="USA flag" style="width:24px;height:16px">
             <strong>&nbsp&nbsp</strong>
         </button>
         <div class="language-dropdown-content">
