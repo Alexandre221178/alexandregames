@@ -432,6 +432,12 @@ nav .menu-icon{
   .dropdown:nth-last-of-type(2) .dropdown-content {
     width: 160px /* largura do 2 ult. dropdown menu */
   }
+  /* Faz os últimos dropdowns do nav global (More Games e idioma) abrirem para a esquerda para não estourar o nav */
+  .language-dropdown .language-dropdown-content {
+    right: 0;
+    left: auto;
+    min-width: 90px;
+  }
   
   .dropdown-content a {
     color: white;
