@@ -63,6 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     .language-switch {
+    font-size: 15px !important;
         background-color: #040404ff;
         color: white;
         padding: 10px;
@@ -256,8 +257,8 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
     <div class="language-dropdown">
         <button class="language-switch">
-            <img src="https://alexandregames.com/imagens/icone-global.webp" alt="USA flag" title="USA flag" style="width:24px;height:16px">
-            <strong>&nbsp&nbsp</strong>
+            
+            <strong>🌎Global</strong>
         </button>
         <div class="language-dropdown-content">
             <a href="#" class="lang-option" data-lang="pt">
