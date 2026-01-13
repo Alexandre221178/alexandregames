@@ -4,6 +4,54 @@ const battlesData = [
         winRate: "100%",
         attackTeam: {
             heroes: [
+                 { name: "Julius", power: "161k", talisman: "Physical Attack", relicLv: 0 },
+                { name: "Byrna", power: "125k", talisman: "Intelligence", relicLv: 2 },
+                { name: "Somna", power: "122k", talisman: "Toughness", relicLv: 1 },
+                { name: "Folio", power: "152k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Polaris", power: "127k", talisman: "Toughness", relicLv: 0 }
+
+            ]
+        },
+        defenseTeam: {
+            heroes: [
+               { name: "Julius", power: "161k", talisman: "Physical Attack", relicLv: 0 },
+               { name: "Kayla", power: "177k", talisman: "Armor Penetration", relicLv: 2 },
+               { name: "Dante", power: "159k", talisman: "Agility", relicLv: 0 },
+                { name: "Octavia", power: "135k", talisman: "Agility", relicLv: 0 },
+              { name: "Aidan", power: "143k", talisman: "Toughness", relicLv: 0 },
+            ]
+        }
+    },
+
+
+{
+        winRate: "90%",
+        attackTeam: {
+            heroes: [
+                { name: "Julius", power: "161k", talisman: "Physical Attack", relicLv: 0 },
+                { name: "Byrna", power: "125k", talisman: "Intelligence", relicLv: 2 },
+                { name: "Somna", power: "122k", talisman: "Toughness", relicLv: 1 },
+                { name: "Folio", power: "152k", talisman: "Intelligence", relicLv: 0 },
+                { name: "Polaris", power: "127k", talisman: "Intelligence", relicLv: 0 }
+
+            ]
+        },
+        defenseTeam: {
+            heroes: [
+                 { name: "Julius", power: "189k", talisman: "Physical Attack", relicLv: 0 },
+               { name: "Kayla", power: "193k", talisman: "Armor Penetration", relicLv: 2 },
+               { name: "Dante", power: "164k", talisman: "Agility", relicLv: 0 },
+                { name: "Octavia", power: "175k", talisman: "Toughness", relicLv: 0 },
+              { name: "Aidan", power: "179k", talisman: "Toughness", relicLv: 0 },
+
+            ]
+        }
+    },
+
+  {
+        winRate: "100%",
+        attackTeam: {
+            heroes: [
           	     { name: "Electra", power: "141796k", talisman: "Magic Reflection", relicLv: 2 },
                 { name: "Tempus", power: "132724k", talisman: "Toughness", relicLv: 0 },
               { name: "Iris", power: "155035k", talisman: "Armor", relicLv: 2 },
