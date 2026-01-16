@@ -31,13 +31,13 @@
 
 <url>
   <loc>https://alexandregames.com/herowars-alliance-en.html</loc>
-  <lastmod>2026-01-12T21:52-03:00</lastmod>
+  <lastmod>2026-01-16T00:14:02-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/HeroWars.html</loc>
-  <lastmod>2026-01-12T21:52-03:00</lastmod>
+  <lastmod>2026-01-16T00:14:02-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -802,6 +802,39 @@
   <lastmod>2025-05-28T22:32-03:00</lastmod>
   <priority>0.64</priority>
 </url>
+
+<!-- Drayne character guide pages added on 2026-01-16 -->
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/drayne-en.html</loc>
+  <lastmod>2026-01-16T00:14:02-03:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/drayne-pt.html</loc>
+  <lastmod>2026-01-16T00:14:02-03:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/drayne-es.html</loc>
+  <lastmod>2026-01-16T00:14:02-03:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/drayne-fr.html</loc>
+  <lastmod>2026-01-16T00:14:02-03:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/drayne-de.html</loc>
+  <lastmod>2026-01-16T00:14:02-03:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/drayne-ja.html</loc>
+  <lastmod>2026-01-16T00:14:02-03:00</lastmod>
+  <priority>0.85</priority>
+</url>
+
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dorian%20-%20English.html</loc>
@@ -4698,3 +4731,4 @@
 
 
 </urlset>
+
