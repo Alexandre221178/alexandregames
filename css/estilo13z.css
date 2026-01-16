@@ -618,7 +618,7 @@ section p{
 
 /* text title do título novo */
 .text-title h1{
-    font-size: 33px;
+    font-size: 43px; /* estava 33 no container 907 */
     font-weight: bold;
     margin-left: 3px;
     margin-top: 3px;
