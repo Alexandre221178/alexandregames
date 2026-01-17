@@ -5,7 +5,7 @@
   const nextBtn = document.querySelector('.carousel-btn.next');
   if (!track || slides.length === 0) return;
 
-  let slidesPerView = window.innerWidth <= 768 ? 1 : 2;
+  let slidesPerView = window.innerWidth <= 768 ? 1 : 3;
   let index = 0;
 
   // aplica a variável CSS no container para controlar o flex-basis
@@ -15,7 +15,7 @@
   }
 
   function updateSlidesPerView() {
-    const newSPV = window.innerWidth <= 768 ? 1 : 2;
+    const newSPV = window.innerWidth <= 768 ? 1 : 3;
     // se mudou, atualiza o CSS e ajusta index para não ultrapassar o máximo
     if (newSPV !== slidesPerView) {
       applySlidesPerView(newSPV);
@@ -29,10 +29,14 @@
   }
 
   function updateCarousel() {
-    // cada slide ocupa (100 / slidesPerView) % do track
-    const stepPercent = 100 / slidesPerView;
-    // transform em porcentagem garante que o deslocamento seja exatamente por slides
-    track.style.transform = `translateX(-${index * stepPercent}%)`;
+    // calcula deslocamento em pixels para evitar problemas com gap/padding
+    const firstSlide = slides[0];
+    if (!firstSlide) return;
+    const slideWidth = firstSlide.getBoundingClientRect().width;
+    const gapStr = getComputedStyle(track).gap || '0px';
+    const gap = parseFloat(gapStr) || 0;
+    const stepPx = slideWidth + gap;
+    track.style.transform = `translateX(-${Math.round(index * stepPx)}px)`;
   }
 
   nextBtn.addEventListener('click', () => {

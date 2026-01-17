@@ -7,13 +7,13 @@
 <!-- created with chat gpt  -->
 <url>
   <loc>https://alexandregames.com/y-m-gifts-hwa-en.html</loc>
-  <lastmod>2026-01-17T08:56-03:00</lastmod>
+  <lastmod>2026-01-17T17:52-03:00</lastmod>
   <changefreq>daily</changefreq><!--Hero Wars Alliance - Daily   -->
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/y-redeem-gifts-hwde-en.html</loc>
-  <lastmod>2026-01-17T15:13:10-03:00</lastmod>
+  <lastmod>2026-01-17T17:52-03:00</lastmod>
   <changefreq>daily</changefreq><!--Hero Dominion Era - Daily -->
   <priority>1.00</priority>
 </url>
@@ -31,13 +31,13 @@
 
 <url>
   <loc>https://alexandregames.com/herowars-alliance-en.html</loc>
-  <lastmod>2026-01-16T00:14:02-03:00</lastmod>
+  <lastmod>2026-01-17T17:52-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/HeroWars.html</loc>
-  <lastmod>2026-01-16T00:14:02-03:00</lastmod>
+  <lastmod>2026-01-17T17:52-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
@@ -65,7 +65,7 @@
 
 <url>
   <loc>https://alexandregames.com/roblox-us.html</loc>
-  <lastmod>2025-04-12T18:32-03:00</lastmod>
+  <lastmod>2026-01-17T17:52-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -2981,7 +2981,7 @@
 
 <url>
   <loc>https://alexandregames.com/top-troops/top-troops-heroes-guide-en.html</loc>
-  <lastmod>2025-04-18T20:31-03:00</lastmod>
+  <lastmod>2026-01-17T17:52-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
@@ -2992,7 +2992,7 @@
 
 <url>
   <loc>https://alexandregames.com/top-troops/top-troops-en-home.html</loc>
-  <lastmod>2025-03-09T16:17-03:00</lastmod>
+  <lastmod>2026-01-17T17:52-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
@@ -3390,27 +3390,52 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/home/hwde-en.html</loc>
-  <lastmod>2026-01-16T00:19:00-03:00</lastmod>
+  <lastmod>2026-01-17T17:52-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/home/hwde-pt.html</loc>
-  <lastmod>2026-01-16T00:19:00-03:00</lastmod>
+  <lastmod>2026-01-17T17:52-03:00</lastmod>
+  <priority>0.98</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/home/hwde-de.html</loc>
+  <lastmod>2026-01-17T17:52-03:00</lastmod>
+  <priority>0.98</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/home/hwde-es.html</loc>
+  <lastmod>2026-01-17T17:52-03:00</lastmod>
+  <priority>0.98</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/home/hwde-fr.html</loc>
+  <lastmod>2026-01-17T17:52-03:00</lastmod>
+  <priority>0.98</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/home/hwde-ja.html</loc>
+  <lastmod>2026-01-17T17:52-03:00</lastmod>
   <priority>0.98</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-en.html</loc>
-  <lastmod>2026-01-17T10:53:53-03:00</lastmod>
+  <lastmod>2026-01-17T17:52-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-pt.html</loc>
-  <lastmod>2026-01-17T10:53:53-03:00</lastmod>
+  <lastmod>2026-01-17T17:52-03:00</lastmod>
   <priority>0.98</priority>
 </url>
+
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html</loc>
