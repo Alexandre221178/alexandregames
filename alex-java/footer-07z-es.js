@@ -1,25 +1,25 @@
-// Script to inject English footer content
+// Script para inyectar contenido del pie de página en español
 document.addEventListener("DOMContentLoaded", function () {
-    // 1. Add section title
+    // 1. Agregar título de la sección
     const socialLinksContainer = document.getElementById("social-links");
     const socialTitle = document.createElement("h2");
-    socialTitle.textContent = "Follow Alexandre Games";
-    socialTitle.classList.add("social-title"); // Add class for center alignment
+    socialTitle.textContent = "Sigue a Alexandre Games";
+    socialTitle.classList.add("social-title"); // Clase para centrar
     socialLinksContainer.appendChild(socialTitle);
 
-    // 2. Add social media links
+    // 2. Agregar enlaces de redes sociales
     const socialLinksData = [
         {
             href: "https://www.youtube.com/channel/UCVXIv4Movg3KAaPHVE7dstw",
             src: "https://alexandregames.com/imagens/youtubeenglish.webp",
-            alt: "Alexandre Games English Edition",
-            title: "Alexandre Games English Edition"
+            alt: "Alexandre Games Edición en Inglés",
+            title: "Alexandre Games Edición en Inglés"
         },
         {
             href: "https://www.youtube.com/channel/UCtzRcfrI2dlPB9gEN4h92Zg",
             src: "https://alexandregames.com/imagens/youtubebrazil.webp",
-            alt: "Alexandre Games Official",
-            title: "Alexandre Games Official"
+            alt: "Alexandre Games Oficial",
+            title: "Alexandre Games Oficial"
         },
         {
             href: "http://facebook.com/profile.php?id=100093242163291",
@@ -36,20 +36,20 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             href: "https://discord.gg/37BRnhBv6r",
             src: "https://alexandregames.com/imagens/discord-black.webp",
-            alt: "Alexandre Games Discord",
-            title: "Join the Discord Community"
+            alt: "Únete a la Comunidad de Discord",
+            title: "Únete a la Comunidad de Discord"
         },
         {
             href: "https://store.alexandregames.com/",
             src: "https://alexandregames.com/imagens/store.webp",
-            alt: "Store Alexandre Games",
-            title: "Store Alexandre Games"
+            alt: "Tienda Alexandre Games",
+            title: "Tienda Alexandre Games"
         },
         {
             href: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY",
             src: "https://alexandregames.com/imagens/logo-whatsapp.webp",
-            alt: "Alexandre Games WhatsApp",
-            title: "Join the WhatsApp Community"
+            alt: "Únete a la Comunidad de WhatsApp",
+            title: "Únete a la Comunidad de WhatsApp"
         }
     ];
 
@@ -64,13 +64,13 @@ document.addEventListener("DOMContentLoaded", function () {
         socialLinksContainer.appendChild(a);
     });
 
-    // 3. Add navigation links
+    // 3. Agregar enlaces de navegación
     const navLinksData = [
-        { href: "https://alexandregames.com/Documentos/about.html", text: "About Us" },
-        { href: "https://alexandregames.com/Documentos/Contact.html", text: "Contact" },
-        { href: "https://alexandregames.com/Documentos/disclaimer.html", text: "Disclaimer" },
-        { href: "https://alexandregames.com/Documentos/PrivacyPolicy.html", text: "Privacy Policy" },
-        { href: "https://alexandregames.com/Documentos/TermsofUse.html", text: "Terms of Use" }
+        { href: "https://alexandregames.com/Documentos/about.html", text: "Sobre Nosotros" },
+        { href: "https://alexandregames.com/Documentos/Contact.html", text: "Contacto" },
+        { href: "https://alexandregames.com/Documentos/disclaimer.html", text: "Descargo de Responsabilidad" },
+        { href: "https://alexandregames.com/Documentos/PrivacyPolicy.html", text: "Política de Privacidad" },
+        { href: "https://alexandregames.com/Documentos/TermsofUse.html", text: "Términos de Uso" }
     ];
 
     const navigationLinksContainer = document.getElementById("navigation-links");
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
         navigationLinksContainer.appendChild(li);
     });
 
-    // 4. Add copyright
+    // 4. Agregar derechos de autor
     const footerMessage = document.getElementById("message");
     const messageText = document.createTextNode("©2023-2026 Alexandre Games Blog - CNPJ 60.473.728/0001-62");
     footerMessage.appendChild(messageText);

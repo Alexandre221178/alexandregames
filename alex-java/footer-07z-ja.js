@@ -1,25 +1,25 @@
-// Script to inject English footer content
+// 日本語のフッターコンテンツを注入するスクリプト
 document.addEventListener("DOMContentLoaded", function () {
-    // 1. Add section title
+    // 1. セクションタイトルの追加
     const socialLinksContainer = document.getElementById("social-links");
     const socialTitle = document.createElement("h2");
-    socialTitle.textContent = "Follow Alexandre Games";
-    socialTitle.classList.add("social-title"); // Add class for center alignment
+    socialTitle.textContent = "Alexandre Games をフォロー";
+    socialTitle.classList.add("social-title"); // 中央揃えのためのクラス
     socialLinksContainer.appendChild(socialTitle);
 
-    // 2. Add social media links
+    // 2. ソーシャルメディアリンクの追加
     const socialLinksData = [
         {
             href: "https://www.youtube.com/channel/UCVXIv4Movg3KAaPHVE7dstw",
             src: "https://alexandregames.com/imagens/youtubeenglish.webp",
-            alt: "Alexandre Games English Edition",
-            title: "Alexandre Games English Edition"
+            alt: "Alexandre Games 英語版",
+            title: "Alexandre Games 英語版"
         },
         {
             href: "https://www.youtube.com/channel/UCtzRcfrI2dlPB9gEN4h92Zg",
             src: "https://alexandregames.com/imagens/youtubebrazil.webp",
-            alt: "Alexandre Games Official",
-            title: "Alexandre Games Official"
+            alt: "Alexandre Games 公式",
+            title: "Alexandre Games 公式"
         },
         {
             href: "http://facebook.com/profile.php?id=100093242163291",
@@ -36,20 +36,20 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             href: "https://discord.gg/37BRnhBv6r",
             src: "https://alexandregames.com/imagens/discord-black.webp",
-            alt: "Alexandre Games Discord",
-            title: "Join the Discord Community"
+            alt: "Discordコミュニティに参加",
+            title: "Discordコミュニティに参加"
         },
         {
             href: "https://store.alexandregames.com/",
             src: "https://alexandregames.com/imagens/store.webp",
-            alt: "Store Alexandre Games",
-            title: "Store Alexandre Games"
+            alt: "Alexandre Gamesストア",
+            title: "Alexandre Gamesストア"
         },
         {
             href: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY",
             src: "https://alexandregames.com/imagens/logo-whatsapp.webp",
-            alt: "Alexandre Games WhatsApp",
-            title: "Join the WhatsApp Community"
+            alt: "WhatsAppコミュニティに参加",
+            title: "WhatsAppコミュニティに参加"
         }
     ];
 
@@ -64,13 +64,13 @@ document.addEventListener("DOMContentLoaded", function () {
         socialLinksContainer.appendChild(a);
     });
 
-    // 3. Add navigation links
+    // 3. ナビゲーションリンクの追加
     const navLinksData = [
-        { href: "https://alexandregames.com/Documentos/about.html", text: "About Us" },
-        { href: "https://alexandregames.com/Documentos/Contact.html", text: "Contact" },
-        { href: "https://alexandregames.com/Documentos/disclaimer.html", text: "Disclaimer" },
-        { href: "https://alexandregames.com/Documentos/PrivacyPolicy.html", text: "Privacy Policy" },
-        { href: "https://alexandregames.com/Documentos/TermsofUse.html", text: "Terms of Use" }
+        { href: "https://alexandregames.com/Documentos/about.html", text: "私たちについて" },
+        { href: "https://alexandregames.com/Documentos/Contact.html", text: "連絡先" },
+        { href: "https://alexandregames.com/Documentos/disclaimer.html", text: "免責事項" },
+        { href: "https://alexandregames.com/Documentos/PrivacyPolicy.html", text: "プライバシーポリシー" },
+        { href: "https://alexandregames.com/Documentos/TermsofUse.html", text: "利用規約" }
     ];
 
     const navigationLinksContainer = document.getElementById("navigation-links");
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
         navigationLinksContainer.appendChild(li);
     });
 
-    // 4. Add copyright
+    // 4. 著作権の追加
     const footerMessage = document.getElementById("message");
     const messageText = document.createTextNode("©2023-2026 Alexandre Games Blog - CNPJ 60.473.728/0001-62");
     footerMessage.appendChild(messageText);
