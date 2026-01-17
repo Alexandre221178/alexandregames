@@ -12,15 +12,6 @@
     },
     
     {
-      link: "../../hero-wars-dominion-era/hero-brawls/aidan-brawls-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero-brawls/aidan-brawls/aidan-brawl-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero-brawls/aidan-brawls/aidan-brawl-400px.webp",
-      alt: "Aidan Brawl for Hero Wars: Dominion Era",
-      title: "Aidan Brawl for Hero Wars: Dominion Era.",
-      strong: "Aidan Brawl - Hero Wars: Dominion Era",
-      updated: "Updated: January, 2026."
-    },
-    {
       link: "../../hero-wars-dominion-era/characters/aidan-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/aidan/aidan-500px.webp",
       src400: "../../hero-wars-dominion-era/images/hero/aidan/aidan-400px.webp",
@@ -29,78 +20,7 @@
       strong: "Aidan Guide - Hero Wars: Dominion Era",
       updated: "Updated: January, 2026."
     },
-    {
-      link: "../../hero-wars-dominion-era/titans/mairi-en.html",
-      src500: "../../hero-wars-dominion-era/images/titans-hwde/mairi/mairi-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/titans-hwde/mairi/mairi-400px.webp",
-      alt: "Mairi Titan Guide for Hero Wars: Dominion Era",
-      title: "Mairi Titan Guide for Hero Wars: Dominion Era.",
-      strong: "Mairi Titan Guide for Hero Wars: Dominion Era",
-      updated: "Updated: January, 2026."
-    },
-    {
-      link: "../../hero-wars-dominion-era/titans-brawls/mairi-brawls-en.html",
-      src500: "../../hero-wars-dominion-era/images/titan-brawl/mairi-brawl/mairi-brawl-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/titan-brawl/mairi-brawl/mairi-brawl-400px.webp",
-      alt: "Mairi Titan Brawls Best Teams for Hero Wars: Dominion Era",
-      title: "Mairi Brawl Best Teams for Hero Wars: Dominion Era.",
-      strong: "Mairi Titan Brawls Best Teams - Hero Wars: Dominion Era",
-      updated: "Updated: January, 2026."
-    },
-    {
-      link: "../../hero-wars-dominion-era/guide/mysterious-island-en.html",
-      src500: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-400px.webp",
-      alt: "Mysterious Island Guide for Hero Wars: Dominion Era",
-      title: "Mysterious Island Guide for Hero Wars: Dominion Era.",
-      strong: "Mysterious Island Guide - How to Get a War Flag? Hero Wars(Web/FB)",
-      updated: "Updated: January, 2025."
-    },
-    {
-      link: "../../hero-wars-dominion-era/characters/arachne-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/arachne/arachne-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/arachne/arachne-400px.webp",
-      alt: "Arachne Guide for Hero Wars: Dominion Era",
-      title: "Arachne Guide for Hero Wars: Dominion Era.",
-      strong: "Arachne Guide - Hero Wars: Dominion Era",
-      updated: "Updated: January, 2026."
-    },
-    {
-      link: "../../hero-wars-dominion-era/characters/galahad-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/galahad/galahad-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/galahad/galahad-400px.webp",
-      alt: "Galahad Guide for Hero Wars: Dominion Era",
-      title: "Galahad Guide for Hero Wars: Dominion Era.",
-      strong: "Galahad Guide - Hero Wars: Dominion Era",
-      updated: "Updated: December, 2025."
-    },
-    {
-      link: "../../hero-wars-dominion-era/characters/qing-mao-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/qing-mao/qing-mao-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/qing-mao/qing-mao-400px.webp",
-      alt: "Qing Mao Guide for Hero Wars: Dominion Era",
-      title: "Qing Mao Guide for Hero Wars: Dominion Era.",
-      strong: "Qing Mao Guide - Hero Wars: Dominion Era",
-      updated: "Updated: December, 2025."
-    },
-    {
-      link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
-      src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-400px.webp",
-      alt: "Calendar - Hero Wars: Dominion Era",
-      title: "Hero Wars Calendar (Web & Facebook)",
-      strong: "Stay updated with the full event calendar for Hero Wars: Dominion Era. Find event dates, rewards, and strategy...",
-      updated: "Updated: Daily."
-    },
-    {
-      link: "../../y-redeem-gifts-hwde-en.html",
-      src500: "../../hero-wars-dominion-era/images/daily-gifts-hwde/daily-gifts-hwde-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/daily-gifts-hwde/daily-gifts-hwde-400px.webp",
-      alt: "Redeem your Daily Gifts for Hero Wars: Dominion Era",
-      title: "Redeem your Daily Gifts for Hero Wars: Web and Facebook",
-      strong: "Redeem your Daily Gifts for Hero Wars: Dominion Era - Web/FB",
-      updated: "Updated: Daily."
-    }
+    
   ];
 
   const translations = {
@@ -114,13 +34,20 @@
 
   function detectLang(){
     try{
-      const langLink = document.querySelector('.language-link');
-      if(langLink && langLink.href){
-        const m = langLink.href.match(/-([a-z]{2})\.html$/i);
-        if(m) return m[1];
+      // 1) Prefer <html lang="xx"> when present and valid
+      if(document.documentElement && document.documentElement.lang){
+        var h = document.documentElement.lang.slice(0,2).toLowerCase();
+        if(h && translations[h]) return h;
       }
-      const m2 = location.pathname.match(/-([a-z]{2})\.html$/i);
-      if(m2) return m2[1];
+      // 2) Fallback to pathname pattern (page file names like page-pt.html)
+      var m2 = location.pathname.match(/-([a-z]{2})\.html$/i);
+      if(m2 && translations[m2[1].toLowerCase()]) return m2[1].toLowerCase();
+      // 3) Last resort: small hidden language-link (but only if it actually points to a valid code)
+      var langLink = document.querySelector('.language-link');
+      if(langLink && langLink.href){
+        var m = langLink.href.match(/-([a-z]{2})\.html$/i);
+        if(m && translations[m[1].toLowerCase()]) return m[1].toLowerCase();
+      }
     }catch(e){}
     return 'en';
   }
@@ -191,7 +118,225 @@
       if(e.key === 'ArrowRight') { e.preventDefault(); track.scrollLeft += getScrollAmount(); }
     });
   }
+  
+  // merge loaded JSON terms into the in-memory translations map
+  function mergeTermsIntoTranslations(json){
+    if(!json) return;
+    try{
+      Object.keys(json).forEach(function(k){
+        var entry = json[k];
+        if(!entry || typeof entry !== 'object') return;
+        Object.keys(translations).forEach(function(langCode){
+          try{
+            if(entry[langCode] && typeof entry[langCode] === 'string'){
+              translations[langCode] = translations[langCode] || {updatedPrefix: translations.en.updatedPrefix, map: {}};
+              translations[langCode].map = translations[langCode].map || {};
+              translations[langCode].map[k] = entry[langCode];
+            }
+          }catch(e){}
+        });
+      });
+    }catch(e){}
+  }
 
-  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', function(){ inject(); initCarouselControls(); });
-  else { inject(); initCarouselControls(); }
+  // merge heroes list JSON into translations map
+  function mergeHeroesIntoTranslations(json){
+    if(!json) return;
+    try{
+      var list = json.heroes || json;
+      if(Array.isArray(list)){
+        for(var i=0;i<list.length;i++){
+          var h = list[i];
+          if(!h || !h.en) continue;
+          var key = h.en;
+          Object.keys(translations).forEach(function(langCode){
+            try{
+              var val = h[langCode] || h.en;
+              translations[langCode] = translations[langCode] || {updatedPrefix: translations.en.updatedPrefix, map: {}};
+              translations[langCode].map = translations[langCode].map || {};
+              translations[langCode].map[key] = val;
+            }catch(e){}
+          });
+        }
+      }
+    }catch(e){}
+  }
+
+  function fetchHeroesJSON(callback){
+    var prefixes = ['../data/','../../data/','./data/','/hero-wars-dominion-era/data/'];
+    var tried = 0;
+    function tryNext(){
+      if(tried>=prefixes.length){ if(callback) callback(null); return; }
+      var url = prefixes[tried] + 'hwde-heroes-localization.json';
+      tried++;
+      if(window.fetch){
+        fetch(url).then(function(r){ if(!r.ok) throw new Error('no'); return r.json(); }).then(function(j){ try{ mergeHeroesIntoTranslations(j); }catch(e){} if(callback) callback(j); }).catch(function(){ tryNext(); });
+      } else {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url, true);
+        xhr.onreadystatechange = function(){
+          if(xhr.readyState===4){
+            if(xhr.status>=200 && xhr.status<300){
+              try{ var j = JSON.parse(xhr.responseText); try{ mergeHeroesIntoTranslations(j); }catch(e){} if(callback) callback(j); }
+              catch(e){ tryNext(); }
+            } else tryNext();
+          }
+        };
+        try{ xhr.send(); }catch(e){ tryNext(); }
+      }
+    }
+    tryNext();
+  }
+
+  function updateSlideTexts(){
+    try{
+      var lang = detectLang();
+      var elems = document.querySelectorAll('.carousel-slide strong');
+      for(var i=0;i<elems.length;i++){
+        var el = elems[i];
+        if(!el || !el.textContent) continue;
+        el.textContent = applyTranslations(el.textContent, lang);
+      }
+    }catch(e){}
+  }
+
+  // Titans JSON (some names like Mairi are in titans file)
+  function mergeTitansIntoTranslations(json){
+    if(!json) return;
+    try{
+      var list = json.titans || json;
+      if(Array.isArray(list)){
+        for(var i=0;i<list.length;i++){
+          var h = list[i];
+          if(!h || !h.en) continue;
+          var key = h.en;
+          Object.keys(translations).forEach(function(langCode){
+            try{
+              var val = h[langCode] || h.en;
+              translations[langCode] = translations[langCode] || {updatedPrefix: translations.en.updatedPrefix, map: {}};
+              translations[langCode].map = translations[langCode].map || {};
+              translations[langCode].map[key] = val;
+            }catch(e){}
+          });
+        }
+      }
+    }catch(e){}
+  }
+
+  function fetchTitansJSON(callback){
+    var prefixes = ['../data/','../../data/','./data/','/hero-wars-dominion-era/data/'];
+    var tried = 0;
+    function tryNext(){
+      if(tried>=prefixes.length){ if(callback) callback(null); return; }
+      var url = prefixes[tried] + 'hwde-titans-localization.json';
+      tried++;
+      if(window.fetch){
+        fetch(url).then(function(r){ if(!r.ok) throw new Error('no'); return r.json(); }).then(function(j){ try{ mergeTitansIntoTranslations(j); }catch(e){} if(callback) callback(j); }).catch(function(){ tryNext(); });
+      } else {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url, true);
+        xhr.onreadystatechange = function(){
+          if(xhr.readyState===4){
+            if(xhr.status>=200 && xhr.status<300){
+              try{ var j = JSON.parse(xhr.responseText); try{ mergeTitansIntoTranslations(j); }catch(e){} if(callback) callback(j); }
+              catch(e){ tryNext(); }
+            } else tryNext();
+          }
+        };
+        try{ xhr.send(); }catch(e){ tryNext(); }
+      }
+    }
+    tryNext();
+  }
+  // terms localization (months etc.) — try load JSON from common relative paths
+  var hwdeTermsLocalization = null;
+  function fetchTermsJSON(callback){
+    var prefixes = ['../data/','../../data/','./data/','/hero-wars-dominion-era/data/'];
+    var tried = 0;
+    function tryNext(){
+      if(tried>=prefixes.length){ if(callback) callback(null); return; }
+      var url = prefixes[tried] + 'hwde-terms-localization.json';
+      tried++;
+      if(window.fetch){
+        fetch(url).then(function(r){ if(!r.ok) throw new Error('no'); return r.json(); }).then(function(j){ hwdeTermsLocalization = j; try{ mergeTermsIntoTranslations(j); }catch(e){} if(callback) callback(j); }).catch(function(){ tryNext(); });
+      }else{
+        // fallback XHR
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url, true);
+        xhr.onreadystatechange = function(){
+          if(xhr.readyState===4){
+            if(xhr.status>=200 && xhr.status<300){
+              try{ hwdeTermsLocalization = JSON.parse(xhr.responseText); try{ mergeTermsIntoTranslations(hwdeTermsLocalization); }catch(e){} if(callback) callback(hwdeTermsLocalization); }
+              catch(e){ tryNext(); }
+            } else tryNext();
+          }
+        };
+        try{ xhr.send(); }catch(e){ tryNext(); }
+      }
+    }
+    tryNext();
+  }
+
+  function translateUpdated(updated, lang){
+    if(!updated) return updated;
+    var parts = updated.split(':');
+    if(parts.length<2) return updated;
+    var rest = parts.slice(1).join(':').trim();
+    var prefix = translations[lang] ? translations[lang].updatedPrefix : translations.en.updatedPrefix;
+    // replace English month names with localized if we have terms JSON
+    if(hwdeTermsLocalization){
+      try{
+        var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+        for(var i=0;i<months.length;i++){
+          var m = months[i];
+          if(rest.indexOf(m)!==-1){
+            var loc = (hwdeTermsLocalization[m] && hwdeTermsLocalization[m][lang]) || hwdeTermsLocalization[m] && hwdeTermsLocalization[m]['en'];
+            if(loc){ rest = rest.replace(m, loc); break; }
+          }
+        }
+      }catch(e){}
+    }
+    // Trim trailing punctuation (like a dot) before applying general term translations
+    var trailing = '';
+    var m = rest.match(/([\.!?）\)]\s*)$/);
+    if(m){ trailing = m[0]; rest = rest.slice(0, -trailing.length).trim(); }
+    try{ rest = applyTranslations(rest, lang); }catch(e){}
+    return prefix + ' ' + (rest + (trailing || ''));
+  }
+
+  function updateAllUpdatedElements(){
+    try{
+      var lang = detectLang();
+      // Find elements with Updated: text (common selectors)
+      var nodes = document.querySelectorAll('i, .updated, .date, time');
+      for(var j=0;j<nodes.length;j++){
+        var n = nodes[j];
+        if(!n || !n.textContent) continue;
+        var txt = n.textContent.trim();
+        if(txt.indexOf('Updated:')===0 || txt.indexOf('Last updated:')===0 || txt.indexOf('Updated')===0){
+          n.textContent = translateUpdated(txt, lang);
+        }
+      }
+      // Also update carousel slide i elements specifically
+      var slidesI = document.querySelectorAll('.carousel-slide i');
+      for(var k=0;k<slidesI.length;k++){
+        var el = slidesI[k];
+        var t = el.textContent.trim();
+        if(t){ el.textContent = translateUpdated(t, detectLang()); }
+      }
+    }catch(e){}
+  }
+
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', function(){
+    inject(); initCarouselControls();
+    fetchTermsJSON(function(){ updateAllUpdatedElements(); updateSlideTexts(); });
+    fetchHeroesJSON(function(){ updateSlideTexts(); updateAllUpdatedElements(); });
+    fetchTitansJSON(function(){ updateSlideTexts(); updateAllUpdatedElements(); });
+  });
+  else {
+    inject(); initCarouselControls();
+    fetchTermsJSON(function(){ updateAllUpdatedElements(); updateSlideTexts(); });
+    fetchHeroesJSON(function(){ updateSlideTexts(); updateAllUpdatedElements(); });
+    fetchTitansJSON(function(){ updateSlideTexts(); updateAllUpdatedElements(); });
+  }
 })();

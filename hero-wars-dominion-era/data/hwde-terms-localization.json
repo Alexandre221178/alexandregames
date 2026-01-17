@@ -143,6 +143,30 @@
     "pt": "Defesa Mágica",
     "ja": "魔法防御"
   },
+  "Titans": {
+    "en": "Titans",
+    "de": "Titanen",
+    "es": "Titanes",
+    "fr": "Titans",
+    "pt": "Titãs",
+    "ja": "タイタンズ"
+  },
+  "Titan": {
+    "en": "Titan",
+    "de": "Titan",
+    "es": "Titán",
+    "fr": "Titan",
+    "pt": "Titã",
+    "ja": "タイタン"
+  },
+  "Daily": {
+    "en": "Daily",
+    "de": "Täglich",
+    "es": "Diario",
+    "fr": "Quotidien",
+    "pt": "Diário",
+    "ja": "デイリー"
+  },
   "Intelligence": {
     "en": "Intelligence",
     "de": "Intelligenz",
