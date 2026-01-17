@@ -1,0 +1,299 @@
+// Hero Wars Alliance - Terms Localization Data
+const hwaTermsLocalization = {
+  "Hero Wars Alliance": {
+    "en": "Hero Wars Alliance",
+    "de": "Hero Wars Alliance",
+    "es": "Hero Wars Alliance",
+    "fr": "Hero Wars Alliance",
+    "pt": "Hero Wars Alliance",
+    "ja": "ヒーローウォーズ アライアンス"
+  },
+  "Legendary": {
+    "en": "Legendary",
+    "de": "Legendär",
+    "es": "Legendario",
+    "fr": "Légendaire",
+    "pt": "Lendário",
+    "ja": "遺物"
+  },
+  "Relic": {
+    "en": "Relic",
+    "de": "Relikt",
+    "es": "Reliquía",
+    "fr": "Relique",
+    "pt": "Relíquia",
+    "ja": "遺物"
+  },
+  "Power": {
+    "en": "Power",
+    "de": "Kraft",
+    "es": "Poder",
+    "fr": "Puissance",
+    "pt": "Poder",
+    "ja": "パワー"
+  },
+  "Dodge": {
+    "en": "Dodge",
+    "de": "Ausweichen",
+    "es": "Evasión",
+    "fr": "Esquive",
+    "pt": "Esquiva",
+    "ja": "回避率"
+  },
+  "Health": {
+    "en": "Health",
+    "de": "Gesundheit",
+    "es": "Salud",
+    "fr": "Vie",
+    "pt": "Vida",
+    "ja": "HP"
+  },
+  "Armor Penetration": {
+    "en": "Armor Penetration",
+    "de": "Rüstungsdurchdringung",
+    "es": "Penetración de armadura",
+    "fr": "Pénétration d’armure",
+    "pt": "Penetração de Armadura",
+    "ja": "アーマー貫通"
+  },
+  "Magic Penetration": {
+    "en": "Magic Penetration",
+    "de": "Magische Durchdringung",
+    "es": "Penetración mágica",
+    "fr": "Pénétration magique",
+    "pt": "Penetração Mágica",
+    "ja": "魔法貫通"
+  },
+  "Critical Hit Chance": {
+    "en": "Critical Hit Chance",
+    "de": "Kritische Trefferchance",
+    "es": "Probabilidad de crítico",
+    "fr": "Chances de coup critique",
+    "pt": "Chance de Crítico",
+    "ja": "クリティカルヒット率"
+  },
+  "Strength": {
+    "en": "Strength",
+    "de": "Stärke",
+    "es": "Fuerza",
+    "fr": "Force",
+    "pt": "Força",
+    "ja": "力"
+  },
+  "Skins": {
+    "en": "Skins",
+    "de": "Skins",
+    "es": "Skins",
+    "fr": "Skins",
+    "pt": "Skins",
+    "ja": "スキン"
+  },
+  "Best Skin": {
+    "en": "Best Skin",
+    "de": "Best Skin",
+    "es": "Best Skin",
+    "fr": "Best Skin",
+    "pt": "Best Skin",
+    "ja": "Best Skin (ベストスキン)"
+  },
+  "Armor": {
+    "en": "Armor",
+    "de": "Rüstung",
+    "es": "Armadura",
+    "fr": "Armure",
+    "pt": "Armadura",
+    "ja": "アーマー"
+  },
+  "Skills": {
+    "en": "Skills",
+    "de": "Fertigkeiten",
+    "es": "Habilidades",
+    "fr": "Compétences",
+    "pt": "Habilidades",
+    "ja": "スキル"
+  },
+  "Physical Attack": {
+    "en": "Physical Attack",
+    "de": "Physikalischer Angriff",
+    "es": "Daño físico",
+    "fr": "Attaque physique",
+    "pt": "Ataque Físico",
+    "ja": "物理攻撃"
+  },
+  "Counters": {
+    "en": "Counters",
+    "de": "Counters",
+    "es": "Counters",
+    "fr": "Counters",
+    "pt": "Counters",
+    "ja": "カウンター"
+  },
+  "Agility": {
+    "en": "Agility",
+    "de": "Agilität",
+    "es": "Agilidad",
+    "fr": "Agilité",
+    "pt": "Agilidade",
+    "ja": "素早さ"
+  },
+  "Artifacts": {
+    "en": "Artifacts",
+    "de": "Artefakte",
+    "es": "Artefactos",
+    "fr": "Artefacts",
+    "pt": "Artefatos",
+    "ja": "アーティファクト"
+  },
+  "Magic Attack": {
+    "en": "Magic Attack",
+    "de": "Magischer Angriff",
+    "es": "Daño mágico",
+    "fr": "Attaque magique",
+    "pt": "Ataque Mágico",
+    "ja": "魔法攻撃"
+  },
+  "Magic Defense": {
+    "en": "Magic Defense",
+    "de": "Magische Verteidigung",
+    "es": "Resistencia mágica",
+    "fr": "Défense magique",
+    "pt": "Defesa Mágica",
+    "ja": "魔法防御"
+  },
+  "Intelligence": {
+    "en": "Intelligence",
+    "de": "Intelligenz",
+    "es": "Inteligencia",
+    "fr": "Intelligence",
+    "pt": "Inteligência",
+    "ja": "知力"
+  },
+  "Way of Eternity": {
+    "en": "Way of Eternity",
+    "de": "Weg der Ewigkeit",
+    "es": "Camino de la Eternidad",
+    "fr": "Voie de l’Éternité",
+    "pt": "Caminho da Eternidade",
+    "ja": "永遠の道"
+  },
+  "Way of Nature": {
+    "en": "Way of Nature",
+    "de": "Weg der Natur",
+    "es": "Camino de la Naturaleza",
+    "fr": "Voie de la Nature",
+    "pt": "Caminho da Natureza",
+    "ja": "自然の道"
+  },
+  "Way of Honor": {
+    "en": "Way of Honor",
+    "de": "Weg der Ehre",
+    "es": "Camino del Honor",
+    "fr": "Voie de l’Honneur",
+    "pt": "Caminho da Honra",
+    "ja": "名誉の道"
+  },
+  "Way of Chaos": {
+    "en": "Way of Chaos",
+    "de": "Weg des Chaos",
+    "es": "Camino del Caos",
+    "fr": "Voie du Chaos",
+    "pt": "Caminho do Caos",
+    "ja": "カオスの道"
+  },
+  "Way of Progress": {
+    "en": "Way of Progress",
+    "de": "Weg des Fortschritts",
+    "es": "Camino del Progreso",
+    "fr": "Voie du Progrès",
+    "pt": "Caminho do Progresso",
+    "ja": "進歩の道"
+  },
+  "Way of Mystery": {
+    "en": "Way of Mystery",
+    "de": "Weg des Mysteriums",
+    "es": "Camino del Misterio",
+    "fr": "Voie du Mystère",
+    "pt": "Caminho do Mistério",
+    "ja": "神秘の道"
+  },
+  "Eternity": {
+    "en": "Eternity",
+    "de": "Ewigkeit",
+    "es": "Eternidad",
+    "fr": "Éternité",
+    "pt": "Eternidade",
+    "ja": "永遠"
+  },
+  "Nature": {
+    "en": "Nature",
+    "de": "Natur",
+    "es": "Naturaleza",
+    "fr": "Nature",
+    "pt": "Natureza",
+    "ja": "自然"
+  },
+  "Honor": {
+    "en": "Honor",
+    "de": "Ehre",
+    "es": "Honor",
+    "fr": "Honneur",
+    "pt": "Honra",
+    "ja": "名誉"
+  },
+  "Chaos": {
+    "en": "Chaos",
+    "de": "Chaos",
+    "es": "Caos",
+    "fr": "Chaos",
+    "pt": "Caos",
+    "ja": "カオス"
+  },
+  "Progress": {
+    "en": "Progress",
+    "de": "Fortschritt",
+    "es": "Progreso",
+    "fr": "Progrès",
+    "pt": "Progresso",
+    "ja": "進歩"
+  },
+  "Mystery": {
+    "en": "Mystery",
+    "de": "Mysterium",
+    "es": "Misterio",
+    "fr": "Mystère",
+    "pt": "Mistério",
+    "ja": "神秘"
+  },
+  "Crushing": {
+    "en": "Crushing",
+    "de": "Zerschmettern",
+    "es": "Aplastamiento",
+    "fr": "Écrasement",
+    "pt": "Esmagamento",
+    "ja": "ダメージ増加"
+  },
+  "Toughness": {
+    "en": "Toughness",
+    "de": "Zähigkeit",
+    "es": "Dureza",
+    "fr": "Ténacité",
+    "pt": "Dureza",
+    "ja": "粘り強さ"
+  },
+  "Magical critical hit chance": {
+    "en": "Magical critical hit chance",
+    "de": "Magische kritische Trefferchance",
+    "es": "Probabilidad de golpe crítico mágico",
+    "fr": "Chance de coup critique magique",
+    "pt": "Chance de acerto crítico mágico",
+    "ja": "魔法攻撃のクリティカルヒット"
+  },
+  "Magic reflection": {
+    "en": "Magic reflection",
+    "de": "Magische Reflektion",
+    "es": "Reflejo mágico",
+    "fr": "Réflexion magique",
+    "pt": "Reflexão mágica",
+    "ja": "魔法攻擊"
+  }
+};
