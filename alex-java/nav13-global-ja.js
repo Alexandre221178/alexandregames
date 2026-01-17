@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>    
 
 <div class="dropdown">
-   <button class="dropbtn"><span class="notranslate">Hero Wars Alliance</span></button>
+   <button class="dropbtn"><span>ヒーローウォーズ アライアンス</span></button>
     <div class="dropdown-content"> <br>                
         <a href="https://alexandregames.com/herowars-alliance-en.html">🆕 HWA - 最新アップデート</a>
         <a href="https://alexandregames.com/y-m-gifts-hwa-en.html">🎁 HWA - デイリーギフト</a>
@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>  
 
 <div class="dropdown">
-    <button class="dropbtn"><span class="notranslate">Hero Wars: Dominion Era</span></button>
+    <button class="dropbtn"><span>ヒーローウォーズ ドミニオンの時代</span></button>
     <div class="dropdown-content"> <br>  
         <a href="https://alexandregames.com/hero-wars-dominion-era/home/hwde-en.html">🆕 HWDE - 最新アップデート</a>
         <a href="https://alexandregames.com/y-redeem-gifts-hwde-en.html">🎁 HWDE - デイリーギフト</a>
@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>  
 
 <div class="dropdown">
-    <button class="dropbtn"><span class="notranslate">Mobile Legends</span></button>
+    <button class="dropbtn"><span>モバイル・レジェンド</span></button>
     <div class="dropdown-content"><br>
         <a href="https://alexandregames.com/MobileLegends-English.html">ヒーローガイド</a>
         <a href="https://alexandregames.com/mobile-legends/article-mlbb/tier-list-mlbb-en.html">MLBBティアリスト</a>
@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>      
 
 <div class="dropdown">
-    <button class="dropbtn"><a href="https://alexandregames.com/roblox-us.html">Roblox PC/Mobile</a></button>
+    <button class="dropbtn"><a href="https://alexandregames.com/roblox-us.html">ロブロックス（PC／モバイル</a></button>
 </div> 
 
     <div class="dropdown">
