@@ -1370,11 +1370,16 @@ figcaption {
     transition: transform 0.5s ease-in-out;
     gap: 16px; /* distância entre imagens (1 polegar ~ 16px) */
     padding: 0 55px; /* espaço lateral para os botões; calcula para 1px entre botão e imagem */
+    overflow-x: auto; /* permite rolagem horizontal via scrollLeft/scrollBy */
+    scroll-behavior: smooth; /* smooth scrolling quando controlado por JS */
+    -webkit-overflow-scrolling: touch; /* suaviza rolagem em iOS */
+    scroll-snap-type: x mandatory; /* facilita alinhamento por slide */
 }
 .carousel-slide {
-    min-height: 240px; /* Altura mínima */    
-      background-color: #edf2fe;      
-  }
+        min-height: 240px; /* Altura mínima */    
+            background-color: #edf2fe;      
+            scroll-snap-align: center; /* para alinhamento ao rolar */
+    }
 
 .carousel-slide {
     flex: 0 0 70%; /* base usada para layout, overridden by media queries */

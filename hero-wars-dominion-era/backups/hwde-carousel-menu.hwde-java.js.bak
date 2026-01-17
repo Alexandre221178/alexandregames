@@ -1,5 +1,5 @@
 (function(){
-  // Carousel multi-language injector (HWDE specific copy)
+  // Carousel multi-language injector (backup copy)
   const slides = [
     {
       link: "../../hero-wars-dominion-era/characters/fluffy-en.html",
@@ -160,38 +160,6 @@
     track.innerHTML = html;
   }
 
-  function initCarouselControls(){
-    var track = document.querySelector('.carousel-track');
-    if(!track) return;
-    var prev = document.querySelector('.carousel-btn.prev');
-    var next = document.querySelector('.carousel-btn.next');
-    function getScrollAmount(){
-      var first = track.querySelector('figure');
-      if(first){
-        return Math.round(first.getBoundingClientRect().width);
-      }
-      return Math.round(track.clientWidth * 0.9);
-    }
-    if(prev){
-      prev.addEventListener('click', function(e){
-        e.preventDefault();
-        try{ track.scrollBy({left: -getScrollAmount(), behavior: 'smooth'}); }catch(err){ track.scrollLeft -= getScrollAmount(); }
-      });
-    }
-    if(next){
-      next.addEventListener('click', function(e){
-        e.preventDefault();
-        try{ track.scrollBy({left: getScrollAmount(), behavior: 'smooth'}); }catch(err){ track.scrollLeft += getScrollAmount(); }
-      });
-    }
-    // allow keyboard arrows when focus inside carousel
-    track.tabIndex = track.tabIndex || 0;
-    track.addEventListener('keydown', function(e){
-      if(e.key === 'ArrowLeft') { e.preventDefault(); track.scrollLeft -= getScrollAmount(); }
-      if(e.key === 'ArrowRight') { e.preventDefault(); track.scrollLeft += getScrollAmount(); }
-    });
-  }
-
-  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', function(){ inject(); initCarouselControls(); });
-  else { inject(); initCarouselControls(); }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', inject);
+  else inject();
 })();
