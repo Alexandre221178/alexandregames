@@ -1698,7 +1698,7 @@ iframe {
 .share-buttons {
     display: flex;
     margin-top: 0px;
-    
+    flex-wrap: wrap; /* Permite quebra de linha em telas pequenas */
     gap: 10px;
     min-height: 40px; /* Altura mínima */
     background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste */
@@ -2970,5 +2970,13 @@ margin-bottom: 7px !important;
 @media only screen and (min-width: 701px) {
     .desktop-only {
         display: block;
+    }
+}
+
+/* Ajustes para mobile nos botões de compartilhamento */
+@media (max-width: 768px) {
+    .share-button {
+        font-size: 14px;
+        padding: 8px;
     }
 }
