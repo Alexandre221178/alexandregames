@@ -1,0 +1,44 @@
+{
+  "labels": {
+    "singular": {
+      "en": "Titan",
+      "de": "Titan",
+      "es": "Titán",
+      "fr": "Titan",
+      "pt": "Titã",
+      "ja": "タイタン"
+    },
+    "plural": {
+      "en": "Titans",
+      "de": "Titanen",
+      "es": "Titanes",
+      "fr": "Titans",
+      "pt": "Titãs",
+      "ja": "タイタンズ"
+    }
+  },
+  "titans": [
+    {"id":"Sigurd","en":"Sigurd","de":"Sigurd","es":"Sigurd","fr":"Sigurd","pt":"Sigurd","ja":"シグルド"},
+    {"id":"Nova","en":"Nova","de":"Nova","es":"Nova","fr":"Nova","pt":"Nova","ja":"ノヴァ"},
+    {"id":"Mairi","en":"Mairi","de":"Mairi","es":"Mairi","fr":"Mairi","pt":"Mairi","ja":"マイリ"},
+    {"id":"Hyperion","en":"Hyperion","de":"Hyperion","es":"Hyperion","fr":"Hypérion","pt":"Hiperião","ja":"ヒュペリオン"},
+    {"id":"Moloch","en":"Moloch","de":"Moloch","es":"Moloch","fr":"Moloch","pt":"Moloch","ja":"モロク"},
+    {"id":"Vulcan","en":"Vulcan","de":"Vulcan","es":"Vulcan","fr":"Vulcain","pt":"Vulcão","ja":"バルカン"},
+    {"id":"Ignis","en":"Ignis","de":"Ignis","es":"Ignis","fr":"Ignis","pt":"Ignis","ja":"イグニス"},
+    {"id":"Araji","en":"Araji","de":"Araji","es":"Araji","fr":"Araji","pt":"Araji","ja":"アラジ"},
+    {"id":"Asherona","en":"Asherona","de":"Asherona","es":"Asherona","fr":"Asherona","pt":"Asherona","ja":"アシェロナ"},
+    {"id":"Angus","en":"Angus","de":"Angus","es":"Angus","fr":"Angus","pt":"Angus","ja":"アンガス"},
+    {"id":"Sylva","en":"Sylva","de":"Sylva","es":"Sylva","fr":"Sylva","pt":"Sylva","ja":"アバロン"},
+    {"id":"Avalon","en":"Avalon","de":"Avalon","es":"Avalon","fr":"Avalon","pt":"Avalon","ja":"アヴァロン"},
+    {"id":"Eden","en":"Eden","de":"Eden","es":"Eden","fr":"Eden","pt":"Éden","ja":"エデン"},
+    {"id":"Verdoc and Phyto","en":"Verdoc and Phyto","de":"Verdoc und Phyto","es":"Verdoc y Phyto","fr":"Verdoc et Phyto","pt":"Verdoc e Phyto","ja":"ヴェルドック&フィト"},
+    {"id":"Brustar","en":"Brustar","de":"Brustar","es":"Brustar","fr":"Brustar","pt":"Brustar","ja":"ブルスター"},
+    {"id":"Keros","en":"Keros","de":"Keros","es":"Keros","fr":"Keros","pt":"Keros","ja":"ケロ"},
+    {"id":"Mort","en":"Mort","de":"Mort","es":"Mort","fr":"Mör","pt":"Mort","ja":"モルト"},
+    {"id":"Tenebris","en":"Tenebris","de":"Tenebris","es":"Tenebris","fr":"Ténèbris","pt":"Tenebris","ja":"テネブリス"},
+    {"id":"Rigel","en":"Rigel","de":"Rigel","es":"Rigel","fr":"Rigel","pt":"Rigel","ja":"リゲル"},
+    {"id":"Amon","en":"Amon","de":"Amon","es":"Amon","fr":"Amon","pt":"Amon","ja":"アモン"},
+    {"id":"Iyari","en":"Iyari","de":"Iyari","es":"Iyari","fr":"Iyari","pt":"Iyari","ja":"イアリ"},
+    {"id":"Solaris","en":"Solaris","de":"Solaris","es":"Solaris","fr":"Solaris","pt":"Solaris","ja":"ソラリス"}
+  ]
+}
