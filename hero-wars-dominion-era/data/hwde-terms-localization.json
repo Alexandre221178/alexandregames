@@ -1,0 +1,290 @@
+{
+  "Hero Wars: Dominion Era": {
+    "en": "Hero Wars: Dominion Era",
+    "de": "Hero Wars: Dominion Era",
+    "es": "Hero Wars: Dominion Era",
+    "fr": "Hero Wars: Dominion Era",
+    "pt": "Hero Wars: Dominion Era",
+    "ja": "ヒーローウォーズ ドミニオン エラ"
+  },
+  "Power": {
+    "en": "Power",
+    "de": "Kraft",
+    "es": "Poder",
+    "fr": "Puissance",
+    "pt": "Poder",
+    "ja": "パワー"
+  },
+  "Dodge": {
+    "en": "Dodge",
+    "de": "Ausweichen",
+    "es": "Evasión",
+    "fr": "Esquive",
+    "pt": "Esquiva",
+    "ja": "回避率"
+  },
+  "Health": {
+    "en": "Health",
+    "de": "Gesundheit",
+    "es": "Salud",
+    "fr": "Vie",
+    "pt": "Vida",
+    "ja": "HP"
+  },
+  "Armor Penetration": {
+    "en": "Armor Penetration",
+    "de": "Rüstungsdurchdringung",
+    "es": "Penetración de armadura",
+    "fr": "Pénétration d'armure",
+    "pt": "Penetração de Armadura",
+    "ja": "アーマー貫通"
+  },
+  "Magic Penetration": {
+    "en": "Magic Penetration",
+    "de": "Magische Durchdringung",
+    "es": "Penetración mágica",
+    "fr": "Pénétration magique",
+    "pt": "Penetração Mágica",
+    "ja": "魔法貫通"
+  },
+  "Critical Hit Chance": {
+    "en": "Critical Hit Chance",
+    "de": "Kritische Trefferchance",
+    "es": "Probabilidad de crítico",
+    "fr": "Chances de coup critique",
+    "pt": "Chance de Crítico",
+    "ja": "クリティカルヒット率"
+  },
+  "Strength": {
+    "en": "Strength",
+    "de": "Stärke",
+    "es": "Fuerza",
+    "fr": "Force",
+    "pt": "Força",
+    "ja": "力"
+  },
+  "Skins": {
+    "en": "Skins",
+    "de": "Skins",
+    "es": "Skins",
+    "fr": "Skins",
+    "pt": "Skins",
+    "ja": "スキン"
+  },
+  "Best Skin": {
+    "en": "Best Skin",
+    "de": "Best Skin",
+    "es": "Best Skin",
+    "fr": "Best Skin",
+    "pt": "Best Skin",
+    "ja": "Best Skin (ベストスキン)"
+  },
+  "Armor": {
+    "en": "Armor",
+    "de": "Rüstung",
+    "es": "Armadura",
+    "fr": "Armure",
+    "pt": "Armadura",
+    "ja": "アーマー"
+  },
+  "Skills": {
+    "en": "Skills",
+    "de": "Fertigkeiten",
+    "es": "Habilidades",
+    "fr": "Compétences",
+    "pt": "Habilidades",
+    "ja": "スキル"
+  },
+  "Physical Attack": {
+    "en": "Physical Attack",
+    "de": "Physikalischer Angriff",
+    "es": "Daño físico",
+    "fr": "Attaque physique",
+    "pt": "Ataque Físico",
+    "ja": "物理攻撃"
+  },
+  "Counters": {
+    "en": "Counters",
+    "de": "Counters",
+    "es": "Counters",
+    "fr": "Counters",
+    "pt": "Counters",
+    "ja": "カウンター"
+  },
+  "Agility": {
+    "en": "Agility",
+    "de": "Agilität",
+    "es": "Agilidad",
+    "fr": "Agilité",
+    "pt": "Agilidade",
+    "ja": "素早さ"
+  },
+  "Artifacts": {
+    "en": "Artifacts",
+    "de": "Artefakte",
+    "es": "Artefactos",
+    "fr": "Artefacts",
+    "pt": "Artefatos",
+    "ja": "アーティファクト"
+  },
+  "Magic Attack": {
+    "en": "Magic Attack",
+    "de": "Magischer Angriff",
+    "es": "Daño mágico",
+    "fr": "Attaque magique",
+    "pt": "Ataque Mágico",
+    "ja": "魔法攻撃"
+  },
+  "Magic Defense": {
+    "en": "Magic Defense",
+    "de": "Magische Verteidigung",
+    "es": "Resistencia mágica",
+    "fr": "Défense magique",
+    "pt": "Defesa Mágica",
+    "ja": "魔法防御"
+  },
+  "Intelligence": {
+    "en": "Intelligence",
+    "de": "Intelligenz",
+    "es": "Inteligencia",
+    "fr": "Intelligence",
+    "pt": "Inteligência",
+    "ja": "知力"
+  },
+  "Updated:": {
+    "en": "Updated:",
+    "de": "Aktualisiert:",
+    "es": "Actualizado:",
+    "fr": "Mis à jour:",
+    "pt": "Atualizado:",
+    "ja": "更新:"
+  },
+  "Guide": {
+    "en": "Guide",
+    "de": "Leitfaden",
+    "es": "Guía",
+    "fr": "Guide",
+    "pt": "Guia",
+    "ja": "ガイド"
+  },
+  "Best Teams": {
+    "en": "Best Teams",
+    "de": "Beste Teams",
+    "es": "Mejores Equipos",
+    "fr": "Meilleures équipes",
+    "pt": "Melhores Equipes",
+    "ja": "ベストチーム"
+  },
+  "Stay updated": {
+    "en": "Stay updated",
+    "de": "Bleiben Sie informiert",
+    "es": "Mantente al día",
+    "fr": "Restez informé",
+    "pt": "Fique atualizado",
+    "ja": "最新情報をチェック"
+  },
+  "Redeem your Daily Gifts": {
+    "en": "Redeem your Daily Gifts",
+    "de": "Löse deine täglichen Geschenke ein",
+    "es": "Canjea tus Regalos Diarios",
+    "fr": "Échangez vos Cadeaux Quotidiens",
+    "pt": "Resgate seus Presentes Diários",
+    "ja": "毎日のギフトを受け取る"
+  },
+  "January": {
+    "en": "January",
+    "de": "Januar",
+    "es": "Enero",
+    "fr": "Janvier",
+    "pt": "Janeiro",
+    "ja": "1月"
+  },
+  "February": {
+    "en": "February",
+    "de": "Februar",
+    "es": "Febrero",
+    "fr": "Février",
+    "pt": "Fevereiro",
+    "ja": "2月"
+  },
+  "March": {
+    "en": "March",
+    "de": "März",
+    "es": "Marzo",
+    "fr": "Mars",
+    "pt": "Março",
+    "ja": "3月"
+  },
+  "April": {
+    "en": "April",
+    "de": "April",
+    "es": "Abril",
+    "fr": "Avril",
+    "pt": "Abril",
+    "ja": "4月"
+  },
+  "May": {
+    "en": "May",
+    "de": "Mai",
+    "es": "Mayo",
+    "fr": "Mai",
+    "pt": "Maio",
+    "ja": "5月"
+  },
+  "June": {
+    "en": "June",
+    "de": "Juni",
+    "es": "Junio",
+    "fr": "Juin",
+    "pt": "Junho",
+    "ja": "6月"
+  },
+  "July": {
+    "en": "July",
+    "de": "Juli",
+    "es": "Julio",
+    "fr": "Juillet",
+    "pt": "Julho",
+    "ja": "7月"
+  },
+  "August": {
+    "en": "August",
+    "de": "August",
+    "es": "Agosto",
+    "fr": "Août",
+    "pt": "Agosto",
+    "ja": "8月"
+  },
+  "September": {
+    "en": "September",
+    "de": "September",
+    "es": "Septiembre",
+    "fr": "Septembre",
+    "pt": "Setembro",
+    "ja": "9月"
+  },
+  "October": {
+    "en": "October",
+    "de": "Oktober",
+    "es": "Octubre",
+    "fr": "Octobre",
+    "pt": "Outubro",
+    "ja": "10月"
+  },
+  "November": {
+    "en": "November",
+    "de": "November",
+    "es": "Noviembre",
+    "fr": "Novembre",
+    "pt": "Novembro",
+    "ja": "11月"
+  },
+  "December": {
+    "en": "December",
+    "de": "Dezember",
+    "es": "Diciembre",
+    "fr": "Décembre",
+    "pt": "Dezembro",
+    "ja": "12月"
+  }
+}
