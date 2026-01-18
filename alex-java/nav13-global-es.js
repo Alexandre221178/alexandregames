@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <div class="dropdown-content"> <br>                
         <a href="https://alexandregames.com/herowars-alliance-en.html">🆕 HWA - Últimas Novedades</a>
         <a href="https://alexandregames.com/y-m-gifts-hwa-en.html">🎁 HWA - Regalos Diarios</a>
-        <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/calendar-hwa-en.html">📅 HWA - Calendario y Eventos</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/calendar-hwa-es.html">📅 HWA - Calendario y Eventos</a>
         <a href="https://alexandregames.com/Hero%20Wars%20English/Heroes%20Guide%20Hero%20Wars.html">📖 Guía de Personajes</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-en.html">📚 Mejores Guías y Secretos</a>
         <a href="https://alexandregames.com/Hero%20Wars/articles-herowars/tierlist-en-pvp-herowars.html">🏆 Mejor Tier List</a>
@@ -274,6 +274,16 @@ document.addEventListener('DOMContentLoaded', () => {
     if (menuContainer) {
         menuContainer.prepend(navElement);
     }
+
+    // Marcar links que apontam para páginas em inglês com " (EN)"
+    try {
+        navElement.querySelectorAll('a').forEach(a => {
+            const href = a.getAttribute('href') || '';
+            if (href.includes('-en.html') || href.includes('Hero%20Wars%20English') || href.includes('MobileLegends-English') || href.includes('herowars-alliance-en.html')) {
+                if (!a.textContent.includes('(EN)')) a.textContent = a.textContent + ' (EN)';
+            }
+        });
+    } catch (e) {}
 
     // Função para expandir/colapsar submenu
     window.toggleSubmenu = function(event, id) {

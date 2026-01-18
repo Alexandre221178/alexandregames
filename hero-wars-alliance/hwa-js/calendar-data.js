@@ -14,7 +14,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
         titles: { en: "Heroes' Brawls Guide", de: "Helden-Schlachten Leitfaden", es: "Peleas de Héroes Guía", fr: "Rixes de Héros Guide", pt: "Brigas de Heróis Guia", ja: "ヒーローズ・ブロウル ガイド" },
-        links: { en: "../../hero-wars-alliance/event-hwa/heroes-brawls-en.html", de: "", es: "", fr: "", pt: "", ja: "" }
+        links: { en: "../../hero-wars-alliance/event-hwa/heroes-brawls-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/heroes-brawls-pt.html", ja: "" }
       }
     ]
   },
@@ -52,7 +52,7 @@ window.CALENDAR_DATA = [
     image: "../../hero-wars-alliance/images/hero/byrna/byrna-300x260px.webp",
     alt: "Byrna Guide",
     titles: { en: "Byrna Guide", de: "Byrna Leitfaden", es: "Byrna Guía", fr: "Byrna Guide", pt: "Guia da Byrna", ja: "バーナ - ガイド" },
-    links: { en: "../characters-guide/byrna-en.html", de: "../characters-guide/byrna-de.html", es: "../characters-guide/byrna-es.html", fr: "../characters-guide/byrna-fr.html", pt: "../characters-guide/byrna-pt.html", ja: "../characters-guide/byrna-ja.html" },
+    links: { en: "../characters-guide/byrna-en.html", de: "", es: "", fr: "", pt: "../characters-guide/byrna-pt.html", ja: "" },
     extra: [
       
       
@@ -68,7 +68,7 @@ window.CALENDAR_DATA = [
     image: "../../hero-wars-alliance/images/hero/byrna/byrna-300x260px.webp",
     alt: "Byrna Guide",
     titles: { en: "Byrna Guide", de: "Byrna Leitfaden", es: "Byrna Guía", fr: "Byrna Guide", pt: "Guia da Byrna", ja: "バーナ - ガイド" },
-    links: { en: "../characters-guide/byrna-en.html", de: "../characters-guide/byrna-de.html", es: "../characters-guide/byrna-es.html", fr: "../characters-guide/byrna-fr.html", pt: "../characters-guide/byrna-pt.html", ja: "../characters-guide/byrna-ja.html" },
+    links: { en: "../characters-guide/byrna-en.html", de: "", es: "", fr: "", pt: "../characters-guide/byrna-pt.html", ja: "" },
     extra: [
       
       
@@ -84,7 +84,7 @@ window.CALENDAR_DATA = [
     image: "../../hero-wars-alliance/images/hero/byrna/byrna-300x260px.webp",
     alt: "Byrna Guide",
     titles: { en: "Byrna Guide", de: "Byrna Leitfaden", es: "Byrna Guía", fr: "Byrna Guide", pt: "Guia da Byrna", ja: "バーナ - ガイド" },
-    links: { en: "../characters-guide/byrna-en.html", de: "../characters-guide/byrna-de.html", es: "../characters-guide/byrna-es.html", fr: "../characters-guide/byrna-fr.html", pt: "../characters-guide/byrna-pt.html", ja: "../characters-guide/byrna-ja.html" },
+    links: { en: "../characters-guide/byrna-en.html", de: "", es: "", fr: "", pt: "../characters-guide/byrna-pt.html", ja: "" },
     extra: [
       
       
@@ -100,7 +100,7 @@ window.CALENDAR_DATA = [
     image: "../../hero-wars-alliance/images/hero/byrna/byrna-300x260px.webp",
     alt: "Byrna Guide",
     titles: { en: "Byrna Guide", de: "Byrna Leitfaden", es: "Byrna Guía", fr: "Byrna Guide", pt: "Guia da Byrna", ja: "バーナ - ガイド" },
-    links: { en: "../characters-guide/byrna-en.html", de: "../characters-guide/byrna-de.html", es: "../characters-guide/byrna-es.html", fr: "../characters-guide/byrna-fr.html", pt: "../characters-guide/byrna-pt.html", ja: "../characters-guide/byrna-ja.html" },
+    links: { en: "../characters-guide/byrna-en.html", de: "", es: "", fr: "", pt: "../characters-guide/byrna-pt.html", ja: "" },
     extra: [
       
       
@@ -120,7 +120,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
       titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
-      links: { en: "../characters-guide/dante-en.html", de: "", es: "", fr: "", pt: "../characters-guide/dante-pt.html", ja: "" }
+      links: { en: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante%20-%20English.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante.html", ja: "" }
        ,
       noStrip: true
        },
@@ -140,7 +140,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
       titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
-      links: { en: "../characters-guide/dante-en.html", de: "", es: "", fr: "", pt: "../characters-guide/dante-pt.html", ja: "" }
+      links: { en: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante%20-%20English.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante.html", ja: "" }
        ,
       noStrip: true
        },
@@ -160,7 +160,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
       titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
-      links: { en: "../characters-guide/dante-en.html", de: "", es: "", fr: "", pt: "../characters-guide/dante-pt.html", ja: "" }
+      links: { en: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante%20-%20English.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante.html", ja: "" }
          ,
         noStrip: true
          },
@@ -180,7 +180,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
       titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
-      links: { en: "../characters-guide/dante-en.html", de: "", es: "", fr: "", pt: "../characters-guide/dante-pt.html", ja: "" }
+      links: { en: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante%20-%20English.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante.html", ja: "" }
          ,
         noStrip: true
          },
@@ -204,7 +204,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
       titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
-      links: { en: "../characters-guide/dante-en.html", de: "", es: "", fr: "", pt: "../characters-guide/dante-pt.html", ja: "" }
+      links: { en: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante%20-%20English.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante.html", ja: "" }
          ,
         noStrip: true
          },
@@ -228,7 +228,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
       titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
-      links: { en: "../characters-guide/dante-en.html", de: "", es: "", fr: "", pt: "../characters-guide/dante-pt.html", ja: "" }
+      links: { en: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante%20-%20English.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante.html", ja: "" }
          ,
         noStrip: true
          },
@@ -252,7 +252,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
       titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
-      links: { en: "../characters-guide/dante-en.html", de: "", es: "", fr: "", pt: "../characters-guide/dante-pt.html", ja: "" }
+      links: { en: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante%20-%20English.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante.html", ja: "" }
          ,
         noStrip: true
          },
@@ -326,7 +326,7 @@ window.CALENDAR_DATA = [
     image: "../../hero-wars-alliance/images/hero/jet/jet.webp",
     alt: "Jet Guide",
     titles: { en: "Jet Guide", de: "Jet-Guide", es: "Guía de Jet", fr: "Guide de Jet", pt: "Guia do Jet", ja: "ジェットガイド" },
-    links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Jet - English.html", de: "", es: "", fr: "", pt: "../../Hero Wars/Guia de Heróis Hero Wars/Jet.html", ja: "" },
+    links: { en: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Jet%20-%20English.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Jet.html", ja: "" },
     extra: [   
       {// Dentro de extra[] de um evento:
 titles: { en: "Masks of Oblivion", pt: "Máscaras do Esquecimento", de: "Masken des Vergessens", es: "Máscaras del Olvido", fr: "Masques de l’Oubli", ja: "忘却の仮面" },
@@ -340,7 +340,7 @@ labelOnly: true
     image: "../../hero-wars-alliance/images/hero/jet/jet.webp",
     alt: "Jet Guide",
     titles: { en: "Jet Guide", de: "Jet-Guide", es: "Guía de Jet", fr: "Guide de Jet", pt: "Guia do Jet", ja: "ジェットガイド" },
-    links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Jet - English.html", de: "", es: "", fr: "", pt: "../../Hero Wars/Guia de Heróis Hero Wars/Jet.html", ja: "" },
+    links: { en: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Jet%20-%20English.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Jet.html", ja: "" },
     extra: [   
       {// Dentro de extra[] de um evento:
 titles: { en: "Masks of Oblivion", pt: "Máscaras do Esquecimento", de: "Masken des Vergessens", es: "Máscaras del Olvido", fr: "Masques de l’Oubli", ja: "忘却の仮面" },
@@ -354,7 +354,7 @@ labelOnly: true
     image: "../../hero-wars-alliance/images/hero/jet/jet.webp",
     alt: "Jet Guide",
     titles: { en: "Jet Guide", de: "Jet-Guide", es: "Guía de Jet", fr: "Guide de Jet", pt: "Guia do Jet", ja: "ジェットガイド" },
-    links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Jet - English.html", de: "", es: "", fr: "", pt: "../../Hero Wars/Guia de Heróis Hero Wars/Jet.html", ja: "" },
+    links: { en: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Jet%20-%20English.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Jet.html", ja: "" },
     extra: [   
       {// Dentro de extra[] de um evento:
 titles: { en: "Masks of Oblivion", pt: "Máscaras do Esquecimento", de: "Masken des Vergessens", es: "Máscaras del Olvido", fr: "Masques de l’Oubli", ja: "忘却の仮面" },
