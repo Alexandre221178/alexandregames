@@ -1,0 +1,63 @@
+{
+  "outland-splendor": {
+    "titles": {
+      "en": "Outland Splendor",
+      "de": "Glanz des Außenlands",
+      "es": "Esplendor del Territorio",
+      "fr": "Splendeur de l’Outreterre",
+      "pt": "Esplendor da Fronteira",
+      "ja": "アウトランド・スプレンダー"
+    },
+    "links": {
+      "en": "../../hero-wars-alliance/event-hwa/outland-splendor-en.html",
+      "de": "../../hero-wars-alliance/event-hwa/outland-splendor-en.html",
+      "es": "../../hero-wars-alliance/event-hwa/outland-splendor-en.html",
+      "fr": "../../hero-wars-alliance/event-hwa/outland-splendor-en.html",
+      "pt": "../../hero-wars-alliance/event-hwa/outland-splendor-pt.html",
+      "ja": "../../hero-wars-alliance/event-hwa/outland-splendor-en.html"
+    },
+    "image": "../../hero-wars-alliance/images/events/outland-splendor/outland-splendor-200px.webp",
+    "alt": "Outland Splendor"
+  },
+  "drayne-brawls": {
+    "titles": {
+      "en": "Drayne's Brawls",
+      "de": "Drayne's Brawls",
+      "es": "Drayne's Brawls",
+      "fr": "Drayne's Brawls",
+      "pt": "Brigas do Drayne",
+      "ja": "Drayne's Brawls"
+    },
+    "links": {
+      "en": "../../hero-wars-alliance/event-hwa/drayne-brawls-en.html",
+      "de": "../../hero-wars-alliance/event-hwa/drayne-brawls-en.html",
+      "es": "../../hero-wars-alliance/event-hwa/drayne-brawls-en.html",
+      "fr": "../../hero-wars-alliance/event-hwa/drayne-brawls-en.html",
+      "pt": "../../hero-wars-alliance/event-hwa/drayne-brawls-pt.html",
+      "ja": "../../hero-wars-alliance/event-hwa/drayne-brawls-en.html"
+    },
+    "image": "../../hero-wars-alliance/images/events/drayne-brawls/drayne-brawls-200px.webp",
+    "alt": "Drayne's Brawls"
+  }
+  ,
+  "heroes-brawls": {
+    "titles": {
+      "en": "Heroes' Brawls",
+      "de": "Helden-Schlachten",
+      "es": "Peleas de Héroes",
+      "fr": "Rixes de Héros",
+      "pt": "Brigas de Heróis",
+      "ja": "ヒーローズ・ブロウル"
+    },
+    "links": {
+      "en": "../../hero-wars-alliance/event-hwa/heroes-brawls-en.html",
+      "de": "../../hero-wars-alliance/event-hwa/heroes-brawls-en.html",
+      "es": "../../hero-wars-alliance/event-hwa/heroes-brawls-en.html",
+      "fr": "../../hero-wars-alliance/event-hwa/heroes-brawls-en.html",
+      "pt": "../../hero-wars-alliance/event-hwa/heroes-brawls-pt.html",
+      "ja": "../../hero-wars-alliance/event-hwa/heroes-brawls-en.html"
+    },
+    "image": "../../hero-wars-alliance/images/events/heroes-brawls/heroes-brawls-200px.webp",
+    "alt": "Heroes' Brawls"
+  }
+}
