@@ -244,7 +244,7 @@ window.CALENDAR_DATA = [
   },
   {
     weekday: "Sunday",
-    date: "Jan, 01",
+    date: "Feb, 01",
     image: "../../hero-wars-alliance/images/events/seers-game/seers-game-150px.webp",
     alt: "Seers' Game",
     titles: { en: "Seer's Game Event", de: "Event des Seherspiels", es: "Evento del Juego de la Vidente", fr: "Événement du Jeu de la Voyante", pt: "Evento do Jogo da Vidente", ja: "予言者のゲームイベント" },
@@ -266,7 +266,7 @@ window.CALENDAR_DATA = [
 
 {
     weekday: "Monday",
-    date: "Jan, 02",
+    date: "Feb, 02",
     image: "../../hero-wars-alliance/images/events/seers-game/seers-game-150px.webp",
     alt: "Seers' Game",
     titles: { en: "Seer's Game Event", de: "Event des Seherspiels", es: "Evento del Juego de la Vidente", fr: "Événement du Jeu de la Voyante", pt: "Evento do Jogo da Vidente", ja: "予言者のゲームイベント" },
@@ -277,7 +277,7 @@ window.CALENDAR_DATA = [
   },
   {
     weekday: "Tuesday",
-    date: "Jan, 03",
+    date: "Feb, 03",
     image: "../../hero-wars-alliance/images/events/seers-game/seers-game-150px.webp",
     alt: "Seers' Game",
     titles: { en: "Seer's Game Event", de: "Event des Seherspiels", es: "Evento del Juego de la Vidente", fr: "Événement du Jeu de la Voyante", pt: "Evento do Jogo da Vidente", ja: "予言者のゲームイベント" },
@@ -288,7 +288,7 @@ window.CALENDAR_DATA = [
   },
   {
     weekday: "Wednesday",
-    date: "Jan, 04",
+    date: "Feb, 04",
     image: "../../img-HWM/events-img/runic-events/runic-event-hwa-200px.webp",
     alt: "Alliance of Forces and  Runic Event",
     titles: { en: "Alliance of Forces and Runic Event", de: "Allianz der Kräfte und Runen-Event", es: "Alianza de Fuerzas y Evento Rúnico", fr: "Alliance des Forces et Événement Runique", pt: "Aliança das Forças e Evento Rúnico", ja: "フォース同盟＆ルーンイベント" },
@@ -299,7 +299,7 @@ window.CALENDAR_DATA = [
   },
   {
     weekday: "Thursday",
-    date: "Jan, 05",
+    date: "Feb, 05",
     image: "../../img-HWM/events-img/runic-events/runic-event-hwa-200px.webp",
     alt: "Alliance of Forces and  Runic Event",
     titles: { en: "Alliance of Forces and Runic Event", de: "Allianz der Kräfte und Runen-Event", es: "Alianza de Fuerzas y Evento Rúnico", fr: "Alliance des Forces et Événement Runique", pt: "Aliança das Forças e Evento Rúnico", ja: "フォース同盟＆ルーンイベント" },
@@ -310,7 +310,7 @@ window.CALENDAR_DATA = [
   },
   {
     weekday: "Friday",
-    date: "Jan, 06",
+    date: "Feb, 06",
     image: "../../img-HWM/events-img/runic-events/runic-event-hwa-200px.webp",
     alt: "Alliance of Forces and  Runic Event",
     titles: { en: "Alliance of Forces and Runic Event", de: "Allianz der Kräfte und Runen-Event", es: "Alianza de Fuerzas y Evento Rúnico", fr: "Alliance des Forces et Événement Runique", pt: "Aliança das Forças e Evento Rúnico", ja: "フォース同盟＆ルーンイベント" },
@@ -322,7 +322,7 @@ window.CALENDAR_DATA = [
 
   {
     weekday: "Saturday",
-    date: "Jan, 07",
+    date: "Feb, 07",
     image: "../../hero-wars-alliance/images/hero/jet/jet.webp",
     alt: "Jet Guide",
     titles: { en: "Jet Guide", de: "Jet-Guide", es: "Guía de Jet", fr: "Guide de Jet", pt: "Guia do Jet", ja: "ジェットガイド" },
@@ -336,7 +336,7 @@ labelOnly: true
   },
   {
     weekday: "Sunday",
-    date: "Jan, 08",
+    date: "Feb, 08",
     image: "../../hero-wars-alliance/images/hero/jet/jet.webp",
     alt: "Jet Guide",
     titles: { en: "Jet Guide", de: "Jet-Guide", es: "Guía de Jet", fr: "Guide de Jet", pt: "Guia do Jet", ja: "ジェットガイド" },
@@ -350,7 +350,7 @@ labelOnly: true
   },
   {
     weekday: "Monday",
-    date: "Jan, 09",
+    date: "Feb, 09",
     image: "../../hero-wars-alliance/images/hero/jet/jet.webp",
     alt: "Jet Guide",
     titles: { en: "Jet Guide", de: "Jet-Guide", es: "Guía de Jet", fr: "Guide de Jet", pt: "Guia do Jet", ja: "ジェットガイド" },
@@ -359,45 +359,61 @@ labelOnly: true
       {// Dentro de extra[] de um evento:
 titles: { en: "Masks of Oblivion", pt: "Máscaras do Esquecimento", de: "Masken des Vergessens", es: "Máscaras del Olvido", fr: "Masques de l’Oubli", ja: "忘却の仮面" },
 labelOnly: true
-}               
+}, 
+{
+        titles: { en: "Drayne - Relic Event", de: "Drayne - Relikt-Ereignis", es: "Drayne - Evento de Reliquia", fr: "Drayne - Événement des Reliques", pt: "Drayne - Evento de Relíquia", ja: "ドレイン - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       },              
     ]
   },
   {
     weekday: "Tuesday",
-    date: "Jan, 10",
+    date: "Feb, 10",
     image: "../../img-HWM/events-img/secrets-of-the-dungeon-img/secrets-of-the-dungeon-200px.webp",
     alt: "Tips for Secrets of the Dungeon Event",
     titles: { en: "Tips for Secrets of the Dungeon Event", de: "Tipps für das Geheimnisse des Dungeons Event", es: "Consejos para el Evento Secretos de la Mazmorra", fr: "Conseils pour l'Événement Secrets du Donjon", pt: "Dicas para o Evento Segredos da Masmorra", ja: "ダンジョンの秘密イベントのヒント" },
     links: { en: "../../Hero Wars/events/secrets-of-the-dungeon-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/secrets-of-the-dungeon-pt-hwa.html", ja: "" },
     extra: [   
+      {
+        titles: { en: "Drayne - Relic Event", de: "Drayne - Relikt-Ereignis", es: "Drayne - Evento de Reliquia", fr: "Drayne - Événement des Reliques", pt: "Drayne - Evento de Relíquia", ja: "ドレイン - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       },   
      
     ]
   },
   {
     weekday: "Wednesday",
-    date: "Jan, 11",
+    date: "Feb, 11",
     image: "../../img-HWM/events-img/secrets-of-the-dungeon-img/secrets-of-the-dungeon-200px.webp",
     alt: "Tips for Secrets of the Dungeon Event",
     titles: { en: "Tips for Secrets of the Dungeon Event", de: "Tipps für das Geheimnisse des Dungeons Event", es: "Consejos para el Evento Secretos de la Mazmorra", fr: "Conseils pour l'Événement Secrets du Donjon", pt: "Dicas para o Evento Segredos da Masmorra", ja: "ダンジョンの秘密イベントのヒント" },
     links: { en: "../../Hero Wars/events/secrets-of-the-dungeon-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/secrets-of-the-dungeon-pt-hwa.html", ja: "" },
     extra: [   
+      {
+        titles: { en: "Drayne - Relic Event", de: "Drayne - Relikt-Ereignis", es: "Drayne - Evento de Reliquia", fr: "Drayne - Événement des Reliques", pt: "Drayne - Evento de Relíquia", ja: "ドレイン - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       },   
      
     ]
   },
   {
     weekday: "Thursday",
-    date: "Jan, 12",
+    date: "Feb, 12",
     image: "../../img-HWM/events-img/secrets-of-the-dungeon-img/secrets-of-the-dungeon-200px.webp",
     alt: "Tips for Secrets of the Dungeon Event",
     titles: { en: "Tips for Secrets of the Dungeon Event", de: "Tipps für das Geheimnisse des Dungeons Event", es: "Consejos para el Evento Secretos de la Mazmorra", fr: "Conseils pour l'Événement Secrets du Donjon", pt: "Dicas para o Evento Segredos da Masmorra", ja: "ダンジョンの秘密イベントのヒント" },
     links: { en: "../../Hero Wars/events/secrets-of-the-dungeon-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/secrets-of-the-dungeon-pt-hwa.html", ja: "" },
-    extra: [   
+    extra: [ 
+      {
+        titles: { en: "Drayne - Relic Event", de: "Drayne - Relikt-Ereignis", es: "Drayne - Evento de Reliquia", fr: "Drayne - Événement des Reliques", pt: "Drayne - Evento de Relíquia", ja: "ドレイン - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       },     
      
     ]
   },
   {
     weekday: "Friday",
-    date: "Jan, 13",
+    date: "Feb, 13",
     image: "../../img-HWM/events-img/titan-power/titan-power-200px.webp",
     alt: "Titan Power Event",
     titles: { en: "Titan Power Event", de: "Titanenmacht Ereignis", es: "Evento Poder del Titán", fr: "Événement Puissance du Titan", pt: "Evento Poder do Titã", ja: "タイタンパワーイベント" },
@@ -406,13 +422,17 @@ labelOnly: true
       {
         titles: { en: "When Worlds Collide Event", de: "Wenn Welten Zusammenstoßen Ereignis", es: "Evento Cuando los Mundos Colisionan", fr: "Événement Quand les Mondes Entrent en Collision", pt: "Evento Quando os Mundos Colidem", ja: "世界が衝突するイベント" },
     links: { en: "../../Hero Wars/events/when-worlds-collide-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/when-worlds-collide-pt-hwa.html", ja: "" },
-        } 
+        },
+        {
+        titles: { en: "Drayne - Relic Event", de: "Drayne - Relikt-Ereignis", es: "Drayne - Evento de Reliquia", fr: "Drayne - Événement des Reliques", pt: "Drayne - Evento de Relíquia", ja: "ドレイン - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       },   
      
     ]
   },
   {
     weekday: "Saturday",
-    date: "Jan, 14",
+    date: "Feb, 14",
     image: "../../img-HWM/events-img/when-worlds-collide/When-Worlds-Collide-100px.webp",
     alt: "When Worlds Collide Event",
     titles: { en: "When Worlds Collide Event", de: "Wenn Welten Zusammenstoßen Ereignis", es: "Evento Cuando los Mundos Colisionan", fr: "Événement Quand les Mondes Entrent en Collision", pt: "Evento Quando os Mundos Colidem", ja: "世界が衝突するイベント" },
@@ -422,13 +442,17 @@ labelOnly: true
         titles: { en: "Titan Power Event", de: "Titanenmacht Ereignis", es: "Evento Poder del Titán", fr: "Événement Puissance du Titan", pt: "Evento Poder do Titã", ja: "タイタンパワーイベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/titan-power-event-en-hwa.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/titan-power-event-pt-hwa.html", ja: "" },
 
-      } 
+      },
+      {
+        titles: { en: "Drayne - Relic Event", de: "Drayne - Relikt-Ereignis", es: "Drayne - Evento de Reliquia", fr: "Drayne - Événement des Reliques", pt: "Drayne - Evento de Relíquia", ja: "ドレイン - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       },    
      
     ]
   },
   {
     weekday: "Sunday",
-    date: "Jan, 15",
+    date: "Feb, 15",
     image: "../../img-HWM/events-img/when-worlds-collide/When-Worlds-Collide-100px.webp",
     alt: "When Worlds Collide Event",
     titles: { en: "When Worlds Collide Event", de: "Wenn Welten Zusammenstoßen Ereignis", es: "Evento Cuando los Mundos Colisionan", fr: "Événement Quand les Mondes Entrent en Collision", pt: "Evento Quando os Mundos Colidem", ja: "世界が衝突するイベント" },
@@ -438,7 +462,11 @@ labelOnly: true
         titles: { en: "Titan Power Event", de: "Titanenmacht Ereignis", es: "Evento Poder del Titán", fr: "Événement Puissance du Titan", pt: "Evento Poder do Titã", ja: "タイタンパワーイベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/titan-power-event-en-hwa.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/titan-power-event-pt-hwa.html", ja: "" },
 
-      } 
+      },
+      {
+        titles: { en: "Drayne - Relic Event", de: "Drayne - Relikt-Ereignis", es: "Drayne - Evento de Reliquia", fr: "Drayne - Événement des Reliques", pt: "Drayne - Evento de Relíquia", ja: "ドレイン - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       },    
      
     ]
   },
