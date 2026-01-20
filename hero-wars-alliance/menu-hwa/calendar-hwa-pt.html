@@ -80,28 +80,21 @@
       margin-left: 13px
     }
   }
+  /* Reserve space for ads to avoid layout shifts (CLS) */
+  .ad-fold-container{
+    width:100%;
+    min-height:250px; /* safe default for mobile responsive ad */
+    display:block;
+    box-sizing:border-box;
+    background:transparent;
+  }
+  @media (min-width:769px){
+    .ad-fold-container{min-height:400px}
+  }
 </style>     
 
 
-<div class="ad-fold-container">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-     crossorigin="anonymous"></script>
-<!-- hero wars alliance guide articles counter, tierlist -->
-<ins class="adsbygoogle"
-     style="display:block; width:100%; height:auto;"
-     data-ad-client="ca-pub-7838775403194689"
-     data-ad-slot="5891786274"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
-
-
-  <!-- second half retirar melhora - pagespeed test</div> -->        
-<div id="second-half" class="hidden">
-  <!-- second half retirar </div> -->  
+<div class="ad-fold-container" id="ad-placeholder" aria-hidden="true"></div>
 
 <div class="content-wrapper">
 <p>
@@ -110,6 +103,11 @@
     e mantenha-se atualizado e preparado para os desafios futuros com as melhores estratégias, dicas e tutoriais.
 </p>
 </div>
+
+  <!-- second half retirar melhora - pagespeed test</div> -->        
+<div id="second-half" class="hidden">
+  <!-- second half retirar </div> -->  
+
 
 
 <main>
@@ -503,6 +501,52 @@
     <script src="../../alex-java/translate07-pt.js" defer></script>
     <!--<script src="../../alex-java/carousel-slide.js" defer></script>-->
 
+<script>
+(function(){
+  function injectAds(){
+    try{
+      var adContainer = document.getElementById('ad-placeholder');
+      if(!adContainer) return;
+      if(adContainer.dataset.adsInjected) return;
+      adContainer.dataset.adsInjected = '1';
+      // reserve the visual space before loading the ad script
+      try{ adContainer.style.minHeight = adContainer.style.minHeight || '250px'; }catch(e){}
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689';
+      s.crossOrigin = 'anonymous';
+      s.onload = function(){
+        var ins = document.createElement('ins');
+        ins.className = 'adsbygoogle';
+        ins.style.cssText = 'display:block; width:100%; height:100%; min-height:250px; transition:none;';
+        ins.setAttribute('data-ad-client','ca-pub-7838775403194689');
+        ins.setAttribute('data-ad-slot','5891786274');
+        ins.setAttribute('data-ad-format','auto');
+        ins.setAttribute('data-full-width-responsive','true');
+        adContainer.appendChild(ins);
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      };
+      document.body.appendChild(s);
+    }catch(e){console.error(e)}
+  }
+
+  if('IntersectionObserver' in window){
+    var obs = new IntersectionObserver(function(entries, observer){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          injectAds();
+          observer.disconnect();
+        }
+      });
+    }, {rootMargin: '200px'});
+    var target = document.getElementById('ad-placeholder');
+    if(target) obs.observe(target);
+    else window.addEventListener('load', injectAds);
+  } else {
+    window.addEventListener('load', injectAds);
+  }
+})();
+</script>
 
 <!-- close <div class="container"> -->
 
