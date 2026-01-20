@@ -1,0 +1,10 @@
+# Local test artifacts
+server.log
+server.err
+lhr-*.html
+logs/
+
+# OS / editor folders (optional)
+.DS_Store
+Thumbs.db
+.vscode/
