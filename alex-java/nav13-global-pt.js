@@ -152,13 +152,13 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="https://alexandregames.com/HeroWars.html">🆕 HWA - Últimas Novidades</a>
         <a href="https://alexandregames.com/y-m-gifts-hwa-en.html">🎁 HWA - Presente Diário</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/calendar-hwa-pt.html">📅 HWA - Calendário e Eventos</a>
-        <a href="https://alexandregames.com/Hero%20Wars/Guia-Herois.html">📖 Guia de Heróis</a>
+        <a href="https://alexandregames.com/Hero%20Wars/Guiadeherois.html">📖 Guia de Heróis</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-pt.html">📚 Melhores Guias e Segredos</a>
-        <a href="https://alexandregames.com/Hero%20Wars/articles-herowars/tierlist-pt-pvp-herowars.html">🏆 Melhores Tier Lists</a>
+        <a href="https://alexandregames.com/Hero%20Wars/articles-herowars/tierlist-pt-jvj-herowars.html">🏆 Melhores Tier Lists</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-pt-hwa.html">👥 Guia das Melhores Equipes</a>
         <a href="https://alexandregames.com/hero-wars-alliance/guide/counter-pt-herowarsalliance.html">🎯 Guia de Counters</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-review-pt-hwa.html">🎨 Análise de Skins</a>
-        <a href="https://alexandregames.com/Hero%20Wars/Guia-Titas.html">⚔️ Guia de Titãs</a>
+        <a href="https://alexandregames.com/Hero%20Wars/Guia%20de%20Titans.html">⚔️ Guia de Titãs</a>
         <a href="https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-pt-hwa.html">🛤️ Caminho do Herói</a>  
         <br><br><br><br>
     </div>
