@@ -18,6 +18,8 @@
 <meta name="keywords" content="#Article, @1alexandregames, #calendar #alexandregames, #Review, #HeroWars, #mobile, #Tips">
 <meta name="author" content="Alexandre Pereira Domingos">
 
+<meta name="adsense-no-auto-ads" content="true">
+
 <link rel="canonical" href="https://alexandregames.com/hero-wars-alliance/menu-hwa/calendar-hwa-en.html">
 <link rel="alternate" hreflang="en" href="https://alexandregames.com/hero-wars-alliance/menu-hwa/calendar-hwa-en.html">
 <link rel="alternate" hreflang="x-default" href="https://alexandregames.com/hero-wars-alliance/menu-hwa/calendar-hwa-en.html">
@@ -549,15 +551,17 @@
       if(!adContainer || adContainer.dataset.adsInjected) return;
       adContainer.dataset.adsInjected = '1';
       
+      // Criar o ins primeiro para reservar espaço
       var ins = document.createElement('ins');
       ins.className = 'adsbygoogle';
       ins.style.cssText = 'display:block; width:100%; min-height:250px;';
       ins.setAttribute('data-ad-client','ca-pub-7838775403194689');
       ins.setAttribute('data-ad-slot','5891786274');
-      ins.setAttribute('data-ad-format','rectangle');
-      ins.setAttribute('data-full-width-responsive','false');
+      ins.setAttribute('data-ad-format','rectangle'); // formato fixo evita CLS
+      ins.setAttribute('data-full-width-responsive','false'); // desativa responsivo que causa CLS
       adContainer.appendChild(ins);
       
+      // Carregar script apenas uma vez
       if(!adScriptLoaded){
         adScriptLoaded = true;
         var s = document.createElement('script');
@@ -583,6 +587,12 @@
   }
 })();
 </script>
+
+<!-- close <div class="container"> -->
+
+</body>
+</html>
+
 
 
 </body>
