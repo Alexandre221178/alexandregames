@@ -7,7 +7,7 @@ window.CALENDAR_DATA = [
   {
     weekday: "Sunday",
     date: "",
-    image: "../../hero-wars-alliance/images/hero/drayne/drayne-400px.webp",
+    image: "../../imagens/image-shared/drayne-300px.webp",
     alt: "Drayne Guide",
   titles: { en: "Drayne Guide", de: "Drayne Leitfaden", es: "Drayne - Guía", fr: "Drayne - Guide", pt: "Guia - Drayne", ja: "ドレイン - ガイド" },
   links: { en: "../characters-guide/drayne-en.html", de: "../characters-guide/drayne-de.html", es: "../characters-guide/drayne-es.html", fr: "../characters-guide/drayne-fr.html", pt: "../characters-guide/drayne-pt.html", ja: "../characters-guide/drayne-ja.html" },
@@ -60,7 +60,7 @@ window.CALENDAR_DATA = [
   {
     weekday: "Thursday",
     date: "Jan, 22",
-    image: "../../hero-wars-alliance/images/hero/byrna/byrna-300x260px.webp",
+    image: "../../imagens/image-shared/byrna-300px.webp",
     alt: "Byrna Guide",
     titles: { en: "Byrna Guide", de: "Byrna Leitfaden", es: "Byrna Guía", fr: "Byrna Guide", pt: "Guia da Byrna", ja: "バーナ - ガイド" },
     links: { en: "../characters-guide/byrna-en.html", de: "", es: "", fr: "", pt: "../characters-guide/byrna-pt.html", ja: "" },
@@ -76,7 +76,7 @@ window.CALENDAR_DATA = [
 {
     weekday: "Friday",
     date: "Jan, 23",
-    image: "../../hero-wars-alliance/images/hero/byrna/byrna-300x260px.webp",
+    image: "../../imagens/image-shared/byrna-300px.webp",
     alt: "Byrna Guide",
     titles: { en: "Byrna Guide", de: "Byrna Leitfaden", es: "Byrna Guía", fr: "Byrna Guide", pt: "Guia da Byrna", ja: "バーナ - ガイド" },
     links: { en: "../characters-guide/byrna-en.html", de: "", es: "", fr: "", pt: "../characters-guide/byrna-pt.html", ja: "" },
@@ -92,7 +92,7 @@ window.CALENDAR_DATA = [
 {
     weekday: "Saturday",
     date: "Jan, 24",
-    image: "../../hero-wars-alliance/images/hero/byrna/byrna-300x260px.webp",
+    image: "../../imagens/image-shared/byrna-300px.webp",
     alt: "Byrna Guide",
     titles: { en: "Byrna Guide", de: "Byrna Leitfaden", es: "Byrna Guía", fr: "Byrna Guide", pt: "Guia da Byrna", ja: "バーナ - ガイド" },
     links: { en: "../characters-guide/byrna-en.html", de: "", es: "", fr: "", pt: "../characters-guide/byrna-pt.html", ja: "" },
@@ -108,7 +108,7 @@ window.CALENDAR_DATA = [
 {
     weekday: "Sunday",
     date: "Jan, 25",
-    image: "../../hero-wars-alliance/images/hero/byrna/byrna-300x260px.webp",
+    image: "../../imagens/image-shared/byrna-300px.webp",
     alt: "Byrna Guide",
     titles: { en: "Byrna Guide", de: "Byrna Leitfaden", es: "Byrna Guía", fr: "Byrna Guide", pt: "Guia da Byrna", ja: "バーナ - ガイド" },
     links: { en: "../characters-guide/byrna-en.html", de: "", es: "", fr: "", pt: "../characters-guide/byrna-pt.html", ja: "" },
