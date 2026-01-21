@@ -63,7 +63,7 @@ window.CALENDAR_DATA = [
     image: "../../imagens/image-shared/byrna-300px.webp",
     alt: "Byrna Guide",
     titles: { en: "Byrna Guide", de: "Byrna Leitfaden", es: "Byrna Guía", fr: "Byrna Guide", pt: "Guia da Byrna", ja: "バーナ - ガイド" },
-    links: { en: "../characters-guide/byrna-en.html", de: "", es: "", fr: "", pt: "../characters-guide/byrna-pt.html", ja: "" },
+    links: { en: "../characters-guide/byrna-en.html", de: "../characters-guide/byrna-de.html", es: "../characters-guide/byrna-es.html", fr: "../characters-guide/byrna-fr.html", pt: "../characters-guide/byrna-pt.html", ja: "../characters-guide/byrna-ja.html" },
     extra: [
       
       
@@ -79,7 +79,7 @@ window.CALENDAR_DATA = [
     image: "../../imagens/image-shared/byrna-300px.webp",
     alt: "Byrna Guide",
     titles: { en: "Byrna Guide", de: "Byrna Leitfaden", es: "Byrna Guía", fr: "Byrna Guide", pt: "Guia da Byrna", ja: "バーナ - ガイド" },
-    links: { en: "../characters-guide/byrna-en.html", de: "", es: "", fr: "", pt: "../characters-guide/byrna-pt.html", ja: "" },
+    links: { en: "../characters-guide/byrna-en.html", de: "../characters-guide/byrna-de.html", es: "../characters-guide/byrna-es.html", fr: "../characters-guide/byrna-fr.html", pt: "../characters-guide/byrna-pt.html", ja: "../characters-guide/byrna-ja.html" },
     extra: [
       
       
@@ -95,7 +95,7 @@ window.CALENDAR_DATA = [
     image: "../../imagens/image-shared/byrna-300px.webp",
     alt: "Byrna Guide",
     titles: { en: "Byrna Guide", de: "Byrna Leitfaden", es: "Byrna Guía", fr: "Byrna Guide", pt: "Guia da Byrna", ja: "バーナ - ガイド" },
-    links: { en: "../characters-guide/byrna-en.html", de: "", es: "", fr: "", pt: "../characters-guide/byrna-pt.html", ja: "" },
+    links: { en: "../characters-guide/byrna-en.html", de: "../characters-guide/byrna-de.html", es: "../characters-guide/byrna-es.html", fr: "../characters-guide/byrna-fr.html", pt: "../characters-guide/byrna-pt.html", ja: "../characters-guide/byrna-ja.html" },
     extra: [
       
       
@@ -111,7 +111,7 @@ window.CALENDAR_DATA = [
     image: "../../imagens/image-shared/byrna-300px.webp",
     alt: "Byrna Guide",
     titles: { en: "Byrna Guide", de: "Byrna Leitfaden", es: "Byrna Guía", fr: "Byrna Guide", pt: "Guia da Byrna", ja: "バーナ - ガイド" },
-    links: { en: "../characters-guide/byrna-en.html", de: "", es: "", fr: "", pt: "../characters-guide/byrna-pt.html", ja: "" },
+    links: { en: "../characters-guide/byrna-en.html", de: "../characters-guide/byrna-de.html", es: "../characters-guide/byrna-es.html", fr: "../characters-guide/byrna-fr.html", pt: "../characters-guide/byrna-pt.html", ja: "../characters-guide/byrna-ja.html" },
     extra: [
       
       
