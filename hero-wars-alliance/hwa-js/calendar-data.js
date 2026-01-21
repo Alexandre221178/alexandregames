@@ -3,6 +3,17 @@
    - Image and paths are relative to the page that includes the calendar
 */
 window.CALENDAR_DATA = [
+
+  {
+    weekday: "Sunday",
+    date: "",
+    image: "../../hero-wars-alliance/images/hero/drayne/drayne-400px.webp",
+    alt: "Drayne Guide",
+  titles: { en: "Drayne Guide", de: "Drayne Leitfaden", es: "Drayne - Guía", fr: "Drayne - Guide", pt: "Guia - Drayne", ja: "ドレイン - ガイド" },
+  links: { en: "../characters-guide/drayne-en.html", de: "../characters-guide/drayne-de.html", es: "../characters-guide/drayne-es.html", fr: "../characters-guide/drayne-fr.html", pt: "../characters-guide/drayne-pt.html", ja: "../characters-guide/drayne-ja.html" },
+  noStrip: true,
+  extra: []
+  },
   
   {
     weekday: "Monday",
@@ -482,14 +493,4 @@ labelOnly: true
 // Add more events following this shape. Keep `links` per language for manual editing.
 // Add more events following this shape. Keep `links` per language for manual editing.
 // Add more events following this shape. Keep `links` per language for manual editing.
-{
-    weekday: "",
-    date: "",
-    image: "../../hero-wars-alliance/images/hero/drayne/drayne-400px.webp",
-    alt: "Drayne Guide",
-  titles: { en: "Drayne Guide", de: "Drayne Leitfaden", es: "Drayne - Guía", fr: "Drayne - Guide", pt: "Guia - Drayne", ja: "ドレイン - ガイド" },
-  links: { en: "../characters-guide/drayne-en.html", de: "../characters-guide/drayne-de.html", es: "../characters-guide/drayne-es.html", fr: "../characters-guide/drayne-fr.html", pt: "../characters-guide/drayne-pt.html", ja: "../characters-guide/drayne-ja.html" },
-  noStrip: true,
-  extra: []
-  },
 ];
