@@ -592,6 +592,14 @@ const hwaHeroesLocalization = {
     "pt": "Tristan",
     "ja": "トリスタン"
   },
+  "Xe'sha": {
+    "en": "Xe'sha",
+    "de": "Xe'sha",
+    "es": "Xe'sha",
+    "fr": "Xe'sha",
+    "pt": "Xe'sha",
+    "ja": "セーシャ"
+  },
   "Yasmine": {
     "en": "Yasmine",
     "de": "Yasmine",

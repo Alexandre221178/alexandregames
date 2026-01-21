@@ -129,6 +129,8 @@
   <priority>0.84</priority>
 </url>
 
+
+
 <!-- inicio sitemap mobile legens MLBB-heroes Alexandre Games -->
 
 <url>
@@ -693,15 +695,42 @@
   <priority>0.51</priority>
 </url>
 
+
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/byrna-en.html</loc>
- <lastmod>2026-01-10T12:20-03:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2026-01-21T20:38-03:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/byrna-pt.html</loc>
-  <lastmod>2026-01-10T12:20-03:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2026-01-21T20:38-03:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.84</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/byrna-es.html</loc>
+  <lastmod>2026-01-21T20:38-03:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.84</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/byrna-fr.html</loc>
+  <lastmod>2026-01-21T20:38-03:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.84</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/byrna-de.html</loc>
+  <lastmod>2026-01-21T20:38-03:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.84</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/byrna-ja.html</loc>
+  <lastmod>2026-01-21T20:38-03:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.84</priority>
 </url>
 
 <url>
