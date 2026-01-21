@@ -230,24 +230,25 @@ nav .menu-icon{
     margin-left: 5px;
 }
 .content-wrapper {
-    max-width: auto; /* Limita a largura do conteúdo */
-    margin-left: 25px;
+    font-size: 20px;
+    margin-left: 13px;
     margin-top: 5px;
-    margin-bottom: 5px;
+   
     box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
     background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
   }
   .content-wrapper {
-    min-height: 100px; /* Altura mínima */
-    margin-left: 13px;
+    min-height: 90px; /* Altura mínima */
+   margin: 13px;
+    contain: content;
   }
   .content-wrapper p{
-    font-size: 22px;
-   margin-left: 13px;
-    margin-top: 5px;
-    line-height: 30px;
-    text-align: left;
-  }
+     font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 0 0 0.8em 13px;
+    color: #000;
+      }
 
   .content-wrapper2 {
     max-width: auto; /* Limita a largura do conteúdo */
@@ -2160,13 +2161,13 @@ td.team-cell span{
 
 
     .content-wrapper {
-        min-height: 210px; /* Altura mínima */
+        min-height: 140px; /* Altura mínima */
         background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
       }
     
       .content-wrapper p {
-          margin-left: 3px !important;
-          font-size: 19px;
+          margin-left: 10px !important;
+          font-size: 17px;
       }
     
       .content-wrapper2 {
