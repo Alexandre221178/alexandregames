@@ -47,9 +47,23 @@
   gtag('js', new Date());
   gtag('config', 'G-P90XK71HW9');
 </script>
-<!-- Google adsense) --> 
+<!-- Google adsense com Auto Ads -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
      crossorigin="anonymous"></script>
+<style>
+  /* Evita que Auto Ads causem CLS no topo da página */
+  .container > ins.adsbygoogle:first-of-type,
+  body > ins.adsbygoogle:first-of-type {
+    min-height: 0 !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+    display: none !important;
+  }
+  /* Reserva espaço para ads que aparecem após o conteúdo principal */
+  ins.adsbygoogle[data-ad-status="filled"] {
+    min-height: 100px;
+  }
+</style>
 
 </head>
 <body>
@@ -79,38 +93,32 @@
 </div>
 </header>
 
+<style>
+  /* Texto LCP otimizado - inline crítico */
+  .content-wrapper-c {
+    min-height: 40px;
+    margin: 10px;
+    contain: content;
+  }
+  .content-wrapper-c p {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.4;
+    margin: 0 0 0.8em 13px;
+    color: #000;
+  }
+  @media (min-width: 768px) {
+    .content-wrapper-c p {
+      font-size: 20px;
+      margin-left: 13px;
+    }
+  }
+</style>
 
 <div class="ad-fold-container" id="ad-placeholder" aria-hidden="true"></div>
 
-<style>
-  .content-wrapper-c{
-    min-height: 50px; /* Altura mínima */
-    margin-top: 10px;
-    margin: 10px;
-  }
-  .content-wrapper-c p {
-    
-    font-family: Arial, sans-serif;
-    font-size: 18px; /* tamanho padrão (mobile) */
-    line-height: 1.5;
-    margin: 0 0 1em 0;
-    color: #000000;
-    margin-left: 13px !important;
-  }
-  /* A partir de 768px (telas de PC e tablets maiores) */
-  @media (min-width: 768px) {
-    .content-wrapper-c p {
-      font-size: 22px;
-      
-      margin-left: 13px
-    }
-  }
-</style> 
 <div class="content-wrapper-c">
-<p>
-    Explore o <strong>Calendário de Hero Wars Mobile</strong> 
-    no Alexandre Games. 
-</p>
+<p>Explore o <strong>Calendário de Hero Wars Mobile</strong> no Alexandre Games.</p>
 </div>
   <section>
     <p>Incluindo os empolgantes eventos da <strong>Temporada</strong>, 
@@ -516,45 +524,45 @@
 
 <script>
 (function(){
+  var adScriptLoaded = false;
+  
   function injectAds(){
     try{
       var adContainer = document.getElementById('ad-placeholder');
-      if(!adContainer) return;
-      if(adContainer.dataset.adsInjected) return;
+      if(!adContainer || adContainer.dataset.adsInjected) return;
       adContainer.dataset.adsInjected = '1';
-      // reserve the visual space before loading the ad script
-      try{ adContainer.style.minHeight = adContainer.style.minHeight || '250px'; }catch(e){}
-      var s = document.createElement('script');
-      s.async = true;
-      s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689';
-      s.crossOrigin = 'anonymous';
-      s.onload = function(){
-        var ins = document.createElement('ins');
-        ins.className = 'adsbygoogle';
-        ins.style.cssText = 'display:block; width:100%; height:100%; min-height:250px; transition:none;';
-        ins.setAttribute('data-ad-client','ca-pub-7838775403194689');
-        ins.setAttribute('data-ad-slot','5891786274');
-        ins.setAttribute('data-ad-format','auto');
-        ins.setAttribute('data-full-width-responsive','true');
-        adContainer.appendChild(ins);
+      
+      // Criar o ins primeiro para reservar espaço
+      var ins = document.createElement('ins');
+      ins.className = 'adsbygoogle';
+      ins.style.cssText = 'display:block; width:100%; min-height:250px;';
+      ins.setAttribute('data-ad-client','ca-pub-7838775403194689');
+      ins.setAttribute('data-ad-slot','5891786274');
+      ins.setAttribute('data-ad-format','rectangle'); // formato fixo evita CLS
+      ins.setAttribute('data-full-width-responsive','false'); // desativa responsivo que causa CLS
+      adContainer.appendChild(ins);
+      
+      // Carregar script apenas uma vez
+      if(!adScriptLoaded){
+        adScriptLoaded = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689';
+        s.crossOrigin = 'anonymous';
+        s.onload = function(){ (adsbygoogle = window.adsbygoogle || []).push({}); };
+        document.head.appendChild(s);
+      } else {
         (adsbygoogle = window.adsbygoogle || []).push({});
-      };
-      document.body.appendChild(s);
+      }
     }catch(e){console.error(e)}
   }
 
   if('IntersectionObserver' in window){
     var obs = new IntersectionObserver(function(entries, observer){
-      entries.forEach(function(entry){
-        if(entry.isIntersecting){
-          injectAds();
-          observer.disconnect();
-        }
-      });
-    }, {rootMargin: '200px'});
+      if(entries[0].isIntersecting){ injectAds(); observer.disconnect(); }
+    }, {rootMargin: '100px'});
     var target = document.getElementById('ad-placeholder');
     if(target) obs.observe(target);
-    else window.addEventListener('load', injectAds);
   } else {
     window.addEventListener('load', injectAds);
   }
