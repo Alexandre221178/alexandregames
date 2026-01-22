@@ -229,26 +229,26 @@ nav .menu-icon{
 .content-wrapper ul li{
     margin-left: 5px;
 }
-.content-wrapper {
-    font-size: 20px;
-    margin-left: 13px;
+ .content-wrapper {
+    max-width: auto; /* Limita a largura do conteúdo */
+    margin-left: 25px;
     margin-top: 5px;
-   
+    margin-bottom: 5px;
     box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
     background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
   }
   .content-wrapper {
-    min-height: 90px; /* Altura mínima */
-   margin: 13px;
-    contain: content;
+    min-height: 100px; /* Altura mínima */
+    margin-left: 13px;
   }
   .content-wrapper p{
-     font-family: Arial, sans-serif;
-    font-size: 20px;
-    line-height: 1.4;
-    margin: 0 0 0.8em 13px;
-    color: #000;
-      }
+    font-size: 22px;
+   margin-left: 13px;
+    margin-top: 5px;
+    line-height: 30px;
+    text-align: left;
+  }
+
 
   .content-wrapper2 {
     max-width: auto; /* Limita a largura do conteúdo */
