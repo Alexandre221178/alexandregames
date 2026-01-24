@@ -1,0 +1,24 @@
+{
+  "name": "alexandregames",
+  "version": "1.0.0",
+  "description": "Alexandre Games Blog Website!\r This repository contains the source code for the website www.alexandregames.com, a project created by Alexandre Domingos. The website is built using HTML and represents a dream come true for Alexandre, who started from scratch, studying code and learning along the way.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexandre221178/alexandregames.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Alexandre221178/alexandregames/issues"
+  },
+  "homepage": "https://github.com/Alexandre221178/alexandregames#readme",
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  }
+}
