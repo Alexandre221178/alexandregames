@@ -1,134 +1,157 @@
 {
-    "game": "Hero Wars Alliance",
-    
-  "hero": {
-    "name": "Dante",
-    "game": "Hero Wars Alliance",
-    "role": ["Damage Dealer", "Control"],
-    "main_stat": "Agility"
-  },
-
-  "stats": {
-    "talisman_of_soul": {
-      "intelligence": 3955,
-      "agility": 16245,
-      "strength": 3891,
-      "health": "868.517",
-      "physical_attack": "122223",
-      "magical_attack": 16546,
-      "armor": 35908,
-      "magic_defense": 21545,
-      "toughness": 930,
-      "dodge": 11445,
-      "crit_hit_chance": 7354,
-      "crushing": 4177
-    },
-
-    "talisman_of_retaliation": {
-      "intelligence": 3955,
-      "agility": 14245,
-      "strength": 3891,
-      "health": "868517",
-      "physical_attack": "124223",
-      "magical_attack": 16546,
-      "armor": 33908,
-      "magic_defense": 21545,
-      "toughness": 930,
-      "dodge": 18045,
-      "crit_hit_chance": 754,
-      "crushing": 4177
-    }
-  },
-
-  "skills": [
+  "game": "Hero Wars Alliance",
+  "heroes": [
     {
-      "id": 1,
-      "name": "Instrument of Fate",
-      "type": ["Knockback", "Control"],
-      "level": 120,
-      "animation_delay_seconds": 0.88,
-      "damage_formula": "95% Physical Attack + 10150",
-      "damage_example": 92084.65,
-      "description": "Dante throws 4 spectral spears at multiple enemies, dealing physical damage and pushing the targets back."
-    },
-
-    {
-      "id": 1,
-      "name": "Instrument of Fate (Legendary)",
-      "type": ["Knockback", "Control"],
-      "level": "Max",
-      "effect": "Armor Penetration Increase",
-      "value_formula": "7.5% Physical Attack + 6000",
-      "value_example": 14691,
-      "duration_seconds": 6,
-      "description": "Whenever Dante knocks an enemy back, he gains a bonus to armor penetration for a short time."
-    },
-
-    {
-      "id": 2,
-      "name": "Foresight",
-      "type": ["Buff"],
-      "level": 120,
-      "initial_cooldown_seconds": 4,
-      "cooldown_seconds": 14,
-      "duration_seconds": 7,
-      "animation_delay_seconds": 0.5,
-      "bonus_formula": "10% Physical Attack + 3000",
-      "bonus_example": 11624.7,
-      "description": "Increases all allies' Dodge for a short duration."
-    },
-
-    {
-      "id": 3,
-      "name": "Retribution",
-      "type": ["Knockback", "Control"],
-      "level": 100,
-      "cooldown_seconds": 0.1,
-      "animation_delay_seconds": 0.72,
-      "damage_formula": "90% Physical Attack + 4150",
-      "damage_example": 81772.3,
-      "description": "When Dante or an ally dodges damage, Dante throws a spectral spear at the nearest enemy, dealing damage and pushing them back."
-    },
-
-    {
-      "id": 4,
-      "name": "Shackles of Weakness",
-      "type": ["Debuff"],
-      "level": 80,
-      "duration_seconds": 7,
-      "stat_reduction_formula": "6% Physical Attack + 2400",
-      "stat_reduction_example": 7574.82,
-      "description": "When a spectral spear hits an enemy, Dante reduces the target's main stat for a short time."
-    },
-
-    {
-      "id": 4,
-      "name": "Shackles of Weakness (Legendary)",
-      "type": ["Debuff"],
-      "level": "Max",
-      "duration_seconds": 16,
-      "description": "Extends the duration of the main stat reduction effect."
-    },
-
-    {
-      "id": 5,
-      "name": "Piercing Throw",
-      "type": ["Knockback", "Control"],
-      "cooldown_seconds": 9,
-      "damage_formula": "225% Physical Attack",
-      "damage_example": 260726,
-      "description": "Every few seconds, Dante throws a spectral spear at the nearest enemy, dealing damage and knocking them back."
-    },
-
-    {
-      "id": 6,
-      "name": "Shifting Focus",
-      "type": ["Buff"],
-      "level": "Max",
-      "dodge_bonus_formula": "25% Physical Attack",
-      "physical_attack_bonus_formula": "25% Physical Attack",
-      "bonus_example": 28970,
-      "description": "When enemies are near Dante, his Dodge increases. When no enemies are nearby, his Physical Attack increases instead."
+      "id": "dante",
+      "name": "Dante",
+      "gender": "male",
+      "role": ["Damage Dealer", "Control"],
+      "main_class": "Marksman",
+      "position": "Middle Line",
+      "main_stat": "Agility",
+      "faction": "Way of Eternity",
+      "stats": {
+        "talisman_of_soul": {
+          "intelligence": 3955,
+          "agility": 16245,
+          "strength": 3891,
+          "health": 868517,
+          "physical_attack": 122223,
+          "magical_attack": 16546,
+          "armor": 35908,
+          "magic_defense": 21545,
+          "toughness": 930,
+          "dodge": 11445,
+          "crit_hit_chance": 7354,
+          "crushing": 4177
+        },
+        "talisman_of_retaliation": {
+          "intelligence": 3955,
+          "agility": 14245,
+          "strength": 3891,
+          "health": 868517,
+          "physical_attack": 124223,
+          "magical_attack": 16546,
+          "armor": 33908,
+          "magic_defense": 21545,
+          "toughness": 930,
+          "dodge": 18045,
+          "crit_hit_chance": 754,
+          "crushing": 4177
+        }
+      },
+      "skills": [
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "Instrument of Fate",
+          "type": ["Knockback", "Control"],
+          "animation_delay_seconds": 0.88,
+          "damage_formula": "95% Physical Attack + 10150",
+          "scales_with": ["Physical Attack"],
+          "damage_example": 92084.65,
+          "description": "Dante throws 4 spectral spears at multiple enemies, dealing physical damage and pushing the targets back."
+        },
+        {
+          "id": 1,
+          "variant": "legendary",
+          "relic_level": 10,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 1
+          },
+          "name": "Instrument of Fate",
+          "effect": "Armor Penetration Increase",
+          "value_formula": "7.5% Physical Attack + 6000",
+          "scales_with": ["Physical Attack"],
+          "value_example": 14691,
+          "duration_seconds": 6,
+          "description": "Whenever Dante knocks an enemy back, he gains a bonus to armor penetration for a short time."
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 120,
+          "name": "Foresight",
+          "type": ["Buff"],
+          "initial_cooldown_seconds": 4,
+          "cooldown_seconds": 14,
+          "duration_seconds": 7,
+          "animation_delay_seconds": 0.5,
+          "bonus_formula": "10% Physical Attack + 3000",
+          "scales_with": ["Physical Attack"],
+          "bonus_example": 11624.7,
+          "description": "Increases all allies' Dodge for a short duration."
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 100,
+          "name": "Retribution",
+          "type": ["Knockback", "Control"],
+          "cooldown_seconds": 0.1,
+          "animation_delay_seconds": 0.72,
+          "damage_formula": "90% Physical Attack + 4150",
+          "scales_with": ["Physical Attack", "Dodge"],
+          "damage_example": 81772.3,
+          "description": "When Dante or an ally dodges damage, Dante throws a spectral spear at the nearest enemy."
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "level": 90,
+          "name": "Shackles of Weakness",
+          "type": ["Debuff"],
+          "duration_seconds": 7,
+          "stat_reduction_formula": "6% Physical Attack + 2400",
+          "scales_with": ["Physical Attack"],
+          "stat_reduction_example": 7574.82,
+          "description": "When a spectral spear hits an enemy, Dante reduces the target's main stat for a short time."
+        },
+        {
+          "id": 4,
+          "variant": "legendary",
+          "relic_level": 20,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 4
+          },
+          "name": "Shackles of Weakness",
+          "duration_seconds": 16,
+          "description": "Extends the duration of the main stat reduction effect."
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Piercing Throw",
+          "type": ["Knockback", "Control"],
+          "cooldown_seconds": 9,
+          "damage_formula": "225% Physical Attack",
+          "scales_with": ["Physical Attack"],
+          "damage_example": 260726,
+          "description": "Every few seconds, Dante throws a spectral spear at the nearest enemy."
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Shifting Focus",
+          "type": ["Buff"],
+          "dodge_bonus_formula": "25% Physical Attack",
+          "physical_attack_bonus_formula": "25% Physical Attack",
+          "scales_with": ["Physical Attack"],
+          "bonus_example": 28970,
+          "description": "When enemies are near Dante, his Dodge increases. When no enemies are nearby, his Physical Attack increases instead."
+        }
+      ]
     }
   ]
 }
