@@ -28,21 +28,43 @@ function checkFile(filePath) {
         const content = fs.readFileSync(filePath, 'utf-8');
         const $ = cheerio.load(content);
 
-        // Verificar <title>
+        // Pular páginas de redirecionamento
         const titleText = $('title').text().trim();
-        if (!$('title').length || !titleText) {
-            issues.push('Faltando ou vazio: <title>');
+        if (titleText === 'Redirecting...' || titleText === 'Redirecionando...') {
+            return issues; // sem issues
+        }
+
+        // Verificar <title>
+        const titleElements = $('title');
+        if (titleElements.length === 0) {
+            issues.push('Faltando: <title>');
+        } else if (titleElements.length > 1) {
+            issues.push(`<title> duplicado: ${titleElements.length} elementos`);
+        } else if (!titleText) {
+            issues.push('Vazio: <title>');
         } else if (titleText.length > 75) {
             issues.push(`Title muito longo: ${titleText.length} caracteres (máximo 75)`);
         }
 
         // Verificar <h1>
-        if (!$('h1').length) {
+        const h1Elements = $('h1');
+        if (h1Elements.length === 0) {
             issues.push('Faltando: <h1>');
+        } else if (h1Elements.length > 1) {
+            issues.push(`<h1> duplicado: ${h1Elements.length} elementos`);
+        }
+
+        // Verificar <meta name="robots">
+        const robotsMeta = $('meta[name="robots"]');
+        if (robotsMeta.length) {
+            const content = robotsMeta.attr('content');
+            if (content && content.includes('noindex')) {
+                issues.push('Página com noindex (verificar se é redirecionamento)');
+            }
         }
 
         // Detectar script de nav para determinar idiomas esperados
-        let expectedLangs = EXPECTED_LANGS_GLOBAL; // padrão
+        let expectedLangs = null; // null significa não verificar hreflang
         const navScripts = [];
         $('script[src]').each((i, elem) => {
             const src = $(elem).attr('src');
@@ -50,25 +72,79 @@ function checkFile(filePath) {
                 navScripts.push(src);
             }
         });
-        if (navScripts.some(src => src.includes('nav13-en-v27.js'))) {
-            expectedLangs = EXPECTED_LANGS_ENGLISH_ONLY;
-        } else if (navScripts.some(src => src.includes('nav13-en-v2.js') || src.includes('nav13-pt-v2.js'))) {
-            expectedLangs = EXPECTED_LANGS_BILINGUAL;
-        } else if (navScripts.some(src => src.includes('nav13-global') || src.includes('nav12-global'))) {
+        const hasNav = navScripts.length > 0;
+        if (hasNav && navScripts.some(src => src.includes('nav13-global'))) {
             expectedLangs = EXPECTED_LANGS_GLOBAL;
-        } else if (navScripts.some(src => src.includes('nav07z'))) {
+        } else if (hasNav && (navScripts.some(src => src.includes('nav13-en-v2.js') || src.includes('nav13-pt-v2.js')))) {
             expectedLangs = EXPECTED_LANGS_BILINGUAL;
+        } else if (hasNav && navScripts.some(src => src.includes('nav13-en-v27.js'))) {
+            expectedLangs = EXPECTED_LANGS_ENGLISH_ONLY;
+        } else if (hasNav && navScripts.some(src => src.includes('nav07z'))) {
+            expectedLangs = EXPECTED_LANGS_BILINGUAL;
+        } else if (!hasNav) {
+            // Para páginas sem nav, verificar se usa estilo2024.css, mas não verificar hreflang (páginas antigas)
+            const cssLinks = $('link[rel="stylesheet"][href*="estilo2024.css"]');
+            if (cssLinks.length === 0) {
+                // Caso contrário, definir baseado nos hreflangs presentes
+                const hreflangsPresent = new Set();
+                $('link[rel="alternate"]').each((i, elem) => {
+                    const hreflang = $(elem).attr('hreflang');
+                    if (hreflang) hreflangsPresent.add(hreflang);
+                });
+                expectedLangs = hreflangsPresent;
+            }
         }
 
         // Verificar hreflang
-        const hreflangs = new Set();
-        $('link[rel="alternate"]').each((i, elem) => {
-            const hreflang = $(elem).attr('hreflang');
-            if (hreflang) hreflangs.add(hreflang);
-        });
-        const missingLangs = [...expectedLangs].filter(lang => !hreflangs.has(lang));
-        if (missingLangs.length) {
-            issues.push(`Hreflang faltando: ${missingLangs.join(', ')}`);
+        if (expectedLangs) {
+            const hreflangs = new Set();
+            $('link[rel="alternate"]').each((i, elem) => {
+                const hreflang = $(elem).attr('hreflang');
+                if (hreflang) hreflangs.add(hreflang);
+            });
+            const missingLangs = [...expectedLangs].filter(lang => !hreflangs.has(lang));
+            if (missingLangs.length) {
+                issues.push(`Hreflang faltando: ${missingLangs.join(', ')}`);
+            }
+        }
+
+        // Verificar canonical e hreflangs apenas para páginas com nav13-global
+        if (hasNav && navScripts.some(src => src.includes('nav13-global'))) {
+            // Verificar canonical
+            const canonical = $('link[rel="canonical"]');
+            if (canonical.length === 0) {
+                issues.push('Faltando: canonical link');
+            } else if (canonical.length > 1) {
+                issues.push('Canonical duplicado');
+            } else {
+                const href = canonical.attr('href');
+                if (!href || !href.startsWith('https://alexandregames.com/')) {
+                    issues.push('Canonical inválido ou não absoluto');
+                } else {
+                    // Verificar se o caminho do canonical corresponde ao arquivo
+                    const relativePath = path.relative(ROOT_DIR, filePath).replace(/\\/g, '/');
+                    const expectedCanonical = `https://alexandregames.com/${relativePath}`;
+                    if (href !== expectedCanonical) {
+                        issues.push(`Canonical não corresponde ao caminho: esperado ${expectedCanonical}, encontrado ${href}`);
+                    }
+                }
+            }
+
+            // Verificar hreflangs válidos
+            $('link[rel="alternate"]').each((i, elem) => {
+                const hreflang = $(elem).attr('hreflang');
+                const href = $(elem).attr('href');
+                if (hreflang && href) {
+                    if (!href.startsWith('https://alexandregames.com/')) {
+                        issues.push(`Hreflang ${hreflang} não é absoluto: ${href}`);
+                    }
+                    // Verificar se hreflang é válido (ex: en, pt, etc.)
+                    const validLangs = ['en', 'pt', 'de', 'es', 'fr', 'ja', 'x-default'];
+                    if (!validLangs.includes(hreflang)) {
+                        issues.push(`Hreflang inválido: ${hreflang}`);
+                    }
+                }
+            });
         }
 
         // Verificar links internos quebrados
