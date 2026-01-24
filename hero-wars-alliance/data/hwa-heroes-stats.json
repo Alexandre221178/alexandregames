@@ -9,6 +9,9 @@
       "main_class": "Marksman",
       "position": "Middle Line",
       "main_stat": "Agility",
+      "how_to_get_soul_stones": "Tower Shop, Events",
+      "hydra_tier_list": "A",
+      "hero_tier_list": "S+",
       "faction": "Way of Eternity",
       "stats": {
         "talisman_of_soul": {
@@ -17,7 +20,7 @@
           "strength": 3891,
           "health": 868517,
           "physical_attack": 122223,
-          "magical_attack": 16546,
+          "magic_attack": 16546,
           "armor": 35908,
           "magic_defense": 21545,
           "toughness": 930,
