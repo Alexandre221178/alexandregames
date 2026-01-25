@@ -2041,6 +2041,36 @@ td.team-cell span{
   box-shadow: 0 6px 18px rgba(0, 183, 255, 0.3);
 }
 
+.alexandre-tips {
+  background: linear-gradient(145deg, #ffffff, #c6d0db);
+  color: #000000;
+  border-left: 5px solid #00b7ff;
+  border-radius: 12px;
+  padding: 7px 7px;
+  margin: 20px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.alexandre-tips p {
+  margin: 4px 0 0 0;
+  font-size: 23px!important; 
+  font-style: italic !important; 
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.alexandre-tips b {
+  color: #000000;
+  font-weight: 600;
+}
+
+.alexandre-tips:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 183, 255, 0.3);
+}
 
 
 

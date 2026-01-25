@@ -70,7 +70,7 @@
           "scales_with": ["Physical Attack"],
           "value_example": 14691,
           "duration_seconds": 6,
-          "description": "Whenever Dante knocks an enemy back, he gains a bonus to armor penetration for a short time."
+          "description": "Whenever Dante knocks an enemy back, he gains a bonus to armor penetration for 6.0 seconds."
         },
         {
           "id": 2,
@@ -85,7 +85,7 @@
           "bonus_formula": "10% Physical Attack + 3000",
           "scales_with": ["Physical Attack"],
           "bonus_example": 11624.7,
-          "description": "Increases all allies' Dodge for a short duration."
+          "description": "Increases all allies' Dodge for a 7.0 seconds."
         },
         {
           "id": 3,
@@ -98,7 +98,7 @@
           "damage_formula": "90% Physical Attack + 4150",
           "scales_with": ["Physical Attack", "Dodge"],
           "damage_example": 81772.3,
-          "description": "When Dante or an ally dodges damage, Dante throws a spectral spear at the nearest enemy."
+          "description": "Damage: 71660 (90% Phys. atk. + 4150) When Dante or an ally dodges damage, Dante conjures a spectral spear and throws it at the nearest enemy. The spear deals physical damage and pushes its target back."
         },
         {
           "id": 4,
@@ -110,7 +110,7 @@
           "stat_reduction_formula": "6% Physical Attack + 2400",
           "scales_with": ["Physical Attack"],
           "stat_reduction_example": 7574.82,
-          "description": "When a spectral spear hits an enemy, Dante reduces the target's main stat for a short time."
+          "description": "Intelligence, Agility, or Strength decrease (6% Phys. atk. + 2400) When a spectral spear from Instrument of Fate or Retribution hits an enemy, Dante decreases the target's main stat for 7.0 seconds."
         },
         {
           "id": 4,
