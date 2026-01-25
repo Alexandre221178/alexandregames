@@ -1,4 +1,4 @@
-{
+﻿{
   "heroes": [
     {"id":"Aidan","en":"Aidan","de":"Aidan","es":"Aidan","fr":"Aidan","pt":"Aidan","ja":"エイダン"},
     {"id":"Alvanor","en":"Alvanor","de":"Alvanor","es":"Alvanor","fr":"Alvanor","pt":"Alvanor","ja":"アルバノール"},
@@ -71,5 +71,35 @@
     {"id":"Tristan","en":"Tristan","de":"Tristan","es":"Tristan","fr":"Tristan","pt":"Tristan","ja":"トリスタン"},
     {"id":"Yasmine","en":"Yasmine","de":"Yasmine","es":"Yasmine","fr":"Yasmine","pt":"Yasmine","ja":"ヤスミン"},
     {"id":"Ziri","en":"Ziri","de":"Ziri","es":"Ziri","fr":"Ziri","pt":"Ziri","ja":"ジリ"}
+  ],
+  "labels": {
+    "singular": {
+      "en": "Pet",
+      "de": "Begleiter",
+      "es": "Mascota",
+      "fr": "Familier",
+      "pt": "Mascote",
+      "ja": "ペット"
+    },
+    "plural": {
+      "en": "Pets",
+      "de": "Begleiter",
+      "es": "Mascotas",
+      "fr": "Familiers",
+      "pt": "Mascotes",
+      "ja": "ペット"
+    }
+  },
+  "pets": [
+    {"id":"ALBUS","en":"Albus","de":"Albus","es":"Albus","fr":"Albus","pt":"Albus","ja":"アルバス"},
+    {"id":"AXEL","en":"Axel","de":"Axell","es":"Axel","fr":"Axel","pt":"Axel","ja":"アクセル"},
+    {"id":"BISCUIT","en":"Biscuit","de":"Biskuit","es":"Biscuit","fr":"Biscuit","pt":"Biscuit","ja":"ビスケット"},
+    {"id":"CAIN","en":"Cain","de":"Cain","es":"Cain","fr":"Cain","pt":"Cain","ja":"ケイン"},
+    {"id":"FENRIS","en":"Fenris","de":"Fenris","es":"Fenris","fr":"Fenris","pt":"Fenris","ja":"フェンリス"},
+    {"id":"KHORUS","en":"Khorus","de":"Khorus","es":"Khorus","fr":"Khorus","pt":"Khorus","ja":"ホルズ"},
+    {"id":"MARA","en":"Mara","de":"Mara","es":"Mara","fr":"Mara","pt":"Mara","ja":"マーラ"},
+    {"id":"MERLIN","en":"Merlin","de":"Merlin","es":"Merlín","fr":"Merlin","pt":"Merlin","ja":"マーリン"},
+    {"id":"OLIVER","en":"Oliver","de":"Oliver","es":"Oliver","fr":"Oliver","pt":"Oliver","ja":"オリバー"},
+    {"id":"VEX","en":"Vex","de":"Vex","es":"Vex","fr":"Vex","pt":"Vex","ja":"ヴェクス"}
   ]
 }

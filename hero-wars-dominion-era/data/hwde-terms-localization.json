@@ -79,6 +79,38 @@
     "pt": "Melhor Skin (Best Skin)",
     "ja": "ベストスキン (Best Skin)"
   },
+  "Default Skin": {
+  "en": "Default Skin",
+  "de": "Standard-Skin",
+  "es": "Aspecto Predeterminado",
+  "fr": "Skin par défaut",
+  "pt": "Skin Padrão",
+  "ja": "デフォルトスキン"
+},
+"Solar Skin": {
+  "en": "Solar Skin",
+  "de": "Solar-Skin",
+  "es": "Aspecto Solar",
+  "fr": "Skin Solaire",
+  "pt": "Skin Solar",
+  "ja": "太陽スキン"
+},
+"Cybernetic Skin": {
+  "en": "Cybernetic Skin",
+  "de": "Cybernetische Skin",
+  "es": "Aspecto Cibernético",
+  "fr": "Skin Cybernétique",
+  "pt": "Skin Cibernética",
+  "ja": "サイバネティックスキンの"
+},
+"Masquerade Skin": {
+  "en": "Masquerade Skin",
+  "de": "Maskenball-Skin",
+  "es": "Aspecto de Mascarada",
+  "fr": "Skin de Bal Masqué",
+  "pt": "Skin de Baile de Máscaras",
+  "ja": "仮面舞踏会スキン"
+},
   "Armor": {
     "en": "Armor",
     "de": "Rüstung",
@@ -311,4 +343,7 @@
     "pt": "Dezembro",
     "ja": "12月"
   }
+
+
+  
 }
