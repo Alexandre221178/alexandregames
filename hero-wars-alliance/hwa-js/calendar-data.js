@@ -131,7 +131,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
       titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
-      links: { en: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante%20-%20English.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante.html", ja: "" }
+      links: { en: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-en.html", de: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-de.html", es: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-es.html", fr: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-fr.html", pt: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-pt.html", ja: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-ja.html" }
        ,
       noStrip: true
        },
@@ -151,7 +151,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
       titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
-      links: { en: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante%20-%20English.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante.html", ja: "" }
+      links: { en: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-en.html", de: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-de.html", es: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-es.html", fr: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-fr.html", pt: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-pt.html", ja: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-ja.html" }
        ,
       noStrip: true
        },
@@ -171,7 +171,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
       titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
-      links: { en: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante%20-%20English.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante.html", ja: "" }
+      links: { en: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-en.html", de: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-de.html", es: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-es.html", fr: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-fr.html", pt: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-pt.html", ja: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-ja.html" }
          ,
         noStrip: true
          },
@@ -191,7 +191,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
       titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
-      links: { en: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante%20-%20English.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante.html", ja: "" }
+      links: { en: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-en.html", de: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-de.html", es: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-es.html", fr: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-fr.html", pt: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-pt.html", ja: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-ja.html" }
          ,
         noStrip: true
          },
@@ -215,7 +215,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
       titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
-      links: { en: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante%20-%20English.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante.html", ja: "" }
+      links: { en: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-en.html", de: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-de.html", es: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-es.html", fr: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-fr.html", pt: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-pt.html", ja: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-ja.html" }
          ,
         noStrip: true
          },
@@ -239,7 +239,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
       titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
-      links: { en: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante%20-%20English.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante.html", ja: "" }
+      links: { en: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-en.html", de: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-de.html", es: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-es.html", fr: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-fr.html", pt: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-pt.html", ja: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-ja.html" }
          ,
         noStrip: true
          },
@@ -263,7 +263,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
       titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
-      links: { en: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante%20-%20English.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante.html", ja: "" }
+      links: { en: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-en.html", de: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-de.html", es: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-es.html", fr: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-fr.html", pt: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-pt.html", ja: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-ja.html" }
          ,
         noStrip: true
          },

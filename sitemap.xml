@@ -733,42 +733,6 @@
   <priority>0.84</priority>
 </url>
 
-<url>
-  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/dante-en.html</loc>
-  <lastmod>2025-01-24T21:00-03:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/dante-pt.html</loc>
-  <lastmod>2025-01-24T21:00-03:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.84</priority>
-</url>
-<url>
-  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/dante-es.html</loc>
-  <lastmod>2025-01-24T21:00-03:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.84</priority>
-</url>
-<url>
-  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/dante-fr.html</loc>
-  <lastmod>2025-01-24T21:00-03:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.84</priority>
-</url>
-<url>
-  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/dante-de.html</loc>
-  <lastmod>2025-01-24T21:00-03:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.84</priority>
-</url>
-<url>
-  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/dante-ja.html</loc>
-  <lastmod>2025-01-24T21:00-03:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.84</priority>
-</url>
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Cascade%20-%20English.html</loc>
@@ -837,15 +801,53 @@
 </url>
 
 <url>
-  <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante%20-%20English.html</loc>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/dante-en.html</loc>
  <lastmod>2025-01-07T22:26-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Dante.html</loc>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/dante-pt.html</loc>
  <lastmod>2025-01-07T22:26-03:00</lastmod>
   <priority>0.51</priority>
 </url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/dante-en.html</loc>
+  <lastmod>2025-01-24T21:00-03:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/dante-pt.html</loc>
+  <lastmod>2025-01-24T21:00-03:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.84</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/dante-es.html</loc>
+  <lastmod>2025-01-24T21:00-03:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.84</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/dante-fr.html</loc>
+  <lastmod>2025-01-24T21:00-03:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.84</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/dante-de.html</loc>
+  <lastmod>2025-01-24T21:00-03:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.84</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/dante-ja.html</loc>
+  <lastmod>2025-01-24T21:00-03:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.84</priority>
+</url>
+
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/daredevil-herowars.html</loc>
