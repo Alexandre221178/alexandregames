@@ -13,7 +13,7 @@
     "es": "Legendario",
     "fr": "Légendaire",
     "pt": "Lendário",
-    "ja": "遺物"
+    "ja": "レジェンダリー"
   },
   "Relic": {
     "en": "Relic",
@@ -84,7 +84,7 @@
     "de": "Skins",
     "es": "Skins",
     "fr": "Skins",
-    "pt": "Skins",
+    "pt": "Trajes",
     "ja": "スキン"
   },
   "Best Skin": {
@@ -92,8 +92,8 @@
     "de": "Best Skin",
     "es": "Best Skin",
     "fr": "Best Skin",
-    "pt": "Best Skin",
-    "ja": "Best Skin (ベストスキン)"
+    "pt": "Melhor Skin",
+    "ja": "おすすめスキン"
   },
   "Armor": {
     "en": "Armor",
@@ -124,7 +124,7 @@
     "de": "Counters",
     "es": "Counters",
     "fr": "Counters",
-    "pt": "Counters",
+    "pt": "Contra-ataques",
     "ja": "カウンター"
   },
   "Agility": {
