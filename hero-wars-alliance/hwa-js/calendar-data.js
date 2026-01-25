@@ -124,13 +124,13 @@ window.CALENDAR_DATA = [
 {
     weekday: "Monday",
     date: "Jan, 26",
-    image: "../../hero-wars-alliance/img-hero-wars-alliance/event-img/way-of-eternity/way-of-eternity-event-150px.webp",
+    image: "../../hero-wars-alliance/images/hero/dante/dante-400px.webp",
     alt: "Way of Eternity",
     titles: { en: "Way of Eternity Guide", de: "Weg der Ewigkeit Leitfaden", es: "Camino de la Eternidad Guía", fr: "Chemin de l'Éternité Guide", pt: "Caminho da Eternidade Guia", ja: "永遠の道 ガイド" },
     links: { en: "../../hero-wars-alliance/event-hwa/way-of-eternity-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-eternity-pt.html", ja: "" },
     extra: [
       {
-      titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
+      titles: { en: "Dante Guide (Updated)", de: "Dante Leitfaden (Aktualisiert)", es: "Dante - Guía (Actualizado)", fr: "Dante - Guide (Mis à jour)", pt: "Guia - Dante (Atualizado)", ja: "ダンテ - ガイド (更新済み)" },
       links: { en: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-en.html", de: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-de.html", es: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-es.html", fr: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-fr.html", pt: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-pt.html", ja: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-ja.html" }
        ,
       noStrip: true
@@ -144,13 +144,13 @@ window.CALENDAR_DATA = [
   {
     weekday: "Tuesday",
     date: "Jan, 27",
-    image: "../../hero-wars-alliance/img-hero-wars-alliance/event-img/way-of-eternity/way-of-eternity-event-150px.webp",
+    image: "../../hero-wars-alliance/images/hero/dante/dante-400px.webp",
     alt: "Way of Eternity",
     titles: { en: "Way of Eternity Guide", de: "Weg der Ewigkeit Leitfaden", es: "Camino de la Eternidad Guía", fr: "Chemin de l'Éternité Guide", pt: "Caminho da Eternidade Guia", ja: "永遠の道 ガイド" },
     links: { en: "../../hero-wars-alliance/event-hwa/way-of-eternity-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-eternity-pt.html", ja: "" },
     extra: [
       {
-      titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
+      titles: { en: "Dante - Guide (Updated)", de: "Dante Leitfaden (Aktualisiert)", es: "Dante - Guía (Actualizado)", fr: "Dante - Guide (Mis à jour)", pt: "Guia - Dante (Atualizado)", ja: "ダンテ - ガイド (更新済み)" },
       links: { en: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-en.html", de: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-de.html", es: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-es.html", fr: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-fr.html", pt: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-pt.html", ja: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-ja.html" }
        ,
       noStrip: true
@@ -170,7 +170,7 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-alliance/event-hwa/way-of-eternity-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-eternity-pt.html", ja: "" },
     extra: [
       {
-      titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
+      titles: { en: "Dante - Guide (Updated)", de: "Dante Leitfaden (Aktualisiert)", es: "Dante - Guía (Actualizado)", fr: "Dante - Guide (Mis à jour)", pt: "Guia - Dante (Atualizado)", ja: "ダンテ - ガイド (更新済み)" },
       links: { en: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-en.html", de: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-de.html", es: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-es.html", fr: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-fr.html", pt: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-pt.html", ja: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-ja.html" }
          ,
         noStrip: true
@@ -190,7 +190,7 @@ window.CALENDAR_DATA = [
     links: { en: "../../Hero Wars/events/treasures-of-valkyries-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/treasures-of-valkyries-en-hwa.html", ja: "" },
     extra: [
       {
-      titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
+      titles: { en: "Dante - Guide (Updated)", de: "Dante Leitfaden (Aktualisiert)", es: "Dante - Guía (Actualizado)", fr: "Dante - Guide (Mis à jour)", pt: "Guia - Dante (Atualizado)", ja: "ダンテ - ガイド (更新済み)" },
       links: { en: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-en.html", de: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-de.html", es: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-es.html", fr: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-fr.html", pt: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-pt.html", ja: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-ja.html" }
          ,
         noStrip: true
@@ -214,7 +214,7 @@ window.CALENDAR_DATA = [
     links: { en: "../../Hero Wars/events/treasures-of-valkyries-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/treasures-of-valkyries-en-hwa.html", ja: "" },
     extra: [
       {
-      titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
+      titles: { en: "Dante - Guide (Updated)", de: "Dante Leitfaden (Aktualisiert)", es: "Dante - Guía (Actualizado)", fr: "Dante - Guide (Mis à jour)", pt: "Guia - Dante (Atualizado)", ja: "ダンテ - ガイド (更新済み)" },
       links: { en: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-en.html", de: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-de.html", es: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-es.html", fr: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-fr.html", pt: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-pt.html", ja: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-ja.html" }
          ,
         noStrip: true
@@ -238,7 +238,7 @@ window.CALENDAR_DATA = [
     links: { en: "../../Hero Wars/events/treasures-of-valkyries-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/treasures-of-valkyries-en-hwa.html", ja: "" },
     extra: [
       {
-      titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
+      titles: { en: "Dante - Guide (Updated)", de: "Dante Leitfaden (Aktualisiert)", es: "Dante - Guía (Actualizado)", fr: "Dante - Guide (Mis à jour)", pt: "Guia - Dante (Atualizado)", ja: "ダンテ - ガイド (更新済み)" },
       links: { en: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-en.html", de: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-de.html", es: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-es.html", fr: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-fr.html", pt: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-pt.html", ja: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-ja.html" }
          ,
         noStrip: true
@@ -262,7 +262,7 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "" },
     extra: [
       {
-      titles: { en: "Dante - Guide", de: "Dante Leitfaden", es: "Dante - Guía", fr: "Dante - Guide", pt: "Guia - Dante", ja: "ダンテ - ガイド" },
+      titles: { en: "Dante - Guide (Updated)", de: "Dante Leitfaden (Aktualisiert)", es: "Dante - Guía (Actualizado)", fr: "Dante - Guide (Mis à jour)", pt: "Guia - Dante (Atualizado)", ja: "ダンテ - ガイド (更新済み)" },
       links: { en: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-en.html", de: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-de.html", es: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-es.html", fr: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-fr.html", pt: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-pt.html", ja: "https://alexandregames.com/hero-wars-alliance/characters-guide/dante-ja.html" }
          ,
         noStrip: true
