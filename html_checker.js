@@ -42,8 +42,17 @@ function checkFile(filePath) {
             issues.push(`<title> duplicado: ${titleElements.length} elementos`);
         } else if (!titleText) {
             issues.push('Vazio: <title>');
-        } else if (titleText.length > 75) {
-            issues.push(`Title muito longo: ${titleText.length} caracteres (máximo 75)`);
+        } else {
+            const lang = $('html').attr('lang') || 'en';
+            let titleMax = 70; // default for EN, PT, ES
+            if (['de', 'fr'].includes(lang)) {
+                titleMax = 75;
+            } else if (lang === 'ja') {
+                titleMax = 35;
+            }
+            if (titleText.length > titleMax) {
+                issues.push(`Title muito longo: ${titleText.length} caracteres (máximo ${titleMax})`);
+            }
         }
 
         // Verificar <h1>
@@ -52,6 +61,11 @@ function checkFile(filePath) {
             issues.push('Faltando: <h1>');
         } else if (h1Elements.length > 1) {
             issues.push(`<h1> duplicado: ${h1Elements.length} elementos`);
+        } else {
+            const h1Text = h1Elements.first().text().trim();
+            if (h1Text.length > 85) {
+                issues.push(`H1 muito longo: ${h1Text.length} caracteres (máximo 85)`);
+            }
         }
 
         // Verificar <meta name="robots">
