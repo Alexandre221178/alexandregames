@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 
 <ul> 
-
+<!-- Link oculto para troca de idioma 
 <div class="dropdown">
     <button class="dropbtn"><span class="notranslate">Critiques</span></button>
     <div class="dropdown-content"><br>
@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <br><br><br>
     </div>
 </div>    
-
+-->
 <div class="dropdown">
    <button class="dropbtn"><span class="notranslate">Hero Wars Alliance</span></button>
     <div class="dropdown-content"> <br>                

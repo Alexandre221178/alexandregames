@@ -61,21 +61,19 @@ document.addEventListener('DOMContentLoaded', () => {
     <a href="https://alexandregames.com/index-pt.html"><img src="https://alexandregames.com/imagens/exandregames318x318-removebg.webp" alt="logo Alexandre Games Mobile" title="logo Alexandre Games Mobile"></a>
 </div>                     
 <ul>             
-
+<!-- Link oculto para troca de idioma 
 <div class="dropdown">
     <button class="dropbtn"><span class="notranslate">Análises de Gameplay</span></button>
     <div class="dropdown-content"><br>
         
     <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-pt.html">Como Instalar o AppGallery para Ganhar descontos em Hero Wars</a>
     <a href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-pt.html">Como Jogar Hero Wars Alliance no PC e Mac</a>
-                                 
-        
+         
         <br><br><br>
             <br><br><br>
-            
     </div>
 </div>    
-
+-->
 
 <div class="dropdown">
     <button class="dropbtn"><span class="notranslate">Hero Wars Alliance</span></button>
