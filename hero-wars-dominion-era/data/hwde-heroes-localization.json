@@ -72,6 +72,14 @@
     {"id":"Yasmine","en":"Yasmine","de":"Yasmine","es":"Yasmine","fr":"Yasmine","pt":"Yasmine","ja":"ヤスミン"},
     {"id":"Ziri","en":"Ziri","de":"Ziri","es":"Ziri","fr":"Ziri","pt":"Ziri","ja":"ジリ"}
   ],
+  "Hero Wars: Dominion Era": {
+    "en": "Hero Wars: Dominion Era",
+    "de": "Hero Wars: Dominion Era",
+    "es": "Hero Wars: Dominion Era",
+    "fr": "Hero Wars: Dominion Era",
+    "pt": "Hero Wars: Dominion Era",
+    "ja": "ヒーローウォーズ ドミニオン エラ"
+  },
   "labels": {
     "singular": {
       "en": "Pet",
