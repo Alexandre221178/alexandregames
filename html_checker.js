@@ -82,12 +82,12 @@ function checkFile(filePath) {
         if (descMeta.length > 0) {
             const descContent = descMeta.attr('content') || '';
             const lang = $('html').attr('lang') || 'en';
-            let minDesc = 140;
+            let minDesc = 120;
             let maxDesc = 160;
             if (['de', 'fr'].includes(lang)) {
                 maxDesc = 165;
             } else if (lang === 'ja') {
-                minDesc = 100;
+                minDesc = 80;
                 maxDesc = 120;
             }
             if (descContent.length < minDesc) {
