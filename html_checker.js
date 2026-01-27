@@ -77,6 +77,28 @@ function checkFile(filePath) {
             }
         }
 
+        // Verificar <meta name="description">
+        const descMeta = $('meta[name="description"]');
+        if (descMeta.length > 0) {
+            const descContent = descMeta.attr('content') || '';
+            const lang = $('html').attr('lang') || 'en';
+            let minDesc = 140;
+            let maxDesc = 160;
+            if (['de', 'fr'].includes(lang)) {
+                maxDesc = 165;
+            } else if (lang === 'ja') {
+                minDesc = 100;
+                maxDesc = 120;
+            }
+            if (descContent.length < minDesc) {
+                issues.push(`Descrição muito curta: ${descContent.length} caracteres (mínimo ${minDesc})`);
+            } else if (descContent.length > maxDesc) {
+                issues.push(`Descrição muito longa: ${descContent.length} caracteres (máximo ${maxDesc})`);
+            }
+        } else {
+            issues.push('Faltando: <meta name="description">');
+        }
+
         // Detectar script de nav para determinar idiomas esperados
         let expectedLangs = null; // null significa não verificar hreflang
         const navScripts = [];
