@@ -34,6 +34,28 @@ function checkFile(filePath) {
             return issues; // sem issues
         }
 
+        // Páginas que não devem ter anúncios (páginas legais, contato, etc.)
+        const noAdsPages = [
+            'Política de Privacidade', 'Privacy Policy', 'Termos de Uso', 'Terms of Use',
+            'Contato', 'Contact', 'Sobre', 'About', 'Disclaimer', 'Aviso Legal',
+            'Legal Notice', 'Sobre Nós', 'About Us'
+        ];
+        const isNoAdsPage = noAdsPages.some(noAdsTitle => titleText.includes(noAdsTitle)) ||
+                            filePath.includes('404.html') ||
+                            filePath.includes('calendar-hwa') ||
+                            filePath.includes('Documentos\\') && (
+                                filePath.includes('about.html') ||
+                                filePath.includes('aviso-legal.html') ||
+                                filePath.includes('Contact.html') ||
+                                filePath.includes('Contato.html') ||
+                                filePath.includes('disclaimer.html') ||
+                                filePath.includes('Política de privacidade.html') ||
+                                filePath.includes('PrivacyPolicy.html') ||
+                                filePath.includes('Sobre.html') ||
+                                filePath.includes('Termos de uso.html') ||
+                                filePath.includes('TermsofUse.html')
+                            );
+
         // Verificar <title>
         const titleElements = $('title');
         if (titleElements.length === 0) {
@@ -229,6 +251,68 @@ function checkFile(filePath) {
                 }
             }
         });
+
+        // Verificar anúncios (ads)
+        if (!isNoAdsPage) {
+            // Coletar todos os elementos no documento em ordem
+            const allElements = [];
+            $('html *').each((i, elem) => {
+                allElements.push($(elem));
+            });
+            // Encontrar índices dos anúncios (script com src adsbygoogle no head como automático, ins com class adsbygoogle no body como manuais)
+            const adIndices = [];
+            allElements.forEach((elem, index) => {
+                const tag = elem.prop('tagName').toLowerCase();
+                if (tag === 'ins' && elem.attr('class') && elem.attr('class').includes('adsbygoogle')) {
+                    adIndices.push(index);
+                } else if (tag === 'script' && elem.attr('src') && elem.attr('src').includes('adsbygoogle')) {
+                    // Apenas o primeiro (no head) é automático
+                    if (adIndices.length === 0) {
+                        adIndices.push(index);
+                    }
+                }
+            });
+            // Verificar presença de anúncios
+            if (adIndices.length === 0) {
+                issues.push('Faltando anúncios (adsbygoogle)');
+            } else {
+                // O primeiro anúncio é automático (no head), os demais manuais no body
+                // Verificar distância mínima de 350px (18 linhas a 20px) entre anúncios manuais
+                const manualAdIndices = adIndices.slice(1);
+                for (let i = 1; i < manualAdIndices.length; i++) {
+                    const prevIndex = manualAdIndices[i - 1];
+                    const currIndex = manualAdIndices[i];
+                    // Contar elementos entre os anúncios (excluindo os anúncios)
+                    const elementsBetweenCount = currIndex - prevIndex - 1;
+                    let estimatedLines = 0;
+                    for (let j = prevIndex + 1; j < currIndex; j++) {
+                        const elem = allElements[j];
+                        const tag = elem.prop('tagName').toLowerCase();
+                        const classes = elem.attr('class') || '';
+                        if (tag === 'p') {
+                            estimatedLines += 3.5; // média 3-4
+                        } else if (['h2', 'h3', 'h4'].includes(tag)) {
+                            estimatedLines += 4;
+                        } else if (tag === 'table') {
+                            estimatedLines += 8; // média 6-10
+                        } else if (tag === 'figure') {
+                            if (classes.includes('img-banner')) {
+                                estimatedLines += 14;
+                            } else {
+                                estimatedLines += 9; // média 6-12
+                            }
+                        } else if (tag === 'li') {
+                            estimatedLines += 2; // 2 linhas
+                        } else {
+                            estimatedLines += 1; // outros elementos
+                        }
+                    }
+                    if (estimatedLines < 18) { // Menos de 350px estimados (18 linhas a 20px)
+                        issues.push(`Anúncio manual ${i} está muito próximo do anterior (menos de 350px estimados, ${estimatedLines.toFixed(1)} linhas entre anúncios)`);
+                    }
+                }
+            }
+        }
 
     } catch (e) {
         issues.push(`Erro ao processar arquivo: ${e.message}`);
