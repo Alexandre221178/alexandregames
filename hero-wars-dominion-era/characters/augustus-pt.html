@@ -203,6 +203,16 @@ Se você gosta de magos que combinam elegância, poder bruto e sinergia brilhant
 </ul>
 </section>
 
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="8517307629"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+
 
 <div class="sectionx">
 <section>
@@ -346,22 +356,20 @@ Se você gosta de magos que combinam elegância, poder bruto e sinergia brilhant
   </p>
 </div>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-     crossorigin="anonymous"></script>
-<!-- Hero Wars Dominion Era - Bloco 3 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7838775403194689"
-     data-ad-slot="7998548477"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 </div>
 </section>
 </div>
+
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="7060755724"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+
 <div class="sectionx">
 <section>
 <h2>Melhor Skin para Augustus – Hero Wars: Dominion Era</h2>
@@ -1266,6 +1274,31 @@ Este time é extremamente forte porque combina alto dano sustentado, poderosas e
 
 
 <!-- close <div class="container"> -->
+<script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
+
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
+
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
+
+
 
 </body>
 </html>

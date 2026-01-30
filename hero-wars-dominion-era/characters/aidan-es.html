@@ -181,18 +181,16 @@
 
 </section>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-  crossorigin="anonymous"></script>
-<!-- Hero Wars Dominion Era - Bloco 2 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-7838775403194689"
-  data-ad-slot="1712341724"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="8517307629"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+
 
 <section>
   <h2>Ventajas y desventajas de Aidan - Hero Wars: Web y Facebook</h2>
@@ -222,18 +220,16 @@
 <h2>Prioridad de mejora de habilidades de Aidan - Hero Wars: Dominion Era</h2>
 <p>Domina las habilidades de Aidan entendiendo las fórmulas de daño y la prioridad de mejoras para maximizar su curación y su potencial ofensivo.</p>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-  crossorigin="anonymous"></script>
-<!-- Hero Wars Dominion Era - Bloco 3 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-7838775403194689"
-  data-ad-slot="7998548477"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="7060755724"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+
 
 <div class="emblem">
     <div class="emblem-title">
@@ -1219,6 +1215,31 @@
     <script src="../../alex-java/graphcomments-07z.js" defer></script>
     <script src="../../alex-java/share-global-es.js" defer></script>
     <script src="../../alex-java/translate07-es.js" defer></script>
+
+    <script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
+
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
+
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
+
 
 </body>
 </html>
