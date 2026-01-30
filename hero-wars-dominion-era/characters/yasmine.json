@@ -1,0 +1,381 @@
+{
+  "id": "yasmine",
+  "name": "Yasmine",
+  "gender": "female",
+  "role": ["warrior"],
+  "main_role": "Warrior",
+  "position": "20",
+  "main_stat": "Agility",
+  "how_to_get_soul_stones": "Guild Shop, Soul Chests, Soul Atrium",
+  "patronage": "Fenris, Cain, Albus",
+  "sinergy": "Sebastian, Astaroth",
+  "stats": {
+      "intelligence": 2790,
+      "agility": 17935,
+      "strength": 2987,
+      "health": 410325,
+      "physical_attack": 89672,
+      "magic_attack": 8370,
+      "armor": 32986,
+      "magic_defense": 9775,
+      "dodge": 11857,
+      "crit_hit_chance": 14135,
+      "accuracy": 17935,
+      "": 17935,
+      "vampirism": 0,
+      "magic_penetration": 0,
+      "armor_penetration": 5740,
+      "power": 190271
+    
+    },
+   
+  "skills": [
+    {
+      "id": 1,
+      "variant": "base",
+      "level": 130,
+      "name": "Dance of Death",
+      "type": ["ultimate", "white"],
+      "animation_delay_seconds": 0,
+      "damage_formula": "41,069 (40% physical attack + 40 * level)",
+      "scales_with": ["Physical Attack"],
+      "description": "Yasmine paralyzes the last enemy who attacked her for 3s, appears behind their back, hits 7 times, and applies an Assassin's Mark. While Dance of Death is active, no debuffs can be applied to Yasmine. When it ends, she returns to the previous position and continues attacking the marked enemy with basic attacks."
+    },
+    {
+      "id": 2,
+      "variant": "base",
+      "level": 130,
+      "name": "Assassin's Instinct",
+      "type": ["passive", "green"],
+      "animation_delay_seconds": 0,
+      "damage_formula": "",
+      "scales_with": [],
+      "description": "When Dance of Death is activated, Yasmine's critical hit chance and Dodge are increased for 10s. Extra critical hit chance and Dodge: 41,569 (40% physical attack + 40 * level + 500)"
+    },
+    {
+      "id": 3,
+      "variant": "base",
+      "level": 130,
+      "name": "Embrace of Pain",
+      "type": ["passive", "blue"],
+      "animation_delay_seconds": 0,
+      "damage_formula": "",
+      "scales_with": [],
+      "description": "Yasmine's critical hits poison the enemy. When poison is re-applied to a poisoned enemy, the duration of the poison debuff is refreshed, and the damage stacks up to 10 times. One poison debuff deals 33,492 (33% physical attack + 30 * level) pure damage per 5s"
+    },
+    {
+      "id": 4,
+      "variant": "base",
+      "level": 130,
+      "name": "Unknown Toxin",
+      "type": ["passive", "violet"],
+      "animation_delay_seconds": 0,
+      "damage_formula": "",
+      "scales_with": [],
+      "description": "Blocks a portion of healing received by enemies poisoned by Yasmine. 22,334 (20% physical attack + 30 * level + 500) points of healing are blocked per heal."
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "Concubine's Khanjars",
+      "stats": {
+        "crit_hit_chance": 13941,
+        "power": 12546
+      },
+      "costs": {
+        "absolute_artifact_essence": 1635,
+        "flawless_artifact_essence": 1199,
+        "chaos_core": 121
+      }
+    },
+    {
+      "name": "Warrior's Code",
+      "stats": {
+        "physical_attack": 5577,
+        "crit_hit_chance": 4647,
+        "power": 12547
+      },
+      "costs": {
+        "absolute_artifact_scroll": 1635,
+        "flawless_artifact_scroll": 1199,
+        "chaos_core": 121
+      }
+    },
+    {
+      "name": "Ring of Agility",
+      "stats": {
+        "agility": 6249,
+        "power": 17184
+      },
+      "costs": {
+        "absolute_artifact_metal": 1635,
+        "flawless_artifact_metal": 1199,
+        "chaos_core": 121
+      }
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": {
+        "agility": 1365,
+        "power": 3753
+      },
+      "cost": {
+        "agility_skin_stone": 30825
+      }
+    },
+    {
+      "name": "Demonic Skin",
+      "stats": {
+        "physical_attack": 7095,
+        "power": 5321
+      },
+      "cost": {
+        "agility_skin_stone": 55410
+      }
+    },
+    {
+      "name": "Romantic Skin",
+      "stats": {
+        "crit_hit_chance": 2960,
+        "power": 5328
+      },
+      "cost": {
+        "agility_skin_stone": 55410
+      }
+    },
+    {
+      "name": "Masquerade Skin",
+      "stats": {
+        "armor": 10650,
+        "power": 5325
+      },
+      "cost": {
+        "agility_skin_stone": 55410
+      }
+    },
+    {
+      "name": "Cybernetic Skin",
+      "stats": {
+        "dodge": 2960,
+        "power": 5328
+      },
+      "cost": {
+        "agility_skin_stone": 55410
+      }
+    },
+    {
+      "name": "League Arena Skin",
+      "type": "cosmetic"
+    }
+  ],
+  "glyphs": [
+    {
+      "name": "Physical attack Glyph",
+      "stats": {
+        "physical_attack": 4340,
+        "power": 3255
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    },
+    {
+      "name": "Health Glyph",
+      "stats": {
+        "health": 62200,
+        "power": 3110
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    },
+    {
+      "name": "Crit hit chance Glyph",
+      "stats": {
+        "crit_hit_chance": 1995,
+        "power": 3591
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    },
+    {
+      "name": "Dodge Glyph",
+      "stats": {
+        "dodge": 1995,
+        "power": 3591
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    },
+    {
+      "name": "Agility Glyph",
+      "stats": {
+        "agility": 1135,
+        "power": 3121
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    }
+  ],
+  "ascension": [
+    {
+      "level": "I",
+      "stats": {
+        "health": 7000,
+        "agility": 230,
+        "physical_attack": 360,
+        "dodge": 300,
+        "crit_hit_chance": 250,
+        "power": 2242
+      },
+      "costs": {
+        "agility_crystal": 2275,
+        "star_mana": 5420,
+        "gold": 1650000
+      }
+    },
+    {
+      "level": "II",
+      "stats": {
+        "health": 13000,
+        "agility": 315,
+        "physical_attack": 710,
+        "dodge": 800,
+        "power": 3488
+      },
+      "costs": {
+        "agility_crystal": 1950,
+        "star_mana": 9160,
+        "gold": 5775000,
+        "vibrant_agility_crystal": 1150
+      }
+    },
+    {
+      "level": "III",
+      "stats": {
+        "health": 19500,
+        "agility": 495,
+        "physical_attack": 1130,
+        "dodge": 680,
+        "crit_hit_chance": 610,
+        "power": 5505
+      },
+      "costs": {
+        "vibrant_agility_crystal": 2375,
+        "valor_insignia": 1175,
+        "star_mana": 20200,
+        "gold": 12400000
+      }
+    },
+    {
+      "level": "IV",
+      "stats": {
+        "health": 25000,
+        "agility": 560,
+        "physical_attack": 1440,
+        "dodge": 1470,
+        "power": 6516
+      },
+      "costs": {
+        "vibrant_agility_crystal": 475,
+        "valor_insignia": 1220,
+        "star_mana": 42540,
+        "gold": 21600000,
+        "radiant_agility_crystal": 1460,
+        "greater_valor_insignia": 235
+      }
+    },
+    {
+      "level": "V",
+      "stats": {
+        "health": 26750,
+        "agility": 610,
+        "physical_attack": 1630,
+        "dodge": 870,
+        "crit_hit_chance": 800,
+        "power": 7243
+      },
+      "costs": {
+        "radiant_agility_crystal": 1925,
+        "greater_valor_insignia": 1925,
+        "star_mana": 80180,
+        "gold": 38300000
+      }
+    },
+    {
+      "level": "I-V",
+      "stats": {
+        "health": 91250,
+        "agility": 2210,
+        "physical_attack": 5270,
+        "dodge": 4120,
+        "crit_hit_chance": 1660,
+        "power": 24996
+      },
+      "costs": {
+        "agility_crystal": 4225,
+        "star_mana": 157500,
+        "gold": 79725000,
+        "vibrant_agility_crystal": 4000,
+        "valor_insignia": 2395,
+        "radiant_agility_crystal": 3385,
+        "greater_valor_insignia": 2160
+      }
+    }
+  ],
+  "tree_of_wisdom": {
+    "stats": {
+      "health": 40440,
+      "physical_attack": 5411,
+      "magic_defense": 3810,
+      "armor": 3396,
+      "armor_penetration": 5740,
+      "power": 12553
+    },
+    "costs": {
+      "eternal_seed": 586,
+      "ancient_wisdom_crystal": 47400
+    }
+  },
+  "miscellaneous": {
+    "levels": {
+      "stats": {
+        "intelligence": 1560,
+        "agility": 3250,
+        "strength": 1690,
+        "power": 17875
+      },
+      "costs": {
+        "huge_exp_potion": 483,
+        "yasmine_soul_stone": 630
+      }
+    },
+    "gift_of_the_elements": {
+      "stats": {
+        "intelligence": 360,
+        "agility": 720,
+        "strength": 360,
+        "power": 3960
+      },
+      "costs": {
+        "spark_of_power": 65150,
+        "gold": 7927500
+      }
+    }
+  }
+}
