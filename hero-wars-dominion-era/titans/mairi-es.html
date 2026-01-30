@@ -232,6 +232,16 @@
     </div>
 </div>
 
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="7060755724"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+
 <div class="emblem">
     <div class="emblem-title">
         <img src="../../hero-wars-dominion-era/images/titans/totem/water-totem.webp" alt="Water Spirit Totem - Hero Wars: Dominion Era" title="Water Spirit Totem - Hero Wars: Dominion Era" loading="lazy">
@@ -261,18 +271,6 @@
 </section>
 </div>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-     crossorigin="anonymous"></script>
-<!-- Hero Wars Dominion Era - Bloco 3 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7838775403194689"
-     data-ad-slot="7998548477"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 <div class="sectionx">
 <section>
@@ -699,6 +697,31 @@
     <script src="../../alex-java/share-global-es.js" defer></script>
     <script src="../../alex-java/translate07-es.js" defer></script>
     <!--<script src="../../alex-java/carousel-slide.js" defer></script>-->
+
+<script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
+
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
+
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
+
 
 </body>
 </html>
