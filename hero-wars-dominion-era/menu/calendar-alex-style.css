@@ -1,0 +1,413 @@
+/* ==========================================================================
+   Calendar Component Styles for Hero Wars Alliance
+   - Desktop: 7 columns
+   - Tablet: 4 columns  
+   - Mobile: 2 columns
+   ========================================================================== */
+
+/* -------------------------------------------------------------------------
+   BASE CALENDAR GRID - Matches estilo13z.css but with higher specificity
+   ------------------------------------------------------------------------- */
+
+/* Default calendar grid - 7 columns on desktop */
+div.calendar {
+  display: grid !important;
+  grid-template-columns: repeat(7, 1fr) !important;
+  gap: 10px !important;
+  padding: 20px !important;
+}
+
+/* Diagnostic: visible debug box when no data loaded */
+/* diagnostic styles removed (reverted) */
+
+/* CRITICAL: Make #calendar-container also a grid so events display in columns */
+div.calendar #calendar-container {
+  display: grid !important;
+  grid-template-columns: repeat(7, 1fr) !important;
+  gap: 10px !important;
+  grid-column: 1 / -1; /* span all columns of parent grid */
+}
+
+/* Event container styling */
+div.calendar > .event-container,
+div.calendar #calendar-container > .event-container {
+  font-size: 14px !important;
+  position: relative !important;
+  padding: 10px !important;
+  background-color: #0577dc !important;
+  border-radius: 5px !important;
+  text-align: center !important;
+  height: 250px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Weekday label */
+div.calendar .weekday {
+  position: absolute !important;
+  top: -1px !important;
+  left: 10px !important;
+  z-index: 2 !important;
+  font-weight: bold !important;
+  font-size: 10px !important;
+  color: #fff !important;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000 !important;
+}
+
+/* Event wrapper */
+div.calendar .event {
+  position: relative !important;
+  overflow: hidden !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Event links */
+div.calendar .event a {
+  display: block !important;
+  line-height: 14px !important;
+  margin-bottom: 7px !important;
+  color: yellow !important;
+  text-decoration: none !important;
+  position: relative !important;
+  font-weight: bold !important;
+  top: 25px !important;/* altura das letras */
+  left: 2px !important;
+  z-index: 10 !important;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000 !important;
+}
+
+/* Event images */
+div.calendar .event img {
+  width: 100% !important;
+  height: 95% !important;
+  position: absolute !important;
+  top: 56% !important;
+  left: 51% !important;
+  transform: translate(-50%, -50%) !important;
+  z-index: 1 !important;
+  object-fit: cover !important;
+}
+
+/* Overlay */
+div.calendar .overlay {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  background: rgba(0, 0, 0, 0.3) !important;
+  z-index: 1 !important;
+}
+
+/* Date label */
+div.calendar .date {
+  position: absolute !important;
+  z-index: 2 !important;
+  color: #fff !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) !important;
+  top: 1px !important;
+  left: 2px !important;
+  font-weight: bold !important;
+}
+
+/* Event title */
+div.calendar .event-title {
+  position: absolute !important;
+  z-index: 2 !important;
+  color: #fff !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) !important;
+  bottom: 5px !important;
+  left: 5px !important;
+  right: 5px !important;
+  text-align: center !important;
+  font-weight: bold !important;
+}
+
+/* Non-clickable label style - same as old HTML:
+   <a style="color: white; text-decoration: none;" onmouseover="this.style.color='white'" onmouseout="this.style.color='white'">Text</a>
+*/
+div.calendar .event-label,
+div.calendar .event .event-label {
+  color: white !important;
+  text-decoration: none !important;
+  cursor: default !important;
+  display: block !important;
+  line-height: 14px !important;
+  margin-bottom: 7px !important;
+  position: relative !important;
+  font-weight: bold !important;
+  top: 25px !important;
+  left: 2px !important;
+  z-index: 10 !important;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000 !important;
+}
+div.calendar .event-label:hover {
+  color: white !important;
+}
+
+/* -------------------------------------------------------------------------
+   RESPONSIVE BREAKPOINTS
+   ------------------------------------------------------------------------- */
+
+/* Tablet: 4 columns */
+@media (max-width: 768px) {
+  div.calendar {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+  div.calendar #calendar-container {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+}
+
+/* Mobile: 2 columns */
+@media (max-width: 480px) {
+  div.calendar {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  div.calendar #calendar-container {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  
+  div.calendar > .event-container,
+  div.calendar #calendar-container > .event-container {
+    height: 180px !important;
+  }
+  
+  div.calendar .event a,
+  div.calendar .event-label {
+    top: 7px !important;
+  }
+}
+
+/* -------------------------------------------------------------------------
+   GROUP-BY-IMAGE LAYOUT (when data-layout="group-by-image")
+   Shows events grouped by their image
+   ------------------------------------------------------------------------- */
+
+div.calendar[data-layout="group-by-image"] {
+  display: block !important;
+  grid-template-columns: none !important;
+}
+
+div.calendar[data-layout="group-by-image"] .group-by-image {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 16px !important;
+  align-items: flex-start !important;
+  padding: 12px 6px !important;
+  border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+  margin-bottom: 10px !important;
+}
+
+div.calendar[data-layout="group-by-image"] .group-image {
+  flex: 0 0 180px !important;
+  width: 180px !important;
+}
+
+div.calendar[data-layout="group-by-image"] .group-image img {
+  width: 100% !important;
+  height: auto !important;
+  border-radius: 6px !important;
+  object-fit: cover !important;
+  display: block !important;
+  position: static !important;
+  transform: none !important;
+  top: auto !important;
+  left: auto !important;
+}
+
+div.calendar[data-layout="group-by-image"] .group-items {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 10px !important;
+}
+
+div.calendar[data-layout="group-by-image"] .group-items .event-container {
+  flex: 1 1 180px !important;
+  min-width: 150px !important;
+  max-width: 220px !important;
+  height: auto !important;
+  min-height: 100px !important;
+  background: #077dbd !important;
+  padding: 10px !important;
+  border-radius: 6px !important;
+  display: block !important;
+  position: relative !important;
+  text-align: left !important;
+}
+
+div.calendar[data-layout="group-by-image"] .event-container .weekday {
+  position: static !important;
+  display: block !important;
+  top: auto !important;
+  left: auto !important;
+  margin-bottom: 4px !important;
+  font-size: 11px !important;
+}
+
+div.calendar[data-layout="group-by-image"] .event-container .date {
+  position: static !important;
+  display: block !important;
+  top: auto !important;
+  left: auto !important;
+  margin-bottom: 6px !important;
+  font-size: 13px !important;
+}
+
+div.calendar[data-layout="group-by-image"] .event-container .event {
+  position: static !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+
+div.calendar[data-layout="group-by-image"] .event-container .event img {
+  display: none !important;
+}
+
+div.calendar[data-layout="group-by-image"] .event-container .overlay {
+  display: none !important;
+}
+
+div.calendar[data-layout="group-by-image"] .event-container .event a,
+div.calendar[data-layout="group-by-image"] .event-container .event-title {
+  position: static !important;
+  display: block !important;
+  top: auto !important;
+  left: auto !important;
+  bottom: auto !important;
+  right: auto !important;
+  margin: 4px 0 !important;
+  line-height: 1.4 !important;
+  color: yellow !important;
+  font-size: 13px !important;
+}
+
+/* Responsive for group-by-image */
+@media (max-width: 800px) {
+  div.calendar[data-layout="group-by-image"] .group-by-image {
+    flex-direction: column !important;
+  }
+  
+  div.calendar[data-layout="group-by-image"] .group-image {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    max-width: 300px !important;
+  }
+  
+  div.calendar[data-layout="group-by-image"] .group-items .event-container {
+    flex: 1 1 45% !important;
+    max-width: 48% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  div.calendar[data-layout="group-by-image"] .group-items .event-container {
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+/* -------------------------------------------------------------------------
+   GROUP-BY-DATE LAYOUT (when data-layout="group-by-date")
+   Shows events grouped by date in columns
+   ------------------------------------------------------------------------- */
+
+div.calendar[data-layout="group-by-date"] {
+  display: flex !important;
+  grid-template-columns: none !important;
+  gap: 12px !important;
+  padding: 12px !important;
+  flex-wrap: wrap !important;
+  align-items: flex-start !important;
+}
+
+div.calendar[data-layout="group-by-date"] .date-column {
+  flex: 1 1 30% !important;
+  min-width: 200px !important;
+  max-width: 33% !important;
+  box-sizing: border-box !important;
+  background: rgba(7, 125, 189, 0.1) !important;
+  padding: 10px !important;
+  border-radius: 6px !important;
+}
+
+div.calendar[data-layout="group-by-date"] .date-header {
+  font-weight: 700 !important;
+  margin-bottom: 8px !important;
+  color: #077dbd !important;
+  font-size: 16px !important;
+}
+
+div.calendar[data-layout="group-by-date"] .date-items {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+}
+
+div.calendar[data-layout="group-by-date"] .event-container {
+  background: #077dbd !important;
+  height: auto !important;
+  min-height: 60px !important;
+  padding: 8px !important;
+  display: block !important;
+  position: relative !important;
+}
+
+div.calendar[data-layout="group-by-date"] .event-container .event {
+  position: static !important;
+  height: auto !important;
+}
+
+div.calendar[data-layout="group-by-date"] .event-container .event img {
+  position: static !important;
+  transform: none !important;
+  width: 100% !important;
+  height: auto !important;
+  top: auto !important;
+  left: auto !important;
+  margin-bottom: 8px !important;
+  border-radius: 4px !important;
+}
+
+div.calendar[data-layout="group-by-date"] .event-container .overlay {
+  display: none !important;
+}
+
+div.calendar[data-layout="group-by-date"] .event-container .event a,
+div.calendar[data-layout="group-by-date"] .event-container .event-title {
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  bottom: auto !important;
+  display: block !important;
+  margin: 4px 0 !important;
+}
+
+/* Responsive for group-by-date */
+@media (max-width: 900px) {
+  div.calendar[data-layout="group-by-date"] .date-column {
+    flex: 1 1 45% !important;
+    min-width: 180px !important;
+    max-width: 48% !important;
+  }
+}
+
+@media (max-width: 520px) {
+  div.calendar[data-layout="group-by-date"] .date-column {
+    flex: 1 1 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+/* -------------------------------------------------------------------------
+   FALLBACK LINK INDICATOR
+   ------------------------------------------------------------------------- */
+
+div.calendar .lang-fallback {
+  opacity: 0.85 !important;
+}
