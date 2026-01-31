@@ -2,6 +2,15 @@
   // Carousel multi-language injector (HWDE specific copy)
   const slides = [
     {
+      link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
+      src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-400px.webp",
+      alt: "Calendar for Hero Wars: Dominion Era",
+      title: "Calendar for Hero Wars: Dominion Era.",
+      strong: "Calendar - Hero Wars: Dominion Era",
+      updated: "Updated: January, 2026."
+    },
+    {
       link: "../../hero-wars-dominion-era/characters/fluffy-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/fluffy/fluffy-500px.webp",
       src400: "../../hero-wars-dominion-era/images/hero/fluffy/fluffy-400px.webp",
