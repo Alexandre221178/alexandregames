@@ -19,6 +19,11 @@ window.CALENDAR_DATA = [
   ]
   },
 
+  {
+        titles: { en: "Electra's Brawls", pt: "Electra's Brawls(Brigas da Electra)", de: "Electra's Brawls(Electras Kämpfe)", es: "Electra's Brawls(Luchas de Electra)", fr: "Electra's Brawls(Combats d'Electra)", ja: "Electra's Brawls(エレクトラの乱闘)" },
+        labelOnly: true
+  },
+
   // ===================== JANUARY 2026 =====================
   {
     weekday: "Thursday",
