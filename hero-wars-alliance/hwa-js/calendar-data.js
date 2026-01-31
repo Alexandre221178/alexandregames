@@ -367,14 +367,15 @@ labelOnly: true
     titles: { en: "Jet Guide", de: "Jet-Guide", es: "Guía de Jet", fr: "Guide de Jet", pt: "Guia do Jet", ja: "ジェットガイド" },
     links: { en: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Jet%20-%20English.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Jet.html", ja: "" },
     extra: [   
-      {// Dentro de extra[] de um evento:
-titles: { en: "Masks of Oblivion", pt: "Máscaras do Esquecimento", de: "Masken des Vergessens", es: "Máscaras del Olvido", fr: "Masques de l’Oubli", ja: "忘却の仮面" },
-labelOnly: true
-}, 
+    
 {
         titles: { en: "Drayne - Relic Event", de: "Drayne - Relikt-Ereignis", es: "Drayne - Evento de Reliquia", fr: "Drayne - Événement des Reliques", pt: "Drayne - Evento de Relíquia", ja: "ドレイン - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
-       },              
+       },  
+         {// Dentro de extra[] de um evento:
+titles: { en: "Masks of Oblivion", pt: "Máscaras do Esquecimento", de: "Masken des Vergessens", es: "Máscaras del Olvido", fr: "Masques de l’Oubli", ja: "忘却の仮面" },
+labelOnly: true
+},            
     ]
   },
   {

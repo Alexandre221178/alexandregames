@@ -175,9 +175,17 @@ div.calendar .event-label:hover {
     height: 180px !important;
   }
   
-  div.calendar .event a,
-  div.calendar .event-label {
+  div.calendar .event a {
     top: 7px !important;
+  }
+  
+  /* Label (labelOnly) em mobile: reduz espaçamento */
+  div.calendar .event-label {
+    position: static !important;
+    top: auto !important;
+    margin-top: -12px !important;
+    margin-bottom: 0 !important;
+    line-height: 11px !important;
   }
 }
 

@@ -586,6 +586,11 @@ window.CALENDAR_DATA = [
     alt: "",
   noStrip: true,
   extra: [
+    
+    {
+        titles: { },
+        labelOnly: true
+      },
     {
         titles: { en: "Titan Brawls", pt: "Titan Brawls(Briga de Titãs)", de: "Titan Brawls(Titanenkämpfe)", es: "Titan Brawls(Peleas de Titanes)", fr: "Titan Brawls(Combats de Titans)", ja: "Titan Brawls(タイタンの乱闘)" },
         labelOnly: true
@@ -599,10 +604,7 @@ window.CALENDAR_DATA = [
     alt: "",
   noStrip: true,
   extra: [
-    {
-        titles: { en: "Titan Brawls", pt: "Titan Brawls(Briga de Titãs)", de: "Titan Brawls(Titanenkämpfe)", es: "Titan Brawls(Peleas de Titanes)", fr: "Titan Brawls(Combats de Titans)", ja: "Titan Brawls(タイタンの乱闘)" },
-        labelOnly: true
-      },
+   
       {
         titles: { en: "Emerald Waterfalls", pt: "Cachoeiras de Esmeralda", de: "Smaragdwasserfälle", es: "Cascadas de Esmeraldas", fr: "Cascades d'Émeraudes", ja: "エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
@@ -610,6 +612,10 @@ window.CALENDAR_DATA = [
       {
         titles: { en: "Secret Wealth", pt: "Riqueza Secreta", de: "Geheimer Reichtum", es: "Riqueza Secreta", fr: "Richesse Secrète", ja: "秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
+      },
+       {
+        titles: { en: "Titan Brawls", pt: "Titan Brawls(Briga de Titãs)", de: "Titan Brawls(Titanenkämpfe)", es: "Titan Brawls(Peleas de Titanes)", fr: "Titan Brawls(Combats de Titans)", ja: "Titan Brawls(タイタンの乱闘)" },
+        labelOnly: true
       },
   ]
   },
