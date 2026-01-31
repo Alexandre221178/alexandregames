@@ -342,7 +342,18 @@ window.CALENDAR_DATA = [
       {// Dentro de extra[] de um evento:
 titles: { en: "Masks of Oblivion", pt: "Máscaras do Esquecimento", de: "Masken des Vergessens", es: "Máscaras del Olvido", fr: "Masques de l’Oubli", ja: "忘却の仮面" },
 labelOnly: true
-}               
+},
+{// Dentro de extra[] de um evento:
+titles: {
+  en: "Oblivion Skins for Dante(Skin+), Octavia, and Electra",
+  pt: "Skins do Esquecimento para Dante (Skin+), Octavia e Electra",
+  fr: "Skins de l’Oubli pour Dante (Skin+), Octavia et Electra",
+  es: "Aspectos del Olvido para Dante (Skin+), Octavia y Electra",
+  de: "Vergessen-Skins für Dante (Skin+), Octavia und Electra",
+  ja: "ダンテ（スキン+）、オクタヴィア、エレクトラの忘却スキン"
+},
+labelOnly: true
+}                         
     ]
   },
   {
@@ -356,7 +367,18 @@ labelOnly: true
       {// Dentro de extra[] de um evento:
 titles: { en: "Masks of Oblivion", pt: "Máscaras do Esquecimento", de: "Masken des Vergessens", es: "Máscaras del Olvido", fr: "Masques de l’Oubli", ja: "忘却の仮面" },
 labelOnly: true
-}               
+},
+{// Dentro de extra[] de um evento:
+titles: {
+  en: "Oblivion Skins for Dante(Skin+), Octavia, and Electra",
+  pt: "Skins do Esquecimento para Dante (Skin+), Octavia e Electra",
+  fr: "Skins de l’Oubli pour Dante (Skin+), Octavia et Electra",
+  es: "Aspectos del Olvido para Dante (Skin+), Octavia y Electra",
+  de: "Vergessen-Skins für Dante (Skin+), Octavia und Electra",
+  ja: "ダンテ（スキン+）、オクタヴィア、エレクトラの忘却スキン"
+},
+labelOnly: true
+}                               
     ]
   },
   {
@@ -375,7 +397,18 @@ labelOnly: true
          {// Dentro de extra[] de um evento:
 titles: { en: "Masks of Oblivion", pt: "Máscaras do Esquecimento", de: "Masken des Vergessens", es: "Máscaras del Olvido", fr: "Masques de l’Oubli", ja: "忘却の仮面" },
 labelOnly: true
-},            
+}, 
+{// Dentro de extra[] de um evento:
+titles: {
+  en: "Oblivion Skins for Dante(Skin+), Octavia, and Electra",
+  pt: "Skins do Esquecimento para Dante (Skin+), Octavia e Electra",
+  fr: "Skins de l’Oubli pour Dante (Skin+), Octavia et Electra",
+  es: "Aspectos del Olvido para Dante (Skin+), Octavia y Electra",
+  de: "Vergessen-Skins für Dante (Skin+), Octavia und Electra",
+  ja: "ダンテ（スキン+）、オクタヴィア、エレクトラの忘却スキン"
+},
+labelOnly: true
+}                           
     ]
   },
   {
