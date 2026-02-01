@@ -4,8 +4,18 @@
   "description": "Alexandre Games Blog Website!\r This repository contains the source code for the website www.alexandregames.com, a project created by Alexandre Domingos. The website is built using HTML and represents a dream come true for Alexandre, who started from scratch, studying code and learning along the way.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-calendar-hwa": "node hero-wars-alliance/update-data-menu-hwa.js menu-hwa calendar-hwa",
+    "update-byrna-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide byrna",
+    "update-dante-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide dante",
+    "update-drayne-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide drayne",
+    "update-yasmine-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide yasmine",
+    "update-mysterious-island-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js guide mysterious-island",
+    "update-aidan-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js guide aidan",
+    "update-augustus-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js guide augustus",
+    "update-fluffy-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js guide fluffy"
   },
+  "notes": "Para adicionar outros menus HWA: node hero-wars-alliance/update-data-menu-hwa.js <pasta> <prefixo>. Para HWDE: node hero-wars-dominion-era/update-data-menu-hwde.js <pasta> <prefixo>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Alexandre221178/alexandregames.git"

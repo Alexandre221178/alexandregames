@@ -1,4 +1,4 @@
-/* Calendar data for Alexandre Games
+/* Calendar data for Alexandre Games - Last updated: 2026-02-01T16:43:33-03:00
    - Keep links per language empty when you want to fill them manually
    - Image and paths are relative to the page that includes the calendar
 */
