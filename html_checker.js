@@ -298,11 +298,15 @@ function checkFile(filePath) {
                         } else if (tag === 'figure') {
                             if (classes.includes('img-banner')) {
                                 estimatedLines += 14;
+                            } else if (classes.includes('img-review')) {
+                                estimatedLines += 12.5; // 250px estimados (12.5 linhas a 20px)
                             } else {
                                 estimatedLines += 9; // média 6-12
                             }
                         } else if (tag === 'li') {
                             estimatedLines += 2; // 2 linhas
+                        } else if (tag === 'div' && elem.attr('id') === 'mysterious-island-content') {
+                            estimatedLines += 17.55; // 351px estimados (17.55 linhas a 20px) para espaço de anúncio
                         } else {
                             estimatedLines += 1; // outros elementos
                         }

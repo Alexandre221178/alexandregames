@@ -874,32 +874,32 @@
 <!-- Drayne character guide pages added on 2026-01-16 -->
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/drayne-en.html</loc>
-  <lastmod>2026-01-29T23:48:23-03:00</lastmod>
+  <lastmod>2026-02-01T00:00:00-03:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/drayne-pt.html</loc>
-  <lastmod>2026-01-29T23:48:23-03:00</lastmod>
+  <lastmod>2026-02-01T00:00:00-03:00</lastmod>
   <priority>0.85</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/drayne-es.html</loc>
-  <lastmod>2026-01-29T23:48:23-03:00</lastmod>
+  <lastmod>2026-02-01T00:00:00-03:00</lastmod>
   <priority>0.85</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/drayne-fr.html</loc>
-  <lastmod>2026-01-29T23:48:23-03:00</lastmod>
+  <lastmod>2026-02-01T00:00:00-03:00</lastmod>
   <priority>0.85</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/drayne-de.html</loc>
-  <lastmod>2026-01-29T23:48:23-03:00</lastmod>
+  <lastmod>2026-02-01T00:00:00-03:00</lastmod>
   <priority>0.85</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/characters-guide/drayne-ja.html</loc>
-  <lastmod>2026-01-29T23:48:23-03:00</lastmod>
+  <lastmod>2026-02-01T00:00:00-03:00</lastmod>
   <priority>0.85</priority>
 </url>
 
@@ -3563,14 +3563,42 @@
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-en.html</loc>
-  <lastmod>2026-01-27T20:49-03:00</lastmod>
+  <lastmod>2026-02-01T00:00-03:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-pt.html</loc>
-  <lastmod>2026-01-27T20:49-03:00</lastmod>
+  <lastmod>2026-02-01T00:00-03:00</lastmod>
   <priority>0.98</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-de.html</loc>
+  <lastmod>2026-02-01T00:00-03:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-es.html</loc>
+  <lastmod>2026-02-01T00:00-03:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-fr.html</loc>
+  <lastmod>2026-02-01T00:00-03:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-ja.html</loc>
+  <lastmod>2026-02-01T00:00-03:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
 </url>
 
 <url>

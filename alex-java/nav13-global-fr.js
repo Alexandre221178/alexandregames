@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="https://alexandregames.com/hero-wars-dominion-era/guide/best-war-flag-en.html">⚔️ Meilleurs Drapeaux de Guerre</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html">📖 Guide des Héros</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-en.html">🏆 Tier List des Héros</a>
-        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-en.html">🏝️ Île Mystérieuse Janvier 2026</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-fr.html">🏝️ Île Mystérieuse Février 2026</a>
         <a class="expandable-menu" onclick="toggleSubmenu(event, 'pet-maps')">Cartes d'Aventure des Familiers</a>
         <div id="pet-maps" class="submenu-items">
             <a href="https://alexandregames.com/hero-wars-dominion-era/menu/adventure-map-guide-en.html">Guide de Toutes les Cartes</a>
