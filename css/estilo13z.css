@@ -3024,3 +3024,64 @@ margin-bottom: 7px !important;
         padding: 8px;
     }
 }
+
+/* Nova classe para tabelas ascension */
+.table-wrapper {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow-x: auto; /* Permite rolagem horizontal em mobile */
+}
+
+.table-wrapper table {
+    width: 100%;
+    min-width: 600px; /* Largura mínima para evitar compressão excessiva */
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.table-wrapper th, .table-wrapper td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.table-wrapper th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table-wrapper img {
+    width: 47px !important;
+    height: 47px !important;
+    vertical-align: middle;
+    margin-bottom: -10px; /* Puxa o texto para cima */
+    display: inline-block;
+}
+
+/* Espaço acima das imagens a partir da segunda */
+.table-wrapper td img:not(:first-child) {
+    margin-top: 17px;
+}
+
+/* Media query para mobile */
+@media (max-width: 768px) {
+    .table-wrapper {
+        margin: 10px 0;
+        padding: 5px;
+    }
+    .table-wrapper table {
+        font-size: 14px;
+        min-width: 500px;
+    }
+    .table-wrapper th, .table-wrapper td {
+        padding: 6px 8px;
+    }
+    .table-wrapper img {
+        width: 20px;
+        height: 20px;
+    }
+}

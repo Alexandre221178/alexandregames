@@ -7,8 +7,10 @@
   "position": "20",
   "main_stat": "Agility",
   "how_to_get_soul_stones": "Guild Shop, Soul Chests, Soul Atrium",
-  "patronage": "Fenris, Cain, Albus",
+  "pet_patronage": "Fenris, Cain, Albus",
   "sinergy": "Sebastian, Astaroth",
+  "basic_attack_formula": "(100% physical attack)",
+  "basic_attack": 89672,
   "stats": {
       "intelligence": 2790,
       "agility": 17935,

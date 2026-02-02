@@ -1,0 +1,353 @@
+{
+  "id": "electra",
+  "name": "Electra von Grave",
+  "gender": "female",
+  "role": ["tank"],
+  "main_role": "Tank",
+  "position": "4",
+  "main_stat": "Strength",
+  "how_to_get_soul_stones": "Unobtainable (temporary)",
+  "pet_patronage": "Oliver, Merlin, Axel, Biscuit",
+  "sinergy": "",
+  "basic_attack_formula": "(100% physical attack)",
+  "basic_attack": 29484,
+  "stats": {
+    "intelligence": 3630,
+    "agility": 3107,
+    "strength": 17190,
+    "health": 1009562,
+    "physical_attack": 29484,
+    "magic_attack": 67469,
+    "armor": 38501,
+    "magic_defense": 33608,
+    "dodge": 0,
+    "crit_hit_chance": 0,
+    "accuracy": 17190,
+    "crit_resistance": 17190,
+    "vampirism": 0,
+    "magic_penetration": 19978,
+    "armor_penetration": 0,
+    "power": 180369
+  },
+  "skills": [
+    {
+      "id": 1,
+      "variant": "base",
+      "level": 130,
+      "name": "Embrace of Pain",
+      "type": ["ultimate", "white"],
+      "animation_delay_seconds": 0,
+      "damage_formula": "Deals 56.73% (0.05% magic attack + 0.1 * level + 10) of absorbed damage",
+      "scales_with": ["Magic Attack"],
+      "description": "Applies a shield to herself that absorbs 246,821 damage. The shield lasts for 10s, and while it's active, Electra cannot act, move, be moved, and is immune to control effects. When the shield expires, it explodes, dealing damage to nearby enemies equal to 56.73% of the total damage absorbed during its duration. Shield capacity: 246,821 (18% health + 500 * level + 100)"
+    },
+    {
+      "id": 2,
+      "variant": "base",
+      "level": 130,
+      "name": "Spark of Life",
+      "type": ["periodic", "green"],
+      "animation_delay_seconds": 0,
+      "damage_formula": "59,834 (50% magic attack + 200 * level + 100)",
+      "scales_with": ["Magic Attack"],
+      "description": "Deals 59,834 damage to the nearest enemies. Transforms 411% of damage dealt into Health. Vampirism: 411% (0.01% health + 2 * level + 50). Cooldown: 11s"
+    },
+    {
+      "id": 3,
+      "variant": "base",
+      "level": 130,
+      "name": "Oath of Protection",
+      "type": ["periodic", "blue"],
+      "animation_delay_seconds": 0,
+      "damage_formula": "",
+      "scales_with": [],
+      "description": "For 5s, applies a protective effect to all allied Heroes whose current Health is lower than Electra's. While the effect is active, 40% of the damage taken by allies is redirected to Electra. During Embrace of Pain, allies receive the same effect. Redirects 40% (0.15 * level + 20.5) of damage. Cooldown: 18s"
+    },
+    {
+      "id": 4,
+      "variant": "base",
+      "level": 130,
+      "name": "Immortal Shell",
+      "type": ["passive", "violet"],
+      "animation_delay_seconds": 0,
+      "damage_formula": "",
+      "scales_with": [],
+      "description": "At the start of battle, converts all her Armor, Magic Defense, and Dodge into Strength. Increases Strength by 74.98 for every 100 points lost from these stats. Armor, Magic Defense, and Dodge cannot be changed during battle. Increases Strength by 74.98 (0.005% health + 0.15 * level + 5) for every 100 points lost from these stats."
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "Cage of Pain",
+      "stats": {
+        "magic_attack": 50190,
+        "power": 12547
+      },
+      "costs": {
+        "absolute_artifact_essence": 1635,
+        "flawless_artifact_essence": 1199,
+        "chaos_core": 121
+      }
+    },
+    {
+      "name": "Defender's Covenant",
+      "stats": {
+        "magic_defense": 12546,
+        "armor": 12546,
+        "power": 12546
+      },
+      "costs": {
+        "absolute_artifact_scroll": 1635,
+        "flawless_artifact_scroll": 1199,
+        "chaos_core": 121
+      }
+    },
+    {
+      "name": "Ring of Strength",
+      "stats": {
+        "strength": 6249,
+        "power": 17184
+      },
+      "costs": {
+        "absolute_artifact_metal": 1635,
+        "flawless_artifact_metal": 1199,
+        "chaos_core": 121
+      }
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": {
+        "strength": 1365,
+        "power": 3753
+      },
+      "costs": {
+        "strength_skin_stone": 30825
+      }
+    },
+    {
+      "name": "Demonic Skin",
+      "stats": {
+        "magic_defense": 10650,
+        "power": 5325
+      },
+      "costs": {
+        "strength_skin_stone": 55410
+      }
+    },
+    {
+      "name": "Winter Skin",
+      "stats": {
+        "magic_attack": 10650,
+        "power": 5325
+      },
+      "costs": {
+        "strength_skin_stone": 55410
+      },
+      "note": "Can be purchased in Hero Skins"
+    }
+  ],
+  "glyphs": [
+    {
+      "name": "Magic attack Glyph",
+      "stats": {
+        "magic_attack": 6500,
+        "power": 3250
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    },
+    {
+      "name": "Armor Glyph",
+      "stats": {
+        "armor": 6500,
+        "power": 3250
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    },
+    {
+      "name": "Health Glyph",
+      "stats": {
+        "health": 62200,
+        "power": 3110
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    },
+    {
+      "name": "Magic penetration Glyph",
+      "stats": {
+        "magic_penetration": 6500,
+        "power": 3250
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    },
+    {
+      "name": "Strength Glyph",
+      "stats": {
+        "strength": 1135,
+        "power": 3121
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    }
+  ],
+  "ascension": {
+    "I": {
+      "stats": {
+        "health": 11000,
+        "strength": 230,
+        "magic_attack": 490,
+        "magic_penetration": 590,
+        "armor": 1040,
+        "power": 2242
+      },
+      "costs": {
+        "strength_crystal": 2275,
+        "star_mana": 5420,
+        "gold": 1650000
+      }
+    },
+    "II": {
+      "stats": {
+        "strength": 315,
+        "magic_attack": 1490,
+        "magic_penetration": 1810,
+        "armor": 1970,
+        "power": 3501
+      },
+      "costs": {
+        "strength_crystal": 1950,
+        "star_mana": 9160,
+        "gold": 5775000,
+        "vibrant_strength_crystal": 1150
+      }
+    },
+    "III": {
+      "stats": {
+        "health": 9000,
+        "strength": 495,
+        "magic_attack": 4010,
+        "magic_penetration": 1420,
+        "armor": 1950,
+        "power": 5501
+      },
+      "costs": {
+        "vibrant_strength_crystal": 2375,
+        "resilience_insignia": 1175,
+        "star_mana": 20200,
+        "gold": 12400000
+      }
+    },
+    "IV": {
+      "stats": {
+        "health": 15750,
+        "strength": 560,
+        "magic_attack": 2040,
+        "magic_penetration": 3150,
+        "armor": 3160,
+        "power": 6502
+      },
+      "costs": {
+        "vibrant_strength_crystal": 475,
+        "resilience_insignia": 1220,
+        "star_mana": 42540,
+        "gold": 21600000,
+        "radiant_strength_crystal": 1460,
+        "greater_resilience_insignia": 235
+      }
+    },
+    "V": {
+      "stats": {
+        "health": 34750,
+        "strength": 610,
+        "magic_attack": 5350,
+        "magic_penetration": 1280,
+        "armor": 1050,
+        "power": 7255
+      },
+      "costs": {
+        "radiant_strength_crystal": 1925,
+        "greater_resilience_insignia": 1925,
+        "star_mana": 80180,
+        "gold": 38300000
+      }
+    },
+    "I-V": {
+      "stats": {
+        "health": 70500,
+        "strength": 2210,
+        "magic_attack": 13380,
+        "magic_penetration": 8250,
+        "armor": 9170,
+        "power": 25002
+      },
+      "costs": {
+        "strength_crystal": 4225,
+        "star_mana": 157500,
+        "gold": 79725000,
+        "vibrant_strength_crystal": 4000,
+        "resilience_insignia": 2395,
+        "radiant_strength_crystal": 3385,
+        "greater_resilience_insignia": 2160
+      }
+    }
+  },
+  "tree_of_wisdom": {
+    "stats": {
+      "health": 81160,
+      "physical_attack": 5001,
+      "magic_attack": 1550,
+      "magic_defense": 4132,
+      "armor": 3808,
+      "power": 12553
+    },
+    "costs": {
+      "eternal_seed": 586,
+      "ancient_wisdom_crystal": 47400
+    }
+  },
+  "miscellaneous": {
+    "levels": {
+      "stats": {
+        "intelligence": 2080,
+        "agility": 1950,
+        "strength": 2470,
+        "power": 17875
+      },
+      "costs": {
+        "huge_exp_potion": 483,
+        "electra_soul_stone": 630
+      }
+    },
+    "gift_of_the_elements": {
+      "stats": {
+        "intelligence": 360,
+        "agility": 360,
+        "strength": 720,
+        "power": 3960
+      },
+      "costs": {
+        "spark_of_power": 65150,
+        "gold": 7927500
+      }
+    }
+  }
+}
