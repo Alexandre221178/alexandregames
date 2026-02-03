@@ -80,6 +80,14 @@
     "pt": "Hero Wars: Dominion Era",
     "ja": "ヒーローウォーズ ドミニオン エラ"
   },
+  "patronage": {
+    "en": "Patronage",
+    "de": "Patronat",
+    "es": "Asistencia",
+    "fr": "Patronage",
+    "pt": "Patronato",
+    "ja": "支援"
+  },
   "labels": {
     "singular": {
       "en": "Pet",

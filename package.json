@@ -13,7 +13,8 @@
     "update-mysterious-island-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js guide mysterious-island",
     "update-aidan-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js guide aidan",
     "update-augustus-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js guide augustus",
-    "update-fluffy-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js guide fluffy"
+    "update-fluffy-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js guide fluffy",
+    "update-electra-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js characters electra"
   },
   "notes": "Para adicionar outros menus HWA: node hero-wars-alliance/update-data-menu-hwa.js <pasta> <prefixo>. Para HWDE: node hero-wars-dominion-era/update-data-menu-hwde.js <pasta> <prefixo>",
   "repository": {

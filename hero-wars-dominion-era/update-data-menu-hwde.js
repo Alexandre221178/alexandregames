@@ -1,7 +1,9 @@
 const fs = require('fs');
 const path = require('path');
+// atualizar sempre com grock - verificar erros: node html_checker.js
 // npm run update-
 //Ex: npm run update-calendar-hwa
+//Ex: npm run update-electra-hwde
 // Receber a pasta (relativa a hero-wars-dominion-era) e o prefixo como argumentos (ex.: guide mysterious-island)
 const folder = process.argv[2];
 const prefix = process.argv[3];
@@ -15,7 +17,7 @@ if (!folder || !prefix) {
 const menuDir = path.join(__dirname, folder);
 
 // Arquivo de dados (ex.: calendar-hwa-data.js)
-const dataFile = path.join(menuDir, `${prefix}-data.js`);
+// const dataFile = path.join(menuDir, `${prefix}-data.js`);
 
 // Caminho para o sitemap.xml (agora sitemap-hwde.xml na raiz)
 const sitemapFile = path.join(__dirname, '..', 'sitemap-hwde.xml');
@@ -38,12 +40,12 @@ function updateModifiedTime(filePath, newDate) {
 }
 
 // Atualizar o arquivo de dados com a nova data
-function updateDataFile(newDate) {
-  let dataContent = fs.readFileSync(dataFile, 'utf8');
-  const newFirstLine = `/* ${prefix} data for Alexandre Games - Last updated: ${newDate}\n`;
-  dataContent = dataContent.replace(new RegExp(`^/\\* ${prefix} data for Alexandre Games[\\s\\S]*?\\*/`, 'm'), newFirstLine + '   - Keep links per language empty when you want to fill them manually\n   - Image and paths are relative to the page that includes the calendar\n*/');
-  fs.writeFileSync(dataFile, dataContent, 'utf8');
-}
+// function updateDataFile(newDate) {
+//   let dataContent = fs.readFileSync(dataFile, 'utf8');
+//   const newFirstLine = `/* ${prefix} data for Alexandre Games - Last updated: ${newDate}\n`;
+//   dataContent = dataContent.replace(new RegExp(`^/\\* ${prefix} data for Alexandre Games[\\s\\S]*?\\*/`, 'm'), newFirstLine + '   - Keep links per language empty when you want to fill them manually\n   - Image and paths are relative to the page that includes the calendar\n*/');
+//   fs.writeFileSync(dataFile, dataContent, 'utf8');
+// }
 
 // Atualizar o sitemap.xml com a nova data para as URLs do prefixo
 function updateSitemap(newDate) {
@@ -80,12 +82,12 @@ if (pages.length === 0) {
 }
 
 // Atualizar o data.js se existir
-if (fs.existsSync(dataFile)) {
-  updateDataFile(currentDate);
-  console.log(`Atualizado: ${prefix}-data.js`);
-} else {
-  console.log(`Arquivo de dados não encontrado: ${prefix}-data.js`);
-}
+// if (fs.existsSync(dataFile)) {
+//   updateDataFile(currentDate);
+//   console.log(`Atualizado: ${prefix}-data.js`);
+// } else {
+//   console.log(`Arquivo de dados não encontrado: ${prefix}-data.js`);
+// }
 
 // Atualizar o sitemap.xml
 updateSitemap(currentDate);
