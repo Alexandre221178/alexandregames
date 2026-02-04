@@ -305,7 +305,10 @@ window.CALENDAR_DATA = [
     titles: { en: "Alliance of Forces and Runic Event", de: "Allianz der Kräfte und Runen-Event", es: "Alianza de Fuerzas y Evento Rúnico", fr: "Alliance des Forces et Événement Runique", pt: "Aliança das Forças e Evento Rúnico", ja: "フォース同盟＆ルーンイベント" },
     links: { en: "../../Hero Wars/events/runic-event-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/runic-event-pt-hwa.html", ja: "" },
     extra: [
-             
+       /* economizar torre, 11 baus da torre = 10+20+30+40+50+70+100 = 320 Rune Spheres(blue)
+   - Expedicoes de valkyries, Rune Stones(red) and Season Points Extra= 1000+1500(25 Season Points)+2000+2500(30season points)+4000)
+   - includes the calendar
+*/      
     ]
   },
   {
