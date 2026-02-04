@@ -186,18 +186,16 @@
   <li><strong>ヒュドラTierリスト:</strong> 季節ごとの評価は、サイトのヒュドラTierリストページを参照してください。</li>
 </ul>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-     crossorigin="anonymous"></script>
-<!-- Hero Wars Alliance - Skill Bloco 2 Global -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7838775403194689"
-     data-ad-slot="6889246245"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<!-- HWA- BLOCO 2 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="1483590443"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+
 
 
 <p></p>
@@ -401,18 +399,18 @@
   </table>
 </section>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-     crossorigin="anonymous"></script>
-<!-- Hero Wars Alliance - Bloco 3 Global -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7838775403194689"
-     data-ad-slot="5979248000"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
+<!-- HWA- BLOCO 3 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="6544345439"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+
+
 
 <div class="sectionx">
 <section class="talisman-guide">
@@ -1425,6 +1423,31 @@
     <script src="../../alex-java/share-global-ja.js" defer></script>
     <script src="../../alex-java/translate07-ja.js" defer></script>
     <!--<script src="../../alex-java/carousel-slide.js" defer></script>-->
+
+    <script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
+
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
+
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
+
 
 </body>
 </html>
