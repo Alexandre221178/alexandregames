@@ -26,7 +26,8 @@
           "toughness": 930,
           "dodge": 11445,
           "crit_hit_chance": 7354,
-          "crushing": 4177
+          "crushing": 4177,
+          "armor_penetration": 21.300
         },
         "talisman_of_retaliation": {
           "intelligence": 3955,
@@ -40,7 +41,9 @@
           "toughness": 930,
           "dodge": 18045,
           "crit_hit_chance": 754,
-          "crushing": 4177
+          "crushing": 4177,
+          "armor_penetration": 21.300
+
         }
       },
       "skills": [
@@ -122,7 +125,7 @@
           },
           "name": "Shackles of Weakness",
           "duration_seconds": 16,
-          "description": "Extends the duration of the main stat reduction effect."
+          "description": "Extends the duration of the main stat reduction effect for 16.0 seconds."
         },
         {
           "id": 5,
@@ -137,7 +140,8 @@
           "damage_formula": "225% Physical Attack",
           "scales_with": ["Physical Attack"],
           "damage_example": 260726,
-          "description": "Every few seconds, Dante throws a spectral spear at the nearest enemy."
+          "description": "Every 9.0 seconds, throws a spectral spear that deals damage to the nearest enemy and knocks them back."
+
         },
         {
           "id": 6,
