@@ -326,12 +326,18 @@ function checkFile(filePath) {
 
 function checkJsFile(filePath) {
     const issues = [];
+    
+    // Pular arquivos de sistema/verificação
+    if (filePath.includes('html_checker') || filePath.includes('node_modules')) {
+        return issues;
+    }
+    
     try {
         const content = fs.readFileSync(filePath, 'utf-8');
         
         // Procurar por padrões de links nos arquivos de dados JS
-        // Padrão: "en": "../../caminho/arquivo.html"
-        const linkPattern = /"(en|pt|de|es|fr|ja)":\s*"([^"]+)"/g;
+        // Padrão: en: "../../caminho/arquivo.html"
+        const linkPattern = /(en|pt|de|es|fr|ja):\s*"([^"]+)"/g;
         let match;
         
         while ((match = linkPattern.exec(content)) !== null) {
@@ -339,7 +345,9 @@ function checkJsFile(filePath) {
             const link = match[2];
             
             // Pular links vazios ou que não parecem caminhos
-            if (!link || link.trim() === '' || !link.includes('/') && !link.startsWith('../') && !link.startsWith('./') && !link.startsWith('/')) continue;
+            if (!link || link.trim() === '' || !link.includes('/') && !link.startsWith('../') && !link.startsWith('./') && !link.startsWith('/')) {
+                continue;
+            }
             
             // Resolver caminho relativo
             const dir = path.dirname(filePath);
