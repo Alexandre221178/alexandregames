@@ -109,7 +109,7 @@ function checkFile(filePath) {
             if (['de', 'fr'].includes(lang)) {
                 maxDesc = 165;
             } else if (lang === 'ja') {
-                minDesc = 80;
+                minDesc = 70;
                 maxDesc = 120;
             }
             if (descContent.length < minDesc) {

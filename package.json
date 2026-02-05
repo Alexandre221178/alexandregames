@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "update-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js",
     "update-calendar-hwa": "node hero-wars-alliance/update-data-menu-hwa.js menu-hwa calendar-hwa",
     "update-byrna-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide byrna",
     "update-dante-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide dante",
@@ -14,11 +15,11 @@
     "update-aidan-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js guide aidan",
     "update-augustus-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js guide augustus",
     "update-fluffy-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js guide fluffy",
-    "update-electra-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js characters electra",
+    "update-electra-brawls-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js electra-brawls",
     "update-hwde-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js home hwde",
     "update-calendar-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js menu calendar-hwde"
   },
-  "notes": "Para adicionar outros menus HWA: node hero-wars-alliance/update-data-menu-hwa.js <pasta> <prefixo>. Para HWDE: node hero-wars-dominion-era/update-data-menu-hwde.js <pasta> <prefixo>",
+  "notes": "Para adicionar outros menus HWA: node hero-wars-alliance/update-data-menu-hwa.js <pasta> <prefixo>. Para HWDE: npm run update-hwde <prefixo> (ex.: npm run update-hwde electra-brawls)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Alexandre221178/alexandregames.git"

@@ -6,17 +6,36 @@ const path = require('path');
 //Ex: npm run update-electra-hwde
 //Ex: npm run update-hwde-hwde
 //Ex: npm run update-calendar-hwde
-// Receber a pasta (relativa a hero-wars-dominion-era) e o prefixo como argumentos (ex.: guide mysterious-island)
-const folder = process.argv[2];
-const prefix = process.argv[3];
-if (!folder || !prefix) {
-  console.error('Uso: node update-data-menu-hwde.js <pasta-relativa> <prefixo>');
-  console.error('Exemplo: node update-data-menu-hwde.js guide mysterious-island');
+// Receber o prefixo como argumento (ex.: electra-brawls)
+const prefix = process.argv[2];
+if (!prefix) {
+  console.error('Uso: node update-data-menu-hwde.js <prefixo>');
+  console.error('Exemplo: node update-data-menu-hwde.js electra-brawls');
   process.exit(1);
 }
 
-// Caminho para a pasta das páginas do menu
-const menuDir = path.join(__dirname, folder);
+// Caminho base para hero-wars-dominion-era
+const baseDir = __dirname;
+
+// Encontrar a pasta que contém os arquivos com o prefixo
+let menuDir = null;
+const folders = fs.readdirSync(baseDir, { withFileTypes: true })
+  .filter(dirent => dirent.isDirectory())
+  .map(dirent => dirent.name);
+
+for (const folder of folders) {
+  const dirPath = path.join(baseDir, folder);
+  const files = fs.readdirSync(dirPath).filter(file => file.startsWith(`${prefix}-`) && file.endsWith('.html'));
+  if (files.length > 0) {
+    menuDir = dirPath;
+    break;
+  }
+}
+
+if (!menuDir) {
+  console.error(`Nenhuma pasta encontrada contendo arquivos com o prefixo: ${prefix}`);
+  process.exit(1);
+}
 
 // Arquivo de dados (ex.: calendar-hwa-data.js)
 // const dataFile = path.join(menuDir, `${prefix}-data.js`);
@@ -57,8 +76,9 @@ function updateSitemap(newDate) {
   }
   let sitemapContent = fs.readFileSync(sitemapFile, 'utf8');
   // Para cada página, substituir o lastmod da URL correspondente
+  const folderPath = path.relative(__dirname, menuDir);
   pages.forEach(page => {
-    const url = `https://alexandregames.com/hero-wars-dominion-era/${folder}/${page}`;
+    const url = `https://alexandregames.com/hero-wars-dominion-era/${folderPath}/${page}`;
     // Regex para encontrar <lastmod> após a <loc> específica
     const regex = new RegExp(`(<loc>${url}</loc>\\s*<lastmod>)[^<]*(</lastmod>)`, 'g');
     sitemapContent = sitemapContent.replace(regex, `$1${newDate}$2`);
@@ -68,7 +88,8 @@ function updateSitemap(newDate) {
 
 // Executar atualização
 const currentDate = getCurrentDateISO();
-console.log(`Atualizando ${prefix} em ${folder} com a data: ${currentDate}`);
+const folderName = path.basename(menuDir);
+console.log(`Atualizando ${prefix} em ${folderName} com a data: ${currentDate}`);
 
 // Encontrar todas as páginas com o prefixo (ex.: calendar-hwa-*.html)
 const pages = fs.readdirSync(menuDir).filter(file => file.startsWith(`${prefix}-`) && file.endsWith('.html'));
