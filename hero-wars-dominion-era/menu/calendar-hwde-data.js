@@ -230,8 +230,10 @@ window.CALENDAR_DATA = [
     extra: [
       {
         titles: { en: "Electra's Brawls", pt: "Electra's Brawls(Brigas da Electra)", de: "Electra's Brawls(Electras Kämpfe)", es: "Electra's Brawls(Luchas de Electra)", fr: "Electra's Brawls(Combats d'Electra)", ja: "Electra's Brawls(エレクトラの乱闘)" },
-        labelOnly: true
+    links: { en: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-en.html", pt: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-pt.html", de: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-de.html", es: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-es.html", fr: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-fr.html", ja: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-ja.html" },
+        noStrip: true
       },
+      
     ]
   },
   {
@@ -243,15 +245,17 @@ window.CALENDAR_DATA = [
      links: { en: "../../hero-wars-dominion-era/characters/electra-en.html", pt: "../../hero-wars-dominion-era/characters/electra-pt.html", de: "../../hero-wars-dominion-era/characters/electra-de.html", es: "../../hero-wars-dominion-era/characters/electra-es.html", fr: "../../hero-wars-dominion-era/characters/electra-fr.html", ja: "../../hero-wars-dominion-era/characters/electra-ja.html" },
      noStrip: true,
     extra: [
+      {
+        titles: { en: "Electra's Brawls", pt: "Electra's Brawls(Brigas da Electra)", de: "Electra's Brawls(Electras Kämpfe)", es: "Electra's Brawls(Luchas de Electra)", fr: "Electra's Brawls(Combats d'Electra)", ja: "Electra's Brawls(エレクトラの乱闘)" },
+    links: { en: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-en.html", pt: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-pt.html", de: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-de.html", es: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-es.html", fr: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-fr.html", ja: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-ja.html" },
+        noStrip: true
+      },
       
       {
         titles: { en: "Demon Dolls", pt: "Bonecas Demoníacas", de: "Dämonenpuppen", es: "Muñecas Demoníacas", fr: "Poupées Démoniaques", ja: "デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
       },
-      {
-        titles: { en: "Electra's Brawls", pt: "Electra's Brawls(Brigas da Electra)", de: "Electra's Brawls(Electras Kämpfe)", es: "Electra's Brawls(Luchas de Electra)", fr: "Electra's Brawls(Combats d'Electra)", ja: "Electra's Brawls(エレクトラの乱闘)" },
-        labelOnly: true
-      },
+     
     ]
   },
   {
@@ -263,15 +267,17 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-dominion-era/characters/electra-en.html", pt: "../../hero-wars-dominion-era/characters/electra-pt.html", de: "../../hero-wars-dominion-era/characters/electra-de.html", es: "../../hero-wars-dominion-era/characters/electra-es.html", fr: "../../hero-wars-dominion-era/characters/electra-fr.html", ja: "../../hero-wars-dominion-era/characters/electra-ja.html" },
      noStrip: true,
     extra: [
+      {
+        titles: { en: "Electra's Brawls", pt: "Electra's Brawls(Brigas da Electra)", de: "Electra's Brawls(Electras Kämpfe)", es: "Electra's Brawls(Luchas de Electra)", fr: "Electra's Brawls(Combats d'Electra)", ja: "Electra's Brawls(エレクトラの乱闘)" },
+    links: { en: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-en.html", pt: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-pt.html", de: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-de.html", es: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-es.html", fr: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-fr.html", ja: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-ja.html" },
+        noStrip: true
+      },
              
       {
         titles: { en: "Demon Dolls", pt: "Bonecas Demoníacas", de: "Dämonenpuppen", es: "Muñecas Demoníacas", fr: "Poupées Démoniaques", ja: "デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
       },
-      {
-        titles: { en: "Electra's Brawls", pt: "Electra's Brawls(Brigas da Electra)", de: "Electra's Brawls(Electras Kämpfe)", es: "Electra's Brawls(Luchas de Electra)", fr: "Electra's Brawls(Combats d'Electra)", ja: "Electra's Brawls(エレクトラの乱闘)" },
-        labelOnly: true
-      },
+     
      
     ]
   },

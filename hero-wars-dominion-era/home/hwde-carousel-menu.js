@@ -2,13 +2,22 @@
   // Carousel multi-language injector (HWDE specific copy)
   const slides = [
     {
+      link: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero-brawls/electra-brawls/electra-brawls-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero-brawls/electra-brawls/electra-brawls-400px.webp",
+      alt: "Electra Brawls for Hero Wars: Dominion Era",
+      title: "Electra Brawls for Hero Wars: Dominion Era.",
+      strong: "Electra Brawls - Hero Wars: Dominion Era",
+      updated: "Updated: February, 2026."
+    },
+    {
       link: "../../hero-wars-dominion-era/characters/electra-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/electra/electra-500px.webp",
       src400: "../../hero-wars-dominion-era/images/hero/electra/electra-400px.webp",
       alt: "Electra for Hero Wars: Dominion Era",
       title: "Electra for Hero Wars: Dominion Era.",
       strong: "Electra - Hero Wars: Dominion Era",
-      updated: "Updated: January, 2026."
+      updated: "Updated: February, 2026."
     },
     {
       link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
@@ -17,7 +26,7 @@
       alt: "Calendar for Hero Wars: Dominion Era",
       title: "Calendar for Hero Wars: Dominion Era.",
       strong: "Calendar - Hero Wars: Dominion Era",
-      updated: "Updated: January, 2026."
+      updated: "Updated: February, 2026."
     },
     {
       link: "../../hero-wars-dominion-era/characters/fluffy-en.html",
@@ -26,7 +35,7 @@
       alt: "Fluffy for Hero Wars: Dominion Era",
       title: "Fluffy for Hero Wars: Dominion Era.",
       strong: "Fluffy - Hero Wars: Dominion Era",
-      updated: "Updated: January, 2026."
+      updated: "Updated: February, 2026."
     },
     
     {

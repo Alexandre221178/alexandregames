@@ -11,13 +11,13 @@
     "update-dante-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide dante",
     "update-drayne-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide drayne",
     "update-yasmine-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide yasmine",
-    "update-mysterious-island-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js guide mysterious-island",
-    "update-aidan-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js guide aidan",
-    "update-augustus-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js guide augustus",
-    "update-fluffy-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js guide fluffy",
+    "update-mysterious-island-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js mysterious-island",
+    "update-aidan-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js aidan",
+    "update-augustus-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js augustus",
+    "update-fluffy-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js fluffy",
     "update-electra-brawls-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js electra-brawls",
-    "update-hwde-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js home hwde",
-    "update-calendar-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js menu calendar-hwde"
+    "update-hwde-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js hwde",
+    "update-calendar-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js calendar-hwde"
   },
   "notes": "Para adicionar outros menus HWA: node hero-wars-alliance/update-data-menu-hwa.js <pasta> <prefixo>. Para HWDE: npm run update-hwde <prefixo> (ex.: npm run update-hwde electra-brawls)",
   "repository": {
