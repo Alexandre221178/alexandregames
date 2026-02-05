@@ -2,6 +2,10 @@
    - Keep links per language empty when you want to fill them manually
    - Image and paths are relative to the page that includes the calendar
 */
+ /* economizar torre Missão 4(The Way Up), 11 baus da torre = 10+20+30+40+50+70+100 = 320 Rune Spheres(blue)
+   - Expedicoes de valkyries(missao 4 - Journey, Rune Stones(red) and Season Points Extra= 1000+1500(25 Season Points)+2000+2500(30season points)+4000)
+   - includes the calendar se fizer isso antes de zerar o horário do servidor vc consegue fazer 4 logins as missoes 
+*/      
 window.CALENDAR_DATA = [
 
   {

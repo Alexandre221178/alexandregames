@@ -4,6 +4,8 @@ const path = require('path');
 // npm run update-
 //Ex: npm run update-calendar-hwa
 //Ex: npm run update-electra-hwde
+//Ex: npm run update-hwde-hwde
+//Ex: npm run update-calendar-hwde
 // Receber a pasta (relativa a hero-wars-dominion-era) e o prefixo como argumentos (ex.: guide mysterious-island)
 const folder = process.argv[2];
 const prefix = process.argv[3];

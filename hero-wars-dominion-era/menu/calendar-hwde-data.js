@@ -225,7 +225,7 @@ window.CALENDAR_DATA = [
     image: "../../imagens/image-shared/electra-300px.webp",
     alt: "Electra Guide",
     titles: { en: "Electra Guide", pt: "Guia da Electra", de: "Electra Leitfaden", es: "Guía de Electra", fr: "Guide Electra", ja: "エレクトラ ガイド" },
-    links: { en: "../../hero-wars-dominion-era/characters/electra-en.html", pt: "../../hero-wars-dominion-era/characters/electra-pt.html", de: "", es: "", fr: "", ja: "" },
+    links: { en: "../../hero-wars-dominion-era/characters/electra-en.html", pt: "../../hero-wars-dominion-era/characters/electra-pt.html", de: "../../hero-wars-dominion-era/characters/electra-de.html", es: "../../hero-wars-dominion-era/characters/electra-es.html", fr: "../../hero-wars-dominion-era/characters/electra-fr.html", ja: "../../hero-wars-dominion-era/characters/electra-ja.html" },
     noStrip: true,
     extra: [
       {
@@ -240,8 +240,8 @@ window.CALENDAR_DATA = [
     image: "../../imagens/image-shared/electra-300px.webp",
     alt: "Electra Guide",
     titles: { en: "Electra Guide", pt: "Guia da Electra", de: "Electra Leitfaden", es: "Guía de Electra", fr: "Guide Electra", ja: "エレクトラ ガイド" },
-    links: { en: "../../hero-wars-dominion-era/characters/electra-en.html", pt: "../../hero-wars-dominion-era/characters/electra-pt.html", de: "", es: "", fr: "", ja: "" },
-    noStrip: true,
+     links: { en: "../../hero-wars-dominion-era/characters/electra-en.html", pt: "../../hero-wars-dominion-era/characters/electra-pt.html", de: "../../hero-wars-dominion-era/characters/electra-de.html", es: "../../hero-wars-dominion-era/characters/electra-es.html", fr: "../../hero-wars-dominion-era/characters/electra-fr.html", ja: "../../hero-wars-dominion-era/characters/electra-ja.html" },
+     noStrip: true,
     extra: [
       
       {
@@ -260,8 +260,8 @@ window.CALENDAR_DATA = [
      image: "../../imagens/image-shared/electra-300px.webp",
     alt: "Electra Guide",
     titles: { en: "Electra Guide", pt: "Guia da Electra", de: "Electra Leitfaden", es: "Guía de Electra", fr: "Guide Electra", ja: "エレクトラ ガイド" },
-    links: { en: "../../hero-wars-dominion-era/characters/electra-en.html", pt: "../../hero-wars-dominion-era/characters/electra-pt.html", de: "", es: "", fr: "", ja: "" },
-    noStrip: true,
+    links: { en: "../../hero-wars-dominion-era/characters/electra-en.html", pt: "../../hero-wars-dominion-era/characters/electra-pt.html", de: "../../hero-wars-dominion-era/characters/electra-de.html", es: "../../hero-wars-dominion-era/characters/electra-es.html", fr: "../../hero-wars-dominion-era/characters/electra-fr.html", ja: "../../hero-wars-dominion-era/characters/electra-ja.html" },
+     noStrip: true,
     extra: [
              
       {
