@@ -7,15 +7,15 @@ const EXPECTED_LANGS_GLOBAL = new Set(['en', 'pt', 'ja', 'es', 'fr', 'de', 'x-de
 const EXPECTED_LANGS_BILINGUAL = new Set(['en', 'pt', 'x-default']);
 const EXPECTED_LANGS_ENGLISH_ONLY = new Set(['en', 'x-default']);
 
-function findHtmlFiles(dir) {
+function findFiles(dir) {
     let results = [];
     const list = fs.readdirSync(dir);
     list.forEach(file => {
         const filePath = path.join(dir, file);
         const stat = fs.statSync(filePath);
         if (stat && stat.isDirectory()) {
-            results = results.concat(findHtmlFiles(filePath));
-        } else if (file.endsWith('.html')) {
+            results = results.concat(findFiles(filePath));
+        } else if (file.endsWith('.html') || file.endsWith('.js')) {
             results.push(filePath);
         }
     });
@@ -324,13 +324,65 @@ function checkFile(filePath) {
     return issues;
 }
 
+function checkJsFile(filePath) {
+    const issues = [];
+    try {
+        const content = fs.readFileSync(filePath, 'utf-8');
+        
+        // Procurar por padrões de links nos arquivos de dados JS
+        // Padrão: "en": "../../caminho/arquivo.html"
+        const linkPattern = /"(en|pt|de|es|fr|ja)":\s*"([^"]+)"/g;
+        let match;
+        
+        while ((match = linkPattern.exec(content)) !== null) {
+            const lang = match[1];
+            const link = match[2];
+            
+            // Pular links vazios ou que não parecem caminhos
+            if (!link || link.trim() === '' || !link.includes('/') && !link.startsWith('../') && !link.startsWith('./') && !link.startsWith('/')) continue;
+            
+            // Resolver caminho relativo
+            const dir = path.dirname(filePath);
+            let resolvedPath;
+            
+            if (link.startsWith('../') || link.startsWith('./') || (!link.startsWith('http') && !link.startsWith('/'))) {
+                // Caminho relativo
+                resolvedPath = path.resolve(dir, link);
+            } else if (link.startsWith('/')) {
+                // Caminho absoluto do site
+                resolvedPath = path.join(ROOT_DIR, link.substring(1));
+            } else {
+                // URL externa ou outro formato - pular verificação
+                continue;
+            }
+            
+            // Verificar se o arquivo existe
+            if (!fs.existsSync(resolvedPath)) {
+                issues.push(`Link quebrado (${lang}): ${link} (arquivo não encontrado: ${resolvedPath})`);
+            }
+        }
+        
+    } catch (error) {
+        issues.push(`Erro ao ler arquivo: ${error.message}`);
+    }
+    
+    return issues;
+}
+
 function main() {
     console.log('Iniciando verificação...');
-    const htmlFiles = findHtmlFiles(ROOT_DIR);
-    console.log(`Encontrados ${htmlFiles.length} arquivos HTML.`);
+    const files = findFiles(ROOT_DIR);
+    console.log(`Encontrados ${files.length} arquivos.`);
     const report = {};
-    htmlFiles.forEach(filePath => {
-        const issues = checkFile(filePath);
+    files.forEach(filePath => {
+        const issues = [];
+        
+        if (filePath.endsWith('.html')) {
+            issues.push(...checkFile(filePath));
+        } else if (filePath.endsWith('.js')) {
+            issues.push(...checkJsFile(filePath));
+        }
+        
         if (issues.length) {
             const relativePath = path.relative(ROOT_DIR, filePath);
             report[relativePath] = issues;
