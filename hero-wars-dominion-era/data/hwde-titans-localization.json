@@ -29,7 +29,7 @@
     {"id":"Sigurd","en":"Sigurd","de":"Sigurd","es":"Sigurd","fr":"Sigurd","pt":"Sigurd","ja":"シグルド"},
     {"id":"Nova","en":"Nova","de":"Nova","es":"Nova","fr":"Nova","pt":"Nova","ja":"ノヴァ"},
     {"id":"Mairi","en":"Mairi","de":"Mairi","es":"Mairi","fr":"Mairi","pt":"Mairi","ja":"マイリ"},
-    {"id":"Hyperion","en":"Hyperion","de":"Hyperion","es":"Hyperion","fr":"Hypérion","pt":"Hiperião","ja":"ヒュベリオン"},
+    {"id":"Hyperion","en":"Hyperion","de":"Hyperion","es":"Hyperion","fr":"Hypérion","pt":"Hiperião","ja":"ヒュペリオン"},
     {"id":"Moloch","en":"Moloch","de":"Moloch","es":"Moloch","fr":"Moloch","pt":"Moloch","ja":"モロク"},
     {"id":"Vulcan","en":"Vulcan","de":"Vulcan","es":"Vulcan","fr":"Vulcain","pt":"Vulcão","ja":"バルカン"},
     {"id":"Ignis","en":"Ignis","de":"Ignis","es":"Ignis","fr":"Ignis","pt":"Ignis","ja":"イグニス"},
@@ -47,6 +47,7 @@
     {"id":"Rigel","en":"Rigel","de":"Rigel","es":"Rigel","fr":"Rigel","pt":"Rigel","ja":"リゲル"},
     {"id":"Amon","en":"Amon","de":"Amon","es":"Amon","fr":"Amon","pt":"Amon","ja":"アモン"},
     {"id":"Iyari","en":"Iyari","de":"Iyari","es":"Iyari","fr":"Iyari","pt":"Iyari","ja":"イアリ"},
-    {"id":"Solaris","en":"Solaris","de":"Solaris","es":"Solaris","fr":"Solaris","pt":"Solaris","ja":"ソラリス"}
+    {"id":"Solaris","en":"Solaris","de":"Solaris","es":"Solaris","fr":"Solaris","pt":"Solaris","ja":"ソラリス"},
+    {"id":"Tidus","en":"Tidus","de":"Tidus","es":"Tidus","fr":"Tidus","pt":"Tidus","ja":"ティーダ"}
   ]
 }

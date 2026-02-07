@@ -17,7 +17,9 @@
     "update-fluffy-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js fluffy",
     "update-electra-brawls-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js electra-brawls",
     "update-hwde-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js hwde",
-    "update-calendar-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js calendar-hwde"
+    "update-calendar-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js calendar-hwde",
+    "update-tidus-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js tidus-hwde",
+    "update-lumira-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js lumira-hwde"
   },
   "notes": "Para adicionar outros menus HWA: node hero-wars-alliance/update-data-menu-hwa.js <pasta> <prefixo>. Para HWDE: npm run update-hwde <prefixo> (ex.: npm run update-hwde electra-brawls)",
   "repository": {

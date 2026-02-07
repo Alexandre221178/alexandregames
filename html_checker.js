@@ -252,6 +252,21 @@ function checkFile(filePath) {
             }
         });
 
+        // Verificar placeholders em URLs (##########)
+        $('a[href], link[href], img[src], script[src]').each((i, elem) => {
+            const tag = $(elem).prop('tagName').toLowerCase();
+            let attr = '';
+            if (tag === 'a' || tag === 'link') {
+                attr = 'href';
+            } else if (tag === 'img' || tag === 'script') {
+                attr = 'src';
+            }
+            const value = $(elem).attr(attr);
+            if (value && value.includes('##########')) {
+                issues.push(`Placeholder encontrado em ${tag}[${attr}]: ${value}`);
+            }
+        });
+
         // Verificar anúncios (ads)
         if (!isNoAdsPage) {
             // Coletar todos os elementos no documento em ordem

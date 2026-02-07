@@ -2,16 +2,22 @@ const fs = require('fs');
 const path = require('path');
 // atualizar sempre com grock - verificar erros: node html_checker.js
 // npm run update-
-//Ex: npm run update-calendar-hwa
+//Ex: npm run update-calendar-hwde
 //Ex: npm run update-electra-hwde
 //Ex: npm run update-hwde-hwde
 //Ex: npm run update-calendar-hwde
-// Receber o prefixo como argumento (ex.: electra-brawls)
-const prefix = process.argv[2];
+// Receber o prefixo como argumento (ex.: electra-brawls ou tidus-hwde)
+let prefix = process.argv[2];
 if (!prefix) {
   console.error('Uso: node update-data-menu-hwde.js <prefixo>');
   console.error('Exemplo: node update-data-menu-hwde.js electra-brawls');
+  console.error('Para HWDE: node update-data-menu-hwde.js tidus-hwde (será tratado como tidus)');
   process.exit(1);
+}
+
+// Se o prefixo terminar com "-hwde", remover para compatibilidade
+if (prefix.endsWith('-hwde')) {
+  prefix = prefix.slice(0, -5); // remove "-hwde"
 }
 
 // Caminho base para hero-wars-dominion-era
