@@ -7,13 +7,13 @@
     "pt": "Hero Wars Alliance",
     "ja": "ヒーローウォーズ アライアンス"
   },
-  "Legendary": {
-    "en": "Legendary",
-    "de": "Legendär",
-    "es": "Legendario",
-    "fr": "Légendaire",
-    "pt": "Lendário",
-    "ja": "レジェンダリー"
+  "Guide": {
+    "en": "Guide",
+    "de": "Leitfaden",
+    "es": "Guía",
+    "fr": "Guide",
+    "pt": "Guia",
+    "ja": "ガイド"
   },
   "Relic": {
     "en": "Relic",
@@ -22,6 +22,22 @@
     "fr": "Relique",
     "pt": "Relíquia",
     "ja": "遺物"
+  },
+  "Legendary": {
+    "en": "Legendary",
+    "de": "Legendär",
+    "es": "Legendario",
+    "fr": "Légendaire",
+    "pt": "Lendário",
+    "ja": "レジェンダリー"
+  },
+  "Legendary Skill": {
+    "en": "Legendary Skill",
+    "de": "Legendäre Fähigkeit",
+    "es": "Habilidad legendaria",
+    "fr": "Compétence légendaire",
+    "pt": "Habilidade lendária",
+    "ja": "レジェンダリースキル"
   },
   "Power": {
     "en": "Power",
@@ -84,7 +100,7 @@
     "de": "Skins",
     "es": "Skins",
     "fr": "Skins",
-    "pt": "Trajes",
+    "pt": "Skins",
     "ja": "スキン"
   },
   "Best Skin": {
@@ -92,8 +108,8 @@
     "de": "Best Skin",
     "es": "Best Skin",
     "fr": "Best Skin",
-    "pt": "Melhor Skin",
-    "ja": "おすすめスキン"
+    "pt": "Best Skin",
+    "ja": "Best Skin (ベストスキン)"
   },
   "Armor": {
     "en": "Armor",
@@ -124,7 +140,7 @@
     "de": "Counters",
     "es": "Counters",
     "fr": "Counters",
-    "pt": "Contra-ataques",
+    "pt": "Counters",
     "ja": "カウンター"
   },
   "Agility": {
@@ -150,5 +166,293 @@
     "fr": "Attaque magique",
     "pt": "Ataque Mágico",
     "ja": "魔法攻撃"
+  },
+  "Magic Defense": {
+    "en": "Magic Defense",
+    "de": "Magische Verteidigung",
+    "es": "Resistencia mágica",
+    "fr": "Défense magique",
+    "pt": "Defesa Mágica",
+    "ja": "魔法防御"
+  },
+  "Intelligence": {
+    "en": "Intelligence",
+    "de": "Intelligenz",
+    "es": "Inteligencia",
+    "fr": "Intelligence",
+    "pt": "Inteligência",
+    "ja": "知力"
+  },
+  "Way of Eternity": {
+    "en": "Way of Eternity",
+    "de": "Weg der Ewigkeit",
+    "es": "Camino de la Eternidad",
+    "fr": "Voie de l’Éternité",
+    "pt": "Caminho da Eternidade",
+    "ja": "永遠の道"
+  },
+  "Way of Nature": {
+    "en": "Way of Nature",
+    "de": "Weg der Natur",
+    "es": "Camino de la Naturaleza",
+    "fr": "Voie de la Nature",
+    "pt": "Caminho da Natureza",
+    "ja": "自然の道"
+  },
+  "Way of Honor": {
+    "en": "Way of Honor",
+    "de": "Weg der Ehre",
+    "es": "Camino del Honor",
+    "fr": "Voie de l’Honneur",
+    "pt": "Caminho da Honra",
+    "ja": "名誉の道"
+  },
+  "Way of Chaos": {
+    "en": "Way of Chaos",
+    "de": "Weg des Chaos",
+    "es": "Camino del Caos",
+    "fr": "Voie du Chaos",
+    "pt": "Caminho do Caos",
+    "ja": "カオスの道"
+  },
+  "Way of Progress": {
+    "en": "Way of Progress",
+    "de": "Weg des Fortschritts",
+    "es": "Camino del Progreso",
+    "fr": "Voie du Progrès",
+    "pt": "Caminho do Progresso",
+    "ja": "進歩の道"
+  },
+  "Way of Mystery": {
+    "en": "Way of Mystery",
+    "de": "Weg des Mysteriums",
+    "es": "Camino del Misterio",
+    "fr": "Voie du Mystère",
+    "pt": "Caminho do Mistério",
+    "ja": "神秘の道"
+  },
+  "Eternity": {
+    "en": "Eternity",
+    "de": "Ewigkeit",
+    "es": "Eternidad",
+    "fr": "Éternité",
+    "pt": "Eternidade",
+    "ja": "永遠"
+  },
+  "Nature": {
+    "en": "Nature",
+    "de": "Natur",
+    "es": "Naturaleza",
+    "fr": "Nature",
+    "pt": "Natureza",
+    "ja": "自然"
+  },
+  "Honor": {
+    "en": "Honor",
+    "de": "Ehre",
+    "es": "Honor",
+    "fr": "Honneur",
+    "pt": "Honra",
+    "ja": "名誉"
+  },
+  "Chaos": {
+    "en": "Chaos",
+    "de": "Chaos",
+    "es": "Caos",
+    "fr": "Chaos",
+    "pt": "Caos",
+    "ja": "カオス"
+  },
+  "Progress": {
+    "en": "Progress",
+    "de": "Fortschritt",
+    "es": "Progreso",
+    "fr": "Progrès",
+    "pt": "Progresso",
+    "ja": "進歩"
+  },
+  "Mystery": {
+    "en": "Mystery",
+    "de": "Mysterium",
+    "es": "Misterio",
+    "fr": "Mystère",
+    "pt": "Mistério",
+    "ja": "神秘"
+  },
+  "Crushing": {
+    "en": "Crushing",
+    "de": "Zerschmettern",
+    "es": "Aplastamiento",
+    "fr": "Écrasement",
+    "pt": "Esmagamento",
+    "ja": "ダメージ増加"
+  },
+  "Toughness": {
+    "en": "Toughness",
+    "de": "Zähigkeit",
+    "es": "Dureza",
+    "fr": "Ténacité",
+    "pt": "Dureza",
+    "ja": "粘り強さ"
+  },
+  "Magical critical hit chance": {
+    "en": "Magical critical hit chance",
+    "de": "Magische kritische Trefferchance",
+    "es": "Probabilidad de golpe crítico mágico",
+    "fr": "Chance de coup critique magique",
+    "pt": "Chance de acerto crítico mágico",
+    "ja": "魔法攻撃のクリティカルヒット"
+  },
+  "Magic reflection": {
+    "en": "Magic reflection",
+    "de": "Magische Reflektion",
+    "es": "Reflejo mágico",
+    "fr": "Réflexion magique",
+    "pt": "Reflexão mágica",
+    "ja": "魔法攻擊"
+  },
+  "Titans": {
+    "en": "Titans",
+    "de": "Titanen",
+    "es": "Titanes",
+    "fr": "Titans",
+    "pt": "Titãs",
+    "ja": "タイタンズ"
+  },
+  "Titan": {
+    "en": "Titan",
+    "de": "Titan",
+    "es": "Titán",
+    "fr": "Titan",
+    "pt": "Titã",
+    "ja": "タイタン"
+  },
+  "Default Skin": {
+    "en": "Default Skin",
+    "de": "Standard-Skin",
+    "es": "Skin Predeterminada",
+    "fr": "Skin Par Défaut",
+    "pt": "Skin Padrão",
+    "ja": "デフォルトスキン"
+  },
+  "Solar Skin": {
+    "en": "Solar Skin",
+    "de": "Sonnen-Skin",
+    "es": "Skin Solar",
+    "fr": "Skin Solaire",
+    "pt": "Skin Solar",
+    "ja": "太陽スキン"
+  },
+  "Celestial Skin": {
+    "en": "Celestial Skin",
+    "de": "Himmels-Skin",
+    "es": "Skin Celestial",
+    "fr": "Skin Céleste",
+    "pt": "Skin Celestial",
+    "ja": "天上スキン"
+  },
+  "Cybernetic Skin": {
+    "en": "Cybernetic Skin",
+    "de": "Kybernetische Skin",
+    "es": "Skin Cibernética",
+    "fr": "Skin Cybernétique",
+    "pt": "Skin Cibernética",
+    "ja": "サイバネティックスキン"
+  },
+  "Masquerade Skin": {
+    "en": "Masquerade Skin",
+    "de": "Maskeraden-Skin",
+    "es": "Skin Mascarada",
+    "fr": "Skin Mascarade",
+    "pt": "Skin Mascarada",
+    "ja": "仮装スキン"
+  },
+  "Romantic Skin": {
+    "en": "Romantic Skin",
+    "de": "Romantische Skin",
+    "es": "Skin Romántica",
+    "fr": "Skin Romantique",
+    "pt": "Skin Romântico",
+    "ja": "ロマンティックスキン"
+  },
+  "Winter Skin": {
+    "en": "Winter Skin",
+    "de": "Winter-Skin",
+    "es": "Skin de Invierno",
+    "fr": "Skin d'Hiver",
+    "pt": "Skin de Inverno",
+    "ja": "冬季スキン"
+  },
+  "Spring Skin": {
+    "en": "Spring Skin",
+    "de": "Frühlings-Skin",
+    "es": "Skin de Primavera",
+    "fr": "Skin de Printemps",
+    "pt": "Skin de Primavera",
+    "ja": "春季スキン"
+  },
+  "Lunar Skin": {
+    "en": "Lunar Skin",
+    "de": "Mond-Skin",
+    "es": "Skin Lunar",
+    "fr": "Skin Lunaire",
+    "pt": "Skin Lunar",
+    "ja": "月スキン"
+  },
+  "Demonic Skin": {
+    "en": "Demonic Skin",
+    "de": "Dämonische Skin",
+    "es": "Skin Demoníaca",
+    "fr": "Skin Démoniaque",
+    "pt": "Skin Demoníaco",
+    "ja": "悪魔スキン"
+  },
+  "Dark Depths Skin": {
+    "en": "Dark Depths Skin",
+    "de": "Dunkle Tiefen-Skin",
+    "es": "Skin Profundidades Oscuras",
+    "fr": "Skin Profondeurs Sombres",
+    "pt": "Skin Profundezas Sombrias",
+    "ja": "闇の深淵スキン"
+  },
+  "Mystic Skin": {
+    "en": "Mystic Skin",
+    "de": "Mystische Skin",
+    "es": "Skin Mística",
+    "fr": "Skin Mystique",
+    "pt": "Skin Místico",
+    "ja": "神話スキン"
+  },
+  "Angelic Skin": {
+    "en": "Angelic Skin",
+    "de": "Engel-Skin",
+    "es": "Skin Angelical",
+    "fr": "Skin Angélique",
+    "pt": "Skin Angelical",
+    "ja": "天使スキン"
+  },
+  "Oblivion Skin": {
+    "en": "Oblivion Skin",
+    "de": "Vergessenheits-Skin",
+    "es": "Skin del Olvido",
+    "fr": "Skin de l'Oubli",
+    "pt": "Skin do Esquecimento",
+    "ja": "忘却スキン"
+  },
+  "Sporty Skin": {
+    "en": "Sporty Skin",
+    "de": "Sport-Skin",
+    "es": "Skin Deportiva",
+    "fr": "Skin Sportive",
+    "pt": "Skin Esportivo",
+    "ja": "サポートスキン"
+  },
+  "Stellar Skin": {
+    "en": "Stellar Skin",
+    "de": "Stellar-Skin",
+    "es": "Skin Estelar",
+    "fr": "Skin Stellaire",
+    "pt": "Skin Estelar",
+    "ja": "恒星スキン"
   }
 }
