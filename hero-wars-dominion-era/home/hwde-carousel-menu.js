@@ -2,6 +2,15 @@
   // Carousel multi-language injector (HWDE specific copy)
   const slides = [
     {
+      link: "../../hero-wars-dominion-era/titans/tidus-en.html",
+      src500: "../../hero-wars-dominion-era/images/titans-hwde/tidus/tidus-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/titans-hwde/tidus/tidus-400px.webp",
+      alt: "Tidus for Hero Wars: Dominion Era",
+      title: "Tidus for Hero Wars: Dominion Era.",
+      strong: "Tidus - Hero Wars: Dominion Era",
+      updated: "Updated: February, 2026."
+    },
+    {
       link: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-en.html",
       src500: "../../hero-wars-dominion-era/images/hero-brawls/electra-brawls/electra-brawls-500px.webp",
       src400: "../../hero-wars-dominion-era/images/hero-brawls/electra-brawls/electra-brawls-400px.webp",
@@ -19,6 +28,7 @@
       strong: "Electra - Hero Wars: Dominion Era",
       updated: "Updated: February, 2026."
     },
+    
     {
       link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
       src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
