@@ -350,6 +350,41 @@ function checkJsFile(filePath) {
     try {
         const content = fs.readFileSync(filePath, 'utf-8');
         
+        // Arquivos específicos para verificação de links e imagens
+        const specificFiles = [
+            'hero-wars-alliance/menu-hwa/calendar-hwa-data.js',
+            'hero-wars-dominion-era/menu/calendar-hwde-data.js',
+            'hero-wars-dominion-era/home/hwde-carousel-menu.js'
+        ];
+        const isSpecificFile = specificFiles.some(specific => filePath.includes(specific));
+        
+        if (isSpecificFile) {
+            // Verificações específicas para links e imagens
+            const linkPattern = /["']([^"']*\.html?)["']/g;  // Capturar qualquer string terminando com .html
+            const imagePattern = /(?:image|src\d*)\s*:\s*["']([^"']+)["']/g;
+            
+            let match;
+            
+            // Verificar links (qualquer string terminando com .html)
+            while ((match = linkPattern.exec(content)) !== null) {
+                const link = match[1];
+                if (link && link.trim() !== '' && link.endsWith('.html') && !link.startsWith('../../') && !link.startsWith('https://')) {
+                    issues.push(`Link inválido (deve começar com "../../" ou "https://"): ${link}`);
+                }
+            }
+            
+            // Verificar imagens
+            while ((match = imagePattern.exec(content)) !== null) {
+                const img = match[1];
+                if (img && img.trim() !== '' && 
+                    !img.startsWith('../../hero-wars-alliance/images/') && 
+                    !img.startsWith('../../hero-wars-dominion-era/images/') && 
+                    !img.startsWith('../../imagens/image-shared/')) {
+                    issues.push(`Imagem inválida (deve começar com "../../hero-wars-alliance/images/", "../../hero-wars-dominion-era/images/" ou "../../imagens/image-shared/"): ${img}`);
+                }
+            }
+        }
+        
         // Procurar por padrões de links nos arquivos de dados JS
         // Padrão: en: "../../caminho/arquivo.html"
         const linkPattern = /(en|pt|de|es|fr|ja):\s*"([^"]+)"/g;
