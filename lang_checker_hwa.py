@@ -6,6 +6,7 @@ import json
 import os
 import re
 from collections import defaultdict
+from difflib import get_close_matches, SequenceMatcher
 
 # Caminhos para os arquivos de localização
 DATA_DIR = 'hero-wars-alliance/data'
@@ -24,12 +25,16 @@ def load_js_file(filepath):
     """Carrega um arquivo JS e extrai o objeto JSON."""
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
-    # Remove a declaração const e o ponto e vírgula
-    match = re.search(r'const \w+ = ({.*?});', content, re.DOTALL)
-    if match:
-        json_str = match.group(1)
-        return json.loads(json_str)
-    return None
+    # Encontrar a posição do { após const ... =
+    start = content.find('{')
+    if start == -1:
+        return None
+    # Encontrar a última }
+    end = content.rfind('}')
+    if end == -1:
+        return None
+    json_str = content[start:end+1]
+    return json.loads(json_str)
 
 def load_json_file(filepath):
     """Carrega um arquivo JSON."""
@@ -52,8 +57,10 @@ def load_localization_data():
     except:
         terms_data = {}
 
-def check_characters_multilingual():
+def check_characters_multilingual(fix_teams=False, fixes=None):
     """Verifica heróis multilingues na pasta characters-guide."""
+    if fixes is None:
+        fixes = defaultdict(list)
     issues = []
     if not os.path.exists(CHARACTERS_DIR):
         issues.append(f"Diretório não encontrado: {CHARACTERS_DIR}")
@@ -79,14 +86,14 @@ def check_characters_multilingual():
             for lang in LANGUAGES:
                 filepath = os.path.join(CHARACTERS_DIR, f"{hero}-{lang}.html")
                 if os.path.exists(filepath):
-                    issues.extend(check_html_title(filepath, hero, lang))
+                    issues.extend(check_html_title(filepath, hero, lang, fix_teams, fixes))
         else:
             missing = set(LANGUAGES) - set(langs_list)
             issues.append(f"Herói '{hero}' incompleto: faltam idiomas {sorted(missing)} (tem: {langs_list})")
     
     return issues
 
-def check_html_title(filepath, hero, lang):
+def check_html_title(filepath, hero, lang, fix_teams=False, fixes=None):
     """Verifica se o HTML contém as traduções corretas em várias seções."""
     issues = []
     try:
@@ -139,6 +146,84 @@ def check_html_title(filepath, hero, lang):
                     issues.append(f"{filepath}: <figcaption> '{figcaption[:50]}...' menciona 'Hero Wars' mas não contém a tradução correta '{game_trans1}', '{game_trans2}' ou '{game_trans3}' em {lang}")
                     break  # Apenas o primeiro erro
         
+        # Verificar nomes de heróis e titãs no conteúdo para erros de digitação
+        hero_titan_names_lower = [k.lower() for k in heroes_data.keys()] + [k.lower() for k in titans_data.keys()]
+        # Palavras comuns que podem ser confundidas com nomes de heróis/titãs
+        excluded_words = {
+            'fr': ['temps'],  # "Temps" significa "tempo" em francês
+            'de': ['cleave'],  # "Cleave" é uma palavra comum em alemão?
+            # Adicionar mais conforme necessário
+        }
+        words = re.findall(r'\b[A-Z][a-z]+\b', content)  # palavras capitalizadas
+        for word in words:
+            if len(word) < 4:  # ignorar palavras curtas
+                continue
+            lower_word = word.lower()
+            if lower_word in hero_titan_names_lower:
+                continue  # correto
+            # Verificar possessivo alemão (adiciona 's')
+            if lower_word.endswith('s') and lower_word[:-1] in hero_titan_names_lower:
+                continue  # possessivo correto
+            # Excluir palavras comuns por idioma
+            if lower_word in excluded_words.get(lang, []):
+                continue
+            matches = get_close_matches(lower_word, hero_titan_names_lower, n=1, cutoff=0.9)
+            if matches:
+                suggested = matches[0].capitalize()
+                issues.append(f"{filepath}: Possível erro de digitação no nome '{word}' – sugerido '{suggested}' em {lang}")
+        
+        # Verificar listas de equipes
+        team_matches = re.findall(r'<ol class="team-list team-table-body">(.*?)</ol>', content, re.DOTALL)
+        for team_list in team_matches:
+            team_names = re.findall(r'<div class="team-name">(.*?)</div>', team_list)
+            for team in team_names:
+                # Separador
+                separator = ','
+                heroes_in_team = [h.strip() for h in team.split(separator)]
+                for hero_name in heroes_in_team:
+                    # Verificar se o nome corresponde exatamente a uma tradução
+                    found = False
+                    # Verificar heróis
+                    for hero_key, trans_dict in heroes_data.items():
+                        if isinstance(trans_dict, dict) and lang in trans_dict and trans_dict[lang] == hero_name:
+                            found = True
+                            break
+                    # Verificar titãs se não encontrado
+                    if not found:
+                        for titan_key, trans_dict in titans_data.items():
+                            if isinstance(trans_dict, dict) and lang in trans_dict and trans_dict[lang] == hero_name:
+                                found = True
+                                break
+                    if not found:
+                        if fix_teams:
+                            # Find closest match
+                            best_match = None
+                            best_sim = 0
+                            for hero_key, trans_dict in heroes_data.items():
+                                if isinstance(trans_dict, dict) and lang in trans_dict:
+                                    trans = trans_dict[lang]
+                                    sim = SequenceMatcher(None, hero_name, trans).ratio()
+                                    if sim > best_sim:
+                                        best_sim = sim
+                                        best_match = trans
+                            for titan_key, trans_dict in titans_data.items():
+                                if isinstance(trans_dict, dict) and lang in trans_dict:
+                                    trans = trans_dict[lang]
+                                    sim = SequenceMatcher(None, hero_name, trans).ratio()
+                                    if sim > best_sim:
+                                        best_sim = sim
+                                        best_match = trans
+                            if best_sim > 0.8:
+                                # Add to fixes
+                                if filepath not in fixes:
+                                    fixes[filepath] = []
+                                fixes[filepath].append((hero_name, best_match))
+                                issues.append(f"{filepath}: Corrigindo '{hero_name}' para '{best_match}' na equipe em {lang}")
+                            else:
+                                issues.append(f"{filepath}: Nome de herói/titã '{hero_name}' na equipe não corresponde a nenhuma tradução em {lang} (similaridade baixa)")
+                        else:
+                            issues.append(f"{filepath}: Nome de herói/titã '{hero_name}' na equipe não corresponde a nenhuma tradução em {lang}")
+        
     except Exception as e:
         issues.append(f"Erro ao ler {filepath}: {e}")
     return issues
@@ -172,6 +257,10 @@ def check_translations(data, filename, path=""):
     return issues
 
 def main():
+    import sys
+    fix_teams = '--fix-teams' in sys.argv
+    fixes = defaultdict(list)
+    
     # Carregar dados de localização
     load_localization_data()
     
@@ -196,7 +285,7 @@ def main():
             all_issues.append(f"Arquivo não encontrado: {filepath}")
 
     # Verificar heróis multilingues
-    char_issues = check_characters_multilingual()
+    char_issues = check_characters_multilingual(fix_teams, fixes)
     all_issues.extend(char_issues)
 
     if all_issues:
@@ -205,6 +294,17 @@ def main():
             print(f"- {issue}")
     else:
         print("Todas as traduções estão completas e presentes.")
+    
+    # Apply fixes
+    if fix_teams and fixes:
+        for filepath, replacements in fixes.items():
+            with open(filepath, 'r', encoding='utf-8') as f:
+                content = f.read()
+            for old, new in replacements:
+                content = content.replace(old, new)
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write(content)
+            print(f"Corrigido {filepath}: {len(replacements)} substituições feitas.")
 
 if __name__ == "__main__":
     main()
