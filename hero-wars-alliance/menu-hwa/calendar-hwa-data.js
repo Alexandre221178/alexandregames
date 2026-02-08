@@ -341,7 +341,7 @@ window.CALENDAR_DATA = [
     image: "../../hero-wars-alliance/images/hero/dante/dante-400px.webp",
     alt: "Dante Guide (Updated Skin+)",
     titles: { en: "Dante Guide (Updated Skin+)", de: "Dante Guide (Updated Skin+)", es: "Guía de Dante (Skin+ Actualizado)", fr: "Guide de Dante (Skin+ Mis à Jour)", pt: "Guia de Dante (Skin+ Atualizado)", ja: "ダンテガイド（更新されたスキン+）" },
-    links: { en: "hero-wars-alliance/characters-guide/dante-en.html", de: "hero-wars-alliance/characters-guide/dante-de.html", es: "hero-wars-alliance/characters-guide/dante-es.html", fr: "hero-wars-alliance/characters-guide/dante-fr.html", pt: "hero-wars-alliance/characters-guide/dante-pt.html", ja: "hero-wars-alliance/characters-guide/dante-ja.html" },
+    links: { en: "../../hero-wars-alliance/characters-guide/dante-en.html", de: "../../hero-wars-alliance/characters-guide/dante-de.html", es: "../../hero-wars-alliance/characters-guide/dante-es.html", fr: "../../hero-wars-alliance/characters-guide/dante-fr.html", pt: "../../hero-wars-alliance/characters-guide/dante-pt.html", ja: "../../hero-wars-alliance/characters-guide/dante-ja.html" },
     extra: [   
   
       {// Dentro de extra[] de um evento:
@@ -367,7 +367,7 @@ labelOnly: true
     image: "../../hero-wars-alliance/images/hero/dante/dante-400px.webp",
     alt: "Dante Guide (Updated Skin+)",
     titles: { en: "Dante Guide (Updated Skin+)", de: "Dante Guide (Updated Skin+)", es: "Guía de Dante (Skin+ Actualizado)", fr: "Guide de Dante (Skin+ Mis à Jour)", pt: "Guia de Dante (Skin+ Atualizado)", ja: "ダンテガイド（更新されたスキン+）" },
-    links: { en: "hero-wars-alliance/characters-guide/dante-en.html", de: "hero-wars-alliance/characters-guide/dante-de.html", es: "hero-wars-alliance/characters-guide/dante-es.html", fr: "hero-wars-alliance/characters-guide/dante-fr.html", pt: "hero-wars-alliance/characters-guide/dante-pt.html", ja: "hero-wars-alliance/characters-guide/dante-ja.html" },
+    links: { en: "../../hero-wars-alliance/characters-guide/dante-en.html", de: "../../hero-wars-alliance/characters-guide/dante-de.html", es: "../../hero-wars-alliance/characters-guide/dante-es.html", fr: "../../hero-wars-alliance/characters-guide/dante-fr.html", pt: "../../hero-wars-alliance/characters-guide/dante-pt.html", ja: "../../hero-wars-alliance/characters-guide/dante-ja.html" },
     extra: [   
       {// Dentro de extra[] de um evento:
 titles: { en: "Masks of Oblivion", pt: "Máscaras do Esquecimento", de: "Masken des Vergessens", es: "Máscaras del Olvido", fr: "Masques de l’Oubli", ja: "忘却の仮面" },
@@ -392,7 +392,7 @@ labelOnly: true
      image: "../../hero-wars-alliance/images/hero/dante/dante-400px.webp",
     alt: "Dante Guide (Updated Skin+)",
     titles: { en: "Dante Guide (Updated Skin+)", de: "Dante Guide (Updated Skin+)", es: "Guía de Dante (Skin+ Actualizado)", fr: "Guide de Dante (Skin+ Mis à Jour)", pt: "Guia de Dante (Skin+ Atualizado)", ja: "ダンテガイド（更新されたスキン+）" },
-    links: { en: "hero-wars-alliance/characters-guide/dante-en.html", de: "hero-wars-alliance/characters-guide/dante-de.html", es: "hero-wars-alliance/characters-guide/dante-es.html", fr: "hero-wars-alliance/characters-guide/dante-fr.html", pt: "hero-wars-alliance/characters-guide/dante-pt.html", ja: "hero-wars-alliance/characters-guide/dante-ja.html" },
+    links: { en: "../../hero-wars-alliance/characters-guide/dante-en.html", de: "../../hero-wars-alliance/characters-guide/dante-de.html", es: "../../hero-wars-alliance/characters-guide/dante-es.html", fr: "../../hero-wars-alliance/characters-guide/dante-fr.html", pt: "../../hero-wars-alliance/characters-guide/dante-pt.html", ja: "../../hero-wars-alliance/characters-guide/dante-ja.html" },
     extra: [      
 {
         titles: { en: "Drayne - Relic Event", de: "Drayne - Relikt-Ereignis", es: "Drayne - Evento de Reliquia", fr: "Drayne - Événement des Reliques", pt: "Drayne - Evento de Relíquia", ja: "ドレイン - レリックイベント" },
