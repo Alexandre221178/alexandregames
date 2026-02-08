@@ -1,6 +1,8 @@
 // Hero Wars Alliance - Heroes Localization Data
+// Hero Wars Alliance - Heroes Localization Data
 const hwaHeroesLocalization = {
   "Aidan": {
+    "gender": "male",
     "en": "Aidan",
     "de": "Aidan",
     "es": "Aidan",
@@ -9,6 +11,7 @@ const hwaHeroesLocalization = {
     "ja": "エイダン"
   },
   "Alvanor": {
+    "gender": "male",
     "en": "Alvanor",
     "de": "Alvanor",
     "es": "Alvanor",
@@ -17,6 +20,7 @@ const hwaHeroesLocalization = {
     "ja": "アルバノール"
   },
   "Amira": {
+    "gender": "female",
     "en": "Amira",
     "de": "Amira",
     "es": "Amira",
@@ -25,6 +29,7 @@ const hwaHeroesLocalization = {
     "ja": "アミラ"
   },
   "Andvari": {
+    "gender": "male",
     "en": "Andvari",
     "de": "Andvari",
     "es": "Andvari",
@@ -33,6 +38,7 @@ const hwaHeroesLocalization = {
     "ja": "アンドバリ"
   },
   "Arachne": {
+    "gender": "female",
     "en": "Arachne",
     "de": "Arachne",
     "es": "Arachne",
@@ -41,6 +47,7 @@ const hwaHeroesLocalization = {
     "ja": "アラクネ"
   },
   "Artemis": {
+    "gender": "female",
     "en": "Artemis",
     "de": "Artemis",
     "es": "Artemis",
@@ -49,6 +56,7 @@ const hwaHeroesLocalization = {
     "ja": "アルテミス"
   },
   "Astaroth": {
+    "gender": "male",
     "en": "Astaroth",
     "de": "Astaroth",
     "es": "Astaroth",
@@ -57,6 +65,7 @@ const hwaHeroesLocalization = {
     "ja": "アスタロス"
   },
   "Astrid & Lucas": {
+    "gender": "female",
     "en": "Astrid & Lucas",
     "de": "Astrid & Lucas",
     "es": "Astrid & Lucas",
@@ -65,6 +74,7 @@ const hwaHeroesLocalization = {
     "ja": "アストリッドとルーカス"
   },
   "Byrna": {
+    "gender": "female",
     "en": "Byrna",
     "de": "Byrna",
     "es": "Byrna",
@@ -73,6 +83,7 @@ const hwaHeroesLocalization = {
     "ja": "バーナ"
   },
   "Aurora": {
+    "gender": "female",
     "en": "Aurora",
     "de": "Aurora",
     "es": "Aurora",
@@ -81,6 +92,7 @@ const hwaHeroesLocalization = {
     "ja": "オーロラ"
   },
   "Cascade": {
+    "gender": "male",
     "en": "Cascade",
     "de": "Kaskade",
     "es": "Cascade",
@@ -89,6 +101,7 @@ const hwaHeroesLocalization = {
     "ja": "カスケード"
   },
   "Celeste": {
+    "gender": "female",
     "en": "Celeste",
     "de": "Celeste",
     "es": "Celeste",
@@ -97,6 +110,7 @@ const hwaHeroesLocalization = {
     "ja": "セレステ"
   },
   "Chabba": {
+    "gender": "male",
     "en": "Chabba",
     "de": "Chabba",
     "es": "Chabba",
@@ -105,6 +119,7 @@ const hwaHeroesLocalization = {
     "ja": "チャバ"
   },
   "Cleaver": {
+    "gender": "male",
     "en": "Cleaver",
     "de": "Hackebeil",
     "es": "Tajador",
@@ -113,6 +128,7 @@ const hwaHeroesLocalization = {
     "ja": "クリーバー"
   },
   "Cornelius": {
+    "gender": "male",
     "en": "Cornelius",
     "de": "Cornelius",
     "es": "Cornelius",
@@ -121,6 +137,7 @@ const hwaHeroesLocalization = {
     "ja": "コーネリウス"
   },
   "Corvus": {
+    "gender": "male",
     "en": "Corvus",
     "de": "Corvus",
     "es": "Corvus",
@@ -129,6 +146,7 @@ const hwaHeroesLocalization = {
     "ja": "コーブス"
   },
   "Dante": {
+    "gender": "male",
     "en": "Dante",
     "de": "Dante",
     "es": "Dante",
@@ -137,6 +155,7 @@ const hwaHeroesLocalization = {
     "ja": "ダンテ"
   },
   "Daredevil": {
+    "gender": "female",
     "en": "Daredevil",
     "de": "Draufgänger",
     "es": "Daredevil",
@@ -145,6 +164,7 @@ const hwaHeroesLocalization = {
     "ja": "デアデビル"
   },
   "Dark Star": {
+    "gender": "female",
     "en": "Dark Star",
     "de": "Dunkler Stern",
     "es": "Estrella Oscura",
@@ -153,6 +173,7 @@ const hwaHeroesLocalization = {
     "ja": "ダークスター"
   },
   "Dorian": {
+    "gender": "male",
     "en": "Dorian",
     "de": "Dorian",
     "es": "Dorian",
@@ -161,6 +182,7 @@ const hwaHeroesLocalization = {
     "ja": "ドリアン"
   },
   "Drayne": {
+    "gender": "male",
     "en": "Drayne",
     "de": "Drayne",
     "es": "Drayne",
@@ -169,6 +191,7 @@ const hwaHeroesLocalization = {
     "ja": "ドレイン"
   },
   "Electra": {
+    "gender": "female",
     "en": "Electra",
     "de": "Electra",
     "es": "Electra",
@@ -177,6 +200,7 @@ const hwaHeroesLocalization = {
     "ja": "エレクトラ"
   },
   "Elmir": {
+    "gender": "male",
     "en": "Elmir",
     "de": "Elmir",
     "es": "Elmir",
@@ -185,6 +209,7 @@ const hwaHeroesLocalization = {
     "ja": "エルミー"
   },
   "Faceless": {
+    "gender": "male",
     "en": "Faceless",
     "de": "Gesichtsloser",
     "es": "Sin Rostro",
@@ -193,6 +218,7 @@ const hwaHeroesLocalization = {
     "ja": "フェイスレス"
   },
   "Fafnir": {
+    "gender": "male",
     "en": "Fafnir",
     "de": "Fafnir",
     "es": "Fafnir",
@@ -201,6 +227,7 @@ const hwaHeroesLocalization = {
     "ja": "ファフニール"
   },
   "Folio": {
+    "gender": "male",
     "en": "Folio",
     "de": "Folio",
     "es": "Folio",
@@ -209,6 +236,7 @@ const hwaHeroesLocalization = {
     "ja": "フォリオ"
   },
   "Fox": {
+    "gender": "female",
     "en": "Fox",
     "de": "Fuchs",
     "es": "Zorro",
@@ -217,6 +245,7 @@ const hwaHeroesLocalization = {
     "ja": "フォックス"
   },
   "Galahad": {
+    "gender": "male",
     "en": "Galahad",
     "de": "Galahad",
     "es": "Galahad",
@@ -225,6 +254,7 @@ const hwaHeroesLocalization = {
     "ja": "ギャラハッド"
   },
   "Ginger": {
+    "gender": "female",
     "en": "Ginger",
     "de": "Ginger",
     "es": "Ginger",
@@ -233,6 +263,7 @@ const hwaHeroesLocalization = {
     "ja": "ジンジャー"
   },
   "Guus": {
+    "gender": "male",
     "en": "Guus",
     "de": "Guus",
     "es": "Guus",
@@ -241,6 +272,7 @@ const hwaHeroesLocalization = {
     "ja": "グース"
   },
   "Heidi": {
+    "gender": "male",
     "en": "Heidi",
     "de": "Heidi",
     "es": "Heidi",
@@ -249,6 +281,7 @@ const hwaHeroesLocalization = {
     "ja": "ハイディ"
   },
   "Helios": {
+    "gender": "male",
     "en": "Helios",
     "de": "Helios",
     "es": "Helios",
@@ -257,6 +290,7 @@ const hwaHeroesLocalization = {
     "ja": "ヘリオス"
   },
   "Iris": {
+    "gender": "female",
     "en": "Iris",
     "de": "Iris",
     "es": "Iris",
@@ -265,6 +299,7 @@ const hwaHeroesLocalization = {
     "ja": "アイリス"
   },
   "Isaac": {
+    "gender": "male",
     "en": "Isaac",
     "de": "Isaac",
     "es": "Isaac",
@@ -273,6 +308,7 @@ const hwaHeroesLocalization = {
     "ja": "アイザック"
   },
   "Ishmael": {
+    "gender": "male",
     "en": "Ishmael",
     "de": "Ishmael",
     "es": "Ishmael",
@@ -281,6 +317,7 @@ const hwaHeroesLocalization = {
     "ja": "イシュマエル"
   },
   "Jet": {
+    "gender": "male",
     "en": "Jet",
     "de": "Jet",
     "es": "Jet",
@@ -289,6 +326,7 @@ const hwaHeroesLocalization = {
     "ja": "ジェット"
   },
   "Jhu": {
+    "gender": "male",
     "en": "Jhu",
     "de": "Jhu",
     "es": "Jhu",
@@ -297,6 +335,7 @@ const hwaHeroesLocalization = {
     "ja": "ジュウ"
   },
   "Jorgen": {
+    "gender": "male",
     "en": "Jorgen",
     "de": "Jorgen",
     "es": "Jorgen",
@@ -305,6 +344,7 @@ const hwaHeroesLocalization = {
     "ja": "ヨルガン"
   },
   "Judge": {
+    "gender": "male",
     "en": "Judge",
     "de": "Richter",
     "es": "Juez",
@@ -313,6 +353,7 @@ const hwaHeroesLocalization = {
     "ja": "ジャッジ"
   },
   "Julius": {
+    "gender": "male",
     "en": "Julius",
     "de": "Julius",
     "es": "Julius",
@@ -321,6 +362,7 @@ const hwaHeroesLocalization = {
     "ja": "ジュリアス"
   },
   "K'arkh": {
+    "gender": "male",
     "en": "K'arkh",
     "de": "K'arkh",
     "es": "K'arkh",
@@ -329,6 +371,7 @@ const hwaHeroesLocalization = {
     "ja": "カーク"
   },
   "Kai": {
+    "gender": "male",
     "en": "Kai",
     "de": "Kai",
     "es": "Kai",
@@ -337,6 +380,7 @@ const hwaHeroesLocalization = {
     "ja": "カイ"
   },
   "Kayla": {
+    "gender": "female",
     "en": "Kayla",
     "de": "Kayla",
     "es": "Kayla",
@@ -345,6 +389,7 @@ const hwaHeroesLocalization = {
     "ja": "カイラ"
   },
   "Keira": {
+    "gender": "female",
     "en": "Keira",
     "de": "Keira",
     "es": "Keira",
@@ -353,6 +398,7 @@ const hwaHeroesLocalization = {
     "ja": "ケイラ"
   },
   "Krista": {
+    "gender": "female",
     "en": "Krista",
     "de": "Krista",
     "es": "Krista",
@@ -361,6 +407,7 @@ const hwaHeroesLocalization = {
     "ja": "クリスタ"
   },
   "Lara Croft": {
+    "gender": "female",
     "en": "Lara Croft",
     "de": "Lara Croft",
     "es": "Lara Croft",
@@ -369,6 +416,7 @@ const hwaHeroesLocalization = {
     "ja": "ララ・クロフト"
   },
   "Lars": {
+    "gender": "male",
     "en": "Lars",
     "de": "Lars",
     "es": "Lars",
@@ -377,6 +425,7 @@ const hwaHeroesLocalization = {
     "ja": "ラース"
   },
   "Lian": {
+    "gender": "female",
     "en": "Lian",
     "de": "Lian",
     "es": "Lian",
@@ -385,6 +434,7 @@ const hwaHeroesLocalization = {
     "ja": "リアン"
   },
   "Lilith": {
+    "gender": "female",
     "en": "Lilith",
     "de": "Lilith",
     "es": "Lilith",
@@ -393,6 +443,7 @@ const hwaHeroesLocalization = {
     "ja": "リリス"
   },
   "Luther": {
+    "gender": "male",
     "en": "Luther",
     "de": "Luther",
     "es": "Luther",
@@ -401,6 +452,7 @@ const hwaHeroesLocalization = {
     "ja": "ルーサー"
   },
   "Markus": {
+    "gender": "male",
     "en": "Markus",
     "de": "Markus",
     "es": "Markus",
@@ -409,6 +461,7 @@ const hwaHeroesLocalization = {
     "ja": "マーカス"
   },
   "Martha": {
+    "gender": "female",
     "en": "Martha",
     "de": "Martha",
     "es": "Martha",
@@ -417,6 +470,7 @@ const hwaHeroesLocalization = {
     "ja": "マーサ"
   },
   "Maya": {
+    "gender": "female",
     "en": "Maya",
     "de": "Maya",
     "es": "Maya",
@@ -425,6 +479,7 @@ const hwaHeroesLocalization = {
     "ja": "マヤ"
   },
   "Mojo": {
+    "gender": "male",
     "en": "Mojo",
     "de": "Mojo",
     "es": "Mojo",
@@ -433,6 +488,7 @@ const hwaHeroesLocalization = {
     "ja": "モージョー"
   },
   "Morrigan": {
+    "gender": "female",
     "en": "Morrigan",
     "de": "Morrigan",
     "es": "Morrigan",
@@ -441,6 +497,7 @@ const hwaHeroesLocalization = {
     "ja": "モリガン"
   },
   "Mushy & Shroom": {
+    "gender": "female",
     "en": "Mushy & Shroom",
     "de": "Champi und Gnon",
     "es": "Mushy y Shroom",
@@ -449,6 +506,7 @@ const hwaHeroesLocalization = {
     "ja": "マッシーとシュルーム"
   },
   "Nebula": {
+    "gender": "female",
     "en": "Nebula",
     "de": "Nebula",
     "es": "Nebulosa",
@@ -457,6 +515,7 @@ const hwaHeroesLocalization = {
     "ja": "ネブラ"
   },
   "NinjaTurtles": {
+    "gender": "male",
     "en": "NinjaTurtles",
     "de": "NinjaTurtles",
     "es": "Tortugas Ninja",
@@ -465,6 +524,7 @@ const hwaHeroesLocalization = {
     "ja": "忍者タートルズ"
   },
   "Octavia": {
+    "gender": "female",
     "en": "Octavia",
     "de": "Octavia",
     "es": "Octavia",
@@ -473,6 +533,7 @@ const hwaHeroesLocalization = {
     "ja": "オクタヴィア"
   },
   "Orion": {
+    "gender": "male",
     "en": "Orion",
     "de": "Orion",
     "es": "Orion",
@@ -481,6 +542,7 @@ const hwaHeroesLocalization = {
     "ja": "オリオン"
   },
   "Oya": {
+    "gender": "female",
     "en": "Oya",
     "de": "Oya",
     "es": "Oya",
@@ -489,6 +551,7 @@ const hwaHeroesLocalization = {
     "ja": "オヤ"
   },
   "Peech": {
+    "gender": "female",
     "en": "Peech",
     "de": "Peech",
     "es": "Peech",
@@ -497,6 +560,7 @@ const hwaHeroesLocalization = {
     "ja": "ピーチ"
   },
   "Peppy": {
+    "gender": "female",
     "en": "Peppy",
     "de": "Peppy",
     "es": "Peppy",
@@ -505,6 +569,7 @@ const hwaHeroesLocalization = {
     "ja": "ペピー"
   },
   "Phobos": {
+    "gender": "male",
     "en": "Phobos",
     "de": "Phobos",
     "es": "Phobos",
@@ -513,6 +578,7 @@ const hwaHeroesLocalization = {
     "ja": "フォボス"
   },
   "Polaris": {
+    "gender": "female",
     "en": "Polaris",
     "de": "Polaris",
     "es": "Polaris",
@@ -521,6 +587,7 @@ const hwaHeroesLocalization = {
     "ja": "ポラリス"
   },
   "Qing Mao": {
+    "gender": "female",
     "en": "Qing Mao",
     "de": "Qing Mao",
     "es": "Qing Mao",
@@ -529,6 +596,7 @@ const hwaHeroesLocalization = {
     "ja": "チン・マオ"
   },
   "Rufus": {
+    "gender": "male",
     "en": "Rufus",
     "de": "Rufus",
     "es": "Rufus",
@@ -537,6 +605,7 @@ const hwaHeroesLocalization = {
     "ja": "ルーファス"
   },
   "Satori": {
+    "gender": "male",
     "en": "Satori",
     "de": "Satori",
     "es": "Satori",
@@ -545,6 +614,7 @@ const hwaHeroesLocalization = {
     "ja": "サトリ"
   },
   "Sebastian": {
+    "gender": "male",
     "en": "Sebastian",
     "de": "Sebastian",
     "es": "Sebastian",
@@ -553,6 +623,7 @@ const hwaHeroesLocalization = {
     "ja": "セバスチャン"
   },
   "Soleil": {
+    "gender": "male",
     "en": "Soleil",
     "de": "Soleil",
     "es": "Soleil",
@@ -561,6 +632,7 @@ const hwaHeroesLocalization = {
     "ja": "ソレイル"
   },
   "Somna": {
+    "gender": "female",
     "en": "Somna",
     "de": "Somna",
     "es": "Somna",
@@ -569,6 +641,7 @@ const hwaHeroesLocalization = {
     "ja": "ソムナ"
   },
   "Tempus": {
+    "gender": "male",
     "en": "Tempus",
     "de": "Tempus",
     "es": "Tempus",
@@ -577,6 +650,7 @@ const hwaHeroesLocalization = {
     "ja": "テンプス"
   },
   "Thea": {
+    "gender": "female",
     "en": "Thea",
     "de": "Thea",
     "es": "Thea",
@@ -585,6 +659,7 @@ const hwaHeroesLocalization = {
     "ja": "テア"
   },
   "Tristan": {
+    "gender": "male",
     "en": "Tristan",
     "de": "Tristan",
     "es": "Tristan",
@@ -593,6 +668,7 @@ const hwaHeroesLocalization = {
     "ja": "トリスタン"
   },
   "Xe'sha": {
+    "gender": "female",
     "en": "Xe'sha",
     "de": "Xe'sha",
     "es": "Xe'sha",
@@ -601,6 +677,7 @@ const hwaHeroesLocalization = {
     "ja": "セーシャ"
   },
   "Yasmine": {
+    "gender": "female",
     "en": "Yasmine",
     "de": "Yasmine",
     "es": "Yasmine",
@@ -609,6 +686,7 @@ const hwaHeroesLocalization = {
     "ja": "ヤスミン"
   },
   "ziri": {
+    "gender": "female",
     "en": "ziri",
     "de": "ziri",
     "es": "ziri",

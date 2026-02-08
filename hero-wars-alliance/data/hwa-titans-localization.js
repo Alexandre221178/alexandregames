@@ -1,6 +1,8 @@
 // Hero Wars Alliance - Titans Localization Data
+// Hero Wars Alliance - Titans Localization Data
 const hwaTitansLocalization = {
   "Sigurd": {
+    "gender": "Male",
     "en": "Sigurd",
     "de": "Sigurd",
     "es": "Sigurd",
@@ -9,6 +11,7 @@ const hwaTitansLocalization = {
     "ja": "シグルド"
   },
   "Nova": {
+    "gender": "Female",
     "en": "Nova",
     "de": "Nova",
     "es": "Nova",
@@ -17,6 +20,7 @@ const hwaTitansLocalization = {
     "ja": "ノヴァ"
   },
   "Mairi": {
+    "gender": "Female",
     "en": "Mairi",
     "de": "Mairi",
     "es": "Mairi",
@@ -25,6 +29,7 @@ const hwaTitansLocalization = {
     "ja": "マイリ"
   },
   "Hyperion": {
+    "gender": "Male",
     "en": "Hyperion",
     "de": "Hyperion",
     "es": "Hyperion",
@@ -33,6 +38,7 @@ const hwaTitansLocalization = {
     "ja": "ヒュペリオン"
   },
   "Tydus": {
+    "gender": "Male",
     "en": "Tydus",
     "de": "Tydus",
     "es": "Tydus",
@@ -41,6 +47,7 @@ const hwaTitansLocalization = {
     "ja": "タイダス"
   },
   "Moloch": {
+    "gender": "Male",
     "en": "Moloch",
     "de": "Moloch",
     "es": "Moloch",
@@ -49,6 +56,7 @@ const hwaTitansLocalization = {
     "ja": "モロク"
   },
   "Vulcan": {
+    "gender": "Male",
     "en": "Vulcan",
     "de": "Vulcan",
     "es": "Vulcan",
@@ -57,6 +65,7 @@ const hwaTitansLocalization = {
     "ja": "バルカン"
   },
   "Ignis": {
+    "gender": "Male",
     "en": "Ignis",
     "de": "Ignis",
     "es": "Ignis",
@@ -65,6 +74,7 @@ const hwaTitansLocalization = {
     "ja": "イグニス"
   },
   "Araji": {
+    "gender": "Male",
     "en": "Araji",
     "de": "Araji",
     "es": "Araji",
@@ -73,6 +83,7 @@ const hwaTitansLocalization = {
     "ja": "アラジ"
   },
   "Asherona": {
+    "gender": "Female",
     "en": "Asherona",
     "de": "Asherona",
     "es": "Asherona",
@@ -81,6 +92,7 @@ const hwaTitansLocalization = {
     "ja": "アシェロナ"
   },
   "Angus": {
+    "gender": "Male",
     "en": "Angus",
     "de": "Angus",
     "es": "Angus",
@@ -89,6 +101,7 @@ const hwaTitansLocalization = {
     "ja": "アンガス"
   },
   "Sylva": {
+    "gender": "Female",
     "en": "Sylva",
     "de": "Sylva",
     "es": "Sylva",
@@ -97,6 +110,7 @@ const hwaTitansLocalization = {
     "ja": "シルバ"
   },
   "Avalon": {
+    "gender": "Female",
     "en": "Avalon",
     "de": "Avalon",
     "es": "Avalon",
@@ -105,6 +119,7 @@ const hwaTitansLocalization = {
     "ja": "アバロン"
   },
   "Eden": {
+    "gender": "Male",
     "en": "Eden",
     "de": "Eden",
     "es": "Eden",
@@ -113,6 +128,7 @@ const hwaTitansLocalization = {
     "ja": "エデン"
   },
   "Verdoc": {
+    "gender": "Male",
     "en": "Verdoc",
     "de": "Verdoc",
     "es": "Verdoc",
@@ -121,6 +137,7 @@ const hwaTitansLocalization = {
     "ja": "ヴァードック"
   },
   "Brustar": {
+    "gender": "Male",
     "en": "Brustar",
     "de": "Brustar",
     "es": "Brustar",
@@ -129,6 +146,7 @@ const hwaTitansLocalization = {
     "ja": "ブルスター"
   },
   "Keros": {
+    "gender": "Male",
     "en": "Keros",
     "de": "Keros",
     "es": "Keros",
@@ -137,6 +155,7 @@ const hwaTitansLocalization = {
     "ja": "ケロ"
   },
   "Mort": {
+    "gender": "Male",
     "en": "Mort",
     "de": "Mort",
     "es": "Mort",
@@ -145,6 +164,7 @@ const hwaTitansLocalization = {
     "ja": "モルト"
   },
   "Tenebris": {
+    "gender": "Female",
     "en": "Tenebris",
     "de": "Tenebris",
     "es": "Tenebris",
@@ -153,6 +173,7 @@ const hwaTitansLocalization = {
     "ja": "テネブリス"
   },
   "Rigel": {
+    "gender": "Male",
     "en": "Rigel",
     "de": "Rigel",
     "es": "Rigel",
@@ -161,6 +182,7 @@ const hwaTitansLocalization = {
     "ja": "リゲル"
   },
   "Amon": {
+    "gender": "Male",
     "en": "Amon",
     "de": "Amon",
     "es": "Amon",
@@ -169,6 +191,7 @@ const hwaTitansLocalization = {
     "ja": "アモン"
   },
   "Iyari": {
+    "gender": "Female",
     "en": "Iyari",
     "de": "Iyari",
     "es": "Iyari",
@@ -177,6 +200,7 @@ const hwaTitansLocalization = {
     "ja": "イアリ"
   },
   "Solaris": {
+    "gender": "Female",
     "en": "Solaris",
     "de": "Solaris",
     "es": "Solaris",
@@ -185,6 +209,7 @@ const hwaTitansLocalization = {
     "ja": "ソラリス"
   },
   "Lumira": {
+    "gender": "Female",
     "en": "Lumira",
     "de": "Lumira",
     "es": "Lumira",
