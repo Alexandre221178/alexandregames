@@ -377,11 +377,20 @@ function checkJsFile(filePath) {
             while ((match = imagePattern.exec(content)) !== null) {
                 const img = match[1];
                 if (img && img.trim() !== '' && 
-                    !img.startsWith('../../hero-wars-alliance/images/') && 
-                    !img.startsWith('../../hero-wars-dominion-era/images/') && 
-                    !img.startsWith('../../imagens/image-shared/')) {
-                    issues.push(`Imagem inválida (deve começar com "../../hero-wars-alliance/images/", "../../hero-wars-dominion-era/images/" ou "../../imagens/image-shared/"): ${img}`);
+                    !img.startsWith('../../')) {
+                    issues.push(`Imagem inválida (deve começar com "../../"): ${img}`);
                 }
+            }
+        }
+        
+        // Verificar imagens em todos os arquivos JS
+        const imagePatternAll = /(?:image|src\d*)\s*:\s*["']([^"']+)["']/g;
+        let matchImg;
+        while ((matchImg = imagePatternAll.exec(content)) !== null) {
+            const img = matchImg[1];
+            if (img && img.trim() !== '' && 
+                !img.startsWith('../../') && !img.startsWith('http')) {
+                issues.push(`Imagem inválida (deve começar com "../../" ou "http"): ${img}`);
             }
         }
         
