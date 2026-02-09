@@ -39,14 +39,46 @@
     "pt": "Relíquia",
     "ja": "遺物"
   },
+  "Relics": {
+    "en": "Relics",
+    "de": "Relikte",
+    "es": "Reliquías",
+    "fr": "Reliques",
+    "pt": "Relíquias",
+    "ja": "遺物"
+  },
+  "Legendaries": {
+    "en": "Legendaries",
+    "de": "Legendäre",
+    "es": "Legendarias",
+    "fr": "Légendaires",
+    "pt": "Lendárias",
+    "ja": "レジェンダリーズ"
+  },
   "Legendary": {
     "en": "Legendary",
     "de": "Legendär",
-    "es": "Legendario",
+    "es": "Legendaria",
     "fr": "Légendaire",
-    "pt": "Lendário",
+    "pt": "Lendária",
     "ja": "レジェンダリー"
   },
+  "Legendaries_m": {
+  "en": "Legendaries",
+  "de": "Legendäre",
+  "es": "Legendarios",
+  "fr": "Légendaires",
+  "pt": "Lendários",
+  "ja": "レジェンダリーズ"
+},
+"Legendary_m": {
+  "en": "Legendary",
+  "de": "Legendär",
+  "es": "Legendario",
+  "fr": "Légendaire",
+  "pt": "Lendário",
+  "ja": "レジェンダリー"
+},
   "Legendary Skill": {
     "en": "Legendary Skill",
     "de": "Legendäre Fähigkeit",
@@ -470,5 +502,61 @@
     "fr": "Skin Stellaire",
     "pt": "Skin Estelar",
     "ja": "恒星スキン"
+  },
+  "Skill": {
+    "en": "Skill",
+    "de": "Fertigkeit",
+    "es": "Habilidad",
+    "fr": "Compétence",
+    "pt": "Habilidade",
+    "ja": "スキル"
+  },
+  "Skills": {
+    "en": "Skills",
+    "de": "Fertigkeiten",
+    "es": "Habilidades",
+    "fr": "Compétences",
+    "pt": "Habilidades",
+    "ja": "スキル"
+  },
+  "Artifact": {
+    "en": "Artifact",
+    "de": "Artefakt",
+    "es": "Artefacto",
+    "fr": "Artéfact",
+    "pt": "Artefato",
+    "ja": "アーティファクト"
+  },
+  "Artifacts": {
+    "en": "Artifacts",
+    "de": "Artefakte",
+    "es": "Artefactos",
+    "fr": "Artéfacts",
+    "pt": "Artefatos",
+    "ja": "アーティファクト"
+  },
+  "Counter": {
+    "en": "Counter",
+    "de": "Gegner",
+    "es": "Contrajugador",
+    "fr": "Contre",
+    "pt": "Counter",
+    "ja": "カウンター"
+  },
+  "Counters": {
+    "en": "Counters",
+    "de": "Gegner",
+    "es": "Contrajugadores",
+    "fr": "Contres",
+    "pt": "Counters",
+    "ja": "カウンター"
+  },
+  "Guild": {
+    "en": "Guild",
+    "pt": "Guilda",
+    "ja": "ギルド",
+    "de": "Gilde",
+    "fr": "Guilde",
+    "es": "Gremio"
   }
 }

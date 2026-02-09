@@ -147,30 +147,58 @@ def check_html_title(filepath, hero, lang, fix_teams=False, fixes=None):
                     break  # Apenas o primeiro erro
         
         # Verificar nomes de heróis e titãs no conteúdo para erros de digitação
-        hero_titan_names_lower = [k.lower() for k in heroes_data.keys()] + [k.lower() for k in titans_data.keys()]
+        hero_names_lower = set()
+        for hero_key, trans_dict in heroes_data.items():
+            if isinstance(trans_dict, dict) and lang in trans_dict:
+                hero_names_lower.add(trans_dict[lang].lower())
+        for titan_key, trans_dict in titans_data.items():
+            if isinstance(trans_dict, dict) and lang in trans_dict:
+                hero_names_lower.add(trans_dict[lang].lower())
+        term_names_lower = set()
+        for term_key, trans_dict in terms_data.items():
+            if isinstance(trans_dict, dict) and lang in trans_dict:
+                term_names_lower.add(trans_dict[lang].lower())
         # Palavras comuns que podem ser confundidas com nomes de heróis/titãs
         excluded_words = {
             'fr': ['temps'],  # "Temps" significa "tempo" em francês
             'de': ['cleave'],  # "Cleave" é uma palavra comum em alemão?
             # Adicionar mais conforme necessário
         }
-        words = re.findall(r'\b[A-Z][a-z]+\b', content)  # palavras capitalizadas
+        # Remover conteúdo de script e style para evitar falsos positivos
+        content_no_script = re.sub(r'<script[^>]*>.*?</script>', '', content, flags=re.DOTALL | re.IGNORECASE)
+        content_no_style = re.sub(r'<style[^>]*>.*?</style>', '', content_no_script, flags=re.DOTALL | re.IGNORECASE)
+        words = re.findall(r'\b[A-Z][a-z]+\b', content_no_style)  # palavras capitalizadas
         for word in words:
             if len(word) < 4:  # ignorar palavras curtas
                 continue
             lower_word = word.lower()
-            if lower_word in hero_titan_names_lower:
+            if lower_word in hero_names_lower or lower_word in term_names_lower:
                 continue  # correto
             # Verificar possessivo alemão (adiciona 's')
-            if lower_word.endswith('s') and lower_word[:-1] in hero_titan_names_lower:
+            if lower_word.endswith('s') and lower_word[:-1] in hero_names_lower:
                 continue  # possessivo correto
             # Excluir palavras comuns por idioma
             if lower_word in excluded_words.get(lang, []):
                 continue
-            matches = get_close_matches(lower_word, hero_titan_names_lower, n=1, cutoff=0.9)
+            # Primeiro, verificar contra heróis com cutoff estrito
+            matches = get_close_matches(lower_word, list(hero_names_lower), n=1, cutoff=0.9)
             if matches:
                 suggested = matches[0].capitalize()
                 issues.append(f"{filepath}: Possível erro de digitação no nome '{word}' – sugerido '{suggested}' em {lang}")
+                if fix_teams:
+                    if filepath not in fixes:
+                        fixes[filepath] = []
+                    fixes[filepath].append((word, suggested))
+            else:
+                # Depois, verificar contra termos com cutoff mais leve
+                matches = get_close_matches(lower_word, list(term_names_lower), n=1, cutoff=0.95)
+                if matches:
+                    suggested = matches[0].capitalize()
+                    issues.append(f"{filepath}: Possível erro de digitação no termo '{word}' – sugerido '{suggested}' em {lang}")
+                    if fix_teams:
+                        if filepath not in fixes:
+                            fixes[filepath] = []
+                        fixes[filepath].append((word, suggested))
         
         # Verificar listas de equipes
         team_matches = re.findall(r'<ol class="team-list team-table-body">(.*?)</ol>', content, re.DOTALL)
@@ -196,31 +224,54 @@ def check_html_title(filepath, hero, lang, fix_teams=False, fixes=None):
                                 break
                     if not found:
                         if fix_teams:
-                            # Find closest match
-                            best_match = None
-                            best_sim = 0
+                            # Check if it's the English name
                             for hero_key, trans_dict in heroes_data.items():
-                                if isinstance(trans_dict, dict) and lang in trans_dict:
-                                    trans = trans_dict[lang]
-                                    sim = SequenceMatcher(None, hero_name, trans).ratio()
-                                    if sim > best_sim:
-                                        best_sim = sim
-                                        best_match = trans
-                            for titan_key, trans_dict in titans_data.items():
-                                if isinstance(trans_dict, dict) and lang in trans_dict:
-                                    trans = trans_dict[lang]
-                                    sim = SequenceMatcher(None, hero_name, trans).ratio()
-                                    if sim > best_sim:
-                                        best_sim = sim
-                                        best_match = trans
-                            if best_sim > 0.8:
-                                # Add to fixes
-                                if filepath not in fixes:
-                                    fixes[filepath] = []
-                                fixes[filepath].append((hero_name, best_match))
-                                issues.append(f"{filepath}: Corrigindo '{hero_name}' para '{best_match}' na equipe em {lang}")
-                            else:
-                                issues.append(f"{filepath}: Nome de herói/titã '{hero_name}' na equipe não corresponde a nenhuma tradução em {lang} (similaridade baixa)")
+                                if isinstance(trans_dict, dict) and 'en' in trans_dict and trans_dict['en'] == hero_name:
+                                    correct_name = trans_dict.get(lang)
+                                    if correct_name:
+                                        if filepath not in fixes:
+                                            fixes[filepath] = []
+                                        fixes[filepath].append((hero_name, correct_name))
+                                        issues.append(f"{filepath}: Corrigindo '{hero_name}' (inglês) para '{correct_name}' na equipe em {lang}")
+                                        found = True
+                                        break
+                            if not found:
+                                for titan_key, trans_dict in titans_data.items():
+                                    if isinstance(trans_dict, dict) and 'en' in trans_dict and trans_dict['en'] == hero_name:
+                                        correct_name = trans_dict.get(lang)
+                                        if correct_name:
+                                            if filepath not in fixes:
+                                                fixes[filepath] = []
+                                            fixes[filepath].append((hero_name, correct_name))
+                                            issues.append(f"{filepath}: Corrigindo '{hero_name}' (inglês) para '{correct_name}' na equipe em {lang}")
+                                            found = True
+                                            break
+                            if not found:
+                                # Find closest match
+                                best_match = None
+                                best_sim = 0
+                                for hero_key, trans_dict in heroes_data.items():
+                                    if isinstance(trans_dict, dict) and lang in trans_dict:
+                                        trans = trans_dict[lang]
+                                        sim = SequenceMatcher(None, hero_name, trans).ratio()
+                                        if sim > best_sim:
+                                            best_sim = sim
+                                            best_match = trans
+                                for titan_key, trans_dict in titans_data.items():
+                                    if isinstance(trans_dict, dict) and lang in trans_dict:
+                                        trans = trans_dict[lang]
+                                        sim = SequenceMatcher(None, hero_name, trans).ratio()
+                                        if sim > best_sim:
+                                            best_sim = sim
+                                            best_match = trans
+                                if best_sim > 0.5:
+                                    # Add to fixes
+                                    if filepath not in fixes:
+                                        fixes[filepath] = []
+                                    fixes[filepath].append((hero_name, best_match))
+                                    issues.append(f"{filepath}: Corrigindo '{hero_name}' para '{best_match}' na equipe em {lang}")
+                                else:
+                                    issues.append(f"{filepath}: Nome de herói/titã '{hero_name}' na equipe não corresponde a nenhuma tradução em {lang} (similaridade baixa)")
                         else:
                             issues.append(f"{filepath}: Nome de herói/titã '{hero_name}' na equipe não corresponde a nenhuma tradução em {lang}")
         
@@ -301,10 +352,13 @@ def main():
             with open(filepath, 'r', encoding='utf-8') as f:
                 content = f.read()
             for old, new in replacements:
-                content = content.replace(old, new)
+                content = re.sub(r'\b' + re.escape(old) + r'\b', new, content)
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write(content)
-            print(f"Corrigido {filepath}: {len(replacements)} substituições feitas.")
+            print(f"Corrigido {filepath}:")
+            for old, new in replacements:
+                print(f"  '{old}' -> '{new}'")
+            print(f"Total: {len(replacements)} substituições feitas.")
 
 if __name__ == "__main__":
     main()
