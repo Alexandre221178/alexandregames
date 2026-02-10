@@ -315,13 +315,22 @@ window.CALENDAR_DATA = [
         noStrip: true
       },
       {
+        titles: { en: "Tidus Guide", pt: "Guia do Tidus", de: "Tidus Leitfaden", es: "Guía de Tidus", fr: "Guide de Tidus", ja: "ティーダガイド" },
+        links: { en: "../../hero-wars-dominion-era/titans/tidus-en.html", pt: "../../hero-wars-dominion-era/titans/tidus-pt.html", de: "../../hero-wars-dominion-era/titans/tidus-de.html", es: "../../hero-wars-dominion-era/titans/tidus-es.html", fr: "../../hero-wars-dominion-era/titans/tidus-fr.html", ja: "../../hero-wars-dominion-era/titans/tidus-ja.html" },
+        noStrip: true
+      },
+      {
         titles: { en: "Emerald Waterfalls", pt: "Cachoeiras de Esmeralda", de: "Smaragdwasserfälle", es: "Cascadas de Esmeraldas", fr: "Cascades d'Émeraudes", ja: "エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
       {
         titles: { en: "Piggy Bank", pt: "Porquinho", de: "Sparschwein", es: "Alcancía", fr: "Tirelire", ja: "ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
-      }
+      },
+      {
+        titles: { en: "Tidus Pre-Order", pt: "Pré-venda de Tidus", de: "Tidus Vorbestellung", es: "Preventa de Tidus", fr: "Précommande de Tidus", ja: "Tidusの事前予約" },
+        labelOnly: true
+      },
     ]
   },
   {
@@ -339,13 +348,22 @@ window.CALENDAR_DATA = [
         noStrip: true
       },
       {
+        titles: { en: "Tidus Guide", pt: "Guia do Tidus", de: "Tidus Leitfaden", es: "Guía de Tidus", fr: "Guide de Tidus", ja: "ティーダガイド" },
+        links: { en: "../../hero-wars-dominion-era/titans/tidus-en.html", pt: "../../hero-wars-dominion-era/titans/tidus-pt.html", de: "../../hero-wars-dominion-era/titans/tidus-de.html", es: "../../hero-wars-dominion-era/titans/tidus-es.html", fr: "../../hero-wars-dominion-era/titans/tidus-fr.html", ja: "../../hero-wars-dominion-era/titans/tidus-ja.html" },
+        noStrip: true
+      },
+      {
         titles: { en: "Emerald Waterfalls", pt: "Cachoeiras de Esmeralda", de: "Smaragdwasserfälle", es: "Cascadas de Esmeraldas", fr: "Cascades d'Émeraudes", ja: "エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
       {
         titles: { en: "Secret Wealth", pt: "Riqueza Secreta", de: "Geheimer Reichtum", es: "Riqueza Secreta", fr: "Richesse Secrète", ja: "秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
-      }
+      },
+      {
+        titles: { en: "Tidus Pre-Order", pt: "Pré-venda de Tidus", de: "Tidus Vorbestellung", es: "Preventa de Tidus", fr: "Précommande de Tidus", ja: "Tidusの事前予約" },
+        labelOnly: true
+      },
     ]
   },
   {
@@ -358,13 +376,22 @@ window.CALENDAR_DATA = [
     noStrip: true,
     extra: [
       {
+        titles: { en: "Tidus Guide", pt: "Guia do Tidus", de: "Tidus Leitfaden", es: "Guía de Tidus", fr: "Guide de Tidus", ja: "ティーダガイド" },
+        links: { en: "../../hero-wars-dominion-era/titans/tidus-en.html", pt: "../../hero-wars-dominion-era/titans/tidus-pt.html", de: "../../hero-wars-dominion-era/titans/tidus-de.html", es: "../../hero-wars-dominion-era/titans/tidus-es.html", fr: "../../hero-wars-dominion-era/titans/tidus-fr.html", ja: "../../hero-wars-dominion-era/titans/tidus-ja.html" },
+        noStrip: true
+      },
+      {
         titles: { en: "Emerald Waterfalls", pt: "Cachoeiras de Esmeralda", de: "Smaragdwasserfälle", es: "Cascadas de Esmeraldas", fr: "Cascades d'Émeraudes", ja: "エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
       {
         titles: { en: "Secret Wealth", pt: "Riqueza Secreta", de: "Geheimer Reichtum", es: "Riqueza Secreta", fr: "Richesse Secrète", ja: "秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
-      }
+      },
+      {
+        titles: { en: "Tidus Pre-Order", pt: "Pré-venda de Tidus", de: "Tidus Vorbestellung", es: "Preventa de Tidus", fr: "Précommande de Tidus", ja: "Tidusの事前予約" },
+        labelOnly: true
+      },
     ]
   },
   {
@@ -382,12 +409,21 @@ window.CALENDAR_DATA = [
         noStrip: true
       },
       {
+        titles: { en: "Tidus Guide", pt: "Guia do Tidus", de: "Tidus Leitfaden", es: "Guía de Tidus", fr: "Guide de Tidus", ja: "ティーダガイド" },
+        links: { en: "../../hero-wars-dominion-era/titans/tidus-en.html", pt: "../../hero-wars-dominion-era/titans/tidus-pt.html", de: "../../hero-wars-dominion-era/titans/tidus-de.html", es: "../../hero-wars-dominion-era/titans/tidus-es.html", fr: "../../hero-wars-dominion-era/titans/tidus-fr.html", ja: "../../hero-wars-dominion-era/titans/tidus-ja.html" },
+        noStrip: true
+      },
+      {
         titles: { en: "Emeralds Sale x4", pt: "Promoção de Esmeraldas x4", de: "Smaragd-Angebot x4", es: "Oferta de Esmeraldas x4", fr: "Vente d'Émeraudes x4", ja: "エメラルドセール x4" },
         links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" }
       },
       {
         titles: { en: "Time to Love", pt: "Hora de Amar", de: "Zeit zu Lieben", es: "Tiempo para Amar", fr: "Temps d'Aimer", ja: "愛の時間" },
         links: { en: "#section8", pt: "#section8", de: "#section8", es: "#section8", fr: "#section8", ja: "#section8" }
+      },
+      {
+        titles: { en: "Tidus Pre-Order", pt: "Pré-venda de Tidus", de: "Tidus Vorbestellung", es: "Preventa de Tidus", fr: "Précommande de Tidus", ja: "Tidusの事前予約" },
+        labelOnly: true
       },
     ]
   },
@@ -406,8 +442,17 @@ window.CALENDAR_DATA = [
         noStrip: true
       },
       {
+        titles: { en: "Tidus Guide", pt: "Guia do Tidus", de: "Tidus Leitfaden", es: "Guía de Tidus", fr: "Guide de Tidus", ja: "ティーダガイド" },
+        links: { en: "../../hero-wars-dominion-era/titans/tidus-en.html", pt: "../../hero-wars-dominion-era/titans/tidus-pt.html", de: "../../hero-wars-dominion-era/titans/tidus-de.html", es: "../../hero-wars-dominion-era/titans/tidus-es.html", fr: "../../hero-wars-dominion-era/titans/tidus-fr.html", ja: "../../hero-wars-dominion-era/titans/tidus-ja.html" },
+        noStrip: true
+      },
+      {
         titles: { en: "Time to Love", pt: "Hora de Amar", de: "Zeit zu Lieben", es: "Tiempo para Amar", fr: "Temps d'Aimer", ja: "愛の時間" },
         links: { en: "#section8", pt: "#section8", de: "#section8", es: "#section8", fr: "#section8", ja: "#section8" }
+      },
+      {
+        titles: { en: "Tidus Pre-Order", pt: "Pré-venda de Tidus", de: "Tidus Vorbestellung", es: "Preventa de Tidus", fr: "Précommande de Tidus", ja: "Tidusの事前予約" },
+        labelOnly: true
       },
       
     ]
@@ -427,6 +472,11 @@ window.CALENDAR_DATA = [
         noStrip: true
       },
       {
+        titles: { en: "Tidus Guide", pt: "Guia do Tidus", de: "Tidus Leitfaden", es: "Guía de Tidus", fr: "Guide de Tidus", ja: "ティーダガイド" },
+        links: { en: "../../hero-wars-dominion-era/titans/tidus-en.html", pt: "../../hero-wars-dominion-era/titans/tidus-pt.html", de: "../../hero-wars-dominion-era/titans/tidus-de.html", es: "../../hero-wars-dominion-era/titans/tidus-es.html", fr: "../../hero-wars-dominion-era/titans/tidus-fr.html", ja: "../../hero-wars-dominion-era/titans/tidus-ja.html" },
+        noStrip: true
+      },
+      {
         titles: { en: "Time to Love", pt: "Hora de Amar", de: "Zeit zu Lieben", es: "Tiempo para Amar", fr: "Temps d'Aimer", ja: "愛の時間" },
         links: { en: "#section8", pt: "#section8", de: "#section8", es: "#section8", fr: "#section8", ja: "#section8" }
       },
@@ -434,7 +484,11 @@ window.CALENDAR_DATA = [
       {
         titles: { en: "Demon Dolls", pt: "Bonecas Demoníacas", de: "Dämonenpuppen", es: "Muñecas Demoníacas", fr: "Poupées Démoniaques", ja: "デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
-      }
+      },
+      {
+        titles: { en: "Tidus Pre-Order", pt: "Pré-venda de Tidus", de: "Tidus Vorbestellung", es: "Preventa de Tidus", fr: "Précommande de Tidus", ja: "Tidusの事前予約" },
+        labelOnly: true
+      },
     ]
   },
   {
@@ -450,7 +504,15 @@ window.CALENDAR_DATA = [
         titles: { en: "Wind from the West", pt: "Vento do Oeste", de: "Wind aus dem Westen", es: "Viento del Oeste", fr: "Vent de l'Ouest", ja: "西からの風" },
         links: { en: "#section9", pt: "#section9", de: "#section9", es: "#section9", fr: "#section9", ja: "#section9" }
       },
-      
+      {
+        titles: { en: "Tidus Guide", pt: "Guia do Tidus", de: "Tidus Leitfaden", es: "Guía de Tidus", fr: "Guide de Tidus", ja: "ティーダガイド" },
+        links: { en: "../../hero-wars-dominion-era/titans/tidus-en.html", pt: "../../hero-wars-dominion-era/titans/tidus-pt.html", de: "../../hero-wars-dominion-era/titans/tidus-de.html", es: "../../hero-wars-dominion-era/titans/tidus-es.html", fr: "../../hero-wars-dominion-era/titans/tidus-fr.html", ja: "../../hero-wars-dominion-era/titans/tidus-ja.html" },
+        noStrip: true
+      },
+      {
+        titles: { en: "Tidus Pre-Order", pt: "Pré-venda de Tidus", de: "Tidus Vorbestellung", es: "Preventa de Tidus", fr: "Précommande de Tidus", ja: "Tidusの事前予約" },
+        labelOnly: true
+      },
       {
         titles: { en: "Demon Dolls", pt: "Bonecas Demoníacas", de: "Dämonenpuppen", es: "Muñecas Demoníacas", fr: "Poupées Démoniaques", ja: "デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
@@ -458,6 +520,10 @@ window.CALENDAR_DATA = [
       {
         titles: { en: "Emerald Waterfalls", pt: "Cachoeiras de Esmeralda", de: "Smaragdwasserfälle", es: "Cascadas de Esmeraldas", fr: "Cascades d'Émeraudes", ja: "エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
+      {
+        titles: { en: "Tidus Pre-Order", pt: "Pré-venda de Tidus", de: "Tidus Vorbestellung", es: "Preventa de Tidus", fr: "Précommande de Tidus", ja: "Tidusの事前予約" },
+        labelOnly: true
       },
       
      
@@ -475,6 +541,11 @@ window.CALENDAR_DATA = [
        {
         titles: { en: "Wind from the West", pt: "Vento do Oeste", de: "Wind aus dem Westen", es: "Viento del Oeste", fr: "Vent de l'Ouest", ja: "西からの風" },
         links: { en: "#section9", pt: "#section9", de: "#section9", es: "#section9", fr: "#section9", ja: "#section9" }
+      },
+      {
+        titles: { en: "Tidus Guide", pt: "Guia do Tidus", de: "Tidus Leitfaden", es: "Guía de Tidus", fr: "Guide de Tidus", ja: "ティーダガイド" },
+        links: { en: "../../hero-wars-dominion-era/titans/tidus-en.html", pt: "../../hero-wars-dominion-era/titans/tidus-pt.html", de: "../../hero-wars-dominion-era/titans/tidus-de.html", es: "../../hero-wars-dominion-era/titans/tidus-es.html", fr: "../../hero-wars-dominion-era/titans/tidus-fr.html", ja: "../../hero-wars-dominion-era/titans/tidus-ja.html" },
+        noStrip: true
       },
       {
         titles: { en: "Emerald Waterfalls", pt: "Cachoeiras de Esmeralda", de: "Smaragdwasserfälle", es: "Cascadas de Esmeraldas", fr: "Cascades d'Émeraudes", ja: "エメラルドの滝" },
