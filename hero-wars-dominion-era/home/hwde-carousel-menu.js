@@ -2,6 +2,15 @@
   // Carousel multi-language injector (HWDE specific copy)
   const slides = [
     {
+      link: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-en.html",
+      src500: "../../hero-wars-dominion-era/images/events-special/tidus-event/tidus-event-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events-special/tidus-event/tidus-event-400px.webp",
+      alt: "Tidus Event Guide and Rewards F2P to 6★ for Hero Wars: Dominion Era",
+      title: "Tidus Event Guide and Rewards F2P to 6★ for Hero Wars: Dominion Era",
+      strong: "Tidus Event Guide - Hero Wars: Dominion Era",
+      updated: "Updated: February, 2026."
+    },
+    {
       link: "../../hero-wars-dominion-era/titans/tidus-en.html",
       src500: "../../hero-wars-dominion-era/images/titans-hwde/tidus/tidus-500px.webp",
       src400: "../../hero-wars-dominion-era/images/titans-hwde/tidus/tidus-400px.webp",
@@ -10,15 +19,7 @@
       strong: "Tidus - Hero Wars: Dominion Era",
       updated: "Updated: February, 2026."
     },
-    {
-      link: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero-brawls/electra-brawls/electra-brawls-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero-brawls/electra-brawls/electra-brawls-400px.webp",
-      alt: "Electra Brawls for Hero Wars: Dominion Era",
-      title: "Electra Brawls for Hero Wars: Dominion Era.",
-      strong: "Electra Brawls - Hero Wars: Dominion Era",
-      updated: "Updated: February, 2026."
-    },
+    
     {
       link: "../../hero-wars-dominion-era/characters/electra-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/electra/electra-500px.webp",
@@ -57,16 +58,25 @@
       strong: "Aidan Guide - Hero Wars: Dominion Era",
       updated: "Updated: January, 2026."
     },
+    {
+      link: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero-brawls/electra-brawls/electra-brawls-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero-brawls/electra-brawls/electra-brawls-400px.webp",
+      alt: "Electra Brawls for Hero Wars: Dominion Era",
+      title: "Electra Brawls for Hero Wars: Dominion Era.",
+      strong: "Electra Brawls - Hero Wars: Dominion Era",
+      updated: "Updated: February, 2026."
+    },
     
   ];
 
   const translations = {
     en: {updatedPrefix: 'Updated:', map: {}},
-    pt: {updatedPrefix: 'Atualizado:', map: {'Guide':'Guia','Best Teams':'Melhores Equipes','Stay updated':'Fique atualizado','Redeem your Daily Gifts':'Resgate seus Presentes Diários'}},
-    es: {updatedPrefix: 'Actualizado:', map: {'Guide':'Guía','Best Teams':'Mejores Equipos','Stay updated':'Mantente al día','Redeem your Daily Gifts':'Canjea tus Regalos Diarios'}},
-    fr: {updatedPrefix: 'Mis à jour:', map: {'Guide':'Guide','Best Teams':'Meilleures équipes','Stay updated':'Restez informé','Redeem your Daily Gifts':'Échangez vos Cadeaux Quotidiens'}},
-    ja: {updatedPrefix: '更新:', map: {'Guide':'ガイド','Best Teams':'ベストチーム','Stay updated':'最新情報をチェック','Redeem your Daily Gifts':'毎日のギフトを受け取る'}},
-    de: {updatedPrefix: 'Aktualisiert:', map: {'Guide':'Leitfaden','Best Teams':'Beste Teams','Stay updated':'Bleiben Sie informiert','Redeem your Daily Gifts':'Löse deine täglichen Geschenke ein'}}
+    pt: {updatedPrefix: 'Atualizado:', map: {'Guide':'Guia','Best Teams':'Melhores Equipes','Stay updated':'Fique atualizado','Redeem your Daily Gifts':'Resgate seus Presentes Diários','Event':'Evento'}},
+    es: {updatedPrefix: 'Actualizado:', map: {'Guide':'Guía','Best Teams':'Mejores Equipos','Stay updated':'Mantente al día','Redeem your Daily Gifts':'Canjea tus Regalos Diarios','Event':'Evento'}},
+    fr: {updatedPrefix: 'Mis à jour:', map: {'Guide':'Guide','Best Teams':'Meilleures équipes','Stay updated':'Restez informé','Redeem your Daily Gifts':'Échangez vos Cadeaux Quotidiens','Event':'Événement'}},
+    ja: {updatedPrefix: '更新:', map: {'Guide':'ガイド','Best Teams':'ベストチーム','Stay updated':'最新情報をチェック','Redeem your Daily Gifts':'毎日のギフトを受け取る','Event':'イベント'}},
+    de: {updatedPrefix: 'Aktualisiert:', map: {'Guide':'Leitfaden','Best Teams':'Beste Teams','Stay updated':'Bleiben Sie informiert','Redeem your Daily Gifts':'Löse deine täglichen Geschenke ein','Event':'Event'}}
   };
 
   function detectLang(){
@@ -94,7 +104,7 @@
     const map = translations[lang] && translations[lang].map || {};
     let out = text;
     Object.keys(map).forEach(k=>{
-      out = out.replace(new RegExp(k,'g'), map[k]);
+      out = out.replace(new RegExp('\\b' + k + '\\b','gi'), map[k]);
     });
     return out;
   }

@@ -548,6 +548,16 @@ window.CALENDAR_DATA = [
         noStrip: true
       },
       {
+        titles: { en: "Tidus Event Missions", pt: "Missões do Evento Tidus", de: "Tidus Event-Missionen", es: "Misiones del Evento Tidus", fr: "Missions de l'Événement Tidus", ja: "ティーダイベントミッション" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
+      {
+        titles: { en: "Tidus Event Guide F2P to 6★", pt: "Guia do Evento Tidus F2P a 6★", de: "Tidus Event-Leitfaden F2P bis 6★", es: "Guía del Evento Tidus F2P a 6★", fr: "Guide de l'Événement Tidus F2P à 6★", ja: "ティーダイベントガイド F2Pから6★" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-pt.html", de: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-de.html", es: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-es.html", fr: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-fr.html", ja: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-ja.html" },
+        noStrip: true
+      },
+      {
         titles: { en: "Emerald Waterfalls", pt: "Cachoeiras de Esmeralda", de: "Smaragdwasserfälle", es: "Cascadas de Esmeraldas", fr: "Cascades d'Émeraudes", ja: "エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
@@ -570,6 +580,16 @@ window.CALENDAR_DATA = [
       {
         titles: { en: "Tournament of Titan Power", pt: "Torneio de Poder dos Titãs", de: "Titanenkraft-Turnier", es: "Torneo de Poder de Titanes", fr: "Tournoi de Puissance des Titans", ja: "タイタンパワートーナメント" },
         links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
+      {
+        titles: { en: "Tidus Event Missions", pt: "Missões do Evento Tidus", de: "Tidus Event-Missionen", es: "Misiones del Evento Tidus", fr: "Missions de l'Événement Tidus", ja: "ティーダイベントミッション" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
+      {
+        titles: { en: "Tidus Event Guide F2P to 6★", pt: "Guia do Evento Tidus F2P a 6★", de: "Tidus Event-Leitfaden F2P bis 6★", es: "Guía del Evento Tidus F2P a 6★", fr: "Guide de l'Événement Tidus F2P à 6★", ja: "ティーダイベントガイド F2Pから6★" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-pt.html", de: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-de.html", es: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-es.html", fr: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-fr.html", ja: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-ja.html" },
         noStrip: true
       },
       {
@@ -599,6 +619,16 @@ window.CALENDAR_DATA = [
         noStrip: true
       },
       {
+        titles: { en: "Tidus Event Missions", pt: "Missões do Evento Tidus", de: "Tidus Event-Missionen", es: "Misiones del Evento Tidus", fr: "Missions de l'Événement Tidus", ja: "ティーダイベントミッション" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
+      {
+        titles: { en: "Tidus Event Guide F2P to 6★", pt: "Guia do Evento Tidus F2P a 6★", de: "Tidus Event-Leitfaden F2P bis 6★", es: "Guía del Evento Tidus F2P a 6★", fr: "Guide de l'Événement Tidus F2P à 6★", ja: "ティーダイベントガイド F2Pから6★" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-pt.html", de: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-de.html", es: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-es.html", fr: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-fr.html", ja: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-ja.html" },
+        noStrip: true
+      },
+      {
         titles: { en: "Emerald Waterfalls", pt: "Cachoeiras de Esmeralda", de: "Smaragdwasserfälle", es: "Cascadas de Esmeraldas", fr: "Cascades d'Émeraudes", ja: "エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
@@ -625,6 +655,16 @@ window.CALENDAR_DATA = [
         noStrip: true
       },
       {
+        titles: { en: "Tidus Event Missions", pt: "Missões do Evento Tidus", de: "Tidus Event-Missionen", es: "Misiones del Evento Tidus", fr: "Missions de l'Événement Tidus", ja: "ティーダイベントミッション" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
+      {
+        titles: { en: "Tidus Event Guide F2P to 6★", pt: "Guia do Evento Tidus F2P a 6★", de: "Tidus Event-Leitfaden F2P bis 6★", es: "Guía del Evento Tidus F2P a 6★", fr: "Guide de l'Événement Tidus F2P à 6★", ja: "ティーダイベントガイド F2Pから6★" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-pt.html", de: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-de.html", es: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-es.html", fr: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-fr.html", ja: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-ja.html" },
+        noStrip: true
+      },
+      {
         titles: { en: "Piggy Bank", pt: "Porquinho", de: "Sparschwein", es: "Alcancía", fr: "Tirelire", ja: "ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },
@@ -643,6 +683,16 @@ window.CALENDAR_DATA = [
       {
         titles: { en: "Tournament of Titan Power", pt: "Torneio de Poder dos Titãs", de: "Titanenkraft-Turnier", es: "Torneo de Poder de Titanes", fr: "Tournoi de Puissance des Titans", ja: "タイタンパワートーナメント" },
         links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
+      {
+        titles: { en: "Tidus Event Missions", pt: "Missões do Evento Tidus", de: "Tidus Event-Missionen", es: "Misiones del Evento Tidus", fr: "Missions de l'Événement Tidus", ja: "ティーダイベントミッション" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
+      {
+        titles: { en: "Tidus Event Guide F2P to 6★", pt: "Guia do Evento Tidus F2P a 6★", de: "Tidus Event-Leitfaden F2P bis 6★", es: "Guía del Evento Tidus F2P a 6★", fr: "Guide de l'Événement Tidus F2P à 6★", ja: "ティーダイベントガイド F2Pから6★" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-pt.html", de: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-de.html", es: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-es.html", fr: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-fr.html", ja: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-ja.html" },
         noStrip: true
       },
       {
@@ -668,6 +718,16 @@ window.CALENDAR_DATA = [
         titles: { },
         labelOnly: true
       },
+      {
+        titles: { en: "Tidus Event Missions", pt: "Missões do Evento Tidus", de: "Tidus Event-Missionen", es: "Misiones del Evento Tidus", fr: "Missions de l'Événement Tidus", ja: "ティーダイベントミッション" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
+      {
+        titles: { en: "Tidus Event Guide F2P to 6★", pt: "Guia do Evento Tidus F2P a 6★", de: "Tidus Event-Leitfaden F2P bis 6★", es: "Guía del Evento Tidus F2P a 6★", fr: "Guide de l'Événement Tidus F2P à 6★", ja: "ティーダイベントガイド F2Pから6★" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-pt.html", de: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-de.html", es: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-es.html", fr: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-fr.html", ja: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-ja.html" },
+        noStrip: true
+      },
     {
         titles: { en: "Ignis' Brawls", pt: "Ignis' Brawls(Briga de Titãs)", de: "Ignis' Brawls(Titanenkämpfe)", es: "Ignis' Brawls(Peleas de Titanes)", fr: "Ignis' Brawls(Combats de Titans)", ja: "イグニスの乱闘（タイタンズ乱闘" },
         labelOnly: true
@@ -681,6 +741,16 @@ window.CALENDAR_DATA = [
     alt: "",
   noStrip: true,
   extra: [
+    {
+        titles: { en: "Tidus Event Missions", pt: "Missões do Evento Tidus", de: "Tidus Event-Missionen", es: "Misiones del Evento Tidus", fr: "Missions de l'Événement Tidus", ja: "ティーダイベントミッション" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
+      {
+        titles: { en: "Tidus Event Guide F2P to 6★", pt: "Guia do Evento Tidus F2P a 6★", de: "Tidus Event-Leitfaden F2P bis 6★", es: "Guía del Evento Tidus F2P a 6★", fr: "Guide de l'Événement Tidus F2P à 6★", ja: "ティーダイベントガイド F2Pから6★" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-pt.html", de: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-de.html", es: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-es.html", fr: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-fr.html", ja: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-ja.html" },
+        noStrip: true
+      },
    
       {
         titles: { en: "Emerald Waterfalls", pt: "Cachoeiras de Esmeralda", de: "Smaragdwasserfälle", es: "Cascadas de Esmeraldas", fr: "Cascades d'Émeraudes", ja: "エメラルドの滝" },
@@ -705,6 +775,16 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      {
+        titles: { en: "Tidus Event Missions", pt: "Missões do Evento Tidus", de: "Tidus Event-Missionen", es: "Misiones del Evento Tidus", fr: "Missions de l'Événement Tidus", ja: "ティーダイベントミッション" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
+      {
+        titles: { en: "Tidus Event Guide F2P to 6★", pt: "Guia do Evento Tidus F2P a 6★", de: "Tidus Event-Leitfaden F2P bis 6★", es: "Guía del Evento Tidus F2P a 6★", fr: "Guide de l'Événement Tidus F2P à 6★", ja: "ティーダイベントガイド F2Pから6★" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-pt.html", de: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-de.html", es: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-es.html", fr: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-fr.html", ja: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-ja.html" },
+        noStrip: true
+      },
       
       {
         titles: { en: "Emerald Waterfalls", pt: "Cachoeiras de Esmeralda", de: "Smaragdwasserfälle", es: "Cascadas de Esmeraldas", fr: "Cascades d'Émeraudes", ja: "エメラルドの滝" },
