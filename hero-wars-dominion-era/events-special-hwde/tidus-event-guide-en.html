@@ -189,6 +189,18 @@ Below, we break down each mission group, explain how rewards scale, and provide 
 </p>
 </section>
 
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="8517307629"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+
+
 <section><h2>How the Cycle of Awakening Event Works</h2>  
 <p>
 The <strong>Tidus Cycle of Awakening</strong> event centers on the rise of Tidus.  This event introduces quest chains that focus on Titan leveling, evolution, artifact strengthening, and progression. Completing these missions rewards you with Titan Potions, Elemental Spheres, and event currency used to unlock and upgrade Tidus and Gelo.
@@ -273,6 +285,16 @@ Always upgrade the <strong>Tome of Greed</strong> first. Even at low levels it r
   </tr>
 </table>
 
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="7060755724"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
 
 
 <h3>Tome of Greed - Purchase Bonus Rewards</h3>
@@ -883,9 +905,18 @@ Always upgrade the <strong>Tome of Greed</strong> first. Even at low levels it r
   </tbody>
 </table>
 
-
 </section>
 
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="9770850987"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
 
 
 <h2>Free-to-Play Path to Six Stars Example</h2>
@@ -1593,6 +1624,31 @@ Boosters can help P2P or light spenders push deeper into the chapters for extra 
     <script src="../../Documentos/share-en-reddit.js" defer></script>
     <script src="../../alex-java/translate07-en.js" defer></script>
     <!--<script src="../../alex-java/carousel-slide.js" defer></script>-->
+
+
+    <script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
+
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
+
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
 
 </body>
 </html>

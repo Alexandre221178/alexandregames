@@ -192,6 +192,17 @@ This guide breaks down every mission with clear explanations and practical tips,
 </p>
 </section>
 
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="8517307629"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+
 <section>
 <h2>⚔️ Understanding the Tidus and Gelo Event</h2>
   <p>The <strong>Tidus and Gelo</strong> event celebrates the arrival of Tidus and Gelo. Like other Titan introduction events, it offers generous rewards   from fragments and totem resources to Emeralds, Gold, and Energy refills. But the real challenge lies in <strong>planning your spending and playtime</strong> to get the most from it.</p>
@@ -373,6 +384,22 @@ This guide breaks down every mission with clear explanations and practical tips,
 </table>
 </section>
 
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="7060755724"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+
+<br>
+<hr>
+<hr>
+<br>
+
 <section>
 <h2>"Children of the Depths" - Tidus and Gelo Event Missions</h2>
 <p>
@@ -523,6 +550,18 @@ By completing event quests, players can obtain valuable resources such as Titan 
   <li>Complete 46 quests in the "Tidus" event</li>
 </ul>
 </section>
+
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="9770850987"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+
 
 <br>
 <hr>
@@ -1066,6 +1105,30 @@ By completing event quests, players can obtain valuable resources such as Titan 
     <script src="../../Documentos/share-en-reddit.js" defer></script>
     <script src="../../alex-java/translate07-en.js" defer></script>
     <!--<script src="../../alex-java/carousel-slide.js" defer></script>-->
+
+    <script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
+
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
+
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
 
 </body>
 </html>

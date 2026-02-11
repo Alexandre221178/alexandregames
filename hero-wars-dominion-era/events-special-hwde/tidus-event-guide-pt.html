@@ -191,6 +191,18 @@ Abaixo, dividimos cada grupo de missões, explicamos como as recompensas escalam
 </p>
 </section>
 
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="8517307629"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+
+
 <section><h2>Como Funciona o Evento Emberes do Passado</h2>  
 <p>
 O evento <strong>Emberes do Passado</strong> gira em torno da ascensão de Tidus. Ele apresenta cadeias de missões focadas em evolução de Titãs, fortalecimento de artefatos e progresso do elemento. Completar essas missões recompensa você com Poções de Titã, Esferas Elementais e moeda do evento usada para desbloquear e aprimorar Tidus e Gelo.
@@ -271,6 +283,18 @@ Sempre melhore o <strong>Tomo da Ganância</strong> primeiro. Mesmo em níveis b
     <td>Nível mínimo 6. Só melhore o Graal da Generosidade depois que o Tomo da Ganância alcançar pelo menos nível 6.</td>
   </tr>
 </table>
+
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="7060755724"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+
 
 <h3>Tomo da Ganância – Recompensas por Nível de Compra</h3>
 <p><strong>Não melhore o Graal da Generosidade antes do Tomo da Ganância.</strong> Isso é crucial   priorize elevar o Tomo primeiro para maximizar o retorno de Moedas de Valor vindas das recompensas da oficina e da eficiência do Altar; melhorar o Graal cedo demais reduz o ganho total de moedas e desacelera todo o progresso no evento.</p>
@@ -878,8 +902,19 @@ Sempre melhore o <strong>Tomo da Ganância</strong> primeiro. Mesmo em níveis b
   </tbody>
 </table>
 
-
 </section>
+
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="9770850987"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+
 
 <h2>Caminho Free-to-Play para Seis Estrelas - Exemplo</h2>
 <p>
@@ -1571,8 +1606,29 @@ Impulsionadores podem ajudar jogadores P2P ou que gastam pouco a avançar mais p
     <script src="../../alex-java/translate07-pt.js" defer></script>
     <!--<script src="../../alex-java/carousel-slide.js" defer></script>-->
 
+<script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
 
-<!-- close <div class="container"> -->
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
+
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
 
 </body>
 </html>
