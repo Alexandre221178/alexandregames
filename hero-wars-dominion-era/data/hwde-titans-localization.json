@@ -48,6 +48,6 @@
     {"id":"Amon","gender":"Male","en":"Amon","de":"Amon","es":"Amon","fr":"Amon","pt":"Amon","ja":"アモン"},
     {"id":"Iyari","gender":"Female","en":"Iyari","de":"Iyari","es":"Iyari","fr":"Iyari","pt":"Iyari","ja":"イアリ"},
     {"id":"Solaris","gender":"Female","en":"Solaris","de":"Solaris","es":"Solaris","fr":"Solaris","pt":"Solaris","ja":"ソラリス"},
-    {"id":"Tidus","gender":"Male","en":"Tidus","de":"Tidus","es":"Tidus","fr":"Tidus","pt":"Tidus","ja":"ティーダ"}
-  ]
+    {"id":"Tidus","gender":"Male","en":"Tidus","de":"Tidus","es":"Tidus","fr":"Tidus","pt":"Tidus","ja":"タイダス"},
+{"id":"Tidus and Gelo","gender":"Male","en":"Tidus and Gelo","de":"Tidus und Gelo","es":"Tidus y Gelo","fr":"Tidus et Gelo","pt":"Tidus e Gelo","ja":"タイダスとゲロ"}  ]
 }
