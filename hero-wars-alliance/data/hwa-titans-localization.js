@@ -216,5 +216,15 @@ const hwaTitansLocalization = {
     "fr": "Lumira",
     "pt": "Lumira",
     "ja": "ルミラ"
-  }
+  },
+  "Umbra": { 
+  "gender": "Male",
+  "en": "Umbra",
+  "de": "Umbra",
+  "es": "Umbra",
+  "fr": "Umbra",
+  "pt": "Umbra",
+  "ja": "アンブラ"
+},
+
 };
