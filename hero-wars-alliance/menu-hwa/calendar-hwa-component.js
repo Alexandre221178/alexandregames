@@ -3,6 +3,17 @@
    - Detecta idioma via `document.documentElement.lang` ou `data-lang` no container `.calendar`
    - Traduz automaticamente dias da semana e meses
 */
+/* {
+        titles: { en: "Demon Dolls", pt: "Bonecas Demoníacas", de: "Dämonenpuppen", es: "Muñecas Demoníacas", fr: "Poupées Démoniaques", ja: "デーモンドール" },
+        links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
+  },
+
+{// Dentro de extra[] de um evento:
+  titles: { en: "Path to Perfection", pt: "Caminho para a Perfeição", de: "Pfad zur Perfektion", es: "Camino hacia la Perfección", fr: "Chemin vers la Perfection", ja: "完璧への道" },
+  labelOnly: true
+}  
+
+*/
 (function(){
   var HWA_TERMS = null;
   var EVENTS_MASTER = null;

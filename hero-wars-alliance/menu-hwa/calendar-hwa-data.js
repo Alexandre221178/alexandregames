@@ -519,9 +519,126 @@ labelOnly: true
      
     ]
   },
-
-
-  
+{
+    weekday: "Monday",
+    date: "Feb, 16",
+    image: "../../img-HWM/events-img/outland-splendor-img/outland-splendor-200px.webp",
+    alt: "Outland Splendor",
+    titles: { en: "Outland Splendor Guide", de: "Glanz des Außenlands Leitfaden", es: "Esplendor del Territorio Guía", fr: "Splendeur de l’Outreterre Guide", pt: "Esplendor da Fronteira Guia", ja: "アウトランド・スプレンダー ガイド" },
+    links: { en: "../../hero-wars-alliance/event-hwa/outland-splendor-en.html", de: "", es: "", fr: "", pt: "", ja: "" },
+    extra: [
+      {
+        titles: { en: "Mon - Guild VS", pt: "Seg - Guild VS", de: "Mo - Guild VS", es: "Lun - Guild VS", fr: "Lun - Guild VS", ja: "月 - ギルドVS" },
+        links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
+      },  
+      {// Dentro de extra[] de um evento:
+ titles: { en: "Oya - Tribal Skin", pt: "Oya - Visual Tribal", de: "Oya - Stammes-Skin", es: "Oya - Aspecto Tribal", fr: "Oya - Skin Tribal", ja: "オヤ - トライバルスキン" },
+  labelOnly: true
+},  
+{// Dentro de extra[] de um evento:
+ titles: { en: "Brusta - Biomech Skin", pt: "Brusta - Visual Biomecânico", de: "Brusta - Biomech-Skin", es: "Brusta - Aspecto Biomecánico", fr: "Brusta - Skin Biomech", ja: "ブルスタ - バイオメカスキン" },
+  labelOnly: true
+},  
+{// Dentro de extra[] de um evento:
+ titles: { en: "Rigel - Biomech Skin", pt: "Rigel - Visual Biomecânico", de: "Rigel - Biomech-Skin", es: "Rigel - Aspecto Biomecánico", fr: "Rigel - Skin Biomech", ja: "リゲル - バイオメカスキン" },
+  labelOnly: true
+}, 
+    ]
+  },
+  {
+    weekday: "Tuesday",
+    date: "Feb, 17",
+    image: "../../img-HWM/events-img/outland-splendor-img/outland-splendor-200px.webp",
+    alt: "Outland Splendor",
+    titles: { en: "Outland Splendor Guide", de: "Glanz des Außenlands Leitfaden", es: "Esplendor del Territorio Guía", fr: "Splendeur de l’Outreterre Guide", pt: "Esplendor da Fronteira Guia", ja: "アウトランド・スプレンダー ガイド" },
+    links: { en: "../../hero-wars-alliance/event-hwa/outland-splendor-en.html", de: "", es: "", fr: "", pt: "", ja: "" },
+    extra: [
+      {
+        titles: { en: "Tue - Guild VS", pt: "Ter - Guild VS", de: "Di - Guild VS", es: "Mar - Guild VS", fr: "Mar - Guild VS", ja: "火 - ギルドVS" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },  
+      {// Dentro de extra[] de um evento:
+ titles: { en: "Oya - Tribal Skin", pt: "Oya - Visual Tribal", de: "Oya - Stammes-Skin", es: "Oya - Aspecto Tribal", fr: "Oya - Skin Tribal", ja: "オヤ - トライバルスキン" },
+  labelOnly: true
+},  
+{// Dentro de extra[] de um evento:
+ titles: { en: "Brusta - Biomech Skin", pt: "Brusta - Visual Biomecânico", de: "Brusta - Biomech-Skin", es: "Brusta - Aspecto Biomecánico", fr: "Brusta - Skin Biomech", ja: "ブルスタ - バイオメカスキン" },
+  labelOnly: true
+},  
+{// Dentro de extra[] de um evento:
+ titles: { en: "Rigel - Biomech Skin", pt: "Rigel - Visual Biomecânico", de: "Rigel - Biomech-Skin", es: "Rigel - Aspecto Biomecánico", fr: "Rigel - Skin Biomech", ja: "リゲル - バイオメカスキン" },
+  labelOnly: true
+}, 
+    ]
+  },
+{
+    weekday: "Wednesday",
+    date: "Feb, 18",
+    image: "../../img-HWM/events-img/outland-splendor-img/outland-splendor-200px.webp",
+    alt: "Outland Splendor",
+    titles: { en: "Outland Splendor Guide", de: "Glanz des Außenlands Leitfaden", es: "Esplendor del Territorio Guía", fr: "Splendeur de l’Outreterre Guide", pt: "Esplendor da Fronteira Guia", ja: "アウトランド・スプレンダー ガイド" },
+    links: { en: "../../hero-wars-alliance/event-hwa/outland-splendor-en.html", de: "", es: "", fr: "", pt: "", ja: "" },
+    extra: [
+      {
+        titles: { en: "Wed - Guild VS", pt: "Qua - Guild VS", de: "Mi - Guild VS", es: "Mié - Guild VS", fr: "Mer - Guild VS", ja: "水 - ギルドVS" },
+        links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
+      },  
+      {// Dentro de extra[] de um evento:
+ titles: { en: "Oya - Tribal Skin", pt: "Oya - Visual Tribal", de: "Oya - Stammes-Skin", es: "Oya - Aspecto Tribal", fr: "Oya - Skin Tribal", ja: "オヤ - トライバルスキン" },
+  labelOnly: true
+},  
+{// Dentro de extra[] de um evento:
+ titles: { en: "Brustar - Biomech Skin", pt: "Brustar - Visual Biomecânico", de: "Brustar - Biomech-Skin", es: "Brustar - Aspecto Biomecánico", fr: "Brustar - Skin Biomech", ja: "ブルスター - バイオメカスキン" },
+  labelOnly: true
+},  
+{// Dentro de extra[] de um evento:
+ titles: { en: "Rigel - Biomech Skin", pt: "Rigel - Visual Biomecânico", de: "Rigel - Biomech-Skin", es: "Rigel - Aspecto Biomecánico", fr: "Rigel - Skin Biomech", ja: "リゲル - バイオメカスキン" },
+  labelOnly: true
+}, 
+    ]
+  },
+  {
+    weekday: "Thursday",
+    date: "Feb, 19",
+    image: "../../hero-wars-alliance/images/titans/umbra/umbra-400px.webp",
+    alt: "Umbra Titan",
+    titles: { en: "Umbra Titan Guide", de: "Umbra Titan Leitfaden", es: "Guía del Titán Umbra", fr: "Guide du Titan Umbra", pt: "Guia do Titã Umbra", ja: "アンブラ・タイタン ガイド" },
+    links: { en: "../../hero-wars-alliance/titans-guide/umbra-en.html", de: "hero-wars-alliance/titans-guide/umbra-de.html", es: "hero-wars-alliance/titans-guide/umbra-es.html", fr: "hero-wars-alliance/titans-guide/umbra-fr.html", pt: "hero-wars-alliance/titans-guide/umbra-pt.html", ja: "hero-wars-alliance/titans-guide/umbra-ja.html" },
+    extra: [
+      {
+        titles: { en: "Thu - Guild VS", pt: "Qui - Guild VS", de: "Do - Guild VS", es: "Jue - Guild VS", fr: "Jeu - Guild VS", ja: "木 - ギルドVS" },
+        links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
+      },  
+    ]
+  },
+  {
+    weekday: "Friday",
+    date: "Feb, 20",
+    image: "../../hero-wars-alliance/images/titans/umbra/umbra-400px.webp",
+    alt: "Umbra Titan",
+    titles: { en: "Umbra Titan Guide", de: "Umbra Titan Leitfaden", es: "Guía del Titán Umbra", fr: "Guide du Titan Umbra", pt: "Guia do Titã Umbra", ja: "アンブラ・タイタン ガイド" },
+    links: { en: "../../hero-wars-alliance/titans-guide/umbra-en.html", de: "hero-wars-alliance/titans-guide/umbra-de.html", es: "hero-wars-alliance/titans-guide/umbra-es.html", fr: "hero-wars-alliance/titans-guide/umbra-fr.html", pt: "hero-wars-alliance/titans-guide/umbra-pt.html", ja: "hero-wars-alliance/titans-guide/umbra-ja.html" },
+    extra: [
+      {
+        titles: { en: "Fri - Guild VS", pt: "Sex - Guild VS", de: "Fr - Guild VS", es: "Vie - Guild VS", fr: "Ven - Guild VS", ja: "金 - ギルドVS" },
+        links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
+      },  
+    ]
+  },
+  {
+    weekday: "Saturday",
+    date: "Feb, 21",
+    image: "../../hero-wars-alliance/images/titans/umbra/umbra-400px.webp",
+    alt: "Umbra Titan",
+    titles: { en: "Umbra Titan Guide", de: "Umbra Titan Leitfaden", es: "Guía del Titán Umbra", fr: "Guide du Titan Umbra", pt: "Guia do Titã Umbra", ja: "アンブラ・タイタン ガイド" },
+    links: { en: "../../hero-wars-alliance/titans-guide/umbra-en.html", de: "hero-wars-alliance/titans-guide/umbra-de.html", es: "hero-wars-alliance/titans-guide/umbra-es.html", fr: "hero-wars-alliance/titans-guide/umbra-fr.html", pt: "hero-wars-alliance/titans-guide/umbra-pt.html", ja: "hero-wars-alliance/titans-guide/umbra-ja.html" },
+    extra: [
+      {
+        titles: { en: "Sat - Guild VS", pt: "Sáb - Guild VS", de: "Sa - Guild VS", es: "Sáb - Guild VS", fr: "Sam - Guild VS", ja: "土 - ギルドVS" },
+        links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
+      },  
+    ]
+  },
 
 
 
