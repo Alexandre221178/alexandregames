@@ -30,8 +30,13 @@ window.CALENDAR_DATA = [
       {
         titles: { en: "Heroes' Brawls Guide", de: "Helden-Schlachten Leitfaden", es: "Peleas de Héroes Guía", fr: "Rixes de Héros Guide", pt: "Brigas de Heróis Guia", ja: "ヒーローズ・ブロウル ガイド" },
         links: { en: "../../hero-wars-alliance/event-hwa/heroes-brawls-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/heroes-brawls-pt.html", ja: "" }
+      },
+      {
+        titles: { en: "Heroes' Brawls Guide", de: "Helden-Schlachten Leitfaden", es: "Peleas de Héroes Guía", fr: "Rixes de Héros Guide", pt: "Brigas de Heróis Guia", ja: "ヒーローズ・ブロウル ガイド" },
+        links: { en: "../../hero-wars-alliance/event-hwa/heroes-brawls-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/heroes-brawls-pt.html", ja: "" }
       }
     ]
+    
   },
   {
     weekday: "Tuesday",

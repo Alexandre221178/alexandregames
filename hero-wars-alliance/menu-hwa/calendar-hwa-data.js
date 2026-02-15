@@ -6,6 +6,12 @@
    - Expedicoes de valkyries(missao 4 - Journey, Rune Stones(red) and Season Points Extra= 1000+1500(25 Season Points)+2000+2500(30season points)+4000)
    - includes the calendar se fizer isso antes de zerar o horário do servidor vc consegue fazer 4 logins as missoes 
 */  
+/*Abaixo para simular um espaço vazio
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
+*/
 
 // Título do mês do calendário (traduzido automaticamente)
 window.CALENDAR_MONTH_HEADER = {
@@ -49,18 +55,35 @@ window.CALENDAR_DATA = [
  titles: { en: "Holiday Every Day", pt: "Feriado Todos os Dias", de: "Jeden Tag Feiertag", es: "Fiesta Todos los Días", fr: "Fête Tous les Jours", ja: "毎日が祝日" },
   labelOnly: true
 },
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
       {// Dentro de extra[] de um evento:
  titles: { en: "Oya - Tribal Skin", pt: "Oya - Visual Tribal", de: "Oya - Stammes-Skin", es: "Oya - Aspecto Tribal", fr: "Oya - Skin Tribal", ja: "オヤ - トライバルスキン" },
   labelOnly: true
 },  
 {// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
+{// Dentro de extra[] de um evento:
  titles: { en: "Brusta - Biomech Skin", pt: "Brusta - Visual Biomecânico", de: "Brusta - Biomech-Skin", es: "Brusta - Aspecto Biomecánico", fr: "Brusta - Skin Biomech", ja: "ブルスタ - バイオメカスキン" },
   labelOnly: true
 },  
 {// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
+{// Dentro de extra[] de um evento:
  titles: { en: "Rigel - Biomech Skin", pt: "Rigel - Visual Biomecânico", de: "Rigel - Biomech-Skin", es: "Rigel - Aspecto Biomecánico", fr: "Rigel - Skin Biomech", ja: "リゲル - バイオメカスキン" },
   labelOnly: true
 }, 
+
     ]
   },
   {
@@ -71,10 +94,7 @@ window.CALENDAR_DATA = [
     titles: { en: "Outland Splendor Guide", de: "Glanz des Außenlands Leitfaden", es: "Esplendor del Territorio Guía", fr: "Splendeur de l’Outreterre Guide", pt: "Esplendor da Fronteira Guia", ja: "アウトランド・スプレンダー ガイド" },
     links: { en: "../../hero-wars-alliance/event-hwa/outland-splendor-en.html", de: "", es: "", fr: "", pt: "", ja: "" },
     extra: [
-       {// Dentro de extra[] de um evento:
- titles: { en: "Holiday Every Day", pt: "Feriado Todos os Dias", de: "Jeden Tag Feiertag", es: "Fiesta Todos los Días", fr: "Fête Tous les Jours", ja: "毎日が祝日" },
-  labelOnly: true
-},
+       
       {
         titles: { en: "Heroes' Brawls Guide", de: "Helden-Schlachten Leitfaden", es: "Peleas de Héroes Guía", fr: "Rixes de Héros Guide", pt: "Brigas de Heróis Guia", ja: "ヒーローズ・ブロウル ガイド" },
         links: { en: "../../hero-wars-alliance/event-hwa/heroes-brawls-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/heroes-brawls-pt.html", ja: "" }
@@ -84,13 +104,41 @@ window.CALENDAR_DATA = [
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },  
       {// Dentro de extra[] de um evento:
+ titles: { en: "Holiday Every Day", pt: "Feriado Todos os Dias", de: "Jeden Tag Feiertag", es: "Fiesta Todos los Días", fr: "Fête Tous les Jours", ja: "毎日が祝日" },
+  labelOnly: true
+},
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
+      {// Dentro de extra[] de um evento:
  titles: { en: "Oya - Tribal Skin", pt: "Oya - Visual Tribal", de: "Oya - Stammes-Skin", es: "Oya - Aspecto Tribal", fr: "Oya - Skin Tribal", ja: "オヤ - トライバルスキン" },
   labelOnly: true
 },  
 {// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
+{// Dentro de extra[] de um evento:
  titles: { en: "Brusta - Biomech Skin", pt: "Brusta - Visual Biomecânico", de: "Brusta - Biomech-Skin", es: "Brusta - Aspecto Biomecánico", fr: "Brusta - Skin Biomech", ja: "ブルスタ - バイオメカスキン" },
   labelOnly: true
 },  
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
 {// Dentro de extra[] de um evento:
  titles: { en: "Rigel - Biomech Skin", pt: "Rigel - Visual Biomecânico", de: "Rigel - Biomech-Skin", es: "Rigel - Aspecto Biomecánico", fr: "Rigel - Skin Biomech", ja: "リゲル - バイオメカスキン" },
   labelOnly: true
@@ -105,11 +153,7 @@ window.CALENDAR_DATA = [
     titles: { en: "Outland Splendor Guide", de: "Glanz des Außenlands Leitfaden", es: "Esplendor del Territorio Guía", fr: "Splendeur de l’Outreterre Guide", pt: "Esplendor da Fronteira Guia", ja: "アウトランド・スプレンダー ガイド" },
     links: { en: "../../hero-wars-alliance/event-hwa/outland-splendor-en.html", de: "", es: "", fr: "", pt: "", ja: "" },
     extra: [
-       {// Dentro de extra[] de um evento:
- titles: { en: "Holiday Every Day", pt: "Feriado Todos os Dias", de: "Jeden Tag Feiertag", es: "Fiesta Todos los Días", fr: "Fête Tous les Jours", ja: "毎日が祝日" },
-  labelOnly: true
-},
-      {
+             {
         titles: { en: "Heroes' Brawls Guide", de: "Helden-Schlachten Leitfaden", es: "Peleas de Héroes Guía", fr: "Rixes de Héros Guide", pt: "Brigas de Heróis Guia", ja: "ヒーローズ・ブロウル ガイド" },
         links: { en: "../../hero-wars-alliance/event-hwa/heroes-brawls-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/heroes-brawls-pt.html", ja: "" }
       },
@@ -118,13 +162,33 @@ window.CALENDAR_DATA = [
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
       },  
       {// Dentro de extra[] de um evento:
+ titles: { en: "Holiday Every Day", pt: "Feriado Todos os Dias", de: "Jeden Tag Feiertag", es: "Fiesta Todos los Días", fr: "Fête Tous les Jours", ja: "毎日が祝日" },
+  labelOnly: true
+},
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
+      {// Dentro de extra[] de um evento:
  titles: { en: "Oya - Tribal Skin", pt: "Oya - Visual Tribal", de: "Oya - Stammes-Skin", es: "Oya - Aspecto Tribal", fr: "Oya - Skin Tribal", ja: "オヤ - トライバルスキン" },
   labelOnly: true
 },  
 {// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
+{// Dentro de extra[] de um evento:
  titles: { en: "Brustar - Biomech Skin", pt: "Brustar - Visual Biomecânico", de: "Brustar - Biomech-Skin", es: "Brustar - Aspecto Biomecánico", fr: "Brustar - Skin Biomech", ja: "ブルスター - バイオメカスキン" },
   labelOnly: true
 },  
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
 {// Dentro de extra[] de um evento:
  titles: { en: "Rigel - Biomech Skin", pt: "Rigel - Visual Biomecânico", de: "Rigel - Biomech-Skin", es: "Rigel - Aspecto Biomecánico", fr: "Rigel - Skin Biomech", ja: "リゲル - バイオメカスキン" },
   labelOnly: true
@@ -139,18 +203,32 @@ window.CALENDAR_DATA = [
     titles: { en: "Umbra Titan Guide", de: "Umbra Titan Leitfaden", es: "Guía del Titán Umbra", fr: "Guide du Titan Umbra", pt: "Guia do Titã Umbra", ja: "アンブラ・タイタン ガイド" },
     links: { en: "../../hero-wars-alliance/titans-guide/umbra-en.html", de: "../../hero-wars-alliance/titans-guide/umbra-de.html", es: "../../hero-wars-alliance/titans-guide/umbra-es.html", fr: "../../hero-wars-alliance/titans-guide/umbra-fr.html", pt: "../../hero-wars-alliance/titans-guide/umbra-pt.html", ja: "../../hero-wars-alliance/titans-guide/umbra-ja.html" },
     extra: [
-       {// Dentro de extra[] de um evento:
- titles: { en: "Holiday Every Day", pt: "Feriado Todos os Dias", de: "Jeden Tag Feiertag", es: "Fiesta Todos los Días", fr: "Fête Tous les Jours", ja: "毎日が祝日" },
-  labelOnly: true
-},
+       
       {// Dentro de extra[] de um evento:
  titles: { en: "Umbra - Event", pt: "Umbra - Evento", de: "Umbra - Ereignis", es: "Umbra - Evento", fr: "Umbra - Événement", ja: "アンブラ - イベント" },
   labelOnly: true
 },  
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
       {
         titles: { en: "Thu - Guild VS", pt: "Qui - Guild VS", de: "Do - Guild VS", es: "Jue - Guild VS", fr: "Jeu - Guild VS", ja: "木 - ギルドVS" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },  
+      {// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
+
+      {// Dentro de extra[] de um evento:
+ titles: { en: "Holiday Every Day", pt: "Feriado Todos os Dias", de: "Jeden Tag Feiertag", es: "Fiesta Todos los Días", fr: "Fête Tous les Jours", ja: "毎日が祝日" },
+  labelOnly: true
+},
     ]
   },
   {
@@ -161,10 +239,7 @@ window.CALENDAR_DATA = [
     titles: { en: "Umbra Titan Guide", de: "Umbra Titan Leitfaden", es: "Guía del Titán Umbra", fr: "Guide du Titan Umbra", pt: "Guia do Titã Umbra", ja: "アンブラ・タイタン ガイド" },
     links: { en: "../../hero-wars-alliance/titans-guide/umbra-en.html", de: "../../hero-wars-alliance/titans-guide/umbra-de.html", es: "../../hero-wars-alliance/titans-guide/umbra-es.html", fr: "../../hero-wars-alliance/titans-guide/umbra-fr.html", pt: "../../hero-wars-alliance/titans-guide/umbra-pt.html", ja: "../../hero-wars-alliance/titans-guide/umbra-ja.html" },
      extra: [
-       {// Dentro de extra[] de um evento:
- titles: { en: "Holiday Every Day", pt: "Feriado Todos os Dias", de: "Jeden Tag Feiertag", es: "Fiesta Todos los Días", fr: "Fête Tous les Jours", ja: "毎日が祝日" },
-  labelOnly: true
-},
+       
       {// Dentro de extra[] de um evento:
  titles: { en: "Umbra - Event", pt: "Umbra - Evento", de: "Umbra - Ereignis", es: "Umbra - Evento", fr: "Umbra - Événement", ja: "アンブラ - イベント" },
   labelOnly: true
@@ -172,7 +247,19 @@ window.CALENDAR_DATA = [
       {
         titles: { en: "Fri - Guild VS", pt: "Sex - Guild VS", de: "Fr - Guild VS", es: "Vie - Guild VS", fr: "Ven - Guild VS", ja: "金 - ギルドVS" },
         links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" }
-      },  
+      }, 
+      {// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
+      {// Dentro de extra[] de um evento:
+ titles: { en: "Holiday Every Day", pt: "Feriado Todos os Dias", de: "Jeden Tag Feiertag", es: "Fiesta Todos los Días", fr: "Fête Tous les Jours", ja: "毎日が祝日" },
+  labelOnly: true
+}, 
     ]
   },
   {
@@ -395,7 +482,11 @@ window.CALENDAR_DATA = [
        titles: { en: "Alvanor Guide", de: "Alvanor Leitfaden", es: "Alvanor - Guía", fr: "Alvanor - Guide", pt: "Guia - Alvanor", ja: "アルヴァノール - ガイド" },
        links: { en: "../characters-guide/alvanor-en.html", de: "../characters-guide/alvanor-de.html", es: "../characters-guide/alvanor-es.html", fr: "../characters-guide/alvanor-fr.html", pt: "../characters-guide/alvanor-pt.html", ja: "../characters-guide/alvanor-ja.html" },       
        noStrip: true
-      },   
+      },
+      {// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+},    
        {
  titles: { en: "Alvanor Skin+", pt: "Alvanor - Skin+", de: "Alvanor - Skin+", es: "Alvanor - Skin+", fr: "Alvanor - Skin+", ja: "アルヴァノール - スキン+" },
   labelOnly: true
@@ -450,10 +541,18 @@ window.CALENDAR_DATA = [
  titles: { en: "Alvanor Tribal Skin+ ", pt: "Alvanor Tribal - Skin+", de: "Alvanor Tribal - Skin+", es: "Alvanor Tribal - Skin+", fr: "Alvanor - Skin+", ja: "アルヴァノール（トライバルスキン＋）" },
   labelOnly: true
 },   
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
 {
  titles: { en: "Byrna Tribal Skin", pt: "Byrna Tribal - Skin+", de: "Byrna Tribal - Skin+", es: "Byrna Tribal - Skin+", fr: "Byrna - Skin+", ja: "バーンラ（トライバルスキン＋）" },
   labelOnly: true
-},    
+},
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+},     
 {
  titles: { en: "Mushy & Shroom Tribal Skin", pt: "Mushy & Shroom Tribal Skin", de: "Mushy & Shroom Tribal Skin", es: "Mushy & Shroom Tribal Skin", fr: "Mushy & Shroom Tribal Skin", ja: "マッシー＆シュルーム トライバル スキン" },
   labelOnly: true
@@ -472,11 +571,19 @@ window.CALENDAR_DATA = [
       {
  titles: { en: "Alvanor Tribal Skin+ ", pt: "Alvanor Tribal - Skin+", de: "Alvanor Tribal - Skin+", es: "Alvanor Tribal - Skin+", fr: "Alvanor - Skin+", ja: "アルヴァノール（トライバルスキン＋）" },
   labelOnly: true
+}, 
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
 },   
 {
  titles: { en: "Byrna Tribal Skin", pt: "Byrna Tribal - Skin+", de: "Byrna Tribal - Skin+", es: "Byrna Tribal - Skin+", fr: "Byrna - Skin+", ja: "バーンラ（トライバルスキン＋）" },
   labelOnly: true
-},    
+},   
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+}, 
 {
  titles: { en: "Mushy & Shroom Tribal Skin", pt: "Mushy & Shroom Tribal Skin", de: "Mushy & Shroom Tribal Skin", es: "Mushy & Shroom Tribal Skin", fr: "Mushy & Shroom Tribal Skin", ja: "マッシー＆シュルーム トライバル スキン" },
   labelOnly: true
@@ -492,10 +599,7 @@ window.CALENDAR_DATA = [
     titles: { en: "Skin+ Event", de: "Skin+ Event", es: "Evento Skin+", fr: "Événement Skin+", pt: "Evento Skin+", ja: "スキン+ イベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "" },
     extra: [
-      {
- titles: { en: "Alvanor Tribal Skin+ ", pt: "Alvanor Tribal - Skin+", de: "Alvanor Tribal - Skin+", es: "Alvanor Tribal - Skin+", fr: "Alvanor - Skin+", ja: "アルヴァノール（トライバルスキン＋）" },
-  labelOnly: true
-},
+      
        {
         titles: { en: "Oya - Relic Event", de: "Oya - Relikt-Ereignis", es: "Oya - Evento de Reliquia", fr: "Oya - Événement des Reliques", pt: "Oya - Evento de Relíquia", ja: "オヤ - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
@@ -504,11 +608,23 @@ window.CALENDAR_DATA = [
        titles: { en: "Oya Guide", de: "Oya Leitfaden", es: "Oya - Guía", fr: "Oya - Guide", pt: "Guia - Oya", ja: "オヤ - ガイド" },
        links: { en: "../characters-guide/oya-en.html", de: "", es: "", fr: "", pt: "../characters-guide/oya-pt.html", ja: "" },       
        noStrip: true
-      },     
+      }, 
+      {
+ titles: { en: "Alvanor Tribal Skin+ ", pt: "Alvanor Tribal - Skin+", de: "Alvanor Tribal - Skin+", es: "Alvanor Tribal - Skin+", fr: "Alvanor - Skin+", ja: "アルヴァノール（トライバルスキン＋）" },
+  labelOnly: true
+},
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+},     
 {
  titles: { en: "Byrna Tribal Skin", pt: "Byrna Tribal - Skin+", de: "Byrna Tribal - Skin+", es: "Byrna Tribal - Skin+", fr: "Byrna - Skin+", ja: "バーンラ（トライバルスキン＋）" },
   labelOnly: true
-},    
+},   
+{// Dentro de extra[] de um evento:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+},  
 {
  titles: { en: "Mushy & Shroom Tribal Skin", pt: "Mushy & Shroom Tribal Skin", de: "Mushy & Shroom Tribal Skin", es: "Mushy & Shroom Tribal Skin", fr: "Mushy & Shroom Tribal Skin", ja: "マッシー＆シュルーム トライバル スキン" },
   labelOnly: true
