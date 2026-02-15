@@ -264,6 +264,14 @@
     var lang = getLang(calendarElem);
     var layout = calendarElem.getAttribute('data-layout') || 'default';
     var data = window.CALENDAR_DATA || [];
+
+    // Renderiza o header do mês se existir
+    var headerContainer = document.getElementById('calendar-month-header');
+    if(headerContainer && window.CALENDAR_MONTH_HEADER){
+      var headerText = window.CALENDAR_MONTH_HEADER[lang] || window.CALENDAR_MONTH_HEADER.en || '';
+      headerContainer.innerHTML = headerText;
+    }
+
     // NOTE: keep requested layout (do not auto-switch to group-by-date)
     // The page author can explicitly set `data-layout="group-by-date"` when desired.
     var html = '';
