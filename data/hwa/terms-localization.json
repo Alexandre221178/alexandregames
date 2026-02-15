@@ -150,5 +150,109 @@
     "fr": "Attaque magique",
     "pt": "Ataque Mágico",
     "ja": "魔法攻撃"
+  },
+  "January": {
+    "en": "January",
+    "pt": "Janeiro",
+    "ja": "1月",
+    "de": "Januar",
+    "fr": "Janvier",
+    "es": "Enero"
+  },
+  "February": {
+    "en": "February",
+    "pt": "Fevereiro",
+    "ja": "2月",
+    "de": "Februar",
+    "fr": "Février",
+    "es": "Febrero"
+  },
+  "March": {
+    "en": "March",
+    "pt": "Março",
+    "ja": "3月",
+    "de": "März",
+    "fr": "Mars",
+    "es": "Marzo"
+  },
+  "April": {
+    "en": "April",
+    "pt": "Abril",
+    "ja": "4月",
+    "de": "April",
+    "fr": "Avril",
+    "es": "Abril"
+  },
+  "May": {
+    "en": "May",
+    "pt": "Maio",
+    "ja": "5月",
+    "de": "Mai",
+    "fr": "Mai",
+    "es": "Mayo"
+  },
+  "June": {
+    "en": "June",
+    "pt": "Junho",
+    "ja": "6月",
+    "de": "Juni",
+    "fr": "Juin",
+    "es": "Junio"
+  },
+  "July": {
+    "en": "July",
+    "pt": "Julho",
+    "ja": "7月",
+    "de": "Juli",
+    "fr": "Juillet",
+    "es": "Julio"
+  },
+  "August": {
+    "en": "August",
+    "pt": "Agosto",
+    "ja": "8月",
+    "de": "August",
+    "fr": "Août",
+    "es": "Agosto"
+  },
+  "September": {
+    "en": "September",
+    "pt": "Setembro",
+    "ja": "9月",
+    "de": "September",
+    "fr": "Septembre",
+    "es": "Septiembre"
+  },
+  "October": {
+    "en": "October",
+    "pt": "Outubro",
+    "ja": "10月",
+    "de": "Oktober",
+    "fr": "Octobre",
+    "es": "Octubre"
+  },
+  "November": {
+    "en": "November",
+    "pt": "Novembro",
+    "ja": "11月",
+    "de": "November",
+    "fr": "Novembre",
+    "es": "Noviembre"
+  },
+  "December": {
+    "en": "December",
+    "pt": "Dezembro",
+    "ja": "12月",
+    "de": "Dezember",
+    "fr": "Décembre",
+    "es": "Diciembre"
+  },
+  "for": {
+    "en": "for",
+    "pt": "para",
+    "ja": "for",
+    "de": "für",
+    "fr": "pour",
+    "es": "para"
   }
 }
