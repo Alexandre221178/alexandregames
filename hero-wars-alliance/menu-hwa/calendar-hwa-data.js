@@ -601,9 +601,9 @@ labelOnly: true
     weekday: "Thursday",
     date: "Feb, 19",
     image: "../../hero-wars-alliance/images/titans/umbra/umbra-400px.webp",
-    alt: "Umbra Titan",
+     alt: "Umbra Titan",
     titles: { en: "Umbra Titan Guide", de: "Umbra Titan Leitfaden", es: "Guía del Titán Umbra", fr: "Guide du Titan Umbra", pt: "Guia do Titã Umbra", ja: "アンブラ・タイタン ガイド" },
-    links: { en: "../../hero-wars-alliance/titans-guide/umbra-en.html", de: "hero-wars-alliance/titans-guide/umbra-de.html", es: "hero-wars-alliance/titans-guide/umbra-es.html", fr: "hero-wars-alliance/titans-guide/umbra-fr.html", pt: "hero-wars-alliance/titans-guide/umbra-pt.html", ja: "hero-wars-alliance/titans-guide/umbra-ja.html" },
+    links: { en: "../../hero-wars-alliance/titans-guide/umbra-en.html", de: "../../hero-wars-alliance/titans-guide/umbra-de.html", es: "../../hero-wars-alliance/titans-guide/umbra-es.html", fr: "../../hero-wars-alliance/titans-guide/umbra-fr.html", pt: "../../hero-wars-alliance/titans-guide/umbra-pt.html", ja: "../../hero-wars-alliance/titans-guide/umbra-ja.html" },
     extra: [
       {
         titles: { en: "Thu - Guild VS", pt: "Qui - Guild VS", de: "Do - Guild VS", es: "Jue - Guild VS", fr: "Jeu - Guild VS", ja: "木 - ギルドVS" },
@@ -617,7 +617,7 @@ labelOnly: true
     image: "../../hero-wars-alliance/images/titans/umbra/umbra-400px.webp",
     alt: "Umbra Titan",
     titles: { en: "Umbra Titan Guide", de: "Umbra Titan Leitfaden", es: "Guía del Titán Umbra", fr: "Guide du Titan Umbra", pt: "Guia do Titã Umbra", ja: "アンブラ・タイタン ガイド" },
-    links: { en: "../../hero-wars-alliance/titans-guide/umbra-en.html", de: "hero-wars-alliance/titans-guide/umbra-de.html", es: "hero-wars-alliance/titans-guide/umbra-es.html", fr: "hero-wars-alliance/titans-guide/umbra-fr.html", pt: "hero-wars-alliance/titans-guide/umbra-pt.html", ja: "hero-wars-alliance/titans-guide/umbra-ja.html" },
+    links: { en: "../../hero-wars-alliance/titans-guide/umbra-en.html", de: "../../hero-wars-alliance/titans-guide/umbra-de.html", es: "../../hero-wars-alliance/titans-guide/umbra-es.html", fr: "../../hero-wars-alliance/titans-guide/umbra-fr.html", pt: "../../hero-wars-alliance/titans-guide/umbra-pt.html", ja: "../../hero-wars-alliance/titans-guide/umbra-ja.html" },
     extra: [
       {
         titles: { en: "Fri - Guild VS", pt: "Sex - Guild VS", de: "Fr - Guild VS", es: "Vie - Guild VS", fr: "Ven - Guild VS", ja: "金 - ギルドVS" },
@@ -631,7 +631,7 @@ labelOnly: true
     image: "../../hero-wars-alliance/images/titans/umbra/umbra-400px.webp",
     alt: "Umbra Titan",
     titles: { en: "Umbra Titan Guide", de: "Umbra Titan Leitfaden", es: "Guía del Titán Umbra", fr: "Guide du Titan Umbra", pt: "Guia do Titã Umbra", ja: "アンブラ・タイタン ガイド" },
-    links: { en: "../../hero-wars-alliance/titans-guide/umbra-en.html", de: "hero-wars-alliance/titans-guide/umbra-de.html", es: "hero-wars-alliance/titans-guide/umbra-es.html", fr: "hero-wars-alliance/titans-guide/umbra-fr.html", pt: "hero-wars-alliance/titans-guide/umbra-pt.html", ja: "hero-wars-alliance/titans-guide/umbra-ja.html" },
+    links: { en: "../../hero-wars-alliance/titans-guide/umbra-en.html", de: "../../hero-wars-alliance/titans-guide/umbra-de.html", es: "../../hero-wars-alliance/titans-guide/umbra-es.html", fr: "../../hero-wars-alliance/titans-guide/umbra-fr.html", pt: "../../hero-wars-alliance/titans-guide/umbra-pt.html", ja: "../../hero-wars-alliance/titans-guide/umbra-ja.html" },
     extra: [
       {
         titles: { en: "Sat - Guild VS", pt: "Sáb - Guild VS", de: "Sa - Guild VS", es: "Sáb - Guild VS", fr: "Sam - Guild VS", ja: "土 - ギルドVS" },
