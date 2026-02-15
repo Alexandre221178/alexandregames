@@ -1,0 +1,339 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "alvanor",
+      "name": "Alvanor",
+      "gender": "male",
+      "role": ["Support", "Healer"],
+      "main_class": "Support",
+      "position": "Front Line",
+      "main_stat": "Intelligence",
+      "how_to_get_soul_stones": "Heroic Chest, Special Events",
+      "hydra_tier_list": "S",
+      "hero_tier_list": "A",
+      "faction": "Way of Nature",
+      "stats": {
+        "talisman_of_runes": {
+          "intelligence": 17942,
+          "agility": 3346,
+          "strength": 3753,
+          "health": 963578,
+          "physical_attack": 29542,
+          "magic_attack": 163651,
+          "armor": 18884,
+          "magic_defense": 37050,
+          "toughness": 930,
+          "magic_reflection": 3656,
+          "magical_crit_hit_chance": 486,
+          "crushing": 1084,
+          "magic_penetration": 48178
+        },
+        "talisman_of_visions": {
+          "intelligence": 15942,
+          "agility": 3346,
+          "strength": 3753,
+          "health": 782078,
+          "physical_attack": 27542,
+          "magic_attack": 157651,
+          "armor": 38684,
+          "magic_defense": 35050,
+          "toughness": 930,
+          "magic_reflection": 3656,
+          "magical_crit_hit_chance": 4486,
+          "crushing": 1084,
+          "magic_penetration": 48178
+        }
+      },
+      "talisman_details": {
+        "talisman_of_runes": {
+          "main_stat": "Intelligence",
+          "main_stat_bonus": 2000,
+          "derived_bonuses": {
+            "magic_attack": 6000,
+            "magic_defense": 2000,
+            "physical_attack": 2000
+          },
+          "reroll_slots": [
+            { "stat": "Health", "value": 60500 },
+            { "stat": "Health", "value": 60500 },
+            { "stat": "Health", "value": 60500 }
+          ],
+          "total_reroll_bonus": { "stat": "Health", "value": 181500 }
+        },
+        "talisman_of_visions": {
+          "main_stat": "Magical Crit Hit Chance",
+          "main_stat_bonus": 4000,
+          "derived_bonuses": {
+            "magical_crit_hit_chance": 4000
+          },
+          "reroll_slots": [
+            { "stat": "Armor", "value": 6600 },
+            { "stat": "Armor", "value": 6600 },
+            { "stat": "Armor", "value": 6600 }
+          ],
+          "total_reroll_bonus": { "stat": "Armor", "value": 19800 }
+        },
+        "recommended": "talisman_of_runes"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "Runes of Ice",
+          "type": ["Slow", "Magic Damage"],
+          "animation_delay_seconds": 1.42,
+          "projectile_count": 5,
+          "damage_formula": "65% Magic Attack + 12000",
+          "scales_with": ["Magic Attack"],
+          "damage_example": 81320,
+          "damage_example_visions": 77420,
+          "description": "Conjures 5 Runes of Ice in front of himself and launches them at enemies. Each rune flies toward the nearest enemy, dealing magic damage and slowing the target. The chance to slow is lowered if the target's level is above 120.",
+          "evolution_priority": "Medium High"
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 120,
+          "name": "Rune of Life",
+          "type": ["Heal", "Buff"],
+          "heal_per_second_formula": "12% Magic Attack + 2040",
+          "scales_with": ["Magic Attack"],
+          "heal_per_second_example": 14838,
+          "heal_per_second_example_visions": 14118,
+          "nature_heroes_doubled": true,
+          "heal_per_second_nature": 29676,
+          "heal_per_second_nature_visions": 28236,
+          "description": "Conjures a Rune of Life that heals all allies once per second. While this rune is active, all allied Way of Nature heroes are healed twice as effectively regardless of the source of healing.",
+          "evolution_priority": "Very High"
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 100,
+          "name": "Rune of Fire",
+          "type": ["Magic Damage"],
+          "targets": 2,
+          "damage_formula": "45% Magic Attack + 7200",
+          "scales_with": ["Magic Attack"],
+          "damage_example": 55191,
+          "damage_example_visions": 52491,
+          "description": "Calls upon the Fire Rune, smiting the two closest enemies and dealing magic damage to each.",
+          "evolution_priority": "Medium"
+        },
+        {
+          "id": 3,
+          "variant": "legendary",
+          "relic_level": 10,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 3
+          },
+          "name": "Rune of Fire",
+          "effect": "Damage Over Time Mark",
+          "value_formula": "20% Magic Attack + 7200",
+          "scales_with": ["Magic Attack"],
+          "value_example": 28529,
+          "value_example_visions": 27329,
+          "duration_seconds": 6,
+          "total_damage_example": 171174,
+          "total_damage_example_visions": 163974,
+          "description": "Hitting an enemy with Rune of Fire applies a mark for 6.0 seconds. While the mark is active, it deals magic damage every second.",
+          "evolution_priority": "Medium High"
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "level": 90,
+          "name": "Rune of Earth",
+          "type": ["Buff", "Damage Reduction"],
+          "damage_reduction_formula": "55% Magic Attack + 4800",
+          "scales_with": ["Magic Attack"],
+          "damage_reduction_example": 63455,
+          "damage_reduction_example_visions": 60155,
+          "nature_heroes_permanent": true,
+          "description": "Activates a Rune of Earth to protect allies. While the rune is active, allies take decreased damage from basic attacks. The Rune of Earth is always active for Way of Nature heroes.",
+          "evolution_priority": "Very High"
+        },
+        {
+          "id": 4,
+          "variant": "legendary",
+          "relic_level": 20,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 4
+          },
+          "name": "Rune of Earth",
+          "effect": "Extends protection to skill damage",
+          "damage_reduction_formula": "55% Magic Attack + 4800",
+          "scales_with": ["Magic Attack"],
+          "damage_reduction_example": 63455,
+          "damage_reduction_example_visions": 60155,
+          "description": "Extends the Rune of Earth's protection to skill damage as well as basic attacks. Way of Nature heroes still permanently take reduced damage from basic attacks.",
+          "evolution_priority": "Very High"
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Rune of Wind",
+          "type": ["Buff", "Cooldown Reduction"],
+          "duration_seconds": 7,
+          "cooldown_reduction_percent": 20,
+          "scales_with": [],
+          "description": "Applies the Rune of Wind for 7.0 seconds to allies in front of Alvanor and to all heroes of the Way of Nature. While active, the rune speeds up their skill cooldown by 20%.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Rune of Infinity",
+          "type": ["Passive", "Buff"],
+          "duration_increase_seconds": 3.0,
+          "scales_with": [],
+          "description": "Passively increases the duration of all effects applied by Alvanor by 3.0 seconds.",
+          "evolution_priority": "High"
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default Skin",
+          "stat": "Intelligence",
+          "bonus": 1365,
+          "derived_bonuses": {
+            "magic_attack": 4095,
+            "magic_defense": 1365,
+            "physical_attack": 1365
+          },
+          "evolution_priority": "Very High"
+        },
+        {
+          "name": "Spring Skin",
+          "stat": "Magic Attack",
+          "bonus": 10650,
+          "evolution_priority": "Very High"
+        },
+        {
+          "name": "Lunar Skin",
+          "stat": "Armor",
+          "bonus": 10650,
+          "evolution_priority": "Medium"
+        },
+        {
+          "name": "Winter Skin",
+          "stat": "Health",
+          "bonus": 106645,
+          "evolution_priority": "High"
+        },
+        {
+          "name": "Dark Depths Skin+",
+          "stat": "Magic Penetration",
+          "bonus": 21300,
+          "is_skin_plus": true,
+          "evolution_priority": "Medium High"
+        },
+        {
+          "name": "Angel Skin",
+          "stat": "Magic Reflection",
+          "bonus": 2960,
+          "evolution_priority": "Low"
+        }
+      ],
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Soul of the Forest",
+          "activation_trigger": "Runes of Ice (Ultimate)",
+          "activation_chance": 100,
+          "effect": "Magic Attack bonus to the whole team",
+          "magic_attack_bonus": 32040,
+          "duration_seconds": 9,
+          "evolution_priority": "Very High"
+        },
+        {
+          "slot": "Book",
+          "name": "Manuscript of the Void",
+          "magic_penetration": 10680,
+          "magic_attack": 5340,
+          "evolution_priority": "High"
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Intelligence",
+          "intelligence": 3990,
+          "derived_bonuses": {
+            "magic_attack": 11970,
+            "magic_defense": 3990,
+            "physical_attack": 3990
+          },
+          "evolution_priority": "Medium High"
+        }
+      ],
+      "glyphs": [
+        {
+          "name": "Magic Attack",
+          "level": 80,
+          "bonus": 12850,
+          "evolution_priority": "Very High (1st Overall)"
+        },
+        {
+          "name": "Health",
+          "level": 80,
+          "bonus": 122800,
+          "evolution_priority": "High (2nd Overall)"
+        },
+        {
+          "name": "Magic Penetration",
+          "level": 80,
+          "bonus": 12850,
+          "evolution_priority": "Medium High (3rd Overall)"
+        },
+        {
+          "name": "Magic Defense",
+          "level": 80,
+          "bonus": 12850,
+          "evolution_priority": "Medium (4th Overall)"
+        },
+        {
+          "name": "Intelligence",
+          "level": 80,
+          "bonus": 2110,
+          "derived_bonuses": {
+            "magic_attack": 6330,
+            "magic_defense": 2110,
+            "physical_attack": 2110
+          },
+          "evolution_priority": "Medium (5th Overall)"
+        }
+      ],
+      "counters": [
+        {
+          "name": "Cornelius",
+          "reason": "Directly targets the enemy with the highest Intelligence. Alvanor's massive Intelligence (17,942 with Talisman of Runes) makes him the primary target for Cornelius's monolith, which deals damage proportional to the target's Intelligence."
+        },
+        {
+          "name": "Phobos",
+          "reason": "Stuns the enemy with the highest Magic Attack for 6.6 seconds. Against Alvanor (106,646 Magic Attack), Phobos locks him down completely. Bonds of Darkness transfers Alvanor's energy to Phobos for 10 seconds, and a shadow decreases Alvanor's Magic Defense for 4 seconds."
+        }
+      ],
+      "synergies": [
+        {
+          "name": "Byrna",
+          "reason": "Ultimate healing partner. Byrna's healing is doubled by Alvanor's Rune of Life for Nature heroes. Rune of Earth reduces damage Byrna takes, and Rune of Wind accelerates her skill cooldowns."
+        },
+        {
+          "name": "Mushy",
+          "reason": "Alvanor's Rune of Life heals Mushy's Shrooms and doubles healing for Nature heroes, activating Shrooms faster. Rune of Earth reduces damage they take, making the Shroom army significantly harder to destroy."
+        }
+      ]
+    }
+  ]
+}

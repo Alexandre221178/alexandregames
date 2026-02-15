@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "update-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js",
     "update-calendar-hwa": "node hero-wars-alliance/update-data-menu-hwa.js menu-hwa calendar-hwa",
+    "update-alvanor-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide alvanor",
     "update-byrna-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide byrna",
     "update-dante-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide dante",
     "update-drayne-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide drayne",
