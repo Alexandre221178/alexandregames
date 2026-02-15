@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>                     
         <ul>                     
             <div class="dropdown">
-                <button><a href="https://alexandregames.com/HeroWars.html">Hero Wars Alliance</a></button>
+                <button><a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-pt.html">Hero Wars Alliance</a></button>
             </div>              
             <div class="dropdown">
                 <button><a href="https://alexandregames.com/MobileLegends.html">Mobile Legends</a></button> 

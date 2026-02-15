@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <button class="dropbtn">Hero Wars Alliance</button>
                 <div class="dropdown-content">
                  
-                <a href="https://alexandregames.com/herowars-alliance-en.html">HWA - Home</a>
+                <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-en.html">HWA - Home</a>
                     <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-en-hwa.html">Best Teams Guide</a>
                     <a href="https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html">Calendar & Events</a>
                     <a href="https://alexandregames.com/Hero%20Wars%20English/Heroes%20Guide%20Hero%20Wars.html">Heroes Guide</a>

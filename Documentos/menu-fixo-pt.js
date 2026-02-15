@@ -1,7 +1,7 @@
 // Define o conteúdo HTML do menu
 const menuContent = `
     <h6>Alexandre Games</h6>
-    <a href="https://alexandregames.com/HeroWars.html">Hero Wars Alliance</a>
+    <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-pt.html">Hero Wars Alliance</a>
     <a href="https://alexandregames.com/MobileLegends.html">Mobile Legends</a>
     <a href="https://alexandregames.com/ragnarok-origin/codigos-ragnarok-br.html">Ragnarok ROO</a>
     <a href="https://alexandregames.com/roblox-br.html">Roblox</a>
