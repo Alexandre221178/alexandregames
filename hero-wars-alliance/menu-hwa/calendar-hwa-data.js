@@ -29,7 +29,14 @@ window.CALENDAR_DATA = [
     date: "",
     image: "../../imagens/image-shared/alvanor-300px.webp",
     alt: "Alvanor Guide",
-  titles: { en: "Alvanor Guide", de: "Alvanor Leitfaden", es: "Alvanor - Guía", fr: "Alvanor - Guide", pt: "Guia - Alvanor", ja: "アルヴァノール - ガイド" },
+  titles: {
+  en: "Alvanor Legendary Skills Guide",
+  de: "Alvanor Leitfaden für legendäre Fähigkeiten",
+  es: "Guía de Habilidades Legendarias de Alvanor",
+  fr: "Guide des Compétences Légendaires d'Alvanor",
+  pt: "Guia das Habilidades Lendárias do Alvanor",
+  ja: "アルヴァノールのレジェンダリースキルガイド"
+},
   links: { en: "../characters-guide/alvanor-en.html", de: "../characters-guide/alvanor-de.html", es: "../characters-guide/alvanor-es.html", fr: "../characters-guide/alvanor-fr.html", pt: "../characters-guide/alvanor-pt.html", ja: "../characters-guide/alvanor-ja.html" },
   noStrip: true,
   extra: []
