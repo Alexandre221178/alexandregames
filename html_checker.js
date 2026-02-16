@@ -333,6 +333,12 @@ function checkFile(filePath) {
             }
         }
 
+        // Verificar Google Tag Manager
+        const gtmScripts = $('script[src*="googletagmanager.com"]');
+        if (gtmScripts.length === 0) {
+            issues.push('Faltando: Google Tag Manager (https://www.googletagmanager.com/)');
+        }
+
     } catch (e) {
         issues.push(`Erro ao processar arquivo: ${e.message}`);
     }
