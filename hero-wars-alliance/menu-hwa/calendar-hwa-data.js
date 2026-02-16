@@ -47,6 +47,7 @@ window.CALENDAR_DATA = [
         titles: { en: "Heroes' Brawls Guide", de: "Helden-Schlachten Leitfaden", es: "Peleas de Héroes Guía", fr: "Rixes de Héros Guide", pt: "Brigas de Heróis Guia", ja: "ヒーローズ・ブロウル ガイド" },
         links: { en: "../../hero-wars-alliance/event-hwa/heroes-brawls-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/heroes-brawls-pt.html", ja: "" }
       },
+      
       {
         titles: { en: "Mon - Guild VS", pt: "Seg - Guild VS", de: "Mo - Guild VS", es: "Lun - Guild VS", fr: "Lun - Guild VS", ja: "月 - ギルドVS" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
@@ -55,6 +56,7 @@ window.CALENDAR_DATA = [
  titles: { en: "Holiday Every Day", pt: "Feriado Todos os Dias", de: "Jeden Tag Feiertag", es: "Fiesta Todos los Días", fr: "Fête Tous les Jours", ja: "毎日が祝日" },
   labelOnly: true
 },
+
 {// Dentro de extra[] de um evento:
  titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
   labelOnly: true
@@ -67,22 +69,11 @@ window.CALENDAR_DATA = [
  titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
   labelOnly: true
 }, 
+
 {// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
-{// Dentro de extra[] de um evento:
- titles: { en: "Brusta - Biomech Skin", pt: "Brusta - Visual Biomecânico", de: "Brusta - Biomech-Skin", es: "Brusta - Aspecto Biomecánico", fr: "Brusta - Skin Biomech", ja: "ブルスタ - バイオメカスキン" },
+ titles: { en: "Brustar and Rigel - Biomech Skin", pt: "Brustar e Rigel - Visual Biomecânico", de: "Brustar und Rigel - Biomech-Skin", es: "Brustar y Rigel - Aspecto Biomecánico", fr: "Brustar et Rigel - Skin Biomech", ja: "ブルスタとリゲル - バイオメカスキン" },
   labelOnly: true
 },  
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
-{// Dentro de extra[] de um evento:
- titles: { en: "Rigel - Biomech Skin", pt: "Rigel - Visual Biomecânico", de: "Rigel - Biomech-Skin", es: "Rigel - Aspecto Biomecánico", fr: "Rigel - Skin Biomech", ja: "リゲル - バイオメカスキン" },
-  labelOnly: true
-}, 
 
     ]
   },
@@ -107,10 +98,7 @@ window.CALENDAR_DATA = [
  titles: { en: "Holiday Every Day", pt: "Feriado Todos os Dias", de: "Jeden Tag Feiertag", es: "Fiesta Todos los Días", fr: "Fête Tous les Jours", ja: "毎日が祝日" },
   labelOnly: true
 },
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
+
 {// Dentro de extra[] de um evento:
  titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
   labelOnly: true
@@ -124,25 +112,9 @@ window.CALENDAR_DATA = [
   labelOnly: true
 }, 
 {// Dentro de extra[] de um evento:
- titles: { en: "Brusta - Biomech Skin", pt: "Brusta - Visual Biomecânico", de: "Brusta - Biomech-Skin", es: "Brusta - Aspecto Biomecánico", fr: "Brusta - Skin Biomech", ja: "ブルスタ - バイオメカスキン" },
+ titles: { en: "Brustar and Rigel - Biomech Skin", pt: "Brustar e Rigel - Visual Biomecânico", de: "Brustar und Rigel - Biomech-Skin", es: "Brustar y Rigel - Aspecto Biomecánico", fr: "Brustar et Rigel - Skin Biomech", ja: "ブルスタとリゲル - バイオメカスキン" },
   labelOnly: true
 },  
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
-{// Dentro de extra[] de um evento:
- titles: { en: "Rigel - Biomech Skin", pt: "Rigel - Visual Biomecânico", de: "Rigel - Biomech-Skin", es: "Rigel - Aspecto Biomecánico", fr: "Rigel - Skin Biomech", ja: "リゲル - バイオメカスキン" },
-  labelOnly: true
-}, 
     ]
   },
 {
@@ -178,21 +150,9 @@ window.CALENDAR_DATA = [
   labelOnly: true
 }, 
 {// Dentro de extra[] de um evento:
- titles: { en: "Brustar - Biomech Skin", pt: "Brustar - Visual Biomecânico", de: "Brustar - Biomech-Skin", es: "Brustar - Aspecto Biomecánico", fr: "Brustar - Skin Biomech", ja: "ブルスター - バイオメカスキン" },
+ titles: { en: "Brustar and Rigel - Biomech Skin", pt: "Brustar e Rigel - Visual Biomecânico", de: "Brustar und Rigel - Biomech-Skin", es: "Brustar y Rigel - Aspecto Biomecánico", fr: "Brustar et Rigel - Skin Biomech", ja: "ブルスタとリゲル - バイオメカスキン" },
   labelOnly: true
 },  
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
-{// Dentro de extra[] de um evento:
- titles: { en: "Rigel - Biomech Skin", pt: "Rigel - Visual Biomecânico", de: "Rigel - Biomech-Skin", es: "Rigel - Aspecto Biomecánico", fr: "Rigel - Skin Biomech", ja: "リゲル - バイオメカスキン" },
-  labelOnly: true
-}, 
     ]
   },
   {
@@ -203,15 +163,7 @@ window.CALENDAR_DATA = [
     titles: { en: "Umbra Titan Guide", de: "Umbra Titan Leitfaden", es: "Guía del Titán Umbra", fr: "Guide du Titan Umbra", pt: "Guia do Titã Umbra", ja: "アンブラ・タイタン ガイド" },
     links: { en: "../../hero-wars-alliance/titans-guide/umbra-en.html", de: "../../hero-wars-alliance/titans-guide/umbra-de.html", es: "../../hero-wars-alliance/titans-guide/umbra-es.html", fr: "../../hero-wars-alliance/titans-guide/umbra-fr.html", pt: "../../hero-wars-alliance/titans-guide/umbra-pt.html", ja: "../../hero-wars-alliance/titans-guide/umbra-ja.html" },
     extra: [
-       
-      {// Dentro de extra[] de um evento:
- titles: { en: "Umbra - Event", pt: "Umbra - Evento", de: "Umbra - Ereignis", es: "Umbra - Evento", fr: "Umbra - Événement", ja: "アンブラ - イベント" },
-  labelOnly: true
-},  
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
+            
       {
         titles: { en: "Thu - Guild VS", pt: "Qui - Guild VS", de: "Do - Guild VS", es: "Jue - Guild VS", fr: "Jeu - Guild VS", ja: "木 - ギルドVS" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
@@ -220,6 +172,10 @@ window.CALENDAR_DATA = [
  titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
   labelOnly: true
 }, 
+{// Dentro de extra[] de um evento:
+ titles: { en: "Umbra - Event", pt: "Umbra - Evento", de: "Umbra - Ereignis", es: "Umbra - Evento", fr: "Umbra - Événement", ja: "アンブラ - イベント" },
+  labelOnly: true
+},  
 {// Dentro de extra[] de um evento:
  titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
   labelOnly: true
@@ -240,22 +196,20 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-alliance/titans-guide/umbra-en.html", de: "../../hero-wars-alliance/titans-guide/umbra-de.html", es: "../../hero-wars-alliance/titans-guide/umbra-es.html", fr: "../../hero-wars-alliance/titans-guide/umbra-fr.html", pt: "../../hero-wars-alliance/titans-guide/umbra-pt.html", ja: "../../hero-wars-alliance/titans-guide/umbra-ja.html" },
      extra: [
        
-      {// Dentro de extra[] de um evento:
- titles: { en: "Umbra - Event", pt: "Umbra - Evento", de: "Umbra - Ereignis", es: "Umbra - Evento", fr: "Umbra - Événement", ja: "アンブラ - イベント" },
-  labelOnly: true
-},  
+      
       {
         titles: { en: "Fri - Guild VS", pt: "Sex - Guild VS", de: "Fr - Guild VS", es: "Vie - Guild VS", fr: "Ven - Guild VS", ja: "金 - ギルドVS" },
         links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" }
       }, 
       {// Dentro de extra[] de um evento:
+ titles: { en: "Umbra - Event", pt: "Umbra - Evento", de: "Umbra - Ereignis", es: "Umbra - Evento", fr: "Umbra - Événement", ja: "アンブラ - イベント" },
+  labelOnly: true
+},  
+      {// Dentro de extra[] de um evento:
  titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
   labelOnly: true
 }, 
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
+
       {// Dentro de extra[] de um evento:
  titles: { en: "Holiday Every Day", pt: "Feriado Todos os Dias", de: "Jeden Tag Feiertag", es: "Fiesta Todos los Días", fr: "Fête Tous les Jours", ja: "毎日が祝日" },
   labelOnly: true
@@ -270,14 +224,15 @@ window.CALENDAR_DATA = [
     titles: { en: "Umbra Titan Guide", de: "Umbra Titan Leitfaden", es: "Guía del Titán Umbra", fr: "Guide du Titan Umbra", pt: "Guia do Titã Umbra", ja: "アンブラ・タイタン ガイド" },
     links: { en: "../../hero-wars-alliance/titans-guide/umbra-en.html", de: "../../hero-wars-alliance/titans-guide/umbra-de.html", es: "../../hero-wars-alliance/titans-guide/umbra-es.html", fr: "../../hero-wars-alliance/titans-guide/umbra-fr.html", pt: "../../hero-wars-alliance/titans-guide/umbra-pt.html", ja: "../../hero-wars-alliance/titans-guide/umbra-ja.html" },
      extra: [       
-      {
- titles: { en: "Umbra - Event", pt: "Umbra - Evento", de: "Umbra - Ereignis", es: "Umbra - Evento", fr: "Umbra - Événement", ja: "アンブラ - イベント" },
-  labelOnly: true
-},  
+      
       {
         titles: { en: "Sat - Guild VS", pt: "Sáb - Guild VS", de: "Sa - Guild VS", es: "Sáb - Guild VS", fr: "Sam - Guild VS", ja: "土 - ギルドVS" },
         links: { en: "#section6", pt: "#section6", de: "#section6", es: "#section6", fr: "#section6", ja: "#section6" }
-      },  
+      }, 
+      {
+ titles: { en: "Umbra - Event", pt: "Umbra - Evento", de: "Umbra - Ereignis", es: "Umbra - Evento", fr: "Umbra - Événement", ja: "アンブラ - イベント" },
+  labelOnly: true
+},   
     ]
   },
 
