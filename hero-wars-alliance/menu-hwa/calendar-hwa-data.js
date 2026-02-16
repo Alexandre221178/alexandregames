@@ -57,18 +57,11 @@ window.CALENDAR_DATA = [
   labelOnly: true
 },
 
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
+ 
       {// Dentro de extra[] de um evento:
  titles: { en: "Oya - Tribal Skin", pt: "Oya - Visual Tribal", de: "Oya - Stammes-Skin", es: "Oya - Aspecto Tribal", fr: "Oya - Skin Tribal", ja: "オヤ - トライバルスキン" },
   labelOnly: true
 },  
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
 
 {// Dentro de extra[] de um evento:
  titles: { en: "Brustar and Rigel - Biomech Skin", pt: "Brustar e Rigel - Visual Biomecânico", de: "Brustar und Rigel - Biomech-Skin", es: "Brustar y Rigel - Aspecto Biomecánico", fr: "Brustar et Rigel - Skin Biomech", ja: "ブルスタとリゲル - バイオメカスキン" },
@@ -99,18 +92,12 @@ window.CALENDAR_DATA = [
   labelOnly: true
 },
 
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
+
       {// Dentro de extra[] de um evento:
  titles: { en: "Oya - Tribal Skin", pt: "Oya - Visual Tribal", de: "Oya - Stammes-Skin", es: "Oya - Aspecto Tribal", fr: "Oya - Skin Tribal", ja: "オヤ - トライバルスキン" },
   labelOnly: true
 },  
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
+
 {// Dentro de extra[] de um evento:
  titles: { en: "Brustar and Rigel - Biomech Skin", pt: "Brustar e Rigel - Visual Biomecânico", de: "Brustar und Rigel - Biomech-Skin", es: "Brustar y Rigel - Aspecto Biomecánico", fr: "Brustar et Rigel - Skin Biomech", ja: "ブルスタとリゲル - バイオメカスキン" },
   labelOnly: true
@@ -137,18 +124,12 @@ window.CALENDAR_DATA = [
  titles: { en: "Holiday Every Day", pt: "Feriado Todos os Dias", de: "Jeden Tag Feiertag", es: "Fiesta Todos los Días", fr: "Fête Tous les Jours", ja: "毎日が祝日" },
   labelOnly: true
 },
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
+
       {// Dentro de extra[] de um evento:
  titles: { en: "Oya - Tribal Skin", pt: "Oya - Visual Tribal", de: "Oya - Stammes-Skin", es: "Oya - Aspecto Tribal", fr: "Oya - Skin Tribal", ja: "オヤ - トライバルスキン" },
   labelOnly: true
 },  
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
+
 {// Dentro de extra[] de um evento:
  titles: { en: "Brustar and Rigel - Biomech Skin", pt: "Brustar e Rigel - Visual Biomecânico", de: "Brustar und Rigel - Biomech-Skin", es: "Brustar y Rigel - Aspecto Biomecánico", fr: "Brustar et Rigel - Skin Biomech", ja: "ブルスタとリゲル - バイオメカスキン" },
   labelOnly: true
@@ -168,18 +149,11 @@ window.CALENDAR_DATA = [
         titles: { en: "Thu - Guild VS", pt: "Qui - Guild VS", de: "Do - Guild VS", es: "Jue - Guild VS", fr: "Jeu - Guild VS", ja: "木 - ギルドVS" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },  
-      {// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
+     
 {// Dentro de extra[] de um evento:
  titles: { en: "Umbra - Event", pt: "Umbra - Evento", de: "Umbra - Ereignis", es: "Umbra - Evento", fr: "Umbra - Événement", ja: "アンブラ - イベント" },
   labelOnly: true
 },  
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
 
       {// Dentro de extra[] de um evento:
  titles: { en: "Holiday Every Day", pt: "Feriado Todos os Dias", de: "Jeden Tag Feiertag", es: "Fiesta Todos los Días", fr: "Fête Tous les Jours", ja: "毎日が祝日" },
@@ -205,10 +179,7 @@ window.CALENDAR_DATA = [
  titles: { en: "Umbra - Event", pt: "Umbra - Evento", de: "Umbra - Ereignis", es: "Umbra - Evento", fr: "Umbra - Événement", ja: "アンブラ - イベント" },
   labelOnly: true
 },  
-      {// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
+     
 
       {// Dentro de extra[] de um evento:
  titles: { en: "Holiday Every Day", pt: "Feriado Todos os Dias", de: "Jeden Tag Feiertag", es: "Fiesta Todos los Días", fr: "Fête Tous les Jours", ja: "毎日が祝日" },
@@ -438,10 +409,7 @@ window.CALENDAR_DATA = [
        links: { en: "../characters-guide/alvanor-en.html", de: "../characters-guide/alvanor-de.html", es: "../characters-guide/alvanor-es.html", fr: "../characters-guide/alvanor-fr.html", pt: "../characters-guide/alvanor-pt.html", ja: "../characters-guide/alvanor-ja.html" },       
        noStrip: true
       },
-      {// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-},    
+     
        {
  titles: { en: "Alvanor Skin+", pt: "Alvanor - Skin+", de: "Alvanor - Skin+", es: "Alvanor - Skin+", fr: "Alvanor - Skin+", ja: "アルヴァノール - スキン+" },
   labelOnly: true
@@ -496,18 +464,12 @@ window.CALENDAR_DATA = [
  titles: { en: "Alvanor Tribal Skin+ ", pt: "Alvanor Tribal - Skin+", de: "Alvanor Tribal - Skin+", es: "Alvanor Tribal - Skin+", fr: "Alvanor - Skin+", ja: "アルヴァノール（トライバルスキン＋）" },
   labelOnly: true
 },   
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
+
 {
  titles: { en: "Byrna Tribal Skin", pt: "Byrna Tribal - Skin+", de: "Byrna Tribal - Skin+", es: "Byrna Tribal - Skin+", fr: "Byrna - Skin+", ja: "バーンラ（トライバルスキン＋）" },
   labelOnly: true
 },
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-},     
+    
 {
  titles: { en: "Mushy & Shroom Tribal Skin", pt: "Mushy & Shroom Tribal Skin", de: "Mushy & Shroom Tribal Skin", es: "Mushy & Shroom Tribal Skin", fr: "Mushy & Shroom Tribal Skin", ja: "マッシー＆シュルーム トライバル スキン" },
   labelOnly: true
@@ -527,18 +489,12 @@ window.CALENDAR_DATA = [
  titles: { en: "Alvanor Tribal Skin+ ", pt: "Alvanor Tribal - Skin+", de: "Alvanor Tribal - Skin+", es: "Alvanor Tribal - Skin+", fr: "Alvanor - Skin+", ja: "アルヴァノール（トライバルスキン＋）" },
   labelOnly: true
 }, 
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-},   
+  
 {
  titles: { en: "Byrna Tribal Skin", pt: "Byrna Tribal - Skin+", de: "Byrna Tribal - Skin+", es: "Byrna Tribal - Skin+", fr: "Byrna - Skin+", ja: "バーンラ（トライバルスキン＋）" },
   labelOnly: true
 },   
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
+
 {
  titles: { en: "Mushy & Shroom Tribal Skin", pt: "Mushy & Shroom Tribal Skin", de: "Mushy & Shroom Tribal Skin", es: "Mushy & Shroom Tribal Skin", fr: "Mushy & Shroom Tribal Skin", ja: "マッシー＆シュルーム トライバル スキン" },
   labelOnly: true
@@ -568,18 +524,12 @@ window.CALENDAR_DATA = [
  titles: { en: "Alvanor Tribal Skin+ ", pt: "Alvanor Tribal - Skin+", de: "Alvanor Tribal - Skin+", es: "Alvanor Tribal - Skin+", fr: "Alvanor - Skin+", ja: "アルヴァノール（トライバルスキン＋）" },
   labelOnly: true
 },
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-},     
+    
 {
  titles: { en: "Byrna Tribal Skin", pt: "Byrna Tribal - Skin+", de: "Byrna Tribal - Skin+", es: "Byrna Tribal - Skin+", fr: "Byrna - Skin+", ja: "バーンラ（トライバルスキン＋）" },
   labelOnly: true
 },   
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-},  
+  
 {
  titles: { en: "Mushy & Shroom Tribal Skin", pt: "Mushy & Shroom Tribal Skin", de: "Mushy & Shroom Tribal Skin", es: "Mushy & Shroom Tribal Skin", fr: "Mushy & Shroom Tribal Skin", ja: "マッシー＆シュルーム トライバル スキン" },
   labelOnly: true

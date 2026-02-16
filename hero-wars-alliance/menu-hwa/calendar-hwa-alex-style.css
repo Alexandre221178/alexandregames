@@ -178,6 +178,22 @@ div.calendar .event-label:hover {
   div.calendar .event a {
     top: 7px !important;
   }
+
+  div.calendar .event-label,
+div.calendar .event .event-label {
+  color: white !important;
+  text-decoration: none !important;
+  cursor: default !important;
+  display: block !important;
+  line-height: 14px !important;
+  margin-bottom: 13px !important;
+  position: relative !important;
+  font-weight: bold !important;
+  top: 25px !important;
+  left: 2px !important;
+  z-index: 10 !important;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000 !important;
+}
   
   /* Label (labelOnly) em mobile: reduz espaçamento */
   div.calendar .event-label {
