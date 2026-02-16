@@ -23,6 +23,14 @@
     "pt": "Hero Wars (Mobile)",
     "ja": "ヒーローウォーズ(モバイル)"
   },
+  "Hero Wars": {
+    "en": "Hero Wars",
+    "de": "Hero Wars",
+    "es": "Hero Wars",
+    "fr": "Hero Wars",
+    "pt": "Hero Wars",
+    "ja": "ヒーローウォーズ"
+  },
   "Guide": {
     "en": "Guide",
     "de": "Leitfaden",
@@ -175,6 +183,23 @@
     "pt": "Habilidades",
     "ja": "スキル"
   },
+  "Skills": {
+    "en": "Skills",
+    "de": "Fertigkeiten",
+    "es": "Habilidades",
+    "fr": "Compétences",
+    "pt": "Habilidades",
+    "ja": "スキル"
+  },
+  "Skill": {
+  "en": "Skill",
+  "de": "Fertigkeit",
+  "es": "Habilidad",
+  "fr": "Compétence",
+  "pt": "Habilidade",
+  "ja": "スキル"
+},
+
   "Physical Attack": {
     "en": "Physical Attack",
     "de": "Physikalischer Angriff",

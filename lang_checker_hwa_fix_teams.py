@@ -104,6 +104,7 @@ def check_html_title(filepath, hero, lang, fix_teams=False, fixes=None):
         game_trans1 = get_translation(terms_data, "Hero Wars Alliance", lang)
         game_trans2 = get_translation(terms_data, "Hero Wars (Mobile)", lang)
         game_trans3 = get_translation(terms_data, "Hero Wars: Alliance", lang)
+        game_trans4 = get_translation(terms_data, "Hero Wars", lang)
         
         # Verificar <title>
         title_match = re.search(r'<title>(.*?)</title>', content, re.IGNORECASE | re.DOTALL)
@@ -111,8 +112,8 @@ def check_html_title(filepath, hero, lang, fix_teams=False, fixes=None):
             title = title_match.group(1)
             if hero_trans and hero_trans not in title:
                 issues.append(f"{filepath}: <title> não contém nome do herói '{hero_trans}' em {lang}")
-            if game_trans1 and game_trans1 not in title and game_trans2 and game_trans2 not in title and game_trans3 and game_trans3 not in title:
-                issues.append(f"{filepath}: <title> não contém nome do jogo '{game_trans1}', '{game_trans2}' ou '{game_trans3}' em {lang}")
+            if game_trans1 and game_trans1 not in title and game_trans2 and game_trans2 not in title and game_trans3 and game_trans3 not in title and game_trans4 and game_trans4 not in title:
+                issues.append(f"{filepath}: <title> não contém nome do jogo '{game_trans1}', '{game_trans2}', '{game_trans3}' ou '{game_trans4}' em {lang}")
         
         # Verificar <meta name="description">
         # Removido: não verificar nome do jogo aqui
@@ -123,8 +124,8 @@ def check_html_title(filepath, hero, lang, fix_teams=False, fixes=None):
             h1 = h1_match.group(1)
             if hero_trans and hero_trans not in h1:
                 issues.append(f"{filepath}: <h1> não contém nome do herói '{hero_trans}' em {lang}")
-            if game_trans1 and game_trans1 not in h1 and game_trans2 and game_trans2 not in h1 and game_trans3 and game_trans3 not in h1:
-                issues.append(f"{filepath}: <h1> não contém nome do jogo '{game_trans1}', '{game_trans2}' ou '{game_trans3}' em {lang}")
+            if game_trans1 and game_trans1 not in h1 and game_trans2 and game_trans2 not in h1 and game_trans3 and game_trans3 not in h1 and game_trans4 and game_trans4 not in h1:
+                issues.append(f"{filepath}: <h1> não contém nome do jogo '{game_trans1}', '{game_trans2}', '{game_trans3}' ou '{game_trans4}' em {lang}")
         
         # Verificar <h2> (removido: não verificar nome do jogo aqui)
         # Para h2, só verificar se contiver o nome do jogo e estiver errado, mas se não tiver, ignorar
@@ -132,8 +133,8 @@ def check_html_title(filepath, hero, lang, fix_teams=False, fixes=None):
         for h2 in h2_matches:
             # Se contiver "Hero Wars", verificar se tem a tradução correta
             if 'hero wars' in h2.lower():
-                if game_trans1 and game_trans1 not in h2 and game_trans2 and game_trans2 not in h2 and game_trans3 and game_trans3 not in h2:
-                    issues.append(f"{filepath}: <h2> '{h2[:50]}...' menciona 'Hero Wars' mas não contém a tradução correta '{game_trans1}', '{game_trans2}' ou '{game_trans3}' em {lang}")
+                if game_trans1 and game_trans1 not in h2 and game_trans2 and game_trans2 not in h2 and game_trans3 and game_trans3 not in h2 and game_trans4 and game_trans4 not in h2:
+                    issues.append(f"{filepath}: <h2> '{h2[:50]}...' menciona 'Hero Wars' mas não contém a tradução correta '{game_trans1}', '{game_trans2}', '{game_trans3}' ou '{game_trans4}' em {lang}")
                     break  # Apenas o primeiro erro
         
         # Verificar <figcaption>
@@ -141,8 +142,8 @@ def check_html_title(filepath, hero, lang, fix_teams=False, fixes=None):
         for figcaption in figcaption_matches:
             # Se contiver "Hero Wars", verificar se tem a tradução correta
             if 'hero wars' in figcaption.lower():
-                if game_trans1 and game_trans1 not in figcaption and game_trans2 and game_trans2 not in figcaption and game_trans3 and game_trans3 not in figcaption:
-                    issues.append(f"{filepath}: <figcaption> '{figcaption[:50]}...' menciona 'Hero Wars' mas não contém a tradução correta '{game_trans1}', '{game_trans2}' ou '{game_trans3}' em {lang}")
+                if game_trans1 and game_trans1 not in figcaption and game_trans2 and game_trans2 not in figcaption and game_trans3 and game_trans3 not in figcaption and game_trans4 and game_trans4 not in figcaption:
+                    issues.append(f"{filepath}: <figcaption> '{figcaption[:50]}...' menciona 'Hero Wars' mas não contém a tradução correta '{game_trans1}', '{game_trans2}', '{game_trans3}' ou '{game_trans4}' em {lang}")
                     break  # Apenas o primeiro erro
         
         # Verificar nomes de heróis e titãs no conteúdo para erros de digitação
@@ -150,7 +151,8 @@ def check_html_title(filepath, hero, lang, fix_teams=False, fixes=None):
         # Palavras comuns que podem ser confundidas com nomes de heróis/titãs
         excluded_words = {
             'fr': ['temps'],  # "Temps" significa "tempo" em francês
-            'de': ['cleave'],  # "Cleave" é uma palavra comum em alemão?
+            'de': ['cleave', 'fertigkeits'],  # "Fertigkeits" é variação comum de "Fertigkeit"
+            'es': ['umbral'],  # "Umbral" é palavra comum em espanhol, não erro de "Umbra"
             # Adicionar mais conforme necessário
         }
         words = re.findall(r'\b[A-Z][a-z]+\b', content)  # palavras capitalizadas
