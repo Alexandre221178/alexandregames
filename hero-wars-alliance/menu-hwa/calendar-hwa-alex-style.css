@@ -172,11 +172,11 @@ div.calendar .event-label:hover {
   
   div.calendar > .event-container,
   div.calendar #calendar-container > .event-container {
-    height: 180px !important;
+    height: 203px !important;/* altura Mobile do container */
   }
   
   div.calendar .event a {
-    top: 7px !important;
+    top: 1px !important;
   }
 
   div.calendar .event-label,
@@ -189,7 +189,7 @@ div.calendar .event .event-label {
   margin-bottom: 13px !important;
   position: relative !important;
   font-weight: bold !important;
-  top: 25px !important;
+  top: 15px !important;
   left: 2px !important;
   z-index: 10 !important;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000 !important;
