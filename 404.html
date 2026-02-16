@@ -1,46 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P90XK71HW9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P90XK71HW9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-P90XK71HW9');
+    </script>
 
-  gtag('config', 'G-P90XK71HW9');
-</script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Oops! The page you're looking for doesn't exist. Explore our gaming guides for Hero Wars Alliance, Mobile Legends, Roblox, and more on Alexandre Games.">
     <link rel="icon" type="image/png" sizes="32x32" href="https://www.alexandregames.com/imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://www.alexandregames.com/imagens/favicon-16x16.png">
-
-
-    <link rel="stylesheet" href="https://www.alexandregames.com/Documentos/404.css">
+    
     <title>Erro 404 Alexandre Games</title>
+
+    <style>
+        /* Importando estilo base da sua página 404 */
+        body {
+            background-color: #111;
+            background-image: url('https://www.alexandregames.com/Documentos/img/bg-pattern.png'); /* Se houver o padrão de fundo */
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        .notFound {
+            padding: 20px;
+        }
+
+        .img img {
+            max-width: 250px;
+            margin-bottom: 10px;
+        }
+
+        .text h1 {
+            font-size: 80px;
+            margin: 0;
+            color: #ff0000;
+            text-shadow: 3px 3px #000;
+            animation: blinker 1.5s linear infinite;
+        }
+
+        @keyframes blinker {
+            50% { opacity: 0; }
+        }
+
+        .text h2 { font-size: 24px; margin: 10px 0; }
+        .text h3 { font-size: 18px; color: #ccc; margin-bottom: 30px; }
+
+        .options { margin-bottom: 20px; }
+
+        .yes, .no {
+            display: inline-block;
+            padding: 10px 30px;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+            border: 2px solid #fff;
+            transition: 0.3s;
+        }
+
+        .yes { color: #fff; border-color: #fff; }
+        .no { color: #ff0000; border-color: #ff0000; }
+
+        .yes:hover { background: #fff; color: #000; box-shadow: 0 0 20px #fff; transform: scale(1.1); }
+        .no:hover { background: #ff0000; color: #fff; box-shadow: 0 0 20px #ff0000; transform: scale(1.1); }
+
+        /* Estilo das Sugestões */
+        .suggestions {
+            border-top: 1px dashed #444;
+            padding-top: 10px;
+        }
+
+        .suggestions p { font-size: 14px; letter-spacing: 2px; margin-bottom: 15px; }
+
+        .guide-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .guide-links a {
+            color: #00ff00;
+            text-decoration: none;
+            font-size: 14px;
+            border: 1px solid #00ff00;
+            padding: 8px 15px;
+            transition: 0.3s;
+        }
+
+        .guide-links a:hover {
+            background-color: #00ff00;
+            color: #000;
+            box-shadow: 0 0 15px #00ff00;
+        }
+    </style>
 </head>
 <body>
-    <body>
-        <!--Créditos no link cite abaixo-->
-        
-        
-        <section class="notFound">
-            <div class="img">
-      <!--      <img src="https://assets.codepen.io/5647096/backToTheHomepage.png" alt="Back to the Homepage" cite=https://codepen.io/honeybadger2788/pen/oNzKzvy/> -->
+    <section class="notFound">
+        <div class="img">
             <img src="https://alexandregames.com/imagens/alexandregames318x318.png" alt="Alexandre Games"/>
-            </div>
-            <div class="text">
+        </div>
+        <div class="text">
             <h1>404</h1>
             <h2>PAGE NOT FOUND</h2>
-            <h3>BACK TO ALEXANDRE GAMES</h3>
+            <h3>BACK TO ALEXANDRE GAMES?</h3>
             
-            
-            <a href="https://www.alexandregames.com/index.html" class="yes">YES</a>
-            <a href="https://www.google.com">NO</a>
+            <div class="options">
+                <a href="https://www.alexandregames.com/index.html" class="yes">YES</a>
+                <a href="https://www.google.com" class="no">NO</a>
             </div>
-        </section>
-    </body>
+
+            <div class="suggestions">
+                <p>TRY OUR LATEST GUIDES:</p>
+                <div class="guide-links">
+                    <a href="https://www.alexandregames.com/hero-wars-alliance/home/hwa-index-en.html">Hero Wars Alliance</a>
+                    <a href="https://www.alexandregames.com/hero-wars-dominion-era/home/hwde-en.html">Hero Wars Dominion Era</a>
+                    <a href="https://www.alexandregames.com/MobileLegends-English.html">Mobile Legends</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"488fcdfc50bf49ba9d01f7af62d57f86","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>
