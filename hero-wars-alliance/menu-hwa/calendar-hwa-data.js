@@ -468,10 +468,7 @@ window.CALENDAR_DATA = [
     titles: { en: "Skin+ Event", de: "Skin+ Event", es: "Evento Skin+", fr: "Événement Skin+", pt: "Evento Skin+", ja: "スキン+ イベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "" },
     extra: [
-      {
- titles: { en: "Alvanor Tribal Skin+ ", pt: "Alvanor Tribal - Skin+", de: "Alvanor Tribal - Skin+", es: "Alvanor Tribal - Skin+", fr: "Alvanor - Skin+", ja: "アルヴァノール（トライバルスキン＋）" },
-  labelOnly: true
-},   
+        
 
 {
  titles: { en: "Byrna Tribal Skin", pt: "Byrna Tribal - Skin+", de: "Byrna Tribal - Skin+", es: "Byrna Tribal - Skin+", fr: "Byrna - Skin+", ja: "バーンラ（トライバルスキン＋）" },
@@ -493,10 +490,7 @@ window.CALENDAR_DATA = [
     titles: { en: "Skin+ Event", de: "Skin+ Event", es: "Evento Skin+", fr: "Événement Skin+", pt: "Evento Skin+", ja: "スキン+ イベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "" },
     extra: [
-      {
- titles: { en: "Alvanor Tribal Skin+ ", pt: "Alvanor Tribal - Skin+", de: "Alvanor Tribal - Skin+", es: "Alvanor Tribal - Skin+", fr: "Alvanor - Skin+", ja: "アルヴァノール（トライバルスキン＋）" },
-  labelOnly: true
-}, 
+      
   
 {
  titles: { en: "Byrna Tribal Skin", pt: "Byrna Tribal - Skin+", de: "Byrna Tribal - Skin+", es: "Byrna Tribal - Skin+", fr: "Byrna - Skin+", ja: "バーンラ（トライバルスキン＋）" },
@@ -528,10 +522,7 @@ window.CALENDAR_DATA = [
        links: { en: "../characters-guide/oya-en.html", de: "", es: "", fr: "", pt: "../characters-guide/oya-pt.html", ja: "" },       
        noStrip: true
       }, 
-      {
- titles: { en: "Alvanor Tribal Skin+ ", pt: "Alvanor Tribal - Skin+", de: "Alvanor Tribal - Skin+", es: "Alvanor Tribal - Skin+", fr: "Alvanor - Skin+", ja: "アルヴァノール（トライバルスキン＋）" },
-  labelOnly: true
-},
+      
     
 {
  titles: { en: "Byrna Tribal Skin", pt: "Byrna Tribal - Skin+", de: "Byrna Tribal - Skin+", es: "Byrna Tribal - Skin+", fr: "Byrna - Skin+", ja: "バーンラ（トライバルスキン＋）" },
