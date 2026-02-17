@@ -1422,6 +1422,8 @@ border: 4px solid #5654b3 !important;
 .carousel-slide i {
     display: block;
     text-align: center;
+    font-variant-ligatures: none;
+    font-feature-settings: 'liga' 0, 'clig' 0;
 }
 
 /* Ensure link is a block-level container so text aligns relative to image */
@@ -1439,6 +1441,8 @@ border: 4px solid #5654b3 !important;
     margin: 8px 0 4px;
     text-align: center;
     display: block;
+    font-variant-ligatures: none;
+    font-feature-settings: 'liga' 0, 'clig' 0;
 }
 .carousel-slide a i {
     font-size: 13px;

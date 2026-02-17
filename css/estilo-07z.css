@@ -1373,6 +1373,8 @@ img-middle figcaption {
 .carousel-slide i {
   display: block;
   text-align: center;
+    font-variant-ligatures: none;
+    font-feature-settings: 'liga' 0, 'clig' 0;
 }
 .carousel-slide a {
   font-size: 14px;
@@ -1380,6 +1382,10 @@ img-middle figcaption {
   text-align: center;     /* centraliza o conteúdo dentro do link */
   text-decoration: none;
   color: inherit;
+}
+.carousel-slide a strong {
+    font-variant-ligatures: none;
+    font-feature-settings: 'liga' 0, 'clig' 0;
 }
 /* MOBILE: 1 imagem por vez */
 @media (max-width: 768px) {
