@@ -1,3 +1,4 @@
+
 {
   "name": "alexandregames",
   "version": "1.0.0",
@@ -12,7 +13,9 @@
     "update-dante-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide dante",
     "update-drayne-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide drayne",
     "update-yasmine-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide yasmine",
+    "update-umbra-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide umbra",
     "update-hwa-index-hwa": "node hero-wars-alliance/update-data-menu-hwa.js home hwa-index",
+    
     "update-mysterious-island-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js mysterious-island",
     "update-aidan-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js aidan",
     "update-augustus-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js augustus",
