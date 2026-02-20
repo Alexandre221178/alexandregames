@@ -709,16 +709,17 @@ window.CALENDAR_DATA = [
   {
     weekday: "Sunday",
     date: "Feb, 22",
-    image: "",
-    alt: "",
-  noStrip: true,
-  extra: [
-    
-    {
-        titles: { },
-        labelOnly: true
-      },
+    image: "../../img-HWM/ignis-img/ignis300px.webp",
+    alt: "Ignis' Brawls",
+    titles: { en: "Ignis' Brawls", pt: "Ignis' Brawls(Briga de Titãs)", de: "Ignis' Brawls(Titanenkämpfe)", es: "Ignis' Brawls(Peleas de Titanes)", fr: "Ignis' Brawls(Combats de Titans)", ja: "イグニスの乱闘（タイタンズ乱闘" },
+    links: { en: "../../hero-wars-dominion-era/titans-brawls/ignis-brawls-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+    noStrip: true,
+    extra: [
       {
+        titles: { en: "Guardians of Balance", pt: "Guardiões do Equilíbrio", de: "Wächter des Gleichgewichts", es: "Guardianes del Equilibrio", fr: "Gardiens de l’Équilibre", ja: "均衡の守護者" },        links: { en: "../../hero-wars-dominion-era/events/titan-brawl-en.html", pt: "../../hero-wars-dominion-era/events/titan-brawl-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },  
+   {
         titles: { en: "Tidus Event Missions", pt: "Missões do Evento Tidus", de: "Tidus Event-Missionen", es: "Misiones del Evento Tidus", fr: "Missions de l'Événement Tidus", ja: "ティーダイベントミッション" },
         links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
@@ -728,19 +729,22 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-pt.html", de: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-de.html", es: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-es.html", fr: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-fr.html", ja: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-ja.html" },
         noStrip: true
       },
-    {
-        titles: { en: "Ignis' Brawls", pt: "Ignis' Brawls(Briga de Titãs)", de: "Ignis' Brawls(Titanenkämpfe)", es: "Ignis' Brawls(Peleas de Titanes)", fr: "Ignis' Brawls(Combats de Titans)", ja: "イグニスの乱闘（タイタンズ乱闘" },
-        labelOnly: true
-      },
+    
   ]
   },
   {
     weekday: "Monday",
     date: "Feb, 23",
-    image: "",
-    alt: "",
-  noStrip: true,
-  extra: [
+   image: "../../img-HWM/ignis-img/ignis300px.webp",
+    alt: "Ignis' Brawls",
+    titles: { en: "Ignis' Brawls", pt: "Ignis' Brawls(Briga de Titãs)", de: "Ignis' Brawls(Titanenkämpfe)", es: "Ignis' Brawls(Peleas de Titanes)", fr: "Ignis' Brawls(Combats de Titans)", ja: "イグニスの乱闘（タイタンズ乱闘" },
+    links: { en: "../../hero-wars-dominion-era/titans-brawls/ignis-brawls-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+    noStrip: true,
+    extra: [
+      {
+        titles: { en: "Guardians of Balance", pt: "Guardiões do Equilíbrio", de: "Wächter des Gleichgewichts", es: "Guardianes del Equilibrio", fr: "Gardiens de l’Équilibre", ja: "均衡の守護者" },        links: { en: "../../hero-wars-dominion-era/events/titan-brawl-en.html", pt: "../../hero-wars-dominion-era/events/titan-brawl-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },  
     {
         titles: { en: "Tidus Event Missions", pt: "Missões do Evento Tidus", de: "Tidus Event-Missionen", es: "Misiones del Evento Tidus", fr: "Missions de l'Événement Tidus", ja: "ティーダイベントミッション" },
         links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -760,9 +764,7 @@ window.CALENDAR_DATA = [
         titles: { en: "Secret Wealth", pt: "Riqueza Secreta", de: "Geheimer Reichtum", es: "Riqueza Secreta", fr: "Richesse Secrète", ja: "秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
       },
-       {
-        titles: { en: "Ignis' Brawls", pt: "Ignis' Brawls(Briga de Titãs)", de: "Ignis' Brawls(Titanenkämpfe)", es: "Ignis' Brawls(Peleas de Titanes)", fr: "Ignis' Brawls(Combats de Titans)", ja: "イグニスの乱闘（タイタンズ乱闘" },        labelOnly: true
-      },
+       
   ]
   },
   
@@ -776,20 +778,15 @@ window.CALENDAR_DATA = [
     noStrip: true,
     extra: [
       {
+        titles: { en: "Guardians of Balance", pt: "Guardiões do Equilíbrio", de: "Wächter des Gleichgewichts", es: "Guardianes del Equilibrio", fr: "Gardiens de l’Équilibre", ja: "均衡の守護者" },        links: { en: "../../hero-wars-dominion-era/events/titan-brawl-en.html", pt: "../../hero-wars-dominion-era/events/titan-brawl-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },  
+      {
         titles: { en: "Tidus Event Missions", pt: "Missões do Evento Tidus", de: "Tidus Event-Missionen", es: "Misiones del Evento Tidus", fr: "Missions de l'Événement Tidus", ja: "ティーダイベントミッション" },
         links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
-      {
-        titles: { en: "Tidus Event Guide F2P to 6★", pt: "Guia do Evento Tidus F2P a 6★", de: "Tidus Event-Leitfaden F2P bis 6★", es: "Guía del Evento Tidus F2P a 6★", fr: "Guide de l'Événement Tidus F2P à 6★", ja: "ティーダイベントガイド F2Pから6★" },
-        links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-pt.html", de: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-de.html", es: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-es.html", fr: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-fr.html", ja: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-ja.html" },
-        noStrip: true
-      },
       
-      {
-        titles: { en: "Emerald Waterfalls", pt: "Cachoeiras de Esmeralda", de: "Smaragdwasserfälle", es: "Cascadas de Esmeraldas", fr: "Cascades d'Émeraudes", ja: "エメラルドの滝" },
-        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
-      },
       {
         titles: { en: "Secret Wealth", pt: "Riqueza Secreta", de: "Geheimer Reichtum", es: "Riqueza Secreta", fr: "Richesse Secrète", ja: "秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
