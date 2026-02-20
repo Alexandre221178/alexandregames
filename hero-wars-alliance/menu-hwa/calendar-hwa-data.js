@@ -334,6 +334,17 @@ window.CALENDAR_DATA = [
        links: { en: "../characters-guide/alvanor-en.html", de: "../characters-guide/alvanor-de.html", es: "../characters-guide/alvanor-es.html", fr: "../characters-guide/alvanor-fr.html", pt: "../characters-guide/alvanor-pt.html", ja: "../characters-guide/alvanor-ja.html" },       
        noStrip: true
       },   
+      {// Dentro de extra[] de um evento:
+ titles: {
+  en: "Byrna's second talisman (Armor + Magic Reflect)",
+  pt: "Segundo talismã da Byrna (Armadura + Reflexão Mágica)",
+  de: "Byrnas zweites Talisman (Rüstung + Magiereflexion)",
+  es: "Segundo talismán de Byrna (Armadura + Reflejo Mágico)",
+  fr: "Deuxième talisman de Byrna (Armure + Réflexion magique)",
+  ja: "ビルナの第2タリスマン（防御力 + 魔法反射）"
+ },
+ labelOnly: true
+},
     ]
   },
   {
@@ -356,7 +367,18 @@ window.CALENDAR_DATA = [
        titles: { en: "Alvanor Guide", de: "Alvanor Leitfaden", es: "Alvanor - Guía", fr: "Alvanor - Guide", pt: "Guia - Alvanor", ja: "アルヴァノール - ガイド" },
        links: { en: "../characters-guide/alvanor-en.html", de: "../characters-guide/alvanor-de.html", es: "../characters-guide/alvanor-es.html", fr: "../characters-guide/alvanor-fr.html", pt: "../characters-guide/alvanor-pt.html", ja: "../characters-guide/alvanor-ja.html" },       
        noStrip: true
-      },   
+      },  
+      {// Dentro de extra[] de um evento:
+ titles: {
+  en: "Byrna's second talisman (Armor + Magic Reflect)",
+  pt: "Segundo talismã da Byrna (Armadura + Reflexão Mágica)",
+  de: "Byrnas zweites Talisman (Rüstung + Magiereflexion)",
+  es: "Segundo talismán de Byrna (Armadura + Reflejo Mágico)",
+  fr: "Deuxième talisman de Byrna (Armure + Réflexion magique)",
+  ja: "ビルナの第2タリスマン（防御力 + 魔法反射）"
+ },
+ labelOnly: true
+}, 
     ]
   },
 {
@@ -380,6 +402,17 @@ window.CALENDAR_DATA = [
  titles: { en: "Alvanor Skin+", pt: "Alvanor - Skin+", de: "Alvanor - Skin+", es: "Alvanor - Skin+", fr: "Alvanor - Skin+", ja: "アルヴァノール - スキン+" },
   labelOnly: true
 },     
+{// Dentro de extra[] de um evento:
+ titles: {
+  en: "Byrna's second talisman (Armor + Magic Reflect)",
+  pt: "Segundo talismã da Byrna (Armadura + Reflexão Mágica)",
+  de: "Byrnas zweites Talisman (Rüstung + Magiereflexion)",
+  es: "Segundo talismán de Byrna (Armadura + Reflejo Mágico)",
+  fr: "Deuxième talisman de Byrna (Armure + Réflexion magique)",
+  ja: "ビルナの第2タリスマン（防御力 + 魔法反射）"
+ },
+ labelOnly: true
+},
        
     ]
   },
