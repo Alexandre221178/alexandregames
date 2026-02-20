@@ -509,10 +509,7 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/titans/tidus-en.html", pt: "../../hero-wars-dominion-era/titans/tidus-pt.html", de: "../../hero-wars-dominion-era/titans/tidus-de.html", es: "../../hero-wars-dominion-era/titans/tidus-es.html", fr: "../../hero-wars-dominion-era/titans/tidus-fr.html", ja: "../../hero-wars-dominion-era/titans/tidus-ja.html" },
         noStrip: true
       },
-      {
-        titles: { en: "Tidus Pre-Order", pt: "Pré-venda de Tidus", de: "Tidus Vorbestellung", es: "Preventa de Tidus", fr: "Précommande de Tidus", ja: "Tidusの事前予約" },
-        labelOnly: true
-      },
+      
       {
         titles: { en: "Demon Dolls", pt: "Bonecas Demoníacas", de: "Dämonenpuppen", es: "Muñecas Demoníacas", fr: "Poupées Démoniaques", ja: "デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }

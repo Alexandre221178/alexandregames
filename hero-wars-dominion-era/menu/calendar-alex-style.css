@@ -72,7 +72,7 @@ div.calendar .event a {
   text-decoration: none !important;
   position: relative !important;
   font-weight: bold !important;
-  top: 25px !important;/* altura das letras */
+  top: 13px !important;/* altura das letras até o topo da pag. */
   left: 2px !important;
   z-index: 10 !important;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000 !important;
