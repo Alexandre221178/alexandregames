@@ -85,6 +85,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 4. Agregar derechos de autor
     const footerMessage = document.getElementById("message");
-    const messageText = document.createTextNode("©2023-2026 Alexandre Games Blog - CNPJ 60.473.728/0001-62");
-    footerMessage.appendChild(messageText);
-});
+const messageText = document.createTextNode("©2023-2026 Alexandre Games Blog - CNPJ 60.473.728/0001-62");
+footerMessage.appendChild(messageText);
+
+// Adiciona quebra de linha
+const brEs = document.createElement("br");
+footerMessage.appendChild(brEs);
+
+const nicheTextEs = document.createTextNode("Todo el contenido de Hero Wars (Alliance & Dominion Era), Mobile Legends y Roblox está protegido por derechos de autor. La reproducción o traducción no autorizada está prohibida.");
+footerMessage.appendChild(nicheTextEs);});

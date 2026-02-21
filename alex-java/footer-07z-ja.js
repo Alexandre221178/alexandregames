@@ -87,4 +87,19 @@ document.addEventListener("DOMContentLoaded", function () {
     const footerMessage = document.getElementById("message");
     const messageText = document.createTextNode("©2023-2026 Alexandre Games Blog - CNPJ 60.473.728/0001-62");
     footerMessage.appendChild(messageText);
+
+    // 詳細な著作権情報とスクレイパー対策の追加
+    const detailDiv = document.createElement("div");
+    detailDiv.style.fontSize = "0.85em";
+    detailDiv.style.marginTop = "10px";
+    detailDiv.innerHTML = `
+        <strong>Hero Wars (Alliance & Dominion Era)</strong>、 
+        <strong>Mobile Legends</strong>、および <strong>Roblox</strong> のすべてのコンテンツは著作権で保護されています。 
+        無断での複製や翻訳は禁止されています。
+        
+        <span style="display:none; visibility:hidden; font-size: 0px;">
+            元は alexandregames.com に掲載されました。コンテンツはコピー防止されています。
+        </span>
+    `;
+    footerMessage.appendChild(detailDiv);
 });

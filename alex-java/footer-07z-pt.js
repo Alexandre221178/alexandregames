@@ -89,8 +89,25 @@ document.addEventListener("DOMContentLoaded", function () {
         navigationLinksContainer.appendChild(li);
     });
 
-    // 4. Adicionar mensagem de direitos autorais
+    // 4. Adicionar mensagem de direitos autorais e proteção contra scrapers
     const footerMessage = document.getElementById("message");
+    
+    // Texto principal com CNPJ e Intervalo de Anos
     const messageText = document.createTextNode("©2023-2026 Alexandre Games Blog - CNPJ 60.473.728/0001-62");
     footerMessage.appendChild(messageText);
+
+    // Adiciona a quebra de linha e o aviso detalhado de nicho (HWA, HWDE, Roblox, MLBB)
+    const detailDiv = document.createElement("div");
+    detailDiv.style.fontSize = "0.85em";
+    detailDiv.style.marginTop = "10px";
+    detailDiv.innerHTML = `
+        Todo o conteúdo de <strong>Hero Wars (Alliance & Dominion Era)</strong>, 
+        <strong>Mobile Legends</strong> e <strong>Roblox</strong> é protegido por direitos autorais. 
+        A reprodução ou tradução não autorizada é proibida.
+        
+        <span style="display:none; visibility:hidden; font-size: 0px;">
+            Originalmente publicado em alexandregames.com. Conteúdo protegido contra cópias.
+        </span>
+    `;
+    footerMessage.appendChild(detailDiv);
 });

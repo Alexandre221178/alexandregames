@@ -85,6 +85,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 4. Add copyright
     const footerMessage = document.getElementById("message");
-    const messageText = document.createTextNode("©2023-2026 Alexandre Games Blog - CNPJ 60.473.728/0001-62");
-    footerMessage.appendChild(messageText);
-});
+const messageText = document.createTextNode("©2023-2026 Alexandre Games Blog - CNPJ 60.473.728/0001-62");
+footerMessage.appendChild(messageText);
+
+// Adiciona quebra de linha
+const brEn = document.createElement("br");
+footerMessage.appendChild(brEn);
+
+const nicheTextEn = document.createTextNode("All content of Hero Wars (Alliance & Dominion Era), Mobile Legends, and Roblox is protected by copyright. Unauthorized reproduction or translation is prohibited.");
+footerMessage.appendChild(nicheTextEn);});
