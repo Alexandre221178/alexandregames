@@ -20,13 +20,14 @@
       updated: "Updated: February, 2026."
     },
     
+    
     {
-      link: "../../hero-wars-dominion-era/characters/electra-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/electra/electra-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/electra/electra-400px.webp",
-      alt: "Electra for Hero Wars: Dominion Era",
-      title: "Electra for Hero Wars: Dominion Era.",
-      strong: "Electra - Hero Wars: Dominion Era",
+      link: "../../hero-wars-dominion-era/titans/ignis-en.html",
+      src500: "../../hero-wars-dominion-era/images/titans-hwde/ignis/ignis-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/titans-hwde/ignis/ignis-400px.webp",
+      alt: "Ignis for Hero Wars: Dominion Era",
+      title: "Ignis for Hero Wars: Dominion Era.",
+      strong: "Ignis - Hero Wars: Dominion Era",
       updated: "Updated: February, 2026."
     },
     

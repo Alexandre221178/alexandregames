@@ -726,6 +726,11 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-pt.html", de: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-de.html", es: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-es.html", fr: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-fr.html", ja: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-ja.html" },
         noStrip: true
       },
+      {
+        titles: { en: "Ignis Guide", pt: "Guia da Ignis", de: "Ignis Leitfaden", es: "Guía de Ignis", fr: "Guide d'Ignis", ja: "イグニスガイド" },
+        links: { en: "../../hero-wars-dominion-era/titans/ignis-en.html", pt: "../../hero-wars-dominion-era/titans/ignis-pt.html", de: "../../hero-wars-dominion-era/titans/ignis-de.html", es: "../../hero-wars-dominion-era/titans/ignis-es.html", fr: "../../hero-wars-dominion-era/titans/ignis-fr.html", ja: "../../hero-wars-dominion-era/titans/ignis-ja.html" },
+        noStrip: true
+      },
     
   ]
   },
@@ -750,6 +755,11 @@ window.CALENDAR_DATA = [
       {
         titles: { en: "Tidus Event Guide F2P to 6★", pt: "Guia do Evento Tidus F2P a 6★", de: "Tidus Event-Leitfaden F2P bis 6★", es: "Guía del Evento Tidus F2P a 6★", fr: "Guide de l'Événement Tidus F2P à 6★", ja: "ティーダイベントガイド F2Pから6★" },
         links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-pt.html", de: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-de.html", es: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-es.html", fr: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-fr.html", ja: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-ja.html" },
+        noStrip: true
+      },
+      {
+        titles: { en: "Ignis Guide", pt: "Guia da Ignis", de: "Ignis Leitfaden", es: "Guía de Ignis", fr: "Guide d'Ignis", ja: "イグニスガイド" },
+        links: { en: "../../hero-wars-dominion-era/titans/ignis-en.html", pt: "../../hero-wars-dominion-era/titans/ignis-pt.html", de: "../../hero-wars-dominion-era/titans/ignis-de.html", es: "../../hero-wars-dominion-era/titans/ignis-es.html", fr: "../../hero-wars-dominion-era/titans/ignis-fr.html", ja: "../../hero-wars-dominion-era/titans/ignis-ja.html" },
         noStrip: true
       },
    
@@ -781,6 +791,11 @@ window.CALENDAR_DATA = [
       {
         titles: { en: "Tidus Event Missions", pt: "Missões do Evento Tidus", de: "Tidus Event-Missionen", es: "Misiones del Evento Tidus", fr: "Missions de l'Événement Tidus", ja: "ティーダイベントミッション" },
         links: { en: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-en.html", pt: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-missions-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
+      {
+        titles: { en: "Ignis Guide", pt: "Guia da Ignis", de: "Ignis Leitfaden", es: "Guía de Ignis", fr: "Guide d'Ignis", ja: "イグニスガイド" },
+        links: { en: "../../hero-wars-dominion-era/titans/ignis-en.html", pt: "../../hero-wars-dominion-era/titans/ignis-pt.html", de: "../../hero-wars-dominion-era/titans/ignis-de.html", es: "../../hero-wars-dominion-era/titans/ignis-es.html", fr: "../../hero-wars-dominion-era/titans/ignis-fr.html", ja: "../../hero-wars-dominion-era/titans/ignis-ja.html" },
         noStrip: true
       },
       
