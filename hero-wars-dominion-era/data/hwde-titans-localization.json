@@ -25,6 +25,49 @@
       "ja": "タイタンズ"
     }
   },
+  "totems": {
+  "water spirit totem": {
+    "en": "Water Spirit Totem",
+    "de": "Wassergeisttotem",
+    "es": "Tótem del Espíritu del Agua",
+    "fr": "Totem de l'Esprit de l'Eau",
+    "pt": "Totem do Espírito da Água",
+    "ja": "水の精霊のトーテム"
+  },
+  "fire spirit totem": {
+    "en": "Fire Spirit Totem",
+    "de": "Feuergeisttotem",
+    "es": "Tótem del Espíritu del Fuego",
+    "fr": "Totem de l'Esprit du Feu",
+    "pt": "Totem do Espírito do Fogo",
+    "ja": "炎の精霊のトーテム"
+  },
+  "earth spirit totem": {
+    "en": "Earth Spirit Totem",
+    "de": "Erdgeisttotem",
+    "es": "Tótem del Espíritu de la Tierra",
+    "fr": "Totem de l'Esprit de la Terre",
+    "pt": "Totem do Espírito da Terra",
+    "ja": "大地の精霊のトーテム"
+  },
+  "dark spirit totem": {
+    "en": "Dark Spirit Totem",
+    "de": "Dunkelgeisttotem",
+    "es": "Tótem del Espíritu de la Oscuridad",
+    "fr": "Totem de l'Esprit des Ténèbres",
+    "pt": "Totem do Espírito das Trevas",
+    "ja": "闇の精霊のトーテム"
+  },
+  "light spirit totem": {
+    "en": "Light Spirit Totem",
+    "de": "Lichtgeisttotem",
+    "es": "Tótem del Espíritu de la Luz",
+    "fr": "Totem de l'Esprit de la Lumière",
+    "pt": "Totem do Espírito da Luz",
+    "ja": "光の精霊のトーテム"
+  }
+},
+
   "titans": [
     {"id":"Sigurd","gender":"Male","en":"Sigurd","de":"Sigurd","es":"Sigurd","fr":"Sigurd","pt":"Sigurd","ja":"シグルド"},
     {"id":"Nova","gender":"Female","en":"Nova","de":"Nova","es":"Nova","fr":"Nova","pt":"Nova","ja":"ノヴァ"},
