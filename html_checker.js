@@ -180,8 +180,12 @@ function checkFile(filePath) {
                     issues.push('Canonical inválido ou não absoluto');
                 } else {
                     // Verificar se o caminho do canonical corresponde ao arquivo
+                    // Codificar o caminho relativo para comparar com a URL canonical (que usa %20, %C3%B3, etc.)
                     const relativePath = path.relative(ROOT_DIR, filePath).replace(/\\/g, '/');
-                    const expectedCanonical = `https://alexandregames.com/${relativePath}`;
+                    const encodedRelativePath = relativePath.split('/').map(segment => 
+                        encodeURIComponent(segment)
+                    ).join('/');
+                    const expectedCanonical = `https://alexandregames.com/${encodedRelativePath}`;
                     if (href !== expectedCanonical) {
                         issues.push(`Canonical não corresponde ao caminho: esperado ${expectedCanonical}, encontrado ${href}`);
                     }
@@ -211,7 +215,8 @@ function checkFile(filePath) {
             if (href && (href.startsWith('../') || href.startsWith('./') || (!href.startsWith('http') && !href.startsWith('#') && !href.startsWith('mailto:')))) {
                 // Ignorar âncoras como #
                 if (href !== '#') {
-                    const fullPath = href.startsWith('/') ? path.resolve(ROOT_DIR, href.slice(1)) : path.resolve(path.dirname(filePath), href);
+                    const decodedHref = decodeURIComponent(href);
+                    const fullPath = decodedHref.startsWith('/') ? path.resolve(ROOT_DIR, decodedHref.slice(1)) : path.resolve(path.dirname(filePath), decodedHref);
                     if (!fs.existsSync(fullPath)) {
                         issues.push(`Link quebrado interno: ${href}`);
                     }
@@ -223,7 +228,8 @@ function checkFile(filePath) {
         $('img[src]').each((i, elem) => {
             const src = $(elem).attr('src');
             if (src && !src.startsWith('http') && !src.startsWith('#') && !src.startsWith('mailto:')) {
-                const fullPath = src.startsWith('/') ? path.resolve(ROOT_DIR, src.slice(1)) : path.resolve(path.dirname(filePath), src);
+                const decodedSrc = decodeURIComponent(src);
+                const fullPath = decodedSrc.startsWith('/') ? path.resolve(ROOT_DIR, decodedSrc.slice(1)) : path.resolve(path.dirname(filePath), decodedSrc);
                 if (!fs.existsSync(fullPath)) {
                     issues.push(`Imagem quebrada: ${src}`);
                 }
@@ -234,7 +240,8 @@ function checkFile(filePath) {
         $('link[href]').each((i, elem) => {
             const href = $(elem).attr('href');
             if (href && !href.startsWith('http') && !href.startsWith('#') && !href.startsWith('mailto:')) {
-                const fullPath = href.startsWith('/') ? path.resolve(ROOT_DIR, href.slice(1)) : path.resolve(path.dirname(filePath), href);
+                const decodedHref = decodeURIComponent(href);
+                const fullPath = decodedHref.startsWith('/') ? path.resolve(ROOT_DIR, decodedHref.slice(1)) : path.resolve(path.dirname(filePath), decodedHref);
                 if (!fs.existsSync(fullPath)) {
                     issues.push(`Link quebrado (link): ${href}`);
                 }
@@ -245,7 +252,8 @@ function checkFile(filePath) {
         $('script[src]').each((i, elem) => {
             const src = $(elem).attr('src');
             if (src && !src.startsWith('http') && !src.startsWith('#') && !src.startsWith('mailto:')) {
-                const fullPath = src.startsWith('/') ? path.resolve(ROOT_DIR, src.slice(1)) : path.resolve(path.dirname(filePath), src);
+                const decodedSrc = decodeURIComponent(src);
+                const fullPath = decodedSrc.startsWith('/') ? path.resolve(ROOT_DIR, decodedSrc.slice(1)) : path.resolve(path.dirname(filePath), decodedSrc);
                 if (!fs.existsSync(fullPath)) {
                     issues.push(`Script quebrado: ${src}`);
                 }
