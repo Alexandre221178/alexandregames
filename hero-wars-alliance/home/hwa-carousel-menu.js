@@ -2,6 +2,15 @@
   // Carousel multi-language injector (HWA specific copy)
   const slides = [
     {
+      link: "../../hero-wars-alliance/characters-guide/alvanor-en.html",
+      src500: "../../hero-wars-alliance/images/hero/alvanor/alvanor-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/alvanor/alvanor-400px.webp",
+      alt: "Alvanor Legendary Skills Guide for Hero Wars Alliance",
+      title: "Alvanor Guide for Hero Wars Alliance",
+      strong: "Alvanor Complete Legendary Skills Guide for Hero Wars Alliance",
+      updated: "Updated: January, 2026."
+    },
+    {
       link: "../../hero-wars-alliance/titans-guide/umbra-en.html",
       src500: "../../hero-wars-alliance/images/titans/umbra/umbra-500px.webp",
       src400: "../../hero-wars-alliance/images/titans/umbra/umbra-400px.webp",
