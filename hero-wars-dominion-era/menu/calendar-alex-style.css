@@ -138,7 +138,7 @@ div.calendar .event .event-label {
   margin-bottom: 7px !important;
   position: relative !important;
   font-weight: bold !important;
-  top: 25px !important;
+  top: 17px !important;
   left: 2px !important;
   z-index: 10 !important;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000 !important;
@@ -294,6 +294,8 @@ div.calendar[data-layout="group-by-image"] .event-container .event-title {
   font-size: 13px !important;
 }
 
+
+
 /* Responsive for group-by-image */
 @media (max-width: 800px) {
   div.calendar[data-layout="group-by-image"] .group-by-image {
@@ -418,4 +420,14 @@ div.calendar[data-layout="group-by-date"] .event-container .event-title {
 
 div.calendar .lang-fallback {
   opacity: 0.85 !important;
+}
+/* css pag. só em mobile criado por AG */
+@media (max-width:768px) {
+    div.calendar .event a {  
+  top: 3px !important;/* altura das letras até o topo da pag. só em mobile */  
+}
+div.calendar .event .event-label {  
+  top: 11px !important;
+  }
+
 }
