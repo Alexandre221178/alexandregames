@@ -172,7 +172,7 @@ div.calendar .event-label:hover {
   
   div.calendar > .event-container,
   div.calendar #calendar-container > .event-container {
-    height: 180px !important;
+    height: 227px !important; /* Aumenta a altura da caixa para mobile */
   }
   
   div.calendar .event a {
@@ -427,7 +427,7 @@ div.calendar .lang-fallback {
   top: 3px !important;/* altura das letras até o topo da pag. só em mobile */  
 }
 div.calendar .event .event-label {  
-  top: 11px !important;
+  top: 15px !important;
   }
 
 }
