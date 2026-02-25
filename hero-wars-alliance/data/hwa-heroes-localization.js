@@ -424,6 +424,15 @@ const hwaHeroesLocalization = {
     "pt": "Lars",
     "ja": "ラース"
   },
+  "Leonel": {
+    "gender": "male",
+    "en": "Leonel",
+    "de": "Leonel",
+    "es": "Leonel",
+    "fr": "Leonel",
+    "pt": "Leonel",
+    "ja": "レオネル"
+  },
   "Lian": {
     "gender": "female",
     "en": "Lian",
