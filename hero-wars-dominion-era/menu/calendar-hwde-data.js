@@ -849,7 +849,7 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
-      
+            
       {
         titles: { en: "Emerald Waterfalls", pt: "Cachoeiras de Esmeralda", de: "Smaragdwasserfälle", es: "Cascadas de Esmeraldas", fr: "Cascades d'Émeraudes", ja: "エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
@@ -871,6 +871,10 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+      {
+        titles: { en: "Gates to Galahad’s Adventure", pt: "Portões para a Aventura de Galahad", de: "Tore zu Galahads Abenteuer", es: "Puertas a la Aventura de Galahad", fr: "Portes vers l'Aventure de Galahad", ja: "ガラハッドの冒険への門" },
+        links: { en: "#section14", pt: "#section14", de: "#section14", es: "#section14", fr: "#section14", ja: "#section14" }
+      },
       
     ]
   },
@@ -883,7 +887,10 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-dominion-era/events/weaving-patterns-en.html", pt: "../../hero-wars-dominion-era/events/weaving-patterns-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
-      
+      {
+        titles: { en: "Gates to Galahad’s Adventure", pt: "Portões para a Aventura de Galahad", de: "Tore zu Galahads Abenteuer", es: "Puertas a la Aventura de Galahad", fr: "Portes vers l'Aventure de Galahad", ja: "ガラハッドの冒険への門" },
+        links: { en: "#section14", pt: "#section14", de: "#section14", es: "#section14", fr: "#section14", ja: "#section14" }
+      },
       {
         titles: { en: "Emeralds Sale x4", pt: "Promoção de Esmeraldas x4", de: "Smaragd-Angebot x4", es: "Oferta de Esmeraldas x4", fr: "Vente d'Émeraudes x4", ja: "エメラルドセール x4" },
         links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" }
