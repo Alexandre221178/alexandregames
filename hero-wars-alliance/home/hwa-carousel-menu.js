@@ -8,7 +8,7 @@
       alt: "Leonel Legendary Skills Guide for Hero Wars Alliance",
       title: "Leonel Guide for Hero Wars Alliance",
       strong: "Leonel Complete Legendary Skills Guide for Hero Wars Alliance",
-      updated: "Updated: January, 2026."
+      updated: "Updated: February, 2026."
     },
     {
       link: "../../hero-wars-alliance/characters-guide/alvanor-en.html",
@@ -17,7 +17,7 @@
       alt: "Alvanor Legendary Skills Guide for Hero Wars Alliance",
       title: "Alvanor Guide for Hero Wars Alliance",
       strong: "Alvanor Complete Legendary Skills Guide for Hero Wars Alliance",
-      updated: "Updated: January, 2026."
+      updated: "Updated: February, 2026."
     },
     {
       link: "../../hero-wars-alliance/titans-guide/umbra-en.html",
