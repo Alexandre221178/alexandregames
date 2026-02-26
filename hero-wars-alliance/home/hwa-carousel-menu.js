@@ -16,7 +16,7 @@
       src400: "../../hero-wars-alliance/images/hero/leonel/leonel-400px.webp",
       alt: "Leonel Legendary Skills Guide for Hero Wars Alliance",
       title: "Leonel Guide for Hero Wars Alliance",
-      strong: "Leonel Complete Legendary Skills Guide for Hero Wars Alliance",
+      strong: "Leonel Legendary Guide Skills Guide for Hero Wars Alliance",
       updated: "Updated: February, 2026."
     },
     {
@@ -84,13 +84,72 @@
     }
   ];
 // traducoes dos titulos
+// tem que add idioma por idioma
   const translations = {
-    en: {updatedPrefix: 'Updated:', map: {}},
-    pt: {updatedPrefix: 'Atualizado:', map: {'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance':'Guia do Titã Umbra: Domine o Invocador da Escuridão para Hero Wars Alliance','Dante Complete Legendary Skills Guide for Hero Wars Alliance':'Guia Completo de Habilidades Lendárias de Dante para Hero Wars Alliance','Drayne Complete Guide for Hero Wars Alliance':'Guia Completo de Drayne para Hero Wars Alliance','Yasmine Legendary Relic Complete Guide for Hero Wars Alliance':'Guia Completo de Relíquia Lendária de Yasmine para Hero Wars Alliance','Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance':'Guia de Byrna: Liberte o Espírito do Urso Curador em Hero Wars: Alliance','Redeem your Daily Gifts for Hero Wars Alliance':'Resgate seus Presentes Diários para Hero Wars Alliance'}},
-    es: {updatedPrefix: 'Actualizado:', map: {'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance':'Guía del Titán Umbra: Domina al Invocador de la Oscuridad para Hero Wars Alliance','Dante Complete Legendary Skills Guide for Hero Wars Alliance':'Guía Completa de Habilidades Legendarias de Dante para Hero Wars Alliance','Drayne Complete Guide for Hero Wars Alliance':'Guía Completa de Drayne para Hero Wars Alliance','Yasmine Legendary Relic Complete Guide for Hero Wars Alliance':'Guía Completa de Reliquia Legendaria de Yasmine para Hero Wars Alliance','Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance':'Guía de Byrna: Libera el Espíritu del Oso Sanador en Hero Wars: Alliance','Redeem your Daily Gifts for Hero Wars Alliance':'Canjea tus Regalos Diarios para Hero Wars Alliance'}},
-    fr: {updatedPrefix: 'Mis à jour:', map: {'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance':'Guide du Titan Umbra: Maîtrisez l\'Invocateur des Ténèbres pour Hero Wars Alliance','Dante Complete Legendary Skills Guide for Hero Wars Alliance':'Guide Complet des Compétences Légendaires de Dante pour Hero Wars Alliance','Drayne Complete Guide for Hero Wars Alliance':'Guide Complet de Drayne pour Hero Wars Alliance','Yasmine Legendary Relic Complete Guide for Hero Wars Alliance':'Guide Complet de Relique Légendaire de Yasmine pour Hero Wars Alliance','Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance':'Guide de Byrna: Libérez l\'Esprit de l\'Ours Guérisseur dans Hero Wars: Alliance','Redeem your Daily Gifts for Hero Wars Alliance':'Échangez vos Cadeaux Quotidiens pour Hero Wars Alliance'}},
-    ja: {updatedPrefix: '更新:', map: {'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance':'アンブラ タイタン ガイド: 光の召喚師をマスター 向け ヒーローウォーズ アライアンス','Dante Complete Legendary Skills Guide for Hero Wars Alliance':'ダンテ 完全 レジェンダリー スキル ガイド 向け ヒーローウォーズ アライアンス','Drayne Complete Guide for Hero Wars Alliance':'ドレイン 完全ガイド 向け ヒーローウォーズ アライアンス','Yasmine Legendary Relic Complete Guide for Hero Wars Alliance':'ヤスミン レジェンダリー レリック 完全ガイド 向け ヒーローウォーズ アライアンス','Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance':'バーナ ガイド: ヒーラーベアスピリットを解放 in ヒーローウォーズ: アライアンス','Redeem your Daily Gifts for Hero Wars Alliance':'毎日のギフトを受け取る 向け ヒーローウォーズ アライアンス'}},
-    de: {updatedPrefix: 'Aktualisiert:', map: {'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance':'Umbra Titan Leitfaden: Meistere den Dunkelheisinvokator für Hero Wars Alliance','Dante Complete Legendary Skills Guide for Hero Wars Alliance':'Vollständiger Leitfaden zu Legendären Fähigkeiten von Dante für Hero Wars Alliance','Drayne Complete Guide for Hero Wars Alliance':'Vollständiger Leitfaden zu Drayne für Hero Wars Alliance','Yasmine Legendary Relic Complete Guide for Hero Wars Alliance':'Vollständiger Leitfaden zu Legendärer Relikt von Yasmine für Hero Wars Alliance','Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance':'Byrna Leitfaden: Entfessle den Heiler-Bärengeist in Hero Wars: Alliance','Redeem your Daily Gifts for Hero Wars Alliance':'Löse deine täglichen Geschenke für Hero Wars Alliance ein'}},
+    en: {
+      updatedPrefix: 'Updated:',
+      map: {}
+    },
+    pt: {
+      updatedPrefix: 'Atualizado:',
+      map: {
+        
+        'Complete Realm Mode Guide for Hero Wars Alliance': 'Guia Completo do Modo Reino para Hero Wars Alliance',
+        'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance': 'Guia do Titã Umbra: Domine o Invocador da Escuridão para Hero Wars Alliance',
+        'Dante Complete Legendary Skills Guide for Hero Wars Alliance': 'Guia Completo de Habilidades Lendárias de Dante para Hero Wars Alliance',
+        'Drayne Complete Guide for Hero Wars Alliance': 'Guia Completo de Drayne para Hero Wars Alliance',
+        'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Guia Completo de Relíquia Lendária de Yasmine para Hero Wars Alliance',
+        'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guia de Byrna: Liberte o Espírito do Urso Curador em Hero Wars: Alliance',
+        'Redeem your Daily Gifts for Hero Wars Alliance': 'Resgate seus Presentes Diários para Hero Wars Alliance'
+      }
+    },
+    es: {
+      updatedPrefix: 'Actualizado:',
+      map: {
+        "Complete Realm Mode Guide for Hero Wars Alliance": "Guía Completa del Modo Reino para Hero Wars Alliance",
+        'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance': 'Guía del Titán Umbra: Domina al Invocador de la Oscuridad para Hero Wars Alliance',
+        'Dante Complete Legendary Skills Guide for Hero Wars Alliance': 'Guía Completa de Habilidades Legendarias de Dante para Hero Wars Alliance',
+        'Drayne Complete Guide for Hero Wars Alliance': 'Guía Completa de Drayne para Hero Wars Alliance',
+        'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Guía Completa de Reliquia Legendaria de Yasmine para Hero Wars Alliance',
+        'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guía de Byrna: Libera el Espíritu del Oso Sanador en Hero Wars: Alliance',
+        'Redeem your Daily Gifts for Hero Wars Alliance': 'Canjea tus Regalos Diarios para Hero Wars Alliance'
+      }
+    },
+    fr: {
+      updatedPrefix: 'Mis à jour:',
+      map: {
+        'Complete Realm Mode Guide for Hero Wars Alliance': 'Guide Complet du Mode Royaume pour Hero Wars Alliance',
+        'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance': 'Guide du Titan Umbra: Maîtrisez l\'Invocateur des Ténèbres pour Hero Wars Alliance',
+        'Dante Complete Legendary Skills Guide for Hero Wars Alliance': 'Guide Complet des Compétences Légendaires de Dante pour Hero Wars Alliance',
+        'Drayne Complete Guide for Hero Wars Alliance': 'Guide Complet de Drayne pour Hero Wars Alliance',
+        'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Guide Complet de Relique Légendaire de Yasmine pour Hero Wars Alliance',
+        'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guide de Byrna: Libérez l\'Esprit de l\'Ours Guérisseur dans Hero Wars: Alliance',
+        'Redeem your Daily Gifts for Hero Wars Alliance': 'Échangez vos Cadeaux Quotidiens pour Hero Wars Alliance'
+      }
+    },
+    ja: {
+      updatedPrefix: '更新:',
+      map: {
+        'Complete Realm Mode Guide for Hero Wars Alliance': 'ヒーローウォーズアライアンスの完全なレルムモードガイド',
+        'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance': 'アンブラ タイタン ガイド: 光の召喚師をマスター 向け ヒーローウォーズ アライアンス',
+        'Dante Complete Legendary Skills Guide for Hero Wars Alliance': 'ダンテ 完全 レジェンダリー スキル ガイド 向け ヒーローウォーズ アライアンス',
+        'Drayne Complete Guide for Hero Wars Alliance': 'ドレイン 完全ガイド 向け ヒーローウォーズ アライアンス',
+        'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'ヤスミン レジェンダリー レリック 完全ガイド 向け ヒーローウォーズ アライアンス',
+        'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'バーナ ガイド: ヒーラーベアスピリットを解放 in ヒーローウォーズ: アライアンス',
+        'Redeem your Daily Gifts for Hero Wars Alliance': '毎日のギフトを受け取る 向け ヒーローウォーズ アライアンス'
+      }
+    },
+    de: {
+      updatedPrefix: 'Aktualisiert:',
+      map: {
+        'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance': 'Umbra Titan Leitfaden: Meistere den Dunkelheisinvokator für Hero Wars Alliance',
+        'Dante Complete Legendary Skills Guide for Hero Wars Alliance': 'Vollständiger Leitfaden zu Legendären Fähigkeiten von Dante für Hero Wars Alliance',
+        'Drayne Complete Guide for Hero Wars Alliance': 'Vollständiger Leitfaden zu Drayne für Hero Wars Alliance',
+        'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Vollständiger Leitfaden zu Legendärer Relikt von Yasmine für Hero Wars Alliance',
+        'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Byrna Leitfaden: Entfessle den Heiler-Bärengeist in Hero Wars: Alliance',
+        'Redeem your Daily Gifts for Hero Wars Alliance': 'Löse deine täglichen Geschenke für Hero Wars Alliance ein'
+      }
+    }
   };
 
   function detectLang(){
