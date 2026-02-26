@@ -2,6 +2,15 @@
   // Carousel multi-language injector (HWA specific copy)
   const slides = [
     {
+      link: "../../hero-wars-alliance/guide/realm-en.html",
+      src500: "../../hero-wars-alliance/images/guides/realm/realm-guide-500px.webp",
+      src400: "../../hero-wars-alliance/images/guides/realm/realm-guide-400px.webp",
+      alt: "Realm Mode Guide for Hero Wars Alliance",
+      title: "Realm Mode Guide for Hero Wars Alliance",
+      strong: "Complete Realm Mode Guide for Hero Wars Alliance",
+      updated: "Updated: February, 2026."
+    },
+    {
       link: "../../hero-wars-alliance/characters-guide/leonel-en.html",
       src500: "../../hero-wars-alliance/images/hero/leonel/leonel-500px.webp",
       src400: "../../hero-wars-alliance/images/hero/leonel/leonel-400px.webp",
