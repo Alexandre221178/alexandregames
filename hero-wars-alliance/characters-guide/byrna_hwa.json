@@ -1,0 +1,320 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "byrna",
+      "name": "Byrna",
+      "gender": "female",
+      "role": ["Support", "Healer"],
+      "main_class": "Support",
+      "position": "Front Line",
+      "main_stat": "Intelligence",
+      "how_to_get_soul_stones": "Heroic Chest, Special Events, Realm",
+      "hydra_tier_list": "S",
+      "hero_tier_list": "A",
+      "faction": "Way of Nature",
+      "stats": {
+        "Bearocious_talisman": {
+          "intelligence": 15558,
+          "agility": 3549,
+          "strength": 4154,
+          "health": 898279,
+          "physical_attack": 31496,
+          "magic_attack": 146136,
+          "armor": 21777,
+          "magic_defense": 33909,
+          "toughness": 2790,
+          "magic_reflection": 6600,
+          "magic_penetration": 24488
+        },
+        "talisman_of_the_orc_princess": {
+          "intelligence": 17558,
+          "agility": 3549,
+          "strength": 4154,
+          "health": 898279,
+          "physical_attack": 33496,
+          "magic_attack": 152136,
+          "armor": 9777,
+          "magic_defense": 35909,
+          "toughness": 2790,
+          "magic_penetration": 44288
+        }
+      },
+      "talisman_details": {
+        "Bearocious_talisman": {
+          "level": 50,
+          "main_stat": "Armor",
+          "main_stat_bonus": 12000,
+          "derived_bonuses": {},
+          "reroll_slots": [
+            { "stat": "Magic Reflection", "value": 2200 },
+            { "stat": "Magic Reflection", "value": 2200 },
+            { "stat": "Magic Reflection", "value": 2200 }
+          ],
+          "total_reroll_bonus": { "stat": "Magic Reflection", "value": 6600 }
+        },
+        "talisman_of_the_orc_princess": {
+          "level": 50,
+          "main_stat": "Intelligence",
+          "main_stat_bonus": 2000,
+          "derived_bonuses": {
+            "magic_attack": 6000
+          },
+          "reroll_slots": [
+            { "stat": "Magic Penetration", "value": 6600 },
+            { "stat": "Magic Penetration", "value": 6600 },
+            { "stat": "Magic Penetration", "value": 6600 }
+          ],
+          "total_reroll_bonus": { "stat": "Magic Penetration", "value": 19800 }
+        },
+        "recommended": "talisman_of_the_orc_princess"
+      },
+      "skills": [
+        {
+          "variant": "base",
+          "name": "Basic attack",
+          "type": ["autoSkill"],
+          "damage_formula": "100% Physical Attack",
+          "scales_with": ["Physical Attack"],
+          "damage_example": 33496,
+          "cooldown_seconds": 7,
+          "animation_delay_seconds": 0.6,
+          "description": "Physical damage: 33496 (100% Phys.atk.)",
+          "evolution_priority": "Medium"
+        },
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "Roar of Nature",
+          "type": ["Magic Damage", "Heal"],
+          "animation_delay_seconds": 0.5,
+          "area": 150,
+          "range": 400,
+          "hits": 50,
+          "damage_formula": "85% Magic Attack + 6000",
+          "scales_with": ["Magic Attack"],
+          "damage_example": 135316,
+          "health_regen_percent": 50,
+          "description": "Guardian Spirit deals Magic Damage to enemies, while Byrna and nearby allies restore Health. Keywords: Can't be copied",
+          "evolution_priority": "Very High"
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 120,
+          "name": "Guardian Punch",
+          "type": ["Magic Damage", "Heal"],
+          "damage_formula": "200% Magic Attack",
+          "scales_with": ["Magic Attack"],
+          "damage_example": 304272,
+          "heal_formula": "100% Magic Attack + 9000",
+          "heal_example": 161136,
+          "energy_regen_per_attack": 100,
+          "description": "Guardian Spirit attacks enemies, while each of Byrna's attacks restore Health and Energy to the ally with the lowest Health. Guardian Spirit moves across the battlefield, attacking enemies. It cannot be targeted and inherits Byrna's Magic Attack and Magic Penetration. Byrna's basic attacks restore Health and Energy to the ally with the lowest Health.",
+          "evolution_priority": "Very High"
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 100,
+          "name": "Bear Cuddle",
+          "type": ["Heal", "Buff"],
+          "cooldown_seconds": 15,
+          "animation_delay_seconds": 1,
+          "duration_seconds": 20,
+          "range": 3000,
+          "hits": 2,
+          "initial_cooldown_seconds": 3,
+          "heal_formula": "50% Magic Attack + 1800 per 2 seconds",
+          "heal_example": 77868,
+          "energy_per_2_seconds": 100,
+          "description": "Gradually heals the ally with the lowest Health and grants them Energy. Applies an effect to the ally with the lowest Health for 20.0 seconds. Every 2 seconds, that ally restores Health and gains Energy.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "level": 80,
+          "name": "Living Heart",
+          "type": ["Passive", "Buff"],
+          "effect": "If an ally is fully healed, Byrna's healing increases their Maximum Health.",
+          "max_health_increase_percent": 100,
+          "scales_with": [],
+          "description": "If an ally is fully healed, Byrna's healing increases their Maximum Health by 100%.",
+          "evolution_priority": "Medium High"
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Gift Spirit",
+          "type": ["Buff", "Energy Generation"],
+          "duration_seconds": 6,
+          "energy_regen": 100,
+          "frequency_seconds": 6.0,
+          "scales_with": [],
+          "description": "Restores Energy every few seconds to the ally with the highest but not full Energy.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 3,
+          "variant": "legendary",
+          "relic_level": 10,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 3
+          },
+          "name": "Bear Cuddle",
+          "effect": "Removes negative effects on healing",
+          "description": "When Bear Cuddle restores an ally's Health, all negative effects are removed from them.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 4,
+          "variant": "legendary",
+          "relic_level": 20,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 4
+          },
+          "name": "Living Heart",
+          "effect": "Extends healing effect to all allies",
+          "max_health_increase_percent": 100,
+          "description": "Now, if an ally is fully healed, any further healing from allies increases their Maximum Health by 100%.",
+          "evolution_priority": "Medium High"
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Nature's Blessing",
+          "type": ["Passive", "Buff"],
+          "healing_increase_percent": 30,
+          "scales_with": [],
+          "description": "Increases the healing effectiveness of Byrna's skills by 30%.",
+          "evolution_priority": "Very High"
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default Skin",
+          "stat": "Intelligence",
+          "bonus": 1365,
+          "derived_bonuses": {
+            "magic_attack": 4095,
+            "magic_defense": 1365,
+            "physical_attack": 1365
+          },
+          "evolution_priority": "Very High"
+        },
+        {
+          "name": "Cybernetic Skin",
+          "stat": "Health",
+          "bonus": 106645,
+          "evolution_priority": "High"
+        },
+        {
+          "name": "Winter Skin",
+          "stat": "Magic Penetration",
+          "bonus": 10650,
+          "evolution_priority": "High"
+        }
+      ],
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Guardian's Fang",
+          "evolve_level": 6,
+          "artifact_level": 100,
+          "activation_chance": 100,
+          "effect": "Magic Penetration bonus",
+          "magic_penetration": 32040,
+          "evolution_priority": "Very High"
+        },
+        {
+          "slot": "Book",
+          "name": "Tome of Arcane Knowledge",
+          "evolve_level": 6,
+          "artifact_level": 100,
+          "magic_attack": 10680,
+          "health": 53394,
+          "evolution_priority": "High"
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Intelligence",
+          "evolve_level": 6,
+          "artifact_level": 100,
+          "intelligence": 3990,
+          "derived_bonuses": {
+            "magic_attack": 11970,
+            "magic_defense": 3990,
+            "physical_attack": 3990
+          },
+          "evolution_priority": "Medium High"
+        }
+      ],
+      "glyphs": [
+        {
+          "name": "Magic Attack",
+          "level": 80,
+          "bonus": 12850,
+          "evolution_priority": "Very High (1st Overall)"
+        },
+        {
+          "name": "Health",
+          "level": 80,
+          "bonus": 122800,
+          "evolution_priority": "High (2nd Overall)"
+        },
+        {
+          "name": "Magic Defense",
+          "level": 80,
+          "bonus": 12850,
+          "evolution_priority": "Medium High (3rd Overall)"
+        },
+        {
+          "name": "Magic Penetration",
+          "level": 80,
+          "bonus": 12850,
+          "evolution_priority": "Medium High (4th Overall)"
+        },
+        {
+          "name": "Intelligence",
+          "level": 80,
+          "bonus": 2110,
+          "derived_bonuses": {
+            "magic_attack": 6330,
+            "magic_defense": 2110,
+            "physical_attack": 2110
+          },
+          "evolution_priority": "Medium (5th Overall)"
+        }
+      ],
+      "relic": {
+        "level": 30,
+        "type": "Default",
+        "magic_attack": 57005,
+        "health": 290824,
+        "evolution_priority": "Very High"
+      },
+      "synergies": [
+        {
+          "name": "Alvanor",
+          "reason": "Ultimate healing partner. Byrna's healing is doubled by Alvanor's Rune of Life for Nature heroes. Rune of Earth reduces damage Byrna takes, and Rune of Wind accelerates her skill cooldowns."
+        },
+        {
+          "name": "Mushy",
+          "reason": "Byrna's healing and Guardian Spirit support Mushy's Shrooms. Bear Cuddle cleanses negative effects, and healing bonuses accelerate Shroom army growth."
+        }
+      ]
+    }
+  ]
+}
