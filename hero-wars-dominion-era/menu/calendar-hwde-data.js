@@ -235,7 +235,7 @@ window.CALENDAR_DATA = [
     image: "../../imagens/image-shared/kayla-300px.webp",
     alt: "Kayla Guide",
     titles: { en: "Kayla Guide", pt: "Guia da Kayla", de: "Kayla Leitfaden", es: "Guía de Kayla", fr: "Guide Kayla", ja: "カイラ ガイド" },
-    links: { en: "../../hero-wars-dominion-era/characters/kayla-en.html", pt: "../../hero-wars-dominion-era/characters/kayla-pt.html", de: "", es: "", fr: "", ja: "" },
+    links: { en: "../../hero-wars-dominion-era/characters/kayla-en.html", pt: "../../hero-wars-dominion-era/characters/kayla-pt.html", de: "../../hero-wars-dominion-era/characters/kayla-de.html", es: "../../hero-wars-dominion-era/characters/kayla-es.html", fr: "../../hero-wars-dominion-era/characters/kayla-fr.html", ja: "../../hero-wars-dominion-era/characters/kayla-ja.html" },
     noStrip: true,
     extra: [
       {
@@ -256,7 +256,7 @@ window.CALENDAR_DATA = [
     image: "../../imagens/image-shared/kayla-300px.webp",
     alt: "Kayla Guide",
     titles: { en: "Kayla Guide", pt: "Guia da Kayla", de: "Kayla Leitfaden", es: "Guía de Kayla", fr: "Guide Kayla", ja: "カイラ ガイド" },
-    links: { en: "../../hero-wars-dominion-era/characters/kayla-en.html", pt: "../../hero-wars-dominion-era/characters/kayla-pt.html", de: "", es: "", fr: "", ja: "" },
+    links: { en: "../../hero-wars-dominion-era/characters/kayla-en.html", pt: "../../hero-wars-dominion-era/characters/kayla-pt.html", de: "../../hero-wars-dominion-era/characters/kayla-de.html", es: "../../hero-wars-dominion-era/characters/kayla-es.html", fr: "../../hero-wars-dominion-era/characters/kayla-fr.html", ja: "../../hero-wars-dominion-era/characters/kayla-ja.html" },
     noStrip: true,
     extra: [
       {
@@ -282,7 +282,7 @@ window.CALENDAR_DATA = [
     image: "../../imagens/image-shared/kayla-300px.webp",
     alt: "Kayla Guide",
     titles: { en: "Kayla Guide", pt: "Guia da Kayla", de: "Kayla Leitfaden", es: "Guía de Kayla", fr: "Guide Kayla", ja: "カイラ ガイド" },
-    links: { en: "../../hero-wars-dominion-era/characters/kayla-en.html", pt: "../../hero-wars-dominion-era/characters/kayla-pt.html", de: "", es: "", fr: "", ja: "" },
+   links: { en: "../../hero-wars-dominion-era/characters/kayla-en.html", pt: "../../hero-wars-dominion-era/characters/kayla-pt.html", de: "../../hero-wars-dominion-era/characters/kayla-de.html", es: "../../hero-wars-dominion-era/characters/kayla-es.html", fr: "../../hero-wars-dominion-era/characters/kayla-fr.html", ja: "../../hero-wars-dominion-era/characters/kayla-ja.html" },
     noStrip: true,
     extra: [
       {

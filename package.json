@@ -1,10 +1,11 @@
 
 {
   "name": "alexandregames",
+  "npm": "npm run update-",
   "version": "1.0.0",
   "description": "Alexandre Games Blog Website!\r This repository contains the source code for the website www.alexandregames.com, a project created by Alexandre Domingos. The website is built using HTML and represents a dream come true for Alexandre, who started from scratch, studying code and learning along the way.",
   "main": "main.js",
-  "scripts": {
+    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "update-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js",
     "update-calendar-hwa": "node hero-wars-alliance/update-data-menu-hwa.js menu-hwa calendar-hwa",
@@ -26,6 +27,7 @@
     "update-augustus-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js augustus",
     "update-fluffy-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js fluffy",
     "update-galahad-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js galahad",
+    "update-kayla-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js kayla",
   
     "update-electra-brawls-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js electra-brawls",
     "update-hwde-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js hwde",
