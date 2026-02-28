@@ -2,12 +2,12 @@
   // Carousel multi-language injector (HWDE specific copy)
   const slides = [
     {
-      link: "../../hero-wars-dominion-era/titans/ignis-en.html",
-      src500: "../../hero-wars-dominion-era/images/titans-hwde/ignis/ignis-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/titans-hwde/ignis/ignis-400px.webp",
-      alt: "Ignis for Hero Wars: Dominion Era",
-      title: "Ignis for Hero Wars: Dominion Era.",
-      strong: "Ignis - Hero Wars: Dominion Era",
+      link: "../../hero-wars-dominion-era/characters/galahad-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/galahad/galahad-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/galahad/galahad-400px.webp",
+      alt: "Galahad Guide for Hero Wars: Dominion Era",
+      title: "Galahad Guide for Hero Wars: Dominion Era.",
+      strong: "Galahad Guide - Hero Wars: Dominion Era",
       updated: "Updated: February, 2026."
     },
     {
@@ -17,15 +17,6 @@
       alt: "Tidus for Hero Wars: Dominion Era",
       title: "Tidus for Hero Wars: Dominion Era.",
       strong: "Tidus - Hero Wars: Dominion Era",
-      updated: "Updated: February, 2026."
-    },
-    {
-      link: "../../hero-wars-dominion-era/events-special-hwde/tidus-event-guide-en.html",
-      src500: "../../hero-wars-dominion-era/images/events-special/tidus-event/tidus-event-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events-special/tidus-event/tidus-event-400px.webp",
-      alt: "Tidus Event Guide and Rewards F2P to 6★ for Hero Wars: Dominion Era",
-      title: "Tidus Event Guide and Rewards F2P to 6★ for Hero Wars: Dominion Era",
-      strong: "Tidus Event Guide - Hero Wars: Dominion Era",
       updated: "Updated: February, 2026."
     },
     
@@ -48,6 +39,15 @@
       strong: "Fluffy - Hero Wars: Dominion Era",
       updated: "Updated: February, 2026."
     },
+    {
+      link: "../../hero-wars-dominion-era/titans/ignis-en.html",
+      src500: "../../hero-wars-dominion-era/images/titans-hwde/ignis/ignis-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/titans-hwde/ignis/ignis-400px.webp",
+      alt: "Ignis for Hero Wars: Dominion Era",
+      title: "Ignis for Hero Wars: Dominion Era.",
+      strong: "Ignis - Hero Wars: Dominion Era",
+      updated: "Updated: February, 2026."
+    },
     
     {
       link: "../../hero-wars-dominion-era/characters/aidan-en.html",
@@ -58,15 +58,7 @@
       strong: "Aidan Guide - Hero Wars: Dominion Era",
       updated: "Updated: January, 2026."
     },
-    {
-      link: "../../hero-wars-dominion-era/hero-brawls/electra-brawls-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero-brawls/electra-brawls/electra-brawls-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero-brawls/electra-brawls/electra-brawls-400px.webp",
-      alt: "Electra Brawls for Hero Wars: Dominion Era",
-      title: "Electra Brawls for Hero Wars: Dominion Era.",
-      strong: "Electra Brawls - Hero Wars: Dominion Era",
-      updated: "Updated: February, 2026."
-    },
+    
     
   ];
 

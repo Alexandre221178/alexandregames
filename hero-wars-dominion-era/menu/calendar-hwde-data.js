@@ -48,7 +48,7 @@ window.CALENDAR_DATA = [
       },
       {
         titles: { en: "Galahad Guide", pt: "Guia do Galahad", de: "Galahad Leitfaden", es: "Guía de Galahad", fr: "Guide de Galahad", ja: "ガラハッドガイド" },
-        links: { en: "../../hero-wars-dominion-era/characters/galahad-en.html", pt: "../../hero-wars-dominion-era/characters/galahad-pt.html", de: "", es: "", fr: "", ja: "" },
+        links: { en: "../../hero-wars-dominion-era/characters/galahad-en.html", pt: "../../hero-wars-dominion-era/characters/galahad-pt.html", de: "../../hero-wars-dominion-era/characters/galahad-de.html", es: "../../hero-wars-dominion-era/characters/galahad-es.html", fr: "../../hero-wars-dominion-era/characters/galahad-fr.html", ja: "../../hero-wars-dominion-era/characters/galahad-ja.html" },
         noStrip: true
       },
     ]
@@ -99,7 +99,7 @@ window.CALENDAR_DATA = [
       },
       {
         titles: { en: "Galahad Guide", pt: "Guia do Galahad", de: "Galahad Leitfaden", es: "Guía de Galahad", fr: "Guide de Galahad", ja: "ガラハッドガイド" },
-        links: { en: "../../hero-wars-dominion-era/characters/galahad-en.html", pt: "../../hero-wars-dominion-era/characters/galahad-pt.html", de: "", es: "", fr: "", ja: "" },
+        links: { en: "../../hero-wars-dominion-era/characters/galahad-en.html", pt: "../../hero-wars-dominion-era/characters/galahad-pt.html", de: "../../hero-wars-dominion-era/characters/galahad-de.html", es: "../../hero-wars-dominion-era/characters/galahad-es.html", fr: "../../hero-wars-dominion-era/characters/galahad-fr.html", ja: "../../hero-wars-dominion-era/characters/galahad-ja.html" },
         noStrip: true
       },
     ]
@@ -144,7 +144,7 @@ window.CALENDAR_DATA = [
       },
       {
         titles: { en: "Galahad Guide", pt: "Guia do Galahad", de: "Galahad Leitfaden", es: "Guía de Galahad", fr: "Guide de Galahad", ja: "ガラハッドガイド" },
-        links: { en: "../../hero-wars-dominion-era/characters/galahad-en.html", pt: "../../hero-wars-dominion-era/characters/galahad-pt.html", de: "", es: "", fr: "", ja: "" },
+        links: { en: "../../hero-wars-dominion-era/characters/galahad-en.html", pt: "../../hero-wars-dominion-era/characters/galahad-pt.html", de: "../../hero-wars-dominion-era/characters/galahad-de.html", es: "../../hero-wars-dominion-era/characters/galahad-es.html", fr: "../../hero-wars-dominion-era/characters/galahad-fr.html", ja: "../../hero-wars-dominion-era/characters/galahad-ja.html" },
         noStrip: true
       },
     ]
