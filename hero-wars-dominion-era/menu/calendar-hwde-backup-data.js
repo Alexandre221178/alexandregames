@@ -4,7 +4,33 @@
    - Supports: en, pt, ja, es, fr, de
 */
 window.CALENDAR_DATA = [
-// ===================== FEB 2026 =====================
+// ===================== texto em branco para informacoes =====================
+ {
+        titles: { en: "texto branco", pt: "Pré-venda de Tidus", de: "Tidus Vorbestellung", es: "Preventa de Tidus", fr: "Précommande de Tidus", ja: "Tidusの事前予約" },
+        labelOnly: true
+      },
+// ===================== missoes do titans brawl guardians of balance  =====================
+{
+    weekday: "Sunday",
+    date: "March, 22",
+    image: "../../hero-wars-dominion-era/images/events/titan-brawl/titan-brawls-400px.webp",
+    alt: "Titans Brawls",
+    titles: { en: "Guardians of Balance", pt: "Guardiões do Equilíbrio", de: "Wächter des Gleichgewichts", es: "Guardianes del Equilibrio", fr: "Gardiens de l’Équilibre", ja: "均衡の守護者" },
+    links: { en: "../../hero-wars-dominion-era/events/titan-brawl-en.html", pt: "../../hero-wars-dominion-era/events/titan-brawl-pt.html", de: "", es: "", fr: "", ja: "" },
+    noStrip: true,
+    extra: [
+      {
+        titles: { en: "Guardians of Balance", pt: "Guardiões do Equilíbrio", de: "Wächter des Gleichgewichts", es: "Guardianes del Equilibrio", fr: "Gardiens de l’Équilibre", ja: "均衡の守護者" }, 
+        links: { en: "../../hero-wars-dominion-era/events/titan-brawl-en.html", pt: "../../hero-wars-dominion-era/events/titan-brawl-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },  
+   
+  ]
+  },
+
+// ===================== missoes do heroes brawl   =====================
+// ===================== missoes do heroes brawl   =====================
+
 {
     weekday: "",
     date: "",
