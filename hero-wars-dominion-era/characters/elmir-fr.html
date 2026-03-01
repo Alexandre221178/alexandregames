@@ -173,6 +173,19 @@
 </ul>
 
   </section>
+
+  <!-- HWDE - BLOCO 2 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="8517307629"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+
+
     
 <section>
   <h2>Priorité d'Amélioration des Compétences d'Elmir - Hero Wars: Dominion Era</h2>
@@ -274,6 +287,18 @@
 <p><strong>Vex</strong> peut être utile de manière situationnelle dans les équipes axées sur les dégâts physiques, car ses cumuls de Blessures Profondes augmentent les dégâts de tous les alliés. Cependant, Elmir n'effectue pas suffisamment d'attaques de base rapides pour en bénéficier pleinement comparé à d'autres familiers, faisant de Vex un choix de niche.</p>
 
 </section>
+
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="7060755724"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+
 
 <section>
   <h2>Meilleures Apparences pour Elmir Hero Wars: Dominion Era</h2>
@@ -474,6 +499,18 @@
 
 </section>
 
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="9770850987"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+
+
 <section>
 <h2>Meilleur Drapeau de Guerre pour Elmir Hero Wars</h2>
 <p>Elmir excelle dans les attaques physiques et les dégâts sur la durée, rendant les Drapeaux de Guerre qui augmentent la réduction de temps de recharge et les affaiblissements ennemis très précieux au combat.</p>
@@ -635,6 +672,31 @@
     <script src="../../alex-java/graphcomments-07z.js" defer></script>
     <script src="../../alex-java/share-global-fr.js" defer></script>
     <script src="../../alex-java/translate07-fr.js" defer></script>
+
+<script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
+
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
+
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
+
 
 </body>
 </html>

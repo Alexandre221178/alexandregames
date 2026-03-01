@@ -188,6 +188,19 @@
 </ul>
 </section>
 
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="8517307629"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+
+
+
 <section>
   <h2>Prioridade de Evolução das Habilidades de Elmir – Hero Wars: Dominion Era</h2>
   <p>Descubra quais habilidades de Elmir evoluir primeiro em Hero Wars: Dominion Era e entenda como cada uma delas contribui em combate.</p>
@@ -286,6 +299,18 @@
   </div>
   <p><strong>Vex</strong> pode ser útil em situações específicas, especialmente em equipes focadas em dano físico, já que seus acúmulos de Feridas Profundas aumentam o dano de todos os aliados. Ainda assim, Elmir não realiza ataques básicos rápidos o suficiente para tirar total proveito disso, tornando o Vex uma escolha mais de nicho.</p>
 </section>
+
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="7060755724"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+
 
 <section>
   <h2>Melhor Visual para Elmir – Hero Wars: Dominion Era</h2>
@@ -477,6 +502,19 @@
   </div>
 </section>
 
+
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="9770850987"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+
+
 <section>
   <h2>Melhor Bandeira de Guerra para Elmir – Hero Wars</h2>
   <p>Elmir se destaca em ataques físicos e dano contínuo, tornando as Bandeiras de Guerra que reduzem o tempo de recarga e enfraquecem os inimigos extremamente valiosas na batalha.</p>
@@ -610,9 +648,30 @@
     <script src="../../alex-java/share-global-pt.js" defer></script>
     <script src="../../alex-java/translate07-pt.js" defer></script>
 
+<script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
 
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
 
-<!-- close <div class="container"> -->
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
+
 
 </body>
 </html>
