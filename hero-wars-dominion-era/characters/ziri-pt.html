@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta property="article:published_time" content="2025-07-07T23:27-03:00" />
-<meta property="article:modified_time" content="2025-07-18T22:24-03:00" />
+<meta property="article:modified_time" content="2026-02-28T23:06:32-03:00" />
 <link rel="stylesheet" href="../../css/estilo13z.css">
 
 <title>Guia da Ziri em Hero Wars: Dominion Era - Dicas, e Estratégias de Tank</title>
@@ -19,7 +19,10 @@
 <link rel="alternate" hreflang="en" href="https://alexandregames.com/hero-wars-dominion-era/characters/ziri-en.html">
 <link rel="alternate" hreflang="x-default" href="https://alexandregames.com/hero-wars-dominion-era/characters/ziri-en.html">
 <link rel="alternate" hreflang="pt" href="https://alexandregames.com/hero-wars-dominion-era/characters/ziri-pt.html">
-
+<link rel="alternate" hreflang="es" href="https://alexandregames.com/hero-wars-dominion-era/characters/ziri-es.html">
+<link rel="alternate" hreflang="fr" href="https://alexandregames.com/hero-wars-dominion-era/characters/ziri-fr.html">
+<link rel="alternate" hreflang="de" href="https://alexandregames.com/hero-wars-dominion-era/characters/ziri-de.html">
+<link rel="alternate" hreflang="ja" href="https://alexandregames.com/hero-wars-dominion-era/characters/ziri-ja.html">
 <!-- Open Graph Tags -->
 <meta property="og:title" content="Guia da Ziri em Hero Wars: Dominion Era - Dicas, Habilidades e Estratégias de Tank">
 <meta property="og:description" content="Descubra os segredos da Ziri em Hero Wars: Dominion Era! Libere sua força, estratégias e habilidades para dominar o campo de batalha como tank.">
@@ -80,13 +83,8 @@
 <body> 
 <div class="container">
 <div id="menu-container"></div><!-- Contêiner do menu -->
-<!-- Botão de troca de idioma -->
-<!-- O menu <nav></nav> será inserido aqui pelo JavaScript -->
-<!-- Colocar link pag. English.html - O link fica definido aqui no HTML Botão de troca de idioma -->
-<a href="../../hero-wars-dominion-era/characters/ziri-en.html" class="language-link" style="display:none;"></a>
-
-<script src="../../Documentos/nav13-pt-v2.js" defer></script>   
-<script src="../../Documentos/lazy-load.js"></script>
+<script src="../../alex-java/nav13-global-pt.js" defer></script>    
+<script src="../../alex-java/lazy-load.js"></script>
 
   
  
@@ -179,6 +177,19 @@
     <li>Quando está enterrada, a linha de frente fica exposta   exigindo outro tanque ou protetor para manter a defesa.</li>
   </ul>
 </section>
+
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="8517307629"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+
+
 <section>
   <h2>Prioridade de Evolução das Habilidades da Ziri - Hero Wars: Dominion Era</h2>
   <p>Descubra quais habilidades da Ziri devem ser evoluídas primeiro em Hero Wars: Dominion Era e por que cada uma impacta diretamente sua força como tanque na equipe.</p>
@@ -506,6 +517,19 @@
   <p>Yasmine ignora o tanque da linha de frente ao pular direto para a retaguarda. Isso reduz a eficácia da provocação da Ziri e enfraquece a proteção da equipe enquanto ela está enterrada.</p>
 
 </section>
+
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="7060755724"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+
+
 <section>
   <h2>Melhor Bandeira de Guerra para Ziri – Hero Wars</h2>
   <p>Descubra as melhores Bandeiras de Guerra para usar com Ziri em Hero Wars: Dominion Era, aumentando sua sobrevivência e reforçando suas habilidades de tanque em batalhas em equipe.</p>
@@ -667,11 +691,34 @@
   <script src="../../alex-java/cookies-07z-pt.js" defer></script>
     <script src="../../alex-java/footer-07z-pt.js" defer></script>
     <script src="../../alex-java/graphcomments-07z.js" defer></script>
-    <script src="../../Documentos/share-pt-reddit.js" defer></script>
+    <script src="../../alex-java/share-global-pt.js" defer></script>
+    <script src="../../alex-java/translate07-pt.js" defer></script>
+    <!--<script src="../../alex-java/carousel-slide.js" defer></script>-->
 
+<script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
 
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
 
-<!-- close <div class="container"> -->
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
+
 
 </body>
 </html>

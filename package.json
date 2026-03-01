@@ -30,7 +30,9 @@
     "update-fluffy-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js fluffy",
     "update-galahad-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js galahad",
     "update-kayla-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js kayla",
-  
+    "update-ziri-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js ziri",
+
+
     "update-electra-brawls-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js electra-brawls",
     "update-hwde-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js hwde",
     "update-calendar-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js calendar-hwde",
