@@ -203,10 +203,20 @@
   </tr>
 </table>
 </div>
-
-
-
 </section>
+
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="8517307629"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+
+
 
 <section>
   <h2>Kayla Pros and Cons - Hero Wars: Web and Facebook</h2>
@@ -586,6 +596,19 @@
 </div>
 <p><strong>Maya:</strong> Her <em>Poisonous Bonds</em> entangles enemies at the edges of the battlefield, pulling them together and poisoning them. The poison deals significant pure damage over 6 seconds, countering Kayla’s survivability and forcing her out of optimal positioning for Phoenix Glyphs.</p>
 </section>
+
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="7060755724"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+
+
 <section>
   <h2>Kayla Best War Flag Hero Wars</h2>
 <p>Discover the best War Flags for Kayla in Hero Wars: Dominion Era, enhancing her burn damage and boosting team efficiency in front-line battles.</p>
@@ -836,6 +859,18 @@
 </table>
 </div>
 
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="9770850987"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+
+
 
 <section>
 <h2>Conclusion – Kayla Guide Hero Wars: Dominion Era</h2>
@@ -1014,6 +1049,30 @@
     <!--<script src="../../alex-java/carousel-slide.js" defer></script>-->
 
     <script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
+
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
+
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
+
+<script>
 (function() {
     const loadAd = (ad) => {
         if (window.adsbygoogle && !ad.dataset.loaded) {

@@ -220,6 +220,17 @@
 
 </section>
 
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="8517307629"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+
 <section>
 <h2>Galahad Prós e Contras - Hero Wars Web & Facebook</h2>
 
@@ -453,6 +464,18 @@
 </section>
 </div>
 
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="7060755724"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+
+
 <div class="sectionx">
 <section>
 <h2>Prioridade de Evolução dos Glifos do Galahad - Hero Wars: Dominion Era</h2>
@@ -641,6 +664,18 @@
 
 </section>
 </div>
+
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="9770850987"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+
 
 <div class="sectionx">
 <section>
@@ -1046,8 +1081,30 @@
     <script src="../../alex-java/translate07-pt.js" defer></script>
     <!--<script src="../../alex-java/carousel-slide.js" defer></script>-->
 
+<script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
 
-<!-- close <div class="container"> -->
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
+
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
+
 
 </body>
 </html>

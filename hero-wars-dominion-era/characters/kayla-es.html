@@ -204,6 +204,19 @@
 
 </section>
 
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="8517307629"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+
+
+
 <section>
   <h2>Pros y Contras de Kayla - Hero Wars: Web y Facebook</h2>
 
@@ -576,6 +589,18 @@
 <p><strong>Maya:</strong> Sus <em>Lazos Venenosos</em> atrapan a los enemigos en los bordes del campo de batalla, uniéndolos y envenenándolos. El veneno causa daño puro significativo durante 6 segundos, contrarrestando la supervivencia de Kayla y forzándola fuera de la posición óptima para los Glifos de Fénix.</p>
 </section>
 
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="7060755724"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+
+
 <section>
   <h2>Mejor Bandera de Guerra para Kayla - Hero Wars</h2>
 <p>Descubre las mejores Banderas de Guerra para Kayla en Hero Wars: Dominion Era, potenciando su daño por quemadura y la eficiencia del equipo en combates de primera línea.</p>
@@ -748,6 +773,18 @@
 </table>
 </div>
 
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="9770850987"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+
+
 <section>
 <h2>Conclusión – Guía de Kayla Hero Wars: Dominion Era</h2>
 <p>Kayla es una poderosa guerrera de primera línea capaz de causar daño masivo por quemadura mientras controla las retaguardias enemigas. Sus Glifos de Fénix y Chispas Furiosas la convierten en una amenaza constante, especialmente cuando se combina con las mascotas, Banderas de Guerra y artefactos adecuados.</p>
@@ -843,6 +880,31 @@
     <script src="../../alex-java/graphcomments-07z.js" defer></script>
     <script src="../../alex-java/share-global-es.js" defer></script>
     <script src="../../alex-java/translate07-es.js" defer></script>
+
+<script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
+
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
+
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
+
 
 </body>
 </html>

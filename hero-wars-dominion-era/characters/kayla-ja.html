@@ -186,10 +186,20 @@
   </tr>
 </table>
 </div>
-
-
-
 </section>
+
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="8517307629"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+
+
 
 <section>
   <h2>カイラのメリットとデメリット - ヒーローウォーズ Web＆Facebook</h2>
@@ -569,6 +579,19 @@
 </div>
 <p><strong>マヤ:</strong> 彼女の<em>毒の束縛</em>は戦場の端にいる敵を絡め取り、引き寄せて毒を与えます。毒は6秒間にわたって大きなピュアダメージを与え、カイラの生存力に対抗し、フェニックスの紋章に最適なポジショニングから追い出します。</p>
 </section>
+
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="7060755724"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+
+
 <section>
   <h2>カイラのベスト戦旗 ヒーローウォーズ</h2>
 <p>ヒーローウォーズ ドミニオン エラでカイラに最適な戦旗を見つけましょう。燃焼ダメージを強化し、前線バトルでのチーム効率をブーストします。</p>
@@ -819,6 +842,17 @@
 </table>
 </div>
 
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="9770850987"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+
 
 <section>
 <h2>まとめ – カイラ攻略ガイド ヒーローウォーズ ドミニオン エラ</h2>
@@ -939,6 +973,31 @@
     <script src="../../alex-java/graphcomments-07z.js" defer></script>
     <script src="../../alex-java/share-global-ja.js" defer></script>
     <script src="../../alex-java/translate07-ja.js" defer></script>
+
+<script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
+
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
+
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
+
 
 </body>
 </html>
