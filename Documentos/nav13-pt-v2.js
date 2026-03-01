@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totems-guide-pt.html">🗿 Guia de Totens</a>
 <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totem-fusion-skills-pt.html">⚡ Fusão de Totens – Ranking</a>
 
-<a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-pt.html">🏝️ Ilha Misteriosa Fev. 2026</a>
+<a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-pt.html">🏝️ Ilha Misteriosa Mar. 2026</a>
 <a class="expandable-menu" onclick="toggleSubmenu(event, 'pet-maps-pt')">Mapas de Aventura de Pet</a>
 <div id="pet-maps-pt" class="submenu-items">
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu/adventure-map-guide-pt.html">Todos os Mapas</a>

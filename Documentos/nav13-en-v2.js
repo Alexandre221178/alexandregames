@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html">📖 Heroes Guide</a>
     <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-en.html">🏆 Heroes Tier List</a>
      
-    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-en.html">🏝️ Mysterious Island Feb, 2026</a>
+    <a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-en.html">🏝️ Mysterious Island Mar, 2026</a>
    
 <a class="expandable-menu" onclick="toggleSubmenu(event, 'pet-maps')">Pet Adventure Maps</a>
     <div id="pet-maps" class="submenu-items">

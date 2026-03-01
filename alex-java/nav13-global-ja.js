@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="https://alexandregames.com/hero-wars-dominion-era/guide/best-war-flag-en.html">⚔️ ベストウォーフラッグ</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html">📖 ヒーローガイド</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-en.html">🏆 ヒーローティアリスト</a>
-        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-ja.html">🏝️ ミステリアスアイランド 2026年2月</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-ja.html">🏝️ ミステリアスアイランド 2026年3月</a>
         <a class="expandable-menu" onclick="toggleSubmenu(event, 'pet-maps')">ペットアドベンチャーマップ</a>
         <div id="pet-maps" class="submenu-items">
             <a href="https://alexandregames.com/hero-wars-dominion-era/menu/adventure-map-guide-en.html">全マップガイド</a>
