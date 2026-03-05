@@ -2,6 +2,7 @@
 {
   "name": "alexandregames",
   "npm": "npm run update-",
+  "node": "node html_checker.js",
   "version": "1.0.0",
   "description": "Alexandre Games Blog Website!\r This repository contains the source code for the website www.alexandregames.com, a project created by Alexandre Domingos. The website is built using HTML and represents a dream come true for Alexandre, who started from scratch, studying code and learning along the way.",
   "main": "main.js",
