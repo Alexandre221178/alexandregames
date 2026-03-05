@@ -244,9 +244,24 @@ window.CALENDAR_DATA = [
         noStrip: true
       },  
       {
-        titles: { en: "Kayla Brawls Best Teams", pt: "Melhores Equipes da Kayla", de: "Beste Teams von Kayla", es: "Mejores Equipos de Kayla", fr: "Meilleures Équipes de Kayla", ja: "カイラの乱闘ベストチーム" },
-        labelOnly: true
-      },
+  titles: {
+    en: "Best Teams for Kayla Brawls",
+    pt: "Melhores Equipes para o Brawl da Kayla",
+    de: "Beste Teams für Kaylas Brawl",
+    es: "Mejores Equipos para el Brawl de Kayla",
+    fr: "Meilleures Équipes pour le Brawl de Kayla",
+    ja: "カイラのブロウル最強チーム"
+  },
+  links: {
+    en: "../../hero-wars-dominion-era/hero-brawls/kayla-brawls-en.html",
+    pt: "",
+    de: "",
+    es: "",
+    fr: "",
+    ja: ""
+  },
+  noStrip: true
+},
       
     ]
   },
@@ -269,9 +284,24 @@ window.CALENDAR_DATA = [
         noStrip: true
       },  
       {
-        titles: { en: "Kayla Brawls Best Teams", pt: "Melhores Equipes da Kayla", de: "Beste Teams von Kayla", es: "Mejores Equipos de Kayla", fr: "Meilleures Équipes de Kayla", ja: "カイラの乱闘ベストチーム" },
-        labelOnly: true
-      },
+  titles: {
+    en: "Best Teams for Kayla Brawls",
+    pt: "Melhores Equipes para o Brawl da Kayla",
+    de: "Beste Teams für Kaylas Brawl",
+    es: "Mejores Equipos para el Brawl de Kayla",
+    fr: "Meilleures Équipes pour le Brawl de Kayla",
+    ja: "カイラのブロウル最強チーム"
+  },
+  links: {
+    en: "../../hero-wars-dominion-era/hero-brawls/kayla-brawls-en.html",
+    pt: "",
+    de: "",
+    es: "",
+    fr: "",
+    ja: ""
+  },
+  noStrip: true
+},
 
       
     ]
@@ -295,10 +325,24 @@ window.CALENDAR_DATA = [
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
       },
       {
-        titles: { en: "Kayla Brawls Best Teams", pt: "Melhores Equipes da Kayla", de: "Beste Teams von Kayla", es: "Mejores Equipos de Kayla", fr: "Meilleures Équipes de Kayla", ja: "カイラの乱闘ベストチーム" },
-        labelOnly: true
-      },
-      
+  titles: {
+    en: "Best Teams for Kayla Brawls",
+    pt: "Melhores Equipes para o Brawl da Kayla",
+    de: "Beste Teams für Kaylas Brawl",
+    es: "Mejores Equipos para el Brawl de Kayla",
+    fr: "Meilleures Équipes pour le Brawl de Kayla",
+    ja: "カイラのブロウル最強チーム"
+  },
+  links: {
+    en: "../../hero-wars-dominion-era/hero-brawls/kayla-brawls-en.html",
+    pt: "",
+    de: "",
+    es: "",
+    fr: "",
+    ja: ""
+  },
+  noStrip: true
+},
       
     ]
   },

@@ -1,6 +1,16 @@
 (function(){
   // Carousel multi-language injector (HWDE specific copy)
   const slides = [
+    
+    {
+      link: "../../hero-wars-dominion-era/characters/kayla-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/kayla/kayla-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/kayla/kayla-400px.webp",
+      alt: "Kayla Guide for Hero Wars: Dominion Era",
+      title: "Kayla Guide for Hero Wars: Dominion Era.",
+      strong: "Kayla Guide - Hero Wars: Dominion Era",
+      updated: "Updated: February, 2026."
+    },
     {
       link: "../../hero-wars-dominion-era/characters/galahad-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/galahad/galahad-500px.webp",
