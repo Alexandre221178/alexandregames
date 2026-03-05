@@ -1048,29 +1048,7 @@
     <script src="../../alex-java/translate07-en.js" defer></script>
     <!--<script src="../../alex-java/carousel-slide.js" defer></script>-->
 
-    <script>
-(function() {
-    const loadAd = (ad) => {
-        if (window.adsbygoogle && !ad.dataset.loaded) {
-            ad.dataset.loaded = "true";
-            window.adsbygoogle.push({});
-        }
-    };
-
-    const adObserver = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                loadAd(entry.target);
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { rootMargin: '500px' });
-
-    document.querySelectorAll('.ads-lazy').forEach(ad => {
-        adObserver.observe(ad);
-    });
-})();
-</script>
+    
 
 <script>
 (function() {
