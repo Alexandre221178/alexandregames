@@ -20,6 +20,10 @@
 <link rel="alternate" hreflang="en" href="https://alexandregames.com/hero-wars-dominion-era/events/guardians-of-outland-en.html">
 <link rel="alternate" hreflang="x-default" href="https://alexandregames.com/hero-wars-dominion-era/events/guardians-of-outland-en.html">
 <link rel="alternate" hreflang="pt" href="https://alexandregames.com/hero-wars-dominion-era/events/guardians-of-outland-pt.html">
+<link rel="alternate" hreflang="es" href="https://alexandregames.com/hero-wars-dominion-era/events/guardians-of-outland-es.html">
+<link rel="alternate" hreflang="de" href="https://alexandregames.com/hero-wars-dominion-era/events/guardians-of-outland-de.html">
+<link rel="alternate" hreflang="ja" href="https://alexandregames.com/hero-wars-dominion-era/events/guardians-of-outland-ja.html">
+<link rel="alternate" hreflang="fr" href="https://alexandregames.com/hero-wars-dominion-era/events/guardians-of-outland-fr.html">
 
 <!-- Open Graph Tags -->
 <meta property="og:title" content="Guardians of Outland Event Guide – Hero Wars: Dominion Era">
@@ -82,12 +86,8 @@
      
 <div class="container">
 <div id="menu-container"></div><!-- Contêiner do menu -->
-    <!-- Botão de troca de idioma -->
-    <!-- O menu <nav></nav> será inserido aqui pelo JavaScript -->
-    <!-- Colocar link pag. Português.html - O link fica definido aqui no HTML Botão de troca de idioma -->
-<a href="../../hero-wars-dominion-era/events/guardians-of-outland-pt.html" class="language-link" style="display:none;"></a>
-<script src="../../Documentos/nav13-en-v2.js" defer></script>
-<script src="../../Documentos/lazy-load.js"></script>
+<script src="../../alex-java/nav13-global-en.js" defer></script>
+<script src="../../alex-java/lazy-load.js"></script>
       
   
   <header>          
@@ -215,6 +215,16 @@
   </tbody>
 </table>
 
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="8517307629"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
 
 
   <h3>🏅 2. The Path of Glory</h3>
@@ -1689,11 +1699,37 @@
   <!-- Fim do Footer Alexandre Games -->
   <!------------- Fim Footer Alexandre Games ------------->
 
-    <script src="../../alex-java/cookies-07z-en.js" defer></script>
+   <script src="../../alex-java/cookies-07z-en.js" defer></script>
     <script src="../../alex-java/footer-07z-en.js" defer></script>
     <script src="../../alex-java/graphcomments-07z.js" defer></script>
-    <script src="../../Documentos/share-en-reddit.js" defer></script>
+    <script src="../../alex-java/share-global-en.js" defer></script>
     <script src="../../alex-java/translate07-en.js" defer></script>
+    <!--<script src="../../alex-java/carousel-slide.js" defer></script>-->
+
+    <script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
+
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
+
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
+
 
 </body>
 </html>
