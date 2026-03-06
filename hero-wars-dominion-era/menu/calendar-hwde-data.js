@@ -352,7 +352,7 @@ window.CALENDAR_DATA = [
     image: "../../hero-wars-dominion-era/images/events/guardians-of-outland/guardians-of-outland-150px.webp",
     alt: "Guardians of Outland",
     titles: { en: "Guardians of Outland", pt: "Guardiões da Fronteira", de: "Wächter des Außenlands", es: "Guardianes de la Frontera", fr: "Gardiens de l'Outreterre", ja: "アウトランドの守護者" },
-    links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "", es: "", fr: "", ja: "" },
+    links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
     noStrip: true,
     extra: [
       {
@@ -377,7 +377,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
         titles: { en: "Guardians of Outland", pt: "Guardiões da Fronteira", de: "Wächter des Außenlands", es: "Guardianes de la Frontera", fr: "Gardiens de l'Outreterre", ja: "アウトランドの守護者" },
-        links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "", es: "", fr: "", ja: "" },
+        links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
         noStrip: true
       },
       
@@ -403,7 +403,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
         titles: { en: "Guardians of Outland", pt: "Guardiões da Fronteira", de: "Wächter des Außenlands", es: "Guardianes de la Frontera", fr: "Gardiens de l'Outreterre", ja: "アウトランドの守護者" },
-        links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "", es: "", fr: "", ja: "" },
+        links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
         noStrip: true
       },
       
@@ -698,7 +698,7 @@ window.CALENDAR_DATA = [
     image: "../../hero-wars-dominion-era/images/events/guardians-of-outland/guardians-of-outland-150px.webp",
     alt: "Guardians of Outland",
     titles: { en: "Guardians of Outland", pt: "Guardiões da Fronteira", de: "Wächter des Außenlands", es: "Guardianes de la Frontera", fr: "Gardiens de l'Outreterre", ja: "アウトランドの守護者" },
-    links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "", es: "", fr: "", ja: "" },
+     links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
     noStrip: true,
     extra: [
       {
@@ -731,7 +731,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
         titles: { en: "Guardians of Outland", pt: "Guardiões da Fronteira", de: "Wächter des Außenlands", es: "Guardianes de la Frontera", fr: "Gardiens de l'Outreterre", ja: "アウトランドの守護者" },
-        links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "", es: "", fr: "", ja: "" },
+         links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
         noStrip: true
       },
       {
@@ -752,7 +752,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
         titles: { en: "Guardians of Outland", pt: "Guardiões da Fronteira", de: "Wächter des Außenlands", es: "Guardianes de la Frontera", fr: "Gardiens de l'Outreterre", ja: "アウトランドの守護者" },
-        links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "", es: "", fr: "", ja: "" },
+         links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
         noStrip: true
       },
       {
