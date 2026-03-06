@@ -1,6 +1,15 @@
 (function(){
   // Carousel multi-language injector (HWDE specific copy)
   const slides = [
+    {
+      link: "../../hero-wars-dominion-era/characters/arachne-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/arachne/arachne-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/arachne/arachne-400px.webp",
+      alt: "Arachne Guide for Hero Wars: Dominion Era",
+      title: "Arachne Guide for Hero Wars: Dominion Era.",
+      strong: "Arachne Guide - Hero Wars: Dominion Era",
+      updated: "Updated: February, 2026."
+    },
     
     {
       link: "../../hero-wars-dominion-era/characters/kayla-en.html",

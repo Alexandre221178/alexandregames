@@ -24,8 +24,12 @@
     "update-hwa-index-hwa": "node hero-wars-alliance/update-data-menu-hwa.js home hwa-index",
     
     "update-mysterious-island-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js mysterious-island",
+    
+    
     "update-aidan-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js aidan",
-     "update-elmir-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js elmir",
+    "update-arachne-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js arachne",
+   
+    "update-elmir-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js elmir",
   
     "update-augustus-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js augustus",
     "update-fluffy-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js fluffy",
