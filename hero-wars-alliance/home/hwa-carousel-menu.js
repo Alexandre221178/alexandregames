@@ -2,13 +2,22 @@
   // Carousel multi-language injector (HWA specific copy)
   const slides = [
     {
+      link: "../../hero-wars-alliance/characters-guide/byrna-en.html",
+      src500: "../../hero-wars-alliance/images/hero/byrna/byrna-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/byrna/byrna-400px.webp",
+      alt: "Byrna Legendary Skills Guide for Hero Wars Alliance",
+      title: "Byrna Guide for Hero Wars Alliance",
+      strong: "Byrna Legendary Guide Skills Guide for Hero Wars Alliance (skin+)",
+      updated: "Updated(skin+): March, 2026."
+    },
+    {
       link: "../../hero-wars-alliance/guide/realm-en.html",
       src500: "../../hero-wars-alliance/images/guides/realm/realm-guide-500px.webp",
       src400: "../../hero-wars-alliance/images/guides/realm/realm-guide-400px.webp",
       alt: "Realm Mode Guide for Hero Wars Alliance",
       title: "Realm Mode Guide for Hero Wars Alliance",
       strong: "Complete Realm Mode Guide for Hero Wars Alliance",
-      updated: "Updated: February, 2026."
+      updated: "Updated: March, 2026."
     },
     {
       link: "../../hero-wars-alliance/characters-guide/leonel-en.html",
