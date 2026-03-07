@@ -2,6 +2,15 @@
   // Carousel multi-language injector (HWA specific copy)
   const slides = [
     {
+      link: "../../hero-wars-alliance/characters-guide/oya-en.html",
+      src500: "../../hero-wars-alliance/images/hero/oya/oya-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/oya/oya-400px.webp",
+      alt: "Oya Legendary Skills Guide for Hero Wars Alliance",
+      title: "Oya Guide for Hero Wars Alliance",
+      strong: "Oya Legendary Guide Skills for Hero Wars Alliance",
+      updated: "Updated: March, 2026."
+    },
+    {
       link: "../../hero-wars-alliance/characters-guide/byrna-en.html",
       src500: "../../hero-wars-alliance/images/hero/byrna/byrna-500px.webp",
       src400: "../../hero-wars-alliance/images/hero/byrna/byrna-400px.webp",
@@ -102,55 +111,66 @@
     pt: {
       updatedPrefix: 'Atualizado:',
       map: {
-        
+        'Oya Legendary Guide Skills for Hero Wars Alliance': 'Guia de Habilidades Lendárias de Oya para Hero Wars Alliance',
         'Complete Realm Mode Guide for Hero Wars Alliance': 'Guia Completo do Modo Reino para Hero Wars Alliance',
         'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance': 'Guia do Titã Umbra: Domine o Invocador da Escuridão para Hero Wars Alliance',
         'Dante Complete Legendary Skills Guide for Hero Wars Alliance': 'Guia Completo de Habilidades Lendárias de Dante para Hero Wars Alliance',
         'Drayne Complete Guide for Hero Wars Alliance': 'Guia Completo de Drayne para Hero Wars Alliance',
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Guia Completo de Relíquia Lendária de Yasmine para Hero Wars Alliance',
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guia de Byrna: Liberte o Espírito do Urso Curador em Hero Wars: Alliance',
-        'Redeem your Daily Gifts for Hero Wars Alliance': 'Resgate seus Presentes Diários para Hero Wars Alliance'
+        'Redeem your Daily Gifts for Hero Wars Alliance': 'Resgate seus Presentes Diários para Hero Wars Alliance',
+        'everyday': 'todos os dias',
       }
     },
     es: {
       updatedPrefix: 'Actualizado:',
       map: {
-        "Complete Realm Mode Guide for Hero Wars Alliance": "Guía Completa del Modo Reino para Hero Wars Alliance",
+        'Oya Legendary Guide Skills for Hero Wars Alliance': 'Guía de Habilidades Legendarias de Oya para Hero Wars Alliance',
+        'Complete Realm Mode Guide for Hero Wars Alliance': 'Guía Completa del Modo Reino para Hero Wars Alliance',
         'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance': 'Guía del Titán Umbra: Domina al Invocador de la Oscuridad para Hero Wars Alliance',
         'Dante Complete Legendary Skills Guide for Hero Wars Alliance': 'Guía Completa de Habilidades Legendarias de Dante para Hero Wars Alliance',
         'Drayne Complete Guide for Hero Wars Alliance': 'Guía Completa de Drayne para Hero Wars Alliance',
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Guía Completa de Reliquia Legendaria de Yasmine para Hero Wars Alliance',
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guía de Byrna: Libera el Espíritu del Oso Sanador en Hero Wars: Alliance',
-        'Redeem your Daily Gifts for Hero Wars Alliance': 'Canjea tus Regalos Diarios para Hero Wars Alliance'
+        'Redeem your Daily Gifts for Hero Wars Alliance': 'Canjea tus Regalos Diarios para Hero Wars Alliance',
+        'everyday': 'todos los días',
       }
     },
     fr: {
       updatedPrefix: 'Mis à jour:',
       map: {
+        'Oya Legendary Guide Skills for Hero Wars Alliance': 'Guide des Compétences Légendaires d\'Oya pour Hero Wars Alliance',
         'Complete Realm Mode Guide for Hero Wars Alliance': 'Guide Complet du Mode Royaume pour Hero Wars Alliance',
         'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance': 'Guide du Titan Umbra: Maîtrisez l\'Invocateur des Ténèbres pour Hero Wars Alliance',
         'Dante Complete Legendary Skills Guide for Hero Wars Alliance': 'Guide Complet des Compétences Légendaires de Dante pour Hero Wars Alliance',
         'Drayne Complete Guide for Hero Wars Alliance': 'Guide Complet de Drayne pour Hero Wars Alliance',
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Guide Complet de Relique Légendaire de Yasmine pour Hero Wars Alliance',
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guide de Byrna: Libérez l\'Esprit de l\'Ours Guérisseur dans Hero Wars: Alliance',
-        'Redeem your Daily Gifts for Hero Wars Alliance': 'Échangez vos Cadeaux Quotidiens pour Hero Wars Alliance'
+        'Redeem your Daily Gifts for Hero Wars Alliance': 'Échangez vos Cadeaux Quotidiens pour Hero Wars Alliance',
+        'everyday': 'tous les jours',
       }
     },
     ja: {
       updatedPrefix: '更新:',
       map: {
+        'Oya Legendary Guide Skills for Hero Wars Alliance': 'オヤの伝説的なスキルガイド ヒーローウォーズ アライアンス',
         'Complete Realm Mode Guide for Hero Wars Alliance': 'ヒーローウォーズアライアンスの完全なレルムモードガイド',
         'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance': 'アンブラ タイタン ガイド: 光の召喚師をマスター 向け ヒーローウォーズ アライアンス',
         'Dante Complete Legendary Skills Guide for Hero Wars Alliance': 'ダンテ 完全 レジェンダリー スキル ガイド 向け ヒーローウォーズ アライアンス',
         'Drayne Complete Guide for Hero Wars Alliance': 'ドレイン 完全ガイド 向け ヒーローウォーズ アライアンス',
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'ヤスミン レジェンダリー レリック 完全ガイド 向け ヒーローウォーズ アライアンス',
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'バーナ ガイド: ヒーラーベアスピリットを解放 in ヒーローウォーズ: アライアンス',
-        'Redeem your Daily Gifts for Hero Wars Alliance': '毎日のギフトを受け取る 向け ヒーローウォーズ アライアンス'
+        'Redeem your Daily Gifts for Hero Wars Alliance': '毎日のギフトを受け取る 向け ヒーローウォーズ アライアンス',
+        'for': '向け',
+        'skin': 'スキン',
+        'everyday': '毎日',
+        'hero wars alliance': 'ヒーローウォーズ アライアンス',
       }
     },
     de: {
       updatedPrefix: 'Aktualisiert:',
       map: {
+        'Oya Legendary Guide Skills for Hero Wars Alliance': 'Oya Legendäre Fähigkeiten Guide für Hero Wars Alliance',
         'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance': 'Umbra Titan Leitfaden: Meistere den Dunkelheisinvokator für Hero Wars Alliance',
         'Dante Complete Legendary Skills Guide for Hero Wars Alliance': 'Vollständiger Leitfaden zu Legendären Fähigkeiten von Dante für Hero Wars Alliance',
         'Drayne Complete Guide for Hero Wars Alliance': 'Vollständiger Leitfaden zu Drayne für Hero Wars Alliance',

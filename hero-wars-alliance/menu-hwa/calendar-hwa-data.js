@@ -501,17 +501,23 @@ window.CALENDAR_DATA = [
     titles: { en: "Skin+ Event", de: "Skin+ Event", es: "Evento Skin+", fr: "Événement Skin+", pt: "Evento Skin+", ja: "スキン+ イベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "" },
     extra: [
-        
-
+       {
+       titles: { en: "Oya Guide", de: "Oya Leitfaden", es: "Oya - Guía", fr: "Oya - Guide", pt: "Guia - Oya", ja: "オヤ - ガイド" },
+       links: { en: "../characters-guide/oya-en.html", de: "../characters-guide/oya-de.html", es: "../characters-guide/oya-es.html", fr: "../characters-guide/oya-fr.html", pt: "../characters-guide/oya-pt.html", ja: "../characters-guide/oya-ja.html" },
+       noStrip: true
+      },    
 {
- titles: { en: "Byrna Tribal Skin", pt: "Byrna Tribal - Skin+", de: "Byrna Tribal - Skin+", es: "Byrna Tribal - Skin+", fr: "Byrna - Skin+", ja: "バーンラ（トライバルスキン＋）" },
-  labelOnly: true
-},
+       titles: { en: "Byrna Tribal Skin", de: "Byrna Tribal Skin", es: "Byrna Tribal Skin", fr: "Byrna Tribal Skin", pt: "Byrna Tribal Skin", ja: "バーンラ（トライバルスキン＋）" },
+       links: { en: "../characters-guide/byrna-en.html", de: "../characters-guide/byrna-de.html", es: "../characters-guide/byrna-es.html", fr: "../characters-guide/byrna-fr.html", pt: "../characters-guide/byrna-pt.html", ja: "../characters-guide/byrna-ja.html" },       
+       noStrip: true
+      },   
+
     
 {
  titles: { en: "Mushy & Shroom Tribal Skin", pt: "Mushy & Shroom Tribal Skin", de: "Mushy & Shroom Tribal Skin", es: "Mushy & Shroom Tribal Skin", fr: "Mushy & Shroom Tribal Skin", ja: "マッシー＆シュルーム トライバル スキン" },
   labelOnly: true
-},       
+},    
+
              
     ]
   },
@@ -523,17 +529,23 @@ window.CALENDAR_DATA = [
     titles: { en: "Skin+ Event", de: "Skin+ Event", es: "Evento Skin+", fr: "Événement Skin+", pt: "Evento Skin+", ja: "スキン+ イベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "" },
     extra: [
-      
+      {
+       titles: { en: "Oya Guide", de: "Oya Leitfaden", es: "Oya - Guía", fr: "Oya - Guide", pt: "Guia - Oya", ja: "オヤ - ガイド" },
+       links: { en: "../characters-guide/oya-en.html", de: "../characters-guide/oya-de.html", es: "../characters-guide/oya-es.html", fr: "../characters-guide/oya-fr.html", pt: "../characters-guide/oya-pt.html", ja: "../characters-guide/oya-ja.html" },
+       noStrip: true
+      },   
   
 {
- titles: { en: "Byrna Tribal Skin", pt: "Byrna Tribal - Skin+", de: "Byrna Tribal - Skin+", es: "Byrna Tribal - Skin+", fr: "Byrna - Skin+", ja: "バーンラ（トライバルスキン＋）" },
-  labelOnly: true
-},   
+       titles: { en: "Byrna Tribal Skin", de: "Byrna Tribal Skin", es: "Byrna Tribal Skin", fr: "Byrna Tribal Skin", pt: "Byrna Tribal Skin", ja: "バーンラ（トライバルスキン＋）" },
+      links: { en: "../characters-guide/byrna-en.html", de: "../characters-guide/byrna-de.html", es: "../characters-guide/byrna-es.html", fr: "../characters-guide/byrna-fr.html", pt: "../characters-guide/byrna-pt.html", ja: "../characters-guide/byrna-ja.html" },              noStrip: true
+      },   
+ 
 
 {
  titles: { en: "Mushy & Shroom Tribal Skin", pt: "Mushy & Shroom Tribal Skin", de: "Mushy & Shroom Tribal Skin", es: "Mushy & Shroom Tribal Skin", fr: "Mushy & Shroom Tribal Skin", ja: "マッシー＆シュルーム トライバル スキン" },
   labelOnly: true
-},       
+},     
+
              
     ]
   },
@@ -552,15 +564,16 @@ window.CALENDAR_DATA = [
        },  
        {
        titles: { en: "Oya Guide", de: "Oya Leitfaden", es: "Oya - Guía", fr: "Oya - Guide", pt: "Guia - Oya", ja: "オヤ - ガイド" },
-       links: { en: "../characters-guide/oya-en.html", de: "", es: "", fr: "", pt: "../characters-guide/oya-pt.html", ja: "" },       
+       links: { en: "../characters-guide/oya-en.html", de: "../characters-guide/oya-de.html", es: "../characters-guide/oya-es.html", fr: "../characters-guide/oya-fr.html", pt: "../characters-guide/oya-pt.html", ja: "../characters-guide/oya-ja.html" },
        noStrip: true
       }, 
       
     
 {
- titles: { en: "Byrna Tribal Skin", pt: "Byrna Tribal - Skin+", de: "Byrna Tribal - Skin+", es: "Byrna Tribal - Skin+", fr: "Byrna - Skin+", ja: "バーンラ（トライバルスキン＋）" },
-  labelOnly: true
-},   
+       titles: { en: "Byrna Tribal Skin", de: "Byrna Tribal Skin", es: "Byrna Tribal Skin", fr: "Byrna Tribal Skin", pt: "Byrna Tribal Skin", ja: "バーンラ（トライバルスキン＋）" },
+      links: { en: "../characters-guide/byrna-en.html", de: "../characters-guide/byrna-de.html", es: "../characters-guide/byrna-es.html", fr: "../characters-guide/byrna-fr.html", pt: "../characters-guide/byrna-pt.html", ja: "../characters-guide/byrna-ja.html" },              noStrip: true
+      },   
+ 
   
 {
  titles: { en: "Mushy & Shroom Tribal Skin", pt: "Mushy & Shroom Tribal Skin", de: "Mushy & Shroom Tribal Skin", es: "Mushy & Shroom Tribal Skin", fr: "Mushy & Shroom Tribal Skin", ja: "マッシー＆シュルーム トライバル スキン" },
@@ -589,9 +602,9 @@ window.CALENDAR_DATA = [
        },  
        {
        titles: { en: "Oya Guide", de: "Oya Leitfaden", es: "Oya - Guía", fr: "Oya - Guide", pt: "Guia - Oya", ja: "オヤ - ガイド" },
-       links: { en: "../characters-guide/oya-en.html", de: "", es: "", fr: "", pt: "../characters-guide/oya-pt.html", ja: "" },       
+       links: { en: "../characters-guide/oya-en.html", de: "../characters-guide/oya-de.html", es: "../characters-guide/oya-es.html", fr: "../characters-guide/oya-fr.html", pt: "../characters-guide/oya-pt.html", ja: "../characters-guide/oya-ja.html" },       
        noStrip: true
-      }, 
+      },   
        
     ]
   },
@@ -615,7 +628,7 @@ window.CALENDAR_DATA = [
        },  
        {
        titles: { en: "Oya Guide", de: "Oya Leitfaden", es: "Oya - Guía", fr: "Oya - Guide", pt: "Guia - Oya", ja: "オヤ - ガイド" },
-       links: { en: "../characters-guide/oya-en.html", de: "", es: "", fr: "", pt: "../characters-guide/oya-pt.html", ja: "" },       
+       links: { en: "../characters-guide/oya-en.html", de: "../characters-guide/oya-de.html", es: "../characters-guide/oya-es.html", fr: "../characters-guide/oya-fr.html", pt: "../characters-guide/oya-pt.html", ja: "../characters-guide/oya-ja.html" },
        noStrip: true
       }, 
        
@@ -629,18 +642,14 @@ window.CALENDAR_DATA = [
     titles: { en: "Way of Nature Guide", de: "Weg der Natur Leitfaden", es: "Camino de la Naturaleza Guía", fr: "Chemin de la Nature Guide", pt: "Caminho da Natureza Guia", ja: "自然の道 ガイド" },
     links: { en: "../../hero-wars-alliance/event-hwa/way-of-nature-en-hwa.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-nature-pt-hwa.html", ja: "" },
     extra: [
-     { titles: { en: "Oya - Shop", de: "Oya - Shop", es: "Oya - Tienda", fr: "Oya - Boutique", pt: "Oya - Loja", ja: "オヤショップ" }, 
-     links: { en: "https://alexandregames.com/hero-wars-alliance/characters-guide/oya-en.html", de: "", es: "", fr: "", pt: "https://alexandregames.com/hero-wars-alliance/characters-guide/oya-pt.html", ja: "" }
-       ,
-      noStrip: true
-       },
+     
        {
         titles: { en: "Oya - Relic Event", de: "Oya - Relikt-Ereignis", es: "Oya - Evento de Reliquia", fr: "Oya - Événement des Reliques", pt: "Oya - Evento de Relíquia", ja: "オヤ - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
        },  
        {
        titles: { en: "Oya Guide", de: "Oya Leitfaden", es: "Oya - Guía", fr: "Oya - Guide", pt: "Guia - Oya", ja: "オヤ - ガイド" },
-       links: { en: "../characters-guide/oya-en.html", de: "", es: "", fr: "", pt: "../characters-guide/oya-pt.html", ja: "" },       
+       links: { en: "../characters-guide/oya-en.html", de: "../characters-guide/oya-de.html", es: "../characters-guide/oya-es.html", fr: "../characters-guide/oya-fr.html", pt: "../characters-guide/oya-pt.html", ja: "../characters-guide/oya-ja.html" },
        noStrip: true
       }, 
        
@@ -664,10 +673,11 @@ window.CALENDAR_DATA = [
        },  
        {
        titles: { en: "Oya Guide", de: "Oya Leitfaden", es: "Oya - Guía", fr: "Oya - Guide", pt: "Guia - Oya", ja: "オヤ - ガイド" },
-       links: { en: "../characters-guide/oya-en.html", de: "", es: "", fr: "", pt: "../characters-guide/oya-pt.html", ja: "" },       
+       links: { en: "../characters-guide/oya-en.html", de: "../characters-guide/oya-de.html", es: "../characters-guide/oya-es.html", fr: "../characters-guide/oya-fr.html", pt: "../characters-guide/oya-pt.html", ja: "../characters-guide/oya-ja.html" },
        noStrip: true
-      }, 
+      },   
           
+
      
     ]
   },
@@ -689,9 +699,9 @@ window.CALENDAR_DATA = [
        },  
        {
        titles: { en: "Oya Guide", de: "Oya Leitfaden", es: "Oya - Guía", fr: "Oya - Guide", pt: "Guia - Oya", ja: "オヤ - ガイド" },
-       links: { en: "../characters-guide/oya-en.html", de: "", es: "", fr: "", pt: "../characters-guide/oya-pt.html", ja: "" },       
+       links: { en: "../characters-guide/oya-en.html", de: "../characters-guide/oya-de.html", es: "../characters-guide/oya-es.html", fr: "../characters-guide/oya-fr.html", pt: "../characters-guide/oya-pt.html", ja: "../characters-guide/oya-ja.html" },
        noStrip: true
-      }, 
+      },   
           
      
     ]
@@ -714,9 +724,9 @@ window.CALENDAR_DATA = [
        },  
        {
        titles: { en: "Oya Guide", de: "Oya Leitfaden", es: "Oya - Guía", fr: "Oya - Guide", pt: "Guia - Oya", ja: "オヤ - ガイド" },
-       links: { en: "../characters-guide/oya-en.html", de: "", es: "", fr: "", pt: "../characters-guide/oya-pt.html", ja: "" },       
+       links: { en: "../characters-guide/oya-en.html", de: "../characters-guide/oya-de.html", es: "../characters-guide/oya-es.html", fr: "../characters-guide/oya-fr.html", pt: "../characters-guide/oya-pt.html", ja: "../characters-guide/oya-ja.html" },
        noStrip: true
-      }, 
+      },   
           
      
     ]
