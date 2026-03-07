@@ -1,0 +1,358 @@
+{
+	"game": "Hero Wars Alliance",
+	"heroes": [
+		{
+			"id": "oya",
+			"name": "Oya",
+			"gender": "female",
+			"role": ["Warrior", "Damage Dealer"],
+			"main_class": "Warrior",
+			"position": "Front Line",
+			"main_stat": "Strength",
+			"how_to_get_soul_stones": "N/A",
+			"hydra_tier_list": "A",
+			"hero_tier_list": "N/A",
+			"faction": "Way of Nature",
+			"realm": {
+				"troop_size": 26943,
+				"buff_infantry": "ainda nao disponivel",
+				"skills": [
+					"Realm Skill 1 - ainda nao disponivel",
+					"Realm Skill 2 - ainda nao disponivel"
+				]
+			},
+			"stats": {
+				"talisman_of_prophecy": {
+					"intelligence": 2857,
+					"agility": 3670,
+					"strength": 17152,
+					"health": 1508923,
+					"physical_attack": 116451,
+					"magic_attack": 23002,
+					"armor": 21955,
+					"magic_defense": 25099.2,
+					"toughness": 1712,
+					"armor_penetration": 10650,
+					"crit_hit_chance": 19677.7,
+					"crushing": 10103
+				},
+				"talisman_of_warrioress": {
+					"intelligence": 2857,
+					"agility": 3670,
+					"strength": 15152,
+					"health": 1428923,
+					"physical_attack": 122451,
+					"magic_attack": 23002,
+					"armor": 21955,
+					"magic_defense": 25099.2,
+					"toughness": 1712,
+					"armor_penetration": 10650,
+					"crit_hit_chance": 12087.7,
+					"crushing": 23303
+				}
+			},
+			"talisman_details": {
+				"talisman_of_prophecy": {
+					"main_stat": "Strength",
+					"main_stat_bonus": 2000,
+					"derived_bonuses": {
+						"physical_attack": 6000,
+						"armor": 2000,
+						"magic_defense": 2000
+					},
+					"reroll_slots": [
+						{ "stat": "Crit hit chance", "value": 2200 },
+						{ "stat": "Crit hit chance", "value": 2200 },
+						{ "stat": "Crit hit chance", "value": 2200 }
+					],
+					"total_reroll_bonus": { "stat": "Crit hit chance", "value": 6600 }
+				},
+				"talisman_of_warrioress": {
+					"main_stat": "Physical attack",
+					"main_stat_bonus": 8000,
+					"derived_bonuses": {
+						"physical_attack": 8000
+					},
+					"reroll_slots": [
+						{ "stat": "Crushing", "value": 4400 },
+						{ "stat": "Crushing", "value": 4400 },
+						{ "stat": "Crushing", "value": 4400 }
+					],
+					"total_reroll_bonus": { "stat": "Crushing", "value": 13200 }
+				},
+				"recommended": "talisman_of_warrioress"
+			},
+			"skills": [
+				{
+					"id": 1,
+					"variant": "base",
+					"level": 120,
+					"name": "Shieldbreaker",
+					"type": ["Physical Damage", "Hunting"],
+					"animation_delay_seconds": 0.78,
+					"range": 100,
+					"damage_formula": "500% Physical Attack + 2400",
+					"scales_with": ["Physical Attack"],
+					"damage_example": 392895,
+					"marked_enemies_damage_portion_percent": 30,
+					"energy_on_kill": 700,
+					"passive_effect": "Shielded enemies take 100% more damage from any of Oya's skills.",
+					"description": "Deals damage to the nearest enemy. All marked enemies also receive 30% damage. Oya gets energy if she kills with this skill.",
+					"evolution_priority": "Very High"
+				},
+				{
+					"id": 1,
+					"variant": "legendary",
+					"relic_level": 10,
+					"unlock_condition": {
+						"unlock_type": "enhancement",
+						"target_skill_id": 1
+					},
+					"name": "Shieldbreaker",
+					"effect": "Additional damage to shielded enemies",
+					"shielded_enemy_damage_portion_percent": 75,
+					"description": "Now 75% of the skill's damage is also dealt to all shielded enemies.",
+					"evolution_priority": "Very High"
+				},
+				{
+					"id": 2,
+					"variant": "base",
+					"level": 120,
+					"name": "Hunting",
+					"type": ["Mark", "Control", "Buff"],
+					"initial_cooldown_seconds": 10,
+					"cooldown_seconds": 25,
+					"animation_delay_seconds": 0.5,
+					"duration_seconds": 5,
+					"critical_hit_chance_bonus_formula": "7.5% Physical Attack + 600",
+					"critical_hit_chance_bonus_example": 6457.42,
+					"critical_hit_chance_bonus_nature_formula": "15% Physical Attack + 1200",
+					"critical_hit_chance_bonus_nature_example": 12914.85,
+					"burned_energy_per_attack_percent": 4,
+					"description": "Marks the enemy with the lowest health as Hunter's prey and lures it. Attacks on the marked target burn energy. Allied heroes being healed increase crit hit chance; Nature heroes receive an increased bonus.",
+					"evolution_priority": "High"
+				},
+				{
+					"id": 3,
+					"variant": "base",
+					"level": 100,
+					"name": "Overwhelming",
+					"type": ["Physical Damage"],
+					"hits": 3,
+					"cooldown_seconds": 15,
+					"animation_delay_seconds": 0.01,
+					"range": 120,
+					"damage_increase_each_hit_formula": "25% Physical Attack + 9600",
+					"damage_increase_each_hit_example": 29124.75,
+					"shielded_enemy_damage_portion_percent": 50,
+					"description": "Performs 3 quick strikes. With each successive hit, damage increases. Shielded enemies behind the main target also receive part of the damage.",
+					"evolution_priority": "High"
+				},
+				{
+					"id": 3,
+					"variant": "legendary",
+					"relic_level": 20,
+					"unlock_condition": {
+						"unlock_type": "enhancement",
+						"target_skill_id": 3
+					},
+					"name": "Overwhelming",
+					"effect": "Burns energy on each hit",
+					"energy_burn_per_hit": 200,
+					"targets": "all shielded enemies",
+					"description": "Each hit of this skill burns 200 energy from all shielded enemies.",
+					"evolution_priority": "Very High"
+				},
+				{
+					"id": 4,
+					"variant": "base",
+					"level": 80,
+					"name": "Brutal Onslaught",
+					"type": ["Heal", "Passive"],
+					"health_regen_formula": "2.5% Health + 600",
+					"health_regen_example": 31831,
+					"health_regen_nature_formula": "5% Health + 1200",
+					"health_regen_nature_example": 61961,
+					"trigger": "When an allied hero deals critical damage or breaks an enemy shield",
+					"description": "Allies restore health when they crit or break a shield. Nature heroes receive an increased bonus.",
+					"evolution_priority": "High"
+				},
+				{
+					"id": 5,
+					"variant": "legendary",
+					"relic_level": 1,
+					"unlock_condition": {
+						"unlock_type": "new_skill"
+					},
+					"name": "Predator Bite",
+					"type": ["Physical Damage", "Legendary"],
+					"description": "Periodically attacks the nearest enemy and all shielded enemies.",
+					"evolution_priority": "High"
+				},
+				{
+					"id": 6,
+					"variant": "legendary",
+					"relic_level": 30,
+					"unlock_condition": {
+						"unlock_type": "new_skill"
+					},
+					"name": "Huntress Fury",
+					"type": ["Passive", "Damage Buff", "Legendary"],
+					"description": "Each time a shield is applied to an enemy, Oya's current damage is temporarily increased. Team-wide shields trigger once per shielded hero.",
+					"evolution_priority": "Very High"
+				}
+			],
+			"artifacts": [
+				{
+					"slot": "Weapon",
+					"name": "Ancestor's Sword",
+					"activation_chance": 100,
+					"crit_hit_chance_bonus": 8898,
+					"evolve": 6,
+					"level": 100,
+					"evolution_priority": "Very High"
+				},
+				{
+					"slot": "Book",
+					"name": "Warrior's Code",
+					"crit_hit_chance": 2967,
+					"physical_attack": 3561,
+					"evolve": 6,
+					"level": 100,
+					"evolution_priority": "High"
+				},
+				{
+					"slot": "Ring",
+					"name": "Ring of Strength",
+					"strength": 3990,
+					"derived_bonuses": {
+						"physical_attack": 3990,
+						"armor": 1330,
+						"magic_defense": 1330
+					},
+					"evolve": 6,
+					"level": 100,
+					"evolution_priority": "High"
+				}
+			],
+			"skins": [
+				{
+					"name": "Default Skin",
+					"stat": "Strength",
+					"bonus": 1365,
+					"evolution_priority": "Very High"
+				},
+				{
+					"name": "Mythical Skin",
+					"stat": "Physical Attack",
+					"bonus": 7095,
+					"evolution_priority": "Very High"
+				},
+				{
+					"name": "Solar Skin",
+					"stat": "Health",
+					"bonus": 213290,
+					"evolution_priority": "High"
+				},
+				{
+					"name": "Winter Skin+",
+					"stat": "Armor",
+					"bonus": 10650,
+					"is_skin_plus": true,
+					"evolution_priority": "Medium"
+				},
+				{
+					"name": "Sport Skin",
+					"stat": "Crushing",
+					"bonus": 5920,
+					"evolution_priority": "Medium"
+				},
+				{
+					"name": "Stellar Skin",
+					"stat": "Armor Penetration",
+					"bonus": 10650,
+					"evolution_priority": "High"
+				},
+				{
+					"name": "Tribal Skin",
+					"stat": "Physical Attack",
+					"bonus": 7095,
+					"evolution_priority": "High"
+				}
+			],
+			"skin_stone_costs": {
+				"stone_type": "strength",
+				"skins": [
+					{ "name": "Default Skin", "cost": 30825, "level": 0 },
+					{ "name": "Mythical Skin", "cost": 50410, "level": 1, "bonus": "Physical attack +400" },
+					{ "name": "Solar Skin", "cost": 50410, "level": 1, "bonus": "Health +6160" },
+					{ "name": "Winter Skin+", "cost": 50410, "level": 1, "bonus": "Armor +600" },
+					{ "name": "Sport Skin", "cost": 50410, "level": 1, "bonus": "Crushing +340" },
+					{ "name": "Stellar Skin", "cost": 50410, "level": 1, "bonus": "Armor penetration +600" },
+					{ "name": "Tribal Skin", "cost": 50410, "level": 1, "bonus": "Physical attack +400" }
+				]
+			},
+			"class_skill": {
+				"class": "Warrior",
+				"name": "Warrior Physical Attack Stack",
+				"level": 45,
+				"overall_class_level": "585/585",
+				"effect": "Every regular attack grants a stack that increases Physical Attack by 32572.92 (8% Physical Attack + 26325) for 16.7 seconds.",
+				"max_stacks": 6
+			},
+			"glyphs": [
+				{
+					"name": "Physical Attack",
+					"level": 80,
+					"bonus": 8340,
+					"evolution_priority": "Very High"
+				},
+				{
+					"name": "Health",
+					"level": 80,
+					"bonus": 122800,
+					"evolution_priority": "High"
+				},
+				{
+					"name": "Crit Hit Chance",
+					"level": 80,
+					"bonus": 4170,
+					"evolution_priority": "High"
+				},
+				{
+					"name": "Magic Defense",
+					"level": 80,
+					"bonus": 12850,
+					"evolution_priority": "Medium"
+				},
+				{
+					"name": "Strength",
+					"level": 80,
+					"bonus": 2110,
+					"evolution_priority": "Medium"
+				}
+			],
+			"gift_of_the_elements": {
+				"level": 30,
+				"strength": 720,
+				"agility": 360,
+				"intelligence": 360
+			},
+			"synergies": [
+				{
+					"name": "Yasmine",
+					"reason": "Provided by source list."
+				},
+				{
+					"name": "Leonel",
+					"reason": "Provided by source list."
+				},
+				{
+					"name": "Tristan",
+					"reason": "Provided by source list."
+				}
+			],
+			"counters": []
+		}
+	]
+}
