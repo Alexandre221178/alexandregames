@@ -7,7 +7,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta property="article:published_time" content="2025-09-12T22:30-03:00" />
  
-<meta property="article:modified_time" content="2025-09-12T22:30-03:00" />
+<meta property="article:modified_time" content="2026-03-07T00:30-03:00" />
 <link rel="stylesheet" href="../../css/estilo13z.css">
 
 <title>Guia do Evento Área de Conquista em Hero Wars: Dominion Era</title>
@@ -20,6 +20,10 @@
 <link rel="alternate" hreflang="en" href="https://alexandregames.com/hero-wars-dominion-era/events/area-of-conquest-en.html">
 <link rel="alternate" hreflang="x-default" href="https://alexandregames.com/hero-wars-dominion-era/events/area-of-conquest-en.html">
 <link rel="alternate" hreflang="pt" href="https://alexandregames.com/hero-wars-dominion-era/events/area-of-conquest-pt.html">
+<link rel="alternate" hreflang="es" href="https://alexandregames.com/hero-wars-dominion-era/events/area-of-conquest-es.html">
+<link rel="alternate" hreflang="de" href="https://alexandregames.com/hero-wars-dominion-era/events/area-of-conquest-de.html">
+<link rel="alternate" hreflang="ja" href="https://alexandregames.com/hero-wars-dominion-era/events/area-of-conquest-ja.html">
+<link rel="alternate" hreflang="fr" href="https://alexandregames.com/hero-wars-dominion-era/events/area-of-conquest-fr.html">
 
 <!-- Open Graph Tags -->
 <meta property="og:title" content="Guia do Evento Área de Conquista em Hero Wars: Dominion Era">
@@ -81,14 +85,8 @@
 <body> 
 <div class="container">
 <div id="menu-container"></div><!-- Contêiner do menu -->
-<!-- Botão de troca de idioma -->
-<!-- O menu <nav></nav> será inserido aqui pelo JavaScript -->
-<!-- Colocar link pag. English.html - O link fica definido aqui no HTML Botão de troca de idioma -->
-<a href="../../hero-wars-dominion-era/events/area-of-conquest-en.html" class="language-link" style="display:none;"></a>
-
-<script src="../../Documentos/nav13-pt-v2.js" defer></script>   
-<script src="../../Documentos/lazy-load.js"></script>
-
+<script src="../../alex-java/nav13-global-pt.js" defer></script>    
+<script src="../../alex-java/lazy-load.js"></script>
   
  
    
@@ -214,6 +212,18 @@
   </picture>
   <figcaption>Batalhas no Mapa, Área da Conquista.</figcaption>
 </figure>
+
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="8517307629"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+
 
   <p>
     Para iniciar uma batalha, seu herói precisa estar em um bloco ao lado de um inimigo. Então você pode confirmar o ataque, e a luta começará. Se sua equipe perder, seus heróis serão teleportados de volta para o castelo da guilda. Se vencer, você conquistará o assentamento inimigo e começará a ganhar Moedas Superiores dele.
@@ -1229,6 +1239,18 @@
 
 </section>
 
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="7060755724"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+
+
 <section>
 
   <h2>Recompensas das Missões do Evento – Área da Conquista</h2>
@@ -1462,6 +1484,18 @@
   <figcaption>Rumo ao Topo – Acompanhe seu progresso sazonal e reivindique recompensas em Hero Wars: Dominion Era.</figcaption>
 </figure>
 
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="9770850987"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 4 - LAZY LOAD -->
+
+
 
 <h3>Batalha por Territórios – Recompensas de Ranking da Guilda</h3>
 
@@ -1592,11 +1626,34 @@
   <script src="../../alex-java/cookies-07z-pt.js" defer></script>
     <script src="../../alex-java/footer-07z-pt.js" defer></script>
     <script src="../../alex-java/graphcomments-07z.js" defer></script>
-    <script src="../../Documentos/share-pt-reddit.js" defer></script>
+    <script src="../../alex-java/share-global-pt.js" defer></script>
+    <script src="../../alex-java/translate07-pt.js" defer></script>
+    <!--<script src="../../alex-java/carousel-slide.js" defer></script>-->
 
+<script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
 
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
 
-<!-- close <div class="container"> -->
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
+
 
 </body>
 </html>

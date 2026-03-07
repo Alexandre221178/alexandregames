@@ -1212,14 +1212,35 @@
 </url>
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/events/area-of-conquest-en.html</loc>
-  <lastmod>2025-09-12T22:30-03:00</lastmod>
+  <lastmod>2026-03-07T00:30-03:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/events/area-of-conquest-pt.html</loc>
-  <lastmod>2025-09-12T22:30-03:00</lastmod>
+  <lastmod>2026-03-07T00:30-03:00</lastmod>
   <priority>0.60</priority>
 </url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/area-of-conquest-de.html</loc>
+  <lastmod>2026-03-07TT00:30-03:00</lastmod>
+  <priority>0.74</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/area-of-conquest-es.html</loc>
+  <lastmod>2026-03-07T00:30-03:00</lastmod>
+  <priority>0.74</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/area-of-conquest-fr.html</loc>
+  <lastmod>2026-03-07TT00:30-03:00</lastmod>
+  <priority>0.74</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-dominion-era/events/area-of-conquest-ja.html</loc>
+  <lastmod>2026-03-07T00:30-03:00</lastmod>
+  <priority>0.74</priority>
+</url>
+
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/events/ascension-to-asgard-en.html</loc>
   <lastmod>2025-06-28T00:49-03:00</lastmod>
@@ -1300,8 +1321,7 @@
   <lastmod>2026-03-06T20:00:52-03:00</lastmod>
   <priority>0.60</priority>
 </url>
-</urlset>
-
+ 
 <url>
   <loc>https://alexandregames.com/hero-wars-dominion-era/events/hero-tournament-of-power-en.html</loc>
   <lastmod>2025-07-03T23:12-03:00</lastmod>
@@ -1538,6 +1558,9 @@
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
+
+
+
 
 
 </urlset>
