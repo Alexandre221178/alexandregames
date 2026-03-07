@@ -372,7 +372,7 @@ window.CALENDAR_DATA = [
     image: "../../hero-wars-dominion-era/images/events/area-of-conquest/area-of-conquest-150px.webp",
     alt: "Area of Conquest",
     titles: { en: "Area of Conquest", pt: "Área de Conquista", de: "Eroberungsgebiet", es: "Área de Conquista", fr: "Zone de Conquête", ja: "征服エリア" },
-    links: { en: "../../hero-wars-dominion-era/events/area-of-conquest-en.html", pt: "../../hero-wars-dominion-era/events/area-of-conquest-pt.html", de: "", es: "", fr: "", ja: "" },
+    links: { en: "../../hero-wars-dominion-era/events/area-of-conquest-en.html", pt: "../../hero-wars-dominion-era/events/area-of-conquest-pt.html", de: "../../hero-wars-dominion-era/events/area-of-conquest-de.html", es: "../../hero-wars-dominion-era/events/area-of-conquest-es.html", fr: "../../hero-wars-dominion-era/events/area-of-conquest-fr.html", ja: "../../hero-wars-dominion-era/events/area-of-conquest-ja.html" },
     noStrip: true,
     extra: [
       {
@@ -398,7 +398,7 @@ window.CALENDAR_DATA = [
     image: "../../hero-wars-dominion-era/images/events/area-of-conquest/area-of-conquest-150px.webp",
     alt: "Area of Conquest",
     titles: { en: "Area of Conquest", pt: "Área de Conquista", de: "Eroberungsgebiet", es: "Área de Conquista", fr: "Zone de Conquête", ja: "征服エリア" },
-    links: { en: "../../hero-wars-dominion-era/events/area-of-conquest-en.html", pt: "../../hero-wars-dominion-era/events/area-of-conquest-pt.html", de: "", es: "", fr: "", ja: "" },
+    links: { en: "../../hero-wars-dominion-era/events/area-of-conquest-en.html", pt: "../../hero-wars-dominion-era/events/area-of-conquest-pt.html", de: "../../hero-wars-dominion-era/events/area-of-conquest-de.html", es: "../../hero-wars-dominion-era/events/area-of-conquest-es.html", fr: "../../hero-wars-dominion-era/events/area-of-conquest-fr.html", ja: "../../hero-wars-dominion-era/events/area-of-conquest-ja.html" },
     noStrip: true,
     extra: [
       {
@@ -424,7 +424,7 @@ window.CALENDAR_DATA = [
     image: "../../hero-wars-dominion-era/images/events/area-of-conquest/area-of-conquest-150px.webp",
     alt: "Area of Conquest",
     titles: { en: "Area of Conquest", pt: "Área de Conquista", de: "Eroberungsgebiet", es: "Área de Conquista", fr: "Zone de Conquête", ja: "征服エリア" },
-    links: { en: "../../hero-wars-dominion-era/events/area-of-conquest-en.html", pt: "../../hero-wars-dominion-era/events/area-of-conquest-pt.html", de: "", es: "", fr: "", ja: "" },
+    links: { en: "../../hero-wars-dominion-era/events/area-of-conquest-en.html", pt: "../../hero-wars-dominion-era/events/area-of-conquest-pt.html", de: "../../hero-wars-dominion-era/events/area-of-conquest-de.html", es: "../../hero-wars-dominion-era/events/area-of-conquest-es.html", fr: "../../hero-wars-dominion-era/events/area-of-conquest-fr.html", ja: "../../hero-wars-dominion-era/events/area-of-conquest-ja.html" },
     noStrip: true,
     extra: [
      
@@ -451,7 +451,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
         titles: { en: "Area of Conquest", pt: "Área de Conquista", de: "Eroberungsgebiet", es: "Área de Conquista", fr: "Zone de Conquête", ja: "征服エリア" },
-        links: { en: "../../hero-wars-dominion-era/events/area-of-conquest-en.html", pt: "../../hero-wars-dominion-era/events/area-of-conquest-pt.html", de: "", es: "", fr: "", ja: "" },
+        links: { en: "../../hero-wars-dominion-era/events/area-of-conquest-en.html", pt: "../../hero-wars-dominion-era/events/area-of-conquest-pt.html", de: "../../hero-wars-dominion-era/events/area-of-conquest-de.html", es: "../../hero-wars-dominion-era/events/area-of-conquest-es.html", fr: "../../hero-wars-dominion-era/events/area-of-conquest-fr.html", ja: "../../hero-wars-dominion-era/events/area-of-conquest-ja.html" },
         noStrip: true
       },
      
