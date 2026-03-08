@@ -445,8 +445,8 @@ window.CALENDAR_DATA = [
     date: "March, 13",
     image: "../../hero-wars-dominion-era/images/events/elemental-synergy/elemental-synergy-150px.webp",
     alt: "Elemental Synergy",
-    titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementare Synergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
-    links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "", es: "", fr: "", ja: "" },
+    titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementarsynergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
+    links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
     noStrip: true,
     extra: [
       {
@@ -467,13 +467,13 @@ window.CALENDAR_DATA = [
     date: "March, 14",
     image: "../../hero-wars-dominion-era/images/events/a-portal-anomaly/a-portal-anomaly-150px.webp",
     alt: "Portal Anomaly",
-    titles: { en: "Portal Anomaly", pt: "Anomalia do Portal", de: "Portal-Anomalie", es: "Anomalía del Portal", fr: "Anomalie du Portail", ja: "ポータルアノマリー" },
-    links: { en: "../../hero-wars-dominion-era/events/a-portal-anomaly-en.html", pt: "../../hero-wars-dominion-era/events/a-portal-anomaly-pt.html", de: "", es: "", fr: "", ja: "" },
+    titles: { en: "Portal Anomaly", pt: "Anomalia do Portal", de: "Eine Portalanomalie", es: "Anomalía del Portal", fr: "Anomalie du Portail", ja: "ポータルアノマリー" },
+    links: { en: "../../hero-wars-dominion-era/events/a-portal-anomaly-en.html", pt: "../../hero-wars-dominion-era/events/a-portal-anomaly-pt.html", de: "../../hero-wars-dominion-era/events/a-portal-anomaly-de.html", es: "../../hero-wars-dominion-era/events/a-portal-anomaly-es.html", fr: "../../hero-wars-dominion-era/events/a-portal-anomaly-fr.html", ja: "../../hero-wars-dominion-era/events/a-portal-anomaly-ja.html" },
     noStrip: true,
     extra: [
       {
-        titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementare Synergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
-        links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "", es: "", fr: "", ja: "" },
+        titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementarsynergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
+        links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
         noStrip: true
       },
       
@@ -485,13 +485,12 @@ window.CALENDAR_DATA = [
     date: "March, 15",
     image: "../../hero-wars-dominion-era/images/events/a-portal-anomaly/a-portal-anomaly-150px.webp",
     alt: "Portal Anomaly",
-    titles: { en: "Portal Anomaly", pt: "Anomalia do Portal", de: "Portal-Anomalie", es: "Anomalía del Portal", fr: "Anomalie du Portail", ja: "ポータルアノマリー" },
-    links: { en: "../../hero-wars-dominion-era/events/a-portal-anomaly-en.html", pt: "../../hero-wars-dominion-era/events/a-portal-anomaly-pt.html", de: "", es: "", fr: "", ja: "" },
-    noStrip: true,
+    titles: { en: "Portal Anomaly", pt: "Anomalia do Portal", de: "Eine Portalanomalie", es: "Anomalía del Portal", fr: "Anomalie du Portail", ja: "ポータルアノマリー" },
+    links: { en: "../../hero-wars-dominion-era/events/a-portal-anomaly-en.html", pt: "../../hero-wars-dominion-era/events/a-portal-anomaly-pt.html", de: "../../hero-wars-dominion-era/events/a-portal-anomaly-de.html", es: "../../hero-wars-dominion-era/events/a-portal-anomaly-es.html", fr: "../../hero-wars-dominion-era/events/a-portal-anomaly-fr.html", ja: "../../hero-wars-dominion-era/events/a-portal-anomaly-ja.html" },    noStrip: true,
     extra: [
       {
-        titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementare Synergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
-        links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "", es: "", fr: "", ja: "" },
+        titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementarsynergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
+        links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
         noStrip: true
       },
      {
@@ -506,9 +505,8 @@ window.CALENDAR_DATA = [
     date: "March, 16",
     image: "../../hero-wars-dominion-era/images/events/a-portal-anomaly/a-portal-anomaly-150px.webp",
     alt: "Portal Anomaly",
-    titles: { en: "Portal Anomaly", pt: "Anomalia do Portal", de: "Portal-Anomalie", es: "Anomalía del Portal", fr: "Anomalie du Portail", ja: "ポータルアノマリー" },
-    links: { en: "../../hero-wars-dominion-era/events/a-portal-anomaly-en.html", pt: "../../hero-wars-dominion-era/events/a-portal-anomaly-pt.html", de: "", es: "", fr: "", ja: "" },
-    noStrip: true,
+    titles: { en: "Portal Anomaly", pt: "Anomalia do Portal", de: "Eine Portalanomalie", es: "Anomalía del Portal", fr: "Anomalie du Portail", ja: "ポータルアノマリー" },
+    links: { en: "../../hero-wars-dominion-era/events/a-portal-anomaly-en.html", pt: "../../hero-wars-dominion-era/events/a-portal-anomaly-pt.html", de: "../../hero-wars-dominion-era/events/a-portal-anomaly-de.html", es: "../../hero-wars-dominion-era/events/a-portal-anomaly-es.html", fr: "../../hero-wars-dominion-era/events/a-portal-anomaly-fr.html", ja: "../../hero-wars-dominion-era/events/a-portal-anomaly-ja.html" },    noStrip: true,
     extra: [
       
      {
@@ -834,8 +832,8 @@ window.CALENDAR_DATA = [
     date: "March, 30",
     image: "../../hero-wars-dominion-era/images/events/elemental-synergy/elemental-synergy-150px.webp",
     alt: "Elemental Synergy",
-    titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementare Synergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
-    links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "", es: "", fr: "", ja: "" },
+    titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementarsynergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
+    links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
     noStrip: true,
     extra: [
       {
@@ -854,8 +852,8 @@ window.CALENDAR_DATA = [
     date: "March, 31",
     image: "../../hero-wars-dominion-era/images/events/elemental-synergy/elemental-synergy-150px.webp",
     alt: "Elemental Synergy",
-    titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementare Synergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
-    links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "", es: "", fr: "", ja: "" },
+    titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementarsynergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
+    links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
     noStrip: true,
     extra: [
       
@@ -867,8 +865,8 @@ window.CALENDAR_DATA = [
     date: "April, 1",
     image: "../../hero-wars-dominion-era/images/events/elemental-synergy/elemental-synergy-150px.webp",
     alt: "Elemental Synergy",
-    titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementare Synergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
-    links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "", es: "", fr: "", ja: "" },
+    titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementarsynergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
+    links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
     noStrip: true,
     extra: [
       
