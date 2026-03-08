@@ -198,6 +198,8 @@ Visitar Web Shop Oficial
 
 <p class="creator-small">
 Usar este código ajuda a apoiar a criação de novos guias e tutoriais para a comunidade — sem custo extra para você.
+<br>
+🔥 Mais de 50 jogadores já apoiaram Alexandre Games!
 </p>
 
 </div>

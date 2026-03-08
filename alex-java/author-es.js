@@ -201,6 +201,8 @@ Visitar la tienda oficial
 <p class="creator-small">
 Usar este código ayuda a apoyar la creación de nuevas guías y tutoriales
 sin ningún costo extra para ti.
+<br>
+🔥 ¡Más de 50 jugadores ya han apoyado a Alexandre Games!
 </p>
 
 </div>

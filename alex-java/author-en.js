@@ -198,6 +198,8 @@ Visit Official Web Shop
 
 <p class="creator-small">
 Using this code helps support new guides and tutorials for the community — at no extra cost to you.
+<br>
+🔥 More than 50 players have already supported Alexandre Games!
 </p>
 
 </div>
