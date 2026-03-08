@@ -163,6 +163,38 @@ tutorials, and advanced strategies for the community.
 
 `;
 
+/* ==============================
+GIVE ME a Coffee HTML FOR HERO WARS: DOMINION ERA
+================================ */
+const coffeeHTML = `
+
+<div class="creator-support-box">
+
+<div class="creator-header">
+☕ Did you like this guide?
+</div>
+
+<p class="creator-text">
+If this guide helped you, consider supporting the
+<strong>Alexandre Games</strong> project with a coffee.
+</p>
+
+<a href="https://ko-fi.com/alexandregamesoficial"
+target="_blank"
+rel="noopener"
+class="creator-main-button">
+Support with a coffee ☕
+</a>
+
+<p class="creator-small">
+Your support helps keep new guides and strategies coming to the site.
+</p>
+
+</div>
+
+`;
+
+
 
 /* ==============================
 CREATOR CODE HTML
@@ -220,6 +252,10 @@ INSERT CREATOR CODE (Hero Wars Alliance only)
 
 if (path.includes("hero-wars-alliance")) {
 container.innerHTML += creatorHTML;
+}
+
+if (path.includes("hero-wars-dominion-era")) {
+container.innerHTML += coffeeHTML;
 }
 
 });

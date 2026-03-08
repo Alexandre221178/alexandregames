@@ -164,9 +164,42 @@ loading="lazy">
 
 `;
 
+/* ==============================
+give me a coffee HTML FOR HERO WARS: DOMINION ERA
+================================ */
+const coffeeHTML = `
+
+<div class="creator-support-box">
+
+<div class="creator-header">
+☕ このガイドは役に立ちましたか？
+</div>
+
+<p class="creator-text">
+このガイドが役に立った場合は、
+<strong>アレクサンドル・ゲームズ</strong>のプロジェクトを
+コーヒー1杯で応援していただけると嬉しいです。
+</p>
+
+<a href="https://ko-fi.com/alexandregamesoficial"
+target="_blank"
+rel="noopener"
+class="creator-main-button">
+コーヒーで応援する ☕
+</a>
+
+<p class="creator-small">
+あなたのサポートは、サイトで新しいガイドや戦略を公開し続ける助けになります。
+</p>
+
+</div>
+
+`;
+
+
 
 /* ==============================
-クリエイターコード
+クリエイターコード (creator code) nexters
 ================================ */
 
 const creatorHTML = `
@@ -223,6 +256,10 @@ container.innerHTML = authorHTML;
 
 if (path.includes("hero-wars-alliance")) {
 container.innerHTML += creatorHTML;
+}
+
+if (path.includes("hero-wars-dominion-era")) {
+container.innerHTML += coffeeHTML;
 }
 
 });

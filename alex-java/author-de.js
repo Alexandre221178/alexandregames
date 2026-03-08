@@ -164,6 +164,37 @@ Seit 2019 erstellt er Guides, Tutorials und fortgeschrittene Strategien für die
 
 `;
 
+/* ==============================
+GIVE ME a Coffee HTML FOR HERO WARS: DOMINION ERA
+================================ */
+const coffeeHTML = `
+
+<div class="creator-support-box">
+
+<div class="creator-header">
+☕ Hat dir dieser Guide gefallen?
+</div>
+
+<p class="creator-text">
+Wenn dir dieser Guide geholfen hat, unterstütze bitte das Projekt
+<strong>Alexandre Games</strong> mit einem Kaffee.
+</p>
+
+<a href="https://ko-fi.com/alexandregamesoficial"
+target="_blank"
+rel="noopener"
+class="creator-main-button">
+Mit einem Kaffee unterstützen ☕
+</a>
+
+<p class="creator-small">
+Deine Unterstützung hilft dabei, neue Guides und Strategien auf der Website zu veröffentlichen.
+</p>
+
+</div>
+
+`;
+
 
 /* ==============================
 Creator Code
@@ -223,6 +254,10 @@ Creator Code (only hero-wars-alliance)
 
 if (path.includes("hero-wars-alliance")) {
 container.innerHTML += creatorHTML;
+}
+
+if (path.includes("hero-wars-dominion-era")) {
+container.innerHTML += coffeeHTML;
 }
 
 });
