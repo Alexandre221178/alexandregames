@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta property="article:published_time" content="2026-07-03T18:06-03:00" />
-<meta property="article:modified_time" content="2026-03-07T18:06:04-03:00" />
+<meta property="article:modified_time" content="2026-03-08T23:50:06-03:00" />
 <link rel="stylesheet" href="../../css/estilo13z.css">   
 
 <title>Guía de Oya para Hero Wars Alliance: Habilidades Legendarias</title>
@@ -847,7 +847,54 @@
         <img src="../../hero-wars-alliance/images/hero/oya/predator-bite-legendary-icon.webp" alt="Mordida Depredadora: Hero Wars Alliance" title="Oya Mordida Depredadora - Hero Wars Alliance" loading="lazy">
         <h3>5to - Mordida Depredadora (Nueva Habilidad) Reliquia Legendaria: Nivel 1</h3>
     </div>
-    <p>Mordida Depredadora es una nueva habilidad legendaria que ataca periódicamente al enemigo más cercano y a todos los enemigos con escudos. Su rol es fácil de entender: agrega más presión repetida exactamente donde Oya ya quiere pelear. El archivo <code>oya_hwa.json</code> no proporciona una fórmula numérica para esta habilidad, por lo que no se puede calcular ningún total de daño exacto sin inventar valores.</p>
+    <p>Mordida Depredadora es una nueva habilidad legendaria que se activa cada 10 segundos y añade presión antiescudos constante. Inflige daño igual al <b><span style="color:#ff0000;">100% del Ataque Físico de Oya</span></b> al enemigo más cercano y también inflige <b><span style="color:#ff0000;">50% del Ataque Físico de Oya</span></b> a todos los enemigos con escudo. Con el Talismán de la Profecía, eso significa <b><span style="color:#ff0000;">116,451</span></b> de daño al objetivo principal y <b><span style="color:#ff0000;">58,225.5</span></b> a cada enemigo con escudo. Con el Talismán de la Guerrera, eso sube a <b><span style="color:#ff0000;">122,451</span></b> y <b><span style="color:#ff0000;">61,225.5</span></b>.</p>
+
+    <div class="emblem-title">
+        <img src="../../hero-wars-alliance/images/hero/oya/talisman-of-prophecy-icon.webp" 
+             alt="Talismán de la Profecía: Hero Wars Alliance" 
+             title="Talismán de la Profecía - Hero Wars Alliance" 
+             loading="lazy">
+        <h4>Fórmula con Talismán de la Profecía</h4>
+    </div>
+    <ul>
+      <li><strong>Fórmula 1:</strong>
+        <b>Daño al Objetivo Principal:
+          <span style="color:#ff0000;">116,451 (100% x 116,451)</span>
+        </b>
+      </li>
+      <li><strong>Fórmula 2:</strong>
+        <b>Daño a Cada Enemigo con Escudo:
+          <span style="color:#ff0000;">58,225.5 (50% x 116,451)</span>
+        </b>
+      </li>
+    </ul>
+
+    <div class="emblem-title">
+        <img src="../../hero-wars-alliance/images/hero/oya/talisman-of-warrioress-icon.webp" 
+             alt="Talismán de la Guerrera: Hero Wars Alliance" 
+             title="Talismán de la Guerrera - Hero Wars Alliance" 
+             loading="lazy">
+        <h4>Fórmula con Talismán de la Guerrera</h4>
+    </div>
+    <ul>
+      <li><strong>Fórmula 1:</strong>
+        <b>Daño al Objetivo Principal:
+          <span style="color:#ff0000;">122,451 (100% x 122,451)</span>
+        </b>
+      </li>
+      <li><strong>Fórmula 2:</strong>
+        <b>Daño a Cada Enemigo con Escudo:
+          <span style="color:#ff0000;">61,225.5 (50% x 122,451)</span>
+        </b>
+      </li>
+    </ul>
+
+    <p><b>Información de la Habilidad</b></p>
+    <ul>
+      <li><strong>Intervalo de Activación:</strong> Cada 10.0 segundos</li>
+      <li><strong>Escalado sobre el Objetivo Principal:</strong> 100% de Ataque Físico</li>
+      <li><strong>Escalado sobre Enemigos con Escudo:</strong> 50% de Ataque Físico</li>
+    </ul>
 
     <figure class="img-review">
       <picture>
@@ -857,7 +904,7 @@
       <figcaption>Habilidad Mordida Depredadora, Hero Wars Alliance.</figcaption>
     </figure>
 
-    <p><strong>Prioridad de Evolución:</strong> <b><span style="color: #4CAF50;">Alta</span></b> - Incluso sin un coeficiente publicado en el JSON, el beneficio práctico es claro: más presión antiescudos frecuente y más oportunidades de daño.</p>
+    <p><strong>Prioridad de Evolución:</strong> <b><span style="color: #4CAF50;">Alta</span></b> - Es una herramienta fuerte de presión porque añade daño automático sobre los objetivos preferidos de Oya y mejora todavía más contra equipos que generan escudos con frecuencia.</p>
 </div>
 
 <div class="emblem">
@@ -865,7 +912,15 @@
         <img src="../../hero-wars-alliance/images/hero/oya/huntress-fury-legendary-icon.webp" alt="Furia de Cazadora: Hero Wars Alliance" title="Oya Furia de Cazadora - Hero Wars Alliance" loading="lazy">
         <h3>6to - Furia de Cazadora (Nueva Habilidad) Reliquia Legendaria: Nivel 30</h3>
     </div>
-    <p>Furia de Cazadora es una habilidad legendaria pasiva que aumenta temporalmente el daño actual de Oya cada vez que se aplica un escudo a un enemigo. Si todo el equipo enemigo obtiene escudos, el efecto puede dispararse múltiples veces. El archivo <code>oya_hwa.json</code> no incluye una fórmula de escalado numérico para esta habilidad, por lo que los totales exactos no están disponibles de los datos de fuente proporcionados.</p>
+    <p>Furia de Cazadora es una habilidad legendaria pasiva que aumenta el daño actual de Oya en <b><span style="color:#ff0000;">20%</span></b> durante <b><span style="color:#ff0000;">12.0 segundos</span></b> cada vez que se aplica un escudo a un enemigo. Si un escudo se aplica a todo el equipo enemigo, la habilidad se activa una vez por cada héroe que recibe ese escudo, lo que hace que esta mejora sea especialmente peligrosa contra composiciones cargadas de barreras.</p>
+
+    <p><b>Información del Disparo</b></p>
+    <ul>
+      <li><strong>Aumento de Daño:</strong> 20%</li>
+      <li><strong>Duración:</strong> 12.0 segundos</li>
+      <li><strong>Disparador:</strong> Cada vez que se aplica un escudo a un enemigo</li>
+      <li><strong>Interacción con Escudo en Todo el Equipo:</strong> Se activa una vez por cada héroe enemigo que recibe un escudo</li>
+    </ul>
 
     <figure class="img-review">
       <picture>
@@ -875,7 +930,7 @@
       <figcaption>Habilidad Furia de Cazadora, Hero Wars Alliance.</figcaption>
     </figure>
 
-    <p><strong>Prioridad de Evolución:</strong> <b><span style="color: #006400;">Muy Alta</span></b> - En batallas pesadas de escudos, esto se convierte en un amplificador de daño repetido, lo que proporciona a Oya un escalado excelente durante el transcurso de la batalla.</p>
+    <p><strong>Prioridad de Evolución:</strong> <b><span style="color: #006400;">Muy Alta</span></b> - En peleas con muchos escudos, esto se convierte en un amplificador repetido de daño, así que Oya escala mucho mejor durante la batalla y castiga los ciclos defensivos con gran eficiencia.</p>
 </div>
 
 </section>

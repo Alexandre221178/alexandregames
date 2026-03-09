@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta property="article:published_time" content="2026-07-03T18:06-03:00" />
-<meta property="article:modified_time" content="2026-03-07T18:06:04-03:00" />
+<meta property="article:modified_time" content="2026-03-08T23:50:06-03:00" />
 <link rel="stylesheet" href="../../css/estilo13z.css">   
 
 <title>ヒーローウォーズ アライアンス オーヤ ガイド: レジェンダリースキル</title>
@@ -844,7 +844,54 @@
         <img src="../../hero-wars-alliance/images/hero/oya/predator-bite-legendary-icon.webp" alt="プレデター バイト: ヒーローウォーズ アライアンス" title="オーヤ プレデター バイト - ヒーローウォーズ アライアンス" loading="lazy">
         <h3>5番目 - プレデター バイト(新スキル) レジェンダリーレリック: レベル 1</h3>
     </div>
-    <p>プレデター バイトは、周期的に最も近い敵とすべてのシールド敵を攻撃する新しいレジェンダリースキルです。その役割は理解するのが簡単です: それはオーヤがすでに戦いたい場所に正確にさらに繰り返された圧力を追加します。<code>oya_hwa.json</code> ファイルはこのスキルの数値公式を提供していないため、値を発明せずに正確なダメージ合計を計算することはできません。</p>
+    <p>プレデター バイトは、10秒ごとに発動して継続的な対シールド圧力を加える新しいレジェンダリースキルです。最も近い敵に<b><span style="color:#ff0000;">オーヤの物理攻撃100%</span></b>のダメージを与え、さらにシールドを持つすべての敵に<b><span style="color:#ff0000;">オーヤの物理攻撃50%</span></b>のダメージを与えます。予言のタリスマンでは主対象に<b><span style="color:#ff0000;">116,451</span></b>、各シールド敵に<b><span style="color:#ff0000;">58,225.5</span></b>です。戦乙女のタリスマンではそれぞれ<b><span style="color:#ff0000;">122,451</span></b>と<b><span style="color:#ff0000;">61,225.5</span></b>になります。</p>
+
+    <div class="emblem-title">
+        <img src="../../hero-wars-alliance/images/hero/oya/talisman-of-prophecy-icon.webp" 
+             alt="予言のタリスマン: ヒーローウォーズ アライアンス" 
+             title="予言のタリスマン - ヒーローウォーズ アライアンス" 
+             loading="lazy">
+        <h4>予言のタリスマンでの式</h4>
+    </div>
+    <ul>
+      <li><strong>式 1:</strong>
+        <b>主対象へのダメージ:
+          <span style="color:#ff0000;">116,451 (100% x 116,451)</span>
+        </b>
+      </li>
+      <li><strong>式 2:</strong>
+        <b>各シールド敵へのダメージ:
+          <span style="color:#ff0000;">58,225.5 (50% x 116,451)</span>
+        </b>
+      </li>
+    </ul>
+
+    <div class="emblem-title">
+        <img src="../../hero-wars-alliance/images/hero/oya/talisman-of-warrioress-icon.webp" 
+             alt="戦乙女のタリスマン: ヒーローウォーズ アライアンス" 
+             title="戦乙女のタリスマン - ヒーローウォーズ アライアンス" 
+             loading="lazy">
+        <h4>戦乙女のタリスマンでの式</h4>
+    </div>
+    <ul>
+      <li><strong>式 1:</strong>
+        <b>主対象へのダメージ:
+          <span style="color:#ff0000;">122,451 (100% x 122,451)</span>
+        </b>
+      </li>
+      <li><strong>式 2:</strong>
+        <b>各シールド敵へのダメージ:
+          <span style="color:#ff0000;">61,225.5 (50% x 122,451)</span>
+        </b>
+      </li>
+    </ul>
+
+    <p><b>スキル情報</b></p>
+    <ul>
+      <li><strong>発動間隔:</strong> 10.0秒ごと</li>
+      <li><strong>主対象への倍率:</strong> 物理攻撃100%</li>
+      <li><strong>シールド敵への倍率:</strong> 物理攻撃50%</li>
+    </ul>
 
     <figure class="img-review">
       <picture>
@@ -854,7 +901,7 @@
       <figcaption>プレデター バイト スキル、ヒーローウォーズ アライアンス。</figcaption>
     </figure>
 
-    <p><strong>進化優先度:</strong> <b><span style="color: #4CAF50;">高いです</span></b> - JSON に公開された正確な係数はありませんが、対シールド圧力の回数が増え、ダメージ機会も増加するため、実戦での価値は十分に高いです。</p>
+    <p><strong>進化優先度:</strong> <b><span style="color: #4CAF50;">高いです</span></b> - オーヤが狙いたい相手に自動で追加ダメージを与え続けられる強力な圧力手段であり、シールドを頻繁に張る編成に対してさらに価値が高まります。</p>
 </div>
 
 <div class="emblem">
@@ -862,7 +909,15 @@
         <img src="../../hero-wars-alliance/images/hero/oya/huntress-fury-legendary-icon.webp" alt="ハントレス フューリー: ヒーローウォーズ アライアンス" title="オーヤ ハントレス フューリー - ヒーローウォーズ アライアンス" loading="lazy">
         <h3>6番目 - ハントレス フューリー(新スキル) レジェンダリーレリック: レベル 30</h3>
     </div>
-    <p>ハントレス フューリーはパッシブ型のレジェンダリースキルです。敵にシールドが付与されるたびに、オーヤの与ダメージが一時的に増加します。相手チーム全体にシールドが配られる場面では、この効果が複数回発動することもあります。<code>oya_hwa.json</code> には正確なスケーリング式が含まれていないため、提供データだけでは厳密な合計値までは算出できません。</p>
+    <p>ハントレス フューリーは、敵にシールドが付与されるたびにオーヤの現在ダメージを<b><span style="color:#ff0000;">20%</span></b>、<b><span style="color:#ff0000;">12.0秒間</span></b>増加させるパッシブ型のレジェンダリースキルです。敵チーム全体にシールドが付与された場合、そのシールドを受けた各英雄ごとに1回ずつ発動するため、バリア主体の編成に対して特に危険な強化になります。</p>
+
+    <p><b>発動情報</b></p>
+    <ul>
+      <li><strong>ダメージ増加:</strong> 20%</li>
+      <li><strong>持続時間:</strong> 12.0秒</li>
+      <li><strong>トリガー:</strong> 敵にシールドが付与されるたびに発動</li>
+      <li><strong>全体シールド時の挙動:</strong> シールドを受けた敵英雄ごとに1回発動</li>
+    </ul>
 
     <figure class="img-review">
       <picture>
@@ -872,7 +927,7 @@
       <figcaption>ハントレス フューリー スキル、ヒーローウォーズ アライアンス。</figcaption>
     </figure>
 
-    <p><strong>進化優先度:</strong> <b><span style="color: #006400;">非常に高いです</span></b> - シールドが多い戦闘では、繰り返し発動する強力なダメージ増幅源になります。長引く戦闘ほどオーヤの伸びが大きくなるため、価値の高い強化です。</p>
+    <p><strong>進化優先度:</strong> <b><span style="color: #006400;">非常に高いです</span></b> - シールドが多い戦闘では反復型のダメージ増幅として機能するため、戦闘が長引くほどオーヤの伸びが大きくなり、防御側のシールド循環を非常に効率よく咎められます。</p>
 </div>
 
 </section>

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta property="article:published_time" content="2026-07-03T18:06-03:00" />
-<meta property="article:modified_time" content="2026-03-07T18:06:04-03:00" />
+<meta property="article:modified_time" content="2026-03-08T23:50:06-03:00" />
 <link rel="stylesheet" href="../../css/estilo13z.css">   
 
 <title>Guide Oya pour Hero Wars Alliance : Compétences Légendaires</title>
@@ -847,7 +847,54 @@
         <img src="../../hero-wars-alliance/images/hero/oya/predator-bite-legendary-icon.webp" alt="Morsure de Prédateur : Hero Wars Alliance" title="Oya Morsure de Prédateur - Hero Wars Alliance" loading="lazy">
         <h3>5e - Morsure de Prédateur (Nouvelle Compétence) Relique Légendaire : Niveau 1</h3>
     </div>
-    <p>Morsure de Prédateur est une nouvelle compétence légendaire qui attaque périodiquement l'ennemi le plus proche et tous les ennemis protégés par un bouclier. Son rôle est facile à comprendre : elle ajoute plus de pression répétée exactement où Oya veut déjà combattre. Le fichier <code>oya_hwa.json</code> ne fournit pas de formule numérique pour cette compétence, donc aucun total de dégâts exact ne peut être calculé sans inventer des valeurs.</p>
+    <p>Morsure de Prédateur est une nouvelle compétence légendaire qui s'active toutes les 10 secondes et ajoute une pression anti-bouclier constante. Elle inflige des dégâts égaux à <b><span style="color:#ff0000;">100% de l'Attaque Physique d'Oya</span></b> à l'ennemi le plus proche et inflige aussi <b><span style="color:#ff0000;">50% de l'Attaque Physique d'Oya</span></b> à tous les ennemis avec un bouclier. Avec le Talisman de Prophétie, cela représente <b><span style="color:#ff0000;">116,451</span></b> dégâts sur la cible principale et <b><span style="color:#ff0000;">58,225.5</span></b> sur chaque ennemi protégé par un bouclier. Avec le Talisman de la Guerrière, cela passe à <b><span style="color:#ff0000;">122,451</span></b> et <b><span style="color:#ff0000;">61,225.5</span></b>.</p>
+
+    <div class="emblem-title">
+        <img src="../../hero-wars-alliance/images/hero/oya/talisman-of-prophecy-icon.webp" 
+             alt="Talisman de Prophétie : Hero Wars Alliance" 
+             title="Talisman de Prophétie - Hero Wars Alliance" 
+             loading="lazy">
+        <h4>Formule avec le Talisman de Prophétie</h4>
+    </div>
+    <ul>
+      <li><strong>Formule 1 :</strong>
+        <b>Dégâts sur la Cible Principale :
+          <span style="color:#ff0000;">116,451 (100% x 116,451)</span>
+        </b>
+      </li>
+      <li><strong>Formule 2 :</strong>
+        <b>Dégâts sur Chaque Ennemi avec Bouclier :
+          <span style="color:#ff0000;">58,225.5 (50% x 116,451)</span>
+        </b>
+      </li>
+    </ul>
+
+    <div class="emblem-title">
+        <img src="../../hero-wars-alliance/images/hero/oya/talisman-of-warrioress-icon.webp" 
+             alt="Talisman de la Guerrière : Hero Wars Alliance" 
+             title="Talisman de la Guerrière - Hero Wars Alliance" 
+             loading="lazy">
+        <h4>Formule avec le Talisman de la Guerrière</h4>
+    </div>
+    <ul>
+      <li><strong>Formule 1 :</strong>
+        <b>Dégâts sur la Cible Principale :
+          <span style="color:#ff0000;">122,451 (100% x 122,451)</span>
+        </b>
+      </li>
+      <li><strong>Formule 2 :</strong>
+        <b>Dégâts sur Chaque Ennemi avec Bouclier :
+          <span style="color:#ff0000;">61,225.5 (50% x 122,451)</span>
+        </b>
+      </li>
+    </ul>
+
+    <p><b>Informations sur la Compétence</b></p>
+    <ul>
+      <li><strong>Intervalle d'Activation :</strong> Toutes les 10.0 secondes</li>
+      <li><strong>Mise à l'Échelle sur la Cible Principale :</strong> 100% d'Attaque Physique</li>
+      <li><strong>Mise à l'Échelle sur les Ennemis avec Bouclier :</strong> 50% d'Attaque Physique</li>
+    </ul>
 
     <figure class="img-review">
       <picture>
@@ -857,7 +904,7 @@
       <figcaption>Compétence Morsure de Prédateur, Hero Wars Alliance.</figcaption>
     </figure>
 
-    <p><strong>Priorité d'Évolution :</strong> <b><span style="color: #4CAF50;">Élevée</span></b> - Même sans un coefficient publié dans le JSON, le bénéfice pratique est clair : plus de pression anti-bouclier fréquente et plus d'occasions de dégâts.</p>
+    <p><strong>Priorité d'Évolution :</strong> <b><span style="color: #4CAF50;">Élevée</span></b> - C'est un très bon outil de pression parce qu'il ajoute des dégâts automatiques sur les cibles préférées d'Oya et devient encore meilleur contre les équipes qui génèrent souvent des boucliers.</p>
 </div>
 
 <div class="emblem">
@@ -865,7 +912,15 @@
         <img src="../../hero-wars-alliance/images/hero/oya/huntress-fury-legendary-icon.webp" alt="Rage de Chasseresse : Hero Wars Alliance" title="Oya Rage de Chasseresse - Hero Wars Alliance" loading="lazy">
         <h3>6e - Rage de Chasseresse (Nouvelle Compétence) Relique Légendaire : Niveau 30</h3>
     </div>
-    <p>Rage de Chasseresse est une compétence passive légendaire qui augmente temporairement les dégâts actuels d'Oya chaque fois qu'un bouclier est appliqué à un ennemi. Si toute l'équipe ennemie obtient des boucliers, l'effet peut se déclencher plusieurs fois. Le fichier <code>oya_hwa.json</code> n'inclut pas de formule de mise à l'échelle numérique pour cette compétence, donc les totaux exacts ne sont pas disponibles à partir des données source fournies.</p>
+    <p>Rage de Chasseresse est une compétence passive légendaire qui augmente les dégâts actuels d'Oya de <b><span style="color:#ff0000;">20%</span></b> pendant <b><span style="color:#ff0000;">12.0 secondes</span></b> chaque fois qu'un bouclier est appliqué à un ennemi. Si un bouclier est appliqué à toute l'équipe ennemie, la compétence se déclenche une fois pour chaque héros qui reçoit ce bouclier, ce qui rend cette amélioration particulièrement dangereuse contre les compositions remplies de barrières.</p>
+
+    <p><b>Informations de Déclenchement</b></p>
+    <ul>
+      <li><strong>Augmentation des Dégâts :</strong> 20%</li>
+      <li><strong>Durée :</strong> 12.0 secondes</li>
+      <li><strong>Déclencheur :</strong> Chaque fois qu'un bouclier est appliqué à un ennemi</li>
+      <li><strong>Interaction avec un Bouclier d'Équipe :</strong> Se déclenche une fois pour chaque héros ennemi qui reçoit un bouclier</li>
+    </ul>
 
     <figure class="img-review">
       <picture>
@@ -875,7 +930,7 @@
       <figcaption>Compétence Rage de Chasseresse, Hero Wars Alliance.</figcaption>
     </figure>
 
-    <p><strong>Priorité d'Évolution :</strong> <b><span style="color: #006400;">Très Élevée</span></b> - Dans les combats lourds en boucliers, cela devient un amplificateur de dégâts répété, ce qui donne à Oya une excellente mise à l'échelle au cours de la bataille.</p>
+    <p><strong>Priorité d'Évolution :</strong> <b><span style="color: #006400;">Très Élevée</span></b> - Dans les combats avec beaucoup de boucliers, cela devient un amplificateur de dégâts répété, donc Oya monte beaucoup mieux en puissance au fil du combat et punit très efficacement les cycles défensifs.</p>
 </div>
 
 </section>

@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta property="article:published_time" content="2025-07-13T17:02-03:00" />
-<meta property="article:modified_time" content="2026-03-07T18:06:04-03:00" />
+<meta property="article:modified_time" content="2026-03-08T23:50:06-03:00" />
 <link rel="stylesheet" href="../../css/estilo13z.css">
 
 <title>Guia da Oya em Hero Wars Alliance: Skills Lendarias, Times e Dicas</title>
@@ -825,7 +825,54 @@
         <img src="../../hero-wars-alliance/images/hero/oya/predator-bite-legendary-icon.webp" alt="Mordida Predadora: Hero Wars Alliance" title="Oya Mordida Predadora - Hero Wars Alliance" loading="lazy">
         <h3>5ª - Mordida Predadora (Nova Skill) Relíquia Lendária: Nível 1</h3>
     </div>
-    <p>Mordida Predadora é uma nova skill lendária que ataca periodicamente o inimigo mais próximo e todos os inimigos com escudo. O papel dela é simples de entender: acrescentar mais pressão constante exatamente onde a Oya já quer lutar. O arquivo <code>oya_hwa.json</code> não informa fórmula numérica dessa skill, então não existe como calcular dano exato sem inventar valor.</p>
+    <p>Mordida Predadora é uma nova skill lendária que ativa a cada 10 segundos e adiciona pressão anti-escudo constante. Ela causa dano igual a <b><span style="color:#ff0000;">100% do Ataque Físico da Oya</span></b> no inimigo mais próximo e também causa <b><span style="color:#ff0000;">50% do Ataque Físico da Oya</span></b> em todos os inimigos com escudo. Com o Talisma da Profecia, isso significa <b><span style="color:#ff0000;">116,451</span></b> de dano no alvo principal e <b><span style="color:#ff0000;">58,225.5</span></b> em cada inimigo com escudo. Com o Talisma da Guerreira, isso sobe para <b><span style="color:#ff0000;">122,451</span></b> e <b><span style="color:#ff0000;">61,225.5</span></b>.</p>
+
+    <div class="emblem-title">
+        <img src="../../hero-wars-alliance/images/hero/oya/talisman-of-prophecy-icon.webp" 
+             alt="Talismã da Profecia: Hero Wars Alliance" 
+             title="Talismã da Profecia - Hero Wars Alliance" 
+             loading="lazy">
+        <h4>Fórmula com Talismã da Profecia</h4>
+    </div>
+    <ul>
+      <li><strong>Fórmula 1:</strong>
+        <b>Dano no Alvo Principal:
+          <span style="color:#ff0000;">116,451 (100% x 116,451)</span>
+        </b>
+      </li>
+      <li><strong>Fórmula 2:</strong>
+        <b>Dano em Cada Inimigo com Escudo:
+          <span style="color:#ff0000;">58,225.5 (50% x 116,451)</span>
+        </b>
+      </li>
+    </ul>
+
+    <div class="emblem-title">
+        <img src="../../hero-wars-alliance/images/hero/oya/talisman-of-warrioress-icon.webp" 
+             alt="Talismã da Guerreira: Hero Wars Alliance" 
+             title="Talismã da Guerreira - Hero Wars Alliance" 
+             loading="lazy">
+        <h4>Fórmula com Talismã da Guerreira</h4>
+    </div>
+    <ul>
+      <li><strong>Fórmula 1:</strong>
+        <b>Dano no Alvo Principal:
+          <span style="color:#ff0000;">122,451 (100% x 122,451)</span>
+        </b>
+      </li>
+      <li><strong>Fórmula 2:</strong>
+        <b>Dano em Cada Inimigo com Escudo:
+          <span style="color:#ff0000;">61,225.5 (50% x 122,451)</span>
+        </b>
+      </li>
+    </ul>
+
+    <p><b>Informações da Skill</b></p>
+    <ul>
+      <li><strong>Intervalo de Ativação:</strong> A cada 10.0 segundos</li>
+      <li><strong>Escalonamento no Alvo Principal:</strong> 100% de Ataque Físico</li>
+      <li><strong>Escalonamento em Inimigos com Escudo:</strong> 50% de Ataque Físico</li>
+    </ul>
 
     <figure class="img-review">
       <picture>
@@ -835,7 +882,7 @@
       <figcaption>Skill Mordida Predadora, Hero Wars Alliance.</figcaption>
     </figure>
 
-    <p><strong>Prioridade de Evolução:</strong> <b><span style="color: #4CAF50;">Alta</span></b> - Mesmo sem coeficiente publicado no JSON, o benefício prático é claro: mais pressão anti-escudo e mais oportunidades de dano.</p>
+    <p><strong>Prioridade de Evolução:</strong> <b><span style="color: #4CAF50;">Alta</span></b> - É uma ferramenta forte de pressão porque adiciona dano automático nos alvos preferidos da Oya e fica ainda melhor contra times que geram escudos com frequência.</p>
 </div>
 
 <div class="emblem">
@@ -843,7 +890,15 @@
         <img src="../../hero-wars-alliance/images/hero/oya/huntress-fury-legendary-icon.webp" alt="Fúria da Caçadora: Hero Wars Alliance" title="Oya Fúria da Caçadora - Hero Wars Alliance" loading="lazy">
         <h3>6ª - Fúria da Caçadora (Nova Skill) Relíquia Lendária: Nível 30</h3>
     </div>
-    <p>Fúria da Caçadora é uma skill lendária passiva que aumenta temporariamente o dano atual da Oya sempre que um escudo é aplicado a um inimigo. Se o time inimigo inteiro receber escudos, o efeito pode ativar várias vezes. O arquivo <code>oya_hwa.json</code> não traz fórmula numérica dessa skill, então os valores exatos não estão disponíveis na fonte fornecida.</p>
+    <p>Fúria da Caçadora é uma skill lendária passiva que aumenta o dano atual da Oya em <b><span style="color:#ff0000;">20%</span></b> por <b><span style="color:#ff0000;">12.0 segundos</span></b> sempre que um escudo é aplicado a um inimigo. Se um escudo for aplicado ao time inimigo inteiro, a skill ativa uma vez para cada herói que receber esse escudo, o que torna essa melhoria especialmente perigosa contra composições focadas em barreiras.</p>
+
+    <p><b>Informações de Ativação</b></p>
+    <ul>
+      <li><strong>Aumento de Dano:</strong> 20%</li>
+      <li><strong>Duração:</strong> 12.0 segundos</li>
+      <li><strong>Gatilho:</strong> Cada vez que um escudo é aplicado a um inimigo</li>
+      <li><strong>Interação com Escudo em Massa:</strong> Ativa uma vez para cada herói inimigo que receber escudo</li>
+    </ul>
 
     <figure class="img-review">
       <picture>
@@ -853,7 +908,7 @@
       <figcaption>Skill Fúria da Caçadora, Hero Wars Alliance.</figcaption>
     </figure>
 
-    <p><strong>Prioridade de Evolução:</strong> <b><span style="color: #006400;">Muito Alta</span></b> - Em lutas com muitos escudos, essa skill funciona como um amplificador repetido de dano e dá ótima escala para a Oya ao longo da batalha.</p>
+    <p><strong>Prioridade de Evolução:</strong> <b><span style="color: #006400;">Muito Alta</span></b> - Em lutas com muitos escudos, essa skill vira um amplificador repetido de dano, então a Oya escala muito melhor ao longo da batalha e pune ciclos defensivos com grande eficiência.</p>
 </div>
 
 </section>

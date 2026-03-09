@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta property="article:published_time" content="2026-07-03T18:06-03:00" />
-<meta property="article:modified_time" content="2026-03-07T18:06:04-03:00" />
+<meta property="article:modified_time" content="2026-03-08T23:50:06-03:00" />
 <link rel="stylesheet" href="../../css/estilo13z.css">   
 
 <title>Oya-Leitfaden für Hero Wars Alliance: Legendäre Fähigkeiten</title>
@@ -847,7 +847,54 @@
         <img src="../../hero-wars-alliance/images/hero/oya/predator-bite-legendary-icon.webp" alt="Raubzahn: Hero Wars Alliance" title="Oya Raubzahn - Hero Wars Alliance" loading="lazy">
         <h3>5. - Raubzahn (Neue Fähigkeit) Legendäres Relikt: Stufe 1</h3>
     </div>
-    <p>Raubzahn ist eine neue legendäre Fähigkeit, die regelmäßig den nächsten Feind und alle schildgeschützten Feinde angreift. Seine Rolle ist leicht zu verstehen: es bietet mehr wiederholten Druck genau dort, wo Oya bereits kämpfen möchte. Die <code>oya_hwa.json</code> Datei bietet keine numerische Formel für diese Fähigkeit, daher kann kein genauer Schadensgesamtwert ohne Erfindung von Werten berechnet werden.</p>
+    <p>Raubzahn ist eine neue legendäre Fähigkeit, die sich alle 10 Sekunden aktiviert und konstanten Anti-Schild-Druck aufbaut. Sie verursacht Schaden in Höhe von <b><span style="color:#ff0000;">100% von Oyas Physischem Angriff</span></b> am nächststehenden Feind und zusätzlich <b><span style="color:#ff0000;">50% von Oyas Physischem Angriff</span></b> an allen Feinden mit Schild. Mit dem Talisman der Prophezeiung bedeutet das <b><span style="color:#ff0000;">116,451</span></b> Schaden am Hauptziel und <b><span style="color:#ff0000;">58,225.5</span></b> an jedem schildgeschützten Gegner. Mit dem Talisman der Kriegerin steigt das auf <b><span style="color:#ff0000;">122,451</span></b> und <b><span style="color:#ff0000;">61,225.5</span></b>.</p>
+
+    <div class="emblem-title">
+        <img src="../../hero-wars-alliance/images/hero/oya/talisman-of-prophecy-icon.webp" 
+             alt="Talisman der Prophezeiung: Hero Wars Alliance" 
+             title="Talisman der Prophezeiung - Hero Wars Alliance" 
+             loading="lazy">
+        <h4>Formel mit Talisman der Prophezeiung</h4>
+    </div>
+    <ul>
+      <li><strong>Formel 1:</strong>
+        <b>Schaden am Hauptziel:
+          <span style="color:#ff0000;">116,451 (100% x 116,451)</span>
+        </b>
+      </li>
+      <li><strong>Formel 2:</strong>
+        <b>Schaden an Jedem Gegner mit Schild:
+          <span style="color:#ff0000;">58,225.5 (50% x 116,451)</span>
+        </b>
+      </li>
+    </ul>
+
+    <div class="emblem-title">
+        <img src="../../hero-wars-alliance/images/hero/oya/talisman-of-warrioress-icon.webp" 
+             alt="Talisman der Kriegerin: Hero Wars Alliance" 
+             title="Talisman der Kriegerin - Hero Wars Alliance" 
+             loading="lazy">
+        <h4>Formel mit Talisman der Kriegerin</h4>
+    </div>
+    <ul>
+      <li><strong>Formel 1:</strong>
+        <b>Schaden am Hauptziel:
+          <span style="color:#ff0000;">122,451 (100% x 122,451)</span>
+        </b>
+      </li>
+      <li><strong>Formel 2:</strong>
+        <b>Schaden an Jedem Gegner mit Schild:
+          <span style="color:#ff0000;">61,225.5 (50% x 122,451)</span>
+        </b>
+      </li>
+    </ul>
+
+    <p><b>Fähigkeitsinfo</b></p>
+    <ul>
+      <li><strong>Aktivierungsintervall:</strong> Alle 10.0 Sekunden</li>
+      <li><strong>Skalierung auf das Hauptziel:</strong> 100% Physischer Angriff</li>
+      <li><strong>Skalierung auf Gegner mit Schild:</strong> 50% Physischer Angriff</li>
+    </ul>
 
     <figure class="img-review">
       <picture>
@@ -857,7 +904,7 @@
       <figcaption>Raubzahn Fähigkeit, Hero Wars Alliance.</figcaption>
     </figure>
 
-    <p><strong>Evolutions-Priorität:</strong> <b><span style="color: #4CAF50;">Hoch</span></b> - Auch ohne einen veröffentlichten Koeffizienten in der JSON ist der praktische Nutzen klar: mehr häufiger Anti-Schild-Druck und mehr Schadenschancen.</p>
+    <p><strong>Evolutions-Priorität:</strong> <b><span style="color: #4CAF50;">Hoch</span></b> - Das ist ein starkes Druckwerkzeug, weil es Oyas bevorzugte Ziele automatisch weiter beschädigt und gegen Teams mit häufigen Schildern noch wertvoller wird.</p>
 </div>
 
 <div class="emblem">
@@ -865,7 +912,15 @@
         <img src="../../hero-wars-alliance/images/hero/oya/huntress-fury-legendary-icon.webp" alt="Jägerinnenwut: Hero Wars Alliance" title="Oya Jägerinnenwut - Hero Wars Alliance" loading="lazy">
         <h3>6. - Jägerinnenwut (Neue Fähigkeit) Legendäres Relikt: Stufe 30</h3>
     </div>
-    <p>Jägerinnenwut ist eine passive legendäre Fähigkeit, die Oyas aktuellen Schaden vorübergehend erhöht, jedes Mal wenn ein Schild auf einen Feind angewendet wird. Wenn das ganze gegnerische Team Schilde erhält, kann der Effekt mehrmals ausgelöst werden. Die <code>oya_hwa.json</code> Datei beinhaltet keine numerische Skalierungs-Formel für diese Fähigkeit, daher sind genaue Gesamtwerte aus den bereitgestellten Quelldaten nicht verfügbar.</p>
+    <p>Jägerinnenwut ist eine passive legendäre Fähigkeit, die Oyas aktuellen Schaden jedes Mal um <b><span style="color:#ff0000;">20%</span></b> für <b><span style="color:#ff0000;">12.0 Sekunden</span></b> erhöht, wenn ein Schild auf einen Feind angewendet wird. Wird ein Schild auf das gesamte gegnerische Team gelegt, löst die Fähigkeit einmal pro Held aus, der diesen Schild erhält. Dadurch wird dieses Upgrade besonders gefährlich gegen barrierebasierte Aufstellungen.</p>
+
+    <p><b>Auslöseinformationen</b></p>
+    <ul>
+      <li><strong>Schadensanstieg:</strong> 20%</li>
+      <li><strong>Dauer:</strong> 12.0 Sekunden</li>
+      <li><strong>Auslöser:</strong> Jedes Mal, wenn ein Schild auf einen Feind angewendet wird</li>
+      <li><strong>Interaktion bei Teamweiten Schilden:</strong> Löst einmal pro gegnerischem Helden mit Schild aus</li>
+    </ul>
 
     <figure class="img-review">
       <picture>
@@ -875,7 +930,7 @@
       <figcaption>Jägerinnenwut Fähigkeit, Hero Wars Alliance.</figcaption>
     </figure>
 
-    <p><strong>Evolutions-Priorität:</strong> <b><span style="color: #006400;">Sehr Hoch</span></b> - In Schild-schweren Kämpfen wird dies zu einem wiederholten Schadenverstärker, was Oya ausgezeichnete Skalierung über den Kampfverlauf gibt.</p>
+    <p><strong>Evolutions-Priorität:</strong> <b><span style="color: #006400;">Sehr Hoch</span></b> - In Kämpfen mit vielen Schilden wird das zu einem wiederholten Schadensverstärker, sodass Oya im Kampfverlauf deutlich besser skaliert und defensive Schild-Zyklen sehr effizient bestraft.</p>
 </div>
 
 </section>

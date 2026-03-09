@@ -186,19 +186,22 @@
 					},
 					"name": "Predator Bite",
 					"type": ["Physical Damage", "Legendary"],
-					"description": "Periodically attacks the nearest enemy and all shielded enemies.",
+					"physical_damage_formula": "100% Physical Attack",
+					"physical_damage_to_shielded_enemies_formula": "50% Physical Attack",
+					"description": "Every 10.0 seconds attacks the nearest enemy and all shielded enemies.",
 					"evolution_priority": "High"
 				},
 				{
 					"id": 6,
 					"variant": "legendary",
 					"relic_level": 30,
+					"effect": "Increases damage 20%",
 					"unlock_condition": {
 						"unlock_type": "new_skill"
 					},
-					"name": "Huntress Fury",
+					"name": "Huntress' Fury",
 					"type": ["Passive", "Damage Buff", "Legendary"],
-					"description": "Each time a shield is applied to an enemy, Oya's current damage is temporarily increased. Team-wide shields trigger once per shielded hero.",
+					"description": "Each time a shield is applied to an enemy, Oya's current damage is increased by 12.0 seconds. If a shield is applied to the entire team, the skill triggers once for each Hero that receives a shield.",
 					"evolution_priority": "Very High"
 				}
 			],
