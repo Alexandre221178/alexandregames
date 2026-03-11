@@ -2,6 +2,15 @@
   // Carousel multi-language injector (HWA specific copy)
   const slides = [
     {
+      link: "../../hero-wars-alliance/guide/meta-teams-and-combos-en.html",
+      src500: "../../hero-wars-alliance/images/guides/meta-teams-and-combos/meta-teams-and-combos-500px.webp",
+      src400: "../../hero-wars-alliance/images/guides/meta-teams-and-combos/meta-teams-and-combos-400px.webp",
+      alt: "Meta Teams and Combos Guide for Hero Wars Alliance",
+      title: "Meta Teams and Combos Guide for Hero Wars Alliance",
+      strong: "Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance",
+      updated: "Updated: March, 2026."
+    },
+    {
       link: "../../hero-wars-alliance/characters-guide/oya-en.html",
       src500: "../../hero-wars-alliance/images/hero/oya/oya-500px.webp",
       src400: "../../hero-wars-alliance/images/hero/oya/oya-400px.webp",
@@ -111,6 +120,7 @@
     pt: {
       updatedPrefix: 'Atualizado:',
       map: {
+        'Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance': 'Guia Completo de Times e Combos Meta 2026 para Hero Wars Alliance',
         'Oya Legendary Guide Skills for Hero Wars Alliance': 'Guia de Habilidades Lendárias de Oya para Hero Wars Alliance',
         'Complete Realm Mode Guide for Hero Wars Alliance': 'Guia Completo do Modo Reino para Hero Wars Alliance',
         'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance': 'Guia do Titã Umbra: Domine o Invocador da Escuridão para Hero Wars Alliance',
@@ -125,6 +135,7 @@
     es: {
       updatedPrefix: 'Actualizado:',
       map: {
+        'Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance': 'Guía Completa de Equipos y Combos Meta 2026 para Hero Wars Alliance',
         'Oya Legendary Guide Skills for Hero Wars Alliance': 'Guía de Habilidades Legendarias de Oya para Hero Wars Alliance',
         'Complete Realm Mode Guide for Hero Wars Alliance': 'Guía Completa del Modo Reino para Hero Wars Alliance',
         'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance': 'Guía del Titán Umbra: Domina al Invocador de la Oscuridad para Hero Wars Alliance',
@@ -139,6 +150,7 @@
     fr: {
       updatedPrefix: 'Mis à jour:',
       map: {
+        'Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance': 'Guide Complet des Équipes et Combos Meta 2026 pour Hero Wars Alliance',
         'Oya Legendary Guide Skills for Hero Wars Alliance': 'Guide des Compétences Légendaires d\'Oya pour Hero Wars Alliance',
         'Complete Realm Mode Guide for Hero Wars Alliance': 'Guide Complet du Mode Royaume pour Hero Wars Alliance',
         'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance': 'Guide du Titan Umbra: Maîtrisez l\'Invocateur des Ténèbres pour Hero Wars Alliance',
@@ -153,6 +165,7 @@
     ja: {
       updatedPrefix: '更新:',
       map: {
+        'Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスの完全なメタチームとコンボガイド 2026',
         'Oya Legendary Guide Skills for Hero Wars Alliance': 'オヤの伝説的なスキルガイド ヒーローウォーズ アライアンス',
         'Complete Realm Mode Guide for Hero Wars Alliance': 'ヒーローウォーズアライアンスの完全なレルムモードガイド',
         'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance': 'アンブラ タイタン ガイド: 光の召喚師をマスター 向け ヒーローウォーズ アライアンス',
@@ -170,6 +183,7 @@
     de: {
       updatedPrefix: 'Aktualisiert:',
       map: {
+        'Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance': 'Vollständiger Leitfaden zu Meta-Teams und Combos 2026 für Hero Wars Alliance',
         'Oya Legendary Guide Skills for Hero Wars Alliance': 'Oya Legendäre Fähigkeiten Guide für Hero Wars Alliance',
         'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance': 'Umbra Titan Leitfaden: Meistere den Dunkelheisinvokator für Hero Wars Alliance',
         'Dante Complete Legendary Skills Guide for Hero Wars Alliance': 'Vollständiger Leitfaden zu Legendären Fähigkeiten von Dante für Hero Wars Alliance',
