@@ -7,6 +7,18 @@ const EXPECTED_LANGS_GLOBAL = new Set(['en', 'pt', 'ja', 'es', 'fr', 'de', 'x-de
 const EXPECTED_LANGS_BILINGUAL = new Set(['en', 'pt', 'x-default']);
 const EXPECTED_LANGS_ENGLISH_ONLY = new Set(['en', 'x-default']);
 
+function collectAlternateLinks($) {
+    const alternates = [];
+    $('link[rel="alternate"]').each((i, elem) => {
+        const hreflang = $(elem).attr('hreflang');
+        const href = $(elem).attr('href');
+        if (hreflang) {
+            alternates.push({ hreflang, href: href || '' });
+        }
+    });
+    return alternates;
+}
+
 function findFiles(dir) {
     let results = [];
     const list = fs.readdirSync(dir);
@@ -144,22 +156,37 @@ function checkFile(filePath) {
             const cssLinks = $('link[rel="stylesheet"][href*="estilo2024.css"]');
             if (cssLinks.length === 0) {
                 // Caso contrário, definir baseado nos hreflangs presentes
-                const hreflangsPresent = new Set();
-                $('link[rel="alternate"]').each((i, elem) => {
-                    const hreflang = $(elem).attr('hreflang');
-                    if (hreflang) hreflangsPresent.add(hreflang);
-                });
+                const hreflangsPresent = new Set(
+                    collectAlternateLinks($).map(alternate => alternate.hreflang)
+                );
                 expectedLangs = hreflangsPresent;
             }
         }
 
         // Verificar hreflang
         if (expectedLangs) {
-            const hreflangs = new Set();
-            $('link[rel="alternate"]').each((i, elem) => {
-                const hreflang = $(elem).attr('hreflang');
-                if (hreflang) hreflangs.add(hreflang);
+            const alternates = collectAlternateLinks($);
+            const hreflangs = new Set(alternates.map(alternate => alternate.hreflang));
+            const hreflangOccurrences = new Map();
+
+            alternates.forEach(({ hreflang, href }) => {
+                if (!hreflangOccurrences.has(hreflang)) {
+                    hreflangOccurrences.set(hreflang, []);
+                }
+                hreflangOccurrences.get(hreflang).push(href);
             });
+
+            hreflangOccurrences.forEach((hrefs, hreflang) => {
+                if (hrefs.length > 1) {
+                    const uniqueHrefs = [...new Set(hrefs)];
+                    if (uniqueHrefs.length > 1) {
+                        issues.push(`More than one page for same language in hreflang: ${hreflang} -> ${uniqueHrefs.join(' | ')}`);
+                    } else {
+                        issues.push(`Hreflang duplicado para o idioma ${hreflang}: ${hrefs.length} entradas para ${uniqueHrefs[0]}`);
+                    }
+                }
+            });
+
             const missingLangs = [...expectedLangs].filter(lang => !hreflangs.has(lang));
             if (missingLangs.length) {
                 issues.push(`Hreflang faltando: ${missingLangs.join(', ')}`);
