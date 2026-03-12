@@ -2,13 +2,13 @@
   // Carousel multi-language injector (HWDE specific copy)
   const slides = [
     {
-      link: "../../hero-wars-dominion-era/characters/arachne-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/arachne/arachne-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/arachne/arachne-400px.webp",
-      alt: "Arachne Guide for Hero Wars: Dominion Era",
-      title: "Arachne Guide for Hero Wars: Dominion Era.",
-      strong: "Arachne Guide - Hero Wars: Dominion Era",
-      updated: "Updated: February, 2026."
+      link: "../../hero-wars-dominion-era/guide/meta-teams-and-combos-hwde-en.html",
+      src500: "../../hero-wars-dominion-era/images/guides/meta-teams-and-combos-hwde/meta-teams-and-combos-hwde-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/guides/meta-teams-and-combos-hwde/meta-teams-and-combos-hwde-400px.webp",
+      alt: "Best Meta Teams and Combos - Hero Wars: Dominion Era 2026",
+      title: "Best Meta Teams and Combos - Hero Wars: Dominion Era 2026",
+      strong: "Best Meta Teams and Combos - Hero Wars: Dominion Era 2026",
+      updated: "Updated: March, 2026."
     },
     
     {
@@ -18,7 +18,7 @@
       alt: "Kayla Guide for Hero Wars: Dominion Era",
       title: "Kayla Guide for Hero Wars: Dominion Era.",
       strong: "Kayla Guide - Hero Wars: Dominion Era",
-      updated: "Updated: February, 2026."
+      updated: "Updated: March, 2026."
     },
     {
       link: "../../hero-wars-dominion-era/characters/galahad-en.html",
@@ -27,7 +27,7 @@
       alt: "Galahad Guide for Hero Wars: Dominion Era",
       title: "Galahad Guide for Hero Wars: Dominion Era.",
       strong: "Galahad Guide - Hero Wars: Dominion Era",
-      updated: "Updated: February, 2026."
+      updated: "Updated: March, 2026."
     },
     {
       link: "../../hero-wars-dominion-era/titans/tidus-en.html",
@@ -83,11 +83,11 @@
 
   const translations = {
     en: {updatedPrefix: 'Updated:', map: {}},
-    pt: {updatedPrefix: 'Atualizado:', map: {'Guide':'Guia','Best Teams':'Melhores Equipes','Stay updated':'Fique atualizado','Redeem your Daily Gifts':'Resgate seus Presentes Diários','Event':'Evento'}},
-    es: {updatedPrefix: 'Actualizado:', map: {'Guide':'Guía','Best Teams':'Mejores Equipos','Stay updated':'Mantente al día','Redeem your Daily Gifts':'Canjea tus Regalos Diarios','Event':'Evento'}},
-    fr: {updatedPrefix: 'Mis à jour:', map: {'Guide':'Guide','Best Teams':'Meilleures équipes','Stay updated':'Restez informé','Redeem your Daily Gifts':'Échangez vos Cadeaux Quotidiens','Event':'Événement'}},
-    ja: {updatedPrefix: '更新:', map: {'Guide':'ガイド','Best Teams':'ベストチーム','Stay updated':'最新情報をチェック','Redeem your Daily Gifts':'毎日のギフトを受け取る','Event':'イベント'}},
-    de: {updatedPrefix: 'Aktualisiert:', map: {'Guide':'Leitfaden','Best Teams':'Beste Teams','Stay updated':'Bleiben Sie informiert','Redeem your Daily Gifts':'Löse deine täglichen Geschenke ein','Event':'Event'}}
+    pt: {updatedPrefix: 'Atualizado:', map: {'Guide':'Guia','Best Teams':'Melhores Equipes','Stay updated':'Fique atualizado','Redeem your Daily Gifts':'Resgate seus Presentes Diários','Event':'Evento','Best Meta Teams and Combos':'Melhores Times e Combos'}},
+    es: {updatedPrefix: 'Actualizado:', map: {'Guide':'Guía','Best Teams':'Mejores Equipos','Stay updated':'Mantente al día','Redeem your Daily Gifts':'Canjea tus Regalos Diarios','Event':'Evento','Best Meta Teams and Combos':'Mejores Equipos y Combos'}},
+    fr: {updatedPrefix: 'Mis à jour:', map: {'Guide':'Guide','Best Teams':'Meilleures équipes','Stay updated':'Restez informé','Redeem your Daily Gifts':'Échangez vos Cadeaux Quotidiens','Event':'Événement','Best Meta Teams and Combos':'Meilleures Équipes et Combos'}},
+    ja: {updatedPrefix: '更新:', map: {'Guide':'ガイド','Best Teams':'ベストチーム','Stay updated':'最新情報をチェック','Redeem your Daily Gifts':'毎日のギフトを受け取る','Event':'イベント','Best Meta Teams and Combos':'ベストメタチームとコンボ'}},
+    de: {updatedPrefix: 'Aktualisiert:', map: {'Guide':'Leitfaden','Best Teams':'Beste Teams','Stay updated':'Bleiben Sie informiert','Redeem your Daily Gifts':'Löse deine täglichen Geschenke ein','Event':'Event','Best Meta Teams and Combos':'Beste Meta-Teams und Combos'}}
   };
 
   function detectLang(){
