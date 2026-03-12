@@ -15,6 +15,7 @@
 <meta property="article:modified_time" content="2026-03-12T17:32:00-03:00" />
 
 <link rel="stylesheet" href="./css/estilo13z.css">   
+<script src="./hero-wars-dominion-era/home/hwde-carousel-menu.js" defer></script>
 
 <title>Hero Wars Daily Gifts: Redeem FREE Rewards! (Web/Facebook)</title>
 <meta name="description" content="Claim your FREE Hero Wars Daily Gifts on Web/Facebook! Find all the rewards, free items, and gift links to boost your team and collect your daily login bonus.">
@@ -93,8 +94,9 @@
     <!-- O menu <nav></nav> será inserido aqui pelo JavaScript -->
     <!-- Colocar link pag. Português.html - O link fica definido aqui no HTML Botão de troca de idioma -->
 
-<script src="./Documentos/nav13-en-v27.js" defer></script>
-<script src="./Documentos/lazy-load.js"></script>
+<script src="./alex-java/nav13-en-v27.js" defer></script>
+<script src="./alex-java/lazy-load.js"></script>
+
       
   
   <header>          
@@ -118,20 +120,20 @@
 </div>
 </header>
 
-<div class="ad-fold-container">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-   crossorigin="anonymous"></script>
-<!-- hero wars: Dominion Era -->
-<ins class="adsbygoogle"
-   style="display:block; width:100%; height:auto;"
-   data-ad-client="ca-pub-7838775403194689"
-   data-ad-slot="5099130776"
-   data-ad-format="auto"
-   data-full-width-responsive="true"></ins>
-<script>
-   (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
+<!-- Carrossel novidades +novos -->
+<div class="carousel-container">
+  <div class="carousel-track">
+    <!-- Slides serão injetados dinamicamente por alex-java/carousel-multi-lang.js -->
+  </div>
+ <button class="carousel-btn prev">&#10094;</button>
+  <button class="carousel-btn next">&#10095;</button>
+</div><hr>
+<!-- Carrossel novidades +novos fim -->
+
+<!-- ad hero wars: Dominion Era -->
+<div class="ad-fold-container" id="ad-placeholder" aria-hidden="true"></div>
+<!-- ad fim hero wars: Dominion Era -->
+
 <style>
 @media (max-width:600px){
   a[rel~="noopener"]{
@@ -1955,6 +1957,55 @@ On the Alexandre Games blog, Hero Wars Dominion Era players on Web and Facebook 
     <script src="./alex-java/graphcomments-07z.js" defer></script>
     <script src="./Documentos/share-en-reddit.js" defer></script>
     <script src="./alex-java/translate07-en.js" defer></script>
+
+
+<script>
+(function(){
+  var adScriptLoaded = false;
+  
+  function injectAds(){
+    try{
+      var adContainer = document.getElementById('ad-placeholder');
+      if(!adContainer || adContainer.dataset.adsInjected) return;
+      adContainer.dataset.adsInjected = '1';
+      
+      // Criar o ins primeiro para reservar espaço
+      var ins = document.createElement('ins');
+      ins.className = 'adsbygoogle';
+      ins.style.cssText = 'display:block; width:100%; min-height:250px;';
+      ins.setAttribute('data-ad-client','ca-pub-7838775403194689');
+      ins.setAttribute('data-ad-slot','5099130776');
+      ins.setAttribute('data-ad-format','rectangle'); // formato fixo evita CLS
+      ins.setAttribute('data-full-width-responsive','false'); // desativa responsivo que causa CLS
+      adContainer.appendChild(ins);
+      
+      // Carregar script apenas uma vez
+      if(!adScriptLoaded){
+        adScriptLoaded = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689';
+        s.crossOrigin = 'anonymous';
+        s.onload = function(){ (adsbygoogle = window.adsbygoogle || []).push({}); };
+        document.head.appendChild(s);
+      } else {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      }
+    }catch(e){console.error(e)}
+  }
+
+  if('IntersectionObserver' in window){
+    var obs = new IntersectionObserver(function(entries, observer){
+      if(entries[0].isIntersecting){ injectAds(); observer.disconnect(); }
+    }, {rootMargin: '100px'});
+    var target = document.getElementById('ad-placeholder');
+    if(target) obs.observe(target);
+  } else {
+    window.addEventListener('load', injectAds);
+  }
+})();
+</script>
+
 
 </body>
 </html>
