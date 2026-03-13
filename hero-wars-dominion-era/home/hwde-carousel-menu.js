@@ -1,6 +1,16 @@
 (function(){
   // Carousel multi-language injector (HWDE specific copy)
   const slides = [
+{
+      link: "../../hero-wars-dominion-era/characters/byrna-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/byrna/byrna-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/byrna/byrna-400px.webp",
+      alt: "Byrna Guide for Hero Wars: Dominion Era",
+      title: "Byrna Guide for Hero Wars: Dominion Era.",
+      strong: "Byrna Guide - Hero Wars: Dominion Era(English Guide)",
+      updated: "Updated: March, 2026."
+    },
+
     {
       link: "../../hero-wars-dominion-era/guide/meta-teams-and-combos-hwde-en.html",
       src500: "../../hero-wars-dominion-era/images/guides/meta-teams-and-combos-hwde/meta-teams-and-combos-hwde-500px.webp",
