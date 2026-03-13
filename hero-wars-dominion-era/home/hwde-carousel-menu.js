@@ -139,13 +139,82 @@
     return prefix + ' ' + rest;
   }
 
+  var localizedLinkAvailability = {};
+
+  function getLocalizedLink(baseLink, lang){
+    if(lang === 'en') return baseLink;
+    return baseLink.replace(/-en\.html$/,'-' + lang + '.html');
+  }
+
+  function checkLinkExists(url, callback){
+    if(!url || typeof callback !== 'function') return;
+    if(Object.prototype.hasOwnProperty.call(localizedLinkAvailability, url)){
+      callback(localizedLinkAvailability[url]);
+      return;
+    }
+
+    function finish(exists){
+      localizedLinkAvailability[url] = !!exists;
+      callback(!!exists);
+    }
+
+    if(window.fetch){
+      fetch(url, { method: 'HEAD' })
+        .then(function(response){
+          if(response && response.ok){
+            finish(true);
+            return;
+          }
+          return fetch(url, { method: 'GET' }).then(function(getResponse){
+            finish(!!(getResponse && getResponse.ok));
+          }).catch(function(){ finish(false); });
+        })
+        .catch(function(){
+          fetch(url, { method: 'GET' })
+            .then(function(response){ finish(!!(response && response.ok)); })
+            .catch(function(){ finish(false); });
+        });
+      return;
+    }
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.onreadystatechange = function(){
+      if(xhr.readyState === 4){
+        finish(xhr.status >= 200 && xhr.status < 300);
+      }
+    };
+    xhr.onerror = function(){ finish(false); };
+    try{ xhr.send(); }catch(e){ finish(false); }
+  }
+
+  function resolveLocalizedCarouselLinks(){
+    var lang = detectLang();
+    if(lang === 'en') return;
+
+    var anchors = document.querySelectorAll('.carousel-slide a[data-base-link]');
+    for(var i = 0; i < anchors.length; i++){
+      (function(anchor){
+        var baseLink = anchor.getAttribute('data-base-link');
+        if(!baseLink) return;
+        var localizedLink = getLocalizedLink(baseLink, lang);
+        if(localizedLink === baseLink) return;
+
+        checkLinkExists(localizedLink, function(exists){
+          anchor.href = exists ? localizedLink : baseLink;
+        });
+      })(anchors[i]);
+    }
+  }
+
   function buildSlideHTML(s){
     const lang = detectLang();
-    const targetLink = lang==='en' ? s.link : s.link.replace(/-en\.html$/,'-' + lang + '.html');
+    const localizedLink = getLocalizedLink(s.link, lang);
+    const targetLink = lang === 'en' ? s.link : s.link;
     const strongText = applyTranslations(s.strong, lang);
     const updatedText = translateUpdated(s.updated, lang);
 
-    return `\n<figure class="carousel-slide">\n  <a href="${targetLink}">\n    <picture>\n      <source media="(min-width: 769px)" srcset="${s.src500}">\n      <img src="${s.src400}" alt="${s.alt}" Title="${s.title}" loading="lazy">\n        <strong>${strongText}</strong>\n        <i>${updatedText}</i>\n  </a>\n</figure>`;
+    return `\n<figure class="carousel-slide">\n  <a href="${targetLink}" data-base-link="${s.link}" data-localized-link="${localizedLink}">\n    <picture>\n      <source media="(min-width: 769px)" srcset="${s.src500}">\n      <img src="${s.src400}" alt="${s.alt}" Title="${s.title}" loading="lazy">\n        <strong>${strongText}</strong>\n        <i>${updatedText}</i>\n  </a>\n</figure>`;
   }
 
   function inject(){
@@ -153,6 +222,7 @@
     if(!track) return;
     const html = slides.map(buildSlideHTML).join('\n');
     track.innerHTML = html;
+    resolveLocalizedCarouselLinks();
   }
 
   function initCarouselControls(){
