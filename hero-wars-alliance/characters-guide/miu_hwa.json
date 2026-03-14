@@ -1,0 +1,279 @@
+{
+	"game": "Hero Wars Alliance",
+	"heroes": [
+		{
+			"id": "miu",
+			"name": "Miu",
+			"gender": "female",
+			"role": ["Support"],
+			"main_class": "Support",
+			"position": "Back Line",
+			"main_stat": "Intelligence",
+			"how_to_get_soul_stones": "N/A",
+			"hydra_tier_list": "N/A",
+			"hero_tier_list": "N/A",
+			"faction": "Way of Mystery",
+			"best_synergy": ["Electra", "Aurora", "Folio", "Satori"],
+			"meta_ratings": {
+				"control": 4,
+				"damage": 4,
+				"synergy": 5,
+				"independence": 2
+			},
+			"realm": {
+				"troop_buff": "Spearmen",
+				"skills": [
+					"ainda nao disponivel"
+				]
+			},
+			"stats": {},
+			"talisman_details": {
+				"talisman_of_storm": {
+					"main_stat": "Intelligence",
+					"main_stat_bonus": 2000,
+					"derived_bonuses": {
+						"magic_attack": 6000,
+						"magic_defense": 2000,
+						"physical_attack": 2000
+					},
+					"reroll_slots": [
+						{ "stat": "Armor", "value": 6600 },
+						{ "stat": "Armor", "value": 6600 },
+						{ "stat": "Armor", "value": 6600 }
+					],
+					"total_reroll_bonus": { "stat": "Armor", "value": 19800 }
+				},
+				"recommended": "talisman_of_storm"
+			},
+			"skills": [
+				{
+					"id": 1,
+					"variant": "base",
+					"level": 120,
+					"name": "Lightning Strike",
+					"type": ["Blinding", "Magic Damage", "Buff"],
+					"damage_formula": "40% Magic Attack + 14400",
+					"scales_with": ["Magic Attack"],
+					"blind_duration_seconds": 6.0,
+					"targets": "All heroes in the center of the battlefield",
+					"description": "Creates a flash that blinds all heroes in the center of the battlefield for 6.0 seconds and deals magic damage to enemies. While affected by any Blindness, allies always hit enemies and their attacks cannot be evaded. Miu is always Blinded.",
+					"evolution_priority": "Very High"
+				},
+				{
+					"id": 1,
+					"variant": "legendary",
+					"relic_level": 30,
+					"unlock_condition": {
+						"unlock_type": "enhancement",
+						"target_skill_id": 1
+					},
+					"name": "Eternal Blindness",
+					"type": ["Passive", "Blinding"],
+					"duration_increase_seconds": 3.0,
+					"description": "The duration of all Blindness effects is increased by 3.0 seconds.",
+					"evolution_priority": "Very High"
+				},
+				{
+					"id": 2,
+					"variant": "base",
+					"level": 120,
+					"name": "Veil of Insight",
+					"type": ["Buff", "Blinding"],
+					"magical_crit_hit_chance_increase_formula": "15% Magic Attack + 4800",
+					"scales_with": ["Magic Attack"],
+					"blind_duration_seconds": 5.0,
+					"targets": "The ally in front of Miu",
+					"description": "Blinds the ally in front of her for 5.0 seconds. Any Blindness affecting allies increases their Magical Crit Hit chance.",
+					"evolution_priority": "Very High"
+				},
+				{
+					"id": 2,
+					"variant": "legendary",
+					"relic_level": 20,
+					"unlock_condition": {
+						"unlock_type": "enhancement",
+						"target_skill_id": 2
+					},
+					"name": "Veil of Insight",
+					"type": ["Buff", "Blinding", "Magical Critical Damage"],
+					"magical_critical_hit_damage_percent": 150,
+					"description": "Magical Critical Hits from blinded allies now deal more damage.",
+					"evolution_priority": "Very High"
+				},
+				{
+					"id": 3,
+					"variant": "base",
+					"level": 100,
+					"name": "Blind Fury",
+					"type": ["Magic Damage"],
+					"magic_damage_formula": "100% Magic Attack + 24000",
+					"magic_damage_to_blinded_enemies_formula": "200% Magic Attack + 48000",
+					"scales_with": ["Magic Attack"],
+					"targets": "The central enemy and surrounding enemies",
+					"description": "Deals magic damage to the central enemy and surrounding enemies. Blinded enemies take increased damage.",
+					"evolution_priority": "High"
+				},
+				{
+					"id": 4,
+					"variant": "base",
+					"level": 80,
+					"name": "Gift of the Storm",
+					"type": ["Buff", "Magic Penetration"],
+					"magic_penetration_increase_formula": "20% Magic Attack + 7200",
+					"scales_with": ["Magic Attack"],
+					"duration_seconds": 5.0,
+					"trigger": "Each time Miu or her allies land a Critical Hit",
+					"trigger_once_every_seconds": 5.0,
+					"description": "Each time Miu or her allies land a Critical Hit, their Magic Penetration is increased for 5.0 seconds. This skill triggers once every 5 seconds.",
+					"evolution_priority": "High"
+				},
+				{
+					"id": 5,
+					"variant": "legendary",
+					"relic_level": 1,
+					"unlock_condition": {
+						"unlock_type": "new_skill"
+					},
+					"name": "Blinding Stormcloud",
+					"type": ["Blinding", "Magic Damage"],
+					"damage_formula": "150% Magic Attack",
+					"scales_with": ["Magic Attack"],
+					"cooldown_seconds": 10.0,
+					"blind_duration_seconds": 6.0,
+					"targets": "The nearest non-Blinded enemy",
+					"fallback_target": "The central enemy if all enemies are Blinded",
+					"description": "Every 10 seconds, blinds the nearest non-Blinded enemy for 6.0 seconds. If all enemies are Blinded, the central enemy takes damage.",
+					"evolution_priority": "Very High"
+				},
+				{
+					"id": 6,
+					"variant": "legendary",
+					"relic_level": 30,
+					"unlock_condition": {
+						"unlock_type": "new_skill"
+					},
+					"name": "Eternal Blindness",
+					"type": ["Passive", "Blinding"],
+					"duration_increase_seconds": 3.0,
+					"description": "The duration of all Blindness effects is increased by 3.0 seconds.",
+					"evolution_priority": "Very High"
+				}
+			],
+			"skins": [
+				{
+					"name": "Default Skin",
+					"stat": "Intelligence",
+					"bonus": 1365,
+					"derived_bonuses": {
+						"magic_attack": 4095,
+						"magic_defense": 1365,
+						"physical_attack": 1365
+					},
+					"evolution_priority": "Very High"
+				}
+			],
+			"artifacts": [
+				{
+					"slot": "Weapon",
+					"name": "Rainy Season",
+					"activation_trigger": "Lightning Strike",
+					"activation_chance": 100,
+					"effect": "Magical Crit Hit Chance bonus to the whole team",
+					"magical_crit_hit_chance": 8898,
+					"duration_seconds": 9,
+					"evolution_priority": "Very High"
+				},
+				{
+					"slot": "Book",
+					"name": "Storm Maiden Tome",
+					"magic_penetration": 10680,
+					"health": 53394,
+					"evolution_priority": "High"
+				},
+				{
+					"slot": "Ring",
+					"name": "Ring of Intelligence",
+					"intelligence": 3990,
+					"derived_bonuses": {
+						"magic_attack": 11970,
+						"magic_defense": 3990,
+						"physical_attack": 3990
+					},
+					"evolution_priority": "High"
+				}
+			],
+			"glyphs": [
+				{
+					"name": "Magic Attack",
+					"level": 80,
+					"bonus": 12850,
+					"evolution_priority": "Very High (1st Overall)"
+				},
+				{
+					"name": "Health",
+					"level": 80,
+					"bonus": 122800,
+					"evolution_priority": "Medium High (4th Overall)"
+				},
+				{
+					"name": "Magical Crit Hit Chance",
+					"level": 80,
+					"bonus": 4170,
+					"evolution_priority": "Very High (2nd Overall)"
+				},
+				{
+					"name": "Armor",
+					"level": 80,
+					"bonus": 12850,
+					"evolution_priority": "Medium (5th Overall)"
+				},
+				{
+					"name": "Intelligence",
+					"level": 80,
+					"bonus": 2110,
+					"derived_bonuses": {
+						"magic_attack": 6330,
+						"magic_defense": 2110,
+						"physical_attack": 2110
+					},
+					"evolution_priority": "High (3rd Overall)"
+				}
+			],
+			"synergies": [
+				{
+					"name": "Electra",
+					"reason": "One of Miu's strongest partners. Electra applies Blind, buffs the team's Magic Attack, reduces enemy Magic Defense, and can tank magic damage. Together they amplify Magical Crit and Magic Penetration for explosive magic damage."
+				},
+				{
+					"name": "Satori",
+					"reason": "A magic burst DPS that benefits directly from Miu's Magical Crit support and Magic Penetration buffs. Blinded enemies are also less able to avoid his damage windows."
+				},
+				{
+					"name": "Folio",
+					"reason": "Provides steady magic damage, benefits from Magical Crit Hit Chance, and scales well with extra Magic Penetration, making Miu's support package consistently valuable."
+				},
+				{
+					"name": "Peppy",
+					"reason": "Adds extra control and magic damage through Blind, Stun, and Slow, helping keep enemy debuffs active and increasing Miu's overall battlefield value."
+				},
+				{
+					"name": "Aurora",
+					"reason": "A durable magic-oriented tank with dodge, magic shielding, and passive magic damage. Aurora keeps the team alive while Miu enables the backline damage dealers."
+				}
+			],
+			"special_interactions": [
+				{
+					"type": "enemy_blind_sources_can_help_miu",
+					"heroes": ["Kayla", "Cascade", "Artemis", "Qing Mao", "Fox", "Peppy"],
+					"reason": "Additional Blindness from enemy heroes can still interact favorably with Miu's kit because blinded allies always hit enemies and their attacks cannot be evaded while Lightning Strike's effect is active."
+				}
+			],
+			"notes": [
+				"Realm skills are not available yet.",
+				"Only Talisman of Storm is available at the moment.",
+				"Stats block was left empty because no complete endgame stat sheet was provided.",
+				"The source notes listed Eternal Blindness both as a skill enhancement and as a new legendary skill at relic level 30; both entries were preserved for later in-game verification."
+			]
+		}
+	]
+}
