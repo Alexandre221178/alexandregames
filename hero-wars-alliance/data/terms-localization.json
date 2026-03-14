@@ -175,31 +175,6 @@
     "pt": "Armadura",
     "ja": "アーマー"
   },
-  "Skills": {
-    "en": "Skills",
-    "de": "Fertigkeiten",
-    "es": "Habilidades",
-    "fr": "Compétences",
-    "pt": "Habilidades",
-    "ja": "スキル"
-  },
-  "Skills": {
-    "en": "Skills",
-    "de": "Fertigkeiten",
-    "es": "Habilidades",
-    "fr": "Compétences",
-    "pt": "Habilidades",
-    "ja": "スキル"
-  },
-  "Skill": {
-  "en": "Skill",
-  "de": "Fertigkeit",
-  "es": "Habilidad",
-  "fr": "Compétence",
-  "pt": "Habilidade",
-  "ja": "スキル"
-},
-
   "Physical Attack": {
     "en": "Physical Attack",
     "de": "Physikalischer Angriff",
@@ -208,14 +183,6 @@
     "pt": "Ataque Físico",
     "ja": "物理攻撃"
   },
-  "Counters": {
-    "en": "Counters",
-    "de": "Counters",
-    "es": "Counters",
-    "fr": "Counters",
-    "pt": "Counters",
-    "ja": "カウンター"
-  },
   "Agility": {
     "en": "Agility",
     "de": "Agilität",
@@ -223,14 +190,6 @@
     "fr": "Agilité",
     "pt": "Agilidade",
     "ja": "素早さ"
-  },
-  "Artifacts": {
-    "en": "Artifacts",
-    "de": "Artefakte",
-    "es": "Artefactos",
-    "fr": "Artefacts",
-    "pt": "Artefatos",
-    "ja": "アーティファクト"
   },
   "Magic Attack": {
     "en": "Magic Attack",
