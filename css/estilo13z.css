@@ -2513,7 +2513,7 @@ td.team-cell span{
   margin: 0 !important;
 }
      .share-buttons {
-        gap: 3px; /* diminui o espaço horizontal */
+        gap: 1px; /* diminui o espaço horizontal */
             }
     .share-buttons {
        
@@ -2521,12 +2521,13 @@ td.team-cell span{
         font-size: 14px; /* fonte um pouco menor */
     }
     .share-button {
+        font-size: 11px !important; /* fonte um pouco menor */
         margin-top: 1px;
         margin-bottom: 1px;
         margin-left: 1px;
         height: 30px;
-        font-size: 12px;
-        padding: 8px; /* Ajusta o padding para manter proporção */
+        
+        padding: 1px; /* Ajusta o padding para manter proporção */
     }
 
     section p {

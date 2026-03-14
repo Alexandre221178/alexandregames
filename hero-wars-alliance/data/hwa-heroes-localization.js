@@ -1,7 +1,7 @@
 // Hero Wars Alliance - Heroes Localization Data
 // Hero Wars Alliance - Heroes Localization Data
 const hwaHeroesLocalization = {
-  "Aidan": {
+    "Aidan": {
     "gender": "male",
     "en": "Aidan",
     "de": "Aidan",
@@ -486,6 +486,15 @@ const hwaHeroesLocalization = {
     "fr": "Maya",
     "pt": "Maya",
     "ja": "マヤ"
+  },
+  "Miu": {
+    "gender": "female",
+    "en": "Miu",
+    "de": "Miu",
+    "es": "Miu",
+    "fr": "Miu",
+    "pt": "Miu",
+    "ja": "美雨"
   },
   "Mojo": {
     "gender": "male",

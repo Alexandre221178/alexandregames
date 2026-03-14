@@ -13,7 +13,7 @@
 			"hydra_tier_list": "N/A",
 			"hero_tier_list": "N/A",
 			"faction": "Way of Mystery",
-			"best_synergy": ["Electra", "Aurora", "Folio", "Satori"],
+			"best_synergy": ["Electra", "Aurora", "Polaris", "Folio", "Soleil", "Satori"],
 			"meta_ratings": {
 				"control": 4,
 				"damage": 4,
@@ -26,7 +26,21 @@
 					"ainda nao disponivel"
 				]
 			},
-			"stats": {},
+			"stats": {
+				"talisman_of_storm": {
+					"intelligence": 16141,
+					"agility": 2503,
+					"strength": 2485,
+					"health": 655004,
+					"physical_attack": 21693,
+					"magic_attack": 146140,
+					"magic_defense": 21679,
+					"toughness": 2790,
+					"magical_crit_hit_chance": 5040,
+					"magic_penetration": 12660,
+					"crushing": 1358
+				}
+			},
 			"talisman_details": {
 				"talisman_of_storm": {
 					"main_stat": "Intelligence",
@@ -62,15 +76,14 @@
 				{
 					"id": 1,
 					"variant": "legendary",
-					"relic_level": 30,
+					"relic_level": 10,
 					"unlock_condition": {
 						"unlock_type": "enhancement",
 						"target_skill_id": 1
 					},
-					"name": "Eternal Blindness",
+					"name": "Lightning Strike",
 					"type": ["Passive", "Blinding"],
-					"duration_increase_seconds": 3.0,
-					"description": "The duration of all Blindness effects is increased by 3.0 seconds.",
+					"description": "Blindness now affects the entire battlefield.",
 					"evolution_priority": "Very High"
 				},
 				{
@@ -169,7 +182,13 @@
 						"magic_defense": 1365,
 						"physical_attack": 1365
 					},
-					"evolution_priority": "Very High"
+					"evolution_priority": "High"
+				},
+				{
+					"name": "Astral Skin",
+					"stat": "Magic Attack",
+					"bonus": 10650
+					
 				}
 			],
 			"artifacts": [
@@ -245,6 +264,10 @@
 					"reason": "One of Miu's strongest partners. Electra applies Blind, buffs the team's Magic Attack, reduces enemy Magic Defense, and can tank magic damage. Together they amplify Magical Crit and Magic Penetration for explosive magic damage."
 				},
 				{
+					"name": "Polaris",
+					"reason": "Polaris aplica stun nos inimigos e inimigos atordoados sofrem mais dano mágico, Poralis tem artefato de arma que consede bônus de chance de acerto crítico mágico para toda a equipe, e o controle adicional ajuda a manter os inimigos sob os efeitos de cegueira de Miu enquanto polaris se beneficia dos buffs de Miu de ataque mágico e perfuração mágica para causar mais dano mágico."
+				},
+				{
 					"name": "Satori",
 					"reason": "A magic burst DPS that benefits directly from Miu's Magical Crit support and Magic Penetration buffs. Blinded enemies are also less able to avoid his damage windows."
 				},
@@ -252,6 +275,7 @@
 					"name": "Folio",
 					"reason": "Provides steady magic damage, benefits from Magical Crit Hit Chance, and scales well with extra Magic Penetration, making Miu's support package consistently valuable."
 				},
+				
 				{
 					"name": "Peppy",
 					"reason": "Adds extra control and magic damage through Blind, Stun, and Slow, helping keep enemy debuffs active and increasing Miu's overall battlefield value."
@@ -269,9 +293,9 @@
 				}
 			],
 			"notes": [
+				"Miu é Forte contra times de Esquiva: Dante, Aurora, Octavia.",
 				"Realm skills are not available yet.",
 				"Only Talisman of Storm is available at the moment.",
-				"Stats block was left empty because no complete endgame stat sheet was provided.",
 				"The source notes listed Eternal Blindness both as a skill enhancement and as a new legendary skill at relic level 30; both entries were preserved for later in-game verification."
 			]
 		}
