@@ -267,11 +267,16 @@ nav .menu-icon{
     margin-top: 5px;
     line-height: 30px;
     text-align: left;
+  } 
+
+  .carousel-fold-container {
+        width: 100%; /* Ocupa toda a largura disponível */
+        /* Retirado 28-12-24 - max-width: 728px; - Tamanho máximo para anúncios no desktop */
+        min-height: 280px; /* Altura mínima padrão para anúncios */
+        background-color: #ffffff; /* #ffffff Cor de fundo clara para melhorar contraste  */
+        margin-top: 0px;
+        margin-bottom: 0px;
   }
-
-
-
-   
 
   .ad-fold-container {
     width: 100%; /* Ocupa toda a largura disponível */
@@ -2224,6 +2229,15 @@ td.team-cell span{
         /* Retirado 28-12-24 - max-width: 728px; - Tamanho máximo para anúncios no desktop */
         min-height: 250px; /* Altura mínima padrão para anúncios */
         background-color: #ffffff; /* Cor de fundo clara para melhorar contraste #ffffff */
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .carousel-fold-container {
+        width: 100%; /* Ocupa toda a largura disponível */
+        /* Retirado 28-12-24 - max-width: 728px; - Tamanho máximo para anúncios no desktop */
+        min-height: 263px; /* Altura mínima padrão para anúncios */
+        background-color: #ffffff; /* #ffffff Cor de fundo clara para melhorar contraste  */
         margin-top: 0px;
         margin-bottom: 0px;
     }
