@@ -516,7 +516,11 @@ window.CALENDAR_DATA = [
     {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
-      }  
+      }, 
+      {
+        titles: { en: "Mushy and Shroom Rework", pt: "Mushy and Shroom Rework", de: "Mushy and Shroom Rework", es: "Mushy and Shroom Rework", fr: "Mushy and Shroom Rework", ja: "Mushy and Shroom Rework" },
+        labelOnly: true
+      }, 
       
     ]
   },
@@ -537,6 +541,10 @@ window.CALENDAR_DATA = [
         titles: { en: "🎉Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
         labelOnly: true
       },
+      {
+        titles: { en: "Mushy and Shroom Rework", pt: "Mushy and Shroom Rework", de: "Mushy and Shroom Rework", es: "Mushy and Shroom Rework", fr: "Mushy and Shroom Rework", ja: "Mushy and Shroom Rework" },
+        labelOnly: true
+      }, 
       
     ]
   },
@@ -688,6 +696,10 @@ window.CALENDAR_DATA = [
         titles: { en: "Avalon Brawls Best Teams", pt: "Melhores Equipes da Avalon", de: "Beste Teams von Avalon", es: "Mejores Equipos de Avalon", fr: "Meilleures Équipes d'Avalon", ja: "アヴァロンの乱闘ベストチーム" },
         labelOnly: true
       }, 
+      {
+        titles: { en: "Byrna Event", pt: "Evento da Byrna", de: "Byrna Event", es: "Evento de Byrna", fr: "Événement de Byrna", ja: "バーナイベント" },
+        labelOnly: true
+      }, 
   ]
   },
   {
@@ -716,6 +728,10 @@ window.CALENDAR_DATA = [
         titles: { en: "Avalon Brawls Best Teams", pt: "Melhores Equipes da Avalon", de: "Beste Teams von Avalon", es: "Mejores Equipos de Avalon", fr: "Meilleures Équipes d'Avalon", ja: "アヴァロンの乱闘ベストチーム" },
         labelOnly: true
       }, 
+      {
+        titles: { en: "Byrna Event", pt: "Evento da Byrna", de: "Byrna Event", es: "Evento de Byrna", fr: "Événement de Byrna", ja: "バーナイベント" },
+        labelOnly: true
+      }, 
     ]
   },
   {
@@ -736,6 +752,10 @@ window.CALENDAR_DATA = [
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
+      {
+        titles: { en: "Byrna Event", pt: "Evento da Byrna", de: "Byrna Event", es: "Evento de Byrna", fr: "Événement de Byrna", ja: "バーナイベント" },
+        labelOnly: true
+      }, 
       
     ]
   },
@@ -762,6 +782,10 @@ window.CALENDAR_DATA = [
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
+      {
+        titles: { en: "Byrna Event", pt: "Evento da Byrna", de: "Byrna Event", es: "Evento de Byrna", fr: "Événement de Byrna", ja: "バーナイベント" },
+        labelOnly: true
+      }, 
       
     ]
   },
@@ -781,6 +805,10 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+      {
+        titles: { en: "Byrna Event", pt: "Evento da Byrna", de: "Byrna Event", es: "Evento de Byrna", fr: "Événement de Byrna", ja: "バーナイベント" },
+        labelOnly: true
+      }, 
      
       
     ]
@@ -803,6 +831,10 @@ window.CALENDAR_DATA = [
         titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
         links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" }
       },
+      {
+        titles: { en: "Byrna Event", pt: "Evento da Byrna", de: "Byrna Event", es: "Evento de Byrna", fr: "Événement de Byrna", ja: "バーナイベント" },
+        labelOnly: true
+      }, 
       
     ]
   },
@@ -824,6 +856,10 @@ window.CALENDAR_DATA = [
         titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
       },
+      {
+        titles: { en: "Byrna Event", pt: "Evento da Byrna", de: "Byrna Event", es: "Evento de Byrna", fr: "Événement de Byrna", ja: "バーナイベント" },
+        labelOnly: true
+      }, 
       
     ]
   },
