@@ -110,6 +110,15 @@
       updated: "Updated: February, 2026."
     },
     {
+      link: "../../hero-wars-alliance/menu-hwa/calendar-hwa-en.html",
+      src500: "../../img-HWM/events-img/herowarsalliance-calendar-500px.webp",
+      src400: "../../img-HWM/events-img/herowarsalliance-calendar-400px.webp",
+      alt: "Calendar for Hero Wars Alliance",
+      title: "Calendar for Hero Wars Alliance",
+      strong: "Calendar for Hero Wars Alliance",
+      updated: "Updated: Monthly."
+    },
+    {
       link: "../../y-m-gifts-hwa-en.html",
       src500: "../../hero-wars-alliance/images/daily-gifts/gifts-hwa-500px.webp",
       src400: "../../hero-wars-alliance/images/daily-gifts/gifts-hwa-400px.webp",
@@ -140,6 +149,8 @@
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guia de Byrna: Liberte o Espírito do Urso Curador em Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Resgate seus Presentes Diários para Hero Wars Alliance',
         'everyday': 'todos os dias',
+        'monthly': 'mensalmente',
+        'Calendar': 'Calendário',
       }
     },
     es: {
@@ -156,6 +167,8 @@
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guía de Byrna: Libera el Espíritu del Oso Sanador en Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Canjea tus Regalos Diarios para Hero Wars Alliance',
         'everyday': 'todos los días',
+        'monthly': 'mensalmente',
+        'Calendar': 'Calendario',
       }
     },
     fr: {
@@ -172,6 +185,8 @@
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guide de Byrna: Libérez l\'Esprit de l\'Ours Guérisseur dans Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Échangez vos Cadeaux Quotidiens pour Hero Wars Alliance',
         'everyday': 'tous les jours',
+        'monthly': 'mensuellement',
+        'Calendar': 'Calendrier',
       }
     },
     ja: {
@@ -190,6 +205,8 @@
         'for': '向け',
         'skin': 'スキン',
         'everyday': '毎日',
+        'monthly': '毎月',
+        'Calendar': 'カレンダー',
         'hero wars alliance': 'ヒーローウォーズ アライアンス',
       }
     },
@@ -204,7 +221,12 @@
         'Drayne Complete Guide for Hero Wars Alliance': 'Vollständiger Leitfaden zu Drayne für Hero Wars Alliance',
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Vollständiger Leitfaden zu Legendärer Relikt von Yasmine für Hero Wars Alliance',
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Byrna Leitfaden: Entfessle den Heiler-Bärengeist in Hero Wars: Alliance',
-        'Redeem your Daily Gifts for Hero Wars Alliance': 'Löse deine täglichen Geschenke für Hero Wars Alliance ein'
+        'Redeem your Daily Gifts for Hero Wars Alliance': 'Löse deine täglichen Geschenke für Hero Wars Alliance ein',
+        'for': 'für',
+        'skin': 'Skin',
+        'everyday': 'täglich',
+        'monthly': 'monatlich',
+        'Calendar': 'Kalender',
       }
     }
   };

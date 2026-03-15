@@ -2802,7 +2802,7 @@ td.team-cell span{
             font-size: 14px;
             position: relative;
             padding: 10px;
-            background-color: #077dbd;
+            background-color: #077dbd; /* cor calendário mobile esta no js */
             border-radius: 5px;
             text-align: center;
             height: 250px; /* tamanho do container */

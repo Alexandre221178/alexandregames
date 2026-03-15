@@ -17,6 +17,7 @@
 (function(){
   var HWA_TERMS = null;
   var EVENTS_MASTER = null;
+  var LINK_CHECK_CACHE = Object.create(null);
 
   // Traduções dos dias da semana
   var WEEKDAYS = {
@@ -130,6 +131,121 @@
       .catch(function(){ EVENTS_MASTER = null; });
   }
 
+  function isExternalLink(url){
+    return /^(?:[a-z]+:)?\/\//i.test(url);
+  }
+
+  function isAnchorLink(url){
+    return typeof url === 'string' && url.charAt(0) === '#';
+  }
+
+  function normalizeLinkValue(url){
+    if(typeof url !== 'string') return '';
+    return url.trim();
+  }
+
+  function resolveEventLink(links, lang){
+    if(!links) return { href: '#', fallbackHref: '', usedFallback: false };
+    var primaryHref = normalizeLinkValue(links[lang]);
+    var fallbackHref = normalizeLinkValue(links.en);
+
+    if(primaryHref){
+      return {
+        href: primaryHref,
+        fallbackHref: fallbackHref && fallbackHref !== primaryHref ? fallbackHref : '',
+        usedFallback: false
+      };
+    }
+
+    if(fallbackHref){
+      return { href: fallbackHref, fallbackHref: '', usedFallback: lang !== 'en' };
+    }
+
+    return { href: '#', fallbackHref: '', usedFallback: false };
+  }
+
+  function shouldValidateFallbackLink(linkInfo, lang){
+    if(!linkInfo || !linkInfo.href || !linkInfo.fallbackHref) return false;
+    if(lang === 'en') return false;
+    if(linkInfo.href === linkInfo.fallbackHref) return false;
+    if(isExternalLink(linkInfo.href) || isExternalLink(linkInfo.fallbackHref)) return false;
+    if(isAnchorLink(linkInfo.href) || isAnchorLink(linkInfo.fallbackHref)) return false;
+    return true;
+  }
+
+  function escapeHtml(value){
+    return String(value)
+      .replace(/&/g, '&amp;')
+      .replace(/"/g, '&quot;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+  }
+
+  function buildLinkAttributes(linkInfo){
+    var attrs = ' href="' + escapeHtml(linkInfo.href || '#') + '"';
+    if(linkInfo.usedFallback){
+      attrs += ' data-lang-fallback="en"';
+    }
+    if(linkInfo.fallbackHref){
+      attrs += ' data-fallback-href="' + escapeHtml(linkInfo.fallbackHref) + '"';
+    }
+    return attrs;
+  }
+
+  function appendEnFallbackLabel(anchor){
+    if(!anchor) return;
+    if(anchor.getAttribute('data-lang-fallback') === 'en') return;
+    anchor.textContent = (anchor.textContent || '') + ' (EN)';
+    anchor.setAttribute('data-lang-fallback', 'en');
+  }
+
+  function checkLinkExists(url){
+    if(!url) return Promise.resolve(false);
+    if(Object.prototype.hasOwnProperty.call(LINK_CHECK_CACHE, url)){
+      return Promise.resolve(LINK_CHECK_CACHE[url]);
+    }
+
+    return fetch(url, { method: 'HEAD' })
+      .then(function(response){
+        var exists = response.ok;
+        LINK_CHECK_CACHE[url] = exists;
+        return exists;
+      })
+      .catch(function(){
+        return fetch(url, { method: 'GET' })
+          .then(function(response){
+            var exists = response.ok;
+            LINK_CHECK_CACHE[url] = exists;
+            return exists;
+          })
+          .catch(function(){
+            LINK_CHECK_CACHE[url] = false;
+            return false;
+          });
+      });
+  }
+
+  function attachFallbackValidation(calendarElem, lang){
+    if(!calendarElem || lang === 'en') return;
+
+    var links = calendarElem.querySelectorAll('a[data-fallback-href]');
+    Array.prototype.forEach.call(links, function(anchor){
+      var href = normalizeLinkValue(anchor.getAttribute('href'));
+      var fallbackHref = normalizeLinkValue(anchor.getAttribute('data-fallback-href'));
+
+      if(!href || !fallbackHref || href === fallbackHref) return;
+      if(isExternalLink(href) || isExternalLink(fallbackHref)) return;
+      if(isAnchorLink(href) || isAnchorLink(fallbackHref)) return;
+
+      checkLinkExists(href).then(function(exists){
+        if(exists) return;
+        anchor.setAttribute('href', fallbackHref);
+        anchor.classList.add('lang-fallback');
+        appendEnFallbackLabel(anchor);
+      });
+    });
+  }
+
   function buildEventHTML(ev, lang){
     // If event references a master id, merge missing fields from master
     if(ev && ev.id && EVENTS_MASTER && EVENTS_MASTER[ev.id]){
@@ -155,12 +271,9 @@
     html += '    <div class="date">' + translatedDate + '</div>\n';
     if(ev.titles){
       var titleText = ev.titles[lang] || ev.titles.en || '';
-      var href = '#';
-      var usedFallback = false;
-      if(ev.links){
-        if(ev.links[lang]) href = ev.links[lang];
-        else if(ev.links.en){ href = ev.links.en; usedFallback = true; }
-      }
+      var linkInfo = resolveEventLink(ev.links, lang);
+      var href = linkInfo.href;
+      var usedFallback = linkInfo.usedFallback;
       // If localization map loaded, replace known terms inside titleText
       if(window && typeof window !== 'undefined' && (typeof HWA_TERMS === 'object') && HWA_TERMS){
         Object.keys(HWA_TERMS).forEach(function(key){
@@ -181,18 +294,15 @@
       if(ev.labelOnly){
         html += '    <br>    <span class="event-label">' + displayTitle + '</span>\n';
       } else {
-        html += '    <br>    <a href="' + href + '" class="' + linkClass + '">' + displayTitle + '</a>\n';
+        html += '    <br>    <a' + buildLinkAttributes(linkInfo) + ' class="' + linkClass + '">' + displayTitle + '</a>\n';
       }
     }
     if(ev.extra && ev.extra.length){
       ev.extra.forEach(function(item){
         var text = (item.titles && (item.titles[lang]||item.titles.en)) || item.text || '';
-        var link = '#';
-        var itemFallback = false;
-        if(item.links){
-          if(item.links[lang]) link = item.links[lang];
-          else if(item.links.en){ link = item.links.en; itemFallback = true; }
-        }
+        var itemLinkInfo = resolveEventLink(item.links, lang);
+        var link = itemLinkInfo.href;
+        var itemFallback = itemLinkInfo.usedFallback;
         // Strip guide suffix for extras unless explicitly disabled on the item
         if(!item.noStrip){
           text = stripGuideSuffix(text, lang);
@@ -202,7 +312,7 @@
         if(item.labelOnly){
           html += '    <span class="event-label">' + display + '</span>\n';
         } else {
-          html += '    <a href="' + link + '" class="' + cls + '">' + display + '</a>\n';
+          html += '    <a' + buildLinkAttributes(itemLinkInfo) + ' class="' + cls + '">' + display + '</a>\n';
         }
       });
     }
@@ -285,6 +395,7 @@
     // If there is a dedicated container, render into it to avoid removing scripts
     var container = calendarElem.querySelector('#calendar-container');
     if(container) container.innerHTML = html; else calendarElem.innerHTML = html;
+    attachFallbackValidation(calendarElem, lang);
   }
 
   document.addEventListener('DOMContentLoaded', function(){
