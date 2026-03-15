@@ -114,7 +114,7 @@ window.CALENDAR_DATA = [
   {
     weekday: "Thursday",
     date: "Mar, 19",
-    image: "../../imagens/image-shared/Drayne-300px.webp",
+    image: "../../imagens/image-shared/drayne-300px.webp",
      alt: "Drayne Guide",
     titles: { en: "Drayne Legendary Skills Guide", de: "Drayne Legendary Skills Guide", es: "Drayne Legendary Skills Guide", fr: "Drayne Legendary Skills Guide", pt: "Drayne Legendary Skills Guide", ja: "Drayne Legendary Skills Guide" },
     links: { en: "../../hero-wars-alliance/characters-guide/drayne-en.html", de: "../../hero-wars-alliance/characters-guide/drayne-de.html", es: "../../hero-wars-alliance/characters-guide/drayne-es.html", fr: "../../hero-wars-alliance/characters-guide/drayne-fr.html", pt: "../../hero-wars-alliance/characters-guide/drayne-pt.html", ja: "../../hero-wars-alliance/characters-guide/drayne-ja.html" },
