@@ -116,8 +116,14 @@ window.CALENDAR_DATA = [
     date: "Mar, 19",
     image: "../../imagens/image-shared/drayne-300px.webp",
      alt: "Drayne Guide",
-    titles: { en: "Drayne Legendary Skills Guide", de: "Drayne Legendary Skills Guide", es: "Drayne Legendary Skills Guide", fr: "Drayne Legendary Skills Guide", pt: "Drayne Legendary Skills Guide", ja: "Drayne Legendary Skills Guide" },
-    links: { en: "../../hero-wars-alliance/characters-guide/drayne-en.html", de: "../../hero-wars-alliance/characters-guide/drayne-de.html", es: "../../hero-wars-alliance/characters-guide/drayne-es.html", fr: "../../hero-wars-alliance/characters-guide/drayne-fr.html", pt: "../../hero-wars-alliance/characters-guide/drayne-pt.html", ja: "../../hero-wars-alliance/characters-guide/drayne-ja.html" },
+   titles: { 
+ en: "Drayne Legendary Skills Guide",
+ de: "Leitfaden zu Draynes legendären Fähigkeiten",
+ es: "Guía de las Habilidades Legendarias de Drayne",
+ fr: "Guide des Compétences Légendaires de Drayne",
+ pt: "Guia das Habilidades Lendárias de Drayne",
+ ja: "ドレインのレジェンダリースキルガイド"
+},    links: { en: "../../hero-wars-alliance/characters-guide/drayne-en.html", de: "../../hero-wars-alliance/characters-guide/drayne-de.html", es: "../../hero-wars-alliance/characters-guide/drayne-es.html", fr: "../../hero-wars-alliance/characters-guide/drayne-fr.html", pt: "../../hero-wars-alliance/characters-guide/drayne-pt.html", ja: "../../hero-wars-alliance/characters-guide/drayne-ja.html" },
     extra: [
             
       
@@ -140,8 +146,14 @@ window.CALENDAR_DATA = [
     date: "Mar, 20",
     image: "../../imagens/image-shared/Drayne-300px.webp",
      alt: "Drayne Guide",
-    titles: { en: "Drayne Legendary Skills Guide", de: "Drayne Legendary Skills Guide", es: "Drayne Legendary Skills Guide", fr: "Drayne Legendary Skills Guide", pt: "Drayne Legendary Skills Guide", ja: "Drayne Legendary Skills Guide" },
-    links: { en: "../../hero-wars-alliance/characters-guide/drayne-en.html", de: "../../hero-wars-alliance/characters-guide/drayne-de.html", es: "../../hero-wars-alliance/characters-guide/drayne-es.html", fr: "../../hero-wars-alliance/characters-guide/drayne-fr.html", pt: "../../hero-wars-alliance/characters-guide/drayne-pt.html", ja: "../../hero-wars-alliance/characters-guide/drayne-ja.html" },
+    titles: { 
+ en: "Drayne Legendary Skills Guide",
+ de: "Leitfaden zu Draynes legendären Fähigkeiten",
+ es: "Guía de las Habilidades Legendarias de Drayne",
+ fr: "Guide des Compétences Légendaires de Drayne",
+ pt: "Guia das Habilidades Lendárias de Drayne",
+ ja: "ドレインのレジェンダリースキルガイド"
+},    links: { en: "../../hero-wars-alliance/characters-guide/drayne-en.html", de: "../../hero-wars-alliance/characters-guide/drayne-de.html", es: "../../hero-wars-alliance/characters-guide/drayne-es.html", fr: "../../hero-wars-alliance/characters-guide/drayne-fr.html", pt: "../../hero-wars-alliance/characters-guide/drayne-pt.html", ja: "../../hero-wars-alliance/characters-guide/drayne-ja.html" },
     extra: [
             
       
@@ -164,8 +176,14 @@ window.CALENDAR_DATA = [
     date: "Mar, 21",
    image: "../../imagens/image-shared/Drayne-300px.webp",
      alt: "Drayne Guide",
-    titles: { en: "Drayne Legendary Skills Guide", de: "Drayne Legendary Skills Guide", es: "Drayne Legendary Skills Guide", fr: "Drayne Legendary Skills Guide", pt: "Drayne Legendary Skills Guide", ja: "Drayne Legendary Skills Guide" },
-    links: { en: "../../hero-wars-alliance/characters-guide/drayne-en.html", de: "../../hero-wars-alliance/characters-guide/drayne-de.html", es: "../../hero-wars-alliance/characters-guide/drayne-es.html", fr: "../../hero-wars-alliance/characters-guide/drayne-fr.html", pt: "../../hero-wars-alliance/characters-guide/drayne-pt.html", ja: "../../hero-wars-alliance/characters-guide/drayne-ja.html" },
+    titles: { 
+ en: "Drayne Legendary Skills Guide",
+ de: "Leitfaden zu Draynes legendären Fähigkeiten",
+ es: "Guía de las Habilidades Legendarias de Drayne",
+ fr: "Guide des Compétences Légendaires de Drayne",
+ pt: "Guia das Habilidades Lendárias de Drayne",
+ ja: "ドレインのレジェンダリースキルガイド"
+},    links: { en: "../../hero-wars-alliance/characters-guide/drayne-en.html", de: "../../hero-wars-alliance/characters-guide/drayne-de.html", es: "../../hero-wars-alliance/characters-guide/drayne-es.html", fr: "../../hero-wars-alliance/characters-guide/drayne-fr.html", pt: "../../hero-wars-alliance/characters-guide/drayne-pt.html", ja: "../../hero-wars-alliance/characters-guide/drayne-ja.html" },
     extra: [
             
       
@@ -189,8 +207,14 @@ window.CALENDAR_DATA = [
     date: "Mar, 22",
     image: "../../imagens/image-shared/Drayne-300px.webp",
      alt: "Drayne Guide",
-    titles: { en: "Drayne Legendary Skills Guide", de: "Drayne Legendary Skills Guide", es: "Drayne Legendary Skills Guide", fr: "Drayne Legendary Skills Guide", pt: "Drayne Legendary Skills Guide", ja: "Drayne Legendary Skills Guide" },
-    links: { en: "../../hero-wars-alliance/characters-guide/drayne-en.html", de: "../../hero-wars-alliance/characters-guide/drayne-de.html", es: "../../hero-wars-alliance/characters-guide/drayne-es.html", fr: "../../hero-wars-alliance/characters-guide/drayne-fr.html", pt: "../../hero-wars-alliance/characters-guide/drayne-pt.html", ja: "../../hero-wars-alliance/characters-guide/drayne-ja.html" },
+    titles: { 
+ en: "Drayne Legendary Skills Guide",
+ de: "Leitfaden zu Draynes legendären Fähigkeiten",
+ es: "Guía de las Habilidades Legendarias de Drayne",
+ fr: "Guide des Compétences Légendaires de Drayne",
+ pt: "Guia das Habilidades Lendárias de Drayne",
+ ja: "ドレインのレジェンダリースキルガイド"
+},    links: { en: "../../hero-wars-alliance/characters-guide/drayne-en.html", de: "../../hero-wars-alliance/characters-guide/drayne-de.html", es: "../../hero-wars-alliance/characters-guide/drayne-es.html", fr: "../../hero-wars-alliance/characters-guide/drayne-fr.html", pt: "../../hero-wars-alliance/characters-guide/drayne-pt.html", ja: "../../hero-wars-alliance/characters-guide/drayne-ja.html" },
     extra: [
             
       
