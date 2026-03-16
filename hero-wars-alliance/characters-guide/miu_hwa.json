@@ -182,12 +182,13 @@
 						"magic_defense": 1365,
 						"physical_attack": 1365
 					},
-					"evolution_priority": "High"
+					"evolution_priority": "Medium High"
 				},
 				{
 					"name": "Astral Skin",
-					"stat": "Magic Attack",
-					"bonus": 10650
+					"stat": "Health",
+					"bonus": 106645,
+					"evolution_priority": "High"
 					
 				}
 			],

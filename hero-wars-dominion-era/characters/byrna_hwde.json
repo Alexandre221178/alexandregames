@@ -1,0 +1,337 @@
+{
+	"id": "byrna",
+	"name": "Byrna",
+	"gender": "female",
+	"role": ["healer", "mage", "grove keeper"],
+	"main_role": "Healer",
+	"position": "42",
+	"main_stat": "Strength",
+	"how_to_get_soul_stones": "Unobtainable (temporary)",
+	"pet_patronage": "Merlin, Axel, Biscuit, Khorus",
+	"sinergy": "",
+	"basic_attack_formula": "(100% physical attack)",
+	"basic_attack": 21910,
+	"stats": {
+		"intelligence": 4201,
+		"agility": 2663,
+		"strength": 16534,
+		"health": 828482,
+		"physical_attack": 21910,
+		"magic_attack": 74315,
+		"armor": 33458,
+		"magic_defense": 26934,
+		"dodge": 0,
+		"crit_hit_chance": 0,
+		"accuracy": 16534,
+		"crit_resistance": 16534,
+		"vampirism": 0,
+		"magic_penetration": 42409,
+		"armor_penetration": 0,
+		"power": 174510
+	},
+	"skills": [
+		{
+			"id": 1,
+			"variant": "base",
+			"level": 130,
+			"name": "Roar of Nature",
+			"type": ["ultimate", "white"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Damage: 66,020. Healing: 66,020 (70% magic attack + 100 * level + 1,000)",
+			"scales_with": ["Magic Attack"],
+			"description": "The guardian spirit deals (70% magic attack + 100 * level + 1,000) damage to all enemies and heals allies for 66,020. 100% of healing by this skill is converted into max health increase until the end of battle."
+		},
+		{
+			"id": 2,
+			"variant": "base",
+			"level": 130,
+			"name": "Guardian Spirit",
+			"type": ["periodic", "green"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Spirit's health: 428,260 (400% magic attack + 1000 * level + 1,000). Spirit's damage: 51,158 (50% magic attack + 100 * level + 1,000)",
+			"scales_with": ["Magic Attack"],
+			"description": "Summons the guardian spirit that binds to the Hero at the front with a Tank role. If there is no such Hero, binds to a random ally. The ally protected by the spirit receives 50% of incoming damage. The rest is dealt to the spirit. The spirit has 428,260 health. While the spirit is alive, Byrna's attacks don't deal damage but command the spirit to attack, dealing 51,158 damage. The spirit can't be attacked or healed directly, but when the ally under its protection is healed, the spirit also heals for 200% of the original amount. Cooldown: 40s. Initial cooldown: 5s"
+		},
+		{
+			"id": 3,
+			"variant": "base",
+			"level": 130,
+			"name": "Bear Cuddle",
+			"type": ["periodic", "blue"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Healing per second: 16,263 (20% magic attack + 10 * level + 100). Health restored to allies: 50%",
+			"scales_with": ["Magic Attack"],
+			"description": "Applies an effect to an ally at the front that heals them for (20% magic attack + 10 * level + 100) for 10s. While this effect is active, all incoming healing on this ally reverberates around them in a wave that restores health to allies in the amount of 50% of the initial healing. If the guardian spirit is alive, the effect is applied to the ally under its protection. Cooldown: 20s"
+		},
+		{
+			"id": 4,
+			"variant": "base",
+			"level": 130,
+			"name": "Living Heart",
+			"type": ["passive", "violet"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Increased Magic Attack: 554.2 (0.05% health + 1 * level + 10)",
+			"scales_with": ["Health"],
+			"description": "Every time an ally restores health, Byrna's Magic Attack increases by (0.05% health + 1 * level + 10) until the end of battle."
+		}
+	],
+	"artifacts": [
+		{
+			"name": "Talisman of the Orc Princess",
+			"stats": {
+				"magic_penetration": 50190,
+				"power": 12547
+			},
+			"costs": {
+				"absolute_artifact_essence": 1635,
+				"flawless_artifact_essence": 1199,
+				"chaos_core": 121
+			}
+		},
+		{
+			"name": "Manuscript of the Void",
+			"stats": {
+				"magic_attack": 8364,
+				"magic_penetration": 16731,
+				"power": 12547
+			},
+			"costs": {
+				"absolute_artifact_scroll": 1635,
+				"flawless_artifact_scroll": 1199,
+				"chaos_core": 121
+			}
+		},
+		{
+			"name": "Ring of Strength",
+			"stats": {
+				"strength": 6249,
+				"power": 17184
+			},
+			"costs": {
+				"absolute_artifact_metal": 1635,
+				"flawless_artifact_metal": 1199,
+				"chaos_core": 121
+			}
+		}
+	],
+	"skins": [
+		{
+			"name": "Default Skin",
+			"stats": {
+				"strength": 1365,
+				"power": 3753
+			},
+			"costs": {
+				"strength_skin_stone": 30825
+			}
+		},
+		{
+			"name": "Ancient Skin",
+			"stats": {
+				"armor": 10650,
+				"power": 5325
+			},
+			"costs": {
+				"intelligence_skin_stone": 55410
+			}
+		}
+	],
+	"glyphs": [
+		{
+			"name": "Magic attack Glyph",
+			"stats": {
+				"magic_attack": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Magic penetration Glyph",
+			"stats": {
+				"magic_penetration": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Armor Glyph",
+			"stats": {
+				"armor": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Magic defense Glyph",
+			"stats": {
+				"magic_defense": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Strength Glyph",
+			"stats": {
+				"strength": 1135,
+				"power": 3121
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		}
+	],
+	"ascension": {
+		"I": {
+			"stats": {
+				"strength": 230,
+				"magic_attack": 1280,
+				"magic_penetration": 1880,
+				"armor": 50,
+				"power": 2237
+			},
+			"costs": {
+				"strength_crystal": 2275,
+				"star_mana": 5420,
+				"gold": 1650000
+			}
+		},
+		"II": {
+			"stats": {
+				"strength": 315,
+				"magic_attack": 990,
+				"magic_defense": 2550,
+				"armor": 1730,
+				"power": 3501
+			},
+			"costs": {
+				"strength_crystal": 1950,
+				"star_mana": 9160,
+				"gold": 5775000,
+				"vibrant_strength_crystal": 1150
+			}
+		},
+		"III": {
+			"stats": {
+				"strength": 495,
+				"magic_attack": 2700,
+				"magic_penetration": 5060,
+				"armor": 530,
+				"power": 5506
+			},
+			"costs": {
+				"vibrant_strength_crystal": 2375,
+				"love_insignia": 1175,
+				"star_mana": 20200,
+				"gold": 12400000
+			}
+		},
+		"IV": {
+			"stats": {
+				"strength": 560,
+				"magic_attack": 2040,
+				"magic_defense": 4850,
+				"armor": 3030,
+				"power": 6500
+			},
+			"costs": {
+				"vibrant_strength_crystal": 475,
+				"love_insignia": 1220,
+				"star_mana": 42540,
+				"gold": 21600000,
+				"radiant_strength_crystal": 1460,
+				"greater_love_insignia": 235
+			}
+		},
+		"V": {
+			"stats": {
+				"strength": 610,
+				"magic_attack": 3360,
+				"magic_penetration": 6850,
+				"armor": 940,
+				"power": 7252
+			},
+			"costs": {
+				"radiant_strength_crystal": 1925,
+				"greater_love_insignia": 1925,
+				"star_mana": 80180,
+				"gold": 38300000
+			}
+		},
+		"I-V": {
+			"stats": {
+				"strength": 2210,
+				"magic_attack": 10370,
+				"magic_defense": 7400,
+				"magic_penetration": 13790,
+				"armor": 6280,
+				"power": 24997
+			},
+			"costs": {
+				"strength_crystal": 4225,
+				"star_mana": 157500,
+				"gold": 79725000,
+				"vibrant_strength_crystal": 4000,
+				"love_insignia": 2395,
+				"radiant_strength_crystal": 3385,
+				"greater_love_insignia": 2160
+			}
+		}
+	},
+	"tree_of_wisdom": {
+		"stats": {
+			"health": 78620,
+			"magic_attack": 8350,
+			"magic_defense": 4604,
+			"armor": 4290,
+			"power": 12553
+		},
+		"costs": {
+			"eternal_seed": 586,
+			"ancient_wisdom_crystal": 47400
+		}
+	},
+	"miscellaneous": {
+		"levels": {
+			"stats": {
+				"intelligence": 2340,
+				"agility": 1560,
+				"strength": 2600,
+				"power": 17875
+			},
+			"costs": {
+				"huge_exp_potion": 483,
+				"byrna_soul_stone": 630
+			}
+		},
+		"gift_of_the_elements": {
+			"stats": {
+				"intelligence": 360,
+				"agility": 360,
+				"strength": 720,
+				"power": 3960
+			},
+			"costs": {
+				"spark_of_power": 65150,
+				"gold": 7927500
+			}
+		}
+	}
+}
