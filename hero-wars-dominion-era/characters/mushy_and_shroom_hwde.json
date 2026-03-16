@@ -1,0 +1,394 @@
+{
+	"id": "mushy_and_shroom",
+	"name": "Mushy and Shroom",
+	"gender": "male",
+	"role": ["tank"],
+	"main_role": "Tank",
+	"position": "11",
+	"main_stat": "Strength",
+	"how_to_get_soul_stones": "Soul Chests, Soul Atrium",
+	"pet_patronage": "Oliver, Axel",
+	"sinergy": "",
+	"basic_attack_formula": "(100% physical attack)",
+	"basic_attack": 31271,
+	"stats": {
+		"intelligence": 3496,
+		"agility": 3070,
+		"strength": 17443,
+		"health": 1064460,
+		"physical_attack": 31271,
+		"magic_attack": 62625,
+		"armor": 53093,
+		"magic_defense": 24524,
+		"dodge": 0,
+		"crit_hit_chance": 0,
+		"accuracy": 17443,
+		"crit_resistance": 17443,
+		"vampirism": 0,
+		"magic_penetration": 30070,
+		"armor_penetration": 0,
+		"power": 189744
+	},
+	"skills": [
+		{
+			"id": 1,
+			"variant": "base",
+			"level": 130,
+			"name": "Perfect Copy",
+			"type": ["ultimate", "white"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Starting health: 545,230 (50% health + 100 * level)",
+			"scales_with": ["Health"],
+			"description": "Mushy and Shroom spawn an inactive copy of Shroom with the hero's base stats and a missing portion of health. The copy can take damage and receive healing. When the copy's health is fully replenished for the first time, it activates. An active copy can attack and use all skills learned by the hero, but it won't be able to replenish energy. There can be up to 3 copies of Shroom on the battlefield at any given time."
+		},
+		{
+			"id": 1,
+			"variant": "ascension",
+			"ascension_level": "V",
+			"name": "Autonomous Copy",
+			"type": ["ascension"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "",
+			"scales_with": [],
+			"description": "Shroom's copies stay active after Mushy and Shroom's death."
+		},
+		{
+			"id": 2,
+			"variant": "base",
+			"level": 130,
+			"name": "Wild Growth",
+			"type": ["passive", "green"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Inactive Shrooms and Spore Mushrooms recover 2.75% + 7,610 (8% magic attack + 20 * level) health per second",
+			"scales_with": ["Magic Attack"],
+			"description": "Passive skill. Inactive Shrooms and Spore Mushrooms can recover health by themselves. The effect is boosted by 100% for each active Shroom on the battlefield."
+		},
+		{
+			"id": 2,
+			"variant": "ascension",
+			"ascension_level": "II",
+			"name": "Mycelium Connection",
+			"type": ["ascension"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Healing from Shroom: 130,250 (200% magic attack + 5,000). Healing from a spore mushroom: 13,025 (20% magic attack + 500)",
+			"scales_with": ["Magic Attack"],
+			"description": "Mushy and Shroom restore health when a spore mushroom or a Shroom's copy fully restore their health for the first time."
+		},
+		{
+			"id": 3,
+			"variant": "base",
+			"level": 130,
+			"name": "Branching Mycelium",
+			"type": ["periodic", "blue"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Spore Mushroom starting health: 170,314 (16% health). Explosion damage: 52,938 (70% magic attack + 70 * level)",
+			"scales_with": ["Health", "Magic Attack"],
+			"description": "Mushy and Shroom spawn mycelium with 3 inactive Spore Mushrooms with a portion of their health missing. These mushrooms can take damage and receive healing. Their max health is 25% of the hero's health. Once the mushroom's health is fully replenished, it runs towards the enemy and explodes. The explosion deals damage and shrouds enemies within a short range in a Mushroom Spore cloud, silencing them for 4s. Nearby enemies not affected by Mushroom Spores yet are prioritized when selecting a target. Cooldown: 11s"
+		},
+		{
+			"id": 4,
+			"variant": "base",
+			"level": 130,
+			"name": "Will-o'-the-Wisp",
+			"type": ["periodic", "violet"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Base damage: 63,100 (80% magic attack + 100 * level). Maximum extra damage: 208,235 (12% health + 600 * level + 2,500)",
+			"scales_with": ["Magic Attack", "Health"],
+			"description": "Mushy and Shroom damage the nearest enemy. Damage scales with the healing received by allies since this skill was last activated. 50% of healing from Mushy and Shroom's skills and 150% of healing from allies is converted into extra damage. Cooldown: 18s"
+		}
+	],
+	"artifacts": [
+		{
+			"name": "Ichor of Perfection",
+			"stats": {
+				"armor": 50190,
+				"power": 12547
+			},
+			"costs": {
+				"absolute_artifact_essence": 1635,
+				"flawless_artifact_essence": 1199,
+				"chaos_core": 121
+			}
+		},
+		{
+			"name": "Defender's Covenant",
+			"stats": {
+				"magic_defense": 12546,
+				"armor": 12546,
+				"power": 12546
+			},
+			"costs": {
+				"absolute_artifact_scroll": 1635,
+				"flawless_artifact_scroll": 1199,
+				"chaos_core": 121
+			}
+		},
+		{
+			"name": "Ring of Strength",
+			"stats": {
+				"strength": 6249,
+				"power": 17184
+			},
+			"costs": {
+				"absolute_artifact_metal": 1635,
+				"flawless_artifact_metal": 1199,
+				"chaos_core": 121
+			}
+		}
+	],
+	"skins": [
+		{
+			"name": "Default Skin",
+			"stats": {
+				"strength": 1365,
+				"power": 3753
+			},
+			"costs": {
+				"strength_skin_stone": 30825
+			}
+		},
+		{
+			"name": "Lunar Skin",
+			"stats": {
+				"health": 106645,
+				"power": 5332
+			},
+			"costs": {
+				"strength_skin_stone": 55410
+			}
+		},
+		{
+			"name": "Spring Skin",
+			"stats": {
+				"magic_penetration": 10650,
+				"power": 5325
+			},
+			"costs": {
+				"strength_skin_stone": 55410
+			}
+		},
+		{
+			"name": "Demonic Skin",
+			"stats": {
+				"magic_attack": 10650,
+				"power": 5325
+			},
+			"costs": {
+				"strength_skin_stone": 55410
+			}
+		},
+		{
+			"name": "Cybernetic Skin",
+			"stats": {
+				"armor": 10650,
+				"power": 5325
+			},
+			"costs": {
+				"strength_skin_stone": 55410
+			}
+		}
+	],
+	"glyphs": [
+		{
+			"name": "Magic attack Glyph",
+			"stats": {
+				"magic_attack": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Armor Glyph",
+			"stats": {
+				"armor": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Health Glyph",
+			"stats": {
+				"health": 62200,
+				"power": 3110
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Magic penetration Glyph",
+			"stats": {
+				"magic_penetration": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Strength Glyph",
+			"stats": {
+				"strength": 1135,
+				"power": 3121
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		}
+	],
+	"ascension": {
+		"I": {
+			"stats": {
+				"health": 11000,
+				"strength": 230,
+				"magic_attack": 490,
+				"magic_penetration": 590,
+				"armor": 1040,
+				"power": 2242
+			},
+			"costs": {
+				"strength_crystal": 2275,
+				"star_mana": 5420,
+				"gold": 1650000
+			}
+		},
+		"II": {
+			"stats": {
+				"strength": 315,
+				"magic_attack": 1490,
+				"magic_penetration": 1810,
+				"armor": 1970,
+				"power": 3501
+			},
+			"costs": {
+				"strength_crystal": 1950,
+				"star_mana": 11660,
+				"gold": 6775000,
+				"vibrant_strength_crystal": 1150
+			}
+		},
+		"III": {
+			"stats": {
+				"health": 9000,
+				"strength": 495,
+				"magic_attack": 4010,
+				"magic_penetration": 1420,
+				"armor": 1950,
+				"power": 5501
+			},
+			"costs": {
+				"vibrant_strength_crystal": 2375,
+				"resilience_insignia": 1175,
+				"star_mana": 20200,
+				"gold": 12400000
+			}
+		},
+		"IV": {
+			"stats": {
+				"health": 15750,
+				"strength": 560,
+				"magic_attack": 2040,
+				"magic_penetration": 3150,
+				"armor": 3160,
+				"power": 6502
+			},
+			"costs": {
+				"vibrant_strength_crystal": 475,
+				"resilience_insignia": 1220,
+				"star_mana": 42540,
+				"gold": 21600000,
+				"radiant_strength_crystal": 1460,
+				"greater_resilience_insignia": 235
+			}
+		},
+		"V": {
+			"stats": {
+				"health": 34750,
+				"strength": 610,
+				"magic_attack": 5350,
+				"magic_penetration": 1280,
+				"armor": 1050,
+				"power": 7255
+			},
+			"costs": {
+				"radiant_strength_crystal": 1925,
+				"greater_resilience_insignia": 1925,
+				"star_mana": 105180,
+				"gold": 48300000
+			}
+		},
+		"I-V": {
+			"stats": {
+				"health": 70500,
+				"strength": 2210,
+				"magic_attack": 13380,
+				"magic_penetration": 8250,
+				"armor": 9170,
+				"power": 25002
+			},
+			"costs": {
+				"strength_crystal": 4225,
+				"star_mana": 185000,
+				"gold": 90725000,
+				"vibrant_strength_crystal": 4000,
+				"resilience_insignia": 2395,
+				"radiant_strength_crystal": 3385,
+				"greater_resilience_insignia": 2160
+			}
+		}
+	},
+	"tree_of_wisdom": {
+		"stats": {
+			"health": 81160,
+			"physical_attack": 5001,
+			"magic_attack": 1550,
+			"magic_defense": 4132,
+			"armor": 3808,
+			"power": 12553
+		},
+		"costs": {
+			"eternal_seed": 586,
+			"ancient_wisdom_crystal": 47400
+		}
+	},
+	"miscellaneous": {
+		"levels": {
+			"stats": {
+				"intelligence": 2080,
+				"agility": 1950,
+				"strength": 2470,
+				"power": 17875
+			},
+			"costs": {
+				"huge_exp_potion": 483,
+				"mushy_and_shroom_soul_stone": 630
+			}
+		},
+		"gift_of_the_elements": {
+			"stats": {
+				"intelligence": 360,
+				"agility": 360,
+				"strength": 720,
+				"power": 3960
+			},
+			"costs": {
+				"spark_of_power": 65150,
+				"gold": 7927500
+			}
+		}
+	}
+}
