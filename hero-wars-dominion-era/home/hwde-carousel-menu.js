@@ -104,25 +104,34 @@
     en: {updatedPrefix: 'Updated:', map: {}},
     pt: {updatedPrefix: 'Atualizado:', map: {'Guide':'Guia','Best Teams':'Melhores Equipes','Stay updated':'Fique atualizado','Redeem your Daily Gifts':'Resgate seus Presentes Diários','Event':'Evento',
       'Best Meta Teams and Combos':'Melhores Times e Combos',
+      'Mushy and Shroom':'Cogu e Mélio',
       'Mushy & Shroom':'Cogu e Mélio',
     }},
     es: {updatedPrefix: 'Actualizado:', map: {'Guide':'Guía','Best Teams':'Mejores Equipos','Stay updated':'Mantente al día','Redeem your Daily Gifts':'Canjea tus Regalos Diarios','Event':'Evento',
       'Best Meta Teams and Combos':'Mejores Equipos y Combos',
+      'Mushy and Shroom':'Mushy y Shroom',
       'Mushy & Shroom':'Mushy y Shroom',
     }},
     fr: {updatedPrefix: 'Mis à jour:', map: {'Guide':'Guide','Best Teams':'Meilleures équipes','Stay updated':'Restez informé','Redeem your Daily Gifts':'Échangez vos Cadeaux Quotidiens','Event':'Événement',
       'Best Meta Teams and Combos':'Meilleures Équipes et Combos',
+      'Mushy and Shroom':'Champi et Gnon',
       'Mushy & Shroom':'Champi et Gnon',
     }},
     ja: {updatedPrefix: '更新:', map: {'Guide':'ガイド','Best Teams':'ベストチーム','Stay updated':'最新情報をチェック','Redeem your Daily Gifts':'毎日のギフトを受け取る','Event':'イベント',
       'Best Meta Teams and Combos':'ベストメタチームとコンボ',
+      'Mushy and Shroom':'マッシーとシュルーム',
       'Mushy & Shroom':'マッシーとシュルーム'
     }},
     de: {updatedPrefix: 'Aktualisiert:', map: {'Guide':'Leitfaden','Best Teams':'Beste Teams','Stay updated':'Bleiben Sie informiert','Redeem your Daily Gifts':'Löse deine täglichen Geschenke ein','Event':'Event',
       'Best Meta Teams and Combos':'Beste Meta-Teams und Combos',
+      'Mushy and Shroom':'Champi und Gnon',
       'Mushy & Shroom':'Champi und Gnon',
     }}
   };
+
+  function escapeRegExp(text){
+    return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
 
   function detectLang(){
     try{
@@ -148,8 +157,11 @@
     if(lang==='en') return text;
     const map = translations[lang] && translations[lang].map || {};
     let out = text;
-    Object.keys(map).forEach(k=>{
-      out = out.replace(new RegExp('\\b' + k + '\\b','gi'), map[k]);
+    Object.keys(map).sort(function(a, b){ return b.length - a.length; }).forEach(k=>{
+      var pattern = /[^A-Za-z0-9_& ]/.test(k)
+        ? new RegExp(escapeRegExp(k), 'gi')
+        : new RegExp('\\b' + escapeRegExp(k) + '\\b', 'gi');
+      out = out.replace(pattern, map[k]);
     });
     return out;
   }
@@ -235,10 +247,12 @@
     const lang = detectLang();
     const localizedLink = getLocalizedLink(s.link, lang);
     const targetLink = lang === 'en' ? s.link : s.link;
+    const altText = applyTranslations(s.alt, lang);
+    const titleText = applyTranslations(s.title, lang);
     const strongText = applyTranslations(s.strong, lang);
     const updatedText = translateUpdated(s.updated, lang);
 
-    return `\n<figure class="carousel-slide">\n  <a href="${targetLink}" data-base-link="${s.link}" data-localized-link="${localizedLink}">\n    <picture>\n      <source media="(min-width: 769px)" srcset="${s.src500}">\n      <img src="${s.src400}" alt="${s.alt}" Title="${s.title}" loading="lazy">\n        <strong>${strongText}</strong>\n        <i>${updatedText}</i>\n  </a>\n</figure>`;
+    return `\n<figure class="carousel-slide">\n  <a href="${targetLink}" data-base-link="${s.link}" data-localized-link="${localizedLink}">\n    <picture>\n      <source media="(min-width: 769px)" srcset="${s.src500}">\n      <img src="${s.src400}" alt="${altText}" title="${titleText}" loading="lazy">\n        <strong>${strongText}</strong>\n        <i>${updatedText}</i>\n  </a>\n</figure>`;
   }
 
   function inject(){
@@ -358,6 +372,13 @@
         var el = elems[i];
         if(!el || !el.textContent) continue;
         el.textContent = applyTranslations(el.textContent, lang);
+      }
+      var images = document.querySelectorAll('.carousel-slide img');
+      for(var j=0;j<images.length;j++){
+        var img = images[j];
+        if(img.alt) img.alt = applyTranslations(img.alt, lang);
+        var title = img.getAttribute('title');
+        if(title) img.setAttribute('title', applyTranslations(title, lang));
       }
     }catch(e){}
   }
