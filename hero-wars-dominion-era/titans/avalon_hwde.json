@@ -1,0 +1,125 @@
+{
+  "name": "Avalon",
+  "game": "Hero Wars: Dominion Era",
+  "position": 10,
+  "roles": ["support"],
+  "obtention": "Circle of Summoning",
+  "basic_attack": {
+    "value": 656275,
+    "type": "100% physical attack"
+  },
+  "stats": {
+    "health": 16146205,
+    "power": 221976,
+    "attack": 656275,
+    "elemental_attack": 709635,
+    "elemental_armor": 146547
+  },
+  "skills": [
+    {
+      "name": "Forest Embrace",
+      "type": "ultimate",
+      "color": "white",
+      "description": "Casts a shield absorbing 1,968,825 damage on all allies",
+      "shield_value": 1968825,
+      "target": "all allies"
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": {
+        "health": 1022985,
+        "power": 5217
+      },
+      "upgrade_cost": {
+        "titan_skin_stone": 354960
+      }
+    },
+    {
+      "name": "Champion Skin",
+      "stats": {
+        "elemental_armor": 49065,
+        "power": 15651
+      },
+      "upgrade_cost": {
+        "titan_skin_stone": 364585
+      }
+    },
+    {
+      "name": "Mechanical Skin",
+      "stats": {
+        "elemental_damage": 230160,
+        "power": 15650
+      },
+      "upgrade_cost": {
+        "titan_skin_stone": 364585
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "Andvari's Bulwark",
+      "stats": {
+        "elemental_damage": 479475,
+        "power": 32604
+      },
+      "upgrade_cost": {
+        "essence_of_the_elements": 686080,
+        "emeralds": 68608,
+        "andvaris_bulwark_fragment": 18400
+      }
+    },
+    {
+      "name": "Earth Crown",
+      "stats": {
+        "elemental_armor": 97482,
+        "power": 31096
+      },
+      "upgrade_cost": {
+        "essence_of_the_elements": 686080,
+        "emeralds": 68608,
+        "earth_crown_fragment": 18400
+      }
+    },
+    {
+      "name": "Balance Seal",
+      "stats": {
+        "health": 3995583,
+        "physical_attack": 299673,
+        "power": 40755
+      },
+      "upgrade_cost": {
+        "gold": 173005000,
+        "emeralds": 68608,
+        "balance_seal_fragment": 18400
+      }
+    },
+    {
+      "name": "Earth Spirit Totem",
+      "stats": {
+        "health": 3995583,
+        "power": 20377
+      },
+      "upgrade_cost": {
+        "bronze_guild_war_trophy": 1394,
+        "emeralds": 303938,
+        "silver_guild_war_trophy": 6945,
+        "gold_guild_war_trophy": 25303,
+        "earth_spirit_totem_fragment": 6
+      }
+    }
+  ],
+  "levels": {
+    "stats": {
+      "health": 7114694,
+      "physical_attack": 355734,
+      "power": 60474
+    },
+    "upgrade_cost": {
+      "titan_potion": 1009660,
+      "emeralds": 201932,
+      "avalon_soul_stone": 3130
+    }
+  }
+}
