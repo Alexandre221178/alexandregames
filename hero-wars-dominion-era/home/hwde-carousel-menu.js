@@ -1,6 +1,15 @@
 (function(){
   // Carousel multi-language injector (HWDE specific copy)
   const slides = [
+    {
+      link: "../../hero-wars-dominion-era/characters/mushy-and-shroom-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/mushy-and-shroom/mushy-and-shroom-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/mushy-and-shroom/mushy-and-shroom-400px.webp",
+      alt: "Mushy and Shroom Guide for Hero Wars: Dominion Era",
+      title: "Mushy and Shroom Guide for Hero Wars: Dominion Era.",
+      strong: "Mushy and Shroom Guide - Hero Wars: Dominion Era",
+      updated: "Updated: March, 2026."
+    },
 {
       link: "../../hero-wars-dominion-era/characters/byrna-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/byrna/byrna-500px.webp",
@@ -93,11 +102,26 @@
 
   const translations = {
     en: {updatedPrefix: 'Updated:', map: {}},
-    pt: {updatedPrefix: 'Atualizado:', map: {'Guide':'Guia','Best Teams':'Melhores Equipes','Stay updated':'Fique atualizado','Redeem your Daily Gifts':'Resgate seus Presentes Diários','Event':'Evento','Best Meta Teams and Combos':'Melhores Times e Combos'}},
-    es: {updatedPrefix: 'Actualizado:', map: {'Guide':'Guía','Best Teams':'Mejores Equipos','Stay updated':'Mantente al día','Redeem your Daily Gifts':'Canjea tus Regalos Diarios','Event':'Evento','Best Meta Teams and Combos':'Mejores Equipos y Combos'}},
-    fr: {updatedPrefix: 'Mis à jour:', map: {'Guide':'Guide','Best Teams':'Meilleures équipes','Stay updated':'Restez informé','Redeem your Daily Gifts':'Échangez vos Cadeaux Quotidiens','Event':'Événement','Best Meta Teams and Combos':'Meilleures Équipes et Combos'}},
-    ja: {updatedPrefix: '更新:', map: {'Guide':'ガイド','Best Teams':'ベストチーム','Stay updated':'最新情報をチェック','Redeem your Daily Gifts':'毎日のギフトを受け取る','Event':'イベント','Best Meta Teams and Combos':'ベストメタチームとコンボ'}},
-    de: {updatedPrefix: 'Aktualisiert:', map: {'Guide':'Leitfaden','Best Teams':'Beste Teams','Stay updated':'Bleiben Sie informiert','Redeem your Daily Gifts':'Löse deine täglichen Geschenke ein','Event':'Event','Best Meta Teams and Combos':'Beste Meta-Teams und Combos'}}
+    pt: {updatedPrefix: 'Atualizado:', map: {'Guide':'Guia','Best Teams':'Melhores Equipes','Stay updated':'Fique atualizado','Redeem your Daily Gifts':'Resgate seus Presentes Diários','Event':'Evento',
+      'Best Meta Teams and Combos':'Melhores Times e Combos',
+      'Mushy & Shroom':'Cogu e Mélio',
+    }},
+    es: {updatedPrefix: 'Actualizado:', map: {'Guide':'Guía','Best Teams':'Mejores Equipos','Stay updated':'Mantente al día','Redeem your Daily Gifts':'Canjea tus Regalos Diarios','Event':'Evento',
+      'Best Meta Teams and Combos':'Mejores Equipos y Combos',
+      'Mushy & Shroom':'Mushy y Shroom',
+    }},
+    fr: {updatedPrefix: 'Mis à jour:', map: {'Guide':'Guide','Best Teams':'Meilleures équipes','Stay updated':'Restez informé','Redeem your Daily Gifts':'Échangez vos Cadeaux Quotidiens','Event':'Événement',
+      'Best Meta Teams and Combos':'Meilleures Équipes et Combos',
+      'Mushy & Shroom':'Champi et Gnon',
+    }},
+    ja: {updatedPrefix: '更新:', map: {'Guide':'ガイド','Best Teams':'ベストチーム','Stay updated':'最新情報をチェック','Redeem your Daily Gifts':'毎日のギフトを受け取る','Event':'イベント',
+      'Best Meta Teams and Combos':'ベストメタチームとコンボ',
+      'Mushy & Shroom':'マッシーとシュルーム'
+    }},
+    de: {updatedPrefix: 'Aktualisiert:', map: {'Guide':'Leitfaden','Best Teams':'Beste Teams','Stay updated':'Bleiben Sie informiert','Redeem your Daily Gifts':'Löse deine täglichen Geschenke ein','Event':'Event',
+      'Best Meta Teams and Combos':'Beste Meta-Teams und Combos',
+      'Mushy & Shroom':'Champi und Gnon',
+    }}
   };
 
   function detectLang(){
