@@ -34,6 +34,8 @@
     "update-elmir-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js elmir",
   
     "update-augustus-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js augustus",
+    "update-byrna-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js byrna",
+
     "update-fluffy-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js fluffy",
     "update-galahad-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js galahad",
     "update-kayla-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js kayla",
