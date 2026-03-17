@@ -1,12 +1,44 @@
-# robots.txt para Alexandre Games
+# robots.txt para Alexandre Games (Versão Anti-IA 2026)
 
-User-Agent: *
-Allow: /
+# 1. BLOQUEIO DE IAs DE TREINAMENTO E BUSCA (OS "LADRÕES" DE DADOS)
+User-agent: GPTBot
+Disallow: /
 
+User-agent: CCBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+# 2. ESTRATEGIA PARA O GOOGLE (FORÇAR O CLIQUE)
+# Bloqueamos o resumo (snippet) para que o Google não monte a resposta na busca.
 User-agent: Googlebot
+Allow: /
 Allow: /ads.txt
+nosnippet: /
 
-Sitemap: https://alexandregames.com/sitemap-index.xml
+# 3. PERMISSÕES PARA OUTROS BUSCADORES E FERRAMENTAS
+User-agent: Bingbot
+Allow: /
 
 User-agent: AhrefsBot
 Allow: /
+
+# 4. REGRA GERAL (PARA O RESTO)
+User-Agent: *
+Allow: /
+
+# SITEMAP
+Sitemap: https://alexandregames.com/sitemap-index.xml
