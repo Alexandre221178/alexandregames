@@ -11,6 +11,8 @@
     {"id":"Astrid & Lucas","gender":"female","en":"Astrid & Lucas","de":"Astrid & Lucas","es":"Astrid & Lucas","fr":"Astrid & Lucas","pt":"Astrid & Lucas","ja":"アストリッドとルーカス"},
     {"id":"Augustus","gender":"male","en":"Augustus","de":"Augustus","es":"Augustus","fr":"Augustus","pt":"Augustus","ja":"アウグストゥス"},
     {"id":"Aurora","gender":"female","en":"Aurora","de":"Aurora","es":"Aurora","fr":"Aurore","pt":"Aurora","ja":"オーロラ"},
+    {"id":"Byrna","gender":"female","en":"Byrna","de":"Byrna","es":"Byrna","fr":"Byrna","pt":"Byrna","ja":"バーナ"},
+   
     {"id":"Cascade","gender":"male","en":"Cascade","de":"Kaskade","es":"Cascade","fr":"Cascade","pt":"Dilúvio","ja":"カスケード"},
     {"id":"Celeste","gender":"female","en":"Celeste","de":"Celeste","es":"Celeste","fr":"Céleste","pt":"Celeste","ja":"セレステ"},
     {"id":"Chabba","gender":"male","en":"Chabba","de":"Chabba","es":"Chabba","fr":"Chabba","pt":"Chabba","ja":"チャバ"},
