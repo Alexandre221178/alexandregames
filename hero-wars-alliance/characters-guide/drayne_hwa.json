@@ -1,0 +1,13 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "drayne",
+      "name": "Drayne",
+      "event_name": "The Path to Greatness",
+      "gender": "male"
+      
+     }
+      ]
+    }
+ 
