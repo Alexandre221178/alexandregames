@@ -2,6 +2,15 @@
   // Carousel multi-language injector (HWDE specific copy)
   const slides = [
     {
+      link: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-missions-en.html",
+      src500: "../../hero-wars-dominion-era/images/events-special/byrna-event/byrna-event-mission-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events-special/byrna-event/byrna-event-mission-400px.webp",
+      alt: "Byrna Event Missions for Hero Wars: Dominion Era",
+      title: "Byrna Event Missions for Hero Wars: Dominion Era.",
+      strong: "Byrna Event Missions - Hero Wars: Dominion Era(English)",
+      updated: "Updated: March, 2026."
+    },
+    {
       link: "../../hero-wars-dominion-era/characters/byrna-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/byrna/byrna-500px.webp",
       src400: "../../hero-wars-dominion-era/images/hero/byrna/byrna-400px.webp",
