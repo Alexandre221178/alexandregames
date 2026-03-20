@@ -538,7 +538,7 @@ window.CALENDAR_DATA = [
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
   {
-        titles: { en: "🎉Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
+        titles: { en: "🎉Quiz - Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
         labelOnly: true
       },
       {
@@ -569,7 +569,7 @@ window.CALENDAR_DATA = [
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
       {
-        titles: { en: "🎉Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
+        titles: { en: "🎉Quiz -Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
         labelOnly: true
       },
       
@@ -594,13 +594,18 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/power-of-the-titans-en.html", pt: "../../hero-wars-dominion-era/events/power-of-the-titans-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+      {
+        titles: { en: "Byrna Event Missions", pt: "Missões do Evento Byrna", de: "Byrna-Event-Missionen", es: "Misiones del Evento Byrna", fr: "Missions de l'Événement Byrna", ja: "バーナイベントミッション" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-missions-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
       
       {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
        {
-        titles: { en: "🎉Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
+        titles: { en: "🎉Quiz -Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
         labelOnly: true
       },
     ]
@@ -624,10 +629,19 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/power-of-the-titans-en.html", pt: "../../hero-wars-dominion-era/events/power-of-the-titans-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+      {
+        titles: { en: "Byrna Event Missions", pt: "Missões do Evento Byrna", de: "Byrna-Event-Missionen", es: "Misiones del Evento Byrna", fr: "Missions de l'Événement Byrna", ja: "バーナイベントミッション" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-missions-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
       
      {
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
+      },
+      {
+        titles: { en: "🎉Quiz -Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
+        labelOnly: true
       },
        
     ]
@@ -646,6 +660,11 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+      {
+        titles: { en: "Byrna Event Missions", pt: "Missões do Evento Byrna", de: "Byrna-Event-Missionen", es: "Misiones del Evento Byrna", fr: "Missions de l'Événement Byrna", ja: "バーナイベントミッション" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-missions-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
             
      {
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
@@ -654,6 +673,10 @@ window.CALENDAR_DATA = [
       {
         titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
         links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" }
+      },
+      {
+        titles: { en: "🎉Quiz -Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
+        labelOnly: true
       },
        
     ]
@@ -668,8 +691,21 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-dominion-era/events/titan-brawl-en.html", pt: "../../hero-wars-dominion-era/events/titan-brawl-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      { titles: { en: "Avalon Guide", pt: "Guia da Avalon", de: "Avalon Leitfaden", es: "Guía de Avalon", fr: "Guide d’Avalon", ja: "アヴァロンガイド" },
+       links: { en: "../../hero-wars-dominion-era/titans/avalon-en.html", pt: "../../hero-wars-dominion-era/titans/avalon-pt.html", de: "../../hero-wars-dominion-era/titans/avalon-de.html", es: "../../hero-wars-dominion-era/titans/avalon-es.html", fr: "../../hero-wars-dominion-era/titans/avalon-fr.html", ja: "../../hero-wars-dominion-era/titans/avalon-ja.html" },
+        noStrip: true
+       },
+       {
+        titles: { en: "Byrna Event Missions", pt: "Missões do Evento Byrna", de: "Byrna-Event-Missionen", es: "Misiones del Evento Byrna", fr: "Missions de l'Événement Byrna", ja: "バーナイベントミッション" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-missions-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
       {
         titles: { en: "Avalon Brawls Best Teams", pt: "Melhores Equipes da Avalon", de: "Beste Teams von Avalon", es: "Mejores Equipos de Avalon", fr: "Meilleures Équipes d'Avalon", ja: "アヴァロンの乱闘ベストチーム" },
+        labelOnly: true
+      },
+      {
+        titles: { en: "🎉Quiz -Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
         labelOnly: true
       },
     
@@ -684,6 +720,10 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-dominion-era/events/titan-brawl-en.html", pt: "../../hero-wars-dominion-era/events/titan-brawl-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      { titles: { en: "Avalon Guide", pt: "Guia da Avalon", de: "Avalon Leitfaden", es: "Guía de Avalon", fr: "Guide d’Avalon", ja: "アヴァロンガイド" },
+       links: { en: "../../hero-wars-dominion-era/titans/avalon-en.html", pt: "../../hero-wars-dominion-era/titans/avalon-pt.html", de: "../../hero-wars-dominion-era/titans/avalon-de.html", es: "../../hero-wars-dominion-era/titans/avalon-es.html", fr: "../../hero-wars-dominion-era/titans/avalon-fr.html", ja: "../../hero-wars-dominion-era/titans/avalon-ja.html" },
+        noStrip: true
+       },
        {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
@@ -700,6 +740,10 @@ window.CALENDAR_DATA = [
         titles: { en: "Byrna Event", pt: "Evento da Byrna", de: "Byrna Event", es: "Evento de Byrna", fr: "Événement de Byrna", ja: "バーナイベント" },
         labelOnly: true
       }, 
+      {
+        titles: { en: "🎉Cake -Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
+        labelOnly: true
+      },
   ]
   },
   {
@@ -711,6 +755,10 @@ window.CALENDAR_DATA = [
      links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
     noStrip: true,
     extra: [
+      { titles: { en: "Avalon Guide", pt: "Guia da Avalon", de: "Avalon Leitfaden", es: "Guía de Avalon", fr: "Guide d’Avalon", ja: "アヴァロンガイド" },
+       links: { en: "../../hero-wars-dominion-era/titans/avalon-en.html", pt: "../../hero-wars-dominion-era/titans/avalon-pt.html", de: "../../hero-wars-dominion-era/titans/avalon-de.html", es: "../../hero-wars-dominion-era/titans/avalon-es.html", fr: "../../hero-wars-dominion-era/titans/avalon-fr.html", ja: "../../hero-wars-dominion-era/titans/avalon-ja.html" },
+        noStrip: true
+       },
       {
         titles: { en: "Guardians of Balance (Titan Brawls Missions)", pt: "Guardiões do Equilíbrio (Missões das Brigas dos Titãs)", de: "Wächter des Gleichgewichts (Titanen-Kämpfe-Missionen)", es: "Guardianes del Equilibrio (Misiones de las Luchas de Titanes)", fr: "Gardiens de l’Équilibre (Missions des Combats des Titans)", ja: "均衡の守護者 (タイタンブラウルのミッション)" },
         links: { en: "../../hero-wars-dominion-era/events/titan-brawl-en.html", pt: "../../hero-wars-dominion-era/events/titan-brawl-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -732,6 +780,10 @@ window.CALENDAR_DATA = [
         titles: { en: "Byrna Event", pt: "Evento da Byrna", de: "Byrna Event", es: "Evento de Byrna", fr: "Événement de Byrna", ja: "バーナイベント" },
         labelOnly: true
       }, 
+      {
+        titles: { en: "🎉Cake -Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
+        labelOnly: true
+      },
     ]
   },
   {
@@ -756,6 +808,10 @@ window.CALENDAR_DATA = [
         titles: { en: "Byrna Event", pt: "Evento da Byrna", de: "Byrna Event", es: "Evento de Byrna", fr: "Événement de Byrna", ja: "バーナイベント" },
         labelOnly: true
       }, 
+      {
+        titles: { en: "🎉Cake -Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
+        labelOnly: true
+      },
       
     ]
   },
