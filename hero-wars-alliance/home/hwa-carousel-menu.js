@@ -2,6 +2,15 @@
   // Carousel multi-language injector (HWA specific copy)
   const slides = [
     {
+      link: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-en.html",
+      src500: "../../hero-wars-alliance/images/events-tips-hwa/drayne-path-to-perfection/perfection-shop-500px.webp",
+      src400: "../../hero-wars-alliance/images/events-tips-hwa/drayne-path-to-perfection/perfection-shop-400px.webp",
+      alt: "Drayne Path to Perfection Guide for Hero Wars Alliance",
+      title: "Drayne Path to Perfection Guide for Hero Wars Alliance",
+      strong: "Drayne Path to Perfection Shop Guide for Hero Wars Alliance(EN)",
+      updated: "Updated: March, 2026."
+    },
+    {
       link: "../../hero-wars-alliance/characters-guide/miu-en.html",
       src500: "../../hero-wars-alliance/images/hero/miu/miu-500px.webp",
       src400: "../../hero-wars-alliance/images/hero/miu/miu-400px.webp",
@@ -299,19 +308,72 @@
     return prefix + ' ' + (rest + (trailing || ''));
   }
 
+  var pageAvailabilityCache = {};
+
+  function buildLocalizedLink(englishLink, lang){
+    if(!englishLink) return englishLink;
+    if(lang === 'en') return englishLink;
+    if(englishLink.indexOf('y-m-gifts-hwa') !== -1) return englishLink;
+    return englishLink.replace(/-en\.html$/, '-' + lang + '.html');
+  }
+
+  function checkPageExists(url){
+    if(!url) return Promise.resolve(false);
+    var absoluteUrl;
+    try{
+      absoluteUrl = new URL(url, document.baseURI).href;
+    }catch(e){
+      return Promise.resolve(false);
+    }
+    if(pageAvailabilityCache[absoluteUrl]) return pageAvailabilityCache[absoluteUrl];
+
+    function fetchWithMethod(method){
+      return fetch(absoluteUrl, {
+        method: method,
+        cache: 'no-cache',
+        credentials: 'same-origin'
+      }).then(function(response){
+        return response.ok;
+      }).catch(function(){
+        return false;
+      });
+    }
+
+    pageAvailabilityCache[absoluteUrl] = fetchWithMethod('HEAD').then(function(exists){
+      if(exists) return true;
+      return fetchWithMethod('GET');
+    });
+
+    return pageAvailabilityCache[absoluteUrl];
+  }
+
+  function resolveCarouselLink(anchor){
+    if(!anchor) return Promise.resolve();
+
+    var englishLink = anchor.getAttribute('data-en-link') || anchor.getAttribute('href');
+    var localizedLink = anchor.getAttribute('data-localized-link') || englishLink;
+    var lang = anchor.getAttribute('data-lang') || 'en';
+
+    if(!englishLink || !localizedLink || lang === 'en' || localizedLink === englishLink){
+      anchor.setAttribute('href', englishLink || localizedLink || '#');
+      return Promise.resolve();
+    }
+
+    return checkPageExists(localizedLink).then(function(exists){
+      anchor.setAttribute('href', exists ? localizedLink : englishLink);
+    }).catch(function(){
+      anchor.setAttribute('href', englishLink);
+    });
+  }
+
   function buildSlideHTML(s){
     const lang = detectLang();
-    // Daily gifts page only exists in EN, so don't change its link
-    var targetLink;
-    if(s.link.indexOf('y-m-gifts-hwa') !== -1){
-      targetLink = s.link; // keep EN link for gifts
-    } else {
-      targetLink = lang==='en' ? s.link : s.link.replace(/-en\.html$/,'-' + lang + '.html');
-    }
+    var englishLink = s.link;
+    var targetLink = buildLocalizedLink(englishLink, lang);
     const strongText = normalizeAllianceCase(applyTranslations(s.strong, lang));
     const updatedText = translateUpdated(s.updated, lang);
 
-    return '\n<figure class="carousel-slide">\n  <a href="' + targetLink + '">\n    <picture>\n      <source media="(min-width: 769px)" srcset="' + s.src500 + '">\n      <img src="' + s.src400 + '" alt="' + s.alt + '" Title="' + s.title + '" loading="lazy">\n        <strong>' + strongText + '</strong>\n        <i>' + updatedText + '</i>\n  </a>\n</figure>';
+    return '\n<figure class="carousel-slide">\n  <a href="' + targetLink + '" data-en-link="' + englishLink + '" data-localized-link="' + targetLink + '" data-lang="' + lang + '">\n    <picture>\n      <source media="(min-width: 769px)" srcset="' + s.src500 + '">\n      <img src="' + s.src400 + '" alt="' + s.alt + '" Title="' + s.title + '" loading="lazy">\n        <strong>' + strongText + '</strong>\n        <i>' + updatedText + '</i>\n  </a>\n</figure>';
   }
 
   function inject(){
@@ -319,6 +381,19 @@
     if(!track) return;
     const html = slides.map(buildSlideHTML).join('\n');
     track.innerHTML = html;
+  }
+
+  function resolveCarouselLinks(){
+    try{
+      var anchors = document.querySelectorAll('.carousel-slide a[data-en-link]');
+      var tasks = [];
+      for(var i=0;i<anchors.length;i++){
+        tasks.push(resolveCarouselLink(anchors[i]));
+      }
+      return Promise.all(tasks);
+    }catch(e){
+      return Promise.resolve();
+    }
   }
 
   function initCarouselControls(){
@@ -544,6 +619,7 @@
 
   function init(){
     inject();
+    resolveCarouselLinks();
     initCarouselControls();
     fetchTermsJSON(function(){ updateAllUpdatedElements(); updateSlideTexts(); });
     loadHeroesLocalization(function(){ updateSlideTexts(); updateAllUpdatedElements(); });

@@ -144,6 +144,18 @@
   <p>If you spend your event coins well, you can improve rare heroes, secure hard-to-find artifacts, and push your account toward better end-game efficiency. If you spend them poorly, you usually end up with equipment pieces that could have been farmed through energy instead.</p>
 </section>
 
+<!-- HWA- BLOCO 2 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="1483590443"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWA- BLOCO 2 - LAZY LOAD -->
+
+
 <section>
   <h2>Best Perfection Shop Priorities</h2>
   <p>As a rule, give priority to heroes that are harder to buy in the normal daily shops. Those heroes are the most valuable long-term picks because the event gives you access to progress that is not easy to repeat later.</p>
@@ -169,6 +181,18 @@
   <p>Drayne's weapon artifact and book artifact are rare items and can be difficult to get consistently. If you are investing in Drayne, this event is a very good chance to grab them without waiting for future opportunities.</p>
   <p>These artifact pieces have much higher long-term value than random equipment purchases. If Drayne is part of your plans, treat these artifacts as premium rewards.</p>
 </section>
+
+<!-- HWA- BLOCO 3 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="6544345439"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWA- BLOCO 3 - LAZY LOAD -->
+
 
 <section>
   <h2>How Far Should You Upgrade Drayne and Tempus?</h2>
@@ -243,6 +267,31 @@
     <script src="../../alex-java/share-global-en.js" defer></script>
     <script src="../../alex-java/translate07-en.js" defer></script>
     <script src="../../alex-java/author-en.js" defer></script>
+
+    <script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
+
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
+
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
+
 
 </body>
 </html>
