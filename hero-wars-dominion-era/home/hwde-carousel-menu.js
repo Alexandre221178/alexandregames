@@ -10,6 +10,7 @@
       strong: "Byrna Event Missions - Hero Wars: Dominion Era(English)",
       updated: "Updated: March, 2026."
     },
+    
     {
       link: "../../hero-wars-dominion-era/characters/byrna-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/byrna/byrna-500px.webp",
@@ -17,6 +18,16 @@
       alt: "Byrna Guide for Hero Wars: Dominion Era",
       title: "Byrna Guide for Hero Wars: Dominion Era.",
       strong: "Byrna Guide - Hero Wars: Dominion Era",
+      updated: "Updated: March, 2026."
+    },
+
+    {
+      link: "../../hero-wars-dominion-era/titans/avalon-en.html",
+      src500: "../../hero-wars-dominion-era/images/titans-hwde/avalon/avalon-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/titans-hwde/avalon/avalon-400px.webp",
+      alt: "Avalon for Hero Wars: Dominion Era",
+      title: "Avalon for Hero Wars: Dominion Era.",
+      strong: "Avalon - Hero Wars: Dominion Era",
       updated: "Updated: March, 2026."
     },
     {
@@ -87,15 +98,7 @@
       strong: "Fluffy - Hero Wars: Dominion Era",
       updated: "Updated: February, 2026."
     },
-    {
-      link: "../../hero-wars-dominion-era/titans/ignis-en.html",
-      src500: "../../hero-wars-dominion-era/images/titans-hwde/ignis/ignis-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/titans-hwde/ignis/ignis-400px.webp",
-      alt: "Ignis for Hero Wars: Dominion Era",
-      title: "Ignis for Hero Wars: Dominion Era.",
-      strong: "Ignis - Hero Wars: Dominion Era",
-      updated: "Updated: February, 2026."
-    },
+    
     
     {
       link: "../../hero-wars-dominion-era/characters/aidan-en.html",
