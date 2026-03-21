@@ -11,6 +11,15 @@
       updated: "Updated: March, 2026."
     },
     {
+      link: "../../hero-wars-alliance/hero-wars-alliance/tier-list-hwa/realm-tier-list-en.html",
+      src500: "../../hero-wars-alliance/images/tier-list-hwa-img/real-tier-list-500px.webp",
+      src400: "../../hero-wars-alliance/images/tier-list-hwa-img/real-tier-list-400px.webp",
+      alt: "Realm Tier List Guide for Hero Wars Alliance",
+      title: "Realm Tier List Guide for Hero Wars Alliance",
+      strong: "Realm Tier List Guide for Hero Wars Alliance",
+      updated: "Updated: March, 2026."
+    },
+    {
       link: "../../hero-wars-alliance/characters-guide/miu-en.html",
       src500: "../../hero-wars-alliance/images/hero/miu/miu-500px.webp",
       src400: "../../hero-wars-alliance/images/hero/miu/miu-400px.webp",
@@ -147,6 +156,7 @@
     pt: {
       updatedPrefix: 'Atualizado:',
       map: {
+        'Realm Tier List Guide for Hero Wars Alliance': 'Guia da Tier List do Reino para Hero Wars Alliance',
         'Miu Legendary Guide Skills for Hero Wars Alliance': 'Guia de Habilidades Lendárias da Miu para Hero Wars Alliance',
         'Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance': 'Guia Completo de Times e Combos Meta 2026 para Hero Wars Alliance',
         'Oya Legendary Guide Skills for Hero Wars Alliance': 'Guia de Habilidades Lendárias de Oya para Hero Wars Alliance',
@@ -165,6 +175,7 @@
     es: {
       updatedPrefix: 'Actualizado:',
       map: {
+        'Realm Tier List Guide for Hero Wars Alliance': 'Guía de la Lista de Niveles del Reino para Hero Wars Alliance',
         'Miu Legendary Guide Skills for Hero Wars Alliance': 'Guía de Habilidades Legendarias de Miu para Hero Wars Alliance',
         'Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance': 'Guía Completa de Equipos y Combos Meta 2026 para Hero Wars Alliance',
         'Oya Legendary Guide Skills for Hero Wars Alliance': 'Guía de Habilidades Legendarias de Oya para Hero Wars Alliance',
@@ -183,6 +194,7 @@
     fr: {
       updatedPrefix: 'Mis à jour:',
       map: {
+        'Realm Tier List Guide for Hero Wars Alliance': 'Guide de la Liste des Niveaux du Royaume pour Hero Wars Alliance',
         'Miu Legendary Guide Skills for Hero Wars Alliance': 'Guide des Compétences Légendaires de Miu pour Hero Wars Alliance',
         'Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance': 'Guide Complet des Équipes et Combos Meta 2026 pour Hero Wars Alliance',
         'Oya Legendary Guide Skills for Hero Wars Alliance': 'Guide des Compétences Légendaires d\'Oya pour Hero Wars Alliance',
@@ -211,6 +223,7 @@
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'ヤスミン レジェンダリー レリック 完全ガイド 向け ヒーローウォーズ アライアンス',
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'バーナ ガイド: ヒーラーベアスピリットを解放 in ヒーローウォーズ: アライアンス',
         'Redeem your Daily Gifts for Hero Wars Alliance': '毎日のギフトを受け取る 向け ヒーローウォーズ アライアンス',
+        'Realm Tier List Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのレルムティアリストガイド',
         'for': '向け',
         'skin': 'スキン',
         'everyday': '毎日',
@@ -222,6 +235,7 @@
     de: {
       updatedPrefix: 'Aktualisiert:',
       map: {
+        'Realm Tier List Guide for Hero Wars Alliance': 'Realm-Tier-Liste Leitfaden für Hero Wars Alliance',
         'Miu Legendary Guide Skills for Hero Wars Alliance': 'Leitfaden zu Miu`s legendären Fähigkeiten für Hero Wars Alliance',
         'Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance': 'Vollständiger Leitfaden zu Meta-Teams und Combos 2026 für Hero Wars Alliance',
         'Oya Legendary Guide Skills for Hero Wars Alliance': 'Oya Legendäre Fähigkeiten Guide für Hero Wars Alliance',
