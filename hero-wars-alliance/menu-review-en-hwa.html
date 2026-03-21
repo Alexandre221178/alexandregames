@@ -7,7 +7,7 @@
   
     <!-- data exemplo ano mês dia-->
     <meta property="article:published_time" content="2024-10-13T11:25-03:00" />
-    <meta property="article:modified_time" content="2025-04-06T17:23-03:00" />
+    <meta property="article:modified_time" content="2026-03-21T11:08-03:00" />
     <title>Hero Wars Skin Guide & Gameplay Reviews in Hero Wars Alliance</title>
     <meta name="description" content="Discover the ultimate Hero Wars skin guide, including tips on skin priority and upgrade strategies. Maximize your hero’s performance with expert insights on...">
     <meta name="author" content="Alexandre Pereira Domingos">
@@ -157,8 +157,108 @@
         <!-- second half retirar </div> -->  
 
 
-<h2>Hero Wars Skin Priority: Choosing the Best Skins for Battle</h2>
+<style>
+.img-menumobile *,
+.img-menupc * {
+  pointer-events: auto;
+}
+figure::before,
+figure::after {
+  pointer-events: none;
+}
 
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.grid-item img:hover {
+  transform: scale(1.05);
+}
+
+.grid-item strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+.grid-item span {
+  font-size: 12px;
+  color: gray;
+}
+.grid-item a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<!-- Container -->
+<h2>Reviews: In-Depth Analysis of Events for Hero Wars Alliance</h2>
+<div id="grid-container" class="grid-3"></div>
+<script>
+// SEUS DADOS (só edita aqui 🔥)
+const items = [
+   {
+      link: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-en.html",
+      src500: "../../hero-wars-alliance/images/events-tips-hwa/drayne-path-to-perfection/perfection-shop-500px.webp",
+      src400: "../../hero-wars-alliance/images/events-tips-hwa/drayne-path-to-perfection/perfection-shop-400px.webp",
+      alt: "Drayne Path to Perfection Guide for Hero Wars Alliance",
+      title: "Drayne Path to Perfection Guide for Hero Wars Alliance",
+      strong: "Drayne Path to Perfection Shop Guide for Hero Wars Alliance(EN)",
+      updated: "Updated: March, 2026."
+    },
+  
+];
+
+// GERAR HTML AUTOMATICO
+const container = document.getElementById("grid-container");
+
+items.forEach(item => {
+  const div = document.createElement("div");
+  div.className = "grid-item";
+
+   // 👇 margem top aqui
+  div.style.marginTop = "13px";
+
+  div.innerHTML = `
+  <a href="${item.link}">
+    <img src="${item.src500}" alt="${item.alt}" title="${item.title}" loading="lazy">
+    <br><strong>${item.strong}</strong>
+    <br><span>${item.updated}</span>
+  </a>
+`;
+
+  container.appendChild(div);
+});
+</script>
+<!-- FIM DO CONTAINER -->
+
+
+
+
+<h2>Hero Wars Skin Priority: Choosing the Best Skins for Battle</h2>
 <main>
     <div>
  <figure class="img-embed">
