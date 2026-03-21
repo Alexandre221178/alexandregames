@@ -29,7 +29,15 @@
       strong: "Byrna Guide - Hero Wars: Dominion Era",
       updated: "Updated: March, 2026."
     },
-
+{
+      link: "../../hero-wars-dominion-era/titans-brawls/avalon-brawls-en.html",
+      src500: "../../hero-wars-dominion-era/images/titan-brawl/avalon-brawl/avalon-brawl-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/titan-brawl/avalon-brawl/avalon-brawl-400px.webp",
+      alt: "Avalon Brawl Best Teams for Hero Wars: Dominion Era",
+      title: "Avalon Brawl Best Teams for Hero Wars: Dominion Era.",
+      strong: "Avalon Brawl Best Teams - Hero Wars: Dominion Era(English)",
+      updated: "Updated: March, 2026."
+    },
     {
       link: "../../hero-wars-dominion-era/titans/avalon-en.html",
       src500: "../../hero-wars-dominion-era/images/titans-hwde/avalon/avalon-500px.webp",
