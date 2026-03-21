@@ -114,6 +114,100 @@
 </div>
 
 <div id="second-half" class="hidden">
+<!-- INICIO DO CONTAINER -->
+<style>
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.grid-item img:hover {
+  transform: scale(1.05);
+}
+
+.grid-item strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+.grid-item span {
+  font-size: 12px;
+  color: gray;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<!-- Container -->
+<h3>Other Related Guides about Byrna</h3>
+<div id="grid-container" class="grid-3"></div>
+<script>
+// SEUS DADOS (só edita aqui 🔥)
+const items = [
+  {
+    link: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html",
+    src500: "../../hero-wars-dominion-era/images/events-special/byrna-event/byrna-event-guide-500px.webp",
+    alt: "Byrna F2P Event Guide for Hero Wars: Dominion Era",
+    title: "Byrna F2P Event Guide for Hero Wars: Dominion Era.",
+    strong: "Byrna F2P Event Guide - Hero Wars: Dominion Era (English)",
+    updated: "Updated: March, 2026."
+  },
+  {
+    link: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-missions-en.html",
+    src500: "../../hero-wars-dominion-era/images/events-special/byrna-event/byrna-event-mission-500px.webp",
+    alt: "Byrna Event Missions for Hero Wars: Dominion Era",
+    title: "Byrna Event Missions for Hero Wars: Dominion Era.",
+    strong: "Byrna Event Missions - Hero Wars: Dominion Era (English)",
+    updated: "Updated: March, 2026."
+  },
+  {
+    link: "../../hero-wars-dominion-era/characters/byrna-en.html",
+    src500: "../../hero-wars-dominion-era/images/hero/byrna/byrna-500px.webp",
+    alt: "Byrna Guide for Hero Wars: Dominion Era",
+    title: "Byrna Guide for Hero Wars: Dominion Era.",
+    strong: "Byrna Guide - Hero Wars: Dominion Era",
+    updated: "Updated: March, 2026."
+  }
+];
+
+// GERAR HTML AUTOMATICO
+const container = document.getElementById("grid-container");
+
+items.forEach(item => {
+  const div = document.createElement("div");
+  div.className = "grid-item";
+
+  div.innerHTML = `
+    <a href="${item.link}">
+      <img src="${item.src500}" alt="${item.alt}" title="${item.title}" loading="lazy">
+    </a>
+    <strong>${item.strong}</strong>
+    <span>${item.updated}</span>
+  `;
+
+  container.appendChild(div);
+});
+</script>
+<!-- FIM DO CONTAINER -->
 
 <div class="content-wrapper">
   <p>
@@ -132,6 +226,8 @@
     In this guide, the event structure remains similar, but the page is now correctly adapted to <strong>Byrna</strong> and the event <strong>The Ritual's Price</strong>. If you want to invest in a hero who protects the frontline while improving team sustain over time, this is the right event to prepare for.
   </p>
 </div>
+
+
 
 <figure class="img-banner">
     <picture>
