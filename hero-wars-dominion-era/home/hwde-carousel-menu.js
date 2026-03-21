@@ -2,6 +2,15 @@
   // Carousel multi-language injector (HWDE specific copy)
   const slides = [
     {
+      link: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html",
+      src500: "../../hero-wars-dominion-era/images/events-special/byrna-event/byrna-event-guide-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events-special/byrna-event/byrna-event-guide-400px.webp",
+      alt: "Byrna F2P Event Guide for Hero Wars: Dominion Era",
+      title: "Byrna F2P Event Guide for Hero Wars: Dominion Era.",
+      strong: "Byrna F2P Event Guide - Hero Wars: Dominion Era(English)",
+      updated: "Updated: March, 2026."
+    },
+    {
       link: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-missions-en.html",
       src500: "../../hero-wars-dominion-era/images/events-special/byrna-event/byrna-event-mission-500px.webp",
       src400: "../../hero-wars-dominion-era/images/events-special/byrna-event/byrna-event-mission-400px.webp",
