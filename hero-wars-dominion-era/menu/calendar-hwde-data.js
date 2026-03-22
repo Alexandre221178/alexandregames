@@ -665,6 +665,23 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-missions-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+     
+  {
+  titles: { 
+    en: "Avalon Brawls Best Teams", 
+    pt: "Melhores Equipes de Avalon Brawls", 
+    de: "Beste Teams der Avalon Brawls", 
+    es: "Mejores Equipos de Avalon Brawls", 
+    fr: "Meilleures Équipes des Avalon Brawls", 
+    ja: "アヴァロンブラウルのベストチーム" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/titans-brawls/avalon-brawls-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
+  
             
      {
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
@@ -696,6 +713,21 @@ window.CALENDAR_DATA = [
         noStrip: true
        },
        {
+  titles: { 
+    en: "Avalon Brawls Best Teams", 
+    pt: "Melhores Equipes de Avalon Brawls", 
+    de: "Beste Teams der Avalon Brawls", 
+    es: "Mejores Equipos de Avalon Brawls", 
+    fr: "Meilleures Équipes des Avalon Brawls", 
+    ja: "アヴァロンブラウルのベストチーム" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/titans-brawls/avalon-brawls-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
+       {
         titles: { en: "Byrna Event Missions", pt: "Missões do Evento Byrna", de: "Byrna-Event-Missionen", es: "Misiones del Evento Byrna", fr: "Missions de l'Événement Byrna", ja: "バーナイベントミッション" },
         links: { en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-missions-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
         noStrip: true
@@ -724,6 +756,36 @@ window.CALENDAR_DATA = [
        links: { en: "../../hero-wars-dominion-era/titans/avalon-en.html", pt: "../../hero-wars-dominion-era/titans/avalon-pt.html", de: "../../hero-wars-dominion-era/titans/avalon-de.html", es: "../../hero-wars-dominion-era/titans/avalon-es.html", fr: "../../hero-wars-dominion-era/titans/avalon-fr.html", ja: "../../hero-wars-dominion-era/titans/avalon-ja.html" },
         noStrip: true
        },
+       {
+  titles: { 
+    en: "Avalon Brawls Best Teams", 
+    pt: "Melhores Equipes de Avalon Brawls", 
+    de: "Beste Teams der Avalon Brawls", 
+    es: "Mejores Equipos de Avalon Brawls", 
+    fr: "Meilleures Équipes des Avalon Brawls", 
+    ja: "アヴァロンブラウルのベストチーム" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/titans-brawls/avalon-brawls-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
+ {
+  titles: { 
+    en: "Byrna Event Guide and Rewards F2P to 6★", 
+    pt: "Guia do Evento Byrna e Recompensas F2P até 6★", 
+    de: "Byrna Event Guide und Belohnungen F2P bis 6★", 
+    es: "Guía del Evento Byrna y Recompensas F2P hasta 6★", 
+    fr: "Guide de l'Événement Byrna et Récompenses F2P jusqu'à 6★", 
+    ja: "バーナイベントガイドと報酬 F2P から 6★ まで" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
        {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
@@ -763,7 +825,37 @@ window.CALENDAR_DATA = [
         titles: { en: "Guardians of Balance (Titan Brawls Missions)", pt: "Guardiões do Equilíbrio (Missões das Brigas dos Titãs)", de: "Wächter des Gleichgewichts (Titanen-Kämpfe-Missionen)", es: "Guardianes del Equilibrio (Misiones de las Luchas de Titanes)", fr: "Gardiens de l’Équilibre (Missions des Combats des Titans)", ja: "均衡の守護者 (タイタンブラウルのミッション)" },
         links: { en: "../../hero-wars-dominion-era/events/titan-brawl-en.html", pt: "../../hero-wars-dominion-era/events/titan-brawl-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
-      },  
+      }, 
+        {
+  titles: { 
+    en: "Avalon Brawls Best Teams", 
+    pt: "Melhores Equipes de Avalon Brawls", 
+    de: "Beste Teams der Avalon Brawls", 
+    es: "Mejores Equipos de Avalon Brawls", 
+    fr: "Meilleures Équipes des Avalon Brawls", 
+    ja: "アヴァロンブラウルのベストチーム" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/titans-brawls/avalon-brawls-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
+ {
+  titles: { 
+    en: "Byrna Event Guide and Rewards F2P to 6★", 
+    pt: "Guia do Evento Byrna e Recompensas F2P até 6★", 
+    de: "Byrna Event Guide und Belohnungen F2P bis 6★", 
+    es: "Guía del Evento Byrna y Recompensas F2P hasta 6★", 
+    fr: "Guide de l'Événement Byrna et Récompenses F2P jusqu'à 6★", 
+    ja: "バーナイベントガイドと報酬 F2P から 6★ まで" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+}, 
       {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
@@ -800,6 +892,22 @@ window.CALENDAR_DATA = [
          links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
         noStrip: true
       },
+       
+ {
+  titles: { 
+    en: "Byrna Event Guide and Rewards F2P to 6★", 
+    pt: "Guia do Evento Byrna e Recompensas F2P até 6★", 
+    de: "Byrna Event Guide und Belohnungen F2P bis 6★", 
+    es: "Guía del Evento Byrna y Recompensas F2P hasta 6★", 
+    fr: "Guide de l'Événement Byrna et Récompenses F2P jusqu'à 6★", 
+    ja: "バーナイベントガイドと報酬 F2P から 6★ まで" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
       {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
@@ -834,6 +942,22 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+        
+ {
+  titles: { 
+    en: "Byrna Event Guide and Rewards F2P to 6★", 
+    pt: "Guia do Evento Byrna e Recompensas F2P até 6★", 
+    de: "Byrna Event Guide und Belohnungen F2P bis 6★", 
+    es: "Guía del Evento Byrna y Recompensas F2P hasta 6★", 
+    fr: "Guide de l'Événement Byrna et Récompenses F2P jusqu'à 6★", 
+    ja: "バーナイベントガイドと報酬 F2P から 6★ まで" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
       {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
@@ -861,10 +985,22 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
-      {
-        titles: { en: "Byrna Event", pt: "Evento da Byrna", de: "Byrna Event", es: "Evento de Byrna", fr: "Événement de Byrna", ja: "バーナイベント" },
-        labelOnly: true
-      }, 
+       
+ {
+  titles: { 
+    en: "Byrna Event Guide and Rewards F2P to 6★", 
+    pt: "Guia do Evento Byrna e Recompensas F2P até 6★", 
+    de: "Byrna Event Guide und Belohnungen F2P bis 6★", 
+    es: "Guía del Evento Byrna y Recompensas F2P hasta 6★", 
+    fr: "Guide de l'Événement Byrna et Récompenses F2P jusqu'à 6★", 
+    ja: "バーナイベントガイドと報酬 F2P から 6★ まで" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
      
       
     ]
@@ -883,6 +1019,22 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/the-great-storm-en.html", pt: "../../hero-wars-dominion-era/events/the-great-storm-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+       
+ {
+  titles: { 
+    en: "Byrna Event Guide and Rewards F2P to 6★", 
+    pt: "Guia do Evento Byrna e Recompensas F2P até 6★", 
+    de: "Byrna Event Guide und Belohnungen F2P bis 6★", 
+    es: "Guía del Evento Byrna y Recompensas F2P hasta 6★", 
+    fr: "Guide de l'Événement Byrna et Récompenses F2P jusqu'à 6★", 
+    ja: "バーナイベントガイドと報酬 F2P から 6★ まで" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
       {
         titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
         links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" }
@@ -908,6 +1060,22 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/the-great-storm-en.html", pt: "../../hero-wars-dominion-era/events/the-great-storm-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+        
+ {
+  titles: { 
+    en: "Byrna Event Guide and Rewards F2P to 6★", 
+    pt: "Guia do Evento Byrna e Recompensas F2P até 6★", 
+    de: "Byrna Event Guide und Belohnungen F2P bis 6★", 
+    es: "Guía del Evento Byrna y Recompensas F2P hasta 6★", 
+    fr: "Guide de l'Événement Byrna et Récompenses F2P jusqu'à 6★", 
+    ja: "バーナイベントガイドと報酬 F2P から 6★ まで" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
       {
         titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
@@ -933,6 +1101,22 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/weaving-patterns-en.html", pt: "../../hero-wars-dominion-era/events/weaving-patterns-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+       
+ {
+  titles: { 
+    en: "Byrna Event Guide and Rewards F2P to 6★", 
+    pt: "Guia do Evento Byrna e Recompensas F2P até 6★", 
+    de: "Byrna Event Guide und Belohnungen F2P bis 6★", 
+    es: "Guía del Evento Byrna y Recompensas F2P hasta 6★", 
+    fr: "Guide de l'Événement Byrna et Récompenses F2P jusqu'à 6★", 
+    ja: "バーナイベントガイドと報酬 F2P から 6★ まで" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
       {
         titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }

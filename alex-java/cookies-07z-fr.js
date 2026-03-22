@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
             padding: 10px 20px;
             box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
             text-align: center;
-            z-index: 1000;
+            z-index: 999999; /* aumentar para ficar acima de anúncios */
         }
         .cookie-banner p {
             margin: 0;

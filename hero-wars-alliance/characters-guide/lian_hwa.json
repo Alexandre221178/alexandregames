@@ -1,0 +1,341 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "lian",
+      "name": "Lian",
+      "gender": "female",
+      "role": ["Control", "Mage"],
+      "main_class": "Control",
+      "position": "Back Line",
+      "main_stat": "Intelligence",
+      "how_to_get_soul_stones": "Special Events, Heroic Chest, Grand Arena Shop",
+      "synergy": "Satori, Amira, Folio, Miu",
+      "hydra_tier_list": "B",
+      "hero_tier_list": "A+",
+      "faction": "Way of Mystery",
+      "realm": {
+        "troop_buff": "Marksmen",
+        "skills": [
+          "Not available yet"
+        ]
+      },
+      "stats": {
+        "talisman_of_charm": {
+          "intelligence": 17537,
+          "agility": 3522,
+          "strength": 3612,
+          "health": 820.136,
+          "physical_attack": 36389,
+          "magic_attack": 207277,
+          "armor": 38169.2,
+          "magic_defense": 57712.3,
+          "toughness": 2516,
+          "crushing": 6509
+        },
+        "talisman_of_cuteness": {
+          "intelligence": 15537,
+          "agility": 3522,
+          "strength": 3612,
+          "health": 1001636,
+          "physical_attack": 34389,
+          "magic_attack": 181477,
+          "armor": 51969.2,
+          "magic_defense": 55712.3,
+          "toughness": 2516,
+          "crushing": 6509
+        }
+      },
+      "talisman_details": {
+        "talisman_of_charm": {
+          "level": 50,
+          "main_stat": "Intelligence",
+          "main_stat_bonus": 2000,
+          "derived_bonuses": {
+            "magic_attack": 6000,
+            "magic_defense": 2000,
+            "physical_attack": 2000
+          },
+          "reroll_slots": [
+            { "stat": "Magic Attack", "value": 6600 },
+            { "stat": "Magic Attack", "value": 6600 },
+            { "stat": "Magic Attack", "value": 6600 }
+          ],
+          "total_reroll_bonus": { "stat": "Magic Attack", "value": 19800 }
+        },
+        "talisman_of_cuteness": {
+          "level": 50,
+          "main_stat": "Armor",
+          "main_stat_bonus": 12000,
+          "derived_bonuses": {},
+          "reroll_slots": [
+            { "stat": "Health", "value": 60500 },
+            { "stat": "Health", "value": 60500 },
+            { "stat": "Health", "value": 60500 }
+          ],
+          "total_reroll_bonus": { "stat": "Health", "value": 181500 }
+        },
+        "recommended": "talisman_of_charm"
+      },
+      "skills": [
+        {
+          "variant": "base",
+          "name": "Basic attack",
+          "type": ["autoSkill"],
+          "damage_formula": "100% Physical Attack",
+          "scales_with": ["Physical Attack"],
+          "damage_example": 36389,
+          "damage_example_cuteness": 34389,
+          "cooldown_seconds": 4.6,
+          "animation_delay_seconds": 0.45,
+          "description": "Physical damage: 100% Physical Attack.",
+          "evolution_priority": "Medium"
+        },
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "Enchantment",
+          "type": ["Stun", "Control", "Sleep"],
+          "duration_seconds": 7.0,
+          "animation_delay_seconds": 1.3,
+          "chance_lowers_above_level": 120,
+          "description": "Charms all enemies, putting them to sleep for 7.0 seconds. Sleeping enemies wake up when damaged. Lian's attacks do not wake enemies.",
+          "evolution_priority": "Very High"
+        },
+        {
+          "id": 1,
+          "variant": "legendary",
+          "relic_level": 10,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 1
+          },
+          "name": "Enchantment",
+          "effect": "Charmed enemies may stay asleep when attacked",
+          "chance_not_to_wake_percent": 50,
+          "chance_reduction_per_trigger_percent": 10,
+          "description": "Charmed enemies have a 50% chance not to wake up when attacked. Each time the skill triggers, this chance decreases by 10%.",
+          "evolution_priority": "Very High"
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 120,
+          "name": "Hypnotic Ball",
+          "type": ["Pure Damage"],
+          "hits": 5,
+          "targets": "Front-line enemy heroes",
+          "damage_formula": "50% Magic Attack + 6000",
+          "scales_with": ["Magic Attack"],
+          "damage_example": 75138.5,
+          "damage_example_cuteness": 62238.5,
+          "total_damage_example": 375692.5,
+          "total_damage_example_cuteness": 311192.5,
+          "description": "Launches a projectile that explodes and deals Pure damage 5 times to each of the front-line enemy heroes.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 100,
+          "name": "Wandering Lights",
+          "type": ["Magic Damage"],
+          "projectile_count": 5,
+          "cooldown_seconds": 18.0,
+          "animation_delay_seconds": 0.73,
+          "damage_formula": "30% Magic Attack + 3600",
+          "scales_with": ["Magic Attack"],
+          "damage_example": 45083.1,
+          "damage_example_cuteness": 37343.1,
+          "description": "Creates 5 magical spheres and launches them at the nearest enemy, dealing magical damage.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 3,
+          "variant": "legendary",
+          "relic_level": 20,
+          "name": "Enchantment Wandering Lights",
+          "type": ["Pure Damage"],
+          "projectile_count": 5,
+          "cooldown_seconds": 18.0,
+          "animation_delay_seconds": 0.73,
+          "damage_formula": "40% Magic Attack + 600",
+          "scales_with": ["Pure damage"],
+          "damage_example": 45083.1,
+          "damage_example_cuteness": 37343.1,
+          
+          "description": "Damage from Wandering Lights becomes Pure and is increased.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "level": 80,
+          "name": "Conciliation",
+          "type": ["Passive", "Sleep", "Control"],
+          "duration_seconds": 4.0,
+          "animation_delay_seconds": 0.5,
+          "chance_lowers_above_level": 120,
+          "trigger": "Enemies attempt to deal damage to Lian",
+          "description": "Enemies that attempt to deal damage to Lian are charmed for 4.0 seconds.",
+          "evolution_priority": "Very High"
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Enthrall",
+          "type": ["Sleep", "Control", "Pure Damage"],
+          "cooldown_seconds": 14.0,
+          "duration_seconds": 4.0,
+          "targets": "Central enemy and nearby heroes",
+          "damage_formula": "40% Magic Attack",
+          "scales_with": ["Magic Attack"],
+          "damage_example": 55310.8,
+          "damage_example_cuteness": 44990.8,
+          "description": "Every 14.0 seconds charms the central enemy and nearby heroes. Already charmed enemies take Pure damage, while the others fall asleep for 4 seconds.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Heartbreak",
+          "type": ["Passive", "Pure Damage"],
+          "trigger": "When charmed enemies are attacked",
+          "damage_formula": "15% Magic Attack",
+          "scales_with": ["Magic Attack"],
+          "damage_example": 20741.55,
+          "damage_example_cuteness": 16871.55,
+          "description": "When charmed enemies are attacked, Lian deals additional Pure damage to them.",
+          "evolution_priority": "High"
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default Skin",
+          "stat": "Intelligence",
+          "bonus": 1365,
+          "derived_bonuses": {
+            "magic_attack": 4095,
+            "magic_defense": 1365,
+            "physical_attack": 1365
+          }
+        },
+        {
+          "name": "Romantic Skin",
+          "stat": "Magic Attack",
+          "bonus": 10650
+        },
+        {
+          "name": "Solar Skin",
+          "stat": "Armor",
+          "bonus": 10650
+        },
+        {
+          "name": "Devil Skin",
+          "stat": "Magic Defense",
+          "bonus": 10650
+        },
+        {
+          "name": "Beach Skin",
+          "stat": "Health",
+          "bonus": 106645
+        },
+        {
+          "name": "Lunar Skin",
+          "stat": "Crushing",
+          "bonus": 5920
+        }
+      ],
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Idol of Charm",
+          "activation_chance": 100,
+          "magic_attack": 32040,
+          "evolve": 6,
+          "level": 100
+        },
+        {
+          "slot": "Book",
+          "name": "Tome of Arcane Knowledge",
+          "magic_attack": 10680,
+          "health": 53394,
+          "evolve": 6,
+          "level": 100
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Intelligence",
+          "intelligence": 3990,
+          "derived_bonuses": {
+            "magic_attack": 11970,
+            "magic_defense": 3990,
+            "physical_attack": 3990
+          },
+          "evolve": 6,
+          "level": 100
+        }
+      ],
+      "class_skill": {
+        "class": "Control",
+        "level": 45,
+        "overall_class_level": "450/450",
+        "effect": "Upon completion of a control effect, slows the same target by 30% and reduces its total physical damage for 4.0 seconds. The effect cannot trigger on a single target more often than once every 10 seconds.",
+        "slow_percent": 30,
+        "duration_seconds": 4.0,
+        "trigger_interval_seconds": 10.0,
+        "damage_reduction_formula": "1% of the higher attack stat + 9000",
+        "damage_reduction_example": 10382.77,
+        "damage_reduction_example_physical": 9363.89
+      },
+      "glyphs": [
+        {
+          "name": "Magic Attack",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "name": "Health",
+          "level": 80,
+          "bonus": 122800
+        },
+        {
+          "name": "Armor",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "name": "Magic Defense",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "name": "Intelligence",
+          "level": 80,
+          "bonus": 2110,
+          "derived_bonuses": {
+            "magic_attack": 6330,
+            "magic_defense": 2110,
+            "physical_attack": 2110
+          }
+        }
+      ],
+      "counters": [],
+      "synergies": [],
+      "notes": [
+        "Realm skills are not available yet.",
+        "Charm Talisman is marked as recommended because it significantly increases Lian's control-based pressure through Intelligence and Magic Attack.",
+        "The source also listed a legendary Wandering Lights entry, but no distinct mechanical enhancement beyond the repeated base description was provided, so it was omitted pending in-game verification."
+      ]
+    }
+  ]
+}

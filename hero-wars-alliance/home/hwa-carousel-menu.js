@@ -2,6 +2,15 @@
   // Carousel multi-language injector (HWA specific copy)
   const slides = [
     {
+      link: "../../hero-wars-alliance/characters-guide/lian-en.html",
+      src500: "../../hero-wars-alliance/images/hero/lian/lian-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/lian/lian-400px.webp",
+      alt: "Lian Legendary Skills Guide for Hero Wars Alliance",
+      title: "Lian Guide for Hero Wars Alliance",
+      strong: "Lian Legendary Guide Skills for Hero Wars Alliance",
+      updated: "Updated: March, 2026."
+    },
+    {
       link: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-en.html",
       src500: "../../hero-wars-alliance/images/events-tips-hwa/drayne-path-to-perfection/perfection-shop-500px.webp",
       src400: "../../hero-wars-alliance/images/events-tips-hwa/drayne-path-to-perfection/perfection-shop-400px.webp",
