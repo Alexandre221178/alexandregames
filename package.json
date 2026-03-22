@@ -27,10 +27,7 @@
     "update-umbra-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide umbra",
     "update-hwa-index-hwa": "node hero-wars-alliance/update-data-menu-hwa.js home hwa-index",
     
-   "update-realm-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide realm",
-    
-   
-   
+      
     "update-mysterious-island-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js mysterious-island",
     
     
