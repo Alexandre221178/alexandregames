@@ -127,7 +127,7 @@ window.CALENDAR_DATA = [
     extra: [
    {
         titles: { en: "Drayne Path to Perfection Shop Guide for Hero Wars Alliance(EN)", de: "Drayne Weg zur Perfektion Shop Leitfaden", es: "Guía de la Tienda Camino a la Perfección de Drayne", fr: "Guide du Magasin Chemin vers la Perfection de Drayne", pt: "Guia da Loja Caminho para a Perfeição de Drayne", ja: "ドレインの完璧への道ショップガイド" },
-        links: { en: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-en.html", de: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-de.html", es: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-es.html", fr: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-fr.html", pt: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-pt.html", ja: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-ja.html" }
+        links: { en: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-en.html", de: "", es: "", fr: "", pt: "", ja: "" }
       },          
       
 
@@ -161,8 +161,7 @@ window.CALENDAR_DATA = [
             
       {
         titles: { en: "Drayne Path to Perfection Shop Guide for Hero Wars Alliance(EN)", de: "Drayne Weg zur Perfektion Shop Leitfaden", es: "Guía de la Tienda Camino a la Perfección de Drayne", fr: "Guide du Magasin Chemin vers la Perfection de Drayne", pt: "Guia da Loja Caminho para a Perfeição de Drayne", ja: "ドレインの完璧への道ショップガイド" },
-        links: { en: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-en.html", de: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-de.html", es: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-es.html", fr: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-fr.html", pt: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-pt.html", ja: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-ja.html" }
-      },
+       inks: { en: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-en.html", de: "", es: "", fr: "", pt: "", ja: "" }      },
 
       {// Dentro de extra[] de um evento:
  titles: { 
@@ -193,8 +192,7 @@ window.CALENDAR_DATA = [
     extra: [
            {
         titles: { en: "Drayne Path to Perfection Shop Guide for Hero Wars Alliance(EN)", de: "Drayne Weg zur Perfektion Shop Leitfaden", es: "Guía de la Tienda Camino a la Perfección de Drayne", fr: "Guide du Magasin Chemin vers la Perfection de Drayne", pt: "Guia da Loja Caminho para a Perfeição de Drayne", ja: "ドレインの完璧への道ショップガイド" },
-        links: { en: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-en.html", de: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-de.html", es: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-es.html", fr: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-fr.html", pt: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-pt.html", ja: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-ja.html" }
-      }, 
+    inks: { en: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-en.html", de: "", es: "", fr: "", pt: "", ja: "" }      }, 
       
 
       {// Dentro de extra[] de um evento:
@@ -228,8 +226,7 @@ window.CALENDAR_DATA = [
             
     {
         titles: { en: "Drayne Path to Perfection Shop Guide for Hero Wars Alliance(EN)", de: "Drayne Weg zur Perfektion Shop Leitfaden", es: "Guía de la Tienda Camino a la Perfección de Drayne", fr: "Guide du Magasin Chemin vers la Perfection de Drayne", pt: "Guia da Loja Caminho para a Perfeição de Drayne", ja: "ドレインの完璧への道ショップガイド" },
-        links: { en: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-en.html", de: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-de.html", es: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-es.html", fr: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-fr.html", pt: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-pt.html", ja: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-ja.html" }
-      },  
+  inks: { en: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-en.html", de: "", es: "", fr: "", pt: "", ja: "" }      },  
 
       {// Dentro de extra[] de um evento:
  titles: { 
