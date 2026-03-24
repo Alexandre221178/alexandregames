@@ -2,6 +2,15 @@
   // Carousel multi-language injector (HWA specific copy)
   const slides = [
     {
+      link: "../../hero-wars-alliance/events-tips-hwa/lian-way-of-mystery-shop-en.html",
+      src500: "../../hero-wars-alliance/images/events-tips-hwa/lian-way-of-mystery-shop/lian-way-of-mystery-shop-500px.webp",
+      src400: "../../hero-wars-alliance/images/events-tips-hwa/lian-way-of-mystery-shop/lian-way-of-mystery-shop-400px.webp",
+      alt: "Lian Way of Mystery Shop Guide for Hero Wars Alliance",
+      title: "Lian Way of Mystery Shop Guide for Hero Wars Alliance",
+      strong: "Lian Way of Mystery Shop Guide for Hero Wars Alliance(EN)",
+      updated: "Updated: March, 2026."
+    },
+    {
       link: "../../hero-wars-alliance/characters-guide/lian-en.html",
       src500: "../../hero-wars-alliance/images/hero/lian/lian-500px.webp",
       src400: "../../hero-wars-alliance/images/hero/lian/lian-400px.webp",
@@ -10,15 +19,7 @@
       strong: "Lian Legendary Guide Skills for Hero Wars Alliance",
       updated: "Updated: March, 2026."
     },
-    {
-      link: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-en.html",
-      src500: "../../hero-wars-alliance/images/events-tips-hwa/drayne-path-to-perfection/perfection-shop-500px.webp",
-      src400: "../../hero-wars-alliance/images/events-tips-hwa/drayne-path-to-perfection/perfection-shop-400px.webp",
-      alt: "Drayne Path to Perfection Guide for Hero Wars Alliance",
-      title: "Drayne Path to Perfection Guide for Hero Wars Alliance",
-      strong: "Drayne Path to Perfection Shop Guide for Hero Wars Alliance(EN)",
-      updated: "Updated: March, 2026."
-    },
+    
     {
       link: "../../hero-wars-alliance/tier-list-hwa/realm-tier-list-en.html",
       src500: "../../hero-wars-alliance/images/tier-list-hwa-img/real-tier-list-500px.webp",

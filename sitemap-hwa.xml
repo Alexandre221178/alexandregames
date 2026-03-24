@@ -1397,12 +1397,6 @@
 </url>
 
 <url>
-  <loc>https://alexandregames.com/hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-en.html</loc>
-  <lastmod>2026-03-20T19:00-03:00</lastmod>
-  <priority>0.9</priority>
-</url>
-
-<url>
   <loc>https://alexandregames.com/hero-wars-alliance/tier-list-hwa/realm-tier-list-en.html</loc>
   <lastmod>2026-03-20T21:40-03:00</lastmod>
   <priority>0.9</priority>
@@ -1430,6 +1424,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/tier-list-hwa/realm-tier-list-pt.html</loc>
   <lastmod>2026-03-20T21:40-03:00</lastmod>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-en.html</loc>
+  <lastmod>2026-03-20T19:00-03:00</lastmod>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/events-tips-hwa/lian-way-of-mystery-shop-en.html</loc>
+  <lastmod>2026-03-24T18:55-03:00</lastmod>
   <priority>0.9</priority>
 </url>
 
