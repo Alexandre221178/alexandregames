@@ -47,6 +47,43 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../../imagens/favicon-16x16.png">
     <link rel="manifest" href="../../imagens/site.webmanifest">
 
+    <style>
+      .stat-agility,
+      .stat-armor,
+      .stat-magic-defense {
+        color: #1e88e5;
+      }
+
+      .stat-intelligence,
+      .stat-health {
+        color: #027b02;
+      }
+
+      .stat-strength,
+      .stat-physical-attack,
+      .stat-vampirism {
+        color: #ff0000;
+      }
+
+      .stat-magic-attack {
+        color: #800080;
+      }
+
+      .stat-armor-penetration,
+      .stat-crit-hit-chance {
+        color: #b30000;
+      }
+
+      .stat-magic-penetration,
+      .stat-dodge {
+        color: #ffc107;
+      }
+
+      .skill-value {
+        font-weight: 700;
+      }
+     </style>
+
          <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-P90XK71HW9"></script>
 <script>
@@ -182,82 +219,82 @@
     </thead>
     <tbody>
       <tr>
-        <td>Intelligence</td>
+        <td class="stat-intelligence">Intelligence</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/intelligence.webp" alt="Intelligence Icon" title="Intelligence">
-            2,790
+            <span class="stat-intelligence">2,790</span>
           </div>
         </td>
-        <td>Agility</td>
+        <td class="stat-agility">Agility</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/agility.webp" alt="Agility Icon" title="Agility">
-            17,935
+            <span class="stat-agility">17,935</span>
           </div>
         </td>
       </tr>
       <tr>
-        <td>Strength</td>
+        <td class="stat-strength">Strength</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/strength.webp" alt="Strength Icon" title="Strength">
-            2,987
+            <span class="stat-strength">2,987</span>
           </div>
         </td>
-        <td>Health</td>
+        <td class="stat-health">Health</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/health.webp" alt="Health Icon" title="Health">
-            410,325
+            <span class="stat-health">410,325</span>
           </div>
         </td>
       </tr>
       <tr>
-        <td>Physical Attack</td>
+        <td class="stat-physical-attack">Physical Attack</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/physical-attack.webp" alt="Physical Attack Icon" title="Physical Attack">
-            89,672
+            <span class="stat-physical-attack">89,672</span>
           </div>
         </td>
-        <td>Magic Attack</td>
+        <td class="stat-magic-attack">Magic Attack</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/magic-attack.webp" alt="Magic Attack Icon" title="Magic Attack">
-            8,370
+            <span class="stat-magic-attack">8,370</span>
           </div>
         </td>
       </tr>
       <tr>
-        <td>Armor</td>
+        <td class="stat-armor">Armor</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/armor.webp" alt="Armor Icon" title="Armor">
-            32,986
+            <span class="stat-armor">32,986</span>
           </div>
         </td>
-        <td>Magic Defense</td>
+        <td class="stat-magic-defense">Magic Defense</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/magic-defense.webp" alt="Magic Defense Icon" title="Magic Defense">
-            9,775
+            <span class="stat-magic-defense">9,775</span>
           </div>
         </td>
       </tr>
       <tr>
-        <td>Dodge</td>
+        <td class="stat-dodge">Dodge</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/dodge.webp" alt="Dodge Icon" title="Dodge">
-            11,857
+            <span class="stat-dodge">11,857</span>
           </div>
         </td>
-        <td>Crit Hit Chance</td>
+        <td class="stat-crit-hit-chance">Crit Hit Chance</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/crit-hit-chance.webp" alt="Crit Hit Chance Icon" title="Crit Hit Chance">
-            14,135
+            <span class="stat-crit-hit-chance">14,135</span>
           </div>
         </td>
       </tr>
@@ -278,27 +315,11 @@
         </td>
       </tr>
       <tr>
-        <td>Vampirism</td>
-        <td>
-          <div class="reward-cell">
-            <img src="../../hero-wars-dominion-era/images/glyphs/vampirism.webp" alt="Vampirism Icon" title="Vampirism">
-            0
-          </div>
-        </td>
-        <td>Magic Penetration</td>
-        <td>
-          <div class="reward-cell">
-            <img src="../../hero-wars-dominion-era/images/glyphs/magic-penetration.webp" alt="Magic Penetration Icon" title="Magic Penetration">
-            0
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>Armor Penetration</td>
+        <td class="stat-armor-penetration">Armor Penetration</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/armor-penetration.webp" alt="Armor Penetration Icon" title="Armor Penetration">
-            5,740
+            <span class="stat-armor-penetration">5,740</span>
           </div>
         </td>
         <td>Power</td>
@@ -324,6 +345,18 @@
          data-ad-format="auto"
          data-full-width-responsive="true"></ins>
 </div>
+
+<section class="meta-rating-section">
+<h2>Yasmine Overall Rating in the Meta</h2>
+<p>Note: Ratings below are based on performance in the current Hero Wars Dominion Era meta, considering control value, damage pressure, team synergy, and how much the hero depends on allies to shine.</p>
+<ul>
+  <li><strong>Control:</strong> ⭐⭐⭐</li>
+  <li><strong>Damage:</strong> ⭐⭐⭐⭐⭐</li>
+  <li><strong>Synergy:</strong> ⭐⭐⭐⭐⭐</li>
+  <li><strong>Independence:</strong> ⭐⭐</li>
+</ul>
+</section>
+
 
 
 <section>
@@ -364,6 +397,8 @@
     </div>
     <p>Yasmine paralyzes the last enemy who attacked her for 3 seconds, teleports behind them, strikes 7 times, and applies an Assassin’s Mark. While this skill is active, she cannot receive debuffs. After the attack, she returns to her original position and continues to attack the marked target.</p>
     <p>This is Yasmine’s main damage skill and the core of her gameplay. It deals massive single-target damage and makes her untouchable while active.</p>
+    <p><strong>Damage Formula:</strong> 40% <span class="stat-physical-attack">Physical Attack</span> + 40 × Level per hit.</p>
+    <p><strong>Calculated Damage:</strong> 0.4 × <span class="stat-physical-attack">89,672</span> + 40 × 130 = <span class="stat-physical-attack skill-value">41,069 damage per hit</span>. Since the skill hits 7 times, the total burst damage is approximately <span class="stat-physical-attack skill-value">287,482</span> before defenses.</p>
     <p><strong>Evolution Priority:</strong> 1 (Highest) — This skill defines Yasmine’s entire strategy. Upgrading it first greatly increases her burst damage and survivability.</p>
 
     <figure class="img-review">
@@ -382,6 +417,8 @@
     </div>
     <p>When Dance of Death is used, Yasmine gains bonus critical hit chance and Dodge for 10 seconds. This makes her harder to hit and increases her chances to land critical hits.</p>
     <p>This skill boosts both her offense and defense, especially during her most dangerous moments right after using her ultimate skill.</p>
+    <p><strong>Effect Formula:</strong> 40% <span class="stat-physical-attack">Physical Attack</span> + 40 × Level + 500 for bonus <span class="stat-crit-hit-chance">Critical Hit Chance</span> and <span class="stat-dodge">Dodge</span>.</p>
+    <p><strong>Calculated Bonus:</strong> 0.4 × <span class="stat-physical-attack">89,672</span> + 40 × 130 + 500 = <span class="stat-crit-hit-chance skill-value">41,569 bonus Critical Hit Chance</span> and <span class="stat-dodge skill-value">41,569 bonus Dodge</span> for 10 seconds.</p>
     <p><strong>Evolution Priority:</strong> 2 — A great follow-up to improve her survivability and ensure more poison stacks through critical hits.</p>
 
     
@@ -405,6 +442,8 @@
     </div>
     <p>Yasmine’s critical hits poison enemies. If a poisoned enemy is hit again, the poison duration resets and the damage stacks up to 10 times. Each poison effect deals pure damage over time.</p>
     <p>This skill adds consistent damage during long fights. The stacking poison can finish off enemies even if they survive her main skill.</p>
+    <p><strong>Damage Formula:</strong> 33% <span class="stat-physical-attack">Physical Attack</span> + 30 × Level pure damage per poison stack every 5 seconds.</p>
+    <p><strong>Calculated Damage:</strong> 0.33 × <span class="stat-physical-attack">89,672</span> + 30 × 130 = <span class="stat-physical-attack skill-value">33,492 pure damage per stack</span> every 5 seconds. At 10 stacks, this reaches approximately <span class="stat-physical-attack skill-value">334,918 pure damage</span> every 5 seconds before reductions or cleanses.</p>
     <p><strong>Evolution Priority:</strong> 3 — While strong, it depends heavily on critical hits. Level it after boosting her main attack and crit rate.</p>
 
     <figure class="img-review">
@@ -423,6 +462,8 @@
     </div>
     <p>Enemies poisoned by Yasmine receive less healing. Each time they are healed, a portion of it is blocked based on Yasmine’s stats.</p>
     <p>While useful against healing-heavy teams, it is situational and doesn’t directly increase her damage output.</p>
+    <p><strong>Healing Block Formula:</strong> 20% <span class="stat-physical-attack">Physical Attack</span> + 30 × Level + 500 blocked healing per heal.</p>
+    <p><strong>Calculated Effect:</strong> 0.2 × <span class="stat-physical-attack">89,672</span> + 30 × 130 + 500 = <span class="stat-strength skill-value">22,334 healing blocked</span> each time a poisoned enemy is healed.</p>
     <p><strong>Evolution Priority:</strong> 4 (Lowest) — It's helpful in specific fights, but it's the least important for raw damage. Upgrade this last.</p>
 
 </div>

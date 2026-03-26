@@ -44,6 +44,43 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../../imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../imagens/favicon-16x16.png">
     <link rel="manifest" href="../../imagens/site.webmanifest">
+
+    <style>
+      .stat-agility,
+      .stat-armor,
+      .stat-magic-defense {
+        color: #1e88e5;
+      }
+
+      .stat-intelligence,
+      .stat-health {
+        color: #027b02;
+      }
+
+      .stat-strength,
+      .stat-physical-attack,
+      .stat-vampirism {
+        color: #ff0000;
+      }
+
+      .stat-magic-attack {
+        color: #800080;
+      }
+
+      .stat-armor-penetration,
+      .stat-crit-hit-chance {
+        color: #b30000;
+      }
+
+      .stat-magic-penetration,
+      .stat-dodge {
+        color: #ffc107;
+      }
+
+      .skill-value {
+        font-weight: 700;
+      }
+    </style>
        
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-P90XK71HW9"></script>
@@ -173,82 +210,82 @@
     </thead>
     <tbody>
       <tr>
-        <td>Inteligência</td>
+        <td class="stat-intelligence">Inteligência</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/intelligence.webp" alt="Ícone Inteligência" title="Inteligência">
-            2.790
+            <span class="stat-intelligence">2.790</span>
           </div>
         </td>
-        <td>Agilidade</td>
+        <td class="stat-agility">Agilidade</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/agility.webp" alt="Ícone Agilidade" title="Agilidade">
-            17.935
+            <span class="stat-agility">17.935</span>
           </div>
         </td>
       </tr>
       <tr>
-        <td>Força</td>
+        <td class="stat-strength">Força</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/strength.webp" alt="Ícone Força" title="Força">
-            2.987
+            <span class="stat-strength">2.987</span>
           </div>
         </td>
-        <td>Vida</td>
+        <td class="stat-health">Vida</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/health.webp" alt="Ícone Vida" title="Vida">
-            410.325
+            <span class="stat-health">410.325</span>
           </div>
         </td>
       </tr>
       <tr>
-        <td>Ataque Físico</td>
+        <td class="stat-physical-attack">Ataque Físico</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/physical-attack.webp" alt="Ícone Ataque Físico" title="Ataque Físico">
-            89.672
+            <span class="stat-physical-attack">89.672</span>
           </div>
         </td>
-        <td>Ataque Mágico</td>
+        <td class="stat-magic-attack">Ataque Mágico</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/magic-attack.webp" alt="Ícone Ataque Mágico" title="Ataque Mágico">
-            8.370
+            <span class="stat-magic-attack">8.370</span>
           </div>
         </td>
       </tr>
       <tr>
-        <td>Armadura</td>
+        <td class="stat-armor">Armadura</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/armor.webp" alt="Ícone Armadura" title="Armadura">
-            32.986
+            <span class="stat-armor">32.986</span>
           </div>
         </td>
-        <td>Defesa Mágica</td>
+        <td class="stat-magic-defense">Defesa Mágica</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/magic-defense.webp" alt="Ícone Defesa Mágica" title="Defesa Mágica">
-            9.775
+            <span class="stat-magic-defense">9.775</span>
           </div>
         </td>
       </tr>
       <tr>
-        <td>Esquiva</td>
+        <td class="stat-dodge">Esquiva</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/dodge.webp" alt="Ícone Esquiva" title="Esquiva">
-            11.857
+            <span class="stat-dodge">11.857</span>
           </div>
         </td>
-        <td>Chance de Crítico</td>
+        <td class="stat-crit-hit-chance">Chance de Crítico</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/crit-hit-chance.webp" alt="Ícone Chance de Crítico" title="Chance de Crítico">
-            14.135
+            <span class="stat-crit-hit-chance">14.135</span>
           </div>
         </td>
       </tr>
@@ -269,27 +306,11 @@
         </td>
       </tr>
       <tr>
-        <td>Vampirismo</td>
-        <td>
-          <div class="reward-cell">
-            <img src="../../hero-wars-dominion-era/images/glyphs/vampirism.webp" alt="Ícone Vampirismo" title="Vampirismo">
-            0
-          </div>
-        </td>
-        <td>Penetração Mágica</td>
-        <td>
-          <div class="reward-cell">
-            <img src="../../hero-wars-dominion-era/images/glyphs/magic-penetration.webp" alt="Ícone Penetração Mágica" title="Penetração Mágica">
-            0
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>Penetração de Armadura</td>
+        <td class="stat-armor-penetration">Penetração de Armadura</td>
         <td>
           <div class="reward-cell">
             <img src="../../hero-wars-dominion-era/images/glyphs/armor-penetration.webp" alt="Ícone Penetração de Armadura" title="Penetração de Armadura">
-            5.740
+            <span class="stat-armor-penetration">5.740</span>
           </div>
         </td>
         <td>Poder</td>
@@ -314,6 +335,18 @@
          data-ad-format="auto"
          data-full-width-responsive="true"></ins>
 </div>
+
+
+<section class="meta-rating-section">
+<h2>Avaliação Geral da Yasmine no Meta</h2>
+<p>Nota: As avaliações abaixo consideram o desempenho da heroína no meta atual de Hero Wars: Dominion Era, levando em conta valor de controle, pressão de dano, sinergia com a equipe e o quanto ela depende de aliados para render bem.</p>
+<ul>
+  <li><strong>Controle:</strong> ⭐⭐⭐</li>
+  <li><strong>Dano:</strong> ⭐⭐⭐⭐⭐</li>
+  <li><strong>Sinergia:</strong> ⭐⭐⭐⭐⭐</li>
+  <li><strong>Independência:</strong> ⭐⭐</li>
+</ul>
+</section>
 
 
 <section>
@@ -352,6 +385,8 @@
     </div>
     <p>Yasmine paralisa o último inimigo que a atacou por 3 segundos, teleporta-se atrás dele, ataca 7 vezes e aplica a Marca do Assassino. Enquanto essa habilidade estiver ativa, ela não pode receber efeitos negativos. Após o ataque, retorna à posição original e continua a atacar o alvo marcado.</p>
     <p>Esta é a principal habilidade de dano da Yasmine e o núcleo do seu estilo de jogo. Causa dano massivo a um único alvo e a torna intocável enquanto está ativa.</p>
+  <p><strong>Fórmula de Dano:</strong> 40% do <span class="stat-physical-attack">Ataque Físico</span> + 40 × Nível por golpe.</p>
+  <p><strong>Dano Calculado:</strong> 0,4 × <span class="stat-physical-attack">89.672</span> + 40 × 130 = <span class="stat-physical-attack skill-value">41.069 de dano por golpe</span>. Como a habilidade acerta 7 vezes, o dano explosivo total fica em aproximadamente <span class="stat-physical-attack skill-value">287.482</span> antes das defesas.</p>
     <p><strong>Prioridade de Evolução:</strong> 1 (Mais alta) — Essa habilidade define toda a estratégia da Yasmine. Melhorá-la primeiro aumenta muito seu dano explosivo e sobrevivência.</p>
 
     <figure class="img-review">
@@ -370,6 +405,8 @@
     </div>
     <p>Ao usar Dança da Morte, Yasmine ganha chance extra de acerto crítico e Esquiva por 10 segundos. Isso a torna mais difícil de atingir e aumenta a chance de causar golpes críticos.</p>
     <p>Essa habilidade melhora tanto o ataque quanto a defesa, especialmente nos momentos mais perigosos após usar sua habilidade suprema.</p>
+  <p><strong>Fórmula do Efeito:</strong> 40% do <span class="stat-physical-attack">Ataque Físico</span> + 40 × Nível + 500 de <span class="stat-crit-hit-chance">chance crítica</span> extra e <span class="stat-dodge">Esquiva</span>.</p>
+  <p><strong>Efeito Calculado:</strong> 0,4 × <span class="stat-physical-attack">89.672</span> + 40 × 130 + 500 = <span class="stat-crit-hit-chance skill-value">41.569 de chance crítica extra</span> e <span class="stat-dodge skill-value">41.569 de Esquiva</span> por 10 segundos.</p>
     <p><strong>Prioridade de Evolução:</strong> 2 — Um ótimo complemento para aumentar sua sobrevivência e garantir mais envenenamentos via acertos críticos.</p>
 </div>
 
@@ -391,6 +428,8 @@
     </div>
     <p>Os acertos críticos da Yasmine envenenam os inimigos. Se um inimigo envenenado for atingido novamente, a duração do veneno é reiniciada e o dano se acumula até 10 vezes. Cada efeito de veneno causa dano puro ao longo do tempo.</p>
     <p>Essa habilidade adiciona dano contínuo em lutas longas. O veneno acumulado pode eliminar inimigos mesmo que sobrevivam ao ataque principal dela.</p>
+  <p><strong>Fórmula de Dano:</strong> 33% do <span class="stat-physical-attack">Ataque Físico</span> + 30 × Nível de dano puro por acúmulo de veneno a cada 5 segundos.</p>
+  <p><strong>Dano Calculado:</strong> 0,33 × <span class="stat-physical-attack">89.672</span> + 30 × 130 = <span class="stat-physical-attack skill-value">33.492 de dano puro por acúmulo</span> a cada 5 segundos. Com 10 acúmulos, isso chega a aproximadamente <span class="stat-physical-attack skill-value">334.918 de dano puro</span> a cada 5 segundos antes de limpeza ou mitigação.</p>
     <p><strong>Prioridade de Evolução:</strong> 3 — Apesar de forte, depende muito de acertos críticos. Evolua depois de melhorar seu ataque principal e taxa crítica.</p>
 
     <figure class="img-review">
@@ -409,6 +448,8 @@
     </div>
     <p>Inimigos envenenados por Yasmine recebem menos cura. Sempre que forem curados, uma parte da cura é bloqueada com base nos atributos da Yasmine.</p>
     <p>Embora útil contra equipes com muita cura, é uma habilidade situacional e não aumenta diretamente o dano dela.</p>
+  <p><strong>Fórmula do Bloqueio de Cura:</strong> 20% do <span class="stat-physical-attack">Ataque Físico</span> + 30 × Nível + 500 de cura bloqueada por cura recebida.</p>
+  <p><strong>Efeito Calculado:</strong> 0,2 × <span class="stat-physical-attack">89.672</span> + 30 × 130 + 500 = <span class="stat-strength skill-value">22.334 de cura bloqueada</span> sempre que um inimigo envenenado recebe cura.</p>
     <p><strong>Prioridade de Evolução:</strong> 4 (Mais baixa) — Útil em lutas específicas, mas é a menos importante para causar dano direto. Deixe por último.</p>
 </div>
 </section>

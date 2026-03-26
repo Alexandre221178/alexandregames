@@ -39,7 +39,7 @@
       "name": "Dance of Death",
       "type": ["ultimate", "white"],
       "animation_delay_seconds": 0,
-      "damage_formula": "41,069 (40% physical attack + 40 * level)",
+      "damage_formula": " (40% physical attack + 40 * level)",
       "scales_with": ["Physical Attack"],
       "description": "Yasmine paralyzes the last enemy who attacked her for 3s, appears behind their back, hits 7 times, and applies an Assassin's Mark. While Dance of Death is active, no debuffs can be applied to Yasmine. When it ends, she returns to the previous position and continues attacking the marked enemy with basic attacks."
     },
@@ -52,7 +52,7 @@
       "animation_delay_seconds": 0,
       "damage_formula": "",
       "scales_with": [],
-      "description": "When Dance of Death is activated, Yasmine's critical hit chance and Dodge are increased for 10s. Extra critical hit chance and Dodge: 41,569 (40% physical attack + 40 * level + 500)"
+      "description": "When Dance of Death is activated, Yasmine's critical hit chance and Dodge are increased for 10s. Extra critical hit chance and Dodge: (40% physical attack + 40 * level + 500)"
     },
     {
       "id": 3,
@@ -63,7 +63,7 @@
       "animation_delay_seconds": 0,
       "damage_formula": "",
       "scales_with": [],
-      "description": "Yasmine's critical hits poison the enemy. When poison is re-applied to a poisoned enemy, the duration of the poison debuff is refreshed, and the damage stacks up to 10 times. One poison debuff deals 33,492 (33% physical attack + 30 * level) pure damage per 5s"
+      "description": "Yasmine's critical hits poison the enemy. When poison is re-applied to a poisoned enemy, the duration of the poison debuff is refreshed, and the damage stacks up to 10 times. One poison debuff deals (33% physical attack + 30 * level) pure damage per 5s"
     },
     {
       "id": 4,
