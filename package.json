@@ -43,6 +43,7 @@
     "update-galahad-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js galahad",
     "update-kayla-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js kayla",
     "update-ziri-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js ziri",
+    "update-yasmine-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js yasmine",
 
 
     "update-electra-brawls-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js electra-brawls",
