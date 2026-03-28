@@ -1,5 +1,4 @@
 // Hero Wars Alliance - Heroes Localization Data
-// Hero Wars Alliance - Heroes Localization Data
 const hwaHeroesLocalization = {
     "Aidan": {
     "gender": "male",
@@ -159,7 +158,7 @@ const hwaHeroesLocalization = {
     "en": "Daredevil",
     "de": "Draufgänger",
     "es": "Daredevil",
-    "fr": "Trompelamort",
+    "fr": "Daredevil",
     "pt": "Danada",
     "ja": "デアデビル"
   },
@@ -168,7 +167,7 @@ const hwaHeroesLocalization = {
     "en": "Dark Star",
     "de": "Dunkler Stern",
     "es": "Estrella Oscura",
-    "fr": "Sombre Etoile",
+    "fr": "Sombre Étoile",
     "pt": "Estrela Sombria",
     "ja": "ダークスター"
   },
@@ -206,14 +205,14 @@ const hwaHeroesLocalization = {
     "es": "Elmir",
     "fr": "Elmir",
     "pt": "Elmir",
-    "ja": "エルミー"
+    "ja": "エルミル"
   },
   "Faceless": {
     "gender": "male",
     "en": "Faceless",
     "de": "Gesichtsloser",
     "es": "Sin Rostro",
-    "fr": "Sanface",
+    "fr": "Sans-visage",
     "pt": "Sem Rosto",
     "ja": "フェイスレス"
   },
@@ -711,5 +710,14 @@ const hwaHeroesLocalization = {
     "fr": "ziri",
     "pt": "ziri",
     "ja": "ジリ"
+  },
+  "Hero Wars Alliance": {
+    "gender": "neutral",
+    "en": "Hero Wars Alliance",
+    "de": "Hero Wars Alliance",
+    "es": "Hero Wars Alliance",
+    "fr": "Hero Wars Alliance",
+    "pt": "Hero Wars Alliance",
+    "ja": "ヒーローウォーズ アライアンス"
   }
 };

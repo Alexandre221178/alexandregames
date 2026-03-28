@@ -2,14 +2,15 @@
   // Carousel multi-language injector (HWA specific copy)
   const slides = [
     {
-      link: "../../hero-wars-alliance/events-tips-hwa/lian-way-of-mystery-shop-en.html",
-      src500: "../../hero-wars-alliance/images/events-tips-hwa/lian-way-of-mystery-shop/lian-way-of-mystery-shop-500px.webp",
-      src400: "../../hero-wars-alliance/images/events-tips-hwa/lian-way-of-mystery-shop/lian-way-of-mystery-shop-400px.webp",
-      alt: "Lian Way of Mystery Shop Guide for Hero Wars Alliance",
-      title: "Lian Way of Mystery Shop Guide for Hero Wars Alliance",
-      strong: "Lian Way of Mystery Shop Guide for Hero Wars Alliance(EN)",
+      link: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html",
+      src500: "../../hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-500px.webp",
+      src400: "../../hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-400px.webp",
+      alt: "Talisman Guide for Hero Wars Alliance",
+      title: "Talisman Guide for Hero Wars Alliance",
+      strong: "Complete Talisman Guide 2026 for Hero Wars Alliance",
       updated: "Updated: March, 2026."
     },
+    
     {
       link: "../../hero-wars-alliance/characters-guide/lian-en.html",
       src500: "../../hero-wars-alliance/images/hero/lian/lian-500px.webp",
@@ -166,6 +167,7 @@
     pt: {
       updatedPrefix: 'Atualizado:',
       map: {
+        'Complete Talisman Guide 2026 for Hero Wars Alliance': 'Guia Completo de Talismãs 2026 para Hero Wars Alliance',
         'Realm Tier List Guide for Hero Wars Alliance': 'Guia da Tier List do Reino para Hero Wars Alliance',
         'Miu Legendary Guide Skills for Hero Wars Alliance': 'Guia de Habilidades Lendárias da Miu para Hero Wars Alliance',
         'Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance': 'Guia Completo de Times e Combos Meta 2026 para Hero Wars Alliance',
@@ -185,6 +187,7 @@
     es: {
       updatedPrefix: 'Actualizado:',
       map: {
+        'Complete Talisman Guide 2026 for Hero Wars Alliance': 'Guía Completa de Talismáns 2026 para Hero Wars Alliance',
         'Realm Tier List Guide for Hero Wars Alliance': 'Guía de la Lista de Niveles del Reino para Hero Wars Alliance',
         'Miu Legendary Guide Skills for Hero Wars Alliance': 'Guía de Habilidades Legendarias de Miu para Hero Wars Alliance',
         'Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance': 'Guía Completa de Equipos y Combos Meta 2026 para Hero Wars Alliance',
@@ -204,6 +207,7 @@
     fr: {
       updatedPrefix: 'Mis à jour:',
       map: {
+        'Complete Talisman Guide 2026 for Hero Wars Alliance': 'Guide Complet des Talismans 2026 pour Hero Wars Alliance',
         'Realm Tier List Guide for Hero Wars Alliance': 'Guide de la Liste des Niveaux du Royaume pour Hero Wars Alliance',
         'Miu Legendary Guide Skills for Hero Wars Alliance': 'Guide des Compétences Légendaires de Miu pour Hero Wars Alliance',
         'Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance': 'Guide Complet des Équipes et Combos Meta 2026 pour Hero Wars Alliance',
@@ -220,31 +224,11 @@
         'Calendar': 'Calendrier',
       }
     },
-    ja: {
-      updatedPrefix: '更新:',
-      map: {
-        'Miu Legendary Guide Skills for Hero Wars Alliance': '美羽の伝説的なスキルガイド ヒーローウォーズ アライアンス',
-        'Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスの完全なメタチームとコンボガイド 2026',
-        'Oya Legendary Guide Skills for Hero Wars Alliance': 'オヤの伝説的なスキルガイド ヒーローウォーズ アライアンス',
-        'Complete Realm Mode Guide for Hero Wars Alliance': 'ヒーローウォーズアライアンスの完全なレルムモードガイド',
-        'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance': 'アンブラ タイタン ガイド: 光の召喚師をマスター 向け ヒーローウォーズ アライアンス',
-        'Dante Complete Legendary Skills Guide for Hero Wars Alliance': 'ダンテ 完全 レジェンダリー スキル ガイド 向け ヒーローウォーズ アライアンス',
-        'Drayne Complete Guide for Hero Wars Alliance': 'ドレイン 完全ガイド 向け ヒーローウォーズ アライアンス',
-        'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'ヤスミン レジェンダリー レリック 完全ガイド 向け ヒーローウォーズ アライアンス',
-        'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'バーナ ガイド: ヒーラーベアスピリットを解放 in ヒーローウォーズ: アライアンス',
-        'Redeem your Daily Gifts for Hero Wars Alliance': '毎日のギフトを受け取る 向け ヒーローウォーズ アライアンス',
-        'Realm Tier List Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのレルムティアリストガイド',
-        'for': '向け',
-        'skin': 'スキン',
-        'everyday': '毎日',
-        'monthly': '毎月',
-        'Calendar': 'カレンダー',
-        'hero wars alliance': 'ヒーローウォーズ アライアンス',
-      }
-    },
-    de: {
+
+ de: {
       updatedPrefix: 'Aktualisiert:',
       map: {
+        'Complete Talisman Guide 2026 for Hero Wars Alliance': 'Kompletter Talisman-Leitfaden 2026 für Hero Wars Alliance',
         'Realm Tier List Guide for Hero Wars Alliance': 'Realm-Tier-Liste Leitfaden für Hero Wars Alliance',
         'Miu Legendary Guide Skills for Hero Wars Alliance': 'Leitfaden zu Miu`s legendären Fähigkeiten für Hero Wars Alliance',
         'Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance': 'Vollständiger Leitfaden zu Meta-Teams und Combos 2026 für Hero Wars Alliance',
@@ -261,7 +245,56 @@
         'monthly': 'monatlich',
         'Calendar': 'Kalender',
       }
-    }
+    },
+    ja: {
+      updatedPrefix: '更新:',
+      map: {
+        'Complete Talisman Guide 2026 for Hero Wars Alliance': 'ヒーローウォーズ アライアンス完全タリスマンガイド2026',
+        'Lian Legendary Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのリアン伝説スキルガイド',
+        'Lian Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのリアンガイド',
+        'Lian Legendary Guide Skills for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのリアン伝説スキルガイド',
+        'Realm Tier List Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのレルムティアリストガイド',
+        'Miu Legendary Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスの美雨伝説スキルガイド',
+        'Miu Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスの美雨ガイド',
+        'Miu Legendary Guide Skills for Hero Wars Alliance': 'ヒーローウォーズ アライアンスの美雨伝説スキルガイド',
+        'Meta Teams and Combos Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのメタチームとコンボガイド',
+        'Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンス完全メタチーム＆コンボガイド2026',
+        'Oya Legendary Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのオーヤ伝説スキルガイド',
+        'Oya Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのオーヤガイド',
+        'Oya Legendary Guide Skills for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのオーヤ伝説スキルガイド',
+        'Byrna Legendary Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのバーナ伝説スキルガイド',
+        'Byrna Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのバーナガイド',
+        'Byrna Legendary Guide Skills Guide for Hero Wars Alliance (skin+)': 'ヒーローウォーズ アライアンスのバーナ伝説スキルガイド（スキン+対応）',
+        'Realm Mode Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのレルムモードガイド',
+        'Complete Realm Mode Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンス完全レルムモードガイド',
+        'Leonel Legendary Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのレオネル伝説スキルガイド',
+        'Leonel Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのレオネルガイド',
+        'Leonel Legendary Guide Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのレオネル伝説スキルガイド',
+        'Alvanor Legendary Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのアルバノール伝説スキルガイド',
+        'Alvanor Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのアルバノールガイド',
+        'Alvanor Complete Legendary Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのアルバノール完全伝説スキルガイド',
+        'Umbra Titan Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのウンブラタイタンガイド',
+        'Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのウンブラタイタンガイド: 闇の召喚師を極める',
+        'Dante Legendary Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのダンテ伝説スキルガイド',
+        'Dante Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのダンテガイド',
+        'Dante Complete Legendary Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのダンテ完全伝説スキルガイド',
+        'Drayne Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのドレインガイド',
+        'Drayne Complete Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのドレイン完全ガイド',
+        'Yasmine Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのヤスミンガイド',
+        'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのヤスミン伝説遺物完全ガイド',
+        'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'ヒーローウォーズ アライアンスのバーナガイド: 癒やしの熊の精霊を解き放て',
+        'Calendar for Hero Wars Alliance': 'ヒーローウォーズ アライアンス カレンダー',
+        'Redeem your Daily Gifts for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのデイリーギフトを受け取る',
+        'Hero Wars: Alliance': 'ヒーローウォーズ アライアンス',
+        'for': '向け',
+        'skin': 'スキン',
+        'everyday': '毎日',
+        'monthly': '毎月',
+        'Calendar': 'カレンダー',
+        'hero wars alliance': 'ヒーローウォーズ アライアンス',
+      }
+    },
+   
   };
 
   function detectLang(){
@@ -294,6 +327,10 @@
       out = out.replace(new RegExp(k.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi'), map[k]);
     });
     return normalizeAllianceCase(out);
+  }
+
+  function localizeText(text, lang){
+    return normalizeAllianceCase(applyTranslations(text, lang));
   }
 
   function normalizeAllianceCase(text){
@@ -390,14 +427,16 @@
     });
   }
 
-  function buildSlideHTML(s){
+  function buildSlideHTML(s, index){
     const lang = detectLang();
     var englishLink = s.link;
     var targetLink = buildLocalizedLink(englishLink, lang);
-    const strongText = normalizeAllianceCase(applyTranslations(s.strong, lang));
+    const altText = localizeText(s.alt, lang);
+    const titleText = localizeText(s.title, lang);
+    const strongText = localizeText(s.strong, lang);
     const updatedText = translateUpdated(s.updated, lang);
 
-    return '\n<figure class="carousel-slide">\n  <a href="' + targetLink + '" data-en-link="' + englishLink + '" data-localized-link="' + targetLink + '" data-lang="' + lang + '">\n    <picture>\n      <source media="(min-width: 769px)" srcset="' + s.src500 + '">\n      <img src="' + s.src400 + '" alt="' + s.alt + '" Title="' + s.title + '" loading="lazy">\n        <strong>' + strongText + '</strong>\n        <i>' + updatedText + '</i>\n  </a>\n</figure>';
+    return '\n<figure class="carousel-slide">\n  <a href="' + targetLink + '" data-en-link="' + englishLink + '" data-localized-link="' + targetLink + '" data-lang="' + lang + '" data-slide-index="' + index + '">\n    <picture>\n      <source media="(min-width: 769px)" srcset="' + s.src500 + '">\n      <img src="' + s.src400 + '" alt="' + altText + '" title="' + titleText + '" loading="lazy" data-slide-index="' + index + '">\n        <strong>' + strongText + '</strong>\n        <i>' + updatedText + '</i>\n  </a>\n</figure>';
   }
 
   function inject(){
@@ -405,6 +444,20 @@
     if(!track) return;
     const html = slides.map(buildSlideHTML).join('\n');
     track.innerHTML = html;
+  }
+
+  function updateCarouselMetadata(){
+    try{
+      var lang = detectLang();
+      var images = document.querySelectorAll('.carousel-slide img[data-slide-index]');
+      for(var i=0;i<images.length;i++){
+        var img = images[i];
+        var index = parseInt(img.getAttribute('data-slide-index'), 10);
+        if(isNaN(index) || !slides[index]) continue;
+        img.alt = localizeText(slides[index].alt, lang);
+        img.title = localizeText(slides[index].title, lang);
+      }
+    }catch(e){}
   }
 
   function resolveCarouselLinks(){
@@ -645,9 +698,10 @@
     inject();
     resolveCarouselLinks();
     initCarouselControls();
-    fetchTermsJSON(function(){ updateAllUpdatedElements(); updateSlideTexts(); });
-    loadHeroesLocalization(function(){ updateSlideTexts(); updateAllUpdatedElements(); });
-    loadTitansLocalization(function(){ updateSlideTexts(); updateAllUpdatedElements(); });
+    updateCarouselMetadata();
+    fetchTermsJSON(function(){ updateAllUpdatedElements(); updateSlideTexts(); updateCarouselMetadata(); });
+    loadHeroesLocalization(function(){ updateSlideTexts(); updateAllUpdatedElements(); updateCarouselMetadata(); });
+    loadTitansLocalization(function(){ updateSlideTexts(); updateAllUpdatedElements(); updateCarouselMetadata(); });
   }
 
   if(document.readyState==='loading'){
