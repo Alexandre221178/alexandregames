@@ -9,16 +9,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 <button class="dropbtn">Hero Wars Alliance</button>
                 <div class="dropdown-content">
                  
-                <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-pt.html">HWA - Início</a>  
-                <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-pt-hwa.html">Guia de Melhores Times</a>  
-                <a href="https://alexandregames.com/Hero%20Wars/calendar-event-pt-hwa.html">Calendário & Eventos</a>
-                <a href="https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-pt-hwa.html">Caminho do Herói <br>Dez. 23 a Jan. 19</a>  
-                <a href="https://alexandregames.com/Hero%20Wars/Guiadeherois.html">Guia de Heróis</a>  
-                <a href="https://alexandregames.com/hero-wars-alliance/menu-review-pt-hwa.html">Análises de Skins</a>  
-                <a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-en.html">Táticas & Segredos</a>  
-                <a href="https://alexandregames.com/Hero%20Wars/Guia%20de%20Titans.html">Guia de Titãs</a>  
-                    
-                   <br><br><br>
+               <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-pt.html">🆕 HWA - Últimas Novidades</a>
+        <a href="https://alexandregames.com/y-m-gifts-hwa-en.html">🎁 HWA - Presente Diário</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/calendar-hwa-pt.html">📅 HWA - Calendário e Eventos</a>
+        <a href="https://alexandregames.com/Hero%20Wars/Guiadeherois.html">📖 Guia de Heróis</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/guide/talisman-guide-hwa-pt.html">📿 Guia de Todos os Talismãs</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-pt.html">📚 Guias para Iniciantes e Segredos</a>
+        <a href="https://alexandregames.com/Hero%20Wars/articles-herowars/tierlist-pt-jvj-herowars.html">🏆 Melhores Tier Lists</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-pt-hwa.html">👥 Guia das Melhores Equipes</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/guide/counter-pt-herowarsalliance.html">🎯 Guia de Counters</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/menu-review-pt-hwa.html">🎨 Análises, Dicas e Estratégias</a>
+        <a href="https://alexandregames.com/Hero%20Wars/Guia%20de%20Titans.html">⚔️ Guia de Titãs</a>
+        <br><br><br><br>
                 </div>  
             </div>           
             <div class="dropdown">

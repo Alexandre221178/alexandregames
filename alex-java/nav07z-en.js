@@ -5,24 +5,26 @@ document.addEventListener('DOMContentLoaded', () => {
             <a href="https://alexandregames.com/"><img src="https://alexandregames.com/imagens/exandregames318x318-removebg.webp" alt="Alexandre Games Mobile Logo" title="Alexandre Games Mobile Logo" width="50" height="50"></a>
         </div>
         
-        <ul> 
-                <div class="dropdown">
-                <button class="dropbtn">Hero Wars Alliance</button>
-                <div class="dropdown-content">
-                 
-                <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-en.html">HWA - Home</a>
-                    <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-en-hwa.html">Best Teams Guide</a>
-                    <a href="https://alexandregames.com/Hero%20Wars/calendar-event-en-hwa.html">Calendar & Events</a>
-                    <a href="https://alexandregames.com/Hero%20Wars%20English/Heroes%20Guide%20Hero%20Wars.html">Heroes Guide</a>
-                    <a href="https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-en-hwa.html">Hero's Way <br>Dec. 23 - Jan. 19</a>  
-                    <a href="https://alexandregames.com/hero-wars-alliance/menu-review-en-hwa.html">Skins Reviews</a>
-                    <a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-en.html">Tactics & Secrets</a>
-                    <a href="https://alexandregames.com/Hero%20Wars%20English/Titans%20Guide%20Hero%20Wars.html">Titans Guide</a>
-                    
-                   <br><br><br>
-                   
-                </div>
-            </div>              
+<ul> 
+<div class="dropdown">
+<button class="dropbtn">Hero Wars Alliance</button>
+<div class="dropdown-content">
+    
+<a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-en.html">🆕 HWA - Latest Updates</a>
+<a href="https://alexandregames.com/y-m-gifts-hwa-en.html">🎁 HWA Daily Gifts</a>
+<a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/calendar-hwa-en.html">📅 HWA Calendar & Events</a>
+<a href="https://alexandregames.com/Hero%20Wars%20English/Heroes%20Guide%20Hero%20Wars.html">📖 All Characters Guide</a>
+<a href="https://alexandregames.com/hero-wars-alliance/guide/talisman-guide-hwa-en.html">📿 All Talismans Guide</a>
+<a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-en.html">📚 Beginners Guides & Secrets</a>
+<a href="https://alexandregames.com/Hero%20Wars/articles-herowars/tierlist-en-pvp-herowars.html">🏆 Best Tier List</a>
+<a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-en-hwa.html">👥 Best Teams Guide</a>
+<a href="https://alexandregames.com/hero-wars-alliance/guide/counter-en-herowarsalliance.html">🎯 Counters Guide</a>
+<a href="https://alexandregames.com/hero-wars-alliance/menu-review-en-hwa.html">🎨 Reviews, Tips, Strategies</a>
+<a href="https://alexandregames.com/Hero%20Wars%20English/Titans%20Guide%20Hero%20Wars.html">⚔️ Titans Guide</a>               
+    <br><br><br>
+    
+</div>
+</div>              
             <div class="dropdown">
                 <button class="dropbtn"><a href="https://alexandregames.com/MobileLegends-English.html">Mobile Legends</a></button> 
             </div> 

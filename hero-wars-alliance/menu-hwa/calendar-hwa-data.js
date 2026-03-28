@@ -375,7 +375,7 @@ window.CALENDAR_DATA = [
     date: "Mar, 29",
     image: "../../hero-wars-alliance/images/events/seers-game/seers-game-150px.webp",
     alt: "Seers' Game",
-    titles: { en: "Seer's Game Event", de: "Event des Seherspiels", es: "Evento del Juego de la Vidente", fr: "Événement du Jeu de la Voyante", pt: "Evento do Jogo da Vidente", ja: "予言者のゲームイベント" },
+    titles: { en: "🔮 Seer's Game Event", de: "Event des Seherspiels", es: "🔮 Evento del Juego de la Vidente", fr: "🔮 Événement du Jeu de la Voyante", pt: "🔮 Evento do Jogo da Vidente", ja: "🔮 予言者のゲームイベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "" },
     extra: [
      {
@@ -400,7 +400,7 @@ window.CALENDAR_DATA = [
     date: "Mar, 30",
     image: "../../hero-wars-alliance/images/events/seers-game/seers-game-150px.webp",
     alt: "Seers' Game",
-    titles: { en: "Seer's Game Event", de: "Event des Seherspiels", es: "Evento del Juego de la Vidente", fr: "Événement du Jeu de la Voyante", pt: "Evento do Jogo da Vidente", ja: "予言者のゲームイベント" },
+    titles: { en: "🔮 Seer's Game Event", de: "Event des Seherspiels", es: "🔮 Evento del Juego de la Vidente", fr: "🔮 Événement du Jeu de la Voyante", pt: "🔮 Evento do Jogo da Vidente", ja: "🔮 予言者のゲームイベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "" },
     extra: [
       {
@@ -415,7 +415,7 @@ window.CALENDAR_DATA = [
     date: "Mar, 31",
     image: "../../hero-wars-alliance/images/events/seers-game/seers-game-150px.webp",
     alt: "Seers' Game",
-    titles: { en: "Seer's Game Event", de: "Event des Seherspiels", es: "Evento del Juego de la Vidente", fr: "Événement du Jeu de la Voyante", pt: "Evento do Jogo da Vidente", ja: "予言者のゲームイベント" },
+    titles: { en: "🔮 Seer's Game Event", de: "Event des Seherspiels", es: "🔮 Evento del Juego de la Vidente", fr: "🔮 Événement du Jeu de la Voyante", pt: "🔮 Evento do Jogo da Vidente", ja: "🔮 予言者のゲームイベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "" },
     extra: [
       {
