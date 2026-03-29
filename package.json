@@ -39,6 +39,7 @@
   
     "update-augustus-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js augustus",
     "update-byrna-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js byrna",
+    "update-dante-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js dante",
 
     "update-fluffy-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js fluffy",
     "update-galahad-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js galahad",
