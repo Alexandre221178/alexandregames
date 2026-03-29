@@ -1,0 +1,379 @@
+{
+	"id": "dante",
+	"name": "Dante",
+	"gender": "male",
+	"role": ["marksman"],
+	"main_role": "Marksman",
+	"position": "29",
+	"main_stat": "Agility",
+	"how_to_get_soul_stones": "tower shop, soul chests, soul atrium",
+	"pet_patronage": "Fenris, Cain",
+	"sinergy": "Lyria, Nebula, Aidan",
+	"basic_attack_formula": "(100% physical attack)",
+	"basic_attack": 89633,
+	"stats": {
+		"intelligence": 3196,
+		"agility": 17007,
+		"strength": 3207,
+		"health": 449732,
+		"physical_attack": 89633,
+		"magic_attack": 9588,
+		"armor": 37370,
+		"magic_defense": 12478,
+		"dodge": 14027,
+		"crit_hit_chance": 0,
+		"accuracy": 17007,
+		"crit_resistance": 17007,
+		"vampirism": 0,
+		"magic_penetration": 0,
+		"armor_penetration": 36820,
+		"power": 190837
+	},
+	"skills": [
+		{
+			"id": 1,
+			"variant": "base",
+			"level": 130,
+			"name": "Instrument of Fate",
+			"type": ["ultimate", "white"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Damage: 210,193 (220% physical attack + 100 * level)",
+			"scales_with": ["Physical Attack"],
+			"description": "Dante throws 4 spectral spears at multiple enemies, dealing physical damage and pushing the targets back."
+		},
+		{
+			"id": 2,
+			"variant": "base",
+			"level": 130,
+			"name": "Foresight",
+			"type": ["periodic", "green"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Bonus Dodge: 16,524 (18% physical attack + 3 * level)",
+			"scales_with": ["Physical Attack"],
+			"description": "Increases all allies' Dodge by 5s. Cooldown: 18s. Initial cooldown: 5s"
+		},
+		{
+			"id": 3,
+			"variant": "base",
+			"level": 130,
+			"name": "Retribution",
+			"type": ["periodic", "blue"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Damage: 111,596 (110% physical attack + 100 * level)",
+			"scales_with": ["Physical Attack"],
+			"description": "When dodging damage over 5% of total health, Dante conjures a spectral spear and throws it at the nearest enemy. Cooldown: 1s"
+		},
+		{
+			"id": 4,
+			"variant": "base",
+			"level": 130,
+			"name": "Shackles of Weakness",
+			"type": ["passive", "violet"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Enemy Intelligence, Agility, or Strength reduction of 7,022 (7% physical attack + 8 * level - 292)",
+			"scales_with": ["Physical Attack"],
+			"description": "When a spectral spear from Instrument of Fate or Retribution hits an enemy, Dante decreases the target's main stat by 5s."
+		}
+	],
+	"artifacts": [
+		{
+			"name": "Spear of Fate",
+			"stats": {
+				"dodge": 13941,
+				"power": 12546
+			},
+			"costs": {
+				"absolute_artifact_essence": 1635,
+				"flawless_artifact_essence": 1199,
+				"chaos_core": 121
+			}
+		},
+		{
+			"name": "Book of Illusions",
+			"stats": {
+				"health": 83649,
+				"dodge": 4647,
+				"power": 12547
+			},
+			"costs": {
+				"absolute_artifact_scroll": 1635,
+				"flawless_artifact_scroll": 1199,
+				"chaos_core": 121
+			}
+		},
+		{
+			"name": "Ring of Agility",
+			"stats": {
+				"agility": 6249,
+				"power": 17184
+			},
+			"costs": {
+				"absolute_artifact_metal": 1635,
+				"flawless_artifact_metal": 1199,
+				"chaos_core": 121
+			}
+		}
+	],
+	"skins": [
+		{
+			"name": "Default Skin",
+			"stats": {
+				"agility": 1365,
+				"power": 3753
+			},
+			"costs": {
+				"agility_skin_stone": 30825
+			}
+		},
+		{
+			"name": "Romantic Skin",
+			"stats": {
+				"dodge": 2960,
+				"power": 5328
+			},
+			"costs": {
+				"agility_skin_stone": 55410
+			}
+		},
+		{
+			"name": "Solar Skin",
+			"stats": {
+				"armor_penetration": 10650,
+				"power": 5325
+			},
+			"costs": {
+				"agility_skin_stone": 55410
+			}
+		},
+		{
+			"name": "Winter Skin",
+			"stats": {
+				"physical_attack": 7120,
+				"power": 5340
+			},
+			"costs": {
+				"agility_skin_stone": 58412
+			}
+		},
+		{
+			"name": "Spring Skin",
+			"stats": {
+				"health": 106645,
+				"power": 5332
+			},
+			"costs": {
+				"agility_skin_stone": 55410
+			}
+		}
+	],
+	"glyphs": [
+		{
+			"name": "Physical attack Glyph",
+			"stats": {
+				"physical_attack": 4340,
+				"power": 3255
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Armor Glyph",
+			"stats": {
+				"armor": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Dodge Glyph",
+			"stats": {
+				"dodge": 1995,
+				"power": 3591
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Armor penetration Glyph",
+			"stats": {
+				"armor_penetration": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Agility Glyph",
+			"stats": {
+				"agility": 1135,
+				"power": 3121
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		}
+	],
+	"ascension": {
+		"I": {
+			"stats": {
+				"agility": 230,
+				"physical_attack": 360,
+				"magic_defense": 100,
+				"armor": 590,
+				"armor_penetration": 990,
+				"dodge": 270,
+				"power": 2228
+			},
+			"costs": {
+				"agility_crystal": 2275,
+				"star_mana": 5420,
+				"gold": 1650000
+			}
+		},
+		"II": {
+			"stats": {
+				"agility": 315,
+				"physical_attack": 1310,
+				"magic_defense": 820,
+				"armor": 410,
+				"armor_penetration": 1570,
+				"dodge": 140,
+				"power": 3500
+			},
+			"costs": {
+				"agility_crystal": 1950,
+				"star_mana": 9160,
+				"gold": 5775000,
+				"vibrant_agility_crystal": 1150
+			}
+		},
+		"III": {
+			"stats": {
+				"agility": 495,
+				"physical_attack": 1130,
+				"magic_defense": 660,
+				"armor": 1290,
+				"armor_penetration": 2320,
+				"dodge": 640,
+				"power": 5495
+			},
+			"costs": {
+				"vibrant_agility_crystal": 2375,
+				"composure_insignia": 1175,
+				"star_mana": 20200,
+				"gold": 12400000
+			}
+		},
+		"IV": {
+			"stats": {
+				"agility": 560,
+				"physical_attack": 2490,
+				"magic_defense": 1460,
+				"armor": 930,
+				"armor_penetration": 2800,
+				"dodge": 280,
+				"power": 6506
+			},
+			"costs": {
+				"vibrant_agility_crystal": 475,
+				"composure_insignia": 1220,
+				"star_mana": 42540,
+				"gold": 21600000,
+				"radiant_agility_crystal": 1460,
+				"greater_composure_insignia": 235
+			}
+		},
+		"V": {
+			"stats": {
+				"agility": 610,
+				"physical_attack": 1630,
+				"magic_defense": 1050,
+				"armor": 1620,
+				"armor_penetration": 3020,
+				"dodge": 840,
+				"power": 7257
+			},
+			"costs": {
+				"radiant_agility_crystal": 1925,
+				"greater_composure_insignia": 1925,
+				"star_mana": 80180,
+				"gold": 38300000
+			}
+		},
+		"I-V": {
+			"stats": {
+				"agility": 2210,
+				"physical_attack": 6920,
+				"magic_defense": 4090,
+				"armor": 4840,
+				"armor_penetration": 10700,
+				"dodge": 2170,
+				"power": 24988
+			},
+			"costs": {
+				"agility_crystal": 4225,
+				"star_mana": 157500,
+				"gold": 79725000,
+				"vibrant_agility_crystal": 4000,
+				"composure_insignia": 2395,
+				"radiant_agility_crystal": 3385,
+				"greater_composure_insignia": 2160
+			}
+		}
+	},
+	"tree_of_wisdom": {
+		"stats": {
+			"health": 35280,
+			"physical_attack": 8215,
+			"magic_defense": 2416,
+			"armor": 3378,
+			"armor_penetration": 3460,
+			"power": 12552
+		},
+		"costs": {
+			"eternal_seed": 586,
+			"ancient_wisdom_crystal": 47400
+		}
+	},
+	"miscellaneous": {
+		"levels": {
+			"stats": {
+				"intelligence": 2080,
+				"agility": 2340,
+				"strength": 2080,
+				"power": 17875
+			},
+			"costs": {
+				"huge_exp_potion": 483,
+				"dante_soul_stone": 630
+			}
+		},
+		"gift_of_the_elements": {
+			"stats": {
+				"intelligence": 360,
+				"agility": 720,
+				"strength": 360,
+				"power": 3960
+			},
+			"costs": {
+				"spark_of_power": 65150,
+				"gold": 7927500
+			}
+		}
+	}
+}

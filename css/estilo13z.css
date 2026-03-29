@@ -1894,7 +1894,29 @@ td.team-cell span{
     }
    
 
+.hero-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 1px;
+}
 
+.hero-info__img {
+  width: 200px;
+  aspect-ratio: 1 / 1;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .hero-info {
+    flex-direction: column;
+    align-items: center; /* centraliza a imagem no mobile */
+  }
+
+  .hero-info__img {
+    width: 170px; /* opcional: reduz um pouco no mobile */
+  }
+}
 
 /* inicio video youtube 2024  */
 .video-container {
