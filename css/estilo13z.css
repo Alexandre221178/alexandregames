@@ -1928,20 +1928,27 @@ td.team-cell span{
 
 /* fim video youtube 2024  */
 
-/*  inicio video wrapper2 novo video yt2025 */
+/* --- Estilo Otimizado 2026 para Alexandre Games --- */
+
  .video-wrapper2 {
       position: relative;
       width: 100%;
-      max-width: 720px;
-      margin: 0 auto;
-      padding-bottom: 56.25%; /* 16:9 */
-      height: 0;
+      /* Aumentamos para 900px para o vídeo ficar imponente no PC */
+      max-width: 900px; 
+      margin: 20px auto;
+      
+      /* Substituímos o padding-bottom pelo aspect-ratio nativo */
+      /* Isso é o que garante CLS ZERO absoluto em 2026 */
+      aspect-ratio: 16 / 9; 
+      
       background-color: #000;
       cursor: pointer;
       border-radius: 8px;
       overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Sombra para destacar do fundo */
     }
 
+    /* Ajuste para que a imagem de capa (maxresdefault) preencha tudo */
     .video-wrapper2 img {
       position: absolute;
       width: 100%;
@@ -1949,39 +1956,58 @@ td.team-cell span{
       top: 0;
       left: 0;
       object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    /* Efeito visual de zoom ao passar o mouse na thumb */
+    .video-wrapper2:hover img {
+      transform: scale(1.05);
     }
     
+.video-wrapper2 {
+    margin-top: 20px;
+    margin-bottom: 5px; /* Deixa quase encostado na legenda */
+    /* ... mantenha o restante do código anterior ... */
+}
+
+/* Ajusta a legenda para subir um pouco e ficar alinhada */
+.video-caption {
+    text-align: left;
+    margin: 0 0 10px 0; /* Remove margem superior e dá espaço apenas para o texto que vem depois */
+    font-size: 14px;
+    color: #333; /* Um cinza escuro para não brigar com o título principal */
+    display: block; /* Garante que se comporte como bloco */
+}
+
+/* Ajusta o itálico das línguas para não ficar longe também */
+.video-container i {
+    display: block;
+    margin-top: -2px; 
+    font-size: 13px;
+}
+
 
     .play-button {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      width: 60px;
-      height: 60px;
-      background: rgba(0,0,0,0.6);
+      width: 70px; /* Um pouco maior para telas grandes */
+      height: 70px;
+      background: rgba(255, 0, 0, 0.8); /* Vermelho YouTube para chamar o clique */
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      transition: background 0.3s ease;
+      transition: all 0.3s ease;
+      z-index: 2;
+      border: 3px solid white;
     }
 
-    .play-button:hover {
-      background: rgba(0,0,0,0.8);
+    .video-wrapper2:hover .play-button {
+      background: rgba(255, 0, 0, 1);
+      transform: translate(-50%, -50%) scale(1.1);
     }
-
-    .play-button::before {
-      content: "";
-      display: block;
-      margin-left: 5px;
-      width: 0;
-      height: 0;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-left: 20px solid white;
-    }
-
     
 /* fim video wrapper2 novo video yt2025 */
 
