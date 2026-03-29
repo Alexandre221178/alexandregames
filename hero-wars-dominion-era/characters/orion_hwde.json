@@ -1,0 +1,389 @@
+{
+	"id": "orion",
+	"name": "Orion",
+	"gender": "male",
+	"role": ["mage"],
+	"main_role": "Mage",
+	"position": "47",
+	"main_stat": "Intelligence",
+	"how_to_get_soul_stones": "tower shop, soul chests, soul atrium",
+	"pet_patronage": "Merlin, Mara, Axel, Biscuit, Khorus",
+	"sinergy": "",
+	"basic_attack_formula": "(100% physical attack)",
+	"basic_attack": 23445,
+	"stats": {
+		"intelligence": 17625,
+		"agility": 2885,
+		"strength": 3020,
+		"health": 504563,
+		"physical_attack": 23445,
+		"magic_attack": 123552,
+		"armor": 25113,
+		"magic_defense": 48866,
+		"dodge": 0,
+		"crit_hit_chance": 0,
+		"accuracy": 17625,
+		"crit_resistance": 17625,
+		"vampirism": 0,
+		"magic_penetration": 51671,
+		"armor_penetration": 0,
+		"power": 194829
+	},
+	"skills": [
+		{
+			"id": 1,
+			"variant": "base",
+			"level": 130,
+			"name": "Total Destruction",
+			"type": ["ultimate", "white"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Damage: 62,098 (45% magic attack + 50 * level). Ascension V bonus damage: 41,866 (30% magic attack + 4,800)",
+			"scales_with": ["Magic Attack"],
+			"description": "Fires 6 magic missiles at the enemies with the highest health. Ascension V - Tactical Destruction: Whenever an enemy is stunned or slowed, they receive a mark. When using Total Destruction, Orion launches an additional rocket at the marked targets, dealing 41,866 (30% magic attack + 4,800) damage."
+		},
+		{
+			"id": 2,
+			"variant": "base",
+			"level": 130,
+			"name": "Magnetic Field",
+			"type": ["periodic", "green"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Damage: 50,721 (40% magic attack + 10 * level)",
+			"scales_with": ["Magic Attack"],
+			"description": "Creates an explosion in the back line of the enemy team, dealing damage over an area and slowing the enemies for 4s. Chance to slow is lowered if the target's level is above 130. Cooldown: 14.5s"
+		},
+		{
+			"id": 3,
+			"variant": "base",
+			"level": 130,
+			"name": "Antimatter Blast",
+			"type": ["periodic", "blue"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Damage: 106,642 (80% magic attack + 60 * level). Ascension II bounce damage: 53,321 (40% magic attack + 3,900)",
+			"scales_with": ["Magic Attack"],
+			"description": "Fires a magic missile at the nearest enemy, stunning them for 4s and dealing magic damage. Chance to stun is lowered if the target's level is above 130. Ascension II - Antimatter Chain: Upon impact, the antimatter missile bounces toward the 2 nearest enemies. The bounced projectiles deal 53,321 (40% magic attack + 3,900) damage and stun the targets for 1s. Cooldown: 20s. Initial cooldown: 5s"
+		},
+		{
+			"id": 4,
+			"variant": "base",
+			"level": 130,
+			"name": "Full Charge",
+			"type": ["passive", "violet"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Extra energy: 550 (5 * level - 100)",
+			"scales_with": [],
+			"description": "Passive skill. Orion receives additional energy with each attack."
+		}
+	],
+	"artifacts": [
+		{
+			"name": "DD-901 Arsenal",
+			"stats": {
+				"magic_penetration": 50190,
+				"power": 12547
+			},
+			"costs": {
+				"absolute_artifact_essence": 1635,
+				"flawless_artifact_essence": 1199,
+				"chaos_core": 121
+			}
+		},
+		{
+			"name": "Manuscript of the Void",
+			"stats": {
+				"magic_attack": 8364,
+				"magic_penetration": 16731,
+				"power": 12547
+			},
+			"costs": {
+				"absolute_artifact_scroll": 1635,
+				"flawless_artifact_scroll": 1199,
+				"chaos_core": 121
+			}
+		},
+		{
+			"name": "Ring of Intelligence",
+			"stats": {
+				"intelligence": 6249,
+				"power": 17184
+			},
+			"costs": {
+				"absolute_artifact_metal": 1635,
+				"flawless_artifact_metal": 1199,
+				"chaos_core": 121
+			}
+		}
+	],
+	"skins": [
+		{
+			"name": "Default Skin",
+			"stats": {
+				"intelligence": 1365,
+				"power": 3753
+			},
+			"costs": {
+				"intelligence_skin_stone": 30825
+			}
+		},
+		{
+			"name": "Mechanical Skin",
+			"stats": {
+				"magic_attack": 10650,
+				"power": 5325
+			},
+			"costs": {
+				"intelligence_skin_stone": 55410
+			}
+		},
+		{
+			"name": "Cybernetic Skin",
+			"stats": {
+				"magic_defense": 10650,
+				"power": 5325
+			},
+			"costs": {
+				"intelligence_skin_stone": 55410
+			}
+		},
+		{
+			"name": "Romantic Skin",
+			"stats": {
+				"armor": 10650,
+				"power": 5325
+			},
+			"costs": {
+				"intelligence_skin_stone": 55410
+			}
+		},
+		{
+			"name": "Winter Skin",
+			"stats": {
+				"magic_penetration": 10650,
+				"power": 5325
+			},
+			"costs": {
+				"intelligence_skin_stone": 55410
+			}
+		},
+		{
+			"name": "Lunar Skin",
+			"stats": {
+				"health": 106645,
+				"power": 5332
+			},
+			"costs": {
+				"intelligence_skin_stone": 55410
+			}
+		}
+	],
+	"glyphs": [
+		{
+			"name": "Magic attack Glyph",
+			"stats": {
+				"magic_attack": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Health Glyph",
+			"stats": {
+				"health": 62200,
+				"power": 3110
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Magic penetration Glyph",
+			"stats": {
+				"magic_penetration": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Magic defense Glyph",
+			"stats": {
+				"magic_defense": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Intelligence Glyph",
+			"stats": {
+				"intelligence": 1135,
+				"power": 3121
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		}
+	],
+	"ascension": {
+		"I": {
+			"stats": {
+				"health": 7000,
+				"intelligence": 230,
+				"magic_attack": 540,
+				"magic_defense": 300,
+				"magic_penetration": 890,
+				"armor": 790,
+				"power": 2242
+			},
+			"costs": {
+				"intelligence_crystal": 2275,
+				"star_mana": 5420,
+				"gold": 1650000
+			}
+		},
+		"II": {
+			"stats": {
+				"health": 12250,
+				"intelligence": 315,
+				"magic_attack": 1070,
+				"magic_defense": 990,
+				"magic_penetration": 1400,
+				"armor": 580,
+				"power": 3498
+			},
+			"costs": {
+				"intelligence_crystal": 1950,
+				"star_mana": 11660,
+				"gold": 6775000,
+				"vibrant_intelligence_crystal": 1150
+			}
+		},
+		"III": {
+			"stats": {
+				"health": 19500,
+				"intelligence": 495,
+				"magic_attack": 1690,
+				"magic_defense": 910,
+				"magic_penetration": 2200,
+				"armor": 1540,
+				"power": 5506
+			},
+			"costs": {
+				"vibrant_intelligence_crystal": 2375,
+				"wisdom_insignia": 1175,
+				"star_mana": 20200,
+				"gold": 12400000
+			}
+		},
+		"IV": {
+			"stats": {
+				"health": 23750,
+				"intelligence": 560,
+				"magic_attack": 2160,
+				"magic_defense": 1690,
+				"magic_penetration": 2570,
+				"armor": 1110,
+				"power": 6492
+			},
+			"costs": {
+				"vibrant_intelligence_crystal": 475,
+				"wisdom_insignia": 1220,
+				"star_mana": 42540,
+				"gold": 21600000,
+				"radiant_intelligence_crystal": 1460,
+				"greater_wisdom_insignia": 235
+			}
+		},
+		"V": {
+			"stats": {
+				"health": 26750,
+				"intelligence": 610,
+				"magic_attack": 2450,
+				"magic_defense": 1280,
+				"magic_penetration": 2900,
+				"armor": 1850,
+				"power": 7255
+			},
+			"costs": {
+				"radiant_intelligence_crystal": 1925,
+				"greater_wisdom_insignia": 1925,
+				"star_mana": 105180,
+				"gold": 48300000
+			}
+		},
+		"I-V": {
+			"stats": {
+				"health": 89250,
+				"intelligence": 2210,
+				"magic_attack": 7910,
+				"magic_defense": 5170,
+				"magic_penetration": 9960,
+				"armor": 5870,
+				"power": 24995
+			},
+			"costs": {
+				"intelligence_crystal": 4225,
+				"star_mana": 185000,
+				"gold": 90725000,
+				"vibrant_intelligence_crystal": 4000,
+				"wisdom_insignia": 2395,
+				"radiant_intelligence_crystal": 3385,
+				"greater_wisdom_insignia": 2160
+			}
+		}
+	},
+	"tree_of_wisdom": {
+		"stats": {
+			"health": 39000,
+			"magic_attack": 10534,
+			"magic_defense": 4014,
+			"magic_penetration": 3490,
+			"armor": 3168,
+			"power": 12553
+		},
+		"costs": {
+			"eternal_seed": 586,
+			"ancient_wisdom_crystal": 47400
+		}
+	},
+	"miscellaneous": {
+		"levels": {
+			"stats": {
+				"intelligence": 2730,
+				"agility": 1820,
+				"strength": 1950,
+				"power": 17875
+			},
+			"costs": {
+				"huge_exp_potion": 483,
+				"orion_soul_stone": 630
+			}
+		},
+		"gift_of_the_elements": {
+			"stats": {
+				"intelligence": 720,
+				"agility": 360,
+				"strength": 360,
+				"power": 3960
+			},
+			"costs": {
+				"spark_of_power": 65150,
+				"gold": 7927500
+			}
+		}
+	}
+}
