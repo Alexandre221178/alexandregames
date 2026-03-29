@@ -1,0 +1,364 @@
+{
+	"id": "cascade",
+	"name": "Cascade",
+	"gender": "male",
+	"role": ["mage", "support"],
+	"main_role": "Mage",
+	"position": "45",
+	"main_stat": "Intelligence",
+	"how_to_get_soul_stones": "soul atrium",
+	"pet_patronage": "Merlin, Axel, Biscuit, Khorus",
+	"sinergy": "",
+	"basic_attack_formula": "(100% physical attack)",
+	"basic_attack": 23682,
+	"stats": {
+		"intelligence": 18930,
+		"agility": 2351,
+		"strength": 3006,
+		"health": 555560,
+		"physical_attack": 23682,
+		"magic_attack": 124431,
+		"armor": 28884,
+		"magic_defense": 30539,
+		"dodge": 0,
+		"crit_hit_chance": 0,
+		"accuracy": 18930,
+		"crit_resistance": 18930,
+		"vampirism": 0,
+		"magic_penetration": 40337,
+		"armor_penetration": 0,
+		"power": 184600
+	},
+	"skills": [
+		{
+			"id": 1,
+			"variant": "base",
+			"level": 130,
+			"name": "Hydrokinesis",
+			"type": ["ultimate", "white"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Damage per second: 24,515 (15% magic attack + 45 * level). Healing reduction: 50% (0.25 * level + 17.5)",
+			"scales_with": ["Magic Attack"],
+			"description": "When activated, summons a powerful downpour that deals 24,515 damage per second to enemies for 6s. During the rain, enemies receive 50% less healing and cannot be resurrected."
+		},
+		{
+			"id": 2,
+			"variant": "base",
+			"level": 130,
+			"name": "Tidal Wave",
+			"type": ["periodic", "green"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Damage: 75,594 (45% magic attack + 150 * level + 100)",
+			"scales_with": ["Magic Attack"],
+			"description": "The Hero transforms into an unstoppable wave that surges through enemies, dealing 75,594 magic damage and scattering them in random directions. When the wave reaches its destination, the Hero returns to his initial position. Cooldown: 13s. Initial cooldown: 5s"
+		},
+		{
+			"id": 3,
+			"variant": "base",
+			"level": 130,
+			"name": "Refluence",
+			"type": ["passive", "blue"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Mark damage: 21,432 (12% magic attack + 50 * level)",
+			"scales_with": ["Magic Attack"],
+			"description": "When returning during Tidal Wave, the Hero applies the Water Mark effect to enemies for 5s. Whenever a marked enemy takes magic damage, they suffer an additional 21,432 damage."
+		},
+		{
+			"id": 4,
+			"variant": "base",
+			"level": 130,
+			"name": "Elemental Surge",
+			"type": ["passive", "violet"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Conversion of magic attack into basic attack: 46% (0.2 * level + 20)",
+			"scales_with": ["Magic Attack"],
+			"description": "Cascade empowers allied Heroes whose primary attribute is Intelligence. Basic attacks of empowered Heroes deal magic damage equal to 46% of their magic attack. This empowerment does not apply if the Hero's attack is already based on magic attack."
+		}
+	],
+	"artifacts": [
+		{
+			"name": "Claws of the River Spirits",
+			"stats": {
+				"magic_attack": 50190,
+				"power": 12547
+			},
+			"costs": {
+				"absolute_artifact_essence": 1635,
+				"flawless_artifact_essence": 1199,
+				"chaos_core": 121
+			}
+		},
+		{
+			"name": "Manuscript of the Void",
+			"stats": {
+				"magic_attack": 8364,
+				"magic_penetration": 16731,
+				"power": 12547
+			},
+			"costs": {
+				"absolute_artifact_scroll": 1635,
+				"flawless_artifact_scroll": 1199,
+				"chaos_core": 121
+			}
+		},
+		{
+			"name": "Ring of Intelligence",
+			"stats": {
+				"intelligence": 6249,
+				"power": 17184
+			},
+			"costs": {
+				"absolute_artifact_metal": 1635,
+				"flawless_artifact_metal": 1199,
+				"chaos_core": 121
+			}
+		}
+	],
+	"skins": [
+		{
+			"name": "Default Skin",
+			"stats": {
+				"intelligence": 1365,
+				"power": 3753
+			},
+			"costs": {
+				"intelligence_skin_stone": 30825
+			}
+		},
+		{
+			"name": "Mythic Skin",
+			"stats": {
+				"armor": 10650,
+				"power": 5325
+			},
+			"costs": {
+				"intelligence_skin_stone": 55410
+			}
+		},
+		{
+			"name": "Cybernetic Skin",
+			"stats": {
+				"magic_attack": 10650,
+				"power": 5325
+			},
+			"costs": {
+				"intelligence_skin_stone": 55410
+			}
+		},
+		{
+			"name": "Stellar Skin",
+			"stats": {
+				"health": 106645,
+				"power": 5332
+			},
+			"costs": {
+				"intelligence_skin_stone": 55410
+			},
+			"obtention": "special event only"
+		}
+	],
+	"glyphs": [
+		{
+			"name": "Magic attack Glyph",
+			"stats": {
+				"magic_attack": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Health Glyph",
+			"stats": {
+				"health": 62200,
+				"power": 3110
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Magic penetration Glyph",
+			"stats": {
+				"magic_penetration": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Magic defense Glyph",
+			"stats": {
+				"magic_defense": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Intelligence Glyph",
+			"stats": {
+				"intelligence": 1135,
+				"power": 3121
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		}
+	],
+	"ascension": {
+		"I": {
+			"stats": {
+				"health": 10000,
+				"intelligence": 230,
+				"magic_attack": 50,
+				"magic_penetration": 890,
+				"armor": 1280,
+				"power": 2242
+			},
+			"costs": {
+				"intelligence_crystal": 2275,
+				"star_mana": 5420,
+				"gold": 1650000
+			}
+		},
+		"II": {
+			"stats": {
+				"health": 14000,
+				"intelligence": 315,
+				"magic_attack": 1730,
+				"magic_penetration": 1150,
+				"armor": 990,
+				"power": 3501
+			},
+			"costs": {
+				"intelligence_crystal": 1950,
+				"star_mana": 9160,
+				"gold": 5775000,
+				"vibrant_intelligence_crystal": 1150
+			}
+		},
+		"III": {
+			"stats": {
+				"health": 28500,
+				"intelligence": 495,
+				"magic_attack": 530,
+				"magic_penetration": 2200,
+				"armor": 2700,
+				"power": 5501
+			},
+			"costs": {
+				"vibrant_intelligence_crystal": 2375,
+				"wisdom_insignia": 1175,
+				"star_mana": 20200,
+				"gold": 12400000
+			}
+		},
+		"IV": {
+			"stats": {
+				"health": 25750,
+				"intelligence": 560,
+				"magic_attack": 3030,
+				"magic_penetration": 2280,
+				"armor": 2040,
+				"power": 6502
+			},
+			"costs": {
+				"vibrant_intelligence_crystal": 475,
+				"wisdom_insignia": 1220,
+				"star_mana": 42540,
+				"gold": 21600000,
+				"radiant_intelligence_crystal": 1460,
+				"greater_wisdom_insignia": 235
+			}
+		},
+		"V": {
+			"stats": {
+				"health": 39500,
+				"intelligence": 610,
+				"magic_attack": 940,
+				"magic_penetration": 2900,
+				"armor": 3360,
+				"power": 7252
+			},
+			"costs": {
+				"radiant_intelligence_crystal": 1925,
+				"greater_wisdom_insignia": 1925,
+				"star_mana": 80180,
+				"gold": 38300000
+			}
+		},
+		"I-V": {
+			"stats": {
+				"health": 117750,
+				"intelligence": 2210,
+				"magic_attack": 6280,
+				"magic_penetration": 9420,
+				"armor": 10370,
+				"power": 25000
+			},
+			"costs": {
+				"intelligence_crystal": 4225,
+				"star_mana": 157500,
+				"gold": 79725000,
+				"vibrant_intelligence_crystal": 4000,
+				"wisdom_insignia": 2395,
+				"radiant_intelligence_crystal": 3385,
+				"greater_wisdom_insignia": 2160
+			}
+		}
+	},
+	"tree_of_wisdom": {
+		"stats": {
+			"health": 39000,
+			"magic_attack": 10534,
+			"magic_defense": 4014,
+			"magic_penetration": 3490,
+			"armor": 3168,
+			"power": 12553
+		},
+		"costs": {
+			"eternal_seed": 586,
+			"ancient_wisdom_crystal": 47400
+		}
+	},
+	"miscellaneous": {
+		"levels": {
+			"stats": {
+				"intelligence": 3250,
+				"agility": 1300,
+				"strength": 1950,
+				"power": 17875
+			},
+			"costs": {
+				"huge_exp_potion": 483,
+				"cascade_soul_stone": 630
+			}
+		},
+		"gift_of_the_elements": {
+			"stats": {
+				"intelligence": 720,
+				"agility": 360,
+				"strength": 360,
+				"power": 3960
+			},
+			"costs": {
+				"spark_of_power": 65150,
+				"gold": 7927500
+			}
+		}
+	}
+}
