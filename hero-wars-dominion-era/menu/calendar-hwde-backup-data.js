@@ -4,8 +4,8 @@
    - Supports: en, pt, ja, es, fr, de
 */
 window.CALENDAR_DATA = [
-// ===================== texto em branco para informacoes =====================
- {
+// ===================== texto em branco com cor branca para colocar informacoes =====================
+      {
         titles: { en: "texto branco", pt: "Pré-venda de Tidus", de: "Tidus Vorbestellung", es: "Preventa de Tidus", fr: "Précommande de Tidus", ja: "Tidusの事前予約" },
         labelOnly: true
       },

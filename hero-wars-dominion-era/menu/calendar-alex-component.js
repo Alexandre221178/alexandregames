@@ -34,6 +34,35 @@
     'nov': { en: 'Nov', pt: 'Nov', es: 'Nov', fr: 'Nov', de: 'Nov', ja: '11月' },
     'dec': { en: 'Dec', pt: 'Dez', es: 'Dic', fr: 'Déc', de: 'Dez', ja: '12月' }
   };
+  var MONTHS_FULL = {
+  'jan': { en: 'January',   pt: 'Janeiro',   es: 'Enero',      fr: 'Janvier',    de: 'Januar',     ja: '1月' },
+  'feb': { en: 'February',  pt: 'Fevereiro', es: 'Febrero',    fr: 'Février',    de: 'Februar',    ja: '2月' },
+  'mar': { en: 'March',     pt: 'Março',     es: 'Marzo',      fr: 'Mars',       de: 'März',       ja: '3月' },
+  'apr': { en: 'April',     pt: 'Abril',     es: 'Abril',      fr: 'Avril',      de: 'April',      ja: '4月' },
+  'may': { en: 'May',       pt: 'Maio',      es: 'Mayo',       fr: 'Mai',        de: 'Mai',        ja: '5月' },
+  'jun': { en: 'June',      pt: 'Junho',     es: 'Junio',      fr: 'Juin',       de: 'Juni',       ja: '6月' },
+  'jul': { en: 'July',      pt: 'Julho',     es: 'Julio',      fr: 'Juillet',    de: 'Juli',       ja: '7月' },
+  'aug': { en: 'August',    pt: 'Agosto',    es: 'Agosto',     fr: 'Août',       de: 'August',     ja: '8月' },
+  'sep': { en: 'September', pt: 'Setembro',  es: 'Septiembre', fr: 'Septembre',  de: 'September',  ja: '9月' },
+  'oct': { en: 'October',   pt: 'Outubro',   es: 'Octubre',    fr: 'Octobre',    de: 'Oktober',    ja: '10月' },
+  'nov': { en: 'November',  pt: 'Novembro',  es: 'Noviembre',  fr: 'Novembre',   de: 'November',   ja: '11月' },
+  'dec': { en: 'December',  pt: 'Dezembro',  es: 'Diciembre',  fr: 'Décembre',   de: 'Dezember',   ja: '12月' }
+};
+
+  var MONTH_ALIASES = {
+    jan: ['jan', 'january'],
+    feb: ['feb', 'february'],
+    mar: ['mar', 'march'],
+    apr: ['apr', 'april'],
+    may: ['may'],
+    jun: ['jun', 'june'],
+    jul: ['jul', 'july'],
+    aug: ['aug', 'august'],
+    sep: ['sep', 'september'],
+    oct: ['oct', 'october'],
+    nov: ['nov', 'november'],
+    dec: ['dec', 'december']
+  };
 
   function getLang(container){
     if(!container) return 'en';
@@ -53,13 +82,20 @@
   // Traduz a data (formato "Jan, 19" ou similar)
   function translateDate(dateStr, lang){
     if(!dateStr) return '';
-    // Procura por mês abreviado no início
     var result = dateStr;
-    Object.keys(MONTHS).forEach(function(monthKey){
-      var regex = new RegExp('\\b' + monthKey + '\\b', 'gi');
-      if(regex.test(result)){
-        var translated = MONTHS[monthKey][lang] || MONTHS[monthKey].en;
-        result = result.replace(regex, translated);
+    Object.keys(MONTH_ALIASES).forEach(function(monthKey){
+      var aliases = MONTH_ALIASES[monthKey];
+      var translated = '';
+      var monthSet = MONTHS;
+
+      for(var i = 0; i < aliases.length; i++){
+        var alias = aliases[i];
+        var regex = new RegExp('\\b' + alias + '\\b', 'gi');
+        if(regex.test(result)){
+          monthSet = alias.length > 3 ? MONTHS_FULL : MONTHS;
+          translated = monthSet[monthKey][lang] || monthSet[monthKey].en;
+          result = result.replace(regex, translated);
+        }
       }
     });
     // Para japonês, formata como "1月19日" se possível
@@ -237,7 +273,7 @@
     order.forEach(function(key){
       var g = groups[key];
       html += '  <div class="date-column">\n';
-      html += '    <div class="date-header">' + (g.date || '') + '</div>\n';
+      html += '    <div class="date-header">' + translateDate(g.date || '', lang) + '</div>\n';
       html += '    <div class="date-items">\n';
       g.items.forEach(function(ev){ html += buildEventHTML(ev, lang); });
       html += '    </div>\n';

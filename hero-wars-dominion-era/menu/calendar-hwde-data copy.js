@@ -6,52 +6,24 @@
 
 // Título do mês do calendário (traduzido automaticamente)
 window.CALENDAR_MONTH_HEADER = {
-  en: "April Calendar Events",
-  pt: "Eventos do Calendário de Abril",
-  es: "Eventos del Calendario de Abril",
-  fr: "Événements du Calendrier d'Avril",
-  de: "April-Kalender-Events",
-  ja: "4月のカレンダーイベント"
+  en: "February Calendar Events",
+  pt: "Eventos do Calendário de Fevereiro",
+  es: "Eventos del Calendario de Febrero",
+  fr: "Événements du Calendrier de Février",
+  de: "Februar-Kalender-Events",
+  ja: "2月のカレンダーイベント"
 };
 
 window.CALENDAR_DATA = [
  
   // ...restante dos eventos...   
-// ===================== April 2026 =====================
+// ===================== March 2026 =====================
   // Copy entries from data and change dates as needed
-{
-    weekday: "WhatsApp Group",
-    date: "",
-    image: "",
-    alt: "Alexandre Games WhatsApp Group",
-  titles: {
-   "en": "🎁 Want better teams & faster progress in Hero Wars? Join Alexandre Games WhatsApp community (EN) for tips, meta teams & exclusive giveaways!",
-  "pt": "🎁 Quer montar times mais fortes e evoluir mais rápido no Hero Wars? Entre na comunidade Alexandre Games no WhatsApp (PT) com dicas, metas e sorteios exclusivos!",
-  "es": "🎁 ¿Quieres mejores equipos y progresar más rápido en Hero Wars? ¡Únete a la comunidad de Alexandre Games en WhatsApp (EN) con consejos, metas y sorteos!",
-  "de": "🎁 Willst du stärkere Teams und schneller vorankommen in Hero Wars? Tritt der Alexandre Games WhatsApp-Community (EN) bei – Tipps, Meta-Teams & Giveaways!",
-  "fr": "🎁 Tu veux de meilleures équipes et progresser plus vite sur Hero Wars ? Rejoins la communauté WhatsApp Alexandre Games (EN) pour astuces, metas et giveaways !",
-  "ja": "🎁 ヒーローウォーズで強くなりたい？Alexandre GamesのWhatsAppコミュニティ（英語）に参加して、攻略・メタ・特典をゲット！"},
-  links: { en: "https://chat.whatsapp.com/EcXFqSf5FesCFvhw55qszZ", de: "https://chat.whatsapp.com/EcXFqSf5FesCFvhw55qszZ", es: "https://chat.whatsapp.com/EcXFqSf5FesCFvhw55qszZ", fr: "https://chat.whatsapp.com/EcXFqSf5FesCFvhw55qszZ", pt: "https://chat.whatsapp.com/BHdZRUdqlN8F9s2DQQxPLs", ja: "https://chat.whatsapp.com/EcXFqSf5FesCFvhw55qszZ" },
-  noStrip: true,
-  extra: []
-  },
-  {
-    weekday: "Tuesday",
-    date: "March, 31",
-    image: "../../hero-wars-dominion-era/images/events/elemental-synergy/elemental-synergy-150px.webp",
-    alt: "Elemental Synergy",
-    titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementarsynergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
-    links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
-    noStrip: true,
-    extra: [
-      
-     
-    ]
-  },
+
 
   {
-    weekday: "Wednesday",
-    date: "April 01",
+    weekday: "Sunday",
+    date: "March, 01",
     image: "../../hero-wars-dominion-era/images/events/hero-tournament-of-power/hero-tournament-of-power-150px.webp",
     alt: "Tournament of Hero Power",
     titles: { 
@@ -71,15 +43,19 @@ window.CALENDAR_DATA = [
     extra: [
       
        {
-        titles: { en: "Time for Pranks", pt: "Hora das Travessuras", de: "Zeit für Streiche", es: "Hora de las Bromas", fr: "Heure des Farces", ja: "いたずらの時間" },
+        titles: { en: "Gates to Galahad’s Adventure", pt: "Portões para a Aventura de Galahad", de: "Tore zu Galahads Abenteuer", es: "Puertas a la Aventura de Galahad", fr: "Portes vers l'Aventure de Galahad", ja: "ガラハッドの冒険への門" },
         links: { en: "#section14", pt: "#section14", de: "#section14", es: "#section14", fr: "#section14", ja: "#section14" }
       },
-      
+      {
+        titles: { en: "Galahad Guide", pt: "Guia do Galahad", de: "Galahad Leitfaden", es: "Guía de Galahad", fr: "Guide de Galahad", ja: "ガラハッドガイド" },
+        links: { en: "../../hero-wars-dominion-era/characters/galahad-en.html", pt: "../../hero-wars-dominion-era/characters/galahad-pt.html", de: "../../hero-wars-dominion-era/characters/galahad-de.html", es: "../../hero-wars-dominion-era/characters/galahad-es.html", fr: "../../hero-wars-dominion-era/characters/galahad-fr.html", ja: "../../hero-wars-dominion-era/characters/galahad-ja.html" },
+        noStrip: true
+      },
     ]
   },
   {
-    weekday: "Thursday",
-    date: "April 02",
+    weekday: "Monday",
+    date: "March, 02",
     image: "../../hero-wars-dominion-era/images/events/legacy-of-great-ones/legacy-of-great-ones-150px.webp",
     alt: "Legacy of Great Ones",
     titles: { 
@@ -114,15 +90,23 @@ window.CALENDAR_DATA = [
         noStrip: true
       },
       {
-        titles: { en: "Time for Pranks", pt: "Hora das Travessuras", de: "Zeit für Streiche", es: "Hora de las Bromas", fr: "Heure des Farces", ja: "いたずらの時間" },
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
+      {
+        titles: { en: "Gates to Galahad’s Adventure", pt: "Portões para a Aventura de Galahad", de: "Tore zu Galahads Abenteuer", es: "Puertas a la Aventura de Galahad", fr: "Portes vers l'Aventure de Galahad", ja: "ガラハッドの冒険への門" },
         links: { en: "#section14", pt: "#section14", de: "#section14", es: "#section14", fr: "#section14", ja: "#section14" }
       },
-      
+      {
+        titles: { en: "Galahad Guide", pt: "Guia do Galahad", de: "Galahad Leitfaden", es: "Guía de Galahad", fr: "Guide de Galahad", ja: "ガラハッドガイド" },
+        links: { en: "../../hero-wars-dominion-era/characters/galahad-en.html", pt: "../../hero-wars-dominion-era/characters/galahad-pt.html", de: "../../hero-wars-dominion-era/characters/galahad-de.html", es: "../../hero-wars-dominion-era/characters/galahad-es.html", fr: "../../hero-wars-dominion-era/characters/galahad-fr.html", ja: "../../hero-wars-dominion-era/characters/galahad-ja.html" },
+        noStrip: true
+      },
     ]
   },
 {
-    weekday: "Friday",
-    date: "April 03",
+    weekday: "Tuesday",
+    date: "March, 03",
     image: "../../hero-wars-dominion-era/images/events/foundations-of-power/foundation-of-power-150px.webp",
     alt: "Foundations of Power",
     titles: { 
@@ -141,12 +125,7 @@ window.CALENDAR_DATA = [
     noStrip: true,
     extra: [
       {
-        titles: { en: "Seer's Game", pt: "Jogo do Vidente", de: "Spiel des Sehers", es: "Juego del Vidente", fr: "Jeu du Voyant", ja: "予言者のゲーム" },
-        links: { en: "../../hero-wars-dominion-era/events/seers-game-hwde-en.html", pt: "../../hero-wars-dominion-era/events/seers-game-hwde-pt.html", de: "", es: "", fr: "", ja: "" },
-     noStrip: true
-      },
-      {
-        titles: { en: "Time for Pranks", pt: "Hora das Travessuras", de: "Zeit für Streiche", es: "Hora de las Bromas", fr: "Heure des Farces", ja: "いたずらの時間" },
+        titles: { en: "Gates to Galahad’s Adventure", pt: "Portões para a Aventura de Galahad", de: "Tore zu Galahads Abenteuer", es: "Puertas a la Aventura de Galahad", fr: "Portes vers l'Aventure de Galahad", ja: "ガラハッドの冒険への門" },
         links: { en: "#section14", pt: "#section14", de: "#section14", es: "#section14", fr: "#section14", ja: "#section14" }
       },
       {
@@ -159,15 +138,22 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/legacy-of-great-ones-en.html", pt: "../../hero-wars-dominion-era/events/legacy-of-great-ones-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
-      
-      
+      {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
+      {
+        titles: { en: "Galahad Guide", pt: "Guia do Galahad", de: "Galahad Leitfaden", es: "Guía de Galahad", fr: "Guide de Galahad", ja: "ガラハッドガイド" },
+        links: { en: "../../hero-wars-dominion-era/characters/galahad-en.html", pt: "../../hero-wars-dominion-era/characters/galahad-pt.html", de: "../../hero-wars-dominion-era/characters/galahad-de.html", es: "../../hero-wars-dominion-era/characters/galahad-es.html", fr: "../../hero-wars-dominion-era/characters/galahad-fr.html", ja: "../../hero-wars-dominion-era/characters/galahad-ja.html" },
+        noStrip: true
+      },
     ]
   },
 
  
 {
-    weekday: "Saturday",
-    date: "April, 04",
+    weekday: "Wednesday",
+    date: "March, 04",
     image: "../../hero-wars-dominion-era/images/events/seers-game/seers-game-150px.webp",
     alt: "Seer's Game",
     titles: { en: "Seer's Game", pt: "Jogo do Vidente", de: "Spiel des Sehers", es: "Juego del Vidente", fr: "Jeu du Voyant", ja: "予言者のゲーム" },
@@ -195,14 +181,18 @@ window.CALENDAR_DATA = [
         noStrip: true
       },
       {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
+      {
         titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
       }
     ]
   },
   {
-    weekday: "Sunday",
-    date: "April, 05",
+    weekday: "Thursday",
+    date: "March, 05",
     image: "../../hero-wars-dominion-era/images/events/seers-game/seers-game-150px.webp",
     alt: "Seer's Game",
     titles: { en: "Seer's Game", pt: "Jogo do Vidente", de: "Spiel des Sehers", es: "Juego del Vidente", fr: "Jeu du Voyant", ja: "予言者のゲーム" },
@@ -224,6 +214,11 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.html", pt: "../../hero-wars-dominion-era/events/hero-tournament-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+     
+      {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
       {
         titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
@@ -235,68 +230,135 @@ window.CALENDAR_DATA = [
     ]
   },
 {
-    weekday: "Monday",
-    date: "April, 06",
-    image: "../../hero-wars-dominion-era/images/events/spring-rebirth/spring-rebirth-250px.webp",
-    alt: "Spring Rebirth",
-    titles: { en: "Spring Rebirth", pt: "Renascimento da Primavera", de: "Frühlingswiedergeburt", es: "Renacimiento de Primavera", fr: "Renaissance du Printemps", ja: "春の再生" },
-    labelOnly: true,
+    weekday: "Friday",
+    date: "March, 06",
+    image: "../../imagens/image-shared/kayla-300px.webp",
+    alt: "Kayla Guide",
+    titles: { en: "Kayla Guide", pt: "Guia da Kayla", de: "Kayla Leitfaden", es: "Guía de Kayla", fr: "Guide Kayla", ja: "カイラ ガイド" },
+    links: { en: "../../hero-wars-dominion-era/characters/kayla-en.html", pt: "../../hero-wars-dominion-era/characters/kayla-pt.html", de: "../../hero-wars-dominion-era/characters/kayla-de.html", es: "../../hero-wars-dominion-era/characters/kayla-es.html", fr: "../../hero-wars-dominion-era/characters/kayla-fr.html", ja: "../../hero-wars-dominion-era/characters/kayla-ja.html" },
+    noStrip: true,
     extra: [
-      
+      {
+        titles: { en: "Heroes' Brawls Missions", pt: "Missões das Brigas dos Heróis", de: "Missionen der Heldenkämpfe", es: "Misiones de las Luchas de Héroes", fr: "Missions des Combats des Héros", ja: "ヒーローズブラウルのミッション" }, 
+        links: { en: "../../hero-wars-dominion-era/events/heroes-brawls-battles-en.html", pt: "../../hero-wars-dominion-era/events/heroes-brawls-battles-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },  
+      {
+  titles: {
+    en: "Best Teams for Kayla Brawls",
+    pt: "Melhores Equipes para o Brawl da Kayla",
+    de: "Beste Teams für Kaylas Brawl",
+    es: "Mejores Equipos para el Brawl de Kayla",
+    fr: "Meilleures Équipes pour le Brawl de Kayla",
+    ja: "カイラのブロウル最強チーム"
+  },
+  links: {
+    en: "../../hero-wars-dominion-era/hero-brawls/kayla-brawls-en.html",
+    pt: "",
+    de: "",
+    es: "",
+    fr: "",
+    ja: ""
+  },
+  noStrip: true
+},
       
     ]
   },
   {
-    weekday: "Tuesday",
-    date: "April, 07",
-    image: "../../hero-wars-dominion-era/images/events/spring-rebirth/spring-rebirth-250px.webp",
-    alt: "Spring Rebirth",
-    titles: { en: "Spring Rebirth", pt: "Renascimento da Primavera", de: "Frühlingswiedergeburt", es: "Renacimiento de Primavera", fr: "Renaissance du Printemps", ja: "春の再生" },
-    labelOnly: true,
+    weekday: "Saturday",
+    date: "March, 07",
+    image: "../../imagens/image-shared/kayla-300px.webp",
+    alt: "Kayla Guide",
+    titles: { en: "Kayla Guide", pt: "Guia da Kayla", de: "Kayla Leitfaden", es: "Guía de Kayla", fr: "Guide Kayla", ja: "カイラ ガイド" },
+    links: { en: "../../hero-wars-dominion-era/characters/kayla-en.html", pt: "../../hero-wars-dominion-era/characters/kayla-pt.html", de: "../../hero-wars-dominion-era/characters/kayla-de.html", es: "../../hero-wars-dominion-era/characters/kayla-es.html", fr: "../../hero-wars-dominion-era/characters/kayla-fr.html", ja: "../../hero-wars-dominion-era/characters/kayla-ja.html" },
+    noStrip: true,
     extra: [
       {
         titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
       },
-             
+       {
+        titles: { en: "Heroes' Brawls Missions", pt: "Missões das Brigas dos Heróis", de: "Missionen der Heldenkämpfe", es: "Misiones de las Luchas de Héroes", fr: "Missions des Combats des Héros", ja: "ヒーローズブラウルのミッション" }, 
+        links: { en: "../../hero-wars-dominion-era/events/heroes-brawls-battles-en.html", pt: "../../hero-wars-dominion-era/events/heroes-brawls-battles-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },  
+      {
+  titles: {
+    en: "Best Teams for Kayla Brawls",
+    pt: "Melhores Equipes para o Brawl da Kayla",
+    de: "Beste Teams für Kaylas Brawl",
+    es: "Mejores Equipos para el Brawl de Kayla",
+    fr: "Meilleures Équipes pour le Brawl de Kayla",
+    ja: "カイラのブロウル最強チーム"
+  },
+  links: {
+    en: "../../hero-wars-dominion-era/hero-brawls/kayla-brawls-en.html",
+    pt: "",
+    de: "",
+    es: "",
+    fr: "",
+    ja: ""
+  },
+  noStrip: true
+},
+
+      
     ]
   },
   {
-    weekday: "Wednesday",
-    date: "April, 08",
-    image: "../../hero-wars-dominion-era/images/events/spring-rebirth/spring-rebirth-250px.webp",
-    alt: "Spring Rebirth",
-    titles: { en: "Spring Rebirth", pt: "Renascimento da Primavera", de: "Frühlingswiedergeburt", es: "Renacimiento de Primavera", fr: "Renaissance du Printemps", ja: "春の再生" },
-    labelOnly: true,
+    weekday: "Sunday",
+    date: "March, 08",
+    image: "../../imagens/image-shared/kayla-300px.webp",
+    alt: "Kayla Guide",
+    titles: { en: "Kayla Guide", pt: "Guia da Kayla", de: "Kayla Leitfaden", es: "Guía de Kayla", fr: "Guide Kayla", ja: "カイラ ガイド" },
+   links: { en: "../../hero-wars-dominion-era/characters/kayla-en.html", pt: "../../hero-wars-dominion-era/characters/kayla-pt.html", de: "../../hero-wars-dominion-era/characters/kayla-de.html", es: "../../hero-wars-dominion-era/characters/kayla-es.html", fr: "../../hero-wars-dominion-era/characters/kayla-fr.html", ja: "../../hero-wars-dominion-era/characters/kayla-ja.html" },
+    noStrip: true,
     extra: [
       {
-        titles: { en: "Cosmic Battle - The Path of Warrior", pt: "Batalha Cósmica - O Caminho do Guerreiro", de: "Kosmischer Kampf - Der Pfad des Kriegers", es: "Batalla Cósmica - El Camino del Guerrero", fr: "Bataille Cosmique - Le Chemin du Guerrier", ja: "宇宙の戦い - 戦士の道" }, 
-        links: { en: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", pt: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", de: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", es: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", fr: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", ja: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle" },
+        titles: { en: "Heroes' Brawls Missions", pt: "Missões das Brigas dos Heróis", de: "Missionen der Heldenkämpfe", es: "Misiones de las Luchas de Héroes", fr: "Missions des Combats des Héros", ja: "ヒーローズブラウルのミッション" }, 
+        links: { en: "../../hero-wars-dominion-era/events/heroes-brawls-battles-en.html", pt: "../../hero-wars-dominion-era/events/heroes-brawls-battles-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },  
       {
         titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
       },
-      
+      {
+  titles: {
+    en: "Best Teams for Kayla Brawls",
+    pt: "Melhores Equipes para o Brawl da Kayla",
+    de: "Beste Teams für Kaylas Brawl",
+    es: "Mejores Equipos para el Brawl de Kayla",
+    fr: "Meilleures Équipes pour le Brawl de Kayla",
+    ja: "カイラのブロウル最強チーム"
+  },
+  links: {
+    en: "../../hero-wars-dominion-era/hero-brawls/kayla-brawls-en.html",
+    pt: "",
+    de: "",
+    es: "",
+    fr: "",
+    ja: ""
+  },
+  noStrip: true
+},
       
     ]
   },
 {
-    weekday: "Thursday",
-    date: "April, 09",
+    weekday: "Monday",
+    date: "March, 09",
     image: "../../hero-wars-dominion-era/images/events/guardians-of-outland/guardians-of-outland-150px.webp",
     alt: "Guardians of Outland",
     titles: { en: "Guardians of Outland", pt: "Guardiões da Fronteira", de: "Wächter des Außenlands", es: "Guardianes de la Frontera", fr: "Gardiens de l'Outreterre", ja: "アウトランドの守護者" },
     links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
     noStrip: true,
     extra: [
-    {
-        titles: { en: "Cosmic Battle - The Path of Warrior", pt: "Batalha Cósmica - O Caminho do Guerreiro", de: "Kosmischer Kampf - Der Pfad des Kriegers", es: "Batalla Cósmica - El Camino del Guerrero", fr: "Bataille Cosmique - Le Chemin du Guerrier", ja: "宇宙の戦い - 戦士の道" }, 
-        links: { en: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", pt: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", de: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", es: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", fr: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", ja: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle" },
-        noStrip: true
-      },  
-      
+      {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
       {
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
@@ -305,8 +367,8 @@ window.CALENDAR_DATA = [
   },
 
 {
-    weekday: "Friday",
-    date: "April, 10",
+    weekday: "Tuesday",
+    date: "March, 10",
     image: "../../hero-wars-dominion-era/images/events/area-of-conquest/area-of-conquest-150px.webp",
     alt: "Area of Conquest",
     titles: { en: "Area of Conquest", pt: "Área de Conquista", de: "Eroberungsgebiet", es: "Área de Conquista", fr: "Zone de Conquête", ja: "征服エリア" },
@@ -318,12 +380,11 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
         noStrip: true
       },
-      {
-        titles: { en: "Cosmic Battle - The Path of Warrior", pt: "Batalha Cósmica - O Caminho do Guerreiro", de: "Kosmischer Kampf - Der Pfad des Kriegers", es: "Batalla Cósmica - El Camino del Guerrero", fr: "Bataille Cosmique - Le Chemin du Guerrier", ja: "宇宙の戦い - 戦士の道" }, 
-        links: { en: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", pt: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", de: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", es: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", fr: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", ja: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle" },
-        noStrip: true
-      },  
       
+      {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
       {
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
@@ -332,8 +393,8 @@ window.CALENDAR_DATA = [
     ]
   },
   {
-    weekday: "Saturday",
-    date: "April, 11",
+    weekday: "Wednesday",
+    date: "March, 11",
     image: "../../hero-wars-dominion-era/images/events/area-of-conquest/area-of-conquest-150px.webp",
     alt: "Area of Conquest",
     titles: { en: "Area of Conquest", pt: "Área de Conquista", de: "Eroberungsgebiet", es: "Área de Conquista", fr: "Zone de Conquête", ja: "征服エリア" },
@@ -345,12 +406,11 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
         noStrip: true
       },
-      {
-        titles: { en: "Cosmic Battle - The Path of Warrior", pt: "Batalha Cósmica - O Caminho do Guerreiro", de: "Kosmischer Kampf - Der Pfad des Kriegers", es: "Batalla Cósmica - El Camino del Guerrero", fr: "Bataille Cosmique - Le Chemin du Guerrier", ja: "宇宙の戦い - 戦士の道" }, 
-        links: { en: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", pt: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", de: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", es: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", fr: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", ja: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle" },
-        noStrip: true
-      },  
       
+      {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
      {
         titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
@@ -359,8 +419,8 @@ window.CALENDAR_DATA = [
     ]
   },
 {
-    weekday: "Sunday",
-    date: "April, 12",
+    weekday: "Thursday",
+    date: "March, 12",
     image: "../../hero-wars-dominion-era/images/events/area-of-conquest/area-of-conquest-150px.webp",
     alt: "Area of Conquest",
     titles: { en: "Area of Conquest", pt: "Área de Conquista", de: "Eroberungsgebiet", es: "Área de Conquista", fr: "Zone de Conquête", ja: "征服エリア" },
@@ -368,6 +428,11 @@ window.CALENDAR_DATA = [
     noStrip: true,
     extra: [
      
+      
+      {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
      {
         titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
@@ -376,8 +441,8 @@ window.CALENDAR_DATA = [
     ]
   },
 {
-    weekday: "Monday",
-    date: "April, 13",
+    weekday: "Friday",
+    date: "March, 13",
     image: "../../hero-wars-dominion-era/images/events/elemental-synergy/elemental-synergy-150px.webp",
     alt: "Elemental Synergy",
     titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementarsynergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
@@ -398,8 +463,8 @@ window.CALENDAR_DATA = [
     ]
   },
 {
-    weekday: "Tuesday",
-    date: "April, 14",
+    weekday: "Saturday",
+    date: "March, 14",
     image: "../../hero-wars-dominion-era/images/events/a-portal-anomaly/a-portal-anomaly-150px.webp",
     alt: "Portal Anomaly",
     titles: { en: "Portal Anomaly", pt: "Anomalia do Portal", de: "Eine Portalanomalie", es: "Anomalía del Portal", fr: "Anomalie du Portail", ja: "ポータルアノマリー" },
@@ -416,8 +481,8 @@ window.CALENDAR_DATA = [
     ]
   },
   {
-    weekday: "Wednesday",
-    date: "April, 15",
+    weekday: "Sunday",
+    date: "March, 15",
     image: "../../hero-wars-dominion-era/images/events/a-portal-anomaly/a-portal-anomaly-150px.webp",
     alt: "Portal Anomaly",
     titles: { en: "Portal Anomaly", pt: "Anomalia do Portal", de: "Eine Portalanomalie", es: "Anomalía del Portal", fr: "Anomalie du Portail", ja: "ポータルアノマリー" },
@@ -436,8 +501,8 @@ window.CALENDAR_DATA = [
     ]
   },
   {
-    weekday: "Thursday",
-    date: "April, 16",
+    weekday: "Monday",
+    date: "March, 16",
     image: "../../hero-wars-dominion-era/images/events/a-portal-anomaly/a-portal-anomaly-150px.webp",
     alt: "Portal Anomaly",
     titles: { en: "Portal Anomaly", pt: "Anomalia do Portal", de: "Eine Portalanomalie", es: "Anomalía del Portal", fr: "Anomalie du Portail", ja: "ポータルアノマリー" },
@@ -448,25 +513,44 @@ window.CALENDAR_DATA = [
         titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
       },
-          
+    {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      }, 
+      {
+        titles: { en: "Mushy and Shroom Rework", pt: "Mushy and Shroom Rework", de: "Mushy and Shroom Rework", es: "Mushy and Shroom Rework", fr: "Mushy and Shroom Rework", ja: "Mushy and Shroom Rework" },
+        labelOnly: true
+      }, 
+      
     ]
   },
 {
-    weekday: "Friday",
-    date: "April, 17",
+    weekday: "Tuesday",
+    date: "March, 17",
     image: "../../hero-wars-dominion-era/images/events/tournament-of-titan-power/tournament-of-titan-power-150px.webp",
     alt: "Tournament of Titan Power",
     titles: { en: "Tournament of Titan Power", pt: "Torneio de Poder dos Titãs", de: "Titanenkraft-Turnier", es: "Torneo de Poder de Titanes", fr: "Tournoi de Puissance des Titans", ja: "タイタンパワートーナメント" },
     links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
-            
+             {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
+  {
+        titles: { en: "🎉Quiz - Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
+        labelOnly: true
+      },
+      {
+        titles: { en: "Mushy and Shroom Rework", pt: "Mushy and Shroom Rework", de: "Mushy and Shroom Rework", es: "Mushy and Shroom Rework", fr: "Mushy and Shroom Rework", ja: "Mushy and Shroom Rework" },
+        labelOnly: true
+      }, 
       
     ]
   },
   {
-    weekday: "Saturday",
-    date: "April, 18",
+    weekday: "Wednesday",
+    date: "March, 18",
     image: "../../hero-wars-dominion-era/images/events/power-of-the-titans/power-of-the-titans-150px.webp",
     alt: "Power of the Titans",
     titles: { en: "Power of the Titans", pt: "Poder dos Titãs", de: "Macht der Titanen", es: "Poder de los Titanes", fr: "Puissance des Titans", ja: "タイタンの力" },
@@ -480,12 +564,20 @@ window.CALENDAR_DATA = [
         noStrip: true
       },
      
-            
+      {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
+      {
+        titles: { en: "🎉Quiz -Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
+        labelOnly: true
+      },
+      
     ]
   },
   {
-    weekday: "Sunday",
-    date: "April, 19",
+    weekday: "Thursday",
+    date: "March, 19",
     image: "../../hero-wars-dominion-era/images/events/foundations-of-power/foundation-of-power-150px.webp",
     alt: "Foundations of Power",
     titles: { en: "Foundations of Power", pt: "Fundamentos do Poder", de: "Grundlagen der Macht", es: "Fundamentos del Poder", fr: "Fondements de la Puissance", ja: "パワーの基盤" },
@@ -502,12 +594,25 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/power-of-the-titans-en.html", pt: "../../hero-wars-dominion-era/events/power-of-the-titans-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+      {
+        titles: { en: "Byrna Event Missions", pt: "Missões do Evento Byrna", de: "Byrna-Event-Missionen", es: "Misiones del Evento Byrna", fr: "Missions de l'Événement Byrna", ja: "バーナイベントミッション" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-missions-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
       
+      {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
+       {
+        titles: { en: "🎉Quiz -Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
+        labelOnly: true
+      },
     ]
   },
   {
-    weekday: "Monday",
-    date: "April, 20",
+    weekday: "Friday",
+    date: "March, 20",
     image: "../../hero-wars-dominion-era/images/events/foundations-of-power/foundation-of-power-150px.webp",
     alt: "Foundations of Power",
     titles: { en: "Foundations of Power", pt: "Fundamentos do Poder", de: "Grundlagen der Macht", es: "Fundamentos del Poder", fr: "Fondements de la Puissance", ja: "パワーの基盤" },
@@ -524,19 +629,26 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/power-of-the-titans-en.html", pt: "../../hero-wars-dominion-era/events/power-of-the-titans-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
-      
+      {
+        titles: { en: "Byrna Event Missions", pt: "Missões do Evento Byrna", de: "Byrna-Event-Missionen", es: "Misiones del Evento Byrna", fr: "Missions de l'Événement Byrna", ja: "バーナイベントミッション" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-missions-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
       
      {
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },
-      
+      {
+        titles: { en: "🎉Quiz -Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
+        labelOnly: true
+      },
        
     ]
   },
   {
-    weekday: "Tuesday",
-    date: "April, 21",
+    weekday: "Saturday",
+    date: "March, 21",
     image: "../../hero-wars-dominion-era/images/events/foundations-of-power/foundation-of-power-150px.webp",
     alt: "Foundations of Power",
     titles: { en: "Foundations of Power", pt: "Fundamentos do Poder", de: "Grundlagen der Macht", es: "Fundamentos del Poder", fr: "Fondements de la Puissance", ja: "パワーの基盤" },
@@ -548,99 +660,227 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
-      
       {
-        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
-        links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" }
+        titles: { en: "Byrna Event Missions", pt: "Missões do Evento Byrna", de: "Byrna-Event-Missionen", es: "Misiones del Evento Byrna", fr: "Missions de l'Événement Byrna", ja: "バーナイベントミッション" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-missions-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
       },
-              
+     
+  {
+  titles: { 
+    en: "Avalon Brawls Best Teams", 
+    pt: "Melhores Equipes de Avalon Brawls", 
+    de: "Beste Teams der Avalon Brawls", 
+    es: "Mejores Equipos de Avalon Brawls", 
+    fr: "Meilleures Équipes des Avalon Brawls", 
+    ja: "アヴァロンブラウルのベストチーム" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/titans-brawls/avalon-brawls-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
+  
+            
      {
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },
-      
+      {
+        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+        links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" }
+      },
+      {
+        titles: { en: "🎉Quiz -Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
+        labelOnly: true
+      },
+       
     ]
   },
 
   {
-    weekday: "Wednesday",
-    date: "April, 22",
+    weekday: "Sunday",
+    date: "March, 22",
     image: "../../hero-wars-dominion-era/images/events/titan-brawl/titan-brawls-150px.webp",
     alt: "Titans Brawls",
     titles: { en: "Guardians of Balance (Titan Brawls Missions)", pt: "Guardiões do Equilíbrio (Missões das Brigas dos Titãs)", de: "Wächter des Gleichgewichts (Titanen-Kämpfe-Missionen)", es: "Guardianes del Equilibrio (Misiones de las Luchas de Titanes)", fr: "Gardiens de l’Équilibre (Missions des Combats des Titans)", ja: "均衡の守護者 (タイタンブラウルのミッション)" },
     links: { en: "../../hero-wars-dominion-era/events/titan-brawl-en.html", pt: "../../hero-wars-dominion-era/events/titan-brawl-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      { titles: { en: "Avalon Guide", pt: "Guia da Avalon", de: "Avalon Leitfaden", es: "Guía de Avalon", fr: "Guide d’Avalon", ja: "アヴァロンガイド" },
+       links: { en: "../../hero-wars-dominion-era/titans/avalon-en.html", pt: "../../hero-wars-dominion-era/titans/avalon-pt.html", de: "../../hero-wars-dominion-era/titans/avalon-de.html", es: "../../hero-wars-dominion-era/titans/avalon-es.html", fr: "../../hero-wars-dominion-era/titans/avalon-fr.html", ja: "../../hero-wars-dominion-era/titans/avalon-ja.html" },
+        noStrip: true
+       },
+       {
+  titles: { 
+    en: "Avalon Brawls Best Teams", 
+    pt: "Melhores Equipes de Avalon Brawls", 
+    de: "Beste Teams der Avalon Brawls", 
+    es: "Mejores Equipos de Avalon Brawls", 
+    fr: "Meilleures Équipes des Avalon Brawls", 
+    ja: "アヴァロンブラウルのベストチーム" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/titans-brawls/avalon-brawls-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
+       {
+        titles: { en: "Byrna Event Missions", pt: "Missões do Evento Byrna", de: "Byrna-Event-Missionen", es: "Misiones del Evento Byrna", fr: "Missions de l'Événement Byrna", ja: "バーナイベントミッション" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-missions-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
       {
-        titles: { en: "Angus Brawls", pt: "Brigas de Angus", de: "Angus Kämpfe", es: "Brigas de Angus", fr: "Combats d'Angus", ja: "アングスの乱闘" },
+        titles: { en: "Avalon Brawls Best Teams", pt: "Melhores Equipes da Avalon", de: "Beste Teams von Avalon", es: "Mejores Equipos de Avalon", fr: "Meilleures Équipes d'Avalon", ja: "アヴァロンの乱闘ベストチーム" },
         labelOnly: true
       },
       {
-        titles: { en: "Angus Brawls Best Teams", pt: "Melhores Equipes de Angus Brawls", de: "Beste Teams der Angus Brawls", es: "Mejores Equipos de Angus Brawls", fr: "Meilleures Équipes des Angus Brawls", ja: "アングスブラウルのベストチーム" },
+        titles: { en: "🎉Quiz -Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
         labelOnly: true
       },
-      
     
   ]
   },
    {
-    weekday: "Thursday",
-    date: "April, 23",
+    weekday: "Monday",
+    date: "March, 23",
     image: "../../hero-wars-dominion-era/images/events/titan-brawl/titan-brawls-150px.webp",
     alt: "Titans Brawls",
     titles: { en: "Guardians of Balance (Titan Brawls Missions)", pt: "Guardiões do Equilíbrio (Missões das Brigas dos Titãs)", de: "Wächter des Gleichgewichts (Titanen-Kämpfe-Missionen)", es: "Guardianes del Equilibrio (Misiones de las Luchas de Titanes)", fr: "Gardiens de l’Équilibre (Missions des Combats des Titans)", ja: "均衡の守護者 (タイタンブラウルのミッション)" },
     links: { en: "../../hero-wars-dominion-era/events/titan-brawl-en.html", pt: "../../hero-wars-dominion-era/events/titan-brawl-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
-      
+      { titles: { en: "Avalon Guide", pt: "Guia da Avalon", de: "Avalon Leitfaden", es: "Guía de Avalon", fr: "Guide d’Avalon", ja: "アヴァロンガイド" },
+       links: { en: "../../hero-wars-dominion-era/titans/avalon-en.html", pt: "../../hero-wars-dominion-era/titans/avalon-pt.html", de: "../../hero-wars-dominion-era/titans/avalon-de.html", es: "../../hero-wars-dominion-era/titans/avalon-es.html", fr: "../../hero-wars-dominion-era/titans/avalon-fr.html", ja: "../../hero-wars-dominion-era/titans/avalon-ja.html" },
+        noStrip: true
+       },
        {
-        titles: { en: "Angus Brawls", pt: "Brigas de Angus", de: "Angus Kämpfe", es: "Brigas de Angus", fr: "Combats d'Angus", ja: "アングスの乱闘" },
-        labelOnly: true
-      },
-      {
-        titles: { en: "Angus Brawls Best Teams", pt: "Melhores Equipes de Angus Brawls", de: "Beste Teams der Angus Brawls", es: "Mejores Equipos de Angus Brawls", fr: "Meilleures Équipes des Angus Brawls", ja: "アングスブラウルのベストチーム" },
-        labelOnly: true
+  titles: { 
+    en: "Avalon Brawls Best Teams", 
+    pt: "Melhores Equipes de Avalon Brawls", 
+    de: "Beste Teams der Avalon Brawls", 
+    es: "Mejores Equipos de Avalon Brawls", 
+    fr: "Meilleures Équipes des Avalon Brawls", 
+    ja: "アヴァロンブラウルのベストチーム" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/titans-brawls/avalon-brawls-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
+ {
+  titles: { 
+    en: "Byrna Event Guide and Rewards F2P to 6★", 
+    pt: "Guia do Evento Byrna e Recompensas F2P até 6★", 
+    de: "Byrna Event Guide und Belohnungen F2P bis 6★", 
+    es: "Guía del Evento Byrna y Recompensas F2P hasta 6★", 
+    fr: "Guide de l'Événement Byrna et Récompenses F2P jusqu'à 6★", 
+    ja: "バーナイベントガイドと報酬 F2P から 6★ まで" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
+       {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
       {
         titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
       },
-      
+      {
+        titles: { en: "Avalon Brawls Best Teams", pt: "Melhores Equipes da Avalon", de: "Beste Teams von Avalon", es: "Mejores Equipos de Avalon", fr: "Meilleures Équipes d'Avalon", ja: "アヴァロンの乱闘ベストチーム" },
+        labelOnly: true
+      }, 
+      {
+        titles: { en: "Byrna Event", pt: "Evento da Byrna", de: "Byrna Event", es: "Evento de Byrna", fr: "Événement de Byrna", ja: "バーナイベント" },
+        labelOnly: true
+      }, 
+      {
+        titles: { en: "🎉Cake -Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
+        labelOnly: true
+      },
   ]
   },
   {
-    weekday: "Friday",
-    date: "April, 24",
+    weekday: "Tuesday",
+    date: "March, 24",
     image: "../../hero-wars-dominion-era/images/events/guardians-of-outland/guardians-of-outland-150px.webp",
     alt: "Guardians of Outland",
     titles: { en: "Guardians of Outland", pt: "Guardiões da Fronteira", de: "Wächter des Außenlands", es: "Guardianes de la Frontera", fr: "Gardiens de l'Outreterre", ja: "アウトランドの守護者" },
      links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
     noStrip: true,
     extra: [
-      
+      { titles: { en: "Avalon Guide", pt: "Guia da Avalon", de: "Avalon Leitfaden", es: "Guía de Avalon", fr: "Guide d’Avalon", ja: "アヴァロンガイド" },
+       links: { en: "../../hero-wars-dominion-era/titans/avalon-en.html", pt: "../../hero-wars-dominion-era/titans/avalon-pt.html", de: "../../hero-wars-dominion-era/titans/avalon-de.html", es: "../../hero-wars-dominion-era/titans/avalon-es.html", fr: "../../hero-wars-dominion-era/titans/avalon-fr.html", ja: "../../hero-wars-dominion-era/titans/avalon-ja.html" },
+        noStrip: true
+       },
       {
         titles: { en: "Guardians of Balance (Titan Brawls Missions)", pt: "Guardiões do Equilíbrio (Missões das Brigas dos Titãs)", de: "Wächter des Gleichgewichts (Titanen-Kämpfe-Missionen)", es: "Guardianes del Equilibrio (Misiones de las Luchas de Titanes)", fr: "Gardiens de l’Équilibre (Missions des Combats des Titans)", ja: "均衡の守護者 (タイタンブラウルのミッション)" },
         links: { en: "../../hero-wars-dominion-era/events/titan-brawl-en.html", pt: "../../hero-wars-dominion-era/events/titan-brawl-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       }, 
-       {
-        titles: { en: "Angus Brawls", pt: "Brigas de Angus", de: "Angus Kämpfe", es: "Brigas de Angus", fr: "Combats d'Angus", ja: "アングスの乱闘" },
-        labelOnly: true
-      },
+        {
+  titles: { 
+    en: "Avalon Brawls Best Teams", 
+    pt: "Melhores Equipes de Avalon Brawls", 
+    de: "Beste Teams der Avalon Brawls", 
+    es: "Mejores Equipos de Avalon Brawls", 
+    fr: "Meilleures Équipes des Avalon Brawls", 
+    ja: "アヴァロンブラウルのベストチーム" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/titans-brawls/avalon-brawls-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
+ {
+  titles: { 
+    en: "Byrna Event Guide and Rewards F2P to 6★", 
+    pt: "Guia do Evento Byrna e Recompensas F2P até 6★", 
+    de: "Byrna Event Guide und Belohnungen F2P bis 6★", 
+    es: "Guía del Evento Byrna y Recompensas F2P hasta 6★", 
+    fr: "Guide de l'Événement Byrna et Récompenses F2P jusqu'à 6★", 
+    ja: "バーナイベントガイドと報酬 F2P から 6★ まで" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+}, 
       {
-        titles: { en: "Angus Brawls Best Teams", pt: "Melhores Equipes de Angus Brawls", de: "Beste Teams der Angus Brawls", es: "Mejores Equipos de Angus Brawls", fr: "Meilleures Équipes des Angus Brawls", ja: "アングスブラウルのベストチーム" },
-        labelOnly: true
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
       {
         titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
       },
-      
+      {
+        titles: { en: "Avalon Brawls Best Teams", pt: "Melhores Equipes da Avalon", de: "Beste Teams von Avalon", es: "Mejores Equipos de Avalon", fr: "Meilleures Équipes d'Avalon", ja: "アヴァロンの乱闘ベストチーム" },
+        labelOnly: true
+      }, 
+      {
+        titles: { en: "Byrna Event", pt: "Evento da Byrna", de: "Byrna Event", es: "Evento de Byrna", fr: "Événement de Byrna", ja: "バーナイベント" },
+        labelOnly: true
+      }, 
+      {
+        titles: { en: "🎉Cake -Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
+        labelOnly: true
+      },
     ]
   },
   {
-    weekday: "Saturday",
-    date: "April, 25",
+    weekday: "Wednesday",
+    date: "March, 25",
     image: "../../hero-wars-dominion-era/images/events/ascension-to-asgard/ascension-to-asgard-especial-invitation150px.webp",
     alt: "Ascension to Asgard",
     titles: { en: "Ascension to Asgard", pt: "Ascensão a Asgard", de: "Aufstieg nach Asgard", es: "Ascensión a Asgard", fr: "Ascension vers Asgard", ja: "アスガルドへの昇天" },
@@ -653,12 +893,39 @@ window.CALENDAR_DATA = [
         noStrip: true
       },
        
- 
+ {
+  titles: { 
+    en: "Byrna Event Guide and Rewards F2P to 6★", 
+    pt: "Guia do Evento Byrna e Recompensas F2P até 6★", 
+    de: "Byrna Event Guide und Belohnungen F2P bis 6★", 
+    es: "Guía del Evento Byrna y Recompensas F2P hasta 6★", 
+    fr: "Guide de l'Événement Byrna et Récompenses F2P jusqu'à 6★", 
+    ja: "バーナイベントガイドと報酬 F2P から 6★ まで" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
+      {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
+      {
+        titles: { en: "Byrna Event", pt: "Evento da Byrna", de: "Byrna Event", es: "Evento de Byrna", fr: "Événement de Byrna", ja: "バーナイベント" },
+        labelOnly: true
+      }, 
+      {
+        titles: { en: "🎉Cake -Happy Birthday Hero Wars", pt: "🎉Feliz Aniversário Hero Wars", de: "🎉Alles Gute zum Geburtstag Hero Wars", es: "🎉Feliz Cumpleaños Hero Wars", fr: "🎉Joyeux Anniversaire Hero Wars", ja: "🎉ハッピーバースデーヒーローウォーズ" },
+        labelOnly: true
+      },
+      
     ]
   },
   {
-    weekday: "Sunday",
-    date: "April, 26",
+    weekday: "Thursday",
+    date: "March, 26",
     image: "../../hero-wars-dominion-era/images/events/the-great-storm/the-great-storm-150px.webp",
     alt: "The Great Storm",
     titles: { en: "The Great Storm", pt: "A Grande Tempestade", de: "Der Große Sturm", es: "La Gran Tormenta", fr: "La Grande Tempête", ja: "大嵐" },
@@ -676,13 +943,36 @@ window.CALENDAR_DATA = [
         noStrip: true
       },
         
- 
+ {
+  titles: { 
+    en: "Byrna Event Guide and Rewards F2P to 6★", 
+    pt: "Guia do Evento Byrna e Recompensas F2P até 6★", 
+    de: "Byrna Event Guide und Belohnungen F2P bis 6★", 
+    es: "Guía del Evento Byrna y Recompensas F2P hasta 6★", 
+    fr: "Guide de l'Événement Byrna et Récompenses F2P jusqu'à 6★", 
+    ja: "バーナイベントガイドと報酬 F2P から 6★ まで" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
+      {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
+      {
+        titles: { en: "Byrna Event", pt: "Evento da Byrna", de: "Byrna Event", es: "Evento de Byrna", fr: "Événement de Byrna", ja: "バーナイベント" },
+        labelOnly: true
+      }, 
+      
     ]
   },
   
   {
-    weekday: "Monday",
-    date: "April, 27",
+    weekday: "Friday",
+    date: "March, 27",
     image: "../../hero-wars-dominion-era/images/events/the-great-storm/the-great-storm-150px.webp",
     alt: "The Great Storm",
     titles: { en: "The Great Storm", pt: "A Grande Tempestade", de: "Der Große Sturm", es: "La Gran Tormenta", fr: "La Grande Tempête", ja: "大嵐" },
@@ -695,12 +985,29 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
-            
+       
+ {
+  titles: { 
+    en: "Byrna Event Guide and Rewards F2P to 6★", 
+    pt: "Guia do Evento Byrna e Recompensas F2P até 6★", 
+    de: "Byrna Event Guide und Belohnungen F2P bis 6★", 
+    es: "Guía del Evento Byrna y Recompensas F2P hasta 6★", 
+    fr: "Guide de l'Événement Byrna et Récompenses F2P jusqu'à 6★", 
+    ja: "バーナイベントガイドと報酬 F2P から 6★ まで" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
+     
+      
     ]
   },
   {
-    weekday: "Tuesday",
-    date: "April, 28",
+    weekday: "Saturday",
+    date: "March, 28",
     image: "../../hero-wars-dominion-era/images/events/weaving-patterns/weaving-patterns-150px.webp",
     alt: "Weaving Patterns",
     titles: { en: "Weaving Patterns", pt: "Tecendo Padrões", de: "Webmuster", es: "Tejiendo Patrones", fr: "Tissage de Motifs", ja: "ウィービングパターン" },
@@ -713,31 +1020,76 @@ window.CALENDAR_DATA = [
         noStrip: true
       },
        
- 
+ {
+  titles: { 
+    en: "Byrna Event Guide and Rewards F2P to 6★", 
+    pt: "Guia do Evento Byrna e Recompensas F2P até 6★", 
+    de: "Byrna Event Guide und Belohnungen F2P bis 6★", 
+    es: "Guía del Evento Byrna y Recompensas F2P hasta 6★", 
+    fr: "Guide de l'Événement Byrna et Récompenses F2P jusqu'à 6★", 
+    ja: "バーナイベントガイドと報酬 F2P から 6★ まで" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
       {
         titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
         links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" }
       },
-      
+      {
+        titles: { en: "Byrna Event", pt: "Evento da Byrna", de: "Byrna Event", es: "Evento de Byrna", fr: "Événement de Byrna", ja: "バーナイベント" },
+        labelOnly: true
+      }, 
       
     ]
   },
   {
-    weekday: "Wednesday",
-    date: "April, 29",
+    weekday: "Sunday",
+    date: "March, 29",
     image: "../../hero-wars-dominion-era/images/events/weaving-patterns/weaving-patterns-150px.webp",
     alt: "Weaving Patterns",
     titles: { en: "Weaving Patterns", pt: "Tecendo Padrões", de: "Webmuster", es: "Tejiendo Patrones", fr: "Tissage de Motifs", ja: "ウィービングパターン" },
     links: { en: "../../hero-wars-dominion-era/events/weaving-patterns-en.html", pt: "../../hero-wars-dominion-era/events/weaving-patterns-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
-      
+      {
+        titles: { en: "The Great Storm", pt: "A Grande Tempestade", de: "Der Große Sturm", es: "La Gran Tormenta", fr: "La Grande Tempête", ja: "大嵐" },
+        links: { en: "../../hero-wars-dominion-era/events/the-great-storm-en.html", pt: "../../hero-wars-dominion-era/events/the-great-storm-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
+        
+ {
+  titles: { 
+    en: "Byrna Event Guide and Rewards F2P to 6★", 
+    pt: "Guia do Evento Byrna e Recompensas F2P até 6★", 
+    de: "Byrna Event Guide und Belohnungen F2P bis 6★", 
+    es: "Guía del Evento Byrna y Recompensas F2P hasta 6★", 
+    fr: "Guide de l'Événement Byrna et Récompenses F2P jusqu'à 6★", 
+    ja: "バーナイベントガイドと報酬 F2P から 6★ まで" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
+      {
+        titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
+        links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
+      },
+      {
+        titles: { en: "Byrna Event", pt: "Evento da Byrna", de: "Byrna Event", es: "Evento de Byrna", fr: "Événement de Byrna", ja: "バーナイベント" },
+        labelOnly: true
+      }, 
       
     ]
   },
    {
-    weekday: "Thursday",
-    date: "April, 30",
+    weekday: "Monday",
+    date: "March, 30",
     image: "../../hero-wars-dominion-era/images/events/elemental-synergy/elemental-synergy-150px.webp",
     alt: "Elemental Synergy",
     titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementarsynergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
@@ -750,6 +1102,21 @@ window.CALENDAR_DATA = [
         noStrip: true
       },
        
+ {
+  titles: { 
+    en: "Byrna Event Guide and Rewards F2P to 6★", 
+    pt: "Guia do Evento Byrna e Recompensas F2P até 6★", 
+    de: "Byrna Event Guide und Belohnungen F2P bis 6★", 
+    es: "Guía del Evento Byrna y Recompensas F2P hasta 6★", 
+    fr: "Guide de l'Événement Byrna et Récompenses F2P jusqu'à 6★", 
+    ja: "バーナイベントガイドと報酬 F2P から 6★ まで" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html", 
+    pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
       {
         titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
@@ -757,8 +1124,8 @@ window.CALENDAR_DATA = [
     ]
   },
   {
-    weekday: "Friday",
-    date: "May, 1",
+    weekday: "Tuesday",
+    date: "March, 31",
     image: "../../hero-wars-dominion-era/images/events/elemental-synergy/elemental-synergy-150px.webp",
     alt: "Elemental Synergy",
     titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementarsynergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
@@ -770,8 +1137,8 @@ window.CALENDAR_DATA = [
     ]
   },
    {
-    weekday: "Saturday",
-    date: "May, 2",
+    weekday: "Wednesday",
+    date: "April, 1",
     image: "../../hero-wars-dominion-era/images/events/elemental-synergy/elemental-synergy-150px.webp",
     alt: "Elemental Synergy",
     titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementarsynergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
@@ -786,19 +1153,20 @@ window.CALENDAR_DATA = [
 
 
 
- // ===================== April 2026 =====================
+ // ===================== MARCH 2026 =====================
   {
     weekday: "WhatsApp Group",
     date: "",
     image: "",
     alt: "Alexandre Games WhatsApp Group",
   titles: {
-   "en": "🎁 Want better teams & faster progress in Hero Wars? Join Alexandre Games WhatsApp community (EN) for tips, meta teams & exclusive giveaways!",
-  "pt": "🎁 Quer montar times mais fortes e evoluir mais rápido no Hero Wars? Entre na comunidade Alexandre Games no WhatsApp (PT) com dicas, metas e sorteios exclusivos!",
-  "es": "🎁 ¿Quieres mejores equipos y progresar más rápido en Hero Wars? ¡Únete a la comunidad de Alexandre Games en WhatsApp (EN) con consejos, metas y sorteos!",
-  "de": "🎁 Willst du stärkere Teams und schneller vorankommen in Hero Wars? Tritt der Alexandre Games WhatsApp-Community (EN) bei – Tipps, Meta-Teams & Giveaways!",
-  "fr": "🎁 Tu veux de meilleures équipes et progresser plus vite sur Hero Wars ? Rejoins la communauté WhatsApp Alexandre Games (EN) pour astuces, metas et giveaways !",
-  "ja": "🎁 ヒーローウォーズで強くなりたい？Alexandre GamesのWhatsAppコミュニティ（英語）に参加して、攻略・メタ・特典をゲット！"},
+   en: "🎁 Join our English WhatsApp group for Hero Wars Dominion Era tips and giveaways!",
+  pt: "🎁 Entre no nosso grupo WhatsApp em Português para dicas de Hero Wars Dominion Era e sorteios!",
+  es: "🎁 ¡Únete a nuestro grupo de WhatsApp en inglés para consejos de Hero Wars Dominion Era y sorteos!",
+  de: "🎁 Trete unserer englischen WhatsApp-Gruppe für Hero Wars Dominion Era-Tipps und Gewinnspiele bei!",
+  fr: "🎁 Rejoignez notre groupe WhatsApp en anglais pour des conseils et des giveaways sur Hero Wars Dominion Era !",
+  ja: "🎁 英語のWhatsAppグループに参加して、ヒーローウォーズドミニオン時代のヒントやギブアウェイをゲット！"
+},
   links: { en: "https://chat.whatsapp.com/EcXFqSf5FesCFvhw55qszZ", de: "https://chat.whatsapp.com/EcXFqSf5FesCFvhw55qszZ", es: "https://chat.whatsapp.com/EcXFqSf5FesCFvhw55qszZ", fr: "https://chat.whatsapp.com/EcXFqSf5FesCFvhw55qszZ", pt: "https://chat.whatsapp.com/BHdZRUdqlN8F9s2DQQxPLs", ja: "https://chat.whatsapp.com/EcXFqSf5FesCFvhw55qszZ" },
   noStrip: true,
   extra: []
