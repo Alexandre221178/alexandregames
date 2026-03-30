@@ -1,26 +1,7 @@
 (function(){
   // Carousel multi-language injector (HWDE specific copy)
   const slides = [
-    
-    {
-      link: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-guide-en.html",
-      src500: "../../hero-wars-dominion-era/images/events-special/byrna-event/byrna-event-guide-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events-special/byrna-event/byrna-event-guide-400px.webp",
-      alt: "Byrna F2P Event Guide for Hero Wars: Dominion Era",
-      title: "Byrna F2P Event Guide for Hero Wars: Dominion Era.",
-      strong: "Byrna F2P Event Guide - Hero Wars: Dominion Era(English)",
-      updated: "Updated: March, 2026."
-    },
-    {
-      link: "../../hero-wars-dominion-era/events-special-hwde/byrna-event-missions-en.html",
-      src500: "../../hero-wars-dominion-era/images/events-special/byrna-event/byrna-event-mission-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events-special/byrna-event/byrna-event-mission-400px.webp",
-      alt: "Byrna Event Missions for Hero Wars: Dominion Era",
-      title: "Byrna Event Missions for Hero Wars: Dominion Era.",
-      strong: "Byrna Event Missions - Hero Wars: Dominion Era(English)",
-      updated: "Updated: March, 2026."
-    },
-    
+        
     {
       link: "../../hero-wars-dominion-era/characters/byrna-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/byrna/byrna-500px.webp",
@@ -30,35 +11,8 @@
       strong: "Byrna Guide - Hero Wars: Dominion Era",
       updated: "Updated: March, 2026."
     },
-{
-      link: "../../hero-wars-dominion-era/titans-brawls/avalon-brawls-en.html",
-      src500: "../../hero-wars-dominion-era/images/titan-brawl/avalon-brawl/avalon-brawl-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/titan-brawl/avalon-brawl/avalon-brawl-400px.webp",
-      alt: "Avalon Brawl Best Teams for Hero Wars: Dominion Era",
-      title: "Avalon Brawl Best Teams for Hero Wars: Dominion Era.",
-      strong: "Avalon Brawl Best Teams - Hero Wars: Dominion Era(English)",
-      updated: "Updated: March, 2026."
-    },
-    {
-      link: "../../hero-wars-dominion-era/titans/avalon-en.html",
-      src500: "../../hero-wars-dominion-era/images/titans-hwde/avalon/avalon-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/titans-hwde/avalon/avalon-400px.webp",
-      alt: "Avalon for Hero Wars: Dominion Era",
-      title: "Avalon for Hero Wars: Dominion Era.",
-      strong: "Avalon - Hero Wars: Dominion Era",
-      updated: "Updated: March, 2026."
-    },
-    {
-      link: "../../hero-wars-dominion-era/characters/mushy-and-shroom-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/mushy-and-shroom/mushy-and-shroom-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/mushy-and-shroom/mushy-and-shroom-400px.webp",
-      alt: "Mushy and Shroom Guide for Hero Wars: Dominion Era",
-      title: "Mushy and Shroom Guide for Hero Wars: Dominion Era.",
-      strong: "Mushy and Shroom Guide - Hero Wars: Dominion Era",
-      updated: "Updated: March, 2026."
-    },
 
-
+        
     {
       link: "../../hero-wars-dominion-era/guide/meta-teams-and-combos-hwde-en.html",
       src500: "../../hero-wars-dominion-era/images/guides/meta-teams-and-combos-hwde/meta-teams-and-combos-hwde-500px.webp",
@@ -70,33 +24,15 @@
     },
     
     {
-      link: "../../hero-wars-dominion-era/characters/kayla-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/kayla/kayla-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/kayla/kayla-400px.webp",
-      alt: "Kayla Guide for Hero Wars: Dominion Era",
-      title: "Kayla Guide for Hero Wars: Dominion Era.",
-      strong: "Kayla Guide - Hero Wars: Dominion Era",
-      updated: "Updated: March, 2026."
+      link: "../../hero-wars-dominion-era/characters/fluffy-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/fluffy/fluffy-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/fluffy/fluffy-400px.webp",
+      alt: "Fluffy for Hero Wars: Dominion Era",
+      title: "Fluffy for Hero Wars: Dominion Era.",
+      strong: "Fluffy - Hero Wars: Dominion Era",
+      updated: "Updated: April, 2026."
     },
-    {
-      link: "../../hero-wars-dominion-era/characters/galahad-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/galahad/galahad-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/galahad/galahad-400px.webp",
-      alt: "Galahad Guide for Hero Wars: Dominion Era",
-      title: "Galahad Guide for Hero Wars: Dominion Era.",
-      strong: "Galahad Guide - Hero Wars: Dominion Era",
-      updated: "Updated: March, 2026."
-    },
-    {
-      link: "../../hero-wars-dominion-era/titans/tidus-en.html",
-      src500: "../../hero-wars-dominion-era/images/titans-hwde/tidus/tidus-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/titans-hwde/tidus/tidus-400px.webp",
-      alt: "Tidus for Hero Wars: Dominion Era",
-      title: "Tidus for Hero Wars: Dominion Era.",
-      strong: "Tidus - Hero Wars: Dominion Era",
-      updated: "Updated: February, 2026."
-    },
-    
+     
         
     {
       link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
@@ -107,26 +43,8 @@
       strong: "Calendar - Hero Wars: Dominion Era",
       updated: "Updated: February, 2026."
     },
-    {
-      link: "../../hero-wars-dominion-era/characters/fluffy-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/fluffy/fluffy-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/fluffy/fluffy-400px.webp",
-      alt: "Fluffy for Hero Wars: Dominion Era",
-      title: "Fluffy for Hero Wars: Dominion Era.",
-      strong: "Fluffy - Hero Wars: Dominion Era",
-      updated: "Updated: February, 2026."
-    },
+       
     
-    
-    {
-      link: "../../hero-wars-dominion-era/characters/aidan-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/aidan/aidan-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/aidan/aidan-400px.webp",
-      alt: "Aidan Guide for Hero Wars: Dominion Era",
-      title: "Aidan Guide for Hero Wars: Dominion Era.",
-      strong: "Aidan Guide - Hero Wars: Dominion Era",
-      updated: "Updated: January, 2026."
-    },
     
     
   ];
