@@ -1,0 +1,313 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "somna",
+      "name": "Somna",
+      "gender": "female",
+      "role": ["Control"],
+      "main_class": "Control",
+      "position": "Middle Line",
+      "main_stat": "Agility",
+      "faction": "Way of Mystery",      
+      "stats": {
+        "talisman_of_slumber": {
+          "intelligence": 4098,
+          "agility": 17630,
+          "strength": 3802,
+          "health": 1029918,
+          "physical_attack": 130758,
+          "magic_attack": 27045,
+          "armor": 52881,
+          "magic_defense": 11778.9,
+          "toughness": 9927,
+          "armor_penetration": 23.178,
+          "crushing": 1564
+        },
+        "talisman_of_oblivion": {
+          "intelligence": 4098,
+          "agility": 15630,
+          "strength": 3802,
+          "health": 848418,
+          "physical_attack": 137958,
+          "magic_attack": 27045,
+          "armor": 50881,
+          "magic_defense": 11778.9,
+          "toughness": 13927,
+          "armor_penetration": 23.178,
+          "crushing": 1564
+        }
+      },
+      "talisman_details": {
+        "talisman_of_slumber": {
+          "main_stat": "Agility",
+          "main_stat_bonus": 2000,
+          "reroll_slots": [
+            { "stat": "Health", "value": 60500 },
+            { "stat": "Health", "value": 60500 },
+            { "stat": "Health", "value": 60500 }
+          ],
+          "total_reroll_bonus": { "stat": "Health", "value": 181500 }
+        },
+        "talisman_of_oblivion": {
+          "main_stat": "Toughness",
+          "main_stat_bonus": 4000,
+          "reroll_slots": [
+            { "stat": "Physical attack", "value": 4400 },
+            { "stat": "Physical attack", "value": 4400 },
+            { "stat": "Physical attack", "value": 4400 }
+          ],
+          "total_reroll_bonus": { "stat": "Physical attack", "value": 13200 }
+        },
+        "recommended": "N/A"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "Lullaby Veil",
+          "type": ["Debuff", "Sleep", "Control"],
+          "animation_delay_seconds": 1,
+          "duration_seconds": 7,
+          "area": 3,
+          "range": 3000,
+          "hits": 10,
+          "physical_damage_reduction_formula": "25% Phys.atk. + 3000",
+          "physical_damage_reduction_example": 37489.5,
+          "max_drowsiness_stacks": 3,
+          "description": "Puts all enemies to sleep for 7 seconds. Sleeping enemies are inactive and wake up upon taking damage. When awakened, they gain 1 stack of Drowsiness for 10 sec, reducing Physical Damage. Max 3 stacks per enemy.",
+          "evolution_priority": "Very High"
+        },
+        {
+          "id": 1,
+          "variant": "legendary",
+          "name": "Lullaby Veil",
+          "type": ["Debuff", "Sleep", "Control", "Legendary"],
+          "effect": "If Sleep is broken by damage, the enemy instantly receives 3 stacks of Drowsiness. Max Drowsiness stacks increased to 10.",
+          "max_drowsiness_stacks": 10,
+          "description": "Upon awakening, more Drowsiness stacks are applied and the maximum number of stacks on a single target is increased to 10.",
+          "evolution_priority": "Very High"
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 120,
+          "name": "Drowsy Blessing",
+          "type": ["Debuff", "Buff"],
+          "initial_cooldown_seconds": 5,
+          "cooldown_seconds": 20,
+          "animation_delay_seconds": 1,
+          "duration_seconds": 12,
+          "range": 3000,
+          "hits": 8,
+          "armor_penetration_reduction_formula": "20% Phys.atk. + 2400",
+          "armor_penetration_reduction_example": 29991.6,
+          "description": "The nearest ally in front of Somna for 12 seconds applies 1 stack of Drowsiness to enemies on hit. Mystery Heroes apply the effect for 8 seconds longer. Drowsiness now reduces both physical damage and Armor penetration.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 100,
+          "name": "Curse of the Wool",
+          "type": ["Debuff", "Control", "Physical Damage"],
+          "initial_cooldown_seconds": 7,
+          "cooldown_seconds": 15,
+          "animation_delay_seconds": 1,
+          "duration_seconds": 3,
+          "area": 200,
+          "range": 3000,
+          "hits": 3,
+          "physical_damage_formula": "100% Phys.atk. + 6000",
+          "physical_damage_example": 143958,
+          "sheep_transform_condition": "Enemy has 3 stacks of Drowsiness",
+          "sheep_duration_seconds": 3,
+          "sheep_cooldown_seconds": 10,
+          "description": "Applies 1 stack of Drowsiness to nearby enemies and deals damage. If an enemy has 3 stacks of Drowsiness, they are transformed into a sheep for 3 seconds. Cannot be transformed again for 10 seconds.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 3,
+          "variant": "legendary",
+          "name": "Curse of the Wool",
+          "type": ["Debuff", "Control", "Legendary"],
+          "effect": "Applies 2 stacks of Drowsiness and deals extra damage per Drowsiness stack on the target.",
+          "physical_damage_formula": "20% Phys.atk. + 600",
+          "physical_damage_example": 28191.6,
+          "description": "Somna applies 2 stacks of Drowsiness and deals extra damage to enemies for each Drowsiness stack they have.",
+          "evolution_priority": "Very High"
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "level": 80,
+          "name": "Silence of the Sheep",
+          "type": ["Debuff", "Control", "Passive"],
+          "area": 100,
+          "hits": 3,
+          "additional_physical_damage_formula": "10% Health + 12000",
+          "additional_physical_damage_example": 96841.8,
+          "trigger": "When taking damage",
+          "drowsiness_stacks_applied": 3,
+          "description": "When taking damage, applies 3 stacks of Drowsiness to the attacker and instantly transforms them into a sheep. Allied heroes deal additional Physical Damage to the sheep. Chance reduced if attacker level is above 120.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "name": "Twilight Herd",
+          "type": ["Control", "Legendary"],
+          "cooldown_seconds": 15,
+          "duration_seconds": 3,
+          "hits": 3,
+          "description": "If Somna is free from control effects, every 15 seconds she turns the farthest enemy into a sheep for 3 seconds.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "name": "Eternal Sleep",
+          "type": ["Passive", "Legendary"],
+          "effect": "An enemy can be turned into a sheep again after 5 seconds (instead of 10).",
+          "sheep_cooldown_seconds": 5,
+          "description": "Can transform enemies into sheep more often. Cooldown for re-transformation reduced to 5 seconds.",
+          "evolution_priority": "Very High"
+        }
+      ],
+"realm": {
+        "buff_troop": "Spearmen",
+        "buff_description": "Spearmen attack +120%",
+        "skills": [
+          {
+            "name": "Hunter's Instinct",
+            "level": 5,
+            "effect": "Reduces damage taken by marksmen by 20% and increases damage dealt by spearmen by 10%."
+          },
+          {
+            "name": "She-Wolf's Aim",
+            "level": 5,
+            "effect": "Spearmen's attacks have a 13% chance to stun enemies for 1 turn."
+          }
+        ],
+        "technologies": {
+          "health": 105000,
+          "physical_attack": 6900,
+          "magic_attack": 9750,
+          "armor_percent": 15,
+          "magic_defense_percent": 15,
+          "dodge_percent": 15,
+          "crit_hit_chance_percent": 15,
+          "magic_crit_hit_chance_percent": 15
+        }
+      },
+
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Sir Dumpling",
+          "activation_chance": 100,
+          "crushing": 17796,
+          "evolve": 6,
+          "level": 100,
+          "evolution_priority": "Very High"
+        },
+        {
+          "slot": "Book",
+          "name": "Grimoire of Fortitude",
+          "toughness": 2967,
+          "health": 53394,
+          "evolve": 6,
+          "level": 100,
+          "evolution_priority": "High"
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Agility",
+          "agility": 3990,
+          "evolve": 6,
+          "level": 100,
+          "evolution_priority": "High"
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default Skin",
+          "stat": "Agility",
+          "bonus": 1365,
+          "evolution_priority": "Very High"
+        },
+        {
+          "name": "Space Skin",
+          "stat": "Physical Attack",
+          "bonus": 7095,
+          "evolution_priority": "Very High"
+        },
+        {
+          "name": "Devil Skin",
+          "stat": "Armor",
+          "bonus": 10650,
+          "evolution_priority": "High"
+        },
+        {
+          "name": "Astral Skin+",
+          "stat": "Armor Penetration",
+          "bonus": 21300,
+          "is_skin_plus": true,
+          "evolution_priority": "Medium"
+        }
+      ],
+      "class_skill": {
+        "class": "Control",
+        "name": "Control Slow & Damage Reduction",
+        "level": 45,
+        "overall_class_level": "450/450",
+        "effect": "Upon completion of a control effect, slows the same target by 30% and reduces its total physical damage for 4 seconds. Cannot trigger on the same target more than once every 10 seconds. Damage reduced by 9270.45 (1% Mag.atk. + 9000) or 10379.58 (1% Phys.atk. + 9000), whichever stat is higher."
+      },
+      "glyphs": [
+        {
+          "name": "Physical Attack",
+          "level": 80,
+          "bonus": 8340,
+          "evolution_priority": "Very High"
+        },
+        {
+          "name": "Health",
+          "level": 80,
+          "bonus": 122800,
+          "evolution_priority": "High"
+        },
+        {
+          "name": "Toughness",
+          "level": 80,
+          "bonus": 4170,
+          "evolution_priority": "High"
+        },
+        {
+          "name": "Armor",
+          "level": 80,
+          "bonus": 12850,
+          "evolution_priority": "Medium"
+        },
+        {
+          "name": "Agility",
+          "level": 80,
+          "bonus": 2110,
+          "evolution_priority": "Medium"
+        }
+      ],
+      "gift_of_the_elements": {
+        "level": 30,
+        "strength": 360,
+        "agility": 720,
+        "intelligence": 360
+      },
+      "synergies": [
+        { "name": "Lian", "reason": "Provided by source list." },
+        { "name": "Satori", "reason": "Provided by source list." },
+        { "name": "Folio", "reason": "Provided by source list." }
+      ],
+      "counters": []
+    }
+  ]
+}
