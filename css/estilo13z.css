@@ -1923,6 +1923,7 @@ td.team-cell span{
     width: 99%;
     max-width: 500px;
     margin: 30px auto; /* centraliza horizontalmente */
+   
     /* border removida */
 }
 .video-wrapper {
