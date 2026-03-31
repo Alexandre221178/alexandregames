@@ -2,6 +2,16 @@
   // Carousel multi-language injector (HWA specific copy)
   const slides = [
     {
+      link: "../../hero-wars-alliance/characters-guide/somna-en.html",
+      src500: "../../hero-wars-alliance/images/hero/somna/somna-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/somna/somna-400px.webp",
+      alt: "Somna Legendary Skills Guide for Hero Wars Alliance",
+      title: "Somna Guide for Hero Wars Alliance",
+      strong: "Somna: Legendary Skills Guide for Hero Wars Alliance",
+      updated: "Updated: March, 2026."
+    },
+
+    {
       link: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html",
       src500: "../../hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-500px.webp",
       src400: "../../hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-400px.webp",
@@ -17,7 +27,7 @@
       src400: "../../hero-wars-alliance/images/hero/lian/lian-400px.webp",
       alt: "Lian Legendary Skills Guide for Hero Wars Alliance",
       title: "Lian Guide for Hero Wars Alliance",
-      strong: "Lian Legendary Guide Skills for Hero Wars Alliance",
+      strong: "Lian: Legendary Skills Guide for Hero Wars Alliance",
       updated: "Updated: March, 2026."
     },
     
@@ -167,6 +177,7 @@
     pt: {
       updatedPrefix: 'Atualizado:',
       map: {
+        'Legendary Skills Guide for Hero Wars Alliance': 'Guia de Habilidades Lendárias para Hero Wars Alliance',
         'Complete Talisman Guide 2026 for Hero Wars Alliance': 'Guia Completo de Talismãs 2026 para Hero Wars Alliance',
         'Realm Tier List Guide for Hero Wars Alliance': 'Guia da Tier List do Reino para Hero Wars Alliance',
         'Miu Legendary Guide Skills for Hero Wars Alliance': 'Guia de Habilidades Lendárias da Miu para Hero Wars Alliance',
@@ -187,6 +198,7 @@
     es: {
       updatedPrefix: 'Actualizado:',
       map: {
+        'Legendary Skills Guide for Hero Wars Alliance': 'Guía de Habilidades Legendarias para Hero Wars Alliance',
         'Complete Talisman Guide 2026 for Hero Wars Alliance': 'Guía Completa de Talismáns 2026 para Hero Wars Alliance',
         'Realm Tier List Guide for Hero Wars Alliance': 'Guía de la Lista de Niveles del Reino para Hero Wars Alliance',
         'Miu Legendary Guide Skills for Hero Wars Alliance': 'Guía de Habilidades Legendarias de Miu para Hero Wars Alliance',
@@ -207,6 +219,7 @@
     fr: {
       updatedPrefix: 'Mis à jour:',
       map: {
+        'Legendary Skills Guide for Hero Wars Alliance': 'Guide des Compétences Légendaires pour Hero Wars Alliance',
         'Complete Talisman Guide 2026 for Hero Wars Alliance': 'Guide Complet des Talismans 2026 pour Hero Wars Alliance',
         'Realm Tier List Guide for Hero Wars Alliance': 'Guide de la Liste des Niveaux du Royaume pour Hero Wars Alliance',
         'Miu Legendary Guide Skills for Hero Wars Alliance': 'Guide des Compétences Légendaires de Miu pour Hero Wars Alliance',
@@ -228,6 +241,7 @@
  de: {
       updatedPrefix: 'Aktualisiert:',
       map: {
+        'Legendary Skills Guide for Hero Wars Alliance': 'Leitfaden zu Legendären Fähigkeiten für Hero Wars Alliance',
         'Complete Talisman Guide 2026 for Hero Wars Alliance': 'Kompletter Talisman-Leitfaden 2026 für Hero Wars Alliance',
         'Realm Tier List Guide for Hero Wars Alliance': 'Realm-Tier-Liste Leitfaden für Hero Wars Alliance',
         'Miu Legendary Guide Skills for Hero Wars Alliance': 'Leitfaden zu Miu`s legendären Fähigkeiten für Hero Wars Alliance',
@@ -249,6 +263,7 @@
     ja: {
       updatedPrefix: '更新:',
       map: {
+        'Legendary Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスの伝説スキルガイド',
         'Complete Talisman Guide 2026 for Hero Wars Alliance': 'ヒーローウォーズ アライアンス完全タリスマンガイド2026',
         'Lian Legendary Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのリアン伝説スキルガイド',
         'Lian Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのリアンガイド',
