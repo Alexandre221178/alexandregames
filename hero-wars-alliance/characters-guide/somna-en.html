@@ -158,38 +158,118 @@
     This guide covers everything you need to know about using Somna strategically in <em>Hero Wars Alliance</em>: her role, synergy, where to get her, and why she's a must-have against the most broken hero in the game.
   </p>
 </div>
+	
 
 <section>
   <div class="content-wrapper">
-  <p>Check out the full video about <strong>Somna</strong>: The TRUTH About Somna’s Sleep and Silence Powers below. <strong>The technical summary and stat tables are right after the video.</strong></p>
-</div>
-  <div class="video-container">
-    <div class="video-wrapper2" style="aspect-ratio: 16 / 9; position: relative; background: #000;">
-        <iframe class="video-iframe"
-          style="width: 100%; height: 100%; border: none;"
-          loading="lazy"
-          srcdoc="<style>
-            * { padding: 0; margin: 0; overflow: hidden; }
-            img, svg { position: absolute; width: 100%; top: 0; bottom: 0; margin: auto; }
-            svg { filter: drop-shadow(1px 1px 10px rgba(0,0,0,0.8)); transition: all 250ms ease-in-out; width: 64px; height: 64px; left: 50%; transform: translate(-50%, -50%); }
-            body:hover svg { transform: translate(-50%, -50%) scale(1.2); stroke: #ff0000; }
-          </style>
-        <a href='https://www.youtube.com/embed/ZWx064Nf0wM?autoplay=1'>
-          <img src='https://img.youtube.com/vi/ZWx064Nf0wM/maxresdefault.jpg' alt='The TRUTH About Somna’s Sleep and Silence Powers - Hero Wars Alliance' title='The TRUTH About Somna’s Sleep and Silence Powers - Hero Wars Alliance'>
-          <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'></circle><polygon points='10 8 16 12 10 16 10 8'></polygon></svg>
-        </a>"
-          src="https://www.youtube.com/embed/ZWx064Nf0wM"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-      </iframe>
-    </div>
-    <figcaption class="video-caption"><strong>Video: The TRUTH About Somna’s Sleep and Silence Powers - Hero Wars Alliance</strong></figcaption>
-    <i>🔊 🔊 Multi-language audio (English primary) with subtitles! </i>
-
-	
+    <p>
+      Check out the full video about <strong>Somna</strong>: The TRUTH About Somna’s Sleep and Silence Powers below.
+      <strong>The technical summary and stat tables are right after the video.</strong>
+    </p>
   </div>
-  <p>Below, check the technical data about <strong>Somna</strong> that complements the video:</p>
+
+  <div class="video-container">
+
+    <!-- Lazy Video -->
+    <div class="video-wrapper2 video-lazy" data-id="ZWx064Nf0wM">
+      <img 
+        src="https://img.youtube.com/vi/ZWx064Nf0wM/maxresdefault.jpg"
+        alt="The TRUTH About Somna’s Sleep and Silence Powers - Hero Wars Alliance"
+        class="video-thumb"
+        loading="lazy"
+      >
+      <button class="video-play">▶</button>
+    </div>
+
+    <!-- SEO Link -->
+    <p>
+      <a href="https://www.youtube.com/watch?v=ZWx064Nf0wM" target="_blank" rel="noopener">
+        ▶ Watch this video on YouTube
+      </a>
+    </p>
+
+    <figcaption class="video-caption">
+      <strong>Video: The TRUTH About Somna’s Sleep and Silence Powers - Hero Wars Alliance</strong>
+    </figcaption>
+
+    <i>🔊 Multi-language audio (English primary) with subtitles!</i>
+
+    <!-- SEO Boost (iframe invisível - opcional mas recomendado) -->
+    <iframe 
+      src="https://www.youtube.com/embed/ZWx064Nf0wM"
+      loading="lazy"
+      style="width:0;height:0;border:0;position:absolute;left:-9999px;"
+      aria-hidden="true">
+    </iframe>
+
+  </div>
 </section>
+
+<!-- Script Lazy -->
+<script>
+document.querySelectorAll('.video-lazy').forEach(el => {
+  el.addEventListener('click', function () {
+    const id = this.dataset.id;
+
+    const iframe = document.createElement('iframe');
+    iframe.setAttribute('src', `https://www.youtube.com/embed/${id}?autoplay=1`);
+    iframe.setAttribute('frameborder', '0');
+    iframe.setAttribute('allowfullscreen', '');
+    iframe.setAttribute('allow', 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture');
+
+    this.innerHTML = '';
+    this.appendChild(iframe);
+  });
+});
+</script>
+
+<!-- CSS -->
+<style>
+.video-wrapper2 {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  cursor: pointer;
+}
+
+.video-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 15px 20px;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+</style>
+
+<!-- Schema SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "The TRUTH About Somna’s Sleep and Silence Powers",
+  "description": "Full breakdown of Somna abilities in Hero Wars Alliance.",
+  "thumbnailUrl": "https://img.youtube.com/vi/ZWx064Nf0wM/maxresdefault.jpg",
+  "uploadDate": "2026-03-30",
+  "embedUrl": "https://www.youtube.com/embed/ZWx064Nf0wM",
+  "contentUrl": "https://www.youtube.com/watch?v=ZWx064Nf0wM"
+}
+</script>
 
 <!-- TABLE OF CONTENTS -->
 <div class="content-wrapper">
