@@ -44,7 +44,13 @@
 <meta name="twitter:site" content="@1alexandregames">
 <meta name="twitter:creator" content="@1alexandregames">
 
-    
+<!-- pre-load img thumb youtube -->
+<link rel="preload" as="image"
+  href="https://img.youtube.com/vi/ZWx064Nf0wM/maxresdefault.jpg"
+  imagesrcset="
+    https://img.youtube.com/vi/ZWx064Nf0wM/hqdefault.jpg 480w,
+    https://img.youtube.com/vi/ZWx064Nf0wM/maxresdefault.jpg 1280w" imagesizes="(max-width: 600px) 480px, 1280px">
+<!-- pre-load img thumb youtube -->  
     <link rel="apple-touch-icon" sizes="180x180" href="../../imagens/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../../imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../imagens/favicon-16x16.png">
@@ -162,39 +168,35 @@
 
  
     <div class="video-container">
-    <!-- Lazy Video -->
-    <div class="video-wrapper2 video-lazy" data-id="ZWx064Nf0wM">
-      <img 
-        src="https://img.youtube.com/vi/ZWx064Nf0wM/maxresdefault.jpg"
-        alt="The TRUTH About Somna’s Sleep and Silence Powers - Hero Wars Alliance"
-        class="video-thumb"
-        loading="lazy"
-      >
-      <button class="video-play">▶</button>
-    </div>
+  <div class="video-wrapper2 video-lazy" data-id="ZWx064Nf0wM">
 
-    <!-- SEO Link -->
-    <p>
-      <a href="https://www.youtube.com/watch?v=ZWx064Nf0wM" target="_blank" rel="noopener">
-        ▶ Watch this video on YouTube
-      </a>
-    </p>
-
-    <figcaption class="video-caption">
-      <strong>Video: The TRUTH About Somna’s Sleep and Silence Powers - Hero Wars Alliance</strong>
-    </figcaption>
-
-    <i>🔊 Multi-language audio (English primary) with subtitles!</i>
-
-    <!-- SEO Boost (iframe invisível - opcional mas recomendado) -->
-    <iframe 
-      src="https://www.youtube.com/embed/ZWx064Nf0wM"
-      loading="lazy"
-      style="width:0;height:0;border:0;position:absolute;left:-9999px;"
-      aria-hidden="true">
-    </iframe>
-
+    <!-- ✅ Removido loading="lazy", adicionado fetchpriority="high" + srcset responsivo -->
+    <img
+      src="https://img.youtube.com/vi/ZWx064Nf0wM/hqdefault.jpg"
+      srcset="
+        https://img.youtube.com/vi/ZWx064Nf0wM/hqdefault.jpg 480w,
+        https://img.youtube.com/vi/ZWx064Nf0wM/maxresdefault.jpg 1280w
+      "
+      sizes="(max-width: 600px) 480px, 1280px"
+      alt="The TRUTH About Somna's Sleep and Silence Powers - Hero Wars Alliance"
+      class="video-thumb"
+      fetchpriority="high"
+      decoding="async"
+      width="1280"
+      height="720"
+    >
+    <button class="video-play" aria-label="Play video">▶</button>
   </div>
+  <p>
+    <a href="https://www.youtube.com/watch?v=ZWx064Nf0wM" target="_blank" rel="noopener">
+      ▶ Watch this video on YouTube
+    </a>
+  </p>
+  <figcaption class="video-caption">
+    <strong>Video: The TRUTH About Somna's Sleep and Silence Powers - Hero Wars Alliance</strong>
+  </figcaption>
+  <i>🔊 Multi-language audio (English primary) with subtitles!</i>
+</div> 
 </section>
 
 <!-- Script Lazy -->
