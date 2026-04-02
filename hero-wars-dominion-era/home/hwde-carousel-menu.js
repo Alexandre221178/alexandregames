@@ -1,6 +1,16 @@
 (function(){
   // Carousel multi-language injector (HWDE specific copy)
   const slides = [
+
+    {
+      link: "../../hero-wars-dominion-era/characters/fluffy-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/fluffy/fluffy-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/fluffy/fluffy-400px.webp",
+      alt: "Fluffy for Hero Wars: Dominion Era",
+      title: "Fluffy for Hero Wars: Dominion Era.",
+      strong: "Fluffy (Updated - Masquerade Skin) - Hero Wars: Dominion Era",
+      updated: "Updated: April, 2026."
+    },
         
     {
       link: "../../hero-wars-dominion-era/characters/byrna-en.html",
@@ -9,7 +19,7 @@
       alt: "Byrna Guide for Hero Wars: Dominion Era",
       title: "Byrna Guide for Hero Wars: Dominion Era.",
       strong: "Byrna Guide - Hero Wars: Dominion Era",
-      updated: "Updated: March, 2026."
+      updated: "Updated: April, 2026."
     },
 
         
@@ -22,17 +32,7 @@
       strong: "Best Meta Teams and Combos - Hero Wars: Dominion Era 2026",
       updated: "Updated: March, 2026."
     },
-    
-    {
-      link: "../../hero-wars-dominion-era/characters/fluffy-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/fluffy/fluffy-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/fluffy/fluffy-400px.webp",
-      alt: "Fluffy for Hero Wars: Dominion Era",
-      title: "Fluffy for Hero Wars: Dominion Era.",
-      strong: "Fluffy - Hero Wars: Dominion Era",
-      updated: "Updated: April, 2026."
-    },
-     
+       
         
     {
       link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
@@ -55,26 +55,31 @@
       'Best Meta Teams and Combos':'Melhores Times e Combos',
       'Mushy and Shroom':'Cogu e Mélio',
       'Mushy & Shroom':'Cogu e Mélio',
+      'Updated':'Atualizado',
     }},
     es: {updatedPrefix: 'Actualizado:', map: {'Guide':'Guía','Best Teams':'Mejores Equipos','Stay updated':'Mantente al día','Redeem your Daily Gifts':'Canjea tus Regalos Diarios','Event':'Evento',
       'Best Meta Teams and Combos':'Mejores Equipos y Combos',
       'Mushy and Shroom':'Mushy y Shroom',
       'Mushy & Shroom':'Mushy y Shroom',
+      'Updated':'Actualizado',
     }},
     fr: {updatedPrefix: 'Mis à jour:', map: {'Guide':'Guide','Best Teams':'Meilleures équipes','Stay updated':'Restez informé','Redeem your Daily Gifts':'Échangez vos Cadeaux Quotidiens','Event':'Événement',
       'Best Meta Teams and Combos':'Meilleures Équipes et Combos',
       'Mushy and Shroom':'Champi et Gnon',
       'Mushy & Shroom':'Champi et Gnon',
+      'Updated':'Mis à jour',
     }},
     de: {updatedPrefix: 'Aktualisiert:', map: {'Guide':'Leitfaden','Best Teams':'Beste Teams','Stay updated':'Bleiben Sie informiert','Redeem your Daily Gifts':'Löse deine täglichen Geschenke ein','Event':'Event',
       'Best Meta Teams and Combos':'Beste Meta-Teams und Combos',
       'Mushy and Shroom':'Champi und Gnon',
       'Mushy & Shroom':'Champi und Gnon',
+      'Updated':'Aktualisiert',
     }},
     ja: {updatedPrefix: '更新:', map: {'Guide':'ガイド','Best Teams':'ベストチーム','Stay updated':'最新情報をチェック','Redeem your Daily Gifts':'毎日のギフトを受け取る','Event':'イベント',
       'Best Meta Teams and Combos':'ベストメタチームとコンボ',
       'Mushy and Shroom':'マッシーとシュルーム',
-      'Mushy & Shroom':'マッシーとシュルーム'
+      'Mushy & Shroom':'マッシーとシュルーム',
+      'Updated':'更新',
     }},
     
   };
