@@ -7,7 +7,7 @@
       src400: "../../hero-wars-alliance/images/hero/somna/somna-400px.webp",
       alt: "Somna Legendary Skills Guide for Hero Wars Alliance",
       title: "Somna Guide for Hero Wars Alliance",
-      strong: "Somna:(Updated - Skin+) Legendary Skills Guide for Hero Wars Alliance",
+      strong: "Somna: New Skin+ - Legendary Skills Guide for Hero Wars Alliance",
       updated: "Updated: March, 2026."
     },
 
@@ -193,7 +193,7 @@
         'everyday': 'todos os dias',
         'monthly': 'mensalmente',
         'Calendar': 'Calendário',
-        'Updated:': 'Atualizado:',
+        'New': 'Nova',
       }
     },
     es: {
@@ -215,7 +215,7 @@
         'everyday': 'todos los días',
         'monthly': 'mensalmente',
         'Calendar': 'Calendario',
-        'Updated:': 'Actualizado:',
+        'New': 'Nueva',
       }
     },
     fr: {
@@ -237,7 +237,7 @@
         'everyday': 'tous les jours',
         'monthly': 'mensuellement',
         'Calendar': 'Calendrier',
-        'Updated:': 'Mis à jour:',
+        'New': 'Nouvelle',
       }
     },
 
@@ -261,7 +261,7 @@
         'everyday': 'täglich',
         'monthly': 'monatlich',
         'Calendar': 'Kalender',
-        'Updated:': 'Aktualisiert:',
+        'New': 'Neu',
       }
     },
     ja: {
@@ -311,7 +311,7 @@
         'monthly': '毎月',
         'Calendar': 'カレンダー',
         'hero wars alliance': 'ヒーローウォーズ アライアンス',
-        'Updated:': '更新日:',
+        'New': '新しい',
       }
     },
    
@@ -364,10 +364,16 @@
 
   function translateUpdated(updated, lang){
     if(!updated) return updated;
-    var parts = updated.split(':');
-    if(parts.length<2) return updated;
-    var rest = parts.slice(1).join(':').trim();
-    var prefix = translations[lang] ? translations[lang].updatedPrefix : translations.en.updatedPrefix;
+    // match patterns like "Updated: ..." or "Updated(skin+): ..." (preserve parenthesis)
+    var m = updated.match(/^\s*(Updated(?:\([^\)]*\))?)\s*:\s*(.*)$/i);
+    if(!m) return applyTranslations(updated, lang);
+    var originalPrefix = m[1]; // e.g. "Updated" or "Updated(skin+)"
+    var rest = m[2] || '';
+    var basePrefix = translations[lang] ? translations[lang].updatedPrefix : translations.en.updatedPrefix;
+    // ensure basePrefix has no trailing colon, then re-add and preserve any parentheses from original
+    var baseNoColon = (basePrefix || '').replace(/:$/, '');
+    var paren = (originalPrefix.match(/^Updated(\([^\)]*\))?$/i) || [])[1] || '';
+    var prefix = baseNoColon + (paren || '') + ':';
     // replace English month names with localized if we have terms JSON
     if(hwaTermsLocalization){
       try{
