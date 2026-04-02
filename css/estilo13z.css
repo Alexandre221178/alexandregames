@@ -1953,45 +1953,38 @@ td.team-cell span{
 
 /* --- Estilo Otimizado 2026 para Alexandre Games --- */
 
- .video-wrapper2 {
-      position: relative;
-      width: 100%;
-      /* Aumentamos para 900px para o vídeo ficar imponente no PC */
-      max-width: 900px; 
-      margin: 20px auto;
-      
-      /* Substituímos o padding-bottom pelo aspect-ratio nativo */
-      /* Isso é o que garante CLS ZERO absoluto em 2026 */
-      aspect-ratio: 16 / 9; 
-      
-      background-color: #000;
-      cursor: pointer;
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Sombra para destacar do fundo */
-    }
-
-    /* Ajuste para que a imagem de capa (maxresdefault) preencha tudo */
-    .video-wrapper2 img {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      object-fit: cover;
-      transition: transform 0.5s ease;
-    }
-
-    /* Efeito visual de zoom ao passar o mouse na thumb */
-    .video-wrapper2:hover img {
-      transform: scale(1.05);
-    }
-    
 .video-wrapper2 {
-    margin-top: 20px;
-    margin-bottom: 5px; /* Deixa quase encostado na legenda */
-    /* ... mantenha o restante do código anterior ... */
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  cursor: pointer;
 }
+
+.video-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 15px 20px;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+
 
 /* Ajusta a legenda para subir um pouco e ficar alinhada */
 .video-caption {

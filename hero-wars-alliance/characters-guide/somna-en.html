@@ -192,60 +192,6 @@
   </figcaption>
   <i>🔊 Multi-language audio (English primary) with subtitles!</i>
 </div> 
-</section>
-
-<!-- Script Lazy -->
-<script>
-document.querySelectorAll('.video-lazy').forEach(el => {
-  el.addEventListener('click', function () {
-    const id = this.dataset.id;
-
-    const iframe = document.createElement('iframe');
-    iframe.setAttribute('src', `https://www.youtube.com/embed/${id}?autoplay=1`);
-    iframe.setAttribute('frameborder', '0');
-    iframe.setAttribute('allowfullscreen', '');
-    iframe.setAttribute('allow', 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture');
-
-    this.innerHTML = '';
-    this.appendChild(iframe);
-  });
-});
-</script>
-
-<!-- CSS -->
-<style>
-.video-wrapper2 {
-  position: relative;
-  aspect-ratio: 16 / 9;
-  background: #000;
-  cursor: pointer;
-}
-
-.video-thumb {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.video-play {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 40px;
-  background: rgba(0,0,0,0.6);
-  color: white;
-  border: none;
-  border-radius: 50%;
-  padding: 15px 20px;
-}
-
-iframe {
-  width: 100%;
-  height: 100%;
-}
-</style>
-
 <!-- Schema SEO -->
 <script type="application/ld+json">
 {
@@ -254,11 +200,12 @@ iframe {
   "name": "The TRUTH About Somna’s Sleep and Silence Powers",
   "description": "Full breakdown of Somna abilities in Hero Wars Alliance.",
   "thumbnailUrl": "https://img.youtube.com/vi/ZWx064Nf0wM/maxresdefault.jpg",
-  "uploadDate": "2026-03-30",
+  "uploadDate": "2025-08-04T12:00:00-03:00",
   "embedUrl": "https://www.youtube.com/embed/ZWx064Nf0wM",
   "contentUrl": "https://www.youtube.com/watch?v=ZWx064Nf0wM"
 }
 </script>
+</section>
 
 <!-- second half retirar melhora - pagespeed test</div>       
 <div id="second-half" class="hidden"> --> 
@@ -1449,6 +1396,7 @@ Somna is a powerful addition to Hero Wars Alliance, offering strong crowd contro
     <script src="../../alex-java/share-global-en.js" defer></script>
     <script src="../../alex-java/translate07-en.js" defer></script>
     <script src="../../alex-java/author-en.js" defer></script>
+    <script src="../../alex-java/youtube.js" defer></script>
     <!--<script src="../../alex-java/carousel-slide.js" defer></script>-->
 
     <script>
