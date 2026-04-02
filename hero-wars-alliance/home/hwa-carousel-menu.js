@@ -7,7 +7,7 @@
       src400: "../../hero-wars-alliance/images/hero/somna/somna-400px.webp",
       alt: "Somna Legendary Skills Guide for Hero Wars Alliance",
       title: "Somna Guide for Hero Wars Alliance",
-      strong: "Somna: Legendary Skills Guide for Hero Wars Alliance",
+      strong: "Somna:(Updated - Skin+) Legendary Skills Guide for Hero Wars Alliance",
       updated: "Updated: March, 2026."
     },
 
@@ -193,6 +193,7 @@
         'everyday': 'todos os dias',
         'monthly': 'mensalmente',
         'Calendar': 'Calendário',
+        'Updated:': 'Atualizado:',
       }
     },
     es: {
@@ -214,6 +215,7 @@
         'everyday': 'todos los días',
         'monthly': 'mensalmente',
         'Calendar': 'Calendario',
+        'Updated:': 'Actualizado:',
       }
     },
     fr: {
@@ -235,6 +237,7 @@
         'everyday': 'tous les jours',
         'monthly': 'mensuellement',
         'Calendar': 'Calendrier',
+        'Updated:': 'Mis à jour:',
       }
     },
 
@@ -258,6 +261,7 @@
         'everyday': 'täglich',
         'monthly': 'monatlich',
         'Calendar': 'Kalender',
+        'Updated:': 'Aktualisiert:',
       }
     },
     ja: {
@@ -307,6 +311,7 @@
         'monthly': '毎月',
         'Calendar': 'カレンダー',
         'hero wars alliance': 'ヒーローウォーズ アライアンス',
+        'Updated:': '更新日:',
       }
     },
    
