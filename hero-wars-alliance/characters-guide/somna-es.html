@@ -49,6 +49,13 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../../imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../imagens/favicon-16x16.png">
     <link rel="manifest" href="../../imagens/site.webmanifest">
+<!-- pre-load img thumb youtube -->
+<link rel="preload" as="image"
+  href="https://img.youtube.com/vi/ZWx064Nf0wM/maxresdefault.jpg"
+  imagesrcset="
+    https://img.youtube.com/vi/ZWx064Nf0wM/hqdefault.jpg 480w,
+    https://img.youtube.com/vi/ZWx064Nf0wM/maxresdefault.jpg 1280w" imagesizes="(max-width: 600px) 480px, 1280px">
+<!-- pre-load img thumb youtube -->  
 
          <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-P90XK71HW9"></script>
@@ -64,6 +71,27 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
      crossorigin="anonymous"></script>
 
+
+     <style>
+  .content-wrapper {
+   margin: 10px;
+  }
+  .content-wrapper p {
+    font-family: Arial, sans-serif;
+    font-size: 18px; /* tamanho padrão (mobile) */
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+    color: #000000;
+     margin-left: 13px !important;
+  }
+  /* A partir de 768px (telas de PC e tablets maiores) */
+  @media (min-width: 768px) {
+    .content-wrapper p {
+      font-size: 22px;
+      margin-left: 13px
+    }
+  }
+</style>    
 <!--
 <pre> 
    ┌──────▀▀▀▀ ▀▀─────────────── ██ ──────────────────────▀▀▄▄▄  ▄▄▄───── ─┐
@@ -86,7 +114,7 @@
  <div class="container">
 <div id="menu-container"></div><!-- Contêiner do menu -->
 <script src="../../alex-java/nav13-global-es.js" defer></script>
-<script src="../../alex-java/lazy-load.js"></script>
+
       
   
   <header>          
@@ -110,40 +138,6 @@
 </div>
 </header>
 
-<div class="ad-fold-container">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
-     crossorigin="anonymous"></script>
-<!-- hero wars alliance guide articles counter, tierlist -->
-<ins class="adsbygoogle"
-     style="display:block; width:100%; height:auto;"
-     data-ad-client="ca-pub-7838775403194689"
-     data-ad-slot="5891786274"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
-
-<!-- second half retirar melhora - pagespeed test</div> -->        
-<div id="second-half" class="hidden">
-<!-- second half retirar </div> -->  
- <style>
-  .content-wrapper p {
-    font-family: Arial, sans-serif;
-    font-size: 18px; /* tamanho padrão (mobile) */
-    line-height: 1.5;
-    margin: 0 0 1em 0;
-    color: #000000;
-  }
-
-  /* A partir de 768px (telas de PC e tablets maiores) */
-  @media (min-width: 768px) {
-    .content-wrapper p {
-      font-size: 22px;
-    }
-  }
-</style> 
 
 <div class="content-wrapper">
   <p>
@@ -161,35 +155,72 @@
 
 <section>
   <div class="content-wrapper">
-  <p>Mira el video completo sobre <strong>Somna</strong>: La VERDAD Sobre los Poderes de Sueño y Silencio de Somna a continuación. <strong>El resumen técnico y las tablas de estadísticas están justo después del video.</strong></p>
-</div>
-  <div class="video-container">
-    <div class="video-wrapper2" style="aspect-ratio: 16 / 9; position: relative; background: #000;">
-        <iframe class="video-iframe"
-          style="width: 100%; height: 100%; border: none;"
-          loading="lazy"
-          srcdoc="<style>
-            * { padding: 0; margin: 0; overflow: hidden; }
-            img, svg { position: absolute; width: 100%; top: 0; bottom: 0; margin: auto; }
-            svg { filter: drop-shadow(1px 1px 10px rgba(0,0,0,0.8)); transition: all 250ms ease-in-out; width: 64px; height: 64px; left: 50%; transform: translate(-50%, -50%); }
-            body:hover svg { transform: translate(-50%, -50%) scale(1.2); stroke: #ff0000; }
-          </style>
-        <a href='https://www.youtube.com/embed/ZWx064Nf0wM?autoplay=1'>
-          <img src='https://img.youtube.com/vi/ZWx064Nf0wM/maxresdefault.jpg' alt='The TRUTH About Somna’s Sleep and Silence Powers - Hero Wars Alliance' title='The TRUTH About Somna’s Sleep and Silence Powers - Hero Wars Alliance'>
-          <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'></circle><polygon points='10 8 16 12 10 16 10 8'></polygon></svg>
-        </a>"
-          src="https://www.youtube.com/embed/ZWx064Nf0wM"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-      </iframe>
-    </div>
-    <figcaption class="video-caption"><strong>Video: La VERDAD Sobre los Poderes de Sueño y Silencio de Somna - Hero Wars Alliance</strong></figcaption>
-    <i>🔊 🔊 ¡Audio multilingüe (inglés principal) con subtítulos! </i>
+    <p>
+      Mira abajo el video completo sobre <strong>Somna</strong>: La VERDAD sobre los poderes de Sueño y Silencio de Somna.
+      <strong>El resumen técnico y las tablas de estadísticas están justo después del video.</strong>
+    </p>
+  </div> 
+    <div class="video-container">
+  <div class="video-wrapper2 video-lazy" data-id="ZWx064Nf0wM">
 
-	
+    <img
+      src="https://img.youtube.com/vi/ZWx064Nf0wM/hqdefault.jpg"
+      srcset="
+        https://img.youtube.com/vi/ZWx064Nf0wM/hqdefault.jpg 480w,
+        https://img.youtube.com/vi/ZWx064Nf0wM/maxresdefault.jpg 1280w
+      "
+      sizes="(max-width: 600px) 480px, 1280px"
+      alt="La VERDAD sobre los poderes de Sueño y Silencio de Somna - Hero Wars Alliance"
+      class="video-thumb"
+      fetchpriority="high"
+      decoding="async"
+      width="1280"
+      height="720"
+    >
+    <button class="video-play" aria-label="Reproducir vídeo">▶</button>
   </div>
-  <p>A continuación, consulta los datos técnicos sobre <strong>Somna</strong> que complementan el video:</p>
+  <p>
+    <a href="https://www.youtube.com/watch?v=ZWx064Nf0wM" target="_blank" rel="noopener">
+      ▶ Ver este video en YouTube
+    </a>
+  </p>
+  <figcaption class="video-caption">
+    <strong>Video: La VERDAD sobre los poderes de Sueno y Silencio de Somna - Hero Wars Alliance</strong>
+  </figcaption>
+  <i>🔊 Audio multilingüe (inglés principal) con subtítulos!</i>
+</div> 
+<!-- Schema SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "La VERDAD sobre los poderes de Sueño y Silencio de Somna",
+  "description": "Desglose completo de las habilidades de Somna en Hero Wars Alliance.",
+  "thumbnailUrl": "https://img.youtube.com/vi/ZWx064Nf0wM/maxresdefault.jpg",
+  "uploadDate": "2025-08-04T12:00:00-03:00",
+  "embedUrl": "https://www.youtube.com/embed/ZWx064Nf0wM",
+  "contentUrl": "https://www.youtube.com/watch?v=ZWx064Nf0wM"
+}
+</script>
 </section>
+
+<!-- second half retirar melhora - pagespeed test</div>       
+<div id="second-half" class="hidden"> --> 
+<!-- second half retirar </div> -->  
+<div class="ad-fold-container">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
+     crossorigin="anonymous"></script>
+<!-- hero wars alliance after video ads -->
+<ins class="adsbygoogle"
+     style="display:block; width:100%; height:auto;"
+     data-ad-client="ca-pub-7838775403194689"
+     data-ad-slot="28258154004"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
 
 <!-- TABLE OF CONTENTS -->
 <div class="content-wrapper">
@@ -1359,6 +1390,7 @@ Somna es una adición poderosa a Hero Wars Alliance, ofreciendo fuerte control d
     <script src="../../alex-java/share-global-es.js" defer></script>
     <script src="../../alex-java/translate07-es.js" defer></script>
     <script src="../../alex-java/author-es.js" defer></script>
+      <script src="../../alex-java/youtube.js" defer></script>
     <!--<script src="../../alex-java/carousel-slide.js" defer></script>-->
 
     <script>
