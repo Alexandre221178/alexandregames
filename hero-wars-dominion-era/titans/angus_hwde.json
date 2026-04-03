@@ -1,0 +1,135 @@
+{
+  "name": "Angus",
+  "name_role": "Protector of the Nature",
+  "game": "Hero Wars: Dominion Era",
+  "position": 5,
+  "element": "Earth",
+  "roles": ["tank"],
+  "obtention": "Circle of Summoning",
+  "basic_attack": {
+    "value": 454783,
+    "type": "100% physical attack"
+  },
+  "stats": {
+    "health": 18839544,
+    "power": 222010,
+    "attack": 454783,
+    "elemental_attack": 709635,
+    "elemental_armor": 146547
+  },
+  "skills": [
+    {
+      "name": "Anger of the Earth",
+      "type": "ultimate",
+      "color": "white",
+      "description": "Strikes everyone on the opposing team with roots that shoots up from the ground, dealing 409,305 damage per second for 8s. Cannot attack when using the skill.",
+      "damage_per_second": 409305,
+      "duration_seconds": 8,
+      "target": "all enemies",
+      "notes": "Cannot attack when using the skill"
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": {
+        "health": 1022985,
+        "power": 5217
+      },
+      "upgrade_cost": {
+        "titan_skin_stone": 354960
+      }
+    },
+    {
+      "name": "Champion Skin",
+      "stats": {
+        "elemental_armor": 49065,
+        "power": 15651
+      },
+      "upgrade_cost": {
+        "titan_skin_stone": 364585
+      }
+    },
+    {
+      "name": "Mechanical Skin",
+      "stats": {
+        "elemental_damage": 230160,
+        "power": 15650
+      },
+      "upgrade_cost": {
+        "titan_skin_stone": 364585
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "Andvari's Fists",
+      "stats": {
+        "elemental_damage": 479475,
+        "power": 32604
+      },
+      "upgrade_cost": {
+        "essence_of_the_elements": 686080,
+        "emeralds": 68608,
+        "andvaris_fists_fragment": 18400
+      }
+    },
+    {
+      "name": "Earth Crown",
+      "stats": {
+        "elemental_armor": 97482,
+        "power": 31096
+      },
+      "upgrade_cost": {
+        "essence_of_the_elements": 686080,
+        "emeralds": 68608,
+        "earth_crown_fragment": 18400
+      }
+    },
+    {
+      "name": "Defense Seal",
+      "stats": {
+        "health": 5593676,
+        "physical_attack": 179805,
+        "power": 40754
+      },
+      "upgrade_cost": {
+        "gold": 173005000,
+        "emeralds": 68608,
+        "defense_seal_fragment": 18400
+      }
+    },
+    {
+      "name": "Earth Spirit Totem",
+      "stats": {
+        "health": 3995583,
+        "power": 20377
+      },
+      "upgrade_cost": {
+        "bronze_guild_war_trophy": 1394,
+        "emeralds": 303938,
+        "silver_guild_war_trophy": 6945,
+        "gold_guild_war_trophy": 25303,
+        "earth_spirit_totem_fragment": 6
+      }
+    }
+  ],
+  "levels": {
+    "stats": {
+      "health": 8208578,
+      "physical_attack": 274212,
+      "power": 60510
+    },
+    "upgrade_cost": {
+      "titan_potion": 1009660,
+      "emeralds": 201932,
+      "angus_soul_stone": 3130
+    },
+    "alexandre_informations": {
+      "angus_pvp": "em batalha, quando angus usa sua skill utimate ele causa bastante dano em area, isso torna dele nao so um tanque forte mas um causador de dano.",
+      "angus_dungeon": "Angus é muito forte para masmorras, guardar usa ultimate carregada de energia para causar dano em area na proxima sala da masmorra é uma tecnica muito boa para eliminar os times de agua rapidamente em salas elementais terra vs agua na massmora, isso torna o Angus o principal tanque do elemento terra para masmorras, mesmo Eden sendo um suber titan do time de terras ainda angus é o principal para masmorras quando Eden não estiver carregado.",
+      "angus_sinergias": "como tanque principal do elemento terra angus se sai muito bem com aliados da terra, agora com a chegada de Verdoc aumentando a chance de o toten ativar com 2 aliados da para usar angus mais verdoc em varias composicoes de times de titans misturados"
+      
+    }
+  }
+}
