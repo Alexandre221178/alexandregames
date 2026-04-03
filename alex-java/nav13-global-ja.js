@@ -158,6 +158,11 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="https://alexandregames.com/Hero%20Wars/articles-herowars/tierlist-en-pvp-herowars.html">🏆 ベストティアリスト</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-en-hwa.html">👥 ベストチームガイド</a>
         <a href="https://alexandregames.com/hero-wars-alliance/guide/counter-en-herowarsalliance.html">🎯 カウンターガイド</a>
+        <a class="expandable-menu" onclick="toggleSubmenu(event, 'realm')">🏰 レルム</a>
+        <div id="realm" class="submenu-items">
+            <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-ja.html">レルム完全ガイド</a>
+            <a href="https://alexandregames.com/hero-wars-alliance/tier-list-hwa/realm-tier-list-ja.html">レルムティアリスト</a>
+        </div>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-review-en-hwa.html">🎨 レビュー・ヒント・戦略</a>
         <a href="https://alexandregames.com/Hero%20Wars%20English/Titans%20Guide%20Hero%20Wars.html">⚔️ タイタンガイド</a>
         <br><br><br><br>

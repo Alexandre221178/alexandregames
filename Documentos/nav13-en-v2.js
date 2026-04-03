@@ -87,10 +87,13 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-en-hwa.html">👥 Best Teams Guide</a>
         <a href="https://alexandregames.com/hero-wars-alliance/guide/counter-en-herowarsalliance.html">🎯 Counters Guide</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-review-en-hwa.html">🎨 Skins Reviews</a>
-
+<a class="expandable-menu" onclick="toggleSubmenu(event, 'realm')">🏰 Realm</a>
+        <div id="realm" class="submenu-items">
+            <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-en.html">Realm Complete Guide</a>
+            <a href="https://alexandregames.com/hero-wars-alliance/tier-list-hwa/realm-tier-list-en.html">Realm Tier List</a>
+        </div>
          <a href="https://alexandregames.com/Hero%20Wars%20English/Titans%20Guide%20Hero%20Wars.html">⚔️ Titans Guide</a>
-        <a href="https://alexandregames.com/hero-wars-alliance/event-hwa/herosway-en-hwa.html">🛤️ The Hero's Way</a>  
-
+       
         
         <br><br><br><br>
         
