@@ -2,6 +2,15 @@
   // Carousel multi-language injector (HWA specific copy)
   const slides = [
     {
+      link: "../../hero-wars-alliance/events-tips-hwa/lian-astral-reflections-skin-plus-en.html",
+      src500: "../../hero-wars-alliance/images/events-tips-hwa/lian-astral-reflections-skin-plus/lian-astral-reflections-skin-plus-500px.webp",
+      src400: "../../hero-wars-alliance/images/events-tips-hwa/lian-astral-reflections-skin-plus/lian-astral-reflections-skin-plus-400px.webp",
+      alt: "Lian Astral Reflections Skin+ Guide for Hero Wars Alliance",
+      title: "Lian Astral Reflections Skin+ for Hero Wars Alliance",
+      strong: "Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance",
+      updated: "Updated: April, 2026."
+    },
+    {
       link: "../../hero-wars-alliance/characters-guide/lian-en.html",
       src500: "../../hero-wars-alliance/images/hero/lian/lian-500px.webp",
       src400: "../../hero-wars-alliance/images/hero/lian/lian-400px.webp",
@@ -188,6 +197,8 @@
     pt: {
       updatedPrefix: 'Atualizado:',
       map: {
+      strong: "Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance",
+        'Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance': 'Guia do Evento Lian Astral Reflections Skin+ - O que Comprar? (Inglês) para Hero Wars Alliance',
         'Legendary Skills Guide for Hero Wars Alliance': 'Guia de Habilidades Lendárias para Hero Wars Alliance',
         'Complete Talisman Guide 2026 for Hero Wars Alliance': 'Guia Completo de Talismãs 2026 para Hero Wars Alliance',
         'Realm Tier List Guide for Hero Wars Alliance': 'Guia da Tier List do Reino para Hero Wars Alliance',
@@ -210,6 +221,7 @@
     es: {
       updatedPrefix: 'Actualizado:',
       map: {
+        'Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance': 'Guía del Evento Lian Astral Reflections Skin+ - ¿Qué Comprar? (Inglés) para Hero Wars Alliance',
         'Legendary Skills Guide for Hero Wars Alliance': 'Guía de Habilidades Legendarias para Hero Wars Alliance',
         'Complete Talisman Guide 2026 for Hero Wars Alliance': 'Guía Completa de Talismáns 2026 para Hero Wars Alliance',
         'Realm Tier List Guide for Hero Wars Alliance': 'Guía de la Lista de Niveles del Reino para Hero Wars Alliance',
@@ -232,6 +244,7 @@
     fr: {
       updatedPrefix: 'Mis à jour:',
       map: {
+        'Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance': 'Guide de l’événement Skin+ Reflets Astraux de Lian - Que acheter ? (Anglais) pour Hero Wars Alliance',
         'Legendary Skills Guide for Hero Wars Alliance': 'Guide des Compétences Légendaires pour Hero Wars Alliance',
         'Complete Talisman Guide 2026 for Hero Wars Alliance': 'Guide Complet des Talismans 2026 pour Hero Wars Alliance',
         'Realm Tier List Guide for Hero Wars Alliance': 'Guide de la Liste des Niveaux du Royaume pour Hero Wars Alliance',
@@ -255,7 +268,8 @@
  de: {
       updatedPrefix: 'Aktualisiert:',
       map: {
-        'Legendary Skills Guide for Hero Wars Alliance': 'Leitfaden zu Legendären Fähigkeiten für Hero Wars Alliance',
+        'Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance': 'Leitfaden zum Event „Lian Astral Reflections Skin+“ - Was kaufen? (Englisch) für Hero Wars Alliance',
+      'Legendary Skills Guide for Hero Wars Alliance': 'Leitfaden zu Legendären Fähigkeiten für Hero Wars Alliance',
         'Complete Talisman Guide 2026 for Hero Wars Alliance': 'Kompletter Talisman-Leitfaden 2026 für Hero Wars Alliance',
         'Realm Tier List Guide for Hero Wars Alliance': 'Realm-Tier-Liste Leitfaden für Hero Wars Alliance',
         'Miu Legendary Guide Skills for Hero Wars Alliance': 'Leitfaden zu Miu`s legendären Fähigkeiten für Hero Wars Alliance',
@@ -278,6 +292,7 @@
     ja: {
       updatedPrefix: '更新:',
       map: {
+       'Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance': 'リアン 星界の反射スキン+イベントガイド - 何を買うべき？（英語）Hero Wars Alliance向け',
         'Legendary Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスの伝説スキルガイド',
         'Complete Talisman Guide 2026 for Hero Wars Alliance': 'ヒーローウォーズ アライアンス完全タリスマンガイド2026',
         'Lian Legendary Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのリアン伝説スキルガイド',
