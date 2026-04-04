@@ -2,13 +2,31 @@
   // Carousel multi-language injector (HWA specific copy)
   const slides = [
     {
+      link: "../../hero-wars-alliance/characters-guide/lian-en.html",
+      src500: "../../hero-wars-alliance/images/hero/lian/lian-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/lian/lian-400px.webp",
+      alt: "Lian Legendary Skills Guide for Hero Wars Alliance",
+      title: "Lian Guide for Hero Wars Alliance",
+      strong: "Lian: New Skin+ - Legendary Skills Guide for Hero Wars Alliance",
+      updated: "Updated: April, 2026."
+    },
+    {
+      link: "../../hero-wars-alliance/characters-guide/folio-guide-hwa-en.html",
+      src500: "../../hero-wars-alliance/images/hero/folio/folio-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/folio/folio-400px.webp",
+      alt: "Folio Legendary Skills Guide for Hero Wars Alliance",
+      title: "Folio Guide for Hero Wars Alliance",
+      strong: "Folio: New Skin - Legendary Skills Guide for Hero Wars Alliance",
+      updated: "Updated: April, 2026."
+    },
+    {
       link: "../../hero-wars-alliance/characters-guide/somna-en.html",
       src500: "../../hero-wars-alliance/images/hero/somna/somna-500px.webp",
       src400: "../../hero-wars-alliance/images/hero/somna/somna-400px.webp",
       alt: "Somna Legendary Skills Guide for Hero Wars Alliance",
       title: "Somna Guide for Hero Wars Alliance",
       strong: "Somna: New Skin+ - Legendary Skills Guide for Hero Wars Alliance",
-      updated: "Updated: March, 2026."
+      updated: "Updated: April, 2026."
     },
 
     {
@@ -21,15 +39,8 @@
       updated: "Updated: March, 2026."
     },
     
-    {
-      link: "../../hero-wars-alliance/characters-guide/lian-en.html",
-      src500: "../../hero-wars-alliance/images/hero/lian/lian-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/lian/lian-400px.webp",
-      alt: "Lian Legendary Skills Guide for Hero Wars Alliance",
-      title: "Lian Guide for Hero Wars Alliance",
-      strong: "Lian: Legendary Skills Guide for Hero Wars Alliance",
-      updated: "Updated: March, 2026."
-    },
+    
+    
     
     {
       link: "../../hero-wars-alliance/tier-list-hwa/realm-tier-list-en.html",
