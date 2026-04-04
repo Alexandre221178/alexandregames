@@ -1,0 +1,298 @@
+{
+    "game": "Hero Wars Alliance",
+    "heroes": [
+        {
+            "id": "folio",
+            "name": "Folio",
+            "gender": "male",
+            "folio_description": "Knowledge is everything for this living magical book. The power of spells hidden within it is devastating.",
+            "role": ["Mage"],
+            "main_class": "Mage",
+            "position": "Middle Line",
+            "level": 120,
+            "main_stat": "Intelligence",
+            "equipment_rank": 16,
+            "way": "Way of Mystery",
+            
+            "best_synergy": ["Somna", "Byrna", "Electra", "Lian", "Miu", "Polaris"],
+            "stats": {
+                "max_with_talisman_of_knowledge": {
+                    "intelligence": 18123,
+                    "agility": 3325,
+                    "strength": 3535,
+                    "health": 830287,
+                    "physical_attack": 36581,
+                    "magic_attack": 207482,
+                    "physical_armor": 21193.7,
+                    "magical_armor": 39628,
+                    "toughness": 1860,
+                    "magic_penetration": 48168,
+                    "magical_crit_chance": 4473
+                },
+                "max_with_talisman_of_bookworm": {
+                    "intelligence": 16123,
+                    "agility": 3325,
+                    "strength": 3535,
+                    "health": 830287,
+                    "physical_attack": 34581,
+                    "magic_attack": 181682,
+                    "physical_armor": 34993.7,
+                    "magical_armor": 37628,
+                    "toughness": 8460,
+                    "magic_penetration": 48168,
+                    "magical_crit_chance": 4473
+                }
+            },
+            "talisman_details": {
+                "talisman_of_knowledge": {
+                    "coin_talisman": 0,
+                    "display_name": "Talisman of Knowledge",
+                    "border": {
+                        "level": 50,
+                        "main_stat": "Intelligence",
+                        "main_stat_value": 2000
+                    },
+                    "rerolls": [
+                        { "stat": "magicalAttack", "value": 6600 },
+                        { "stat": "magicalAttack", "value": 6600 },
+                        { "stat": "magicalAttack", "value": 6600 }
+                    ]
+                },
+                "talisman_of_bookworm": {
+                    "coin_talisman": 0,
+                    "display_name": "Talisman of Bookworm",
+                    "border": {
+                        "level": 50,
+                        "main_stat": "Armor",
+                        "main_stat_value": 12000
+                    },
+                    "rerolls": [
+                        { "stat": "toughness", "value": 2200 },
+                        { "stat": "toughness", "value": 2200 },
+                        { "stat": "toughness", "value": 2200 }
+                    ]
+                }
+            },
+            "skills": [
+                {
+                    "id": 1,
+                    "variant": "base",
+                    "level": 120,
+                    "name": "Inkblot",
+                    "type": ["Magical Damage", "Area"],
+                    "description": "Creates a Blot above the center of the enemy team which grows for 5.0 seconds and then crashes, dealing increasing area magical damage.",
+                    "animation_delay_seconds": 0.75,
+                    "duration_seconds": 5,
+                    "area": 120,
+                    "range": 3000,
+                    "min_damage": "160945.6 (80% Mag.atk. + 15600)",
+                    "max_damage": "423364 (200% Mag.atk. + 60000)"
+                },
+                {
+                    "id": 1,
+                    "variant": "legendary",
+                    "relic_level": 10,
+                    "name": "Ancient Scriptures (Inkblot enhancement)",
+                    "description": "Skill damage increases every 0.25 seconds while charging. Final skill damage is increased.",
+                    "animation_delay_seconds": 0.75,
+                    "duration_seconds": 5,
+                    "area": 120,
+                    "range": 3000
+                },
+                {
+                    "id": 2,
+                    "variant": "base",
+                    "level": 120,
+                    "name": "Ancient Scriptures",
+                    "type": ["Magic Damage", "Control"],
+                    "description": "Covers a nearby enemy with Ancient Writings for 4.0 seconds dealing 44736.4 (20% Mag.atk. + 8400) and preventing movement. When it ends, the target and nearby enemies take 193682 (100% Mag.atk. + 12000).",
+                    "cooldown_seconds": 9,
+                    "animation_delay_seconds": 1.4,
+                    "duration_seconds": 4,
+                    "area": 90,
+                    "range": 3000,
+                    "damage_on_use": "44736.4 (20% Mag.atk. + 8400)",
+                    "damage_on_end": "193682 (100% Mag.atk. + 12000)"
+                },
+                {
+                    "id": 3,
+                    "variant": "base",
+                    "level": 100,
+                    "name": "Ink Copy",
+                    "type": ["Summon", "Support"],
+                    "description": "Creates an Ink Copy in front of allies. The Copy has 84% of Folio's Health, Magic penetration, and Magic Attack, with bonuses per allied Mystery hero. The Copy has 0 Armor and Magic Defense and grants 10 Energy to nearby allies when attacked.",
+                    "initial_cooldown_seconds": 4,
+                    "cooldown_seconds": 32,
+                    "animation_delay_seconds": 1.0,
+                    "area": 160,
+                    "range": 3000,
+                    "hits": 10,
+                    "copy_pct": 84,
+                    "bonus_per_mystery_hero_pct": 36,
+                    "bonus_energy_on_attack": 10
+                },
+                {
+                    "id": 3,
+                    "variant": "legendary",
+                    "relic_level": 20,
+                    "name": "Curse of Knowledge (Ink Copy enhancement)",
+                    "description": "Now Ink Copy receives all damage instead of Folio and can be healed and buffed while alive.",
+                    "initial_cooldown_seconds": 4,
+                    "cooldown_seconds": 32,
+                    "animation_delay_seconds": 1.0
+                },
+                {
+                    "id": 4,
+                    "variant": "base",
+                    "level": 80,
+                    "name": "Curse of Knowledge",
+                    "type": ["Debuff", "Control"],
+                    "description": "For 16.0 seconds steals 7010.46 (3% Mag.atk. + 1560) Intelligence from the enemy with the highest Intelligence. Once the effect ends, all enemies are drawn to the target.",
+                    "cooldown_seconds": 12,
+                    "initial_cooldown_seconds": 1,
+                    "animation_delay_seconds": 1.55,
+                    "duration_seconds": 16,
+                    "range": 3000,
+                    "steal_intelligence": "7010.46 (3% Mag.atk. + 1560)"
+                },
+                {
+                    "id": 5,
+                    "variant": "legendary",
+                    "relic_level": 1,
+                    "name": "Echo Chant",
+                    "type": ["Periodic", "Magic Damage"],
+                    "description": "Casts a spell every few seconds dealing damage to an enemy. With each cast, Critical Hit Chance and the skill's damage increase.",
+                    "duration_seconds": 16,
+                    "range": 3000,
+                    "hits": 15,
+                    "damage_increase": "63588.7 (35% Mag.atk.)",
+                    "crit_chance_increase_percent": 15
+                },
+                {
+                    "id": 6,
+                    "variant": "legendary",
+                    "relic_level": 30,
+                    "name": "Know-It-All",
+                    "type": ["Passive"],
+                    "description": "Increased damage from attacks and abilities against enemies with lower Intelligence than Folio. If Folio's Intelligence is higher than the enemy's, Folio’s attack and skills damage is increased by 10%.",
+                    "damage_multiplier_percent": 10
+                }
+            ],
+
+                "realm": {
+                "troop_buff": "Spearmen",
+                "realm_buff": "Attack/Defense 120%",
+                "skills": [
+                    {
+                        "id": 1,
+                        "name": "Clumsy Blast",
+                        "level": 5,
+                        "description": "Folio unleashes a clumsy blast of concentrated energy that weakens enemies, reducing damage dealt by enemy spearmen by 12%.",
+                        "effect": "Reduce Spearmen damage by 12%"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Ancient Runes",
+                        "level": 5,
+                        "description": "Folio tricks and confuses his enemies. All troops’ attacks have a 50% chance to apply a curse that increases damage enemies take by 13% for 1 turn.",
+                        "effect": "50% chance to apply +13% damage taken for 1 turn"
+                    }
+                ]
+            },
+
+            "skins": [
+                {
+                    "name": "Default",
+                    "stat": "Intelligence",
+                    "bonus": 0,
+                 
+                    "derived": { "intelligence": 1365 }
+                },
+                {
+                    "name": "Winter Skin+",
+                    "stat": "Magic penetration",
+                    "bonus": 21300,                  
+                    "level": 60
+                },
+                {
+                    "name": "Masquerade",
+                    "stat": "Health",
+                    "bonus": 106645,
+                    "level": 60
+                },
+                {
+                    "name": "Solar",
+                    "stat": "Magic attack",
+                    "bonus": 10650,
+                
+                    "level": 60
+                },
+                {
+                    "name": "Devil",
+                    "stat": "Magical crit hit chance",
+                    "bonus": 2960,
+              
+                    "level": 60
+                },
+                {
+                    "name": "Astral",
+                    "stat": "Armor",
+                    "bonus": 10650,
+               
+                    "level": 60
+                }
+            ],
+            "artifacts": [
+                {
+                    "name": "Archmage's feather",
+                    "slot": "Weapon",
+                    "bigStar": true,
+                    "evolve": 6,
+                    "level": 100,
+                    "activation_chance": "100%",
+                    "effect": "Magic attack +32040"
+                },
+                {
+                    "name": "Manuscript of the Void",
+                    "slot": "Book",
+                    "bigStar": true,
+                    "evolve": 6,
+                    "level": 100,
+                    "effect": "Magic penetration +10680, Magic attack +5340"
+                },
+                {
+                    "name": "Ring of Intelligence",
+                    "slot": "Ring",
+                    "bigStar": true,
+                    "evolve": 6,
+                    "level": 100,
+                    "intelligence": 3990
+                }
+            ],
+            "glyphs": {
+                "class": "Mage",
+                "runesphere": 0,
+                "folio3": 45,
+                "mage_class_level": "495 / 495",
+                "mage_class_glyphs_bonuses": "The mage starts the battle with 347 energy. When using any ability other than the first one and the regular attack, the mage gains an additional 99 energy.",
+                "glyphs_level": 80,
+                "list": [
+                    { "name": "Magic attack", "level": 80, "bonus": 12850 },
+                    { "name": "Health", "level": 80, "bonus": 122800 },
+                    { "name": "Magic defense", "level": 80, "bonus": 12850 },
+                    { "name": "Magic penetration", "level": 80, "bonus": 12850 },
+                    { "name": "Intelligence", "level": 80, "bonus": 2110 }
+                ]
+            },
+            "gift_of_the_elements": {
+                "level": 30,
+                "bonuses": { "strength": 360, "agility": 360, "intelligence": 720 }
+            },
+            "notes": [
+                "Folio é um mage de linha média com ênfase em Inteligência e dano mágico em área.",
+                "Synergy recomendada: Somna, Byrna, Electra, Lian, Miu, Polaris.",
+                "Talisman recomendado 2nd para glifos no level máximo ou reliquias, level baixo recomendado talisman 1."
+            ]
+        }
+    ]
+}
