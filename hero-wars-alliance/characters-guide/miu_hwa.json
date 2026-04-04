@@ -5,6 +5,7 @@
 			"id": "miu",
 			"name": "Miu",
 			"gender": "female",
+			"miu_description": "Miu Support. Miu blinds everyone with lightning, empowering allies and punishing enemies.",
 			"role": ["Support"],
 			"main_class": "Support",
 			"position": "Back Line",
