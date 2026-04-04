@@ -1,6 +1,7 @@
 (function(){
   // Carousel multi-language injector (HWA specific copy)
   const slides = [
+    
     {
       link: "../../hero-wars-alliance/events-tips-hwa/lian-astral-reflections-skin-plus-en.html",
       src500: "../../hero-wars-alliance/images/events-tips-hwa/lian-astral-reflections-skin-plus/lian-astral-reflections-skin-plus-500px.webp",
@@ -8,6 +9,15 @@
       alt: "Lian Astral Reflections Skin+ Guide for Hero Wars Alliance",
       title: "Lian Astral Reflections Skin+ for Hero Wars Alliance",
       strong: "Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance",
+      updated: "Updated: April, 2026."
+    },
+    {
+      link: "../../hero-wars-alliance/event-special-hwa/miu-season-adventure-shop-en.html",
+      src500: "../../hero-wars-alliance/images/events-special-hwa/miu-adventure-shop/miu-adventure-shop-500px.webp",
+      src400: "../../hero-wars-alliance/images/events-special-hwa/miu-adventure-shop/miu-adventure-shop-400px.webp",
+      alt: "Miu Adventure Shop Tips - What to Buy | Hero Wars Alliance",
+      title: "Miu Adventure Shop Tips for Hero Wars Alliance",
+      strong: "Miu Adventure Shop Tips - What to Buy? (English) for Hero Wars Alliance",
       updated: "Updated: April, 2026."
     },
     {
@@ -216,6 +226,8 @@
         'monthly': 'mensalmente',
         'Calendar': 'Calendário',
         'New': 'Nova',
+        'Adventure Shop Tips': 'Dicas da Loja de Aventura',
+        'What to Buy?': 'O que Comprar?',
       }
     },
     es: {
@@ -239,6 +251,8 @@
         'monthly': 'mensalmente',
         'Calendar': 'Calendario',
         'New': 'Nueva',
+        'Adventure Shop Tips': 'Consejos de la Tienda de Aventura',
+        'What to Buy?': '¿Qué Comprar?',
       }
     },
     fr: {
@@ -262,6 +276,8 @@
         'monthly': 'mensuellement',
         'Calendar': 'Calendrier',
         'New': 'Nouvelle',
+        'Adventure Shop Tips': 'Conseils de la Boutique d\'Aventure',
+        'What to Buy?': 'Que Acheter?',
       }
     },
 
@@ -287,6 +303,8 @@
         'monthly': 'monatlich',
         'Calendar': 'Kalender',
         'New': 'Neu',
+        'Adventure Shop Tips': 'Abenteuerladen Tipps',
+        'What to Buy?': 'Was soll man kaufen?',
       }
     },
     ja: {
@@ -338,6 +356,8 @@
         'Calendar': 'カレンダー',
         'hero wars alliance': 'ヒーローウォーズ アライアンス',
         'New': '新しい',
+        'Adventure Shop Tips': 'アドベンチャーショップのヒント',
+        'What to Buy?': '何を買うべき？',
       }
     },
    
