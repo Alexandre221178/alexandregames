@@ -18,6 +18,8 @@
     "update-byrna-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide byrna",
     "update-dante-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide dante",
     "update-drayne-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide drayne",
+    "update-folio-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide folio",
+  
     "update-leonel-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide leonel",
     "update-lian-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide lian",
 

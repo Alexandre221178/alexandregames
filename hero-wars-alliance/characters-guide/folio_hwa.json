@@ -13,7 +13,12 @@
             "main_stat": "Intelligence",
             "equipment_rank": 16,
             "way": "Way of Mystery",
-            
+            "crowd_control_(cc)": "⭐⭐⭐⭐",
+            "damage_output": "⭐⭐⭐⭐⭐",
+            "team_synergy": "⭐⭐⭐⭐⭐",
+            "self_sufficiency": "⭐⭐⭐⭐⭐",
+            "hydra_tier_list": "A",
+            "hero_tier_list": "S+",
             "best_synergy": ["Somna", "Byrna", "Electra", "Lian", "Miu", "Polaris"],
             "stats": {
                 "max_with_talisman_of_knowledge": {

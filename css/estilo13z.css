@@ -1921,17 +1921,22 @@ td.team-cell span{
 /* inicio video youtube 2024  */
 .video-container {
     width: 99%;
-    max-width: 500px;
+    max-width: 800px;
     margin: 30px auto; /* centraliza horizontalmente */
-   
     /* border removida */
+    
+}
+.video-thumb {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 .video-wrapper {
     position: relative;
     padding-bottom: 49.5%;
     height: 0;
     overflow: hidden;
-}
+    }
 .video-iframe {
     position: absolute;
     bottom: 0;
@@ -1949,6 +1954,7 @@ td.team-cell span{
     width: 100%;
 }
 
+
 /* fim video youtube 2024  */
 
 /* --- Estilo Otimizado 2026 para Alexandre Games --- */
@@ -1959,24 +1965,36 @@ td.team-cell span{
   background: #000;
   cursor: pointer;
 }
-
+.video-wrapper2 iframe {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .video-thumb {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
 }
 
 .video-play {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1);
   font-size: 40px;
   background: rgba(0,0,0,0.6);
   color: white;
   border: none;
   border-radius: 50%;
   padding: 15px 20px;
+  transition: transform 0.25s ease, background 0.25s ease;
+}
+
+.video-play:hover {
+  transform: translate(-50%, -50%) scale(1.2);
+  background: rgba(0,0,0,0.8);
 }
 
 iframe {
@@ -2473,7 +2491,7 @@ iframe {
         margin: 5px;
     }
     
-    
+  
     .video-caption {
        
         margin: 5px;
