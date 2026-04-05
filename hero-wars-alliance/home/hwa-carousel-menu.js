@@ -30,7 +30,7 @@
       updated: "Updated: April, 2026."
     },
     {
-      link: "../../hero-wars-alliance/characters-guide/folio-guide-hwa-en.html",
+      link: "../../hero-wars-alliance/characters-guide/folio-en.html",
       src500: "../../hero-wars-alliance/images/hero/folio/folio-500px.webp",
       src400: "../../hero-wars-alliance/images/hero/folio/folio-400px.webp",
       alt: "Folio Legendary Skills Guide for Hero Wars Alliance",
