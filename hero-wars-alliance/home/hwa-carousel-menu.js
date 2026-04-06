@@ -21,14 +21,15 @@
       updated: "Updated: April, 2026."
     },
     {
-      link: "../../hero-wars-alliance/characters-guide/lian-en.html",
-      src500: "../../hero-wars-alliance/images/hero/lian/lian-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/lian/lian-400px.webp",
-      alt: "Lian Legendary Skills Guide for Hero Wars Alliance",
-      title: "Lian Guide for Hero Wars Alliance",
-      strong: "Lian: New Skin+ - Legendary Skills Guide for Hero Wars Alliance",
-      updated: "Updated: April, 2026."
+      link: "../../hero-wars-alliance/characters-guide/miu-en.html",
+      src500: "../../hero-wars-alliance/images/hero/miu/miu-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/miu/miu-400px.webp",
+      alt: "Miu Legendary Skills Guide for Hero Wars Alliance",
+      title: "Miu Guide for Hero Wars Alliance",
+      strong: "Miu Legendary Guide Skills for Hero Wars Alliance",
+      updated: "Updated: March, 2026."
     },
+    
     {
       link: "../../hero-wars-alliance/characters-guide/folio-en.html",
       src500: "../../hero-wars-alliance/images/hero/folio/folio-500px.webp",
@@ -36,6 +37,15 @@
       alt: "Folio Legendary Skills Guide for Hero Wars Alliance",
       title: "Folio Guide for Hero Wars Alliance",
       strong: "Folio: New Skin - Legendary Skills Guide for Hero Wars Alliance",
+      updated: "Updated: April, 2026."
+    },
+    {
+      link: "../../hero-wars-alliance/characters-guide/lian-en.html",
+      src500: "../../hero-wars-alliance/images/hero/lian/lian-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/lian/lian-400px.webp",
+      alt: "Lian Legendary Skills Guide for Hero Wars Alliance",
+      title: "Lian Guide for Hero Wars Alliance",
+      strong: "Lian: New Skin+ - Legendary Skills Guide for Hero Wars Alliance",
       updated: "Updated: April, 2026."
     },
     {
@@ -57,54 +67,15 @@
       strong: "Complete Talisman Guide 2026 for Hero Wars Alliance",
       updated: "Updated: March, 2026."
     },
-    
-    
-    
-    
+     
     {
       link: "../../hero-wars-alliance/tier-list-hwa/realm-tier-list-en.html",
-      src500: "../../hero-wars-alliance/images/tier-list-hwa-img/real-tier-list-500px.webp",
-      src400: "../../hero-wars-alliance/images/tier-list-hwa-img/real-tier-list-400px.webp",
+      src500: "../../hero-wars-alliance/images/tier-list-hwa-img/realm/realm-tier-list-500px.webp",
+      src400: "../../hero-wars-alliance/images/tier-list-hwa-img/realm/realm-tier-list-400px.webp",
       alt: "Realm Tier List Guide for Hero Wars Alliance",
       title: "Realm Tier List Guide for Hero Wars Alliance",
       strong: "Realm Tier List Guide for Hero Wars Alliance",
       updated: "Updated: March, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/characters-guide/miu-en.html",
-      src500: "../../hero-wars-alliance/images/hero/miu/miu-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/miu/miu-400px.webp",
-      alt: "Miu Legendary Skills Guide for Hero Wars Alliance",
-      title: "Miu Guide for Hero Wars Alliance",
-      strong: "Miu Legendary Guide Skills for Hero Wars Alliance",
-      updated: "Updated: March, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/guide/meta-teams-and-combos-en.html",
-      src500: "../../hero-wars-alliance/images/guides/meta-teams-and-combos/meta-teams-and-combos-500px.webp",
-      src400: "../../hero-wars-alliance/images/guides/meta-teams-and-combos/meta-teams-and-combos-400px.webp",
-      alt: "Meta Teams and Combos Guide for Hero Wars Alliance",
-      title: "Meta Teams and Combos Guide for Hero Wars Alliance",
-      strong: "Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance",
-      updated: "Updated: March, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/characters-guide/oya-en.html",
-      src500: "../../hero-wars-alliance/images/hero/oya/oya-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/oya/oya-400px.webp",
-      alt: "Oya Legendary Skills Guide for Hero Wars Alliance",
-      title: "Oya Guide for Hero Wars Alliance",
-      strong: "Oya Legendary Guide Skills for Hero Wars Alliance",
-      updated: "Updated: March, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/characters-guide/byrna-en.html",
-      src500: "../../hero-wars-alliance/images/hero/byrna/byrna-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/byrna/byrna-400px.webp",
-      alt: "Byrna Legendary Skills Guide for Hero Wars Alliance",
-      title: "Byrna Guide for Hero Wars Alliance",
-      strong: "Byrna Legendary Guide Skills Guide for Hero Wars Alliance (skin+)",
-      updated: "Updated(skin+): March, 2026."
     },
     {
       link: "../../hero-wars-alliance/guide/realm-en.html",
@@ -115,6 +86,28 @@
       strong: "Complete Realm Mode Guide for Hero Wars Alliance",
       updated: "Updated: March, 2026."
     },
+     
+    
+    {
+      link: "../../hero-wars-alliance/guide/meta-teams-and-combos-en.html",
+      src500: "../../hero-wars-alliance/images/guides/meta-teams-and-combos/meta-teams-and-combos-500px.webp",
+      src400: "../../hero-wars-alliance/images/guides/meta-teams-and-combos/meta-teams-and-combos-400px.webp",
+      alt: "Meta Teams and Combos Guide for Hero Wars Alliance",
+      title: "Meta Teams and Combos Guide for Hero Wars Alliance",
+      strong: "Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance",
+      updated: "Updated: March, 2026."
+    },
+    
+    {
+      link: "../../hero-wars-alliance/characters-guide/byrna-en.html",
+      src500: "../../hero-wars-alliance/images/hero/byrna/byrna-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/byrna/byrna-400px.webp",
+      alt: "Byrna Legendary Skills Guide for Hero Wars Alliance",
+      title: "Byrna Guide for Hero Wars Alliance",
+      strong: "Byrna Legendary Guide Skills Guide for Hero Wars Alliance (skin+)",
+      updated: "Updated(skin+): March, 2026."
+    },
+   
     {
       link: "../../hero-wars-alliance/characters-guide/leonel-en.html",
       src500: "../../hero-wars-alliance/images/hero/leonel/leonel-500px.webp",
@@ -123,61 +116,8 @@
       title: "Leonel Guide for Hero Wars Alliance",
       strong: "Leonel Legendary Guide Skills Guide for Hero Wars Alliance",
       updated: "Updated: February, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/characters-guide/alvanor-en.html",
-      src500: "../../hero-wars-alliance/images/hero/alvanor/alvanor-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/alvanor/alvanor-400px.webp",
-      alt: "Alvanor Legendary Skills Guide for Hero Wars Alliance",
-      title: "Alvanor Guide for Hero Wars Alliance",
-      strong: "Alvanor Complete Legendary Skills Guide for Hero Wars Alliance",
-      updated: "Updated: February, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/titans-guide/umbra-en.html",
-      src500: "../../hero-wars-alliance/images/titans/umbra/umbra-500px.webp",
-      src400: "../../hero-wars-alliance/images/titans/umbra/umbra-400px.webp",
-      alt: "Umbra Titan Guide for Hero Wars Alliance",
-      title: "Umbra Titan Guide for Hero Wars Alliance",
-      strong: "Umbra Titan Guide: Master the Darkness Summoner for Hero Wars Alliance",
-      updated: "Updated: February, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/characters-guide/dante-en.html",
-      src500: "../../hero-wars-alliance/images/hero/dante/dante-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/dante/dante-400px.webp",
-      alt: "Dante Legendary Skills Guide for Hero Wars Alliance",
-      title: "Dante Guide for Hero Wars Alliance",
-      strong: "Dante Complete Legendary Skills Guide for Hero Wars Alliance",
-      updated: "Updated: January, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/characters-guide/drayne-en.html",
-      src500: "../../hero-wars-alliance/images/hero/drayne/drayne-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/drayne/drayne-400px.webp",
-      alt: "Drayne Guide for Hero Wars Alliance",
-      title: "Drayne Guide for Hero Wars Alliance",
-      strong: "Drayne Complete Guide for Hero Wars Alliance",
-      updated: "Updated: January, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/characters-guide/yasmine-en.html",
-      src500: "../../hero-wars-alliance/images/hero/yasmine/yasmine-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/yasmine/yasmine-400px.webp",
-      alt: "Yasmine Guide for Hero Wars Alliance",
-      title: "Yasmine Guide for Hero Wars Alliance",
-      strong: "Yasmine Legendary Relic Complete Guide for Hero Wars Alliance",
-      updated: "Updated: January, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/characters-guide/byrna-en.html",
-      src500: "../../hero-wars-alliance/images/hero/byrna/byrna-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/byrna/byrna-400px.webp",
-      alt: "Byrna Guide for Hero Wars Alliance",
-      title: "Byrna Guide for Hero Wars Alliance",
-      strong: "Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance",
-      updated: "Updated: February, 2026."
-    },
+    },        
+    
     {
       link: "../../hero-wars-alliance/menu-hwa/calendar-hwa-en.html",
       src500: "../../img-HWM/events-img/herowarsalliance-calendar-500px.webp",
