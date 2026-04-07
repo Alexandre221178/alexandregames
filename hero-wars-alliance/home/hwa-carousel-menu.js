@@ -1,16 +1,17 @@
 (function(){
   // Carousel multi-language injector (HWA specific copy)
   const slides = [
-    
+
     {
-      link: "../../hero-wars-alliance/events-tips-hwa/lian-astral-reflections-skin-plus-en.html",
-      src500: "../../hero-wars-alliance/images/events-tips-hwa/lian-astral-reflections-skin-plus/lian-astral-reflections-skin-plus-500px.webp",
-      src400: "../../hero-wars-alliance/images/events-tips-hwa/lian-astral-reflections-skin-plus/lian-astral-reflections-skin-plus-400px.webp",
-      alt: "Lian Astral Reflections Skin+ Guide for Hero Wars Alliance",
-      title: "Lian Astral Reflections Skin+ for Hero Wars Alliance",
-      strong: "Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance",
+      link: "../../hero-wars-alliance/guide/books-of-boosters-en.html",
+      src500: "../../hero-wars-alliance/images/guides/book-of-boosters/boosters-500px.webp",
+      src400: "../../hero-wars-alliance/images/guides/book-of-boosters/boosters-400px.webp",
+      alt: "Boosters Guide: EXP, Skill & Evolution Books – Hero Wars Alliance",
+      title: "Boosters Guide: EXP, Skill & Evolution Books – Hero Wars Alliance",
+      strong: "Complete Boosters Guide: EXP, Skill & Evolution Books – Hero Wars Alliance",
       updated: "Updated: April, 2026."
     },
+    
     {
       link: "../../hero-wars-alliance/event-special-hwa/miu-season-adventure-shop-en.html",
       src500: "../../hero-wars-alliance/images/events-special-hwa/miu-adventure-shop/miu-adventure-shop-500px.webp",
