@@ -12,6 +12,7 @@
   })();
 
   var IMG = BASE + '/hero-wars-alliance/images/events/shared/';
+  var ALEXANDREGAMES_LOGO = IMG + 'alexandregames-75px.webp';
 
   // ─── REWARD PRESETS ──────────────────────────────────────
   var PRESETS = {
@@ -254,6 +255,25 @@
     return map[lang] || map.en || '';
   }
 
+  function titleCaseFromSlug(value) {
+    return String(value || '')
+      .replace(/\.[^.]+$/, '')
+      .split('-')
+      .filter(Boolean)
+      .map(function (part) {
+        if (/^\d+[a-z]*$/i.test(part)) return part;
+        return part.charAt(0).toUpperCase() + part.slice(1);
+      })
+      .join(' ');
+  }
+
+  function parseAlexandreGamesLabel(preset) {
+    var match = String(preset || '').match(/^alexandre\s*games(?:\s+|$)(.+)?$/i) ||
+      String(preset || '').match(/^alexandregames(?:\s+|$)(.+)?$/i);
+    if (!match) return '';
+    return String(match[1] || '').trim();
+  }
+
   function formatDate(date, lang) {
     return new Date(date + 'T12:00:00').toLocaleDateString(LOCALES[lang] || LOCALES.en, { month: 'long', day: 'numeric' });
   }
@@ -295,17 +315,39 @@
       var p = PRESETS[r.preset];
       return { image: IMG + p.img, alt: p.alt, titles: p.titles, qty: r.qty, qtyText: r.qtyText };
     }
+    if (r.preset) {
+      var alexandreGamesLabel = parseAlexandreGamesLabel(r.preset);
+      if (alexandreGamesLabel) {
+        return {
+          image: ALEXANDREGAMES_LOGO,
+          alt: 'Alexandre Games',
+          titles: { en: alexandreGamesLabel },
+          qty: r.qty,
+          qtyText: r.qtyText
+        };
+      }
+    }
+    if (r.preset) {
+      var fallbackTitle = titleCaseFromSlug(r.preset);
+      return {
+        image: IMG + r.preset + '.webp',
+        alt: fallbackTitle,
+        titles: { en: fallbackTitle },
+        qty: r.qty,
+        qtyText: r.qtyText
+      };
+    }
     return r;
   }
 
   function renderRewardCell(raw, lang) {
     var c = resolveReward(raw);
-    var title = t(c.titles, lang);
-    var qtySuffix = c.qtyText ? c.qtyText : 'x' + c.qty;
+    var title = t(c.titles, lang) || c.alt || titleCaseFromSlug(c.preset);
+    var qtySuffix = c.qtyText ? c.qtyText : 'x' + (c.qty || 1);
     var label = title + ' ' + qtySuffix;
     var gameName = GAME_NAME[lang] || GAME_NAME.en;
     return '<td><div class="reward-cell">' +
-      '<img src="' + escapeHtml(c.image) + '" alt="' + escapeHtml(c.alt || title) + '" title="' + escapeHtml(title) + ' - ' + escapeHtml(gameName) + '" loading="lazy">' +
+      '<img src="' + escapeHtml(c.image || '') + '" alt="' + escapeHtml(c.alt || title) + '" title="' + escapeHtml(title) + ' - ' + escapeHtml(gameName) + '" loading="lazy">' +
       '<span>' + escapeHtml(label) + '</span>' +
       '</div></td>';
   }
