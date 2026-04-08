@@ -30,11 +30,13 @@
   For unknown new gifts use: 'alexandregames NAME x1' or 'alexandre games NAME x1'
   The component will use the Alexandre Games logo and display only NAME
 */
+// npm run update-gifts-hwa
 
 window.HWA_GIFTS = [
 
 // ── April 8, 2026 ──────────────────────────────
- 
+ { date:'2026-04-08', type:'daily', mission:'2-3', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
   // ── April 7, 2026 ──────────────────────────────
   { date:'2026-04-07', type:'hub', code:'RUGIFT04', note:'hub24h',
