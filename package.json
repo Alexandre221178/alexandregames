@@ -9,6 +9,8 @@
     "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "update-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js",
+    "update-gifts-hwa": "node hero-wars-alliance/update-data-menu-hwa.js ag-daily-gifts-hwa gifts-hwa",
+
     "update-calendar-hwa": "node hero-wars-alliance/update-data-menu-hwa.js menu-hwa calendar-hwa",
     "update-realm-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide realm",
     "update-talisman-guide-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide talisman-guide",

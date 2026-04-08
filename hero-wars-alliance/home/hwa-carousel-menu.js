@@ -129,7 +129,7 @@
       updated: "Updated: Monthly."
     },
     {
-      link: "../../y-m-gifts-hwa-en.html",
+      link: "../../hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-en.html",
       src500: "../../hero-wars-alliance/images/daily-gifts/gifts-hwa-500px.webp",
       src400: "../../hero-wars-alliance/images/daily-gifts/gifts-hwa-400px.webp",
       alt: "Redeem your Daily Gifts for Hero Wars Alliance",

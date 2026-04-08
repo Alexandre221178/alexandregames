@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <div class="dropdown-content">
     
 <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-en.html">🆕 HWA - Latest Updates</a>
-<a href="https://alexandregames.com/y-m-gifts-hwa-en.html">🎁 HWA Daily Gifts</a>
+<a href="https://alexandregames.com/hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-en.html">🎁 HWA Daily Gifts</a>
 <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/calendar-hwa-en.html">📅 HWA Calendar & Events</a>
 <a href="https://alexandregames.com/Hero%20Wars%20English/Heroes%20Guide%20Hero%20Wars.html">📖 All Characters Guide</a>
 <a href="https://alexandregames.com/hero-wars-alliance/guide/talisman-guide-hwa-en.html">📿 All Talismans Guide</a>

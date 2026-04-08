@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <div class="dropdown-content"><br>
         
     <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-pt.html">🆕 HWA - Atualizações</a>   
-    <a href="https://alexandregames.com/y-m-gifts-hwa-en.html">🎁 HWA - Presentes Diários</a>
+    <a href="https://alexandregames.com/hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-en.html">🎁 HWA - Presentes Diários</a>
     <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/calendar-hwa-pt.html">📅 Calendário & Eventos</a>
         <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-pt.html">💰 Ganhe Descontos</a>
                 <a href="https://alexandregames.com/hero-wars-alliance/guide/counter-en-herowarsalliance.html">🎯 Guia de Counters</a>

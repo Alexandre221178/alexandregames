@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
    <button class="dropbtn"><span class="notranslate">Hero Wars Alliance</span></button>
     <div class="dropdown-content"> <br>                
         <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-fr.html">🆕 HWA - Dernières Mises à Jour</a>
-        <a href="https://alexandregames.com/y-m-gifts-hwa-en.html">🎁 HWA - Cadeaux Quotidiens</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-en.html">🎁 HWA - Cadeaux Quotidiens</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/calendar-hwa-fr.html">📅 HWA - Calendrier et Événements</a>
         <a href="https://alexandregames.com/Hero%20Wars%20English/Heroes%20Guide%20Hero%20Wars.html">📖 Guide des Personnages</a>
         <a href="https://alexandregames.com/hero-wars-alliance/guide/talisman-guide-hwa-fr.html">📿 Guide de Tous les Talismans</a>
