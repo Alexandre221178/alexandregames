@@ -33,8 +33,14 @@
 // npm run update-gifts-hwa
 
 window.HWA_GIFTS = [
+   // ── April 8, 2026 ──────────────────────────────
 
-// ── April 8, 2026 ──────────────────────────────
+   { date:'2026-04-08', type:'special', mission:'3-14', note:'until|2026-04-13T01:00:00Z',
+    rewards:['intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350', 'energy x20', ] },
+
+   { date:'2026-04-08', type:'special', mission:'3-14', note:'until|2026-04-13T01:00:00Z',
+    rewards:['1h-construction-speedup x1', '1h-research-speedup X1', '1h-training-speedup x1', '1h-general-speedup x1', 'world-energy x20', ] },
+   
  { date:'2026-04-08', type:'daily', mission:'2-3', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
