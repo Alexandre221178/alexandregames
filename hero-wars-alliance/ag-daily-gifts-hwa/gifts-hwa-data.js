@@ -7,10 +7,14 @@
 window.HWA_GIFTS = [
   // ── April #, 2026 ──────────────────────────────
 // ── April 9, 2026 ──────────────────────────────
+{ date:'2026-04-09', type:'hub', code:'Asleepsam', note:'custom',
+    customNote:{ en:'The gift is available until... not defined(expired or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
+    rewards:['artifact-chest-key x5', 'energy x100'] },
+   
  { date:'2026-04-09', type:'special', mission:'2-7', note:'until|2026-05-12T05:00:00Z',
     rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
    
-{ date:'2026-04-07', type:'hub', code:'RUGIFT05', note:'hub24h',
+{ date:'2026-04-09', type:'hub', code:'RUGIFT05', note:'hub24h',
     rewards:['large-skin-stone-chest x5', 'energy x1000'] },
    
 { date:'2026-04-09', type:'hub', code:'EASTER2026', note:'custom',
