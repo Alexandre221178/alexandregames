@@ -1,37 +1,9 @@
-/* ╔══════════════════════════════════════════════════════════════════╗
-   ║  DAILY GIFTS — Add newest entries at the TOP                    ║
-   ║  Copy a line, change date / code / mission / rewards            ║
-   ╚══════════════════════════════════════════════════════════════════╝
-
-   TEMPLATES — copy & paste:
-   { date:'YYYY-MM-DD', type:'hub',         code:'CODE',  note:'hub24h',                        rewards:['preset x5'] },
-   { date:'YYYY-MM-DD', type:'hub',         code:'CODE',  note:'hubUntil|DATETIME',             rewards:['preset x5'] },
-   { date:'YYYY-MM-DD', type:'special',     mission:'X-X', note:'until|DATETIME',               rewards:['preset x5'] },
-   { date:'YYYY-MM-DD', type:'specialTask', mission:'X-X', note:'untilLevel|DATETIME|15',       rewards:['preset x5'] },
-   { date:'YYYY-MM-DD', type:'daily',       mission:'X-X', note:'daily|80',                     rewards:['preset x5'] },
-
-   REWARD PRESETS (use these names in the rewards array):
-   energy, gold, large-skin-stone-chest, adventure-coin, adventure-energy,
-   silver-casket, realm-casket, artifact-chest-key, rune-stone,
-   random-resources-chest-1k, 1h-general-speedup, world-energy,
-   strength-skin-stone, intelligence-skin-stone, agility-skin-stone,
-   seers-orb, boxys-gift, realm-gift, summoning-sphere
-
-   NOTE FORMATS:
-   hub24h                        — 24h or undefined expiry
-   hubUntil|2026-04-07T10:00:00Z — hub gift until date
-   until|2026-04-13T01:00:00Z    — reward until date
-   untilLevel|2026-04-13T01:00:00Z|15 — until date, level 15+
-   daily|80                      — daily mission, level 80+
-   custom                        — add customNote:{ en:'...', pt:'...' }
-
-   For expired hub codes add: expired:true
+/*For expired hub codes add: expired:true
    For text qty (like 250k) use: 'gold 250k' instead of 'gold x250'
   For unknown new gifts use: 'alexandregames NAME x1' or 'alexandre games NAME x1'
   The component will use the Alexandre Games logo and display only NAME
+  npm run update-gifts-hwa
 */
-// npm run update-gifts-hwa
-
 window.HWA_GIFTS = [
    // ── April 8, 2026 ──────────────────────────────
 
@@ -145,3 +117,30 @@ window.HWA_GIFTS = [
     rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] }
 
 ];
+/* ╔══════════════════════════════════════════════════════════════════╗
+   ║  DAILY GIFTS — Add newest entries at the TOP                    ║
+   ║  Copy a line, change date / code / mission / rewards            ║
+   ╚══════════════════════════════════════════════════════════════════╝
+
+   TEMPLATES — copy & paste:
+   { date:'YYYY-MM-DD', type:'hub',         code:'CODE',  note:'hub24h',                        rewards:['preset x5'] },
+   { date:'YYYY-MM-DD', type:'hub',         code:'CODE',  note:'hubUntil|DATETIME',             rewards:['preset x5'] },
+   { date:'YYYY-MM-DD', type:'special',     mission:'X-X', note:'until|DATETIME',               rewards:['preset x5'] },
+   { date:'YYYY-MM-DD', type:'specialTask', mission:'X-X', note:'untilLevel|DATETIME|15',       rewards:['preset x5'] },
+   { date:'YYYY-MM-DD', type:'daily',       mission:'X-X', note:'daily|80',                     rewards:['preset x5'] },
+
+   REWARD PRESETS (use these names in the rewards array):
+   energy, gold, large-skin-stone-chest, adventure-coin, adventure-energy,
+   silver-casket, realm-casket, artifact-chest-key, rune-stone,
+   random-resources-chest-1k, 1h-general-speedup, world-energy,
+   strength-skin-stone, intelligence-skin-stone, agility-skin-stone,
+   seers-orb, boxys-gift, realm-gift, summoning-sphere
+
+   NOTE FORMATS:
+   hub24h                        — 24h or undefined expiry
+   hubUntil|2026-04-07T10:00:00Z — hub gift until date
+   until|2026-04-13T01:00:00Z    — reward until date
+   untilLevel|2026-04-13T01:00:00Z|15 — until date, level 15+
+   daily|80                      — daily mission, level 80+
+   custom                        — add customNote:{ en:'...', pt:'...' }
+*/
