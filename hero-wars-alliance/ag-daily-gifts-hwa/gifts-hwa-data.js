@@ -7,6 +7,9 @@
 window.HWA_GIFTS = [
   // ── April #, 2026 ──────────────────────────────
 // ── April 9, 2026 ──────────────────────────────
+{ date:'2026-04-07', type:'hub', code:'RUGIFT05', note:'hub24h',
+    rewards:['large-skin-stone-chest x5', 'energy x1000'] },
+   
 { date:'2026-04-09', type:'hub', code:'EASTER2026', note:'custom',
    customNote:{ en:'The gift is available until April 14 at 9 AM (UTC).', pt:'O presente está disponível até 14 de abril, às 9h (UTC).', es:'El regalo está disponible hasta el 14 de abril a las 9:00 (UTC).', fr:'Le cadeau est disponible jusqu’au 14 avril à 9 h (UTC).', de:'Das Geschenk ist bis zum 14. April um 9:00 Uhr (UTC) verfügbar.', ja:'ギフトは4月14日9:00（UTC）まで利用可能です。' },    rewards:['intelligence-skin-stone x300', 'strength-skin-stone x300', 'agility-skin-stone x300',] },
    
