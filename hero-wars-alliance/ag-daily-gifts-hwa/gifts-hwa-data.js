@@ -7,6 +7,9 @@
 window.HWA_GIFTS = [
   // ── April #, 2026 ──────────────────────────────
 // ── April 9, 2026 ──────────────────────────────
+ { date:'2026-04-09', type:'special', mission:'2-7', note:'until|2026-05-12T05:00:00Z',
+    rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
+   
 { date:'2026-04-07', type:'hub', code:'RUGIFT05', note:'hub24h',
     rewards:['large-skin-stone-chest x5', 'energy x1000'] },
    
