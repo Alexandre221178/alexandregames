@@ -48,5 +48,7 @@ Allow: /
 User-Agent: *
 Allow: /
 
-# SITEMAP
-Sitemap: https://alexandregames.com/sitemap-index.xml
+# SITEMAPS DIRETOS
+Sitemap: https://alexandregames.com/sitemap.xml
+Sitemap: https://alexandregames.com/sitemap-hwa.xml
+Sitemap: https://alexandregames.com/sitemap-hwde.xml
