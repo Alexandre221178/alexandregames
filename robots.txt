@@ -1,6 +1,13 @@
-# robots.txt para Alexandre Games (Versão Anti-IA 2026)
+# robots.txt para Alexandre Games (Versão Otimizada 2026)
 
-# 1. BLOQUEIO DE IAs DE TREINAMENTO E BUSCA (OS "LADRÕES" DE DADOS)
+# 1. PERMISSÃO PRIORITÁRIA PARA MONETIZAÇÃO (Essencial para o RPM)
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+# 2. BLOQUEIO DE IAs DE TREINAMENTO (Sua estratégia original)
 User-agent: GPTBot
 Disallow: /
 
@@ -22,21 +29,22 @@ Disallow: /
 User-agent: PerplexityBot
 Disallow: /
 
-# 2. ESTRATEGIA PARA O GOOGLE (FORÇAR O CLIQUE)
-# Bloqueamos o resumo (snippet) para que o Google não monte a resposta na busca.
+# 3. ESTRATEGIA PARA O GOOGLE BUSCA
 User-agent: Googlebot
 Allow: /
 Allow: /ads.txt
+# Se o RPM continuar baixo, considere remover o nosnippet abaixo. 
+# Ele força o clique, mas prejudica a relevância do anúncio.
 nosnippet: /
 
-# 3. PERMISSÕES PARA OUTROS BUSCADORES E FERRAMENTAS
+# 4. OUTROS BUSCADORES
 User-agent: Bingbot
 Allow: /
 
 User-agent: AhrefsBot
 Allow: /
 
-# 4. REGRA GERAL (PARA O RESTO)
+# 5. REGRA GERAL
 User-Agent: *
 Allow: /
 
