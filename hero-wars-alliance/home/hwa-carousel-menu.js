@@ -1,16 +1,15 @@
 (function(){
   // Carousel multi-language injector (HWA specific copy)
   const slides = [
-
     {
-      link: "../../hero-wars-alliance/guide/books-of-boosters-en.html",
-      src500: "../../hero-wars-alliance/images/guides/book-of-boosters/boosters-500px.webp",
-      src400: "../../hero-wars-alliance/images/guides/book-of-boosters/boosters-400px.webp",
-      alt: "Boosters Guide: EXP, Skill & Evolution Books – Hero Wars Alliance",
-      title: "Boosters Guide: EXP, Skill & Evolution Books – Hero Wars Alliance",
-      strong: "Complete Boosters Guide: EXP, Skill & Evolution Books – Hero Wars Alliance",
+      link: "../../hero-wars-alliance/titans-guide/alecto-en.html",
+      src500: "../../hero-wars-alliance/images/titans/alecto/alecto-500px.webp",
+      src400: "../../hero-wars-alliance/images/titans/alecto/alecto-400px.webp",
+      alt: "Alecto Legendary Skills Guide for Hero Wars Alliance",
+      title: "Titan Alecto Guide for Hero Wars Alliance",
+      strong: "Guide: Titan Alecto for Hero Wars Alliance",
       updated: "Updated: April, 2026."
-    },
+    },    
     
     {
       link: "../../hero-wars-alliance/event-special-hwa/miu-season-adventure-shop-en.html",
@@ -29,6 +28,16 @@
       title: "Miu Guide for Hero Wars Alliance",
       strong: "Miu Legendary Guide Skills for Hero Wars Alliance",
       updated: "Updated: March, 2026."
+    },
+
+    {
+      link: "../../hero-wars-alliance/guide/books-of-boosters-en.html",
+      src500: "../../hero-wars-alliance/images/guides/book-of-boosters/boosters-500px.webp",
+      src400: "../../hero-wars-alliance/images/guides/book-of-boosters/boosters-400px.webp",
+      alt: "Boosters Guide: EXP, Skill & Evolution Books – Hero Wars Alliance",
+      title: "Boosters Guide: EXP, Skill & Evolution Books – Hero Wars Alliance",
+      strong: "Complete Boosters Guide: EXP, Skill & Evolution Books – Hero Wars Alliance",
+      updated: "Updated: April, 2026."
     },
     
     {

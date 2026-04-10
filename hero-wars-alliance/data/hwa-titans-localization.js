@@ -1,6 +1,15 @@
 // Hero Wars Alliance - Titans Localization Data
 // Hero Wars Alliance - Titans Localization Data
 const hwaTitansLocalization = {
+  "Alecto": {
+  "gender": "Female",
+  "en": "Alecto",
+  "de": "Alecto",
+  "es": "Alecto",
+  "fr": "Alecto",
+  "pt": "Alecto",
+  "ja": "アレクト"
+},
   "Sigurd": {
     "gender": "Male",
     "en": "Sigurd",
