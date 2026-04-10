@@ -8,6 +8,9 @@ window.HWA_GIFTS = [
   // ── April #, 2026 ──────────────────────────────
 
 // ── April 10, 2026 ──────────────────────────────
+{ date:'2026-04-10', type:'special', mission:'2-9', note:'until|2026-05-11T05:00:00Z',
+    rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
+   
 { date:'2026-04-10', type:'daily', mission:'2-4', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
