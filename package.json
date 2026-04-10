@@ -31,7 +31,11 @@
     "update-somna-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide somna",
  
     "update-yasmine-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide yasmine",
+    "update-alecto-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide alecto",
+    
     "update-umbra-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide umbra",
+    
+    
     "update-hwa-index-hwa": "node hero-wars-alliance/update-data-menu-hwa.js home hwa-index",
     
       
