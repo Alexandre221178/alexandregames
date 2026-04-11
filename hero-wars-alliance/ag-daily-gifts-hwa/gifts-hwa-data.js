@@ -2,7 +2,7 @@
    For text qty (like 250k) use: 'gold 250k' instead of 'gold x250'
   For unknown new gifts use: 'alexandregames NAME x1' or 'alexandre games NAME x1'
   The component will use the Alexandre Games logo and display only NAME
-  npm run update-gifts-hwa */
+  npm run update-gifts-hwa      */
 // ── April #, 2026 ──────────────────────────────
 window.HWA_GIFTS = [
     // ── April 11, 2026 ──────────────────────────────
