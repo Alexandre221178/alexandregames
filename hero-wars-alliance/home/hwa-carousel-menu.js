@@ -2,6 +2,15 @@
   // Carousel multi-language injector (HWA specific copy)
   const slides = [
     {
+      link: "../../hero-wars-alliance/titans-events-tips/araji-shop-titan-power-en.html",
+      src500: "../../hero-wars-alliance/images/titans-events-tips/araji-shop-titan-power/araji-shop-titan-power-500px.webp",
+      src400: "../../hero-wars-alliance/images/titans-events-tips/araji-shop-titan-power/araji-shop-titan-power-400px.webp",
+      alt: "Araji's Champion Coins shop during the Titan Power Event in Hero Wars Alliance",
+      title: "Titan Power Event Shop - Hero Wars Alliance",
+      strong: "Guide: Araji's Shop! What to Buy? Hero Wars Alliance",
+      updated: "Updated: April, 2026."
+    },    
+    {
       link: "../../hero-wars-alliance/titans-guide/alecto-en.html",
       src500: "../../hero-wars-alliance/images/titans/alecto/alecto-500px.webp",
       src400: "../../hero-wars-alliance/images/titans/alecto/alecto-400px.webp",
