@@ -127,15 +127,7 @@
       updated: "Updated(skin+): March, 2026."
     },
    
-    {
-      link: "../../hero-wars-alliance/characters-guide/leonel-en.html",
-      src500: "../../hero-wars-alliance/images/hero/leonel/leonel-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/leonel/leonel-400px.webp",
-      alt: "Leonel Legendary Skills Guide for Hero Wars Alliance",
-      title: "Leonel Guide for Hero Wars Alliance",
-      strong: "Leonel Legendary Guide Skills Guide for Hero Wars Alliance",
-      updated: "Updated: February, 2026."
-    },        
+       
     
     {
       link: "../../hero-wars-alliance/menu-hwa/calendar-hwa-en.html",
@@ -725,7 +717,24 @@
     }catch(e){}
   }
 
+  function exposeSharedApi(){
+    try{
+      window.hwaCarouselShared = {
+        getSlides: function(){ return slides.slice(); },
+        getTranslations: function(){ return translations; },
+        detectLang: detectLang,
+        localizeText: localizeText,
+        translateUpdated: translateUpdated,
+        buildLocalizedLink: buildLocalizedLink,
+        resolveLink: resolveCarouselLink,
+        normalizeAllianceCase: normalizeAllianceCase
+      };
+      try{ document.dispatchEvent(new CustomEvent('hwaCarouselSharedReady')); }catch(err){}
+    }catch(e){}
+  }
+
   function init(){
+    exposeSharedApi();
     inject();
     resolveCarouselLinks();
     initCarouselControls();
