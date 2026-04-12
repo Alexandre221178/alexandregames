@@ -5,7 +5,18 @@
  /* economizar torre Missão 4(The Way Up), 11 baus da torre = 10+20+30+40+50+70+100 = 320 Rune Spheres(blue)
    - Expedicoes de valkyries(missao 4 - Journey, Rune Stones(red) and Season Points Extra= 1000+1500(25 Season Points)+2000+2500(30season points)+4000)
    - includes the calendar se fizer isso antes de zerar o horário do servidor vc consegue fazer 4 logins as missoes 
-*/      
+{
+  titles: { en: "", de: "", es: "", fr: "", pt: "", ja: "" },
+  links: { en: "../../", de: "", es: "", fr: "", pt: "../../", ja: "" },       
+  noStrip: true
+},  
+
+*somente rotuto tag branca
+ {
+ titles: { en: "", pt: "", de: "", es: "", fr: "", ja: "" },
+  labelOnly: true
+},     
+   */      
 window.CALENDAR_DATA = [
 
   {
