@@ -28,6 +28,7 @@
     "update-miu-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide miu",
 
     "update-oya-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide oya",
+    "update-phobos-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide phobos",
     "update-somna-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide somna",
  
     "update-yasmine-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide yasmine",
