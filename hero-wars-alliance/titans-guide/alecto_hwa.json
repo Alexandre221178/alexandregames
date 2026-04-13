@@ -1,0 +1,96 @@
+{
+	"id": "alecto",
+	"name": "Alecto",
+    "type": "titan",
+    "game_id": "Hero Wars Alliance",
+	"title": "Blade of Vengeance",
+	"gender": "female",
+	"role": ["marksman"],
+	"main_role": "Marksman",
+	"position": "front line",
+	"main_stat": "Physical Attack",
+	"element": ["elarite", "fire"],
+	"how_to_get_soul_stones": "",
+	"sinergy": "Fire Titans",
+	"basic_attack_formula": "(100% physical attack)",
+	"basic_attack": 0,
+	"stats": {
+		"health": 8766683,
+		"physical_attack": 734392,
+		"extra_defense_from_light_titans": 401470,
+		"extra_defense_from_light_and_dark_titans": 120600,
+		"extra_damage_to_light_and_dark_titans": 213000
+	},
+	"skills": [
+		{
+			"id": 1,
+			"variant": "base",
+			"level": 0,
+			"name": "Fate's Judgment",
+			"type": ["ultimate"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Damage per hit: 514,074 (70% physical attack)",
+			"scales_with": ["Physical Attack"],
+			"description": "Dashes behind the enemy with the highest Attack, strikes them and nearby enemies 5 times, then returns to her position. While this skill is active, she is immune to debuffs."
+		}
+	],
+	"artifacts": [
+		{
+			"name": "Zorval's Wing",
+			"type": "weapon",
+			"level": 120,
+			"stats": {
+				"physical_attack": 120000
+			},
+			"activation_chance": 100,
+			"notes": "Unique Elarite weapon artifact. When a titan uses the Fate's Judgment skill in combat, it can trigger an effect that gives bonus stats to the whole team for 9 seconds. Upgrade material: Fairy Dust (standard) + unique Elarite artifact fragments."
+		},
+		{
+			"name": "Elarite Crown",
+			"type": "crown",
+			"level": 120,
+			"stats": {
+				"extra_damage_to_light_and_dark_titans": 213000,
+				"extra_defense_from_light_and_dark_titans": 120600
+			},
+			"notes": "Unique Elarite crown artifact shared among Elarite-class titans. Upgrade material: Fairy Dust (standard) + unique Elarite artifact fragments."
+		},
+		{
+			"name": "Chthonic Attack Seal",
+			"type": "seal",
+			"level": 120,
+			"stats": {
+				"physical_attack": 107400,
+				"health": 3450000
+			},
+			"notes": "Unique Elarite seal artifact shared among Elarite-class titans. Upgrade material: Fairy Dust (standard) + unique Elarite artifact fragments."
+		}
+	],
+	"skins": [
+		{
+			"name": "Default Skin",
+			"stats": {
+				"physical_attack": 196800
+			},
+			"max_level": 60
+		},
+		{
+			"name": "Primordial Skin",
+			"stats": {
+				"extra_defense_from_light_titans": 401470
+			},
+			"max_level": 60
+		}
+	],
+	"leveling_materials": {
+		"notes": "Uses the same leveling materials as regular titans: Titan Potion and Titan Skin Stones. Artifact upgrades require Fairy Dust (standard) plus unique Elarite artifact fragments obtainable mainly during Alecto's launch event."
+	},
+	"best_team": {
+		"pvp": ["Ignis", "Asherona", "Araji", "Alecto", "Moloch"],
+		"notes": "Full Fire team with Alecto beats full Water, Earth, Darkness, and Light teams 10-0 at max level. Weakness: loses 10-0 against itself on defense, and also loses to a full Fire team without Alecto."
+	},
+	"lore": "The excavations of Elarite have unearthed a power that lay dormant for centuries. Ancient might is awakened — and the first Elarite Titan now steps into the Dominion, bringing change on a truly titanic scale. Alecto wields a new unique power: she is formidable and elusive.",
+	"miscellaneous": {
+		"notes": "Alecto is the first titan with two elements: Elarite (the new Kingdom Mode element) and Fire. She is the first titan of the Elarite class."
+	}
+}
