@@ -137,7 +137,7 @@ window.CALENDAR_DATA = [
  ja: "新しいタイタン：アレクトガイド"
 },    links: { en: "../../hero-wars-alliance/titans-guide/alecto-en.html", de: "../../hero-wars-alliance/titans-guide/alecto-de.html", es: "../../hero-wars-alliance/titans-guide/alecto-es.html", fr: "../../hero-wars-alliance/titans-guide/alecto-fr.html", pt: "../../hero-wars-alliance/titans-guide/alecto-pt.html", ja: "../../hero-wars-alliance/titans-guide/alecto-ja.html" },
   extra: [       
-      {// Dentro de extra[] de um evento:
+      {
  titles: { 
   en: "Ancient Awakening Event",
   pt: "Evento Despertar Antigo",
@@ -146,8 +146,9 @@ window.CALENDAR_DATA = [
   fr: "Événement Réveil Ancien",
   ja: "古代の目覚めイベント"
  },
-  labelOnly: true
-},
+  links: { en: "../../hero-wars-alliance/titans-events-tips/alecto-shop-ancient-awakening-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
     ]
   },
   {
@@ -164,7 +165,7 @@ window.CALENDAR_DATA = [
  ja: "新しいタイタン：アレクトガイド"
 },    links: { en: "../../hero-wars-alliance/titans-guide/alecto-en.html", de: "../../hero-wars-alliance/titans-guide/alecto-de.html", es: "../../hero-wars-alliance/titans-guide/alecto-es.html", fr: "../../hero-wars-alliance/titans-guide/alecto-fr.html", pt: "../../hero-wars-alliance/titans-guide/alecto-pt.html", ja: "../../hero-wars-alliance/titans-guide/alecto-ja.html" },
   extra: [       
-      {// Dentro de extra[] de um evento:
+       {
  titles: { 
   en: "Ancient Awakening Event",
   pt: "Evento Despertar Antigo",
@@ -173,8 +174,9 @@ window.CALENDAR_DATA = [
   fr: "Événement Réveil Ancien",
   ja: "古代の目覚めイベント"
  },
-  labelOnly: true
-},
+  links: { en: "../../hero-wars-alliance/titans-events-tips/alecto-shop-ancient-awakening-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
     ]
   },
   {
@@ -191,7 +193,7 @@ window.CALENDAR_DATA = [
  ja: "新しいタイタン：アレクトガイド"
 },    links: { en: "../../hero-wars-alliance/titans-guide/alecto-en.html", de: "../../hero-wars-alliance/titans-guide/alecto-de.html", es: "../../hero-wars-alliance/titans-guide/alecto-es.html", fr: "../../hero-wars-alliance/titans-guide/alecto-fr.html", pt: "../../hero-wars-alliance/titans-guide/alecto-pt.html", ja: "../../hero-wars-alliance/titans-guide/alecto-ja.html" },
   extra: [       
-      {// Dentro de extra[] de um evento:
+      {
  titles: { 
   en: "Ancient Awakening Event",
   pt: "Evento Despertar Antigo",
@@ -200,8 +202,9 @@ window.CALENDAR_DATA = [
   fr: "Événement Réveil Ancien",
   ja: "古代の目覚めイベント"
  },
-  labelOnly: true
-},
+  links: { en: "../../hero-wars-alliance/titans-events-tips/alecto-shop-ancient-awakening-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
     ]
   },
 {
@@ -218,7 +221,7 @@ window.CALENDAR_DATA = [
  ja: "新しいタイタン：アレクトガイド"
 },    links: { en: "../../hero-wars-alliance/titans-guide/alecto-en.html", de: "../../hero-wars-alliance/titans-guide/alecto-de.html", es: "../../hero-wars-alliance/titans-guide/alecto-es.html", fr: "../../hero-wars-alliance/titans-guide/alecto-fr.html", pt: "../../hero-wars-alliance/titans-guide/alecto-pt.html", ja: "../../hero-wars-alliance/titans-guide/alecto-ja.html" },
   extra: [       
-      {// Dentro de extra[] de um evento:
+      {
  titles: { 
   en: "Ancient Awakening Event",
   pt: "Evento Despertar Antigo",
@@ -227,8 +230,9 @@ window.CALENDAR_DATA = [
   fr: "Événement Réveil Ancien",
   ja: "古代の目覚めイベント"
  },
-  labelOnly: true
-},
+  links: { en: "../../hero-wars-alliance/titans-events-tips/alecto-shop-ancient-awakening-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
     ]
   },
 
