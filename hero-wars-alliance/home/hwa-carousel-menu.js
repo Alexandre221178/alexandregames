@@ -40,6 +40,15 @@
       updated: "Updated: April, 2026."
     },    
     {
+      link: "../../hero-wars-alliance/titans-events-tips/alecto-shop-ancient-awakening-en.html",
+      src500: "../../hero-wars-alliance/images/titans-events-tips/alecto-shop-ancient-awakening/alecto-shop-ancient-awakening-500px.webp",
+      src400: "../../hero-wars-alliance/images/titans-events-tips/alecto-shop-ancient-awakening/alecto-shop-ancient-awakening-400px.webp",
+      alt: "Alecto's Champion Coins shop during the Ancient Awakening Event in Hero Wars Alliance",
+      title: "Ancient Awakening Event Shop - Hero Wars Alliance",
+      strong: "Guide: Alecto's Ancient Awakening Event Shop! What to Buy? Hero Wars Alliance",
+      updated: "Updated: April, 2026."
+    },    
+    {
       link: "../../hero-wars-alliance/characters-guide/miu-en.html",
       src500: "../../hero-wars-alliance/images/hero/miu/miu-500px.webp",
       src400: "../../hero-wars-alliance/images/hero/miu/miu-400px.webp",
