@@ -1,15 +1,7 @@
 (function(){
-  // Carousel multi-language injector (HWA specific copy)
+  // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
-    {
-      link: "../../hero-wars-alliance/titans-events-tips/araji-shop-titan-power-en.html",
-      src500: "../../hero-wars-alliance/images/titans-events-tips/araji-shop-titan-power/araji-shop-titan-power-500px.webp",
-      src400: "../../hero-wars-alliance/images/titans-events-tips/araji-shop-titan-power/araji-shop-titan-power-400px.webp",
-      alt: "Araji's Champion Coins shop during the Titan Power Event in Hero Wars Alliance",
-      title: "Titan Power Event Shop - Hero Wars Alliance",
-      strong: "Guide: Araji's Shop! What to Buy? Hero Wars Alliance",
-      updated: "Updated: April, 2026."
-    },    
+    
     {
       link: "../../hero-wars-alliance/titans-guide/alecto-en.html",
       src500: "../../hero-wars-alliance/images/titans/alecto/alecto-500px.webp",
@@ -19,6 +11,15 @@
       strong: "Guide: Titan Alecto for Hero Wars Alliance",
       updated: "Updated: April, 2026."
     },    
+    {
+      link: "../../hero-wars-alliance/characters-guide/phobos.html",
+      src500: "../../hero-wars-alliance/images/hero/phobos/phobos-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/phobos/phobos-400px.webp",
+      alt: "Phobos Legendary Skills Guide for Hero Wars Alliance",
+      title: "Phobos Guide for Hero Wars Alliance",
+      strong: "Guide: Phobos Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: March, 2026."
+    },
     
     {
       link: "../../hero-wars-alliance/event-special-hwa/miu-season-adventure-shop-en.html",
@@ -29,6 +30,15 @@
       strong: "Miu Adventure Shop Tips - What to Buy? (English) for Hero Wars Alliance",
       updated: "Updated: April, 2026."
     },
+    {
+      link: "../../hero-wars-alliance/titans-events-tips/araji-shop-titan-power-en.html",
+      src500: "../../hero-wars-alliance/images/titans-events-tips/araji-shop-titan-power/araji-shop-titan-power-500px.webp",
+      src400: "../../hero-wars-alliance/images/titans-events-tips/araji-shop-titan-power/araji-shop-titan-power-400px.webp",
+      alt: "Araji's Champion Coins shop during the Titan Power Event in Hero Wars Alliance",
+      title: "Titan Power Event Shop - Hero Wars Alliance",
+      strong: "Guide: Araji's Shop! What to Buy? Hero Wars Alliance",
+      updated: "Updated: April, 2026."
+    },    
     {
       link: "../../hero-wars-alliance/characters-guide/miu-en.html",
       src500: "../../hero-wars-alliance/images/hero/miu/miu-500px.webp",
