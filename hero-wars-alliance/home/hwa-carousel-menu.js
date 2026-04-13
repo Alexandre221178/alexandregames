@@ -12,7 +12,7 @@
       updated: "Updated: April, 2026."
     },    
     {
-      link: "../../hero-wars-alliance/characters-guide/phobos.html",
+      link: "../../hero-wars-alliance/characters-guide/phobos-en.html",
       src500: "../../hero-wars-alliance/images/hero/phobos/phobos-500px.webp",
       src400: "../../hero-wars-alliance/images/hero/phobos/phobos-400px.webp",
       alt: "Phobos Legendary Skills Guide for Hero Wars Alliance",
