@@ -22,24 +22,6 @@
     },
     
     {
-      link: "../../hero-wars-alliance/event-special-hwa/miu-season-adventure-shop-en.html",
-      src500: "../../hero-wars-alliance/images/events-special-hwa/miu-adventure-shop/miu-adventure-shop-500px.webp",
-      src400: "../../hero-wars-alliance/images/events-special-hwa/miu-adventure-shop/miu-adventure-shop-400px.webp",
-      alt: "Miu Adventure Shop Tips - What to Buy | Hero Wars Alliance",
-      title: "Miu Adventure Shop Tips for Hero Wars Alliance",
-      strong: "Miu Adventure Shop Tips - What to Buy? (English) for Hero Wars Alliance",
-      updated: "Updated: April, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/titans-events-tips/araji-shop-titan-power-en.html",
-      src500: "../../hero-wars-alliance/images/titans-events-tips/araji-shop-titan-power/araji-shop-titan-power-500px.webp",
-      src400: "../../hero-wars-alliance/images/titans-events-tips/araji-shop-titan-power/araji-shop-titan-power-400px.webp",
-      alt: "Araji's Champion Coins shop during the Titan Power Event in Hero Wars Alliance",
-      title: "Titan Power Event Shop - Hero Wars Alliance",
-      strong: "Guide: Araji's Shop! What to Buy? Hero Wars Alliance",
-      updated: "Updated: April, 2026."
-    },    
-    {
       link: "../../hero-wars-alliance/titans-events-tips/alecto-shop-ancient-awakening-en.html",
       src500: "../../hero-wars-alliance/images/titans-events-tips/alecto-shop-ancient-awakening/alecto-shop-ancient-awakening-500px.webp",
       src400: "../../hero-wars-alliance/images/titans-events-tips/alecto-shop-ancient-awakening/alecto-shop-ancient-awakening-400px.webp",

@@ -18,7 +18,7 @@
       src400: "../../hero-wars-dominion-era/images/hero/byrna/byrna-400px.webp",
       alt: "Byrna Guide for Hero Wars: Dominion Era",
       title: "Byrna Guide for Hero Wars: Dominion Era.",
-      strong: "Byrna Guide - Hero Wars: Dominion Era",
+      strong: "Guide: Byrna - Hero Wars: Dominion Era",
       updated: "Updated: April, 2026."
     },
 
@@ -28,7 +28,16 @@
       src400: "../../hero-wars-dominion-era/images/titans-hwde/angus/angus-400px.webp",
       alt: "Angus Guide for Hero Wars: Dominion Era",
       title: "Angus Guide for Hero Wars: Dominion Era.",
-      strong: "Angus Guide - Hero Wars: Dominion Era",
+      strong: "Guide: Angus - Hero Wars: Dominion Era",
+      updated: "Updated: April, 2026."
+    },
+    {
+      link: "../../hero-wars-dominion-era/titans-brawls/angus-brawls-en.html",
+      src500: "../../hero-wars-dominion-era/images/titan-brawl/angus-brawl/angus-brawl-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/titan-brawl/angus-brawl/angus-brawl-400px.webp",
+      alt: "Angus Brawls Guide for Hero Wars: Dominion Era",
+      title: "Angus Brawls Guide for Hero Wars: Dominion Era.",
+      strong: "Guide: Angus Brawls  - Hero Wars: Dominion Era",
       updated: "Updated: April, 2026."
     },
 
