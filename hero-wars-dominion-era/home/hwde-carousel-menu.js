@@ -1,5 +1,5 @@
 (function(){
-  // Carousel multi-language injector (HWDE specific copy)
+  // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
 
     {
@@ -19,6 +19,16 @@
       alt: "Byrna Guide for Hero Wars: Dominion Era",
       title: "Byrna Guide for Hero Wars: Dominion Era.",
       strong: "Byrna Guide - Hero Wars: Dominion Era",
+      updated: "Updated: April, 2026."
+    },
+
+    {
+      link: "../../hero-wars-dominion-era/titans/angus-en.html",
+      src500: "../../hero-wars-dominion-era/images/titans-hwde/angus/angus-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/titans-hwde/angus/angus-400px.webp",
+      alt: "Angus Guide for Hero Wars: Dominion Era",
+      title: "Angus Guide for Hero Wars: Dominion Era.",
+      strong: "Angus Guide - Hero Wars: Dominion Era",
       updated: "Updated: April, 2026."
     },
 

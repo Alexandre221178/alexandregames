@@ -4,7 +4,7 @@
    - Supports: en, pt, ja, es, fr, de
 */
 
-// Título do mês do calendário (traduzido automaticamente)
+// Título do mês do calendário (npm run update-calendar-hwde)
 window.CALENDAR_MONTH_HEADER = {
   en: "April Calendar Events",
   pt: "Eventos do Calendário de Abril",
@@ -579,6 +579,11 @@ window.CALENDAR_DATA = [
         titles: { en: "Angus Brawls Best Teams", pt: "Melhores Equipes de Angus Brawls", de: "Beste Teams der Angus Brawls", es: "Mejores Equipos de Angus Brawls", fr: "Meilleures Équipes des Angus Brawls", ja: "アングスブラウルのベストチーム" },
         labelOnly: true
       },
+       {
+  titles: { en: "Angus Guide", pt: "Guia do Angus", de: "Angus Leitfaden", es: "Guía de Angus", fr: "Guide d'Angus", ja: "アングスガイド" },
+  links: { en: "../../hero-wars-dominion-era/titans/angus-en.html", pt: "../../hero-wars-dominion-era/titans/angus-pt.html", de: "../../hero-wars-dominion-era/titans/angus-de.html", es: "../../hero-wars-dominion-era/titans/angus-es.html", fr: "../../hero-wars-dominion-era/titans/angus-fr.html", ja: "../../hero-wars-dominion-era/titans/angus-ja.html" },
+  noStrip: true
+}, 
       
     
   ]
@@ -601,6 +606,11 @@ window.CALENDAR_DATA = [
         titles: { en: "Angus Brawls Best Teams", pt: "Melhores Equipes de Angus Brawls", de: "Beste Teams der Angus Brawls", es: "Mejores Equipos de Angus Brawls", fr: "Meilleures Équipes des Angus Brawls", ja: "アングスブラウルのベストチーム" },
         labelOnly: true
       },
+       {
+  titles: { en: "Angus Guide", pt: "Guia do Angus", de: "Angus Leitfaden", es: "Guía de Angus", fr: "Guide d'Angus", ja: "アングスガイド" },
+  links: { en: "../../hero-wars-dominion-era/titans/angus-en.html", pt: "../../hero-wars-dominion-era/titans/angus-pt.html", de: "../../hero-wars-dominion-era/titans/angus-de.html", es: "../../hero-wars-dominion-era/titans/angus-es.html", fr: "../../hero-wars-dominion-era/titans/angus-fr.html", ja: "../../hero-wars-dominion-era/titans/angus-ja.html" },
+  noStrip: true
+}, 
       {
         titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
@@ -631,6 +641,11 @@ window.CALENDAR_DATA = [
         titles: { en: "Angus Brawls Best Teams", pt: "Melhores Equipes de Angus Brawls", de: "Beste Teams der Angus Brawls", es: "Mejores Equipos de Angus Brawls", fr: "Meilleures Équipes des Angus Brawls", ja: "アングスブラウルのベストチーム" },
         labelOnly: true
       },
+      {
+  titles: { en: "Angus Guide", pt: "Guia do Angus", de: "Angus Leitfaden", es: "Guía de Angus", fr: "Guide d'Angus", ja: "アングスガイド" },
+  links: { en: "../../hero-wars-dominion-era/titans/angus-en.html", pt: "../../hero-wars-dominion-era/titans/angus-pt.html", de: "../../hero-wars-dominion-era/titans/angus-de.html", es: "../../hero-wars-dominion-era/titans/angus-es.html", fr: "../../hero-wars-dominion-era/titans/angus-fr.html", ja: "../../hero-wars-dominion-era/titans/angus-ja.html" },
+  noStrip: true
+}, 
       {
         titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
