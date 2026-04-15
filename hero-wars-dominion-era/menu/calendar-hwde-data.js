@@ -1,7 +1,5 @@
 /* Calendar data for Hero Wars: Dominion Era
-   - Keep links per language empty when you want to fill them manually
-   - Image and paths are relative to the page that includes the calendar
-   - Supports: en, pt, ja, es, fr, de
+  npm run update-calendar-hwde
 */
 
 // Título do mês do calendário (npm run update-calendar-hwde)
@@ -461,6 +459,10 @@ window.CALENDAR_DATA = [
     noStrip: true,
     extra: [
             
+{
+  titles: { en: "Lumira’s pre-order", pt: "Pré-encomenda da Lumira", de: "Lumiras Vorbestellung", es: "Pre-pedido de Lumira", fr: "Précommande de Lumira", ja: "ルミラの事前注文" },
+  labelOnly: true,
+},
       
     ]
   },
@@ -479,6 +481,10 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+      {
+  titles: { en: "Lumira’s pre-order", pt: "Pré-encomenda da Lumira", de: "Lumiras Vorbestellung", es: "Pre-pedido de Lumira", fr: "Précommande de Lumira", ja: "ルミラの事前注文" },
+  labelOnly: true,
+},
      
             
     ]
@@ -502,6 +508,10 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/power-of-the-titans-en.html", pt: "../../hero-wars-dominion-era/events/power-of-the-titans-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+      {
+  titles: { en: "Lumira’s pre-order", pt: "Pré-encomenda da Lumira", de: "Lumiras Vorbestellung", es: "Pre-pedido de Lumira", fr: "Précommande de Lumira", ja: "ルミラの事前注文" },
+  labelOnly: true,
+},
       
     ]
   },
@@ -530,6 +540,10 @@ window.CALENDAR_DATA = [
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },
+      {
+  titles: { en: "Lumira’s pre-order", pt: "Pré-encomenda da Lumira", de: "Lumiras Vorbestellung", es: "Pre-pedido de Lumira", fr: "Précommande de Lumira", ja: "ルミラの事前注文" },
+  labelOnly: true,
+},
       
        
     ]
@@ -558,6 +572,10 @@ window.CALENDAR_DATA = [
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },
+      {
+  titles: { en: "Lumira’s pre-order", pt: "Pré-encomenda da Lumira", de: "Lumiras Vorbestellung", es: "Pre-pedido de Lumira", fr: "Précommande de Lumira", ja: "ルミラの事前注文" },
+  labelOnly: true,
+},
       
     ]
   },
@@ -584,6 +602,10 @@ window.CALENDAR_DATA = [
   links: { en: "../../hero-wars-dominion-era/titans/angus-en.html", pt: "../../hero-wars-dominion-era/titans/angus-pt.html", de: "../../hero-wars-dominion-era/titans/angus-de.html", es: "../../hero-wars-dominion-era/titans/angus-es.html", fr: "../../hero-wars-dominion-era/titans/angus-fr.html", ja: "../../hero-wars-dominion-era/titans/angus-ja.html" },
   noStrip: true
 }, 
+{
+  titles: { en: "Lumira’s pre-order", pt: "Pré-encomenda da Lumira", de: "Lumiras Vorbestellung", es: "Pre-pedido de Lumira", fr: "Précommande de Lumira", ja: "ルミラの事前注文" },
+  labelOnly: true,
+},
       
     
   ]
@@ -615,6 +637,10 @@ window.CALENDAR_DATA = [
         titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
       },
+      {
+  titles: { en: "Lumira’s pre-order", pt: "Pré-encomenda da Lumira", de: "Lumiras Vorbestellung", es: "Pre-pedido de Lumira", fr: "Précommande de Lumira", ja: "ルミラの事前注文" },
+  labelOnly: true,
+},
       
   ]
   },

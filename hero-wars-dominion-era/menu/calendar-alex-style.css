@@ -4,7 +4,10 @@
   links: { en: "../../", pt: "../../", de: "", es: "", fr: "", ja: "" },
   noStrip: true
 }, 
-
+{
+  titles: { en: "", pt: "", de: "", es: "", fr: "", ja: "" },
+    labelOnly: true,
+}, 
 
 */
 
