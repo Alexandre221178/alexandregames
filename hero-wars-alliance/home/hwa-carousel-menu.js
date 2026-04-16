@@ -3,6 +3,15 @@
   const slides = [
     
     {
+      link: "../../hero-wars-alliance/titans-events-tips/alecto-season-adventure-shop-en.html",
+      src500: "../../hero-wars-alliance/images/titans-events-tips/alecto-season-adventure-shop/alecto-season-adventure-shop-500px.webp",
+      src400: "../../hero-wars-alliance/images/titans-events-tips/alecto-season-adventure-shop/alecto-season-adventure-shop-400px.webp",
+      alt: "Alecto's Champion Coins shop during the Season Adventure Event in Hero Wars Alliance",
+      title: "Season Adventure Event Shop - Hero Wars Alliance",
+      strong: "Guide: Alecto's Season Adventure Event Shop! What to Buy? Hero Wars Alliance",
+      updated: "Updated: April, 2026."
+    },    
+    {
       link: "../../hero-wars-alliance/titans-guide/alecto-en.html",
       src500: "../../hero-wars-alliance/images/titans/alecto/alecto-500px.webp",
       src400: "../../hero-wars-alliance/images/titans/alecto/alecto-400px.webp",
