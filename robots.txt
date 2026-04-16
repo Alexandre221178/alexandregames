@@ -33,9 +33,6 @@ Disallow: /
 User-agent: Googlebot
 Allow: /
 Allow: /ads.txt
-# Se o RPM continuar baixo, considere remover o nosnippet abaixo. 
-# Ele força o clique, mas prejudica a relevância do anúncio.
-nosnippet: /
 
 # 4. OUTROS BUSCADORES
 User-agent: Bingbot
