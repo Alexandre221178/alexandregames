@@ -1,0 +1,190 @@
+{
+  "name": "Lumira",
+  "game": "Hero Wars: Dominion Era",
+  "position": 24,
+  "roles": ["summoner"],
+  "obtention": "Circle of Summoning",
+  "basic_attack": {
+    "value": 1067115,
+    "type": "100% physical attack"
+  },
+  "stats": {
+    "health": 11261285,
+    "power": 218574,
+    "attack": 1067115,
+    "elemental_attack": 479475,
+    "elemental_armor": 175467
+  },
+  "skills": [
+    {
+      "name": "Apollotropia",
+      "type": "ultimate",
+      "color": "white",
+      "description": "Summons Apollo. While active, spreads around an aura. Apollo redirects on himself 50% of damage (but not more than 266,779) of each attack on his allies in the area of the aura. When Apollo dies, allies in the area become invincible for 1s. Apollo's health is 30% of Lumira's maximum health. Apollo can't be attacked directly.",
+      "summon": "Apollo",
+      "aura_damage_redirect_percent": 50,
+      "max_redirect_per_hit": 266779,
+      "apollo_health_percent_of_lumira": 30,
+      "on_apollo_death_effect": "allies in aura become invincible for 1s",
+      "notes": "Apollo can't be attacked directly"
+    },
+    {
+      "name": "Spiritual Bond: Light",
+      "type": "passive",
+      "color": "green",
+      "description": "Lumira and Apollo start resonating and form a brilliant bond with the Light element. Thanks to it, they begin the battle with 30% of Energy and generate 10% more Energy for Light Totem activation.",
+      "battle_start_energy_percent": 30,
+      "light_totem_energy_bonus_percent": 10,
+      "element": "Light"
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": {
+        "health": 1022985,
+        "power": 5217
+      },
+      "upgrade_cost": {
+        "titan_skin_stone": 354960
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "Tome of Belav",
+      "stats": {
+        "elemental_damage": 479475,
+        "power": 32604
+      },
+      "upgrade_cost": {
+        "essence_of_the_elements": 686080,
+        "emeralds": 68608,
+        "tome_of_belav_fragment": 18400
+      }
+    },
+    {
+      "name": "Crown of Light",
+      "stats": {
+        "elemental_armor": 175467,
+        "power": 55973
+      },
+      "upgrade_cost": {
+        "essence_of_the_elements": 686080,
+        "emeralds": 68608,
+        "crown_of_light_fragment": 18400
+      }
+    },
+    {
+      "name": "Cosmos' Seal",
+      "stats": {
+        "health": 3995583,
+        "physical_attack": 299673,
+        "power": 40755
+      },
+      "upgrade_cost": {
+        "gold": 173005000,
+        "emeralds": 68608,
+        "cosmos_seal_fragment": 18400
+      }
+    },
+    {
+      "name": "Light Spirit Totem",
+      "stats": {
+        "physical_attack": 299673,
+        "power": 20377
+      },
+      "upgrade_cost": {
+        "bronze_guild_war_trophy": 1394,
+        "emeralds": 303938,
+        "silver_guild_war_trophy": 6945,
+        "gold_guild_war_trophy": 25303,
+        "light_spirit_totem_fragment": 6
+      }
+    }
+  ],
+  "levels": {
+    "stats": {
+      "health": 6225357,
+      "physical_attack": 466901,
+      "power": 63498
+    },
+    "upgrade_cost": {
+      "titan_potion": 1009660,
+      "emeralds": 201932,
+      "lumira_soul_stone": 3130
+    }
+  },
+  "battle_tests": {
+    "tester": "Alexandre",
+    "condition": "Lumira at max level with totems",
+    "attack_results": [
+      {
+        "team_name": "Defense team (Lumira)",
+        "composition": ["Rigel", "Amon", "Solaris", "Iyari", "Lumira"],
+        "opponent_team_name": "Full Water",
+        "opponent_composition": ["Hyperion", "Mairi", "Tydus", "Nova", "Sigurd"],
+        "result": "defeat",
+        "score": "0x10",
+        "notes": "Lost all 10 matches against full Water team"
+      },
+      {
+        "team_name": "Attack team",
+        "composition": ["Rigel", "Amon", "Solaris", "Iyari", "Lumira"],
+        "opponent_team_name": "Full Fire",
+        "opponent_composition": ["Ignis", "Araji", "Asherona", "Vulcan", "Moloch"],
+        "result": "victory",
+        "score": "10x0",
+        "notes": "Won all 10 matches against full Fire team"
+      },
+      {
+        "team_name": "Attack team",
+        "composition": ["Rigel", "Amon", "Solaris", "Iyari", "Lumira"],
+        "opponent_team_name": "Full Earth",
+        "opponent_composition": ["Sylva", "Eden", "Verdoc", "Avalon", "Angus"],
+        "result": "defeat",
+        "score": "0x10",
+        "notes": "Lost all 10 matches against full Earth team"
+      },
+      {
+        "team_name": "Attack team",
+        "composition": ["Rigel", "Amon", "Solaris", "Iyari", "Lumira"],
+        "opponent_team_name": "Dark + Solaris",
+        "opponent_composition": ["Tenebris", "Solaris", "Keros", "Mort", "Brustar"],
+        "result": "defeat",
+        "score": "0x10",
+        "notes": "Lost all 10 matches against Dark + Solaris team"
+      }
+    ],
+    "defense_results": [
+      {
+        "defense_composition": ["Rigel", "Amon", "Solaris", "Iyari", "Lumira"],
+        "opponent_team_name": "Full Earth",
+        "result": "defeat",
+        "score": "0x10",
+        "notes": "Full Light defense lost all 10 to Full Earth attack"
+      },
+      {
+        "defense_composition": ["Rigel", "Amon", "Solaris", "Iyari", "Lumira"],
+        "opponent_team_name": "Full Fire",
+        "result": "victory",
+        "score": "10x0",
+        "notes": "Defeated all 10 Full Fire attack teams"
+      },
+      {
+        "defense_composition": ["Rigel", "Amon", "Solaris", "Iyari", "Lumira"],
+        "opponent_team_name": "Full Water",
+        "result": "victory",
+        "score": "10x0",
+        "notes": "Defeated all 10 Full Water attack teams"
+      },
+      {
+        "defense_composition": ["Rigel", "Amon", "Solaris", "Iyari", "Lumira"],
+        "opponent_team_name": "Dark + Solaris",
+        "result": "victory",
+        "score": "10x0",
+        "notes": "Defeated all 10 Dark + Solaris attack teams"
+      }
+    ]
+  }
+}
