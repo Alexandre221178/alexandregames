@@ -69,6 +69,8 @@
 },
 
   "titans": [
+
+    
     {"id":"Sigurd","gender":"Male","en":"Sigurd","de":"Sigurd","es":"Sigurd","fr":"Sigurd","pt":"Sigurd","ja":"シグルド"},
     {"id":"Nova","gender":"Female","en":"Nova","de":"Nova","es":"Nova","fr":"Nova","pt":"Nova","ja":"ノヴァ"},
     {"id":"Mairi","gender":"Female","en":"Mairi","de":"Mairi","es":"Mairi","fr":"Mairi","pt":"Mairi","ja":"マイリ"},
@@ -91,6 +93,8 @@
     {"id":"Amon","gender":"Male","en":"Amon","de":"Amon","es":"Amon","fr":"Amon","pt":"Amon","ja":"アモン"},
     {"id":"Iyari","gender":"Female","en":"Iyari","de":"Iyari","es":"Iyari","fr":"Iyari","pt":"Iyari","ja":"イアリ"},
     {"id":"Solaris","gender":"Female","en":"Solaris","de":"Solaris","es":"Solaris","fr":"Solaris","pt":"Solaris","ja":"ソラリス"},
+    {"id":"Lumira","gender":"Female","en":"Lumira","de":"Lumira","es":"Lumira","fr":"Lumira","pt":"Lumira","ja":"ルミラ"},
+  
     {"id":"Tidus","gender":"Male","en":"Tidus","de":"Tidus","es":"Tidus","fr":"Tidus","pt":"Tidus","ja":"タイダス"},
 {"id":"Tidus and Gelo","gender":"Male","en":"Tidus and Gelo","de":"Tidus und Gelo","es":"Tidus y Gelo","fr":"Tidus et Gelo","pt":"Tidus e Gelo","ja":"タイダスとゲロ"}  ]
 }
