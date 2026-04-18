@@ -593,10 +593,11 @@ window.CALENDAR_DATA = [
         titles: { en: "Angus Brawls", pt: "Brigas de Angus", de: "Angus Kämpfe", es: "Brigas de Angus", fr: "Combats d'Angus", ja: "アングスの乱闘" },
         labelOnly: true
       },
-      {
-        titles: { en: "Angus Brawls Best Teams", pt: "Melhores Equipes de Angus Brawls", de: "Beste Teams der Angus Brawls", es: "Mejores Equipos de Angus Brawls", fr: "Meilleures Équipes des Angus Brawls", ja: "アングスブラウルのベストチーム" },
-        labelOnly: true
-      },
+       {
+ titles: { en: "Angus: Brawls Best Teams", pt: "Angus: Melhores Equipes para Rixa", de: "Angus: Beste Teams für Brawls", es: "Angus: Mejores Equipos para Brigas", fr: "Angus : Meilleures équipes pour les Combats", ja: "アングス：ブラウル最強チーム" },
+   links: { en: "../../hero-wars-dominion-era/titans-brawls/angus-brawls-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+  noStrip: true
+}, 
        {
   titles: { en: "Angus Guide", pt: "Guia do Angus", de: "Angus Leitfaden", es: "Guía de Angus", fr: "Guide d'Angus", ja: "アングスガイド" },
   links: { en: "../../hero-wars-dominion-era/titans/angus-en.html", pt: "../../hero-wars-dominion-era/titans/angus-pt.html", de: "../../hero-wars-dominion-era/titans/angus-de.html", es: "../../hero-wars-dominion-era/titans/angus-es.html", fr: "../../hero-wars-dominion-era/titans/angus-fr.html", ja: "../../hero-wars-dominion-era/titans/angus-ja.html" },
@@ -624,10 +625,11 @@ window.CALENDAR_DATA = [
         titles: { en: "Angus Brawls", pt: "Brigas de Angus", de: "Angus Kämpfe", es: "Brigas de Angus", fr: "Combats d'Angus", ja: "アングスの乱闘" },
         labelOnly: true
       },
-      {
-        titles: { en: "Angus Brawls Best Teams", pt: "Melhores Equipes de Angus Brawls", de: "Beste Teams der Angus Brawls", es: "Mejores Equipos de Angus Brawls", fr: "Meilleures Équipes des Angus Brawls", ja: "アングスブラウルのベストチーム" },
-        labelOnly: true
-      },
+       {
+ titles: { en: "Angus: Brawls Best Teams", pt: "Angus: Melhores Equipes para Rixa", de: "Angus: Beste Teams für Brawls", es: "Angus: Mejores Equipos para Brigas", fr: "Angus : Meilleures équipes pour les Combats", ja: "アングス：ブラウル最強チーム" },
+   links: { en: "../../hero-wars-dominion-era/titans-brawls/angus-brawls-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+  noStrip: true
+}, 
        {
   titles: { en: "Angus Guide", pt: "Guia do Angus", de: "Angus Leitfaden", es: "Guía de Angus", fr: "Guide d'Angus", ja: "アングスガイド" },
   links: { en: "../../hero-wars-dominion-era/titans/angus-en.html", pt: "../../hero-wars-dominion-era/titans/angus-pt.html", de: "../../hero-wars-dominion-era/titans/angus-de.html", es: "../../hero-wars-dominion-era/titans/angus-es.html", fr: "../../hero-wars-dominion-era/titans/angus-fr.html", ja: "../../hero-wars-dominion-era/titans/angus-ja.html" },
@@ -659,19 +661,40 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/titan-brawl-en.html", pt: "../../hero-wars-dominion-era/events/titan-brawl-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       }, 
-       {
-        titles: { en: "Angus Brawls", pt: "Brigas de Angus", de: "Angus Kämpfe", es: "Brigas de Angus", fr: "Combats d'Angus", ja: "アングスの乱闘" },
-        labelOnly: true
-      },
+       
       {
-        titles: { en: "Angus Brawls Best Teams", pt: "Melhores Equipes de Angus Brawls", de: "Beste Teams der Angus Brawls", es: "Mejores Equipos de Angus Brawls", fr: "Meilleures Équipes des Angus Brawls", ja: "アングスブラウルのベストチーム" },
-        labelOnly: true
-      },
-      {
+ titles: { en: "Angus: Brawls Best Teams", pt: "Angus: Melhores Equipes para Rixa", de: "Angus: Beste Teams für Brawls", es: "Angus: Mejores Equipos para Brigas", fr: "Angus : Meilleures équipes pour les Combats", ja: "アングス：ブラウル最強チーム" },
+   links: { en: "../../hero-wars-dominion-era/titans-brawls/angus-brawls-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+  noStrip: true
+}, 
+  {
   titles: { en: "Angus Guide", pt: "Guia do Angus", de: "Angus Leitfaden", es: "Guía de Angus", fr: "Guide d'Angus", ja: "アングスガイド" },
   links: { en: "../../hero-wars-dominion-era/titans/angus-en.html", pt: "../../hero-wars-dominion-era/titans/angus-pt.html", de: "../../hero-wars-dominion-era/titans/angus-de.html", es: "../../hero-wars-dominion-era/titans/angus-es.html", fr: "../../hero-wars-dominion-era/titans/angus-fr.html", ja: "../../hero-wars-dominion-era/titans/angus-ja.html" },
   noStrip: true
 }, 
+{
+  titles: { en: "Lumira Event Guide F2P to 6★", pt: "Guia do Evento Lumira F2P até 6★", de: "Lumira-Event-Leitfaden F2P bis 6★", es: "Guía del Evento Lumira F2P hasta 6★", fr: "Guide de l’événement Lumira F2P jusqu’à 6★", ja: "ルミライベントガイド F2Pで6★まで" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/lumira-event-guide-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+  noStrip: true
+}, 
+
+{
+  titles: { 
+    en: "Lumira Event Missions: How to Prepare", 
+    pt: "Missões do Evento Lumira: Como se Preparar", 
+    de: "Lumira-Eventmissionen: So bereitest du dich vor", 
+    es: "Misiones del Evento Lumira: Cómo prepararse", 
+    fr: "Missions de l’événement Lumira : Comment se préparer", 
+    ja: "ルミライベントミッション：準備方法" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/lumira-event-missions-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+  noStrip: true
+},
+
+
+
+
       {
         titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
@@ -693,6 +716,26 @@ window.CALENDAR_DATA = [
          links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
         noStrip: true
       },
+      {
+  titles: { en: "Lumira Event Guide F2P to 6★", pt: "Guia do Evento Lumira F2P até 6★", de: "Lumira-Event-Leitfaden F2P bis 6★", es: "Guía del Evento Lumira F2P hasta 6★", fr: "Guide de l’événement Lumira F2P jusqu’à 6★", ja: "ルミライベントガイド F2Pで6★まで" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/lumira-event-guide-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+  noStrip: true
+}, 
+
+{
+  titles: { 
+    en: "Lumira Event Missions: How to Prepare", 
+    pt: "Missões do Evento Lumira: Como se Preparar", 
+    de: "Lumira-Eventmissionen: So bereitest du dich vor", 
+    es: "Misiones del Evento Lumira: Cómo prepararse", 
+    fr: "Missions de l’événement Lumira : Comment se préparer", 
+    ja: "ルミライベントミッション：準備方法" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/lumira-event-missions-en.html", pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
        
  
     ]
@@ -716,6 +759,26 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+      {
+  titles: { en: "Lumira Event Guide F2P to 6★", pt: "Guia do Evento Lumira F2P até 6★", de: "Lumira-Event-Leitfaden F2P bis 6★", es: "Guía del Evento Lumira F2P hasta 6★", fr: "Guide de l’événement Lumira F2P jusqu’à 6★", ja: "ルミライベントガイド F2Pで6★まで" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/lumira-event-guide-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+  noStrip: true
+}, 
+
+{
+  titles: { 
+    en: "Lumira Event Missions: How to Prepare", 
+    pt: "Missões do Evento Lumira: Como se Preparar", 
+    de: "Lumira-Eventmissionen: So bereitest du dich vor", 
+    es: "Misiones del Evento Lumira: Cómo prepararse", 
+    fr: "Missions de l’événement Lumira : Comment se préparer", 
+    ja: "ルミライベントミッション：準備方法" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/lumira-event-missions-en.html", pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
         
  
     ]
@@ -736,6 +799,26 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+      {
+  titles: { en: "Lumira Event Guide F2P to 6★", pt: "Guia do Evento Lumira F2P até 6★", de: "Lumira-Event-Leitfaden F2P bis 6★", es: "Guía del Evento Lumira F2P hasta 6★", fr: "Guide de l’événement Lumira F2P jusqu’à 6★", ja: "ルミライベントガイド F2Pで6★まで" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/lumira-event-guide-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+  noStrip: true
+}, 
+
+{
+  titles: { 
+    en: "Lumira Event Missions: How to Prepare", 
+    pt: "Missões do Evento Lumira: Como se Preparar", 
+    de: "Lumira-Eventmissionen: So bereitest du dich vor", 
+    es: "Misiones del Evento Lumira: Cómo prepararse", 
+    fr: "Missions de l’événement Lumira : Comment se préparer", 
+    ja: "ルミライベントミッション：準備方法" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/lumira-event-missions-en.html", pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
             
     ]
   },
@@ -753,6 +836,26 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/the-great-storm-en.html", pt: "../../hero-wars-dominion-era/events/the-great-storm-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+      {
+  titles: { en: "Lumira Event Guide F2P to 6★", pt: "Guia do Evento Lumira F2P até 6★", de: "Lumira-Event-Leitfaden F2P bis 6★", es: "Guía del Evento Lumira F2P hasta 6★", fr: "Guide de l’événement Lumira F2P jusqu’à 6★", ja: "ルミライベントガイド F2Pで6★まで" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/lumira-event-guide-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+  noStrip: true
+}, 
+
+{
+  titles: { 
+    en: "Lumira Event Missions: How to Prepare", 
+    pt: "Missões do Evento Lumira: Como se Preparar", 
+    de: "Lumira-Eventmissionen: So bereitest du dich vor", 
+    es: "Misiones del Evento Lumira: Cómo prepararse", 
+    fr: "Missions de l’événement Lumira : Comment se préparer", 
+    ja: "ルミライベントミッション：準備方法" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/lumira-event-missions-en.html", pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
        
  
       {
@@ -772,7 +875,26 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-dominion-era/events/weaving-patterns-en.html", pt: "../../hero-wars-dominion-era/events/weaving-patterns-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
-      
+      {
+  titles: { en: "Lumira Event Guide F2P to 6★", pt: "Guia do Evento Lumira F2P até 6★", de: "Lumira-Event-Leitfaden F2P bis 6★", es: "Guía del Evento Lumira F2P hasta 6★", fr: "Guide de l’événement Lumira F2P jusqu’à 6★", ja: "ルミライベントガイド F2Pで6★まで" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/lumira-event-guide-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+  noStrip: true
+}, 
+
+{
+  titles: { 
+    en: "Lumira Event Missions: How to Prepare", 
+    pt: "Missões do Evento Lumira: Como se Preparar", 
+    de: "Lumira-Eventmissionen: So bereitest du dich vor", 
+    es: "Misiones del Evento Lumira: Cómo prepararse", 
+    fr: "Missions de l’événement Lumira : Comment se préparer", 
+    ja: "ルミライベントミッション：準備方法" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/lumira-event-missions-en.html", pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
       
     ]
   },
@@ -785,6 +907,26 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
     noStrip: true,
     extra: [
+      {
+  titles: { en: "Lumira Event Guide F2P to 6★", pt: "Guia do Evento Lumira F2P até 6★", de: "Lumira-Event-Leitfaden F2P bis 6★", es: "Guía del Evento Lumira F2P hasta 6★", fr: "Guide de l’événement Lumira F2P jusqu’à 6★", ja: "ルミライベントガイド F2Pで6★まで" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/lumira-event-guide-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+  noStrip: true
+}, 
+
+{
+  titles: { 
+    en: "Lumira Event Missions: How to Prepare", 
+    pt: "Missões do Evento Lumira: Como se Preparar", 
+    de: "Lumira-Eventmissionen: So bereitest du dich vor", 
+    es: "Misiones del Evento Lumira: Cómo prepararse", 
+    fr: "Missions de l’événement Lumira : Comment se préparer", 
+    ja: "ルミライベントミッション：準備方法" 
+  },
+  links: { 
+    en: "../../hero-wars-dominion-era/events-special-hwde/lumira-event-missions-en.html", pt: "", de: "", es: "", fr: "", ja: "" 
+  },
+  noStrip: true
+},
       {
         titles: { en: "Weaving Patterns", pt: "Tecendo Padrões", de: "Webmuster", es: "Tejiendo Patrones", fr: "Tissage de Motifs", ja: "ウィービングパターン" },
         links: { en: "../../hero-wars-dominion-era/events/weaving-patterns-en.html", pt: "../../hero-wars-dominion-era/events/weaving-patterns-pt.html", de: "", es: "", fr: "", ja: "" },
