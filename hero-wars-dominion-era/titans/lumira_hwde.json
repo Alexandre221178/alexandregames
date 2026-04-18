@@ -117,7 +117,7 @@
   },
   "battle_tests": {
     "tester": "Alexandre",
-    "condition": "Lumira at max level with totems",
+    "condition": "Lumira at max level with totems - all battles with full elemental teams and Dark + Solaris team, 10 matches each",
     "attack_results": [
       {
         "team_name": "Defense team (Lumira)",
@@ -184,6 +184,69 @@
         "result": "victory",
         "score": "10x0",
         "notes": "Defeated all 10 Dark + Solaris attack teams"
+      }
+    
+     ]
+  },
+  "lumira_best_team": {
+    "tester": "Alexandre",
+    "condition": "Lumira at max level with totems",
+    "composition": [
+      "Lumira",
+      "Tenebris",
+      "Solaris",
+      "Verdoc",
+      "Brustar"
+    ],
+    "notes": "Best team found — won all matches against every full elemental team tested",
+    "results": [
+      {
+        "opponent_team_name": "Full Water",
+        "opponent_composition": [
+          "Hyperion",
+          "Mairi",
+          "Tydus",
+          "Nova",
+          "Sigurd"
+        ],
+        "result": "victory",
+        "score": "10x0"
+      },
+      {
+        "opponent_team_name": "Full Fire",
+        "opponent_composition": [
+          "Ignis",
+          "Araji",
+          "Asherona",
+          "Vulcan",
+          "Moloch"
+        ],
+        "result": "victory",
+        "score": "10x0"
+      },
+      {
+        "opponent_team_name": "Full Earth",
+        "opponent_composition": [
+          "Sylva",
+          "Eden",
+          "Verdoc",
+          "Avalon",
+          "Angus"
+        ],
+        "result": "victory",
+        "score": "10x0"
+      },
+      {
+        "opponent_team_name": "Dark + Solaris",
+        "opponent_composition": [
+          "Tenebris",
+          "Solaris",
+          "Keros",
+          "Mort",
+          "Brustar"
+        ],
+        "result": "victory",
+        "score": "10x0"
       }
     ]
   }
