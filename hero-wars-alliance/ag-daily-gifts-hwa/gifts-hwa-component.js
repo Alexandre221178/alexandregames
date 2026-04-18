@@ -280,7 +280,7 @@
 
   function formatDateTime(dt, lang) {
     var d = new Date(dt);
-    return d.toLocaleDateString(LOCALES[lang] || LOCALES.en, { month: 'long', day: 'numeric' }) +
+    return d.toLocaleDateString(LOCALES[lang] || LOCALES.en, { month: 'long', day: 'numeric', timeZone: 'UTC' }) +
       ', ' + d.toLocaleTimeString(LOCALES[lang] || LOCALES.en, { hour: 'numeric', minute: '2-digit', timeZone: 'UTC', timeZoneName: 'short' });
   }
 
