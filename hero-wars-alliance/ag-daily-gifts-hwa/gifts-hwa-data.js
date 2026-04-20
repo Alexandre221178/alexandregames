@@ -6,6 +6,9 @@
 // ── April #, 2026 ──────────────────────────────
 window.HWA_GIFTS = [
 
+// ── April 20, 2026 ──────────────────────────────
+  { date:'2026-04-20', type:'daily', mission:'2-11', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
 // ── April 19, 2026 ──────────────────────────────
   { date:'2026-04-19', type:'daily', mission:'3-8', note:'daily|80',
