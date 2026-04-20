@@ -20,10 +20,10 @@ function injectMysteriousIslandContent3() {
 <p>${data.para2}</p>
 <figure>
   <picture>
-    <source media="(min-width: 768px)" srcset="../../hero-wars-dominion-era/images/guides/mysterious-island/happy-birthday-hero-wars-1200px.webp">
-    <img src="../../hero-wars-dominion-era/images/guides/mysterious-island/happy-birthday-hero-wars-800px.webp"
-         alt="Happy Birthday Hero Wars - Wallpaper"
-         title="Happy Birthday Hero Wars - Hero Wars Dominion Era"
+    <source media="(min-width: 768px)" srcset="../../hero-wars-dominion-era/images/guides/mysterious-island/lumira-map-1200px.webp">
+    <img src="../../hero-wars-dominion-era/images/guides/mysterious-island/lumira-map-800px.webp"
+         alt="Lumira Map Hero Wars - Wallpaper"
+         title="Lumira Map Hero Wars - Hero Wars Dominion Era"
          loading="lazy"
          width="100%">
   </picture>
