@@ -1,7 +1,15 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
-    
+    {
+      link: "../../hero-wars-alliance/guide/realm-pve-best-teams-en.html",
+      src500: "../../hero-wars-alliance/images/guides/realm-pve-best-teams/realm-pve-best-teams-500px.webp",
+      src400: "../../hero-wars-alliance/images/guides/realm-pve-best-teams/realm-pve-best-teams-400px.webp",
+      alt: "Best PvE Realm Teams – Beat Boss Rally & Monster LV25 for Hero Wars Alliance",
+      title: "Best PvE Realm Teams – Beat Boss Rally & Monster LV25 for Hero Wars Alliance",
+      strong: "Best PvE Realm Teams – Beat Boss Rally & Monster LV25 for Hero Wars Alliance",
+      updated: "Updated: April, 2026."
+    },
     {
       link: "../../hero-wars-alliance/titans-events-tips/alecto-season-adventure-shop-en.html",
       src500: "../../hero-wars-alliance/images/titans-events-tips/alecto-season-adventure-shop/alecto-season-adventure-shop-500px.webp",
