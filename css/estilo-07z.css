@@ -143,7 +143,7 @@ body{
   /* Estilos para reservar o espaço do menu */
   #menu-container {
     width: 100%;
-    min-height: 80px; /* Altura mínima para garantir espaço reservado */
+    min-height: 80px; /* nav Altura mínima para garantir espaço reservado */
     background-color: #323131; /* Cor de fundo para visualização enquanto o menu carrega */
 }
 .menu-icon img { width: 48px; height: 48px; cursor: pointer; }
