@@ -162,6 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div id="realm" class="submenu-items">
             <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-de.html">Kompletter Reich-Guide</a>
             <a href="https://alexandregames.com/hero-wars-alliance/tier-list-hwa/realm-tier-list-de.html">Reich Tier-Liste</a>
+            <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-pve-best-teams-de.html">Beste Teams Rally & Monster</a>
         </div>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-review-en-hwa.html">🎨 Rezensionen, Tipps, Strategien</a>
         <a href="https://alexandregames.com/Hero%20Wars%20English/Titans%20Guide%20Hero%20Wars.html">⚔️ Titanen-Guide</a>
