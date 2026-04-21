@@ -25,7 +25,7 @@ customNote:{ en:'The gift is available until... not defined (or 24h)',
 rewards:['intelligence-skin-stone x300', 'strength-skin-stone x300', 'agility-skin-stone x300',] },
 
 / ── 3gft adventure coin energy adventure energy ──────────────────────────────
-{ date:'2026-##-##', type:'special', mission:'##', note:'until|2026-##-##T01:00:00Z',
+{ date:'2026-##-##', type:'special', mission:'2-4', note:'until|2026-##-##T01:00:00Z',
     rewards:['adventure-coin x1000', 'energy x20', 'adventure-energy x50'] },
 
 // ── 3gft summoning sphere energy gold ──────────────────────────────
