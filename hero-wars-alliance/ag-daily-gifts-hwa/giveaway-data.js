@@ -4,23 +4,19 @@
 // npm run update-mysterious-island-hwde
 const giveawayData = {
  pt: {
-    title: "Sorteio Exclusivo: Comunidade Alexandre Games",
-    para1: "Sorteio 2026 traz desafios frescos e recompensas emocionantes para todos os aventureiros! O mapa deste mês apresenta uma rota otimizada que permite aos <b>jogadores F2P</b> coletar eficientemente <b> 20.000 Esmeraldas Grátis</b> usando 23 Movimentos de Explorador com mais 6 Movimentos de Explorador coletar <b>100 Catalisador Primal.</b>",
-    para2: "Sorteioe uso cuidadoso de seus Movimentos de Explorador, você pode navegar pelos caminhos labirínticos, desbloquear pontes coletando troncos de madeira e alcançar torres de recompensas valiosas. Seja visando a Bandeira de Guerra ou focando em recursos sazonais, este guia ajudará você a aproveitar ao máximo sua jornada pela Ilha Misteriosa em abril!",
-    para3: "Sorteio de abril é ideal para jogadores que querem coletar Esmeraldas Grátis, infelizmente a Caixa de Bandeira de Guerra, esta precisando de muito movimentos nesse mapa, e a bandeira de guerra é item essencial para jogadores iniciantes, veja a tabela abaixo como garantir esses itens com baixo custo.",
-    rewardsTitle: "Recompensas Principais da Ilha Misteriosa - Rota Alexandre Games",
+    title: "🚨 SORTEIO EXCLUSIVO: COMUNIDADE ALEXANDRE GAMES 🚨",
+    para1: "Atenção, seguidores! Preparei um sorteio especial exclusivamente para quem faz parte da nossa comunidade oficial no WhatsApp. Esta é a sua chance de garantir recursos raros!",
+    para2: "<p><b>📝 COMO PARTICIPAR:</b></p>  <ol>        <li>1️⃣ <strong>Entre no grupo</strong> pelo link abaixo (se você ainda não estiver lá).</li>        <li>2️⃣ <strong>Envie seu ID</strong> no grupo para validar sua participação.</li>        <li>3️⃣ O sorteio acontece <b>amanhã à noite!</b></li>    </ol>",
+    para3: "<div style=\"text-align: center; margin: 25px 0;\">        <p>👉 <b>LINK DO GRUPO:</b></p>        <a href=\"https://chat.whatsapp.com/Bzeu7RaEMqG5IypPfuJpBP\" target=\"_blank\" style=\"background-color: #25d366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">ENTRAR NO GRUPO DO WHATSAPP</a>    </div>",
+    para4: "🎁 OS PRÊMIOS: <ul>        <li>📌 <b>5 VENCEDORES</b> serão selecionados aleatoriamente.</li>        <li>📌 Cada vencedor recebe <b>5.000 Metacubos</b> + <b>1 Avatar Lucky Boxy</b>.</li>    </ul>",
+    rewardsTitle: "RECOMPENSAS DO SORTEIO: COMUNIDADE ALEXANDRE GAMES",
+    tableCaption: "Tabela: Principais recompensas do sorteio e IDs dos vencedores",
     rewards: [
-      { item: "5K Metacube", cost: "+23", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
-       
-      //  { item: "100 Catalisador Elemental", cost: "+6", image: "../../hero-wars-dominion-era/images/events/shared/elemental-catalyst.webp" }, 
-// { item: "500 Esfera de Artefato Titã", cost: "+10", image: "../../hero-wars-dominion-era/images/events/shared/titan-artifact-sphere.webp" },
- //{ item: "50K Pedras de Skin de Titã", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/titan-skin-stone.webp" },
-
-      { item: "Total Movimentos do Explorador", cost: "117", image: "../../hero-wars-dominion-era/images/events/shared/explorers-move.webp" },
-      { item: "", cost: "" },
-      { item: "<b>Total Baú de Temporada</b>", cost: "109", image: "../../hero-wars-dominion-era/images/events/shared/season-chest.webp" },
-      { item: "<b>Total Baú de Padrões</b>", cost: "16", image: "../../hero-wars-dominion-era/images/events/shared/chest-of-patterns.webp" },
-  
+      { item: "5K Metacubos", winner_id: "569462229", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5K Metacubos", winner_id: "47839615", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5K Metacubos", winner_id: "614114610", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5K Metacubos", winner_id: "597022747", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5K Metacubos", winner_id: "664641480", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" }
     ]
   },
 
@@ -35,104 +31,79 @@ const giveawayData = {
       rewardsTitle: "GIVEAWAY REWARDS: ALEXANDRE GAMES COMMUNITY",
       tableCaption: "Table: Main Rewards of the Giveaway and Winner IDs",
      rewards: [
-      { item: "5K Metacubes", winner_id: "", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
-          ]
+{ item: "5K Metacubes", winner_id: "569462229", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+{ item: "5K Metacubes", winner_id: "47839615", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+{ item: "5K Metacubes", winner_id: "614114610", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+{ item: "5K Metacubes", winner_id: "597022747", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+{ item: "5K Metacubes", winner_id: "664641480", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+
+
+    
+    ]
   },
  
   de: {
-    title: "Mysterious Island April, 2026 - Karte 1-1",
-    para1: "Die Mysterious Island im April 2026 bringt frische Herausforderungen und aufregende Belohnungen für alle Abenteurer! Die Karte dieses Monats bietet eine optimierte Route, die es <b>F2P-Spielern</b> ermöglicht, effizient <b>20.000 kostenlose Smaragde</b> mit 23 Entdecker-Bewegungen sowie 6 zusätzlichen Bewegungen zum Sammeln von <b>100 Primal-Katalysatoren</b> zu sammeln.",
-    para2: "Mit strategischer Planung und sorgfältiger Nutzung Ihrer Entdecker-Bewegungen können Sie labyrinthartige Pfade navigieren, Brücken durch das Sammeln von Holzstämmen freischalten und wertvolle Belohnungstürme erreichen. Ob Sie die Kriegsflagge anstreben oder sich auf saisonale Ressourcen konzentrieren, dieser Leitfaden hilft Ihnen, das Beste aus Ihrer Reise über die Mysterious Island im April zu machen!",
-    figcaption: "Mysterious Island April Karte 1-1, 2026, Hero Wars: Dominion Era.",
-    para3: "Diese April-Karte 1-1 ist ideal für Spieler, die kostenlose Smaragde sammeln möchten; leider erfordert die Kriegsflaggen-Truhe auf dieser Karte viele Bewegungen, und die Kriegsflagge ist ein wichtiges Item für neue Spieler — siehe die Tabelle unten, um zu erfahren, wie man diese Gegenstände kostengünstig sichern kann.",
-    rewardsTitle: "Hauptbelohnungen der Mysterious Island - Alexandre Games Route",
-    tableCaption: "Tabelle: Hauptbelohnungen der Mysterious Island - Alexandre Games Route",
+    title: "🚨 EXKLUSIVES GEWINNSPIEL: ALEXANDRE GAMES COMMUNITY 🚨",
+    para1: "Achtung, Follower! Ich habe ein besonderes Gewinnspiel exklusiv für alle vorbereitet, die Teil unserer offiziellen WhatsApp-Community sind. Das ist deine Chance, seltene Ressourcen zu sichern!",
+    para2: "<p><b>📝 SO NIMMST DU TEIL:</b></p>  <ol>        <li>1️⃣ <strong>Tritt der Gruppe bei</strong> über den Link unten bei, falls du noch nicht drin bist.</li>        <li>2️⃣ <strong>Schicke deine ID</strong> in die Gruppe, um deine Teilnahme zu bestätigen.</li>        <li>3️⃣ Die Auslosung findet <b>morgen Abend!</b> statt.</li>    </ol>",
+    para3: "<div style=\"text-align: center; margin: 25px 0;\">        <p>👉 <b>GRUPPENLINK:</b></p>        <a href=\"https://chat.whatsapp.com/Bzeu7RaEMqG5IypPfuJpBP\" target=\"_blank\" style=\"background-color: #25d366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">WHATSAPP-GRUPPE BEITRETEN</a>    </div>",
+    para4: "🎁 DIE PREISE: <ul>        <li>📌 <b>5 GEWINNER</b> werden zufällig ausgewählt.</li>        <li>📌 Jeder Gewinner erhält <b>5.000 Metacubes</b> + <b>1 Lucky Boxy Avatar</b>.</li>    </ul>",
+    rewardsTitle: "GEWINNSPIEL-BELOHNUNGEN: ALEXANDRE GAMES COMMUNITY",
+    tableCaption: "Tabelle: Hauptbelohnungen des Gewinnspiels und Gewinner-IDs",
     rewards: [
-      { item: "10K Smaragde", cost: "+23", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
-      { item: "1 Kriegsflaggen-Truhe", cost: "+21", image: "../../hero-wars-dominion-era/images/events/shared/war-flag-chest.webp" },
-      { item: "100 Primal-Katalysator", cost: "+6", image: "../../hero-wars-dominion-era/images/events/shared/primal-catalyst.webp" },
-      { item: "100 Truhen mit Absoluten Artefakten", cost: "+13", image: "../../hero-wars-dominion-era/images/events/shared/absolute-artifact-chest.webp" },
-      { item: "1500 Wunschkristalle", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 Titan-Skin-Stein-Truhen", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/titan-skin-stone.webp" },
-      { item: "1500 Wunschkristalle", cost: "+14", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 Wunsch-Insignien", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-insignia.webp" },
-      { item: "20K Smaragde", cost: "+9", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
-      { item: "Gesamt Entdeckerbewegungen", cost: "117", image: "../../hero-wars-dominion-era/images/events/shared/explorers-move.webp" },
-      { item: "", cost: "" },
-      { item: "<b>Gesamt Saisontruhe</b>", cost: "109", image: "../../hero-wars-dominion-era/images/events/shared/season-chest.webp" },
-      { item: "<b>Gesamt Mustertruhe</b>", cost: "16", image: "../../hero-wars-dominion-era/images/events/shared/chest-of-patterns.webp" }
+      { item: "5K Metacubes", winner_id: "569462229", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5K Metacubes", winner_id: "47839615", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5K Metacubes", winner_id: "614114610", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5K Metacubes", winner_id: "597022747", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5K Metacubes", winner_id: "664641480", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" }
     ]
   },
   es: {
-    title: "Isla Misteriosa Abril, 2026 - Mapa 1-1",
-    para1: "La Isla Misteriosa de abril de 2026 trae desafíos frescos y recompensas emocionantes para todos los aventureros! El mapa de este mes presenta una ruta optimizada que permite a los <b>jugadores F2P</b> recolectar eficientemente <b>20.000 Esmeraldas Gratis</b> usando 23 Movimientos de Explorador más 6 Movimientos adicionales para recoger <b>100 Catalizador Primal</b>.",
-    para2: "Con planificación estratégica y uso cuidadoso de tus Movimientos de Explorador, puedes navegar por los caminos laberínticos, desbloquear puentes recolectando troncos de madera y alcanzar torres de recompensas valiosas. Ya sea que apuntes a la Bandera de Guerra o te concentres en recursos estacionales, esta guía te ayudará a aprovechar al máximo tu viaje por la Isla Misteriosa en abril!",
-    figcaption: "Mapa 1 de la Isla Misteriosa de Abril, 2026, Hero Wars: Dominion Era.",
-    para3: "Este Mapa 1 de abril es ideal para jugadores que quieren recolectar Esmeraldas Gratis; desafortunadamente, el Cofre de Bandera de Guerra requiere muchos movimientos en este mapa, y la bandera de guerra es un ítem esencial para jugadores nuevos — vea la tabla a continuación para saber cómo asegurar estos ítems a bajo costo.",
-    rewardsTitle: "Recompensas Principales de la Isla Misteriosa - Ruta Alexandre Games",
-    tableCaption: "Tabla: Recompensas Principales de la Isla Misteriosa - Ruta Alexandre Games",
+    title: "🚨 SORTEO EXCLUSIVO: COMUNIDAD ALEXANDRE GAMES 🚨",
+    para1: "¡Atención, seguidores! He preparado un sorteo especial exclusivamente para quienes forman parte de nuestra comunidad oficial de WhatsApp. ¡Esta es tu oportunidad de conseguir recursos raros!",
+    para2: "<p><b>📝 CÓMO PARTICIPAR:</b></p>  <ol>        <li>1️⃣ <strong>Únete al grupo</strong> mediante el enlace de abajo, si todavía no estás allí.</li>        <li>2️⃣ <strong>Envía tu ID</strong> en el grupo para validar tu participación.</li>        <li>3️⃣ ¡El sorteo se realiza <b>mañana por la noche!</b></li>    </ol>",
+    para3: "<div style=\"text-align: center; margin: 25px 0;\">        <p>👉 <b>ENLACE DEL GRUPO:</b></p>        <a href=\"https://chat.whatsapp.com/Bzeu7RaEMqG5IypPfuJpBP\" target=\"_blank\" style=\"background-color: #25d366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">UNIRSE AL GRUPO DE WHATSAPP</a>    </div>",
+    para4: "🎁 LOS PREMIOS: <ul>        <li>📌 <b>5 GANADORES</b> serán seleccionados al azar.</li>        <li>📌 Cada ganador recibe <b>5.000 Metacubos</b> + <b>1 Avatar Lucky Boxy</b>.</li>    </ul>",
+    rewardsTitle: "RECOMPENSAS DEL SORTEO: COMUNIDAD ALEXANDRE GAMES",
+    tableCaption: "Tabla: Recompensas principales del sorteo e IDs de los ganadores",
     rewards: [
-      { item: "10K Esmeraldas", cost: "+23", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
-      { item: "1 Cofre de Bandera de Guerra", cost: "+21", image: "../../hero-wars-dominion-era/images/events/shared/war-flag-chest.webp" },
-      { item: "100 Catalizador Primal", cost: "+6", image: "../../hero-wars-dominion-era/images/events/shared/primal-catalyst.webp" },
-      { item: "100 Cajas de Artefactos Absolutos", cost: "+13", image: "../../hero-wars-dominion-era/images/events/shared/absolute-artifact-chest.webp" },
-      { item: "1500 Cristales de Deseo", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 Cajas de Piedra de Skin de Titán", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/titan-skin-stone.webp" },
-      { item: "1500 Cristales de Deseo", cost: "+14", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 Insignias de Deseo", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-insignia.webp" },
-      { item: "20K Esmeraldas", cost: "+9", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
-      { item: "Total Movimientos del Explorador", cost: "117", image: "../../hero-wars-dominion-era/images/events/shared/explorers-move.webp" },
-      { item: "", cost: "" },
-      { item: "<b>Total Cofre de Temporada</b>", cost: "109", image: "../../hero-wars-dominion-era/images/events/shared/season-chest.webp" },
-      { item: "<b>Total Cofre de Patrones</b>", cost: "16", image: "../../hero-wars-dominion-era/images/events/shared/chest-of-patterns.webp" }
+      { item: "5K Metacubos", winner_id: "569462229", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5K Metacubos", winner_id: "47839615", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5K Metacubos", winner_id: "614114610", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5K Metacubos", winner_id: "597022747", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5K Metacubos", winner_id: "664641480", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" }
     ]
   },
   fr: {
-    title: "Île Mystérieuse Avril, 2026 - Carte 1-1",
-    para1: "L'Île Mystérieuse d'avril 2026 apporte des défis frais et des récompenses excitantes pour tous les aventuriers ! La carte de ce mois présente une route optimisée qui permet aux <b>joueurs F2P</b> de collecter efficacement <b>20 000 Émeraudes Gratuites</b> en utilisant 23 mouvements d'explorateur plus 6 mouvements supplémentaires pour collecter <b>100 Catalyseurs Primal</b>.",
-    para2: "Avec une planification stratégique et une utilisation prudente de vos mouvements d'explorateur, vous pouvez naviguer à travers les chemins labyrinthiques, débloquer des ponts en collectant des rondins de bois et atteindre des tours de récompenses précieuses. Que vous visiez le Coffre de Drapeau de Guerre ou que vous vous concentriez sur les ressources saisonnières, ce guide vous aidera à tirer le meilleur parti de votre voyage à travers l'Île Mystérieuse en avril !",
-    figcaption: "Carte 1-1 de l'Île Mystérieuse d'Avril, 2026, Hero Wars: Dominion Era.",
-    para3: "Cette Carte 1-1 d'avril est idéale pour les joueurs souhaitant collecter des Émeraudes Gratuites ; malheureusement, le Coffre de Drapeau de Guerre nécessite de nombreux mouvements sur cette carte, et la bannière de guerre est un objet essentiel pour les nouveaux joueurs — consultez le tableau ci-dessous pour savoir comment sécuriser ces objets à moindre coût.",
-    rewardsTitle: "Récompenses Principales de l'Île Mystérieuse - Route Alexandre Games",
-    tableCaption: "Tableau: Récompenses Principales de l'Île Mystérieuse - Route Alexandre Games",
+    title: "🚨 GIVEAWAY EXCLUSIF : COMMUNAUTÉ ALEXANDRE GAMES 🚨",
+    para1: "Attention, abonnés ! J’ai préparé un giveaway spécial exclusivement pour ceux qui font partie de notre communauté officielle WhatsApp. C’est votre chance d’obtenir des ressources rares !",
+    para2: "<p><b>📝 COMMENT PARTICIPER :</b></p>  <ol>        <li>1️⃣ <strong>Rejoignez le groupe</strong> via le lien ci-dessous si vous n’y êtes pas encore.</li>        <li>2️⃣ <strong>Envoyez votre ID</strong> dans le groupe pour valider votre participation.</li>        <li>3️⃣ Le tirage a lieu <b>demain soir !</b></li>    </ol>",
+    para3: "<div style=\"text-align: center; margin: 25px 0;\">        <p>👉 <b>LIEN DU GROUPE :</b></p>        <a href=\"https://chat.whatsapp.com/Bzeu7RaEMqG5IypPfuJpBP\" target=\"_blank\" style=\"background-color: #25d366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">REJOINDRE LE GROUPE WHATSAPP</a>    </div>",
+    para4: "🎁 LES PRIX : <ul>        <li>📌 <b>5 GAGNANTS</b> seront sélectionnés au hasard.</li>        <li>📌 Chaque gagnant reçoit <b>5 000 Metacubes</b> + <b>1 Avatar Lucky Boxy</b>.</li>    </ul>",
+    rewardsTitle: "RÉCOMPENSES DU GIVEAWAY : COMMUNAUTÉ ALEXANDRE GAMES",
+    tableCaption: "Tableau : Principales récompenses du giveaway et IDs des gagnants",
     rewards: [
-      { item: "10K Émeraudes", cost: "+23", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
-      { item: "1 Coffre de Drapeau de Guerre", cost: "+21", image: "../../hero-wars-dominion-era/images/events/shared/war-flag-chest.webp" },
-      { item: "100 Catalyseurs Primal", cost: "+6", image: "../../hero-wars-dominion-era/images/events/shared/primal-catalyst.webp" },
-      { item: "100 Coffres d'Artefacts Absolus", cost: "+13", image: "../../hero-wars-dominion-era/images/events/shared/absolute-artifact-chest.webp" },
-      { item: "1500 Cristaux de Souhait", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 Coffres de Pierre de Skin Titan", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/titan-skin-stone.webp" },
-      { item: "1500 Cristaux de Souhait", cost: "+14", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 Insignes de Souhait", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-insignia.webp" },
-      { item: "20K Émeraudes", cost: "+9", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
-      { item: "Total des mouvements d'explorateur", cost: "117", image: "../../hero-wars-dominion-era/images/events/shared/explorers-move.webp" },
-      { item: "", cost: "" },
-      { item: "<b>Total Coffre de Saison</b>", cost: "109", image: "../../hero-wars-dominion-era/images/events/shared/season-chest.webp" },
-      { item: "<b>Total Coffre de Motifs</b>", cost: "16", image: "../../hero-wars-dominion-era/images/events/shared/chest-of-patterns.webp" }
+      { item: "5K Metacubes", winner_id: "569462229", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5K Metacubes", winner_id: "47839615", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5K Metacubes", winner_id: "614114610", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5K Metacubes", winner_id: "597022747", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5K Metacubes", winner_id: "664641480", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" }
     ]
   },
   ja: {
-    title: "謎の島 2026年4月 - マップ1-1",
-    para1: "2026年4月の謎の島は、新鮮な挑戦とエキサイティングな報酬をすべての冒険者に提供します！今月のマップは、<b>F2Pプレイヤー</b>が23の探検家の動きと、プライマル触媒100個を集めるために追加で6の動きを使用して<b>20,000 無料エメラルド</b>を効率的に収集できる最適化されたルートを特徴としています。",
-    para2: "戦略的な計画と探検家の動きの慎重な使用により、迷路のような道をナビゲートし、丸太を集めて橋を解除し、貴重な報酬の塔に到達できます。戦争旗を狙うか季節リソースに集中するか、このガイドは4月の謎の島を最大限に活用するのに役立ちます！",
-    figcaption: "謎の島 2026年4月 マップ1-1, Hero Wars: Dominion Era.",
-    para3: "この4月のマップ1-1は、無料のエメラルドを集めたいプレイヤーに最適です。残念ながら、このマップでは戦争旗の宝箱を得るには多くの移動が必要であり、戦争旗は新規プレイヤーにとって重要なアイテムです — 下の表で低コストでこれらのアイテムを確保する方法を確認してください。",
-    rewardsTitle: "謎の島の主な報酬 - Alexandre Gamesルート",
-    tableCaption: "表: 謎の島の主な報酬 - Alexandre Gamesルート",
+    title: "🚨 限定ギブアウェイ: ALEXANDRE GAMES COMMUNITY 🚨",
+    para1: "フォロワーの皆さん、ご注目ください！公式WhatsAppコミュニティのメンバー限定で、特別なギブアウェイを用意しました。レアな資源を獲得するチャンスです！",
+    para2: "<p><b>📝 参加方法:</b></p>  <ol>        <li>1️⃣ <strong>グループに参加</strong>してください。まだ参加していない場合は、下のリンクから参加できます。</li>        <li>2️⃣ <strong>IDをグループに投稿</strong>して参加を確認してください。</li>        <li>3️⃣ 抽選は<b>明日の夜</b>に行われます！</li>    </ol>",
+    para3: "<div style=\"text-align: center; margin: 25px 0;\">        <p>👉 <b>グループリンク:</b></p>        <a href=\"https://chat.whatsapp.com/Bzeu7RaEMqG5IypPfuJpBP\" target=\"_blank\" style=\"background-color: #25d366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">WHATSAPPグループに参加</a>    </div>",
+    para4: "🎁 賞品: <ul>        <li>📌 <b>5名の当選者</b>がランダムに選ばれます。</li>        <li>📌 当選者はそれぞれ<b>5,000メタキューブ</b> + <b>Lucky Boxyアバター1個</b>を受け取ります。</li>    </ul>",
+    rewardsTitle: "ギブアウェイ報酬: ALEXANDRE GAMES COMMUNITY",
+    tableCaption: "表: ギブアウェイの主な報酬と当選者ID",
     rewards: [
-      { item: "10K エメラルド", cost: "+23", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
-      { item: "戦争旗の宝箱 1", cost: "+21", image: "../../hero-wars-dominion-era/images/events/shared/war-flag-chest.webp" },
-      { item: "100 プライマル触媒", cost: "+6", image: "../../hero-wars-dominion-era/images/events/shared/primal-catalyst.webp" },
-      { item: "100 絶対アーティファクト箱", cost: "+13", image: "../../hero-wars-dominion-era/images/events/shared/absolute-artifact-chest.webp" },
-      { item: "1500 ウィッシュクリスタル", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 タイタンスキン石箱", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/titan-skin-stone.webp" },
-      { item: "1500 ウィッシュクリスタル", cost: "+14", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 ウィッシュ徽章", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-insignia.webp" },
-      { item: "20K エメラルド", cost: "+9", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
-      { item: "探検家の合計移動", cost: "117", image: "../../hero-wars-dominion-era/images/events/shared/explorers-move.webp" },
-      { item: "", cost: "" },
-      { item: "<b>総季節箱合計</b>", cost: "109", image: "../../hero-wars-dominion-era/images/events/shared/season-chest.webp" },
-      { item: "<b>総パターン箱合計</b>", cost: "16", image: "../../hero-wars-dominion-era/images/events/shared/chest-of-patterns.webp" }
+      { item: "5Kメタキューブ", winner_id: "569462229", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5Kメタキューブ", winner_id: "47839615", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5Kメタキューブ", winner_id: "614114610", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5Kメタキューブ", winner_id: "597022747", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" },
+      { item: "5Kメタキューブ", winner_id: "664641480", image: "../../hero-wars-alliance/images/events/shared/meta-cube.webp" }
     ]
   }
 };
