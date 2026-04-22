@@ -6,6 +6,10 @@
 // ── April #, 2026 ──────────────────────────────
 window.HWA_GIFTS = [
 
+  // ── April 22, 2026 ──────────────────────────────
+  { date:'2026-04-22', type:'daily', mission:'2-5', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+
   // ── April 21, 2026 ──────────────────────────────
 { date:'2026-04-21', type:'specialTask', mission:'2-4', note:'untilLevel|2026-05-11T01:00:00Z|15',
 rewards:['large-skin-stone-chest x5', 'energy x20', 'adventure-energy x100'] },
