@@ -9,23 +9,11 @@ window.HWA_GIFTS = [
   { date:'2026-04-23', type:'daily', mission:'3-3', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
-  // ── April 22, 2026 ──────────────────────────────
-  { date:'2026-04-22', type:'daily', mission:'2-5', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-
+  
   // ── April 21, 2026 ──────────────────────────────
 { date:'2026-04-21', type:'specialTask', mission:'2-4', note:'untilLevel|2026-05-11T01:00:00Z|15',
 rewards:['large-skin-stone-chest x5', 'energy x20', 'adventure-energy x100'] },
-  { date:'2026-04-21', type:'daily', mission:'3-9', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-
-// ── April 20, 2026 ──────────────────────────────
-  { date:'2026-04-20', type:'daily', mission:'2-11', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-
-// ── April 19, 2026 ──────────────────────────────
-  { date:'2026-04-19', type:'daily', mission:'3-8', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+  
 
   // ── April 18, 2026 ──────────────────────────────
 { date:'2026-04-18', type:'hub', code:'DUNGEON', note:'until|2026-05-11T01:00:00Z',
