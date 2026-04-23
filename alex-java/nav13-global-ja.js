@@ -335,7 +335,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 .replace(/-ja\.html$/, '')
                 .replace(/\.html$/, '');
             
-            const newFile = baseName + langMap[selectedLang];
+            let newFile = baseName + langMap[selectedLang];
+            // 特殊ケース：英語ホームページは index.html（-en サフィックスなし）
+            if (newFile === 'index-en.html') newFile = 'index.html';
             const newPath = currentPath.replace(currentFile, newFile);
             
             window.location.href = newPath;

@@ -336,7 +336,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 .replace(/-ja\.html$/, '')
                 .replace(/\.html$/, '');
             
-            const newFile = baseName + langMap[selectedLang];
+            let newFile = baseName + langMap[selectedLang];
+            // Special case: English homepage is index.html (no -en suffix)
+            if (newFile === 'index-en.html') newFile = 'index.html';
             const newPath = currentPath.replace(currentFile, newFile);
             
             window.location.href = newPath;
