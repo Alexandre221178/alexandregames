@@ -306,6 +306,17 @@ nav .menu-icon{
     justify-content: space-between;
 }
 
+main > div {
+    width: 100%;
+}
+
+main > div:not(.column) {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
 
   /* Column container */
   .column {  
@@ -321,18 +332,29 @@ nav .menu-icon{
     -ms-flex: 65%; /* IE10 */
     flex: 65%;
     background-color: #f1f1f1;
-    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
   }
+
+    .side h2 {
+        width: 100%;
+    }
   
   /* Main column */
   .main {   
     -ms-flex: 35%; /* IE10 */
     flex: 35%;
     background-color: black;
-   
-    
-    
   }
+
+    .main > div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
   
   
 
@@ -729,36 +751,20 @@ section p{
 }
 
 .img-banner img{
-    aspect-ratio: 600 / 340; /* Ajusta a proporção era 800x450*/
-    
+    aspect-ratio: 1200 / 500; /* Ajusta a proporção para mobile */
 }
 
-.img-banner {
-  width: 70%; /* ou defina por exemplo 600px */
-  margin-left: 30px;
-  display: block;
-  
-}
 
-.img-banner img {
-  width: 100%;
-  height: auto;
-  display: block;
-   border: 3px solid #989797; /* cinza claro */
-   box-sizing: border-box; /* garante que a borda não ultrapasse o tamanho da imagem */
+.img-banner img{
+   min-height: 500px;
+    width: 100%;
+    height: 500px;    
 }
-
-.img-banner figcaption {
-  width: 100%;
-  margin: 0;          /* remove margem padrão */
-     /* espaçamento interno opcional */
-  font-size: 14px;
-  line-height: 1.4;
-  text-align: left;   /* garante que o texto começa da esquerda */
-  color: #030303;
-  background-color: transparent; /* opcional: pode usar cor clara se quiser destaque */
+.img-banner-index img{
+       
+    width: 100%;
+    height: auto;
 }
-
 
 
 /* imagem review */
@@ -903,16 +909,14 @@ margin-left: 30px;
 
 /* imagem do embed index */
 .img-visited{
-    width: 300px;
-    height: 180px;
-   
-    
-    margin-bottom: 70px;
+    width: calc(50% - 12px);
+    max-width: 260px;
+    height: auto;
+    margin-bottom: 24px;
     align-items: center;
     text-align: center;
-    float: left;
     image-orientation: left;
-    padding: 1% 2%;
+    padding: 0;
 }
 .img-visited a :hover{
     color: #f9464f;
@@ -920,7 +924,7 @@ margin-left: 30px;
 .img-visited a{
     padding: 0.1%;
     /* float e text align para texto a esquerda */
-    float: left;
+    display: block;
     text-align: left;
     color: white;
     image-orientation: flex;
@@ -934,7 +938,7 @@ margin-left: 30px;
 
 .img-visited img{
         width: 100%;
-        height: 100%;
+    height: auto;
         border: 4px solid #5654b3;
 }
         
@@ -978,23 +982,18 @@ margin-left: 30px;
 
      /* imagens do menu guia de heróis */    
 .img-home{
-    width: 100%;
-    
-    
-    
-   margin-bottom: 80px;
+    display: block;
+    width: 500px;
+    max-width: calc(100% - 24px);
+    margin-bottom: 0;
     align-items: center;
     text-align: center;
-    float: left;
     image-orientation: left;
-    padding: 2% 3%;
-    
+    padding: 0;
 }
 .img-home a{
-    float: center;
-    text-decoration: none;
-   
-    
+    display: inline-block;
+    text-decoration: none;  
 }
 
 .img-home a:hover{
@@ -2520,11 +2519,14 @@ iframe {
            
     }
     .img-home{  
-        margin-bottom: 110px;       
+        display: block;
+        width: 100%;
+        max-width: none;
+        margin-bottom: 13px;       
     }
     .img-visited{
         width: 100%;
-        margin-bottom: 100px; 
+        margin-bottom: 13px; 
        
     }
     .img-embed {
