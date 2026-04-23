@@ -314,8 +314,13 @@ document.addEventListener('DOMContentLoaded', () => {
         option.addEventListener('click', (e) => {
             e.preventDefault();
             const selectedLang = e.currentTarget.getAttribute('data-lang');
-            const currentPath = window.location.pathname;
-            const currentFile = currentPath.split('/').pop();
+            let currentPath = window.location.pathname;
+            let currentFile = currentPath.split('/').pop();
+            // Handle root path (server serves index.html by default)
+            if (!currentFile) {
+                currentFile = 'index.html';
+                currentPath = '/index.html';
+            }
             
             const langMap = {
                 'pt': '-pt.html',
