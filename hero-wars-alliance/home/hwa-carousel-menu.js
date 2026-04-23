@@ -7,7 +7,7 @@
       src400: "../../hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-400px.webp",
       alt: "Talisman Guide for Hero Wars Alliance",
       title: "Talisman Guide for Hero Wars Alliance",
-      strong: "Complete Talisman Guide 2026 for Hero Wars Alliance",
+      strong: "Complete Talisman Guide 2026 - Which is better? Hero Wars Alliance",
       updated: "Updated: March, 2026."
     },
     {
@@ -184,12 +184,14 @@
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Guia Completo de Relíquia Lendária de Yasmine para Hero Wars Alliance',
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guia de Byrna: Liberte o Espírito do Urso Curador em Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Resgate seus Presentes Diários para Hero Wars Alliance',
+        'Complete Talisman Guide': 'Guia Completo de Talismãs',
         'everyday': 'todos os dias',
         'monthly': 'mensalmente',
         'Calendar': 'Calendário',
         'New': 'Nova',
         'Adventure Shop Tips': 'Dicas da Loja de Aventura',
-        'What to Buy?': 'O que Comprar?',
+        'What to Buy': 'O que Comprar',
+        'Which is better': 'Qual é o Melhor'
       }
     },
     es: {
@@ -209,12 +211,15 @@
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Guía Completa de Reliquia Legendaria de Yasmine para Hero Wars Alliance',
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guía de Byrna: Libera el Espíritu del Oso Sanador en Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Canjea tus Regalos Diarios para Hero Wars Alliance',
+        'Complete Talisman Guide': 'Guía completa de talismanes:',
         'everyday': 'todos los días',
         'monthly': 'mensalmente',
         'Calendar': 'Calendario',
         'New': 'Nueva',
         'Adventure Shop Tips': 'Consejos de la Tienda de Aventura',
-        'What to Buy?': '¿Qué Comprar?',
+        'What to Buy': 'Qué Comprar',
+        'Which is better': 'Cuál es Mejor',
+
       }
     },
     fr: {
@@ -234,12 +239,14 @@
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Guide Complet de Relique Légendaire de Yasmine pour Hero Wars Alliance',
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guide de Byrna: Libérez l\'Esprit de l\'Ours Guérisseur dans Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Échangez vos Cadeaux Quotidiens pour Hero Wars Alliance',
+        'Complete Talisman Guide:': 'Guide complet des talismans:',
         'everyday': 'tous les jours',
         'monthly': 'mensuellement',
         'Calendar': 'Calendrier',
         'New': 'Nouvelle',
         'Adventure Shop Tips': 'Conseils de la Boutique d\'Aventure',
         'What to Buy?': 'Que Acheter?',
+        'Which is better': '¿Lequel est meilleur',
       }
     },
 
@@ -259,6 +266,7 @@
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Vollständiger Leitfaden zu Legendärer Relikt von Yasmine für Hero Wars Alliance',
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Byrna Leitfaden: Entfessle den Heiler-Bärengeist in Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Löse deine täglichen Geschenke für Hero Wars Alliance ein',
+        'Complete Talisman Guide:': 'Vollständiger Talisman-Leitfaden:',
         'for': 'für',
         'skin': 'Skin',
         'everyday': 'täglich',
@@ -267,6 +275,7 @@
         'New': 'Neu',
         'Adventure Shop Tips': 'Abenteuerladen Tipps',
         'What to Buy?': 'Was soll man kaufen?',
+        'Which is better': 'Welches ist besser'
       }
     },
     ja: {
@@ -310,16 +319,13 @@
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'ヒーローウォーズ アライアンスのバーナガイド: 癒やしの熊の精霊を解き放て',
         'Calendar for Hero Wars Alliance': 'ヒーローウォーズ アライアンス カレンダー',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのデイリーギフトを受け取る',
+        'Complete Talisman Guide:': 'タリスマン完全ガイド:',
         'Hero Wars: Alliance': 'ヒーローウォーズ アライアンス',
-        'for': '向け',
-        'skin': 'スキン',
-        'everyday': '毎日',
-        'monthly': '毎月',
-        'Calendar': 'カレンダー',
+        'for': '向け', 'skin': 'スキン',  'everyday': '毎日', 'monthly': '毎月', 'Calendar': 'カレンダー',
         'hero wars alliance': 'ヒーローウォーズ アライアンス',
         'New': '新しい',
         'Adventure Shop Tips': 'アドベンチャーショップのヒント',
-        'What to Buy?': '何を買うべき？',
+        'What to Buy?': '何を買うべき？', 'Which is better': 'どちらがいいですか'
       }
     },
    
