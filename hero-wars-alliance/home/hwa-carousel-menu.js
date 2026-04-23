@@ -2,6 +2,15 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
+      link: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html",
+      src500: "../../hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-500px.webp",
+      src400: "../../hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-400px.webp",
+      alt: "Talisman Guide for Hero Wars Alliance",
+      title: "Talisman Guide for Hero Wars Alliance",
+      strong: "Complete Talisman Guide 2026 for Hero Wars Alliance",
+      updated: "Updated: March, 2026."
+    },
+    {
       link: "../../hero-wars-alliance/guide/realm-pve-best-teams-en.html",
       src500: "../../hero-wars-alliance/images/guides/realm-pve-best-teams/realm-pve-best-teams-500px.webp",
       src400: "../../hero-wars-alliance/images/guides/realm-pve-best-teams/realm-pve-best-teams-400px.webp",
@@ -38,15 +47,7 @@
       updated: "Updated: March, 2026."
     },
     
-    {
-      link: "../../hero-wars-alliance/titans-events-tips/alecto-shop-ancient-awakening-en.html",
-      src500: "../../hero-wars-alliance/images/titans-events-tips/alecto-shop-ancient-awakening/alecto-shop-ancient-awakening-500px.webp",
-      src400: "../../hero-wars-alliance/images/titans-events-tips/alecto-shop-ancient-awakening/alecto-shop-ancient-awakening-400px.webp",
-      alt: "Alecto's Champion Coins shop during the Ancient Awakening Event in Hero Wars Alliance",
-      title: "Ancient Awakening Event Shop - Hero Wars Alliance",
-      strong: "Guide: Alecto's Ancient Awakening Event Shop! What to Buy? Hero Wars Alliance",
-      updated: "Updated: April, 2026."
-    },    
+      
     {
       link: "../../hero-wars-alliance/characters-guide/miu-en.html",
       src500: "../../hero-wars-alliance/images/hero/miu/miu-500px.webp",
@@ -95,15 +96,7 @@
       updated: "Updated: April, 2026."
     },
 
-    {
-      link: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html",
-      src500: "../../hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-500px.webp",
-      src400: "../../hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-400px.webp",
-      alt: "Talisman Guide for Hero Wars Alliance",
-      title: "Talisman Guide for Hero Wars Alliance",
-      strong: "Complete Talisman Guide 2026 for Hero Wars Alliance",
-      updated: "Updated: March, 2026."
-    },
+    
      
     {
       link: "../../hero-wars-alliance/tier-list-hwa/realm-tier-list-en.html",
