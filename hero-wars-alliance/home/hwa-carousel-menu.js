@@ -8,7 +8,16 @@
       alt: "Talisman Guide for Hero Wars Alliance",
       title: "Talisman Guide for Hero Wars Alliance",
       strong: "Complete Talisman Guide 2026 - Which is better? Hero Wars Alliance",
-      updated: "Updated: March, 2026."
+      updated: "Updated: April, 2026."
+    },
+    {
+      link: "../../hero-wars-alliance/characters-guide/drayne-en.html",
+      src500: "../../hero-wars-alliance/images/hero/drayne/drayne-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/drayne/drayne-400px.webp",
+      alt: "Drayne Legendary Skills Guide for Hero Wars Alliance",
+      title: "Drayne Guide for Hero Wars Alliance",
+      strong: "Guide: Drayne Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: April  , 2026."
     },
     {
       link: "../../hero-wars-alliance/guide/realm-pve-best-teams-en.html",

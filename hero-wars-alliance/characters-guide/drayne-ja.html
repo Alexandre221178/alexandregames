@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta property="article:published_time" content="2026-01-16T00:14:02-03:00" />
-    <meta property="article:modified_time" content="2026-03-22T17:58:07-03:00" />
+    <meta property="article:modified_time" content="2026-04-23T21:14:33-03:00" />
     <link rel="stylesheet" href="../../css/estilo13z.css">   
 
     <title>伝説のドレイン ガイド — ヒーローウォーズ アライアンス</title>
@@ -164,9 +164,26 @@
     </picture>
     <figcaption>ドレインガイド - ヒーローウォーズ アライアンス（開発: Nexters）</figcaption>
   </figure>
-  
 
-<section>
+<div class="table-of-contents" id="table-of-contents" aria-label="目次">
+  <h2>📋 ドレイン 目次</h2>
+  <ol>
+    <li><a href="#Who-Is-Drayne">ドレインとは？</a></li>
+    <li><a href="#Meta-Rating">メタ総合評価</a></li>
+    <li><a href="#Pros-Cons">長所と短所</a></li>
+    <li><a href="#Talisman-Stats">タリスマン比較</a></li>
+    <li><a href="#Talisman-Guide">タリスマンガイド</a></li>
+    <li><a href="#Skills">スキル &amp; レリク優先度</a></li>
+    <li><a href="#Skins">スキンおすすめ</a></li>
+    <li><a href="#Artifacts">アーティファクト優先度</a></li>
+    <li><a href="#Glyphs">グリフ強化優先度</a></li>
+    <li><a href="#Synergies">シナジー</a></li>
+    <li><a href="#Best-Teams">最強編成</a></li>
+    <li><a href="#Conclusion">結論</a></li>
+  </ol>
+</div>
+
+<section id="Who-Is-Drayne">
 <h2>ヒーローウォーズ アライアンスのドレインとは？</h2>
   
 <div>
@@ -181,13 +198,49 @@
   <li>🐉 <strong>ヒドラ評価:</strong> 未定</li>
 </ul>
 
-<p>ドレインの最大の特徴は<strong>ダメージ増加の付与</strong>だ。ダメージ増加は、HPが50%未満の敵に対して、与えるダメージ（物理・魔法・純粋すべて）を増加させるステータス。ドレインはこのバフを自分と後ろの味方全員に与えるため、チーム全体が「仕留める力」に特化した処刑部隊になる。</p>
+<p>ドレインの最大の特徴は<strong>クラッシング</strong>の付与だ。クラッシングは、HPが50%未満の敵に対して、与えるダメージ（物理・魔法・純粋すべて）を増加させるステータス。ドレインはこのバフを自分と後ろの味方全員に与えるため、チーム全体が「仕留める力」に特化した処刑部隊になる。正確な計算式は：<em>(クラッシング ÷ (クラッシング + 対象のメインステータス)) × 100%</em> — この割合が追加ダメージとして適用される。例えば、ドレインのクラッシングが100,000で、ターゲットの力が200,000の場合、ボーナスは(100,000 ÷ 300,000) × 100% = 33.3%の追加ダメージとなる。<strong>例外：</strong>パワー チャージのクラッシングバフによる味方ダメージの増幅分は、蘇生システムに追加されない（例えば、アスタロス自身への蘇生は発動しないが、味方への蘇生は発動する）。</p>
 
 <p><strong>そして最重要ポイント:</strong> ドレインが倒した敵は<em>復活できない</em>。この一点だけで、<strong>カイラ</strong>、<strong>エイダン</strong>、<strong>ルーファス</strong>、<strong>アスタロス</strong>のような復活・粘り込み系の人気メタに対して強烈なカウンターになる。</p>
 </section>
 
-  
-<div class="sectionx">
+<div class="sectionx" id="Meta-Rating">
+  <section>
+    <h2>ドレイン メタ総合評価</h2>
+    <table class="event-table">
+      <thead>
+        <tr>
+          <th>カテゴリー</th>
+          <th>評価</th>
+          <th>コメント</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>CC（機能制御）</td>
+          <td>⭐⭐</td>
+          <td>単体ではなし；チームが補う必要あり。</td>
+        </tr>
+        <tr>
+          <td>ダメージ</td>
+          <td>⭐⭐⭐⭐⭐</td>
+          <td>大規模AoEダメージ + 処刑 + チームにクラッシングバフ。</td>
+        </tr>
+        <tr>
+          <td>チームシナジー</td>
+          <td>⭐⭐⭐⭐⭐</td>
+          <td>クラッシングバフでチーム全体が処刑部隊に変わる。</td>
+        </tr>
+        <tr>
+          <td>自己完結性</td>
+          <td>⭐⭐⭐</td>
+          <td>耐久性は高いが、最大性能にはチームサポートが必要。</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</div>
+
+<div class="sectionx" id="Pros-Cons">
 <section>
 <h2>ドレイン — 長所と短所 (ヒーローウォーズ アライアンス)</h2>
   <h3>✅ 長所</h3>
@@ -219,7 +272,200 @@
          data-full-width-responsive="true"></ins>
 </div>
 
-<div class="sectionx">
+<!-- ==================== タリスマン ステータス 比較表 ==================== -->
+
+<section class="talisman-stats-section-table" id="Talisman-Stats">
+<h2>ドレイン — タリスマン 最大ステータス 比較</h2>
+  <table class="event-table">
+    <caption>ドレイン — タリスマン ステータス 比較</caption>
+    <thead>
+      <tr>
+        <th>ステータス</th>
+        <th><div class="reward-cell"><img src="../../hero-wars-alliance/images/hero/drayne/talisman-of-swordmaster-icon.webp" alt="Talisman of Swordmaster" title="Talisman of Swordmaster - Hero Wars Alliance"> Talisman of Swordmaster</div></th>
+        <th><div class="reward-cell"><img src="../../hero-wars-alliance/images/hero/drayne/talisman-of-rebirth-icon.webp" alt="Talisman of Rebirth" title="Talisman of Rebirth - Hero Wars Alliance"> Talisman of Rebirth</div></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/intelligence.webp" alt="Intelligence Glyph" title="Intelligence Glyph - Hero Wars Alliance"> 知力</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/intelligence.webp" alt="Intelligence Glyph" title="Intelligence Glyph - Hero Wars Alliance"> 3,529</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/intelligence.webp" alt="Intelligence Glyph" title="Intelligence Glyph - Hero Wars Alliance"> 3,529</div></td>
+      </tr>
+      <tr>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/agility.webp" alt="Agility Glyph" title="Agility Glyph - Hero Wars Alliance"> 俊敏</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/agility.webp" alt="Agility Glyph" title="Agility Glyph - Hero Wars Alliance"> 4,178</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/agility.webp" alt="Agility Glyph" title="Agility Glyph - Hero Wars Alliance"> 4,178</div></td>
+      </tr>
+      <tr>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/strength.webp" alt="Strength Glyph" title="Strength Glyph - Hero Wars Alliance"> 力</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/strength.webp" alt="Strength Glyph" title="Strength Glyph - Hero Wars Alliance"> 17,011</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/strength.webp" alt="Strength Glyph" title="Strength Glyph - Hero Wars Alliance"> 17,011</div></td>
+      </tr>
+      <tr>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/health.webp" alt="Health Glyph" title="Health Glyph - Hero Wars Alliance"> 体力</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/health.webp" alt="Health Glyph" title="Health Glyph - Hero Wars Alliance"> 1,553,285</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/health.webp" alt="Health Glyph" title="Health Glyph - Hero Wars Alliance"> 1,473,285</div></td>
+      </tr>
+      <tr>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/physical-attack.webp" alt="Physical Attack Glyph" title="Physical Attack Glyph - Hero Wars Alliance"> 物理攻撃</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/physical-attack.webp" alt="Physical Attack Glyph" title="Physical Attack Glyph - Hero Wars Alliance"> 109,353</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/physical-attack.webp" alt="Physical Attack Glyph" title="Physical Attack Glyph - Hero Wars Alliance"> 94,153</div></td>
+      </tr>
+      <tr>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/magic-attack.webp" alt="Magic Attack Glyph" title="Magic Attack Glyph - Hero Wars Alliance"> 魔法攻撃</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/magic-attack.webp" alt="Magic Attack Glyph" title="Magic Attack Glyph - Hero Wars Alliance"> 25,338</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/magic-attack.webp" alt="Magic Attack Glyph" title="Magic Attack Glyph - Hero Wars Alliance"> 25,338</div></td>
+      </tr>
+      <tr>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/armor.webp" alt="Armor Glyph" title="Armor Glyph - Hero Wars Alliance"> アーマー</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/armor.webp" alt="Armor Glyph" title="Armor Glyph - Hero Wars Alliance"> 25,004</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/armor.webp" alt="Armor Glyph" title="Armor Glyph - Hero Wars Alliance"> 25,004</div></td>
+      </tr>
+      <tr>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/magic-defense.webp" alt="Magic Defense Glyph" title="Magic Defense Glyph - Hero Wars Alliance"> 魔法防御</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/magic-defense.webp" alt="Magic Defense Glyph" title="Magic Defense Glyph - Hero Wars Alliance"> 10,885</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/magic-defense.webp" alt="Magic Defense Glyph" title="Magic Defense Glyph - Hero Wars Alliance"> 10,885</div></td>
+      </tr>
+      <tr>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/toughness.webp" alt="Toughness Glyph" title="Toughness Glyph - Hero Wars Alliance"> タフネス</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/toughness.webp" alt="Toughness Glyph" title="Toughness Glyph - Hero Wars Alliance"> 1,712</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/toughness.webp" alt="Toughness Glyph" title="Toughness Glyph - Hero Wars Alliance"> 1,712</div></td>
+      </tr>
+      <tr>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/armor-penetration.webp" alt="Armor Penetration Glyph" title="Armor Penetration Glyph - Hero Wars Alliance"> アーマー貫通</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/armor-penetration.webp" alt="Armor Penetration Glyph" title="Armor Penetration Glyph - Hero Wars Alliance"> 38,006</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/armor-penetration.webp" alt="Armor Penetration Glyph" title="Armor Penetration Glyph - Hero Wars Alliance"> 50,006</div></td>
+      </tr>
+      <tr>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/crushing.webp" alt="Crushing Glyph" title="Crushing Glyph - Hero Wars Alliance"> クラッシング</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/crushing.webp" alt="Crushing Glyph" title="Crushing Glyph - Hero Wars Alliance"> 15,489</div></td>
+        <td><div class="reward-cell"><img src="../../hero-wars-alliance/images/glyphs/crushing.webp" alt="Crushing Glyph" title="Crushing Glyph - Hero Wars Alliance"> 28,889</div></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ==================== タリスマンガイド ==================== -->
+
+<div class="sectionx" id="Talisman-Guide">
+<section class="talisman-section">
+<h2>ドレイン タリスマンガイド – ヒーローウォーズ アライアンス</h2>
+<p>適切なタリスマンを選ぶことが、勝負の分かれ目になる。スキンとは違い—スキンはどれを装備していても常にステータスボーナスを付与するが、<strong>タリスマンは装備中のもののみボーナスを付与する</strong>。ドレインのタリスマンは2種類：Talisman of SwordmasterとTalisman of Rebirth。どちらをいつ使うかを知ることが、戦場での利益を最大化する鍵だ。</p>
+
+<h3>Talisman of Swordmaster</h3>
+
+<figure class="img-review">
+  <picture>
+      <source media="(min-width: 768px)" srcset="../../hero-wars-alliance/images/hero/drayne/talisman-of-swordmaster-800px.webp">
+      <img src="../../hero-wars-alliance/images/hero/drayne/talisman-of-swordmaster-500px.webp" alt="Drayne Talisman of Swordmaster" title="Talisman of Swordmaster - Hero Wars Alliance." loading="lazy">
+  </picture>
+  <figcaption>Talisman of Swordmaster、ヒーローウォーズ アライアンス。</figcaption>
+</figure>
+
+<p>Talisman of Swordmasterはドレインの<strong>汎用性最強タリスマン</strong>で、大多数の戦闘で最適だ。メインステータスは<strong>力 +2,000</strong> — ドレインの主要属性。力はメインステータスのため、1ポイントごとに40体力と物理攻撃+1が増加する。つまりこの一つのボーナスだけで<strong>+80,000体力</strong>と<strong>+2,000物理攻撃</strong>が得られる。</p>
+
+<p>3つのリロールスロットはすべて<strong>物理攻撃</strong>がかかり、各スロット最大<strong>+4,400</strong>。リロールの3スロット合計で<strong>物理攻撃 +13,200</strong>のボーナス。メインステータスと合わせると、このタリスマンは合計<strong>物理攻撃 +15,200</strong>をドレインに付与—パワー チャージのクラッシングバフ<b style="color:#ff0000;">(50% 物理攻撃 + 6,000)</b>、ライジング トルネードのダメージ、物理攻撃スケールの全スキルを強化する。</p>
+
+<p>なぜこれが推奨なのか？ドレインの重要スキルはすべて物理攻撃か体力にスケールする。Swordmasterは両方をカバーし、チーム全体を強化し、ドレインを小長させる—Crushing Force（レリック Lv.30）は生きている限り有効なので、ドレインが小長することは非常に重要だ。</p>
+
+<table>
+  <thead>
+    <caption>表: ドレイン — Talisman of Swordmaster</caption>
+    <tr>
+      <th><img src="../../hero-wars-alliance/images/hero/drayne/talisman-of-swordmaster-icon.webp" alt="Talisman of Swordmaster" title="Talisman of Swordmaster - Hero Wars Alliance" loading="lazy" width="60"><br>Talisman of Swordmaster</th>
+      <th>メインステータス 合計</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center;"><img src="../../hero-wars-alliance/images/glyphs/strength.webp" alt="Strength Glyph" title="力 - Hero Wars Alliance" loading="lazy" width="40"><br>力 +2,000</td>
+      <td style="text-align:center;">+80,000 体力 &amp; +2,000 物理攻撃</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="content-wrapper">
+<table>
+  <thead>
+    <tr>
+      <th>Slot 1</th>
+      <th>Slot 2</th>
+      <th>Slot 3</th>
+      <th>リロール合計ボーナス</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center;"><img src="../../hero-wars-alliance/images/glyphs/physical-attack.webp" alt="Physical Attack Glyph" title="物理攻撃 - Hero Wars Alliance" loading="lazy" width="40"><br>物理攻撃 +4,400</td>
+      <td style="text-align:center;"><img src="../../hero-wars-alliance/images/glyphs/physical-attack.webp" alt="Physical Attack Glyph" title="物理攻撃 - Hero Wars Alliance" loading="lazy" width="40"><br>物理攻撃 +4,400</td>
+      <td style="text-align:center;"><img src="../../hero-wars-alliance/images/glyphs/physical-attack.webp" alt="Physical Attack Glyph" title="物理攻撃 - Hero Wars Alliance" loading="lazy" width="40"><br>物理攻撃 +4,400</td>
+      <td style="text-align:center;"><img src="../../hero-wars-alliance/images/glyphs/physical-attack.webp" alt="Physical Attack Total" title="物理攻撃 合計 - Hero Wars Alliance" loading="lazy" width="40"><br><strong>物理攻撃 +13,200</strong></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Talisman of Rebirth</h3>
+
+<figure class="img-review">
+  <picture>
+      <source media="(min-width: 768px)" srcset="../../hero-wars-alliance/images/hero/drayne/talisman-of-rebirth-800px.webp">
+      <img src="../../hero-wars-alliance/images/hero/drayne/talisman-of-rebirth-500px.webp" alt="Drayne Talisman of Rebirth" title="Talisman of Rebirth - Hero Wars Alliance." loading="lazy">
+  </picture>
+  <figcaption>Talisman of Rebirth、ヒーローウォーズ アライアンス。</figcaption>
+</figure>
+
+<p>Talisman of Rebirthは別のアプローチを取る。メインステータスは<strong>アーマー貫通 +12,000</strong> — 物理攻撃が敵のアーマーをより深く貫通するフラットな攻撃値。重込み前衛への対抗に特に有効。</p>
+
+<p>3つのリロールスロットは<strong>クラッシング +4,400</strong>を各スロットから付与し、合計<strong>クラッシング +13,200</strong>。このボーナスは<strong>50%HP未満</strong>の敵への全ダメージ（物理・魔法・純粋—ただし味方スキルの体力減少ダメージを除く）を増加させ、計算式は<em>(クラッシング ÷ (クラッシング + 対象のメインステータス)) × 100%</em>。レリック Lv.30でCrushing Forceが有効な場合、このクラッシングは敵のHPに関わらず永続的に適用される。</p>
+
+<p>ただし、Rebirthを装備するとSwordmasterと比べて物理攻撃が約<strong>15,200</strong>下がり、<em>パワー チャージが味方全員に付与するクラッシングバフが直接減少する</em>。ほとんどの場面では、Swordmasterが提供するチーム全体への強力なクラッシングバフが、Rebirthの個人クラッシングとアーマー貫通を上回る。極めて重装甲な敵に対して、アーマー貫通12,000が決定的な差を生む場合にのみ使用すること。</p>
+
+<table>
+  <thead>
+    <caption>表: ドレイン — Talisman of Rebirth</caption>
+    <tr>
+      <th><img src="../../hero-wars-alliance/images/hero/drayne/talisman-of-rebirth-icon.webp" alt="Talisman of Rebirth" title="Talisman of Rebirth - Hero Wars Alliance" loading="lazy" width="60"><br>Talisman of Rebirth</th>
+      <th>メインステータス 合計</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center;"><img src="../../hero-wars-alliance/images/glyphs/armor-penetration.webp" alt="Armor Penetration Glyph" title="アーマー貫通 - Hero Wars Alliance" loading="lazy" width="40"><br>アーマー貫通 +12,000</td>
+      <td style="text-align:center;">+12,000 アーマー貫通</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="content-wrapper">
+<table>
+  <thead>
+    <tr>
+      <th>Slot 1</th>
+      <th>Slot 2</th>
+      <th>Slot 3</th>
+      <th>リロール合計ボーナス</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center;"><img src="../../hero-wars-alliance/images/glyphs/crushing.webp" alt="Crushing Glyph" title="クラッシング - Hero Wars Alliance" loading="lazy" width="40"><br>クラッシング +4,400</td>
+      <td style="text-align:center;"><img src="../../hero-wars-alliance/images/glyphs/crushing.webp" alt="Crushing Glyph" title="クラッシング - Hero Wars Alliance" loading="lazy" width="40"><br>クラッシング +4,400</td>
+      <td style="text-align:center;"><img src="../../hero-wars-alliance/images/glyphs/crushing.webp" alt="Crushing Glyph" title="クラッシング - Hero Wars Alliance" loading="lazy" width="40"><br>クラッシング +4,400</td>
+      <td style="text-align:center;"><img src="../../hero-wars-alliance/images/glyphs/crushing.webp" alt="Crushing Total" title="クラッシング 合計 - Hero Wars Alliance" loading="lazy" width="40"><br><strong>クラッシング +13,200</strong></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+</section>
+</div>
+
+<div class="alexandre-tips">
+  <p><b>Alexandreのチップ:</b> 陣山の90%の戦闘で<strong>Talisman of Swordmaster</strong>を装備しよう。力 +2,000（+80,000体力、+2,000物理攻撃）とリロールの+13,200物理攻撃が、ドレインの全スキル、特にパワー チャージのチームクラッシングバフを直接強化する。極めて重装甲な敵に対してアーマー貫通+12,000が決定的な差を生む場合にのみ、Talisman of Rebirthに切り替えよう。ただし、物理攻撃下降によりパワー チャージのチームクラッシングバフが弱まることを忘れずに。</p>
+</div>
+
+<div class="sectionx" id="Skills">
 <section class="skills-section">
 <h2>ドレイン レジェンダリー レリック スキル アップグレード優先順位 – ヒーローウォーズ アライアンス</h2>
 <p>ドレインは強力なレジェンダリー レリック エンハンスメントを受けました!2つの全く新しいレジェンダリー アビリティを含む、全6つのスキルの最適なアップグレード順序を発見し、戦場を支配しましょう。</p>
@@ -541,7 +787,7 @@
 
 
 <!-- ========== SKINS SECTION ========== -->
-<div class="sectionx">
+<div class="sectionx" id="Skins">
 <section class="skins-section">
 <h2>ドレインのおすすめスキン — ヒーローウォーズ アライアンス</h2>
 <p>ドレインのスキンは処刑性能に直結する主要ステータスを強化します。HPスケーリングと物理攻撃のシナジーを最大化するため、まずは力（力）を優先しましょう。</p>
@@ -602,7 +848,7 @@
 </div>
 
 <!-- ========== ARTIFACTS SECTION ========== -->
-<div class="sectionx">
+<div class="sectionx" id="Artifacts">
 <section>
 <h2>ドレインのアーティファクト進化優先度（ヒーローウォーズ アライアンス）</h2>
 <p>アーティファクトはドレインの伸び方（パワーカーブ）を大きく左右する。ダメージ増加バフと処刑ラインを強化できるステータスを中心に伸ばすと、戦場での支配力が最大になる。</p>
@@ -665,7 +911,7 @@
 </div>
 
 <!-- ========== GLYPHS SECTION ========== -->
-<div class="sectionx">
+<div class="sectionx" id="Glyphs">
 <section>
 <h2>ドレインのグリフ強化優先度（ヒーローウォーズ アライアンス）</h2>
 <p>グリフは最大まで育てると大きなステータス差になる。ドレインのダメージ増加運用と「処刑で勝つ」プレイに直結するものから優先しよう。</p>
@@ -766,7 +1012,7 @@
 </div>
 
 <!-- ========== SYNERGIES SECTION ========== -->
-<div class="sectionx">
+<div class="sectionx" id="Synergies">
 <section>
 <h2>ドレインのシナジー（ヒーローウォーズ アライアンス）</h2>
 <p>ドレインのスキルは特定のヒーローと強力に噛み合います。以下では、戦闘における相互作用やチーム編成での利点を分かりやすく説明します。</p>
@@ -826,7 +1072,7 @@
 </section>
 </div>
 
-<section class="best-temas">           
+<section class="best-temas" id="Best-Teams">           
   <h2>ドレインのおすすめチーム編成（ヒーローウォーズ アライアンス）</h2>
    <div class="team-table-wrapper">
     <div class="team-table-header">
@@ -944,7 +1190,7 @@
 </section>
 
 
-<div class="sectionx">
+<div class="sectionx" id="Conclusion">
 <section>
   <h2>結論</h2>
   <p>ドレインは前線の処刑者で、蘇生を阻止し、瀕死の敵を確実に仕留めることに長けています。優先して強化すべきは<strong>パワー チャージ</strong>、次に<strong>ライジング トルネード</strong>です。最大効果を得るためには、<strong>コーブス</strong>、<strong>オクタヴィア</strong>、<strong>ダンテ</strong>、<strong>テンプス</strong>と組ませるのがおすすめです。</p>

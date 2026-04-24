@@ -5,9 +5,361 @@
       "id": "drayne",
       "name": "Drayne",
       "event_name": "The Path to Greatness",
-      "gender": "male"
-      
-     }
-      ]
+      "gender": "male",
+      "role": ["Warrior", "Damage Dealer"],
+      "main_class": "Warrior",
+      "position": "Front Line",
+      "main_stat": "Strength",
+      "how_to_get_soul_stones": "Events",
+      "hydra_tier_list": "N/A",
+      "hero_tier_list": "N/A",
+      "faction": "Way of Eternity",
+      "description": "A sword master whose whirling attacks leave enemies in pieces, sparing no mercy on the wounded.",
+      "synergies": [
+        { "name": "Tempus" },
+        { "name": "Corvus" },
+        { "name": "Iris" }
+      ],
+      "realm": {
+        "buff_spearmen": "attack/defense +120%",
+        "skills": "Not available yet"
+      },
+      "stats": {
+        "talisman_of_swordmaster": {
+          "intelligence": 3529,
+          "agility": 4178,
+          "strength": 17011,
+          "health": 1553285,
+          "physical_attack": 109353,
+          "magic_attack": 25338,
+          "armor": 25004.5,
+          "magic_defense": 10885.6,
+          "toughness": 1712,
+          "armor_penetration": 38006,
+          "crushing": 15489
+        },
+        "talisman_of_rebirth": {
+          "intelligence": 3529,
+          "agility": 4178,
+          "strength": 17011,
+          "health": 1473285,
+          "physical_attack": 94153,
+          "magic_attack": 25338,
+          "armor": 25004.5,
+          "magic_defense": 10885.6,
+          "toughness": 1712,
+          "armor_penetration": 50006,
+          "crushing": 28889
+        }
+      },
+      "crushing_mechanic": {
+        "description": "Crushing increases all outgoing damage to enemies with low health.",
+        "trigger": "Applies when the target has less than 50% health",
+        "damage_types_affected": ["Physical", "Magical", "Pure"],
+        "exception": "Does NOT apply to health loss caused by allied skills",
+        "formula": "(Crushing / (Crushing + target_main_stat)) * 100%",
+        "formula_note": "The effective bonus depends on both Drayne's Crushing stat and the target's main stat. The higher the target's main stat, the more Crushing is needed for the same percentage bonus.",
+        "crushing_examples_with_talisman_of_swordmaster": {
+          "drayne_crushing": 15489,
+          "note": "With Talisman of Swordmaster, Power Charge adds (50% Phys.atk + 6000) on top of base Crushing"
+        },
+        "crushing_examples_with_talisman_of_rebirth": {
+          "drayne_crushing": 28889,
+          "note": "With Talisman of Rebirth, base Crushing is higher but Power Charge buff is weaker due to lower Physical Attack"
+        }
+      },
+      "talisman_details": {
+        "talisman_of_swordmaster": {
+          "main_stat": "Strength",
+          "main_stat_bonus": 2000,
+          "derived_bonuses": {
+            "health": 80000,
+            "physical_attack": 2000
+          },
+          "reroll_slots": [
+            { "stat": "Physical attack", "value": 4400 },
+            { "stat": "Physical attack", "value": 4400 },
+            { "stat": "Physical attack", "value": 4400 }
+          ],
+          "total_reroll_bonus": { "stat": "Physical attack", "value": 13200 }
+        },
+        "talisman_of_rebirth": {
+          "main_stat": "Armor penetration",
+          "main_stat_bonus": 12000,
+          "reroll_slots": [
+            { "stat": "Crushing", "value": 4400 },
+            { "stat": "Crushing", "value": 4400 },
+            { "stat": "Crushing", "value": 4400 }
+          ],
+          "total_reroll_bonus": { "stat": "Crushing", "value": 13200 }
+        },
+        "recommended": "talisman_of_swordmaster"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "Rising Tornado",
+          "type": ["Physical Damage", "Buff"],
+          "keywords": ["Can't be copied"],
+          "animation_delay_seconds": 1,
+          "duration_seconds": 9,
+          "area": 300,
+          "range": 350,
+          "hits": 3,
+          "damage_per_hit_formula": "150% Phys.atk. + 12000",
+          "damage_per_hit_example": 176029.5,
+          "scales_with": ["Physical Attack"],
+          "physical_attack_increase_formula": "20% Phys.atk. + 3000",
+          "physical_attack_increase_example": 24870.6,
+          "size_and_skill_range_increase_percent": 20,
+          "description": "Spins his sword and deals damage to enemies in front of him 3 times. When activated, the Hero grows in size and for 9.0 seconds increases his Physical Attack and the range of all his skills."
+        },
+        {
+          "id": 1,
+          "variant": "legendary",
+          "relic_level": 10,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 1
+          },
+          "name": "Rising Tornado",
+          "keywords": ["Can't be copied"],
+          "animation_delay_seconds": 1,
+          "duration_seconds": 30,
+          "area": 300,
+          "range": 350,
+          "hits": 3,
+          "effect": "Extends the duration of the Physical Attack and skill radius increase to 30.0 seconds.",
+          "description": "The duration of the Physical Attack and skill radius increase is 30.0 seconds."
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 120,
+          "name": "Shatter Strike",
+          "type": ["Physical Damage", "Passive"],
+          "trigger": "Every 3 basic attacks",
+          "animation_delay_seconds": 1,
+          "duration_seconds": 6,
+          "area": 300,
+          "range": 100,
+          "hits": 3,
+          "physical_damage_formula": "200% Phys.atk. + 18000",
+          "physical_damage_example": 236706,
+          "scales_with": ["Physical Attack"],
+          "description": "Every 3 basic attacks, Drayne deals damage to all enemies around him. This strike counts as a basic attack."
+        },
+        {
+          "id": 2,
+          "variant": "legendary",
+          "relic_level": 2,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 2
+          },
+          "name": "Shatter Strike",
+          "animation_delay_seconds": 1,
+          "duration_seconds": 6,
+          "area": 300,
+          "range": 100,
+          "hits": 3,
+          "main_stat_reduction_formula": "10% Phys.atk. + 3000",
+          "main_stat_reduction_example": 13935,
+          "scales_with": ["Physical Attack"],
+          "effect": "Reduces the main stat of enemies hit by the skill for 6.0 seconds.",
+          "description": "Reduces the main stat of enemies hit by the skill for 6.0 seconds."
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 100,
+          "name": "Power Charge",
+          "type": ["Physical Damage", "Buff"],
+          "keywords": ["Buff"],
+          "cooldown_seconds": 15,
+          "animation_delay_seconds": 0.75,
+          "duration_seconds": 7,
+          "area": 400,
+          "range": 200,
+          "hits": 3,
+          "physical_damage_formula": "15% Health + 24000",
+          "physical_damage_example": 256992.75,
+          "scales_with": ["Health"],
+          "crushing_increase_formula": "50% Phys.atk. + 6000",
+          "crushing_increase_example": 60676.5,
+          "description": "Drayne increases Crushing for himself and all allies behind him for 7.0 seconds, and attacks the nearest enemies in front of him."
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "level": 80,
+          "name": "Final Verdict",
+          "type": ["Execution", "Passive"],
+          "animation_delay_seconds": 2,
+          "range": 3000,
+          "execution_health_threshold_formula": "10% Health + 24000",
+          "execution_health_threshold_example": 179328.5,
+          "scales_with": ["Health"],
+          "passive_effect": "Enemies killed by Drayne cannot be resurrected.",
+          "description": "Drayne's attacks and skills now instantly kill enemies with low Health. Enemies killed by him cannot be resurrected."
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Battle Rush",
+          "type": ["Buff", "Legendary"],
+          "keywords": ["Buff"],
+          "trigger": "Every 15 seconds",
+          "cooldown_seconds": 15,
+          "duration_seconds": 10,
+          "speed_increase_percent": 33,
+          "hits": 33,
+          "description": "Every 15 seconds, Drayne increases his speed by 33% for 10.0 seconds."
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Crushing Force",
+          "type": ["Passive", "Buff", "Legendary"],
+          "animation_delay_seconds": 2,
+          "duration_seconds": 9,
+          "area": 150,
+          "range": 400,
+          "hits": 3,
+          "description": "As long as Drayne is alive, Crushing always applies for him and his allies, regardless of enemy Health."
+        }
+      ],
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Valentar Sword",
+          "activation_chance_percent": 100,
+          "crushing": 17796,
+          "evolve": 6,
+          "level": 100
+        },
+        {
+          "slot": "Book",
+          "name": "Chronicle of Epicness",
+          "armor_penetration": 10680,
+          "crushing": 2967,
+          "evolve": 6,
+          "level": 100
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Strength",
+          "strength": 3990,
+          "derived_bonuses": {
+            "health": 159600,
+            "physical_attack": 3990
+          },
+          "evolve": 6,
+          "level": 100
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default",
+          "stat": "Strength",
+          "bonus": 1365
+        },
+        {
+          "name": "Rebirth",
+          "stat": "Armor penetration",
+          "bonus": 10650
+        },
+        {
+          "name": "Goddess Guardian",
+          "stat": "Health",
+          "bonus": 213290
+        },
+        {
+          "name": "Oblivion",
+          "stat": "Armor",
+          "bonus": 10650,
+          "is_skin_plus": true
+        }
+      ],
+      "class_skill": {
+        "class": "Warrior",
+        "level": 45,
+        "overall_class_level": "585/585",
+        "effect": "Every time the warrior deals damage to enemies with a regular attack, they apply an effect to themselves that increases Physical Attack by 35073.24 (8% Phys.atk. + 26325) for 16.7 seconds. A character cannot have more than 6 effects at the same time.",
+        "max_stacks": 6
+      },
+      "glyphs": [
+        {
+          "name": "Physical Attack",
+          "level": 80,
+          "bonus": 8340
+        },
+        {
+          "name": "Health",
+          "level": 80,
+          "bonus": 122800
+        },
+        {
+          "name": "Armor penetration",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "name": "Crushing",
+          "level": 80,
+          "bonus": 8340
+        },
+        {
+          "name": "Strength",
+          "level": 80,
+          "bonus": 2110
+        }
+      ],
+      "gift_of_the_elements": {
+        "level": 30,
+        "strength": 720,
+        "agility": 360,
+        "intelligence": 360
+      },
+      "main_stat_scaling_notes": {
+        "strength": {
+          "health_per_point": 40,
+          "extra_physical_attack_per_point_if_main_stat": 1,
+          "total_from_talisman_2000_bonus": {
+            "health": 80000,
+            "physical_attack": 2000
+          }
+        },
+        "agility": {
+          "physical_attack_per_point": 2,
+          "armor_per_point": 1,
+          "total_from_base_agility_2000": {
+            "physical_attack": 6000,
+            "armor": 2000
+          }
+        },
+        "intelligence": {
+          "magic_attack_per_point": 3,
+          "magic_defense_per_point": 1,
+          "extra_physical_attack_per_point_if_main_stat": 1,
+          "total_from_base_intelligence_2000": {
+            "magic_attack": 6000,
+            "magic_defense": 2000,
+            "physical_attack": 2000
+          }
+        }
+      }
     }
- 
+  ]
+}
+
