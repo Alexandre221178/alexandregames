@@ -406,7 +406,7 @@ main > div:not(.column) {
   
   .dropdown-content {
     display: none;
-    position: absolute;
+    
     top: 100%;
     left: 0;
     background-color: black;
@@ -430,6 +430,7 @@ main > div:not(.column) {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
+    text-align: left;
     display: block;
     border: none;
     cursor: pointer;
@@ -1692,7 +1693,7 @@ iframe {
     flex-wrap: wrap; /* Permite quebra de linha em telas pequenas */
     gap: 10px;
     min-height: 40px; /* Altura mínima */
-    background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste */
+    background-color: white; /* Cor de fundo clara para melhorar contraste */
 }
 
 .share-buttons a {
@@ -2125,6 +2126,7 @@ iframe {
         position: fixed;
         width: 83%;
         height: 100%;
+        
         top: 0px;
         left: 0px;
         transform: translateX(-100%);
@@ -2146,30 +2148,29 @@ iframe {
         transform: translateX(0);
     }
     nav ul li{
+         line-height: 170px !important;
         padding: 2px;
         margin: left;
     }
-    nav ul li a{
+    nav ul li a{       
         text-align: left;
         font-size: 16px;
         margin-left: 5px;
-         color: white;
-        
-        
+         color: white;  
+            margin-top: 7px; /* Mantém o margin-top */
+     
     }
     nav ul button{
-      text-align: justify;
-        font-size: 16px; 
-        
-        margin-top: 18px; /* Mantém o margin-top */
-        line-height: 0.1 /* Reduz o espaço entre as linhas */
-         
+    text-align: center;
+    font-size: 16px; 
+    line-height: 13px !important; /* Reduz o espaçamento entre as linhas */              
     }
+    nav ul button br { display: none } /* Esconde as quebras de linha para evitar espaçamento extra */
     
     nav ul button a{
-        margin: 5px;
-       
-        font-size: 17px; /* tamanho letras nav mobile*/
+        text-align: center;
+               margin: 5px;
+            font-size: 17px; /* tamanho letras nav mobile*/
           
      }
     
@@ -2219,7 +2220,7 @@ iframe {
 
     .content-wrapper05 {
         min-height: 120px; /* Altura mínima */
-        background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+        background-color: white; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
       }
            
     
@@ -2231,7 +2232,7 @@ iframe {
 
     .content-wrapper {
         min-height: 140px; /* Altura mínima */
-        background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+        background-color: white; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
       }
     
       .content-wrapper p {
@@ -2241,7 +2242,7 @@ iframe {
     
       .content-wrapper2 {
         min-height: 350px; /* Altura mínima */
-        background-color: #f9f9f9; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
+        background-color: white; /* Cor de fundo clara para melhorar contraste #f9f9f9 */
       }
     
       .content-wrapper2 p {
@@ -2302,8 +2303,8 @@ iframe {
     
     
 .dropdown:first-of-type .dropbtn {
-    margin-top: 97px;
-  }/* faz ter margem top no drop so para o menu nav mobile */
+    margin-top: 76px;
+  }/*  97px;faz ter margem top no drop so para o menu nav mobile */
         
     .autor ul li{
         margin-left: 5px; 
@@ -2561,15 +2562,15 @@ iframe {
             }
     .share-buttons {
        
-        padding: 6px 8px; /* diminui o tamanho interno dos botões */
-        font-size: 14px; /* fonte um pouco menor */
+        padding: 1px 1px; /* diminui o tamanho interno dos botões */
+        font-size: 10px; /* fonte um pouco menor */
     }
     .share-button {
-        font-size: 11px !important; /* fonte um pouco menor */
+        font-size: 9px !important; /* fonte um pouco menor */
         margin-top: 1px;
         margin-bottom: 1px;
         margin-left: 1px;
-        height: 30px;
+        height: 27px;
         
         padding: 1px; /* Ajusta o padding para manter proporção */
     }
