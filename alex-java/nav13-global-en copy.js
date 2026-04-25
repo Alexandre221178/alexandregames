@@ -1,4 +1,4 @@
-// nav13-global-es.js - Navegación en Español (links en inglés)
+// nav13-global-en.js - English Navigation (Global version)
 document.addEventListener('DOMContentLoaded', () => {
     const navHTML = `
 <style>
@@ -131,85 +131,99 @@ document.addEventListener('DOMContentLoaded', () => {
 </style>
 
 <div class="logo">
-    <a href="https://alexandregames.com/index-es.html"><img src="https://alexandregames.com/imagens/exandregames318x318-removebg.webp" alt="Alexandre Games Mobile Logo" title="Alexandre Games Mobile Logo" width="50" height="50"></a>
+    <a href="https://alexandregames.com/"><img src="https://alexandregames.com/imagens/exandregames318x318-removebg.webp" alt="Alexandre Games Mobile Logo" title="Alexandre Games Mobile Logo" width="50" height="50"></a>
 </div>
 
 <ul> 
 <!-- Link oculto para troca de idioma 
 <div class="dropdown">
-    <button class="dropbtn"><span class="notranslate">Reseñas</span></button>
+    <button class="dropbtn"><span class="notranslate">Gameplay Reviews</span></button>
     <div class="dropdown-content"><br>
-        <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-en.html">Cómo instalar AppGallery para obtener descuentos en Hero Wars</a>   
-        <a href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html">Cómo jugar Hero Wars Alliance en PC y Mac</a> 
+        <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-en.html">How to Install AppGallery to Get Discounts in Hero Wars</a>   
+        <a href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html">How to Play Hero Wars Alliance on PC & Mac</a> 
         <br><br><br>
         <br><br><br>
     </div>
 </div>    
 -->
 <div class="dropdown">
-   <button class="dropbtn"><span class="notranslate">Hero Wars Alliance <br>(Mobile)</span></button>
+   <button class="dropbtn"><span class="notranslate">Hero Wars Alliance</span></button>
     <div class="dropdown-content"> <br>                
-        <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-es.html">🆕 HWA - Últimas Novedades</a>
-        <a href="https://alexandregames.com/hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-es.html">🎁 HWA - Regalos Diarios</a>
-        <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/calendar-hwa-es.html">📅 HWA - Calendario y Eventos</a>
-        <a href="https://alexandregames.com/Hero%20Wars%20English/Heroes%20Guide%20Hero%20Wars.html">📖 Guía de Personajes</a>
-        <a href="https://alexandregames.com/hero-wars-alliance/guide/talisman-guide-hwa-es.html">📿 Guía de Todos los Talismanes</a>
-        <a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-en.html">📚 Guías para Principiantes y Secretos</a>
-        <a href="https://alexandregames.com/Hero%20Wars/articles-herowars/tierlist-en-pvp-herowars.html">🏆 Mejor Tier List</a>
-        <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-en-hwa.html">👥 Guía de Mejores Equipos</a>
-        <a href="https://alexandregames.com/hero-wars-alliance/guide/counter-en-herowarsalliance.html">🎯 Guía de Counters</a>
-        <a class="expandable-menu" onclick="toggleSubmenu(event, 'realm')">🏰 Reino</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-en.html">🆕 HWA - Latest Updates</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-en.html">🎁 HWA Daily Gifts</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/calendar-hwa-en.html">📅 HWA Calendar & Events</a>
+        <a href="https://alexandregames.com/Hero%20Wars%20English/Heroes%20Guide%20Hero%20Wars.html">📖 All Characters Guide</a>
+       <a href="https://alexandregames.com/hero-wars-alliance/guide/talisman-guide-hwa-en.html">📿 All Talismans Guide</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-en.html">📚 Beginners Guides & Secrets</a>
+        <a href="https://alexandregames.com/Hero%20Wars/articles-herowars/tierlist-en-pvp-herowars.html">🏆 Best Tier List</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-en-hwa.html">👥 Best Teams Guide</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/guide/counter-en-herowarsalliance.html">🎯 Counters Guide</a>
+        <a class="expandable-menu" onclick="toggleSubmenu(event, 'realm')">🏰 Realm</a>
         <div id="realm" class="submenu-items">
-            <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-es.html">Guía Completa del Reino</a>
-            <a href="https://alexandregames.com/hero-wars-alliance/tier-list-hwa/realm-tier-list-es.html">Tier List del Reino</a>
-            <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-pve-best-teams-es.html">Mejores equipos Rally y Monstruo</a>
+            <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-en.html">Realm Complete Guide</a>
+            <a href="https://alexandregames.com/hero-wars-alliance/tier-list-hwa/realm-tier-list-en.html">Realm Tier List</a>
+            <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-pve-best-teams-en.html">Best Teams Rally & Monster</a>
         </div>
-        <a href="https://alexandregames.com/hero-wars-alliance/menu-review-en-hwa.html">🎨 Reseñas, Consejos y Estrategias</a>
-        <a href="https://alexandregames.com/Hero%20Wars%20English/Titans%20Guide%20Hero%20Wars.html">⚔️ Guía de Titanes</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/menu-review-en-hwa.html">🎨 Reviews, Tips, Strategies</a>
+        <a href="https://alexandregames.com/Hero%20Wars%20English/Titans%20Guide%20Hero%20Wars.html">⚔️ Titans Guide</a>
+       
         <br><br><br><br>
     </div>
 </div>  
 
 <div class="dropdown">
-    <button class="dropbtn"><span class="notranslate">Hero Wars: Dominion Era <br>(Web/Facebook)</span></button>
+    <button class="dropbtn"><span class="notranslate">Hero Wars: Dominion Era</span></button>
     <div class="dropdown-content"> <br>  
-        <a href="https://alexandregames.com/hero-wars-dominion-era/home/hwde-es.html">🆕 HWDE - Últimas Novedades</a>
-        <a href="https://alexandregames.com/y-redeem-gifts-hwde-en.html">🎁 HWDE - Regalos Diarios</a>
-        <a href="https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-es.html">📅 HWDE - Calendario y Eventos</a>
-        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/best-war-flag-en.html">⚔️ Mejores Banderas de Guerra</a>
-        <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html">📖 Guía de Héroes</a>
-        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-en.html">🏆 Tier List de Héroes</a>
-        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-es.html">🏝️ Isla Misteriosa 04/2026</a>
-        <a class="expandable-menu" onclick="toggleSubmenu(event, 'pet-maps')">Mapas de Aventura de Mascotas</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/home/hwde-en.html">🆕 HWDE - Latest Updates</a>
+        <a href="https://alexandregames.com/y-redeem-gifts-hwde-en.html">🎁 HWDE - Daily Gifts</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-en.html">📅 HWDE - Calendar & Events</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/best-war-flag-en.html">⚔️ Best War Flags</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html">📖 Heroes Guide</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-en.html">🏆 Heroes Tier List</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-en.html">🏝️ Mysterious Island 04/2026</a>
+        <a class="expandable-menu" onclick="toggleSubmenu(event, 'pet-maps')">Pet Adventure Maps</a>
         <div id="pet-maps" class="submenu-items">
-            <a href="https://alexandregames.com/hero-wars-dominion-era/menu/adventure-map-guide-en.html">Guía de Todos los Mapas</a>
-            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-02-en.html">Mapa 02</a>
-            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-03-en.html">Mapa 03</a>
-            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-04-en.html">Mapa 04</a>
-            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-05-en.html">Mapa 05</a>
-            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-06-en.html">Mapa 06</a>
-            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-07-en.html">Mapa 07</a>
-            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-08-en.html">Mapa 08</a>
-            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/siege-of-strongford-en.html">Mapa 09</a>
-            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-10-en.html">Mapa 10</a>
-            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-11-en.html">Mapa 11</a>
-            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-12-en.html">Mapa 12</a>
+            <a href="https://alexandregames.com/hero-wars-dominion-era/menu/adventure-map-guide-en.html">All Maps Guide</a>
+            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-02-en.html">Map 02</a>
+            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-03-en.html">Map 03</a>
+            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-04-en.html">Map 04</a>
+            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-05-en.html">Map 05</a>
+            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-06-en.html">Map 06</a>
+            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-07-en.html">Map 07</a>
+            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-08-en.html">Map 08</a>
+            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/siege-of-strongford-en.html">Map 09</a>
+            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-10-en.html">Map 10</a>
+            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-11-en.html">Map 11</a>
+            <a href="https://alexandregames.com/hero-wars-dominion-era/adventure-maps/map-12-en.html">Map 12</a>
         </div>
-        <a href="https://alexandregames.com/hero-wars-dominion-era/menu/pet-guide-menu-en.html">🐾 Guía de Mascotas</a>   
-        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/pets-tier-list-en.html">🏆 Tier List de Mascotas</a>
-        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/promo-code-hwde-en.html">🎟️ Códigos Promocionales</a>
-        <a href="https://alexandregames.com/hero-wars-dominion-era/menu/titans-menu-hwde-en.html">⚔️ Guía de Titanes</a>
-        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totem-fusion-skills-en.html">⚡ Habilidades de Fusión de Tótem</a>
-        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totems-guide-en.html">🗿 Guía de Tótems</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/menu/pet-guide-menu-en.html">🐾 Pet Guide</a>   
+        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/pets-tier-list-en.html">🏆 Pet Tier List</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/promo-code-hwde-en.html">🎟️ Promo Codes</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/menu/titans-menu-hwde-en.html">⚔️ Titans Guide</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totem-fusion-skills-en.html">⚡ Totem Fusion Skills Ranked</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totems-guide-en.html">🗿 Totems Guide</a>
         <br><br><br><br>
     </div>
 </div>  
 
+<div class="dropdown">
+    <button class="dropbtn"><span class="notranslate">Mobile Legends</span></button>
+    <div class="dropdown-content"><br>
+        <a href="https://alexandregames.com/MobileLegends-English.html">Heroes Guide</a>
+        <a href="https://alexandregames.com/mobile-legends/article-mlbb/tier-list-mlbb-en.html">MLBB Tier List</a>
+        <a href="https://alexandregames.com/mobile-legends/article-mlbb/gold-lane-guide-en-mlbb.html">Gold Lane Guide</a>
+        <a href="https://alexandregames.com/mobile-legends/article-mlbb/roam-guide-mlbb-en.html">Roam Lane Guide</a>          
+        <br><br><br>
+    </div>
+</div>      
+
+<div class="dropdown">
+    <button class="dropbtn"><a href="https://alexandregames.com/roblox-us.html">Roblox PC/Mobile</a></button>
+</div> 
+
     <div class="dropdown">
-        <button class="dropbtn">Más Juegos</button>
+        <button class="dropbtn">More Games</button>
         <div class="dropdown-content"><br>
-            <a href="https://alexandregames.com/MobileLegends-English.html">Mobile Legends</a>
-            <a href="https://alexandregames.com/roblox-us.html">Roblox PC/Mobile</a>
             <a href="https://alexandregames.com/top-troops/top-troops-en-home.html"><span class="notranslate">Top Troops</span></a>
             <a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-en.html"><span class="notranslate">Throne and Liberty</span></a>
             <a href="https://alexandregames.com/ragnarok-origin/codes-ragnarok-us.html"><span class="notranslate">Ragnarok ROO</span></a>
@@ -218,8 +232,8 @@ document.addEventListener('DOMContentLoaded', () => {
             <a href="https://alexandregames.com/gaming-guide/review/echoes-of-eternity-game-review-en.html"><span class="notranslate">Echoes of Eternity</span></a>
             <a href="https://alexandregames.com/gaming-guide/review/path-of-exile-2-en.html"><span class="notranslate">Path of Exile 2 - Tier List</span></a>
             <a>_____________</a>
-            <a href="https://alexandregames.com/Documentos/Contact.html">Contacto</a>            
-            <a href="https://alexandregames.com/Documentos/about.html">Sobre Nosotros</a>
+            <a href="https://alexandregames.com/Documentos/Contact.html">Contact</a>            
+            <a href="https://alexandregames.com/Documentos/about.html">About Us</a>
             <br><br><br><br><br>
         </div>
     </div>
@@ -328,7 +342,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 .replace(/\.html$/, '');
             
             let newFile = baseName + langMap[selectedLang];
-            // Caso especial: la página de inicio en inglés es index.html (sin sufijo -en)
+            // Special case: English homepage is index.html (no -en suffix)
             if (newFile === 'index-en.html') newFile = 'index.html';
             const newPath = currentPath.replace(currentFile, newFile);
             
@@ -352,12 +366,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// Función para mostrar fecha de modificación (ES)
+// Function to extract and display modification date
 function displayModificationDate() {
     var metaTags = document.getElementsByTagName('meta');
     var modificationDate;
-    var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
-        "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+    var months = ["January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"];
 
     for (var i = 0; i < metaTags.length; i++) {
         if (metaTags[i].getAttribute('property') === 'article:modified_time') {
@@ -373,9 +387,12 @@ function displayModificationDate() {
         var year = formattedDate.getFullYear();
         var dateElement = document.getElementById('data-modificacao');
         if (dateElement) {
-            dateElement.textContent = 'Última actualización: ' + day + ' de ' + month + ' de ' + year;
+            dateElement.textContent = 'Last updated: ' + month + ' ' + day + ', ' + year;
         }
     }
 }
 
 window.onload = displayModificationDate;
+
+
+

@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>    
 -->
 <div class="dropdown">
-   <button class="dropbtn"><span>ヒーローウォーズ アライアンス</span></button>
+   <button class="dropbtn"><span>ヒーローウォーズ アライアンス <br>(Mobile)</span></button>
     <div class="dropdown-content"> <br>                
         <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-ja.html">🆕 HWA - 最新アップデート</a>
         <a href="https://alexandregames.com/hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-ja.html">🎁 HWA - デイリーギフト</a>
@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>  
 
 <div class="dropdown">
-    <button class="dropbtn"><span>ヒーローウォーズ ドミニオンの時代</span></button>
+    <button class="dropbtn"><span>ヒーローウォーズ ドミニオンの時代 <br>(Web/Facebook)</span></button>
     <div class="dropdown-content"> <br>  
         <a href="https://alexandregames.com/hero-wars-dominion-era/home/hwde-ja.html">🆕 HWDE - 最新アップデート</a>
         <a href="https://alexandregames.com/y-redeem-gifts-hwde-en.html">🎁 HWDE - デイリーギフト</a>
@@ -205,24 +205,11 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
 </div>  
 
-<div class="dropdown">
-    <button class="dropbtn"><span>モバイル・レジェンド</span></button>
-    <div class="dropdown-content"><br>
-        <a href="https://alexandregames.com/MobileLegends-English.html">ヒーローガイド</a>
-        <a href="https://alexandregames.com/mobile-legends/article-mlbb/tier-list-mlbb-en.html">MLBBティアリスト</a>
-        <a href="https://alexandregames.com/mobile-legends/article-mlbb/gold-lane-guide-en-mlbb.html">ゴールドレーンガイド</a>
-        <a href="https://alexandregames.com/mobile-legends/article-mlbb/roam-guide-mlbb-en.html">ローミングガイド</a>          
-        <br><br><br>
-    </div>
-</div>      
-
-<div class="dropdown">
-    <button class="dropbtn"><a href="https://alexandregames.com/roblox-us.html">ロブロックス（PC／モバイル</a></button>
-</div> 
-
     <div class="dropdown">
         <button class="dropbtn">その他のゲーム</button>
         <div class="dropdown-content"><br>
+            <a href="https://alexandregames.com/MobileLegends-English.html">モバイル・レジェンド</a>
+            <a href="https://alexandregames.com/roblox-us.html">ロブロックス（PC／モバイル）</a>
             <a href="https://alexandregames.com/top-troops/top-troops-en-home.html"><span class="notranslate">Top Troops</span></a>
             <a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-en.html"><span class="notranslate">Throne and Liberty</span></a>
             <a href="https://alexandregames.com/ragnarok-origin/codes-ragnarok-us.html"><span class="notranslate">Ragnarok ROO</span></a>

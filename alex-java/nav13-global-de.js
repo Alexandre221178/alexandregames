@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>    
 -->
 <div class="dropdown">
-   <button class="dropbtn"><span class="notranslate">Hero Wars Alliance</span></button>
+   <button class="dropbtn"><span class="notranslate">Hero Wars Alliance <br>(Mobile)</span></button>
     <div class="dropdown-content"> <br>                
         <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-de.html">🆕 HWA - Neueste Updates</a>
         <a href="https://alexandregames.com/hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-de.html">🎁 HWA - Tägliche Geschenke</a>
@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>  
 
 <div class="dropdown">
-    <button class="dropbtn"><span class="notranslate">Hero Wars: Dominion Era</span></button>
+    <button class="dropbtn"><span class="notranslate">Hero Wars: Dominion Era <br>(Web/Facebook)</span></button>
     <div class="dropdown-content"> <br>  
         <a href="https://alexandregames.com/hero-wars-dominion-era/home/hwde-de.html">🆕 HWDE - Neueste Updates</a>
         <a href="https://alexandregames.com/y-redeem-gifts-hwde-en.html">🎁 HWDE - Tägliche Geschenke</a>
@@ -205,24 +205,11 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
 </div>  
 
-<div class="dropdown">
-    <button class="dropbtn"><span class="notranslate">Mobile Legends</span></button>
-    <div class="dropdown-content"><br>
-        <a href="https://alexandregames.com/MobileLegends-English.html">Helden-Guide</a>
-        <a href="https://alexandregames.com/mobile-legends/article-mlbb/tier-list-mlbb-en.html">MLBB Tier-Liste</a>
-        <a href="https://alexandregames.com/mobile-legends/article-mlbb/gold-lane-guide-en-mlbb.html">Gold Lane Guide</a>
-        <a href="https://alexandregames.com/mobile-legends/article-mlbb/roam-guide-mlbb-en.html">Roam Lane Guide</a>          
-        <br><br><br>
-    </div>
-</div>      
-
-<div class="dropdown">
-    <button class="dropbtn"><a href="https://alexandregames.com/roblox-us.html">Roblox PC/Mobile</a></button>
-</div> 
-
     <div class="dropdown">
         <button class="dropbtn">Mehr Spiele</button>
         <div class="dropdown-content"><br>
+            <a href="https://alexandregames.com/MobileLegends-English.html">Mobile Legends</a>
+            <a href="https://alexandregames.com/roblox-us.html">Roblox PC/Mobile</a>
             <a href="https://alexandregames.com/top-troops/top-troops-en-home.html"><span class="notranslate">Top Troops</span></a>
             <a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-en.html"><span class="notranslate">Throne and Liberty</span></a>
             <a href="https://alexandregames.com/ragnarok-origin/codes-ragnarok-us.html"><span class="notranslate">Ragnarok ROO</span></a>

@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>    
 -->
 <div class="dropdown">
-   <button class="dropbtn"><span class="notranslate">Hero Wars Alliance</span></button>
+   <button class="dropbtn"><span class="notranslate">Hero Wars Alliance <br>(Mobile)</span></button>
     <div class="dropdown-content"> <br>                
         <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-en.html">🆕 HWA - Latest Updates</a>
         <a href="https://alexandregames.com/hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-en.html">🎁 HWA Daily Gifts</a>
@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>  
 
 <div class="dropdown">
-    <button class="dropbtn"><span class="notranslate">Hero Wars: Dominion Era</span></button>
+    <button class="dropbtn"><span class="notranslate">Hero Wars: Dominion Era <br>(Web/Facebook)</span></button>
     <div class="dropdown-content"> <br>  
         <a href="https://alexandregames.com/hero-wars-dominion-era/home/hwde-en.html">🆕 HWDE - Latest Updates</a>
         <a href="https://alexandregames.com/y-redeem-gifts-hwde-en.html">🎁 HWDE - Daily Gifts</a>
@@ -207,36 +207,23 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>  
 
 <div class="dropdown">
-    <button class="dropbtn"><span class="notranslate">Mobile Legends</span></button>
-    <div class="dropdown-content"><br>
-        <a href="https://alexandregames.com/MobileLegends-English.html">Heroes Guide</a>
-        <a href="https://alexandregames.com/mobile-legends/article-mlbb/tier-list-mlbb-en.html">MLBB Tier List</a>
-        <a href="https://alexandregames.com/mobile-legends/article-mlbb/gold-lane-guide-en-mlbb.html">Gold Lane Guide</a>
-        <a href="https://alexandregames.com/mobile-legends/article-mlbb/roam-guide-mlbb-en.html">Roam Lane Guide</a>          
-        <br><br><br>
-    </div>
-</div>      
-
-<div class="dropdown">
-    <button class="dropbtn"><a href="https://alexandregames.com/roblox-us.html">Roblox PC/Mobile</a></button>
-</div> 
-
-    <div class="dropdown">
-        <button class="dropbtn">More Games</button>
-        <div class="dropdown-content"><br>
-            <a href="https://alexandregames.com/top-troops/top-troops-en-home.html"><span class="notranslate">Top Troops</span></a>
-            <a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-en.html"><span class="notranslate">Throne and Liberty</span></a>
-            <a href="https://alexandregames.com/ragnarok-origin/codes-ragnarok-us.html"><span class="notranslate">Ragnarok ROO</span></a>
-            <a href="https://alexandregames.com/gaming-guide/review/tales-of-wind-review-en.html"><span class="notranslate">Tales of Wind: RR</span></a>
-            <a href="https://alexandregames.com/gaming-guide/review/the-dragon-odyssey-gameplay-en.html"><span class="notranslate">The Dragon Odyssey</span></a>                    
-            <a href="https://alexandregames.com/gaming-guide/review/echoes-of-eternity-game-review-en.html"><span class="notranslate">Echoes of Eternity</span></a>
-            <a href="https://alexandregames.com/gaming-guide/review/path-of-exile-2-en.html"><span class="notranslate">Path of Exile 2 - Tier List</span></a>
-            <a>_____________</a>
-            <a href="https://alexandregames.com/Documentos/Contact.html">Contact</a>            
-            <a href="https://alexandregames.com/Documentos/about.html">About Us</a>
-            <br><br><br><br><br>
-        </div>
-    </div>
+<button class="dropbtn">More Games</button>
+<div class="dropdown-content"><br>
+<a href="https://alexandregames.com/MobileLegends-English.html">Mobile Legends Guide</a>
+<a href="https://alexandregames.com/roblox-us.html">Roblox PC/Mobile</a>
+<a href="https://alexandregames.com/top-troops/top-troops-en-home.html"><span class="notranslate">Top Troops</span></a>
+<a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-en.html"><span class="notranslate">Throne and Liberty</span></a>
+<a href="https://alexandregames.com/ragnarok-origin/codes-ragnarok-us.html"><span class="notranslate">Ragnarok ROO</span></a>
+<a href="https://alexandregames.com/gaming-guide/review/tales-of-wind-review-en.html"><span class="notranslate">Tales of Wind: RR</span></a>
+<a href="https://alexandregames.com/gaming-guide/review/the-dragon-odyssey-gameplay-en.html"><span class="notranslate">The Dragon Odyssey</span></a>                    
+<a href="https://alexandregames.com/gaming-guide/review/echoes-of-eternity-game-review-en.html"><span class="notranslate">Echoes of Eternity</span></a>
+<a href="https://alexandregames.com/gaming-guide/review/path-of-exile-2-en.html"><span class="notranslate">Path of Exile 2 - Tier List</span></a>
+<a>_____________</a>
+<a href="https://alexandregames.com/Documentos/Contact.html">Contact</a>            
+<a href="https://alexandregames.com/Documentos/about.html">About Us</a>
+<br><br><br><br><br>
+</div>
+</div>
     <div class="language-dropdown">
         <button class="language-switch">
             <strong>🌎Global</strong>
