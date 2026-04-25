@@ -6,6 +6,11 @@
 // ── April #, 2026 ──────────────────────────────
 window.HWA_GIFTS = [
   // ── April 25, 2026 ──────────────────────────────
+// ── Hub gft valid data true ──────────────────────────────
+{ date:'2026-04-25', type:'hub', code:'JADESTATS', note:'until|2026-05-11T01:00:00Z',
+      rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
+
+
 { date:'2026-04-25', type:'daily', mission:'3-14', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
