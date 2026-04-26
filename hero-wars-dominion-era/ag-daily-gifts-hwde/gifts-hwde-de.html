@@ -80,6 +80,7 @@
 </ul>
 </div>
 </header>
+<!-- Carrossel -->
 <div class="carousel-fold-container">
 <div class="carousel-container">
   <div class="carousel-track"></div>
@@ -87,12 +88,20 @@
   <button class="carousel-btn next">&#10095;</button>
 </div><hr>
 </div>
+
+<!-- ad -->
 <div class="ad-fold-container" id="ad-placeholder" aria-hidden="true"></div>
+
 <div id="second-half" class="hidden">
+
+<!---------------------- giveaway ---------------------------------->
+<div id="giveaway-content"></div>
+<!---------------------- giveaway ---------------------------------->
+
+<!-- ====== GIFT DATA — editar em: gifts-hwde-data.js ====== -->
 <div id="gifts-container"></div>
 <script src="./gifts-hwde-data.js" defer></script>
 <script src="./gifts-hwde-component.js" defer></script>
-<hr>
 <section>
 
 
@@ -281,6 +290,8 @@
 <script src="../../alex-java/graphcomments-07z.js" defer></script>
 <script src="../../alex-java/share-global-de.js" defer></script>
 <script src="../../alex-java/translate07-de.js" defer></script>
+<script src="./giveaway-hwde-data.js" defer></script>
+<script src="./giveaway-hwde-data-inject.js" defer></script>
 <script>
 (function(){var adScriptLoaded=false;function injectAds(){try{var adContainer=document.getElementById('ad-placeholder');if(!adContainer||adContainer.dataset.adsInjected)return;adContainer.dataset.adsInjected='1';var ins=document.createElement('ins');ins.className='adsbygoogle';ins.style.cssText='display:block;width:100%;min-height:250px;';ins.setAttribute('data-ad-client','ca-pub-7838775403194689');ins.setAttribute('data-ad-slot','5099130776');ins.setAttribute('data-ad-format','rectangle');ins.setAttribute('data-full-width-responsive','false');adContainer.appendChild(ins);if(!adScriptLoaded){adScriptLoaded=true;var s=document.createElement('script');s.async=true;s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689';s.crossOrigin='anonymous';s.onload=function(){(adsbygoogle=window.adsbygoogle||[]).push({});};document.head.appendChild(s);}else{(adsbygoogle=window.adsbygoogle||[]).push({});}}catch(e){console.error(e);}}if('IntersectionObserver' in window){var obs=new IntersectionObserver(function(entries,observer){if(entries[0].isIntersecting){injectAds();observer.disconnect();}},{rootMargin:'100px'});var target=document.getElementById('ad-placeholder');if(target)obs.observe(target);}else{window.addEventListener('load',injectAds);}})();
 </script>
