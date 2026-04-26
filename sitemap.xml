@@ -1463,24 +1463,9 @@
 </url>
 
 
-
-
-
-
 <!-- fim sitemap review skin analises de skin SiteMap Alexandre Games -->
 
 <!-- inicio sitemap dicas de eventos event Hero Wars Alliance- SiteMap Alexandre Games -->
-
-
-
-
-
-
-
-
-
-
-
 
 
 <url>
@@ -1494,16 +1479,6 @@
   <priority>0.60</priority>
 </url>
 
-<url>
-  <loc>https://alexandregames.com/Hero%20Wars/events/runic-event-en-hwa.html</loc>
-  <lastmod>2026-03-05T17:47-03:00</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://alexandregames.com/Hero%20Wars/events/runic-event-pt-hwa.html</loc>
-  <lastmod>2026-03-05T17:47-03:00</lastmod>
-  <priority>0.60</priority>
-</url>
 
 <url>
   <loc>https://alexandregames.com/Hero%20Wars/events/when-worlds-collide-en-hwa.html</loc>

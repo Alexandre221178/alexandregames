@@ -2333,15 +2333,14 @@ iframe {
     }
     
     .img-banner {
-  width: 95%;
+  width: 97%;
   margin: auto;
   display: block;
 }
-
-.img-banner img {
-  width: 100%;
-  height: auto;
-  display: block;
+.img-banner img{
+   min-height: 200px;
+    width: 95%;
+    height: 200px;    
 }
 
 .img-banner figcaption {

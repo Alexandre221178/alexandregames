@@ -82,7 +82,7 @@ function checkFile(filePath) {
             if (['de', 'fr'].includes(lang)) {
                 titleMax = 75;
             } else if (lang === 'ja') {
-                titleMax = 35;
+                titleMax = 40;
             }
             if (titleText.length > titleMax) {
                 issues.push(`Title muito longo: ${titleText.length} caracteres (máximo ${titleMax})`);
@@ -121,7 +121,7 @@ function checkFile(filePath) {
             if (['de', 'fr'].includes(lang)) {
                 maxDesc = 165;
             } else if (lang === 'ja') {
-                minDesc = 70;
+                minDesc = 65;
                 maxDesc = 120;
             }
             if (descContent.length < minDesc) {

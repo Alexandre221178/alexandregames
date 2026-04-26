@@ -10,6 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "update-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js",
     "update-gifts-hwa": "node hero-wars-alliance/update-data-menu-hwa.js ag-daily-gifts-hwa gifts-hwa",
+    "update-hwa-index-hwa": "node hero-wars-alliance/update-data-menu-hwa.js home hwa-index",
+  
 
     "update-calendar-hwa": "node hero-wars-alliance/update-data-menu-hwa.js menu-hwa calendar-hwa",
    "update-hydra-best-teams-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide hydra-best-teams",
@@ -18,6 +20,8 @@
     "update-talisman-guide-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide talisman-guide",
    "update-how-to-play-hero-wars-on-pc-and-mac-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide how-to-play-hero-wars-on-pc-and-mac",
    
+    "update-alliance-of-forces-hwa": "node hero-wars-alliance/update-data-menu-hwa.js event-hwa alliance-of-forces",
+    "update-runic-millstone-hwa": "node hero-wars-alliance/update-data-menu-hwa.js event-hwa runic-millstone",
     
     "update-alvanor-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide alvanor",
     "update-byrna-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide byrna",
@@ -39,9 +43,7 @@
     
     "update-umbra-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide umbra",
     
-    
-    "update-hwa-index-hwa": "node hero-wars-alliance/update-data-menu-hwa.js home hwa-index",
-    
+      
     "update-gifts-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js ag-daily-gifts-hwde gifts-hwde",
     "update-mysterious-island-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js mysterious-island",
     
