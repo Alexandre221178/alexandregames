@@ -91,6 +91,10 @@
     gold: {
       img: 'gold.webp', alt: 'Gold',
       titles: { en:'Gold', pt:'Ouro', de:'Gold', es:'Oro', fr:'Or', ja:'\u30b4\u30fc\u30eb\u30c9' }
+    },
+    'coin-of-luck': {
+      img: 'coin-of-luck.webp', alt: 'Coin of Luck',
+      titles: { en:'Coin of Luck', pt:'Moeda da Sorte', de:'Glücksmünze', es:'Moneda de la Suerte', fr:'Pièce de Chance', ja:'運のコイン' }
     }
   };
 
