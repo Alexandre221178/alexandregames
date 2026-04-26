@@ -418,7 +418,9 @@ function checkJsFile(filePath) {
             while ((match = imagePattern.exec(content)) !== null) {
                 const img = match[1];
                 if (img && img.trim() !== '' && 
-                    !img.startsWith('../../')) {
+                    !img.startsWith('../../') &&
+                    !img.startsWith('/hero-wars-alliance') &&
+                    !img.startsWith('/hero-wars-dominion-era')) {
                     issues.push(`Imagem inválida (deve começar com "../../"): ${img}`);
                 }
             }
@@ -430,7 +432,9 @@ function checkJsFile(filePath) {
         while ((matchImg = imagePatternAll.exec(content)) !== null) {
             const img = matchImg[1];
             if (img && img.trim() !== '' && 
-                !img.startsWith('../../') && !img.startsWith('http')) {
+                !img.startsWith('../../') && !img.startsWith('http') &&
+                !img.startsWith('/hero-wars-alliance') &&
+                !img.startsWith('/hero-wars-dominion-era')) {
                 issues.push(`Imagem inválida (deve começar com "../../" ou "http"): ${img}`);
             }
         }

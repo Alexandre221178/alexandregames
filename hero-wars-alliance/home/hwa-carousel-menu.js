@@ -2,31 +2,22 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
-      link: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html",
-      src500: "../../hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-500px.webp",
-      src400: "../../hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-400px.webp",
-      alt: "Talisman Guide for Hero Wars Alliance",
-      title: "Talisman Guide for Hero Wars Alliance",
-      strong: "Complete Talisman Guide 2026 - Which is better? Hero Wars Alliance",
+      link: "/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html",
+      src500: "/hero-wars-alliance/img-hero-wars-alliance/guide-img/how-to-play-hero-wars-on-desktop/how-to-play-hero-wars-on-pc-and-mac-500px.webp",
+      src400: "/hero-wars-alliance/img-hero-wars-alliance/guide-img/how-to-play-hero-wars-on-desktop/how-to-play-hero-wars-on-pc-and-mac-400px.webp",
+      alt: "How to Play Hero Wars Alliance on PC and Mac",
+      title: "How to Play Hero Wars Alliance on PC and Mac",
+      strong: "How to Play Hero Wars Alliance - PC and Mac",
       updated: "Updated: April, 2026."
     },
     {
-      link: "../../hero-wars-alliance/characters-guide/drayne-en.html",
-      src500: "../../hero-wars-alliance/images/hero/drayne/drayne-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/drayne/drayne-400px.webp",
-      alt: "Drayne Legendary Skills Guide for Hero Wars Alliance",
-      title: "Drayne Guide for Hero Wars Alliance",
-      strong: "Guide: Drayne Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: April  , 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/guide/realm-pve-best-teams-en.html",
-      src500: "../../hero-wars-alliance/images/guides/realm-pve-best-teams/realm-pve-best-teams-500px.webp",
-      src400: "../../hero-wars-alliance/images/guides/realm-pve-best-teams/realm-pve-best-teams-400px.webp",
-      alt: "Best PvE Realm Teams – Beat Boss Rally & Monster LV25 for Hero Wars Alliance",
-      title: "Best PvE Realm Teams – Beat Boss Rally & Monster LV25 for Hero Wars Alliance",
-      strong: "Best PvE Realm Teams – Beat Boss Rally & Monster LV25 for Hero Wars Alliance",
-      updated: "Updated: April, 2026."
+      link: "/hero-wars-alliance/characters-guide/phobos-en.html",
+      src500: "/hero-wars-alliance/images/hero/phobos/phobos-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/phobos/phobos-400px.webp",
+      alt: "Phobos Legendary Skills Guide for Hero Wars Alliance",
+      title: "Phobos Guide for Hero Wars Alliance",
+      strong: "Guide: Phobos Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: March, 2026."
     },
     {
       link: "../../hero-wars-alliance/titans-events-tips/alecto-season-adventure-shop-en.html",
@@ -46,16 +37,16 @@
       strong: "Guide: Titan Alecto for Hero Wars Alliance",
       updated: "Updated: April, 2026."
     },    
-    {
-      link: "../../hero-wars-alliance/characters-guide/phobos-en.html",
-      src500: "../../hero-wars-alliance/images/hero/phobos/phobos-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/phobos/phobos-400px.webp",
-      alt: "Phobos Legendary Skills Guide for Hero Wars Alliance",
-      title: "Phobos Guide for Hero Wars Alliance",
-      strong: "Guide: Phobos Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: March, 2026."
-    },
     
+    {
+      link: "../../hero-wars-alliance/guide/realm-pve-best-teams-en.html",
+      src500: "../../hero-wars-alliance/images/guides/realm-pve-best-teams/realm-pve-best-teams-500px.webp",
+      src400: "../../hero-wars-alliance/images/guides/realm-pve-best-teams/realm-pve-best-teams-400px.webp",
+      alt: "Best PvE Realm Teams – Beat Boss Rally & Monster LV25 for Hero Wars Alliance",
+      title: "Best PvE Realm Teams – Beat Boss Rally & Monster LV25 for Hero Wars Alliance",
+      strong: "Best PvE Realm Teams – Beat Boss Rally & Monster LV25 for Hero Wars Alliance",
+      updated: "Updated: April, 2026."
+    },
       
     {
       link: "../../hero-wars-alliance/characters-guide/miu-en.html",
@@ -85,28 +76,8 @@
       title: "Folio Guide for Hero Wars Alliance",
       strong: "Folio: New Skin - Legendary Skills Guide for Hero Wars Alliance",
       updated: "Updated: April, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/characters-guide/lian-en.html",
-      src500: "../../hero-wars-alliance/images/hero/lian/lian-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/lian/lian-400px.webp",
-      alt: "Lian Legendary Skills Guide for Hero Wars Alliance",
-      title: "Lian Guide for Hero Wars Alliance",
-      strong: "Lian: New Skin+ - Legendary Skills Guide for Hero Wars Alliance",
-      updated: "Updated: April, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/characters-guide/somna-en.html",
-      src500: "../../hero-wars-alliance/images/hero/somna/somna-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/somna/somna-400px.webp",
-      alt: "Somna Legendary Skills Guide for Hero Wars Alliance",
-      title: "Somna Guide for Hero Wars Alliance",
-      strong: "Somna: New Skin+ - Legendary Skills Guide for Hero Wars Alliance",
-      updated: "Updated: April, 2026."
-    },
+    },      
 
-    
-     
     {
       link: "../../hero-wars-alliance/tier-list-hwa/realm-tier-list-en.html",
       src500: "../../hero-wars-alliance/images/tier-list-hwa-img/realm/realm-tier-list-500px.webp",
@@ -125,7 +96,6 @@
       strong: "Complete Realm Mode Guide for Hero Wars Alliance",
       updated: "Updated: March, 2026."
     },
-     
     
     {
       link: "../../hero-wars-alliance/guide/meta-teams-and-combos-en.html",
@@ -135,18 +105,7 @@
       title: "Meta Teams and Combos Guide for Hero Wars Alliance",
       strong: "Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance",
       updated: "Updated: March, 2026."
-    },
-    
-    {
-      link: "../../hero-wars-alliance/characters-guide/byrna-en.html",
-      src500: "../../hero-wars-alliance/images/hero/byrna/byrna-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/byrna/byrna-400px.webp",
-      alt: "Byrna Legendary Skills Guide for Hero Wars Alliance",
-      title: "Byrna Guide for Hero Wars Alliance",
-      strong: "Byrna Legendary Guide Skills Guide for Hero Wars Alliance (skin+)",
-      updated: "Updated(skin+): March, 2026."
-    },
-   
+    }, 
        
     
     {
@@ -194,10 +153,10 @@
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guia de Byrna: Liberte o Espírito do Urso Curador em Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Resgate seus Presentes Diários para Hero Wars Alliance',
         'Complete Talisman Guide': 'Guia Completo de Talismãs',
-        'everyday': 'todos os dias',
+        'everyday': 'todos os dias', 'How to Play': 'Como Jogar',
         'monthly': 'mensalmente',
         'Calendar': 'Calendário',
-        'New': 'Nova',
+        'New': 'Nova', 'and': 'e',
         'Adventure Shop Tips': 'Dicas da Loja de Aventura',
         'What to Buy': 'O que Comprar',
         'Which is better': 'Qual é o Melhor'
@@ -221,10 +180,10 @@
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guía de Byrna: Libera el Espíritu del Oso Sanador en Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Canjea tus Regalos Diarios para Hero Wars Alliance',
         'Complete Talisman Guide': 'Guía completa de talismanes:',
-        'everyday': 'todos los días',
+        'everyday': 'todos los días', 'How to Play': 'Cómo Jugar',
         'monthly': 'mensalmente',
         'Calendar': 'Calendario',
-        'New': 'Nueva',
+        'New': 'Nueva', 'and': 'y',
         'Adventure Shop Tips': 'Consejos de la Tienda de Aventura',
         'What to Buy': 'Qué Comprar',
         'Which is better': 'Cuál es Mejor',
@@ -249,10 +208,10 @@
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guide de Byrna: Libérez l\'Esprit de l\'Ours Guérisseur dans Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Échangez vos Cadeaux Quotidiens pour Hero Wars Alliance',
         'Complete Talisman Guide:': 'Guide complet des talismans:',
-        'everyday': 'tous les jours',
+        'everyday': 'tous les jours', 'How to Play': 'Comment Jouer',
         'monthly': 'mensuellement',
         'Calendar': 'Calendrier',
-        'New': 'Nouvelle',
+        'New': 'Nouvelle', 'and': 'et',
         'Adventure Shop Tips': 'Conseils de la Boutique d\'Aventure',
         'What to Buy?': 'Que Acheter?',
         'Which is better': '¿Lequel est meilleur',
@@ -276,12 +235,12 @@
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Byrna Leitfaden: Entfessle den Heiler-Bärengeist in Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Löse deine täglichen Geschenke für Hero Wars Alliance ein',
         'Complete Talisman Guide:': 'Vollständiger Talisman-Leitfaden:',
-        'for': 'für',
+        'for': 'für', 'How to Play': 'Wie man spielt',
         'skin': 'Skin',
         'everyday': 'täglich',
         'monthly': 'monatlich',
         'Calendar': 'Kalender',
-        'New': 'Neu',
+        'New': 'Neu', 'and': 'und',
         'Adventure Shop Tips': 'Abenteuerladen Tipps',
         'What to Buy?': 'Was soll man kaufen?',
         'Which is better': 'Welches ist besser'
@@ -332,7 +291,7 @@
         'Hero Wars: Alliance': 'ヒーローウォーズ アライアンス',
         'for': '向け', 'skin': 'スキン',  'everyday': '毎日', 'monthly': '毎月', 'Calendar': 'カレンダー',
         'hero wars alliance': 'ヒーローウォーズ アライアンス',
-        'New': '新しい',
+        'New': '新しい', 'How to Play': '遊び方', 'and': 'と',
         'Adventure Shop Tips': 'アドベンチャーショップのヒント',
         'What to Buy?': '何を買うべき？', 'Which is better': 'どちらがいいですか'
       }

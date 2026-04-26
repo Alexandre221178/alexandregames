@@ -6,14 +6,52 @@
   // =====================================================
   var slides = [
     {
-      link: "../../hero-wars-alliance/titans-events-tips/araji-shop-titan-power-en.html",
-      src500: "../../hero-wars-alliance/images/titans-events-tips/araji-shop-titan-power/araji-shop-titan-power-500px.webp",
-      src400: "../../hero-wars-alliance/images/titans-events-tips/araji-shop-titan-power/araji-shop-titan-power-400px.webp",
-      alt: "Araji's Champion Coins shop during the Titan Power Event in Hero Wars Alliance",
-      title: "Titan Power Event Shop - Hero Wars Alliance",
-      strong: "Guide: Araji's Shop! What to Buy? Hero Wars Alliance",
+  link: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html",
+  src500: "../../hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-500px.webp",
+  src400: "../../hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-400px.webp",
+  alt: "Talisman Guide for Hero Wars Alliance",
+  title: "Talisman Guide for Hero Wars Alliance",
+  strong: "Complete Talisman Guide 2026 - Which is better? Hero Wars Alliance",
+  updated: "Updated: April, 2026."
+},
+    {
+      link: "../../hero-wars-alliance/characters-guide/drayne-en.html",
+      src500: "../../hero-wars-alliance/images/hero/drayne/drayne-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/drayne/drayne-400px.webp",
+      alt: "Drayne Legendary Skills Guide for Hero Wars Alliance",
+      title: "Drayne Guide for Hero Wars Alliance",
+      strong: "Guide: Drayne Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: April  , 2026."
+    },
+    
+    {
+      link: "../../hero-wars-alliance/characters-guide/somna-en.html",
+      src500: "../../hero-wars-alliance/images/hero/somna/somna-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/somna/somna-400px.webp",
+      alt: "Somna Legendary Skills Guide for Hero Wars Alliance",
+      title: "Somna Guide for Hero Wars Alliance",
+      strong: "Somna: New Skin+ - Legendary Skills Guide for Hero Wars Alliance",
       updated: "Updated: April, 2026."
     },
+    {
+      link: "../../hero-wars-alliance/characters-guide/lian-en.html",
+      src500: "../../hero-wars-alliance/images/hero/lian/lian-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/lian/lian-400px.webp",
+      alt: "Lian Legendary Skills Guide for Hero Wars Alliance",
+      title: "Lian Guide for Hero Wars Alliance",
+      strong: "Lian: New Skin+ - Legendary Skills Guide for Hero Wars Alliance",
+      updated: "Updated: April, 2026."
+    },
+    {
+      link: "../../hero-wars-alliance/characters-guide/byrna-en.html",
+      src500: "../../hero-wars-alliance/images/hero/byrna/byrna-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/byrna/byrna-400px.webp",
+      alt: "Byrna Legendary Skills Guide for Hero Wars Alliance",
+      title: "Byrna Guide for Hero Wars Alliance",
+      strong: "Byrna Legendary Guide Skills Guide for Hero Wars Alliance (skin+)",
+      updated: "Updated(skin+): March, 2026."
+    },
+    
      {
       link: "../../hero-wars-alliance/characters-guide/leonel-en.html",
       src500: "../../hero-wars-alliance/images/hero/leonel/leonel-500px.webp",
@@ -26,13 +64,13 @@
   ];
 
   var headingByLang = {
-    en: 'Featured Guides - Hero Wars Alliance',
-    pt: 'Guias em Destaque - Hero Wars Alliance',
-    es: 'Guías Destacadas - Hero Wars Alliance',
-    fr: 'Guides en Vedette - Hero Wars Alliance',
-    de: 'Empfohlene Guides - Hero Wars Alliance',
-    ja: '注目のガイド - Hero Wars Alliance'
-  };
+  en: 'Featured Guides (Recent Events - Ended) - Hero Wars Alliance',
+  pt: 'Guias de Eventos Recentes (Encerrados) - Hero Wars Alliance',
+  es: 'Guías de Eventos Recientes (Finalizados) - Hero Wars Alliance',
+  fr: 'Guides d’Événements Récents (Terminés) - Hero Wars Alliance',
+  de: 'Guides zu Kürzlichen (Abgeschlossenen) Events - Hero Wars Alliance',
+  ja: '最近のイベント（終了）ガイド - Hero Wars Alliance'
+};
 
   function getShared(){
     return window.hwaCarouselShared || null;

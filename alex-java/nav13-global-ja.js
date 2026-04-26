@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>    
 -->
 <div class="dropdown">
-   <button class="dropbtn"><span>ヒーローウォーズ アライアンス <br>(Mobile)</span></button>
+   <button class="dropbtn"><span>ヒーローウォーズ アライアンス (モバイル)</span></button>
     <div class="dropdown-content"> <br>                
         <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-ja.html">🆕 HWA - 最新アップデート</a>
         <a href="https://alexandregames.com/hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-ja.html">🎁 HWA - デイリーギフト</a>
@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>  
 
 <div class="dropdown">
-    <button class="dropbtn"><span>ヒーローウォーズ ドミニオンの時代 <br>(Web/Facebook)</span></button>
+    <button class="dropbtn"><span>ヒーローウォーズ ドミニオンの時代 (Web/Facebook)</span></button>
     <div class="dropdown-content"> <br>  
         <a href="https://alexandregames.com/hero-wars-dominion-era/home/hwde-ja.html">🆕 HWDE - 最新アップデート</a>
         <a href="https://alexandregames.com/y-redeem-gifts-hwde-en.html">🎁 HWDE - デイリーギフト</a>

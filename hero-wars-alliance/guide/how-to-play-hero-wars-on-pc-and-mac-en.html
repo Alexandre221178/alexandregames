@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta property="article:published_time" content="2025-02-02T20:56-03:00" />
-    <meta property="article:modified_time" content="2026-04-24T23:10-03:00" />
-    <link rel="stylesheet" href="../../css/estilo13z.css">   
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta property="article:published_time" content="2025-02-02T20:56-03:00" />
+<meta property="article:modified_time" content="2026-04-25T23:36:17-03:00" />
+<!--      npm run update-how-to-play-hero-wars-on-pc-and-mac-hwa   -->
+<link rel="stylesheet" href="../../css/estilo13z.css">
 
-    <title>How to Play Hero Wars Alliance on PC and Mac: A Complete Guide!</title>
-    <meta name="description" content="Learn how to play Hero Wars Alliance on PC and Mac with the official web version or BlueStacks emulator. Enjoy better graphics, smooth gameplay, and enhanced performance on your computer!">
-    <meta name="keywords" content="How to Play Hero Wars on PC and Mac, #Article, @1alexandregames, #alexandregames, #Review, #mobile, #Tips">
-    <meta name="author" content="Alexandre Pereira Domingos">
+<title>How to Play Hero Wars Alliance on PC and Mac: A Complete Guide!</title>
+<meta name="description" content="Learn how to play Hero Wars Alliance on PC and Mac with the official web version or BlueStacks emulator with expert tips.">
+<meta name="keywords" content="How to Play Hero Wars on PC and Mac, #Article, @1alexandregames, #alexandregames, #Review, #mobile, #Tips">
+<meta name="author" content="Alexandre Pereira Domingos">
 
     <link rel="canonical" href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html">
     <link rel="alternate" hreflang="en" href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html">
     <link rel="alternate" hreflang="x-default" href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html">
     <link rel="alternate" hreflang="pt" href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-pt.html">
+<link rel="alternate" hreflang="es" href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-es.html">
+<link rel="alternate" hreflang="de" href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-de.html">
+<link rel="alternate" hreflang="ja" href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-ja.html">
+<link rel="alternate" hreflang="fr" href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-fr.html">
+
 
     <!-- Open Graph Tags -->
     <meta property="og:title" content="How to Play Hero Wars Alliance on PC and Mac: A Complete Guide!">
@@ -57,10 +63,9 @@
 <body>
      
 <div class="container">
-<div id="menu-container"></div>
-<a href="../../hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-pt.html" class="language-link" style="display:none;"></a>
-<script src="../../Documentos/nav13-en-v2.js" defer></script>
-<script src="../../Documentos/lazy-load.js"></script>
+<div id="menu-container"></div><!-- Contêiner do menu -->
+<script src="../../alex-java/nav13-global-en.js" defer></script>
+<script src="../../alex-java/lazy-load.js"></script>
       
 <header>          
     <div class="text-title">  
@@ -352,7 +357,32 @@
     <script src="../../alex-java/share-global-en.js" defer></script>
     <script src="../../alex-java/translate07-en.js" defer></script>
     <script src="../../alex-java/author-en.js" defer></script>
-    <script src="../../alex-java/translation-suggestion-en.js" defer></script>
+    <!--<script src="../../alex-java/carousel-slide.js" defer></script>-->
+
+    <script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
+
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
+
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
+
 </div><!-- end second-half -->
 </div><!-- end container -->
 </body>

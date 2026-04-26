@@ -16,6 +16,7 @@
        "update-realm-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide realm",
     "update-realm-pve-best-teams-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide realm-pve-best-teams",
     "update-talisman-guide-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide talisman-guide",
+   "update-how-to-play-hero-wars-on-pc-and-mac-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide how-to-play-hero-wars-on-pc-and-mac",
    
     
     "update-alvanor-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide alvanor",
