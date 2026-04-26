@@ -11,7 +11,7 @@
 */
 // Não esquecer de trocar o mes e as img 1200px,500px,400px!
 // img-HWM/events-img/herowarsalliance-calendar-1200px.webp?v=2026-0#
-// Título do mês do calendário (traduzido automaticamente)
+// Título do mês do calendário (npm run update-calendar-hwa)
 window.CALENDAR_MONTH_HEADER = {
   en: "Wardens of Time Season Events",
   pt: "Eventos da Temporada Guardiões do Tempo",
@@ -405,10 +405,15 @@ window.CALENDAR_DATA = [
   weekday: "Thursday",
   date: "April, 29",
     image: "../../imagens/image-shared/aidan-300px.webp",
-    alt: "Alliance of Forces and  Runic Event",
-    titles: { en: "Alliance of Forces and Runic Event", de: "Allianz der Kräfte und Runen-Event", es: "Alianza de Fuerzas y Evento Rúnico", fr: "Alliance des Forces et Événement Runique", pt: "Aliança das Forças e Evento Rúnico", ja: "フォース同盟＆ルーンイベント" },
-    links: { en: "../../Hero Wars/events/runic-event-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/runic-event-pt-hwa.html", ja: "" },
+    alt: "Runic Millstone Event",
+    titles: { en: "Runic Millstone Event", de: "Runen-Mühlstein-Ereignis", es: "Evento Molino Rúnico", fr: "Événement Meule Runique", pt: "Evento Moinho Rúnico", ja: "ルーンミルストーンイベント" },
+    links: { en: "../../hero-wars-alliance/event-hwa/runic-millstone-en.html", de: "../../hero-wars-alliance/event-hwa/runic-millstone-de.html", es: "../../hero-wars-alliance/event-hwa/runic-millstone-es.html", fr: "../../hero-wars-alliance/event-hwa/runic-millstone-fr.html", pt: "../../hero-wars-alliance/event-hwa/runic-millstone-pt.html", ja: "../../hero-wars-alliance/event-hwa/runic-millstone-ja.html" },
     extra: [
+  {
+  titles: { en: "Alliance of Forces Event", de: "Event Allianz der Kräfte", es: "Evento Alianza de Fuerzas", fr: "Événement Alliance des Forces", pt: "Evento Aliança das Forças", ja: "力の同盟イベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/alliance-of-forces-en.html", de: "../../hero-wars-alliance/event-hwa/alliance-of-forces-de.html", es: "../../hero-wars-alliance/event-hwa/alliance-of-forces-es.html", fr: "../../hero-wars-alliance/event-hwa/alliance-of-forces-fr.html", pt: "../../hero-wars-alliance/event-hwa/alliance-of-forces-pt.html", ja: "../../hero-wars-alliance/event-hwa/alliance-of-forces-ja.html" },       
+  noStrip: true
+},  
       {
   titles: { en: "Aidan Guide: Jade Flame Skin", de: "Aidan Leitfaden", es: "Guía de Aidan: Skin de Llama de Jade", fr: "Guide Aidan : Skin Flamme de Jade", pt: "Guia do Aidan: Skin de Chama de Jade", ja: "アイダン - ガイド" },
   links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Aidan- English.html", de: "", es: "", fr: "", pt: "../../Hero Wars/Guia de Heróis Hero Wars/Aidan.html", ja: "" },       
@@ -427,11 +432,16 @@ window.CALENDAR_DATA = [
   {
     weekday: "Friday",
     date: "April, 30",
-    image: "../../img-HWM/events-img/runic-events/runic-event-hwa-200px.webp",
-    alt: "Alliance of Forces and  Runic Event",
-    titles: { en: "Alliance of Forces and Runic Event", de: "Allianz der Kräfte und Runen-Event", es: "Alianza de Fuerzas y Evento Rúnico", fr: "Alliance des Forces et Événement Runique", pt: "Aliança das Forças e Evento Rúnico", ja: "フォース同盟＆ルーンイベント" },
-    links: { en: "../../Hero Wars/events/runic-event-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/runic-event-pt-hwa.html", ja: "" },
+    image: "../../hero-wars-alliance/images/events/runic-millstone/runic-event-250px.webp",
+    alt: "Runic Millstone Event",
+    titles: { en: "Runic Millstone Event", de: "Runen-Mühlstein-Ereignis", es: "Evento Molino Rúnico", fr: "Événement Meule Runique", pt: "Evento Moinho Rúnico", ja: "ルーンミルストーンイベント" },
+    links: { en: "../../hero-wars-alliance/event-hwa/runic-millstone-en.html", de: "../../hero-wars-alliance/event-hwa/runic-millstone-de.html", es: "../../hero-wars-alliance/event-hwa/runic-millstone-es.html", fr: "../../hero-wars-alliance/event-hwa/runic-millstone-fr.html", pt: "../../hero-wars-alliance/event-hwa/runic-millstone-pt.html", ja: "../../hero-wars-alliance/event-hwa/runic-millstone-ja.html" },
     extra: [
+      {
+  titles: { en: "Alliance of Forces Event", de: "Event Allianz der Kräfte", es: "Evento Alianza de Fuerzas", fr: "Événement Alliance des Forces", pt: "Evento Aliança das Forças", ja: "力の同盟イベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/alliance-of-forces-en.html", de: "../../hero-wars-alliance/event-hwa/alliance-of-forces-de.html", es: "../../hero-wars-alliance/event-hwa/alliance-of-forces-es.html", fr: "../../hero-wars-alliance/event-hwa/alliance-of-forces-fr.html", pt: "../../hero-wars-alliance/event-hwa/alliance-of-forces-pt.html", ja: "../../hero-wars-alliance/event-hwa/alliance-of-forces-ja.html" },       
+  noStrip: true
+}, 
       {
   titles: { en: "Aidan Guide: Jade Flame Skin", de: "Aidan Leitfaden", es: "Guía de Aidan: Skin de Llama de Jade", fr: "Guide Aidan : Skin Flamme de Jade", pt: "Guia do Aidan: Skin de Chama de Jade", ja: "アイダン - ガイド" },
   links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Aidan- English.html", de: "", es: "", fr: "", pt: "../../Hero Wars/Guia de Heróis Hero Wars/Aidan.html", ja: "" },       
@@ -446,11 +456,16 @@ window.CALENDAR_DATA = [
   {
     weekday: "Friday",
     date: "May, 1",
-    image: "../../img-HWM/events-img/runic-events/runic-event-hwa-200px.webp",
-    alt: "Alliance of Forces and  Runic Event",
-    titles: { en: "Alliance of Forces and Runic Event", de: "Allianz der Kräfte und Runen-Event", es: "Alianza de Fuerzas y Evento Rúnico", fr: "Alliance des Forces et Événement Runique", pt: "Aliança das Forças e Evento Rúnico", ja: "フォース同盟＆ルーンイベント" },
-    links: { en: "../../Hero Wars/events/runic-event-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/runic-event-pt-hwa.html", ja: "" },
+    image: "../../hero-wars-alliance/images/events/runic-millstone/runic-event-250px.webp",
+    alt: "Runic Millstone Event",
+    titles: { en: "Runic Millstone Event", de: "Runen-Mühlstein-Ereignis", es: "Evento Molino Rúnico", fr: "Événement Meule Runique", pt: "Evento Moinho Rúnico", ja: "ルーンミルストーンイベント" },
+    links: { en: "../../hero-wars-alliance/event-hwa/runic-millstone-en.html", de: "../../hero-wars-alliance/event-hwa/runic-millstone-de.html", es: "../../hero-wars-alliance/event-hwa/runic-millstone-es.html", fr: "../../hero-wars-alliance/event-hwa/runic-millstone-fr.html", pt: "../../hero-wars-alliance/event-hwa/runic-millstone-pt.html", ja: "../../hero-wars-alliance/event-hwa/runic-millstone-ja.html" },
     extra: [
+      {
+  titles: { en: "Alliance of Forces Event", de: "Event Allianz der Kräfte", es: "Evento Alianza de Fuerzas", fr: "Événement Alliance des Forces", pt: "Evento Aliança das Forças", ja: "力の同盟イベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/alliance-of-forces-en.html", de: "../../hero-wars-alliance/event-hwa/alliance-of-forces-de.html", es: "../../hero-wars-alliance/event-hwa/alliance-of-forces-es.html", fr: "../../hero-wars-alliance/event-hwa/alliance-of-forces-fr.html", pt: "../../hero-wars-alliance/event-hwa/alliance-of-forces-pt.html", ja: "../../hero-wars-alliance/event-hwa/alliance-of-forces-ja.html" },       
+  noStrip: true
+}, 
       {
   titles: { en: "Aidan Guide: Jade Flame Skin", de: "Aidan Leitfaden", es: "Guía de Aidan: Skin de Llama de Jade", fr: "Guide Aidan : Skin Flamme de Jade", pt: "Guia do Aidan: Skin de Chama de Jade", ja: "アイダン - ガイド" },
   links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Aidan- English.html", de: "", es: "", fr: "", pt: "../../Hero Wars/Guia de Heróis Hero Wars/Aidan.html", ja: "" },       

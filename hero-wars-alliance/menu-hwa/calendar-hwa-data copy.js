@@ -323,7 +323,7 @@ window.CALENDAR_DATA = [
     image: "../../img-HWM/events-img/runic-events/runic-event-hwa-200px.webp",
     alt: "Alliance of Forces and  Runic Event",
     titles: { en: "Alliance of Forces and Runic Event", de: "Allianz der Kräfte und Runen-Event", es: "Alianza de Fuerzas y Evento Rúnico", fr: "Alliance des Forces et Événement Runique", pt: "Aliança das Forças e Evento Rúnico", ja: "フォース同盟＆ルーンイベント" },
-    links: { en: "../../Hero Wars/events/runic-event-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/runic-event-pt-hwa.html", ja: "" },
+    links: { en: "../../hero-wars-alliance/event-hwa/runic-millstone-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/runic-millstone-pt.html", ja: "" },
     extra: [
              
     ]
@@ -334,7 +334,7 @@ window.CALENDAR_DATA = [
     image: "../../img-HWM/events-img/runic-events/runic-event-hwa-200px.webp",
     alt: "Alliance of Forces and  Runic Event",
     titles: { en: "Alliance of Forces and Runic Event", de: "Allianz der Kräfte und Runen-Event", es: "Alianza de Fuerzas y Evento Rúnico", fr: "Alliance des Forces et Événement Runique", pt: "Aliança das Forças e Evento Rúnico", ja: "フォース同盟＆ルーンイベント" },
-    links: { en: "../../Hero Wars/events/runic-event-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/runic-event-pt-hwa.html", ja: "" },
+    links: { en: "../../hero-wars-alliance/event-hwa/runic-millstone-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/runic-millstone-pt.html", ja: "" },
     extra: [
              
     ]
@@ -345,7 +345,7 @@ window.CALENDAR_DATA = [
     image: "../../img-HWM/events-img/runic-events/runic-event-hwa-200px.webp",
     alt: "Alliance of Forces and  Runic Event",
     titles: { en: "Alliance of Forces and Runic Event", de: "Allianz der Kräfte und Runen-Event", es: "Alianza de Fuerzas y Evento Rúnico", fr: "Alliance des Forces et Événement Runique", pt: "Aliança das Forças e Evento Rúnico", ja: "フォース同盟＆ルーンイベント" },
-    links: { en: "../../Hero Wars/events/runic-event-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/runic-event-pt-hwa.html", ja: "" },
+    links: { en: "../../hero-wars-alliance/event-hwa/runic-millstone-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/runic-millstone-pt.html", ja: "" },
     extra: [
              
     ]
