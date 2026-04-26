@@ -7,16 +7,22 @@ const path = require('path');
 //Ex: npm run update-hwde-hwde
 //Ex: npm run update-calendar-hwde
 // Receber o prefixo como argumento (ex.: electra-brawls ou tidus-hwde)
+// Também aceita dois argumentos: <pasta> <prefixo> (ex.: ag-daily-gifts-hwde gifts-hwde)
 let prefix = process.argv[2];
+let explicitFolder = process.argv[3] ? process.argv[2] : null;
+if (process.argv[3]) {
+  prefix = process.argv[3];
+}
 if (!prefix) {
   console.error('Uso: node update-data-menu-hwde.js <prefixo>');
   console.error('Exemplo: node update-data-menu-hwde.js electra-brawls');
   console.error('Para HWDE: node update-data-menu-hwde.js tidus-hwde (será tratado como tidus)');
+  console.error('Ou com pasta explícita: node update-data-menu-hwde.js ag-daily-gifts-hwde gifts-hwde');
   process.exit(1);
 }
 
-// Se o prefixo terminar com "-hwde", remover para compatibilidade
-if (prefix.endsWith('-hwde')) {
+// Se o prefixo terminar com "-hwde", remover para compatibilidade (apenas no modo 1 argumento)
+if (!explicitFolder && prefix.endsWith('-hwde')) {
   prefix = prefix.slice(0, -5); // remove "-hwde"
 }
 
@@ -25,22 +31,32 @@ const baseDir = __dirname;
 
 // Encontrar a pasta que contém os arquivos com o prefixo
 let menuDir = null;
-const folders = fs.readdirSync(baseDir, { withFileTypes: true })
-  .filter(dirent => dirent.isDirectory())
-  .map(dirent => dirent.name);
 
-for (const folder of folders) {
-  const dirPath = path.join(baseDir, folder);
-  const files = fs.readdirSync(dirPath).filter(file => file.startsWith(`${prefix}-`) && file.endsWith('.html'));
-  if (files.length > 0) {
-    menuDir = dirPath;
-    break;
+if (explicitFolder) {
+  // Modo 2 args: pasta fornecida explicitamente
+  menuDir = path.join(baseDir, explicitFolder);
+  if (!fs.existsSync(menuDir)) {
+    console.error(`Pasta não encontrada: ${menuDir}`);
+    process.exit(1);
   }
-}
+} else {
+  const folders = fs.readdirSync(baseDir, { withFileTypes: true })
+    .filter(dirent => dirent.isDirectory())
+    .map(dirent => dirent.name);
 
-if (!menuDir) {
-  console.error(`Nenhuma pasta encontrada contendo arquivos com o prefixo: ${prefix}`);
-  process.exit(1);
+  for (const folder of folders) {
+    const dirPath = path.join(baseDir, folder);
+    const files = fs.readdirSync(dirPath).filter(file => file.startsWith(`${prefix}-`) && file.endsWith('.html'));
+    if (files.length > 0) {
+      menuDir = dirPath;
+      break;
+    }
+  }
+
+  if (!menuDir) {
+    console.error(`Nenhuma pasta encontrada contendo arquivos com o prefixo: ${prefix}`);
+    process.exit(1);
+  }
 }
 
 // Arquivo de dados (ex.: calendar-hwa-data.js)

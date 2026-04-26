@@ -93,7 +93,7 @@
       updated: "Updated: Daily."
     },
     {
-      link: "../../y-redeem-gifts-hwde-en.html",
+      link: "../../hero-wars-dominion-era/ag-daily-gifts-hwde/gifts-hwde-en.html",
       src500: "../../hero-wars-dominion-era/images/daily-gifts-hwde/daily-gifts-hwde-500px.webp",
       src400: "../../hero-wars-dominion-era/images/daily-gifts-hwde/daily-gifts-hwde-400px.webp",
       alt: "Redeem your Daily Gifts for Hero Wars: Dominion Era",
