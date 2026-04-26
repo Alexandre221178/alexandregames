@@ -8,8 +8,11 @@
    npm run update-gifts-hwde  */
 
 window.HWDE_GIFTS = [
+   
 
 // ── April 26, 2026 ──────────────────────────────
+   { date:'2026-04-26', type:'link', giftId:'4ce24f8f1543cb9233fb412501d1a6c6', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },   
 { date:'2026-04-26', type:'link', giftId:'4SJmySx3PQ', note:'until|2026-04-30T02:00:00Z',
   rewards:['energy x500'] },
 
