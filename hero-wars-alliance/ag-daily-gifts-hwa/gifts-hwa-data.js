@@ -5,6 +5,10 @@
   npm run update-gifts-hwa       */
 // ── April #, 2026 ──────────────────────────────
 window.HWA_GIFTS = [
+// ── April 26, 2026 ──────────────────────────────
+{ date:'2026-04-26', type:'daily', mission:'2-12', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+
   // ── April 25, 2026 ──────────────────────────────
 // ── Hub gft valid data true ──────────────────────────────
 { date:'2026-04-25', type:'hub', code:'JADESTATS', note:'until|2026-05-11T01:00:00Z',
