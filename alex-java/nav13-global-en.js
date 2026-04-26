@@ -269,16 +269,6 @@ document.addEventListener('DOMContentLoaded', () => {
         menuContainer.prepend(navElement);
     }
 
-    // Marcar links que apontam para páginas em inglês com " (EN)"
-    try {
-        navElement.querySelectorAll('a').forEach(a => {
-            const href = a.getAttribute('href') || '';
-            if (href.includes('-en.html') || href.includes('Hero%20Wars%20English') || href.includes('MobileLegends-English') || href.includes('herowars-alliance-en.html')) {
-                if (!a.textContent.includes('(EN)')) a.textContent = a.textContent + ' (EN)';
-            }
-        });
-    } catch (e) {}
-
     // Função para expandir/colapsar submenu
     window.toggleSubmenu = function(event, id) {
         event.preventDefault();
