@@ -6,9 +6,12 @@
    For unknown items use: 'alexandregames NAME x1'
    To mark expired code add: expired:true
    npm run update-gifts-hwde  */
-
+  
+// ── April #, 2026 ──────────────────────────────
 window.HWDE_GIFTS = [
-   
+// ── April 27, 2026 ──────────────────────────────  
+{ date:'2026-04-27', type:'link', giftId:'ZlXEEbNf6b', note:'until|2026-05-01T02:00:00Z',
+  rewards:['energy-crystal x16', 'valor-coin x8500', 'sapphire-medallion x2'] },
 
 // ── April 26, 2026 ──────────────────────────────
    { date:'2026-04-26', type:'link', giftId:'4ce24f8f1543cb9233fb412501d1a6c6', note:'level',
