@@ -6,8 +6,11 @@
 // ── April #, 2026 ──────────────────────────────
 window.HWA_GIFTS = [
 // ── April 27, 2026 ──────────────────────────────
+{ date:'2026-04-27', type:'special', mission:'3-2', note:'until|2026-05-11T01:00:00Z',
+    rewards:[ 'energy x100', 'avatar x1'] },   
 { date:'2026-04-27', type:'daily', mission:'3-4', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+   
 // ── April 26, 2026 ──────────────────────────────
 { date:'2026-04-26', type:'special', mission:'Issue fixed.(3-13)', note:'until|2026-05-11T01:00:00Z',
     rewards:['seers-orb x50', 'coin-of-luck x1', 'energy x20', 'avatar x1'] },
