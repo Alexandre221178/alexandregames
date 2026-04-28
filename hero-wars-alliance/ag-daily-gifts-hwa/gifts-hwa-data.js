@@ -5,6 +5,10 @@
   npm run update-gifts-hwa       */
 // ── April #, 2026 ──────────────────────────────
 window.HWA_GIFTS = [
+// ── April #, 2026 ──────────────────────────────
+{ date:'2026-04-28', type:'daily', mission:'2-14', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+
 // ── April 27, 2026 ──────────────────────────────
 { date:'2026-04-27', type:'special', mission:'3-2', note:'until|2026-05-11T01:00:00Z',
     rewards:[ 'energy x100', 'avatar x1'] },   
