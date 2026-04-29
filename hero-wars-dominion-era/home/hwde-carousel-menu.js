@@ -1,15 +1,7 @@
 (function(){
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
-    {
-  link: "../../hero-wars-dominion-era/titans/lumira-en.html",
-  src500: "../../hero-wars-dominion-era/images/titans-hwde/lumira/lumira-500px.webp",
-  src400: "../../hero-wars-dominion-era/images/titans-hwde/lumira/lumira-400px.webp",
-  alt: "Lumira for Hero Wars: Dominion Era",
-  title: "Lumira for Hero Wars: Dominion Era.",
-  strong: "Guide: Lumira - Hero Wars: Dominion Era",
-  updated: "Updated: April, 2026."
-},
+    
     {
       link: "/hero-wars-dominion-era/events-special-hwde/lumira-event-guide-en.html",
       src500: "/hero-wars-dominion-era/images/events-special/lumira-event/lumira-event-500px.webp",
@@ -19,6 +11,15 @@
       strong: "Guide: Lumira Event f2p 6⭐ - Hero Wars: Dominion Era",
       updated: "Updated: April, 2026."
     },
+    {
+  link: "../../hero-wars-dominion-era/titans/lumira-en.html",
+  src500: "../../hero-wars-dominion-era/images/titans-hwde/lumira/lumira-500px.webp",
+  src400: "../../hero-wars-dominion-era/images/titans-hwde/lumira/lumira-400px.webp",
+  alt: "Lumira for Hero Wars: Dominion Era",
+  title: "Lumira for Hero Wars: Dominion Era.",
+  strong: "Guide: Lumira - Hero Wars: Dominion Era",
+  updated: "Updated: April, 2026."
+},
     {
       link: "/hero-wars-dominion-era/events-special-hwde/lumira-event-missions-en.html",
       src500: "/hero-wars-dominion-era/images/events-special/lumira-event/how-to-prepare-500px.webp",

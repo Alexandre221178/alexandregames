@@ -1,15 +1,7 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
-    {
-      link: "/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html",
-      src500: "/hero-wars-alliance/img-hero-wars-alliance/guide-img/how-to-play-hero-wars-on-desktop/how-to-play-hero-wars-on-pc-and-mac-500px.webp",
-      src400: "/hero-wars-alliance/img-hero-wars-alliance/guide-img/how-to-play-hero-wars-on-desktop/how-to-play-hero-wars-on-pc-and-mac-400px.webp",
-      alt: "How to Play Hero Wars Alliance on PC and Mac",
-      title: "How to Play Hero Wars Alliance on PC and Mac",
-      strong: "How to Play Hero Wars Alliance - PC and Mac",
-      updated: "Updated: April, 2026."
-    },
+   
     {
       link: "/hero-wars-alliance/characters-guide/phobos-en.html",
       src500: "/hero-wars-alliance/images/hero/phobos/phobos-500px.webp",
@@ -36,7 +28,16 @@
       title: "Titan Alecto Guide for Hero Wars Alliance",
       strong: "Guide: Titan Alecto for Hero Wars Alliance",
       updated: "Updated: April, 2026."
-    },    
+    },   
+     {
+      link: "/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html",
+      src500: "/hero-wars-alliance/img-hero-wars-alliance/guide-img/how-to-play-hero-wars-on-desktop/how-to-play-hero-wars-on-pc-and-mac-500px.webp",
+      src400: "/hero-wars-alliance/img-hero-wars-alliance/guide-img/how-to-play-hero-wars-on-desktop/how-to-play-hero-wars-on-pc-and-mac-400px.webp",
+      alt: "How to Play Hero Wars Alliance on PC and Mac",
+      title: "How to Play Hero Wars Alliance on PC and Mac",
+      strong: "How to Play Hero Wars Alliance - PC and Mac",
+      updated: "Updated: April, 2026."
+    }, 
     
     {
       link: "../../hero-wars-alliance/guide/realm-pve-best-teams-en.html",
