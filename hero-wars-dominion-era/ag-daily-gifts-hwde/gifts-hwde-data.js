@@ -9,6 +9,11 @@
 
 // ── April #, 2026 ──────────────────────────────
 window.HWDE_GIFTS = [
+
+   // ── April 29, 2026 ──────────────────────────────
+   { date:'2026-04-29', type:'link', giftId:'RMYJpNlZIz', note:'until|2026-05-01T02:00:00Z',
+  rewards:['energy-crystal x16', 'valor-coin x8000', 'sapphire-medallion x1'] },
+
    // ── April 28 2026 ──────────────────────────────
    { date:'2026-04-28', type:'link', giftId:'6e672da8b559d4eeee558877e5133247', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
