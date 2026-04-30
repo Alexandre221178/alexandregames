@@ -1,10 +1,15 @@
-/*For expired hub codes add: expired:true 
-   For text qty (like 250k) use: 'gold 250k' instead of 'gold x250'
-  For unknown new gifts use: 'alexandregames NAME x1' or 'alexandre games NAME x1'
-  The component will use the Alexandre Games logo and display only NAME
-  npm run update-gifts-hwa       */
+/*For expired hub codes add: expired:true For text qty (like 250k) use: 'gold 250k' instead of 'gold x250'
+   For unknown new gifts use: 'alexandregames NAME x1' or 'alexandre games NAME x1' The component will use the Alexandre Games logo and display only NAME
+ npm run update-gifts-hwa       
 // ── April #, 2026 ──────────────────────────────
+ { date:'2026-0#-##', type:'daily', mission:'##', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+*/
 window.HWA_GIFTS = [
+    // ── April 30, 2026 ──────────────────────────────
+    { date:'2026-04-30', type:'daily', mission:'2-8', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+
 // ── April 29, 2026 ──────────────────────────────
     { date:'2026-04-29', type:'hub', code:'SPRING26', note:'until|2026-05-06T09:00:00Z',
      rewards:['energy x750', 'emeralds x500', 'small-skin-stone-chest x10'] },
