@@ -1,6 +1,15 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
+    {
+      link: "/hero-wars-alliance/review/damage-over-time-en.html",
+      src500: "/hero-wars-alliance/images/review/damage-over-time-500px.webp",
+      src400: "/hero-wars-alliance/images/review/damage-over-time-400px.webp",
+      alt: "Damage Over Time (DoT) System Guide in Hero Wars Alliance",
+      title: "Damage Over Time (DoT) System Guide - Hero Wars Alliance",
+      strong: "Guide: Damage Over Time (DoT) - Hero Wars Alliance",
+      updated: "Updated: April, 2026."
+    },   
    
     {
       link: "/hero-wars-alliance/characters-guide/phobos-en.html",

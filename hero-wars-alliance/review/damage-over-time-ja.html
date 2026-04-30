@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+        <!-- メタディスクリプション -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta property="article:published_time" content="2026-04-29T22:34:27-03:00" />
+        <meta property="article:modified_time" content="2026-04-29T22:56:35-03:00" />
+        <link rel="stylesheet" href="../../css/estilo13z.css">
+
+        <title>ヒーロー・ウォーズ・アライアンス：DoTシステム解説とアイリス対策</title>
+        <meta name="description" content="ヒーロー・ウォーズ・アライアンスの新しいダメージ・オーバー・タイムシステム、影響を受けたヒーロー、そしてアイリスの対策方法を詳しく解説する。">
+        <meta name="keywords" content="ヒーロー・ウォーズ・アライアンス, Damage over Time, DoT, アイリス, オクタヴィア, コーヴァス, フォボス, テンパス, アミラ, リアン, ソムナ, アレクサンドル・ゲームズ, 攻略, ガイド, @1alexandregames">
+        <meta name="author" content="Alexandre Pereira Domingos">
+        <meta name="robots" content="max-image-preview:large">
+
+        <link rel="canonical" href="https://alexandregames.com/hero-wars-alliance/review/damage-over-time-ja.html">
+        <link rel="alternate" hreflang="en" href="https://alexandregames.com/hero-wars-alliance/review/damage-over-time-en.html">
+        <link rel="alternate" hreflang="x-default" href="https://alexandregames.com/hero-wars-alliance/review/damage-over-time-en.html">
+        <link rel="alternate" hreflang="pt" href="https://alexandregames.com/hero-wars-alliance/review/damage-over-time-pt.html">
+        <link rel="alternate" hreflang="es" href="https://alexandregames.com/hero-wars-alliance/review/damage-over-time-es.html">
+        <link rel="alternate" hreflang="de" href="https://alexandregames.com/hero-wars-alliance/review/damage-over-time-de.html">
+        <link rel="alternate" hreflang="ja" href="https://alexandregames.com/hero-wars-alliance/review/damage-over-time-ja.html">
+        <link rel="alternate" hreflang="fr" href="https://alexandregames.com/hero-wars-alliance/review/damage-over-time-fr.html">
+
+        <!-- Open Graph Tags -->
+        <meta property="og:title" content="ヒーロー・ウォーズ・アライアンス：DoTシステム解説とアイリス対策">
+        <meta property="og:description" content="ヒーロー・ウォーズ・アライアンスの新しいダメージ・オーバー・タイムシステム、影響を受けたヒーロー、そしてアイリスの対策方法を詳しく解説する。">
+        <meta property="og:image" content="https://alexandregames.com/hero-wars-alliance/images/review/damage-over-time-1200px.webp">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="675">
+        <meta property="og:type" content="article">
+        <meta property="og:site_name" content="Alexandre Games">
+        <meta property="article:author" content="https://alexandregames.com/">
+
+        <!-- Twitter Card Tags -->
+        <link rel="apple-touch-icon" sizes="180x180" href="../../imagens/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../../imagens/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../imagens/favicon-16x16.png">
+        <link rel="manifest" href="../../imagens/site.webmanifest">
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P90XK71HW9"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-P90XK71HW9');
+        </script>
+
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
+                 crossorigin="anonymous"></script>
+
+        <style>
+            .content-wrapper {
+             margin: 10px;
+            }
+            .content-wrapper p {
+                font-family: Arial, sans-serif;
+                font-size: 18px;
+                line-height: 1.5;
+                margin: 0 0 1em 0;
+                color: #000000;
+                 margin-left: 13px !important;
+            }
+            @media (min-width: 768px) {
+                .content-wrapper p {
+                    font-size: 22px;
+                    margin-left: 13px
+                }
+            }
+        </style>
+
+        <link rel="preload" as="image"
+            href="/hero-wars-alliance/images/review/damage-over-time-500px.webp"
+            imagesrcset="
+                /hero-wars-alliance/images/review/damage-over-time-500px.webp 500w,
+                /hero-wars-alliance/images/review/damage-over-time-1200px.webp 1200w"
+            imagesizes="(max-width: 600px) 500px, 1200px"
+            type="image/webp">
+</head>
+<body>
+<div class="container">
+<div id="menu-container"></div><!-- Contêiner do menu -->
+
+<header>
+<div class="text-title">
+        <h1>ヒーロー・ウォーズ・アライアンスの新DoTシステム解説：アイリスはこれまで以上に強くなった</h1>
+</div>
+
+<div id="google_translate_element"></div>
+<div class="share-buttons">
+    <a onclick="translatePage()" class="share-button translate">🌍Translate</a>
+        <a id="whatsapp-share" class="share-button whatsapp" href="#" target="_blank">Whatsapp</a>
+        <a id="facebook-share" class="share-button facebook" href="#" target="_blank">Facebook</a>
+        <a id="reddit-share" class="share-button reddit" href="#" target="_blank">Reddit</a>
+        <div id="link-share" class="share-button link">Link</div>
+</div>
+<div class="autor">
+<ul>
+        <li><i>著者: Alexandre Domingos.</i><b></b> <i id="data-modificacao"></i>.</li>
+</ul>
+</div>
+</header>
+
+<div class="ad-fold-container">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7838775403194689"
+                    crossorigin="anonymous"></script>
+         <ins class="adsbygoogle"
+                    style="display:block; width:100%; height:auto;"
+                    data-ad-client="ca-pub-7838775403194689"
+                    data-ad-slot="5891786274"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+         <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+         </script>
+                 </div>
+
+<div class="content-wrapper">
+     <p>みんな、こんにちは。アレクサンドル・ゲームズのアレクサンドルです。</p>
+    <p>今日は、<strong>ヒーロー・ウォーズ・アライアンス</strong>で最近起きたとても重要な変化について話していく。最近プレイしていて、バトルの感触が「何か違う」と感じたなら、それは気のせいではない。ゲームは本当に変わった。</p>
+
+</div>
+<div class="content-wrapper">
+    <p>そして、何が起きたのかまだよく分かっていなくても心配はいらない。今は多くのプレイヤーが混乱していて、とくに始めたばかりの人ほどその傾向が強い。この記事では、全部をとても分かりやすく、順番に、一緒に学んでいくような形で説明していく。</p>
+
+    <p>今回の大きなテーマは、新しい<strong>ダメージ・オーバー・タイム（DoT）</strong>システムだ。そして、この変更によってなぜ<strong>アイリス</strong>が大きく強化され、さらに<strong>オクタヴィア</strong>に対する弱点まで消えたのかを見ていく。</p>
+</div>
+
+<div class="content-wrapper">
+        <p>
+            下の動画では、<strong>新DoTでアイリスは壊れたのか？ オクタヴィアはもう機能しないのか？ ヒーロー・ウォーズ・アライアンス</strong>を詳しく解説している。
+            <strong>技術的な要点のまとめは動画のすぐ後にある。</strong>
+        </p>
+ </div>
+
+ <div class="video-container">
+    <div class="video-wrapper2 video-lazy" data-id="JqZhvYzBwVQ">
+     <img
+    src="/hero-wars-alliance/images/review/damage-over-time-1200px.webp"
+    srcset="
+        /hero-wars-alliance/images/review/damage-over-time-500px.webp 500w,
+        /hero-wars-alliance/images/review/damage-over-time-1200px.webp 1200w"
+    sizes="(max-width: 600px) 500px, 1200px"
+    width="800"
+    height="450"
+    style="width:100%; height:100%; object-fit:cover;"
+    loading="lazy"
+    fetchpriority="low"
+    decoding="async"
+    alt="ヒーロー・ウォーズ・アライアンスのDoTガイド"
+    title="ヒーロー・ウォーズ・アライアンスのDoTガイド">
+        <button class="video-play" aria-label="Play video">▶</button>
+    </div>
+
+    <p>
+        <a href="https://www.youtube.com/watch?v=JqZhvYzBwVQ" target="_blank" rel="noopener">
+            ▶ YouTubeでこの動画を見る
+        </a>
+    </p>
+
+    <figcaption class="video-caption">
+        <strong>動画: 新DoTでアイリスは壊れたのか？ オクタヴィアはもう機能しないのか？ ヒーロー・ウォーズ・アライアンス</strong>
+    </figcaption>
+
+    <i>🔊 多言語音声対応（メインはポルトガル語）＋字幕あり！</i>
+</div>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "新DoTでアイリスは壊れたのか？ オクタヴィアはもう機能しないのか？ ヒーロー・ウォーズ・アライアンス",
+    "description": "この動画では、ヒーロー・ウォーズ・アライアンスにおける新しいダメージ・オーバー・タイムの仕組みがアイリスとオクタヴィアに与えた影響を解説する。",
+    "thumbnailUrl": "https://alexandregames.com/hero-wars-alliance/images/review/damage-over-time-1200px.webp",
+    "uploadDate": "2026-04-29T22:34:27-03:00",
+    "embedUrl": "https://www.youtube.com/embed/JqZhvYzBwVQ",
+    "contentUrl": "https://www.youtube.com/watch?v=JqZhvYzBwVQ"
+}
+</script>
+
+<section>
+    <h2>目次</h2>
+    <ul>
+        <li><a href="#what-is-dot">ダメージ・オーバー・タイム（DoT）とは何か？</a></li>
+        <li><a href="#new-dot-system">新しいDoTシステムで何が変わったのか？</a></li>
+        <li><a href="#affected-heroes">新DoTの影響を受けるヒーローは誰か？</a></li>
+        <li><a href="#why-this-matters">なぜこの変更がそんなに重要なのか？</a></li>
+        <li><a href="#iris-stronger">アイリスが強くなった理由を理解する</a></li>
+        <li><a href="#iris-octavia">アイリスとオクタヴィアの間で何が起きたのか？</a></li>
+        <li><a href="#why-octavia-no-longer-works">なぜもう機能しないのか？</a></li>
+        <li><a href="#simple-example">初心者向けのシンプルな例</a></li>
+        <li><a href="#team-impact">この変更は自分のチームに何を意味するのか？</a></li>
+        <li><a href="#tempus-changes">テンパスの時計に入った小さな変更</a></li>
+        <li><a href="#how-to-counter-iris">DoT強化後にアイリスを対策する方法</a></li>
+        <li><a href="#final-thoughts">最後に</a></li>
+    </ul>
+</section>
+
+<article>
+<section>
+    <h2 id="what-is-dot">ダメージ・オーバー・タイム（DoT）とは何か？</h2>
+
+    <p>まずは基本から始めよう。</p>
+
+    <p><strong>ヒーロー・ウォーズ・アライアンス</strong>にはいろいろな種類のダメージがある。スキルを押した瞬間にすぐ発生する、即時ダメージもある。</p>
+
+    <p>でも、それとは別に、時間をかけて少しずつ発生するダメージもある。これが<strong>ダメージ・オーバー・タイム</strong>、つまり<strong>DoT</strong>だ。</p>
+
+    <p>ゲーム内でのDoTの例としては、次のようなものがある。</p>
+
+    <ul>
+        <li>毒</li>
+        <li>燃焼</li>
+        <li>トキシン効果</li>
+    </ul>
+
+    <p>1回の大きな一撃ではなく、こうした効果は小さなダメージを何度も繰り返して与える。たとえば0.5秒ごとにダメージが入るような形だ。</p>
+
+    <p>もしこういうゲームが初めてなら、こう考えると分かりやすい。</p>
+
+    <p><em>一度に1000のHPを失うのではなく、数秒の間にその1000ダメージが細かく分割されて入る。</em></p>
+
+    <p>このほうが仕組みを理解しやすく、戦闘中にも何が起きているかを見やすい。</p>
+
+    <hr>
+
+    <h2 id="new-dot-system">新しいDoTシステムで何が変わったのか？</h2>
+
+    <p>ここがこの記事で一番重要な部分だ。</p>
+
+    <p>アップデート前のDoT効果は安定していなかった。外れることもあったし、回避や反射のような他のメカニクスと相互作用することもあった。</p>
+
+    <p>でも今は、すべてが変わった。</p>
+
+    <p>新しいDoTシステムには、とても重要なルールが3つある。</p>
+
+    <ul>
+        <li><strong>必ず命中する</strong></li>
+        <li><strong>回避できない</strong></li>
+        <li><strong>反射できない</strong></li>
+    </ul>
+
+    <p>もっと簡単に言うとこうなる。</p>
+
+    <p>あるヒーローにDoT効果が付与されたら、</p>
+
+    <ul>
+        <li>何があってもダメージは発生する</li>
+        <li>相手はそれを避けられない</li>
+        <li>相手はそのダメージを跳ね返せない</li>
+    </ul>
+
+    <p>この変更で、ゲームはより予測しやすくなり、とくに新しいプレイヤーにとって理解しやすくなった。</p>
+
+    <hr>
+
+    <h2 id="affected-heroes">新DoTの影響を受けるヒーローは誰か？</h2>
+
+    <p>開発側は、新システムでDoTを与えるヒーローを正式に発表している。公式の完全なリストは次のとおりだ。</p>
+
+    <ul>
+        <li><strong>カイ</strong> — 第3スキルの純ダメージ</li>
+        <li><strong>マヤ</strong> — 第2、第3、第4スキルのダメージ</li>
+        <li><strong>チン・マオ</strong> — 第1スキルの燃焼ダメージ</li>
+        <li><strong>ヤスミン</strong> — 第3スキルの毒</li>
+        <li><strong>ルーファス</strong> — 第2スキルのダメージ</li>
+        <li><strong>アラクネ</strong> — 第4スキルのダメージ</li>
+        <li><strong>アイリス</strong> — 第4スキルの燃焼ダメージ</li>
+        <li><strong>テンパス</strong> — 第3スキルのダメージ</li>
+        <li><strong>ポラリス</strong> — 第1スキルのダメージ</li>
+        <li><strong>ハイディ</strong> — トキシンダメージ</li>
+        <li><strong>アルヴァノール</strong> — レリックで強化された第3スキルのダメージ</li>
+    </ul>
+
+    <p>さらに、ヒーロースキル以外でも、新しいDoTルールは次の要素に適用される。</p>
+
+    <ul>
+        <li>ヒーローの最大HPの一定割合を純ダメージとして与えるAdventure効果</li>
+        <li>アウトランドボス<strong>イリッサ・ザ・ウィーバー</strong>の純ダメージ</li>
+        <li><strong>ハイドラの炎の首</strong>による燃焼効果</li>
+    </ul>
+
+    <p>かなり長いリストだ。もしこの中のヒーローを使っているなら、このアップデートは自分のチームの戦い方に直接影響している。</p>
+
+    <hr>
+
+    <h2 id="why-this-matters">なぜこの変更がそんなに重要なのか？</h2>
+
+    <p>「それは分かったけど、なぜそんなに重要なんだ？」と思うかもしれない。</p>
+
+    <p>それが重要なのは、<strong>ヒーロー・ウォーズ・アライアンス</strong>では多くのヒーローが生き残るために回避や反射のメカニクスに頼っているからだ。</p>
+
+    <p>アップデート前は、</p>
+
+    <ul>
+        <li>ヒーローは回避でダメージを防げた</li>
+        <li>ヒーローはダメージを攻撃側へ反射できた</li>
+    </ul>
+
+    <p>でも今、DoTに対しては、</p>
+
+    <ul>
+        <li>回避は機能しない</li>
+        <li>反射も機能しない</li>
+    </ul>
+
+    <p>つまり、DoTははるかに強力になり、それに依存するヒーローたちもより強くなったということだ。</p>
+
+    <hr>
+
+    <h2 id="iris-stronger">アイリスが強くなった理由を理解する</h2>
+
+    <p>ここからは、この変更で特に大きな恩恵を受けたヒーローの1人、<strong>アイリス</strong>について見ていこう。</p>
+
+    <p><strong>アイリス</strong>は燃焼効果を含むタイプのダメージを使う。これはDoTに分類されるダメージだ。</p>
+
+    <p>アップデート前、彼女のダメージには明確な弱点があった。</p>
+
+    <p>相手が回避や反射を使えると、<strong>アイリス</strong>はあっという間に負けることがあった。</p>
+
+    <p>でもアップデート後、その弱点はほぼ消えた。</p>
+
+    <p>なぜか？</p>
+
+    <p>それは、彼女のダメージが新しいDoTルールに従うようになったからだ。</p>
+
+    <ul>
+        <li>必ず当たる</li>
+        <li>回避されない</li>
+        <li>反射されない</li>
+    </ul>
+
+    <p>このおかげで、彼女ははるかに安定し、はるかに危険な存在になった。</p>
+
+    <hr>
+
+    <h2 id="iris-octavia">アイリスとオクタヴィアの間で何が起きたのか？</h2>
+
+    <p>ここは、多くのプレイヤーが一番気にしているポイントだ。</p>
+
+    <p>アップデート前、<strong>アイリス</strong>はよく<strong>オクタヴィア</strong>に負けていた。</p>
+
+    <p>その理由を見ていこう。</p>
+
+    <p><strong>オクタヴィア</strong>には鏡を作るスキルがある。この鏡は次のように機能する。</p>
+
+    <ul>
+        <li>味方が攻撃を回避したとき</li>
+        <li>そのダメージが攻撃側に反射される</li>
+    </ul>
+
+    <p>つまり、簡単に言えば、</p>
+
+    <p><em>自分が攻撃して、相手に回避されると、自分のダメージが自分に返ってくることがある。</em></p>
+
+    <p>これは<strong>アイリス</strong>のようなヒーローに対してとても強かった。</p>
+
+    <hr>
+
+    <h2 id="why-octavia-no-longer-works">なぜもう機能しないのか？</h2>
+
+    <p>ここで、今までの話を全部つなげてみよう。</p>
+
+    <p><strong>オクタヴィア</strong>のスキルが成立するには、1つの重要な条件が必要だ。</p>
+
+    <p><strong>その攻撃が回避されなければならない。</strong></p>
+
+    <p>でも新しいDoTシステムでは、</p>
+
+    <ul>
+        <li>DoTは回避できない</li>
+    </ul>
+
+    <p>では今は何が起きるのか？</p>
+
+    <ul>
+        <li>回避がない → 反射も起きない</li>
+        <li>反射がない → <strong>アイリス</strong>にダメージが返らない</li>
+    </ul>
+
+    <p>この変化によって、両者の相互作用は完全に変わった。</p>
+
+    <p>今の<strong>アイリス</strong>は、<strong>オクタヴィア</strong>の鏡を発動させることなく、安全にダメージを入れられる。</p>
+
+    <p>だからこそ、多くのプレイヤーが「<strong>アイリス</strong>が急に強すぎる」と感じているわけだ。</p>
+
+    <hr>
+
+    <h2 id="simple-example">初心者向けのシンプルな例</h2>
+
+    <p>ゲームに慣れていない人向けに、もっと分かりやすい例で説明しよう。</p>
+
+    <p>アップデート前は、こんな流れだった。</p>
+
+    <ul>
+        <li><strong>アイリス</strong>が攻撃する</li>
+        <li>相手が回避する</li>
+        <li>鏡がダメージを反射する</li>
+        <li><strong>アイリス</strong>がダメージを受けて負ける</li>
+    </ul>
+
+    <p>アップデート後は、こうなる。</p>
+
+    <ul>
+        <li><strong>アイリス</strong>がDoTを付与する</li>
+        <li>相手は回避できない</li>
+        <li>鏡は発動しない</li>
+        <li><strong>アイリス</strong>は安全にダメージを与え続ける</li>
+    </ul>
+
+    <p>これが今回の変化の核心だ。</p>
+
+    <hr>
+
+    <h2 id="team-impact">この変更は自分のチームに何を意味するのか？</h2>
+
+    <p>このアップデートの影響を受けるのは、<strong>アイリス</strong>だけではない。</p>
+
+    <p>もし自分のチームが次の要素に依存しているなら、</p>
+
+    <ul>
+        <li>回避</li>
+        <li>魔法反射</li>
+    </ul>
+
+    <p>今までより弱く感じる場面が出てくるかもしれない。</p>
+
+    <p>その一方で、DoTを使うヒーローは今まで以上に安定し、信頼しやすい存在になった。</p>
+
+    <p>これは、自分のチームが悪いという意味ではない。ゲームのルールが変わったので、それに合わせて調整が必要になる、というだけだ。</p>
+
+    <hr>
+    <h2 id="tempus-changes">テンパスの時計に入った小さな変更</h2>
+
+    <p>DoTアップデートに加えて、開発側は<strong>テンパス</strong>とその時計の挙動にも、小さいが重要な2つの調整を加えている。</p>
+
+    <p><strong>1つ目の変更: 戦闘中に使用不可のヒーロー。</strong></p>
+
+    <p>以前は、<strong>テンパス</strong>の時計による最大HP増加やスロー、加速の効果が、まだ戦闘に出ていないなどの理由で一時的に使用不可のヒーローにも影響することがあった。</p>
+
+    <p>今は、そのヒーローが使用不可の間は、これらの効果は<strong>適用されない</strong>。ただし、そのヒーローが再び使用可能になった時点で、時計の範囲内に残っていれば、自動的に効果が適用される。</p>
+
+    <p><strong>2つ目の変更: 効果の解除。</strong></p>
+
+    <p>以前は、時計から受けていたバフがディスペルなどで解除されると、その戦闘中は永久に失われていた。</p>
+
+    <p>今は、いったん効果が解除されても、そのヒーローが時計の範囲内に居続ける限り、再び効果が付与される。</p>
+
+    <p>要するに、時計の範囲内に居続けるヒーローにとって、<strong>テンパス</strong>の時計はより安定したものになった。</p>
+
+    <hr>
+
+    <h2 id="how-to-counter-iris">DoT強化後にアイリスを対策する方法</h2>
+
+    <p>アップデート後、<strong>アイリス</strong>が明らかに強くなったのは事実だ。だが、無敵というわけではない。今でも対抗できる、あるいは止められるヒーローは存在する。</p>
+
+    <h3>フォボス（リワーク後）</h3>
+
+    <p>新しい<strong>フォボス</strong>はとても強い。最も火力の高い敵を狙い、麻痺させ、さらにエネルギーを吸い取る。つまり、<strong>アイリス</strong>が燃焼スキルを使う前に止められる可能性がある。</p>
+
+    <p>ただし注意点もある。<strong>アイリス</strong>の周りに強力なサポートチームがいる場合、<strong>フォボス</strong>1人では足りないことがある。効果の大きさは、両チーム全体の構成にかなり左右される。</p>
+
+    <h3>アミラ</h3>
+
+    <p><strong>アミラ</strong>は味方を魔法ダメージから守れるため、<strong>アイリス</strong>の燃焼効果の影響を軽減しやすい。最大レベルなら十分に強い耐久支援ができるが、それでもフル育成の<strong>アイリス</strong>相手には押し切られる場合がある。</p>
+
+    <p>ここで重要なのは、<strong>アミラ</strong>がまだレリックを受け取っていないことだ。今後レリックが実装されれば、魔法防御性能はさらに大きく伸びる可能性がある。そうなれば、長期的には<strong>アイリス</strong>に対する非常に有力な回答になるかもしれない。</p>
+
+    <h3>コーヴァス（祭壇のメカニクス）</h3>
+
+    <p><strong>コーヴァス</strong>の祭壇は、現時点で<strong>アイリス</strong>に対する最も面白い対策の1つだ。仕組みはこうだ。</p>
+
+    <ul>
+        <li>敵が味方にダメージを与えるたびに、祭壇がその敵へダメージを返す</li>
+        <li>つまり、燃焼を入れ続ける<strong>アイリス</strong>自身を直接罰する形になる</li>
+        <li>祭壇のダメージは<strong>コーヴァス</strong>の最大HPでスケールする</li>
+    </ul>
+
+    <p>しっかり育った<strong>コーヴァス</strong>なら、チームを攻撃し続ける<strong>アイリス</strong>をかなり素早く倒せる。</p>
+
+    <p>しかも期待できる点がもう1つある。<strong>コーヴァス</strong>もまだレリックを受け取っていない。将来のレリックで最大HPが増えれば、祭壇のダメージもさらに大きく伸びるはずだ。そうなれば、<strong>コーヴァス</strong>は<strong>アイリス</strong>だけでなく、あらゆるDoTヒーローへの最上位カウンターになる可能性が高い。</p>
+
+    <h3>リアンとソムナ</h3>
+
+    <p><strong>リアン</strong>と<strong>ソムナ</strong>は、どちらも敵を眠らせることができる。睡眠状態になると、そのヒーローは一定時間完全に無力化され、行動もスキル使用もダメージ発生も止まる。</p>
+
+    <p><strong>アイリス</strong>が燃焼を入れる前に眠らされれば、その時間帯は無害になる。これは、味方チームがサポート役を先に落としたり、より強い反撃を準備したりする時間を作れるということだ。</p>
+
+    <p>睡眠によるコントロールが信頼できるのは、回避や反射に依存しないからだ。DoT相手には、その2つのメカニクスはもう機能しない。</p>
+
+    <hr>
+
+    <h2 id="final-thoughts">最後に</h2>
+
+    <p>特にこうしたゲームが初めてなら、今回の内容は一度にたくさんの情報に見えるかもしれない。</p>
+
+    <p>でも、理解してしまえば、新しいシステムのほうが実はずっとシンプルだ。</p>
+
+    <p>覚えておくべき大事なポイントは次の3つだけ。</p>
+
+    <ul>
+        <li>DoTは必ず命中する</li>
+        <li>DoTは回避できない</li>
+        <li>DoTは反射できない</li>
+    </ul>
+
+    <p>そして、その結果として、</p>
+
+    <ul>
+        <li><strong>アイリス</strong>は強くなった</li>
+        <li><strong>オクタヴィア</strong>は以前と同じ形では対策にならなくなった</li>
+    </ul>
+
+    <p>最近バトルの感触が変わったと感じていたなら、その理由はこれだ。</p>
+
+    <p>焦らず、自分のヒーローを試しながら、少しずつ理解していこう。</p>
+
+    <p>ゲームを理解しようとするだけでも、毎日確実に上達している。</p>
+
+    <p>それでは、次のガイドで会おう。</p>
+
+</article>
+</section>
+
+<div id="author-alexandre-games"></div>
+
+<h2>おすすめの注目ガイドもチェックしよう</h2>
+<main>
+    <div>
+    <figure class="img-embed">
+                <a href="../../hero-wars-alliance/guide/realm-pve-best-teams-ja.html">
+                <img src="../../hero-wars-alliance/images/guides/realm-pve-best-teams/boss-team-500px.webp" alt="ヒーロー・ウォーズ・アライアンスのレルムモード攻略ガイド" title="ヒーロー・ウォーズ・アライアンスのレルムモード攻略ガイド" loading="lazy">
+                <strong><br>ボスラリーとモンスターLV25を倒す最強チーム</strong></a>
+    </figure>
+    <figure class="img-embed">
+        <a href="../../hero-wars-alliance/tier-list-hwa/realm-tier-list-ja.html">
+        <img src="../../hero-wars-alliance/images/tier-list-hwa-img/realm/realm-tier-list-500px.webp" alt="ヒーロー・ウォーズ・アライアンスのレルムTier List" title="ヒーロー・ウォーズ・アライアンスのレルムTier List" loading="lazy">
+        <strong><br>レルムTier List - ヒーロー・ウォーズ・アライアンス</strong></a>
+    </figure>
+    <figure class="img-embed">
+            <a href="../../hero-wars-alliance/guide/meta-teams-and-combos-ja.html">
+            <img src="../../hero-wars-alliance/images/guides/meta-teams-and-combos/meta-teams-and-combos-500px.webp" alt="ヒーロー・ウォーズ・アライアンスのメタチームとコンボ" title="ヒーロー・ウォーズ・アライアンスのメタチームとコンボ" loading="lazy">
+            <strong><br>メタチームとコンボ - ヒーロー・ウォーズ・アライアンス</strong></a>
+    </figure>
+    </div>
+</main>
+
+<section>
+        <h2>感想を聞かせてほしい</h2>
+        <p id="commentParagraph">今回のダメージ・オーバー・タイムガイドは役に立っただろうか。分かりにくかった部分や、修正してほしい点があれば、アレクサンドル・ゲームズのブログコメント欄でぜひ教えてほしい。感想、質問、提案はいつでも歓迎している。<br>始めるには下のボタンを押してほしい。</p>
+        <button id="loadScript">コメントを読み込む</button>
+        <div id="loadingMessage" style="display: none;">コメントを読み込み中... 少し待ってほしい</div>
+        <div id="graphcomment"></div>
+</section>
+
+<!-- Footer estrutural -->
+<footer>
+        <div class="footer">
+                <div class="row" id="social-links"></div>
+                <div class="row">
+                        <ul id="navigation-links"></ul>
+                </div>
+                <div class="row">
+                        <ul>
+                                <li id="message"></li>
+                        </ul>
+                </div>
+        </div>
+    </footer>
+    <script src="../../alex-java/nav13-global-ja.js" defer></script>
+    <script src="../../alex-java/share-global-ja.js" defer></script>
+    <script src="../../alex-java/author-ja.js" defer></script>
+    <script src="../../alex-java/youtube.js" defer></script>
+    <script src="../../alex-java/cookies-07z-ja.js" defer></script>
+    <script src="../../alex-java/footer-07z-ja.js" defer></script>
+    <script src="../../alex-java/graphcomments-07z.js" defer></script>
+    <script src="../../alex-java/translate07-ja.js" defer></script>
+
+<script>
+(function() {
+        const loadAd = (ad) => {
+                if (window.adsbygoogle && !ad.dataset.loaded) {
+                        ad.dataset.loaded = "true";
+                        window.adsbygoogle.push({});
+                }
+        };
+
+        const adObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                                loadAd(entry.target);
+                                observer.unobserve(entry.target);
+                        }
+                });
+        }, { rootMargin: '500px' });
+
+        document.querySelectorAll('.ads-lazy').forEach(ad => {
+                adObserver.observe(ad);
+        });
+})();
+</script>
+
+</body>
+</html>
