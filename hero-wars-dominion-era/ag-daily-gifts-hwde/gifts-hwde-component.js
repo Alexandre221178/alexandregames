@@ -405,14 +405,25 @@
     return FB_GAME_BASE + encodeURIComponent(payload);
   }
 
+  function normalizeLink(url) {
+    if (typeof url !== 'string') return '';
+    return url.trim();
+  }
+
+  function hasOwn(obj, key) {
+    return Object.prototype.hasOwnProperty.call(obj, key);
+  }
+
   function getLinkTargets(entry) {
-    var directWebLink = entry.giftLinkWeb || entry.giftLink;
-    if (directWebLink) {
-      return { webUrl: directWebLink, fbUrl: '' };
-    }
+    var hasCustomWeb = hasOwn(entry, 'giftLinkWeb') || hasOwn(entry, 'giftLink');
+    var hasCustomFb = hasOwn(entry, 'giftLinkFb') || hasOwn(entry, 'giftLinkFacebook');
+
+    var customWeb = normalizeLink(entry.giftLinkWeb || entry.giftLink);
+    var customFb = normalizeLink(entry.giftLinkFb || entry.giftLinkFacebook);
+
     return {
-      webUrl: entry.giftId ? buildWebUrl(entry.giftId) : '',
-      fbUrl: buildFbUrl(entry.giftId)
+      webUrl: hasCustomWeb ? customWeb : (entry.giftId ? buildWebUrl(entry.giftId) : ''),
+      fbUrl: hasCustomFb ? customFb : buildFbUrl(entry.giftId)
     };
   }
 

@@ -1,6 +1,6 @@
 /* HWDE Daily Gifts Data
    link type  : { date:'YYYY-MM-DD', type:'link',  giftId:'...', note:'until|YYYY-MM-DDThh:mm:ssZ' | 'level' | '24h' | 'custom', rewards:[...] }
-   link type (direct URL): { date:'YYYY-MM-DD', type:'link', giftLinkWeb:'https://herowars.me/...', note:'until|YYYY-MM-DDThh:mm:ssZ' | 'custom', rewards:[...] }
+   link type (direct URL): { date:'YYYY-MM-DD', type:'link', giftLinkWeb:'https://herowars.me/...', giftLinkFb:'https://herowars.me/...', note:'until|YYYY-MM-DDThh:mm:ssZ' | 'custom', rewards:[...] }
    code type  : { date:'YYYY-MM-DD', type:'code',  code:'CODE',  note:'until|YYYY-MM-DDThh:mm:ssZ' | 'custom', rewards:[...] }
    Platform-split reward (Web/FB different items): { web:'item-key xN', fb:'fb-item-key xN' }
    For large qty text use: 'gold 1M' or 'friendship-chip 10k' (no x prefix)
@@ -13,7 +13,7 @@ window.HWDE_GIFTS = [
    // ── April 30, 2026 ──────────────────────────────
     { date:'2026-04-30', type:'link', giftId:'ebae9d7190b6e4064e74fd636924efd4', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
-   { date:'2026-04-30', type:'link', giftLinkWeb:'https://herowars.me/49iwkHL', note:'until|2026-05-03T02:00:00Z',
+   { date:'2026-04-30', type:'link', giftLinkWeb:'https://herowars.me/49iwkHL', giftLinkFb:'https://herowars.me/4sXSMgl', note:'until|2026-05-03T02:00:00Z',
   rewards:['energy x500'] },
 
    // ── April 29, 2026 ──────────────────────────────
