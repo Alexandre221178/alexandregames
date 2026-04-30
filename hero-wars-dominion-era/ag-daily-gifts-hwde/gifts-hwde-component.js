@@ -400,8 +400,20 @@
   }
 
   function buildFbUrl(giftId) {
+    if (!giftId) return '';
     var payload = '{"nx_source":"group_posting","gift_id":"' + giftId.replace(/"/g, '\\"') + '"}';
     return FB_GAME_BASE + encodeURIComponent(payload);
+  }
+
+  function getLinkTargets(entry) {
+    var directWebLink = entry.giftLinkWeb || entry.giftLink;
+    if (directWebLink) {
+      return { webUrl: directWebLink, fbUrl: '' };
+    }
+    return {
+      webUrl: entry.giftId ? buildWebUrl(entry.giftId) : '',
+      fbUrl: buildFbUrl(entry.giftId)
+    };
   }
 
   // ─── NOTE RENDERER ────────────────────────────────────────
@@ -423,24 +435,30 @@
 
   function renderLinkButtons(entry, txt, colCount) {
     var cs = colCount + 1; // date column + reward columns
-    var webUrl = buildWebUrl(entry.giftId);
-    var fbUrl  = buildFbUrl(entry.giftId);
-    return (
-      '<tr><td colspan="' + cs + '" style="text-align:center;padding:7px;">' +
+    var links = getLinkTargets(entry);
+    var rows = '';
+
+    if (links.webUrl) {
+      rows += '<tr><td colspan="' + cs + '" style="text-align:center;padding:7px;">' +
         '<div style="border:2px solid #d4af37;border-radius:10px;background-color:#fff8dc;display:inline-block;min-width:250px;">' +
-          '<a href="' + escapeHtml(webUrl) + '" target="_blank" rel="noopener noreferrer"' +
+          '<a href="' + escapeHtml(links.webUrl) + '" target="_blank" rel="noopener noreferrer"' +
           ' style="display:inline-block;background-color:#ffd700;color:#000;padding:3px 7px;border-radius:8px;text-decoration:none;font-weight:bold;">' +
           escapeHtml(txt.webBtn) + '</a>' +
         '</div>' +
-      '</td></tr>' +
-      '<tr><td colspan="' + cs + '" style="text-align:center;padding:7px;">' +
+      '</td></tr>';
+    }
+
+    if (links.fbUrl) {
+      rows += '<tr><td colspan="' + cs + '" style="text-align:center;padding:7px;">' +
         '<div style="border:2px solid #1877f2;border-radius:10px;background-color:#e7f0ff;display:inline-block;min-width:250px;">' +
-          '<a href="' + escapeHtml(fbUrl) + '" target="_blank" rel="noopener noreferrer"' +
+          '<a href="' + escapeHtml(links.fbUrl) + '" target="_blank" rel="noopener noreferrer"' +
           ' style="display:inline-block;background-color:#1877f2;color:#fff;padding:3px 3px;border-radius:8px;text-decoration:none;font-weight:bold;">' +
           escapeHtml(txt.fbBtn) + '</a>' +
         '</div>' +
-      '</td></tr>'
-    );
+      '</td></tr>';
+    }
+
+    return rows;
   }
 
   function renderCodeBox(entry, txt, colCount) {

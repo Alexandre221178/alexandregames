@@ -1,5 +1,6 @@
 /* HWDE Daily Gifts Data
    link type  : { date:'YYYY-MM-DD', type:'link',  giftId:'...', note:'until|YYYY-MM-DDThh:mm:ssZ' | 'level' | '24h' | 'custom', rewards:[...] }
+   link type (direct URL): { date:'YYYY-MM-DD', type:'link', giftLinkWeb:'https://herowars.me/...', note:'until|YYYY-MM-DDThh:mm:ssZ' | 'custom', rewards:[...] }
    code type  : { date:'YYYY-MM-DD', type:'code',  code:'CODE',  note:'until|YYYY-MM-DDThh:mm:ssZ' | 'custom', rewards:[...] }
    Platform-split reward (Web/FB different items): { web:'item-key xN', fb:'fb-item-key xN' }
    For large qty text use: 'gold 1M' or 'friendship-chip 10k' (no x prefix)
@@ -9,6 +10,8 @@
 
 // ── April #, 2026 ──────────────────────────────
 window.HWDE_GIFTS = [
+   { date:'2026-04-30', type:'link', giftLinkWeb:'https://herowars.me/49iwkHL', note:'until|2026-05-03T02:00:00Z',
+  rewards:['energy x500'] },
 
    // ── April 29, 2026 ──────────────────────────────
     { date:'2026-04-29', type:'link', giftId:'fafe27f0ffaac9002ad9925c45e5e836', note:'level',
