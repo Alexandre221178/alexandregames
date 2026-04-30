@@ -10,6 +10,9 @@
 
 // ── April #, 2026 ──────────────────────────────
 window.HWDE_GIFTS = [
+   // ── April 30, 2026 ──────────────────────────────
+    { date:'2026-04-30', type:'link', giftId:'ebae9d7190b6e4064e74fd636924efd4', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
    { date:'2026-04-30', type:'link', giftLinkWeb:'https://herowars.me/49iwkHL', note:'until|2026-05-03T02:00:00Z',
   rewards:['energy x500'] },
 
