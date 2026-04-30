@@ -6,6 +6,8 @@
 // ── April #, 2026 ──────────────────────────────
 window.HWA_GIFTS = [
 // ── April 29, 2026 ──────────────────────────────
+    { date:'2026-04-29', type:'hub', code:'SPRING26', note:'until|2026-05-06T09:00:00Z',
+     rewards:['energy x750', 'emeralds x500', 'small-skin-stone-chest x10'] },
 { date:'2026-04-29', type:'daily', mission:'3-12', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
