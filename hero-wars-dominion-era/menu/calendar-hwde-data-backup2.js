@@ -2,9 +2,15 @@
 // ===================== texto em branco com cor branca para colocar informacoes =====================
 /*     
 {
-  titles: { en: "texto branco", pt: "", de: "", es: "", fr: "", ja: "" },
+  titles: { en: "texto em branco", pt: "", de: "", es: "", fr: "", ja: "" },
   labelOnly: true
 },
+
+{
+  titles: { en: "", de: "", es: "", fr: "", pt: "", ja: "" },
+  links: { en: "../../", de: "", es: "", fr: "", pt: "../../", ja: "" },       
+  noStrip: true
+},  
 */      
 // ===================== missoes do titans brawl guardians of balance  =====================
 
