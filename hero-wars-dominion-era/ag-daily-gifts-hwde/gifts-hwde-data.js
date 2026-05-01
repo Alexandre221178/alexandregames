@@ -1,15 +1,15 @@
-/* HWDE Daily Gifts Data
-   link type  : { date:'YYYY-MM-DD', type:'link',  giftId:'...', note:'until|YYYY-MM-DDThh:mm:ssZ' | 'level' | '24h' | 'custom', rewards:[...] }
-   link type (direct URL): { date:'YYYY-MM-DD', type:'link', giftLinkWeb:'https://herowars.me/...', giftLinkFb:'https://herowars.me/...', note:'until|YYYY-MM-DDThh:mm:ssZ' | 'custom', rewards:[...] }
-   code type  : { date:'YYYY-MM-DD', type:'code',  code:'CODE',  note:'until|YYYY-MM-DDThh:mm:ssZ' | 'custom', rewards:[...] }
-   Platform-split reward (Web/FB different items): { web:'item-key xN', fb:'fb-item-key xN' }
-   For large qty text use: 'gold 1M' or 'friendship-chip 10k' (no x prefix)
-   For unknown items use: 'alexandregames NAME x1'
-   To mark expired code add: expired:true
-   npm run update-gifts-hwde  */
+/* HWDE Daily Gifts Data - npm run update-gifts-hwde
+   { date:'2026-0#-##', type:'link', giftId:'######', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
 
-// ── April #, 2026 ──────────────────────────────
+{ date:'2026-05-##', type:'link', giftId:'#####', note:'until|2026-0#-##T02:00:00Z',
+  rewards:['energy x500'] },
+*/
+// ── May #, 2026 ──────────────────────────────
 window.HWDE_GIFTS = [
+// ── May 1, 2026 ──────────────────────────────
+{ date:'2026-05-01', type:'link', giftId:'3b4znNd28S', note:'until|2026-05-06T02:00:00Z',
+  rewards:['energy x500'] },
    // ── April 30, 2026 ──────────────────────────────
     { date:'2026-04-30', type:'link', giftId:'ebae9d7190b6e4064e74fd636924efd4', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
@@ -63,7 +63,26 @@ window.HWDE_GIFTS = [
 
 ];
 
-/* ╔══════════════════════════════════════════════════════════════════╗
+/* 
+###################################################################################
+link type  : { date:'YYYY-MM-DD', type:'link',  giftId:'...', note:'until|YYYY-MM-DDThh:mm:ssZ' | 'level' | '24h' | 'custom', rewards:[...] }
+   link type (direct URL): { date:'YYYY-MM-DD', type:'link', giftLinkWeb:'https://herowars.me/...', giftLinkFb:'https://herowars.me/...', note:'until|YYYY-MM-DDThh:mm:ssZ' | 'custom', rewards:[...] }
+   code type  : { date:'YYYY-MM-DD', type:'code',  code:'CODE',  note:'until|YYYY-MM-DDThh:mm:ssZ' | 'custom', rewards:[...] }
+   Platform-split reward (Web/FB different items): { web:'item-key xN', fb:'fb-item-key xN' }
+   For large qty text use: 'gold 1M' or 'friendship-chip 10k' (no x prefix)
+   For unknown items use: 'alexandregames NAME x1'
+   To mark expired code add: expired:true
+###################################################################################
+// ── Link Exclusivo Web/FB ──────────────────────────────
+{ date:'2026-0#-##30', type:'link', giftLinkWeb:'https://herowars.me/49iwkHL', giftLinkFb:'https://herowars.me/4sXSMgl', note:'until|2026-05-03T02:00:00Z',
+  rewards:['energy x500'] },
+
+  // ── Gifts New hero or titan ──────────────────────────────
+ { date:'2026-0#-##', type:'link', giftId:'#####', note:'until|2026-0#-0#T02:00:00Z',
+  rewards:['energy-crystal x16', 'valor-coin x8000', 'sapphire-medallion x1'] },
+
+
+╔══════════════════════════════════════════════════════════════════╗
    ║  HWDE GIFTS — Add newest entries at the TOP                     ║
    ╠══════════════════════════════════════════════════════════════════╣
    ║  LINK type (most common)                                        ║
