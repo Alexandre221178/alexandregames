@@ -155,6 +155,7 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/legacy-of-great-ones-en.html", pt: "../../hero-wars-dominion-era/events/legacy-of-great-ones-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+      
       {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
@@ -166,27 +167,38 @@ window.CALENDAR_DATA = [
   {
     weekday: "Monday",
     date: "May, 4",
-    image: "../../hero-wars-dominion-era/images/events/hero-tournament-of-power/hero-tournament-of-power-150px.webp",
-    alt: "Tournament of Hero Power",
-    titles: { en: "Tournament of Hero Power", pt: "Torneio de Poder do Herói", de: "Helden-Kraftturnier", es: "Torneo de Poder del Héroe", fr: "Tournoi de Puissance des Héros", ja: "ヒーローパワートーナメント" },
-    links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.html", pt: "../../hero-wars-dominion-era/events/hero-tournament-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
+   image: "../../hero-wars-dominion-era/images/events/foundations-of-power/foundation-of-power-150px.webp",
+    alt: "Foundations of Power",
+    titles: { en: "Foundations of Power", pt: "Fundamentos do Poder", de: "Grundlagen der Macht", es: "Fundamentos del Poder", fr: "Fondements de la Puissance", ja: "パワーの基盤" },
+    links: { en: "../../hero-wars-dominion-era/events/foundations-of-power-en.html", pt: "../../hero-wars-dominion-era/events/foundations-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
-      {
-        titles: { en: "Seer's Game", pt: "Jogo do Vidente", de: "Spiel des Sehers", es: "Juego del Vidente", fr: "Jeu du Voyant", ja: "予言者のゲーム" },
-        links: { en: "../../hero-wars-dominion-era/events/seers-game-hwde-en.html", pt: "../../hero-wars-dominion-era/events/seers-game-hwde-pt.html", de: "", es: "", fr: "", ja: "" },
-        noStrip: true
-      },
+      
       {
         titles: { en: "Legacy of the Great Ones", pt: "Legado dos Grandes", de: "Vermächtnis der Großen", es: "Legado de los Grandes", fr: "Héritage des Grands", ja: "偉大なる者の遺産" },
         links: { en: "../../hero-wars-dominion-era/events/legacy-of-great-ones-en.html", pt: "../../hero-wars-dominion-era/events/legacy-of-great-ones-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
       {
-        titles: { en: "Foundations of Power", pt: "Fundamentos do Poder", de: "Grundlagen der Macht", es: "Fundamentos del Poder", fr: "Fondements de la Puissance", ja: "パワーの基盤" },
-        links: { en: "../../hero-wars-dominion-era/events/foundations-of-power-en.html", pt: "../../hero-wars-dominion-era/events/foundations-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
+        titles: { en: "Seer's Game", pt: "Jogo do Vidente", de: "Spiel des Sehers", es: "Juego del Vidente", fr: "Jeu du Voyant", ja: "予言者のゲーム" },
+        links: { en: "../../hero-wars-dominion-era/events/seers-game-hwde-en.html", pt: "../../hero-wars-dominion-era/events/seers-game-hwde-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
-      }
+      },
+       {
+        titles: { en: "Tournament of Hero Power", pt: "Torneio de Poder do Herói", de: "Helden-Kraftturnier", es: "Torneo de Poder del Héroe", fr: "Tournoi de Puissance des Héros", ja: "ヒーローパワートーナメント" },
+        links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.html", pt: "../../hero-wars-dominion-era/events/hero-tournament-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
+
+       {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
+       {
+        titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
+        links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
+      },
+      
     ]
   },
 
@@ -194,26 +206,41 @@ window.CALENDAR_DATA = [
   {
     weekday: "Tuesday",
     date: "May, 5",
-    image: "../../hero-wars-dominion-era/images/events/seers-game/seers-game-150px.webp",
-    alt: "Seer's Game",
-    titles: { en: "Seer's Game", pt: "Jogo do Vidente", de: "Spiel des Sehers", es: "Juego del Vidente", fr: "Jeu du Voyant", ja: "予言者のゲーム" },
-    links: { en: "../../hero-wars-dominion-era/events/seers-game-hwde-en.html", pt: "../../hero-wars-dominion-era/events/seers-game-hwde-pt.html", de: "", es: "", fr: "", ja: "" },
+   image: "../../hero-wars-dominion-era/images/events/foundations-of-power/foundation-of-power-150px.webp",
+    alt: "Foundations of Power",
+    titles: { en: "Foundations of Power", pt: "Fundamentos do Poder", de: "Grundlagen der Macht", es: "Fundamentos del Poder", fr: "Fondements de la Puissance", ja: "パワーの基盤" },
+    links: { en: "../../hero-wars-dominion-era/events/foundations-of-power-en.html", pt: "../../hero-wars-dominion-era/events/foundations-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
       {
-        titles: { en: "Legacy of the Great Ones", pt: "Legado dos Grandes", de: "Vermächtnis der Großen", es: "Legado de los Grandes", fr: "Héritage des Grands", ja: "偉大なる者の遺産" },
-        links: { en: "../../hero-wars-dominion-era/events/legacy-of-great-ones-en.html", pt: "../../hero-wars-dominion-era/events/legacy-of-great-ones-pt.html", de: "", es: "", fr: "", ja: "" },
+        titles: { en: "Seer's Game", pt: "Jogo do Vidente", de: "Spiel des Sehers", es: "Juego del Vidente", fr: "Jeu du Voyant", ja: "予言者のゲーム" },
+        links: { en: "../../hero-wars-dominion-era/events/seers-game-hwde-en.html", pt: "../../hero-wars-dominion-era/events/seers-game-hwde-pt.html", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
+       {
+        titles: { en: "Tournament of Hero Power", pt: "Torneio de Poder do Herói", de: "Helden-Kraftturnier", es: "Torneo de Poder del Héroe", fr: "Tournoi de Puissance des Héros", ja: "ヒーローパワートーナメント" },
+        links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.html", pt: "../../hero-wars-dominion-era/events/hero-tournament-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
       {
-        titles: { en: "Foundations of Power", pt: "Fundamentos do Poder", de: "Grundlagen der Macht", es: "Fundamentos del Poder", fr: "Fondements de la Puissance", ja: "パワーの基盤" },
-        links: { en: "../../hero-wars-dominion-era/events/foundations-of-power-en.html", pt: "../../hero-wars-dominion-era/events/foundations-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
+        titles: { en: "Cosmic Battle", pt: "Batalha Cósmica", de: "Kosmischer Kampf", es: "Batalla Cósmica", fr: "Bataille Cosmique", ja: "宇宙の戦い" },
+        links: { en: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", pt: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", de: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", es: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", fr: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", ja: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle" },
         noStrip: true
       },
       {
         titles: { en: "💎Emeralds Sale x5", pt: "💎Promoção de Esmeraldas x5", de: "💎Smaragd-Angebot x5", es: "💎Oferta de Esmeraldas x5", fr: "💎Vente d'Émeraudes x5", ja: "💎エメラルドセール x5" },
         links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" }
-      }
+      },
+
+       {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
+       {
+        titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
+        links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
+      },
+     
     ]
   },
 
@@ -221,22 +248,13 @@ window.CALENDAR_DATA = [
   {
     weekday: "Wednesday",
     date: "May, 6",
-    image: "../../hero-wars-dominion-era/images/events/seers-game/seers-game-150px.webp",
-    alt: "Seer's Game",
-    titles: { en: "Seer's Game", pt: "Jogo do Vidente", de: "Spiel des Sehers", es: "Juego del Vidente", fr: "Jeu du Voyant", ja: "予言者のゲーム" },
-    links: { en: "../../hero-wars-dominion-era/events/seers-game-hwde-en.html", pt: "../../hero-wars-dominion-era/events/seers-game-hwde-pt.html", de: "", es: "", fr: "", ja: "" },
+    image: "../../hero-wars-dominion-era/images/events/foundations-of-power/foundation-of-power-150px.webp",
+    alt: "Foundations of Power",
+    titles: { en: "Foundations of Power", pt: "Fundamentos do Poder", de: "Grundlagen der Macht", es: "Fundamentos del Poder", fr: "Fondements de la Puissance", ja: "パワーの基盤" },
+    links: { en: "../../hero-wars-dominion-era/events/foundations-of-power-en.html", pt: "../../hero-wars-dominion-era/events/foundations-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
-      {
-        titles: { en: "Legacy of the Great Ones", pt: "Legado dos Grandes", de: "Vermächtnis der Großen", es: "Legado de los Grandes", fr: "Héritage des Grands", ja: "偉大なる者の遺産" },
-        links: { en: "../../hero-wars-dominion-era/events/legacy-of-great-ones-en.html", pt: "../../hero-wars-dominion-era/events/legacy-of-great-ones-pt.html", de: "", es: "", fr: "", ja: "" },
-        noStrip: true
-      },
-      {
-        titles: { en: "Foundations of Power", pt: "Fundamentos do Poder", de: "Grundlagen der Macht", es: "Fundamentos del Poder", fr: "Fondements de la Puissance", ja: "パワーの基盤" },
-        links: { en: "../../hero-wars-dominion-era/events/foundations-of-power-en.html", pt: "../../hero-wars-dominion-era/events/foundations-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
-        noStrip: true
-      },
+      
       {
         titles: { en: "Cosmic Battle", pt: "Batalha Cósmica", de: "Kosmischer Kampf", es: "Batalla Cósmica", fr: "Bataille Cosmique", ja: "宇宙の戦い" },
         links: { en: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", pt: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", de: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", es: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", fr: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", ja: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle" },
@@ -249,22 +267,17 @@ window.CALENDAR_DATA = [
   {
     weekday: "Thursday",
     date: "May, 7",
-    image: "../../hero-wars-dominion-era/images/events/seers-game/seers-game-150px.webp",
-    alt: "Seer's Game",
-    titles: { en: "Seer's Game", pt: "Jogo do Vidente", de: "Spiel des Sehers", es: "Juego del Vidente", fr: "Jeu du Voyant", ja: "予言者のゲーム" },
-    links: { en: "../../hero-wars-dominion-era/events/seers-game-hwde-en.html", pt: "../../hero-wars-dominion-era/events/seers-game-hwde-pt.html", de: "", es: "", fr: "", ja: "" },
-    noStrip: true,
+    image: "../../hero-wars-dominion-era/images/pvp-battle-database/pvp-250px.webp",
+    alt: "Cosmic Battle",
+    titles: { en: "Cosmic Battle", pt: "Batalha Cósmica", de: "Kosmischer Kampf", es: "Batalla Cósmica", fr: "Bataille Cosmique", ja: "宇宙の戦い" },
+        links: { en: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", pt: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", de: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", es: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", fr: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", ja: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle" },
+     noStrip: true,
     extra: [
       {
-        titles: { en: "Foundations of Power", pt: "Fundamentos do Poder", de: "Grundlagen der Macht", es: "Fundamentos del Poder", fr: "Fondements de la Puissance", ja: "パワーの基盤" },
-        links: { en: "../../hero-wars-dominion-era/events/foundations-of-power-en.html", pt: "../../hero-wars-dominion-era/events/foundations-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
-        noStrip: true
+        titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
+        links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
       },
-      {
-        titles: { en: "Cosmic Battle", pt: "Batalha Cósmica", de: "Kosmischer Kampf", es: "Batalla Cósmica", fr: "Bataille Cosmique", ja: "宇宙の戦い" },
-        links: { en: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", pt: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", de: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", es: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", fr: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", ja: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle" },
-        noStrip: true
-      }
+      
     ]
   },
 
@@ -272,24 +285,19 @@ window.CALENDAR_DATA = [
   {
     weekday: "Friday",
     date: "May, 8",
-    image: "../../hero-wars-dominion-era/images/events/foundations-of-power/foundation-of-power-150px.webp",
-    alt: "Foundations of Power",
-    titles: { en: "Foundations of Power", pt: "Fundamentos do Poder", de: "Grundlagen der Macht", es: "Fundamentos del Poder", fr: "Fondements de la Puissance", ja: "パワーの基盤" },
-    links: { en: "../../hero-wars-dominion-era/events/foundations-of-power-en.html", pt: "../../hero-wars-dominion-era/events/foundations-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
-    noStrip: true,
-    extra: [
-      {
-        titles: { en: "Seer's Game", pt: "Jogo do Vidente", de: "Spiel des Sehers", es: "Juego del Vidente", fr: "Jeu du Voyant", ja: "予言者のゲーム" },
-        links: { en: "../../hero-wars-dominion-era/events/seers-game-hwde-en.html", pt: "../../hero-wars-dominion-era/events/seers-game-hwde-pt.html", de: "", es: "", fr: "", ja: "" },
-        noStrip: true
-      },
-      {
-        titles: { en: "Cosmic Battle", pt: "Batalha Cósmica", de: "Kosmischer Kampf", es: "Batalla Cósmica", fr: "Bataille Cosmique", ja: "宇宙の戦い" },
+   image: "../../hero-wars-dominion-era/images/pvp-battle-database/pvp-250px.webp",
+    alt: "Cosmic Battle",
+    titles: { en: "Cosmic Battle", pt: "Batalha Cósmica", de: "Kosmischer Kampf", es: "Batalla Cósmica", fr: "Bataille Cosmique", ja: "宇宙の戦い" },
         links: { en: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", pt: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", de: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", es: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", fr: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", ja: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle" },
-        noStrip: true
-      }
+     noStrip: true,
+    extra: [      
+      {
+        titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
+        links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
+      },
     ]
   },
+
 
   // May 9 - Saturday
   {
@@ -300,7 +308,16 @@ window.CALENDAR_DATA = [
     titles: { en: "Guardians of Outland", pt: "Guardiões da Fronteira", de: "Wächter des Außenlands", es: "Guardianes de la Frontera", fr: "Gardiens de l'Outreterre", ja: "アウトランドの守護者" },
     links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
     noStrip: true,
-    extra: []
+    extra: [
+      {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
+       {
+        titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
+        links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
+      },
+    ]
   },
 
   // May 10 - Sunday
@@ -317,7 +334,15 @@ window.CALENDAR_DATA = [
         titles: { en: "Guardians of Outland", pt: "Guardiões da Fronteira", de: "Wächter des Außenlands", es: "Guardianes de la Frontera", fr: "Gardiens de l'Outreterre", ja: "アウトランドの守護者" },
         links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
         noStrip: true
-      }
+      },
+      {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
+       {
+        titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
+        links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
+      },
     ]
   },
 
@@ -335,7 +360,19 @@ window.CALENDAR_DATA = [
         titles: { en: "Guardians of Outland", pt: "Guardiões da Fronteira", de: "Wächter des Außenlands", es: "Guardianes de la Frontera", fr: "Gardiens de l'Outreterre", ja: "アウトランドの守護者" },
         links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
         noStrip: true
-      }
+      },
+      {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
+       {
+        titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
+        links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
+      },
+       {
+        titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
+        links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
+      },
     ]
   },
 
@@ -350,10 +387,13 @@ window.CALENDAR_DATA = [
     noStrip: true,
     extra: [
       {
-        titles: { en: "Guardians of Outland", pt: "Guardiões da Fronteira", de: "Wächter des Außenlands", es: "Guardianes de la Frontera", fr: "Gardiens de l'Outreterre", ja: "アウトランドの守護者" },
-        links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
-        noStrip: true
-      }
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
+       {
+        titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
+        links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
+      },
     ]
   },
 
@@ -372,11 +412,7 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/area-of-conquest-en.html", pt: "../../hero-wars-dominion-era/events/area-of-conquest-pt.html", de: "../../hero-wars-dominion-era/events/area-of-conquest-de.html", es: "../../hero-wars-dominion-era/events/area-of-conquest-es.html", fr: "../../hero-wars-dominion-era/events/area-of-conquest-fr.html", ja: "../../hero-wars-dominion-era/events/area-of-conquest-ja.html" },
         noStrip: true
       },
-      {
-        titles: { en: "Guardians of Outland", pt: "Guardiões da Fronteira", de: "Wächter des Außenlands", es: "Guardianes de la Frontera", fr: "Gardiens de l'Outreterre", ja: "アウトランドの守護者" },
-        links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
-        noStrip: true
-      },
+     
       {
         titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
         links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" }
@@ -416,7 +452,11 @@ window.CALENDAR_DATA = [
         titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementarsynergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
         links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
         noStrip: true
-      }
+      },
+      {
+        titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
+        links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
+      },
     ]
   },
 
@@ -434,7 +474,15 @@ window.CALENDAR_DATA = [
         titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementarsynergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
         links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
         noStrip: true
-      }
+      },
+      {
+        titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
+        links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
+      },
+      {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
     ]
   },
 
@@ -447,7 +495,12 @@ window.CALENDAR_DATA = [
     titles: { en: "Tournament of Titan Power", pt: "Torneio de Poder dos Titãs", de: "Titanenkraft-Turnier", es: "Torneo de Poder de Titanes", fr: "Tournoi de Puissance des Titans", ja: "タイタンパワートーナメント" },
     links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
-    extra: []
+    extra: [
+      {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
+    ]
   },
 
   // May 18 - Monday

@@ -1,8 +1,12 @@
-/* Calendar data for Hero Wars: Dominion Era
-   - Keep links per language empty when you want to fill them manually
-   - Image and paths are relative to the page that includes the calendar
-   - Supports: en, pt, ja, es, fr, de
-*/
+/* Calendar data for Hero Wars: Dominion Era */
+// ===================== texto em branco com cor branca para colocar informacoes =====================
+/*     
+{
+  titles: { en: "texto branco", pt: "", de: "", es: "", fr: "", ja: "" },
+  labelOnly: true
+},
+*/      
+// ===================== missoes do titans brawl guardians of balance  =====================
 
 // Título do mês do calendário (traduzido automaticamente)
 window.CALENDAR_MONTH_HEADER = {
@@ -187,7 +191,7 @@ window.CALENDAR_DATA = [
       {
         titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
-      }
+      },
     ]
   },
   {
@@ -226,7 +230,7 @@ window.CALENDAR_DATA = [
       {
         titles: { en: "💎Emeralds Sale x5", pt: "💎Promoção de Esmeraldas x5", de: "💎Smaragd-Angebot x5", es: "💎Oferta de Esmeraldas x5", fr: "💎Vente d'Émeraudes x5", ja: "💎エメラルドセール x5" },
         links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" }
-      }
+      },
     ]
   },
 {
@@ -362,7 +366,7 @@ window.CALENDAR_DATA = [
       {
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
-      }
+      },
     ]
   },
 
