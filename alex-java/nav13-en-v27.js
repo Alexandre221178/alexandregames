@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const navHTML = `
 <style>
     .dropdown-content {
-        max-height: 600px;
+        max-height: 381px;
         overflow-y: auto;
     }
     

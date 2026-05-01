@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const navHTML = `
 <style>
     .dropdown-content {
-        max-height: 300px;
+        max-height: 381px;
         overflow-y: auto;
     }
     
@@ -149,9 +149,9 @@ document.addEventListener('DOMContentLoaded', () => {
 <div class="dropdown">
    <button class="dropbtn"><span class="notranslate">Hero Wars Alliance <br>(Mobile)</span></button>
     <div class="dropdown-content"> <br>                
-        <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-de.html">🆕 HWA - Neueste Updates</a>
-        <a href="https://alexandregames.com/hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-de.html">🎁 HWA - Tägliche Geschenke</a>
-        <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/calendar-hwa-de.html">📅 HWA - Kalender & Events</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-de.html">🆕 Neueste Updates</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-de.html">🎁 Tägliche Geschenke</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/calendar-hwa-de.html">📅 Kalender: Events & Tipps</a>
         <a href="https://alexandregames.com/Hero%20Wars%20English/Heroes%20Guide%20Hero%20Wars.html">📖 Helden-Guide</a>
         <a href="https://alexandregames.com/hero-wars-alliance/guide/talisman-guide-hwa-de.html">📿 Guide aller Talismane</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-tactics-secrets-hwa-en.html">📚 Einsteiger-Guides & Geheimnisse</a>
@@ -173,9 +173,9 @@ document.addEventListener('DOMContentLoaded', () => {
 <div class="dropdown">
     <button class="dropbtn"><span class="notranslate">Hero Wars: Dominion Era <br>(Web/Facebook)</span></button>
     <div class="dropdown-content"> <br>  
-        <a href="https://alexandregames.com/hero-wars-dominion-era/home/hwde-de.html">🆕 HWDE - Neueste Updates</a>
-        <a href="https://alexandregames.com/hero-wars-dominion-era/ag-daily-gifts-hwde/gifts-hwde-en.html">🎁 HWDE - Tägliche Geschenke</a>
-        <a href="https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-de.html">📅 HWDE - Kalender & Events</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/home/hwde-de.html">🆕 Neueste Updates</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/ag-daily-gifts-hwde/gifts-hwde-de.html">🎁 Tägliche Geschenke</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-de.html">📅 Kalender: Events & Tipps</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/guide/best-war-flag-en.html">⚔️ Beste Kriegsflaggen</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html">📖 Helden-Guide</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-en.html">🏆 Helden Tier-Liste</a>
