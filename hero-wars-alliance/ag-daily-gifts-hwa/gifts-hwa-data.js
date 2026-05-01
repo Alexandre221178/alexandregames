@@ -1,11 +1,14 @@
 /*For expired hub codes add: expired:true For text qty (like 250k) use: 'gold 250k' instead of 'gold x250'
    For unknown new gifts use: 'alexandregames NAME x1' or 'alexandre games NAME x1' The component will use the Alexandre Games logo and display only NAME
  npm run update-gifts-hwa       
-// ── April #, 2026 ──────────────────────────────
- { date:'2026-0#-##', type:'daily', mission:'##', note:'daily|80',
+// ── May #, 2026 ──────────────────────────────
+ { date:'2026-05-##', type:'daily', mission:'##', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+    // ── May #, 2026 ──────────────────────────────
+ { date:'2026-05-01', type:'daily', mission:'3-11', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
     // ── April 30, 2026 ──────────────────────────────
    { date:'2026-04-30', type:'special', mission:'2-3', note:'until|2026-05-11T01:00:00Z',
     rewards:['adventure-coin x1000', 'energy x100'] },
