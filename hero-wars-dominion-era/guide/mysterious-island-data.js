@@ -4,33 +4,27 @@
 // npm run update-mysterious-island-hwde
 const mysteriousIslandData = {
  pt: {
-    title: "Ilha Misteriosa Abril, 2026 - Mapa 1-1",
-    para1: "A Ilha Misteriosa de abril de 2026 traz desafios frescos e recompensas emocionantes para todos os aventureiros! O mapa deste mês apresenta uma rota otimizada que permite aos <b>jogadores F2P</b> coletar eficientemente <b> 20.000 Esmeraldas Grátis</b> usando 23 Movimentos de Explorador com mais 6 Movimentos de Explorador coletar <b>100 Catalisador Primal.</b>",
-    para2: "Com planejamento estratégico e uso cuidadoso de seus Movimentos de Explorador, você pode navegar pelos caminhos labirínticos, desbloquear pontes coletando troncos de madeira e alcançar torres de recompensas valiosas. Seja visando a Bandeira de Guerra ou focando em recursos sazonais, este guia ajudará você a aproveitar ao máximo sua jornada pela Ilha Misteriosa em abril!",
-    figcaption: "Mapa 1-1 da Ilha Misteriosa de Abril, 2026, Hero Wars: Dominion Era.",
-    para3: "Este Mapa 1-1 de abril é ideal para jogadores que querem coletar Esmeraldas Grátis, infelizmente a Caixa de Bandeira de Guerra, esta precisando de muito movimentos nesse mapa, e a bandeira de guerra é item essencial para jogadores iniciantes, veja a tabela abaixo como garantir esses itens com baixo custo.",
-    rewardsTitle: "Recompensas Principais da Ilha Misteriosa - Rota Alexandre Games",
+    title: "Ilha Misteriosa Maio, 2026 - Mapa 1-1",
+    para1: "A Ilha Misteriosa de maio de 2026 traz desafios frescos e recompensas emocionantes para todos os aventureiros! O mapa deste mês apresenta uma rota otimizada que permite aos <b>jogadores F2P</b> coletar eficientemente <b> 20.000 Esmeraldas Grátis</b> usando Movimentos de Explorador e coletar <b>100 Catalisador Primal.</b>",
+    para2: "Com planejamento estratégico e uso cuidadoso de seus Movimentos de Explorador, você pode navegar pelos caminhos labirínticos, coletando caixas da temporada e alcançar torres de recompensas valiosas. Seja visando a Bandeira de Guerra ou focando em recursos sazonais, este guia ajudará você a aproveitar ao máximo sua jornada pela Ilha Misteriosa em maio!",
+    figcaption: "Mapa 1-1 da Ilha Misteriosa de Maio, 2026, Hero Wars: Dominion Era.",
+    para3: "Este Mapa 1-1 de maio é ideal para jogadores que querem coletar Esmeraldas Grátis, infelizmente a Caixa de Bandeira de Guerra não esta presente nesse mapa, a bandeira de guerra é item essencial para jogadores iniciantes, veja a tabela abaixo como garantir os melhores itens com baixo custo.",
+    rewardsTitle: "Recompensas Principais do Mapa 1 da Ilha Misteriosa de Maio",
     tableCaption: "Tabela: Recompensas Principais da Ilha Misteriosa - Rota Alexandre Games",
     rewards: [
-      { item: "10K Esmeraldas", cost: "+23", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
-       { item: "1 Baú de Bandeira de Guerra", cost: "+21", image: "../../hero-wars-dominion-era/images/events/shared/war-flag-chest.webp" },
-       { item: "100 Catalisador Primal", cost: "+6", image: "../../hero-wars-dominion-era/images/events/shared/primal-catalyst.webp" },
-       { item: "100 Caixas de Artefatos Absolutos", cost: "+13", image: "../../hero-wars-dominion-era/images/events/shared/absolute-artifact-chest.webp" },
-      { item: "1500 Cristais de Desejo", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-       { item: "500 Caixas de Pedras de Skin", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/titan-skin-stone.webp" },
-      { item: "1500 Cristais de Desejo", cost: "+14", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 Insignia de Desejo", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-insignia.webp" },
-   { item: "20K Esmeraldas", cost: "+9", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
-  
-      //  { item: "100 Catalisador Elemental", cost: "+6", image: "../../hero-wars-dominion-era/images/events/shared/elemental-catalyst.webp" }, 
-// { item: "500 Esfera de Artefato Titã", cost: "+10", image: "../../hero-wars-dominion-era/images/events/shared/titan-artifact-sphere.webp" },
- //{ item: "50K Pedras de Skin de Titã", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/titan-skin-stone.webp" },
-
-      { item: "Total Movimentos do Explorador", cost: "117", image: "../../hero-wars-dominion-era/images/events/shared/explorers-move.webp" },
+      { item: "20K Esmeraldas", cost: "+18", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
+      { item: "25K Esmeraldas", cost: "+18", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
+      { item: "5K Esmeraldas", cost: "+20", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
+      { item: "1500 Esferas de Artefato Titã", cost: "+5", image: "../../hero-wars-dominion-era/images/events/shared/titan-artifact-sphere.webp" },
+      { item: "5000 Catalisador Primal", cost: "+8", image: "../../hero-wars-dominion-era/images/events/shared/primal-catalyst.webp" },      
+      { item: "500 Insignia de Desejo", cost: "+18", image: "../../hero-wars-dominion-era/images/events/shared/wish-insignia.webp" },
+      { item: "1500 Cristais de Desejo", cost: "+10", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
+      { item: "500 Caixas de Artefatos Absolutos", cost: "+13", image: "../../hero-wars-dominion-era/images/events/shared/absolute-artifact-chest.webp" },
+      { item: "1500 Caixas de Pedra de Skin", cost: "+10", image: "../../hero-wars-dominion-era/images/events/shared/titan-skin-stone.webp" },
+      { item: "Total Movimentos do Explorador", cost: "107", image: "../../hero-wars-dominion-era/images/events/shared/explorers-move.webp" },
       { item: "", cost: "" },
-      { item: "<b>Total Baú de Temporada</b>", cost: "109", image: "../../hero-wars-dominion-era/images/events/shared/season-chest.webp" },
-      { item: "<b>Total Baú de Padrões</b>", cost: "16", image: "../../hero-wars-dominion-era/images/events/shared/chest-of-patterns.webp" },
-  
+      { item: "<b>Total Baú de Temporada</b>", cost: "150", image: "../../hero-wars-dominion-era/images/events/shared/season-chest.webp" },
+      { item: "<b>Total Baú de Padrões</b>", cost: "100", image: "../../hero-wars-dominion-era/images/events/shared/chest-of-patterns.webp" }
     ]
   },
 
@@ -45,17 +39,18 @@ const mysteriousIslandData = {
     rewards: [
       { item: "10K Emeralds", cost: "+23", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
       { item: "1 War Flag Chest", cost: "+21", image: "../../hero-wars-dominion-era/images/events/shared/war-flag-chest.webp" },
-      { item: "100 Primal Catalyst", cost: "+6", image: "../../hero-wars-dominion-era/images/events/shared/primal-catalyst.webp" },
-      { item: "100 Absolute Artifact Chests", cost: "+13", image: "../../hero-wars-dominion-era/images/events/shared/absolute-artifact-chest.webp" },
-      { item: "1500 Wish Crystals", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 Titan Skin Stone Boxes", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/titan-skin-stone.webp" },
-      { item: "1500 Wish Crystals", cost: "+14", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 Wish Insignia", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-insignia.webp" },
-      { item: "20K Emeralds", cost: "+9", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
-      { item: "Total Explorer's Moves", cost: "117", image: "../../hero-wars-dominion-era/images/events/shared/explorers-move.webp" },
+      { item: "5000 Primal Catalyst", cost: "+6", image: "../../hero-wars-dominion-era/images/events/shared/primal-catalyst.webp" },
+      { item: "100 Wish Crystals", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
+      { item: "1500 Wish Insignia", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-insignia.webp" },
+      { item: "500 Absolute Artifact Chests", cost: "+13", image: "../../hero-wars-dominion-era/images/events/shared/absolute-artifact-chest.webp" },
+      { item: "13 Skin Stone Chests", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/titan-skin-stone.webp" },
+      { item: "1500 Titan Artifact Spheres", cost: "+10", image: "../../hero-wars-dominion-era/images/events/shared/titan-artifact-sphere.webp" },
+      { item: "500 Emeralds", cost: "+25", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
+      { item: "25K Emeralds", cost: "+9", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
+      { item: "Total Explorer's Moves", cost: "108", image: "../../hero-wars-dominion-era/images/events/shared/explorers-move.webp" },
       { item: "", cost: "" },
-      { item: "<b>Total Season Chest</b>", cost: "109", image: "../../hero-wars-dominion-era/images/events/shared/season-chest.webp" },
-      { item: "<b>Total Chest of Patterns</b>", cost: "16", image: "../../hero-wars-dominion-era/images/events/shared/chest-of-patterns.webp" }
+      { item: "<b>Total Season Chest</b>", cost: "150", image: "../../hero-wars-dominion-era/images/events/shared/season-chest.webp" },
+      { item: "<b>Total Chest of Patterns</b>", cost: "100", image: "../../hero-wars-dominion-era/images/events/shared/chest-of-patterns.webp" }
     ]
   },
  
@@ -70,17 +65,18 @@ const mysteriousIslandData = {
     rewards: [
       { item: "10K Smaragde", cost: "+23", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
       { item: "1 Kriegsflaggen-Truhe", cost: "+21", image: "../../hero-wars-dominion-era/images/events/shared/war-flag-chest.webp" },
-      { item: "100 Primal-Katalysator", cost: "+6", image: "../../hero-wars-dominion-era/images/events/shared/primal-catalyst.webp" },
-      { item: "100 Truhen mit Absoluten Artefakten", cost: "+13", image: "../../hero-wars-dominion-era/images/events/shared/absolute-artifact-chest.webp" },
-      { item: "1500 Wunschkristalle", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 Titan-Skin-Stein-Truhen", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/titan-skin-stone.webp" },
-      { item: "1500 Wunschkristalle", cost: "+14", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 Wunsch-Insignien", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-insignia.webp" },
-      { item: "20K Smaragde", cost: "+9", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
-      { item: "Gesamt Entdeckerbewegungen", cost: "117", image: "../../hero-wars-dominion-era/images/events/shared/explorers-move.webp" },
+      { item: "5000 Primal-Katalysatoren", cost: "+6", image: "../../hero-wars-dominion-era/images/events/shared/primal-catalyst.webp" },
+      { item: "100 Wunschkristalle", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
+      { item: "1500 Wunsch-Insignien", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-insignia.webp" },
+      { item: "500 Truhen mit Absoluten Artefakten", cost: "+13", image: "../../hero-wars-dominion-era/images/events/shared/absolute-artifact-chest.webp" },
+      { item: "13 Titan-Skin-Stein-Truhen", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/titan-skin-stone.webp" },
+      { item: "1500 Titan-Artefakt-Sphären", cost: "+10", image: "../../hero-wars-dominion-era/images/events/shared/titan-artifact-sphere.webp" },
+      { item: "500 Smaragde", cost: "+25", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
+      { item: "25K Smaragde", cost: "+9", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
+      { item: "Gesamt Entdeckerbewegungen", cost: "108", image: "../../hero-wars-dominion-era/images/events/shared/explorers-move.webp" },
       { item: "", cost: "" },
-      { item: "<b>Gesamt Saisontruhe</b>", cost: "109", image: "../../hero-wars-dominion-era/images/events/shared/season-chest.webp" },
-      { item: "<b>Gesamt Mustertruhe</b>", cost: "16", image: "../../hero-wars-dominion-era/images/events/shared/chest-of-patterns.webp" }
+      { item: "<b>Gesamt Saisontruhe</b>", cost: "150", image: "../../hero-wars-dominion-era/images/events/shared/season-chest.webp" },
+      { item: "<b>Gesamt Mustertruhe</b>", cost: "100", image: "../../hero-wars-dominion-era/images/events/shared/chest-of-patterns.webp" }
     ]
   },
   es: {
@@ -94,17 +90,18 @@ const mysteriousIslandData = {
     rewards: [
       { item: "10K Esmeraldas", cost: "+23", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
       { item: "1 Cofre de Bandera de Guerra", cost: "+21", image: "../../hero-wars-dominion-era/images/events/shared/war-flag-chest.webp" },
-      { item: "100 Catalizador Primal", cost: "+6", image: "../../hero-wars-dominion-era/images/events/shared/primal-catalyst.webp" },
-      { item: "100 Cajas de Artefactos Absolutos", cost: "+13", image: "../../hero-wars-dominion-era/images/events/shared/absolute-artifact-chest.webp" },
-      { item: "1500 Cristales de Deseo", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 Cajas de Piedra de Skin de Titán", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/titan-skin-stone.webp" },
-      { item: "1500 Cristales de Deseo", cost: "+14", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 Insignias de Deseo", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-insignia.webp" },
-      { item: "20K Esmeraldas", cost: "+9", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
-      { item: "Total Movimientos del Explorador", cost: "117", image: "../../hero-wars-dominion-era/images/events/shared/explorers-move.webp" },
+      { item: "5000 Catalizador Primal", cost: "+6", image: "../../hero-wars-dominion-era/images/events/shared/primal-catalyst.webp" },
+      { item: "100 Cristales de Deseo", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
+      { item: "1500 Insignias de Deseo", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-insignia.webp" },
+      { item: "500 Cajas de Artefactos Absolutos", cost: "+13", image: "../../hero-wars-dominion-era/images/events/shared/absolute-artifact-chest.webp" },
+      { item: "13 Cajas de Piedra de Skin Titán", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/titan-skin-stone.webp" },
+      { item: "1500 Esferas de Artefacto Titán", cost: "+10", image: "../../hero-wars-dominion-era/images/events/shared/titan-artifact-sphere.webp" },
+      { item: "500 Esmeraldas", cost: "+25", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
+      { item: "25K Esmeraldas", cost: "+9", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
+      { item: "Total Movimientos del Explorador", cost: "108", image: "../../hero-wars-dominion-era/images/events/shared/explorers-move.webp" },
       { item: "", cost: "" },
-      { item: "<b>Total Cofre de Temporada</b>", cost: "109", image: "../../hero-wars-dominion-era/images/events/shared/season-chest.webp" },
-      { item: "<b>Total Cofre de Patrones</b>", cost: "16", image: "../../hero-wars-dominion-era/images/events/shared/chest-of-patterns.webp" }
+      { item: "<b>Total Cofre de Temporada</b>", cost: "150", image: "../../hero-wars-dominion-era/images/events/shared/season-chest.webp" },
+      { item: "<b>Total Cofre de Patrones</b>", cost: "100", image: "../../hero-wars-dominion-era/images/events/shared/chest-of-patterns.webp" }
     ]
   },
   fr: {
@@ -118,17 +115,18 @@ const mysteriousIslandData = {
     rewards: [
       { item: "10K Émeraudes", cost: "+23", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
       { item: "1 Coffre de Drapeau de Guerre", cost: "+21", image: "../../hero-wars-dominion-era/images/events/shared/war-flag-chest.webp" },
-      { item: "100 Catalyseurs Primal", cost: "+6", image: "../../hero-wars-dominion-era/images/events/shared/primal-catalyst.webp" },
-      { item: "100 Coffres d'Artefacts Absolus", cost: "+13", image: "../../hero-wars-dominion-era/images/events/shared/absolute-artifact-chest.webp" },
-      { item: "1500 Cristaux de Souhait", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 Coffres de Pierre de Skin Titan", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/titan-skin-stone.webp" },
-      { item: "1500 Cristaux de Souhait", cost: "+14", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 Insignes de Souhait", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-insignia.webp" },
-      { item: "20K Émeraudes", cost: "+9", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
-      { item: "Total des mouvements d'explorateur", cost: "117", image: "../../hero-wars-dominion-era/images/events/shared/explorers-move.webp" },
+      { item: "5000 Catalyseurs Primal", cost: "+6", image: "../../hero-wars-dominion-era/images/events/shared/primal-catalyst.webp" },
+      { item: "100 Cristaux de Souhait", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
+      { item: "1500 Insignes de Souhait", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-insignia.webp" },
+      { item: "500 Coffres d'Artefacts Absolus", cost: "+13", image: "../../hero-wars-dominion-era/images/events/shared/absolute-artifact-chest.webp" },
+      { item: "13 Coffres de Pierre de Skin Titan", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/titan-skin-stone.webp" },
+      { item: "1500 Sphères d'Artefact Titan", cost: "+10", image: "../../hero-wars-dominion-era/images/events/shared/titan-artifact-sphere.webp" },
+      { item: "500 Émeraudes", cost: "+25", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
+      { item: "25K Émeraudes", cost: "+9", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
+      { item: "Total des mouvements d'explorateur", cost: "108", image: "../../hero-wars-dominion-era/images/events/shared/explorers-move.webp" },
       { item: "", cost: "" },
-      { item: "<b>Total Coffre de Saison</b>", cost: "109", image: "../../hero-wars-dominion-era/images/events/shared/season-chest.webp" },
-      { item: "<b>Total Coffre de Motifs</b>", cost: "16", image: "../../hero-wars-dominion-era/images/events/shared/chest-of-patterns.webp" }
+      { item: "<b>Total Coffre de Saison</b>", cost: "150", image: "../../hero-wars-dominion-era/images/events/shared/season-chest.webp" },
+      { item: "<b>Total Coffre de Motifs</b>", cost: "100", image: "../../hero-wars-dominion-era/images/events/shared/chest-of-patterns.webp" }
     ]
   },
   ja: {
@@ -142,17 +140,18 @@ const mysteriousIslandData = {
     rewards: [
       { item: "10K エメラルド", cost: "+23", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
       { item: "戦争旗の宝箱 1", cost: "+21", image: "../../hero-wars-dominion-era/images/events/shared/war-flag-chest.webp" },
-      { item: "100 プライマル触媒", cost: "+6", image: "../../hero-wars-dominion-era/images/events/shared/primal-catalyst.webp" },
-      { item: "100 絶対アーティファクト箱", cost: "+13", image: "../../hero-wars-dominion-era/images/events/shared/absolute-artifact-chest.webp" },
-      { item: "1500 ウィッシュクリスタル", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 タイタンスキン石箱", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/titan-skin-stone.webp" },
-      { item: "1500 ウィッシュクリスタル", cost: "+14", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
-      { item: "500 ウィッシュ徽章", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-insignia.webp" },
-      { item: "20K エメラルド", cost: "+9", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
-      { item: "探検家の合計移動", cost: "117", image: "../../hero-wars-dominion-era/images/events/shared/explorers-move.webp" },
+      { item: "5000 プライマル触媒", cost: "+6", image: "../../hero-wars-dominion-era/images/events/shared/primal-catalyst.webp" },
+      { item: "100 ウィッシュクリスタル", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-crystal.webp" },
+      { item: "1500 ウィッシュ徽章", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/wish-insignia.webp" },
+      { item: "500 絶対アーティファクト箱", cost: "+13", image: "../../hero-wars-dominion-era/images/events/shared/absolute-artifact-chest.webp" },
+      { item: "13 タイタンスキン石箱", cost: "+15", image: "../../hero-wars-dominion-era/images/events/shared/titan-skin-stone.webp" },
+      { item: "1500 タイタンアーティファクト球", cost: "+10", image: "../../hero-wars-dominion-era/images/events/shared/titan-artifact-sphere.webp" },
+      { item: "500 エメラルド", cost: "+25", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
+      { item: "25K エメラルド", cost: "+9", image: "../../hero-wars-dominion-era/images/events/shared/emeralds.webp" },
+      { item: "探検家の合計移動", cost: "108", image: "../../hero-wars-dominion-era/images/events/shared/explorers-move.webp" },
       { item: "", cost: "" },
-      { item: "<b>総季節箱合計</b>", cost: "109", image: "../../hero-wars-dominion-era/images/events/shared/season-chest.webp" },
-      { item: "<b>総パターン箱合計</b>", cost: "16", image: "../../hero-wars-dominion-era/images/events/shared/chest-of-patterns.webp" }
+      { item: "<b>総季節箱合計</b>", cost: "150", image: "../../hero-wars-dominion-era/images/events/shared/season-chest.webp" },
+      { item: "<b>総パターン箱合計</b>", cost: "100", image: "../../hero-wars-dominion-era/images/events/shared/chest-of-patterns.webp" }
     ]
   }
 };
