@@ -6,7 +6,16 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
-    // ── May #, 2026 ──────────────────────────────
+    // ── May 1, 2026 ──────────────────────────────
+    { date:'2026-05-01', type:'hub', code:'SUPGOLDENWEEK', note:'custom',
+customNote:{ en:'The gift is available until... not defined (or 24h)',
+  pt:'O presente está disponível até... não definido (ou 24h)',
+  de:'Das Geschenk ist verfügbar bis... nicht definiert (oder 24h)',
+  es:'El regalo está disponible hasta... no definido (o 24h)',
+  fr:'Le cadeau est disponible jusqu\'à... non défini (ou 24h)',
+  ja:'ギフトの有効期限は... 未定義（または24時間）'  
+}, rewards:[ 'energy x150', 'artifact-coin x400',  'artifact-chest-key x5'] },
+
  { date:'2026-05-01', type:'daily', mission:'3-11', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
     // ── April 30, 2026 ──────────────────────────────
