@@ -31,6 +31,43 @@ window.CALENDAR_DATA = [
   noStrip: true,
   extra: []
   },
+  {
+    weekday: "Tuesday",
+    date: "April, 28",
+    image: "../../hero-wars-dominion-era/images/events/weaving-patterns/weaving-patterns-150px.webp",
+    alt: "Weaving Patterns",
+    titles: { en: "Weaving Patterns", pt: "Tecendo Padrões", de: "Webmuster", es: "Tejiendo Patrones", fr: "Tissage de Motifs", ja: "ウィービングパターン" },
+    links: { en: "../../hero-wars-dominion-era/events/weaving-patterns-en.html", pt: "../../hero-wars-dominion-era/events/weaving-patterns-pt.html", de: "", es: "", fr: "", ja: "" },
+    noStrip: true,
+    extra: [
+      
+    ]
+  },
+{
+    weekday: "Wednesday",
+    date: "April, 29",
+    image: "../../hero-wars-dominion-era/images/events/weaving-patterns/weaving-patterns-150px.webp",
+    alt: "Weaving Patterns",
+    titles: { en: "Weaving Patterns", pt: "Tecendo Padrões", de: "Webmuster", es: "Tejiendo Patrones", fr: "Tissage de Motifs", ja: "ウィービングパターン" },
+    links: { en: "../../hero-wars-dominion-era/events/weaving-patterns-en.html", pt: "../../hero-wars-dominion-era/events/weaving-patterns-pt.html", de: "", es: "", fr: "", ja: "" },
+    noStrip: true,
+    extra: [
+      
+    ]
+  },
+{
+    weekday: "Thursday",
+    date: "April, 30",
+    image: "../../hero-wars-dominion-era/images/events/elemental-synergy/elemental-synergy-150px.webp",
+    alt: "Elemental Synergy",
+    titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementarsynergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
+    links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
+    noStrip: true,
+    extra: [
+      
+    ]
+  },
+
   // May 1 - Friday
   {
     weekday: "Friday",
@@ -40,40 +77,87 @@ window.CALENDAR_DATA = [
     titles: { en: "Tournament of Hero Power", pt: "Torneio de Poder do Herói", de: "Helden-Kraftturnier", es: "Torneo de Poder del Héroe", fr: "Tournoi de Puissance des Héros", ja: "ヒーローパワートーナメント" },
     links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.html", pt: "../../hero-wars-dominion-era/events/hero-tournament-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
-    extra: []
+    extra: [
+      {
+        titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementarsynergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
+        links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
+        noStrip: true
+      }
+    ]
   },
 
   // May 2 - Saturday
   {
     weekday: "Saturday",
     date: "May, 2",
-    image: "../../hero-wars-dominion-era/images/events/hero-tournament-of-power/hero-tournament-of-power-150px.webp",
-    alt: "Tournament of Hero Power",
-    titles: { en: "Tournament of Hero Power", pt: "Torneio de Poder do Herói", de: "Helden-Kraftturnier", es: "Torneo de Poder del Héroe", fr: "Tournoi de Puissance des Héros", ja: "ヒーローパワートーナメント" },
-    links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.html", pt: "../../hero-wars-dominion-era/events/hero-tournament-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
+    image: "../../hero-wars-dominion-era/images/events/legacy-of-great-ones/legacy-of-great-ones-150px.webp",
+    alt: "Legacy of Great Ones",
+    titles: { 
+      en: "Legacy of Great Ones", 
+      pt: "Legado dos Grandes", 
+      de: "Vermächtnis der Großen", 
+      es: "Legado de los Grandes", 
+      fr: "Héritage des Grands", 
+      ja: "偉大なる者の遺産" 
+    },
+    links: { 
+      en: "../../hero-wars-dominion-era/events/legacy-of-great-ones-en.html", 
+      pt: "../../hero-wars-dominion-era/events/legacy-of-great-ones-pt.html", 
+      de: "", es: "", fr: "", ja: "" 
+    },
     noStrip: true,
-    extra: []
+    extra: [
+      {
+        titles: { 
+          en: "Tournament of Hero Power", 
+          pt: "Torneio de Poder do Herói", 
+          de: "Helden-Kraftturnier", 
+          es: "Torneo de Poder del Héroe", 
+          fr: "Tournoi de Puissance des Héros", 
+          ja: "ヒーローパワートーナメント" 
+        },
+        links: { 
+          en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.html", 
+          pt: "../../hero-wars-dominion-era/events/hero-tournament-of-power-pt.html", 
+          de: "", es: "", fr: "", ja: "" 
+        },
+        noStrip: true
+      },
+      {
+        titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementarsynergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
+        links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
+        noStrip: true
+      },
+      {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      }
+    ]
   },
 
   // May 3 - Sunday
   {
     weekday: "Sunday",
     date: "May, 3",
-    image: "../../hero-wars-dominion-era/images/events/hero-tournament-of-power/hero-tournament-of-power-150px.webp",
-    alt: "Tournament of Hero Power",
-    titles: { en: "Tournament of Hero Power", pt: "Torneio de Poder do Herói", de: "Helden-Kraftturnier", es: "Torneo de Poder del Héroe", fr: "Tournoi de Puissance des Héros", ja: "ヒーローパワートーナメント" },
-    links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.html", pt: "../../hero-wars-dominion-era/events/hero-tournament-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
+    image: "../../hero-wars-dominion-era/images/events/seers-game/seers-game-150px.webp",
+    alt: "Seer's Game",
+    titles: { en: "Seer's Game", pt: "Jogo do Vidente", de: "Spiel des Sehers", es: "Juego del Vidente", fr: "Jeu du Voyant", ja: "予言者のゲーム" },
+    links: { en: "../../hero-wars-dominion-era/events/seers-game-hwde-en.html", pt: "../../hero-wars-dominion-era/events/seers-game-hwde-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
       {
-        titles: { en: "Seer's Game", pt: "Jogo do Vidente", de: "Spiel des Sehers", es: "Juego del Vidente", fr: "Jeu du Voyant", ja: "予言者のゲーム" },
-        links: { en: "../../hero-wars-dominion-era/events/seers-game-hwde-en.html", pt: "../../hero-wars-dominion-era/events/seers-game-hwde-pt.html", de: "", es: "", fr: "", ja: "" },
+        titles: { en: "Tournament of Hero Power", pt: "Torneio de Poder do Herói", de: "Helden-Kraftturnier", es: "Torneo de Poder del Héroe", fr: "Tournoi de Puissance des Héros", ja: "ヒーローパワートーナメント" },
+        links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.html", pt: "../../hero-wars-dominion-era/events/hero-tournament-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
       {
         titles: { en: "Legacy of the Great Ones", pt: "Legado dos Grandes", de: "Vermächtnis der Großen", es: "Legado de los Grandes", fr: "Héritage des Grands", ja: "偉大なる者の遺産" },
         links: { en: "../../hero-wars-dominion-era/events/legacy-of-great-ones-en.html", pt: "../../hero-wars-dominion-era/events/legacy-of-great-ones-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
+      },
+      {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       }
     ]
   },
