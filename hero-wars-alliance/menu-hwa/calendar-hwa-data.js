@@ -498,7 +498,7 @@ window.CALENDAR_DATA = [
   noStrip: true
 },  
 {
- titles: { en: "Electra or Drayne will receive the Jade Flame Skin+", pt: "Electra ou Drayne irão receber a Skin+ de Chama de Jade", de: "Electra oder Drayne erhalten die Jadeflammen-Skin+", es: "Electra o Drayne recibirán la Skin de Llama de Jade+", fr: "Electra ou Drayne recevront le Skin Flamme de Jade+", ja: "エレクトラまたはドレインがジェイドフレームスキン+を受け取ります" },
+ titles: { en: "Electra will receive the Jade Flame Skin+", pt: "Electra irá receber a Skin+ de Chama de Jade", de: "Electra wird die Jadeflammen-Skin+ erhalten", es: "Electra recibirá la Skin de Llama de Jade+", fr: "Electra recevra le Skin Flamme de Jade+", ja: "エレクトラがジェイドフレームスキン+を受け取ります" },
   labelOnly: true
 },     
 
@@ -524,7 +524,7 @@ window.CALENDAR_DATA = [
   noStrip: true
 },  
 {
- titles: { en: "Electra or Drayne will receive the Jade Flame Skin+", pt: "Electra ou Drayne irão receber a Skin+ de Chama de Jade", de: "Electra oder Drayne erhalten die Jadeflammen-Skin+", es: "Electra o Drayne recibirán la Skin de Llama de Jade+", fr: "Electra ou Drayne recevront le Skin Flamme de Jade+", ja: "エレクトラまたはドレインがジェイドフレームスキン+を受け取ります" },
+ titles: { en: "Electra will receive the Jade Flame Skin+", pt: "Electra irá receber a Skin+ de Chama de Jade", de: "Electra wird die Jadeflammen-Skin+ erhalten", es: "Electra recibirá la Skin de Llama de Jade+", fr: "Electra recevra le Skin Flamme de Jade+", ja: "エレクトラがジェイドフレームスキン+を受け取ります" },
   labelOnly: true
 },     
 
@@ -551,7 +551,7 @@ window.CALENDAR_DATA = [
   noStrip: true
 },  
 {
- titles: { en: "Electra or Drayne will receive the Jade Flame Skin+", pt: "Electra ou Drayne irão receber a Skin+ de Chama de Jade", de: "Electra oder Drayne erhalten die Jadeflammen-Skin+", es: "Electra o Drayne recibirán la Skin de Llama de Jade+", fr: "Electra ou Drayne recevront le Skin Flamme de Jade+", ja: "エレクトラまたはドレインがジェイドフレームスキン+を受け取ります" },
+ titles: { en: "Electra will receive the Jade Flame Skin+", pt: "Electra irá receber a Skin+ de Chama de Jade", de: "Electra wird die Jadeflammen-Skin+ erhalten", es: "Electra recibirá la Skin de Llama de Jade+", fr: "Electra recevra le Skin Flamme de Jade+", ja: "エレクトラがジェイドフレームスキン+を受け取ります" },
   labelOnly: true
 },     
 
