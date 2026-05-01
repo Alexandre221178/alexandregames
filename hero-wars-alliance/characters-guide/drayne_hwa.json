@@ -30,7 +30,7 @@
           "agility": 4178,
           "strength": 17011,
           "health": 1553285,
-          "physical_attack": 109353,
+          "physical_attack": 116448,
           "magic_attack": 25338,
           "armor": 25004.5,
           "magic_defense": 10885.6,
@@ -43,7 +43,7 @@
           "agility": 4178,
           "strength": 17011,
           "health": 1473285,
-          "physical_attack": 94153,
+          "physical_attack": 101248,
           "magic_attack": 25338,
           "armor": 25004.5,
           "magic_defense": 10885.6,
@@ -272,23 +272,33 @@
         {
           "name": "Default",
           "stat": "Strength",
+          "priority": "very-high",
           "bonus": 1365
+        },
+        {
+          "name": "Goddess Guardian Skin+",
+          "stat": "Health",
+          "priority": "very-high",
+          "bonus skin+": 213290,
+           "bonus normal": 106645
+        },
+        {
+          "name": "Jade Flame",
+          "stat": "Physical attack",
+          "priority": "high",
+          "bonus": 7095
         },
         {
           "name": "Rebirth",
           "stat": "Armor penetration",
+          "priority": "high",
           "bonus": 10650
-        },
-        {
-          "name": "Goddess Guardian",
-          "stat": "Health",
-          "bonus": 213290
-        },
+        },        
         {
           "name": "Oblivion",
           "stat": "Armor",
-          "bonus": 10650,
-          "is_skin_plus": true
+          "priority": "medium",
+          "bonus": 10650          
         }
       ],
       "class_skill": {
