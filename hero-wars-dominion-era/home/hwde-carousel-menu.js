@@ -34,17 +34,7 @@
       updated: "Updated: April, 2026."
     },
 
-    {
-      link: "../../hero-wars-dominion-era/titans/angus-en.html",
-      src500: "../../hero-wars-dominion-era/images/titans-hwde/angus/angus-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/titans-hwde/angus/angus-400px.webp",
-      alt: "Angus Guide for Hero Wars: Dominion Era",
-      title: "Angus Guide for Hero Wars: Dominion Era.",
-      strong: "Guide: Angus - Hero Wars: Dominion Era",
-      updated: "Updated: April, 2026."
-    },
-    
-        
+            
     {
       link: "../../hero-wars-dominion-era/guide/meta-teams-and-combos-hwde-en.html",
       src500: "../../hero-wars-dominion-era/images/guides/meta-teams-and-combos-hwde/meta-teams-and-combos-hwde-500px.webp",
