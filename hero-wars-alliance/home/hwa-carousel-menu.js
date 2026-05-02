@@ -10,6 +10,24 @@
       strong: "Guide - Electra Skin+: How to Get the Skin+? Hero Wars Alliance",
       updated: "Updated: April, 2026."
     },    
+    {
+      link: "../../hero-wars-alliance/characters-guide/electra-en.html",
+      src500: "../../hero-wars-alliance/images/hero/electra/electra-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/electra/electra-400px.webp",
+      alt: "Electra Legendary Skills Guide for Hero Wars Alliance",
+      title: "Electra Guide for Hero Wars Alliance",
+      strong: "Guide Skin+: Electra Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: April  , 2026."
+    },
+    {
+      link: "../../hero-wars-alliance/characters-guide/drayne-en.html",
+      src500: "../../hero-wars-alliance/images/hero/drayne/drayne-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/drayne/drayne-400px.webp",
+      alt: "Drayne Legendary Skills Guide for Hero Wars Alliance",
+      title: "Drayne Guide for Hero Wars Alliance",
+      strong: "Guide Skin Jade Flame: Drayne Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: April  , 2026."
+    },
 
     {
       link: "/hero-wars-alliance/review/damage-over-time-en.html",

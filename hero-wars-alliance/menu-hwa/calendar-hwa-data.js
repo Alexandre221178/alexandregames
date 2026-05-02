@@ -498,6 +498,12 @@ window.CALENDAR_DATA = [
   noStrip: true
 },  
 {
+  titles: {
+    pt: "O que Comprar no Shop da Skin+ da Electra", en: "What to Buy in the Electra Skin+ Shop", de: "Was man im Electra Skin+ Shop kaufen sollte", es: "Qué comprar en la tienda de la Skin+ de Electra", fr: "Que acheter dans la boutique Skin+ d’Electra", ja: "エレクトラ Skin+ ショップで買うべきもの"},
+    links: { en: "../../hero-wars-alliance/events-tips-hwa/electra-skin-plus-charisma-shop.html", pt: "",  de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
  titles: { en: "Electra will receive the Jade Flame Skin+", pt: "Electra irá receber a Skin+ de Chama de Jade", de: "Electra wird die Jadeflammen-Skin+ erhalten", es: "Electra recibirá la Skin de Llama de Jade+", fr: "Electra recevra le Skin Flamme de Jade+", ja: "エレクトラがジェイドフレームスキン+を受け取ります" },
   labelOnly: true
 },     
@@ -513,6 +519,12 @@ window.CALENDAR_DATA = [
     titles: { en: "Skin+ Event", de: "Skin+ Event", es: "Evento Skin+", fr: "Événement Skin+", pt: "Evento Skin+", ja: "スキン+ イベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "" },
     extra: [
+      {
+  titles: {
+    pt: "O que Comprar no Shop da Skin+ da Electra", en: "What to Buy in the Electra Skin+ Shop", de: "Was man im Electra Skin+ Shop kaufen sollte", es: "Qué comprar en la tienda de la Skin+ de Electra", fr: "Que acheter dans la boutique Skin+ d’Electra", ja: "エレクトラ Skin+ ショップで買うべきもの"},
+    links: { en: "../../hero-wars-alliance/events-tips-hwa/electra-skin-plus-charisma-shop.html", pt: "",  de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
      {
   titles: { en: "Electra Guide: Jade Flame Skin", de: "Electra Leitfaden", es: "Guía de la Electra: Skin de Llama de Jade", fr: "Guide Electra : Skin Flamme de Jade", pt: "Guia da Electra: Skin de Chama de Jade", ja: "エレクトラ - ガイド" },
   links: { en: "../../hero-wars-alliance/characters-guide/electra-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/electra-pt.html", ja: "" },       
@@ -539,6 +551,12 @@ window.CALENDAR_DATA = [
     titles: { en: "Skin+ Event", de: "Skin+ Event", es: "Evento Skin+", fr: "Événement Skin+", pt: "Evento Skin+", ja: "スキン+ イベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "" },
     extra: [
+      {
+  titles: {
+    pt: "O que Comprar no Shop da Skin+ da Electra", en: "What to Buy in the Electra Skin+ Shop", de: "Was man im Electra Skin+ Shop kaufen sollte", es: "Qué comprar en la tienda de la Skin+ de Electra", fr: "Que acheter dans la boutique Skin+ d’Electra", ja: "エレクトラ Skin+ ショップで買うべきもの"},
+    links: { en: "../../hero-wars-alliance/events-tips-hwa/electra-skin-plus-charisma-shop.html", pt: "",  de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
       
        {
   titles: { en: "Electra Guide: Jade Flame Skin", de: "Electra Leitfaden", es: "Guía de la Electra: Skin de Llama de Jade", fr: "Guide Electra : Skin Flamme de Jade", pt: "Guia da Electra: Skin de Chama de Jade", ja: "エレクトラ - ガイド" },
