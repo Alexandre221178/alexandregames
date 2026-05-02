@@ -1,6 +1,16 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
+{
+      link: "/hero-wars-alliance/events-tips-hwa/electra-skin-plus-charisma-shop.html",
+      src500: "../../hero-wars-alliance/images/events-tips-hwa/electra-jade-flame-skin-plus/electra-jade-flame-skin-plus-500px.webp",
+      src400: "../../hero-wars-alliance/images/events-tips-hwa/electra-jade-flame-skin-plus/electra-jade-flame-skin-plus-400px.webp",
+      alt: "Electra's Jade Flame Skin+ event in Hero Wars Alliance",
+      title: "Electra Jade Flame Skin+ Event - Hero Wars Alliance",
+      strong: "Guide - Electra Skin+: How to Get the Skin+? Hero Wars Alliance",
+      updated: "Updated: April, 2026."
+    },    
+
     {
       link: "/hero-wars-alliance/review/damage-over-time-en.html",
       src500: "/hero-wars-alliance/images/review/damage-over-time-500px.webp",
@@ -164,7 +174,7 @@
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Resgate seus Presentes Diários para Hero Wars Alliance',
         'Complete Talisman Guide': 'Guia Completo de Talismãs',
         'everyday': 'todos os dias', 'How to Play': 'Como Jogar',
-        'monthly': 'mensalmente',
+        'monthly': 'mensalmente', 'How to Get the': 'Como Obter a',
         'Calendar': 'Calendário',
         'New': 'Nova', 'and': 'e',
         'Adventure Shop Tips': 'Dicas da Loja de Aventura',
@@ -191,7 +201,7 @@
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Canjea tus Regalos Diarios para Hero Wars Alliance',
         'Complete Talisman Guide': 'Guía completa de talismanes:',
         'everyday': 'todos los días', 'How to Play': 'Cómo Jugar',
-        'monthly': 'mensalmente',
+        'monthly': 'mensalmente', 'How to Get the': 'Cómo Obtener la',
         'Calendar': 'Calendario',
         'New': 'Nueva', 'and': 'y',
         'Adventure Shop Tips': 'Consejos de la Tienda de Aventura',
@@ -219,7 +229,7 @@
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Échangez vos Cadeaux Quotidiens pour Hero Wars Alliance',
         'Complete Talisman Guide:': 'Guide complet des talismans:',
         'everyday': 'tous les jours', 'How to Play': 'Comment Jouer',
-        'monthly': 'mensuellement',
+        'monthly': 'mensuellement', 'How to Get the': 'Comment Obtenir le',
         'Calendar': 'Calendrier',
         'New': 'Nouvelle', 'and': 'et',
         'Adventure Shop Tips': 'Conseils de la Boutique d\'Aventure',
@@ -246,7 +256,7 @@
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Löse deine täglichen Geschenke für Hero Wars Alliance ein',
         'Complete Talisman Guide:': 'Vollständiger Talisman-Leitfaden:',
         'for': 'für', 'How to Play': 'Wie man spielt',
-        'skin': 'Skin',
+        'skin': 'Skin', 'How to Get the': 'Wie man das bekommt',
         'everyday': 'täglich',
         'monthly': 'monatlich',
         'Calendar': 'Kalender',
@@ -297,7 +307,7 @@
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'ヒーローウォーズ アライアンスのバーナガイド: 癒やしの熊の精霊を解き放て',
         'Calendar for Hero Wars Alliance': 'ヒーローウォーズ アライアンス カレンダー',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのデイリーギフトを受け取る',
-        'Complete Talisman Guide:': 'タリスマン完全ガイド:',
+        'Complete Talisman Guide:': 'タリスマン完全ガイド:', 'How to Get the': '入手方法',
         'Hero Wars: Alliance': 'ヒーローウォーズ アライアンス',
         'for': '向け', 'skin': 'スキン',  'everyday': '毎日', 'monthly': '毎月', 'Calendar': 'カレンダー',
         'hero wars alliance': 'ヒーローウォーズ アライアンス',
