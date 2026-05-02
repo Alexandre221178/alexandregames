@@ -6,6 +6,9 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+    // ── May 2, 2026 ──────────────────────────────
+ { date:'2026-05-02', type:'daily', mission:'2-13', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
     // ── May 1, 2026 ──────────────────────────────
     { date:'2026-05-01', type:'hub', code:'SUPGOLDENWEEK', note:'custom',
 customNote:{ en:'The gift is available until... not defined (or 24h)',
