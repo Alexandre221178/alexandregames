@@ -1,0 +1,374 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "electra",
+      "name": "Electra von Grave",
+      "gender": "female",
+      "role": ["Tank", "Support"],
+      "main_class": "Tank",
+      "position": "Front Line",
+      "main_stat": "Strength",
+      "how_to_get_soul_stones": "Kingdom mode, Special Events, Heroic Chest",
+      "synergy": "Iris, Faceless, Phobos",
+      "hydra_tier_list": "",
+      "hero_tier_list": "",
+      "faction": "Way of Eternity",
+      "lore": "Tank, absorbs Damage directed at her and her allies, and boosts her Health by sacrificing other stats.",
+      "realm": {
+        "buff_infantry": "attack/defense +120%",
+        "skills": [
+          {
+            "id": 1,
+            "name": "Necrotic Seal",
+            "description": "Electra strengthens her allies with necromancy. Increases Health of all allied troops by %."
+          },
+          {
+            "id": 2,
+            "name": "Choir of Souls",
+            "description": "Electra inspires the troops with voices of fallen warrior maidens. Decreases damage that infantry receives by % and increases damage dealt by marksmen by %."
+          }
+        ]
+      },
+      "stats": {
+        "talisman_of_resurrection": {
+          "power": 170212,
+          "level": 120,
+          "equipment_rank": 16,
+          "intelligence": 4661,
+          "agility": 2828,
+          "strength": 17391,
+          "health": 1416630,
+          "physical_attack": 36140,
+          "magic_attack": 111756,
+          "armor": 41465.7,
+          "magic_defense": 24283.5,
+          "toughness": 20980,
+          "magic_reflection": 5920,
+          "magic_penetration": 1240
+        },
+        "talisman_of_revenge": {
+          "intelligence": 4661,
+          "agility": 2828,
+          "strength": 15391,
+          "health": 1336630,
+          "physical_attack": 34140,
+          "magic_attack": 131556,
+          "armor": 41465.7,
+          "magic_defense": 24283.5,
+          "toughness": 14380,
+          "magic_reflection": 9920,
+          "magic_penetration": 1240
+        }
+      },
+      "talisman_details": {
+        "talisman_of_resurrection": {
+          "level": 50,
+          "main_stat": "Strength",
+          "main_stat_bonus": 2000,
+          "derived_bonuses": {
+            "toughness": 2200
+          },
+          "reroll_slots": [
+            { "stat": "Toughness", "value": 2200 },
+            { "stat": "Toughness", "value": 2200 },
+            { "stat": "Toughness", "value": 2200 }
+          ],
+          "total_reroll_bonus": { "stat": "Toughness", "value": 6600 }
+        },
+        "talisman_of_revenge": {
+          "level": 50,
+          "main_stat": "Magic Reflection",
+          "main_stat_bonus": 4000,
+          "derived_bonuses": {
+            "magic_attack": 6600
+          },
+          "reroll_slots": [
+            { "stat": "Magic Attack", "value": 6600 },
+            { "stat": "Magic Attack", "value": 6600 },
+            { "stat": "Magic Attack", "value": 6600 }
+          ],
+          "total_reroll_bonus": { "stat": "Magic Attack", "value": 19800 }
+        },
+        "recommended": "talisman_of_resurrection"
+      },
+      "skills": [
+        {
+          "id": 0,
+          "variant": "base",
+          "name": "Basic Attack",
+          "type": ["autoSkill"],
+          "damage_formula": "100% Physical Attack",
+          "scales_with": ["Physical Attack"],
+          "damage_example_resurrection": 36140,
+          "damage_example_revenge": 34140,
+          "cooldown_seconds": 5.4,
+          "animation_delay_seconds": 0.46,
+          "description": "Physical damage: 100% Physical Attack.",
+          "evolution_priority": "Medium"
+        },
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "Pain's Embrace",
+          "type": ["Absorb", "Buff", "Blind"],
+          "keywords": ["Can't be copied"],
+          "animation_delay_seconds": 0.7,
+          "duration_seconds": 6.0,
+          "area": 200,
+          "range": 3000,
+          "hits": 7,
+          "damage_absorption_formula": "25% Health + 300000",
+          "damage_absorption_example": 634157.5,
+          "magic_attack_increase_formula": "50% Magic Attack + 6000",
+          "magic_attack_increase_example": 71778,
+          "description": "Absorbs all incoming Damage for 6.0 seconds. While active, the Hero cannot attack, move, or be displaced. When the effect ends, blinds nearby enemies for 7 seconds and increases allies' Magic Attack.",
+          "evolution_priority": "Very High"
+        },
+        {
+          "id": 1,
+          "variant": "legendary",
+          "relic_level": 10,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 1
+          },
+          "name": "Pain's Embrace",
+          "keywords": ["Can't be copied"],
+          "effect": "When the effect ends, deals Magic Damage equal to 50% of absorbed Damage.",
+          "damage_formula": "50% of absorbed Damage",
+          "description": "When the effect ends, deals Magic Damage equal to 50% of absorbed Damage.",
+          "evolution_priority": "Very High"
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 120,
+          "name": "Field of Lightning",
+          "type": ["Magic Damage", "Debuff"],
+          "keywords": ["Debuff"],
+          "initial_cooldown_seconds": 14,
+          "cooldown_seconds": 17,
+          "animation_delay_seconds": 1.0,
+          "duration_seconds": 9.0,
+          "area": 400,
+          "range": 400,
+          "hits": 250,
+          "magic_defense_reduction_formula": "35% Magic Attack + 3000",
+          "magic_defense_reduction_example": 49044.6,
+          "additional_reduction": "250 per 10000 Health lost at the moment of use",
+          "description": "Strikes nearby enemies with lightning. Reduces their Magic Defense for 9.0 seconds. Magic Defense reduction increases by 250 for every 10000 Health lost at the moment of use.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 2,
+          "variant": "legendary",
+          "relic_level": 20,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 2
+          },
+          "name": "Field of Lightning",
+          "keywords": ["Debuff"],
+          "effect": "If an enemy's Magic Defense is reduced to zero, Electra and her allies deal 50% more Magic Damage to them.",
+          "magic_damage_boost_percent": 50,
+          "description": "If an enemy's Magic Defense is reduced to zero, Electra and her allies deal 50% more Magic Damage to them.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 100,
+          "name": "Oath of Protection",
+          "type": ["Passive", "Absorb", "Support"],
+          "initial_cooldown_seconds": 6,
+          "cooldown_seconds": 15,
+          "animation_delay_seconds": 1.1,
+          "duration_seconds": 10.0,
+          "range": 3000,
+          "absorbed_damage_formula": "10% Health + 6000",
+          "absorbed_damage_example": 139663,
+          "absorbed_damage_eternity_formula": "15% Health + 12000",
+          "absorbed_damage_eternity_example": 212494.5,
+          "description": "For 10.0 seconds, applies an effect to all allies whose current Health is lower than Electra's. While the effect is active, absorbs part of the Damage they take. Absorbs more Damage dealt to Way of Eternity Heroes.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "level": 80,
+          "name": "Immortal Shell",
+          "type": ["Passive", "Buff", "Health Conversion"],
+          "trigger": "Start of battle",
+          "conversion_note": "Converts Armor, Magic Defense, and Dodge into Health. Armor, Magic Defense, and Dodge are permanently set to 0 and cannot be altered in combat.",
+          "health_per_1000_points_formula": "10% Health + 12000",
+          "health_per_1000_points_example": 145663,
+          "description": "At the start of battle, converts Armor, Magic Defense, and Dodge into Health. The more points converted, the higher her maximum Health. Increases Health by 145663 per 1000 defensive stat points converted.",
+          "evolution_priority": "Very High"
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Dance of Agony",
+          "type": ["Buff", "Attack Speed"],
+          "keywords": ["Buff"],
+          "trigger_interval_seconds": 25,
+          "duration_seconds": 10.0,
+          "area": 25,
+          "hits": 33,
+          "attack_speed_increase_percent": 33,
+          "damage_increase_formula": "50% Magic Attack per 10% Health lost at the time of the strike",
+          "damage_increase_example": 65778,
+          "description": "Every 25 seconds, increases Attack Speed by 33% for 10.0 seconds and greatly boosts Damage based on Health lost at the time of the strike.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Unbreakable Mind",
+          "type": ["Passive", "Immunity"],
+          "trigger": "Health falls below 50%",
+          "effect": "Gains immunity to all control effects.",
+          "description": "When Health falls below 50%, gains immunity to all control effects.",
+          "evolution_priority": "High"
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default Skin",
+          "stat": "Strength",
+          "bonus": 1365,
+          "derived_bonuses": {
+            "health": 54600,
+            "physical_attack": 1365
+          },
+          "evolution_priority": "High"
+        },
+        {
+          "name": "Demonic Skin",
+          "stat": "Armor",
+          "bonus": 10650,
+          "immortal_shell_health_gain_approx": 894000,
+          "evolution_priority": "Very High"
+        },
+        {
+          "name": "Winter Skin",
+          "stat": "Magic Defense",
+          "bonus": 10650,
+          "immortal_shell_health_gain_approx": 894000,
+          "evolution_priority": "Very High"
+        },
+        {
+          "name": "Oblivion Skin",
+          "stat": "Toughness",
+          "bonus": 2960,
+          "evolution_priority": "High"
+        },
+        {
+          "name": "Jade Flame Skin+",
+          "stat": "Magic Reflection",
+          "bonus_skin_plus": 5920,
+          "bonus_base": 2960,
+          "note": "Skin+ available during the Jade Flame Skin+ event. Doubles Magic Reflection compared to the base skin.",
+          "evolution_priority": "High"
+        }
+      ],
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Pain Cage",
+          "activation_chance": 100,
+          "toughness": 8898,
+          "evolve": 6,
+          "level": 100
+        },
+        {
+          "slot": "Book",
+          "name": "Grimoire of Fortitude",
+          "toughness": 2967,
+          "health": 53394,
+          "evolve": 6,
+          "level": 100
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Strength",
+          "strength": 3990,
+          "derived_bonuses": {
+            "health": 159600,
+            "physical_attack": 3990
+          },
+          "evolve": 6,
+          "level": 100
+        }
+      ],
+      "class_skill": {
+        "class": "Tank",
+        "overall_class_level": "495/495",
+        "effect": "Every 10 seconds, applies an effect to the ally with the lowest health percentage, increasing armor and magic defense by 38116.3 (1% Health + 24750) for 5.0 seconds. This ability can be used on the tank itself and depends on their maximum Health stat.",
+        "armor_magic_defense_formula": "1% Health + 24750",
+        "armor_magic_defense_example": 38116.3,
+        "duration_seconds": 5.0,
+        "trigger_interval_seconds": 10.0
+      },
+      "glyphs": [
+        {
+          "name": "Magic Attack",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "name": "Health",
+          "level": 80,
+          "bonus": 122800
+        },
+        {
+          "name": "Toughness",
+          "level": 80,
+          "bonus": 4170
+        },
+        {
+          "name": "Armor",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "name": "Strength",
+          "level": 80,
+          "bonus": 2110,
+          "derived_bonuses": {
+            "health": 84400,
+            "physical_attack": 2110
+          }
+        }
+      ],
+      "gift_of_elements": {
+        "level": 30,
+        "strength": 720,
+        "agility": 360,
+        "intelligence": 360
+      },
+      "counters": [],
+      "synergies": [],
+      "notes": [
+        "Talisman of Resurrection is the default recommended build for pure tank/survivability, stacking Toughness.",
+        "Talisman of Revenge is recommended for Magic Reflection builds using the Jade Flame Skin+, maximizing damage reflection and Magic Attack.",
+        "Immortal Shell converts all Armor, Magic Defense, and Dodge to Health at battle start; +10,650 Armor or Magic Defense ≈ +894,000 effective Health.",
+        "Magic Reflection formula: (Magic Reflection / (Magic Reflection + enemy's main stat)) × 100%.",
+        "Magic Reflection only activates against magical damage; not effective against physical or pure damage teams.",
+        "Magic Reflection activates while Stunned but NOT while Silenced.",
+        "Heroes with DoT damage (e.g., Iris, Yasmine) bypass Magic Reflection; however, Electra counters Yasmine via Immortal Shell drawing Yasmine's targeting.",
+        "Jade Flame Skin+ is obtained during the Jade Flame Skin+ event or randomly from ~400 Heroic Chest openings."
+      ]
+    }
+  ]
+}
