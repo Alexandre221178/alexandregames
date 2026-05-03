@@ -52,7 +52,7 @@ window.CALENDAR_DATA = [
       
 {
   titles: { en: "Tempus Guide: Jade Flame Skin", de: "Lian Leitfaden", es: "Guía de Tempus: Skin de Llama de Jade", fr: "Guide Tempus : Skin Flamme de Jade", pt: "Guia do Tempus: Skin de Chama de Jade", ja: "テンパスガイド：ジェイドフレイムスキン" },
-  links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/tempus-pt.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "../../hero-wars-alliance/characters-guide/tempus-de.html", es: "../../hero-wars-alliance/characters-guide/tempus-es.html", fr: "../../hero-wars-alliance/characters-guide/tempus-fr.html", pt: "../../hero-wars-alliance/characters-guide/tempus-pt.html", ja: "../../hero-wars-alliance/characters-guide/tempus-ja.html" },       
   noStrip: true
 },  
 {// Dentro de extra[] de um evento:
@@ -80,7 +80,7 @@ window.CALENDAR_DATA = [
     extra: [
        {
   titles: { en: "Tempus Guide: Jade Flame Skin", de: "Lian Leitfaden", es: "Guía de Tempus: Skin de Llama de Jade", fr: "Guide Tempus : Skin Flamme de Jade", pt: "Guia do Tempus: Skin de Chama de Jade", ja: "テンパスガイド：ジェイドフレイムスキン" },
-  links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/tempus-pt.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "../../hero-wars-alliance/characters-guide/tempus-de.html", es: "../../hero-wars-alliance/characters-guide/tempus-es.html", fr: "../../hero-wars-alliance/characters-guide/tempus-fr.html", pt: "../../hero-wars-alliance/characters-guide/tempus-pt.html", ja: "../../hero-wars-alliance/characters-guide/tempus-ja.html" },       
   noStrip: true
 },  
       
@@ -107,7 +107,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
   titles: { en: "Tempus Guide: Jade Flame Skin", de: "Lian Leitfaden", es: "Guía de Tempus: Skin de Llama de Jade", fr: "Guide Tempus : Skin Flamme de Jade", pt: "Guia do Tempus: Skin de Chama de Jade", ja: "テンパスガイド：ジェイドフレイムスキン" },
-  links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/tempus-pt.html", ja: "" },       
+   links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "../../hero-wars-alliance/characters-guide/tempus-de.html", es: "../../hero-wars-alliance/characters-guide/tempus-es.html", fr: "../../hero-wars-alliance/characters-guide/tempus-fr.html", pt: "../../hero-wars-alliance/characters-guide/tempus-pt.html", ja: "../../hero-wars-alliance/characters-guide/tempus-ja.html" },       
   noStrip: true
 },  
             {// Dentro de extra[] de um evento:
@@ -558,6 +558,10 @@ window.CALENDAR_DATA = [
   noStrip: true
 },  
       
+{
+        titles: { en: "Tempus - Relic Event", de: "Tempus - Relikt-Ereignis", es: "Tempus - Evento de Reliquia", fr: "Tempus - Événement des Reliques", pt: "Tempus - Evento de Relíquia", ja: "テンパス - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       },  
        {
   titles: { en: "Electra Guide: Jade Flame Skin", de: "Electra Leitfaden", es: "Guía de la Electra: Skin de Llama de Jade", fr: "Guide Electra : Skin Flamme de Jade", pt: "Guia da Electra: Skin de Chama de Jade", ja: "エレクトラ - ガイド" },
   links: { en: "../../hero-wars-alliance/characters-guide/electra-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/electra-pt.html", ja: "" },       
@@ -579,7 +583,7 @@ window.CALENDAR_DATA = [
   },
 
   {
-    weekday: "Monday",
+    weekday: "Tuesday",
     date: "May, 5",
     image: "../../hero-wars-alliance/img-hero-wars-alliance/event-img/way-of-eternity/way-of-eternity-event-150px.webp",
     alt: "Way of Eternity Event",
@@ -587,10 +591,13 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-alliance/event-hwa/way-of-eternity-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-eternity-pt.html", ja: "" },
     extra: [   
       {
+        titles: { en: "Tempus - Relic Event", de: "Tempus - Relikt-Ereignis", es: "Tempus - Evento de Reliquia", fr: "Tempus - Événement des Reliques", pt: "Tempus - Evento de Relíquia", ja: "テンパス - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       },  
+      {
   titles: { en: "Tempus Guide", de: "Lian Leitfaden", es: "Guía de Tempus", fr: "Guide Tempus", pt: "Guia do Tempus", ja: "テンパスのガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-eternity-pt.html", ja: "" },       
-  noStrip: true
-},  
+   links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "../../hero-wars-alliance/characters-guide/tempus-de.html", es: "../../hero-wars-alliance/characters-guide/tempus-es.html", fr: "../../hero-wars-alliance/characters-guide/tempus-fr.html", pt: "../../hero-wars-alliance/characters-guide/tempus-pt.html", ja: "../../hero-wars-alliance/characters-guide/tempus-ja.html" },       
+  noStrip: true},  
 {
  titles: { en: "Tempus Event", pt: "Evento do Tempus", de: "Tempus Ereignis", es: "Evento Tempus", fr: "Événement Tempus", ja: "テンパスイベント" },
   labelOnly: true
@@ -608,9 +615,17 @@ window.CALENDAR_DATA = [
     extra: [   
       {
   titles: { en: "Tempus Guide", de: "Lian Leitfaden", es: "Guía de Tempus", fr: "Guide Tempus", pt: "Guia do Tempus", ja: "テンパスのガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-eternity-pt.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "../../hero-wars-alliance/characters-guide/tempus-de.html", es: "../../hero-wars-alliance/characters-guide/tempus-es.html", fr: "../../hero-wars-alliance/characters-guide/tempus-fr.html", pt: "../../hero-wars-alliance/characters-guide/tempus-pt.html", ja: "../../hero-wars-alliance/characters-guide/tempus-ja.html" },       
   noStrip: true
 },  
+{
+        titles: { en: "Tempus - Relic Event", de: "Tempus - Relikt-Ereignis", es: "Tempus - Evento de Reliquia", fr: "Tempus - Événement des Reliques", pt: "Tempus - Evento de Relíquia", ja: "テンパス - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       },  
+      {
+  titles: { en: "Tempus Guide", de: "Lian Leitfaden", es: "Guía de Tempus", fr: "Guide Tempus", pt: "Guia do Tempus", ja: "テンパスのガイド" },
+   links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "../../hero-wars-alliance/characters-guide/tempus-de.html", es: "../../hero-wars-alliance/characters-guide/tempus-es.html", fr: "../../hero-wars-alliance/characters-guide/tempus-fr.html", pt: "../../hero-wars-alliance/characters-guide/tempus-pt.html", ja: "../../hero-wars-alliance/characters-guide/tempus-ja.html" },       
+  noStrip: true},  
 {
  titles: { en: "Tempus Event", pt: "Evento do Tempus", de: "Tempus Ereignis", es: "Evento Tempus", fr: "Événement Tempus", ja: "テンパスイベント" },
   labelOnly: true
@@ -627,9 +642,17 @@ window.CALENDAR_DATA = [
     extra: [   
       {
   titles: { en: "Tempus Guide", de: "Lian Leitfaden", es: "Guía de Tempus", fr: "Guide Tempus", pt: "Guia do Tempus", ja: "テンパスのガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-eternity-pt.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "../../hero-wars-alliance/characters-guide/tempus-de.html", es: "../../hero-wars-alliance/characters-guide/tempus-es.html", fr: "../../hero-wars-alliance/characters-guide/tempus-fr.html", pt: "../../hero-wars-alliance/characters-guide/tempus-pt.html", ja: "../../hero-wars-alliance/characters-guide/tempus-ja.html" },       
   noStrip: true
 },  
+{
+        titles: { en: "Tempus - Relic Event", de: "Tempus - Relikt-Ereignis", es: "Tempus - Evento de Reliquia", fr: "Tempus - Événement des Reliques", pt: "Tempus - Evento de Relíquia", ja: "テンパス - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       },  
+      {
+  titles: { en: "Tempus Guide", de: "Lian Leitfaden", es: "Guía de Tempus", fr: "Guide Tempus", pt: "Guia do Tempus", ja: "テンパスのガイド" },
+   links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "../../hero-wars-alliance/characters-guide/tempus-de.html", es: "../../hero-wars-alliance/characters-guide/tempus-es.html", fr: "../../hero-wars-alliance/characters-guide/tempus-fr.html", pt: "../../hero-wars-alliance/characters-guide/tempus-pt.html", ja: "../../hero-wars-alliance/characters-guide/tempus-ja.html" },       
+  noStrip: true},  
 {
  titles: { en: "Tempus Event", pt: "Evento do Tempus", de: "Tempus Ereignis", es: "Evento Tempus", fr: "Événement Tempus", ja: "テンパスイベント" },
   labelOnly: true
@@ -658,6 +681,14 @@ window.CALENDAR_DATA = [
         titles: { en: "When Worlds Collide Event", de: "Wenn Welten Zusammenstoßen Ereignis", es: "Evento Cuando los Mundos Colisionan", fr: "Événement Quand les Mondes Entrent en Collision", pt: "Evento Quando os Mundos Colidem", ja: "世界が衝突するイベント" },
     links: { en: "../../Hero Wars/events/when-worlds-collide-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/when-worlds-collide-pt-hwa.html", ja: "" },
         },
+        {
+        titles: { en: "Tempus - Relic Event", de: "Tempus - Relikt-Ereignis", es: "Tempus - Evento de Reliquia", fr: "Tempus - Événement des Reliques", pt: "Tempus - Evento de Relíquia", ja: "テンパス - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       },  
+      {
+  titles: { en: "Tempus Guide", de: "Lian Leitfaden", es: "Guía de Tempus", fr: "Guide Tempus", pt: "Guia do Tempus", ja: "テンパスのガイド" },
+   links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "../../hero-wars-alliance/characters-guide/tempus-de.html", es: "../../hero-wars-alliance/characters-guide/tempus-es.html", fr: "../../hero-wars-alliance/characters-guide/tempus-fr.html", pt: "../../hero-wars-alliance/characters-guide/tempus-pt.html", ja: "../../hero-wars-alliance/characters-guide/tempus-ja.html" },       
+  noStrip: true},  
      
     ]
   },
@@ -682,6 +713,14 @@ window.CALENDAR_DATA = [
         titles: { en: "When Worlds Collide Event", de: "Wenn Welten Zusammenstoßen Ereignis", es: "Evento Cuando los Mundos Colisionan", fr: "Événement Quand les Mondes Entrent en Collision", pt: "Evento Quando os Mundos Colidem", ja: "世界が衝突するイベント" },
     links: { en: "../../Hero Wars/events/when-worlds-collide-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/when-worlds-collide-pt-hwa.html", ja: "" },
         },
+        {
+        titles: { en: "Tempus - Relic Event", de: "Tempus - Relikt-Ereignis", es: "Tempus - Evento de Reliquia", fr: "Tempus - Événement des Reliques", pt: "Tempus - Evento de Relíquia", ja: "テンパス - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       },  
+      {
+  titles: { en: "Tempus Guide", de: "Lian Leitfaden", es: "Guía de Tempus", fr: "Guide Tempus", pt: "Guia do Tempus", ja: "テンパスのガイド" },
+   links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "../../hero-wars-alliance/characters-guide/tempus-de.html", es: "../../hero-wars-alliance/characters-guide/tempus-es.html", fr: "../../hero-wars-alliance/characters-guide/tempus-fr.html", pt: "../../hero-wars-alliance/characters-guide/tempus-pt.html", ja: "../../hero-wars-alliance/characters-guide/tempus-ja.html" },       
+  noStrip: true},  
      
     ]
   },
@@ -706,6 +745,14 @@ window.CALENDAR_DATA = [
         titles: { en: "When Worlds Collide Event", de: "Wenn Welten Zusammenstoßen Ereignis", es: "Evento Cuando los Mundos Colisionan", fr: "Événement Quand les Mondes Entrent en Collision", pt: "Evento Quando os Mundos Colidem", ja: "世界が衝突するイベント" },
     links: { en: "../../Hero Wars/events/when-worlds-collide-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/when-worlds-collide-pt-hwa.html", ja: "" },
         },
+        {
+        titles: { en: "Tempus - Relic Event", de: "Tempus - Relikt-Ereignis", es: "Tempus - Evento de Reliquia", fr: "Tempus - Événement des Reliques", pt: "Tempus - Evento de Relíquia", ja: "テンパス - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       },  
+      {
+  titles: { en: "Tempus Guide", de: "Lian Leitfaden", es: "Guía de Tempus", fr: "Guide Tempus", pt: "Guia do Tempus", ja: "テンパスのガイド" },
+   links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "../../hero-wars-alliance/characters-guide/tempus-de.html", es: "../../hero-wars-alliance/characters-guide/tempus-es.html", fr: "../../hero-wars-alliance/characters-guide/tempus-fr.html", pt: "../../hero-wars-alliance/characters-guide/tempus-pt.html", ja: "../../hero-wars-alliance/characters-guide/tempus-ja.html" },       
+  noStrip: true},  
      
     ]
   },
