@@ -8,7 +8,7 @@
       alt: "Electra's Jade Flame Skin+ event in Hero Wars Alliance",
       title: "Electra Jade Flame Skin+ Event - Hero Wars Alliance",
       strong: "Guide - Electra Skin+: How to Get the Skin+? Hero Wars Alliance",
-      updated: "Updated: April, 2026."
+      updated: "Updated: May, 2026."
     },    
     {
       link: "../../hero-wars-alliance/characters-guide/electra-en.html",
@@ -17,7 +17,7 @@
       alt: "Electra Legendary Skills Guide for Hero Wars Alliance",
       title: "Electra Guide for Hero Wars Alliance",
       strong: "Guide Skin+: Electra Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: April  , 2026."
+      updated: "Updated: May, 2026."
     },
     {
       link: "../../hero-wars-alliance/characters-guide/drayne-en.html",
@@ -26,7 +26,16 @@
       alt: "Drayne Legendary Skills Guide for Hero Wars Alliance",
       title: "Drayne Guide for Hero Wars Alliance",
       strong: "Guide Skin Jade Flame: Drayne Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: April  , 2026."
+      updated: "Updated: May, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/characters-guide/tempus-en.html",
+      src500: "/hero-wars-alliance/images/hero/tempus/tempus-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/tempus/tempus-400px.webp",
+      alt: "Tempus Legendary Skills Guide for Hero Wars Alliance",
+      title: "Tempus Guide for Hero Wars Alliance",
+      strong: "Guide: Tempus Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
     },
 
     {
@@ -36,7 +45,7 @@
       alt: "Damage Over Time (DoT) System Guide in Hero Wars Alliance",
       title: "Damage Over Time (DoT) System Guide - Hero Wars Alliance",
       strong: "Guide: Damage Over Time (DoT) - Hero Wars Alliance",
-      updated: "Updated: April, 2026."
+      updated: "Updated: May, 2026."
     },   
    
     {
