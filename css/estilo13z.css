@@ -721,19 +721,34 @@ section p{
 }
 
 .img-banner img{
-    aspect-ratio: 1200 / 500; /* Ajusta a proporção para mobile */
+    aspect-ratio: 600 / 340; /* Ajusta a proporção era 800x450*/
+    
 }
 
-
-.img-banner img{
-   min-height: 500px;
-    width: 100%;
-    height: 500px;    
+.img-banner {
+  width: 70%; /* ou defina por exemplo 600px */
+  margin-left: 30px;
+  display: block;
+  
 }
-.img-banner-index img{
-       
-    width: 100%;
-    height: auto;
+
+.img-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+   border: 3px solid #989797; /* cinza claro */
+   box-sizing: border-box; /* garante que a borda não ultrapasse o tamanho da imagem */
+}
+
+.img-banner figcaption {
+  width: 100%;
+  margin: 0;          /* remove margem padrão */
+     /* espaçamento interno opcional */
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;   /* garante que o texto começa da esquerda */
+  color: #030303;
+  background-color: transparent; /* opcional: pode usar cor clara se quiser destaque */
 }
 
 

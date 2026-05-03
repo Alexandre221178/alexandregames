@@ -1,0 +1,332 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "tempus",
+      "name": "Tempus",
+      "gender": "male",
+      "role": ["Support"],
+      "main_class": "Support",
+      "position": "Middle Line",
+      "main_stat": "Intelligence",
+      "equipment_rank": 16,
+      "how_to_get_soul_stones": "",
+      "synergy": "Iris, Corvus, Phobos, Kayla, Aidan",
+      "hydra_tier_list": "",
+      "hero_tier_list": "",
+      "faction": "Way of Eternity",
+      "lore": "When you know all the secrets of the past and the future, life becomes awfully boring. Who's ready to play a game with Tempus?",
+      "relic_note": "Think Tempus is already great? He is, but with his new Relic, he becomes legendary! More control, more damage, more debuffs - and victory is guaranteed!",
+      "realm": {
+        "buff_spearmen": "attack/defense +120%",
+        "skills": [],
+        "note": "Realm Skills not available"
+      },
+      "stats": {
+        "talisman_of_everlastingness": {
+          "intelligence": 18016,
+          "agility": 2832,
+          "strength": 4239,
+          "health": 900348,
+          "physical_attack": 35488,
+          "magic_attack": 195705,
+          "armor": 72295.5,
+          "magic_defense": 58471.9,
+          "toughness": 0
+        },
+        "talisman_of_punctuality": {
+          "intelligence": 16016,
+          "agility": 2832,
+          "strength": 4239,
+          "health": 1081848,
+          "physical_attack": 33488,
+          "magic_attack": 189705,
+          "armor": 49525.5,
+          "magic_defense": 56471.9,
+          "toughness": 6571
+        }
+      },
+      "talisman_details": {
+        "talisman_of_everlastingness": {
+          "level": 50,
+          "main_stat": "Intelligence",
+          "main_stat_bonus": 2000,
+          "reroll_slots": [
+            { "stat": "Armor", "value": 6600 },
+            { "stat": "Armor", "value": 6600 },
+            { "stat": "Armor", "value": 6600 }
+          ],
+          "total_reroll_bonus": { "stat": "Armor", "value": 19800 }
+        },
+        "talisman_of_punctuality": {
+          "level": 50,
+          "main_stat": "Toughness",
+          "main_stat_bonus": 4000,
+          "reroll_slots": [
+            { "stat": "Health", "value": 60500 },
+            { "stat": "Health", "value": 60500 },
+            { "stat": "Health", "value": 60500 }
+          ],
+          "total_reroll_bonus": { "stat": "Health", "value": 181500 }
+        },
+        "recommended": "talisman_of_everlastingness"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "Chronostasis",
+          "type": ["Debuff", "Control"],
+          "keywords": ["Debuff", "Control"],
+          "animation_delay_seconds": 1.0,
+          "duration_seconds": 2.5,
+          "armor_magic_defense_reduction_formula": "13% Mag.atk. + 1800",
+          "armor_magic_defense_reduction_example": 18851.19,
+          "description": "Stops time for all enemy Heroes. For 2.5 seconds they cannot use skills, move, or dodge attacks, and their Armor and Magic Defence are reduced by 18851.19 (13% Mag.atk. + 1800). For the duration of this skill, the cooldown of all enemy skills that have it will be frozen. This skill increases the duration of all Curses and Debuffs cast on the enemies.",
+          "evolution_priority": "Very High"
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 120,
+          "name": "Withering",
+          "type": ["Debuff"],
+          "keywords": ["Debuff"],
+          "initial_cooldown_seconds": 8,
+          "cooldown_seconds": 12,
+          "animation_delay_seconds": 1.0,
+          "duration_seconds": 6.0,
+          "area": 200,
+          "range": 3000,
+          "physical_attack_reduction_formula": "10% Mag.atk. + 4800",
+          "physical_attack_reduction_example": 17916.3,
+          "max_health_reduction_formula": "60% Mag.atk. + 9000",
+          "max_health_reduction_example": 87697.8,
+          "description": "Weakens distant opponents in front of him for 6.0 seconds. Weakened enemies lose 17916.3 (10% Mag.atk. + 4800) Physical Attack and 87697.8 (60% Mag.atk. + 9000) max Health.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 2,
+          "variant": "legendary",
+          "relic_level": 10,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 2
+          },
+          "name": "Withering",
+          "keywords": ["Debuff"],
+          "effect": "Now also debuffs all enemies in front of him.",
+          "description": "Now also debuffs all enemies in front of him.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 100,
+          "name": "Temporal Anomaly",
+          "type": ["Damage over time", "Control"],
+          "keywords": ["Damage over time"],
+          "initial_cooldown_seconds": 1,
+          "cooldown_seconds": 14,
+          "animation_delay_seconds": 0.7,
+          "duration_seconds": 5.0,
+          "range": 3000,
+          "slow_percent": 25,
+          "energy_drain_per_second": 50,
+          "magic_damage_per_second_formula": "15% Mag.atk. + 2400",
+          "magic_damage_per_second_example": 22074.45,
+          "target": "Enemy Hero with the highest Armor Penetration",
+          "description": "Sends the enemy Hero with the highest Armor Penetration into the Temporal Anomaly for 5.0 seconds. The target is slowed down by 25%, losing 50 energy and receiving 22074.45 (15% Mag.atk. + 2400) magic damage per second.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "level": 80,
+          "name": "Time Paradox",
+          "type": ["Buff"],
+          "keywords": ["Buff"],
+          "cooldown_seconds": 16,
+          "animation_delay_seconds": 1.0,
+          "duration_seconds": 4.0,
+          "area": 270,
+          "range": 3000,
+          "ally_speed_increase_percent": 10,
+          "enemy_speed_decrease_percent": 10,
+          "max_health_increase_formula": "70% Mag.atk. + 9600",
+          "max_health_increase_example": 101414.1,
+          "description": "For 4.0 seconds, conjures a huge Clock in the center of the arena. Enemies in range of the Clock are slowed down, while allies are sped up by 10%. Affected allies' max Health is also increased by 101414.1 (70% Mag.atk. + 9600).",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 4,
+          "variant": "legendary",
+          "relic_level": 20,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 4
+          },
+          "name": "Time Paradox",
+          "keywords": ["Buff", "Magic Damage"],
+          "effect": "Now all enemies in the skill's area take magic damage every 1 second.",
+          "magic_damage_formula": "40% Mag.atk. + 6000",
+          "damage_interval_seconds": 1.0,
+          "description": "Now all enemies in the skill's area take magic damage every 1 second. Magic damage: (40% Mag.atk. + 6000).",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Chrono Field",
+          "type": ["Buff", "Magic Penetration"],
+          "keywords": ["Buff"],
+          "trigger_interval_seconds": 15,
+          "duration_seconds": 4.0,
+          "magic_penetration_formula": "20% Mag.atk.",
+          "description": "Every 15 seconds creates an aura around Tempus for 4.0 seconds, increasing Magic Penetration for him and all allies within the area.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Time Rebound",
+          "type": ["Passive", "Counter-Control"],
+          "keywords": ["Passive"],
+          "trigger": "Enemy inflicts a Control effect on Tempus",
+          "duration_seconds": 2.5,
+          "effect": "Applies the Chronostasis skill for 2.5 seconds to the enemy that inflicts a Control effect on Tempus.",
+          "description": "Applies the Chronostasis skill for 2.5 seconds to the enemy that inflicts a Control effect on Tempus.",
+          "evolution_priority": "High"
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default Skin",
+          "stat": "Intelligence",
+          "bonus": 1365,
+          "evolution_priority": "Medium"
+        },
+        {
+          "name": "Stellar Skin",
+          "stat": "Magic Attack",
+          "bonus": 10650,
+          "evolution_priority": "Very High"
+        },
+        {
+          "name": "Lunar Skin",
+          "stat": "Health",
+          "bonus": 106645,
+          "evolution_priority": "High"
+        },
+        {
+          "name": "Angel Skin",
+          "stat": "Armor",
+          "bonus": 21300,
+          "evolution_priority": "High"
+        },
+        {
+          "name": "Cybernetic Skin+",
+          "stat": "Magic Attack",
+          "bonus_skin_plus": 10650,
+          "note": "Skin+ available during the Cybernetic Skin+ event.",
+          "evolution_priority": "Very High"
+        },
+        {
+          "name": "Jade Flame Skin",
+          "stat": "Magic Defense",
+          "bonus": 10650,
+          "evolution_priority": "High"
+        }
+      ],
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Chronowheel",
+          "activation_chance": 100,
+          "magic_attack": 32040,
+          "evolve": 6,
+          "level": 100
+        },
+        {
+          "slot": "Book",
+          "name": "Tome of Arcane Knowledge",
+          "magic_attack": 10680,
+          "health": 53394,
+          "evolve": 6,
+          "level": 100
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Intelligence",
+          "intelligence": 3990,
+          "evolve": 6,
+          "level": 100
+        }
+      ],
+      "class_skill": {
+        "class": "Support",
+        "overall_class_level": "585/585",
+        "trigger": "On damage to opponent or buff on allies",
+        "duration_seconds": 4.0,
+        "max_stacks": 5,
+        "armor_magic_defense_phys_formula": "1% Phys.atk. + 2925",
+        "armor_magic_defense_phys_example": 3279.88,
+        "armor_magic_defense_mag_formula": "1% Mag.atk. + 2925",
+        "armor_magic_defense_mag_example": 4236.63,
+        "effect": "Each time when dealing damage to an opponent or using a buff on allies, it applies an effect to all enemies for 4.0 seconds that reduces armor and magic defense by 3279.88 (1% Phys.atk. + 2925) or 4236.63 (1% Mag.atk. + 2925) depending on which of the Support hero's stats is higher. A character cannot have more than 5 effects at the same time."
+      },
+      "glyphs": [
+        {
+          "name": "Magic Attack",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "name": "Health",
+          "level": 80,
+          "bonus": 122800
+        },
+        {
+          "name": "Magic Defense",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "name": "Armor",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "name": "Intelligence",
+          "level": 80,
+          "bonus": 2110
+        }
+      ],
+      "gift_of_elements": {
+        "level": 30,
+        "strength": 360,
+        "agility": 360,
+        "intelligence": 720
+      },
+      "counters": [],
+      "synergies": [],
+      "notes": [
+        "Has tremendous synergy with the Way of Eternity faction, Phobos, Iris, Corvus, and Morrigan.",
+        "Tempus is excellent in battle by controlling the flow of time on the battlefield.",
+        "Great synergy with Kayla and Aidan: Tempus increases max Health for all allies, boosting Aidan's Phoenix Ritual which scales with allies' maximum Health. Burning Heroes receive damage over time equal to their bonus Health for 8.0 seconds. If allied Kayla is dead, she will be resurrected.",
+        "Talisman of Everlastingness is recommended for offensive/control builds, boosting Intelligence (main stat) and Armor for survivability.",
+        "Talisman of Punctuality is recommended for tankier builds that prioritize maximum Health and Toughness.",
+        "Think Tempus is already great? He is, but with his new Relic, he becomes legendary! More control, more damage, more debuffs - and victory is guaranteed!"
+      ]
+    }
+  ]
+}

@@ -7,6 +7,10 @@
 */
 // ── May #, 2026 ──────────────────────────────
 window.HWDE_GIFTS = [
+// ── May #, 2026 ──────────────────────────────
+{ date:'2026-05-03', type:'link', giftId:'Pru5YXXww5', note:'until|2026-05-06T02:00:00Z',
+  rewards:['energy x500'] },
+
   // ── May 2, 2026 ──────────────────────────────
 { date:'2026-05-02', type:'link', giftId:'b9b92d337c2f8d92e36e211d7fdd2ab7', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },
