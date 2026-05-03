@@ -2,12 +2,17 @@
    { date:'2026-0#-##', type:'link', giftId:'######', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
 
+  { date:'2026-0#-##', type:'link', giftId:'#####', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },
+
 { date:'2026-05-##', type:'link', giftId:'#####', note:'until|2026-0#-##T02:00:00Z',
   rewards:['energy x500'] },
-*/
+  
 // ── May #, 2026 ──────────────────────────────
-window.HWDE_GIFTS = [
-// ── May #, 2026 ──────────────────────────────
+*/window.HWDE_GIFTS = [
+// ── May 3, 2026 ──────────────────────────────
+{ date:'2026-05-03', type:'link', giftId:'b111b43d230b0f959c08952fee140503', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },
 { date:'2026-05-03', type:'link', giftId:'Pru5YXXww5', note:'until|2026-05-06T02:00:00Z',
   rewards:['energy x500'] },
 
