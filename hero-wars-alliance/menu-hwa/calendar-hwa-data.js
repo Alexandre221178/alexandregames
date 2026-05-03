@@ -52,7 +52,7 @@ window.CALENDAR_DATA = [
       
 {
   titles: { en: "Tempus Guide: Jade Flame Skin", de: "Lian Leitfaden", es: "Guía de Tempus: Skin de Llama de Jade", fr: "Guide Tempus : Skin Flamme de Jade", pt: "Guia do Tempus: Skin de Chama de Jade", ja: "テンパスガイド：ジェイドフレイムスキン" },
-  links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/tempus-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/Guia de Heróis Hero Wars/tempus-pt-hwa.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/tempus-pt.html", ja: "" },       
   noStrip: true
 },  
 {// Dentro de extra[] de um evento:
@@ -80,7 +80,7 @@ window.CALENDAR_DATA = [
     extra: [
        {
   titles: { en: "Tempus Guide: Jade Flame Skin", de: "Lian Leitfaden", es: "Guía de Tempus: Skin de Llama de Jade", fr: "Guide Tempus : Skin Flamme de Jade", pt: "Guia do Tempus: Skin de Chama de Jade", ja: "テンパスガイド：ジェイドフレイムスキン" },
-  links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/tempus-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/Guia de Heróis Hero Wars/tempus-pt-hwa.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/tempus-pt.html", ja: "" },       
   noStrip: true
 },  
       
@@ -107,7 +107,7 @@ window.CALENDAR_DATA = [
     extra: [
       {
   titles: { en: "Tempus Guide: Jade Flame Skin", de: "Lian Leitfaden", es: "Guía de Tempus: Skin de Llama de Jade", fr: "Guide Tempus : Skin Flamme de Jade", pt: "Guia do Tempus: Skin de Chama de Jade", ja: "テンパスガイド：ジェイドフレイムスキン" },
-  links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/tempus-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/Guia de Heróis Hero Wars/tempus-pt-hwa.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/tempus-pt.html", ja: "" },       
   noStrip: true
 },  
             {// Dentro de extra[] de um evento:
@@ -588,7 +588,7 @@ window.CALENDAR_DATA = [
     extra: [   
       {
   titles: { en: "Tempus Guide", de: "Lian Leitfaden", es: "Guía de Tempus", fr: "Guide Tempus", pt: "Guia do Tempus", ja: "テンパスのガイド" },
-  links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/tempus-en-hwa.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-eternity-pt.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-eternity-pt.html", ja: "" },       
   noStrip: true
 },  
 {
@@ -608,7 +608,7 @@ window.CALENDAR_DATA = [
     extra: [   
       {
   titles: { en: "Tempus Guide", de: "Lian Leitfaden", es: "Guía de Tempus", fr: "Guide Tempus", pt: "Guia do Tempus", ja: "テンパスのガイド" },
-  links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/tempus-en-hwa.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-eternity-pt.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-eternity-pt.html", ja: "" },       
   noStrip: true
 },  
 {
@@ -627,7 +627,7 @@ window.CALENDAR_DATA = [
     extra: [   
       {
   titles: { en: "Tempus Guide", de: "Lian Leitfaden", es: "Guía de Tempus", fr: "Guide Tempus", pt: "Guia do Tempus", ja: "テンパスのガイド" },
-  links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/tempus-en-hwa.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-eternity-pt.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/tempus-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-eternity-pt.html", ja: "" },       
   noStrip: true
 },  
 {
