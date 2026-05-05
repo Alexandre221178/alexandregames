@@ -1,6 +1,15 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
+    {
+      link: "/hero-wars-alliance/characters-guide/tempus-en.html",
+      src500: "/hero-wars-alliance/images/hero/tempus/tempus-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/tempus/tempus-400px.webp",
+      alt: "Tempus Legendary Skills Guide for Hero Wars Alliance",
+      title: "Tempus Guide for Hero Wars Alliance",
+      strong: "Guide: Tempus Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },
 {
       link: "/hero-wars-alliance/events-tips-hwa/electra-skin-plus-charisma-shop.html",
       src500: "../../hero-wars-alliance/images/events-tips-hwa/electra-jade-flame-skin-plus/electra-jade-flame-skin-plus-500px.webp",
@@ -28,15 +37,7 @@
       strong: "Guide Skin Jade Flame: Drayne Legendary Skills for Hero Wars Alliance",
       updated: "Updated: May, 2026."
     },
-    {
-      link: "/hero-wars-alliance/characters-guide/tempus-en.html",
-      src500: "/hero-wars-alliance/images/hero/tempus/tempus-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/tempus/tempus-400px.webp",
-      alt: "Tempus Legendary Skills Guide for Hero Wars Alliance",
-      title: "Tempus Guide for Hero Wars Alliance",
-      strong: "Guide: Tempus Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },
+    
 
     {
       link: "/hero-wars-alliance/review/damage-over-time-en.html",
