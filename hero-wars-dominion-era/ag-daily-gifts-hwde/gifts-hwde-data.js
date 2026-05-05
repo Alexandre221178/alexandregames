@@ -4,12 +4,15 @@
 
   { date:'2026-0#-##', type:'link', giftId:'#####', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },
-
+// ── May #, 2026 ──────────────────────────────
 { date:'2026-05-##', type:'link', giftId:'#####', note:'until|2026-0#-##T02:00:00Z',
   rewards:['energy x500'] },
   
 // ── May #, 2026 ──────────────────────────────
 */window.HWDE_GIFTS = [
+  // ── May 5, 2026 ──────────────────────────────
+{ date:'2026-05-05', type:'link', giftId:'uZHHmfMazu', note:'until|2026-05-09T02:00:00Z',
+  rewards:['energy x500'] },
   // ── May 4, 2026 ──────────────────────────────
    { date:'2026-05-04', type:'link', giftId:'76628bb805edae3e7543e7c3c5241bd4', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
