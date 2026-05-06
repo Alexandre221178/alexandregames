@@ -224,10 +224,36 @@
           }
         },
         {
-          "Kendle Notes1": "Kendle também tem sinergia com herois de dano físico como Yasmine skill 4 Unknow Toxin, ou Cleaver quando usa sua skill 2 Putrification que causa dano a si mesmo e causa dano puro no inimigos, nesse momento se o artefato de arma de Kendle estiver ativo com chance de dano critico para todo o time, ela fornece dano puro critico para aliados e Cleaver causa dano puro critico no aliados.",
-          
-          "Kendle Notes2": ""
-        }
+  "Kendle Synergy note1": "Kendle tem sinergia com heróis de dano físico como Yasmine (Unknown Toxin) e Cleaver (Putrification). Quando o artefato de arma de Kendle está ativo, concedendo chance de crítico ao time, danos puros desses aliados também podem causar crítico, aumentando muito o burst.",
+  
+  "Kendle Synergy Sacrifice": "Kendle possui forte sinergia geral com heróis que usam Sacrifice, pois aliados que perdem vida através de habilidades próprias ou de companheiros ativam seu estilo de jogo ofensivo e escalam comps agressivas.",
+
+  "Kendle Synergy Chaos": "A facção Chaos é uma das melhores para Kendle. Xe'Sha ativa vários efeitos de Sacrifice com Deadly Ray e Spiritual Power, drenando vida de aliados repetidamente. Lilith sacrifica vida antes de cada habilidade para ganhar Magic Attack, aumentando pressão constante. Dorian perde vida com Ancestors' Amulet e oferece sustain ao time, compensando o HP gasto. Aidan causa dano controlado nos aliados com Phoenix Ritual e Bonds of Fire, ativando múltiplas sinergias ao mesmo tempo. Equipes Chaos com Kendle costumam gerar alto dano explosivo e excelente escalabilidade.",
+
+  "Kendle Synergy Chaos XeSha": "Xe'Sha é uma das maiores sinergias individuais de Kendle. Deadly Ray e Spiritual Power drenam vida dos aliados repetidamente, ativando efeitos baseados em Sacrifice. Além disso, Xe'Sha ganha Magic Attack sempre que aliados perdem vida por habilidades aliadas, criando ciclo de scaling ofensivo.",
+
+  "Kendle Synergy Chaos Lilith": "Lilith sacrifica 5% da própria vida antes de cada skill quando acima de 25% HP. Isso combina perfeitamente com Kendle, pois gera ativações frequentes enquanto Lilith converte vida em Magic Attack, tornando-se uma carry explosiva.",
+
+  "Kendle Synergy Chaos Dorian": "Dorian sacrifica 20% da própria vida com Ancestors' Amulet para curar aliados. Isso ativa sinergias de Sacrifice enquanto ao mesmo tempo fornece sustain para compensar o custo de vida da equipe. Excelente parceiro para comps longas.",
+
+  "Kendle Synergy Chaos Aidan": "Aidan é um dos melhores parceiros de Kendle. Phoenix Ritual sacrifica sua própria vida e coloca queimadura nos aliados após aumentar HP. Bonds of Fire também drena vida dos aliados mais saudáveis. Isso cria múltiplos gatilhos de Sacrifice enquanto mantém o time escalando em vida.",
+
+  "Kendle Synergy Chaos Cleaver": "Cleaver usa Putrification causando dano a si mesmo e dano puro nos inimigos. Com o artefato de Kendle ativo, esse dano puro pode causar crítico, transformando Cleaver em ameaça ainda maior.",
+
+  "Kendle Synergy Yasmine": "Yasmine tem ótima sinergia ofensiva com Kendle graças ao foco em crítico. Unknown Toxin e ataques físicos rápidos aproveitam buffs de crítico, ampliando execuções rápidas.",
+
+  "Kendle Synergy Jhu": "Jhu perde 2% da própria vida a cada ataque em I Will Take Your Life para causar dano puro adicional baseado no HP atual do inimigo. Isso encaixa perfeitamente no estilo Sacrifice de Kendle e gera pressão constante contra tanks.",
+
+  "Kendle Synergy Magic Crit": "Heróis focados em Magic Crit como Polaris, Folio e Miu também funcionam bem com Kendle em composições híbridas. Se Kendle fornece pressão e buffs corretos, esses heróis escalam muito no burst mágico.",
+
+  "Kendle Synergy Polaris": "Polaris se beneficia de composições que aumentam burst mágico e crítico mágico, podendo aproveitar janelas ofensivas abertas por Kendle.",
+
+  "Kendle Synergy Folio": "Folio combina com Kendle em equipes de dano mágico crítico, especialmente quando o objetivo é eliminar rapidamente backline inimiga.",
+
+  "Kendle Synergy Miu": "Miu pode aproveitar times focados em Magic Crit com Kendle, adicionando dano complementar e pressão rápida.",
+
+  "Kendle Best Teams": "Os melhores times para Kendle tendem a seguir dois caminhos: Chaos Sacrifice (Kendle, Xe'Sha, Aidan, Dorian, Lilith/Cleaver) ou Crítico Híbrido (Kendle, Yasmine/Jhu, Polaris/Folio, tank, suporte)."
+}
       ]
 
       
