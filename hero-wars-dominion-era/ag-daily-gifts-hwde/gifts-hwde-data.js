@@ -10,6 +10,9 @@
   
 // ── May #, 2026 ──────────────────────────────
 */window.HWDE_GIFTS = [
+   // ── May 6, 2026 ──────────────────────────────
+     { date:'2026-05-06', type:'link', giftId:'842a45d87d69fb59f9619f37741afd5f', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
   // ── May 5, 2026 ──────────────────────────────
   { date:'2026-05-05', type:'link', giftId:'87f7270c15a6111a6f5e0e7d6ff57f0d', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
