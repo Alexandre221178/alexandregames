@@ -1,0 +1,229 @@
+﻿{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "kendle",
+      "name": "Kendle",
+      "gender": "female",
+      "role": ["Mage", "Damage"],
+      "main_class": "Mage",
+      "position": "Back Line",
+      "main_stat": "Intelligence",
+      "faction": "Way of Chaos",
+      "realm_skills_available": false,
+      "realm_buff_troops": "Spearmen attack/defense 120%",
+      "note": "Tortures herself and her allies, enhancing damage, attacks enemies with pure damage, and empowers Critical Hits.",
+      "lore": "Kendle turns pain into destructive power. Her magic burns both friends and foes, empowering the former and torturing the latter. The closer she is to death, the more dangerous her flame becomes. Turns pain into pure damage.",
+      "stats": {
+        "talisman_of_torture": {
+          "intelligence": 14384,
+          "agility": 2296,
+          "strength": 2968,
+          "health": 721988,
+          "physical_attack": 25030,
+          "magic_attack": 155363,
+          "armor": 19543.7,
+          "magic_defense": 24427,
+          "magical_crit_hit_chance": 5418
+        },
+        "talisman_2": null,
+        "talisman_2_note": "2nd talisman max stats not available yet"
+      },
+      "talisman_details": {
+        "talisman_of_torture": {
+          "main_stat": "Intelligence",
+          "main_stat_bonus": 2000,
+          "derived_bonuses": {
+            "magic_attack": 6000,
+            "magic_defense": 2000,
+            "physical_attack": 2000
+          },
+          "reroll_slots": [
+            { "stat": "Armor", "value": 6600 },
+            { "stat": "Armor", "value": 6600 },
+            { "stat": "Armor", "value": 6600 }
+          ],
+          "total_reroll_bonus": { "stat": "Armor", "value": 19800 }
+        },
+        "talisman_2_available": false,
+        "recommended": "talisman_of_torture"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "Lava Kiss",
+          "type": ["Magic Damage", "Pure Damage", "Sacrifice"],
+          "can_upgrade_to_legendary": true,
+          "keywords": ["Sacrifice"],
+          "magic_damage_formula": "150% Mag. atk. + 30000",
+          "pure_damage_formula": "50% Mag. atk. + 12000",
+          "description": "Attacks the enemy with the lowest Health, dealing magic damage. While Kendle's Health is above 30%, she deals pure damage to the target every second, sacrificing 10% of her own health points. The skill ends when the target dies."
+        },
+        {
+          "id": 1,
+          "variant": "legendary",
+          "relic_level": 10,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 1
+          },
+          "name": "Lava Kiss",
+          "keywords": ["Sacrifice"],
+          "magical_crit_hit_chance_increase_formula": "20% Mag. atk. + 4800",
+          "description": "Before activating the skill, restores 30% of her health points and increases her Magical crit hit chance."
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 120,
+          "name": "Sweet Torture",
+          "type": ["Buff"],
+          "keywords": ["Buff"],
+          "magical_crit_hit_chance_increase_formula": "40% Mag. atk. + 6000",
+          "description": "Increases Magical crit hit chance for herself and all allies who have taken damage from their own or allied skills since the last use of this skill."
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 100,
+          "name": "Friendly Fire",
+          "type": ["Pure Damage", "Sacrifice"],
+          "keywords": ["Sacrifice"],
+          "pure_damage_formula": "20% Mag. atk. + 4800",
+          "description": "Ignites the ally with the highest percentage of max Health, causing them to lose 5% of their health points per second. Whenever the burning ally attacks an enemy, Kendle deals pure damage to their target. The effect ends when the ally's health points drop below 40%. This skill cannot be applied to already burning hero."
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "level": 80,
+          "name": "Purge by Pain",
+          "type": ["Pure Damage", "Sacrifice"],
+          "keywords": ["Sacrifice"],
+          "pure_damage_formula": "20% Health + 9000",
+          "critical_pure_damage_multiplier": "200%",
+          "description": "If Kendle has more than 30% health points, her basic attacks consume 5% of her Health and deal pure damage. Her pure damage can now become critical. The chance depends on her Magical crit hit chance."
+        },
+        {
+          "id": 4,
+          "variant": "legendary",
+          "relic_level": 20,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 4
+          },
+          "name": "Purge by Pain",
+          "keywords": ["Sacrifice"],
+          "critical_pure_damage_multiplier": "200%",
+          "description": "Allies' pure damage can now become critical. The chance depends on Magical crit hit chance."
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Agony Surge",
+          "type": ["Pure Damage", "Sacrifice"],
+          "keywords": ["Sacrifice"],
+          "pure_damage_formula": "250% of self-inflicted damage",
+          "trigger_interval_seconds": 10.0,
+          "description": "If Kendle has more than 30% health points, every 10.0 seconds she deals 10% damage to herself and attacks a ranged enemy with pure damage. If she has less than 30% health points, every 10.0 seconds she restores 10% Health."
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Reaping Hour",
+          "type": ["Pure Damage", "Buff"],
+          "pure_damage_increase_percent": 10,
+          "duration_seconds": 3.0,
+          "description": "For 3.0 seconds, increases her pure damage each time allies take damage from their own or allied skills."
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default Skin",
+          "stat": "Intelligence",
+          "bonus": 1365,
+          "derived_bonuses": {
+            "magic_attack": 4095,
+            "magic_defense": 1365,
+            "physical_attack": 1365
+          }
+        },
+        {
+          "name": "Blazing Skin+",
+          "stats_available": false,
+          "is_skin_plus": true
+        },
+        {
+          "name": "Angel Skin",
+          "stats_available": false
+        }
+      ],
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Lord Beholder",
+          "activation_chance": 100,
+          "effect": "Magical crit hit chance bonus",
+          "magical_crit_hit_chance": 8898
+        },
+        {
+          "slot": "Book",
+          "name": "Torture Secrets",
+          "magical_crit_hit_chance": 2967,
+          "health": 53394
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Intelligence",
+          "intelligence": 3990,
+          "derived_bonuses": {
+            "magic_attack": 11970,
+            "magic_defense": 3990,
+            "physical_attack": 3990
+          }
+        }
+      ],
+      "glyphs": [
+        {
+          "name": "Magic Attack",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "name": "Magic Defense",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "name": "Health",
+          "level": 80,
+          "bonus": 122800
+        },
+        {
+          "name": "Magical Crit Hit Chance",
+          "level": 80,
+          "bonus": 4170
+        },
+        {
+          "name": "Intelligence",
+          "level": 80,
+          "bonus": 2110,
+          "derived_bonuses": {
+            "magic_attack": 6330,
+            "magic_defense": 2110,
+            "physical_attack": 2110
+          }
+        }
+      ]
+    }
+  ]
+}
