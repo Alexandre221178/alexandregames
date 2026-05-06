@@ -11,6 +11,8 @@
 // ── May #, 2026 ──────────────────────────────
 */window.HWDE_GIFTS = [
   // ── May 5, 2026 ──────────────────────────────
+  { date:'2026-05-05', type:'link', giftId:'87f7270c15a6111a6f5e0e7d6ff57f0d', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
 { date:'2026-05-05', type:'link', giftId:'uZHHmfMazu', note:'until|2026-05-09T02:00:00Z',
   rewards:['energy x500'] },
   // ── May 4, 2026 ──────────────────────────────
