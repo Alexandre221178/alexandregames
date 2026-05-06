@@ -6,6 +6,9 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+    // ── May 0, 2026 ──────────────────────────────
+ { date:'2026-05-06', type:'daily', mission:'3-9', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
     // ── May 5, 2026 ──────────────────────────────
  { date:'2026-05-05', type:'daily', mission:'2-11', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },

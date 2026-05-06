@@ -222,8 +222,15 @@
             "magic_defense": 2110,
             "physical_attack": 2110
           }
+        },
+        {
+          "Kendle Notes1": "Kendle também tem sinergia com herois de dano físico como Yasmine skill 4 Unknow Toxin, ou Cleaver quando usa sua skill 2 Putrification que causa dano a si mesmo e causa dano puro no inimigos, nesse momento se o artefato de arma de Kendle estiver ativo com chance de dano critico para todo o time, ela fornece dano puro critico para aliados e Cleaver causa dano puro critico no aliados.",
+          
+          "Kendle Notes2": ""
         }
       ]
+
+      
     }
   ]
 }
