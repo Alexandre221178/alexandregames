@@ -7,9 +7,13 @@
 // ── May #, 2026 ──────────────────────────────
 { date:'2026-05-##', type:'link', giftId:'#####', note:'until|2026-0#-##T02:00:00Z',
   rewards:['energy x500'] },
-  
+ 
 // ── May #, 2026 ──────────────────────────────
 */window.HWDE_GIFTS = [
+// ── May 7, 2026 ──────────────────────────────
+{ date:'2026-05-07', type:'link', giftId:'3WUHe5nf44', note:'until|2026-05-14T02:00:00Z',
+  rewards:['energy-crystal x24', 'valor-coin x12500', 'sapphire-medallion x2'] },
+
    // ── May 6, 2026 ──────────────────────────────
      { date:'2026-05-06', type:'link', giftId:'842a45d87d69fb59f9619f37741afd5f', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
@@ -31,56 +35,44 @@
   rewards:['energy x500'] },
 
   // ── May 2, 2026 ──────────────────────────────
-{ date:'2026-05-02', type:'link', giftId:'b9b92d337c2f8d92e36e211d7fdd2ab7', note:'level',
-  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },
    
 { date:'2026-05-02', type:'link', giftId:'v3QvqRi19w', note:'until|2026-05-05T02:00:00Z',
   rewards:['energy x500'] },
   
 // ── May 1, 2026 ──────────────────────────────
- { date:'2026-05-01', type:'link', giftId:'2eb1094a84bcb835795395ab0037dcb1', note:'level',
-  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },  
+ 
 { date:'2026-05-01', type:'link', giftId:'3b4znNd28S', note:'until|2026-05-06T02:00:00Z',
   rewards:['energy x500'] },
    // ── April 30, 2026 ──────────────────────────────
-    { date:'2026-04-30', type:'link', giftId:'ebae9d7190b6e4064e74fd636924efd4', note:'level',
-  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
+   
    { date:'2026-04-30', type:'link', giftLinkWeb:'https://herowars.me/49iwkHL', giftLinkFb:'https://herowars.me/4sXSMgl', note:'until|2026-05-03T02:00:00Z',
   rewards:['energy x500'] },
 
    // ── April 29, 2026 ──────────────────────────────
-    { date:'2026-04-29', type:'link', giftId:'fafe27f0ffaac9002ad9925c45e5e836', note:'level',
-  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
+   
    { date:'2026-04-29', type:'link', giftId:'RMYJpNlZIz', note:'until|2026-05-01T02:00:00Z',
   rewards:['energy-crystal x16', 'valor-coin x8000', 'sapphire-medallion x1'] },
 
    // ── April 28 2026 ──────────────────────────────
-   { date:'2026-04-28', type:'link', giftId:'6e672da8b559d4eeee558877e5133247', note:'level',
-  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
+   
 { date:'2026-04-28', type:'link', giftId:'0mpZXpBGQO', note:'until|2026-05-01T02:00:00Z',
   rewards:['energy x500'] },
 // ── April 27, 2026 ──────────────────────────────  
-{ date:'2026-04-27', type:'link', giftId:'1f22f4d868d7fd02bf805848212a8054', note:'level',
-  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
+
 { date:'2026-04-27', type:'link', giftId:'ZlXEEbNf6b', note:'until|2026-05-01T02:00:00Z',
   rewards:['energy-crystal x16', 'valor-coin x8500', 'sapphire-medallion x2'] },
 
 // ── April 26, 2026 ──────────────────────────────
-   { date:'2026-04-26', type:'link', giftId:'4ce24f8f1543cb9233fb412501d1a6c6', note:'level',
-  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },   
+ 
 { date:'2026-04-26', type:'link', giftId:'4SJmySx3PQ', note:'until|2026-04-30T02:00:00Z',
   rewards:['energy x500'] },
 
 // ── April 25, 2026 ──────────────────────────────
-{ date:'2026-04-25', type:'link', giftId:'a520aa51d39ee8fcefd22529e24ee4c4', note:'level',
-  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },
 
 { date:'2026-04-25', type:'link', giftId:'YfHETvcQ6t', note:'until|2026-04-28T02:00:00Z',
   rewards:['energy x500'] },
 
 // ── April 24, 2026 ──────────────────────────────
-{ date:'2026-04-24', type:'link', giftId:'8071832e9246a44b2422c7c88a94cca8', note:'level',
-  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
 
 { date:'2026-04-24', type:'link', giftId:'rfyo8vd5kT', note:'until|2026-05-01T02:00:00Z',
   rewards:['energy-crystal x16', 'valor-coin x8500', 'sapphire-medallion x2', 'energy x500'] },

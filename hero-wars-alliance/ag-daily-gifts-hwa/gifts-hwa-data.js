@@ -6,21 +6,19 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+// ── May #, 2026 ──────────────────────────────
+ { date:'2026-05-07', type:'daily', mission:'2-5', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+
     // ── May 0, 2026 ──────────────────────────────
  { date:'2026-05-06', type:'daily', mission:'3-9', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-    // ── May 5, 2026 ──────────────────────────────
- { date:'2026-05-05', type:'daily', mission:'2-11', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+   
+ 
     // ── May 4, 2026 ──────────────────────────────
     { date:'2026-05-04', type:'special', mission:'2-12', note:'until|2026-05-11T01:00:00Z',
     rewards:['artifact-chest-key x5', 'adventure-coin x1000', 'energy x20'] },
- { date:'2026-05-04', type:'daily', mission:'3-8', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-// ── May 3, 2026 ──────────────────────────────
- { date:'2026-05-03', type:'daily', mission:'3-5', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-
+ 
     // ── May 2, 2026 ──────────────────────────────
 { date:'2026-05-02', type:'hub', code:'JADEFLAME', note:'until|2026-05-11T01:00:00Z',
       rewards:['summoning-sphere x5', 'gold 250k', 'energy x20'] },
@@ -42,31 +40,20 @@ rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
     // ── April 30, 2026 ──────────────────────────────
    { date:'2026-04-30', type:'special', mission:'2-3', note:'until|2026-05-11T01:00:00Z',
     rewards:['adventure-coin x1000', 'energy x100'] },
-    { date:'2026-04-30', type:'daily', mission:'2-8', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+    
 
 // ── April 29, 2026 ──────────────────────────────
     { date:'2026-04-29', type:'hub', code:'SPRING26', note:'until|2026-05-06T09:00:00Z',
      rewards:['energy x750', 'emeralds x500', 'small-skin-stone-chest x10'] },
-{ date:'2026-04-29', type:'daily', mission:'3-12', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
-// ── April #, 2026 ──────────────────────────────
-{ date:'2026-04-28', type:'daily', mission:'2-14', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
 // ── April 27, 2026 ──────────────────────────────
 { date:'2026-04-27', type:'special', mission:'3-2', note:'until|2026-05-11T01:00:00Z',
     rewards:[ 'energy x100', 'avatar x1'] },   
-{ date:'2026-04-27', type:'daily', mission:'3-4', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
    
 // ── April 26, 2026 ──────────────────────────────
 { date:'2026-04-26', type:'special', mission:'Issue fixed.(3-13)', note:'until|2026-05-11T01:00:00Z',
     rewards:['seers-orb x50', 'coin-of-luck x1', 'energy x20', 'avatar x1'] },
-
-{ date:'2026-04-26', type:'daily', mission:'2-12', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
   // ── April 25, 2026 ──────────────────────────────
 // ── Hub gft valid data true ──────────────────────────────
@@ -77,9 +64,7 @@ rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   // ── April 23, 2026 ──────────────────────────────
    { date:'2026-04-23', type:'hub', code:'TRY', note:'until|2026-05-11T02:00:00Z',
       rewards:['energy x100', 'large-skin-stone-chest x5'] },
-  { date:'2026-04-23', type:'daily', mission:'3-3', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-
+ 
   
   // ── April 21, 2026 ──────────────────────────────
 { date:'2026-04-21', type:'specialTask', mission:'2-4', note:'untilLevel|2026-05-11T01:00:00Z|15',
