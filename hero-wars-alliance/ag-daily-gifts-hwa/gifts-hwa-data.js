@@ -8,7 +8,9 @@ rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 window.HWA_GIFTS = [
    
 // ── May 7, 2026 ──────────────────────────────
-   // ── Hub gft valid data true ──────────────────────────────
+   // ── youtube live stream ──────────────────────────────
+   { date:'2026-05-07', type:'daily', mission:'2-7', note:'until|2026-05-10T05:00:00Z',
+rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
 { date:'2026-05-07', type:'hub', code:'KENDLEREVEAL', note:'until|2026-05-11T01:00:00Z',
       rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
  { date:'2026-05-07', type:'daily', mission:'2-5', note:'daily|80',
@@ -99,7 +101,7 @@ rewards:[ 'energy x100'] },
 
 // ── April 10, 2026 ──────────────────────────────
 { date:'2026-04-10', type:'special', mission:'2-9', note:'until|2026-05-11T05:00:00Z',
-    rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
+    rewards:[' x3', 'energy x100', 'realm-gift x3'] },
    
 
 // ── April 9, 2026 ──────────────────────────────
