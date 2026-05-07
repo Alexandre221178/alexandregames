@@ -10,8 +10,14 @@ function injectGiveawayContent() {
   const data = giveawayData[lang];
   const container = document.getElementById('giveaway-content');
 
+  if (!data || !container) return;
+
+  const rewards = Array.isArray(data.rewards) ? data.rewards : [];
+  const hasRewards = rewards.length > 0;
+  const heading = data.title || data.rewardsTitle || 'Giveaway';
+
   let html = `<div class="alexandre-tips">
-  <h2>${data.title}</h2>
+  <h2>${heading}</h2>
 <p>${data.para1}</p>
 <p>${data.para2}</p>
 <!--
@@ -29,39 +35,45 @@ function injectGiveawayContent() {
 <p>${data.para3}</p>
 <p>${data.para4}</p>
 <p>${data.para5}</p>
-<h3>${data.rewardsTitle}</h3>
+`;
+
+  if (hasRewards) {
+    html += `<h3>${data.rewardsTitle || 'Rewards'}</h3>
 <table class="event-table">
-<caption>${data.tableCaption}</caption>
+<caption>${data.tableCaption || ''}</caption>
   <thead>
     <tr>
       <th>Rewards</th>
       <th>Winners ID</th>
     </tr>
   </thead>
-  <tbody></div>`;
+  <tbody>`;
 
-  data.rewards.forEach(reward => {
-    let td1 = '';
-    if (reward.image) {
-      td1 = `<div class="reward-cell">
+    rewards.forEach(reward => {
+      let td1 = '';
+      if (reward.image) {
+        td1 = `<div class="reward-cell">
         <img src="${reward.image}" alt="${reward.item}" title="${reward.item} - Hero Wars Alliance" loading="lazy" width="64" height="64">
         <span>${reward.item}</span>
       </div>`;
-    } else if (reward.item === 'Total' || reward.item === 'Gesamt' || reward.item === '合計' || reward.item.includes('Total') || reward.item.includes('Gesamt') || reward.item.includes('合計')) {
-      td1 = `<strong>${reward.item}</strong>`;
-    } else if (reward.item === '') {
-      td1 = '';
-    } else {
-      td1 = `<strong>${reward.item}</strong>`;
-    }
-    html += `<tr${reward.item === 'Total' || reward.item === 'Gesamt' || reward.item === '合計' ? ' class="total-row"' : ''}>
+      } else if (reward.item === 'Total' || reward.item === 'Gesamt' || reward.item === '合計' || reward.item.includes('Total') || reward.item.includes('Gesamt') || reward.item.includes('合計')) {
+        td1 = `<strong>${reward.item}</strong>`;
+      } else if (reward.item === '') {
+        td1 = '';
+      } else {
+        td1 = `<strong>${reward.item}</strong>`;
+      }
+      html += `<tr${reward.item === 'Total' || reward.item === 'Gesamt' || reward.item === '合計' ? ' class="total-row"' : ''}>
       <td>${td1}</td>
       <td>${reward.winner_id ? reward.winner_id : ''}</td>
     </tr>`;
-  });
+    });
 
-  html += `  </tbody>
+    html += `  </tbody>
 </table>`;
+  }
+
+  html += `</div>`;
 
   container.innerHTML = html;
 }
