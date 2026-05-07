@@ -12,35 +12,33 @@ function injectGiveawayContent() {
 
   if (!data || !container) return;
 
-  const rewards = Array.isArray(data.rewards) ? data.rewards : [];
+  const announcement = data.announcement || data;
+  const giveaway = data.giveaway || data;
+  const announcementBlocks = [announcement.para1, announcement.para2, announcement.para3, announcement.para4, announcement.para5]
+    .filter(Boolean)
+    .map(content => `<div>${content}</div>`)
+    .join('');
+  const announcementTitle = announcement.title || announcement.heading;
+  const rewards = Array.isArray(giveaway.rewards) ? giveaway.rewards : [];
+  const hasAnnouncement = Boolean(announcementTitle || announcementBlocks.trim());
   const hasRewards = rewards.length > 0;
-  const heading = data.title || data.rewardsTitle || 'Giveaway';
 
-  let html = `<div class="alexandre-tips">
-  <h2>${heading}</h2>
-<p>${data.para1}</p>
-<p>${data.para2}</p>
-<!--
-<figure>
-  <picture>
-    <source media="(min-width: 768px)" srcset="../../hero-wars-dominion-era/images/guides/mysterious-island/april-map1-1200px.webp">
-    <img src="../../hero-wars-dominion-era/images/guides/mysterious-island/april-map1-800px.webp"
-         alt="Mysterious Island April Map 1 - Wallpaper"
-         title="Mysterious Island April Map 1 - Hero Wars Dominion Era"
-         loading="lazy"
-         width="100%">
-  </picture>
-  <figcaption>${data.figcaption}</figcaption>
-</figure>-->
-<p>${data.para3}</p>
-<p>${data.para4}</p>
-<p>${data.para5}</p>
-`;
+  if (!hasAnnouncement && !hasRewards) return;
+
+  let html = '';
+
+  if (hasAnnouncement) {
+    html += `<div class="alexandre-tips">
+  ${announcementTitle ? `<h2>${announcementTitle}</h2>` : ''}
+${announcementBlocks}
+</div>`;
+  }
 
   if (hasRewards) {
-    html += `<h3>${data.rewardsTitle || 'Rewards'}</h3>
+    html += `<div class="alexandre-tips giveaway-results">
+<h3>${giveaway.rewardsTitle || 'Rewards'}</h3>
 <table class="event-table">
-<caption>${data.tableCaption || ''}</caption>
+<caption>${giveaway.tableCaption || ''}</caption>
   <thead>
     <tr>
       <th>Rewards</th>
@@ -70,10 +68,9 @@ function injectGiveawayContent() {
     });
 
     html += `  </tbody>
-</table>`;
+</table>
+</div>`;
   }
-
-  html += `</div>`;
 
   container.innerHTML = html;
 }

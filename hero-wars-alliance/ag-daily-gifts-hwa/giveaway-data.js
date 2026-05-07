@@ -1,3 +1,37 @@
+/*
+Formato atual aceito:
+
+1) Legado, um bloco unico de aviso ou sorteio:
+{
+  en: {
+    title: '... ',
+    para1: '... ',
+    para2: '... ',
+    rewardsTitle: '... ',
+    tableCaption: '... ',
+    rewards: [{ item: '...', winner_id: '...', image: '...' }]
+  }
+}
+
+2) Novo formato, com secoes separadas:
+{
+  en: {
+    announcement: {
+      title: 'Promo / aviso',
+      para1: '... ',
+      para2: '... '
+    },
+    giveaway: {
+      rewardsTitle: 'Giveaway rewards',
+      tableCaption: 'Table: ...',
+      rewards: [{ item: '...', winner_id: '...', image: '...' }]
+    }
+  }
+}
+
+Se voce quiser manter este arquivo apenas para avisos, basta preencher announcement
+ou continuar usando title + para1..para5 sem rewards.
+*/
 const giveawayData = {
   pt: {
     title: "🔥 VENDA ANTECIPADA EXCLUSIVA: KENDLE CHEGOU! 🔥",
