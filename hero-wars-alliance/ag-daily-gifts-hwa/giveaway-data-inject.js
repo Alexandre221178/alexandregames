@@ -28,6 +28,7 @@ function injectGiveawayContent() {
 </figure>-->
 <p>${data.para3}</p>
 <p>${data.para4}</p>
+<p>${data.para5}</p>
 <h3>${data.rewardsTitle}</h3>
 <table class="event-table">
 <caption>${data.tableCaption}</caption>
