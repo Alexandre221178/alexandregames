@@ -2,6 +2,15 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
+      link: "/hero-wars-alliance/characters-guide/kendle-en.html",
+      src500: "/hero-wars-alliance/images/hero/kendle/kendle-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/kendle/kendle-400px.webp",
+      alt: "Kendle Legendary Skills Guide for Hero Wars Alliance",
+      title: "Kendle Guide for Hero Wars Alliance",
+      strong: "Guide: Kendle Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },
+    {
       link: "/hero-wars-alliance/characters-guide/tempus-en.html",
       src500: "/hero-wars-alliance/images/hero/tempus/tempus-500px.webp",
       src400: "/hero-wars-alliance/images/hero/tempus/tempus-400px.webp",
@@ -10,35 +19,7 @@
       strong: "Guide: Tempus Legendary Skills for Hero Wars Alliance",
       updated: "Updated: May, 2026."
     },
-{
-      link: "/hero-wars-alliance/events-tips-hwa/electra-skin-plus-charisma-shop.html",
-      src500: "../../hero-wars-alliance/images/events-tips-hwa/electra-jade-flame-skin-plus/electra-jade-flame-skin-plus-500px.webp",
-      src400: "../../hero-wars-alliance/images/events-tips-hwa/electra-jade-flame-skin-plus/electra-jade-flame-skin-plus-400px.webp",
-      alt: "Electra's Jade Flame Skin+ event in Hero Wars Alliance",
-      title: "Electra Jade Flame Skin+ Event - Hero Wars Alliance",
-      strong: "Guide - Electra Skin+: How to Get the Skin+? Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },    
-    {
-      link: "../../hero-wars-alliance/characters-guide/electra-en.html",
-      src500: "../../hero-wars-alliance/images/hero/electra/electra-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/electra/electra-400px.webp",
-      alt: "Electra Legendary Skills Guide for Hero Wars Alliance",
-      title: "Electra Guide for Hero Wars Alliance",
-      strong: "Guide Skin+: Electra Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/characters-guide/drayne-en.html",
-      src500: "../../hero-wars-alliance/images/hero/drayne/drayne-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/drayne/drayne-400px.webp",
-      alt: "Drayne Legendary Skills Guide for Hero Wars Alliance",
-      title: "Drayne Guide for Hero Wars Alliance",
-      strong: "Guide Skin Jade Flame: Drayne Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },
-    
-
+ 
     {
       link: "/hero-wars-alliance/review/damage-over-time-en.html",
       src500: "/hero-wars-alliance/images/review/damage-over-time-500px.webp",
@@ -96,15 +77,7 @@
       updated: "Updated: April, 2026."
     },
       
-    {
-      link: "../../hero-wars-alliance/characters-guide/miu-en.html",
-      src500: "../../hero-wars-alliance/images/hero/miu/miu-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/miu/miu-400px.webp",
-      alt: "Miu Legendary Skills Guide for Hero Wars Alliance",
-      title: "Miu Guide for Hero Wars Alliance",
-      strong: "Miu Legendary Guide Skills for Hero Wars Alliance",
-      updated: "Updated: March, 2026."
-    },
+    
 
     {
       link: "../../hero-wars-alliance/guide/books-of-boosters-en.html",
@@ -116,15 +89,7 @@
       updated: "Updated: April, 2026."
     },
     
-    {
-      link: "../../hero-wars-alliance/characters-guide/folio-en.html",
-      src500: "../../hero-wars-alliance/images/hero/folio/folio-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/folio/folio-400px.webp",
-      alt: "Folio Legendary Skills Guide for Hero Wars Alliance",
-      title: "Folio Guide for Hero Wars Alliance",
-      strong: "Folio: New Skin - Legendary Skills Guide for Hero Wars Alliance",
-      updated: "Updated: April, 2026."
-    },      
+       
 
     {
       link: "../../hero-wars-alliance/tier-list-hwa/realm-tier-list-en.html",

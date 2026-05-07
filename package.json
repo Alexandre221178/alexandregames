@@ -31,7 +31,8 @@
     "update-drayne-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide drayne",
     "update-electra-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide electra",
     "update-folio-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide folio",
-  
+    "update-kendle-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide kendle",
+
     "update-leonel-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide leonel",
     "update-lian-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide lian",
 

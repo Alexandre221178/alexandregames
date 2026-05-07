@@ -6,6 +6,42 @@
   // =====================================================
   var slides = [
     {
+      link: "../../hero-wars-alliance/characters-guide/electra-en.html",
+      src500: "../../hero-wars-alliance/images/hero/electra/electra-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/electra/electra-400px.webp",
+      alt: "Electra Legendary Skills Guide for Hero Wars Alliance",
+      title: "Electra Guide for Hero Wars Alliance",
+      strong: "Guide Skin+: Electra Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },
+    {
+      link: "../../hero-wars-alliance/characters-guide/drayne-en.html",
+      src500: "../../hero-wars-alliance/images/hero/drayne/drayne-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/drayne/drayne-400px.webp",
+      alt: "Drayne Legendary Skills Guide for Hero Wars Alliance",
+      title: "Drayne Guide for Hero Wars Alliance",
+      strong: "Guide Skin Jade Flame: Drayne Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },
+    {
+      link: "../../hero-wars-alliance/characters-guide/folio-en.html",
+      src500: "../../hero-wars-alliance/images/hero/folio/folio-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/folio/folio-400px.webp",
+      alt: "Folio Legendary Skills Guide for Hero Wars Alliance",
+      title: "Folio Guide for Hero Wars Alliance",
+      strong: "Folio: New Skin - Legendary Skills Guide for Hero Wars Alliance",
+      updated: "Updated: April, 2026."
+    },   
+    {
+      link: "../../hero-wars-alliance/characters-guide/miu-en.html",
+      src500: "../../hero-wars-alliance/images/hero/miu/miu-500px.webp",
+      src400: "../../hero-wars-alliance/images/hero/miu/miu-400px.webp",
+      alt: "Miu Legendary Skills Guide for Hero Wars Alliance",
+      title: "Miu Guide for Hero Wars Alliance",
+      strong: "Miu Legendary Guide Skills for Hero Wars Alliance",
+      updated: "Updated: March, 2026."
+    },
+    {
   link: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html",
   src500: "../../hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-500px.webp",
   src400: "../../hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-400px.webp",
