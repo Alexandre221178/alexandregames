@@ -2,7 +2,7 @@
 //para1: "A Ilha Misteriosa de março de 2026 traz desafios frescos e recompensas emocionantes para todos os aventureiros! O mapa deste mês apresenta uma rota otimizada que permite aos jogadores F2P coletar eficientemente Baús de Bandeira de Guerra, Esmeraldas e Esferas de Artefato Titã.",
 //para3: "Este Mapa 1 de março é ideal para jogadores que querem coletar Caixa de Bandeira de Guerra, Catalisador Primal e Esmeraldas, veja a tabela abaixo como garantir esses itens com baixo custo.",
 // npm run update-mysterious-island-hwde
-const giveawayData = {
+window.giveawayWinnersData = {
  pt: {
     title: "🚨 SORTEIO EXCLUSIVO: COMUNIDADE ALEXANDRE GAMES 🚨",
     para1: "Atenção, seguidores! Preparei um sorteio especial exclusivamente para quem faz parte da nossa comunidade oficial no WhatsApp. Esta é a sua chance de garantir recursos raros!",

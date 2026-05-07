@@ -32,7 +32,7 @@ Formato atual aceito:
 Se voce quiser manter este arquivo apenas para avisos, basta preencher announcement
 ou continuar usando title + para1..para5 sem rewards.
 */
-const giveawayData = {
+window.giveawayAnnouncementData = {
   pt: {
     title: "🔥 VENDA ANTECIPADA EXCLUSIVA: KENDLE CHEGOU! 🔥",
     para1: "Atenção, Guardiões! Kendle estará disponível para compra antes mesmo do início oficial da temporada. Uma chance única para desbloquear a heroína antes de todos os outros jogadores!",

@@ -7,13 +7,29 @@ function injectGiveawayContent() {
   else if (pathname.includes('-fr')) lang = 'fr';
   else if (pathname.includes('-ja')) lang = 'ja';
 
-  const data = giveawayData[lang];
   const container = document.getElementById('giveaway-content');
 
-  if (!data || !container) return;
+  if (!container) return;
 
-  const announcement = data.announcement || data;
-  const giveaway = data.giveaway || data;
+  const announcementSource =
+    (window.giveawayAnnouncementData && window.giveawayAnnouncementData[lang]) ||
+    (window.giveawayData && window.giveawayData[lang]) ||
+    null;
+
+  const giveawaySource =
+    (window.giveawayWinnersData && window.giveawayWinnersData[lang]) ||
+    (window.giveawayData && window.giveawayData[lang]) ||
+    null;
+
+  if (!announcementSource && !giveawaySource) return;
+
+  const announcement = announcementSource
+    ? (announcementSource.announcement || announcementSource)
+    : {};
+
+  const giveaway = giveawaySource
+    ? (giveawaySource.giveaway || giveawaySource)
+    : {};
   const announcementBlocks = [announcement.para1, announcement.para2, announcement.para3, announcement.para4, announcement.para5]
     .filter(Boolean)
     .map(content => `<div>${content}</div>`)
@@ -54,7 +70,14 @@ ${announcementBlocks}
         <img src="${reward.image}" alt="${reward.item}" title="${reward.item} - Hero Wars Alliance" loading="lazy" width="64" height="64">
         <span>${reward.item}</span>
       </div>`;
-      } else if (reward.item === 'Total' || reward.item === 'Gesamt' || reward.item === '合計' || reward.item.includes('Total') || reward.item.includes('Gesamt') || reward.item.includes('合計')) {
+      } else if (
+        reward.item === 'Total' ||
+        reward.item === 'Gesamt' ||
+        reward.item === '合計' ||
+        (reward.item && reward.item.includes('Total')) ||
+        (reward.item && reward.item.includes('Gesamt')) ||
+        (reward.item && reward.item.includes('合計'))
+      ) {
         td1 = `<strong>${reward.item}</strong>`;
       } else if (reward.item === '') {
         td1 = '';
