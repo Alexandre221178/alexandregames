@@ -2,6 +2,15 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
+      link: "../../hero-wars-alliance/titans-guide/lumira-en.html",
+      src500: "../../hero-wars-alliance/images/titans/lumira/lumira-500px.webp",
+      src400: "../../hero-wars-alliance/images/titans/lumira/lumira-400px.webp",
+      alt: "Lumira Legendary Skills Guide for Hero Wars Alliance",
+      title: "Titan Lumira Guide for Hero Wars Alliance",
+      strong: "Guide: Titan Lumira for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },   
+    {
       link: "/hero-wars-alliance/characters-guide/kendle-en.html",
       src500: "/hero-wars-alliance/images/hero/kendle/kendle-500px.webp",
       src400: "/hero-wars-alliance/images/hero/kendle/kendle-400px.webp",

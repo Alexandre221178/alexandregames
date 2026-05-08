@@ -9,7 +9,7 @@ Formato atual aceito:
     para2: '... ',
     rewardsTitle: '... ',
     tableCaption: '... ',
-    rewards: [{ item: '...', winner_id: '...', image: '...' }]
+    rewards: [{ item: '...', winner_id: '...', image: '../../images/123.webp' }]
   }
 }
 
@@ -24,7 +24,7 @@ Formato atual aceito:
     giveaway: {
       rewardsTitle: 'Giveaway rewards',
       tableCaption: 'Table: ...',
-      rewards: [{ item: '...', winner_id: '...', image: '...' }]
+      rewards: [{ item: '...', winner_id: '...', image: '../../images/123.webp' }]
     }
   }
 }

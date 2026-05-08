@@ -674,12 +674,12 @@ window.CALENDAR_DATA = [
 },    
 {
   titles: { en: "Titan Lumira Guide", de: "Titan Lumira Leitfaden", es: "Guía de Titan Lumira", fr: "Guide Titan Lumira", pt: "Guia do Titan Lumira", ja: "タイタンルミラガイド" },
-  links: { en: "../../hero-wars-alliance/titans-guide/lumira-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/titans-guide/lumira-pt.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/titans-guide/lumira-en.html", de: "../../hero-wars-alliance/titans-guide/lumira-de.html", es: "../../hero-wars-alliance/titans-guide/lumira-es.html", fr: "../../hero-wars-alliance/titans-guide/lumira-fr.html", pt: "../../hero-wars-alliance/titans-guide/lumira-pt.html", ja: "../../hero-wars-alliance/titans-guide/lumira-ja.html" },       
   noStrip: true
 },  
      {
         titles: { en: "When Worlds Collide Event", de: "Wenn Welten Zusammenstoßen Ereignis", es: "Evento Cuando los Mundos Colisionan", fr: "Événement Quand les Mondes Entrent en Collision", pt: "Evento Quando os Mundos Colidem", ja: "世界が衝突するイベント" },
-    links: { en: "../../Hero Wars/events/when-worlds-collide-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/when-worlds-collide-pt-hwa.html", ja: "" },
+   links: { en: "../../Hero Wars/events/when-worlds-collide-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/when-worlds-collide-pt-hwa.html", ja: "" },
         },
         {
         titles: { en: "Tempus - Relic Event", de: "Tempus - Relikt-Ereignis", es: "Tempus - Evento de Reliquia", fr: "Tempus - Événement des Reliques", pt: "Tempus - Evento de Relíquia", ja: "テンパス - レリックイベント" },
@@ -706,7 +706,7 @@ window.CALENDAR_DATA = [
 },    
 {
   titles: { en: "Titan Lumira Guide", de: "Titan Lumira Leitfaden", es: "Guía de Titan Lumira", fr: "Guide Titan Lumira", pt: "Guia do Titan Lumira", ja: "タイタンルミラガイド" },
-  links: { en: "../../hero-wars-alliance/titans-guide/lumira-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/titans-guide/lumira-pt.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/titans-guide/lumira-en.html", de: "../../hero-wars-alliance/titans-guide/lumira-de.html", es: "../../hero-wars-alliance/titans-guide/lumira-es.html", fr: "../../hero-wars-alliance/titans-guide/lumira-fr.html", pt: "../../hero-wars-alliance/titans-guide/lumira-pt.html", ja: "../../hero-wars-alliance/titans-guide/lumira-ja.html" },       
   noStrip: true
 },  
      {
@@ -738,7 +738,7 @@ window.CALENDAR_DATA = [
 },    
 {
   titles: { en: "Titan Lumira Guide", de: "Titan Lumira Leitfaden", es: "Guía de Titan Lumira", fr: "Guide Titan Lumira", pt: "Guia do Titan Lumira", ja: "タイタンルミラガイド" },
-  links: { en: "../../hero-wars-alliance/titans-guide/lumira-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/titans-guide/lumira-pt.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/titans-guide/lumira-en.html", de: "../../hero-wars-alliance/titans-guide/lumira-de.html", es: "../../hero-wars-alliance/titans-guide/lumira-es.html", fr: "../../hero-wars-alliance/titans-guide/lumira-fr.html", pt: "../../hero-wars-alliance/titans-guide/lumira-pt.html", ja: "../../hero-wars-alliance/titans-guide/lumira-ja.html" },       
   noStrip: true
 },  
      {
