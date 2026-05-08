@@ -1,7 +1,15 @@
 (function(){
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
-    
+    {
+      link: "../../hero-wars-dominion-era/characters/mushy-and-shroom-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/mushy-and-shroom/mushy-and-shroom-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/mushy-and-shroom/mushy-and-shroom-400px.webp",
+      alt: "Mushy and Shroom for Hero Wars: Dominion Era",
+      title: "Mushy and Shroom for Hero Wars: Dominion Era.",
+      strong: "Guide: Mushy and Shroom - Hero Wars: Dominion Era",
+      updated: "Updated: April, 2026."
+    },
     
     {
   link: "../../hero-wars-dominion-era/titans/lumira-en.html",

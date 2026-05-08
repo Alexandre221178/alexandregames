@@ -273,6 +273,12 @@ window.CALENDAR_DATA = [
      noStrip: true,
     extra: [
       {
+  titles: { en: "Guide: Mushy and Shroom", de: "Leitfaden: Champi und Gnon", es: "Guía: Mushy and Shroom", fr: "Guide: Champi et Gnon", pt: "Guia: Cogu e Mélio", ja: "ガイド: マッシーとシュルーム" },
+  links: { en: "../../hero-wars-dominion-era/characters/mushy-and-shroom-en.html", de: "../../hero-wars-dominion-era/characters/mushy-and-shroom-de.html", es: "../../hero-wars-dominion-era/characters/mushy-and-shroom-es.html", fr: "../../hero-wars-dominion-era/characters/mushy-and-shroom-fr.html", pt: "../../hero-wars-dominion-era/characters/mushy-and-shroom-pt.html", ja: "../../hero-wars-dominion-era/characters/mushy-and-shroom-ja.html" },       
+  noStrip: true
+},  
+
+      {
         titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
       },
@@ -289,7 +295,12 @@ window.CALENDAR_DATA = [
     titles: { en: "Cosmic Battle", pt: "Batalha Cósmica", de: "Kosmischer Kampf", es: "Batalla Cósmica", fr: "Bataille Cosmique", ja: "宇宙の戦い" },
         links: { en: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", pt: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", de: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", es: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", fr: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", ja: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle" },
      noStrip: true,
-    extra: [      
+    extra: [     
+      {
+  titles: { en: "Guide: Mushy and Shroom", de: "Leitfaden: Champi und Gnon", es: "Guía: Mushy and Shroom", fr: "Guide: Champi et Gnon", pt: "Guia: Cogu e Mélio", ja: "ガイド: マッシーとシュルーム" },
+  links: { en: "../../hero-wars-dominion-era/characters/mushy-and-shroom-en.html", de: "../../hero-wars-dominion-era/characters/mushy-and-shroom-de.html", es: "../../hero-wars-dominion-era/characters/mushy-and-shroom-es.html", fr: "../../hero-wars-dominion-era/characters/mushy-and-shroom-fr.html", pt: "../../hero-wars-dominion-era/characters/mushy-and-shroom-pt.html", ja: "../../hero-wars-dominion-era/characters/mushy-and-shroom-ja.html" },       
+  noStrip: true
+},   
       {
         titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
@@ -308,6 +319,11 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
     noStrip: true,
     extra: [
+      {
+  titles: { en: "Guide: Mushy and Shroom", de: "Leitfaden: Champi und Gnon", es: "Guía: Mushy and Shroom", fr: "Guide: Champi et Gnon", pt: "Guia: Cogu e Mélio", ja: "ガイド: マッシーとシュルーム" },
+  links: { en: "../../hero-wars-dominion-era/characters/mushy-and-shroom-en.html", de: "../../hero-wars-dominion-era/characters/mushy-and-shroom-de.html", es: "../../hero-wars-dominion-era/characters/mushy-and-shroom-es.html", fr: "../../hero-wars-dominion-era/characters/mushy-and-shroom-fr.html", pt: "../../hero-wars-dominion-era/characters/mushy-and-shroom-pt.html", ja: "../../hero-wars-dominion-era/characters/mushy-and-shroom-ja.html" },       
+  noStrip: true
+},  
       {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
@@ -329,6 +345,11 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-dominion-era/events/area-of-conquest-en.html", pt: "../../hero-wars-dominion-era/events/area-of-conquest-pt.html", de: "../../hero-wars-dominion-era/events/area-of-conquest-de.html", es: "../../hero-wars-dominion-era/events/area-of-conquest-es.html", fr: "../../hero-wars-dominion-era/events/area-of-conquest-fr.html", ja: "../../hero-wars-dominion-era/events/area-of-conquest-ja.html" },
     noStrip: true,
     extra: [
+      {
+  titles: { en: "Guide: Mushy and Shroom", de: "Leitfaden: Champi und Gnon", es: "Guía: Mushy and Shroom", fr: "Guide: Champi et Gnon", pt: "Guia: Cogu e Mélio", ja: "ガイド: マッシーとシュルーム" },
+  links: { en: "../../hero-wars-dominion-era/characters/mushy-and-shroom-en.html", de: "../../hero-wars-dominion-era/characters/mushy-and-shroom-de.html", es: "../../hero-wars-dominion-era/characters/mushy-and-shroom-es.html", fr: "../../hero-wars-dominion-era/characters/mushy-and-shroom-fr.html", pt: "../../hero-wars-dominion-era/characters/mushy-and-shroom-pt.html", ja: "../../hero-wars-dominion-era/characters/mushy-and-shroom-ja.html" },       
+  noStrip: true
+},  
       {
         titles: { en: "Guardians of Outland", pt: "Guardiões da Fronteira", de: "Wächter des Außenlands", es: "Guardianes de la Frontera", fr: "Gardiens de l'Outreterre", ja: "アウトランドの守護者" },
         links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
@@ -355,6 +376,11 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-dominion-era/events/area-of-conquest-en.html", pt: "../../hero-wars-dominion-era/events/area-of-conquest-pt.html", de: "../../hero-wars-dominion-era/events/area-of-conquest-de.html", es: "../../hero-wars-dominion-era/events/area-of-conquest-es.html", fr: "../../hero-wars-dominion-era/events/area-of-conquest-fr.html", ja: "../../hero-wars-dominion-era/events/area-of-conquest-ja.html" },
     noStrip: true,
     extra: [
+      {
+  titles: { en: "Guide: Mushy and Shroom", de: "Leitfaden: Champi und Gnon", es: "Guía: Mushy and Shroom", fr: "Guide: Champi et Gnon", pt: "Guia: Cogu e Mélio", ja: "ガイド: マッシーとシュルーム" },
+  links: { en: "../../hero-wars-dominion-era/characters/mushy-and-shroom-en.html", de: "../../hero-wars-dominion-era/characters/mushy-and-shroom-de.html", es: "../../hero-wars-dominion-era/characters/mushy-and-shroom-es.html", fr: "../../hero-wars-dominion-era/characters/mushy-and-shroom-fr.html", pt: "../../hero-wars-dominion-era/characters/mushy-and-shroom-pt.html", ja: "../../hero-wars-dominion-era/characters/mushy-and-shroom-ja.html" },       
+  noStrip: true
+},  
       {
         titles: { en: "Guardians of Outland", pt: "Guardiões da Fronteira", de: "Wächter des Außenlands", es: "Guardianes de la Frontera", fr: "Gardiens de l'Outreterre", ja: "アウトランドの守護者" },
         links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
@@ -386,6 +412,11 @@ window.CALENDAR_DATA = [
     noStrip: true,
     extra: [
       {
+  titles: { en: "Guide: Mushy and Shroom", de: "Leitfaden: Champi und Gnon", es: "Guía: Mushy and Shroom", fr: "Guide: Champi et Gnon", pt: "Guia: Cogu e Mélio", ja: "ガイド: マッシーとシュルーム" },
+  links: { en: "../../hero-wars-dominion-era/characters/mushy-and-shroom-en.html", de: "../../hero-wars-dominion-era/characters/mushy-and-shroom-de.html", es: "../../hero-wars-dominion-era/characters/mushy-and-shroom-es.html", fr: "../../hero-wars-dominion-era/characters/mushy-and-shroom-fr.html", pt: "../../hero-wars-dominion-era/characters/mushy-and-shroom-pt.html", ja: "../../hero-wars-dominion-era/characters/mushy-and-shroom-ja.html" },       
+  noStrip: true
+},  
+      {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
@@ -406,6 +437,11 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
     noStrip: true,
     extra: [
+      {
+  titles: { en: "Guide: Mushy and Shroom", de: "Leitfaden: Champi und Gnon", es: "Guía: Mushy and Shroom", fr: "Guide: Champi et Gnon", pt: "Guia: Cogu e Mélio", ja: "ガイド: マッシーとシュルーム" },
+  links: { en: "../../hero-wars-dominion-era/characters/mushy-and-shroom-en.html", de: "../../hero-wars-dominion-era/characters/mushy-and-shroom-de.html", es: "../../hero-wars-dominion-era/characters/mushy-and-shroom-es.html", fr: "../../hero-wars-dominion-era/characters/mushy-and-shroom-fr.html", pt: "../../hero-wars-dominion-era/characters/mushy-and-shroom-pt.html", ja: "../../hero-wars-dominion-era/characters/mushy-and-shroom-ja.html" },       
+  noStrip: true
+},  
       {
         titles: { en: "Area of Conquest", pt: "Área de Conquista", de: "Eroberungsgebiet", es: "Área de Conquista", fr: "Zone de Conquête", ja: "征服エリア" },
         links: { en: "../../hero-wars-dominion-era/events/area-of-conquest-en.html", pt: "../../hero-wars-dominion-era/events/area-of-conquest-pt.html", de: "../../hero-wars-dominion-era/events/area-of-conquest-de.html", es: "../../hero-wars-dominion-era/events/area-of-conquest-es.html", fr: "../../hero-wars-dominion-era/events/area-of-conquest-fr.html", ja: "../../hero-wars-dominion-era/events/area-of-conquest-ja.html" },
