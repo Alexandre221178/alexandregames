@@ -8,12 +8,15 @@
 // ── May #, 2026 ──────────────────────────────
 { date:'2026-05-##', type:'link', giftId:'#####', note:'until|2026-0#-##T02:00:00Z',
   rewards:['energy x500'] },
- 
+
 // ── May #, 2026 ──────────────────────────────
 */window.HWDE_GIFTS = [
+  // ── May #, 2026 ──────────────────────────────
+{ date:'2026-05-09', type:'link', giftId:'fvynEMCqac', note:'until|2026-05-12T02:00:00Z',
+  rewards:['energy x500'] },
 
    // ── May 8, 2026 ──────────────────────────────
-   { date:'2026-0#-##', type:'link', giftId:'7bcf526ede49a8eafb48c7da0d3f7913', note:'level',
+   { date:'2026-05-08', type:'link', giftId:'7bcf526ede49a8eafb48c7da0d3f7913', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
 // ── May 7, 2026 ──────────────────────────────
     { date:'2026-05-07', type:'link', giftId:'54643a93814572cd01fe54a1bb2f2424', note:'level',
