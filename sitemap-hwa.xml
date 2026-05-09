@@ -1470,15 +1470,41 @@
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://alexandregames.com/hero-wars-alliance/guide/krista-and-lars-revamp-pt.html</loc>
-  <lastmod>2025-05-21T22:16-03:00</lastmod>
-  <priority>0.60</priority>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/when-worlds-collide-en.html</loc>
+  <lastmod>2026-05-09T10:36:41-03:00</lastmod>
+  <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://alexandregames.com/hero-wars-alliance/guide/hydra-best-teams-en.html</loc>
-  <lastmod>2026-04-21T23:30:16-03:00</lastmod>
-  <priority>0.60</priority>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/when-worlds-collide-en.html</loc>
+  <lastmod>2026-05-09T10:36:41-03:00</lastmod>
+  <priority>0.70</priority>
 </url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/when-worlds-collide-de.html</loc>
+  <lastmod>2026-05-09T10:36:41-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/when-worlds-collide-fr.html</loc>
+  <lastmod>2026-05-09T10:36:41-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/when-worlds-collide-es.html</loc>
+  <lastmod>2026-05-09T10:36:41-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/when-worlds-collide-ja.html</loc>
+  <lastmod>2026-05-09T10:36:41-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/event-hwa/when-worlds-collide-pt.html</loc>
+  <lastmod>2026-05-09T10:36:41-03:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/guide/hydra-best-teams-de.html</loc>
   <lastmod>2026-04-21T23:30:16-03:00</lastmod>
@@ -1702,6 +1728,17 @@
 <url>
   <loc>https://alexandregames.com/hero-wars-alliance/event-special-hwa/hero-wars-alliance-christmas-events-2024-pt.html</loc>
   <lastmod>2024-12-24T00:20-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<!-- especial events -->
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/guide/krista-and-lars-revamp-pt.html</loc>
+  <lastmod>2025-05-21T22:16-03:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://alexandregames.com/hero-wars-alliance/guide/hydra-best-teams-en.html</loc>
+  <lastmod>2026-04-21T23:30:16-03:00</lastmod>
   <priority>0.60</priority>
 </url>
 <url>

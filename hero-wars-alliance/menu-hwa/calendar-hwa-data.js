@@ -679,7 +679,7 @@ window.CALENDAR_DATA = [
 },  
      {
         titles: { en: "When Worlds Collide Event", de: "Wenn Welten Zusammenstoßen Ereignis", es: "Evento Cuando los Mundos Colisionan", fr: "Événement Quand les Mondes Entrent en Collision", pt: "Evento Quando os Mundos Colidem", ja: "世界が衝突するイベント" },
-   links: { en: "../../Hero Wars/events/when-worlds-collide-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/when-worlds-collide-pt-hwa.html", ja: "" },
+   links: { en: "../../hero-wars-alliance/event-hwa/when-worlds-collide-en.html", de: "../../hero-wars-alliance/event-hwa/when-worlds-collide-de.html", es: "../../hero-wars-alliance/event-hwa/when-worlds-collide-es.html", fr: "../../hero-wars-alliance/event-hwa/when-worlds-collide-fr.html", pt: "../../hero-wars-alliance/event-hwa/when-worlds-collide-pt.html", ja: "../../hero-wars-alliance/event-hwa/when-worlds-collide-ja.html" },
         },
         {
         titles: { en: "Tempus - Relic Event", de: "Tempus - Relikt-Ereignis", es: "Tempus - Evento de Reliquia", fr: "Tempus - Événement des Reliques", pt: "Tempus - Evento de Relíquia", ja: "テンパス - レリックイベント" },
@@ -711,7 +711,7 @@ window.CALENDAR_DATA = [
 },  
      {
         titles: { en: "When Worlds Collide Event", de: "Wenn Welten Zusammenstoßen Ereignis", es: "Evento Cuando los Mundos Colisionan", fr: "Événement Quand les Mondes Entrent en Collision", pt: "Evento Quando os Mundos Colidem", ja: "世界が衝突するイベント" },
-    links: { en: "../../Hero Wars/events/when-worlds-collide-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/when-worlds-collide-pt-hwa.html", ja: "" },
+   links: { en: "../../hero-wars-alliance/event-hwa/when-worlds-collide-en.html", de: "../../hero-wars-alliance/event-hwa/when-worlds-collide-de.html", es: "../../hero-wars-alliance/event-hwa/when-worlds-collide-es.html", fr: "../../hero-wars-alliance/event-hwa/when-worlds-collide-fr.html", pt: "../../hero-wars-alliance/event-hwa/when-worlds-collide-pt.html", ja: "../../hero-wars-alliance/event-hwa/when-worlds-collide-ja.html" },
         },
         {
         titles: { en: "Tempus - Relic Event", de: "Tempus - Relikt-Ereignis", es: "Tempus - Evento de Reliquia", fr: "Tempus - Événement des Reliques", pt: "Tempus - Evento de Relíquia", ja: "テンパス - レリックイベント" },
@@ -743,7 +743,7 @@ window.CALENDAR_DATA = [
 },  
      {
         titles: { en: "When Worlds Collide Event", de: "Wenn Welten Zusammenstoßen Ereignis", es: "Evento Cuando los Mundos Colisionan", fr: "Événement Quand les Mondes Entrent en Collision", pt: "Evento Quando os Mundos Colidem", ja: "世界が衝突するイベント" },
-    links: { en: "../../Hero Wars/events/when-worlds-collide-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/when-worlds-collide-pt-hwa.html", ja: "" },
+    links: { en: "../../hero-wars-alliance/event-hwa/when-worlds-collide-en.html", de: "../../hero-wars-alliance/event-hwa/when-worlds-collide-de.html", es: "../../hero-wars-alliance/event-hwa/when-worlds-collide-es.html", fr: "../../hero-wars-alliance/event-hwa/when-worlds-collide-fr.html", pt: "../../hero-wars-alliance/event-hwa/when-worlds-collide-pt.html", ja: "../../hero-wars-alliance/event-hwa/when-worlds-collide-ja.html" },
         },
         {
         titles: { en: "Tempus - Relic Event", de: "Tempus - Relikt-Ereignis", es: "Tempus - Evento de Reliquia", fr: "Tempus - Événement des Reliques", pt: "Tempus - Evento de Relíquia", ja: "テンパス - レリックイベント" },

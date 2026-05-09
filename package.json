@@ -22,6 +22,8 @@
    
     "update-alliance-of-forces-hwa": "node hero-wars-alliance/update-data-menu-hwa.js event-hwa alliance-of-forces",
     "update-runic-millstone-hwa": "node hero-wars-alliance/update-data-menu-hwa.js event-hwa runic-millstone",
+    "update-when-worlds-collide-hwa": "node hero-wars-alliance/update-data-menu-hwa.js event-hwa when-worlds-collide",
+
     "update-damage-over-time-hwa": "node hero-wars-alliance/update-data-menu-hwa.js review damage-over-time",
 
 
