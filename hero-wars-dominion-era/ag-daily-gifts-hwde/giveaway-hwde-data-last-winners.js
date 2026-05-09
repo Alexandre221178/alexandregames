@@ -1,6 +1,3 @@
-//para3: "This March Map 1 is ideal for players who want to collect a War Flag Chest, Primal Catalyst and Emeralds — see the table below for how to obtain these items at low cost.",
-//para1: "A Ilha Misteriosa de março de 2026 traz desafios frescos e recompensas emocionantes para todos os aventureiros! O mapa deste mês apresenta uma rota otimizada que permite aos jogadores F2P coletar eficientemente Baús de Bandeira de Guerra, Esmeraldas e Esferas de Artefato Titã.",
-//para3: "Este Mapa 1 de março é ideal para jogadores que querem coletar Caixa de Bandeira de Guerra, Catalisador Primal e Esmeraldas, veja a tabela abaixo como garantir esses itens com baixo custo.",
 // npm run update-mysterious-island-hwde
 const giveawayData = {
   pt: {
