@@ -49,16 +49,11 @@ customNote:{ en:'The gift is available until... not defined (or 24h)',
   ja:'ギフトの有効期限は... 未定義（または24時間）'  
 }, rewards:[ 'energy x150', 'artifact-coin x400',  'artifact-chest-key x5'] },
 
- { date:'2026-05-01', type:'daily', mission:'3-11', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+ 
     // ── April 30, 2026 ──────────────────────────────
    { date:'2026-04-30', type:'special', mission:'2-3', note:'until|2026-05-11T01:00:00Z',
     rewards:['adventure-coin x1000', 'energy x100'] },
     
-
-// ── April 29, 2026 ──────────────────────────────
-    { date:'2026-04-29', type:'hub', code:'SPRING26', note:'until|2026-05-06T09:00:00Z',
-     rewards:['energy x750', 'emeralds x500', 'small-skin-stone-chest x10'] },
 
 
 // ── April 27, 2026 ──────────────────────────────
@@ -66,7 +61,7 @@ rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
     rewards:[ 'energy x100', 'avatar x1'] },   
    
 // ── April 26, 2026 ──────────────────────────────
-{ date:'2026-04-26', type:'special', mission:'Issue fixed.(3-13)', note:'until|2026-05-11T01:00:00Z',
+{ date:'2026-04-26', type:'special', mission:'3-13', note:'until|2026-05-11T01:00:00Z',
     rewards:['seers-orb x50', 'coin-of-luck x1', 'energy x20', 'avatar x1'] },
 
   // ── April 25, 2026 ──────────────────────────────
@@ -119,7 +114,7 @@ rewards:[ 'energy x100'] },
  { date:'2026-04-09', type:'special', mission:'2-7', note:'until|2026-05-12T05:00:00Z',
     rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
    
-
+ // ── Code nao definido a data ──────────────────────────────
   { date:'2026-04-01', type:'hub', code:'CONFIDENTIAL', note:'custom',
     customNote:{ en:'The gift is available until... not defined', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert', es:'El regalo est\u00e1 disponible hasta... no definido', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9' },
     rewards:['large-skin-stone-chest x5', 'energy x100'] },
@@ -131,6 +126,19 @@ rewards:[ 'energy x100'] },
    ║  DAILY GIFTS — Add newest entries at the TOP                    ║
    ║  Copy a line, change date / code / mission / rewards            ║
    ╚══════════════════════════════════════════════════════════════════╝
+
+
+   // ── Hub Code gft valid data true ──────────────────────────────
+{ date:'2026-04-25', type:'hub', code:'JADESTATS', note:'until|2026-05-11T01:00:00Z',
+      rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
+
+   // ── Hub Code nao definido a data false ──────────────────────────────
+{ date:'2026-04-11', type:'hub', code:'FROMSUPPORT', note:'custom',
+    customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
+    rewards:[ 'energy x150', 'artifact-coin x100',  'artifact-chest-key x5'] },
+
+
+
 
    TEMPLATES — copy & paste:
    { date:'YYYY-MM-DD', type:'hub',         code:'CODE',  note:'hub24h',                        rewards:['preset x5'] },
@@ -153,11 +161,5 @@ rewards:[ 'energy x100'] },
    untilLevel|2026-04-13T01:00:00Z|15 — until date, level 15+
    daily|80                      — daily mission, level 80+
    custom                        — add customNote:{ en:'...', pt:'...' }
-
-
-// ── April 11, 2026 ──────────────────────────────
-{ date:'2026-04-11', type:'hub', code:'FROMSUPPORT', note:'custom',
-    customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
-    rewards:[ 'energy x150', 'artifact-coin x100',  'artifact-chest-key x5'] },
 
 */
