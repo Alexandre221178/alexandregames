@@ -3,6 +3,7 @@
 	"name": "Alecto",
     "type": "titan",
     "game_id": "Hero Wars Alliance",
+	"event_name": "Ancient Awakening",
 	"title": "Blade of Vengeance",
 	"gender": "female",
 	"role": ["marksman"],
