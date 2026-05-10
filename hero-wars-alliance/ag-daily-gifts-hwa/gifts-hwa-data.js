@@ -7,6 +7,9 @@ rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
     // ── May 10, 2026 ──────────────────────────────
+    { date:'2026-05-10', type:'hub', code:'KENDLECALENDAR', note:'until|2026-05-13T12:00:00Z',
+rewards:['intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350', 'energy x20',] },
+
  { date:'2026-05-10', type:'daily', mission:'3-14', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
     // ── May 9, 2026 ──────────────────────────────
@@ -135,11 +138,14 @@ rewards:[ 'energy x100'] },
 { date:'2026-04-25', type:'hub', code:'JADESTATS', note:'until|2026-05-11T01:00:00Z',
       rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
 
+{ date:'2026-##-##', type:'hub', code:'##CAIXA-ALTA##', note:'until|2026-##-##T01:00:00Z',
+rewards:['intelligence-skin-stone x300', 'strength-skin-stone x300', 'agility-skin-stone x300',] },
+
+
    // ── Hub Code nao definido a data false ──────────────────────────────
 { date:'2026-04-11', type:'hub', code:'FROMSUPPORT', note:'custom',
     customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
     rewards:[ 'energy x150', 'artifact-coin x100',  'artifact-chest-key x5'] },
-
 
 
 
@@ -164,5 +170,7 @@ rewards:[ 'energy x100'] },
    untilLevel|2026-04-13T01:00:00Z|15 — until date, level 15+
    daily|80                      — daily mission, level 80+
    custom                        — add customNote:{ en:'...', pt:'...' }
+
+   
 
 */
