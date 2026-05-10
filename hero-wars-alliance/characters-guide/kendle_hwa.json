@@ -10,6 +10,7 @@
       "position": "Back Line",
       "main_stat": "Intelligence",
       "faction": "Way of Chaos",
+      "best_synergy": "Xe'sha, Aidan, Dorian",
       "realm_skills_available": false,
       "realm_buff_troops": "Spearmen attack/defense 120%",
       "note": "Tortures herself and her allies, enhancing damage, attacks enemies with pure damage, and empowers Critical Hits.",
@@ -164,7 +165,8 @@
         },
         {
           "name": "Angel Skin",
-          "stats_available": false
+          "stat": "Health",
+          "bonus": 106645
         }
       ],
       "artifacts": [
