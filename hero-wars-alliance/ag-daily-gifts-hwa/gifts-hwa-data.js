@@ -6,6 +6,9 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+    // ── May 11, 2026 ──────────────────────────────
+ { date:'2026-05-11', type:'daily', mission:'2-8', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
     // ── May 10, 2026 ──────────────────────────────
     { date:'2026-05-10', type:'hub', code:'KENDLECALENDAR', note:'until|2026-05-13T12:00:00Z',
 rewards:['intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350', 'energy x20',] },
