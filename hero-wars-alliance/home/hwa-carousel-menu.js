@@ -2,6 +2,15 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
+      link: "../../hero-wars-alliance/event-special-hwa/kendle-season-adventure-guide-en.html",
+      src500: "../../hero-wars-alliance/images/events-special-hwa/kendle-adventure-shop/kendle-adventure-shop-500px.webp",
+      src400: "../../hero-wars-alliance/images/events-special-hwa/kendle-adventure-shop/kendle-adventure-shop-400px.webp",
+      alt: "Kendle Adventure and Shop Guide for Hero Wars Alliance",
+      title: "Kendle Adventure and Shop Guide for Hero Wars Alliance",
+      strong: "Guide: Kendle Adventure and Shop f2p Strategy for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },
+    {
       link: "../../hero-wars-alliance/event-hwa/path-to-perfection-en.html",
       src500: "../../hero-wars-alliance/images/events/path-to-perfection/path-to-perfection-shop-500px.webp",
       src400: "../../hero-wars-alliance/images/events/path-to-perfection/path-to-perfection-shop-400px.webp",
@@ -185,11 +194,10 @@
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Guia Completo de Relíquia Lendária de Yasmine para Hero Wars Alliance',
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guia de Byrna: Liberte o Espírito do Urso Curador em Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Resgate seus Presentes Diários para Hero Wars Alliance',
-        'Complete Talisman Guide': 'Guia Completo de Talismãs',
-        'everyday': 'todos os dias', 'How to Play': 'Como Jogar',
+        'Complete Talisman Guide': 'Guia Completo de Talismãs',  'everyday': 'todos os dias', 'How to Play': 'Como Jogar',
         'monthly': 'mensalmente', 'How to Get the': 'Como Obter a',
-        'Calendar': 'Calendário',
-        'New': 'Nova', 'and': 'e',
+        'Calendar': 'Calendário', 
+        'New': 'Nova', 'and': 'e', 'Strategy': 'Estratégia',
         'Adventure Shop Tips': 'Dicas da Loja de Aventura',
         'What to Buy': 'O que Comprar',
         'Which is better': 'Qual é o Melhor'
@@ -215,7 +223,7 @@
         'Complete Talisman Guide': 'Guía completa de talismanes:',
         'everyday': 'todos los días', 'How to Play': 'Cómo Jugar',
         'monthly': 'mensalmente', 'How to Get the': 'Cómo Obtener la',
-        'Calendar': 'Calendario',
+        'Calendar': 'Calendario', 'Strategy': 'Estrategia',
         'New': 'Nueva', 'and': 'y',
         'Adventure Shop Tips': 'Consejos de la Tienda de Aventura',
         'What to Buy': 'Qué Comprar',
@@ -243,7 +251,7 @@
         'Complete Talisman Guide:': 'Guide complet des talismans:',
         'everyday': 'tous les jours', 'How to Play': 'Comment Jouer',
         'monthly': 'mensuellement', 'How to Get the': 'Comment Obtenir le',
-        'Calendar': 'Calendrier',
+        'Calendar': 'Calendrier', 'Strategy': 'Stratégie',
         'New': 'Nouvelle', 'and': 'et',
         'Adventure Shop Tips': 'Conseils de la Boutique d\'Aventure',
         'What to Buy?': 'Que Acheter?',
@@ -272,7 +280,7 @@
         'skin': 'Skin', 'How to Get the': 'Wie man das bekommt',
         'everyday': 'täglich',
         'monthly': 'monatlich',
-        'Calendar': 'Kalender',
+        'Calendar': 'Kalender', 'Strategy': 'Strategie',
         'New': 'Neu', 'and': 'und',
         'Adventure Shop Tips': 'Abenteuerladen Tipps',
         'What to Buy?': 'Was soll man kaufen?',
@@ -321,11 +329,10 @@
         'Calendar for Hero Wars Alliance': 'ヒーローウォーズ アライアンス カレンダー',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのデイリーギフトを受け取る',
         'Complete Talisman Guide:': 'タリスマン完全ガイド:', 'How to Get the': '入手方法',
-        'Hero Wars: Alliance': 'ヒーローウォーズ アライアンス',
+        'Hero Wars: Alliance': 'ヒーローウォーズ アライアンス', 'hero wars alliance': 'ヒーローウォーズ アライアンス',
         'for': '向け', 'skin': 'スキン',  'everyday': '毎日', 'monthly': '毎月', 'Calendar': 'カレンダー',
-        'hero wars alliance': 'ヒーローウォーズ アライアンス',
-        'New': '新しい', 'How to Play': '遊び方', 'and': 'と',
-        'Adventure Shop Tips': 'アドベンチャーショップのヒント',
+        'New': '新しい', 'How to Play': '遊び方', 'and': 'と', 
+        'Adventure Shop Tips': 'アドベンチャーショップのヒント', 'Strategy': '戦略',
         'What to Buy?': '何を買うべき？', 'Which is better': 'どちらがいいですか'
       }
     },
