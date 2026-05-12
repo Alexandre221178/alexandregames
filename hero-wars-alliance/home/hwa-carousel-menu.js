@@ -2,15 +2,6 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
-      link: "../../hero-wars-alliance/titans-guide/lumira-en.html",
-      src500: "../../hero-wars-alliance/images/titans/lumira/lumira-500px.webp",
-      src400: "../../hero-wars-alliance/images/titans/lumira/lumira-400px.webp",
-      alt: "Lumira Legendary Skills Guide for Hero Wars Alliance",
-      title: "Titan Lumira Guide for Hero Wars Alliance",
-      strong: "Guide: Titan Lumira for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },   
-    {
       link: "/hero-wars-alliance/characters-guide/kendle-en.html",
       src500: "/hero-wars-alliance/images/hero/kendle/kendle-500px.webp",
       src400: "/hero-wars-alliance/images/hero/kendle/kendle-400px.webp",
@@ -19,6 +10,26 @@
       strong: "Guide: Kendle Legendary Skills for Hero Wars Alliance",
       updated: "Updated: May, 2026."
     },
+    
+    {
+      link: "/hero-wars-alliance/review/damage-over-time-en.html",
+      src500: "/hero-wars-alliance/images/review/damage-over-time-500px.webp",
+      src400: "/hero-wars-alliance/images/review/damage-over-time-400px.webp",
+      alt: "Damage Over Time (DoT) System Guide in Hero Wars Alliance",
+      title: "Damage Over Time (DoT) System Guide - Hero Wars Alliance",
+      strong: "Guide: Damage Over Time (DoT) - Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },   
+    {
+      link: "../../hero-wars-alliance/titans-guide/lumira-en.html",
+      src500: "../../hero-wars-alliance/images/titans/lumira/lumira-500px.webp",
+      src400: "../../hero-wars-alliance/images/titans/lumira/lumira-400px.webp",
+      alt: "Lumira Legendary Skills Guide for Hero Wars Alliance",
+      title: "Titan Lumira Guide for Hero Wars Alliance",
+      strong: "Guide: Titan Lumira for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },   
+    
     {
       link: "/hero-wars-alliance/characters-guide/tempus-en.html",
       src500: "/hero-wars-alliance/images/hero/tempus/tempus-500px.webp",
@@ -29,15 +40,6 @@
       updated: "Updated: May, 2026."
     },
  
-    {
-      link: "/hero-wars-alliance/review/damage-over-time-en.html",
-      src500: "/hero-wars-alliance/images/review/damage-over-time-500px.webp",
-      src400: "/hero-wars-alliance/images/review/damage-over-time-400px.webp",
-      alt: "Damage Over Time (DoT) System Guide in Hero Wars Alliance",
-      title: "Damage Over Time (DoT) System Guide - Hero Wars Alliance",
-      strong: "Guide: Damage Over Time (DoT) - Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },   
    
     {
       link: "/hero-wars-alliance/characters-guide/phobos-en.html",
