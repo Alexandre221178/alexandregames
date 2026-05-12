@@ -133,8 +133,8 @@ window.CALENDAR_DATA = [
 },    links: { en: "../../hero-wars-alliance/characters-guide/miu-en.html", de: "../../hero-wars-alliance/characters-guide/miu-de.html", es: "../../hero-wars-alliance/characters-guide/miu-es.html", fr: "../../hero-wars-alliance/characters-guide/miu-fr.html", pt: "../../hero-wars-alliance/characters-guide/miu-pt.html", ja: "../../hero-wars-alliance/characters-guide/miu-ja.html" },
   extra: [       
       {
-  titles: { en: "Path to Perfection Event(old)", de: "", es: "", fr: "", pt: "", ja: "" },
-  links: { en: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-en.html", de: "", es: "", fr: "", pt: "../../", ja: "" },       
+  titles: { en: "Path to Perfection - Miu Event", de: "", es: "", fr: "", pt: "", ja: "" },
+  links: { en: "../../hero-wars-alliance/event-hwa/path-to-perfection-en.html", de: "", es: "", fr: "", pt: "../../", ja: "" },       
   noStrip: true
 },  
     ]
@@ -149,8 +149,8 @@ window.CALENDAR_DATA = [
 },    links: { en: "../../hero-wars-alliance/characters-guide/miu-en.html", de: "../../hero-wars-alliance/characters-guide/miu-de.html", es: "../../hero-wars-alliance/characters-guide/miu-es.html", fr: "../../hero-wars-alliance/characters-guide/miu-fr.html", pt: "../../hero-wars-alliance/characters-guide/miu-pt.html", ja: "../../hero-wars-alliance/characters-guide/miu-ja.html" },
   extra: [       
       {
-  titles: { en: "Path to Perfection Event(old)", de: "", es: "", fr: "", pt: "", ja: "" },
-  links: { en: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-en.html", de: "", es: "", fr: "", pt: "../../", ja: "" },       
+  titles: { en: "Path to Perfection - Miu Event", de: "", es: "", fr: "", pt: "", ja: "" },
+  links: { en: "../../hero-wars-alliance/event-hwa/path-to-perfection-en.html", de: "", es: "", fr: "", pt: "../../", ja: "" },       
   noStrip: true
 },  
     ]
@@ -165,8 +165,8 @@ window.CALENDAR_DATA = [
 },    links: { en: "../../hero-wars-alliance/characters-guide/miu-en.html", de: "../../hero-wars-alliance/characters-guide/miu-de.html", es: "../../hero-wars-alliance/characters-guide/miu-es.html", fr: "../../hero-wars-alliance/characters-guide/miu-fr.html", pt: "../../hero-wars-alliance/characters-guide/miu-pt.html", ja: "../../hero-wars-alliance/characters-guide/miu-ja.html" },
   extra: [       
       {
-  titles: { en: "Path to Perfection Event(old)", de: "", es: "", fr: "", pt: "", ja: "" },
-  links: { en: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-en.html", de: "", es: "", fr: "", pt: "../../", ja: "" },       
+  titles: { en: "Path to Perfection - Miu Event", de: "", es: "", fr: "", pt: "", ja: "" },
+  links: { en: "../../hero-wars-alliance/event-hwa/path-to-perfection-en.html", de: "", es: "", fr: "", pt: "../../", ja: "" },       
   noStrip: true
 },  
     ]
