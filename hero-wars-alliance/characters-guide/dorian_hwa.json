@@ -1,0 +1,311 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "dorian",
+      "name": "Dorian",
+      "rework_note": "Dorian becomes much stronger as a Hero overall, and especially as a Healer! He sacrifices his own health to heal allies and increase their maximum health. He is ready to do anything for the sake of common victory!",
+      "gender": "male",
+      "role": ["Healer"],
+      "main_class": "Healer",
+      "position": "Back Line",
+      "main_stat": "Intelligence",
+      "how_to_get_soul_stones": "N/A",
+      "hydra_tier_list": "N/A",
+      "hero_tier_list": "N/A",
+      "faction": "Way of Chaos",
+      "description": "Waste not, want not - Blood Mage who siphons the life force of his enemies to support his allies.",
+      "synergies": [],
+      "realm": {
+        "buff_marksmen": "attack/defense +120%",
+        "skills": "Not available yet"
+      },
+      "stats": {
+        "talisman_of_blood": {
+          "intelligence": 17378,
+          "agility": 3732,
+          "strength": 3702,
+          "health": 968232,
+          "physical_attack": 36706,
+          "magic_attack": 175312,
+          "armor": 37998.6,
+          "magic_defense": 55958.2,
+          "toughness": 2571,
+          "magic_penetration": 19800
+        },
+        "talisman_of_thirst": {
+          "intelligence": 15378,
+          "agility": 3732,
+          "strength": 3702,
+          "health": 1149732,
+          "physical_attack": 34706,
+          "magic_attack": 169312,
+          "armor": 51798.6,
+          "magic_defense": 53958.2,
+          "toughness": 2571
+        }
+      },
+      "talisman_details": {
+        "talisman_of_blood": {
+          "level": 50,
+          "main_stat": "Intelligence",
+          "main_stat_bonus": 2000,
+          "derived_bonuses": {
+            "magic_attack": 6000,
+            "magic_defense": 2000,
+            "physical_attack": 2000
+          },
+          "reroll_slots": [
+            { "stat": "Magic penetration", "value": 6600 },
+            { "stat": "Magic penetration", "value": 6600 },
+            { "stat": "Magic penetration", "value": 6600 }
+          ],
+          "total_reroll_bonus": { "stat": "Magic penetration", "value": 19800 }
+        },
+        "talisman_of_thirst": {
+          "level": 50,
+          "main_stat": "Armor",
+          "main_stat_bonus": 12000,
+          "reroll_slots": [
+            { "stat": "Health", "value": 60500 },
+            { "stat": "Health", "value": 60500 },
+            { "stat": "Health", "value": 60500 }
+          ],
+          "total_reroll_bonus": { "stat": "Health", "value": 181500 }
+        },
+        "recommended": "talisman_of_blood"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "Fountain of Blood",
+          "type": ["Healing", "Debuff"],
+          "keywords": ["Upgradeable to Legendary"],
+          "duration_seconds": 7.0,
+          "healing_formula": "30% Mag. atk. + 12000",
+          "scales_with": ["Magic Attack"],
+          "transfer_condition": "If the target dies before the effect ends, it transfers to the nearest enemy for 7.0 seconds.",
+          "reapply_restriction": "While active, the effect cannot be reapplied to the same target.",
+          "description": "Applies the Fountain of Blood effect to the nearest enemy for 7.0 seconds. Allies' attacks against that enemy restore their Health. If the target dies before the effect ends, it transfers to the nearest enemy for 7.0 seconds. While active, the effect cannot be reapplied to the same target."
+        },
+        {
+          "id": 1,
+          "variant": "legendary",
+          "relic_level": 10,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 1
+          },
+          "name": "Fountain of Blood",
+          "type": ["Healing", "Debuff", "Enhancement"],
+          "duration_seconds": 10.0,
+          "healing_formula": "10% of the enemy's Max Health, up to (20% Health)",
+          "description": "The effect now lasts 10 seconds. Allies restore more HP when attacking affected enemies."
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 120,
+          "name": "Ancestors Amulet",
+          "type": ["Sacrifice", "Buff"],
+          "keywords": ["Sacrifice"],
+          "sacrificed_health_formula": "20% of current Health",
+          "max_health_increase_formula": "20% Health + 6000",
+          "scales_with": ["Health"],
+          "condition": "Only affects allies who started the battle with Dorian.",
+          "description": "Dorian sacrifices a portion of his current Health to increase Max Health of the ally with the lowest Health until the end of the battle. This skill only affects allies who started the battle with him."
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 100,
+          "name": "Wings of Night",
+          "type": ["Magic Damage", "Healing"],
+          "magic_damage_formula": "50% Mag. atk. + 9000",
+          "scales_with": ["Magic Attack"],
+          "healing_percent_of_damage": 100,
+          "description": "Attacks enemies and heals allies for 100% of the damage dealt."
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "level": 80,
+          "name": "Blood Seal",
+          "type": ["Buff", "Passive"],
+          "keywords": ["Upgradeable to Legendary"],
+          "vampirism_increase_percent": 105,
+          "persists_after_death": true,
+          "condition": "Only affects Heroes who started the battle with Dorian.",
+          "description": "Increases the Vampirism of nearby allies. This skill only affects Heroes who started the battle with Dorian and remains active after his death. The chance to increase Vampirism is lower if the allies' level is higher than 120."
+        },
+        {
+          "id": 4,
+          "variant": "legendary",
+          "relic_level": 20,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 4
+          },
+          "name": "Blood Seal",
+          "type": ["Buff", "Enhancement"],
+          "vampirism_increase_percent": 105,
+          "immunity_duration_seconds": 3.0,
+          "immunity_types": ["stun", "sleep"],
+          "trigger": "After being healed by Vampirism or Fountain of Blood",
+          "description": "After being healed by Vampirism or Fountain of Blood, Dorian's allies become immune to stun and sleep for 3.0 seconds."
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Blood Pact",
+          "type": ["Sacrifice", "Buff", "Legendary"],
+          "keywords": ["Sacrifice"],
+          "cooldown_seconds": 14,
+          "magic_damage_formula": "5% of the ally's current Health",
+          "healing_increase_percent": 100,
+          "buff_duration_seconds": 7.0,
+          "description": "Every 14 seconds, deals damage to allies with Vampirism. For 7.0 seconds, Vampirism restores more Health Points. Dorian's skills also heal allies more during this time."
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Call of Blood",
+          "type": ["Resurrection", "Passive", "Legendary"],
+          "dorian_resurrection_health_percent": 50,
+          "near_death_duration_seconds": 5.0,
+          "vampirism_heals_to_resurrect": 1,
+          "near_death_restrictions": ["cannot move", "cannot use skills", "cannot be attacked"],
+          "condition": "Only affects Heroes who started the battle with Dorian.",
+          "description": "When an ally dies, Dorian resurrects them, sacrificing himself. After that, Dorian enters the Near Death state for 5.0 seconds. He cannot move, use skills, or be attacked. If allies restore HP through Vampirism 1 time during this period, Dorian is resurrected. This skill only affects Heroes who started the battle with Dorian."
+        }
+      ],
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Bleeding Steel",
+          "activation_chance_percent": 100,
+          "toughness": 8898,
+          "evolve": 6,
+          "level": 100
+        },
+        {
+          "slot": "Book",
+          "name": "Tome of Arcane Knowledge",
+          "magic_attack": 10680,
+          "health": 53394,
+          "evolve": 6,
+          "level": 100
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Intelligence",
+          "intelligence": 3990,
+          "derived_bonuses": {
+            "magic_attack": 11970,
+            "magic_defense": 3990,
+            "physical_attack": 3990
+          },
+          "evolve": 6,
+          "level": 100
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default",
+          "stat": "Intelligence",
+          "bonus": 1365,
+          "derived_bonuses": {
+            "magic_attack": 4095,
+            "magic_defense": 1365,
+            "physical_attack": 1365
+          }
+        },
+        {
+          "name": "Champion",
+          "stat": "Magic attack",
+          "bonus": 10687
+        },
+        {
+          "name": "Masquerade",
+          "stat": "Armor",
+          "bonus": 10650
+        },
+        {
+          "name": "Romantic",
+          "stat": "Health",
+          "bonus": 106645
+        },
+        {
+          "name": "Winter",
+          "stat": "Magic defense",
+          "bonus": 10687
+        }
+      ],
+      "class_skill": {
+        "class": "Healer",
+        "level": 405,
+        "effect": "When healing an ally, also applies an effect for 5.0 seconds that converts any incoming damage into healing (no more than 124592.1 (30% Mag.atk. + 89100)). Can be triggered no more than once every 10 seconds for each target.",
+        "healing_cap_formula": "30% Mag.atk. + 89100",
+        "healing_cap_example": 124592.1,
+        "conversion_duration_seconds": 5.0,
+        "cooldown_per_target_seconds": 10
+      },
+      "glyphs": [
+        {
+          "name": "Magic attack",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "name": "Health",
+          "level": 80,
+          "bonus": 122800
+        },
+        {
+          "name": "Armor",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "name": "Magic defense",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "name": "Intelligence",
+          "level": 80,
+          "bonus": 2110,
+          "derived_bonuses": {
+            "magic_attack": 6330,
+            "magic_defense": 2110,
+            "physical_attack": 2110
+          }
+        }
+      ],
+      "main_stat_scaling_notes": {
+        "intelligence": {
+          "magic_attack_per_point": 3,
+          "magic_defense_per_point": 1,
+          "extra_physical_attack_per_point_if_main_stat": 1
+        },
+        "agility": {
+          "physical_attack_per_point": 2,
+          "armor_per_point": 1
+        },
+        "strength": {
+          "health_per_point": 40
+        }
+      }
+    }
+  ]
+}
