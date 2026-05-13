@@ -5,89 +5,7 @@
   // Quando tirar do carousel, cole aqui.
   // =====================================================
   var slides = [
-    {
-      link: "/hero-wars-alliance/characters-guide/phobos-en.html",
-      src500: "/hero-wars-alliance/images/hero/phobos/phobos-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/phobos/phobos-400px.webp",
-      alt: "Phobos Legendary Skills Guide for Hero Wars Alliance",
-      title: "Phobos Guide for Hero Wars Alliance",
-      strong: "Guide: Phobos Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: March, 2026."
-    },
     
-    {
-      link: "../../hero-wars-alliance/titans-guide/alecto-en.html",
-      src500: "../../hero-wars-alliance/images/titans/alecto/alecto-500px.webp",
-      src400: "../../hero-wars-alliance/images/titans/alecto/alecto-400px.webp",
-      alt: "Alecto Legendary Skills Guide for Hero Wars Alliance",
-      title: "Titan Alecto Guide for Hero Wars Alliance",
-      strong: "Guide: Titan Alecto for Hero Wars Alliance",
-      updated: "Updated: April, 2026."
-    },   
-    {
-      link: "../../hero-wars-alliance/tier-list-hwa/realm-tier-list-en.html",
-      src500: "../../hero-wars-alliance/images/tier-list-hwa-img/realm/realm-tier-list-500px.webp",
-      src400: "../../hero-wars-alliance/images/tier-list-hwa-img/realm/realm-tier-list-400px.webp",
-      alt: "Realm Tier List Guide for Hero Wars Alliance",
-      title: "Realm Tier List Guide for Hero Wars Alliance",
-      strong: "Realm Tier List Guide for Hero Wars Alliance",
-      updated: "Updated: March, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/guide/realm-en.html",
-      src500: "../../hero-wars-alliance/images/guides/realm/realm-guide-500px.webp",
-      src400: "../../hero-wars-alliance/images/guides/realm/realm-guide-400px.webp",
-      alt: "Realm Mode Guide for Hero Wars Alliance",
-      title: "Realm Mode Guide for Hero Wars Alliance",
-      strong: "Complete Realm Mode Guide for Hero Wars Alliance",
-      updated: "Updated: March, 2026."
-    },
-    
-    {
-      link: "../../hero-wars-alliance/guide/meta-teams-and-combos-en.html",
-      src500: "../../hero-wars-alliance/images/guides/meta-teams-and-combos/meta-teams-and-combos-500px.webp",
-      src400: "../../hero-wars-alliance/images/guides/meta-teams-and-combos/meta-teams-and-combos-400px.webp",
-      alt: "Meta Teams and Combos Guide for Hero Wars Alliance",
-      title: "Meta Teams and Combos Guide for Hero Wars Alliance",
-      strong: "Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance",
-      updated: "Updated: March, 2026."
-    }, 
-    {
-      link: "../../hero-wars-alliance/characters-guide/electra-en.html",
-      src500: "../../hero-wars-alliance/images/hero/electra/electra-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/electra/electra-400px.webp",
-      alt: "Electra Legendary Skills Guide for Hero Wars Alliance",
-      title: "Electra Guide for Hero Wars Alliance",
-      strong: "Guide Skin+: Electra Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/characters-guide/drayne-en.html",
-      src500: "../../hero-wars-alliance/images/hero/drayne/drayne-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/drayne/drayne-400px.webp",
-      alt: "Drayne Legendary Skills Guide for Hero Wars Alliance",
-      title: "Drayne Guide for Hero Wars Alliance",
-      strong: "Guide Skin Jade Flame: Drayne Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/characters-guide/folio-en.html",
-      src500: "../../hero-wars-alliance/images/hero/folio/folio-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/folio/folio-400px.webp",
-      alt: "Folio Legendary Skills Guide for Hero Wars Alliance",
-      title: "Folio Guide for Hero Wars Alliance",
-      strong: "Folio: New Skin - Legendary Skills Guide for Hero Wars Alliance",
-      updated: "Updated: April, 2026."
-    },   
-    {
-      link: "../../hero-wars-alliance/characters-guide/miu-en.html",
-      src500: "../../hero-wars-alliance/images/hero/miu/miu-500px.webp",
-      src400: "../../hero-wars-alliance/images/hero/miu/miu-400px.webp",
-      alt: "Miu Legendary Skills Guide for Hero Wars Alliance",
-      title: "Miu Guide for Hero Wars Alliance",
-      strong: "Miu Legendary Guide Skills for Hero Wars Alliance",
-      updated: "Updated: March, 2026."
-    },
     {
   link: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html",
   src500: "../../hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-500px.webp",
@@ -182,13 +100,25 @@
     mount = document.createElement('div');
     mount.className = 'hwa-submenu-mount';
 
+    // Primary target: render exactly where this script tag is placed in HTML.
+    var scriptTag = document.currentScript || document.querySelector('script[src*="hwa-submenu-calendar.js"]');
+    if(scriptTag && scriptTag.parentNode){
+      scriptTag.parentNode.insertBefore(mount, scriptTag.nextSibling);
+      return mount;
+    }
+
     var block3Comment = findBlock3Comment();
     if(block3Comment && block3Comment.parentNode){
       block3Comment.parentNode.insertBefore(mount, block3Comment.nextSibling);
       return mount;
     }
 
-    var fallback = document.querySelector('#second-half') || document.querySelector('.container');
+    // Prefer a visible container. Some calendar pages keep #second-half hidden.
+    var secondHalf = document.querySelector('#second-half');
+    var fallback = document.querySelector('.container');
+    if(secondHalf && !secondHalf.classList.contains('hidden')){
+      fallback = secondHalf;
+    }
     if(fallback){
       fallback.appendChild(mount);
     }
@@ -256,7 +186,10 @@
       var figure = buildFigure(slides[i], shared, lang);
       wrapper.appendChild(figure);
       if(typeof shared.resolveLink === 'function'){
-        try{ shared.resolveLink(figure); }catch(e){}
+        try{
+          var anchor = figure.querySelector('a[data-en-link]');
+          if(anchor) shared.resolveLink(anchor);
+        }catch(e){}
       }
     }
 

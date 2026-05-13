@@ -59,33 +59,7 @@
     },
  
    
-    {
-      link: "/hero-wars-alliance/characters-guide/phobos-en.html",
-      src500: "/hero-wars-alliance/images/hero/phobos/phobos-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/phobos/phobos-400px.webp",
-      alt: "Phobos Legendary Skills Guide for Hero Wars Alliance",
-      title: "Phobos Guide for Hero Wars Alliance",
-      strong: "Guide: Phobos Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: March, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/titans-events-tips/alecto-season-adventure-shop-en.html",
-      src500: "../../hero-wars-alliance/images/titans-events-tips/alecto-season-adventure-shop/alecto-season-adventure-shop-500px.webp",
-      src400: "../../hero-wars-alliance/images/titans-events-tips/alecto-season-adventure-shop/alecto-season-adventure-shop-400px.webp",
-      alt: "Alecto's Champion Coins shop during the Season Adventure Event in Hero Wars Alliance",
-      title: "Season Adventure Event Shop - Hero Wars Alliance",
-      strong: "Guide: Alecto's Season Adventure Event Shop! What to Buy? Hero Wars Alliance",
-      updated: "Updated: April, 2026."
-    },    
-    {
-      link: "../../hero-wars-alliance/titans-guide/alecto-en.html",
-      src500: "../../hero-wars-alliance/images/titans/alecto/alecto-500px.webp",
-      src400: "../../hero-wars-alliance/images/titans/alecto/alecto-400px.webp",
-      alt: "Alecto Legendary Skills Guide for Hero Wars Alliance",
-      title: "Titan Alecto Guide for Hero Wars Alliance",
-      strong: "Guide: Titan Alecto for Hero Wars Alliance",
-      updated: "Updated: April, 2026."
-    },   
+    
      {
       link: "/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html",
       src500: "/hero-wars-alliance/img-hero-wars-alliance/guide-img/how-to-play-hero-wars-on-desktop/how-to-play-hero-wars-on-pc-and-mac-500px.webp",
@@ -118,36 +92,7 @@
       updated: "Updated: April, 2026."
     },
     
-       
 
-    {
-      link: "../../hero-wars-alliance/tier-list-hwa/realm-tier-list-en.html",
-      src500: "../../hero-wars-alliance/images/tier-list-hwa-img/realm/realm-tier-list-500px.webp",
-      src400: "../../hero-wars-alliance/images/tier-list-hwa-img/realm/realm-tier-list-400px.webp",
-      alt: "Realm Tier List Guide for Hero Wars Alliance",
-      title: "Realm Tier List Guide for Hero Wars Alliance",
-      strong: "Realm Tier List Guide for Hero Wars Alliance",
-      updated: "Updated: March, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/guide/realm-en.html",
-      src500: "../../hero-wars-alliance/images/guides/realm/realm-guide-500px.webp",
-      src400: "../../hero-wars-alliance/images/guides/realm/realm-guide-400px.webp",
-      alt: "Realm Mode Guide for Hero Wars Alliance",
-      title: "Realm Mode Guide for Hero Wars Alliance",
-      strong: "Complete Realm Mode Guide for Hero Wars Alliance",
-      updated: "Updated: March, 2026."
-    },
-    
-    {
-      link: "../../hero-wars-alliance/guide/meta-teams-and-combos-en.html",
-      src500: "../../hero-wars-alliance/images/guides/meta-teams-and-combos/meta-teams-and-combos-500px.webp",
-      src400: "../../hero-wars-alliance/images/guides/meta-teams-and-combos/meta-teams-and-combos-400px.webp",
-      alt: "Meta Teams and Combos Guide for Hero Wars Alliance",
-      title: "Meta Teams and Combos Guide for Hero Wars Alliance",
-      strong: "Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance",
-      updated: "Updated: March, 2026."
-    }, 
        
     
     {
