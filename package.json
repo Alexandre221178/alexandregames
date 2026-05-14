@@ -20,7 +20,8 @@
     "update-talisman-guide-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide talisman-guide",
    "update-how-to-play-hero-wars-on-pc-and-mac-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide how-to-play-hero-wars-on-pc-and-mac",
    
-    "update-alliance-of-forces-hwa": "node hero-wars-alliance/update-data-menu-hwa.js event-hwa alliance-of-forces",
+   "update-abyss-splendor-hwa": "node hero-wars-alliance/update-data-menu-hwa.js event-hwa abyss-splendor",
+   "update-alliance-of-forces-hwa": "node hero-wars-alliance/update-data-menu-hwa.js event-hwa alliance-of-forces",
     "update-runic-millstone-hwa": "node hero-wars-alliance/update-data-menu-hwa.js event-hwa runic-millstone",
     "update-when-worlds-collide-hwa": "node hero-wars-alliance/update-data-menu-hwa.js event-hwa when-worlds-collide",
 
