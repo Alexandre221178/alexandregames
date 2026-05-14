@@ -69,7 +69,7 @@ window.CALENDAR_DATA = [
     image: "../../img-HWM/events-img/outland-splendor-img/outland-splendor-200px.webp",
     alt: "Abyss Splendor",
     titles: { en: "🌌 Abyss Splendor Event", de: "🌌 Glanz des Außenlands Leitfaden", es: "🌌 Esplendor del Territorio Guía", fr: "🌌 Splendeur de l’Outreterre Guide", pt: "🌌 Esplendor da Fronteira Guia", ja: "🌌 アウトランド・スプレンダー ガイド" },
-    links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" },
+    links: { en: "/hero-wars-alliance/event-hwa/abyss-splendor-en.html", pt: "/hero-wars-alliance/event-hwa/abyss-splendor-pt.html", de: "/hero-wars-alliance/event-hwa/abyss-splendor-de.html", es: "/hero-wars-alliance/event-hwa/abyss-splendor-es.html", fr: "/hero-wars-alliance/event-hwa/abyss-splendor-fr.html", ja: "/hero-wars-alliance/event-hwa/abyss-splendor-ja.html" },
     extra: [     
         {
   titles: { en: "Dorian Guide", pt: "Guia do Dorian", de: "Dorian Leitfaden", es: "Guía de Dorian", fr: "Guide de Dorian",  ja: "ドリアンガイド" },
@@ -89,7 +89,7 @@ window.CALENDAR_DATA = [
      image: "../../img-HWM/events-img/outland-splendor-img/outland-splendor-200px.webp",
     alt: "Abyss Splendor",
     titles: { en: "🌌 Abyss Splendor Event", de: "🌌 Glanz des Außenlands Leitfaden", es: "🌌 Esplendor del Territorio Guía", fr: "🌌 Splendeur de l’Outreterre Guide", pt: "🌌 Esplendor da Fronteira Guia", ja: "🌌 アウトランド・スプレンダー ガイド" },
-    links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" },
+    links: { en: "/hero-wars-alliance/event-hwa/abyss-splendor-en.html", pt: "/hero-wars-alliance/event-hwa/abyss-splendor-pt.html", de: "/hero-wars-alliance/event-hwa/abyss-splendor-de.html", es: "/hero-wars-alliance/event-hwa/abyss-splendor-es.html", fr: "/hero-wars-alliance/event-hwa/abyss-splendor-fr.html", ja: "/hero-wars-alliance/event-hwa/abyss-splendor-ja.html" },
     extra: [     
         {
   titles: { en: "Dorian Guide", pt: "Guia do Dorian", de: "Dorian Leitfaden", es: "Guía de Dorian", fr: "Guide de Dorian",  ja: "ドリアンガイド" },
@@ -109,7 +109,7 @@ window.CALENDAR_DATA = [
      image: "../../img-HWM/events-img/outland-splendor-img/outland-splendor-200px.webp",
     alt: "Abyss Splendor",
     titles: { en: "🌌 Abyss Splendor Event", de: "🌌 Glanz des Außenlands Leitfaden", es: "🌌 Esplendor del Territorio Guía", fr: "🌌 Splendeur de l’Outreterre Guide", pt: "🌌 Esplendor da Fronteira Guia", ja: "🌌 アウトランド・スプレンダー ガイド" },
-    links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" },
+    links: { en: "/hero-wars-alliance/event-hwa/abyss-splendor-en.html", pt: "/hero-wars-alliance/event-hwa/abyss-splendor-pt.html", de: "/hero-wars-alliance/event-hwa/abyss-splendor-de.html", es: "/hero-wars-alliance/event-hwa/abyss-splendor-es.html", fr: "/hero-wars-alliance/event-hwa/abyss-splendor-fr.html", ja: "/hero-wars-alliance/event-hwa/abyss-splendor-ja.html" },
     extra: [     
         {
   titles: { en: "Dorian Guide", pt: "Guia do Dorian", de: "Dorian Leitfaden", es: "Guía de Dorian", fr: "Guide de Dorian",  ja: "ドリアンガイド" },
