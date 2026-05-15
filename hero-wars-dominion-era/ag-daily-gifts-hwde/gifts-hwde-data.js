@@ -11,6 +11,8 @@
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 // ── May #, 2026 ──────────────────────────────
 */window.HWDE_GIFTS = [
+   // ── May 15, 2026 ──────────────────────────────
+   { date:'2026-05-15', type:'link', giftId:'4a766740d74a156ee227eee68971f219', note:'level',
    
   // ── May 14, 2026 ──────────────────────────────
    { date:'2026-05-14', type:'link', giftId:'735837ad037b8cdec5631388bb31bc3e', note:'level',
