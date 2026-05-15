@@ -6,6 +6,10 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+// ── May 15, 2026 ──────────────────────────────
+ { date:'2026-05-15', type:'daily', mission:'2-13', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+
     // ── May 14, 2026 ──────────────────────────────
    // ── Hub Code gft valid data true ──────────────────────────────
 { date:'2026-05-14', type:'hub', code:'MIUMIU', note:'until|2026-06-08T01:00:00Z',
