@@ -5,5 +5,6 @@
         "K'arkh",
         "Relíquias",
         "Soleil's"
-    ]
+    ],
+    "chat.disableAIFeatures": false
 }
