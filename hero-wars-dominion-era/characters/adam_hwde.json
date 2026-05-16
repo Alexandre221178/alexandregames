@@ -1,0 +1,352 @@
+{
+	"id": "adam",
+	"name": "Adam",
+	"gender": "male",
+	"role": ["marksman"],
+	"main_role": "Marksman",
+	"position": "47",
+	"main_stat": "Agility",
+	"how_to_get_soul_stones": "Unobtainable (temporary)",
+	"pet_patronage": "Fenris, Cain, Biscuit, Vex",
+	"sinergy": "Lyria, Electra, Polaris, Fafnir, Iris",
+	"counter": "Fluffy",
+	"basic_attack_formula": "(100% physical attack)",
+	"basic_attack": 82362,
+	"basic_attack_cooldown": "4s",
+	"stats": {
+		"intelligence": 3247,
+		"agility": 17009,
+		"strength": 3242,
+		"health": 450732,
+		"physical_attack": 82362,
+		"magic_attack": 9741,
+		"armor": 32452,
+		"magic_defense": 14879,
+		"dodge": 11565,
+		"crit_hit_chance": 0,
+		"accuracy": 17009,
+		"crit_resistance": 17009,
+		"vampirism": 0,
+		"magic_penetration": 0,
+		"armor_penetration": 26680,
+		"power": 174815
+	},
+	"skills": [
+		{
+			"id": 1,
+			"variant": "base",
+			"level": 130,
+			"name": "Bounty Lock",
+			"type": ["ultimate", "white"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Damage: 257,905 (250% physical attack + 400 * level)",
+			"scales_with": ["Physical Attack"],
+			"description": "Fires a tracking round at the enemy Hero without Hunter's Mark closest to the center of the enemy team. The shot applies Hunter's Mark and deals 257,905 damage. If the target dies while affected by Hunter's Mark, the ability is immediately reset."
+		},
+		{
+			"id": 2,
+			"variant": "base",
+			"level": 130,
+			"name": "Fan the Hammer",
+			"type": ["periodic", "green"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Damage to main target: 78,990 (80% physical attack + 100 * level + 100). Damage to marked target: 46,045 (40% physical attack + 100 * level + 100). Cooldown: 7s",
+			"scales_with": ["Physical Attack"],
+			"description": "Fires a series of 3 shots at the nearest enemy, dealing 78,990 damage with each shot. If there are enemies on the battlefield with Hunter's Mark, the shots ricochet to them, dealing 46,045 damage. Cooldown: 7s"
+		},
+		{
+			"id": 3,
+			"variant": "base",
+			"level": 130,
+			"name": "Reactive Screen",
+			"type": ["periodic", "blue"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Additional dodge: 13,436 (10% physical attack + 40 * level). Cooldown: 10s",
+			"scales_with": ["Physical Attack"],
+			"description": "Once every 10s, when Adam takes damage from enemies, a smoke screen is deployed beneath him for 5s. While inside the smoke screen, Adam gains 13,436 additional dodge and can evade all types of damage, not just physical. Cooldown: 10s"
+		},
+		{
+			"id": 4,
+			"variant": "base",
+			"level": 130,
+			"name": "Adaptive Caliber",
+			"type": ["passive", "violet"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Physical Attack increase: 4,707 (0.9% health + 5 * level). Armor Penetration increase: 3,533 (3.5% physical attack + 5 * level)",
+			"scales_with": ["Health", "Physical Attack"],
+			"description": "Passive skill. When Adam deals physical damage and does not fully penetrate the target's armor, his Armor Penetration increases by 3,533. If Adam fully penetrates the target's armor, his Physical Attack increases by 4,707. Both effects stack and last until the end of the battle."
+		}
+	],
+	"artifacts": [
+		{
+			"name": "Starfang Adaptive Pistol",
+			"stats": {
+				"physical_attack": 33459,
+				"power": 12547
+			},
+			"costs": {
+				"absolute_artifact_essence": 1635,
+				"flawless_artifact_essence": 1199,
+				"chaos_core": 121,
+				"starfang_adaptive_pistol_fragment": 225,
+				"artifact_coin": 90000
+			}
+		},
+		{
+			"name": "Book of Illusions",
+			"stats": {
+				"health": 83649,
+				"dodge": 4647,
+				"power": 12547
+			},
+			"costs": {
+				"absolute_artifact_scroll": 1635,
+				"flawless_artifact_scroll": 1199,
+				"chaos_core": 121,
+				"book_of_illusions_fragment": 225,
+				"artifact_coin": 90000
+			}
+		},
+		{
+			"name": "Ring of Agility",
+			"stats": {
+				"agility": 6249,
+				"power": 17184
+			},
+			"costs": {
+				"absolute_artifact_metal": 1635,
+				"flawless_artifact_metal": 1199,
+				"chaos_core": 121,
+				"ring_of_agility_fragment": 225,
+				"artifact_coin": 90000
+			}
+		}
+	],
+	"skins": [
+		{
+			"name": "Default Skin",
+			"stats": {
+				"agility": 1365,
+				"power": 3753
+			},
+			"costs": {
+				"agility_skin_stone": 30825
+			}
+		},
+		{
+			"name": "Ceremonial Skin",
+			"note": "Can only be obtained during a special event (May 24)",
+			"stats": {
+				"health": 106645,
+				"power": 5332
+			},
+			"costs": {
+				"exclusive_skin_coin": 55410
+			}
+		}
+	],
+	"glyphs": [
+		{
+			"name": "Physical attack Glyph",
+			"stats": {
+				"physical_attack": 4340,
+				"power": 3255
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Armor penetration Glyph",
+			"stats": {
+				"armor_penetration": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Dodge Glyph",
+			"stats": {
+				"dodge": 1995,
+				"power": 3591
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Armor Glyph",
+			"stats": {
+				"armor": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Agility Glyph",
+			"stats": {
+				"agility": 1135,
+				"power": 3121
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		}
+	],
+	"ascension": {
+		"I": {
+			"stats": {
+				"agility": 230,
+				"physical_attack": 860,
+				"magic_defense": 50,
+				"armor_penetration": 990,
+				"dodge": 250,
+				"power": 2247
+			},
+			"costs": {
+				"agility_crystal": 2275,
+				"star_mana": 5420,
+				"gold": 1650000
+			}
+		},
+		"II": {
+			"stats": {
+				"agility": 315,
+				"physical_attack": 650,
+				"magic_defense": 1730,
+				"armor_penetration": 1400,
+				"dodge": 320,
+				"power": 3494
+			},
+			"costs": {
+				"agility_crystal": 1950,
+				"star_mana": 9160,
+				"gold": 5775000,
+				"vibrant_agility_crystal": 1150
+			}
+		},
+		"III": {
+			"stats": {
+				"agility": 495,
+				"physical_attack": 1810,
+				"magic_defense": 530,
+				"armor_penetration": 2860,
+				"dodge": 610,
+				"power": 5511
+			},
+			"costs": {
+				"vibrant_agility_crystal": 2375,
+				"composure_insignia": 1175,
+				"star_mana": 20200,
+				"gold": 12400000
+			}
+		},
+		"IV": {
+			"stats": {
+				"agility": 560,
+				"physical_attack": 1360,
+				"magic_defense": 3030,
+				"armor_penetration": 2570,
+				"dodge": 640,
+				"power": 6512
+			},
+			"costs": {
+				"vibrant_agility_crystal": 475,
+				"composure_insignia": 1220,
+				"star_mana": 42540,
+				"gold": 21600000,
+				"radiant_agility_crystal": 1460,
+				"greater_composure_insignia": 235
+			}
+		},
+		"V": {
+			"stats": {
+				"agility": 610,
+				"physical_attack": 2230,
+				"magic_defense": 940,
+				"armor_penetration": 3950,
+				"dodge": 800,
+				"power": 7235
+			},
+			"costs": {
+				"radiant_agility_crystal": 1925,
+				"greater_composure_insignia": 1925,
+				"star_mana": 80180,
+				"gold": 38300000
+			}
+		},
+		"I-V": {
+			"stats": {
+				"agility": 2210,
+				"physical_attack": 6910,
+				"magic_defense": 6280,
+				"armor_penetration": 11770,
+				"dodge": 2620,
+				"power": 25001
+			},
+			"costs": {
+				"agility_crystal": 4225,
+				"star_mana": 157500,
+				"gold": 79725000,
+				"vibrant_agility_crystal": 4000,
+				"composure_insignia": 2395,
+				"radiant_agility_crystal": 3385,
+				"greater_composure_insignia": 2160
+			}
+		}
+	},
+	"tree_of_wisdom": {
+		"stats": {
+			"health": 35280,
+			"physical_attack": 8215,
+			"magic_defense": 2416,
+			"armor": 3378,
+			"armor_penetration": 3460,
+			"power": 12552
+		},
+		"costs": {
+			"eternal_seed": 586,
+			"ancient_wisdom_crystal": 47400
+		}
+	},
+	"miscellaneous": {
+		"levels": {
+			"stats": {
+				"intelligence": 2080,
+				"agility": 2340,
+				"strength": 2080,
+				"power": 17875
+			},
+			"costs": {
+				"huge_exp_potion": 483,
+				"adam_soul_stone": 630
+			}
+		},
+		"gift_of_the_elements": {
+			"stats": {
+				"intelligence": 360,
+				"agility": 720,
+				"strength": 360,
+				"power": 3960
+			},
+			"costs": {
+				"spark_of_power": 65150,
+				"gold": 7927500
+			}
+		}
+	}
+}
