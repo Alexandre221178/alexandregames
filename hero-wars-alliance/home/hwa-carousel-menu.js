@@ -2,15 +2,6 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
-      link: "../../hero-wars-alliance/event-special-hwa/kendle-season-adventure-guide-en.html",
-      src500: "../../hero-wars-alliance/images/events-special-hwa/kendle-adventure-shop/kendle-adventure-shop-500px.webp",
-      src400: "../../hero-wars-alliance/images/events-special-hwa/kendle-adventure-shop/kendle-adventure-shop-400px.webp",
-      alt: "Kendle Adventure and Shop Guide for Hero Wars Alliance",
-      title: "Kendle Adventure and Shop Guide for Hero Wars Alliance",
-      strong: "Guide: Kendle Adventure and Shop f2p Strategy for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },
-    {
       link: "../../hero-wars-alliance/event-hwa/path-to-perfection-en.html",
       src500: "../../hero-wars-alliance/images/events/path-to-perfection/path-to-perfection-shop-500px.webp",
       src400: "../../hero-wars-alliance/images/events/path-to-perfection/path-to-perfection-shop-400px.webp",
@@ -19,6 +10,25 @@
       strong: "Guide: Path to Perfection Event Shop for Hero Wars Alliance",
       updated: "Updated: May, 2026."
     },
+     {
+      link: "/hero-wars-alliance/characters-guide/dorian-en.html",
+      src500: "/hero-wars-alliance/images/hero/dorian/dorian-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/dorian/dorian-400px.webp",
+      alt: "Dorian Legendary Skills Guide for Hero Wars Alliance",
+      title: "Dorian Guide for Hero Wars Alliance",
+      strong: "Guide: Dorian Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },
+    {
+      link: "../../hero-wars-alliance/event-special-hwa/kendle-season-adventure-guide-en.html",
+      src500: "../../hero-wars-alliance/images/events-special-hwa/kendle-adventure-shop/kendle-adventure-shop-500px.webp",
+      src400: "../../hero-wars-alliance/images/events-special-hwa/kendle-adventure-shop/kendle-adventure-shop-400px.webp",
+      alt: "Kendle Adventure and Shop Guide for Hero Wars Alliance",
+      title: "Kendle Adventure and Shop Guide for Hero Wars Alliance",
+      strong: "Guide: Kendle Adventure and Shop f2p Strategy for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },
+    
     {
       link: "/hero-wars-alliance/characters-guide/kendle-en.html",
       src500: "/hero-wars-alliance/images/hero/kendle/kendle-500px.webp",

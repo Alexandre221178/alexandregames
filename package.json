@@ -31,6 +31,8 @@
     "update-alvanor-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide alvanor",
     "update-byrna-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide byrna",
     "update-dante-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide dante",
+    "update-dorian-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide dorian",
+ 
     "update-drayne-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide drayne",
     "update-electra-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide electra",
     "update-folio-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide folio",

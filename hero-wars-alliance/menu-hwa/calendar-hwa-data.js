@@ -73,7 +73,7 @@ window.CALENDAR_DATA = [
     extra: [     
         {
   titles: { en: "Dorian Guide", pt: "Guia do Dorian", de: "Dorian Leitfaden", es: "Guía de Dorian", fr: "Guide de Dorian",  ja: "ドリアンガイド" },
-  links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Dorian - English.html", de: "", es: "", fr: "", pt: "../../", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },       
   noStrip: true
 },  
 {
@@ -93,7 +93,7 @@ window.CALENDAR_DATA = [
     extra: [     
         {
   titles: { en: "Dorian Guide", pt: "Guia do Dorian", de: "Dorian Leitfaden", es: "Guía de Dorian", fr: "Guide de Dorian",  ja: "ドリアンガイド" },
-  links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Dorian - English.html", de: "", es: "", fr: "", pt: "../../", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },       
   noStrip: true
 },  
 {
@@ -113,7 +113,7 @@ window.CALENDAR_DATA = [
     extra: [     
         {
   titles: { en: "Dorian Guide", pt: "Guia do Dorian", de: "Dorian Leitfaden", es: "Guía de Dorian", fr: "Guide de Dorian",  ja: "ドリアンガイド" },
-  links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Dorian - English.html", de: "", es: "", fr: "", pt: "../../", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },       
   noStrip: true
 },  
 {
@@ -203,7 +203,7 @@ window.CALENDAR_DATA = [
       
       {        
   titles: { en: "Dorian Guide", pt: "Guia do Dorian", de: "Dorian Leitfaden", es: "Guía de Dorian", fr: "Guide de Dorian",  ja: "ドリアンガイド" },
-  links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Dorian - English.html", de: "", es: "", fr: "", pt: "../../", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },       
   noStrip: true
 },  
     ]
@@ -224,7 +224,7 @@ window.CALENDAR_DATA = [
       
       {        
   titles: { en: "Dorian Guide", pt: "Guia do Dorian", de: "Dorian Leitfaden", es: "Guía de Dorian", fr: "Guide de Dorian",  ja: "ドリアンガイド" },
-  links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Dorian - English.html", de: "", es: "", fr: "", pt: "../../", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },       
   noStrip: true
 },  
     ]
@@ -245,7 +245,7 @@ window.CALENDAR_DATA = [
       
       {        
   titles: { en: "Dorian Guide", pt: "Guia do Dorian", de: "Dorian Leitfaden", es: "Guía de Dorian", fr: "Guide de Dorian",  ja: "ドリアンガイド" },
-  links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Dorian - English.html", de: "", es: "", fr: "", pt: "../../", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },       
   noStrip: true
 },  
     ]
