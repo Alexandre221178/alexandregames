@@ -18,7 +18,7 @@ https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 { date:'2026-05-14', type:'link', giftLinkWeb:'https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa3BlbXdoZ2Z3UmhaVTJTMjJURzk4ZHVJeHQ3QXxBQ3Jtc0tsQnBjUGwzOE5Cc044c0lFWXp3a2JlWk5MbGFQR3RaZXdwa3dCUWpPYzlMcWo3S1EzY1hZaGtQQXJIN014bzY4akxBSEx5YjNvSDBfdmhUamhzdFZ5OXRZdWduYnVVWW9ZNjUwU0c3YUgtSk13UjQ1bw&q=https%3A%2F%2Fwww.hero-wars.com%2F%3Fnx_source%3Dgroup_posting_boxweb%26gift_id%3D8PdgKQBHWP&v=6ICF5LDfVTo',
    giftLinkFb:'https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbl9yMHZwSGhzWDRJcmJqajlEZTlHSU5nMy1RUXxBQ3Jtc0trSXdxaUNDb1pEOGFkUzMxOTFaV0MyUHFZckZoaVZSSFFuUnVSLVhGS3hlUVFPUGhhOEtfNkFYYVBFRndDeGk3elhtZGZkMTRMczc1QWtKcDlRaGN2eW0yMXktXzVjQ25UeVFpU21DNVp6WnVLX2pnbw&q=https%3A%2F%2Ffb.gg%2Fplay%2Fmobaheroes%2Fd%2F4546179685671400%2F&v=6ICF5LDfVTo', note:'until|2026-05-03T02:00:00Z',
   note:'until|2026-05-19T02:00:00Z',
-  rewards:['large-skin-stone-chest', 'portal-charge'] },
+  rewards:['large-skin-stone-chest x5', 'portal-charge x3'] },
   // ── May 14, 2026 ──────────────────────────────
    { date:'2026-05-14', type:'link', giftId:'735837ad037b8cdec5631388bb31bc3e', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
