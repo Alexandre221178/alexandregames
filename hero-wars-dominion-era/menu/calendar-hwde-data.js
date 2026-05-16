@@ -525,7 +525,7 @@ window.CALENDAR_DATA = [
   {
     weekday: "Sunday",
     date: "May, 17",
-    image: "../../hero-wars-dominion-era/images/events/tournament-of-titan-power/tournament-of-titan-power-150px.webp",
+    image: "/hero-wars-dominion-era/images/hero/adam/adam-400px.webp",
     alt: "Tournament of Titan Power",
     titles: { en: "Tournament of Titan Power", pt: "Torneio de Poder dos Titãs", de: "Titanenkraft-Turnier", es: "Torneo de Poder de Titanes", fr: "Tournoi de Puissance des Titans", ja: "タイタンパワートーナメント" },
     links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -537,6 +537,11 @@ window.CALENDAR_DATA = [
   es: "Reserva de Adan",   fr: "Précommande d’Adan",   ja: "アダン先行予約" },
 labelOnly: true
 },
+{
+titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
+links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
+noStrip: true
+},  
       
       {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
@@ -556,6 +561,11 @@ labelOnly: true
     links: { en: "../../hero-wars-dominion-era/events/power-of-the-titans-en.html", pt: "../../hero-wars-dominion-era/events/power-of-the-titans-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      {
+titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
+links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
+noStrip: true
+}, 
       {
         titles: { en: "Tournament of Titan Power", pt: "Torneio de Poder dos Titãs", de: "Titanenkraft-Turnier", es: "Torneo de Poder de Titanes", fr: "Tournoi de Puissance des Titans", ja: "タイタンパワートーナメント" },
         links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -586,6 +596,11 @@ labelOnly: true
     noStrip: true,
     extra: [
       {
+titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
+links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
+noStrip: true
+}, 
+      {
         titles: { en: "Tournament of Titan Power", pt: "Torneio de Poder dos Titãs", de: "Titanenkraft-Turnier", es: "Torneo de Poder de Titanes", fr: "Tournoi de Puissance des Titans", ja: "タイタンパワートーナメント" },
         links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
@@ -614,6 +629,11 @@ labelOnly: true
     noStrip: true,
     extra: [
       {
+titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
+links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
+noStrip: true
+}, 
+      {
         titles: { en: "Tournament of Titan Power", pt: "Torneio de Poder dos Titãs", de: "Titanenkraft-Turnier", es: "Torneo de Poder de Titanes", fr: "Tournoi de Puissance des Titans", ja: "タイタンパワートーナメント" },
         links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
@@ -641,6 +661,11 @@ labelOnly: true
     links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      {
+titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
+links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
+noStrip: true
+}, 
        {
   titles: {
   en: "Adan Pre Order",   pt: "Pré-venda do Adan",   de: "Adan-Vorbestellung",
@@ -680,6 +705,11 @@ labelOnly: true
 labelOnly: true
 },
 {
+titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
+links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
+noStrip: true
+}, 
+{
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },
@@ -700,12 +730,18 @@ labelOnly: true
   titles: { en: "Mort' Brawl", pt: "Rixas do Mort", de: "Morts Rauferei", es: "Pelea de Mort", fr: "Bagarre de Mort", ja: "モルトの乱闘" },
   labelOnly: true
 },
+{
+titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
+links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
+noStrip: true
+}, 
  {
   titles: {
   en: "Adan Pre Order",   pt: "Pré-venda do Adan",   de: "Adan-Vorbestellung",
   es: "Reserva de Adan",   fr: "Précommande d’Adan",   ja: "アダン先行予約" },
 labelOnly: true
 },
+
  {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
@@ -721,7 +757,7 @@ labelOnly: true
   {
     weekday: "Sunday",
     date: "May, 24",
-    image: "../../hero-wars-dominion-era/images/events/emerald-city/emerald-city-150px.webp",
+    image: "/hero-wars-dominion-era/images/hero/adam/adam-400px.webp",
     alt: "Emerald City",
     titles: { en: "Emerald City", pt: "Cidade Esmeralda", de: "Smaragdstadt", es: "Ciudad Esmeralda", fr: "Ville d'Émeraude", ja: "エメラルドシティ" },
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -732,6 +768,11 @@ labelOnly: true
     en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
   labelOnly: true
 },
+{
+titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
+links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
+noStrip: true
+}, 
        {
   titles: { en: "Mort' Brawl", pt: "Rixas do Mort", de: "Morts Rauferei", es: "Pelea de Mort", fr: "Bagarre de Mort", ja: "モルトの乱闘" },
   labelOnly: true
@@ -762,6 +803,11 @@ labelOnly: true
     en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
   labelOnly: true
 },
+{
+titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
+links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
+noStrip: true
+}, 
       {
         titles: { en: "Emerald City", pt: "Cidade Esmeralda", de: "Smaragdstadt", es: "Ciudad Esmeralda", fr: "Ville d'Émeraude", ja: "エメラルドシティ" },
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -789,6 +835,11 @@ labelOnly: true
     en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
   labelOnly: true
 },
+{
+titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
+links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
+noStrip: true
+}, 
       {
         titles: { en: "Emerald City", pt: "Cidade Esmeralda", de: "Smaragdstadt", es: "Ciudad Esmeralda", fr: "Ville d'Émeraude", ja: "エメラルドシティ" },
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -805,7 +856,7 @@ labelOnly: true
   {
     weekday: "Wednesday",
     date: "May, 27",
-    image: "../../hero-wars-dominion-era/images/events/ascension-to-asgard/ascension-to-asgard-especial-invitation150px.webp",
+    image: "/hero-wars-dominion-era/images/events/ascension-to-asgard/ascension-to-asgard-especial-invitation150px.webp",
     alt: "Ascension to Asgard",
     titles: { en: "Ascension to Asgard", pt: "Ascensão a Asgard", de: "Aufstieg nach Asgard", es: "Ascensión a Asgard", fr: "Ascension vers Asgard", ja: "アスガルドへの昇天" },
     links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -816,6 +867,11 @@ labelOnly: true
     en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
   labelOnly: true
 },
+{
+titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
+links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
+noStrip: true
+}, 
       {
         titles: { en: "Emerald City", pt: "Cidade Esmeralda", de: "Smaragdstadt", es: "Ciudad Esmeralda", fr: "Ville d'Émeraude", ja: "エメラルドシティ" },
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -840,6 +896,11 @@ labelOnly: true
     en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
   labelOnly: true
 },
+{
+titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
+links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
+noStrip: true
+}, 
        {
         titles: { en: "Emerald City", pt: "Cidade Esmeralda", de: "Smaragdstadt", es: "Ciudad Esmeralda", fr: "Ville d'Émeraude", ja: "エメラルドシティ" },
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -867,6 +928,11 @@ labelOnly: true
     en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
   labelOnly: true
 },
+{
+titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
+links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
+noStrip: true
+}, 
        {
         titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
@@ -889,6 +955,11 @@ labelOnly: true
     en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
   labelOnly: true
 },
+{
+titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
+links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
+noStrip: true
+}, 
       {
         titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementarsynergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
         links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
