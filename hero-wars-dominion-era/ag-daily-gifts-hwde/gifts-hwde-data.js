@@ -11,6 +11,9 @@
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 // ── May #, 2026 ──────────────────────────────
 */window.HWDE_GIFTS = [
+  // ── May #, 2026 ──────────────────────────────
+  { date:'2026-05-16', type:'link', giftId:'357f22bc0768f99308ad834a6aac7316', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },
    // ── May 15, 2026 ──────────────────────────────
    { date:'2026-05-15', type:'link', giftId:'4a766740d74a156ee227eee68971f219', note:'level',
    rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
