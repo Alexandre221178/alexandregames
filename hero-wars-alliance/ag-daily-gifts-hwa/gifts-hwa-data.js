@@ -6,6 +6,9 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+    // ── May 16, 2026 ──────────────────────────────
+   { date:'2026-05-16', type:'daily', mission:'3-5', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 // ── May 15, 2026 ──────────────────────────────
 { date:'2026-05-15', type:'hub', code:'CREATORHUB', note:'until|2026-05-18T01:00:00Z',
    rewards:['summoning-sphere x5', 'gold 250k', 'energy x20'] },
