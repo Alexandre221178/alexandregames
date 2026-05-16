@@ -532,9 +532,17 @@ window.CALENDAR_DATA = [
     noStrip: true,
     extra: [
       {
+  titles: {
+  en: "Adan Pre Order",   pt: "Pré-venda do Adan",   de: "Adan-Vorbestellung",
+  es: "Reserva de Adan",   fr: "Précommande d’Adan",   ja: "アダン先行予約" },
+labelOnly: true
+},
+      
+      {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
+
     ]
   },
 
@@ -553,6 +561,13 @@ window.CALENDAR_DATA = [
         links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
         noStrip: true
       },
+       {
+  titles: {
+  en: "Adan Pre Order",   pt: "Pré-venda do Adan",   de: "Adan-Vorbestellung",
+  es: "Reserva de Adan",   fr: "Précommande d’Adan",   ja: "アダン先行予約" },
+labelOnly: true
+},
+      
        {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
@@ -576,6 +591,12 @@ window.CALENDAR_DATA = [
         noStrip: true
       },
        {
+  titles: {
+  en: "Adan Pre Order",   pt: "Pré-venda do Adan",   de: "Adan-Vorbestellung",
+  es: "Reserva de Adan",   fr: "Précommande d’Adan",   ja: "アダン先行予約" },
+labelOnly: true
+},
+       {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
@@ -598,6 +619,12 @@ window.CALENDAR_DATA = [
         noStrip: true
       },
        {
+  titles: {
+  en: "Adan Pre Order",   pt: "Pré-venda do Adan",   de: "Adan-Vorbestellung",
+  es: "Reserva de Adan",   fr: "Précommande d’Adan",   ja: "アダン先行予約" },
+labelOnly: true
+},
+       {
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },
@@ -614,6 +641,12 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+       {
+  titles: {
+  en: "Adan Pre Order",   pt: "Pré-venda do Adan",   de: "Adan-Vorbestellung",
+  es: "Reserva de Adan",   fr: "Précommande d’Adan",   ja: "アダン先行予約" },
+labelOnly: true
+},
      
       {
         titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
@@ -640,6 +673,12 @@ window.CALENDAR_DATA = [
   titles: { en: "Mort' Brawl", pt: "Rixas do Mort", de: "Morts Rauferei", es: "Pelea de Mort", fr: "Bagarre de Mort", ja: "モルトの乱闘" },
   labelOnly: true
 },
+ {
+  titles: {
+  en: "Adan Pre Order",   pt: "Pré-venda do Adan",   de: "Adan-Vorbestellung",
+  es: "Reserva de Adan",   fr: "Précommande d’Adan",   ja: "アダン先行予約" },
+labelOnly: true
+},
 {
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
@@ -662,6 +701,12 @@ window.CALENDAR_DATA = [
   labelOnly: true
 },
  {
+  titles: {
+  en: "Adan Pre Order",   pt: "Pré-venda do Adan",   de: "Adan-Vorbestellung",
+  es: "Reserva de Adan",   fr: "Précommande d’Adan",   ja: "アダン先行予約" },
+labelOnly: true
+},
+ {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
@@ -682,6 +727,11 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      {
+  titles: {
+    en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
+  labelOnly: true
+},
        {
   titles: { en: "Mort' Brawl", pt: "Rixas do Mort", de: "Morts Rauferei", es: "Pelea de Mort", fr: "Bagarre de Mort", ja: "モルトの乱闘" },
   labelOnly: true
@@ -708,6 +758,11 @@ window.CALENDAR_DATA = [
     noStrip: true,
     extra: [
       {
+  titles: {
+    en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
+  labelOnly: true
+},
+      {
         titles: { en: "Emerald City", pt: "Cidade Esmeralda", de: "Smaragdstadt", es: "Ciudad Esmeralda", fr: "Ville d'Émeraude", ja: "エメラルドシティ" },
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
@@ -729,6 +784,11 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      {
+  titles: {
+    en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
+  labelOnly: true
+},
       {
         titles: { en: "Emerald City", pt: "Cidade Esmeralda", de: "Smaragdstadt", es: "Ciudad Esmeralda", fr: "Ville d'Émeraude", ja: "エメラルドシティ" },
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -752,6 +812,11 @@ window.CALENDAR_DATA = [
     noStrip: true,
     extra: [
       {
+  titles: {
+    en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
+  labelOnly: true
+},
+      {
         titles: { en: "Emerald City", pt: "Cidade Esmeralda", de: "Smaragdstadt", es: "Ciudad Esmeralda", fr: "Ville d'Émeraude", ja: "エメラルドシティ" },
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
@@ -770,6 +835,11 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-dominion-era/events/weaving-patterns-en.html", pt: "../../hero-wars-dominion-era/events/weaving-patterns-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      {
+  titles: {
+    en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
+  labelOnly: true
+},
        {
         titles: { en: "Emerald City", pt: "Cidade Esmeralda", de: "Smaragdstadt", es: "Ciudad Esmeralda", fr: "Ville d'Émeraude", ja: "エメラルドシティ" },
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -792,6 +862,11 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-dominion-era/events/weaving-patterns-en.html", pt: "../../hero-wars-dominion-era/events/weaving-patterns-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      {
+  titles: {
+    en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
+  labelOnly: true
+},
        {
         titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
@@ -809,6 +884,11 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-dominion-era/events/foundations-of-power-en.html", pt: "../../hero-wars-dominion-era/events/foundations-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      {
+  titles: {
+    en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
+  labelOnly: true
+},
       {
         titles: { en: "Elemental Synergy", pt: "Sinergia Elemental", de: "Elementarsynergie", es: "Sinergia Elemental", fr: "Synergie Élémentaire", ja: "エレメンタルシナジー" },
         links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
