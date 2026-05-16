@@ -348,5 +348,75 @@
 				"gold": 7927500
 			}
 		}
-	}
+	},
+	"lore": "The universe is a big place - there's always work for a bounty hunter. Adam is one of the best, and nothing pleased him more than the sound of space credits pouring into his account. A contract on the deserter Arachne led him to Dominion. Just as he was about to pull the trigger, the Guardians appealed to his better nature. Not everyone with a bounty on their head deserves to die. Canceling the contract, Adam joined the Guardians. After all, work is sweeter when your consciousness is clean - and Dominion gold beats space credits every time.",
+	"presentation": "A marksman who attacks the enemy center, becomes more powerful as the combat drags on, gifted with a survival skill to last until the end. He is yet another effort of Nexters to slow down the pace of battles, after Fluffy, Electra and Byrna. This is why we have seen stalling teams come back into fashion recently.",
+	"synergies_detail": [
+		{
+			"hero": "Lyria",
+			"skill": "2nd skill (Green)",
+			"description": "Lyria binds herself to the ally with the highest physical attack for 12 seconds. Both Lyria and the bonded ally receive a vampirism bonus. While the Bonds of Alliance are active, vampirism restores health for them both. If the bonded ally is undead, they both get a physical attack bonus.",
+			"values": {
+				"vampirism": 20,
+				"physical_attack_bonus": 10000
+			}
+		},
+		{
+			"hero": "Lyria",
+			"skill": "4th skill (Violet/Passive)",
+			"description": "Passive skill. The hero exudes an aura that decreases the dodge stat of all enemies within the area of effect. All affected enemies receive additional physical damage from physical attacks. The size of the aura scales with the number of undead units in allied team.",
+			"values": {
+				"dodge_reduction": "19978 (30% Phys. atk. + 6500)",
+				"extra_damage": "4493 (10% Phys. atk.)"
+			}
+		},
+		{
+			"hero": "Electra",
+			"skill": "2nd skill (Green)",
+			"description": "Deals damage to the nearest enemies and transforms a percentage of damage dealt into Health.",
+			"values": {
+				"damage": "56706 (50% Mag. atk. + 26100)",
+				"vampirism": "399% (0.010% Health + 310)"
+			}
+		},
+		{
+			"hero": "Polaris",
+			"skill": "3rd skill (Blue)",
+			"description": "Polaris unleashes the Northern Lights onto her enemies. Her allies' control effects last 5% longer when applied to the affected foes. The Northern Lights also decrease the level of enemy skills that have a chance of activating by 10.",
+			"values": {
+				"control_duration_increase": "5%",
+				"enemy_skill_level_reduction": 10
+			}
+		},
+		{
+			"hero": "Fafnir",
+			"skill": "3rd skill (Blue) – Runic Blade",
+			"description": "Enchants the weapon wielded by the ally Fafnir is forging a Runic Shield for, increasing damage from their physical attacks for 8 seconds.",
+			"values": {
+				"extra_damage": "34164 (40% Phys. atk. + 3250)",
+				"duration": "8s"
+			}
+		},
+		{
+			"hero": "Iris",
+			"skill": "1st skill – Expose Soul",
+			"description": "Iris exposes an unprotected part of the Soul in the nearest enemy's body for 13 seconds. All damage taken by the Soul is transferred to its owner as pure damage.",
+			"values": {
+				"duration": "13s"
+			}
+		}
+	],
+	"counters_detail": [
+		{
+			"hero": "Fluffy",
+			"skill": "4th skill (Violet)",
+			"description": "When an enemy uses an ultimate ability, Fluffy cancels it and deals damage to them. At the same time, Fluffy takes damage equal to 33.5% of his maximum Health. This ability can trigger once every 20 seconds. The chance to cancel an ultimate ability is reduced if the target's level exceeds 40.",
+			"values": {
+				"damage_to_enemy": "7654 (50% Mag. atk. + 6100)",
+				"self_damage": "33.5% of maximum Health",
+				"cooldown": "20s"
+			},
+			"notes": "Fluffy directly cancels Adam's Bounty Lock ultimate, preventing Hunter's Mark from being applied and shutting down his entire damage scaling loop."
+		}
+	]
 }

@@ -57,7 +57,7 @@
     "update-gifts-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js ag-daily-gifts-hwde gifts-hwde",
     "update-mysterious-island-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js mysterious-island",
     
-    
+    "update-adam-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js adam",
     "update-aidan-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js aidan",
     "update-arachne-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js arachne",
    
