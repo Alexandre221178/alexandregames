@@ -1,6 +1,7 @@
 ﻿
 {
   "heroes": [
+    {"id":"Adam","gender":"male","en":"Adam","de":"Adam","es":"Adam","fr":"Adam","pt":"Adam","ja":"アダム"},
     {"id":"Aidan","gender":"male","en":"Aidan","de":"Aidan","es":"Aidan","fr":"Aidan","pt":"Aidan","ja":"エイダン"},
     {"id":"Alvanor","gender":"male","en":"Alvanor","de":"Alvanor","es":"Alvanor","fr":"Alvanor","pt":"Alvanor","ja":"アルバノール"},
     {"id":"Amira","gender":"female","en":"Amira","de":"Amira","es":"Amira","fr":"Amira","pt":"Amira","ja":"アミラ"},

@@ -764,10 +764,9 @@ labelOnly: true
     noStrip: true,
     extra: [
       {
-  titles: {
-    en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
-  labelOnly: true
-},
+    titles: { en: "Guide: Adam Event", pt: "Guia: Evento do Adam", de: "Leitfaden: Adam-Event", es: "Guía: Evento de Adam", fr: "Guide : Événement d’Adam", ja: "ガイド：アダムイベント"},  noStrip: true
+},  
+     
 {
 titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
 links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
@@ -798,11 +797,9 @@ noStrip: true
     links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
-      {
-  titles: {
-    en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
-  labelOnly: true
-},
+       {
+    titles: { en: "Guide: Adam Event", pt: "Guia: Evento do Adam", de: "Leitfaden: Adam-Event", es: "Guía: Evento de Adam", fr: "Guide : Événement d’Adam", ja: "ガイド：アダムイベント"},  noStrip: true
+},  
 {
 titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
 links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
@@ -830,11 +827,10 @@ noStrip: true
     links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
-      {
-  titles: {
-    en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
-  labelOnly: true
-},
+       {
+    titles: { en: "Guide: Adam Event", pt: "Guia: Evento do Adam", de: " :Adam-Event", es: "Evento de Adam", fr: "Événement d’Adam", ja: "アダンイベント"},  links: { en: "/hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "/hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "/hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "/hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "/hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "/hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
+  noStrip: true
+},  
 {
 titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
 links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
@@ -863,10 +859,8 @@ noStrip: true
     noStrip: true,
     extra: [
       {
-  titles: {
-    en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
-  labelOnly: true
-},
+    titles: { en: "Guide: Adam Event", pt: "Guia: Evento do Adam", de: "Leitfaden: Adam-Event", es: "Guía: Evento de Adam", fr: "Guide : Événement d’Adam", ja: "ガイド：アダムイベント"},  noStrip: true
+},  
 {
 titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
 links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
@@ -892,10 +886,8 @@ noStrip: true
     noStrip: true,
     extra: [
       {
-  titles: {
-    en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
-  labelOnly: true
-},
+    titles: { en: "Guide: Adam Event", pt: "Guia: Evento do Adam", de: "Leitfaden: Adam-Event", es: "Guía: Evento de Adam", fr: "Guide : Événement d’Adam", ja: "ガイド：アダムイベント"},  noStrip: true
+},  
 {
 titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
 links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
@@ -923,11 +915,9 @@ noStrip: true
     links: { en: "../../hero-wars-dominion-era/events/weaving-patterns-en.html", pt: "../../hero-wars-dominion-era/events/weaving-patterns-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
-      {
-  titles: {
-    en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
-  labelOnly: true
-},
+       {
+    titles: { en: "Guide: Adam Event", pt: "Guia: Evento do Adam", de: "Leitfaden: Adam-Event", es: "Guía: Evento de Adam", fr: "Guide : Événement d’Adam", ja: "ガイド：アダムイベント"},  noStrip: true
+},  
 {
 titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
 links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
@@ -951,10 +941,10 @@ noStrip: true
     noStrip: true,
     extra: [
       {
-  titles: {
-    en: "Adan Event", pt: "Evento do Adan", de: "Adan-Event", es: "Evento de Adan", fr: "Événement d’Adan", ja: "アダンイベント"},
-  labelOnly: true
-},
+   titles: { en: "Guide: Adam Event", pt: "Guia: Evento do Adam", de: "Leitfaden: Adam-Event", es: "Guía: Evento de Adam", fr: "Guide : Événement d’Adam", ja: "ガイド：アダムイベント"},
+   links: { en: "/hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "/hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "/hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "/hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "/hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "/hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
+  noStrip: true
+},  
 {
 titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
 links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
