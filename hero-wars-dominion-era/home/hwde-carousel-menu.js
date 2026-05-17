@@ -25,7 +25,7 @@
       src400: "/hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-400px.webp",
       alt: "Adam - Heroes Awakening Event for Hero Wars: Dominion Era",
       title: "Adam - Heroes Awakening Event for Hero Wars: Dominion Era.",
-      strong: "Guide f2p: Tips Adam Event - Hero Wars: Dominion Era",
+      strong: "Guide f2p 6★: Tips Adam Event - Hero Wars: Dominion Era",
       updated: "Updated: April, 2026."
     },
     {
