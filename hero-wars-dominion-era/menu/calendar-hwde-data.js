@@ -538,6 +538,16 @@ window.CALENDAR_DATA = [
 labelOnly: true
 },
 {
+    titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
+    links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
+  noStrip: true
+},  
+{
+  titles: { en: "Guide: Adam Event (Missions)", de: "Leitfaden: Adam Event (Missionen)", es: "Guía: Evento Adam (Misiones)", fr: "Guide: Événement Adam (Missions)", pt: "Guia: Evento Adam (Missões)", ja: "ガイド: アダムイベント (ミッション)" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/adam-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
 titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
 links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
 noStrip: true
@@ -577,6 +587,16 @@ noStrip: true
   es: "Reserva de Adan",   fr: "Précommande d’Adan",   ja: "アダン先行予約" },
 labelOnly: true
 },
+{
+    titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
+    links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
+  noStrip: true
+},  
+{
+  titles: { en: "Guide: Adam Event (Missions)", de: "Leitfaden: Adam Event (Missionen)", es: "Guía: Evento Adam (Misiones)", fr: "Guide: Événement Adam (Missions)", pt: "Guia: Evento Adam (Missões)", ja: "ガイド: アダムイベント (ミッション)" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/adam-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+}, 
       
        {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
@@ -611,6 +631,16 @@ noStrip: true
   es: "Reserva de Adan",   fr: "Précommande d’Adan",   ja: "アダン先行予約" },
 labelOnly: true
 },
+{
+    titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
+    links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
+  noStrip: true
+},  
+{
+  titles: { en: "Guide: Adam Event (Missions)", de: "Leitfaden: Adam Event (Missionen)", es: "Guía: Evento Adam (Misiones)", fr: "Guide: Événement Adam (Missions)", pt: "Guia: Evento Adam (Missões)", ja: "ガイド: アダムイベント (ミッション)" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/adam-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+}, 
        {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
@@ -644,6 +674,16 @@ noStrip: true
   es: "Reserva de Adan",   fr: "Précommande d’Adan",   ja: "アダン先行予約" },
 labelOnly: true
 },
+{
+    titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
+    links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
+  noStrip: true
+},  
+{
+  titles: { en: "Guide: Adam Event (Missions)", de: "Leitfaden: Adam Event (Missionen)", es: "Guía: Evento Adam (Misiones)", fr: "Guide: Événement Adam (Missions)", pt: "Guia: Evento Adam (Missões)", ja: "ガイド: アダムイベント (ミッション)" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/adam-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+}, 
        {
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
@@ -672,6 +712,16 @@ noStrip: true
   es: "Reserva de Adan",   fr: "Précommande d’Adan",   ja: "アダン先行予約" },
 labelOnly: true
 },
+{
+    titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
+    links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
+  noStrip: true
+},  
+{
+  titles: { en: "Guide: Adam Event (Missions)", de: "Leitfaden: Adam Event (Missionen)", es: "Guía: Evento Adam (Misiones)", fr: "Guide: Événement Adam (Missions)", pt: "Guia: Evento Adam (Missões)", ja: "ガイド: アダムイベント (ミッション)" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/adam-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+}, 
      
       {
         titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
@@ -704,6 +754,16 @@ labelOnly: true
   es: "Reserva de Adan",   fr: "Précommande d’Adan",   ja: "アダン先行予約" },
 labelOnly: true
 },
+{
+    titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
+    links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
+  noStrip: true
+},  
+{
+  titles: { en: "Guide: Adam Event (Missions)", de: "Leitfaden: Adam Event (Missionen)", es: "Guía: Evento Adam (Misiones)", fr: "Guide: Événement Adam (Missions)", pt: "Guia: Evento Adam (Missões)", ja: "ガイド: アダムイベント (ミッション)" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/adam-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+}, 
 {
 titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
 links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
@@ -741,6 +801,16 @@ noStrip: true
   es: "Reserva de Adan",   fr: "Précommande d’Adan",   ja: "アダン先行予約" },
 labelOnly: true
 },
+{
+    titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
+    links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
+  noStrip: true
+},  
+{
+  titles: { en: "Guide: Adam Event (Missions)", de: "Leitfaden: Adam Event (Missionen)", es: "Guía: Evento Adam (Misiones)", fr: "Guide: Événement Adam (Missions)", pt: "Guia: Evento Adam (Missões)", ja: "ガイド: アダムイベント (ミッション)" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/adam-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+}, 
 
  {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
@@ -764,11 +834,18 @@ labelOnly: true
     noStrip: true,
     extra: [
       {
-    titles: { en: "Guide: Adam Event", pt: "Guia: Evento do Adam", de: "Leitfaden: Adam-Event", es: "Guía: Evento de Adam", fr: "Guide : Événement d’Adam", ja: "ガイド：アダムイベント"},  noStrip: true
+    titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
+    links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
+  noStrip: true
 },  
+{
+  titles: { en: "Guide: Adam Event (Missions)", de: "Leitfaden: Adam Event (Missionen)", es: "Guía: Evento Adam (Misiones)", fr: "Guide: Événement Adam (Missions)", pt: "Guia: Evento Adam (Missões)", ja: "ガイド: アダムイベント (ミッション)" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/adam-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+}, 
      
 {
-titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
+titles: { en: "Guide: New Hero Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
 links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
 noStrip: true
 }, 
@@ -798,8 +875,15 @@ noStrip: true
     noStrip: true,
     extra: [
        {
-    titles: { en: "Guide: Adam Event", pt: "Guia: Evento do Adam", de: "Leitfaden: Adam-Event", es: "Guía: Evento de Adam", fr: "Guide : Événement d’Adam", ja: "ガイド：アダムイベント"},  noStrip: true
+    titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
+    links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
+  noStrip: true
 },  
+{
+  titles: { en: "Guide: Adam Event (Missions)", de: "Leitfaden: Adam Event (Missionen)", es: "Guía: Evento Adam (Misiones)", fr: "Guide: Événement Adam (Missions)", pt: "Guia: Evento Adam (Missões)", ja: "ガイド: アダムイベント (ミッション)" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/adam-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+}, 
 {
 titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
 links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
@@ -827,10 +911,16 @@ noStrip: true
     links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
-       {
-    titles: { en: "Guide: Adam Event", pt: "Guia: Evento do Adam", de: " :Adam-Event", es: "Evento de Adam", fr: "Événement d’Adam", ja: "アダンイベント"},  links: { en: "/hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "/hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "/hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "/hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "/hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "/hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
+      {
+    titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
+    links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
   noStrip: true
 },  
+{
+  titles: { en: "Guide: Adam Event (Missions)", de: "Leitfaden: Adam Event (Missionen)", es: "Guía: Evento Adam (Misiones)", fr: "Guide: Événement Adam (Missions)", pt: "Guia: Evento Adam (Missões)", ja: "ガイド: アダムイベント (ミッション)" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/adam-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+}, 
 {
 titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
 links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
@@ -858,9 +948,16 @@ noStrip: true
     links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
-      {
-    titles: { en: "Guide: Adam Event", pt: "Guia: Evento do Adam", de: "Leitfaden: Adam-Event", es: "Guía: Evento de Adam", fr: "Guide : Événement d’Adam", ja: "ガイド：アダムイベント"},  noStrip: true
+     {
+    titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
+    links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
+  noStrip: true
 },  
+{
+  titles: { en: "Guide: Adam Event (Missions)", de: "Leitfaden: Adam Event (Missionen)", es: "Guía: Evento Adam (Misiones)", fr: "Guide: Événement Adam (Missions)", pt: "Guia: Evento Adam (Missões)", ja: "ガイド: アダムイベント (ミッション)" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/adam-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+}, 
 {
 titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
 links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
@@ -885,9 +982,16 @@ noStrip: true
     links: { en: "../../hero-wars-dominion-era/events/weaving-patterns-en.html", pt: "../../hero-wars-dominion-era/events/weaving-patterns-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
-      {
-    titles: { en: "Guide: Adam Event", pt: "Guia: Evento do Adam", de: "Leitfaden: Adam-Event", es: "Guía: Evento de Adam", fr: "Guide : Événement d’Adam", ja: "ガイド：アダムイベント"},  noStrip: true
+     {
+    titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
+    links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
+  noStrip: true
 },  
+{
+  titles: { en: "Guide: Adam Event (Missions)", de: "Leitfaden: Adam Event (Missionen)", es: "Guía: Evento Adam (Misiones)", fr: "Guide: Événement Adam (Missions)", pt: "Guia: Evento Adam (Missões)", ja: "ガイド: アダムイベント (ミッション)" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/adam-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+}, 
 {
 titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
 links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
@@ -915,9 +1019,16 @@ noStrip: true
     links: { en: "../../hero-wars-dominion-era/events/weaving-patterns-en.html", pt: "../../hero-wars-dominion-era/events/weaving-patterns-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
-       {
-    titles: { en: "Guide: Adam Event", pt: "Guia: Evento do Adam", de: "Leitfaden: Adam-Event", es: "Guía: Evento de Adam", fr: "Guide : Événement d’Adam", ja: "ガイド：アダムイベント"},  noStrip: true
+      {
+    titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
+    links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
+  noStrip: true
 },  
+{
+  titles: { en: "Guide: Adam Event (Missions)", de: "Leitfaden: Adam Event (Missionen)", es: "Guía: Evento Adam (Misiones)", fr: "Guide: Événement Adam (Missions)", pt: "Guia: Evento Adam (Missões)", ja: "ガイド: アダムイベント (ミッション)" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/adam-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+}, 
 {
 titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
 links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
@@ -941,10 +1052,15 @@ noStrip: true
     noStrip: true,
     extra: [
       {
-   titles: { en: "Guide: Adam Event", pt: "Guia: Evento do Adam", de: "Leitfaden: Adam-Event", es: "Guía: Evento de Adam", fr: "Guide : Événement d’Adam", ja: "ガイド：アダムイベント"},
-   links: { en: "/hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "/hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "/hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "/hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "/hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "/hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
+    titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
+    links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
   noStrip: true
 },  
+{
+  titles: { en: "Guide: Adam Event (Missions)", de: "Leitfaden: Adam Event (Missionen)", es: "Guía: Evento Adam (Misiones)", fr: "Guide: Événement Adam (Missions)", pt: "Guia: Evento Adam (Missões)", ja: "ガイド: アダムイベント (ミッション)" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/adam-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+}, 
 {
 titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
 links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
