@@ -1,13 +1,14 @@
-/*For expired hub codes add: expired:true For text qty (like 250k) use: 'gold 250k' instead of 'gold x250'
-   For unknown new gifts use: 'alexandregames NAME x1' or 'alexandre games NAME x1' The component will use the Alexandre Games logo and display only NAME
- npm run update-gifts-hwa       
+/*          npm run update-gifts-hwa       
 // ── May #, 2026 ──────────────────────────────
    { date:'2026-05-##', type:'daily', mission:'##', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+    // ── May 17, 2026 ──────────────────────────────
+   { date:'2026-05-17', type:'daily', mission:'2-11', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
     // ── May 16, 2026 ──────────────────────────────
-    { date:'2026-05-15', type:'hub', code:'HOTSPRINGS', note:'until|2026-06-01T01:00:00Z',
+    { date:'2026-05-16', type:'hub', code:'HOTSPRINGS', note:'until|2026-06-01T01:00:00Z',
    rewards:['energy x100', 'large-skin-stone-chest x5'] },
    { date:'2026-05-16', type:'daily', mission:'3-5', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
@@ -151,18 +152,17 @@ rewards:[ 'energy x100'] },
  // ── Code nao definido a data ──────────────────────────────
   { date:'2026-04-01', type:'hub', code:'CONFIDENTIAL', note:'custom',
     customNote:{ en:'The gift is available until... not defined', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert', es:'El regalo est\u00e1 disponible hasta... no definido', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9' },
-    rewards:['large-skin-stone-chest x5', 'energy x100'] },
-
-  
+    rewards:['large-skin-stone-chest x5', 'energy x100'] }, 
 
 ];
 /* ╔══════════════════════════════════════════════════════════════════╗
    ║  DAILY GIFTS — Add newest entries at the TOP                    ║
    ║  Copy a line, change date / code / mission / rewards            ║
    ╚══════════════════════════════════════════════════════════════════╝
+For expired hub codes add: expired:true For text qty (like 250k) use: 'gold 250k' instead of 'gold x250'
+For unknown new gifts use: 'alexandregames NAME x1' or 'alexandre games NAME x1' The component will use the Alexandre Games logo and display only NAME
 
-
-   // ── Hub Code gft valid data true ──────────────────────────────
+// ── Hub Code gft valid data true ──────────────────────────────
 { date:'2026-04-25', type:'hub', code:'JADESTATS', note:'until|2026-05-11T01:00:00Z',
       rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
 
