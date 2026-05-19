@@ -748,6 +748,11 @@ labelOnly: true
   titles: { en: "Mort' Brawl", pt: "Rixas do Mort", de: "Morts Rauferei", es: "Pelea de Mort", fr: "Bagarre de Mort", ja: "モルトの乱闘" },
   labelOnly: true
 },
+{
+  titles: { en: "🌌 Cosmic Battle: Titans Edition", pt: "🌌 Batalha Cósmica: Edição Titãs", de: "🌌 Kosmischer Kampf: Titanen-Edition", es: "🌌 Batalla Cósmica: Edición Titanes", fr: "🌌 Combat Cosmique : Édition Titans", ja: "🌌 コズミックバトル：タイタンズエディション"
+ },
+  labelOnly: true
+},
  {
   titles: {
   en: "Adan Pre Order",   pt: "Pré-venda do Adan",   de: "Adan-Vorbestellung",
@@ -788,6 +793,11 @@ noStrip: true
     extra: [
       {
   titles: { en: "Mort' Brawl", pt: "Rixas do Mort", de: "Morts Rauferei", es: "Pelea de Mort", fr: "Bagarre de Mort", ja: "モルトの乱闘" },
+  labelOnly: true
+},
+{
+  titles: { en: "🌌 Cosmic Battle: Titans Edition", pt: "🌌 Batalha Cósmica: Edição Titãs", de: "🌌 Kosmischer Kampf: Titanen-Edition", es: "🌌 Batalla Cósmica: Edición Titanes", fr: "🌌 Combat Cosmique : Édition Titans", ja: "🌌 コズミックバトル：タイタンズエディション"
+ },
   labelOnly: true
 },
 {
@@ -833,6 +843,11 @@ labelOnly: true
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      {
+  titles: { en: "🌌 Cosmic Battle: Titans Edition", pt: "🌌 Batalha Cósmica: Edição Titãs", de: "🌌 Kosmischer Kampf: Titanen-Edition", es: "🌌 Batalla Cósmica: Edición Titanes", fr: "🌌 Combat Cosmique : Édition Titans", ja: "🌌 コズミックバトル：タイタンズエディション"
+ },
+  labelOnly: true
+},
       {
     titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
     links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
@@ -912,6 +927,10 @@ noStrip: true
     noStrip: true,
     extra: [
       {
+  titles: { en: "🏰 Area of Conquest: Titans Edition", pt: "🏰 Área de Conquista: Edição Titãs", de: "🏰 Gebiet der Eroberung: Titanen-Edition", es: "🏰 Área de Conquista: Edición Titanes", fr: "🏰 Zone de Conquête : Édition Titans", ja: "🏰 征服の領域：タイタンズエディション" },
+  labelOnly: true
+},
+      {
     titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
     links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
   noStrip: true
@@ -948,6 +967,10 @@ noStrip: true
     links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      {
+  titles: { en: "🏰 Area of Conquest: Titans Edition", pt: "🏰 Área de Conquista: Edição Titãs", de: "🏰 Gebiet der Eroberung: Titanen-Edition", es: "🏰 Área de Conquista: Edición Titanes", fr: "🏰 Zone de Conquête : Édition Titans", ja: "🏰 征服の領域：タイタンズエディション" },
+  labelOnly: true
+},
      {
     titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
     links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
@@ -982,6 +1005,10 @@ noStrip: true
     links: { en: "../../hero-wars-dominion-era/events/weaving-patterns-en.html", pt: "../../hero-wars-dominion-era/events/weaving-patterns-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      {
+  titles: { en: "🏰 Area of Conquest: Titans Edition", pt: "🏰 Área de Conquista: Edição Titãs", de: "🏰 Gebiet der Eroberung: Titanen-Edition", es: "🏰 Área de Conquista: Edición Titanes", fr: "🏰 Zone de Conquête : Édition Titans", ja: "🏰 征服の領域：タイタンズエディション" },
+  labelOnly: true
+},
      {
     titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
     links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
@@ -1019,6 +1046,10 @@ noStrip: true
     links: { en: "../../hero-wars-dominion-era/events/weaving-patterns-en.html", pt: "../../hero-wars-dominion-era/events/weaving-patterns-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      {
+  titles: { en: "🏰 Area of Conquest: Titans Edition", pt: "🏰 Área de Conquista: Edição Titãs", de: "🏰 Gebiet der Eroberung: Titanen-Edition", es: "🏰 Área de Conquista: Edición Titanes", fr: "🏰 Zone de Conquête : Édition Titans", ja: "🏰 征服の領域：タイタンズエディション" },
+  labelOnly: true
+},
       {
     titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
     links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       

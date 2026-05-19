@@ -2,7 +2,7 @@
 // ===================== texto em branco com cor branca para colocar informacoes =====================
 /*     
 {
-  titles: { en: "texto em branco", pt: "", de: "", es: "", fr: "", ja: "" },
+  titles: { en: "", pt: "", de: "", es: "", fr: "", ja: "" },
   labelOnly: true
 },
 
