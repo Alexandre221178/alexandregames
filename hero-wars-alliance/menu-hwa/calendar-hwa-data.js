@@ -206,6 +206,12 @@ window.CALENDAR_DATA = [
   links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },       
   noStrip: true
 },  
+{
+  titles: { en: "Dorian Shop - What to buy?", de: "Dorian Shop - Was kaufen?", es: "Tienda de Dorian - ¿Qué comprar?", fr: "Boutique de Dorian - Que acheter?", pt: "Loja do Dorian - O que comprar?", ja: "ドリアンショップ - 何を買うか？" },
+  links: { en: "../../hero-wars-alliance/events-tips-hwa/dorian-way-of-chaos-shop-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+
     ]
   },
 
@@ -227,6 +233,11 @@ window.CALENDAR_DATA = [
   links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },       
   noStrip: true
 },  
+{
+  titles: { en: "Dorian Shop - What to buy?", de: "Dorian Shop - Was kaufen?", es: "Tienda de Dorian - ¿Qué comprar?", fr: "Boutique de Dorian - Que acheter?", pt: "Loja do Dorian - O que comprar?", ja: "ドリアンショップ - 何を買うか？" },
+  links: { en: "../../hero-wars-alliance/events-tips-hwa/dorian-way-of-chaos-shop-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+}, 
     ]
   },
 
@@ -248,6 +259,11 @@ window.CALENDAR_DATA = [
   links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },       
   noStrip: true
 },  
+{
+  titles: { en: "Dorian Shop - What to buy?", de: "Dorian Shop - Was kaufen?", es: "Tienda de Dorian - ¿Qué comprar?", fr: "Boutique de Dorian - Que acheter?", pt: "Loja do Dorian - O que comprar?", ja: "ドリアンショップ - 何を買うか？" },
+  links: { en: "../../hero-wars-alliance/events-tips-hwa/dorian-way-of-chaos-shop-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+}, 
     ]
   },
 
