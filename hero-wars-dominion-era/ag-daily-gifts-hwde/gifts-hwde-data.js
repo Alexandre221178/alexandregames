@@ -11,6 +11,9 @@
 bb63a39c82ae8edcac9504cf8b3be309
 // ── May #, 2026 ──────────────────────────────
 */window.HWDE_GIFTS = [
+   // ── May 20, 2026 ──────────────────────────────
+   { date:'2026-05-20', type:'link', giftId:'fd75b7e424d4d976537a3cea2a946a5e', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
    // ── May 19, 2026 ──────────────────────────────
    { date:'2026-05-19', type:'link', giftId:'bb63a39c82ae8edcac9504cf8b3be309', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
