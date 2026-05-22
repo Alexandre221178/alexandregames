@@ -270,10 +270,10 @@ window.CALENDAR_DATA = [
   {
     weekday: "Thursday",
     date: "May, 21",
-    image: "../../hero-wars-alliance/images/events/talisman-fever/talisman-fever-150px.webp",
-    alt: "📿 Shards of the Past",
-    titles: { en: "📿 Shards of the Past", de: "📿 Fragmente der Vergangenheit", es: "📿 Fragmentos del Pasado", fr: "📿 Fragments du Passé", pt: "📿 Fragmentos do Passado", ja: "📿 過去の破片" },
-    links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
+    image: "../../hero-wars-alliance/images/events/shards-of-the-past/shards-of-the-past-250px.webp",
+    alt: "📿 Shards of the Past Event Guide",
+    titles: { en: "📿 Shards of the Past Event Guide", de: "📿 Fragmente der Vergangenheit Event Guide", es: "📿 Fragmentos del Pasado Event Guide", fr: "📿 Fragments du Passé Event Guide", pt: "📿 Guia do Evento Fragmentos do Passado", ja: "📿 過去の破片イベントガイド" },
+    links: { en: "../../hero-wars-alliance/event-hwa/shards-of-the-past-en.html", pt: "../../hero-wars-alliance/event-hwa/shards-of-the-past-pt.html", de: "../../hero-wars-alliance/event-hwa/shards-of-the-past-de.html", es: "../../hero-wars-alliance/event-hwa/shards-of-the-past-es.html", fr: "../../hero-wars-alliance/event-hwa/shards-of-the-past-fr.html", ja: "../../hero-wars-alliance/event-hwa/shards-of-the-past-ja.html" },
     extra: [     
       {
         titles: { en: "Dorian - Relic Event", de: "Dorian - Relikt-Ereignis", es: "Dorian - Evento de Reliquia", fr: "Dorian - Événement des Reliques", pt: "Dorian - Evento de Relíquia", ja: "ドリアン - レリックイベント" },
@@ -290,10 +290,10 @@ window.CALENDAR_DATA = [
   {
     weekday: "Friday",
     date: "May, 22",
-    image: "../../hero-wars-alliance/images/events/talisman-fever/talisman-fever-150px.webp",
-    alt: "📿 Shards of the Past",
-    titles: { en: "📿 Shards of the Past", de: "📿 Fragmente der Vergangenheit", es: "📿 Fragmentos del Pasado", fr: "📿 Fragments du Passé", pt: "📿 Fragmentos do Passado", ja: "📿 過去の破片" },
-    links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
+    image: "../../hero-wars-alliance/images/events/shards-of-the-past/shards-of-the-past-250px.webp",
+    alt: "📿 Shards of the Past Event Guide",
+    titles: { en: "📿 Shards of the Past Event Guide", de: "📿 Fragmente der Vergangenheit Event Guide", es: "📿 Fragmentos del Pasado Event Guide", fr: "📿 Fragments du Passé Event Guide", pt: "📿 Guia do Evento Fragmentos do Passado", ja: "📿 過去の破片イベントガイド" },
+    links: { en: "../../hero-wars-alliance/event-hwa/shards-of-the-past-en.html", pt: "../../hero-wars-alliance/event-hwa/shards-of-the-past-pt.html", de: "../../hero-wars-alliance/event-hwa/shards-of-the-past-de.html", es: "../../hero-wars-alliance/event-hwa/shards-of-the-past-es.html", fr: "../../hero-wars-alliance/event-hwa/shards-of-the-past-fr.html", ja: "../../hero-wars-alliance/event-hwa/shards-of-the-past-ja.html" },
     extra: [     
       {
         titles: { en: "Dorian - Relic Event", de: "Dorian - Relikt-Ereignis", es: "Dorian - Evento de Reliquia", fr: "Dorian - Événement des Reliques", pt: "Dorian - Evento de Relíquia", ja: "ドリアン - レリックイベント" },
@@ -310,11 +310,11 @@ window.CALENDAR_DATA = [
   {
     weekday: "Saturday",
     date: "May, 23",
-    image: "../../hero-wars-alliance/images/events/talisman-fever/talisman-fever-150px.webp",
-    alt: "📿 Shards of the Past",
-    titles: { en: "📿 Shards of the Past", de: "📿 Fragmente der Vergangenheit", es: "📿 Fragmentos del Pasado", fr: "📿 Fragments du Passé", pt: "📿 Fragmentos do Passado", ja: "📿 過去の破片" },
-    links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
-    extra: [     
+    image: "../../hero-wars-alliance/images/events/shards-of-the-past/shards-of-the-past-250px.webp",
+    alt: "📿 Shards of the Past Event Guide",
+    titles: { en: "📿 Shards of the Past Event Guide", de: "📿 Fragmente der Vergangenheit Event Guide", es: "📿 Fragmentos del Pasado Event Guide", fr: "📿 Fragments du Passé Event Guide", pt: "📿 Guia do Evento Fragmentos do Passado", ja: "📿 過去の破片イベントガイド" },
+    links: { en: "../../hero-wars-alliance/event-hwa/shards-of-the-past-en.html", pt: "../../hero-wars-alliance/event-hwa/shards-of-the-past-pt.html", de: "../../hero-wars-alliance/event-hwa/shards-of-the-past-de.html", es: "../../hero-wars-alliance/event-hwa/shards-of-the-past-es.html", fr: "../../hero-wars-alliance/event-hwa/shards-of-the-past-fr.html", ja: "../../hero-wars-alliance/event-hwa/shards-of-the-past-ja.html" },
+    extra: [   
       {
         titles: { en: "Dorian - Relic Event", de: "Dorian - Relikt-Ereignis", es: "Dorian - Evento de Reliquia", fr: "Dorian - Événement des Reliques", pt: "Dorian - Evento de Relíquia", ja: "ドリアン - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
