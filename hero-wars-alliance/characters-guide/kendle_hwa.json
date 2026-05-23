@@ -160,7 +160,8 @@
         },
         {
           "name": "Blazing Skin+",
-          "stats_available": false,
+          "stat": "Magic Attack",
+          "bonus": 21300,
           "is_skin_plus": true
         },
         {
