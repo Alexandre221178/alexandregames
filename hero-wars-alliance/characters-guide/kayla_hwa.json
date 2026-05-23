@@ -1,0 +1,388 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "kayla",
+      "name": "Kayla",
+      "gender": "female",
+      "role": ["Warrior", "Pure Damage"],
+      "main_class": "Warrior",
+      "position": "Front Line",
+      "main_stat": "Agility",
+      "faction": "Way of Chaos",
+      "how_to_get_soul_stones": "Special Events, Heroic Chest",
+      "best_synergy": "Aidan, Peech",
+      "hydra_tier_list": "B",
+      "hero_tier_list": "A",
+      "realm_skills_available": false,
+      "realm_buff_troops": null,
+      "note": "Frontline warrior who deals continuous pure area damage, heals herself with Phoenix's Fury (health steal), and can resurrect Aidan. Inner Flame damage scales with Health pool.",
+      "lore": "Kayla is one of the most fearless and explosive warriors in Hero Wars Alliance. This warrior of the Way of Chaos charges into the frontlines with unmatched agility and pure devastation. With her legendary relic abilities unleashed, she becomes an unstoppable force that can wipe out entire enemy squads with devastating area damage.",
+      "player_stats": {
+        "power": 204948,
+        "level": 120,
+        "equipment_way": "Way of Chaos",
+        "equipment_rank": 16,
+        "artifact_level": 100
+      },
+      "stats": {
+        "talisman_of_memory": {
+          "note": "Max stats with Talisman of Memory equipped.",
+          "intelligence": 3833,
+          "agility": 17134,
+          "strength": 4892,
+          "health": 874010,
+          "physical_attack": 154291,
+          "magic_attack": 26605,
+          "armor": 53150.9,
+          "magic_defense": 25351.8,
+          "toughness": 2790,
+          "armor_penetration": 22803,
+          "critical_hit_chance": 1482.4,
+          "crushing": 8424
+        },
+        "talisman_of_retribution": {
+          "note": "Max stats with Talisman of Retribution equipped.",
+          "intelligence": 3833,
+          "agility": 15134,
+          "strength": 4892,
+          "health": 874010,
+          "physical_attack": 135091,
+          "magic_attack": 26605,
+          "armor": 51150.9,
+          "magic_defense": 25351.8,
+          "toughness": 2790,
+          "armor_penetration": 34803,
+          "critical_hit_chance": 9072.4,
+          "crushing": 8424
+        }
+      },
+      "talisman_details": {
+        "talisman_of_memory": {
+          "level": 50,
+          "main_stat": "Agility",
+          "main_stat_bonus": 2000,
+          "derived_bonuses": {
+            "physical_attack": 6000,
+            "armor": 2000
+          },
+          "reroll_slots": [
+            { "stat": "Physical Attack", "value": 2000 },
+            { "stat": "Physical Attack", "value": 2000 },
+            { "stat": "Physical Attack", "value": 2000 }
+          ],
+          "total_reroll_bonus": { "stat": "Physical Attack", "value": 6000 },
+          "total_bonus_summary": "Physical Attack +12000 | Armor +2000"
+        },
+        "talisman_of_retribution": {
+          "level": 50,
+          "main_stat": "Armor Penetration",
+          "main_stat_bonus": 12000,
+          "derived_bonuses": {},
+          "reroll_slots": [
+            { "stat": "Critical Hit Chance", "value": 2200 },
+            { "stat": "Critical Hit Chance", "value": 2200 },
+            { "stat": "Critical Hit Chance", "value": 2200 }
+          ],
+          "total_reroll_bonus": { "stat": "Critical Hit Chance", "value": 6600 },
+          "total_bonus_summary": "Armor Penetration +12000 | Critical Hit Chance +6600"
+        },
+        "recommended": "talisman_of_memory"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "Phoenix's Fury",
+          "type": ["Physical Damage", "Heal", "Resurrection"],
+          "keywords": ["Supreme", "Health Steal", "Aidan Synergy"],
+          "can_upgrade_to_legendary": false,
+          "physical_damage_formula": "100% Phys.Atk. + 6000",
+          "physical_damage_value": 109019,
+          "health_steal_percent": 20,
+          "health_steal_note": "Kayla restores Health equal to 20% of damage dealt to each enemy hit",
+          "animation_delay_seconds": 0.25,
+          "description": "Kayla throws a chakram that strikes enemies around her with physical damage. Enemies hit lose maximum health equal to 20% of the damage dealt, and Kayla restores the same amount of Health. If Aidan is dead on your team, he gets resurrected with the same health value Kayla recovers."
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 100,
+          "name": "Acrobatics",
+          "type": ["Heal", "Repositioning"],
+          "keywords": ["Chaos Synergy", "Survival"],
+          "can_upgrade_to_legendary": true,
+          "cooldown_initial_seconds": 8,
+          "cooldown_standard_seconds": 15,
+          "healing_formula": "25% Health + 2400",
+          "healing_value": 111479,
+          "healing_duration_seconds": 5.0,
+          "bonus_healing_per_chaos_ally_formula": "5% Health + 1200",
+          "bonus_healing_per_chaos_ally_value": 23016,
+          "health_threshold_jump_percent": 40,
+          "health_threshold_heal_percent": 25,
+          "description": "When Kayla's health is above 40%, she performs an agile jump to the enemy team's center for maximum damage. When health drops below 25%, she regenerates Health over 5.0 seconds. She gains additional healing for each allied Chaos Hero. She then returns to her team when possible."
+        },
+        {
+          "id": 2,
+          "variant": "legendary",
+          "relic_level": 10,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 2
+          },
+          "name": "Acrobatics",
+          "keywords": ["Repositioning", "Physical Damage"],
+          "relic_bonus": {
+            "physical_attack": 7332,
+            "health": 56149
+          },
+          "relic_shards_for_this_tier": 280,
+          "relic_shards_total_cumulative": 330,
+          "description": "Kayla now deals physical damage to nearby enemies before leaping back to her allies. The escape becomes an attack, turning defensive plays into offensive strikes."
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 80,
+          "name": "Retaliatory Strike",
+          "type": ["Physical Damage", "Debuff"],
+          "keywords": ["AoE", "Blind", "Counterattack"],
+          "can_upgrade_to_legendary": false,
+          "cooldown_initial_seconds": 12,
+          "cooldown_standard_seconds": 8,
+          "animation_delay_seconds": 0.6,
+          "physical_damage_formula": "150% Phys.Atk. + 6000 (max, based on damage taken since last use)",
+          "physical_damage_max_value": 160528,
+          "blind_duration_seconds": 3.0,
+          "description": "Causes physical damage to surrounding enemies based on the damage Kayla has taken since she last used this skill, with a maximum of 150% Phys.Atk. + 6000. Also blinds enemies for 3.0 seconds, reducing their accuracy."
+        },
+        {
+          "id": 4,
+          "variant": "legendary",
+          "relic_level": 20,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Inner Flame",
+          "type": ["Pure Damage", "Self Damage"],
+          "keywords": ["AoE", "Health Scaling", "Continuous"],
+          "can_upgrade_legendary_enhancement": true,
+          "trigger": "After using Acrobatics (2nd skill)",
+          "pure_damage_formula": "depends on Health",
+          "pure_damage_per_tick_value": 14478,
+          "tick_interval_seconds": 0.5,
+          "health_threshold_end_percent": 25,
+          "relic_bonus": {
+            "physical_attack": 19552,
+            "health": 149734
+          },
+          "relic_shards_for_this_tier": 800,
+          "relic_shards_total_cumulative": 1130,
+          "description": "After using her second skill (Acrobatics), Kayla begins to burn, dealing pure damage every 0.5 seconds to herself and enemies around her. The effect continues until her health drops below 25%. Damage scales with Health pool."
+        },
+        {
+          "id": 4,
+          "variant": "legendary",
+          "relic_level": 20,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 4
+          },
+          "name": "Inner Flame",
+          "keywords": ["Stacking Damage", "Pure Damage"],
+          "damage_increase_percent_per_stack": 6,
+          "stack_interval_seconds": 2.0,
+          "stacking_cap": null,
+          "description": "While Kayla is burning (Inner Flame active), damage from the skill increases by 6% every 2.0 seconds, stacking indefinitely. The longer the battle, the more devastating her damage becomes."
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Chaotic Fracture",
+          "type": ["Debuff", "Armor Reduction"],
+          "keywords": ["AoE", "Team Utility"],
+          "duration_seconds": 6.0,
+          "armor_reduction_formula": "depends on Physical Attack",
+          "armor_reduction_value": 26491,
+          "armor_reduction_bonus_below_50hp_formula": "doubled armor reduction when below 50% HP",
+          "armor_reduction_bonus_value": 52983,
+          "health_threshold_enhanced_percent": 50,
+          "relic_bonus": {
+            "physical_attack": 3760,
+            "health": 28794
+          },
+          "relic_shards_for_this_tier": 50,
+          "relic_shards_total_cumulative": 50,
+          "description": "Reduces the Armor of all nearby enemies for 6.0 seconds. When Kayla's health drops below 50%, the armor reduction is doubled. Lower enemy armor means the entire team deals more physical damage."
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Frenzy",
+          "type": ["Buff", "Damage Multiplier"],
+          "keywords": ["Stacking", "Extended Battles"],
+          "damage_increase_percent_per_trigger": 15,
+          "trigger_condition": "Each time Kayla cumulatively loses 50% of her initial Health",
+          "stacking_cap": null,
+          "relic_bonus": {
+            "physical_attack": 38352,
+            "health": 293704
+          },
+          "relic_shards_for_this_tier": 1750,
+          "relic_shards_total_cumulative": 2880,
+          "description": "Kayla's damage increases by 15% each time she cumulatively loses 50% of her initial Health. Since Kayla takes significant damage in frontline positions, this skill naturally triggers multiple times throughout a battle, creating a stacking damage multiplier. Synergizes perfectly with Phoenix's Fury healing."
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default Skin",
+          "stat": "Agility",
+          "bonus": 1365,
+          "derived_bonuses": {
+            "physical_attack": 4095,
+            "armor": 1365
+          },
+          "priority": "MEDIUM-HIGH"
+        },
+        {
+          "name": "Solar Skin+",
+          "stat": "Physical Attack",
+          "bonus": 28380,
+          "is_skin_plus": true,
+          "priority": "VERY HIGH"
+        },
+        {
+          "name": "Cybernetic Skin",
+          "stat": "Armor Penetration",
+          "bonus": 10650,
+          "priority": "VERY HIGH"
+        },
+        {
+          "name": "Masquerade Skin",
+          "stat": "Crushing",
+          "bonus": 5920,
+          "priority": "MEDIUM"
+        },
+        {
+          "name": "Celestial Skin",
+          "stat": "Armor",
+          "bonus": 10560,
+          "priority": "MEDIUM"
+        },
+        {
+          "name": "Blazing Skin",
+          "stat": "Health",
+          "bonus": 106645,
+          "priority": "HIGH"
+        }
+      ],
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Phoenix Chakram",
+          "level": 100,
+          "activation_chance": 100,
+          "physical_attack": 21357,
+          "effect": "Team-wide bonus stats for 9 seconds when Kayla uses her supreme ability (Phoenix's Fury)",
+          "buff_duration_seconds": 9,
+          "priority": "MEDIUM-HIGH"
+        },
+        {
+          "slot": "Book",
+          "name": "Alchemist's Folio",
+          "level": 100,
+          "Armor penetration": 10680,
+          "Physical attack": 3561,
+          "note": "Provides Physical Attack and Health. Exact level-100 values not extracted yet.",
+          "priority": "HIGH"
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Agility",
+          "level": 100,
+          "agility": 3990,
+          "derived_bonuses": {
+            "physical_attack": 11970,
+            "armor": 3990
+          },
+          "priority": "VERY HIGH"
+        }
+      ],
+      "glyphs": [
+        {
+          "name": "Physical Attack",
+          "level": 80,
+          "bonus": 8340,
+          "priority": "VERY HIGH"
+        },
+        {
+          "name": "Health",
+          "level": 80,
+          "bonus": 122800,
+          "priority": "VERY HIGH"
+        },
+        {
+          "name": "Agility",
+          "level": 80,
+          "bonus": 2110,
+          "derived_bonuses": {
+            "physical_attack": 6330,
+            "armor": 2110
+          },
+          "priority": "HIGH"
+        },
+        {
+          "name": "Armor",
+          "level": 80,
+          "bonus": 12850,
+          "priority": "HIGH"
+        },
+        {
+          "name": "Magic Defense",
+          "level": 80,
+          "bonus": 12850,
+          "priority": "MEDIUM"
+        }
+      ],
+      "best_teams": {
+        "defense": [
+            "Cleaver, Kayla, Xe'sha, Aidan, Kendle",
+          "Electra, Kayla, Guus, Somna, Aidan",
+          "Julius, Kayla, Guus, Somna, Aidan",
+          "Julius, Kayla, Xe'sha, Lian, Aidan",
+          "Electra, Kayla, Guus, Folio, Aidan",
+          "Julius, Kayla, Guus, Folio, Aidan",
+          "Julius, Kayla, Byrna, Peech, Aidan"
+          
+        ],
+        "attack": [
+          "Aidan, Somna, Guus, Kayla, Electra",
+          "Aidan, Somna, Guus, Kayla, Julius",
+          "Aidan, Lian, Xe'sha, Kayla, Julius",
+          "Aidan, Folio, Guus, Kayla, Electra",
+          "Aidan, Folio, Guus, Kayla, Julius",
+          "Aidan, Peech, Byrna, Kayla, Julius",
+          "Octavia, Aidan, Dante, Kayla, Julius"
+        ]
+      },
+      "skill_priority": [
+        { "rank": 1, "name": "Phoenix's Fury", "priority": "VERY HIGH", "reason": "Health steal + Aidan resurrection" },
+        { "rank": 2, "name": "Inner Flame + Legendary", "priority": "VERY HIGH", "reason": "Core pure area damage, scales with Health" },
+        { "rank": 3, "name": "Acrobatics + Legendary", "priority": "HIGH", "reason": "Survival healing + positioning + Chaos synergy" },
+        { "rank": 4, "name": "Frenzy", "priority": "HIGH", "reason": "Stacking damage multiplier for extended fights" },
+        { "rank": 5, "name": "Retaliatory Strike", "priority": "MEDIUM-HIGH", "reason": "Retaliation damage + enemy blinding" },
+        { "rank": 6, "name": "Chaotic Fracture", "priority": "MEDIUM", "reason": "Team armor reduction utility" }
+      ]
+    }
+  ]
+}
