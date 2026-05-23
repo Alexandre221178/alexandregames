@@ -4,7 +4,9 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
-   
+   // ── May 23, 2026 ──────────────────────────────
+   { date:'2026-05-23', type:'daily', mission:'2-9', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
     // ── May 22, 2026 ──────────────────────────────
    // ── Hub Code gft valid data true ──────────────────────────────
 { date:'2026-05-22', type:'hub', code:'LAVA', note:'until|2026-06-08T01:00:00Z',
