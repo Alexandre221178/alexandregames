@@ -2,12 +2,21 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
-      link: "../../hero-wars-alliance/events-tips-hwa/dorian-way-of-chaos-shop-en.html",
-      src500: "../../hero-wars-alliance/images/events-tips-hwa/dorian-way-of-chaos-shop/dorian-way-of-chaos-shop-500px.webp",
-      src400: "../../hero-wars-alliance/images/events-tips-hwa/dorian-way-of-chaos-shop/dorian-way-of-chaos-shop-400px.webp",
-      alt: "Dorian Way of Chaos Event Shop Guide for Hero Wars Alliance",
-      title: "Dorian Way of Chaos Event Shop Guide for Hero Wars Alliance",
-      strong: "Guide: Dorian Shop - What to buy? - Hero Wars Alliance(EN)",
+      link: "/hero-wars-alliance/event-hwa/shards-of-the-past-en.html",
+      src500: "/hero-wars-alliance/images/events/shards-of-the-past/shards-of-the-past-500px.webp",
+      src400: "/hero-wars-alliance/images/events/shards-of-the-past/shards-of-the-past-400px.webp",
+      alt: "Shards of the Past Event Guide for Hero Wars Alliance",
+      title: "Shards of the Past Event Guide for Hero Wars Alliance",
+      strong: "Guide: Shards of the Past Event - What to do? - Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/characters-guide/kendle-en.html",
+      src500: "/hero-wars-alliance/images/hero/kendle/kendle-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/kendle/kendle-400px.webp",
+      alt: "Kendle Legendary Skills Guide for Hero Wars Alliance",
+      title: "Kendle Guide for Hero Wars Alliance",
+      strong: "Guide Updated Skin+: Kendle Legendary Skills for Hero Wars Alliance",
       updated: "Updated: May, 2026."
     },
     
@@ -28,16 +37,6 @@
       alt: "Kendle Adventure and Shop Guide for Hero Wars Alliance",
       title: "Kendle Adventure and Shop Guide for Hero Wars Alliance",
       strong: "Guide: Kendle Adventure and Shop f2p Strategy for Hero Wars Alliance(EN)",
-      updated: "Updated: May, 2026."
-    },
-    
-    {
-      link: "/hero-wars-alliance/characters-guide/kendle-en.html",
-      src500: "/hero-wars-alliance/images/hero/kendle/kendle-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/kendle/kendle-400px.webp",
-      alt: "Kendle Legendary Skills Guide for Hero Wars Alliance",
-      title: "Kendle Guide for Hero Wars Alliance",
-      strong: "Guide: Kendle Legendary Skills for Hero Wars Alliance",
       updated: "Updated: May, 2026."
     },
     
@@ -156,8 +155,10 @@
         'Calendar': 'Calendário', 
         'New': 'Nova', 'and': 'e', 'Strategy': 'Estratégia',
         'Adventure Shop Tips': 'Dicas da Loja de Aventura',
-        'What to Buy': 'O que Comprar',
-        'Which is better': 'Qual é o Melhor'
+        'What to Buy': 'O que Comprar', 'What to do?': 'O que fazer?', 
+        'Which is better': 'Qual é o Melhor',
+        'Updated': 'Atualizado',
+        'Updated:': 'Atualizado:'
       }
     },
     es: {
@@ -183,9 +184,9 @@
         'Calendar': 'Calendario', 'Strategy': 'Estrategia',
         'New': 'Nueva', 'and': 'y',
         'Adventure Shop Tips': 'Consejos de la Tienda de Aventura',
-        'What to Buy': 'Qué Comprar',
+        'What to Buy': 'Qué Comprar', 'What to do?': 'Qué Hacer?', 
         'Which is better': 'Cuál es Mejor',
-
+        'Updated': 'Actualizado',
       }
     },
     fr: {
@@ -211,8 +212,9 @@
         'Calendar': 'Calendrier', 'Strategy': 'Stratégie',
         'New': 'Nouvelle', 'and': 'et',
         'Adventure Shop Tips': 'Conseils de la Boutique d\'Aventure',
-        'What to Buy?': 'Que Acheter?',
+        'What to Buy?': 'Que Acheter?', 'What to do?': 'Que Faire?',
         'Which is better': '¿Lequel est meilleur',
+        'Updated': 'Mis à jour',
       }
     },
 
@@ -240,8 +242,9 @@
         'Calendar': 'Kalender', 'Strategy': 'Strategie',
         'New': 'Neu', 'and': 'und',
         'Adventure Shop Tips': 'Abenteuerladen Tipps',
-        'What to Buy?': 'Was soll man kaufen?',
-        'Which is better': 'Welches ist besser'
+        'What to Buy?': 'Was soll man kaufen?', 'What to do?': 'Was soll man tun?',
+        'Which is better': 'Welches ist besser',
+        'Updated': 'Aktualisiert',
       }
     },
     ja: {
@@ -288,9 +291,10 @@
         'Complete Talisman Guide:': 'タリスマン完全ガイド:', 'How to Get the': '入手方法',
         'Hero Wars: Alliance': 'ヒーローウォーズ アライアンス', 'hero wars alliance': 'ヒーローウォーズ アライアンス',
         'for': '向け', 'skin': 'スキン',  'everyday': '毎日', 'monthly': '毎月', 'Calendar': 'カレンダー',
-        'New': '新しい', 'How to Play': '遊び方', 'and': 'と', 
+        'New': '新しい', 'How to Play': '遊び方', 'and': 'と', 'What to do?': '何をすべきか？', 
         'Adventure Shop Tips': 'アドベンチャーショップのヒント', 'Strategy': '戦略',
-        'What to Buy?': '何を買うべき？', 'Which is better': 'どちらがいいですか'
+        'What to Buy?': '何を買うべき？', 'Which is better': 'どちらがいいですか',
+        'Updated': '更新'
       }
     },
    

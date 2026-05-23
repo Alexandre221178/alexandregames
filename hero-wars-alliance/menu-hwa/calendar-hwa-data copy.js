@@ -16,6 +16,11 @@
  titles: { en: "", pt: "", de: "", es: "", fr: "", ja: "" },
   labelOnly: true
 },     
+
+ {
+ titles: { en: "Skin+", pt: "Skin+", de: "Skin+", es: "Skin+", fr: "Skin+", ja: "スキン+" },
+  labelOnly: true
+},   
    */      
 window.CALENDAR_DATA = [
 

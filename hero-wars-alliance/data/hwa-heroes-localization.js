@@ -396,6 +396,15 @@ const hwaHeroesLocalization = {
     "pt": "Keira",
     "ja": "ケイラ"
   },
+  "Kendle": {
+    "gender": "female",
+    "en": "Kendle",
+    "de": "Kendle",
+    "es": "Kendle",
+    "fr": "Kendle",
+    "pt": "Kendle",
+    "ja": "ケンドル"
+  },
   "Krista": {
     "gender": "female",
     "en": "Krista",

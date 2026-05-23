@@ -342,9 +342,10 @@ window.CALENDAR_DATA = [
        },  
      
        {
- titles: { en: "Skin+", pt: "Skin+", de: "Skin+", es: "Skin+", fr: "Skin+", ja: "スキン+" },
-  labelOnly: true
-},     
+  titles: { en: "Kendle Guide: Skin+", de: "Kendle Guide: Skin+", es: "Guía de Kendle Skin+", fr: "Kendle Guide: Skin+", pt: "Guia da Kendle Skin+", ja: "ケンドルガイド: スキン+" },
+  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
+  noStrip: true
+},  
        
     ]
   },
@@ -358,10 +359,11 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "" },
     extra: [
       
-      {
- titles: { en: "Skin+", pt: "Skin+", de: "Skin+", es: "Skin+", fr: "Skin+", ja: "スキン+" },
-  labelOnly: true
-},     
+     {
+  titles: { en: "Kendle Guide: Skin+", de: "Kendle Guide: Skin+", es: "Guía de Kendle Skin+", fr: "Kendle Guide: Skin+", pt: "Guia da Kendle Skin+", ja: "ケンドルガイド: スキン+" },
+  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
+  noStrip: true
+},  
              
     ]
   },
@@ -374,8 +376,9 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "" },
     extra: [
        {
- titles: { en: "Skin+", pt: "Skin+", de: "Skin+", es: "Skin+", fr: "Skin+", ja: "スキン+" },
-  labelOnly: true
+  titles: { en: "Kendle Guide: Skin+", de: "Kendle Guide: Skin+", es: "Guía de Kendle Skin+", fr: "Kendle Guide: Skin+", pt: "Guia da Kendle Skin+", ja: "ケンドルガイド: スキン+" },
+  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
+  noStrip: true
 },       
     ]
   },
@@ -425,6 +428,10 @@ window.CALENDAR_DATA = [
  titles: { en: "Dorian Blazing Skin+", pt: "Dorian Blazing Skin+", de: "Dorian Blazing Skin+", es: "Dorian Blazing Skin+", fr: "Dorian Blazing Skin+", ja: "ドリアン・ブレイジングスキン+" },
   labelOnly: true
 },     
+{
+ titles: { en: "Kayla Blazing Skin", pt: "Kayla Blazing Skin", de: "Kayla Blazing Skin", es: "Kayla Blazing Skin", fr: "Kayla Blazing Skin", ja: "ケイラ・ブレイジングスキン" },
+  labelOnly: true
+}, 
 
              
     ]
@@ -441,7 +448,10 @@ window.CALENDAR_DATA = [
  titles: { en: "Dorian Blazing Skin+", pt: "Dorian Blazing Skin+", de: "Dorian Blazing Skin+", es: "Dorian Blazing Skin+", fr: "Dorian Blazing Skin+", ja: "ドリアン・ブレイジングスキン+" },
   labelOnly: true
 },     
-
+{
+ titles: { en: "Kayla Blazing Skin", pt: "Kayla Blazing Skin", de: "Kayla Blazing Skin", es: "Kayla Blazing Skin", fr: "Kayla Blazing Skin", ja: "ケイラ・ブレイジングスキン" },
+  labelOnly: true
+}, 
 
              
     ]
@@ -457,7 +467,11 @@ window.CALENDAR_DATA = [
      {
  titles: { en: "Dorian Blazing Skin+", pt: "Dorian Blazing Skin+", de: "Dorian Blazing Skin+", es: "Dorian Blazing Skin+", fr: "Dorian Blazing Skin+", ja: "ドリアン・ブレイジングスキン+" },
   labelOnly: true
-},     
+},   
+{
+ titles: { en: "Kayla Blazing Skin", pt: "Kayla Blazing Skin", de: "Kayla Blazing Skin", es: "Kayla Blazing Skin", fr: "Kayla Blazing Skin", ja: "ケイラ・ブレイジングスキン" },
+  labelOnly: true
+},   
       
 {
         titles: { en: "Kendle - Relic Event", de: "Kendle - Relikt-Ereignis", es: "Kendle - Evento de Reliquia", fr: "Kendle - Événement des Reliques", pt: "Kendle - Evento de Relíquia", ja: "ケンドル - レリックイベント" },
