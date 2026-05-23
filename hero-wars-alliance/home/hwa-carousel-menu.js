@@ -26,7 +26,7 @@
       src400: "/hero-wars-alliance/images/hero/dorian/dorian-400px.webp",
       alt: "Dorian Legendary Skills Guide for Hero Wars Alliance",
       title: "Dorian Guide for Hero Wars Alliance",
-      strong: "Guide: Dorian Legendary Skills for Hero Wars Alliance",
+      strong: "Guide Updated Skin+: Dorian Legendary Skills for Hero Wars Alliance",
       updated: "Updated: May, 2026."
     },
     

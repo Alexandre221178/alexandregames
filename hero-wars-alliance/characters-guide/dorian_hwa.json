@@ -236,19 +236,25 @@
           "bonus": 10687
         },
         {
-          "name": "Masquerade",
-          "stat": "Armor",
-          "bonus": 10650
-        },
-        {
           "name": "Romantic",
           "stat": "Health",
           "bonus": 106645
         },
         {
+          "name": "Masquerade",
+          "stat": "Armor",
+          "bonus": 10650
+        },        
+        {
           "name": "Winter",
           "stat": "Magic defense",
           "bonus": 10687
+        },
+        {
+          "name": "Blazing Skin+",
+          "stat": "Magic penetration",
+          "bonus": 21300,
+          "is_skin_plus": true
         }
       ],
       "class_skill": {
