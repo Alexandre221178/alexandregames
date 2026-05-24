@@ -1,15 +1,7 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
-    {
-      link: "/hero-wars-alliance/event-hwa/shards-of-the-past-en.html",
-      src500: "/hero-wars-alliance/images/events/shards-of-the-past/shards-of-the-past-500px.webp",
-      src400: "/hero-wars-alliance/images/events/shards-of-the-past/shards-of-the-past-400px.webp",
-      alt: "Shards of the Past Event Guide for Hero Wars Alliance",
-      title: "Shards of the Past Event Guide for Hero Wars Alliance",
-      strong: "Guide: Shards of the Past Event - What to do? - Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },
+    
     {
       link: "/hero-wars-alliance/characters-guide/kendle-en.html",
       src500: "/hero-wars-alliance/images/hero/kendle/kendle-500px.webp",
@@ -27,6 +19,15 @@
       alt: "Dorian Legendary Skills Guide for Hero Wars Alliance",
       title: "Dorian Guide for Hero Wars Alliance",
       strong: "Guide Updated Skin+: Dorian Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/characters-guide/kayla-en.html",
+      src500: "/hero-wars-alliance/images/hero/kayla/kayla-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/kayla/kayla-400px.webp",
+      alt: "Kayla Legendary Skills Guide for Hero Wars Alliance",
+      title: "Kayla Guide for Hero Wars Alliance",
+      strong: "Guide Updated Blazing Skin: Kayla Legendary Skills for Hero Wars Alliance",
       updated: "Updated: May, 2026."
     },
     
