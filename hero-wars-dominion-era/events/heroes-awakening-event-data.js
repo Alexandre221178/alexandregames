@@ -8,7 +8,11 @@ const heroesAwakeningEventData = {
     title2: "Como Funciona o Evento Último Contrato",
     para3: "O evento <strong>O Preço do Ritual</strong> gira em torno de fortalecer Adam por meio do aumento de nível, evolução, aprimoramento de artefatos e planejamento de recursos. Como as Pedras da Alma do Adam ficam temporariamente indisponíveis fora de oportunidades especiais, este evento é uma das maneiras mais eficientes de desenvolvê-lo rapidamente.",
     para4: "Jogadores free-to-play devem priorizar primeiro as cadeias de missões mais eficientes. Adam se beneficia bastante de melhorias que aumentam sua sobrevivência e sua capacidade de cura, então níveis, habilidades, artefatos e glifos contribuem tanto para o progresso no evento quanto para o valor de longo prazo da conta.",
-    para5: "Para evoluir Adam com eficiência, concentre seus recursos nele durante o evento. Evite espalhar Ouro, materiais e recursos de aprimoramento entre vários heróis se o seu objetivo principal for levá-lo a 6 estrelas."
+    para5: "Para evoluir Adam com eficiência, concentre seus recursos nele durante o evento. Evite espalhar Ouro, materiais e recursos de aprimoramento entre vários heróis se o seu objetivo principal for levá-lo a 6 estrelas.",
+    title3: "Melhores Times para o Arquidemônio no Evento Último Contrato",
+    para6: "<p><strong>Um Bilhão de Dano (Capítulo 4)</strong></p>",
+    para7: "<ul><li><strong>Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</strong></li></ul>"
+  
   },
  
   en: {
@@ -19,6 +23,9 @@ const heroesAwakeningEventData = {
     para3: "<p>The <strong>(Last Contract)</strong> event centers on building Adam through hero leveling, evolution, artifact strengthening, and resource planning. Since Adam's Soul Stones are temporarily unobtainable outside special opportunities, this event is one of the most efficient ways to develop him quickly.</p>",   
     para4: "<p>Free-to-play players should prioritize the most efficient quest chains first. Adam benefits heavily from upgrades that improve survivability and healing output, so levels, skills, artifacts, and glyphs all contribute to both event progress and long-term account value.</p>",
     para5: "<p>To evolve Adam efficiently, concentrate your resources on Adam during the event. Avoid spreading Gold, materials, and enhancement resources across multiple heroes if your main goal is to push him to 6 stars.</p>",
+   title3: "Archdemon Best Teams (Last Contract) Event",
+   para6: "<p><strong>One Billion Damage (Chapter 4)</strong></p>",
+   para7: "<ul><li><strong>Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</strong></li></ul>"
   },
  
   de: {
@@ -29,7 +36,10 @@ const heroesAwakeningEventData = {
   title2: "Wie das Event „Letzter Vertrag“ funktioniert",
   para3: "Das Event <strong>Letzter Vertrag</strong> konzentriert sich darauf, Adam durch Levelaufstieg, Evolution, Artefaktverbesserungen und Ressourcenplanung zu stärken. Da Adams Seelensteine außerhalb besonderer Gelegenheiten vorübergehend nicht verfügbar sind, gehört dieses Event zu den effizientesten Möglichkeiten, ihn schnell weiterzuentwickeln.",
   para4: "Free-to-Play-Spieler sollten zuerst die effizientesten Questketten priorisieren. Adam profitiert stark von Verbesserungen, die Überlebensfähigkeit und Heilungsleistung erhöhen. Deshalb tragen Level, Fähigkeiten, Artefakte und Glyphen sowohl zum Eventfortschritt als auch zum langfristigen Kontowert bei.",
-  para5: "Um Adam effizient weiterzuentwickeln, solltest du deine Ressourcen während des Events auf ihn konzentrieren. Vermeide es, Gold, Materialien und Verbesserungsressourcen auf mehrere Helden zu verteilen, wenn dein Hauptziel darin besteht, ihn auf 6 Sterne zu bringen."
+  para5: "Um Adam effizient weiterzuentwickeln, solltest du deine Ressourcen während des Events auf ihn konzentrieren. Vermeide es, Gold, Materialien und Verbesserungsressourcen auf mehrere Helden zu verteilen, wenn dein Hauptziel darin besteht, ihn auf 6 Sterne zu bringen.",
+  title3: "Beste Teams für den Erzdämon im Event „Letzter Vertrag“",
+  para6: "<p><strong>Eine Milliarde Schaden (Kapitel 4)</strong></p>",
+  para7: "<ul><li><strong>Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</strong></li></ul>"
 },
 
 es: {
@@ -40,7 +50,10 @@ es: {
   title2: "Cómo funciona el evento Último Contrato",
   para3: "El evento <strong>Último Contrato</strong> se centra en desarrollar a Adam mediante subida de nivel, evolución, mejoras de artefactos y planificación de recursos. Como las Piedras de Alma de Adam son temporalmente inaccesibles fuera de oportunidades especiales, este evento es una de las formas más eficientes de desarrollarlo rápidamente.",
   para4: "Los jugadores free-to-play deben priorizar primero las cadenas de misiones más eficientes. Adam se beneficia enormemente de las mejoras que aumentan la supervivencia y la capacidad de curación, por lo que niveles, habilidades, artefactos y glifos contribuyen tanto al progreso del evento como al valor a largo plazo de la cuenta.",
-  para5: "Para evolucionar a Adam de manera eficiente, concentra tus recursos en él durante el evento. Evita distribuir Oro, materiales y recursos de mejora entre varios héroes si tu objetivo principal es llevarlo a 6 estrellas."
+  para5: "Para evolucionar a Adam de manera eficiente, concentra tus recursos en él durante el evento. Evita distribuir Oro, materiales y recursos de mejora entre varios héroes si tu objetivo principal es llevarlo a 6 estrellas.",
+  title3: "Mejores equipos para el Archidemonio en el evento Último Contrato",
+  para6: "<p><strong>Mil millones de daño (Capítulo 4)</strong></p>",
+  para7: "<ul><li><strong>Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</strong></li></ul>"
 },
 
 fr: {
@@ -51,7 +64,10 @@ fr: {
   title2: "Comment fonctionne l’événement Dernier Contrat",
   para3: "L’événement <strong>Dernier Contrat</strong> est centré sur le développement d’Adam grâce à la montée de niveau, l’évolution, l’amélioration des artefacts et la gestion des ressources. Comme les Pierres d’Âme d’Adam sont temporairement indisponibles en dehors d’occasions spéciales, cet événement est l’un des moyens les plus efficaces de le développer rapidement.",
   para4: "Les joueurs free-to-play doivent prioriser les chaînes de quêtes les plus efficaces. Adam bénéficie énormément des améliorations augmentant sa survie et ses soins, donc les niveaux, compétences, artefacts et glyphes contribuent à la fois à la progression de l’événement et à la valeur à long terme du compte.",
-  para5: "Pour faire évoluer Adam efficacement, concentrez vos ressources sur lui pendant l’événement. Évitez de répartir l’Or, les matériaux et les ressources d’amélioration entre plusieurs héros si votre objectif principal est de le pousser à 6 étoiles."
+  para5: "Pour faire évoluer Adam efficacement, concentrez vos ressources sur lui pendant l’événement. Évitez de répartir l’Or, les matériaux et les ressources d’amélioration entre plusieurs héros si votre objectif principal est de le pousser à 6 étoiles.",
+  title3: "Meilleures équipes contre l’Archidémon pour l’événement Dernier Contrat",
+  para6: "<p><strong>Un milliard de dégâts (Chapitre 4)</strong></p>",
+  para7: "<ul><li><strong>Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</strong></li></ul>"
 },
 
 ja: {
@@ -62,6 +78,9 @@ ja: {
   title2: "ラストコントラクトイベントの仕組み",
   para3: "「<strong>ラストコントラクト</strong>」イベントでは、レベルアップ、進化、アーティファクト強化、リソース管理を通じてアダムを育成していきます。アダムのソウルストーンは特別な機会以外では一時的に入手できないため、このイベントは彼を素早く育成する最も効率的な方法の1つです。",
   para4: "無課金プレイヤーは、まず効率の高いクエストチェーンを優先するべきです。アダムは生存力と回復能力を強化するアップグレードの恩恵が大きいため、レベル、スキル、アーティファクト、グリフはイベント進行と長期的なアカウント価値の両方に貢献します。",
-  para5: "アダムを効率よく進化させるには、イベント期間中はリソースを彼に集中させましょう。6★を目指す場合は、ゴールド、素材、強化リソースを複数のヒーローに分散させないようにしてください。"
+  para5: "アダムを効率よく進化させるには、イベント期間中はリソースを彼に集中させましょう。6★を目指す場合は、ゴールド、素材、強化リソースを複数のヒーローに分散させないようにしてください。",
+  title3: "ラストコントラクトイベントのアークデーモン最強チーム",
+  para6: "<p><strong>10億ダメージ（第4章）</strong></p>",
+  para7: "<ul><li><strong>アルバス, セバスチャン(アルバス), ネビュラ(カイン), アイザック(+), グース(フェンリス), イシュマエル(マーラ)</strong></li></ul>"
 }
 };

@@ -17,6 +17,9 @@ function injectHeroesAwakeningEventContent() {
   const para3 = data.para3 || '';
   const para4 = data.para4 || '';
   const para5 = data.para5 || '';
+  const title3 = data.title3 || '';
+  const para6 = data.para6 || '';
+   const para7 = data.para7 || '';
   const rewardsTitle = data.rewardsTitle || '';
   const tableCaption = data.tableCaption || '';
   const rewardLabel = lang === 'pt' ? 'Recompensa' : 'Reward';
@@ -40,6 +43,9 @@ function injectHeroesAwakeningEventContent() {
 <p>${para3}</p>
 <p>${para4}</p>
 <p>${para5}</p>
+<h2>${title3}</h2>
+<p>${para6}</p>
+<p>${para7}</p>
 `;
 
   if (rewards.length > 0) {
