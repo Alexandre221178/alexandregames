@@ -85,6 +85,7 @@
     "update-hwde-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js hwde",
     "update-calendar-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js calendar-hwde",
     "update-heroes-awakening-event-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js heroes-awakening-event-hwde",
+"update-titan-cosmic-battle-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titan-cosmic-battle-hwde",
 
 
     "update-angus-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js angus-hwde",
