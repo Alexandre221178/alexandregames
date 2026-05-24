@@ -8,10 +8,13 @@
 // ── May #, 2026 ──────────────────────────────
 { date:'2026-05-##', type:'link', giftId:'#####', note:'until|2026-0#-##T02:00:00Z',
   rewards:['energy x500'] },
-https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_
-id=f2a458703f59077118711c2579bf2726
+https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=vKDpFTe82s
 // ── May #, 2026 ──────────────────────────────
 */window.HWDE_GIFTS = [
+  // ── May 24, 2026 ──────────────────────────────
+  // ── Gifts New hero or titan ──────────────────────────────
+ { date:'2026-05-24', type:'link', giftId:'vKDpFTe82s', note:'until|2026-05-31T02:00:00Z',
+  rewards:['energy-crystal x16', 'valor-coin x8500', 'sapphire-medallion x2'] },
   // ── May 23, 2026 ──────────────────────────────
   { date:'2026-05-23', type:'link', giftId:'f2a458703f59077118711c2579bf2726', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },

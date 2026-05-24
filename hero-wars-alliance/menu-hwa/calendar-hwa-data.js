@@ -420,19 +420,20 @@ window.CALENDAR_DATA = [
     image: "../../hero-wars-alliance/images/events/skinplus-event/skinplus-event-500px.webp",
     alt: "Skin+ Event",
     titles: { en: "Skin+ Event", de: "Skin+ Event", es: "Evento Skin+", fr: "Événement Skin+", pt: "Evento Skin+", ja: "スキン+ イベント" },
-    links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "" },
+    links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "../../hero-wars-alliance/event-hwa/skinplus-event-de.html", es: "../../hero-wars-alliance/event-hwa/skinplus-event-es.html", fr: "../../hero-wars-alliance/event-hwa/skinplus-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/skinplus-event-ja.html" },
     extra: [
-           
+      
+ {
+   titles: { en: "Guide: Dorian Blazing Skin+", pt: "Guia: Dorian Blazing Skin+", de: "Leitfaden: Dorian Blazing Skin+", es: "Guía: Dorian Blazing Skin+", fr: "Guide: Dorian Blazing Skin+", ja: "ガイド: ドリアン・ブレイジングスキン+" },
+ links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html",  ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },            
+  noStrip: true
+},    
+{
+   titles: { en: "Guide: Kayla Blazing Skin", pt: "Guia: Kayla Blazing Skin", de: "Leitfaden: Kayla Blazing Skin", es: "Guía: Kayla Blazing Skin", fr: "Guide: Kayla Blazing Skin", ja: "ガイド: ケイラ・ブレイジングスキン" },
+   links: { en: "../../hero-wars-alliance/characters-guide/kayla-en.html", pt: "../../hero-wars-alliance/characters-guide/kayla-pt.html", de: "../../hero-wars-alliance/characters-guide/kayla-de.html", es: "../../hero-wars-alliance/characters-guide/kayla-es.html", fr: "../../hero-wars-alliance/characters-guide/kayla-fr.html",  ja: "../../hero-wars-alliance/characters-guide/kayla-ja.html" },
+   noStrip: true
+},        
  
-{
- titles: { en: "Dorian Blazing Skin+", pt: "Dorian Blazing Skin+", de: "Dorian Blazing Skin+", es: "Dorian Blazing Skin+", fr: "Dorian Blazing Skin+", ja: "ドリアン・ブレイジングスキン+" },
-  labelOnly: true
-},     
-{
- titles: { en: "Kayla Blazing Skin", pt: "Kayla Blazing Skin", de: "Kayla Blazing Skin", es: "Kayla Blazing Skin", fr: "Kayla Blazing Skin", ja: "ケイラ・ブレイジングスキン" },
-  labelOnly: true
-}, 
-
              
     ]
   },
@@ -442,17 +443,19 @@ window.CALENDAR_DATA = [
     image: "../../hero-wars-alliance/images/events/skinplus-event/skinplus-event-500px.webp",
     alt: "Skin+ Event",
     titles: { en: "Skin+ Event", de: "Skin+ Event", es: "Evento Skin+", fr: "Événement Skin+", pt: "Evento Skin+", ja: "スキン+ イベント" },
-    links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "" },
+    links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "../../hero-wars-alliance/event-hwa/skinplus-event-de.html", es: "../../hero-wars-alliance/event-hwa/skinplus-event-es.html", fr: "../../hero-wars-alliance/event-hwa/skinplus-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/skinplus-event-ja.html" },
     extra: [
-      {
- titles: { en: "Dorian Blazing Skin+", pt: "Dorian Blazing Skin+", de: "Dorian Blazing Skin+", es: "Dorian Blazing Skin+", fr: "Dorian Blazing Skin+", ja: "ドリアン・ブレイジングスキン+" },
-  labelOnly: true
-},     
+      
+ {
+   titles: { en: "Guide: Dorian Blazing Skin+", pt: "Guia: Dorian Blazing Skin+", de: "Leitfaden: Dorian Blazing Skin+", es: "Guía: Dorian Blazing Skin+", fr: "Guide: Dorian Blazing Skin+", ja: "ガイド: ドリアン・ブレイジングスキン+" },
+ links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html",  ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },            
+  noStrip: true
+},    
 {
- titles: { en: "Kayla Blazing Skin", pt: "Kayla Blazing Skin", de: "Kayla Blazing Skin", es: "Kayla Blazing Skin", fr: "Kayla Blazing Skin", ja: "ケイラ・ブレイジングスキン" },
-  labelOnly: true
-}, 
-
+   titles: { en: "Guide: Kayla Blazing Skin", pt: "Guia: Kayla Blazing Skin", de: "Leitfaden: Kayla Blazing Skin", es: "Guía: Kayla Blazing Skin", fr: "Guide: Kayla Blazing Skin", ja: "ガイド: ケイラ・ブレイジングスキン" },
+   links: { en: "../../hero-wars-alliance/characters-guide/kayla-en.html", pt: "../../hero-wars-alliance/characters-guide/kayla-pt.html", de: "../../hero-wars-alliance/characters-guide/kayla-de.html", es: "../../hero-wars-alliance/characters-guide/kayla-es.html", fr: "../../hero-wars-alliance/characters-guide/kayla-fr.html",  ja: "../../hero-wars-alliance/characters-guide/kayla-ja.html" },
+   noStrip: true
+},
              
     ]
   },
@@ -462,16 +465,19 @@ window.CALENDAR_DATA = [
     image: "../../hero-wars-alliance/images/events/skinplus-event/skinplus-event-500px.webp",
     alt: "Skin+ Event",
     titles: { en: "Skin+ Event", de: "Skin+ Event", es: "Evento Skin+", fr: "Événement Skin+", pt: "Evento Skin+", ja: "スキン+ イベント" },
-    links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "" },
+    links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "../../hero-wars-alliance/event-hwa/skinplus-event-de.html", es: "../../hero-wars-alliance/event-hwa/skinplus-event-es.html", fr: "../../hero-wars-alliance/event-hwa/skinplus-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/skinplus-event-ja.html" },
     extra: [
-     {
- titles: { en: "Dorian Blazing Skin+", pt: "Dorian Blazing Skin+", de: "Dorian Blazing Skin+", es: "Dorian Blazing Skin+", fr: "Dorian Blazing Skin+", ja: "ドリアン・ブレイジングスキン+" },
-  labelOnly: true
-},   
+      
+ {
+   titles: { en: "Guide: Dorian Blazing Skin+", pt: "Guia: Dorian Blazing Skin+", de: "Leitfaden: Dorian Blazing Skin+", es: "Guía: Dorian Blazing Skin+", fr: "Guide: Dorian Blazing Skin+", ja: "ガイド: ドリアン・ブレイジングスキン+" },
+ links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html",  ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },            
+  noStrip: true
+},    
 {
- titles: { en: "Kayla Blazing Skin", pt: "Kayla Blazing Skin", de: "Kayla Blazing Skin", es: "Kayla Blazing Skin", fr: "Kayla Blazing Skin", ja: "ケイラ・ブレイジングスキン" },
-  labelOnly: true
-},   
+   titles: { en: "Guide: Kayla Blazing Skin", pt: "Guia: Kayla Blazing Skin", de: "Leitfaden: Kayla Blazing Skin", es: "Guía: Kayla Blazing Skin", fr: "Guide: Kayla Blazing Skin", ja: "ガイド: ケイラ・ブレイジングスキン" },
+   links: { en: "../../hero-wars-alliance/characters-guide/kayla-en.html", pt: "../../hero-wars-alliance/characters-guide/kayla-pt.html", de: "../../hero-wars-alliance/characters-guide/kayla-de.html", es: "../../hero-wars-alliance/characters-guide/kayla-es.html", fr: "../../hero-wars-alliance/characters-guide/kayla-fr.html",  ja: "../../hero-wars-alliance/characters-guide/kayla-ja.html" },
+   noStrip: true
+},
       
 {
         titles: { en: "Kendle - Relic Event", de: "Kendle - Relikt-Ereignis", es: "Kendle - Evento de Reliquia", fr: "Kendle - Événement des Reliques", pt: "Kendle - Evento de Relíquia", ja: "ケンドル - レリックイベント" },
