@@ -10,9 +10,16 @@ const heroesAwakeningEventData = {
     para4: "Jogadores free-to-play devem priorizar primeiro as cadeias de missões mais eficientes. Adam se beneficia bastante de melhorias que aumentam sua sobrevivência e sua capacidade de cura, então níveis, habilidades, artefatos e glifos contribuem tanto para o progresso no evento quanto para o valor de longo prazo da conta.",
     para5: "Para evoluir Adam com eficiência, concentre seus recursos nele durante o evento. Evite espalhar Ouro, materiais e recursos de aprimoramento entre vários heróis se o seu objetivo principal for levá-lo a 6 estrelas.",
     title3: "Melhores Times para o Arquidemônio no Evento Último Contrato",
-    para6: "<p><strong>Um Bilhão de Dano (Capítulo 4)</strong></p>",
-    para7: "<ul><li><strong>Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</strong></li></ul>"
-  
+    para6: "<p><strong>Um Bilhão de Dano (Capítulo 4)</strong></p><ul><li><strong>Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</strong></li></ul>",
+    title4: "Melhores Times para o Arquidemônio no Evento Último Contrato",
+    para7: "<li><strong>Capítulo 1:</strong> Axel, Adam(Fenris), Fluffy(Biscuit), Cascade(Axel), Byrna(Merlin), Electra(Oliver)</li>",
+    para8: "<li><strong>Capítulo 2 - Buff(Vampirismo):</strong> Axel, Adam(Cain), Fluffy(Axel), Cascade(Khorus), Isaac(Mara), Electra(Oliver)</li>",
+    para9: "<li><strong>Capítulo 3:</strong> Axel, Dorian(Axel), Adam(Cain), Fluffy(Biscuit), Keira(Albusa), Lyria(Oliver)</li>",
+    para10: "<li><strong>Capítulo 4:</strong> Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</li> ",
+     para11: "<li><strong>Capítulo 5:</strong> Albus, Augustus(Albus), Orion(Mara), Fluffy(Axel), Nebula(Cain), Sebastian(+), Electra(Oliver)</li> ",
+     para12: "<li><strong>Capítulo 6:</strong> </li>",
+     para13: "<li><strong>Capítulo 7:</strong> </li> </ul>",
+ 
   },
  
   en: {
@@ -24,8 +31,15 @@ const heroesAwakeningEventData = {
     para4: "<p>Free-to-play players should prioritize the most efficient quest chains first. Adam benefits heavily from upgrades that improve survivability and healing output, so levels, skills, artifacts, and glyphs all contribute to both event progress and long-term account value.</p>",
     para5: "<p>To evolve Adam efficiently, concentrate your resources on Adam during the event. Avoid spreading Gold, materials, and enhancement resources across multiple heroes if your main goal is to push him to 6 stars.</p>",
    title3: "Archdemon Best Teams (Last Contract) Event",
-   para6: "<p><strong>One Billion Damage (Chapter 4)</strong></p>",
-   para7: "<ul><li><strong>Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</strong></li></ul>"
+   para6: "<p><strong>One Billion Damage (Chapter 4)</strong></p><ul><li><strong>Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</strong></li></ul>",
+   title4: "Archdemon Best Teams (Last Contract) Event",
+   para7: "<li><strong>Chapter 1:</strong> Axel, Adam(Fenris), Fluffy(Biscuit), Cascade(Axel), Byrna(Merlin), Electra(Oliver)</li>",
+   para8: "<li><strong>Chapter 2 - Buff (Lifesteal):</strong> Axel, Adam(Cain), Fluffy(Axel), Cascade(Khorus), Isaac(Mara), Electra(Oliver)</li>",
+   para9: "<li><strong>Chapter 3:</strong> Axel, Dorian(Axel), Adam(Cain), Fluffy(Biscuit), Keira(Albusa), Lyria(Oliver)</li>",
+   para10: "<li><strong>Chapter 4:</strong> Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</li> ",
+   para11: "<li><strong>Chapter 5:</strong> Albus, Augustus(Albus), Orion(Mara), Fluffy(Axel), Nebula(Cain), Sebastian(+), Electra(Oliver)</li> ",
+   para12: "<li><strong>Chapter 6:</strong> </li>",
+   para13: "<li><strong>Chapter 7:</strong> </li> </ul>"
   },
  
   de: {
@@ -38,8 +52,15 @@ const heroesAwakeningEventData = {
   para4: "Free-to-Play-Spieler sollten zuerst die effizientesten Questketten priorisieren. Adam profitiert stark von Verbesserungen, die Überlebensfähigkeit und Heilungsleistung erhöhen. Deshalb tragen Level, Fähigkeiten, Artefakte und Glyphen sowohl zum Eventfortschritt als auch zum langfristigen Kontowert bei.",
   para5: "Um Adam effizient weiterzuentwickeln, solltest du deine Ressourcen während des Events auf ihn konzentrieren. Vermeide es, Gold, Materialien und Verbesserungsressourcen auf mehrere Helden zu verteilen, wenn dein Hauptziel darin besteht, ihn auf 6 Sterne zu bringen.",
   title3: "Beste Teams für den Erzdämon im Event „Letzter Vertrag“",
-  para6: "<p><strong>Eine Milliarde Schaden (Kapitel 4)</strong></p>",
-  para7: "<ul><li><strong>Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</strong></li></ul>"
+  para6: "<p><strong>Eine Milliarde Schaden (Kapitel 4)</strong></p><ul><li><strong>Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</strong></li></ul>",
+  title4: "Beste Teams für den Erzdämon im Event „Letzter Vertrag“",
+  para7: "<li><strong>Kapitel 1:</strong> Axel, Adam(Fenris), Fluffy(Biscuit), Cascade(Axel), Byrna(Merlin), Electra(Oliver)</li>",
+  para8: "<li><strong>Kapitel 2 - Buff (Lebensraub):</strong> Axel, Adam(Cain), Fluffy(Axel), Cascade(Khorus), Isaac(Mara), Electra(Oliver)</li>",
+  para9: "<li><strong>Kapitel 3:</strong> Axel, Dorian(Axel), Adam(Cain), Fluffy(Biscuit), Keira(Albusa), Lyria(Oliver)</li>",
+  para10: "<li><strong>Kapitel 4:</strong> Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</li> ",
+  para11: "<li><strong>Kapitel 5:</strong> Albus, Augustus(Albus), Orion(Mara), Fluffy(Axel), Nebula(Cain), Sebastian(+), Electra(Oliver)</li> ",
+  para12: "<li><strong>Kapitel 6:</strong> </li>",
+  para13: "<li><strong>Kapitel 7:</strong> </li> </ul>"
 },
 
 es: {
@@ -52,8 +73,15 @@ es: {
   para4: "Los jugadores free-to-play deben priorizar primero las cadenas de misiones más eficientes. Adam se beneficia enormemente de las mejoras que aumentan la supervivencia y la capacidad de curación, por lo que niveles, habilidades, artefactos y glifos contribuyen tanto al progreso del evento como al valor a largo plazo de la cuenta.",
   para5: "Para evolucionar a Adam de manera eficiente, concentra tus recursos en él durante el evento. Evita distribuir Oro, materiales y recursos de mejora entre varios héroes si tu objetivo principal es llevarlo a 6 estrellas.",
   title3: "Mejores equipos para el Archidemonio en el evento Último Contrato",
-  para6: "<p><strong>Mil millones de daño (Capítulo 4)</strong></p>",
-  para7: "<ul><li><strong>Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</strong></li></ul>"
+  para6: "<p><strong>Mil millones de daño (Capítulo 4)</strong></p><ul><li><strong>Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</strong></li></ul>",
+  title4: "Mejores equipos para el Archidemonio en el evento Último Contrato",
+  para7: "<li><strong>Capítulo 1:</strong> Axel, Adam(Fenris), Fluffy(Biscuit), Cascade(Axel), Byrna(Merlin), Electra(Oliver)</li>",
+  para8: "<li><strong>Capítulo 2 - Mejora (Vampirismo):</strong> Axel, Adam(Cain), Fluffy(Axel), Cascade(Khorus), Isaac(Mara), Electra(Oliver)</li>",
+  para9: "<li><strong>Capítulo 3:</strong> Axel, Dorian(Axel), Adam(Cain), Fluffy(Biscuit), Keira(Albusa), Lyria(Oliver)</li>",
+  para10: "<li><strong>Capítulo 4:</strong> Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</li> ",
+  para11: "<li><strong>Capítulo 5:</strong> Albus, Augustus(Albus), Orion(Mara), Fluffy(Axel), Nebula(Cain), Sebastian(+), Electra(Oliver)</li> ",
+  para12: "<li><strong>Capítulo 6:</strong> </li>",
+  para13: "<li><strong>Capítulo 7:</strong> </li> </ul>"
 },
 
 fr: {
@@ -66,8 +94,15 @@ fr: {
   para4: "Les joueurs free-to-play doivent prioriser les chaînes de quêtes les plus efficaces. Adam bénéficie énormément des améliorations augmentant sa survie et ses soins, donc les niveaux, compétences, artefacts et glyphes contribuent à la fois à la progression de l’événement et à la valeur à long terme du compte.",
   para5: "Pour faire évoluer Adam efficacement, concentrez vos ressources sur lui pendant l’événement. Évitez de répartir l’Or, les matériaux et les ressources d’amélioration entre plusieurs héros si votre objectif principal est de le pousser à 6 étoiles.",
   title3: "Meilleures équipes contre l’Archidémon pour l’événement Dernier Contrat",
-  para6: "<p><strong>Un milliard de dégâts (Chapitre 4)</strong></p>",
-  para7: "<ul><li><strong>Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</strong></li></ul>"
+  para6: "<p><strong>Un milliard de dégâts (Chapitre 4)</strong></p><ul><li><strong>Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</strong></li></ul>",
+  title4: "Meilleures équipes contre l’Archidémon pour l’événement Dernier Contrat",
+  para7: "<li><strong>Chapitre 1 :</strong> Axel, Adam(Fenris), Fluffy(Biscuit), Cascade(Axel), Byrna(Merlin), Electra(Oliver)</li>",
+  para8: "<li><strong>Chapitre 2 - Amélioration (Vol de vie) :</strong> Axel, Adam(Cain), Fluffy(Axel), Cascade(Khorus), Isaac(Mara), Electra(Oliver)</li>",
+  para9: "<li><strong>Chapitre 3 :</strong> Axel, Dorian(Axel), Adam(Cain), Fluffy(Biscuit), Keira(Albusa), Lyria(Oliver)</li>",
+  para10: "<li><strong>Chapitre 4 :</strong> Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</li> ",
+  para11: "<li><strong>Chapitre 5 :</strong> Albus, Augustus(Albus), Orion(Mara), Fluffy(Axel), Nebula(Cain), Sebastian(+), Electra(Oliver)</li> ",
+  para12: "<li><strong>Chapitre 6 :</strong> </li>",
+  para13: "<li><strong>Chapitre 7 :</strong> </li> </ul>"
 },
 
 ja: {
@@ -80,7 +115,14 @@ ja: {
   para4: "無課金プレイヤーは、まず効率の高いクエストチェーンを優先するべきです。アダムは生存力と回復能力を強化するアップグレードの恩恵が大きいため、レベル、スキル、アーティファクト、グリフはイベント進行と長期的なアカウント価値の両方に貢献します。",
   para5: "アダムを効率よく進化させるには、イベント期間中はリソースを彼に集中させましょう。6★を目指す場合は、ゴールド、素材、強化リソースを複数のヒーローに分散させないようにしてください。",
   title3: "ラストコントラクトイベントのアークデーモン最強チーム",
-  para6: "<p><strong>10億ダメージ（第4章）</strong></p>",
-  para7: "<ul><li><strong>アルバス, セバスチャン(アルバス), ネビュラ(カイン), アイザック(+), グース(フェンリス), イシュマエル(マーラ)</strong></li></ul>"
+  para6: "<p><strong>10億ダメージ（第4章）</strong></p><ul><li><strong>アルバス, セバスチャン(アルバス), ネビュラ(カイン), アイザック(+), グース(フェンリス), イシュマエル(マーラ)</strong></li></ul>",
+  title4: "ラストコントラクトイベントのアークデーモン最強チーム",
+  para7: "<li><strong>第1章:</strong> アクセル, アダム(フェンリス), フラッフィ(ビスケット), カスケード(アクセル), バーナ(マーリン), エレクトラ(オリバー)</li>",
+  para8: "<li><strong>第2章 - バフ（ライフスティール）:</strong> アクセル, アダム(カイン), フラッフィ(アクセル), カスケード(コーラス), アイザック(マーラ), エレクトラ(オリバー)</li>",
+  para9: "<li><strong>第3章:</strong> アクセル, ドリアン(アクセル), アダム(カイン), フラッフィ(ビスケット), ケイラ(アルバス), リリア(オリバー)</li>",
+  para10: "<li><strong>第4章:</strong> アルバス, セバスチャン(アルバス), ネビュラ(カイン), アイザック(+), グース(フェンリス), イシュマエル(マーラ)</li> ",
+  para11: "<li><strong>第5章:</strong> アルバス, アウグストゥス(アルバス), オリオン(マーラ), フラッフィ(アクセル), ネビュラ(カイン), セバスチャン(+), エレクトラ(オリバー)</li> ",
+  para12: "<li><strong>第6章:</strong> </li>",
+  para13: "<li><strong>第7章:</strong> </li> </ul>"
 }
 };
