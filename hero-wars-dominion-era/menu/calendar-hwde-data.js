@@ -738,21 +738,13 @@ labelOnly: true
   {
     weekday: "Friday",
     date: "May, 22",
-    image: "../../hero-wars-dominion-era/images/events/titan-brawl/titan-brawls-150px.webp",
+    image: "../../hero-wars-dominion-era/images/events/titan-cosmic-battle/titan-cosmic-battle-250px.webp",
     alt: "Titan Brawls",
-    titles: { en: "Titan Brawls", pt: "Brigas dos Titãs", de: "Titanen-Kämpfe", es: "Luchas de Titanes", fr: "Combats des Titans", ja: "タイタンブラウル" },
-    links: { en: "../../hero-wars-dominion-era/events/titan-brawl-en.html", pt: "../../hero-wars-dominion-era/events/titan-brawl-pt.html", de: "", es: "", fr: "", ja: "" },
+    titles: { en: "🌌 Cosmic Battle: Titans Edition", pt: "🌌 Batalha Cósmica: Edição Titãs", de: "🌌 Kosmischer Kampf: Titanen-Edition", es: "🌌 Batalla Cósmica: Edición Titanes", fr: "🌌 Combat Cosmique : Édition Titans", ja: "🌌 コズミックバトル：タイタンズエディション" },
+    links: { en: "../../hero-wars-dominion-era/events/titan-cosmic-battle-en.html", pt: "../../hero-wars-dominion-era/events/titan-cosmic-battle-pt.html", de: "../../hero-wars-dominion-era/events/titan-cosmic-battle-de.html", es: "../../hero-wars-dominion-era/events/titan-cosmic-battle-es.html", fr: "../../hero-wars-dominion-era/events/titan-cosmic-battle-fr.html", ja: "../../hero-wars-dominion-era/events/titan-cosmic-battle-ja.html" },
     noStrip: true,
     extra: [
-      {
-  titles: { en: "Mort' Brawl", pt: "Rixas do Mort", de: "Morts Rauferei", es: "Pelea de Mort", fr: "Bagarre de Mort", ja: "モルトの乱闘" },
-  labelOnly: true
-},
-{
-  titles: { en: "🌌 Cosmic Battle: Titans Edition", pt: "🌌 Batalha Cósmica: Edição Titãs", de: "🌌 Kosmischer Kampf: Titanen-Edition", es: "🌌 Batalla Cósmica: Edición Titanes", fr: "🌌 Combat Cosmique : Édition Titans", ja: "🌌 コズミックバトル：タイタンズエディション"
- },
-  labelOnly: true
-},
+     
  {
   titles: {
   en: "Adan Pre Order",   pt: "Pré-venda do Adan",   de: "Adan-Vorbestellung",
@@ -785,21 +777,14 @@ noStrip: true
   {
     weekday: "Saturday",
     date: "May, 23",
-    image: "../../hero-wars-dominion-era/images/events/titan-brawl/titan-brawls-150px.webp",
+    image: "../../hero-wars-dominion-era/images/events/titan-cosmic-battle/titan-cosmic-battle-250px.webp",
     alt: "Titan Brawls",
-    titles: { en: "Titan Brawls", pt: "Brigas dos Titãs", de: "Titanen-Kämpfe", es: "Luchas de Titanes", fr: "Combats des Titans", ja: "タイタンブラウル" },
-    links: { en: "../../hero-wars-dominion-era/events/titan-brawl-en.html", pt: "../../hero-wars-dominion-era/events/titan-brawl-pt.html", de: "", es: "", fr: "", ja: "" },
+    titles: { en: "🌌 Cosmic Battle: Titans Edition", pt: "🌌 Batalha Cósmica: Edição Titãs", de: "🌌 Kosmischer Kampf: Titanen-Edition", es: "🌌 Batalla Cósmica: Edición Titanes", fr: "🌌 Combat Cosmique : Édition Titans", ja: "🌌 コズミックバトル：タイタンズエディション" },
+    links: { en: "../../hero-wars-dominion-era/events/titan-cosmic-battle-en.html", pt: "../../hero-wars-dominion-era/events/titan-cosmic-battle-pt.html", de: "../../hero-wars-dominion-era/events/titan-cosmic-battle-de.html", es: "../../hero-wars-dominion-era/events/titan-cosmic-battle-es.html", fr: "../../hero-wars-dominion-era/events/titan-cosmic-battle-fr.html", ja: "../../hero-wars-dominion-era/events/titan-cosmic-battle-ja.html" },
     noStrip: true,
     extra: [
-      {
-  titles: { en: "Mort' Brawl", pt: "Rixas do Mort", de: "Morts Rauferei", es: "Pelea de Mort", fr: "Bagarre de Mort", ja: "モルトの乱闘" },
-  labelOnly: true
-},
-{
-  titles: { en: "🌌 Cosmic Battle: Titans Edition", pt: "🌌 Batalha Cósmica: Edição Titãs", de: "🌌 Kosmischer Kampf: Titanen-Edition", es: "🌌 Batalla Cósmica: Edición Titanes", fr: "🌌 Combat Cosmique : Édition Titans", ja: "🌌 コズミックバトル：タイタンズエディション"
- },
-  labelOnly: true
-},
+      
+
 {
 titles: { en: "Guide: Adam ", de: "Leitfaden: Adam", es: "Guía: Adam", fr: "Guide: Adam", pt: "Guia: Adam", ja: "ガイド: アダム" },
 links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
@@ -837,17 +822,13 @@ labelOnly: true
   {
     weekday: "Sunday",
     date: "May, 24",
-    image: "/hero-wars-dominion-era/images/hero/adam/adam-400px.webp",
-    alt: "Emerald City",
-    titles: { en: "Emerald City", pt: "Cidade Esmeralda", de: "Smaragdstadt", es: "Ciudad Esmeralda", fr: "Ville d'Émeraude", ja: "エメラルドシティ" },
-    links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
+    image: "../../hero-wars-dominion-era/images/events/titan-cosmic-battle/titan-cosmic-battle-250px.webp",
+    alt: "Titan Brawls",
+    titles: { en: "🌌 Cosmic Battle: Titans Edition", pt: "🌌 Batalha Cósmica: Edição Titãs", de: "🌌 Kosmischer Kampf: Titanen-Edition", es: "🌌 Batalla Cósmica: Edición Titanes", fr: "🌌 Combat Cosmique : Édition Titans", ja: "🌌 コズミックバトル：タイタンズエディション" },
+    links: { en: "../../hero-wars-dominion-era/events/titan-cosmic-battle-en.html", pt: "../../hero-wars-dominion-era/events/titan-cosmic-battle-pt.html", de: "../../hero-wars-dominion-era/events/titan-cosmic-battle-de.html", es: "../../hero-wars-dominion-era/events/titan-cosmic-battle-es.html", fr: "../../hero-wars-dominion-era/events/titan-cosmic-battle-fr.html", ja: "../../hero-wars-dominion-era/events/titan-cosmic-battle-ja.html" },
     noStrip: true,
     extra: [
-      {
-  titles: { en: "🌌 Cosmic Battle: Titans Edition", pt: "🌌 Batalha Cósmica: Edição Titãs", de: "🌌 Kosmischer Kampf: Titanen-Edition", es: "🌌 Batalla Cósmica: Edición Titanes", fr: "🌌 Combat Cosmique : Édition Titans", ja: "🌌 コズミックバトル：タイタンズエディション"
- },
-  labelOnly: true
-},
+      
       {
     titles: { en: "Guide: Adam Event f2p", pt: "Guia: Evento do Adam f2p", de: "Leitfaden: Adam-Event f2p", es: "Guía: Evento de Adam f2p", fr: "Guide : Événement d’Adam f2p", ja: "ガイド：アダムイベント f2p"},  
     links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },       
@@ -864,10 +845,7 @@ titles: { en: "Guide: New Hero Adam ", de: "Leitfaden: Adam", es: "Guía: Adam",
 links: { en: "/hero-wars-dominion-era/characters/adam-en.html", de: "/hero-wars-dominion-era/characters/adam-de.html", es: "/hero-wars-dominion-era/characters/adam-es.html", fr: "/hero-wars-dominion-era/characters/adam-fr.html", pt: "/hero-wars-dominion-era/characters/adam-pt.html", ja: "/hero-wars-dominion-era/characters/adam-en.html" },       
 noStrip: true
 }, 
-       {
-  titles: { en: "Mort' Brawl", pt: "Rixas do Mort", de: "Morts Rauferei", es: "Pelea de Mort", fr: "Bagarre de Mort", ja: "モルトの乱闘" },
-  labelOnly: true
-},
+      
        {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
