@@ -15,7 +15,7 @@ a19e114cb11e9e5b59afdc7ebc8671dd
    { date:'2026-05-25', type:'link', giftId:'a19e114cb11e9e5b59afdc7ebc8671dd', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
    // ── 2 Link Exclusivo Web/FB ──────────────────────────────
-{ date:'2026-05-25', type:'link', giftLinkWeb:'herowars.me/4ds0P0F', giftLinkFb:' herowars.me/4v2FhNV', note:'until|2026-05-28T02:00:00Z',
+{ date:'2026-05-25', type:'link', giftLinkWeb:'https://herowars.me/4ds0P0F', giftLinkFb:'https://herowars.me/4v2FhNV', note:'until|2026-05-28T02:00:00Z',
   rewards:['energy x500'] },
 
   // ── May 25, 2026 ──────────────────────────────
@@ -128,6 +128,8 @@ link type  : { date:'YYYY-MM-DD', type:'link',  giftId:'...', note:'until|YYYY-M
    For unknown items use: 'alexandregames NAME x1'
    To mark expired code add: expired:true
 ###################################################################################
+
+*OBRIGARORIO MANTER HTTP:// PARA OS LINKS ABAIXO WEB/FB
 // ── 2 Link Exclusivo Web/FB ──────────────────────────────
 { date:'2026-0#-##30', type:'link', giftLinkWeb:'https://herowars.me/49iwkHL', giftLinkFb:'https://herowars.me/4sXSMgl', note:'until|2026-05-03T02:00:00Z',
   rewards:['energy x500'] },
