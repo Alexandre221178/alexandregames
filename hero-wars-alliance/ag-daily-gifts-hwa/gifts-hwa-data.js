@@ -4,6 +4,9 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+    // ── May 25, 2026 ──────────────────────────────
+   { date:'2026-05-25', type:'daily', mission:'2-3', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
     // ── May 24, 2026 ──────────────────────────────
     // ── Hub Code gft valid data true ──────────────────────────────
 { date:'2026-05-24', type:'hub', code:'ANGELDEMON', note:'until|2026-06-08T01:00:00Z',
@@ -20,79 +23,47 @@ rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
    { date:'2026-05-22', type:'daily', mission:'3-14', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
     // ── May 21, 2026 ──────────────────────────────
-   { date:'2026-05-21', type:'daily', mission:'2-2', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+  
     // ── May 20, 2026 ──────────────────────────────
    { date:'2026-05-20', type:'special', mission:'3-2', note:'until|2026-06-08T01:00:00Z',
     rewards:['artifact-chest-key x5', 'energy x20', 'adventure-energy x50'] },
-   { date:'2026-05-20', type:'daily', mission:'3-3', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+   
     // ── May 19, 2026 ──────────────────────────────
      { date:'2026-05-19', type:'special', mission:'2-4', note:'until|2026-06-08T01:00:00Z',
     rewards:['energy x20', 'random-resources-chest-100k x6', 'world-energy x30'] },
-   { date:'2026-05-19', type:'daily', mission:'2-5', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-    // ── May 18, 2026 ──────────────────────────────
-   { date:'2026-05-18', type:'daily', mission:'3-9', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-    // ── May 17, 2026 ──────────────────────────────
-   { date:'2026-05-17', type:'daily', mission:'2-11', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+   
     // ── May 16, 2026 ──────────────────────────────
     { date:'2026-05-16', type:'hub', code:'HOTSPRINGS', note:'until|2026-06-01T01:00:00Z',
    rewards:['energy x100', 'large-skin-stone-chest x5'] },
-   { date:'2026-05-16', type:'daily', mission:'3-5', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+  
 // ── May 15, 2026 ──────────────────────────────
 { date:'2026-05-15', type:'hub', code:'CREATORHUB', note:'until|2026-05-18T01:00:00Z',
    rewards:['summoning-sphere x5', 'gold 250k', 'energy x20'] },
- { date:'2026-05-15', type:'daily', mission:'2-13', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-
+ 
     // ── May 14, 2026 ──────────────────────────────
    // ── Hub Code gft valid data true ──────────────────────────────
 { date:'2026-05-14', type:'hub', code:'MIUMIU', note:'until|2026-06-08T01:00:00Z',
       rewards:['energy x100', 'artifact-chest-key x5'] },
- { date:'2026-05-14', type:'daily', mission:'3-11', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-    // ── May 13, 2026 ──────────────────────────────
- { date:'2026-05-13', type:'daily', mission:'2-14', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+ 
     // ── May 12, 2026 ──────────────────────────────
    { date:'2026-05-12', type:'special', mission:'3-8', note:'until|2026-06-08T01:00:00Z',
     rewards:['adventure-coin x1000', 'energy x20', 'adventure-energy x50'] },
- { date:'2026-05-12', type:'daily', mission:'3-12', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-    // ── May 11, 2026 ──────────────────────────────
- { date:'2026-05-11', type:'daily', mission:'2-8', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+ 
     // ── May 10, 2026 ──────────────────────────────
     { date:'2026-05-10', type:'hub', code:'KENDLECALENDAR', note:'until|2026-05-13T12:00:00Z',
 rewards:['intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350', 'energy x20',] },
 
- { date:'2026-05-10', type:'daily', mission:'3-14', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-    // ── May 9, 2026 ──────────────────────────────
- { date:'2026-05-09', type:'daily', mission:'2-2', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+ 
    // ── May 8, 2026 ──────────────────────────────
     { date:'2026-05-08', type:'daily', mission:'3-4', note:'until|2026-06-08T05:00:00Z',
 rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
- { date:'2026-05-08', type:'daily', mission:'3-3', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+ 
 // ── May 7, 2026 ──────────────────────────────
    // ── youtube live stream ──────────────────────────────
    { date:'2026-05-07', type:'daily', mission:'2-7', note:'until|2026-05-10T05:00:00Z',
 rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
 { date:'2026-05-07', type:'hub', code:'KENDLEREVEAL', note:'until|2026-05-11T01:00:00Z',
       rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
- { date:'2026-05-07', type:'daily', mission:'2-5', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   
-
-    // ── May 0, 2026 ──────────────────────────────
- { date:'2026-05-06', type:'daily', mission:'3-9', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
    
  
     // ── May 4, 2026 ──────────────────────────────
@@ -103,8 +74,6 @@ rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 { date:'2026-05-02', type:'hub', code:'JADEFLAME', note:'until|2026-05-11T01:00:00Z',
       rewards:['summoning-sphere x5', 'gold 250k', 'energy x20'] },
 
- { date:'2026-05-02', type:'daily', mission:'2-13', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
     // ── May 1, 2026 ──────────────────────────────
     { date:'2026-05-01', type:'hub', code:'SUPGOLDENWEEK', note:'custom',
 customNote:{ en:'The gift is available until... not defined (or 24h)',

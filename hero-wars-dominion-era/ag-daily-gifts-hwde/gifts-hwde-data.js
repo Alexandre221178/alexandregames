@@ -8,10 +8,12 @@
 // ── May #, 2026 ──────────────────────────────
 { date:'2026-05-##', type:'link', giftId:'#####', note:'until|2026-0#-##T02:00:00Z',
   rewards:['energy x500'] },
-https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_
-id=fea9ae295b4f907972ce8548fa590b3b
+https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=TQxDlP0cWr
 // ── May #, 2026 ──────────────────────────────
 */window.HWDE_GIFTS = [
+  // ── May 25, 2026 ──────────────────────────────
+{ date:'2026-05-25', type:'link', giftId:'TQxDlP0cWr', note:'until|2026-05-28T02:00:00Z',
+  rewards:['energy x500'] },
   // ── May 24, 2026 ──────────────────────────────
   { date:'2026-05-24', type:'link', giftId:'fea9ae295b4f907972ce8548fa590b3b', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },
