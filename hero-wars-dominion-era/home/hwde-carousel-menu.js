@@ -1,6 +1,15 @@
 (function(){
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
+     {
+      link: "/hero-wars-dominion-era/events/heroes-awakening-event-en.html",
+      src500: "/hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-500px.webp",
+      src400: "/hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-400px.webp",
+      alt: "Adam - Heroes Awakening Event for Hero Wars: Dominion Era",
+      title: "Adam - Heroes Awakening Event for Hero Wars: Dominion Era.",
+      strong: "Guide f2p 6★: Tips Adam Event - Hero Wars: Dominion Era",
+      updated: "Updated: April, 2026."
+    },
     {
       link: "../../hero-wars-dominion-era/characters/adam-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/adam/adam-500px.webp",
@@ -19,15 +28,7 @@
       strong: "Guide: Adam Event (Missions) - Hero Wars: Dominion Era",
       updated: "Updated: April, 2026."
     },
-    {
-      link: "/hero-wars-dominion-era/events/heroes-awakening-event-en.html",
-      src500: "/hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-500px.webp",
-      src400: "/hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-400px.webp",
-      alt: "Adam - Heroes Awakening Event for Hero Wars: Dominion Era",
-      title: "Adam - Heroes Awakening Event for Hero Wars: Dominion Era.",
-      strong: "Guide f2p 6★: Tips Adam Event - Hero Wars: Dominion Era",
-      updated: "Updated: April, 2026."
-    },
+   
     {
       link: "../../hero-wars-dominion-era/characters/mushy-and-shroom-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/mushy-and-shroom/mushy-and-shroom-500px.webp",
