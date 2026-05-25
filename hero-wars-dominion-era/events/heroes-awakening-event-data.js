@@ -17,8 +17,8 @@ const heroesAwakeningEventData = {
     para9: "<li><strong>Capítulo 3:</strong> Axel, Dorian(Axel), Adam(Cain), Fluffy(Biscuit), Keira(Albusa), Lyria(Oliver)</li>",
     para10: "<li><strong>Capítulo 4:</strong> Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</li> ",
      para11: "<li><strong>Capítulo 5:</strong> Albus, Augustus(Albus), Orion(Mara), Fluffy(Axel), Nebula(Cain), Sebastian(+), Electra(Oliver)</li> ",
-     para12: "<li><strong>Capítulo 6:</strong> </li>",
-     para13: "<li><strong>Capítulo 7:</strong> </li> </ul>",
+     para12: "<li><strong>Capítulo 6 (Buff 200):</strong>Khorus, Adam(Cain), Keira(Vex), Arachne(Mara), Lyria(Oliver) </li>",
+     para13: "<li><strong>Capítulo 7 (Buff 250):</strong>Khorus, Adam(Cain), Byrna(Khorus), Nebula(+), Isaac(Axel), Electra(Oliver) </li> </ul>",
  
   },
  
@@ -38,8 +38,8 @@ const heroesAwakeningEventData = {
    para9: "<li><strong>Chapter 3:</strong> Axel, Dorian(Axel), Adam(Cain), Fluffy(Biscuit), Keira(Albusa), Lyria(Oliver)</li>",
    para10: "<li><strong>Chapter 4:</strong> Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</li> ",
    para11: "<li><strong>Chapter 5:</strong> Albus, Augustus(Albus), Orion(Mara), Fluffy(Axel), Nebula(Cain), Sebastian(+), Electra(Oliver)</li> ",
-   para12: "<li><strong>Chapter 6:</strong> </li>",
-   para13: "<li><strong>Chapter 7:</strong> </li> </ul>"
+  para12: "<li><strong>Chapter 6 (Buff 200):</strong> Khorus, Adam(Cain), Keira(Vex), Arachne(Mara), Lyria(Oliver)</li>",
+  para13: "<li><strong>Chapter 7 (Buff 250):</strong> Khorus, Adam(Cain), Byrna(Khorus), Nebula(+), Isaac(Axel), Electra(Oliver)</li> </ul>"
   },
  
   de: {
@@ -59,8 +59,8 @@ const heroesAwakeningEventData = {
   para9: "<li><strong>Kapitel 3:</strong> Axel, Dorian(Axel), Adam(Cain), Fluffy(Biscuit), Keira(Albusa), Lyria(Oliver)</li>",
   para10: "<li><strong>Kapitel 4:</strong> Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</li> ",
   para11: "<li><strong>Kapitel 5:</strong> Albus, Augustus(Albus), Orion(Mara), Fluffy(Axel), Nebula(Cain), Sebastian(+), Electra(Oliver)</li> ",
-  para12: "<li><strong>Kapitel 6:</strong> </li>",
-  para13: "<li><strong>Kapitel 7:</strong> </li> </ul>"
+  para12: "<li><strong>Kapitel 6 (Buff 200):</strong> Khorus, Adam(Cain), Keira(Vex), Arachne(Mara), Lyria(Oliver)</li>",
+  para13: "<li><strong>Kapitel 7 (Buff 250):</strong> Khorus, Adam(Cain), Byrna(Khorus), Nebula(+), Isaac(Axel), Electra(Oliver)</li> </ul>"
 },
 
 es: {
@@ -80,8 +80,8 @@ es: {
   para9: "<li><strong>Capítulo 3:</strong> Axel, Dorian(Axel), Adam(Cain), Fluffy(Biscuit), Keira(Albusa), Lyria(Oliver)</li>",
   para10: "<li><strong>Capítulo 4:</strong> Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</li> ",
   para11: "<li><strong>Capítulo 5:</strong> Albus, Augustus(Albus), Orion(Mara), Fluffy(Axel), Nebula(Cain), Sebastian(+), Electra(Oliver)</li> ",
-  para12: "<li><strong>Capítulo 6:</strong> </li>",
-  para13: "<li><strong>Capítulo 7:</strong> </li> </ul>"
+  para12: "<li><strong>Capítulo 6 (Mejora 200):</strong> Khorus, Adam(Cain), Keira(Vex), Arachne(Mara), Lyria(Oliver)</li>",
+  para13: "<li><strong>Capítulo 7 (Mejora 250):</strong> Khorus, Adam(Cain), Byrna(Khorus), Nebula(+), Isaac(Axel), Electra(Oliver)</li> </ul>"
 },
 
 fr: {
@@ -101,8 +101,8 @@ fr: {
   para9: "<li><strong>Chapitre 3 :</strong> Axel, Dorian(Axel), Adam(Cain), Fluffy(Biscuit), Keira(Albusa), Lyria(Oliver)</li>",
   para10: "<li><strong>Chapitre 4 :</strong> Albus, Sebastian(Albus), Nebula(Cain), Isaac(+), Guus(Fenris), Ishmael(Mara)</li> ",
   para11: "<li><strong>Chapitre 5 :</strong> Albus, Augustus(Albus), Orion(Mara), Fluffy(Axel), Nebula(Cain), Sebastian(+), Electra(Oliver)</li> ",
-  para12: "<li><strong>Chapitre 6 :</strong> </li>",
-  para13: "<li><strong>Chapitre 7 :</strong> </li> </ul>"
+  para12: "<li><strong>Chapitre 6 (Amélioration 200) :</strong> Khorus, Adam(Cain), Keira(Vex), Arachne(Mara), Lyria(Oliver)</li>",
+  para13: "<li><strong>Chapitre 7 (Amélioration 250) :</strong> Khorus, Adam(Cain), Byrna(Khorus), Nebula(+), Isaac(Axel), Electra(Oliver)</li> </ul>"
 },
 
 ja: {
@@ -122,7 +122,7 @@ ja: {
   para9: "<li><strong>第3章:</strong> アクセル, ドリアン(アクセル), アダム(カイン), フラッフィ(ビスケット), ケイラ(アルバス), リリア(オリバー)</li>",
   para10: "<li><strong>第4章:</strong> アルバス, セバスチャン(アルバス), ネビュラ(カイン), アイザック(+), グース(フェンリス), イシュマエル(マーラ)</li> ",
   para11: "<li><strong>第5章:</strong> アルバス, アウグストゥス(アルバス), オリオン(マーラ), フラッフィ(アクセル), ネビュラ(カイン), セバスチャン(+), エレクトラ(オリバー)</li> ",
-  para12: "<li><strong>第6章:</strong> </li>",
-  para13: "<li><strong>第7章:</strong> </li> </ul>"
+  para12: "<li><strong>第6章（バフ200）:</strong> コーラス, アダム(カイン), ケイラ(ヴェックス), アラクネ(マーラ), リリア(オリバー)</li>",
+  para13: "<li><strong>第7章（バフ250）:</strong> コーラス, アダム(カイン), バーナ(コーラス), ネビュラ(+), アイザック(アクセル), エレクトラ(オリバー)</li> </ul>"
 }
 };
