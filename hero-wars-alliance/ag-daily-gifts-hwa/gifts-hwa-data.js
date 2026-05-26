@@ -5,7 +5,7 @@ rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
     // ── May 26, 2026 ──────────────────────────────
-   // ──  5gft Realm ────────────────────────────── 
+   // ──  6gft Realm ────────────────────────────── 
 { date:'2026-05-26', type:'special', mission:'2-13', note:'until|2026-06-08T01:00:00Z', rewards:['energy x20', '1h-construction-speedup x1', '1h-research-speedup X1', '1h-training-speedup x1', '1h-general-speedup x2', 'world-energy x30', ] },
    { date:'2026-05-26', type:'daily', mission:'3-13', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
