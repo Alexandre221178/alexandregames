@@ -8,14 +8,13 @@
 // ── May #, 2026 ──────────────────────────────
 { date:'2026-05-##', type:'link', giftId:'#####', note:'until|2026-0#-##T02:00:00Z',
   rewards:['energy x500'] },
-a19e114cb11e9e5b59afdc7ebc8671dd
-// ── May #, 2026 ──────────────────────────────
+https://l.facebook.com/l.php?u=http%3A%2F%2Fherowars.me%2F4ds0P0F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExcDJTSUFObVNkMjE2UFdBYnNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR6v_5WWNzJkK94edb9_ODcWbFobO2olkbE7yJo72_RZeCgE6CcFRiwPJ5qdGg_aem_0sSz2yFAOY_YDeosJhljhA&h=AUCooBd7wPV6-H7sdibVccpzjxiSSIi2za2FAXV0d5iZ3kYu-ZC0VNOVsNvxAQqbNbZyilgl6pIijmBKloZKyFY3fD1bsZ67ByGeVcVhiaJ-e-8qfMTEFa3RXhZyX0ZmK_olj35PeuEg54E0cUzCY51ljeugUWl-&__tn__=-UK-R&c[0]=AUDmus9AJTylhdJvoqumqFHvBzlM_ce3t4gQ38d4ctOsDx6cKMzILCe53tbv3JyllKoKwS10C3ocXdm7N6-lDXXG2l_Ib-ntEql_dFbOyH6x5kOyh1SkHcT4U8I1sWzSqyr2cHHgpY_br8fTZ5tELEuVHxv90jdV7th2s0f70Kh3ymWYxn6AANc0JLhn8U28GM1NMXKuFYlTyAyp9LnaKP_ORA// ── May #, 2026 ──────────────────────────────
 */window.HWDE_GIFTS = [
    // ── May 25, 2026 ──────────────────────────────
    { date:'2026-05-25', type:'link', giftId:'a19e114cb11e9e5b59afdc7ebc8671dd', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
    // ── 2 Link Exclusivo Web/FB ──────────────────────────────
-{ date:'2026-05-25', type:'link', giftLinkWeb:'https://herowars.me/4ds0P0F', giftLinkFb:'https://herowars.me/4v2FhNV', note:'until|2026-05-28T02:00:00Z',
+{ date:'2026-05-25', type:'link', giftLinkWeb:'https://herowars.me/4v2FhNV', giftLinkFb:'https://herowars.me/4ds0P0F', note:'until|2026-05-28T02:00:00Z',
   rewards:['energy x500'] },
 
   // ── May 25, 2026 ──────────────────────────────
