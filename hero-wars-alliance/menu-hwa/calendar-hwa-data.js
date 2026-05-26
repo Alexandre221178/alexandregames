@@ -334,7 +334,7 @@ window.CALENDAR_DATA = [
     image: "../../hero-wars-alliance/images/events/seers-game/seers-game-150px.webp",
     alt: "Seers' Game",
     titles: { en: "🔮 Seer's Game Event", de: "Event des Seherspiels", es: "🔮 Evento del Juego de la Vidente", fr: "🔮 Événement du Jeu de la Voyante", pt: "🔮 Evento do Jogo da Vidente", ja: "🔮 予言者のゲームイベント" },
-    links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "" },
+    links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "../../hero-wars-alliance/event-hwa/seers-game-de.html", es: "../../hero-wars-alliance/event-hwa/seers-game-es.html", fr: "../../hero-wars-alliance/event-hwa/seers-game-fr.html", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "../../hero-wars-alliance/event-hwa/seers-game-ja.html" },
     extra: [
       {
         titles: { en: "Dorian - Relic Event", de: "Dorian - Relikt-Ereignis", es: "Dorian - Evento de Reliquia", fr: "Dorian - Événement des Reliques", pt: "Dorian - Evento de Relíquia", ja: "ドリアン - レリックイベント" },
@@ -356,7 +356,7 @@ window.CALENDAR_DATA = [
     image: "../../hero-wars-alliance/images/events/seers-game/seers-game-150px.webp",
     alt: "Seers' Game",
     titles: { en: "🔮 Seer's Game Event", de: "Event des Seherspiels", es: "🔮 Evento del Juego de la Vidente", fr: "🔮 Événement du Jeu de la Voyante", pt: "🔮 Evento do Jogo da Vidente", ja: "🔮 予言者のゲームイベント" },
-    links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "" },
+    links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "../../hero-wars-alliance/event-hwa/seers-game-de.html", es: "../../hero-wars-alliance/event-hwa/seers-game-es.html", fr: "../../hero-wars-alliance/event-hwa/seers-game-fr.html", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "../../hero-wars-alliance/event-hwa/seers-game-ja.html" },
     extra: [
       
      {
@@ -373,7 +373,7 @@ window.CALENDAR_DATA = [
     image: "../../hero-wars-alliance/images/events/seers-game/seers-game-150px.webp",
     alt: "Seers' Game",
     titles: { en: "🔮 Seer's Game Event", de: "Event des Seherspiels", es: "🔮 Evento del Juego de la Vidente", fr: "🔮 Événement du Jeu de la Voyante", pt: "🔮 Evento do Jogo da Vidente", ja: "🔮 予言者のゲームイベント" },
-    links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "" },
+    links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "../../hero-wars-alliance/event-hwa/seers-game-de.html", es: "../../hero-wars-alliance/event-hwa/seers-game-es.html", fr: "../../hero-wars-alliance/event-hwa/seers-game-fr.html", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "../../hero-wars-alliance/event-hwa/seers-game-ja.html" },
     extra: [
        {
   titles: { en: "Kendle Guide: Skin+", de: "Kendle Guide: Skin+", es: "Guía de Kendle Skin+", fr: "Kendle Guide: Skin+", pt: "Guia da Kendle Skin+", ja: "ケンドルガイド: スキン+" },
