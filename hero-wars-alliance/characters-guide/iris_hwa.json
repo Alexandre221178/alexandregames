@@ -1,0 +1,511 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "iris",
+      "name": "Iris",
+      "gender": "female",
+      "role": ["Mage"],
+      "main_class": "Mage",
+      "main_role": "Explosive Damage Mage",
+      "position": "Middle Line",
+      "main_stat": "Intelligence",
+      "faction": "Eternity",
+      "hydra_tier_list": "A",
+      "how_to_get_soul_stones": "Grand Arena Shop, Heroic Chest, Events",
+      "synergy": "Dante, Octavia, Tempus, Faceless, Phobos, Corvus",
+      "lore": "Daring Warlock who uses her power to weaken enemies and strengthen curses applied by allies.",
+      "relic_note": "Iris leads Eternity into a new era! The faction grows ever closer, unlocking its true potential, and this sorceress now plays a crucial role. Her upgrade and new Relic make her the perfect ally in eternal battles - her damage has increased, and her debuffs have become far more troublesome.",
+      "seo": {
+        "meta_description": "Discover Iris's powerful revamp in Hero Wars Alliance! Explore her new Relic, boosted damage, and stronger curses for the Eternity faction.",
+        "h1_title": "Iris Revamp and New Relic Guide for Hero Wars Alliance"
+    },
+      "stats": {
+        "talisman_of_collector": {
+          "intelligence": 17977,
+          "agility": 3643,
+          "strength": 3498,
+          "health": 862768,
+          "physical_attack": 37366,
+          "magic_attack": 209881,
+          "armor": 22828.5,
+          "magic_defense": 62993.8,
+          "toughness": 930,
+          "magic_penetration": 17089,
+          "magic_crit_hit_chance": 4404,
+          "crushing": 10221
+        },
+        "talisman_of_erudition": {
+          "intelligence": 15977,
+          "agility": 3643,
+          "strength": 3498,
+          "health": 862768,
+          "physical_attack": 35366,
+          "magic_attack": 203881,
+          "armor": 36628.5,
+          "magic_defense": 38223.8,
+          "toughness": 930,
+          "magic_penetration": 36889,
+          "magic_crit_hit_chance": 4404,
+          "crushing": 10221
+        }
+      },
+      "talisman_details": {
+        "talisman_of_collector": {
+          "level": 50,
+          "main_stat": "Intelligence",
+          "main_stat_bonus": 2000,
+          "main_stat_secondary_effects": {
+            "magic_attack_from_intelligence": 6000,
+            "magic_defense_from_intelligence": 2000,
+            "physical_attack_from_intelligence": 2000
+          },
+          "reroll_slots": [
+            { "stat": "Magic Defense", "value": 6600 },
+            { "stat": "Magic Defense", "value": 6600 },
+            { "stat": "Magic Defense", "value": 6600 }
+          ],
+          "total_reroll_bonus": { "stat": "Magic Defense", "value": 19800 },
+          "best_for": "Defensive builds or against heavy magic compositions"
+        },
+        "talisman_of_erudition": {
+          "level": 50,
+          "main_stat": "Armor",
+          "main_stat_bonus": 12000,
+          "reroll_slots": [
+            { "stat": "Magic Penetration", "value": 6600 },
+            { "stat": "Magic Penetration", "value": 6600 },
+            { "stat": "Magic Penetration", "value": 6600 }
+          ],
+          "total_reroll_bonus": { "stat": "Magic Penetration", "value": 19800 },
+          "best_for": "Offensive builds, maximizing burst against high-MDEF enemies"
+        },
+        "recommended": "talisman_of_erudition",
+        "recommended_reason": "Talisman of Erudition is the best choice for most battles. Its high Magic Penetration greatly boosts Iris's burst damage, especially against teams with strong magic defense. The Armor bonus also adds protection against physical teams. The Talisman of Collector should be reserved for countering heavy magic compositions or survival-focused strategies."
+      },
+      "realm": {
+        "buff_troop": "Spearmen",
+        "buff_description": "Spearmen attack/defense +120%",
+        "skills": [
+          {
+            "name": "Fangs of Bitey",
+            "level": 5,
+            "effect": "Ability description temporarily unavailable."
+          },
+          {
+            "name": "Demonic Tome",
+            "level": 5,
+            "effect": "Ability description temporarily unavailable."
+          }
+        ]
+      },
+      "skills": [
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "Soul Burning",
+          "type": ["Ultimate", "Magic Damage", "Execute"],
+          "keywords": ["Execute", "Magic Damage"],
+          "animation_delay_seconds": 0.88,
+          "base_damage_formula": "40% Mag.atk. + 12000",
+          "base_damage_example": 90906,
+          "damage_per_pure_soul_charge_formula": "5% Mag.atk. + 600",
+          "damage_per_pure_soul_charge_example": 10463,
+          "execution_health_threshold_formula": "40% Mag.atk. + 12000",
+          "execution_health_threshold_example": 90906,
+          "note": "Heroes killed with this skill cannot be resurrected. Iris gains Pure Soul charges for each buffed ally and debuffed enemy.",
+          "description": "Iris gains Pure Soul charges for each buffed ally and debuffed enemy. The more charges she has, the bigger her damage. Enemies with low Health die from the skill. Heroes killed with this skill cannot be resurrected.",
+          "evolution_priority": "Very High"
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 120,
+          "name": "Otherworldly Creature",
+          "type": ["Debuff"],
+          "keywords": ["Debuff"],
+          "initial_cooldown_seconds": 1,
+          "cooldown_seconds": 10,
+          "animation_delay_seconds": 1,
+          "duration_seconds": 5,
+          "magic_defense_reduction_formula": "20% Mag.atk. + 25×Level",
+          "magic_defense_reduction_example": 44976,
+          "debuff_extension_seconds": 5,
+          "description": "Iris' familiar, Bitey, weakens enemies and lowers their Magic Defense for 5.0 seconds. Extends all debuffs on the target for 5.0 seconds, both active beforehand and applied during the skill's duration.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 2,
+          "variant": "legendary",
+          "relic_level": 10,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 2
+          },
+          "name": "Otherworldly Creature",
+          "keywords": ["Debuff"],
+          "effect": "Bitey now reduces Magic Defense for 7 seconds (instead of 5).",
+          "duration_seconds": 7,
+          "description": "Once upgraded to Relic Level 10, Bitey becomes more vicious. The Magic Defense reduction is extended to 7 seconds, making her debuff uptime more reliable in extended fights.",
+          "evolution_priority": "High"
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 100,
+          "name": "Mysterious Pact",
+          "type": ["Debuff", "Passive"],
+          "keywords": ["Debuff"],
+          "duration_seconds": 7,
+          "trigger_cooldown_seconds": 0.5,
+          "physical_attack_reduction_formula": "10% Mag.atk. + 40×Level",
+          "physical_attack_reduction_example": 24988,
+          "magic_attack_reduction_formula": "10% Mag.atk. + 40×Level",
+          "magic_attack_reduction_example": 24988,
+          "description": "Iris becomes permanently immune to debuffs. When an enemy weakens an ally or applies a mark to them, she lowers the enemy's Physical and Magic Attack for 7.0 seconds. This cannot trigger on a single target more often than once every 0.5 seconds.",
+          "evolution_priority": "Medium-High"
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "level": 80,
+          "name": "Inner Fire",
+          "type": ["Magic Damage", "Damage over time", "Passive"],
+          "keywords": ["Magic Damage", "Damage over time"],
+          "dot_trait": true,
+          "cooldown_seconds": 13,
+          "animation_delay_seconds": 0.88,
+          "max_charges": 5,
+          "damage_per_second_per_charge_formula": "5% Mag.atk. + 20×Level",
+          "damage_per_second_per_charge_example": 12263,
+          "eternity_hero_damage_formula": "10% Mag.atk. + 4800",
+          "eternity_hero_damage_example": 25788,
+          "description": "Whenever a debuff is applied to an enemy, Iris burns them with an Inner Fire charge that deals damage per second while the debuff is active. If the effect is applied by an Eternity Hero, the charge's damage doubles. A target cannot have more than 5 Inner Fire charges at the same time.",
+          "evolution_priority": "Medium"
+        },
+        {
+          "id": 4,
+          "variant": "legendary",
+          "relic_level": 20,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 4
+          },
+          "name": "Inner Fire",
+          "keywords": ["Magic Damage"],
+          "damage_per_second_per_charge_formula": "5% Mag.atk. + 800",
+          "damage_per_second_per_charge_example": 6543,
+          "max_charges": 10,
+          "effect": "Inner Fire charge limit is now increased to 10. If the effect is applied by an Eternity Hero, its damage doubles.",
+          "description": "With Relic Level 20, the Inner Fire charge limit doubles to 10, transforming sustained damage into a serious threat for enemies under constant debuffs.",
+          "evolution_priority": "Medium"
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Soul Agony",
+          "type": ["Debuff", "Control"],
+          "keywords": ["Debuff", "Control"],
+          "trigger_interval_seconds": 19,
+          "description": "Iris weakens the nearest enemy every 19 seconds and prevents them from using their first skill.",
+          "evolution_priority": "Medium"
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Curse of Weakness",
+          "type": ["Passive", "Debuff Extension"],
+          "keywords": ["Passive"],
+          "debuff_extension_seconds": 3,
+          "trigger": "Soul Burning skill and basic attacks",
+          "description": "Iris' Soul Burning skill and basic attacks extend all debuffs on the target for 3.0 seconds.",
+          "evolution_priority": "Low"
+        }
+      ],
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Tome of Enslaved Souls",
+          "activation_chance": 100,
+          "activation_trigger": "Hero uses the skill in combat",
+          "effect_duration_seconds": 9,
+          "effect": "Gives bonus stats to the whole team for 9 seconds. Activates together with the ultimate skill.",
+          "magic_attack": 32040,
+          "evolve": 6,
+          "level": 100,
+          "evolution_priority": "High",
+          "priority_reason": "Core artifact for Iris's overall DPS. Activates with her ultimate, amplifying her burst damage and that of all allied mages. Must be evolved first."
+        },
+        {
+          "slot": "Book",
+          "name": "Tome of Arcane Knowledge",
+          "magic_attack": 10680,
+          "health": 53394,
+          "evolve": 6,
+          "level": 100,
+          "evolution_priority": "Medium",
+          "priority_reason": "Provides both Magic Attack and Health, reinforcing survivability while slightly boosting sustained damage. Very useful in long fights."
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Intelligence",
+          "intelligence": 3990,
+          "intelligence_secondary_effects": {
+            "magic_attack_from_intelligence": 11970,
+            "magic_defense_from_intelligence": 3990,
+            "physical_attack_from_intelligence": 3990
+          },
+          "evolve": 6,
+          "level": 100,
+          "evolution_priority": "Low",
+          "priority_reason": "Passive stat increase only. Smaller combat impact compared to weapon and book effects, making it the last priority to evolve."
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default Skin",
+          "stat": "Intelligence",
+          "bonus": 1365,
+          "secondary_effects": {
+            "magic_attack_from_intelligence": 4095,
+            "magic_defense_from_intelligence": 1365,
+            "physical_attack_from_intelligence": 1365
+          },
+          "evolution_priority": "High",
+          "priority_reason": "Solid early investment. Boosts Intelligence which increases Magic Attack, Magic Defense and Physical Attack, improving all of Iris's skill scaling."
+        },
+        {
+          "name": "Cybernetic Skin",
+          "stat": "Armor",
+          "bonus": 10650,
+          "evolution_priority": "Low",
+          "priority_reason": "Defensive value only; does not improve her main Magic Attack or Debuff abilities."
+        },
+        {
+          "name": "Beach Skin",
+          "stat": "Magic Attack",
+          "bonus": 10650,
+          "evolution_priority": "Very High",
+          "priority_reason": "Directly boosts Magic Attack, improving the base power of Soul Burning, Inner Fire and all Relic skills. Essential for maximizing damage."
+        },
+        {
+          "name": "Stellar Skin+",
+          "stat": "Magic Attack",
+          "bonus": 21300,
+          "is_skin_plus": true,
+          "evolution_priority": "Very High",
+          "priority_reason": "Doubles the Magic Attack bonus of the Beach Skin. Iris's most powerful offensive skin, drastically improving burst potential and all Magic-scaling Relic effects."
+        },
+        {
+          "name": "Masquerade Skin",
+          "stat": "Health",
+          "bonus": 106645,
+          "evolution_priority": "Medium-High",
+          "priority_reason": "Defensive choice that keeps Iris alive longer to unleash her full combo. Helpful against burst teams targeting her in the middle line."
+        },
+        {
+          "name": "Celestial Skin",
+          "stat": "Magical Crit Hit Chance",
+          "bonus": 2960,
+          "evolution_priority": "Medium",
+          "priority_reason": "Adds random burst value with crit chance on Soul Burning and Inner Fire, but less reliable than flat Magic Attack bonuses."
+        },
+        {
+          "name": "Winter Skin",
+          "stat": "Crushing",
+          "bonus": 5920,
+          "evolution_priority": "Very High",
+          "priority_reason": "Crushing increases all outgoing damage (physical, magical, pure) to enemies below 50% health. Formula: (Crushing / (Crushing + target's main stat)) × 100%. Synergizes perfectly with Iris's Soul Burning execution mechanic."
+        }
+      ],
+      "glyphs": [
+        {
+          "order_in_game": 1,
+          "name": "Magic Attack",
+          "level": 80,
+          "bonus": 12850,
+          "evolution_priority": "High",
+          "priority_rank": 1,
+          "priority_reason": "Core to Iris's damage and ultimate scaling. Directly boosts all her abilities, especially Soul Burning which fully scales with Magic Attack."
+        },
+        {
+          "order_in_game": 2,
+          "name": "Health",
+          "level": 80,
+          "bonus": 122800,
+          "evolution_priority": "Medium",
+          "priority_rank": 3,
+          "priority_reason": "Useful for endurance in the middle line. Helps Iris survive long enough to unleash her ultimate and sustain Bitey's damage."
+        },
+        {
+          "order_in_game": 3,
+          "name": "Magic Penetration",
+          "level": 80,
+          "bonus": 12850,
+          "evolution_priority": "High",
+          "priority_rank": 2,
+          "priority_reason": "Essential for consistent damage against high-MDEF targets. Ensures Relic-powered skills deal full damage to tanks and high-resistance foes."
+        },
+        {
+          "order_in_game": 4,
+          "name": "Magic Defense",
+          "level": 80,
+          "bonus": 12850,
+          "evolution_priority": "Low",
+          "priority_rank": 5,
+          "priority_reason": "Minimal impact on Iris's offensive role. Should be evolved last since her priority is maximizing magic damage output."
+        },
+        {
+          "order_in_game": 5,
+          "name": "Intelligence",
+          "level": 80,
+          "bonus": 2110,
+          "secondary_effects": {
+            "magic_attack_from_intelligence": 6330,
+            "magic_defense_from_intelligence": 2110,
+            "physical_attack_from_intelligence": 2110
+          },
+          "evolution_priority": "Medium",
+          "priority_rank": 4,
+          "priority_reason": "Provides balanced stat growth across Magic Attack, Magic Defense and Physical Attack, but smaller impact than dedicated Magic Attack or Penetration glyphs."
+        }
+      ],
+      "gift_of_elements": {
+        "level": 30,
+        "strength": 360,
+        "agility": 360,
+        "intelligence": 720
+      },
+      "synergies": [
+        {
+          "name": "Corvus",
+          "reason": "Corvus's Altar of Souls punishes enemies who deal damage to allied heroes, creating a protective loop. His altar scales with Health and damages enemies whenever they strike allies. Iris generates Pure Soul charges from both buffed allies and debuffed enemies, and Corvus applies the Strike of the Damned mark. Curse of Weakness can extend these marks for additional damage amplification."
+        },
+        {
+          "name": "Dante",
+          "reason": "Dante's spectral spears apply debuffs to enemies that trigger Iris's Inner Fire ability, causing her to ignite multiple targets continuously. As an Eternity Hero, Dante's debuffs double the Inner Fire charge damage, amplifying Iris's overall DPS significantly."
+        },
+        {
+          "name": "Faceless",
+          "reason": "Faceless applies marks to enemies, generating Pure Soul charges for Iris. His mimicry abilities multiply the number of debuffs on the field, creating more Inner Fire charges and boosting Iris's Soul Burning power."
+        },
+        {
+          "name": "Nebula",
+          "reason": "Nebula's passive aura significantly increases the Magic Attack of the hero in front and behind her. When positioned correctly, Iris benefits from a massive attack enhancement, allowing Soul Burning and Inner Fire to deal devastating magic bursts."
+        },
+        {
+          "name": "Octavia",
+          "reason": "Octavia combines perfectly with Iris and Dante, forming a top-tier evasion-based trio. Dante grants physical dodge to all allies, while Octavia enhances both physical and magical dodge. This defensive synergy allows Iris to survive longer, continuously burning enemies with Inner Fire."
+        },
+        {
+          "name": "Phobos",
+          "reason": "Phobos's Bonds of Darkness binds the enemy with the highest Magic Attack, draining their energy and preventing them from using skills. This keeps key enemy counters locked down while Iris accumulates Pure Soul charges and unleashes Soul Burning safely."
+        },
+        {
+          "name": "Tempus",
+          "reason": "Tempus's Chronostasis freezes all enemies, extends debuff durations, and reduces Armor and Magic Defense. This perfect setup amplifies Iris's burst damage from Soul Burning and increases Inner Fire charge efficiency while enemies are locked in place."
+        }
+      ],
+      "counters": [
+        {
+          "name": "Corvus",
+          "skill": "Altar of Souls",
+          "reason": "Corvus's Altar of Souls deals counter-damage to enemies whenever they deal damage to allied heroes. Its health scales with Corvus's Health (130% Health + 48000), making it extremely resilient. Each of Iris's DoT ticks from Inner Fire and Soul Burning triggers the altar, reflecting damage back to her entire team and punishing burst-damage compositions."
+        },
+        {
+          "name": "Heidi",
+          "reason": "Heidi becomes effective against Iris specifically when Iris is paired with Dante and/or Octavia. Dante grants physical dodge to allies while Octavia adds magical dodge, but Heidi prevents dodge entirely and deals pure damage that bypasses dodge mechanics, dismantling the synergy trio."
+        },
+        {
+          "name": "Octavia",
+          "skill": "Distortion of Fate",
+          "reason": "Octavia's ultimate creates a magic mirror that reflects incoming damage back to enemies. This is especially effective against Iris's Soul Burning area burst. When Iris strikes Octavia's team, the reflected energy bounces back, severely punishing her offensive window."
+        },
+        {
+          "name": "Phobos",
+          "skill": "Bonds of Darkness",
+          "reason": "Phobos binds the enemy with the highest Magic Attack (Iris) for 10.0 seconds, transferring all energy gained by Iris to Phobos. This prevents Iris from charging her ultimate Soul Burning while Phobos gains energy advantage, neutralizing her main damage source."
+        },
+        {
+          "name": "Tempus",
+          "skill": "Chronostasis",
+          "reason": "Tempus freezes all enemies for 2.5 seconds, preventing Iris from using skills, moving, or dodging. The skill also freezes cooldowns and extends all curses/debuffs cast on enemies. As a teammate, Tempus is a synergy hero, but as an opposing Tempus, the freeze window allows enemies to burst Iris down before she can respond."
+        }
+      ],
+      "best_teams": [
+        {
+          "composition": ["Octavia", "Iris", "Nebula", "Dante", "Electra"],
+          "description": "Strong balance between offense and survivability. Electra tanks, Nebula amplifies magic power, Dante provides debuffs for Inner Fire, and Octavia provides dual evasion. Iris safely unleashes devastating damage."
+        },
+        {
+          "composition": ["Octavia", "Iris", "Morrigan", "Dante", "Corvus"],
+          "description": "Balanced team combining crowd control, damage, and support. Corvus adds control and damage while Morrigan keeps the team healthy."
+        },
+        {
+          "composition": ["Octavia", "Iris", "Nebula", "Dante", "Corvus"],
+          "description": "Focused on maximizing Iris's magical damage. Nebula boosts Iris and Dante, Octavia provides evasion, Corvus adds control."
+        },
+        {
+          "composition": ["Phobos", "Faceless", "Iris", "Morrigan", "Corvus"],
+          "description": "Combines crowd control and magical damage. Phobos and Faceless apply marks triggering Iris's Pure Soul charges and Inner Fire."
+        },
+        {
+          "composition": ["Dorian", "Phobos", "Iris", "Morrigan", "Corvus"],
+          "description": "Highly resilient team. Dorian provides vampirism healing, Phobos controls enemies, allowing Iris to deal significant damage safely."
+        }
+      ],
+      "damage_over_time_trait": {
+        "introduced": true,
+        "trait_name": "Damage over time",
+        "short_name": "DoT",
+        "description": "A new damage trait introduced to remove delays in battles. Heroes generate many effects during fights — this trait makes processing simpler and clearer.",
+        "mechanics": {
+          "cannot_miss": true,
+          "cannot_be_dodged": true,
+          "cannot_be_reflected": true
+        },
+        "iris_affected_skill": {
+          "skill_id": 4,
+          "skill_name": "Inner Fire",
+          "effect": "Burn damage from the fourth skill (Inner Fire) is now classified as Damage over time — it cannot miss, be dodged, or reflected."
+        },
+        "other_heroes_affected": [
+          { "hero": "Kai", "effect": "Pure damage from the third skill" },
+          { "hero": "Maya", "effect": "Damage from the second, third, and fourth skills" },
+          { "hero": "Qing Mao", "effect": "Burn damage from the first skill" },
+          { "hero": "Yasmine", "effect": "Poison from the third skill" },
+          { "hero": "Rufus", "effect": "Damage from the second skill" },
+          { "hero": "Arachne", "effect": "Damage from the fourth skill" },
+          { "hero": "Tempus", "effect": "Damage from the third skill" },
+          { "hero": "Polaris", "effect": "Damage from the first skill" },
+          { "hero": "Heidi", "effect": "Toxin damage" },
+          { "hero": "Alvanor", "effect": "Damage from the third skill enhanced by a Relic" }
+        ],
+        "other_effects_affected": [
+          "Adventure effect that deals a percentage of Heroes' maximum Health as pure damage",
+          "Pure damage from the Outland Boss Ilyssa the Weaver",
+          "Burning effect from the Fire Head of the Hydra"
+        ]
+      },
+      "notes": [
+        "Iris gains Pure Soul charges from both buffed allies and debuffed enemies — positioning and team composition directly affect her Soul Burning power.",
+        "Mysterious Pact makes Iris permanently immune to all debuffs, giving her strong reliability against control-heavy teams.",
+        "Inner Fire charge damage doubles when debuffs are applied by Eternity Heroes (Dante, Corvus, Tempus, Phobos, Faceless, Octavia).",
+        "Soul Burning can execute low-health enemies and prevents resurrection — a powerful counter to heroes like Aidan and Martha.",
+        "Talisman of Erudition is the recommended talisman for most offensive scenarios due to its Magic Penetration bonus.",
+        "The Stellar Skin+ and Beach Skin are the highest priority skins as they directly boost all Magic-scaling abilities.",
+        "Winter Skin Crushing bonus (+5920) synergizes with Soul Burning's execution threshold, dealing more damage to enemies below 50% health.",
+        "Inner Fire burn damage is now classified as 'Damage over time' (DoT) — it cannot miss, be dodged, or reflected, making it more consistent against evasion-based teams like Dante + Octavia + Iris."
+      ]
+    }
+  ]
+}
