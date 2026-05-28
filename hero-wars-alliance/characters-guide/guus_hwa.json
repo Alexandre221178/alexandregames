@@ -1,0 +1,246 @@
+{
+    "game": "Hero Wars Alliance",
+    "heroes": [
+        {
+            "id": "guus",
+            "name": "Guus",
+            "gender": "male",
+            "folio_description": "A guardian of his allies, Guus empowers his team with Golden Feathers, boosting critical hit chance, restoring health, and protecting those on the brink of defeat.",
+            "role": ["Healer", "Support"],
+            "main_class": "Healer",
+            "position": null,
+            "level": 120,
+            "main_stat": "Strength",
+            "equipment_rank": null,
+            "way": null,
+            "crowd_control_(cc)": null,
+            "damage_output": null,
+            "team_synergy": null,
+            "self_sufficiency": null,
+            "hydra_tier_list": null,
+            "hero_tier_list": null,
+            "best_synergy": [],
+            "stats": {
+                "max_with_talisman_of_feathers": {
+                    "intelligence": 4155,
+                    "agility": 3729,
+                    "strength": 16900,
+                    "health": 1144841,
+                    "physical_attack": 63488,
+                    "magic_attack": 27571,
+                    "physical_armor": 40075.9,
+                    "magical_armor": 25328.8,
+                    "toughness": 6313,
+                    "crit_hit_chance": 18180.4
+                },
+                "max_with_talisman_of_the_grand_yolk": {
+                    "intelligence": 4155,
+                    "agility": 3729,
+                    "strength": 14900,
+                    "health": 1064841,
+                    "physical_attack": 74688,
+                    "magic_attack": 27571,
+                    "physical_armor": 53875.9,
+                    "magical_armor": 25328.8,
+                    "toughness": 6313,
+                    "crit_hit_chance": 10590.4
+                }
+            },
+            "talisman_details": {
+                "talisman_of_feathers": {
+                    "coin_talisman": 0,
+                    "display_name": "Talisman of Feathers",
+                    "border": {
+                        "level": 50,
+                        "main_stat": "Strength",
+                        "main_stat_value": 2000
+                    },
+                    "rerolls": [
+                        { "stat": "critHitChance", "value": 2200 },
+                        { "stat": "critHitChance", "value": 2200 },
+                        { "stat": "critHitChance", "value": 2200 }
+                    ]
+                },
+                "talisman_of_the_grand_yolk": {
+                    "coin_talisman": 0,
+                    "display_name": "Talisman of the Grand Yolk",
+                    "border": {
+                        "level": 50,
+                        "main_stat": "Armor",
+                        "main_stat_value": 12000
+                    },
+                    "rerolls": [
+                        { "stat": "physicalAttack", "value": 4400 },
+                        { "stat": "physicalAttack", "value": 4400 },
+                        { "stat": "physicalAttack", "value": 4400 }
+                    ]
+                }
+            },
+            "skills": [
+                {
+                    "id": 0,
+                    "variant": "base",
+                    "name": "Basic Attack",
+                    "type": ["Physical Damage"],
+                    "description": "Deals physical damage to a single target.",
+                    "cooldown_seconds": 5,
+                    "animation_delay_seconds": 1.25,
+                    "damage": "100% Phys.atk."
+                },
+                {
+                    "id": 1,
+                    "variant": "base",
+                    "level": 120,
+                    "name": "Under the Wing",
+                    "type": ["Buff"],
+                    "description": "Restores Health and gives a Golden Feather to each of his allies. Passive effect: Golden Feather raises an ally's Critical hit chance for 8.0 seconds. If Golden Feather is applied to an ally again, the duration of this effect is extended by 8.0 seconds.",
+                    "animation_delay_seconds": 1.25,
+                    "duration_seconds": 8,
+                    "range": 3000,
+                    "health_regen": "150% Phys.atk. + 3600",
+                    "crit_hit_chance_increase": "4934.39 (5% Phys.atk. + 1200)",
+                    "note": "Crit hit chance increase depends on the Hero's stats at the beginning of battle and doesn't change during it."
+                },
+                {
+                    "id": 2,
+                    "variant": "base",
+                    "level": 120,
+                    "name": "Feather Squad",
+                    "type": ["Buff"],
+                    "description": "Gives a Golden Feather to each ally in front of him. While an ally has a Golden Feather, their Health is restored each time they receive damage from enemies.",
+                    "initial_cooldown_seconds": 6,
+                    "cooldown_seconds": 15,
+                    "animation_delay_seconds": 1,
+                    "duration_seconds": 5,
+                    "range": 3000,
+                    "health_regen_on_damage": "30% Phys.atk. + 1800"
+                },
+                {
+                    "id": 3,
+                    "variant": "base",
+                    "level": 100,
+                    "name": "Beak Peak",
+                    "type": ["Buff"],
+                    "description": "If Health of an ally with a Golden Feather is supposed to drop below 25%, then before that happens, it is partially restored. The amount of Health restored is increased for each remaining second of the Golden Feather's duration. The Golden Feather disappears after triggering this effect.",
+                    "range": 3000,
+                    "hits": 25,
+                    "health_regen": "15% Health + 6000",
+                    "extra_health_regen_per_remaining_second": "8668.79 (10% Phys.atk. + 1200)"
+                },
+                {
+                    "id": 4,
+                    "variant": "base",
+                    "level": 80,
+                    "name": "Honkageddon",
+                    "type": ["Buff"],
+                    "description": "Hero's critical hits do not deal extra damage but restore Health to all allies around the target and give them Golden Feathers. If an ally has a Golden Feather, all their critical hits deal increased damage, and Honor Heroes deal extra damage depending on their current Health.",
+                    "area": 255,
+                    "range": 3000,
+                    "health_regen_on_crit": "65750.39 (80% Phys.atk. + 6000)",
+                    "increased_crit_damage_for_allies": "65750.39 (80% Phys.atk. + 6000)",
+                    "increased_crit_damage_for_honor_heroes_pct": 10
+                }
+            ],
+            "realm": {
+                "troop_buff": null,
+                "realm_buff": null,
+                "skills": []
+            },
+            "skins": [
+                {
+                    "name": "Default",
+                    "stat": "Strength",
+                    "bonus": 1365,
+                    "upgrade_cost_stones": 30825
+                },
+                {
+                    "name": "Angel",
+                    "stat": "Health",
+                    "bonus": 106645,
+                    "level": 60,
+                    "upgrade_cost_stones": 50410
+                },
+                {
+                    "name": "Dapper",
+                    "stat": "Magic defense",
+                    "bonus": 10650,
+                    "level": 60,
+                    "upgrade_cost_stones": 50410
+                },
+                {
+                    "name": "Gentleman",
+                    "stat": "Toughness",
+                    "bonus": 2960,
+                    "level": 60,
+                    "upgrade_cost_stones": 50410
+                },
+                {
+                    "name": "Mysterious",
+                    "stat": "Armor",
+                    "bonus": 10650,
+                    "level": 60,
+                    "upgrade_cost_stones": 50410
+                },
+                {
+                    "name": "Harvest",
+                    "stat": "Physical attack",
+                    "bonus": 7095,
+                    "level": 60,
+                    "upgrade_cost_stones": 50410,
+                    "special_effect": "When healing an ally, also applies an effect for 5.0 seconds that converts any incoming damage into healing (no more than 97371.3 (30% Mag.atk. + 89100)). Can be triggered no more than once every 10 seconds for each target."
+                }
+            ],
+            "artifacts": [
+                {
+                    "name": "Golden Goose",
+                    "slot": "Weapon",
+                    "bigStar": true,
+                    "evolve": 6,
+                    "level": 100,
+                    "activation_chance": "100%",
+                    "effect": "Toughness +8898"
+                },
+                {
+                    "name": "Warrior's Code",
+                    "slot": "Book",
+                    "bigStar": true,
+                    "evolve": 6,
+                    "level": 100,
+                    "effect": "Crit hit chance +2967, Physical attack +3561"
+                },
+                {
+                    "name": "Ring of Strength",
+                    "slot": "Ring",
+                    "bigStar": true,
+                    "evolve": 6,
+                    "level": 100,
+                    "strength": 3990
+                }
+            ],
+            "glyphs": {
+                "class": "Healer",
+                "runesphere": null,
+                "healer_class_level": null,
+                "healer_class_glyphs_bonuses": "When healing an ally, also applies an effect for 5.0 seconds that converts any incoming damage into healing (no more than 97371.3 (30% Mag.atk. + 89100)). Can be triggered no more than once every 10 seconds for each target.",
+                "glyphs_level": 80,
+                "list": [
+                    { "name": "Physical attack", "level": 80, "bonus": 8340 },
+                    { "name": "Health", "level": 80, "bonus": 122800 },
+                    { "name": "Crit hit chance", "level": 80, "bonus": 4170 },
+                    { "name": "Armor", "level": 80, "bonus": 12850 },
+                    { "name": "Strength", "level": 80, "bonus": 2110 }
+                ]
+            },
+            "gift_of_the_elements": {
+                "level": null,
+                "bonuses": { "strength": null, "agility": null, "intelligence": null }
+            },
+            "notes": [
+                "Guus é um herói suporte/healer com foco em Força e Crit Hit Chance.",
+                "Seu kit gira em torno das Golden Feathers, que aumentam crit chance, regeneram vida e protegem aliados de morrer.",
+                "Skin Harvest possui efeito especial: ao curar um aliado, converte o dano recebido em cura por 5 segundos.",
+                "Talisman of Feathers recomendado para foco em crit; Talisman of the Grand Yolk para foco em dano físico e armor."
+            ]
+        }
+    ]
+}
