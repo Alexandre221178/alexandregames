@@ -1,0 +1,391 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "kai",
+      "name": "Kai",
+      "gender": "male",
+      "role": ["Mage"],
+      "main_class": "Mage",
+      "main_role": "Burst Damage Mage",
+      "position": "Middle Line",
+      "main_stat": "Intelligence",
+      "faction": "chaos",
+      "hydra_tier_list": null,
+      "how_to_get_soul_stones": null,
+      "synergy": null,
+      "stats": {
+        "talisman_of_direction": {
+          "intelligence": 17322,
+          "agility": 3726,
+          "strength": 3711,
+          "health": 835672,
+          "physical_attack": 36877,
+          "magic_attack": 223671,
+          "armor": 9347.2,
+          "magic_defense": 53299.8,
+          "toughness": 1860,
+          "magic_penetration": 41387,
+          "crushing": 1084,
+          "vampirism": "120%"
+        },
+        "talisman_of_ambition": {
+          "intelligence": 15322,
+          "agility": 3726,
+          "strength": 3711,
+          "health": 835672,
+          "physical_attack": 34877,
+          "magic_attack": 197871,
+          "armor": 32117.2,
+          "magic_defense": 51299.8,
+          "toughness": 1860,
+          "magic_penetration": 53387,
+          "crushing": 1084,
+          "vampirism": "120%"
+        }
+      },
+      "talisman_details": {
+        "talisman_of_direction": {
+          "level": 50,
+          "main_stat": "Intelligence",
+          "main_stat_bonus": 2000,
+          "reroll_slots": [
+            { "stat": "Magic Attack", "value": 6600 },
+            { "stat": "Magic Attack", "value": 6600 },
+            { "stat": "Magic Attack", "value": 6600 }
+          ],
+          "total_reroll_bonus": { "stat": "Magic Attack", "value": 19800 },
+          "best_for": "Offensive builds maximizing raw Magic Attack output"
+        },
+        "talisman_of_ambition": {
+          "level": 50,
+          "main_stat": "Magic Penetration",
+          "main_stat_bonus": 12000,
+          "reroll_slots": [
+            { "stat": "Armor", "value": 6600 },
+            { "stat": "Armor", "value": 6600 },
+            { "stat": "Armor", "value": 6600 }
+          ],
+          "total_reroll_bonus": { "stat": "Armor", "value": 19800 },
+          "best_for": "Penetration builds against high Magic Defense enemies, with physical survivability bonus"
+        },
+        "recommended": null,
+        "recommended_reason": null
+      },
+      "realm": {
+        "buff_troop": null,
+        "buff_description": null,
+        "skills": []
+      },
+      "skills": [
+        {
+          "id": 0,
+          "variant": "base",
+          "name": "Basic Attack",
+          "type": ["Physical Damage"],
+          "keywords": [],
+          "cooldown_seconds": 4.7,
+          "animation_delay_seconds": 0.26,
+          "damage_formula": "100% Phys.atk.",
+          "damage_example": 34877,
+          "description": "Standard physical attack."
+        },
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "Fetters of the Wind",
+          "type": ["Ultimate", "Magic Damage", "Control"],
+          "keywords": ["Knock Up", "Control"],
+          "animation_delay_seconds": 1.21,
+          "duration_seconds": 0.5,
+          "damage_formula": "80% Mag.atk. + 18100",
+          "damage_example": 176396.8,
+          "description": "Launches a whirlwind that throws every target into the air and deals damage. Effect chance lowered if the target's level is above 120.",
+          "evolution_priority": null
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 120,
+          "name": "Breath of the Abyss",
+          "type": ["Magic Damage"],
+          "keywords": [],
+          "cooldown_seconds": 13.5,
+          "animation_delay_seconds": 0.75,
+          "duration_seconds": 0.5,
+          "area": 100,
+          "range": 3000,
+          "damage_formula": "60% Mag.atk. + 12000",
+          "damage_example": 130722.6,
+          "description": "Creates a fiery pillar at the center of the enemy team, dealing damage to enemies.",
+          "evolution_priority": null
+        },
+        {
+          "id": 2,
+          "variant": "legendary",
+          "relic_level": 10,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 2
+          },
+          "name": "Breath of the Abyss",
+          "keywords": [],
+          "damage_formula": "30% Mag.atk. + 6000",
+          "damage_example": 65361.3,
+          "effect": "Creates a second fiery pillar at the same location as the first. It inflicts less damage in a smaller radius.",
+          "description": "With Relic Level 10, a second fiery pillar is created at the same location as the first, dealing reduced damage in a smaller area.",
+          "evolution_priority": null
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 100,
+          "name": "Explosive Sphere",
+          "type": ["Magic Damage", "Damage over time"],
+          "keywords": ["Damage over time"],
+          "dot_trait": true,
+          "initial_cooldown_seconds": 9,
+          "cooldown_seconds": 17,
+          "animation_delay_seconds": 0.41,
+          "duration_seconds": 3,
+          "area": 100,
+          "range": 3000,
+          "pure_damage_per_tick_formula": "8% Mag.atk. + 1585",
+          "pure_damage_per_tick_example": 17414.68,
+          "tick_interval_seconds": 0.5,
+          "explosion_damage_formula": "100% Mag.atk. + 9000",
+          "explosion_damage_example": 206871,
+          "description": "Throws a fire orb at the enemy with the lowest Magic Defense. It first deals pure damage over 3.0 seconds then explodes, damaging nearby enemies.",
+          "evolution_priority": null
+        },
+        {
+          "id": 3,
+          "variant": "legendary",
+          "relic_level": 20,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 3
+          },
+          "name": "Explosive Sphere",
+          "keywords": ["Damage over time"],
+          "dot_trait": true,
+          "pure_damage_per_tick_formula": "8% Mag.atk. + 1585",
+          "pure_damage_per_tick_example": 17414.68,
+          "explosion_damage_formula": "100% Mag.atk. + 9000",
+          "explosion_damage_example": 206871,
+          "effect": "While the fire orb is active, the Living Bomb effect is applied to the target. Upon death, they deal damage to all other enemies.",
+          "description": "With Relic Level 20, Explosive Sphere also applies Living Bomb to its target while active. If the target dies during or after the orb, all nearby enemies take damage.",
+          "evolution_priority": null
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "level": 80,
+          "name": "Stolen Life",
+          "type": ["Passive"],
+          "keywords": [],
+          "vampirism": "120%",
+          "description": "Passive skill. Increases Kai's vampirism to 120%.",
+          "evolution_priority": null
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Living Bomb",
+          "type": ["Magic Damage", "Debuff"],
+          "keywords": [],
+          "trigger_interval_seconds": 15,
+          "duration_seconds": 15,
+          "area": 150,
+          "range": 3000,
+          "damage_formula": "50% Health",
+          "damage_example": 417836,
+          "description": "Every 15 seconds, the Living Bomb effect is applied to an enemy. Upon death, they deal damage to all other enemies. If the effect is already present on the target, it is applied to the next enemy instead.",
+          "evolution_priority": null
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Bloody Boost",
+          "type": ["Passive", "Buff"],
+          "keywords": ["Passive"],
+          "duration_seconds": 5,
+          "max_stacks": 3,
+          "stat_boost_formula": "1% Mag.atk.",
+          "stat_boost_example": 1978.71,
+          "trigger": "Each time Kai or one of his allies restores health using vampirism",
+          "description": "Each time Kai or one of his allies restores health using vampirism, their primary stats increase for 5.0 seconds. The effect stacks up to 3 times.",
+          "evolution_priority": null
+        }
+      ],
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Wanderer's Mantle",
+          "activation_chance": 100,
+          "activation_trigger": "Hero uses the skill in combat",
+          "magic_attack": 32040,
+          "evolve": 6,
+          "level": 100,
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "slot": "Book",
+          "name": "Manuscript of the Void",
+          "magic_penetration": 10680,
+          "magic_attack": 5340,
+          "evolve": 6,
+          "level": 100,
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Intelligence",
+          "intelligence": 3990,
+          "intelligence_secondary_effects": {
+            "magic_attack_from_intelligence": 11970,
+            "magic_defense_from_intelligence": 3990,
+            "physical_attack_from_intelligence": 3990
+          },
+          "evolve": 6,
+          "level": 100,
+          "evolution_priority": null,
+          "priority_reason": null
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default Skin",
+          "stat": "Intelligence",
+          "bonus": 1365,
+          "secondary_effects": {
+            "magic_attack_from_intelligence": 4095,
+            "magic_defense_from_intelligence": 1365,
+            "physical_attack_from_intelligence": 1365
+          },
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "name": "Winter Skin",
+          "stat": "Magic Attack",
+          "bonus": 10665,
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "name": "Champion Skin",
+          "stat": "Health",
+          "bonus": 106871,
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "name": "Solar Skin",
+          "stat": "Magic Penetration",
+          "bonus": 10650,
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "name": "Beach Skin",
+          "stat": "Magic Defense",
+          "bonus": 10650,
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "name": "Harvest Skin+",
+          "stat": "Magic Attack",
+          "bonus": 21300,
+          "is_skin_plus": true,
+          "evolution_priority": null,
+          "priority_reason": null
+        }
+      ],
+      "glyphs": [
+        {
+          "order_in_game": 1,
+          "name": "Magic Attack",
+          "level": 80,
+          "bonus": 12850,
+          "evolution_priority": null,
+          "priority_rank": null,
+          "priority_reason": null
+        },
+        {
+          "order_in_game": 2,
+          "name": "Health",
+          "level": 80,
+          "bonus": 122800,
+          "evolution_priority": null,
+          "priority_rank": null,
+          "priority_reason": null
+        },
+        {
+          "order_in_game": 3,
+          "name": "Magic Penetration",
+          "level": 80,
+          "bonus": 12850,
+          "evolution_priority": null,
+          "priority_rank": null,
+          "priority_reason": null
+        },
+        {
+          "order_in_game": 4,
+          "name": "Magic Defense",
+          "level": 80,
+          "bonus": 12850,
+          "evolution_priority": null,
+          "priority_rank": null,
+          "priority_reason": null
+        },
+        {
+          "order_in_game": 5,
+          "name": "Intelligence",
+          "level": 80,
+          "bonus": 2110,
+          "secondary_effects": {
+            "magic_attack_from_intelligence": 6330,
+            "magic_defense_from_intelligence": 2110,
+            "physical_attack_from_intelligence": 2110
+          },
+          "evolution_priority": null,
+          "priority_rank": null,
+          "priority_reason": null
+        }
+      ],
+      "gift_of_elements": null,
+      "synergies": [],
+      "counters": [],
+      "best_teams": [],
+      "damage_over_time_trait": {
+        "introduced": true,
+        "trait_name": "Damage over time",
+        "short_name": "DoT",
+        "mechanics": {
+          "cannot_miss": true,
+          "cannot_be_dodged": true,
+          "cannot_be_reflected": true
+        },
+        "kai_affected_skill": {
+          "skill_id": 3,
+          "skill_name": "Explosive Sphere",
+          "effect": "Pure damage from Explosive Sphere is classified as Damage over time — it cannot miss, be dodged, or reflected."
+        }
+      },
+      "notes": []
+    }
+  ]
+}

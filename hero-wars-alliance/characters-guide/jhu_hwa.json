@@ -1,0 +1,336 @@
+﻿{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "jhu",
+      "name": "Jhu",
+      "gender": "male",
+      "role": ["Damage Dealer"],
+      "main_class": "Marksman",
+      "position": "Back Line",
+      "main_stat": "Strength",
+      "faction": "nature",
+      "how_to_get_soul_stones": "Campaign, Arena Shop",
+      "hydra_tier_list": null,
+      "hero_tier_list": null,
+      "realm_skills_available": true,
+      "realm_buff_troops": "Spearmen attack/defense 120%",
+      "basic_attack": {
+        "type": "Physical Damage",
+        "damage_formula": "100% Phys.atk.",
+        "damage_value": 126136,
+        "cooldown_seconds": 4.7,
+        "animation_delay_seconds": 0.53
+      },
+      "stats": {
+        "talisman_of_fury": {
+          "note": "Max stats with Talisman of Fury equipped.",
+          "intelligence": 3878,
+          "agility": 4212,
+          "strength": 16696,
+          "health": 1285562,
+          "physical_attack": 120136,
+          "magic_attack": 26740,
+          "armor": 11531.8,
+          "magic_defense": 21852.5,
+          "toughness": 1712,
+          "armor_penetration": 26285,
+          "crit_hit_chance": 22174.3,
+          "crushing": 4183
+        },
+        "talisman_of_immortality": {
+          "note": "Max stats with Talisman of Immortality equipped.",
+          "intelligence": 3878,
+          "agility": 4212,
+          "strength": 14696,
+          "health": 1205562,
+          "physical_attack": 126136,
+          "magic_attack": 26740,
+          "armor": 34301.8,
+          "magic_defense": 21852.5,
+          "toughness": 1712,
+          "armor_penetration": 26285,
+          "crit_hit_chance": 14584.3,
+          "crushing": 4183
+        }
+      },
+      "talisman_details": {
+        "talisman_of_fury": {
+          "level": 50,
+          "cost": 0,
+          "main_stat": "Strength",
+          "main_stat_bonus": 2000,
+          "reroll_slots": [
+            { "stat": "Crit hit chance", "value": 2200 },
+            { "stat": "Crit hit chance", "value": 2200 },
+            { "stat": "Crit hit chance", "value": 2200 }
+          ],
+          "total_reroll_bonus": { "stat": "Crit hit chance", "value": 6600 },
+          "total_bonus_summary": "Strength +2000 | Crit hit chance +6600"
+        },
+        "talisman_of_immortality": {
+          "level": 50,
+          "cost": 0,
+          "main_stat": "Physical Attack",
+          "main_stat_bonus": 8000,
+          "reroll_slots": [
+            { "stat": "Armor", "value": 6600 },
+            { "stat": "Armor", "value": 6600 },
+            { "stat": "Armor", "value": 6600 }
+          ],
+          "total_reroll_bonus": { "stat": "Armor", "value": 19800 },
+          "total_bonus_summary": "Physical Attack +8000 | Armor +19800"
+        }
+      },
+      "skills": [
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "You will not stop me",
+          "type": ["Buff"],
+          "keywords": ["Buff"],
+          "animation_delay_seconds": 0.5,
+          "duration_seconds": 7,
+          "hits": 4,
+          "speed_bonus_percent": 180,
+          "description": "Jhu becomes enraged for 7.0 seconds, significantly increasing his attack speed. While enraged, Jhu cannot die."
+        },
+        {
+          "id": 1,
+          "variant": "legendary",
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 1
+          },
+          "name": "You will not stop me",
+          "type": ["Buff", "Debuff"],
+          "keywords": ["Buff"],
+          "animation_delay_seconds": 0.5,
+          "rage_duration_seconds": 7,
+          "hits": 4,
+          "armor_reduction_duration_seconds": 4,
+          "armor_reduction_formula": "10% Phys.atk.",
+          "armor_reduction_value": 12613.6,
+          "description": "While in a state of Rage, Jhu's attacks reduce enemy Armor for 4 seconds. Critical Hits reduce Armor twice as effectively."
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 120,
+          "name": "I will take your life",
+          "type": ["Pure Damage"],
+          "keywords": ["Percent-based damage", "Sacrifice"],
+          "extra_damage_percent_of_current_health": 7,
+          "self_sacrifice_percent_of_current_health": 2,
+          "description": "Each of Jhu's attacks deals additional pure damage to the target equal to 7% of the enemy's current health, while sacrificing 2% of his own current health."
+        },
+        {
+          "id": 2,
+          "variant": "legendary",
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 2
+          },
+          "name": "I will take your life",
+          "type": ["Pure Damage"],
+          "keywords": ["Percent-based damage", "Sacrifice"],
+          "bonus_pure_damage_to_shielded_percent": 10,
+          "description": "When striking a shielded enemy, Jhu deals bonus Pure Damage equal to 10% of the target's Max Health."
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 100,
+          "name": "I see you",
+          "type": ["Buff"],
+          "keywords": ["Buff"],
+          "initial_cooldown_seconds": 3,
+          "cooldown_seconds": 18,
+          "animation_delay_seconds": 0.6,
+          "duration_seconds": 10,
+          "extra_damage_formula": "70% Phys.atk. + 18000",
+          "extra_damage_value": 106295.2,
+          "description": "For 10 seconds, Jhu increases his attack power and focuses his attacks on a ranged enemy."
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "level": 80,
+          "name": "The spirits will heal me",
+          "type": ["Heal"],
+          "keywords": ["Heal"],
+          "condition": "Not under control effects after the first skill is used",
+          "recovered_health_formula": "200% Phys.atk. + 57000",
+          "recovered_health_value": 309272,
+          "description": "If Jhu is not under control effects after the first skill is used, he regenerates some health."
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Mark of Pain",
+          "type": ["Mark", "Physical Damage"],
+          "keywords": ["Mark"],
+          "activation_delay_seconds": 15,
+          "cooldown_seconds": 20,
+          "duration_seconds": 15,
+          "hits": 3,
+          "damage_formula": "100% Phys.atk.",
+          "damage_value": 126136,
+          "description": "Activates 15 seconds after the start of battle. Every 20 seconds, applies a Mark of Pain to the farthest enemy for 15.0 seconds. While marked, all of Jhu's basic attacks against any enemy also hit the marked target."
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Triple Fury",
+          "type": ["Buff", "Damage Multiplier"],
+          "keywords": ["Critical Hit"],
+          "duration_seconds": 5,
+          "description": "All of Jhu's Critical Hits deal triple damage."
+        }
+      ],
+      "realm_skills": [
+        {
+          "name": "Pain Denied",
+          "level": 5,
+          "troop_type": "Spearmen",
+          "effect": "Defense increase",
+          "description": "Jhu steels the spearmen with his unbreakable will, increasing their defense by %."
+        },
+        {
+          "id": 2,
+          "name": "Wrath of Zarakkar",
+          "level": null,
+          "troop_type": ["Spearmen", "Marksmen"],
+          "description": "Jhu brings ancient law down upon his enemies. Every second marksmen attack deals additional % damage to enemy spearmen and % to enemy marksmen. Ability % description is temporarily unavailable."
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default",
+          "stat": "Strength",
+          "bonus": 1365,
+          "skin_level": 60,
+          "priority": null
+        },
+        {
+          "name": "Winter",
+          "stat": "Armor Penetration",
+          "bonus": 10665,
+          "skin_level": 60,
+          "priority": null
+        },
+        {
+          "name": "Champion",
+          "stat": "Magic Defense",
+          "bonus": 10687,
+          "skin_level": 60,
+          "priority": null
+        },
+        {
+          "name": "Solar",
+          "stat": "Crit hit chance",
+          "bonus": 2960,
+          "skin_level": 60,
+          "priority": null
+        },
+        {
+          "name": "Masquerade",
+          "stat": "Physical Attack",
+          "bonus": 7095,
+          "skin_level": 60,
+          "priority": null
+        },
+        {
+          "name": "Devil",
+          "stat": "Physical Attack",
+          "bonus": 14190,
+          "is_skin_plus": true,
+          "skin_level": 60,
+          "priority": null
+        }
+      ],
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Zarakkar Bones",
+          "level": 100,
+          "evolve": 6,
+          "activation_chance": 100,
+          "crit_hit_chance": 8898,
+          "priority": null
+        },
+        {
+          "slot": "Book",
+          "name": "Warrior's Code",
+          "level": 100,
+          "evolve": 6,
+          "crit_hit_chance": 2967,
+          "physical_attack": 3561,
+          "priority": null
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Strength",
+          "level": 100,
+          "evolve": 6,
+          "strength": 3990,
+          "priority": null
+        }
+      ],
+      "class": {
+        "name": "Marksman",
+        "level": 45,
+        "rune": "runesphere",
+        "rune_level": 0,
+        "overall_class_level": 540,
+        "max_class_level": 540,
+        "class_effect": {
+          "description": "If the target has less than 74% health, any subsequent attack will deal additional damage. Can be triggered no more than once every 4 seconds for each target.",
+          "health_threshold_percent": 74,
+          "damage_formula": "10% Phys.atk. + 48600",
+          "damage_value": 61213.6,
+          "cooldown_per_target_seconds": 4
+        }
+      },
+      "glyphs": [
+        {
+          "name": "Physical Attack",
+          "level": 80,
+          "bonus": 8340,
+          "priority": null
+        },
+        {
+          "name": "Health",
+          "level": 80,
+          "bonus": 122800,
+          "priority": null
+        },
+        {
+          "name": "Armor Penetration",
+          "level": 80,
+          "bonus": 12850,
+          "priority": null
+        },
+        {
+          "name": "Crit hit chance",
+          "level": 80,
+          "bonus": 4170,
+          "priority": null
+        },
+        {
+          "name": "Strength",
+          "level": 80,
+          "bonus": 2110,
+          "priority": null
+        }
+      ]
+    }
+  ]
+}
