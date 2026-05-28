@@ -11,6 +11,9 @@
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 */window.HWDE_GIFTS = [
    // ── May 28, 2026 ──────────────────────────────
+   // ── 2 Link Exclusivo Web/FB ──────────────────────────────
+{ date:'2026-05-28', type:'link', giftLinkWeb:'https://herowars.me/4dzyWnn', giftLinkFb:'https://herowars.me/4u007wo', note:'until|2026-05-31T02:00:00Z',
+    rewards:['energy-crystal x16', 'valor-coin x8500', 'sapphire-medallion x1'] },
 { date:'2026-05-28', type:'link', giftId:'tfI6otBkHP', note:'until|2026-05-31T02:00:00Z',
   rewards:['energy x500'] },
    // ── May 27, 2026 ──────────────────────────────
