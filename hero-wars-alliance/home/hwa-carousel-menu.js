@@ -1,6 +1,15 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
+    {
+      link: "/hero-wars-alliance/event-hwa/rune-storm-en.html",
+      src500: "/hero-wars-alliance/images/events/rune-storm/rune-storm-500px.webp",
+      src400: "/hero-wars-alliance/images/events/rune-storm/rune-storm-400px.webp",
+      alt: "Rune Storm Event for Hero Wars Alliance",
+      title: "Rune Storm Event for Hero Wars Alliance",
+      strong: "Guide: Rune Storm Event for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },
     
     {
       link: "/hero-wars-alliance/characters-guide/kendle-en.html",

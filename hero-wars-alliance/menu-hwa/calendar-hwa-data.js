@@ -386,31 +386,32 @@ window.CALENDAR_DATA = [
 {
   weekday: "Thursday",
   date: "May, 27",
-   image: "../../hero-wars-alliance/images/events/runic-millstone/runic-event-250px.webp",
+   image: "../../hero-wars-alliance/images/events/rune-storm/rune-storm-250px.webp",
     alt: "Rune Storm Event",
     titles: { en: "Rune Storm Event", de: "Runensturm-Event", es: "Evento Tormenta de Runas", fr: "Événement Tempête de Runes", pt: "Evento Tempestade de Runas", ja: "ルーンストームイベント" },
-    links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" },
+    links: { en: "../../hero-wars-alliance/event-hwa/rune-storm-en.html", pt: "../../hero-wars-alliance/event-hwa/rune-storm-pt.html", de: "../../hero-wars-alliance/event-hwa/rune-storm-de.html", es: "../../hero-wars-alliance/event-hwa/rune-storm-es.html", fr: "../../hero-wars-alliance/event-hwa/rune-storm-fr.html", ja: "../../hero-wars-alliance/event-hwa/rune-storm-ja.html" },
     extra: [
+
           ]
   },
   {
     weekday: "Friday",
     date: "May, 28",
-    image: "../../hero-wars-alliance/images/events/runic-millstone/runic-event-250px.webp",
+    image: "../../hero-wars-alliance/images/events/rune-storm/rune-storm-250px.webp",
     alt: "Rune Storm Event",
     titles: { en: "Rune Storm Event", de: "Runensturm-Event", es: "Evento Tormenta de Runas", fr: "Événement Tempête de Runes", pt: "Evento Tempestade de Runas", ja: "ルーンストームイベント" },
-    links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" },
-    extra: [
+    links: { en: "../../hero-wars-alliance/event-hwa/rune-storm-en.html", pt: "../../hero-wars-alliance/event-hwa/rune-storm-pt.html", de: "../../hero-wars-alliance/event-hwa/rune-storm-de.html", es: "../../hero-wars-alliance/event-hwa/rune-storm-es.html", fr: "../../hero-wars-alliance/event-hwa/rune-storm-fr.html", ja: "../../hero-wars-alliance/event-hwa/rune-storm-ja.html" },
+     extra: [
           ]
   },
   {
     weekday: "Friday",
     date: "May, 29",
-    image: "../../hero-wars-alliance/images/events/runic-millstone/runic-event-250px.webp",
+    image: "../../hero-wars-alliance/images/events/rune-storm/rune-storm-250px.webp",
     alt: "Rune Storm Event",
     titles: { en: "Rune Storm Event", de: "Runensturm-Event", es: "Evento Tormenta de Runas", fr: "Événement Tempête de Runes", pt: "Evento Tempestade de Runas", ja: "ルーンストームイベント" },
-    links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" },
-    extra: [
+    links: { en: "../../hero-wars-alliance/event-hwa/rune-storm-en.html", pt: "../../hero-wars-alliance/event-hwa/rune-storm-pt.html", de: "../../hero-wars-alliance/event-hwa/rune-storm-de.html", es: "../../hero-wars-alliance/event-hwa/rune-storm-es.html", fr: "../../hero-wars-alliance/event-hwa/rune-storm-fr.html", ja: "../../hero-wars-alliance/event-hwa/rune-storm-ja.html" },
+     extra: [
           ]
   },
 
