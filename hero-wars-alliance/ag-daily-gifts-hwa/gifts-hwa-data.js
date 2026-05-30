@@ -4,6 +4,12 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+   // ── May #, 2026 ──────────────────────────────
+   // ── Hub Code gft valid data true ──────────────────────────────
+{ date:'2026-05-30', type:'hub', code:'BLAZING', note:'until|2026-06-08T01:00:00Z',
+      rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
+   { date:'2026-05-30', type:'daily', mission:'3-12', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
    // ── May 28, 2026 ──────────────────────────────
    { date:'2026-05-28', type:'special', mission:'3-5', note:'until|2026-06-08T01:00:00Z',
     rewards:['adventure-coin x1000', 'energy x20', 'adventure-energy x50'] },
@@ -151,7 +157,7 @@ rewards:[ 'energy x100'] },
 
 // ── April 10, 2026 ──────────────────────────────
 { date:'2026-04-10', type:'special', mission:'2-9', note:'until|2026-05-11T05:00:00Z',
-    rewards:[' x3', 'energy x100', 'realm-gift x3'] },
+    rewards:['alexandregames ??? x3', 'energy x100', 'realm-gift x3'] },
    
 
 // ── April 9, 2026 ──────────────────────────────
