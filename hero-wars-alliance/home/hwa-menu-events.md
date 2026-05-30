@@ -1,4 +1,13 @@
 {
+      link: "/hero-wars-alliance/event-hwa/rune-storm-en.html",
+      src500: "/hero-wars-alliance/images/events/rune-storm/rune-storm-500px.webp",
+      src400: "/hero-wars-alliance/images/events/rune-storm/rune-storm-400px.webp",
+      alt: "Rune Storm Event for Hero Wars Alliance",
+      title: "Rune Storm Event for Hero Wars Alliance",
+      strong: "Guide: Rune Storm Event for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },
+{
       link: "/hero-wars-alliance/event-hwa/shards-of-the-past-en.html",
       src500: "/hero-wars-alliance/images/events/shards-of-the-past/shards-of-the-past-500px.webp",
       src400: "/hero-wars-alliance/images/events/shards-of-the-past/shards-of-the-past-400px.webp",
