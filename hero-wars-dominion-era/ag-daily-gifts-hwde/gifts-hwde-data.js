@@ -8,16 +8,16 @@
 // ── May #, 2026 ──────────────────────────────
 { date:'2026-05-##', type:'link', giftId:'#####', note:'until|2026-0#-##T02:00:00Z',
   rewards:['energy x500'] },
-  https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
-web ﻿
-/?nx_source=group_po…ab274b6bf0ef3f1ea:1 
- GET https://www.hero-wars.com/?nx_source=group_posting&gift_id=55bb4d5… 403 (Forbidden)
-content.js:1 hello dUPLoCFwC8 dUPLoCFwC8 dUPLoCFwC8
+ https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=zZR9zxmoa2
 */window.HWDE_GIFTS = [
-      // ── May #, 2026 ──────────────────────────────
+   // ── May 30, 2026 ──────────────────────────────
+{ date:'2026-05-30', type:'link', giftId:'zZR9zxmoa2', note:'until|2026-06-02T02:00:00Z',
+  rewards:['energy x500'] },
+ 
+      // ── May 29, 2026 ──────────────────────────────
    // ── 1 Link Exclusivo so WebId diferente de weblink ──────────────────────────────
 { date:'2026-05-29', type:'link', giftWebId:'dUPLoCFwC8', note:'until|2026-05-31T02:00:00Z',
-  rewards:['valor-coin x1000'] },
+  rewards:['valor-coin x10000'] },
    { date:'2026-05-29', type:'link', giftId:'55bb4d58d9a1479ab274b6bf0ef3f1ea', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
    // ── May 28, 2026 ──────────────────────────────
