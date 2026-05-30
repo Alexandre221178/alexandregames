@@ -1,0 +1,421 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female",
+      "role": ["Healer"],
+      "main_class": "Healer",
+      "main_role": "Healing and Damage over Time Support",
+      "position": "Middle Line",
+      "main_stat": "Intelligence",
+      "faction": "Way of Nature",
+      "hydra_tier_list": null,
+      "how_to_get_soul_stones": null,
+      "synergy": "Mushy, Alvanor, Mojo",
+      "lore": "The wondrous child of Man and Titan, she commands the healing magic of beautiful poisonous flowers.",
+      "relic_note": null,
+      "seo": {
+        "meta_description": null,
+        "h1_title": null
+      },
+      "stats": {
+        "talisman_of_blooming": {
+          "intelligence": 18000,
+          "agility": 3418,
+          "strength": 3763,
+          "health": 985795,
+          "physical_attack": 36939,
+          "magic_attack": 208472,
+          "armor": 23816.7,
+          "magic_defense": 58481.2,
+          "toughness": 3501,
+          "crushing": 11840
+        },
+        "talisman_of_spring": {
+          "intelligence": 16000,
+          "agility": 3418,
+          "strength": 3763,
+          "health": 1167295,
+          "physical_attack": 34939,
+          "magic_attack": 182672,
+          "armor": 37616.7,
+          "magic_defense": 56481.2,
+          "toughness": 3501,
+          "crushing": 11840
+        }
+      },
+      "talisman_details": {
+        "talisman_of_blooming": {
+          "level": 50,
+          "main_stat": "Intelligence",
+          "main_stat_bonus": 2000,
+          "reroll_slots": [
+            { "stat": "Magic Attack", "value": 6600 },
+            { "stat": "Magic Attack", "value": 6600 },
+            { "stat": "Magic Attack", "value": 6600 }
+          ],
+          "total_reroll_bonus": { "stat": "Magic Attack", "value": 19800 },
+          "best_for": "Offensive/healing builds maximizing Magic Attack for stronger heals and poison damage"
+        },
+        "talisman_of_spring": {
+          "level": 50,
+          "main_stat": "Armor",
+          "main_stat_bonus": 12000,
+          "reroll_slots": [
+            { "stat": "Health", "value": 60500 },
+            { "stat": "Health", "value": 60500 },
+            { "stat": "Health", "value": 60500 }
+          ],
+          "total_reroll_bonus": { "stat": "Health", "value": 181500 },
+          "best_for": "Defensive/survival builds maximizing Health and Armor for durability in the middle line"
+        },
+        "recommended": null,
+        "recommended_reason": null
+      },
+      "realm": {
+        "buff_troop": "Spearmen",
+        "buff_description": "Spearmen Attack/Defense +120%",
+        "skills": []
+      },
+      "skills": [
+        {
+          "id": 0,
+          "variant": "base",
+          "name": "Basic Attack",
+          "type": ["Physical Damage"],
+          "keywords": [],
+          "cooldown_seconds": 5.5,
+          "animation_delay_seconds": 0.68,
+          "damage_formula": "100% Phys.atk.",
+          "damage_example": 34939,
+          "description": "Standard physical attack."
+        },
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "Queen of Flowers",
+          "type": ["Ultimate", "Shield", "Heal"],
+          "keywords": ["Shield"],
+          "animation_delay_seconds": 0.73,
+          "range": 1000,
+          "health_regen_per_second_formula": "10% Mag.atk. + 3000",
+          "health_regen_per_second_example": 21267.2,
+          "flower_health_formula": "135% Mag.atk. + 34800",
+          "flower_health_example": 281407.2,
+          "description": "A magical flower grows around Maya, protecting her from any attacks. Unless it is destroyed, the flower will restore health of all teammates over time.",
+          "evolution_priority": null
+        },
+        {
+          "id": 1,
+          "variant": "legendary",
+          "relic_level": 10,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 1
+          },
+          "name": "Queen of Flowers",
+          "keywords": ["Shield"],
+          "animation_delay_seconds": 0.73,
+          "range": 1000,
+          "toughness_boost_formula": "15% Mag.atk. + 3000",
+          "toughness_boost_example": 30400.8,
+          "effect": "Maya's flower now boosts Toughness of all allies while it's active.",
+          "description": "With Relic Level 10, the magical flower also grants a Toughness boost to all allies for the duration it remains active.",
+          "evolution_priority": null
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 120,
+          "name": "Poisoned Pollen",
+          "type": ["Damage over time"],
+          "keywords": ["Damage over time"],
+          "dot_trait": true,
+          "cooldown_seconds": 12,
+          "animation_delay_seconds": 0.61,
+          "duration_seconds": 6,
+          "pure_damage_per_tick_formula": "6.3% Mag.atk. + 1200",
+          "pure_damage_per_tick_example": 12617,
+          "tick_interval_seconds": 0.5,
+          "description": "Maya hits the most distant enemy with poisoned pollen that causes damage over time.",
+          "evolution_priority": null
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 100,
+          "name": "Poisonous Bonds",
+          "type": ["Damage over time", "Control"],
+          "keywords": ["Damage over time"],
+          "dot_trait": true,
+          "initial_cooldown_seconds": 13,
+          "cooldown_seconds": 20,
+          "animation_delay_seconds": 0.8,
+          "duration_seconds": 6,
+          "area": 180,
+          "pure_damage_per_tick_formula": "4.2% Mag.atk. + 1200",
+          "pure_damage_per_tick_example": 8872.22,
+          "tick_interval_seconds": 0.5,
+          "description": "Living sprouts entangle enemies on the far left and the far right, pulling them to each other and poisoning them.",
+          "evolution_priority": null
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "level": 80,
+          "name": "Queen's Revenge",
+          "type": ["Damage over time", "Passive"],
+          "keywords": ["Damage over time"],
+          "dot_trait": true,
+          "duration_seconds": 8,
+          "area": 350,
+          "pure_damage_per_tick_formula": "6.3% Mag.atk. + 3360",
+          "pure_damage_per_tick_example": 14868.33,
+          "tick_interval_seconds": 0.5,
+          "trigger": "When the magical flower is destroyed",
+          "description": "When the magical flower dies, its roots entangle the nearest enemies, preventing them from moving and causing damage over time for 8.0 seconds.",
+          "evolution_priority": null
+        },
+        {
+          "id": 4,
+          "variant": "legendary",
+          "relic_level": 20,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 4
+          },
+          "name": "Queen's Revenge",
+          "keywords": ["Damage over time"],
+          "dot_trait": true,
+          "duration_seconds": 8,
+          "area": 350,
+          "pure_damage_per_tick_formula": "6.3% Mag.atk. + 3360",
+          "pure_damage_per_tick_example": 14868.33,
+          "tick_interval_seconds": 0.5,
+          "effect": "Maya's flower's roots now entangle and poison enemies not only when it's destroyed but also when it appears.",
+          "description": "With Relic Level 20, Queen's Revenge triggers both when the flower appears and when it is destroyed, doubling the entangle and poison windows.",
+          "evolution_priority": null
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Life Drop",
+          "type": ["Heal"],
+          "keywords": [],
+          "trigger_interval_seconds": 17,
+          "duration_seconds": 10.01,
+          "range": 3000,
+          "hits": 17,
+          "health_regen_per_second_formula": "50% Mag.atk.",
+          "health_regen_per_second_example": 91336,
+          "description": "Every 17 seconds, summons a bud that heals the rightmost ally for 10.0 seconds. Then it moves to another ally with the lowest Health, heals them, and disappears after 10.0 seconds.",
+          "evolution_priority": null
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Nature's Might",
+          "type": ["Passive"],
+          "keywords": ["Passive"],
+          "area": 100,
+          "description": "When an enemy is poisoned by a Maya skill, the poison also spreads to nearby enemies. Healing effects now apply to allies standing around the main target.",
+          "evolution_priority": null
+        }
+      ],
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Mother Tree's Branch",
+          "activation_chance": 100,
+          "activation_trigger": "Hero uses the skill in combat",
+          "magic_defense": 32040,
+          "evolve": 6,
+          "level": 100,
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "slot": "Book",
+          "name": "Tome of Arcane Knowledge",
+          "magic_attack": 10680,
+          "health": 53394,
+          "evolve": 6,
+          "level": 100,
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Intelligence",
+          "intelligence": 3990,
+          "intelligence_secondary_effects": {
+            "magic_attack_from_intelligence": 11970,
+            "magic_defense_from_intelligence": 3990,
+            "physical_attack_from_intelligence": 3990
+          },
+          "evolve": 6,
+          "level": 100,
+          "evolution_priority": null,
+          "priority_reason": null
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default Skin",
+          "stat": "Intelligence",
+          "bonus": 1365,
+          "secondary_effects": {
+            "magic_attack_from_intelligence": 4095,
+            "magic_defense_from_intelligence": 1365,
+            "physical_attack_from_intelligence": 1365
+          },
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "name": "Champion Skin",
+          "stat": "Magic Attack",
+          "bonus": 10687,
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "name": "Winter Skin",
+          "stat": "Magic Attack",
+          "bonus": 10665,
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "name": "Romantic Skin",
+          "stat": "Health",
+          "bonus": 106645,
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "name": "Devil Skin",
+          "stat": "Magic Defense",
+          "bonus": 10650,
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "name": "Stellar Skin+",
+          "stat": "Crushing",
+          "bonus": 11840,
+          "is_skin_plus": true,
+          "evolution_priority": null,
+          "priority_reason": null
+        }
+      ],
+      "glyphs": [
+        {
+          "order_in_game": 1,
+          "name": "Magic Attack",
+          "level": 80,
+          "bonus": 12850,
+          "evolution_priority": null,
+          "priority_rank": null,
+          "priority_reason": null
+        },
+        {
+          "order_in_game": 2,
+          "name": "Health",
+          "level": 80,
+          "bonus": 122800,
+          "evolution_priority": null,
+          "priority_rank": null,
+          "priority_reason": null
+        },
+        {
+          "order_in_game": 3,
+          "name": "Armor",
+          "level": 80,
+          "bonus": 12850,
+          "evolution_priority": null,
+          "priority_rank": null,
+          "priority_reason": null
+        },
+        {
+          "order_in_game": 4,
+          "name": "Magic Defense",
+          "level": 80,
+          "bonus": 12850,
+          "evolution_priority": null,
+          "priority_rank": null,
+          "priority_reason": null
+        },
+        {
+          "order_in_game": 5,
+          "name": "Intelligence",
+          "level": 80,
+          "bonus": 2110,
+          "secondary_effects": {
+            "magic_attack_from_intelligence": 6330,
+            "magic_defense_from_intelligence": 2110,
+            "physical_attack_from_intelligence": 2110
+          },
+          "evolution_priority": null,
+          "priority_rank": null,
+          "priority_reason": null
+        }
+      ],
+      "gift_of_elements": {
+        "level": 30,
+        "strength": 360,
+        "agility": 360,
+        "intelligence": 720
+      },
+      "class_ability": {
+        "class": "Healer",
+        "level": 45,
+        "overall_class_level": 405,
+        "max_class_level": 405,
+        "description": "When healing an ally, also applies an effect for 5.0 seconds that converts any incoming damage into healing (no more than 143901.6 (30% Mag.atk. + 89100)). Can be triggered no more than once every 10 seconds for each target."
+      },
+      "synergies": [],
+      "counters": [],
+      "best_teams": [],
+      "damage_over_time_trait": {
+        "introduced": true,
+        "trait_name": "Damage over time",
+        "short_name": "DoT",
+        "mechanics": {
+          "cannot_miss": true,
+          "cannot_be_dodged": true,
+          "cannot_be_reflected": true
+        },
+        "maya_affected_skills": [
+          {
+            "skill_id": 2,
+            "skill_name": "Poisoned Pollen",
+            "effect": "Pure damage classified as Damage over time — cannot miss, be dodged, or reflected."
+          },
+          {
+            "skill_id": 3,
+            "skill_name": "Poisonous Bonds",
+            "effect": "Pure damage classified as Damage over time — cannot miss, be dodged, or reflected."
+          },
+          {
+            "skill_id": 4,
+            "skill_name": "Queen's Revenge",
+            "effect": "Pure damage classified as Damage over time — cannot miss, be dodged, or reflected."
+          }
+        ]
+      },
+      "notes": []
+    }
+  ]
+}
