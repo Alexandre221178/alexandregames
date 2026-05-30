@@ -16,7 +16,7 @@ content.js:1 hello dUPLoCFwC8 dUPLoCFwC8 dUPLoCFwC8
 */window.HWDE_GIFTS = [
    // ── May #, 2026 ──────────────────────────────
    // ── 1 Link Exclusivo so Web ──────────────────────────────
-{ date:'2026-05-29', type:'link', giftLinkWeb:'https://herowars.me/dUPLoCFwC8', note:'until|2026-05-31T02:00:00Z',
+{ date:'2026-05-29', type:'link', giftId:'dUPLoCFwC8', note:'until|2026-05-31T02:00:00Z',
   rewards:['valor-coin x1000'] },
    { date:'2026-05-29', type:'link', giftId:'55bb4d58d9a1479ab274b6bf0ef3f1ea', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
