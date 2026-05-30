@@ -44,6 +44,8 @@
     "update-electra-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide electra",
     "update-folio-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide folio",
     "update-iris-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide iris",
+ 
+    "update-jhu-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide jhu",
   
     "update-kayla-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide kayla",
 
