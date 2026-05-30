@@ -421,9 +421,11 @@
     var customWeb = normalizeLink(entry.giftLinkWeb || entry.giftLink);
     var customFb = normalizeLink(entry.giftLinkFb || entry.giftLinkFacebook);
 
+    var webOnlyId = entry.giftWebId || null;
+
     return {
-      webUrl: hasCustomWeb ? customWeb : (entry.giftId ? buildWebUrl(entry.giftId) : ''),
-      fbUrl: hasCustomFb ? customFb : buildFbUrl(entry.giftId)
+      webUrl: hasCustomWeb ? customWeb : (webOnlyId ? buildWebUrl(webOnlyId) : (entry.giftId ? buildWebUrl(entry.giftId) : '')),
+      fbUrl: webOnlyId ? '' : (hasCustomFb ? customFb : buildFbUrl(entry.giftId))
     };
   }
 

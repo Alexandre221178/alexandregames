@@ -14,9 +14,9 @@ web ﻿
  GET https://www.hero-wars.com/?nx_source=group_posting&gift_id=55bb4d5… 403 (Forbidden)
 content.js:1 hello dUPLoCFwC8 dUPLoCFwC8 dUPLoCFwC8
 */window.HWDE_GIFTS = [
-   // ── May #, 2026 ──────────────────────────────
-   // ── 1 Link Exclusivo so Web ──────────────────────────────
-{ date:'2026-05-29', type:'link', giftId:'dUPLoCFwC8', note:'until|2026-05-31T02:00:00Z',
+      // ── May #, 2026 ──────────────────────────────
+   // ── 1 Link Exclusivo so WebId diferente de weblink ──────────────────────────────
+{ date:'2026-05-29', type:'link', giftWebId:'dUPLoCFwC8', note:'until|2026-05-31T02:00:00Z',
   rewards:['valor-coin x1000'] },
    { date:'2026-05-29', type:'link', giftId:'55bb4d58d9a1479ab274b6bf0ef3f1ea', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
@@ -162,9 +162,9 @@ link type  : { date:'YYYY-MM-DD', type:'link',  giftId:'...', note:'until|YYYY-M
 { date:'2026-0#-##30', type:'link', giftLinkWeb:'https://herowars.me/49iwkHL', giftLinkFb:'https://herowars.me/4sXSMgl', note:'until|2026-05-03T02:00:00Z',
   rewards:['energy x500'] },
 
-  // ── 1 Link Exclusivo so Web ──────────────────────────────
-{ date:'2026-0#-##', type:'link', giftLinkWeb:'https://herowars.me/##', note:'until|2026-05-03T02:00:00Z',
-  rewards:['rewards:['valor-coin x1000'] },'] },
+  // ── 1 Link Exclusivo so giftWebId diferente de weblink esse so coloca o id ──────────────────────────────
+{ date:'2026-05-29', type:'link', giftWebId:'dUPLoCFwC8', note:'until|2026-05-31T02:00:00Z',
+  rewards:['valor-coin x1000'] },
 
   // ── Gifts New hero or titan ──────────────────────────────
  { date:'2026-0#-##', type:'link', giftId:'#####', note:'until|2026-0#-0#T02:00:00Z',
@@ -177,6 +177,7 @@ link type  : { date:'YYYY-MM-DD', type:'link',  giftId:'...', note:'until|YYYY-M
   // ── gift friend-chip coin e Gold ──────────────────────────────
 { date:'2026-03-27', type:'link', giftId:'xqYzCnjZ49', note:'until|2026-04-05T02:00:00Z',
   rewards:['large-skin-stone-chest x10', 'friendship-chip x10000', 'gold 1M'] },
+
 
 
 ╔══════════════════════════════════════════════════════════════════╗
