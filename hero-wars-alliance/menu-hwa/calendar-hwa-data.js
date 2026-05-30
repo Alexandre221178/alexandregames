@@ -494,7 +494,7 @@ window.CALENDAR_DATA = [
 },
       
 {
-        titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: " Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
+        titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: "🏺Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
        },  
        {
@@ -515,8 +515,8 @@ window.CALENDAR_DATA = [
     links: { en: "../../Hero Wars/events/secrets-of-the-dungeon-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/secrets-of-the-dungeon-pt-hwa.html", ja: "" },
     extra: [   
       {
-         titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: " Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
-        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+         titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: "🏺Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html" }
        },  
        {
   titles: { en: "Kendle Guide", de: "Kendle Leitfaden", es: "Guía de Kendle", fr: "Guide Kendle", pt: "Guia da Kendle", ja: "ケンドル - ガイド" },
@@ -535,8 +535,8 @@ window.CALENDAR_DATA = [
     links: { en: "../../Hero Wars/events/secrets-of-the-dungeon-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/secrets-of-the-dungeon-pt-hwa.html", ja: "" },
     extra: [   
       {
-       titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: " Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
-        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: "🏺Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html" }
        },  
        {
   titles: { en: "Kendle Guide", de: "Kendle Leitfaden", es: "Guía de Kendle", fr: "Guide Kendle", pt: "Guia da Kendle", ja: "ケンドル - ガイド" },
@@ -554,8 +554,8 @@ window.CALENDAR_DATA = [
     links: { en: "../../Hero Wars/events/secrets-of-the-dungeon-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/secrets-of-the-dungeon-pt-hwa.html", ja: "" },
     extra: [   
       {
-       titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: " Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
-        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: "🏺Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html" }
        },  
        {
   titles: { en: "Kendle Guide", de: "Kendle Leitfaden", es: "Guía de Kendle", fr: "Guide Kendle", pt: "Guia da Kendle", ja: "ケンドル - ガイド" },
@@ -588,8 +588,8 @@ window.CALENDAR_DATA = [
   noStrip: true
 },  
 {
-       titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: " Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
-        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: "🏺Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html" }
        },  
        {
   titles: { en: "Kendle Guide", de: "Kendle Leitfaden", es: "Guía de Kendle", fr: "Guide Kendle", pt: "Guia da Kendle", ja: "ケンドル - ガイド" },
@@ -624,8 +624,8 @@ window.CALENDAR_DATA = [
   noStrip: true
 },  
 {
-       titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: " Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
-        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: "🏺Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html" }
        },  
        {
   titles: { en: "Kendle Guide", de: "Kendle Leitfaden", es: "Guía de Kendle", fr: "Guide Kendle", pt: "Guia da Kendle", ja: "ケンドル - ガイド" },
@@ -659,8 +659,8 @@ window.CALENDAR_DATA = [
   noStrip: true
 },  
 {
-       titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: " Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
-        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: "🏺Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html" }
        },  
        {
   titles: { en: "Kendle Guide", de: "Kendle Leitfaden", es: "Guía de Kendle", fr: "Guide Kendle", pt: "Guia da Kendle", ja: "ケンドル - ガイド" },
