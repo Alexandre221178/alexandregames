@@ -48,10 +48,10 @@ div.calendar #calendar-container > .event-container {
   font-size: 14px !important;
   position: relative !important;
   padding: 10px !important;
-  background-color: #08c492 !important;
+  background-color: #9051ad !important;
   border-radius: 5px !important;
   text-align: center !important;
-  height: 250px !important;
+  height: 300px !important;/* altura da caixa de eventos até maio era 250px */
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -86,8 +86,9 @@ div.calendar .event a {
   text-decoration: none !important;
   position: relative !important;
   font-weight: bold !important;
-  top: 13px !important;/* altura das letras até o topo da pag. */
-  left: 2px !important;
+  top: 7px !important;/* altura das letras até o topo da pag. antes da data */
+  left: 1px !important;
+  margin-right: 5px !important;
   z-index: 10 !important;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000 !important;
 }
@@ -153,7 +154,7 @@ div.calendar .event .event-label {
   position: relative !important;
   font-weight: bold !important;
   top: 17px !important;
-  left: 2px !important;
+  margin-left: 3px !important;
   z-index: 10 !important;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000 !important;
 }
@@ -186,7 +187,7 @@ div.calendar .event-label:hover {
   
   div.calendar > .event-container,
   div.calendar #calendar-container > .event-container {
-    height: 227px !important; /* Aumenta a altura da caixa para mobile */
+    height: 276px !important; /* Aumenta a altura da caixa para mobile antes 227px*/
   }
   
   div.calendar .event a {
@@ -197,9 +198,9 @@ div.calendar .event-label:hover {
   div.calendar .event-label {
     position: static !important;
     top: auto !important;
-    margin-top: -12px !important;
-    margin-bottom: 0 !important;
-    line-height: 11px !important;
+    margin-top: 5px !important;/* Label (labelOnly) em mobile: reduz espaçamento margem da label amarelo*/
+    margin-bottom: 3px !important;
+    line-height: 1px !important;
   }
 }
 

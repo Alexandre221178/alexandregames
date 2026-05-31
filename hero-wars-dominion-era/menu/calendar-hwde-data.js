@@ -151,6 +151,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
+       {
+  titles: { en: "👗 Tristan New Skin: Sport", pt: "👗 Tristan Nova Skin: Esportiva", de: "👗 Tristan neue Skin: Sport", es: "👗 Tristan nueva skin: Deportiva", fr: "👗 Tristan nouvelle skin : Sportive", ja: "👗 トリスタン新スキン：スポーツ" },
+  labelOnly: true,
+},
       {
         titles: { en: "📦Artifact Chest - Sale 30%", pt: "📦Baú de Artefatos - Desconto 30%", de: "📦Artefakttruhe - 30% Rabatt", es: "📦Cofre de Artefactos - 30% de Descuento", fr: "📦Coffre d'Artéfacts - 30% de Réduction", ja: "📦アーティファクトチェスト - 30%オフ" },
         labelOnly: true,
@@ -159,10 +163,7 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🌀 Soul Atrium - Sale 50%", pt: "🌀 Átrio da Alma - Desconto 50%", de: "🌀 Seelenatrium - 50% Rabatt", es: "🌀 Atrio del Alma - 50% de Descuento", fr: "🌀 Atrium de l'Âme - 50% de Réduction", ja: "🌀 ソウルアトリウム - 50%オフ" },
         labelOnly: true,
       },
-      {
-  titles: { en: "👗 Tristan New Skin: Sport", pt: "👗 Tristan Nova Skin: Esportiva", de: "👗 Tristan neue Skin: Sport", es: "👗 Tristan nueva skin: Deportiva", fr: "👗 Tristan nouvelle skin : Sportive", ja: "👗 トリスタン新スキン：スポーツ" },
-  labelOnly: true,
-}
+     
     ]
   },
 
