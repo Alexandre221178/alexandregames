@@ -760,12 +760,13 @@ section p{
 
 .img-review img{
 margin-left: 30px;
-   min-height: 340px; /* estava 450*/
-    width: 60%; /* no container 907 estava 70% */
-    border: 3px solid #989797; /* cinza claro */
-   box-sizing: border-box; /* garante que a borda não ultrapasse o tamanho da imagem */
+width: 50%; /* no container 907 estava 70% */
+min-height: 250px; /* estava 450*/
+border: 3px solid #989797; /* cinza claro */
+box-sizing: border-box; /* garante que a borda não ultrapasse o tamanho da imagem */
       
 }
+
 .img-review-index img{
        
     width: 100%;
@@ -2377,7 +2378,7 @@ iframe {
     
     .img-review img{
         margin-left: 1px;
-        min-height: 200px;   
+        min-height: 150px;   
          
     }
     
