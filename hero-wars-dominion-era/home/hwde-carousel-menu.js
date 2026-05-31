@@ -1,15 +1,7 @@
 (function(){
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
-     {
-      link: "/hero-wars-dominion-era/events/heroes-awakening-event-en.html",
-      src500: "/hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-500px.webp",
-      src400: "/hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-400px.webp",
-      alt: "Adam - Heroes Awakening Event for Hero Wars: Dominion Era",
-      title: "Adam - Heroes Awakening Event for Hero Wars: Dominion Era.",
-      strong: "Guide f2p 6★: Tips Adam Event - Hero Wars: Dominion Era",
-      updated: "Updated: April, 2026."
-    },
+     
     {
       link: "../../hero-wars-dominion-era/characters/adam-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/adam/adam-500px.webp",
@@ -19,15 +11,17 @@
       strong: "Guide: New Hero Adam - Hero Wars: Dominion Era",
       updated: "Updated: April, 2026."
     },
+
     {
-      link: "/hero-wars-dominion-era/events-special-hwde/adam-event-missions-en.html",
-      src500: "/hero-wars-dominion-era/images/events-special/adam-event/adam-event-mission-500px.webp",
-      src400: "/hero-wars-dominion-era/images/events-special/adam-event/adam-event-mission-400px.webp",
-      alt: "Adam - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era",
-      title: "Adam - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era.",
-      strong: "Guide: Adam Event (Missions) - Hero Wars: Dominion Era",
-      updated: "Updated: April, 2026."
+      link: "../../hero-wars-dominion-era/guide/meta-teams-and-combos-hwde-en.html",
+      src500: "../../hero-wars-dominion-era/images/guides/meta-teams-and-combos-hwde/meta-teams-and-combos-hwde-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/guides/meta-teams-and-combos-hwde/meta-teams-and-combos-hwde-400px.webp",
+      alt: "Best Meta Teams and Combos - Hero Wars: Dominion Era 2026",
+      title: "Best Meta Teams and Combos - Hero Wars: Dominion Era 2026",
+      strong: "Best Meta Teams and Combos - Hero Wars: Dominion Era 2026",
+      updated: "Updated: March, 2026."
     },
+    
    
     {
       link: "../../hero-wars-dominion-era/characters/mushy-and-shroom-en.html",
@@ -69,18 +63,6 @@
       strong: "Guide: Byrna - Hero Wars: Dominion Era",
       updated: "Updated: April, 2026."
     },
-
-            
-    {
-      link: "../../hero-wars-dominion-era/guide/meta-teams-and-combos-hwde-en.html",
-      src500: "../../hero-wars-dominion-era/images/guides/meta-teams-and-combos-hwde/meta-teams-and-combos-hwde-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/guides/meta-teams-and-combos-hwde/meta-teams-and-combos-hwde-400px.webp",
-      alt: "Best Meta Teams and Combos - Hero Wars: Dominion Era 2026",
-      title: "Best Meta Teams and Combos - Hero Wars: Dominion Era 2026",
-      strong: "Best Meta Teams and Combos - Hero Wars: Dominion Era 2026",
-      updated: "Updated: March, 2026."
-    },
-       
         
     {
       link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
@@ -89,7 +71,7 @@
       alt: "Calendar for Hero Wars: Dominion Era",
       title: "Calendar for Hero Wars: Dominion Era.",
       strong: "Calendar - Hero Wars: Dominion Era",
-      updated: "Updated: February, 2026."
+      updated: "Updated: Monthly."
     },
        
     
