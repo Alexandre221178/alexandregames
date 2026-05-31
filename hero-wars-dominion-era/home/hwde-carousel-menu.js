@@ -40,6 +40,15 @@
       updated: "Updated: March, 2026."
     },
     
+    {
+      link: "../../hero-wars-dominion-era/ag-daily-gifts-hwde/gifts-hwde-en.html",
+      src500: "../../hero-wars-dominion-era/images/daily-gifts-hwde/daily-gifts-hwde-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/daily-gifts-hwde/daily-gifts-hwde-400px.webp",
+      alt: "Daily Gifts for Hero Wars: Dominion Era",
+      title: "Daily Gifts for Hero Wars: Dominion Era.",
+      strong: "Daily Gifts - Hero Wars: Dominion Era(Web/Facebook)",
+      updated: "Updated: Daily."
+    },
    
     {
       link: "../../hero-wars-dominion-era/characters/mushy-and-shroom-en.html",
