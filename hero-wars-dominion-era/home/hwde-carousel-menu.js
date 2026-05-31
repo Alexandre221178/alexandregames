@@ -1,6 +1,15 @@
 (function(){
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
+    {
+      link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
+      src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-400px.webp",
+      alt: "Calendar for Hero Wars: Dominion Era",
+      title: "Calendar for Hero Wars: Dominion Era.",
+      strong: "Calendar - Hero Wars: Dominion Era",
+      updated: "Updated: Monthly."
+    },
      
     {
       link: "../../hero-wars-dominion-era/characters/adam-en.html",
@@ -64,15 +73,7 @@
       updated: "Updated: April, 2026."
     },
         
-    {
-      link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
-      src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-400px.webp",
-      alt: "Calendar for Hero Wars: Dominion Era",
-      title: "Calendar for Hero Wars: Dominion Era.",
-      strong: "Calendar - Hero Wars: Dominion Era",
-      updated: "Updated: Monthly."
-    },
+    
        
     
     
