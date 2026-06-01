@@ -1,15 +1,18 @@
 /* HWDE Daily Gifts Data - npm run update-gifts-hwde
-// ── May #, 2026 ──────────────────────────────
-   { date:'2026-0#-##', type:'link', giftId:'######', note:'level',
+// ── June #, 2026 ──────────────────────────────
+   { date:'2026-06-##', type:'link', giftId:'######', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
-// ── May #, 2026 ──────────────────────────────
-  { date:'2026-0#-##', type:'link', giftId:'#####', note:'level',
+// ── June #, 2026 ──────────────────────────────
+  { date:'2026-06-##', type:'link', giftId:'#####', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },
-// ── May #, 2026 ──────────────────────────────
-{ date:'2026-05-##', type:'link', giftId:'#####', note:'until|2026-0#-##T02:00:00Z',
+// ── June #, 2026 ──────────────────────────────
+{ date:'2026-06-##', type:'link', giftId:'#####', note:'until|2026-0#-##T02:00:00Z',
   rewards:['energy x500'] },
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 */window.HWDE_GIFTS = [
+   // ── June 1, 2026 ──────────────────────────────
+{ date:'2026-06-01', type:'link', giftId:'FNswcTxPet', note:'until|2026-06-06T02:00:00Z',
+  rewards:['energy x500'] },
    // ── May 31, 2026 ──────────────────────────────
   { date:'2026-05-31', type:'link', giftId:'0195fcabfe3a6e55b16656499d332075', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },

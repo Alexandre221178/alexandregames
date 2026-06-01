@@ -1,9 +1,12 @@
 /*          npm run update-gifts-hwa       
-// ── May #, 2026 ──────────────────────────────
+// ── June #, 2026 ──────────────────────────────
    { date:'2026-05-##', type:'daily', mission:'##', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+   // ── June 1, 2026 ──────────────────────────────
+   { date:'2026-06-01', type:'daily', mission:'3-9', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
    // ── May 31, 2026 ──────────────────────────────
    // ── Hub Code gft valid data true ──────────────────────────────
 { date:'2026-05-31', type:'hub', code:'CAPYBARA', note:'until|2026-06-08T01:00:00Z',
