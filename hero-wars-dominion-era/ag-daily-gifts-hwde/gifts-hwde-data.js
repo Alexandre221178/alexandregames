@@ -10,6 +10,9 @@
   rewards:['energy x500'] },
 
 */window.HWDE_GIFTS = [
+   // ── June 2, 2026 ──────────────────────────────
+   { date:'2026-06-02', type:'link', giftId:'aeb77b8c1b1ef9e7f3a415f68849775e', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
    // ── June 1, 2026 ──────────────────────────────
      { date:'2026-06-01', type:'link', giftId:'ea1041fa548f16a3816fda9150d73edf', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
