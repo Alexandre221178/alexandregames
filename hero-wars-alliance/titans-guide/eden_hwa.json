@@ -1,0 +1,168 @@
+{
+    "game": "Hero Wars Alliance",
+    "titans": [
+        {
+            "id": "eden",
+            "name": "Male",
+            "gender": null,
+            "description": "A colossal Earth Titan capable of both devastating attacks and locking down enemies underground. Eden's random crowd control makes battles unpredictable and hard to counter.",
+            "role": ["Tank", "Control"],
+            "main_class": "Earth Titan",
+            "element": "Earth",
+            "power": 141775,
+            "main_stat": "Physical Attack",
+            "synergy": {
+                "type": "Earth Titans",
+                "members": ["Angus", "Avalon", "Verdoc", "Sylva"]
+            },
+            "counters": {
+                "strong_against": ["Water Titans"],
+                "weak_against": ["Fire Titans"],
+                "notable_counters": [
+                    {
+                        "titan": "Araji",
+                        "reason": "Fire Titan especially effective against Eden. Araji's Incinerating Ray deals sustained ATK-scaling damage and Herald of Flame speeds up allies by 30%, countering Earth Titan compositions.",
+                        "araji_skills": [
+                            {
+                                "name": "Incinerating Ray",
+                                "description": "Araji shoots out a stream of fire for 7.0 seconds, focusing it on the nearest enemy and dealing 1422 ATK damage per second.",
+                                "animation_delay_seconds": 1
+                            },
+                            {
+                                "name": "Herald of Flame",
+                                "description": "Speeds up allies by 30% for 8.0 seconds.",
+                                "initial_cooldown_seconds": 2,
+                                "cooldown_seconds": 18,
+                                "animation_delay_seconds": 0.6
+                            }
+                        ]
+                    }
+                ]
+            },
+            "stats": {
+                "health": 11152573,
+                "physical_attack": 774001,
+                "extra_damage_to_water_titans": 255000,
+                "extra_defense_from_water_titans": 100500
+            },
+            "skills": [
+                {
+                    "id": 0,
+                    "name": "Basic Attack",
+                    "type": ["Physical Damage"],
+                    "description": "Deals physical damage to a single target.",
+                    "damage": "774001 (100% Phys.atk.)",
+                    "cooldown_seconds": 4.1,
+                    "animation_delay_seconds": 1.73
+                },
+                {
+                    "id": 1,
+                    "name": "Burden of Creation",
+                    "type": ["Physical Damage", "Area"],
+                    "description": "Raises a humongous chunk of rock from the ground and hurls it at the center of the enemy team. All enemies next to the impact receive damage.",
+                    "damage": "2709002 (350% ATK)",
+                    "animation_delay_seconds": 2.4
+                },
+                {
+                    "id": 2,
+                    "name": "Subterranean Prison",
+                    "type": ["Control", "Crowd Control"],
+                    "description": "Binds a random enemy with roots and pulls the victim under the ground for 6.0 seconds. Once the enemy is released, they stay stunned for 2 more seconds. If the target is the last enemy on the battlefield, they won't get pulled underground, but the stun effect will still affect them.",
+                    "initial_cooldown_seconds": 8,
+                    "cooldown_seconds": 19,
+                    "animation_delay_seconds": 1.95,
+                    "underground_duration_seconds": 6,
+                    "stun_after_release_seconds": 2,
+                    "target": "random enemy",
+                    "note": "Random targeting makes battles unpredictable — it is hard to define which enemy will be caught, which can greatly affect the outcome of battles."
+                }
+            ],
+            "artifacts": [
+                {
+                    "name": "Andvari's Soul",
+                    "slot": "Weapon",
+                    "bigStar": true,
+                    "evolve": 6,
+                    "level": 100,
+                    "activation_chance": "100%",
+                    "effect": "Extra Defense from Water Titans +150000"
+                },
+                {
+                    "name": "Earth Crown",
+                    "slot": "Book",
+                    "bigStar": true,
+                    "evolve": 6,
+                    "level": 100,
+                    "effect": "Extra Damage to Water Titans +255000, Extra Defense from Water Titans +100500"
+                },
+                {
+                    "name": "Defense Seal",
+                    "slot": "Ring",
+                    "bigStar": true,
+                    "evolve": 6,
+                    "level": 100,
+                    "effect": "Physical attack +82500, Health +4575000"
+                }
+            ],
+            "skins": [
+                {
+                    "name": "Default",
+                    "stat": "Physical attack",
+                    "bonus": 196800
+                },
+                {
+                    "name": "Primordial",
+                    "stat": "Physical attack",
+                    "bonus": 196800
+                }
+            ],
+            "best_team": {
+                "name": "Full Terra",
+                "element": "Earth",
+                "members": [
+                    {
+                        "id": "sylva",
+                        "name": "Sylva",
+                        "role": "Marksmen",
+                        "note": "Atira 6 flechas consecutivas a distância."
+                    },
+                    {
+                        "id": "eden",
+                        "name": "Eden",
+                        "role": "Damage/Control",
+                        "note": "Super Titan principal. Controla inimigos com Subterranean Prison e causa alto dano em área."
+                    },
+                    {
+                        "id": "verdoc",
+                        "name": "Verdoc",
+                        "role": "Buffer/Support",
+                        "note": "Principal responsável pelos buffs do time no ataque, principalmente contra times de Água. Peça central do meta Full Terra."
+                    },
+                    {
+                        "id": "avalon",
+                        "name": "Avalon",
+                        "role": "Support",
+                        "note": "Complementa a sinergia do time de Terra com escudo e cura."
+                    },
+                    {
+                        "id": "angus",
+                        "name": "Angus",
+                        "role": "Tank/DPS",
+                        "note": "Reforça a linha de frente do time de Terra com proteção adicional e capacidade de causar dano alto em área."
+                    }
+                ],
+                "team_notes": [
+                    "Time full Terra atualmente no meta, especialmente forte no ataque.",
+                    "Verdoc é o principal buffer do time e potencializa o dano de todos os membros.",
+                    "Na defesa, adversários frequentemente utilizam Araji (Fire Titan) como counter a esta composição."
+                ]
+            },
+            "notes": [
+                "Eden é um excelente super titan tanto na defesa quanto no ataque.",
+                "Sua habilidade Subterranean Prison é aleatória — enterrar um inimigo por 6s torna as batalhas muito imprevisíveis e dificulta definir quem será capturado.",
+                "No meta atual, times full Terra estão muito fortes, principalmente com os buffs de Verdoc no ataque.",
+                "Por esse motivo, muitos jogadores usam Araji na defesa como counter aos times de Terra."
+            ]
+        }
+    ]
+}

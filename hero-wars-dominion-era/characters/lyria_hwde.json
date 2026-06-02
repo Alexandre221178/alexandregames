@@ -1,0 +1,229 @@
+{
+  "name": "Lyria",
+  "game": "Hero Wars",
+  "category": "Warriors",
+  "gender": "female",
+  "ranking": {
+    "position": 14
+  },
+  "basic_info": {
+    "main_stat": "strength",
+    "obtention": "soul atrium",
+    "roles": ["warrior", "support", "woman", "undead"],
+    "basic_attack": {
+      "damage": 77825,
+      "formula": "100% physical attack",
+      "cooldown_seconds": 5.5
+    }
+  },
+  "stats": {
+    "health": 1070599,
+    "power": 185246,
+    "agility": 2586,
+    "strength": 18727,
+    "intelligence": 2451,
+    "accuracy": 18727,
+    "crit_resistance": 18727,
+    "crit_chance": 0,
+    "vampirism_percent": 0,
+    "magic_attack": 7353,
+    "magic_penetration": 0,
+    "physical_attack": 77825,
+    "armor_penetration": 17450,
+    "magic_defense": 30739,
+    "armor": 37703,
+    "dodge": 0
+  },
+  "patrons": ["Fenris", "Oliver", "Biscuit"],
+  "skills": [
+    {
+      "name": "Soul Reaper",
+      "type": "ultimate",
+      "color": "white",
+      "description": "Lyria collects a soul every time someone dies on the battlefield. Once activated, Lyria opens a portal to the realm of the dead, unleashing vengeful spirits. The portal releases at least 3 spirits, with each of them dealing one strike. The number of extra spirits scales with the number of reaped souls but cannot exceed 7. Each extra hit consumes one reaped soul. All hits target the enemy with the lowest health.",
+      "damage_per_hit": {
+        "value": 41521,
+        "formula": "45% physical attack + 50 * level"
+      }
+    },
+    {
+      "name": "Bonds of Alliance",
+      "type": "periodic",
+      "color": "green",
+      "description": "Lyria binds herself to the ally with the highest physical attack for 12s. Both Lyria and the bonded ally receive a vampirism bonus. While the Bonds of Alliance are active, vampirism restores health for them both. If the bonded ally is undead, they both get a physical attack bonus.",
+      "vampirism": {
+        "value": 20,
+        "formula": "0.1153847 * level + 5"
+      },
+      "physical_attack_bonus": {
+        "value": 10000,
+        "formula": "75 * level + 250"
+      },
+      "duration_seconds": 12,
+      "cooldown_seconds": 14,
+      "initial_cooldown_seconds": 7
+    },
+    {
+      "name": "Children of the Grave",
+      "type": "periodic",
+      "color": "blue",
+      "description": "Lyria summons 3 spirits. The spirits chase the enemy who has dealt the most damage in the last 10 seconds. The effect lasts 10 seconds. While the spirits are present, the chased hero cannot attack anyone except them, while other heroes cannot target the spirits.",
+      "spirit_health": {
+        "value": 12426,
+        "formula": "0.25% health + 75 * level"
+      },
+      "effect_duration_seconds": 10,
+      "cooldown_seconds": 22,
+      "initial_cooldown_seconds": 14
+    },
+    {
+      "name": "Shackles of Doom",
+      "type": "passive",
+      "color": "violet",
+      "description": "Passive skill. The hero exudes an aura that decreases the dodge stat of all enemies within the area of effect. All affected enemies receive additional physical damage from physical attacks. The size of the aura scales with the number of undead units in allied team.",
+      "dodge_reduction": {
+        "value": 29848,
+        "formula": "30% physical attack + 50 * level"
+      },
+      "extra_damage": {
+        "value": 7783,
+        "formula": "10% physical attack"
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "Khopesh of Speaker with the Dead",
+      "stats": {
+        "armor_penetration": 50190,
+        "power": 12547
+      },
+      "crafting_materials": {
+        "absolute_artifact_essence": 1635,
+        "flawless_artifact_essence": 1199,
+        "chaos_core": 121,
+        "fragment": 225,
+        "artifact_coin": 90000
+      }
+    },
+    {
+      "name": "Defender's Covenant",
+      "stats": {
+        "magic_defense": 12546,
+        "armor": 12546,
+        "power": 12546
+      },
+      "crafting_materials": {
+        "absolute_artifact_scroll": 1635,
+        "flawless_artifact_scroll": 1199,
+        "chaos_core": 121,
+        "fragment": 225,
+        "artifact_coin": 90000
+      }
+    },
+    {
+      "name": "Ring of Strength",
+      "stats": {
+        "strength": 6249,
+        "power": 17184
+      },
+      "crafting_materials": {
+        "absolute_artifact_metal": 1635,
+        "flawless_artifact_metal": 1199,
+        "chaos_core": 121,
+        "fragment": 225,
+        "artifact_coin": 90000
+      }
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": { "strength": 1365, "power": 3753 },
+      "cost": { "strength_skin_stone": 30825 }
+    },
+    {
+      "name": "Masquerade Skin",
+      "stats": { "physical_attack": 7095, "power": 5321 },
+      "cost": { "strength_skin_stone": 55410 }
+    },
+    {
+      "name": "Winter Skin",
+      "stats": { "health": 106670, "power": 5333 },
+      "cost": { "strength_skin_stone": 58412 }
+    },
+    {
+      "name": "Ceremonial Skin",
+      "stats": { "armor_penetration": 10650, "power": 5325 },
+      "cost": { "strength_skin_stone": 55410 },
+      "note": "Obtainable from Tournament of Hero Power (exclusive until unknown date)"
+    }
+  ],
+  "glyphs": [
+    {
+      "type": "physical_attack",
+      "stats": { "physical_attack": 4340, "power": 3255 },
+      "cost": { "great_enchantment_rune": 438, "gold": 4190900, "emeralds": 43750 }
+    },
+    {
+      "type": "armor",
+      "stats": { "armor": 6500, "power": 3250 },
+      "cost": { "great_enchantment_rune": 438, "gold": 4190900, "emeralds": 43750 }
+    },
+    {
+      "type": "health",
+      "stats": { "health": 62200, "power": 3110 },
+      "cost": { "great_enchantment_rune": 438, "gold": 4190900, "emeralds": 43750 }
+    },
+    {
+      "type": "magic_defense",
+      "stats": { "magic_defense": 6500, "power": 3250 },
+      "cost": { "great_enchantment_rune": 438, "gold": 4190900, "emeralds": 43750 }
+    },
+    {
+      "type": "strength",
+      "stats": { "strength": 1135, "power": 3121 },
+      "cost": { "great_enchantment_rune": 438, "gold": 4190900, "emeralds": 43750 }
+    }
+  ],
+  "ascension": {
+    "I": {
+      "stats": { "health": 5000, "strength": 180, "physical_attack": 1710, "magic_defense": 350, "armor": 100, "power": 2252 },
+      "cost": { "strength_crystal": 2275, "star_mana": 5420, "gold": 1650000 }
+    },
+    "II": {
+      "stats": { "strength": 330, "physical_attack": 1540, "armor": 2890, "power": 3507 },
+      "cost": { "vibrant_strength_crystal": 1150, "strength_crystal": 1950, "star_mana": 9160, "gold": 5775000 }
+    },
+    "III": {
+      "stats": { "strength": 515, "physical_attack": 2760, "magic_defense": 1040, "armor": 2990, "power": 5501 },
+      "cost": { "vibrant_strength_crystal": 2375, "valor_insignia": 1175, "star_mana": 20200, "gold": 12400000 }
+    },
+    "IV": {
+      "stats": { "health": 11000, "strength": 560, "physical_attack": 4240, "magic_defense": 1460, "armor": 1000, "power": 6500 },
+      "cost": { "radiant_strength_crystal": 1460, "vibrant_strength_crystal": 475, "greater_valor_insignia": 235, "valor_insignia": 1220, "star_mana": 42540, "gold": 21600000 }
+    },
+    "V": {
+      "stats": { "health": 16250, "strength": 610, "physical_attack": 5490, "magic_defense": 1280, "power": 7247 },
+      "cost": { "radiant_strength_crystal": 1925, "greater_valor_insignia": 1925, "star_mana": 80180, "gold": 38300000 }
+    },
+    "I_to_V_total": {
+      "stats": { "health": 32250, "strength": 2195, "physical_attack": 15740, "magic_defense": 4130, "armor": 6980, "power": 25008 },
+      "cost": { "radiant_strength_crystal": 3385, "vibrant_strength_crystal": 4000, "strength_crystal": 4225, "greater_valor_insignia": 2160, "valor_insignia": 2395, "star_mana": 157500, "gold": 79725000 }
+    }
+  },
+  "tree_of_wisdom": {
+    "stats": { "health": 40440, "physical_attack": 5411, "magic_defense": 3810, "armor": 3396, "armor_penetration": 5740, "power": 12553 },
+    "cost": { "eternal_seed": 586, "ancient_wisdom_crystal": 47400 }
+  },
+  "miscellaneous": {
+    "levels": {
+      "stats": { "intelligence": 1430, "agility": 1560, "strength": 3510, "power": 17875 },
+      "cost": { "huge_exp_potion": 483, "lyria_soul_stone": 630 }
+    },
+    "gift_of_the_elements": {
+      "stats": { "intelligence": 360, "agility": 360, "strength": 720, "power": 3960 },
+      "cost": { "spark_of_power": 65150, "gold": 7927500 }
+    }
+  }
+}
