@@ -2,24 +2,15 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
-      link: "/hero-wars-alliance/events-tips-hwa/dorian-skin-plus-charisma-shop.html",
-      src500: "/hero-wars-alliance/images/events-tips-hwa/dorian-blazing-skin-plus/dorian-blazing-skin-plus-500px.webp",
-      src400: "/hero-wars-alliance/images/events-tips-hwa/dorian-blazing-skin-plus/dorian-blazing-skin-plus-400px.webp",
-      alt: "Dorian Blazing Skin+ Event for Hero Wars Alliance",
-      title: "Dorian Blazing Skin+ Event for Hero Wars Alliance",
-      strong: "Guide: Dorian Blazing Skin+ Event - What to Buy?",
+      link: "/hero-wars-alliance/characters-guide/kendle-en.html",
+      src500: "/hero-wars-alliance/images/hero/kendle/kendle-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/kendle/kendle-400px.webp",
+      alt: "Kendle Legendary Skills Guide for Hero Wars Alliance",
+      title: "Kendle Guide for Hero Wars Alliance",
+      strong: "Guide Updated Skin+: Kendle Legendary Skills for Hero Wars Alliance",
       updated: "Updated: May, 2026."
-    },
-       
-     {
-      link: "/hero-wars-alliance/characters-guide/dorian-en.html",
-      src500: "/hero-wars-alliance/images/hero/dorian/dorian-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/dorian/dorian-400px.webp",
-      alt: "Dorian Legendary Skills Guide for Hero Wars Alliance",
-      title: "Dorian Guide for Hero Wars Alliance",
-      strong: "Guide Updated Skin+: Dorian Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },
+    },      
+     
     {
       link: "/hero-wars-alliance/characters-guide/kayla-en.html",
       src500: "/hero-wars-alliance/images/hero/kayla/kayla-500px.webp",
@@ -27,6 +18,15 @@
       alt: "Kayla Legendary Skills Guide for Hero Wars Alliance",
       title: "Kayla Guide for Hero Wars Alliance",
       strong: "Guide Updated Blazing Skin: Kayla Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/characters-guide/dorian-en.html",
+      src500: "/hero-wars-alliance/images/hero/dorian/dorian-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/dorian/dorian-400px.webp",
+      alt: "Dorian Legendary Skills Guide for Hero Wars Alliance",
+      title: "Dorian Guide for Hero Wars Alliance",
+      strong: "Guide Updated Skin+: Dorian Legendary Skills for Hero Wars Alliance",
       updated: "Updated: May, 2026."
     },
     
@@ -39,15 +39,7 @@
       strong: "Guide: Kendle Adventure and Shop f2p Strategy for Hero Wars Alliance(EN)",
       updated: "Updated: May, 2026."
     },
-    {
-      link: "/hero-wars-alliance/characters-guide/kendle-en.html",
-      src500: "/hero-wars-alliance/images/hero/kendle/kendle-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/kendle/kendle-400px.webp",
-      alt: "Kendle Legendary Skills Guide for Hero Wars Alliance",
-      title: "Kendle Guide for Hero Wars Alliance",
-      strong: "Guide Updated Skin+: Kendle Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },
+    
     
     {
       link: "/hero-wars-alliance/review/damage-over-time-en.html",
