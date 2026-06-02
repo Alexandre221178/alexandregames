@@ -1,9 +1,12 @@
 /*          npm run update-gifts-hwa       
 // ── June #, 2026 ──────────────────────────────
-   { date:'2026-05-##', type:'daily', mission:'##', note:'daily|80',
+   { date:'2026-06-##', type:'daily', mission:'##', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+   // ── June 2, 2026 ──────────────────────────────
+   { date:'2026-06-02', type:'daily', mission:'2-11', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
    // ── June 1, 2026 ──────────────────────────────
     { date:'2026-06-01', type:'special', mission:'2-9', note:'until|2026-06-08T01:00:00Z',
     rewards:['adventure-coin x1000', 'energy x100'] },
