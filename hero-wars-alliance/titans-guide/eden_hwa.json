@@ -3,10 +3,10 @@
     "titans": [
         {
             "id": "eden",
-            "name": "Male",
+            "name": "Eden",
             "gender": null,
             "description": "A colossal Earth Titan capable of both devastating attacks and locking down enemies underground. Eden's random crowd control makes battles unpredictable and hard to counter.",
-            "role": ["Tank", "Control"],
+            "role": ["Super Titan, Marksman", "Control"],
             "main_class": "Earth Titan",
             "element": "Earth",
             "power": 141775,
@@ -123,32 +123,32 @@
                     {
                         "id": "sylva",
                         "name": "Sylva",
-                        "role": "Marksmen",
-                        "note": "Atira 6 flechas consecutivas a distância."
+                        "role": "Support/Buffer",
+                        "note": "Fornece buffs de suporte ao time de Terra."
                     },
                     {
                         "id": "eden",
                         "name": "Eden",
-                        "role": "Damage/Control",
+                        "role": "Tank/Control",
                         "note": "Super Titan principal. Controla inimigos com Subterranean Prison e causa alto dano em área."
                     },
                     {
                         "id": "verdoc",
                         "name": "Verdoc",
                         "role": "Buffer/Support",
-                        "note": "Principal responsável pelos buffs do time no ataque, principalmente contra times de Água. Peça central do meta Full Terra."
+                        "note": "Principal responsável pelos buffs do time no ataque. Peça central do meta Full Terra."
                     },
                     {
                         "id": "avalon",
                         "name": "Avalon",
                         "role": "Support",
-                        "note": "Complementa a sinergia do time de Terra com escudo e cura."
+                        "note": "Complementa a sinergia do time de Terra."
                     },
                     {
                         "id": "angus",
                         "name": "Angus",
                         "role": "Tank/DPS",
-                        "note": "Reforça a linha de frente do time de Terra com proteção adicional e capacidade de causar dano alto em área."
+                        "note": "Reforça a linha de frente do time de Terra."
                     }
                 ],
                 "team_notes": [
@@ -156,6 +156,27 @@
                     "Verdoc é o principal buffer do time e potencializa o dano de todos os membros.",
                     "Na defesa, adversários frequentemente utilizam Araji (Fire Titan) como counter a esta composição."
                 ]
+            },
+            "dungeon": {
+                "tier_list": {
+                    "titans_tier": "S",
+                    "dungeon_tier": "S"
+                },
+                "position": "Back Line",
+                "role": ["Super Titan", "Shooter", "Control"],
+                "how_to_obtain_soul_stones": ["Events", "Summoning Sphere"],
+                "strengths": {
+                    "general": "Eden's strength in the dungeon is undeniable. His ability to deal massive area damage and control the battlefield with stunning skills can turn the tide in your favor. In every encounter, Eden ensures that your team not only survives but thrives, maximizing your chances of success.",
+                    "team_progression": "One of Eden's greatest contributions in the dungeon is his ability to facilitate team progression. His formidable presence allows your team to dive deeper into the dungeon, facing greater challenges and reaping richer rewards along the way. With Eden by your side, you'll find yourself venturing into unexplored territories and discovering treasures beyond imagination.",
+                    "tank_synergy": "While Eden reigns supreme with his prowess, it is essential to remember the importance of balance in your team composition. Pairing Eden with a resilient tank titan like Angus, also of the strong Earth element, ensures your team remains resilient in the face of adversity. Angus's defensive capabilities complement Eden's offensive prowess, creating a formidable duo capable of withstanding even the most difficult enemies.",
+                    "elemental_advantage": "In the dungeon, where strategic decisions can mean the difference between victory and defeat, elemental advantage plays a crucial role. Fortunately, Eden's strength against Water Titans aligns perfectly with the dungeon's dynamics, where Earth Titans reign supreme. This alignment allows you to invest in Eden with confidence, knowing his abilities will shine most intensely when facing formidable Water element enemies in the dungeon."
+                },
+                "recommended_tank_partner": {
+                    "id": "angus",
+                    "name": "Angus",
+                    "element": "Earth",
+                    "reason": "Angus's defensive capabilities complement Eden's offensive prowess, creating a resilient and powerful duo for dungeon progression."
+                }
             },
             "notes": [
                 "Eden é um excelente super titan tanto na defesa quanto no ataque.",
