@@ -4,7 +4,9 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
-   
+   // ── June 4, 2026 ──────────────────────────────
+   { date:'2026-06-04', type:'daily', mission:'2-5', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
    // ── June 3, 2026 ──────────────────────────────
    { date:'2026-06-03', type:'hub', code:'ORMMM', note:'until|2026-06-08T01:00:00Z',
 rewards:['energy x20', 'intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350',] },
