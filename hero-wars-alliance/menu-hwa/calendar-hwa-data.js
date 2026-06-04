@@ -584,7 +584,7 @@ window.CALENDAR_DATA = [
 },    
 {
   titles: { en: "Titan Eden Guide", de: "Titan Eden Leitfaden", es: "Guía de Titan Eden", fr: "Guide Titan Eden", pt: "Guia do Titan Eden", ja: "タイタンエデンガイド" },
-  links: { en: "../../Hero Wars/Guia de Titãs Hero Wars/Eden-English.html", de: "", es: "", fr: "", pt: "../../Hero Wars/Guia de Titãs Hero Wars/Eden.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/titans-guide/eden-en.html", de: "../../hero-wars-alliance/titans-guide/eden-de.html", es: "../../hero-wars-alliance/titans-guide/eden-es.html", fr: "../../hero-wars-alliance/titans-guide/eden-fr.html", pt: "../../hero-wars-alliance/titans-guide/eden-pt.html", ja: "../../hero-wars-alliance/titans-guide/eden-ja.html" },       
   noStrip: true
 },  
 {
@@ -620,7 +620,7 @@ window.CALENDAR_DATA = [
 },    
 {
   titles: { en: "Titan Eden Guide", de: "Titan Eden Leitfaden", es: "Guía de Titan Eden", fr: "Guide Titan Eden", pt: "Guia do Titan Eden", ja: "タイタンエデンガイド" },
-  links: { en: "../../Hero Wars/Guia de Titãs Hero Wars/Eden-English.html", de: "", es: "", fr: "", pt: "../../Hero Wars/Guia de Titãs Hero Wars/Eden.html", ja: "" },       
+   links: { en: "../../hero-wars-alliance/titans-guide/eden-en.html", de: "../../hero-wars-alliance/titans-guide/eden-de.html", es: "../../hero-wars-alliance/titans-guide/eden-es.html", fr: "../../hero-wars-alliance/titans-guide/eden-fr.html", pt: "../../hero-wars-alliance/titans-guide/eden-pt.html", ja: "../../hero-wars-alliance/titans-guide/eden-ja.html" },       
   noStrip: true
 },  
 {
@@ -655,7 +655,7 @@ window.CALENDAR_DATA = [
 },    
 {
   titles: { en: "🌳Titan Eden Guide", de: "🌳Titan Eden Leitfaden", es: "🌳Guía de Titan Eden", fr: "🌳Guide Titan Eden", pt: "🌳Guia do Titan Eden", ja: "🌳タイタンエデンガイド" },
-   links: { en: "../../Hero Wars/Guia de Titãs Hero Wars/Eden-English.html", de: "", es: "", fr: "", pt: "../../Hero Wars/Guia de Titãs Hero Wars/Eden.html", ja: "" },       
+   links: { en: "../../hero-wars-alliance/titans-guide/eden-en.html", de: "../../hero-wars-alliance/titans-guide/eden-de.html", es: "../../hero-wars-alliance/titans-guide/eden-es.html", fr: "../../hero-wars-alliance/titans-guide/eden-fr.html", pt: "../../hero-wars-alliance/titans-guide/eden-pt.html", ja: "../../hero-wars-alliance/titans-guide/eden-ja.html" },       
   noStrip: true
 },  
 {

@@ -64,7 +64,12 @@
     "update-tempus-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide tempus",
  
     "update-yasmine-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide yasmine",
+    
+    
+    
     "update-alecto-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide alecto",
+     "update-eden-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide eden",
+
     "update-lumira-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide lumira",
      "update-umbra-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide umbra",
     
