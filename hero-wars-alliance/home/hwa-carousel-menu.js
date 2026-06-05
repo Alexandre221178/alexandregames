@@ -7,7 +7,7 @@
       src400: "../../hero-wars-alliance/images/titans-events-tips/orm-event-tips/orm-event-tips-400px.webp",
       alt: "Orm Event and Shop Guide for Hero Wars Alliance",
       title: "Orm Event and Shop Guide for Hero Wars Alliance",
-      strong: "Guide: Orm Event f2p Strategy and Shop priorities - Hero Wars Alliance(EN)",
+      strong: "Guide: Orm Event and f2p Strategy + Shop priorities - Hero Wars Alliance(EN)",
       updated: "Updated: May, 2026."
     },
     {
@@ -309,7 +309,10 @@
     // Sort keys by length descending to replace longer phrases first
     var keys = Object.keys(map).sort(function(a,b){ return b.length - a.length; });
     keys.forEach(function(k){
-      out = out.replace(new RegExp(k.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi'), map[k]);
+      var escapedKey = k.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+      var useWordBounds = /^[A-Za-z0-9]+$/.test(k);
+      var pattern = useWordBounds ? '\\b' + escapedKey + '\\b' : escapedKey;
+      out = out.replace(new RegExp(pattern,'gi'), map[k]);
     });
     return normalizeAllianceCase(out);
   }
