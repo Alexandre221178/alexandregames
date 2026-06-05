@@ -14,6 +14,7 @@ function injectGiveawayContent() {
   const announcementSource =
     (window.giveawayAnnouncementData && window.giveawayAnnouncementData[lang]) ||
     (window.giveawayData && window.giveawayData[lang]) ||
+    (window.giveawayWinnersData && window.giveawayWinnersData[lang]) ||
     null;
 
   const giveawaySource =
@@ -65,7 +66,10 @@ ${announcementBlocks}
 
     rewards.forEach(reward => {
       let td1 = '';
-      if (reward.image) {
+      if (reward.images && reward.images.length > 0) {
+        const imgs = reward.images.map(src => `<img src="${src}" alt="${reward.item}" title="${reward.item} - Hero Wars Alliance" loading="lazy" width="64" height="64">`).join('');
+        td1 = `<div class="reward-cell">${imgs}<span>${reward.item}</span></div>`;
+      } else if (reward.image) {
         td1 = `<div class="reward-cell">
         <img src="${reward.image}" alt="${reward.item}" title="${reward.item} - Hero Wars Alliance" loading="lazy" width="64" height="64">
         <span>${reward.item}</span>
