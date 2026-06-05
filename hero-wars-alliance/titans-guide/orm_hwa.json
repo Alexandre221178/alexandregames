@@ -1,0 +1,128 @@
+{
+  "id": "orm",
+  "name": "Orm",
+  "type": "titan",
+  "game_id": "Hero Wars Alliance",
+  "titan_sub_title": "Mystery Keeper",
+  "gender": "male",
+  "role": ["support"],
+  "main_role": "Support",
+  "position": "back line",
+  "main_stat": "Physical Attack",
+  "element": ["elarite", "water"],
+  "how_to_get_soul_stones": "",
+   "synergy": {
+    "type": "Water Titans",
+    "members": ["Hyperion", "Mairi", "Tydus", "Nova", "Sigurd"]
+  },
+  "counters": {
+    "strong_against": ["Fire Titans", "Light Titans", "Dark Titans"],
+    "weak_against": ["Earth Titans"],
+    "notable_counters": ["Eden", "Sylva", "Avalon", "Verdoc", "Angus"]
+  },
+  "basic_attack_formula": "(100% physical attack)",
+  "basic_attack": 689845,
+  "max_level": {
+    "exp_level": 120,
+    "notes": "This Titan is at the maximum level."
+  },
+  "stats": {
+    "health": 12139122,
+    "physical_attack": 689845,
+    "extra_defense_from_light_and_dark_titans": 120600,
+    "extra_damage_to_light_and_dark_titans": 213000
+  },
+  "description": "Orm is a mighty Titan of Elarite and a strong support for the Water element. His skill absorbs part of the damage dealt to all allies before unleashing a devastating blow upon a doomed enemy.",
+  "skills": [
+    {
+      "id": 1,
+      "variant": "base",
+      "level": 0,
+      "name": "Devastating Link",
+      "type": ["ultimate", "support", "damage accumulation"],
+      "duration_seconds": 8,
+      "accumulated_damage_percent": 50,
+      "target": "enemy in the center",
+      "description": "Binds all allies to the enemy in the center for 8.0 seconds. Accumulates a portion of damage taken by allies and deals it to the enemy when the effect ends.",
+      "effect": "Accumulated damage: 50%"
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": {
+        "physical_attack": 196800
+      },
+      "max_level": 60
+    },
+    {
+      "name": "Primordial Skin",
+      "stats": {
+        "health": 2627975
+      },
+      "max_level": 60
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "Zorval's Rite",
+      "type": "weapon",
+      "level": 120,
+      "activation_chance": 100,
+      "duration_seconds": 9,
+      "stats": {
+        "extra_defense_from_light_and_dark_titans": 150000
+      },
+      "description": "When a titan uses the Devastating Link skill in combat, it can trigger an effect that gives bonus stats to the whole team for 9 seconds."
+    },
+    {
+      "name": "Elarite Crown",
+      "type": "crown",
+      "level": 120,
+      "stats": {
+        "extra_damage_to_light_and_dark_titans": 213000,
+        "extra_defense_from_light_and_dark_titans": 120600
+      },
+      "notes": "Unique Elarite crown artifact shared among Elarite-class titans."
+    },
+    {
+      "name": "Chthonic Balance Seal",
+      "type": "seal",
+      "level": 120,
+      "stats": {
+        "physical_attack": 97500,
+        "health": 3975000
+      },
+      "notes": "Unique Elarite seal artifact shared among Elarite-class titans."
+    }
+  ],
+  "best_teams": [
+    {
+      "id": 1,
+      "name": "Water Team with Nova Tank",
+      "members": ["Hyperion", "Mairi", "Tydus", "Orm", "Nova"],
+      "notes": "Time muito bom usando Nova como tanque. Mesmo sendo uma atiradora, ao se posicionar na linha de frente ela ganha energia rapido e usa a ultimate para atordoar os inimigos."
+    },
+    {
+      "id": 2,
+      "name": "Water Team with Sigurd Tank",
+      "members": ["Hyperion", "Tydus", "Orm", "Nova", "Sigurd"],
+      "notes": "Com Sigurd como tanque, o time ganha protecao quando ele ativa a ultimate e fica imune por 5 segundos, segurando o dano antes que chegue aos aliados."
+    }
+  ],
+  "team_member_notes": {
+    "Hyperion": "Super Titan, marksman, healing and damage.",
+    "Mairi": "Support titan that decreases enemies' attack by 40%.",
+    "Tydus": "Summoner titan and healer.",
+    "Orm": "Support titan.",
+    "Nova": "Marksman titan.",
+    "Sigurd": "Tank titan with shield."
+  },
+  "lore": "Meet Orm, a mighty Titan of Elarite and a strong support for the Water element.",
+  "miscellaneous": {
+    "notes": [
+      "Orm has two elements: Elarite and Water.",
+      "His Devastating Link skill is designed to protect allies by storing part of incoming damage and returning it as a powerful hit."
+    ]
+  }
+}
