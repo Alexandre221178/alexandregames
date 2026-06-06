@@ -1,6 +1,15 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
+    {
+      link: "/hero-wars-alliance/titans-events-tips/eden-shop-titan-power-en.html",
+      src500: "/hero-wars-alliance/images/events/titan-power/titan-power-shop-500px.webp",
+      src400: "/hero-wars-alliance/images/events/titan-power/titan-power-shop-400px.webp",
+      alt: "Eden's Champion Coins shop during the Titan Power Event in Hero Wars Alliance",
+      title: "Titan Power Event Shop - Hero Wars Alliance",
+      strong: "Guide: Eden's Shop! What to Buy? Hero Wars Alliance",
+      updated: "Updated: April, 2026."
+    },   
      {
       link: "../../hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-en.html",
       src500: "../../hero-wars-alliance/images/daily-gifts/giveaway-ag-500px.webp",
