@@ -1,6 +1,15 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
+     {
+      link: "../../hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-en.html",
+      src500: "../../hero-wars-alliance/images/daily-gifts/giveaway-ag-500px.webp",
+      src400: "../../hero-wars-alliance/images/daily-gifts/giveaway-ag-500px.webp",
+      alt: "Giveaway Alexandre Games Community for Hero Wars Alliance",
+      title: "Giveaway Alexandre Games Community for Hero Wars Alliance",
+      strong: "Giveaway 1 Titan Orm - Alexandre Games Community for Hero Wars Alliance",
+      updated: "Updated: Everyday."
+    },
     {
       link: "../../hero-wars-alliance/titans-events-tips/orm-ancient-awakening-event-en.html",
       src500: "../../hero-wars-alliance/images/titans-events-tips/orm-event-tips/orm-event-tips-500px.webp",
