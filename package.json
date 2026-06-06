@@ -71,7 +71,9 @@
      "update-eden-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide eden",
 
     "update-lumira-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide lumira",
-     "update-umbra-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide umbra",
+     "update-orm-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide orm",
+
+    "update-umbra-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide umbra",
     
       
     "update-gifts-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js ag-daily-gifts-hwde gifts-hwde",

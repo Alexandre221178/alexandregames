@@ -3,6 +3,7 @@
   // SUBMENU SLIDES — adicione/remova itens aqui livremente
   // Mesmo formato do carousel: link, src500, src400, alt, title, strong, updated
   // Quando tirar do carousel, cole aqui.
+  // Este submenu fica na pag. Calendario para eventos da temporada recentes.
   // =====================================================
   var slides = [
     
@@ -26,6 +27,15 @@
       strong: "Guide: Kendle Legendary Skills for Hero Wars Alliance",
       updated: "Updated: May, 2026."
     },
+    {
+      link: "../../hero-wars-alliance/titans-guide/orm-en.html",
+      src500: "../../hero-wars-alliance/images/titans/orm/orm-500px.webp",
+      src400: "../../hero-wars-alliance/images/titans/orm/orm-400px.webp",
+      alt: "Orm Legendary Skills Guide for Hero Wars Alliance",
+      title: "Titan Orm Guide for Hero Wars Alliance",
+      strong: "Guide: Titan Orm for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },   
     {
       link: "../../hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-en.html",
       src500: "../../hero-wars-alliance/images/daily-gifts/gifts-hwa-500px.webp",

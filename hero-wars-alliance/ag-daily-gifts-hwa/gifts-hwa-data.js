@@ -1,9 +1,14 @@
-/*          npm run update-gifts-hwa       
+/*     npm run update-gifts-hwa       
 // ── June #, 2026 ──────────────────────────────
    { date:'2026-06-##', type:'daily', mission:'##', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+   // ── June 5, 2026 ──────────────────────────────
+    { date:'2026-06-03', type:'hub', code:'ORMVIDEO', note:'until|2026-06-08T01:00:00Z',
+rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
+   { date:'2026-06-05', type:'daily', mission:'3-14', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
    // ── June 4, 2026 ──────────────────────────────
    { date:'2026-06-04', type:'daily', mission:'2-7', note:'until|2026-06-07T05:00:00Z',
 rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },

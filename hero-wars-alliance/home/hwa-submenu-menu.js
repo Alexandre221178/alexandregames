@@ -3,8 +3,40 @@
   // SUBMENU SLIDES — adicione/remova itens aqui livremente
   // Mesmo formato do carousel: link, src500, src400, alt, title, strong, updated
   // Quando tirar do carousel, cole aqui.
+  // Este submenu fica na pag. home para eventos passados, mas que são recentes.
   // =====================================================
   var slides = [
+    {
+      link: "/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html",
+      src500: "/hero-wars-alliance/img-hero-wars-alliance/guide-img/how-to-play-hero-wars-on-desktop/how-to-play-hero-wars-on-pc-and-mac-500px.webp",
+      src400: "/hero-wars-alliance/img-hero-wars-alliance/guide-img/how-to-play-hero-wars-on-desktop/how-to-play-hero-wars-on-pc-and-mac-400px.webp",
+      alt: "How to Play Hero Wars Alliance on PC and Mac",
+      title: "How to Play Hero Wars Alliance on PC and Mac",
+      strong: "How to Play Hero Wars Alliance - PC and Mac",
+      updated: "Updated: April, 2026."
+    }, 
+    
+    {
+      link: "../../hero-wars-alliance/guide/realm-pve-best-teams-en.html",
+      src500: "../../hero-wars-alliance/images/guides/realm-pve-best-teams/realm-pve-best-teams-500px.webp",
+      src400: "../../hero-wars-alliance/images/guides/realm-pve-best-teams/realm-pve-best-teams-400px.webp",
+      alt: "Best PvE Realm Teams – Beat Boss Rally & Monster LV25 for Hero Wars Alliance",
+      title: "Best PvE Realm Teams – Beat Boss Rally & Monster LV25 for Hero Wars Alliance",
+      strong: "Best PvE Realm Teams – Beat Boss Rally & Monster LV25 for Hero Wars Alliance",
+      updated: "Updated: April, 2026."
+    },
+      
+    
+
+    {
+      link: "../../hero-wars-alliance/guide/books-of-boosters-en.html",
+      src500: "../../hero-wars-alliance/images/guides/book-of-boosters/boosters-500px.webp",
+      src400: "../../hero-wars-alliance/images/guides/book-of-boosters/boosters-400px.webp",
+      alt: "Boosters Guide: EXP, Skill & Evolution Books – Hero Wars Alliance",
+      title: "Boosters Guide: EXP, Skill & Evolution Books – Hero Wars Alliance",
+      strong: "Complete Boosters Guide: EXP, Skill & Evolution Books – Hero Wars Alliance",
+      updated: "Updated: April, 2026."
+    },
     {
       link: "/hero-wars-alliance/characters-guide/phobos-en.html",
       src500: "/hero-wars-alliance/images/hero/phobos/phobos-500px.webp",

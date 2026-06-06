@@ -2,6 +2,33 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
+      link: "../../hero-wars-alliance/titans-events-tips/orm-ancient-awakening-event-en.html",
+      src500: "../../hero-wars-alliance/images/titans-events-tips/orm-event-tips/orm-event-tips-500px.webp",
+      src400: "../../hero-wars-alliance/images/titans-events-tips/orm-event-tips/orm-event-tips-400px.webp",
+      alt: "Orm Event and Shop Guide for Hero Wars Alliance",
+      title: "Orm Event and Shop Guide for Hero Wars Alliance",
+      strong: "Guide: Orm Event and f2p Strategy + Shop priorities - Hero Wars Alliance(EN)",
+      updated: "Updated: May, 2026."
+    },
+    {
+      link: "../../hero-wars-alliance/titans-guide/orm-en.html",
+      src500: "../../hero-wars-alliance/images/titans/orm/orm-500px.webp",
+      src400: "../../hero-wars-alliance/images/titans/orm/orm-400px.webp",
+      alt: "Orm Legendary Skills Guide for Hero Wars Alliance",
+      title: "Titan Orm Guide for Hero Wars Alliance",
+      strong: "Guide: Titan Orm for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },   
+    {
+      link: "../../hero-wars-alliance/event-special-hwa/kendle-season-adventure-guide-en.html",
+      src500: "../../hero-wars-alliance/images/events-special-hwa/kendle-adventure-shop/kendle-adventure-shop-500px.webp",
+      src400: "../../hero-wars-alliance/images/events-special-hwa/kendle-adventure-shop/kendle-adventure-shop-400px.webp",
+      alt: "Kendle Adventure and Shop Guide for Hero Wars Alliance",
+      title: "Kendle Adventure and Shop Guide for Hero Wars Alliance",
+      strong: "Guide: Kendle Adventure and Shop f2p Strategy for Hero Wars Alliance(EN)",
+      updated: "Updated: May, 2026."
+    },
+    {
       link: "/hero-wars-alliance/characters-guide/kendle-en.html",
       src500: "/hero-wars-alliance/images/hero/kendle/kendle-500px.webp",
       src400: "/hero-wars-alliance/images/hero/kendle/kendle-400px.webp",
@@ -29,17 +56,6 @@
       strong: "Guide Updated Skin+: Dorian Legendary Skills for Hero Wars Alliance",
       updated: "Updated: May, 2026."
     },
-    
-    {
-      link: "../../hero-wars-alliance/event-special-hwa/kendle-season-adventure-guide-en.html",
-      src500: "../../hero-wars-alliance/images/events-special-hwa/kendle-adventure-shop/kendle-adventure-shop-500px.webp",
-      src400: "../../hero-wars-alliance/images/events-special-hwa/kendle-adventure-shop/kendle-adventure-shop-400px.webp",
-      alt: "Kendle Adventure and Shop Guide for Hero Wars Alliance",
-      title: "Kendle Adventure and Shop Guide for Hero Wars Alliance",
-      strong: "Guide: Kendle Adventure and Shop f2p Strategy for Hero Wars Alliance(EN)",
-      updated: "Updated: May, 2026."
-    },
-    
     
     {
       link: "/hero-wars-alliance/review/damage-over-time-en.html",
@@ -70,42 +86,7 @@
       updated: "Updated: May, 2026."
     },
  
-   
-    
-     {
-      link: "/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html",
-      src500: "/hero-wars-alliance/img-hero-wars-alliance/guide-img/how-to-play-hero-wars-on-desktop/how-to-play-hero-wars-on-pc-and-mac-500px.webp",
-      src400: "/hero-wars-alliance/img-hero-wars-alliance/guide-img/how-to-play-hero-wars-on-desktop/how-to-play-hero-wars-on-pc-and-mac-400px.webp",
-      alt: "How to Play Hero Wars Alliance on PC and Mac",
-      title: "How to Play Hero Wars Alliance on PC and Mac",
-      strong: "How to Play Hero Wars Alliance - PC and Mac",
-      updated: "Updated: April, 2026."
-    }, 
-    
-    {
-      link: "../../hero-wars-alliance/guide/realm-pve-best-teams-en.html",
-      src500: "../../hero-wars-alliance/images/guides/realm-pve-best-teams/realm-pve-best-teams-500px.webp",
-      src400: "../../hero-wars-alliance/images/guides/realm-pve-best-teams/realm-pve-best-teams-400px.webp",
-      alt: "Best PvE Realm Teams – Beat Boss Rally & Monster LV25 for Hero Wars Alliance",
-      title: "Best PvE Realm Teams – Beat Boss Rally & Monster LV25 for Hero Wars Alliance",
-      strong: "Best PvE Realm Teams – Beat Boss Rally & Monster LV25 for Hero Wars Alliance",
-      updated: "Updated: April, 2026."
-    },
-      
-    
-
-    {
-      link: "../../hero-wars-alliance/guide/books-of-boosters-en.html",
-      src500: "../../hero-wars-alliance/images/guides/book-of-boosters/boosters-500px.webp",
-      src400: "../../hero-wars-alliance/images/guides/book-of-boosters/boosters-400px.webp",
-      alt: "Boosters Guide: EXP, Skill & Evolution Books – Hero Wars Alliance",
-      title: "Boosters Guide: EXP, Skill & Evolution Books – Hero Wars Alliance",
-      strong: "Complete Boosters Guide: EXP, Skill & Evolution Books – Hero Wars Alliance",
-      updated: "Updated: April, 2026."
-    },
-    
-
-       
+          
     
     {
       link: "../../hero-wars-alliance/menu-hwa/calendar-hwa-en.html",
@@ -137,7 +118,7 @@
       updatedPrefix: 'Atualizado:',
       map: {
       strong: "Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance",
-        'Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance': 'Guia do Evento Lian Astral Reflections Skin+ - O que Comprar? (Inglês) para Hero Wars Alliance',
+        'Astral Reflections': 'Reflexões Astrais',
         'Legendary Skills Guide for Hero Wars Alliance': 'Guia de Habilidades Lendárias para Hero Wars Alliance',
         'Complete Talisman Guide 2026 for Hero Wars Alliance': 'Guia Completo de Talismãs 2026 para Hero Wars Alliance',
         'Realm Tier List Guide for Hero Wars Alliance': 'Guia da Tier List do Reino para Hero Wars Alliance',
@@ -152,10 +133,10 @@
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guia de Byrna: Liberte o Espírito do Urso Curador em Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Resgate seus Presentes Diários para Hero Wars Alliance',
         'Complete Talisman Guide': 'Guia Completo de Talismãs',  'everyday': 'todos os dias', 'How to Play': 'Como Jogar',
-        'monthly': 'mensalmente', 'How to Get the': 'Como Obter a',
-        'Calendar': 'Calendário', 
+        'monthly': 'mensalmente', 'How to Get the': 'Como Obter a', 
+        'Calendar': 'Calendário', 'priorities': 'prioridades',
         'New': 'Nova', 'and': 'e', 'Strategy': 'Estratégia',
-        'Adventure Shop Tips': 'Dicas da Loja de Aventura',
+        'Adventure Shop Tips': 'Dicas da Loja de Aventura', 'Event': 'Evento ',
         'What to Buy': 'O que Comprar', 'What to do?': 'O que fazer?', 
         'Which is better': 'Qual é o Melhor',
         'Updated': 'Atualizado',
@@ -179,11 +160,11 @@
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Guía Completa de Reliquia Legendaria de Yasmine para Hero Wars Alliance',
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guía de Byrna: Libera el Espíritu del Oso Sanador en Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Canjea tus Regalos Diarios para Hero Wars Alliance',
-        'Complete Talisman Guide': 'Guía completa de talismanes:',
-        'everyday': 'todos los días', 'How to Play': 'Cómo Jugar',
+        'Complete Talisman Guide': 'Guía completa de talismanes:', 'priorities': 'prioridades',
+        'everyday': 'todos los días', 'How to Play': 'Cómo Jugar', 
         'monthly': 'mensalmente', 'How to Get the': 'Cómo Obtener la',
         'Calendar': 'Calendario', 'Strategy': 'Estrategia',
-        'New': 'Nueva', 'and': 'y',
+        'New': 'Nueva', 'and': 'y', 'Event': 'Evento ',
         'Adventure Shop Tips': 'Consejos de la Tienda de Aventura',
         'What to Buy': 'Qué Comprar', 'What to do?': 'Qué Hacer?', 
         'Which is better': 'Cuál es Mejor',
@@ -207,8 +188,8 @@
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Guide Complet de Relique Légendaire de Yasmine pour Hero Wars Alliance',
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guide de Byrna: Libérez l\'Esprit de l\'Ours Guérisseur dans Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Échangez vos Cadeaux Quotidiens pour Hero Wars Alliance',
-        'Complete Talisman Guide:': 'Guide complet des talismans:',
-        'everyday': 'tous les jours', 'How to Play': 'Comment Jouer',
+        'Complete Talisman Guide:': 'Guide complet des talismans:', 'priorities': 'priorités',
+        'everyday': 'tous les jours', 'How to Play': 'Comment Jouer', 'Event': 'Événement',
         'monthly': 'mensuellement', 'How to Get the': 'Comment Obtenir le',
         'Calendar': 'Calendrier', 'Strategy': 'Stratégie',
         'New': 'Nouvelle', 'and': 'et',
@@ -235,8 +216,8 @@
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Vollständiger Leitfaden zu Legendärer Relikt von Yasmine für Hero Wars Alliance',
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Byrna Leitfaden: Entfessle den Heiler-Bärengeist in Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Löse deine täglichen Geschenke für Hero Wars Alliance ein',
-        'Complete Talisman Guide:': 'Vollständiger Talisman-Leitfaden:',
-        'for': 'für', 'How to Play': 'Wie man spielt',
+        'Complete Talisman Guide:': 'Vollständiger Talisman-Leitfaden:', 'priorities': 'Prioritäten',
+        'for': 'für', 'How to Play': 'Wie man spielt', 'Event': 'Event',
         'skin': 'Skin', 'How to Get the': 'Wie man das bekommt',
         'everyday': 'täglich',
         'monthly': 'monatlich',
@@ -289,11 +270,11 @@
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'ヒーローウォーズ アライアンスのバーナガイド: 癒やしの熊の精霊を解き放て',
         'Calendar for Hero Wars Alliance': 'ヒーローウォーズ アライアンス カレンダー',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのデイリーギフトを受け取る',
-        'Complete Talisman Guide:': 'タリスマン完全ガイド:', 'How to Get the': '入手方法',
+        'Complete Talisman Guide:': 'タリスマン完全ガイド:', 'How to Get the': '入手方法', 'Event': 'イベント',
         'Hero Wars: Alliance': 'ヒーローウォーズ アライアンス', 'hero wars alliance': 'ヒーローウォーズ アライアンス',
         'for': '向け', 'skin': 'スキン',  'everyday': '毎日', 'monthly': '毎月', 'Calendar': 'カレンダー',
         'New': '新しい', 'How to Play': '遊び方', 'and': 'と', 'What to do?': '何をすべきか？', 
-        'Adventure Shop Tips': 'アドベンチャーショップのヒント', 'Strategy': '戦略',
+        'Adventure Shop Tips': 'アドベンチャーショップのヒント', 'Strategy': '戦略', 'priorities': '優先事項',
         'What to Buy?': '何を買うべき？', 'Which is better': 'どちらがいいですか',
         'Updated': '更新'
       }
@@ -328,7 +309,10 @@
     // Sort keys by length descending to replace longer phrases first
     var keys = Object.keys(map).sort(function(a,b){ return b.length - a.length; });
     keys.forEach(function(k){
-      out = out.replace(new RegExp(k.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi'), map[k]);
+      var escapedKey = k.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+      var useWordBounds = /^[A-Za-z0-9]+$/.test(k);
+      var pattern = useWordBounds ? '\\b' + escapedKey + '\\b' : escapedKey;
+      out = out.replace(new RegExp(pattern,'gi'), map[k]);
     });
     return normalizeAllianceCase(out);
   }
