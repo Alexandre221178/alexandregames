@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <a href="https://alexandregames.com/hero-wars-alliance/tier-list-hwa/realm-tier-list-pt.html">Tier List do Reino</a>
             <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-pve-best-teams-pt.html">Melhores equipes para Rally e Monstro</a>
         </div>
-        <a href="https://alexandregames.com/hero-wars-alliance/menu-review-pt-hwa.html">🎨 Análises, Dicas e Estratégias</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/menu-review-pt-hwa.html">🎨 Dicas de Eventos e Análises</a>
         <a href="https://alexandregames.com/hero-wars-alliance/event-special-hwa/kendle-season-adventure-guide-en.html">🦭 Guia da Temporada - Kendle</a>
         <a href="https://alexandregames.com/Hero%20Wars/Guia%20de%20Titans.html">⚔️ Guia de Titãs</a>
         <br><br><br><br>

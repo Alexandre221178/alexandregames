@@ -104,6 +104,7 @@
     "update-calendar-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js calendar-hwde",
     "update-heroes-awakening-event-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js heroes-awakening-event-hwde",
 "update-territory-of-titans-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js territory-of-titans-hwde",
+"update-hero-cosmic-battle-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js hero-cosmic-battle-hwde",
 
     "update-titan-cosmic-battle-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titan-cosmic-battle-hwde",
 

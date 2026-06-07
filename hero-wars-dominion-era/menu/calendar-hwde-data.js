@@ -263,8 +263,8 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     date: "June, 6",
     image: "../../hero-wars-dominion-era/images/pvp-battle-database/pvp-250px.webp",
     alt: "Cosmic Battle",
-    titles: { en: "⚔️Cosmic Battle", pt: "⚔️Batalha Cósmica", de: "⚔️Kosmischer Kampf", es: "⚔️Batalla Cósmica", fr: "⚔️Bataille Cosmique", ja: "⚔️宇宙の戦い" },
-        links: { en: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", pt: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", de: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", es: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", fr: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", ja: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle" },
+    titles: { en: "⚔️Hero Cosmic Battle", pt: "⚔️Batalha Cósmica de Heróis", de: "⚔️Kosmischer Kampf der Helden", es: "⚔️Batalla Cósmica de Héroes", fr: "⚔️Bataille Cosmique des Héros", ja: "⚔️ヒーローの宇宙の戦い" },
+        links: { en: "../../hero-wars-dominion-era/events/hero-cosmic-battle-en.html", pt: "../../hero-wars-dominion-era/events/hero-cosmic-battle-pt.html", de: "../../hero-wars-dominion-era/events/hero-cosmic-battle-de.html", es: "../../hero-wars-dominion-era/events/hero-cosmic-battle-es.html", fr: "../../hero-wars-dominion-era/events/hero-cosmic-battle-fr.html", ja: "../../hero-wars-dominion-era/events/hero-cosmic-battle-ja.html" },
      noStrip: true,
  
     extra: [
@@ -278,8 +278,8 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     date: "June, 7",
     image: "../../hero-wars-dominion-era/images/pvp-battle-database/pvp-250px.webp",
     alt: "Cosmic Battle",
-    titles: { en: "⚔️Cosmic Battle", pt: "⚔️Batalha Cósmica", de: "⚔️Kosmischer Kampf", es: "⚔️Batalla Cósmica", fr: "⚔️Bataille Cosmique", ja: "⚔️宇宙の戦い" },
-        links: { en: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", pt: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", de: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", es: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", fr: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", ja: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle" },
+    titles: { en: "⚔️Hero Cosmic Battle", pt: "⚔️Batalha Cósmica de Heróis", de: "⚔️Kosmischer Kampf der Helden", es: "⚔️Batalla Cósmica de Héroes", fr: "⚔️Bataille Cosmique des Héros", ja: "⚔️ヒーローの宇宙の戦い" },
+        links: { en: "../../hero-wars-dominion-era/events/hero-cosmic-battle-en.html", pt: "../../hero-wars-dominion-era/events/hero-cosmic-battle-pt.html", de: "../../hero-wars-dominion-era/events/hero-cosmic-battle-de.html", es: "../../hero-wars-dominion-era/events/hero-cosmic-battle-es.html", fr: "../../hero-wars-dominion-era/events/hero-cosmic-battle-fr.html", ja: "../../hero-wars-dominion-era/events/hero-cosmic-battle-ja.html" },
      noStrip: true,
     extra: [
      
@@ -297,9 +297,9 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     date: "June, 8",
    image: "../../hero-wars-dominion-era/images/pvp-battle-database/pvp-250px.webp",
     alt: "Cosmic Battle",
-    titles: { en: "⚔️Cosmic Battle", pt: "⚔️Batalha Cósmica", de: "⚔️Kosmischer Kampf", es: "⚔️Batalla Cósmica", fr: "⚔️Bataille Cosmique", ja: "⚔️宇宙の戦い" },
-        links: { en: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", pt: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", de: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", es: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", fr: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle", ja: "https://support-hwde.nexters.com/hc/en-us/articles/13226793625746-Cosmic-Battle" },
-     noStrip: true,
+   titles: { en: "⚔️Hero Cosmic Battle", pt: "⚔️Batalha Cósmica de Heróis", de: "⚔️Kosmischer Kampf der Helden", es: "⚔️Batalla Cósmica de Héroes", fr: "⚔️Bataille Cosmique des Héros", ja: "⚔️ヒーローの宇宙の戦い" },
+        links: { en: "../../hero-wars-dominion-era/events/hero-cosmic-battle-en.html", pt: "../../hero-wars-dominion-era/events/hero-cosmic-battle-pt.html", de: "../../hero-wars-dominion-era/events/hero-cosmic-battle-de.html", es: "../../hero-wars-dominion-era/events/hero-cosmic-battle-es.html", fr: "../../hero-wars-dominion-era/events/hero-cosmic-battle-fr.html", ja: "../../hero-wars-dominion-era/events/hero-cosmic-battle-ja.html" },
+      noStrip: true,
     extra: [     
       
       {
