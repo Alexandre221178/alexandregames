@@ -1,13 +1,10 @@
-/* Calendar data for Alexandre Games - Last updated: 2026-02-01T16:43:33-03:00
-   - Keep links per language empty when you want to fill them manually
-   - Image and paths are relative to the page that includes the calendar
-*/
+/* Calendar data for Alexandre Games - Last updated: 2026-02-01T16:43:33-03:00*/
  /* economizar torre Missão 4(The Way Up), 11 baus da torre = 10+20+30+40+50+70+100 = 320 Rune Spheres(blue)
    - Expedicoes de valkyries(missao 4 - Journey, Rune Stones(red) and Season Points Extra= 1000+1500(25 Season Points)+2000+2500(30season points)+4000)
    - includes the calendar se fizer isso antes de zerar o horário do servidor vc consegue fazer 4 logins as missoes 
 {
   titles: { en: "", de: "", es: "", fr: "", pt: "", ja: "" },
-  links: { en: "../../", de: "", es: "", fr: "", pt: "../../", ja: "" },       
+  links: { en: "../../", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
 },  
 
@@ -21,6 +18,23 @@
  titles: { en: "Skin+", pt: "Skin+", de: "Skin+", es: "Skin+", fr: "Skin+", ja: "スキン+" },
   labelOnly: true
 },   
+
+{
+  titles: { en: "🔎 Guide: Dorian Blazing Skin+ Event - What to Buy?", pt: " 🔎Guia: Evento Dorian Blazing Skin+ - O que Comprar?", de: "🔎 Leitfaden: Dorian Blazing Skin+ Event - Was zu Kaufen?", es: "🔎 Guía: Evento Dorian Blazing Skin+ - Qué Comprar?", fr: "🔎 Guide: Événement Dorian Blazing Skin+ - Que Acheter?", ja: "🔎 ガイド: ドリアン・ブレイジングスキン+ イベント - 何を買うべきか?" },
+  links: { en: "../../hero-wars-alliance/events-tips-hwa/dorian-skin-plus-charisma-shop.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+      
+ {
+   titles: { en: "📘 Guide: Dorian Blazing Skin+", pt: "📘 Guia: Dorian Blazing Skin+", de: "📘 Leitfaden: Dorian Blazing Skin+", es: "📘 Guía: Dorian Blazing Skin+", fr: "📘 Guide: Dorian Blazing Skin+", ja: "📘 ガイド: ドリアン・ブレイジングスキン+" },
+ links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html",  ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },            
+  noStrip: true
+},    
+{
+  titles: { en: "🔥🌊🌿 Power of the Elements", pt: "🔥🌊🌿Poder dos Elementos", de: "🔥🌊🌿Macht der Elemente", es: "🔥🌊🌿 Poder de los Elementos", fr: "🔥🌊🌿Pouvoir des Éléments", ja: "🔥🌊🌿元素の力" },
+  links: { en: "../../Hero Wars/events/power-of-the-elements-event-en-hwa.html", pt: "../../Hero Wars/events/power-of-the-elements-event-pt-hwa.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
    */      
 window.CALENDAR_DATA = [
 

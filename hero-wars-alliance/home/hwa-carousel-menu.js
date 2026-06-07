@@ -8,7 +8,7 @@
       alt: "Eden's Champion Coins shop during the Titan Power Event in Hero Wars Alliance",
       title: "Titan Power Event Shop - Hero Wars Alliance",
       strong: "Guide: Eden Shop! What to Buy? Hero Wars Alliance",
-      updated: "Updated: April, 2026."
+      updated: "Updated: June, 2026."
     },   
      {
       link: "../../hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-en.html",
@@ -26,7 +26,7 @@
       alt: "Orm Event and Shop Guide for Hero Wars Alliance",
       title: "Orm Event and Shop Guide for Hero Wars Alliance",
       strong: "Guide: Orm Event and f2p Strategy + Shop priorities - Hero Wars Alliance(EN)",
-      updated: "Updated: May, 2026."
+      updated: "Updated: June, 2026."
     },
     {
       link: "../../hero-wars-alliance/titans-guide/orm-en.html",
@@ -35,7 +35,7 @@
       alt: "Orm Legendary Skills Guide for Hero Wars Alliance",
       title: "Titan Orm Guide for Hero Wars Alliance",
       strong: "Guide: Titan Orm for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
+      updated: "Updated: June, 2026."
     },   
     {
       link: "../../hero-wars-alliance/event-special-hwa/kendle-season-adventure-guide-en.html",

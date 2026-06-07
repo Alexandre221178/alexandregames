@@ -9,7 +9,7 @@
 },  
 {
   titles: { en: "", pt: "", de: "", es: "", fr: "", ja: "" },
-  links: { en: "../../", pt: "../../", de: "", es: "", fr: "",  ja: "" },       
+  links: { en: "../../", pt: "", de: "", es: "", fr: "",  ja: "" },       
   noStrip: true
 },  
 
@@ -37,12 +37,12 @@
 // img-HWM/events-img/herowarsalliance-calendar-1200px.webp?v=2026-0#
 // Título do mês do calendário (npm run update-calendar-hwa)
 window.CALENDAR_MONTH_HEADER = {
-  en: "Kendle's Season Calendar!",
-pt: "Calendário da Temporada da Kendle!",
-es: "¡Calendario de la Temporada de Kendle!",
-fr: "Calendrier de la Saison de Kendle !",
-de: "Kendles Saisonkalender!",
-ja: "ケンドルのシーズンカレンダー！"
+  en: "Season Calendar!",
+pt: "Calendário da Temporada!",
+es: "¡Calendario de la Temporada!",
+fr: "Calendrier de la Saison!",
+de: "Saisonkalender!",
+ja: "シーズンカレンダー！"
 };
 window.CALENDAR_DATA = [
 {
@@ -65,124 +65,112 @@ window.CALENDAR_DATA = [
   
 {
   weekday: "Monday",
-  date: "May, 11",
+  date: "June, 08",
     image: "../../img-HWM/events-img/outland-splendor-img/outland-splendor-200px.webp",
     alt: "Abyss Splendor",
     titles: { en: "🌌 Abyss Splendor Event", de: "🌌 Glanz des Außenlands Leitfaden", es: "🌌 Esplendor del Territorio Guía", fr: "🌌 Splendeur de l’Outreterre Guide", pt: "🌌 Esplendor da Fronteira Guia", ja: "🌌 アウトランド・スプレンダー ガイド" },
     links: { en: "/hero-wars-alliance/event-hwa/abyss-splendor-en.html", pt: "/hero-wars-alliance/event-hwa/abyss-splendor-pt.html", de: "/hero-wars-alliance/event-hwa/abyss-splendor-de.html", es: "/hero-wars-alliance/event-hwa/abyss-splendor-es.html", fr: "/hero-wars-alliance/event-hwa/abyss-splendor-fr.html", ja: "/hero-wars-alliance/event-hwa/abyss-splendor-ja.html" },
     extra: [     
-        {
-  titles: { en: "Dorian Guide", pt: "Guia do Dorian", de: "Dorian Leitfaden", es: "Guía de Dorian", fr: "Guide de Dorian",  ja: "ドリアンガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },       
-  noStrip: true
-},  
-{
-  titles: { en: "Dorian Rework", pt: "Reformulação do Dorian", de: "Dorian Überarbeitung", es: "Revisión de Dorian", fr: "Refonte de Dorian", ja: "ドリアンのリワーク" },
-  labelOnly: true
-},  
-      
+{ titles: { en: "👗Cascade New Skin: Dawn", pt: "👗Dilúvio Nova Skin: Aurora", de: "👗Kaskade Neue Skin: Morgenröte", es: "👗Cascade Nueva Skin: Aurora", fr: "👗Cascade Nouvelle Skin : Aurore", ja: "👗カスケード新スキン：ドーン" },
+ labelOnly: true },      
+{ titles: { en: "Starting June 8, Skin Stones Move from Outland to Realm Rally Bosses!", pt: "A Partir de 8 de Junho, as Pedras de Skin Saem de Outland e Passam para os Chefes de Rally do Reino!", de: "Ab dem 8. Juni wechseln Skinsteine von Outland zu den Realm-Rallye-Bossen!", es: "¡A Partir del 8 de Junio, las Piedras de Skin Pasan de Outland a los Jefes de Rally del Reino!", fr: "À Partir du 8 Juin, les Pierres de Skin Passent d’Outland aux Boss de Rallye du Royaume !", ja: "6月8日より、スキンストーンの入手先がアウトランドからレルムのラリーボスへ変更！" },
+ labelOnly: true},
+{ titles: { en: "Outland Chests Remain Available in the Hall of Fortune!", pt: "Os Baús de Outland Continuam Disponíveis no Hall da Fortuna!", de: "Outland-Truhen bleiben in der Halle des Glücks verfügbar!", es: "¡Los Cofres de Outland Siguen Disponibles en el Salón de la Fortuna!", fr: "Les Coffres d’Outland Restent Disponibles dans le Hall de la Fortune !", ja: "アウトランドチェストは幸運の館で引き続き利用可能！" },
+ labelOnly: true },
     ]
   },
   {
     weekday: "Tuesday",
-    date: "May, 12",
+    date: "June, 09",
      image: "../../img-HWM/events-img/outland-splendor-img/outland-splendor-200px.webp",
     alt: "Abyss Splendor",
     titles: { en: "🌌 Abyss Splendor Event", de: "🌌 Glanz des Außenlands Leitfaden", es: "🌌 Esplendor del Territorio Guía", fr: "🌌 Splendeur de l’Outreterre Guide", pt: "🌌 Esplendor da Fronteira Guia", ja: "🌌 アウトランド・スプレンダー ガイド" },
     links: { en: "/hero-wars-alliance/event-hwa/abyss-splendor-en.html", pt: "/hero-wars-alliance/event-hwa/abyss-splendor-pt.html", de: "/hero-wars-alliance/event-hwa/abyss-splendor-de.html", es: "/hero-wars-alliance/event-hwa/abyss-splendor-es.html", fr: "/hero-wars-alliance/event-hwa/abyss-splendor-fr.html", ja: "/hero-wars-alliance/event-hwa/abyss-splendor-ja.html" },
     extra: [     
-        {
-  titles: { en: "Dorian Guide", pt: "Guia do Dorian", de: "Dorian Leitfaden", es: "Guía de Dorian", fr: "Guide de Dorian",  ja: "ドリアンガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },       
-  noStrip: true
-},  
-{
-  titles: { en: "Dorian Rework", pt: "Reformulação do Dorian", de: "Dorian Überarbeitung", es: "Revisión de Dorian", fr: "Refonte de Dorian", ja: "ドリアンのリワーク" },
-  labelOnly: true
-},  
+        { titles: { en: "Starting June 8, Skin Stones Move from Outland to Realm Rally Bosses!", pt: "A Partir de 8 de Junho, as Pedras de Skin Saem de Outland e Passam para os Chefes de Rally do Reino!", de: "Ab dem 8. Juni wechseln Skinsteine von Outland zu den Realm-Rallye-Bossen!", es: "¡A Partir del 8 de Junio, las Piedras de Skin Pasan de Outland a los Jefes de Rally del Reino!", fr: "À Partir du 8 Juin, les Pierres de Skin Passent d’Outland aux Boss de Rallye du Royaume !", ja: "6月8日より、スキンストーンの入手先がアウトランドからレルムのラリーボスへ変更！" },
+ labelOnly: true
+},
       
+{ titles: { en: "Outland Chests Remain Available in the Hall of Fortune!", pt: "Os Baús de Outland Continuam Disponíveis no Hall da Fortuna!", de: "Outland-Truhen bleiben in der Halle des Glücks verfügbar!", es: "¡Los Cofres de Outland Siguen Disponibles en el Salón de la Fortuna!", fr: "Les Coffres d’Outland Restent Disponibles dans le Hall de la Fortune !", ja: "アウトランドチェストは幸運の館で引き続き利用可能！" },
+ labelOnly: true },
     ]
   },
 {
   weekday: "Wednesday",
-  date: "May, 13",
+  date: "June, 10",
      image: "../../img-HWM/events-img/outland-splendor-img/outland-splendor-200px.webp",
     alt: "Abyss Splendor",
     titles: { en: "🌌 Abyss Splendor Event", de: "🌌 Glanz des Außenlands Leitfaden", es: "🌌 Esplendor del Territorio Guía", fr: "🌌 Splendeur de l’Outreterre Guide", pt: "🌌 Esplendor da Fronteira Guia", ja: "🌌 アウトランド・スプレンダー ガイド" },
     links: { en: "/hero-wars-alliance/event-hwa/abyss-splendor-en.html", pt: "/hero-wars-alliance/event-hwa/abyss-splendor-pt.html", de: "/hero-wars-alliance/event-hwa/abyss-splendor-de.html", es: "/hero-wars-alliance/event-hwa/abyss-splendor-es.html", fr: "/hero-wars-alliance/event-hwa/abyss-splendor-fr.html", ja: "/hero-wars-alliance/event-hwa/abyss-splendor-ja.html" },
     extra: [     
-        {
-  titles: { en: "Dorian Guide", pt: "Guia do Dorian", de: "Dorian Leitfaden", es: "Guía de Dorian", fr: "Guide de Dorian",  ja: "ドリアンガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },       
-  noStrip: true
-},  
-{
-  titles: { en: "Dorian Rework", pt: "Reformulação do Dorian", de: "Dorian Überarbeitung", es: "Revisión de Dorian", fr: "Refonte de Dorian", ja: "ドリアンのリワーク" },
-  labelOnly: true
-},  
+       { titles: { en: "Starting June 8, Skin Stones Move from Outland to Realm Rally Bosses!", pt: "A Partir de 8 de Junho, as Pedras de Skin Saem de Outland e Passam para os Chefes de Rally do Reino!", de: "Ab dem 8. Juni wechseln Skinsteine von Outland zu den Realm-Rallye-Bossen!", es: "¡A Partir del 8 de Junio, las Piedras de Skin Pasan de Outland a los Jefes de Rally del Reino!", fr: "À Partir du 8 Juin, les Pierres de Skin Passent d’Outland aux Boss de Rallye du Royaume !", ja: "6月8日より、スキンストーンの入手先がアウトランドからレルムのラリーボスへ変更！" },
+ labelOnly: true
+},
+{ titles: { en: "Outland Chests Remain Available in the Hall of Fortune!", pt: "Os Baús de Outland Continuam Disponíveis no Hall da Fortuna!", de: "Outland-Truhen bleiben in der Halle des Glücks verfügbar!", es: "¡Los Cofres de Outland Siguen Disponibles en el Salón de la Fortuna!", fr: "Les Coffres d’Outland Restent Disponibles dans le Hall de la Fortune !", ja: "アウトランドチェストは幸運の館で引き続き利用可能！" },
+ labelOnly: true },
       
     ]
   },
   {
     weekday: "Thursday",
-    date: "May, 14",
-    image: "../../imagens/image-shared/miu-300px.webp",
-     alt: "Miu Guide",
+    date: "June, 11",
+    image: "../../imagens/image-shared/orm-300px.webp",
+     alt: "Orm Guide",
    titles: { 
- en: "Miu Guide", de: "Miu Leitfaden", es: "Guía de Miu", fr: "Guide de Miu", pt: "Guia de Miu", ja: "ミウガイド"
-},    links: { en: "../../hero-wars-alliance/characters-guide/miu-en.html", de: "../../hero-wars-alliance/characters-guide/miu-de.html", es: "../../hero-wars-alliance/characters-guide/miu-es.html", fr: "../../hero-wars-alliance/characters-guide/miu-fr.html", pt: "../../hero-wars-alliance/characters-guide/miu-pt.html", ja: "../../hero-wars-alliance/characters-guide/miu-ja.html" },
+ en: "💧Orm's Guide", de: "💧Orm Leitfaden", es: "💧Guía de Orm", fr: "💧Guide de Orm", pt: "💧Guia de Orm", ja: "💧オーム - ガイド"
+},    links: { en: "../../hero-wars-alliance/titans-guide/orm-en.html", de: "../../hero-wars-alliance/titans-guide/orm-de.html", es: "../../hero-wars-alliance/titans-guide/orm-es.html", fr: "../../hero-wars-alliance/titans-guide/orm-fr.html", pt: "../../hero-wars-alliance/titans-guide/orm-pt.html", ja: "../../hero-wars-alliance/titans-guide/orm-ja.html" },
+  noStrip: true,
   extra: [       
       {
-  titles: { en: "Path to Perfection - Miu Event", de: "", es: "", fr: "", pt: "", ja: "" },
-  links: { en: "../../hero-wars-alliance/event-hwa/path-to-perfection-en.html", de: "", es: "", fr: "", pt: "../../", ja: "" },       
+ titles: { en: "🌊Ancient Awakening - Orm Event Guide", pt: "🌊Despertar Ancestral - Guia do Evento de Orm", de: "🌊Antikes Erwachen - Orm-Event-Leitfaden", es: "🌊Despertar Ancestral - Guía del Evento de Orm", fr: "🌊Éveil Ancien - Guide de l'Événement d'Orm", ja: "🌊古代の覚醒 - オームイベントガイド" },  links: { en: "../../hero-wars-alliance/titans-events-tips/orm-ancient-awakening-event-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
 },  
     ]
   },
   {
     weekday: "Friday",
-    date: "May, 15",
-     image: "../../imagens/image-shared/miu-300px.webp",
-     alt: "Miu Guide",
+    date: "June, 12",
+     image: "../../imagens/image-shared/orm-300px.webp",
+     alt: "Orm Guide",
    titles: { 
- en: "Miu Guide", de: "Miu Leitfaden", es: "Guía de Miu", fr: "Guide de Miu", pt: "Guia de Miu", ja: "ミウガイド"
-},    links: { en: "../../hero-wars-alliance/characters-guide/miu-en.html", de: "../../hero-wars-alliance/characters-guide/miu-de.html", es: "../../hero-wars-alliance/characters-guide/miu-es.html", fr: "../../hero-wars-alliance/characters-guide/miu-fr.html", pt: "../../hero-wars-alliance/characters-guide/miu-pt.html", ja: "../../hero-wars-alliance/characters-guide/miu-ja.html" },
+ en: "💧Orm's Guide", de: "💧Orm Leitfaden", es: "💧Guía de Orm", fr: "💧Guide de Orm", pt: "💧Guia de Orm", ja: "💧オーム - ガイド"
+},    links: { en: "../../hero-wars-alliance/titans-guide/orm-en.html", de: "../../hero-wars-alliance/titans-guide/orm-de.html", es: "../../hero-wars-alliance/titans-guide/orm-es.html", fr: "../../hero-wars-alliance/titans-guide/orm-fr.html", pt: "../../hero-wars-alliance/titans-guide/orm-pt.html", ja: "../../hero-wars-alliance/titans-guide/orm-ja.html" },
+  noStrip: true,
   extra: [       
       {
-  titles: { en: "Path to Perfection - Miu Event", de: "", es: "", fr: "", pt: "", ja: "" },
-  links: { en: "../../hero-wars-alliance/event-hwa/path-to-perfection-en.html", de: "", es: "", fr: "", pt: "../../", ja: "" },       
+ titles: { en: "🌊Ancient Awakening - Orm Event Guide", pt: "🌊Despertar Ancestral - Guia do Evento de Orm", de: "🌊Antikes Erwachen - Orm-Event-Leitfaden", es: "🌊Despertar Ancestral - Guía del Evento de Orm", fr: "🌊Éveil Ancien - Guide de l'Événement d'Orm", ja: "🌊古代の覚醒 - オームイベントガイド" },  links: { en: "../../hero-wars-alliance/titans-events-tips/orm-ancient-awakening-event-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
 },  
     ]
   },
   {
     weekday: "Saturday",
-    date: "May, 16",
-   image: "../../imagens/image-shared/miu-300px.webp",
-     alt: "Miu Guide",
+    date: "June, 13",
+   image: "../../imagens/image-shared/orm-300px.webp",
+     alt: "Orm Guide",
    titles: { 
- en: "Miu Guide", de: "Miu Leitfaden", es: "Guía de Miu", fr: "Guide de Miu", pt: "Guia de Miu", ja: "ミウガイド"
-},    links: { en: "../../hero-wars-alliance/characters-guide/miu-en.html", de: "../../hero-wars-alliance/characters-guide/miu-de.html", es: "../../hero-wars-alliance/characters-guide/miu-es.html", fr: "../../hero-wars-alliance/characters-guide/miu-fr.html", pt: "../../hero-wars-alliance/characters-guide/miu-pt.html", ja: "../../hero-wars-alliance/characters-guide/miu-ja.html" },
+ en: "💧Orm's Guide", de: "💧Orm Leitfaden", es: "💧Guía de Orm", fr: "💧Guide de Orm", pt: "💧Guia de Orm", ja: "💧オーム - ガイド"
+},    links: { en: "../../hero-wars-alliance/titans-guide/orm-en.html", de: "../../hero-wars-alliance/titans-guide/orm-de.html", es: "../../hero-wars-alliance/titans-guide/orm-es.html", fr: "../../hero-wars-alliance/titans-guide/orm-fr.html", pt: "../../hero-wars-alliance/titans-guide/orm-pt.html", ja: "../../hero-wars-alliance/titans-guide/orm-ja.html" },
+  noStrip: true,
   extra: [       
       {
-  titles: { en: "Path to Perfection - Miu Event", de: "", es: "", fr: "", pt: "", ja: "" },
-  links: { en: "../../hero-wars-alliance/event-hwa/path-to-perfection-en.html", de: "", es: "", fr: "", pt: "../../", ja: "" },       
+ titles: { en: "🌊Ancient Awakening - Orm Event Guide", pt: "🌊Despertar Ancestral - Guia do Evento de Orm", de: "🌊Antikes Erwachen - Orm-Event-Leitfaden", es: "🌊Despertar Ancestral - Guía del Evento de Orm", fr: "🌊Éveil Ancien - Guide de l'Événement d'Orm", ja: "🌊古代の覚醒 - オームイベントガイド" },  links: { en: "../../hero-wars-alliance/titans-events-tips/orm-ancient-awakening-event-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
 },  
     ]
   },
 {
   weekday: "Sunday",
-  date: "May, 17",
-     image: "../../imagens/image-shared/miu-300px.webp",
-     alt: "Miu Guide",
-   titles: { 
- en: "Miu Guide", de: "Miu Leitfaden", es: "Guía de Miu", fr: "Guide de Miu", pt: "Guia de Miu", ja: "ミウガイド"
-},    links: { en: "../../hero-wars-alliance/characters-guide/miu-en.html", de: "../../hero-wars-alliance/characters-guide/miu-de.html", es: "../../hero-wars-alliance/characters-guide/miu-es.html", fr: "../../hero-wars-alliance/characters-guide/miu-fr.html", pt: "../../hero-wars-alliance/characters-guide/miu-pt.html", ja: "../../hero-wars-alliance/characters-guide/miu-ja.html" },
+  date: "June, 14",
+     image: "../../imagens/image-shared/orm-300px.webp",
+     alt: "Orm Guide",
+  titles: { 
+ en: "💧Orm's Guide", de: "💧Orm Leitfaden", es: "💧Guía de Orm", fr: "💧Guide de Orm", pt: "💧Guia de Orm", ja: "💧オーム - ガイド"
+},    links: { en: "../../hero-wars-alliance/titans-guide/orm-en.html", de: "../../hero-wars-alliance/titans-guide/orm-de.html", es: "../../hero-wars-alliance/titans-guide/orm-es.html", fr: "../../hero-wars-alliance/titans-guide/orm-fr.html", pt: "../../hero-wars-alliance/titans-guide/orm-pt.html", ja: "../../hero-wars-alliance/titans-guide/orm-ja.html" },
+  noStrip: true,
   extra: [       
       {
-  titles: { en: "Path to Perfection Event(old)", de: "", es: "", fr: "", pt: "", ja: "" },
-  links: { en: "../../hero-wars-alliance/events-tips-hwa/drayne-path-to-perfection-en.html", de: "", es: "", fr: "", pt: "../../", ja: "" },       
+ titles: { en: "🌊Ancient Awakening - Orm Event Guide", pt: "🌊Despertar Ancestral - Guia do Evento de Orm", de: "🌊Antikes Erwachen - Orm-Event-Leitfaden", es: "🌊Despertar Ancestral - Guía del Evento de Orm", fr: "🌊Éveil Ancien - Guide de l'Événement d'Orm", ja: "🌊古代の覚醒 - オームイベントガイド" },  links: { en: "../../hero-wars-alliance/titans-events-tips/orm-ancient-awakening-event-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
 },  
     ]
@@ -190,25 +178,20 @@ window.CALENDAR_DATA = [
 
   {
     weekday: "Monday",
-    date: "May, 18",
-    image: "../../img-HWM/events-img/way-of-chaos/way-of-chaos-200px.webp",
-    alt: "Tips for Dorian - Way of Chaos Event",
-    titles: { en: "Tips for Dorian - Way of Chaos Event", de: "Tipps für Dorian - Chaos des Weges Event", es: "Consejos para Dorian - Evento Camino del Caos", fr: "Conseils pour Dorian - Événement Voie du Chaos", pt: "Dicas para Dorian no Evento Caminho do Caos", ja: "ドリアンの混沌の道イベントのヒント" },
-    links: { en: "../../hero-wars-alliance/event-hwa/way-of-chaos-hwa-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-chaos-hwa-pt.html", ja: "" },
-    extra: [     
+    date: "June, 15",
+   image: "../../img-HWM/events-img/secrets-of-the-dungeon-img/secrets-of-the-dungeon-200px.webp",
+    alt: "Tips for Secrets of the Dungeon Event",
+    titles: { en: "🏰Tips for Secrets of the Dungeon Event", de: "🏰Tipps für das Geheimnisse des Dungeons Event", es: "🏰Consejos para el Evento Secretos de la Mazmorra", fr: "🏰Conseils pour l'Événement Secrets du Donjon", pt: "🏰Dicas para o Evento Segredos da Masmorra", ja: "🏰ダンジョンの秘密イベントのヒント" },
+    links: { en: "../../Hero Wars/events/secrets-of-the-dungeon-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/secrets-of-the-dungeon-pt-hwa.html", ja: "" },
+    extra: [    
       {
-        titles: { en: "Dorian - Relic Event", de: "Dorian - Relikt-Ereignis", es: "Dorian - Evento de Reliquia", fr: "Dorian - Événement des Reliques", pt: "Dorian - Evento de Relíquia", ja: "ドリアン - レリックイベント" },
+        titles: { en: "📿Satori - Relic Event", de: "📿Satori - Relikt-Ereignis", es: "📿Satori - Evento de Reliquia", fr: "📿Satori - Événement des Reliques", pt: "📿Satori - Evento de Relíquia", ja: "📿サトリ - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
        },  
       
       {        
-  titles: { en: "Dorian Guide", pt: "Guia do Dorian", de: "Dorian Leitfaden", es: "Guía de Dorian", fr: "Guide de Dorian",  ja: "ドリアンガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },       
-  noStrip: true
-},  
-{
-  titles: { en: "Dorian Shop - What to buy?", de: "Dorian Shop - Was kaufen?", es: "Tienda de Dorian - ¿Qué comprar?", fr: "Boutique de Dorian - Que acheter?", pt: "Loja do Dorian - O que comprar?", ja: "ドリアンショップ - 何を買うか？" },
-  links: { en: "../../hero-wars-alliance/events-tips-hwa/dorian-way-of-chaos-shop-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  titles: { en: "🦊Satori Guide", pt: "🦊Guia do Satori", de: "🦊Satori Leitfaden", es: "🦊Guía de Satori", fr: "🦊Guide de Satori",  ja: "🦊サトリ - ガイド" },
+  links: { en: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-pt.html", ja: "" },       
   noStrip: true
 },  
 
@@ -217,71 +200,68 @@ window.CALENDAR_DATA = [
 
   {
     weekday: "Tuesday",
-    date: "May, 19",
-     image: "../../img-HWM/events-img/way-of-chaos/way-of-chaos-200px.webp",
-    alt: "Tips for Dorian - Way of Chaos Event",
-    titles: { en: "Tips for Dorian - Way of Chaos Event", de: "Tipps für Dorian - Chaos des Weges Event", es: "Consejos para Dorian - Evento Camino del Caos", fr: "Conseils pour Dorian - Événement Voie du Chaos", pt: "Dicas para Dorian no Evento Caminho do Caos", ja: "ドリアンの混沌の道イベントのヒント" },
-    links: { en: "../../hero-wars-alliance/event-hwa/way-of-chaos-hwa-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-chaos-hwa-pt.html", ja: "" },
-    extra: [     
-      {
-        titles: { en: "Dorian - Relic Event", de: "Dorian - Relikt-Ereignis", es: "Dorian - Evento de Reliquia", fr: "Dorian - Événement des Reliques", pt: "Dorian - Evento de Relíquia", ja: "ドリアン - レリックイベント" },
+    date: "June, 16",
+    image: "../../img-HWM/events-img/secrets-of-the-dungeon-img/secrets-of-the-dungeon-200px.webp",
+    alt: "Tips for Secrets of the Dungeon Event",
+    titles: { en: "🏰Tips for Secrets of the Dungeon Event", de: "🏰Tipps für das Geheimnisse des Dungeons Event", es: "🏰Consejos para el Evento Secretos de la Mazmorra", fr: "🏰Conseils pour l'Événement Secrets du Donjon", pt: "🏰Dicas para o Evento Segredos da Masmorra", ja: "🏰ダンジョンの秘密イベントのヒント" },
+    links: { en: "../../Hero Wars/events/secrets-of-the-dungeon-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/secrets-of-the-dungeon-pt-hwa.html", ja: "" },
+    extra: [   
+     {
+        titles: { en: "📿Satori - Relic Event", de: "📿Satori - Relikt-Ereignis", es: "📿Satori - Evento de Reliquia", fr: "📿Satori - Événement des Reliques", pt: "📿Satori - Evento de Relíquia", ja: "📿サトリ - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
        },  
       
       {        
-  titles: { en: "Dorian Guide", pt: "Guia do Dorian", de: "Dorian Leitfaden", es: "Guía de Dorian", fr: "Guide de Dorian",  ja: "ドリアンガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },       
+  titles: { en: "🦊Satori Guide", pt: "🦊Guia do Satori", de: "🦊Satori Leitfaden", es: "🦊Guía de Satori", fr: "🦊Guide de Satori",  ja: "🦊サトリ - ガイド" },
+  links: { en: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-pt.html", ja: "" },       
   noStrip: true
 },  
-{
-  titles: { en: "Dorian Shop - What to buy?", de: "Dorian Shop - Was kaufen?", es: "Tienda de Dorian - ¿Qué comprar?", fr: "Boutique de Dorian - Que acheter?", pt: "Loja do Dorian - O que comprar?", ja: "ドリアンショップ - 何を買うか？" },
-  links: { en: "../../hero-wars-alliance/events-tips-hwa/dorian-way-of-chaos-shop-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
-  noStrip: true
-}, 
     ]
   },
 
   {
     weekday: "Wednesday",
-    date: "May, 20",
-      image: "../../img-HWM/events-img/way-of-chaos/way-of-chaos-200px.webp",
-    alt: "Tips for Dorian - Way of Chaos Event",
-    titles: { en: "Tips for Dorian - Way of Chaos Event", de: "Tipps für Dorian - Chaos des Weges Event", es: "Consejos para Dorian - Evento Camino del Caos", fr: "Conseils pour Dorian - Événement Voie du Chaos", pt: "Dicas para Dorian no Evento Caminho do Caos", ja: "ドリアンの混沌の道イベントのヒント" },
-    links: { en: "../../hero-wars-alliance/event-hwa/way-of-chaos-hwa-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-chaos-hwa-pt.html", ja: "" },
-    extra: [     
+    date: "June, 17",
+     image: "../../img-HWM/events-img/secrets-of-the-dungeon-img/secrets-of-the-dungeon-200px.webp",
+    alt: "Tips for Secrets of the Dungeon Event",
+    titles: { en: "🏰Tips for Secrets of the Dungeon Event", de: "🏰Tipps für das Geheimnisse des Dungeons Event", es: "🏰Consejos para el Evento Secretos de la Mazmorra", fr: "🏰Conseils pour l'Événement Secrets du Donjon", pt: "🏰Dicas para o Evento Segredos da Masmorra", ja: "🏰ダンジョンの秘密イベントのヒント" },
+    links: { en: "../../Hero Wars/events/secrets-of-the-dungeon-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/secrets-of-the-dungeon-pt-hwa.html", ja: "" },
+    extra: [    
       {
-        titles: { en: "Dorian - Relic Event", de: "Dorian - Relikt-Ereignis", es: "Dorian - Evento de Reliquia", fr: "Dorian - Événement des Reliques", pt: "Dorian - Evento de Relíquia", ja: "ドリアン - レリックイベント" },
+        titles: { en: "📿Satori - Relic Event", de: "📿Satori - Relikt-Ereignis", es: "📿Satori - Evento de Reliquia", fr: "📿Satori - Événement des Reliques", pt: "📿Satori - Evento de Relíquia", ja: "📿サトリ - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
        },  
       
       {        
-  titles: { en: "Dorian Guide", pt: "Guia do Dorian", de: "Dorian Leitfaden", es: "Guía de Dorian", fr: "Guide de Dorian",  ja: "ドリアンガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },       
+  titles: { en: "🦊Satori Guide", pt: "🦊Guia do Satori", de: "🦊Satori Leitfaden", es: "🦊Guía de Satori", fr: "🦊Guide de Satori",  ja: "🦊サトリ - ガイド" },
+  links: { en: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-pt.html", ja: "" },       
   noStrip: true
 },  
-{
-  titles: { en: "Dorian Shop - What to buy?", de: "Dorian Shop - Was kaufen?", es: "Tienda de Dorian - ¿Qué comprar?", fr: "Boutique de Dorian - Que acheter?", pt: "Loja do Dorian - O que comprar?", ja: "ドリアンショップ - 何を買うか？" },
-  links: { en: "../../hero-wars-alliance/events-tips-hwa/dorian-way-of-chaos-shop-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
-  noStrip: true
-}, 
+
     ]
   },
 
   {
     weekday: "Thursday",
-    date: "May, 21",
+    date: "June, 18",
     image: "../../hero-wars-alliance/images/events/shards-of-the-past/shards-of-the-past-250px.webp",
     alt: "📿 Shards of the Past Event Guide",
     titles: { en: "📿 Shards of the Past Event Guide", de: "📿 Fragmente der Vergangenheit Event Guide", es: "📿 Fragmentos del Pasado Event Guide", fr: "📿 Fragments du Passé Event Guide", pt: "📿 Guia do Evento Fragmentos do Passado", ja: "📿 過去の破片イベントガイド" },
     links: { en: "../../hero-wars-alliance/event-hwa/shards-of-the-past-en.html", pt: "../../hero-wars-alliance/event-hwa/shards-of-the-past-pt.html", de: "../../hero-wars-alliance/event-hwa/shards-of-the-past-de.html", es: "../../hero-wars-alliance/event-hwa/shards-of-the-past-es.html", fr: "../../hero-wars-alliance/event-hwa/shards-of-the-past-fr.html", ja: "../../hero-wars-alliance/event-hwa/shards-of-the-past-ja.html" },
     extra: [     
-      {
-        titles: { en: "Dorian - Relic Event", de: "Dorian - Relikt-Ereignis", es: "Dorian - Evento de Reliquia", fr: "Dorian - Événement des Reliques", pt: "Dorian - Evento de Relíquia", ja: "ドリアン - レリックイベント" },
+             {
+  titles: { en: "☯️All Talisman Guides", de: "☯️Alle Talisman Guides", es: "☯️Guía de Todos los Talismanes", fr: "☯️Tous les Guides des Talismans", pt: "☯️Guia de Todos os Talismãs", ja: "☯️すべてのタリスマンガイド" },
+  links: { en: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html", de: "../../hero-wars-alliance/guide/talisman-guide-hwa-de.html", es: "../../hero-wars-alliance/guide/talisman-guide-hwa-es.html", fr: "../../hero-wars-alliance/guide/talisman-guide-hwa-fr.html", pt: "../../hero-wars-alliance/guide/talisman-guide-hwa-pt.html", ja: "../../hero-wars-alliance/guide/talisman-guide-hwa-ja.html" },       
+  noStrip: true
+},  
+{
+        titles: { en: "📿Satori - Relic Event", de: "📿Satori - Relikt-Ereignis", es: "📿Satori - Evento de Reliquia", fr: "📿Satori - Événement des Reliques", pt: "📿Satori - Evento de Relíquia", ja: "📿サトリ - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
        },  
-        {
-  titles: { en: "All Talisman Guides", de: "Alle Talisman Guides", es: "Guía de Todos los Talismanes", fr: "Tous les Guides des Talismans", pt: "Guia de Todos os Talismãs", ja: "すべてのタリスマンガイド" },
-  links: { en: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html", de: "../../hero-wars-alliance/guide/talisman-guide-hwa-de.html", es: "../../hero-wars-alliance/guide/talisman-guide-hwa-es.html", fr: "../../hero-wars-alliance/guide/talisman-guide-hwa-fr.html", pt: "../../hero-wars-alliance/guide/talisman-guide-hwa-pt.html", ja: "../../hero-wars-alliance/guide/talisman-guide-hwa-ja.html" },       
+      
+      {        
+  titles: { en: "🦊Satori Guide", pt: "🦊Guia do Satori", de: "🦊Satori Leitfaden", es: "🦊Guía de Satori", fr: "🦊Guide de Satori",  ja: "🦊サトリ - ガイド" },
+  links: { en: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-pt.html", ja: "" },       
   noStrip: true
 },  
       
@@ -289,19 +269,25 @@ window.CALENDAR_DATA = [
   },
   {
     weekday: "Friday",
-    date: "May, 22",
+    date: "June, 19",
     image: "../../hero-wars-alliance/images/events/shards-of-the-past/shards-of-the-past-250px.webp",
     alt: "📿 Shards of the Past Event Guide",
     titles: { en: "📿 Shards of the Past Event Guide", de: "📿 Fragmente der Vergangenheit Event Guide", es: "📿 Fragmentos del Pasado Event Guide", fr: "📿 Fragments du Passé Event Guide", pt: "📿 Guia do Evento Fragmentos do Passado", ja: "📿 過去の破片イベントガイド" },
     links: { en: "../../hero-wars-alliance/event-hwa/shards-of-the-past-en.html", pt: "../../hero-wars-alliance/event-hwa/shards-of-the-past-pt.html", de: "../../hero-wars-alliance/event-hwa/shards-of-the-past-de.html", es: "../../hero-wars-alliance/event-hwa/shards-of-the-past-es.html", fr: "../../hero-wars-alliance/event-hwa/shards-of-the-past-fr.html", ja: "../../hero-wars-alliance/event-hwa/shards-of-the-past-ja.html" },
     extra: [     
-      {
-        titles: { en: "Dorian - Relic Event", de: "Dorian - Relikt-Ereignis", es: "Dorian - Evento de Reliquia", fr: "Dorian - Événement des Reliques", pt: "Dorian - Evento de Relíquia", ja: "ドリアン - レリックイベント" },
+             {
+  titles: { en: "☯️All Talisman Guides", de: "☯️Alle Talisman Guides", es: "☯️Guía de Todos los Talismanes", fr: "☯️Tous les Guides des Talismans", pt: "☯️Guia de Todos os Talismãs", ja: "☯️すべてのタリスマンガイド" },
+  links: { en: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html", de: "../../hero-wars-alliance/guide/talisman-guide-hwa-de.html", es: "../../hero-wars-alliance/guide/talisman-guide-hwa-es.html", fr: "../../hero-wars-alliance/guide/talisman-guide-hwa-fr.html", pt: "../../hero-wars-alliance/guide/talisman-guide-hwa-pt.html", ja: "../../hero-wars-alliance/guide/talisman-guide-hwa-ja.html" },       
+  noStrip: true
+},  
+{
+        titles: { en: "📿Satori - Relic Event", de: "📿Satori - Relikt-Ereignis", es: "📿Satori - Evento de Reliquia", fr: "📿Satori - Événement des Reliques", pt: "📿Satori - Evento de Relíquia", ja: "📿サトリ - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
        },  
-        {
-  titles: { en: "All Talisman Guides", de: "Alle Talisman Guides", es: "Guía de Todos los Talismanes", fr: "Tous les Guides des Talismans", pt: "Guia de Todos os Talismãs", ja: "すべてのタリスマンガイド" },
-  links: { en: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html", de: "../../hero-wars-alliance/guide/talisman-guide-hwa-de.html", es: "../../hero-wars-alliance/guide/talisman-guide-hwa-es.html", fr: "../../hero-wars-alliance/guide/talisman-guide-hwa-fr.html", pt: "../../hero-wars-alliance/guide/talisman-guide-hwa-pt.html", ja: "../../hero-wars-alliance/guide/talisman-guide-hwa-ja.html" },       
+      
+      {        
+  titles: { en: "🦊Satori Guide", pt: "🦊Guia do Satori", de: "🦊Satori Leitfaden", es: "🦊Guía de Satori", fr: "🦊Guide de Satori",  ja: "🦊サトリ - ガイド" },
+  links: { en: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-pt.html", ja: "" },       
   noStrip: true
 },  
       
@@ -309,19 +295,26 @@ window.CALENDAR_DATA = [
   },
   {
     weekday: "Saturday",
-    date: "May, 23",
+    date: "June, 20",
     image: "../../hero-wars-alliance/images/events/shards-of-the-past/shards-of-the-past-250px.webp",
     alt: "📿 Shards of the Past Event Guide",
     titles: { en: "📿 Shards of the Past Event Guide", de: "📿 Fragmente der Vergangenheit Event Guide", es: "📿 Fragmentos del Pasado Event Guide", fr: "📿 Fragments du Passé Event Guide", pt: "📿 Guia do Evento Fragmentos do Passado", ja: "📿 過去の破片イベントガイド" },
     links: { en: "../../hero-wars-alliance/event-hwa/shards-of-the-past-en.html", pt: "../../hero-wars-alliance/event-hwa/shards-of-the-past-pt.html", de: "../../hero-wars-alliance/event-hwa/shards-of-the-past-de.html", es: "../../hero-wars-alliance/event-hwa/shards-of-the-past-es.html", fr: "../../hero-wars-alliance/event-hwa/shards-of-the-past-fr.html", ja: "../../hero-wars-alliance/event-hwa/shards-of-the-past-ja.html" },
     extra: [   
-      {
-        titles: { en: "Dorian - Relic Event", de: "Dorian - Relikt-Ereignis", es: "Dorian - Evento de Reliquia", fr: "Dorian - Événement des Reliques", pt: "Dorian - Evento de Relíquia", ja: "ドリアン - レリックイベント" },
+            {
+ titles: { en: "☯️All Talisman Guides", de: "☯️Alle Talisman Guides", es: "☯️Guía de Todos los Talismanes", fr: "☯️Tous les Guides des Talismans", pt: "☯️Guia de Todos os Talismãs", ja: "☯️すべてのタリスマンガイド" },
+  links: { en: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html", de: "../../hero-wars-alliance/guide/talisman-guide-hwa-de.html", es: "../../hero-wars-alliance/guide/talisman-guide-hwa-es.html", fr: "../../hero-wars-alliance/guide/talisman-guide-hwa-fr.html", pt: "../../hero-wars-alliance/guide/talisman-guide-hwa-pt.html", ja: "../../hero-wars-alliance/guide/talisman-guide-hwa-ja.html" },       
+  noStrip: true
+},  
+
+{
+        titles: { en: "📿Satori - Relic Event", de: "📿Satori - Relikt-Ereignis", es: "📿Satori - Evento de Reliquia", fr: "📿Satori - Événement des Reliques", pt: "📿Satori - Evento de Relíquia", ja: "📿サトリ - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
        },  
-        {
-  titles: { en: "All Talisman Guides", de: "Alle Talisman Guides", es: "Guía de Todos los Talismanes", fr: "Tous les Guides des Talismans", pt: "Guia de Todos os Talismãs", ja: "すべてのタリスマンガイド" },
-  links: { en: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html", de: "../../hero-wars-alliance/guide/talisman-guide-hwa-de.html", es: "../../hero-wars-alliance/guide/talisman-guide-hwa-es.html", fr: "../../hero-wars-alliance/guide/talisman-guide-hwa-fr.html", pt: "../../hero-wars-alliance/guide/talisman-guide-hwa-pt.html", ja: "../../hero-wars-alliance/guide/talisman-guide-hwa-ja.html" },       
+      
+      {        
+  titles: { en: "🦊Satori Guide", pt: "🦊Guia do Satori", de: "🦊Satori Leitfaden", es: "🦊Guía de Satori", fr: "🦊Guide de Satori",  ja: "🦊サトリ - ガイド" },
+  links: { en: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-pt.html", ja: "" },       
   noStrip: true
 },  
       
@@ -330,20 +323,23 @@ window.CALENDAR_DATA = [
   
 {
   weekday: "Sunday",
-  date: "May, 24",
+  date: "June, 21",
     image: "../../hero-wars-alliance/images/events/seers-game/seers-game-150px.webp",
     alt: "Seers' Game",
     titles: { en: "🔮 Seer's Game Event", de: "Event des Seherspiels", es: "🔮 Evento del Juego de la Vidente", fr: "🔮 Événement du Jeu de la Voyante", pt: "🔮 Evento do Jogo da Vidente", ja: "🔮 予言者のゲームイベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "../../hero-wars-alliance/event-hwa/seers-game-de.html", es: "../../hero-wars-alliance/event-hwa/seers-game-es.html", fr: "../../hero-wars-alliance/event-hwa/seers-game-fr.html", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "../../hero-wars-alliance/event-hwa/seers-game-ja.html" },
     extra: [
-      {
-        titles: { en: "Dorian - Relic Event", de: "Dorian - Relikt-Ereignis", es: "Dorian - Evento de Reliquia", fr: "Dorian - Événement des Reliques", pt: "Dorian - Evento de Relíquia", ja: "ドリアン - レリックイベント" },
+  { titles: { en: "👗Satori New Skin+: Dawn", pt: "👗Satori Nova Skin+: Aurora", de: "👗Satori Neue Skin+: Morgenröte", es: "👗Satori Nueva Skin+: Aurora", fr: "👗Cascade Nouvelle Skin+: Aurore", ja: "👗サトリ - 新しいスキン+: 夜明け" },
+  links: { en: "../../", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  labelOnly: true},  
+{
+        titles: { en: "📿Satori - Relic Event", de: "📿Satori - Relikt-Ereignis", es: "📿Satori - Evento de Reliquia", fr: "📿Satori - Événement des Reliques", pt: "📿Satori - Evento de Relíquia", ja: "📿サトリ - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
        },  
-     
-       {
-  titles: { en: "Kendle Guide: Skin+", de: "Kendle Guide: Skin+", es: "Guía de Kendle Skin+", fr: "Kendle Guide: Skin+", pt: "Guia da Kendle Skin+", ja: "ケンドルガイド: スキン+" },
-  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
+      
+      {        
+  titles: { en: "🦊Satori Guide", pt: "🦊Guia do Satori", de: "🦊Satori Leitfaden", es: "🦊Guía de Satori", fr: "🦊Guide de Satori",  ja: "🦊サトリ - ガイド" },
+  links: { en: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-pt.html", ja: "" },       
   noStrip: true
 },  
        
@@ -352,40 +348,36 @@ window.CALENDAR_DATA = [
 
 {
   weekday: "Monday",
-  date: "May, 25",
+  date: "June, 22",
     image: "../../hero-wars-alliance/images/events/seers-game/seers-game-150px.webp",
     alt: "Seers' Game",
     titles: { en: "🔮 Seer's Game Event", de: "Event des Seherspiels", es: "🔮 Evento del Juego de la Vidente", fr: "🔮 Événement du Jeu de la Voyante", pt: "🔮 Evento do Jogo da Vidente", ja: "🔮 予言者のゲームイベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "../../hero-wars-alliance/event-hwa/seers-game-de.html", es: "../../hero-wars-alliance/event-hwa/seers-game-es.html", fr: "../../hero-wars-alliance/event-hwa/seers-game-fr.html", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "../../hero-wars-alliance/event-hwa/seers-game-ja.html" },
     extra: [
-      
-     {
-  titles: { en: "Kendle Guide: Skin+", de: "Kendle Guide: Skin+", es: "Guía de Kendle Skin+", fr: "Kendle Guide: Skin+", pt: "Guia da Kendle Skin+", ja: "ケンドルガイド: スキン+" },
-  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
-  noStrip: true
-},  
+ { titles: { en: "👗Satori New Skin+: Dawn", pt: "👗Satori Nova Skin+: Aurora", de: "👗Satori Neue Skin+: Morgenröte", es: "👗Satori Nueva Skin+: Aurora", fr: "👗Cascade Nouvelle Skin+: Aurore", ja: "👗サトリ - 新しいスキン+: 夜明け" },
+  links: { en: "../../", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  labelOnly: true},     
+     
              
     ]
   },
   {
     weekday: "Tuesday",
-    date: "May, 26",
+    date: "June, 23",
     image: "../../hero-wars-alliance/images/events/seers-game/seers-game-150px.webp",
     alt: "Seers' Game",
     titles: { en: "🔮 Seer's Game Event", de: "Event des Seherspiels", es: "🔮 Evento del Juego de la Vidente", fr: "🔮 Événement du Jeu de la Voyante", pt: "🔮 Evento do Jogo da Vidente", ja: "🔮 予言者のゲームイベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "../../hero-wars-alliance/event-hwa/seers-game-de.html", es: "../../hero-wars-alliance/event-hwa/seers-game-es.html", fr: "../../hero-wars-alliance/event-hwa/seers-game-fr.html", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "../../hero-wars-alliance/event-hwa/seers-game-ja.html" },
     extra: [
-       {
-  titles: { en: "Kendle Guide: Skin+", de: "Kendle Guide: Skin+", es: "Guía de Kendle Skin+", fr: "Kendle Guide: Skin+", pt: "Guia da Kendle Skin+", ja: "ケンドルガイド: スキン+" },
-  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
-  noStrip: true
-},       
+      { titles: { en: "👗Satori New Skin+: Dawn", pt: "👗Satori Nova Skin+: Aurora", de: "👗Satori Neue Skin+: Morgenröte", es: "👗Satori Nueva Skin+: Aurora", fr: "👗Cascade Nouvelle Skin+: Aurore", ja: "👗サトリ - 新しいスキン+: 夜明け" },
+  links: { en: "../../", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  labelOnly: true},  
     ]
   },
 
 {
-  weekday: "Thursday",
-  date: "May, 27",
+  weekday: "Wednesday",
+  date: "June, 24",
    image: "../../hero-wars-alliance/images/events/rune-storm/rune-storm-250px.webp",
     alt: "Rune Storm Event",
     titles: { en: "🌪️ Rune Storm Event", de: " 🌪️Runensturm-Event", es: " 🌪️Evento Tormenta de Runas", fr: "🌪️ Événement Tempête de Runes", pt: "🌪️ Evento Tempestade de Runas", ja: "🌪️ ルーンストームイベント" },
@@ -395,8 +387,8 @@ window.CALENDAR_DATA = [
           ]
   },
   {
-    weekday: "Friday",
-    date: "May, 28",
+    weekday: "Thursday",
+    date: "June, 25",
     image: "../../hero-wars-alliance/images/events/rune-storm/rune-storm-250px.webp",
     alt: "Rune Storm Event",
     titles: { en: "🌪️ Rune Storm Event", de: " 🌪️Runensturm-Event", es: " 🌪️Evento Tormenta de Runas", fr: "🌪️ Événement Tempête de Runes", pt: "🌪️ Evento Tempestade de Runas", ja: "🌪️ ルーンストームイベント" },
@@ -406,7 +398,7 @@ window.CALENDAR_DATA = [
   },
   {
     weekday: "Friday",
-    date: "May, 29",
+    date: "June, 26",
     image: "../../hero-wars-alliance/images/events/rune-storm/rune-storm-250px.webp",
     alt: "Rune Storm Event",
     titles: { en: "🌪️ Rune Storm Event", de: " 🌪️Runensturm-Event", es: " 🌪️Evento Tormenta de Runas", fr: "🌪️ Événement Tempête de Runes", pt: "🌪️ Evento Tempestade de Runas", ja: "🌪️ ルーンストームイベント" },
@@ -417,90 +409,55 @@ window.CALENDAR_DATA = [
 
   {
     weekday: "Saturday",
-    date: "May, 30",
+    date: "June, 27",
     image: "../../hero-wars-alliance/images/events/skinplus-event/skinplus-event-500px.webp",
     alt: "Skin+ Event",
     titles: { en: "👗 Skin+ Event", de: "👗 Skin+ Event", es: "👗 Evento Skin+", fr: "👗 Événement Skin+", pt: "👗 Evento Skin+", ja: "👗 スキン+ イベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "../../hero-wars-alliance/event-hwa/skinplus-event-de.html", es: "../../hero-wars-alliance/event-hwa/skinplus-event-es.html", fr: "../../hero-wars-alliance/event-hwa/skinplus-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/skinplus-event-ja.html" },
     extra: [
-      {
-  titles: { en: "🔎 Guide: Dorian Blazing Skin+ Event - What to Buy?", pt: " 🔎Guia: Evento Dorian Blazing Skin+ - O que Comprar?", de: "🔎 Leitfaden: Dorian Blazing Skin+ Event - Was zu Kaufen?", es: "🔎 Guía: Evento Dorian Blazing Skin+ - Qué Comprar?", fr: "🔎 Guide: Événement Dorian Blazing Skin+ - Que Acheter?", ja: "🔎 ガイド: ドリアン・ブレイジングスキン+ イベント - 何を買うべきか?" },
-  links: { en: "../../hero-wars-alliance/events-tips-hwa/dorian-skin-plus-charisma-shop.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},  
       
- {
-   titles: { en: "📘 Guide: Dorian Blazing Skin+", pt: "📘 Guia: Dorian Blazing Skin+", de: "📘 Leitfaden: Dorian Blazing Skin+", es: "📘 Guía: Dorian Blazing Skin+", fr: "📘 Guide: Dorian Blazing Skin+", ja: "📘 ガイド: ドリアン・ブレイジングスキン+" },
- links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html",  ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },            
-  noStrip: true
-},    
-{
-   titles: { en: "📘 Guide: Kayla Blazing Skin", pt: "📘 Guia: Kayla Blazing Skin", de: "📘 Leitfaden: Kayla Blazing Skin", es: "📘 Guía: Kayla Blazing Skin", fr: "📘 Guide: Kayla Blazing Skin", ja: "📘 ガイド: ケイラ・ブレイジングスキン" },
-   links: { en: "../../hero-wars-alliance/characters-guide/kayla-en.html", pt: "../../hero-wars-alliance/characters-guide/kayla-pt.html", de: "../../hero-wars-alliance/characters-guide/kayla-de.html", es: "../../hero-wars-alliance/characters-guide/kayla-es.html", fr: "../../hero-wars-alliance/characters-guide/kayla-fr.html",  ja: "../../hero-wars-alliance/characters-guide/kayla-ja.html" },
-   noStrip: true
-},        
+{ titles: { en: "👗Miu New Skin: Dawn", pt: "👗Miu Nova Skin: Aurora", de: "👗Miu Neue Skin: Morgenröte", es: "👗Miu Nueva Skin: Aurora", fr: "👗Miu Nouvelle Skin : Aurore", ja: "👗美雨 ード新スキン：ドーン" },
+ labelOnly: true },  
+ { titles: { en: "👗Somna New Skin: Dawn", pt: "👗Somna Nova Skin: Aurora", de: "👗Somna Neue Skin: Morgenröte", es: "👗Somna Nueva Skin: Aurora", fr: "👗Somna Nouvelle Skin : Aurore", ja: "👗ソムナ ード新スキン：ドーン" },
+ labelOnly: true },  
  
              
     ]
   },
   {
     weekday: "Sunday",
-    date: "May, 31",
+    date: "June, 28",
     image: "../../hero-wars-alliance/images/events/skinplus-event/skinplus-event-500px.webp",
     alt: "Skin+ Event",
     titles: { en: "👗 Skin+ Event", de: "👗 Skin+ Event", es: "👗 Evento Skin+", fr: "👗 Événement Skin+", pt: "👗 Evento Skin+", ja: "👗 スキン+ イベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "../../hero-wars-alliance/event-hwa/skinplus-event-de.html", es: "../../hero-wars-alliance/event-hwa/skinplus-event-es.html", fr: "../../hero-wars-alliance/event-hwa/skinplus-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/skinplus-event-ja.html" },
     extra: [
-      {
-  titles: { en: "🔎 Guide: Dorian Blazing Skin+ Event - What to Buy?", pt: " 🔎Guia: Evento Dorian Blazing Skin+ - O que Comprar?", de: "🔎 Leitfaden: Dorian Blazing Skin+ Event - Was zu Kaufen?", es: "🔎 Guía: Evento Dorian Blazing Skin+ - Qué Comprar?", fr: "🔎 Guide: Événement Dorian Blazing Skin+ - Que Acheter?", ja: "🔎 ガイド: ドリアン・ブレイジングスキン+ イベント - 何を買うべきか?" },
-  links: { en: "../../hero-wars-alliance/events-tips-hwa/dorian-skin-plus-charisma-shop.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},  
- {
-   titles: { en: "📘 Guide: Dorian Blazing Skin+", pt: "📘 Guia: Dorian Blazing Skin+", de: "📘 Leitfaden: Dorian Blazing Skin+", es: "📘 Guía: Dorian Blazing Skin+", fr: "📘 Guide: Dorian Blazing Skin+", ja: "📘 ガイド: ドリアン・ブレイジングスキン+" },
- links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html",  ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },            
-  noStrip: true
-},    
-{
-   titles: { en: "📘 Guide: Kayla Blazing Skin", pt: "📘 Guia: Kayla Blazing Skin", de: "📘 Leitfaden: Kayla Blazing Skin", es: "📘 Guía: Kayla Blazing Skin", fr: "📘 Guide: Kayla Blazing Skin", ja: "📘 ガイド: ケイラ・ブレイジングスキン" },
-   links: { en: "../../hero-wars-alliance/characters-guide/kayla-en.html", pt: "../../hero-wars-alliance/characters-guide/kayla-pt.html", de: "../../hero-wars-alliance/characters-guide/kayla-de.html", es: "../../hero-wars-alliance/characters-guide/kayla-es.html", fr: "../../hero-wars-alliance/characters-guide/kayla-fr.html",  ja: "../../hero-wars-alliance/characters-guide/kayla-ja.html" },
-   noStrip: true
-},
+      { titles: { en: "👗Miu New Skin: Dawn", pt: "👗Miu Nova Skin: Aurora", de: "👗Miu Neue Skin: Morgenröte", es: "👗Miu Nueva Skin: Aurora", fr: "👗Miu Nouvelle Skin : Aurore", ja: "👗美雨 ード新スキン：ドーン" },
+ labelOnly: true },  
+ { titles: { en: "👗Somna New Skin: Dawn", pt: "👗Somna Nova Skin: Aurora", de: "👗Somna Neue Skin: Morgenröte", es: "👗Somna Nueva Skin: Aurora", fr: "👗Somna Nouvelle Skin : Aurore", ja: "👗ソムナ ード新スキン：ドーン" },
+ labelOnly: true }, 
              
     ]
   },
   {
     weekday: "Monday",
-    date: "June, 1",
+    date: "June, 29",
     image: "../../hero-wars-alliance/images/events/skinplus-event/skinplus-event-500px.webp",
     alt: "Skin+ Event",
    titles: { en: "👗 Skin+ Event", de: "👗 Skin+ Event", es: "👗 Evento Skin+", fr: "👗 Événement Skin+", pt: "👗 Evento Skin+", ja: "👗 スキン+ イベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "../../hero-wars-alliance/event-hwa/skinplus-event-de.html", es: "../../hero-wars-alliance/event-hwa/skinplus-event-es.html", fr: "../../hero-wars-alliance/event-hwa/skinplus-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/skinplus-event-ja.html" },
     extra: [
-       {
-  titles: { en: "🔎 Guide: Dorian Blazing Skin+ Event - What to Buy?", pt: " 🔎Guia: Evento Dorian Blazing Skin+ - O que Comprar?", de: "🔎 Leitfaden: Dorian Blazing Skin+ Event - Was zu Kaufen?", es: "🔎 Guía: Evento Dorian Blazing Skin+ - Qué Comprar?", fr: "🔎 Guide: Événement Dorian Blazing Skin+ - Que Acheter?", ja: "🔎 ガイド: ドリアン・ブレイジングスキン+ イベント - 何を買うべきか?" },
-  links: { en: "../../hero-wars-alliance/events-tips-hwa/dorian-skin-plus-charisma-shop.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
+       { titles: { en: "👗Miu New Skin: Dawn", pt: "👗Miu Nova Skin: Aurora", de: "👗Miu Neue Skin: Morgenröte", es: "👗Miu Nueva Skin: Aurora", fr: "👗Miu Nouvelle Skin : Aurore", ja: "👗美雨 ード新スキン：ドーン" },
+ labelOnly: true },  
+ { titles: { en: "👗Somna New Skin: Dawn", pt: "👗Somna Nova Skin: Aurora", de: "👗Somna Neue Skin: Morgenröte", es: "👗Somna Nueva Skin: Aurora", fr: "👗Somna Nouvelle Skin : Aurore", ja: "👗ソムナ ード新スキン：ドーン" },
+ labelOnly: true }, 
+{ titles: { en: "🏺Cascade - Relic Event", de: "🏺Kaskade - Relikt-Ereignis", es: "🏺Cascade - Evento de Reliquia", fr: "🏺Cascade - Événement des Reliques", pt: "🏺Dilúvio - Evento de Relíquia", ja: "🏺カスケード - レリックイベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
 },  
- {
-   titles: { en: "📘 Guide: Dorian Blazing Skin+", pt: "📘 Guia: Dorian Blazing Skin+", de: "📘 Leitfaden: Dorian Blazing Skin+", es: "📘 Guía: Dorian Blazing Skin+", fr: "📘 Guide: Dorian Blazing Skin+", ja: "📘 ガイド: ドリアン・ブレイジングスキン+" },
- links: { en: "../../hero-wars-alliance/characters-guide/dorian-en.html", pt: "../../hero-wars-alliance/characters-guide/dorian-pt.html", de: "../../hero-wars-alliance/characters-guide/dorian-de.html", es: "../../hero-wars-alliance/characters-guide/dorian-es.html", fr: "../../hero-wars-alliance/characters-guide/dorian-fr.html",  ja: "../../hero-wars-alliance/characters-guide/dorian-ja.html" },            
-  noStrip: true
-},    
 {
-   titles: { en: "📘 Guide: Kayla Blazing Skin", pt: "📘 Guia: Kayla Blazing Skin", de: "📘 Leitfaden: Kayla Blazing Skin", es: "📘 Guía: Kayla Blazing Skin", fr: "📘 Guide: Kayla Blazing Skin", ja: "📘 ガイド: ケイラ・ブレイジングスキン" },
-   links: { en: "../../hero-wars-alliance/characters-guide/kayla-en.html", pt: "../../hero-wars-alliance/characters-guide/kayla-pt.html", de: "../../hero-wars-alliance/characters-guide/kayla-de.html", es: "../../hero-wars-alliance/characters-guide/kayla-es.html", fr: "../../hero-wars-alliance/characters-guide/kayla-fr.html",  ja: "../../hero-wars-alliance/characters-guide/kayla-ja.html" },
-   noStrip: true
-},
-      
-{
-        titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: "🏺Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
-        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
-       },  
-       {
-  titles: { en: "Kendle Guide", de: "Kendle Leitfaden", es: "Guía de Kendle", fr: "Guide Kendle", pt: "Guia da Kendle", ja: "ケンドル - ガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },       
-  noStrip: true
+titles: { en: "📘Cascade Guide", de: "📘Kaskade Leitfaden", es: "📘Guía de Cascade", fr: "📘Guide Cascadee", pt: "📘Guia da Dilúvio", ja: "📘カスケード - ガイド" },
+ links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Cascade - English.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+noStrip: true
 },  
              
     ]
@@ -508,93 +465,89 @@ window.CALENDAR_DATA = [
 
   {
     weekday: "Tuesday",
-    date: "June, 2",
-    image: "../../img-HWM/events-img/secrets-of-the-dungeon-img/secrets-of-the-dungeon-200px.webp",
-    alt: "Tips for Secrets of the Dungeon Event",
-    titles: { en: "🏰Tips for Secrets of the Dungeon Event", de: "🏰Tipps für das Geheimnisse des Dungeons Event", es: "🏰Consejos para el Evento Secretos de la Mazmorra", fr: "🏰Conseils pour l'Événement Secrets du Donjon", pt: "🏰Dicas para o Evento Segredos da Masmorra", ja: "🏰ダンジョンの秘密イベントのヒント" },
-    links: { en: "../../Hero Wars/events/secrets-of-the-dungeon-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/secrets-of-the-dungeon-pt-hwa.html", ja: "" },
+    date: "June, 30",
+    image: "../../img-HWM/events-img/way-of-mystery-event/way-of-mystery-200px.webp",
+    alt: "Way of Mystery Event",
+    titles: { en: "🌀 Way of Mystery Event", pt: "🌀 Evento Caminho do Mistério", de: "🌀 Weg des Mysteriums Event", es: "🌀 Evento Camino del Misterio", fr: "🌀 Événement Voie du Mystère", ja: "🌀 ミステリーの道イベント" },
+    links: { en: "../../hero-wars-alliance/event-hwa/way-of-mystery-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-mystery-event-pt.html", ja: "" },
     extra: [   
-      {
-         titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: "🏺Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
-        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html" }
-       },  
-       {
-  titles: { en: "Kendle Guide", de: "Kendle Leitfaden", es: "Guía de Kendle", fr: "Guide Kendle", pt: "Guia da Kendle", ja: "ケンドル - ガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },       
-  noStrip: true
+      { titles: { en: "🏺Cascade - Relic Event", de: "🏺Kaskade - Relikt-Ereignis", es: "🏺Cascade - Evento de Reliquia", fr: "🏺Cascade - Événement des Reliques", pt: "🏺Dilúvio - Evento de Relíquia", ja: "🏺カスケード - レリックイベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+},  
+{
+titles: { en: "📘Cascade Guide", de: "📘Kaskade Leitfaden", es: "📘Guía de Cascade", fr: "📘Guide Cascadee", pt: "📘Guia da Dilúvio", ja: "📘カスケード - ガイド" },
+ links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Cascade - English.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+noStrip: true
 },  
     ]
   },
 
   {
     weekday: "Wednesday",
-    date: "June, 3",
-    image: "../../img-HWM/events-img/secrets-of-the-dungeon-img/secrets-of-the-dungeon-200px.webp",
-    alt: "Tips for Secrets of the Dungeon Event",
-   titles: { en: "🏰Tips for Secrets of the Dungeon Event", de: "🏰Tipps für das Geheimnisse des Dungeons Event", es: "🏰Consejos para el Evento Secretos de la Mazmorra", fr: "🏰Conseils pour l'Événement Secrets du Donjon", pt: "🏰Dicas para o Evento Segredos da Masmorra", ja: "🏰ダンジョンの秘密イベントのヒント" },
-    links: { en: "../../Hero Wars/events/secrets-of-the-dungeon-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/secrets-of-the-dungeon-pt-hwa.html", ja: "" },
+    date: "July, 01",
+   image: "../../img-HWM/events-img/way-of-mystery-event/way-of-mystery-200px.webp",
+    alt: "Way of Mystery Event",
+    titles: { en: "🌀 Way of Mystery Event", pt: "🌀 Evento Caminho do Mistério", de: "🌀 Weg des Mysteriums Event", es: "🌀 Evento Camino del Misterio", fr: "🌀 Événement Voie du Mystère", ja: "🌀 ミステリーの道イベント" },
+    links: { en: "../../hero-wars-alliance/event-hwa/way-of-mystery-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-mystery-event-pt.html", ja: "" },
     extra: [   
-      {
-       titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: "🏺Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
-        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html" }
-       },  
-       {
-  titles: { en: "Kendle Guide", de: "Kendle Leitfaden", es: "Guía de Kendle", fr: "Guide Kendle", pt: "Guia da Kendle", ja: "ケンドル - ガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },       
-  noStrip: true
+      { titles: { en: "🏺Cascade - Relic Event", de: "🏺Kaskade - Relikt-Ereignis", es: "🏺Cascade - Evento de Reliquia", fr: "🏺Cascade - Événement des Reliques", pt: "🏺Dilúvio - Evento de Relíquia", ja: "🏺カスケード - レリックイベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
 },  
+{
+titles: { en: "📘Cascade Guide", de: "📘Kaskade Leitfaden", es: "📘Guía de Cascade", fr: "📘Guide Cascadee", pt: "📘Guia da Dilúvio", ja: "📘カスケード - ガイド" },
+ links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Cascade - English.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+noStrip: true
+},   
     ]
   },
   {
     weekday: "Thursday",
-    date: "June, 4",
-    image: "../../img-HWM/events-img/secrets-of-the-dungeon-img/secrets-of-the-dungeon-200px.webp",
-    alt: "Tips for Secrets of the Dungeon Event",
-    titles: { en: "🏰Tips for Secrets of the Dungeon Event", de: "🏰Tipps für das Geheimnisse des Dungeons Event", es: "🏰Consejos para el Evento Secretos de la Mazmorra", fr: "🏰Conseils pour l'Événement Secrets du Donjon", pt: "🏰Dicas para o Evento Segredos da Masmorra", ja: "🏰ダンジョンの秘密イベントのヒント" },
-    links: { en: "../../Hero Wars/events/secrets-of-the-dungeon-en-hwa.html", de: "", es: "", fr: "", pt: "../../Hero Wars/events/secrets-of-the-dungeon-pt-hwa.html", ja: "" },
+    date: "July, 02",
+    image: "../../img-HWM/events-img/way-of-mystery-event/way-of-mystery-200px.webp",
+    alt: "Way of Mystery Event",
+    titles: { en: "🌀 Way of Mystery Event", pt: "🌀 Evento Caminho do Mistério", de: "🌀 Weg des Mysteriums Event", es: "🌀 Evento Camino del Misterio", fr: "🌀 Événement Voie du Mystère", ja: "🌀 ミステリーの道イベント" },
+    links: { en: "../../hero-wars-alliance/event-hwa/way-of-mystery-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/way-of-mystery-event-pt.html", ja: "" },
     extra: [   
-      {
-       titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: "🏺Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
-        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html" }
-       },  
-       {
-  titles: { en: "Kendle Guide", de: "Kendle Leitfaden", es: "Guía de Kendle", fr: "Guide Kendle", pt: "Guia da Kendle", ja: "ケンドル - ガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },       
-  noStrip: true
+      { titles: { en: "🏺Cascade - Relic Event", de: "🏺Kaskade - Relikt-Ereignis", es: "🏺Cascade - Evento de Reliquia", fr: "🏺Cascade - Événement des Reliques", pt: "🏺Dilúvio - Evento de Relíquia", ja: "🏺カスケード - レリックイベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+},  
+{
+titles: { en: "📘Cascade Guide", de: "📘Kaskade Leitfaden", es: "📘Guía de Cascade", fr: "📘Guide Cascadee", pt: "📘Guia da Dilúvio", ja: "📘カスケード - ガイド" },
+ links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Cascade - English.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+noStrip: true
 },  
     ]
   },
   {
     weekday: "Friday",
-    date: "June, 5",
+    date: "July, 03",
     image: "../../img-HWM/events-img/titan-power/titan-power-200px.webp",
     alt: "Titan Power Event",
     titles: { en: "⚡Titan Power Event", de: "⚡Titanenmacht Ereignis", es: "⚡Evento Poder del Titán", fr: "⚡Événement Puissance du Titan", pt: "⚡Evento Poder do Titã", ja: "⚡タイタンパワーイベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/titan-power-event-en-hwa.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/titan-power-event-pt-hwa.html", ja: "" },
     extra: [  
        {
-  titles: { en: "🔥🌊🌿 Power of the Elements", pt: "🔥🌊🌿Poder dos Elementos", de: "🔥🌊🌿Macht der Elemente", es: "🔥🌊🌿 Poder de los Elementos", fr: "🔥🌊🌿Pouvoir des Éléments", ja: "🔥🌊🌿元素の力" },
-  links: { en: "../../Hero Wars/events/power-of-the-elements-event-en-hwa.html", pt: "../../Hero Wars/events/power-of-the-elements-event-pt-hwa.html", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌞🌑 Blessing Worlds", pt: "🌞🌑 Mundos Abençoados", de: "🌞🌑 Gesegnete Welten", es: "🌞🌑 Mundos Bendecidos", fr: "🌞🌑 Mondes Bénis", ja: "🌞🌑 祝福された世界" },
+  links: { en: "../../hero-wars-alliance/event-hwa/blessing-of-worlds-en.html", pt: "../../hero-wars-alliance/event-hwa/blessing-of-worlds-pt.html", de: "", es: "", fr: "",  ja: "" },       
   noStrip: true
 },  
      
        {
- titles: { en: "Titan Power (Eden)", pt: "Evento Poder do Titã (Eden)", de: "Titanenmacht Ereignis (Eden)", es: "Evento Poder del Titán (Eden)", fr: "Événement Puissance du Titan (Eden)", ja: "タイタンパワーイベント (エデン)" },
+ titles: { en: "📘Titan Power (Umbra)", pt: "📘Evento Poder do Titã (Umbra)", de: "📘Titanenmacht Ereignis (Umbra)", es: "📘Evento Poder del Titán (Umbra)", fr: "📘Événement Puissance du Titan (Umbra)", ja: "📘タイタンパワーイベント (アンブラ)" },
   labelOnly: true
 },    
 {
-  titles: { en: "Titan Eden Guide", de: "Titan Eden Leitfaden", es: "Guía de Titan Eden", fr: "Guide Titan Eden", pt: "Guia do Titan Eden", ja: "タイタンエデンガイド" },
+  titles: { en: "📘Titan Umbra Guide", de: "📘Titan Umbra Leitfaden", es: "📘Guía de Titan Umbra", fr: "📘Guide Titan Umbra", pt: "📘Guia do Titan Umbra", ja: "📘アンブラ - タイタンガイド" },
   links: { en: "../../hero-wars-alliance/titans-guide/eden-en.html", de: "../../hero-wars-alliance/titans-guide/eden-de.html", es: "../../hero-wars-alliance/titans-guide/eden-es.html", fr: "../../hero-wars-alliance/titans-guide/eden-fr.html", pt: "../../hero-wars-alliance/titans-guide/eden-pt.html", ja: "../../hero-wars-alliance/titans-guide/eden-ja.html" },       
   noStrip: true
 },  
+{ titles: { en: "🏺Cascade - Relic Event", de: "🏺Kaskade - Relikt-Ereignis", es: "🏺Cascade - Evento de Reliquia", fr: "🏺Cascade - Événement des Reliques", pt: "🏺Dilúvio - Evento de Relíquia", ja: "🏺カスケード - レリックイベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+},  
 {
-       titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: "🏺Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
-        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html" }
-       },  
-       {
-  titles: { en: "Kendle Guide", de: "Kendle Leitfaden", es: "Guía de Kendle", fr: "Guide Kendle", pt: "Guia da Kendle", ja: "ケンドル - ガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },       
-  noStrip: true
+titles: { en: "📘Cascade Guide", de: "📘Kaskade Leitfaden", es: "📘Guía de Cascade", fr: "📘Guide Cascadee", pt: "📘Guia da Dilúvio", ja: "📘カスケード - ガイド" },
+ links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Cascade - English.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+noStrip: true
 },  
     
      
@@ -602,76 +555,77 @@ window.CALENDAR_DATA = [
   },
   {
     weekday: "Saturday",
-    date: "June, 6",
+    date: "July, 04",
     image: "../../img-HWM/events-img/titan-power/titan-power-200px.webp",
     alt: "Titan Power Event",
     titles: { en: "⚡Titan Power Event", de: "⚡Titanenmacht Ereignis", es: "⚡Evento Poder del Titán", fr: "⚡Événement Puissance du Titan", pt: "⚡Evento Poder do Titã", ja: "⚡タイタンパワーイベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/titan-power-event-en-hwa.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/titan-power-event-pt-hwa.html", ja: "" },
     extra: [  
-       {
-  titles: { en: "🔥🌊🌿 Power of the Elements", pt: "🔥🌊🌿Poder dos Elementos", de: "🔥🌊🌿Macht der Elemente", es: "🔥🌊🌿 Poder de los Elementos", fr: "🔥🌊🌿Pouvoir des Éléments", ja: "🔥🌊🌿元素の力" },
-  links: { en: "../../Hero Wars/events/power-of-the-elements-event-en-hwa.html", pt: "../../Hero Wars/events/power-of-the-elements-event-pt-hwa.html", de: "", es: "", fr: "",  ja: "" },       
+        {
+  titles: { en: "🌞🌑 Blessing Worlds", pt: "🌞🌑 Mundos Abençoados", de: "🌞🌑 Gesegnete Welten", es: "🌞🌑 Mundos Bendecidos", fr: "🌞🌑 Mondes Bénis", ja: "🌞🌑 祝福された世界" },
+  links: { en: "../../hero-wars-alliance/event-hwa/blessing-of-worlds-en.html", pt: "../../hero-wars-alliance/event-hwa/blessing-of-worlds-pt.html", de: "", es: "", fr: "",  ja: "" },       
   noStrip: true
 },  
      
        {
- titles: { en: "Titan Power (Eden)", pt: "Evento Poder do Titã (Eden)", de: "Titanenmacht Ereignis (Eden)", es: "Evento Poder del Titán (Eden)", fr: "Événement Puissance du Titan (Eden)", ja: "タイタンパワーイベント (エデン)" },
+ titles: { en: "📘Titan Power (Umbra)", pt: "📘Evento Poder do Titã (Umbra)", de: "📘Titanenmacht Ereignis (Umbra)", es: "📘Evento Poder del Titán (Umbra)", fr: "📘Événement Puissance du Titan (Umbra)", ja: "📘タイタンパワーイベント (アンブラ)" },
   labelOnly: true
 },    
 {
-  titles: { en: "Titan Eden Guide", de: "Titan Eden Leitfaden", es: "Guía de Titan Eden", fr: "Guide Titan Eden", pt: "Guia do Titan Eden", ja: "タイタンエデンガイド" },
-   links: { en: "../../hero-wars-alliance/titans-guide/eden-en.html", de: "../../hero-wars-alliance/titans-guide/eden-de.html", es: "../../hero-wars-alliance/titans-guide/eden-es.html", fr: "../../hero-wars-alliance/titans-guide/eden-fr.html", pt: "../../hero-wars-alliance/titans-guide/eden-pt.html", ja: "../../hero-wars-alliance/titans-guide/eden-ja.html" },       
+  titles: { en: "📘Titan Umbra Guide", de: "📘Titan Umbra Leitfaden", es: "📘Guía de Titan Umbra", fr: "📘Guide Titan Umbra", pt: "📘Guia do Titan Umbra", ja: "📘アンブラ - タイタンガイド" },
+  links: { en: "../../hero-wars-alliance/titans-guide/eden-en.html", de: "../../hero-wars-alliance/titans-guide/eden-de.html", es: "../../hero-wars-alliance/titans-guide/eden-es.html", fr: "../../hero-wars-alliance/titans-guide/eden-fr.html", pt: "../../hero-wars-alliance/titans-guide/eden-pt.html", ja: "../../hero-wars-alliance/titans-guide/eden-ja.html" },       
   noStrip: true
+},  
+{ titles: { en: "🏺Cascade - Relic Event", de: "🏺Kaskade - Relikt-Ereignis", es: "🏺Cascade - Evento de Reliquia", fr: "🏺Cascade - Événement des Reliques", pt: "🏺Dilúvio - Evento de Relíquia", ja: "🏺カスケード - レリックイベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
 },  
 {
-       titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: "🏺Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
-        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html" }
-       },  
-       {
-  titles: { en: "Kendle Guide", de: "Kendle Leitfaden", es: "Guía de Kendle", fr: "Guide Kendle", pt: "Guia da Kendle", ja: "ケンドル - ガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },       
-  noStrip: true
+titles: { en: "📘Cascade Guide", de: "📘Kaskade Leitfaden", es: "📘Guía de Cascade", fr: "📘Guide Cascadee", pt: "📘Guia da Dilúvio", ja: "📘カスケード - ガイド" },
+ links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Cascade - English.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+noStrip: true
 },  
+    
      
     ]
   },
   {
     weekday: "Sunday",
-    date: "June, 7",
+    date: "July, 05",
     image: "../../img-HWM/events-img/titan-power/titan-power-200px.webp",
     alt: "Titan Power Event",
     titles: { en: "⚡Titan Power Event", de: "⚡Titanenmacht Ereignis", es: "⚡Evento Poder del Titán", fr: "⚡Événement Puissance du Titan", pt: "⚡Evento Poder do Titã", ja: "⚡タイタンパワーイベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/titan-power-event-en-hwa.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/titan-power-event-pt-hwa.html", ja: "" },
     extra: [  
        {
-  titles: { en: "🔥🌊🌿 Power of the Elements", pt: "🔥🌊🌿Poder dos Elementos", de: "🔥🌊🌿Macht der Elemente", es: "🔥🌊🌿 Poder de los Elementos", fr: "🔥🌊🌿Pouvoir des Éléments", ja: "🔥🌊🌿元素の力" },
-  links: { en: "../../Hero Wars/events/power-of-the-elements-event-en-hwa.html", pt: "../../Hero Wars/events/power-of-the-elements-event-pt-hwa.html", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌞🌑 Blessing Worlds", pt: "🌞🌑 Mundos Abençoados", de: "🌞🌑 Gesegnete Welten", es: "🌞🌑 Mundos Bendecidos", fr: "🌞🌑 Mondes Bénis", ja: "🌞🌑 祝福された世界" },
+  links: { en: "../../hero-wars-alliance/event-hwa/blessing-of-worlds-en.html", pt: "../../hero-wars-alliance/event-hwa/blessing-of-worlds-pt.html", de: "", es: "", fr: "",  ja: "" },       
   noStrip: true
-},
+},  
      
        {
- titles: { en: "⚔️Titan Power (Eden)", pt: "⚔️Evento Poder do Titã (Eden)", de: "⚔️Titanenmacht Ereignis (Eden)", es: "⚔️Evento Poder del Titán (Eden)", fr: "⚔️Événement Puissance du Titan (Eden)", ja: "⚔️タイタンパワーイベント (エデン)" },
+ titles: { en: "📘Titan Power (Umbra)", pt: "📘Evento Poder do Titã (Umbra)", de: "📘Titanenmacht Ereignis (Umbra)", es: "📘Evento Poder del Titán (Umbra)", fr: "📘Événement Puissance du Titan (Umbra)", ja: "📘タイタンパワーイベント (アンブラ)" },
   labelOnly: true
 },    
 {
-  titles: { en: "🌳Titan Eden Guide", de: "🌳Titan Eden Leitfaden", es: "🌳Guía de Titan Eden", fr: "🌳Guide Titan Eden", pt: "🌳Guia do Titan Eden", ja: "🌳タイタンエデンガイド" },
-   links: { en: "../../hero-wars-alliance/titans-guide/eden-en.html", de: "../../hero-wars-alliance/titans-guide/eden-de.html", es: "../../hero-wars-alliance/titans-guide/eden-es.html", fr: "../../hero-wars-alliance/titans-guide/eden-fr.html", pt: "../../hero-wars-alliance/titans-guide/eden-pt.html", ja: "../../hero-wars-alliance/titans-guide/eden-ja.html" },       
+  titles: { en: "📘Titan Umbra Guide", de: "📘Titan Umbra Leitfaden", es: "📘Guía de Titan Umbra", fr: "📘Guide Titan Umbra", pt: "📘Guia do Titan Umbra", ja: "📘アンブラ - タイタンガイド" },
+  links: { en: "../../hero-wars-alliance/titans-guide/eden-en.html", de: "../../hero-wars-alliance/titans-guide/eden-de.html", es: "../../hero-wars-alliance/titans-guide/eden-es.html", fr: "../../hero-wars-alliance/titans-guide/eden-fr.html", pt: "../../hero-wars-alliance/titans-guide/eden-pt.html", ja: "../../hero-wars-alliance/titans-guide/eden-ja.html" },       
   noStrip: true
+},  
+{ titles: { en: "🏺Cascade - Relic Event", de: "🏺Kaskade - Relikt-Ereignis", es: "🏺Cascade - Evento de Reliquia", fr: "🏺Cascade - Événement des Reliques", pt: "🏺Dilúvio - Evento de Relíquia", ja: "🏺カスケード - レリックイベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
 },  
 {
-       titles: { en: "🏺Kendle - Relic Event", de: "🏺Kendle - Relikt-Ereignis", es: "🏺Kendle - Evento de Reliquia", fr: "🏺Kendle - Événement des Reliques", pt: "🏺Kendle - Evento de Relíquia", ja: "🏺ケンドル - レリックイベント" },
-        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html" }
-       },  
-       {
-  titles: { en: "Kendle Guide", de: "Kendle Leitfaden", es: "Guía de Kendle", fr: "Guide Kendle", pt: "Guia da Kendle", ja: "ケンドル - ガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },       
-  noStrip: true
+titles: { en: "📘Cascade Guide", de: "📘Kaskade Leitfaden", es: "📘Guía de Cascade", fr: "📘Guide Cascadee", pt: "📘Guia da Dilúvio", ja: "📘カスケード - ガイド" },
+ links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Cascade - English.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+noStrip: true
 },  
+    
      
     ]
   },
 
-
+{ weekday: "Highwaymen Notice", date: "", image: "", alt: "Highwaymen Shop Notice", titles: { en: "🔸 Highwaymen mode will be discontinued, but the Highwaymen Shop remains available until July 6. Spend your coins before it closes!", pt: "🔸 O modo Highwaymen será descontinuado, mas a Loja dos Highwaymen continuará disponível até 6 de julho. Gaste suas moedas antes que ela feche!", es: "🔸 El modo Highwaymen será descontinuado, pero la Tienda de Highwaymen seguirá disponible hasta el 6 de julio. ¡Gasta tus monedas antes de que cierre!", de: "🔸 Der Highwaymen-Modus wird eingestellt, aber der Highwaymen-Shop bleibt bis zum 6. Juli verfügbar. Gib deine Münzen aus, bevor er schließt!", fr: "🔸 Le mode Highwaymen sera supprimé, mais la Boutique Highwaymen restera disponible jusqu’au 6 juillet. Dépensez vos pièces avant sa fermeture !", ja: "🔸 ハイウェイマンモードは廃止されますが、ハイウェイマンショップは7月6日まで利用可能です。閉店前にコインを使い切りましょう！" },
+ labelOnly: true },
 
 
  {

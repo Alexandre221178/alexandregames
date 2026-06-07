@@ -34,7 +34,7 @@
       alt: "Orm Legendary Skills Guide for Hero Wars Alliance",
       title: "Titan Orm Guide for Hero Wars Alliance",
       strong: "Guide: Titan Orm for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
+      updated: "Updated: June, 2026."
     },   
     {
       link: "../../hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-en.html",
