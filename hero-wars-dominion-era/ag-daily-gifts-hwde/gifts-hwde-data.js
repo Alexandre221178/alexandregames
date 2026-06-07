@@ -8,7 +8,7 @@
 // ── June #, 2026 ──────────────────────────────
 { date:'2026-06-##', type:'link', giftId:'#####', note:'until|2026-0#-##T02:00:00Z',
   rewards:['energy x500'] },
-https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
+https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=  
 */window.HWDE_GIFTS = [
    // ── June #, 2026 ──────────────────────────────
    { date:'2026-06-06', type:'link', giftId:'f3ef2f11cb24f27e3bc59d3c06d38d77', note:'level',
