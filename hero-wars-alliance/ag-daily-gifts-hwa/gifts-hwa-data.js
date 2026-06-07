@@ -5,6 +5,8 @@ rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
    // ── June 7, 2026 ──────────────────────────────
+    { date:'2026-06-07', type:'hub', code:'ORMCALENDAR', note:'until|2026-07-01T01:00:00Z',
+ rewards:['summoning-sphere x5', 'gold 250k', 'energy x20'] },
    { date:'2026-06-07', type:'daily', mission:'3-7', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
    // ── June #, 2026 ──────────────────────────────
