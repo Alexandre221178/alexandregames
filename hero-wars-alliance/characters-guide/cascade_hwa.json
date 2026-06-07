@@ -1,0 +1,309 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "cascade",
+      "name": "Cascade",
+      "gender": "male",
+      "role": ["Damage Dealer", "Control"],
+      "main_class": "Marksman",
+      "position": null,
+      "level": 120,
+      "main_stat": "Agility",
+      "faction": "Way of Mystery",
+      "how_to_get_soul_stones": null,
+      "hydra_tier_list": null,
+      "hero_tier_list": null,
+      "relic_max_stats": {
+        "physical_attack": 43001,
+        "health": 215429
+      },
+      "stats": {
+        "max_with_talisman_of_tides": {
+          "intelligence": 3708,
+          "agility": 17610,
+          "strength": 3576,
+          "health": 812498,
+          "physical_attack": 161762,
+          "magic_attack": 26230,
+          "armor": 51463.7,
+          "magic_defense": 13360,
+          "armor_penetration": 35788,
+          "crushing": 5747
+        },
+        "max_with_talisman_of_whirlpools": {
+          "intelligence": 3708,
+          "agility": 15610,
+          "strength": 3576,
+          "health": 922498,
+          "physical_attack": 142562,
+          "magic_attack": 26230,
+          "armor": 72233.7,
+          "magic_defense": 13360,
+          "armor_penetration": 35788,
+          "crushing": 5747
+        }
+      },
+      "talisman_details": {
+        "talisman_of_tides": {
+          "display_name": "Talisman of Tides",
+          "level": 50,
+          "main_stat": "Agility",
+          "main_stat_bonus": 2000,
+          "reroll_slots": [
+            { "stat": "Physical Attack", "value": 4400 },
+            { "stat": "Physical Attack", "value": 4400 },
+            { "stat": "Physical Attack", "value": 4400 }
+          ],
+          "total_reroll_bonus": {
+            "stat": "Physical Attack",
+            "value": 13200
+          },
+          "best_for": "Offensive builds focused on higher Physical Attack and main stat scaling."
+        },
+        "talisman_of_whirlpools": {
+          "display_name": "Talisman of Whirlpools",
+          "level": 50,
+          "main_stat": "Health",
+          "main_stat_bonus": 110000,
+          "reroll_slots": [
+            { "stat": "Armor", "value": 6600 },
+            { "stat": "Armor", "value": 6600 },
+            { "stat": "Armor", "value": 6600 }
+          ],
+          "total_reroll_bonus": {
+            "stat": "Armor",
+            "value": 19800
+          },
+          "best_for": "Defensive builds focused on survivability against physical damage."
+        }
+      },
+      "skills": [
+        {
+          "id": 0,
+          "variant": "base",
+          "name": "Basic Attack",
+          "type": ["Physical Damage"],
+          "description": "Deals physical damage to a single target. Cascade's fourth skill can change the damage type depending on the target's defense stats.",
+          "cooldown_seconds": 4.2,
+          "animation_delay_seconds": 0.45,
+          "damage_formula": "100% Physical Attack",
+          "scales_with": ["Physical Attack"]
+        },
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "Hydrokinesis",
+          "type": ["Debuff", "Blinding", "Control", "Damage over Time"],
+          "keywords": ["Debuff", "Blinding", "Control"],
+          "description": "Cascade unleashes a heavy downpour, damaging enemies each second for 4.0 seconds and inflicting status effects depending on their main stat. Strength heroes take physical damage and have Armor and Magic Defense decreased. Agility heroes take magic damage and are blinded. Intelligence heroes take physical damage and are silenced.",
+          "duration_seconds": 4,
+          "animation_delay_seconds": 1.2,
+          "damage_over_time_formula": "2% Physical Attack + 600 per second",
+          "armor_and_magic_defense_decrease_formula": "8% Physical Attack + 1200",
+          "scales_with": ["Physical Attack"]
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 120,
+          "name": "Tidal Wave",
+          "type": ["Magic Damage", "Knockback", "Control"],
+          "keywords": ["Knockback", "Control"],
+          "description": "Cascade dashes through enemy lines, dealing magic damage and knocking back enemies. The knockback is more effective against nearby enemies. After reaching the end of the dash, Cascade returns to a new position at the same range as the original distance from the furthest enemy.",
+          "initial_cooldown_seconds": 11,
+          "cooldown_seconds": 20,
+          "animation_delay_seconds": 0.01,
+          "damage_formula": "20% Physical Attack + 1200",
+          "scales_with": ["Physical Attack"]
+        },
+        {
+          "id": 2,
+          "variant": "legendary",
+          "relic_level": 10,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 2
+          },
+          "name": "Tidal Wave",
+          "type": ["Magic Damage", "Knockback", "Control"],
+          "keywords": ["Knockback", "Control"],
+          "effect": "Gains Hyperion's Power. The farther enemies are from Cascade, the more damage Tidal Wave deals to them.",
+          "minimum_damage_formula": "20% Physical Attack + 1200",
+          "maximum_damage_formula": "100% Physical Attack + 3000",
+          "scales_with": ["Physical Attack"],
+          "description": "Upgrades Tidal Wave to Legendary. The skill's damage now increases with enemy distance from Cascade."
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 100,
+          "name": "Refluence",
+          "type": ["Debuff", "Extra Damage"],
+          "description": "After casting Tidal Wave, Cascade inflicts the Sodden Armor status effect on enemies hit on the way back. The effect lasts for 8.0 seconds. Whenever the afflicted enemy takes damage, Sodden Armor deals extra damage of the same type. If the damage was dealt by an allied Mystery Hero, the afflicted enemy takes increased damage.",
+          "duration_seconds": 8,
+          "extra_damage_formula": "7% Physical Attack + 2400",
+          "extra_damage_from_mystery_heroes_formula": "15% Physical Attack + 4800",
+          "scales_with": ["Physical Attack"]
+        },
+        {
+          "id": 3,
+          "variant": "legendary",
+          "relic_level": 20,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 3
+          },
+          "name": "Refluence",
+          "type": ["Debuff"],
+          "effect": "Gains Mairi's cunning. The Sodden Armor effect now also reduces enemies' Physical Attack.",
+          "enemy_physical_attack_reduction_percent": 40,
+          "description": "Upgrades Refluence to Legendary. Enemies affected by Sodden Armor also lose 40% Physical Attack."
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "level": 80,
+          "name": "Elemental Surge",
+          "type": ["Passive", "Damage Type Conversion", "Extra Attack"],
+          "description": "Cascade's Magic Defense penetration is always equal to his Armor penetration value. When one of these stats is affected in battle, the other changes as well. Cascade's basic attack damage type changes with the target's defense stats: if the target's Armor is greater than their Magic Defense, the target takes magic damage; otherwise, the target takes physical damage. If the basic attack penetrates the target's Armor or Magic Defense, the target also takes the other damage type in an extra attack. If the extra attack penetrates the associated defense, the target also takes pure damage.",
+          "consecutive_attack_damage_percent": 100
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Frozen Maelstrom",
+          "type": ["Magic Damage", "Stun", "Control"],
+          "keywords": ["Stun", "Control"],
+          "effect": "Gains Nova's Accuracy. Every 12.0 seconds, launches a projectile at the back rows of enemies, dealing damage and stunning them for 1 second.",
+          "trigger_interval_seconds": 12,
+          "stun_duration_seconds": 1,
+          "magic_damage_formula": "60% Physical Attack",
+          "magic_damage_example": 84043,
+          "scales_with": ["Physical Attack"],
+          "description": "A new Legendary Relic skill that gives Cascade periodic backline control and magic damage."
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Iceberg Shard",
+          "type": ["Buff", "Damage Immunity"],
+          "effect": "Gains Sigurd's endurance. Upon activating the first ability, Cascade becomes immune to all damage for 5.0 seconds.",
+          "duration_seconds": 5,
+          "trigger": "Activating Hydrokinesis",
+          "description": "A new Legendary Relic skill that protects Cascade with brief total damage immunity when he uses his first ability."
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default Skin",
+          "stat": "Agility",
+          "bonus": 1365,
+          "secondary_effects": {
+            "physical_attack_from_agility": 4095,
+            "armor_from_agility": 1365
+          }
+        },
+        {
+          "name": "Winter Skin",
+          "stat": "Armor Penetration",
+          "bonus": 10650,
+          "level": 60
+        },
+        {
+          "name": "Mythical Skin+",
+          "stat": "Physical Attack",
+          "bonus": 14190,
+          "level": 60,
+          "is_skin_plus": true
+        },
+        {
+          "name": "Stellar Skin",
+          "stat": "Armor",
+          "bonus": 10650,
+          "level": 60
+        },
+        {
+          "name": "Harvest Skin",
+          "stat": "Health",
+          "bonus": 106645,
+          "level": 60
+        }
+      ],
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Claws of the River Fae",
+          "level": 100,
+          "activation_chance": 100,
+          "effect": "Magic Penetration +19224, Armor Penetration +19224",
+          "magic_penetration": 19224,
+          "armor_penetration": 19224
+        },
+        {
+          "slot": "Book",
+          "name": "Alchemist's Folio",
+          "level": 100,
+          "effect": "Armor Penetration +10680, Physical Attack +3561",
+          "armor_penetration": 10680,
+          "physical_attack": 3561
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Agility",
+          "level": 100,
+          "agility": 3990,
+          "secondary_effects": {
+            "physical_attack_from_agility": 11970,
+            "armor_from_agility": 3990
+          }
+        }
+      ],
+      "glyphs": {
+        "class": "Marksman",
+        "class_glyph": {
+          "level": 45,
+          "overall_class_level": "540 / 540",
+          "effect": "If the target has less than 74% health, any subsequent attack will deal 58556.1 (10% Physical Attack + 48600) more damage. Can be triggered no more than once every 4 seconds for each target.",
+          "health_threshold_percent": 74,
+          "bonus_damage_formula": "10% Physical Attack + 48600",
+          "bonus_damage_example": 58556.1,
+          "trigger_cooldown_seconds": 4
+        },
+        "glyphs_level": 80,
+        "list": [
+          { "name": "Physical Attack", "level": 80, "bonus": 8340 },
+          { "name": "Armor", "level": 80, "bonus": 12850 },
+          { "name": "Health", "level": 80, "bonus": 122800 },
+          { "name": "Armor Penetration", "level": 80, "bonus": 12850 },
+          {
+            "name": "Agility",
+            "level": 80,
+            "bonus": 2110,
+            "secondary_effects": {
+              "physical_attack_from_agility": 6330,
+              "armor_from_agility": 2110
+            }
+          }
+        ]
+      },
+      "notes": [
+        "Cascade's basic attacks can deal physical, magic, and pure damage because Elemental Surge adapts the damage type to the target's defensive stats.",
+        "Cascade can be effective against a wide range of opponents because his kit can pressure both Armor and Magic Defense.",
+        "Elemental Surge makes Cascade benefit from either Armor Penetration or Magic Defense Penetration bonuses by matching the other penetration stat to the same value.",
+        "Claws of the River Fae provides both Magic Penetration and Armor Penetration. Because of Elemental Surge, Cascade can heavily amplify his penetration values in battle.",
+        "Refluence is stronger when paired with Mystery Heroes because Sodden Armor deals increased extra damage when the triggering damage comes from an allied Mystery Hero.",
+        "Talisman of Tides is the offensive talisman option, while Talisman of Whirlpools is the defensive option."
+      ]
+    }
+  ]
+}
