@@ -1,0 +1,309 @@
+{
+    "game": "Hero Wars Alliance",
+    "heroes": [
+        {
+            "id": "satori",
+            "name": "Satori",
+            "gender": "male",
+            "satori_description": "Fox Demon that devours the minds of his enemies and burns them with cursed fire when they get energy.",
+            "role": ["Mage"],
+            "main_class": "Mage",
+            "position": "Front Line",
+            "level": 120,
+            "main_stat": "Intelligence",
+            "equipment_rank": 16,
+            "way": "Way of Mystery",
+            "crowd_control_(cc)": "⭐⭐⭐",
+            "damage_output": "⭐⭐⭐⭐⭐",
+            "team_synergy": "⭐⭐⭐⭐",
+            "self_sufficiency": "⭐⭐⭐⭐",
+            "hydra_tier_list": "B",
+            "hero_tier_list": "S+",
+            "best_synergy": "Byrna, Cascade, Celeste, Amira, Lian",
+            "relic_max_level": {
+                "health": 290824,
+                "magic_attack": 57005
+            },
+            "stats": {
+                "max_with_talisman_of_cunning": {
+                    "intelligence": 17389,
+                    "agility": 3517,
+                    "strength": 4102,
+                    "health": 804079,
+                    "physical_attack": 36526,
+                    "magic_attack": 171755,
+                    "physical_armor": 37123.5,
+                    "magical_armor": 36931,
+                    "magic_penetration": 58038,
+                    "magic_crit_chance": 7808,
+                    "crushing": 4301
+                },
+                "max_with_talisman_of_prudence": {
+                    "intelligence": 15389,
+                    "agility": 3517,
+                    "strength": 4102,
+                    "health": 985579,
+                    "physical_attack": 34526,
+                    "magic_attack": 165755,
+                    "physical_armor": 50923.5,
+                    "magical_armor": 34931,
+                    "magic_penetration": 38238,
+                    "magic_crit_chance": 7808,
+                    "crushing": 4301
+                }
+            },
+            "talisman_details": {
+                "talisman_of_cunning": {
+                    "coin_talisman": 0,
+                    "display_name": "Talisman of Cunning",
+                    "border": {
+                        "level": 50,
+                        "main_stat": "Intelligence",
+                        "main_stat_value": 2000
+                    },
+                    "rerolls": [
+                        { "stat": "splittingMagicalArmor", "value": 6600 },
+                        { "stat": "splittingMagicalArmor", "value": 6600 },
+                        { "stat": "splittingMagicalArmor", "value": 6600 }
+                    ]
+                },
+                "talisman_of_prudence": {
+                    "coin_talisman": 0,
+                    "display_name": "Talisman of Prudence",
+                    "border": {
+                        "level": 50,
+                        "main_stat": "Armor",
+                        "main_stat_value": 12000
+                    },
+                    "rerolls": [
+                        { "stat": "health", "value": 60500 },
+                        { "stat": "health", "value": 60500 },
+                        { "stat": "health", "value": 60500 }
+                    ]
+                }
+            },
+            "skills": [
+                {
+                    "id": 0,
+                    "variant": "basic_attack",
+                    "name": "Basic attack",
+                    "type": ["Magical Damage"],
+                    "description": "Satori's basic attack deals magical damage.",
+                    "damage": "100% Phys.atk.",
+                    "cooldown_seconds": 5,
+                    "animation_delay_seconds": 0.83
+                },
+                {
+                    "id": 1,
+                    "variant": "base",
+                    "level": 120,
+                    "name": "Ravenous Pack",
+                    "type": ["Magical Damage", "Mark"],
+                    "description": "The hero's basic attacks deal magic damage and apply Fox Fire marks to enemies. When the skill is activated, the enemies take damage for each effect applied to them. Satori is immune to control effects while using this skill.",
+                    "keywords": ["Mark"],
+                    "animation_delay_seconds": 1.35,
+                    "range": 590,
+                    "damage_for_each_mark": "70% Mag.atk. + 18000"
+                },
+                {
+                    "id": 1,
+                    "variant": "legendary",
+                    "relic_level": 10,
+                    "name": "Ravenous Pack (enhancement)",
+                    "type": ["Cleanse", "Immunity", "Mark"],
+                    "description": "Now, upon activating Ravenous Pack, Satori removes all negative effects from himself and becomes immune to them while the skill is active."
+                },
+                {
+                    "id": 2,
+                    "variant": "base",
+                    "level": 120,
+                    "name": "Spirit Banishment",
+                    "type": ["Magical Damage", "Mark"],
+                    "description": "Satori attacks all enemies, dealing damage and applying a Fox Fire mark. Applies an extra mark for each allied Mystery Hero.",
+                    "keywords": ["Mark"],
+                    "initial_cooldown_seconds": 8,
+                    "cooldown_seconds": 15,
+                    "animation_delay_seconds": 0.5,
+                    "damage": "60% Mag.atk. + 3600",
+                    "note": "Chance to apply Fox Fire marks is lowered if the target's level is above 120."
+                },
+                {
+                    "id": 2,
+                    "variant": "legendary",
+                    "relic_level": 20,
+                    "name": "Spirit Banishment (enhancement)",
+                    "type": ["Mark"],
+                    "description": "Spirit Banishment now applies 1 additional mark."
+                },
+                {
+                    "id": 3,
+                    "variant": "base",
+                    "level": 100,
+                    "name": "Centurial Wisdom",
+                    "type": ["Passive", "Intelligence Steal", "Healing"],
+                    "description": "Each instance of successfully damaging an enemy steals some Intelligence from them. Intelligence remains stolen until the end of the battle or the death of Satori. This cannot be overturned. Satori can't steal more Intelligence than an enemy has. Each successful basic attack restores Hero's health in the amount of 300% of damage dealt.",
+                    "intelligence_steal": 600,
+                    "healing_from_basic_attack_damage_percent": 300,
+                    "note": "Chance to steal intelligence and restore health is lowered if the target's level is above 120."
+                },
+                {
+                    "id": 4,
+                    "variant": "base",
+                    "level": 80,
+                    "name": "Looming Justice",
+                    "type": ["Passive", "Mark"],
+                    "description": "Satori applies 9 Fox Fire marks to enemies each time they gain bonus energy. The energy gained from damage dealt to a hero, using a base attack, using a skill, or killing an enemy is not considered bonus energy.",
+                    "keywords": ["Mark"],
+                    "fox_fire_marks": 9,
+                    "note": "Chance to apply Fox Fire marks is lowered if the target's level is above 120."
+                },
+                {
+                    "id": 5,
+                    "variant": "legendary",
+                    "relic_level": 1,
+                    "name": "Searing Claws (legendary skill)",
+                    "type": ["Mark"],
+                    "keywords": ["Mark"],
+                    "cooldown_seconds": 17,
+                    "animation_delay_seconds": 0.5,
+                    "damage": "60% Mag.atk.",
+                    "description": "Every 17.0 seconds, deals magic damage to all enemies with Fox Fire marks without removing them. If no enemies have marks, applies 6 marks to each enemy."
+                },
+                {
+                    "id": 6,
+                    "variant": "legendary",
+                    "relic_level": 30,
+                    "name": "Cunning Fox",
+                    "type": ["Damage Reduction"],
+                    "description": "Enemies with 4 or more Fox Fire marks deal less damage to Satori.",
+                    "damage_reduction_percent": 50,
+                    "minimum_fox_fire_marks": 4
+                }
+            ],
+            "realm": {
+                "troop_buff": "Infantry",
+                "realm_buff": "Attack/Defense 120%",
+                "skills": []
+            },
+            "skins": [
+                {
+                    "name": "Default",
+                    "stat": "Intelligence",
+                    "bonus": 1365,
+                    "derived": {
+                        "magic_attack": 4095,
+                        "magic_defense": 1365,
+                        "physical_attack": 1365
+                    }
+                },
+                {
+                    "name": "Cybernetic",
+                    "stat": "Armor",
+                    "bonus": 10650,
+                    "level": 60
+                },
+                {
+                    "name": "Dark Depths",
+                    "stat": "Magic attack",
+                    "bonus": 10650,
+                    "level": 60
+                },
+                {
+                    "name": "Celestial",
+                    "stat": "Magic defense",
+                    "bonus": 10650,
+                    "level": 60
+                },
+                {
+                    "name": "Beach",
+                    "stat": "Magic penetration",
+                    "bonus": 10650,
+                    "level": 60
+                },
+                {
+                    "name": "Masquerade Skin+",
+                    "stat": "Magical crit hit chance",
+                    "bonus": 5920,
+                    "level": 60
+                },
+                {
+                    "name": "Dawn Skin+",
+                    "stat": null,
+                    "bonus": null,
+                    "level": null
+                }
+            ],
+            "artifacts": [
+                {
+                    "name": "Fan of the Black Fox",
+                    "slot": "Weapon",
+                    "bigStar": true,
+                    "evolve": 6,
+                    "level": 100,
+                    "activation_chance": "100%",
+                    "effect": "Magic attack +32040",
+                    "note": "Activates with the ultimate skill."
+                },
+                {
+                    "name": "Manuscript of the Void",
+                    "slot": "Book",
+                    "bigStar": true,
+                    "evolve": 6,
+                    "level": 100,
+                    "effect": "Magic penetration +10680, Magic attack +5340"
+                },
+                {
+                    "name": "Ring of Intelligence",
+                    "slot": "Ring",
+                    "bigStar": true,
+                    "evolve": 6,
+                    "level": 100,
+                    "intelligence": 3990,
+                    "derived": {
+                        "magic_attack": 11970,
+                        "magic_defense": 3990,
+                        "physical_attack": 3990
+                    }
+                }
+            ],
+            "glyphs": {
+                "class": "Mage",
+                "runesphere": 0,
+                "satori5": 45,
+                "mage_class_level": "540 / 540",
+                "mage_class_glyphs_bonuses": "The mage starts the battle with 374 energy. When using any ability other than the first one and the regular attack, the mage gains an additional 108 energy.",
+                "glyphs_level": 80,
+                "list": [
+                    { "name": "Magic attack", "level": 80, "bonus": 12850 },
+                    { "name": "Health", "level": 80, "bonus": 122800 },
+                    { "name": "Armor", "level": 80, "bonus": 12850 },
+                    { "name": "Magic penetration", "level": 80, "bonus": 12850 },
+                    {
+                        "name": "Intelligence",
+                        "level": 80,
+                        "bonus": 2110,
+                        "derived": {
+                            "magic_attack": 6330,
+                            "magic_defense": 2110,
+                            "physical_attack": 2110
+                        }
+                    }
+                ]
+            },
+            "gift_of_the_elements": {
+                "level": 30,
+                "bonuses": {
+                    "strength": 360,
+                    "agility": 360,
+                    "intelligence": 720
+                }
+            },
+            "notes": [
+                "Satori is a front-line Mystery mage built around Fox Fire marks.",
+                "He punishes enemies that gain bonus energy with Looming Justice.",
+                "Talisman of Cunning focuses on Magic penetration; Talisman of Prudence focuses on Health and Armor.",
+                "Skin+ has double the stat points of a normal skin, but only activates the doubled stats when the player acquires the Skin+. The skin stone cost remains the same as a normal skin."
+            ]
+        }
+    ]
+}

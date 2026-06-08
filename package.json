@@ -60,6 +60,8 @@
 
     "update-oya-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide oya",
     "update-phobos-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide phobos",
+    "update-satori-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide satori",
+
     "update-somna-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide somna",
     "update-tempus-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide tempus",
  
