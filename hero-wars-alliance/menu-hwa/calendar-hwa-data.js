@@ -48,17 +48,9 @@ window.CALENDAR_DATA = [
 {
     weekday: "Sunday",
     date: "",
-    image: "../../imagens/image-shared/kendle-300px.webp",
-    alt: "Kendle Guide",
-  titles: {
-  en: "New Hero: Kendle Guide", 
- de: "Neuer Held: Kendle Leitfaden",
- es: "Nuevo Héroe: Guía de Kendle",
- fr: "Nouveau Héros : Guide de Kendle",
- pt: "Novo Herói: Guia de Kendle",
- ja: "新しいヒーロー：ケンドルガイド"
-},
-  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
+    image: "../../imagens/image-shared/satori-300px.webp",
+    alt: "Satori Guide",
+   titles: { en: "🦊Satori Relic Guide", pt: "🦊Guia do Satori com Relíquias", de: "🦊Satori-Relikt-Leitfaden", es: "🦊Guía de Satori con Reliquias", fr: "🦊Guide de Satori avec Reliques", ja: "🦊サトリのレリックガイド" },  links: { en: "../../hero-wars-alliance/characters-guide/satori-en.html", de: "../../hero-wars-alliance/characters-guide/satori-de.html", es: "../../hero-wars-alliance/characters-guide/satori-es.html", fr: "../../hero-wars-alliance/characters-guide/satori-fr.html", pt: "../../hero-wars-alliance/characters-guide/satori-pt.html", ja: "../../hero-wars-alliance/characters-guide/satori-ja.html" },       
   noStrip: true,
   extra: []
   },
@@ -191,7 +183,7 @@ window.CALENDAR_DATA = [
       
       {        
   titles: { en: "🦊Satori Guide", pt: "🦊Guia do Satori", de: "🦊Satori Leitfaden", es: "🦊Guía de Satori", fr: "🦊Guide de Satori",  ja: "🦊サトリ - ガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-pt.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/satori-en.html", de: "../../hero-wars-alliance/characters-guide/satori-de.html", es: "../../hero-wars-alliance/characters-guide/satori-es.html", fr: "../../hero-wars-alliance/characters-guide/satori-fr.html", pt: "../../hero-wars-alliance/characters-guide/satori-pt.html", ja: "../../hero-wars-alliance/characters-guide/satori-ja.html" },       
   noStrip: true
 },  
 
@@ -213,7 +205,7 @@ window.CALENDAR_DATA = [
       
       {        
   titles: { en: "🦊Satori Guide", pt: "🦊Guia do Satori", de: "🦊Satori Leitfaden", es: "🦊Guía de Satori", fr: "🦊Guide de Satori",  ja: "🦊サトリ - ガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-pt.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/satori-en.html", de: "../../hero-wars-alliance/characters-guide/satori-de.html", es: "../../hero-wars-alliance/characters-guide/satori-es.html", fr: "../../hero-wars-alliance/characters-guide/satori-fr.html", pt: "../../hero-wars-alliance/characters-guide/satori-pt.html", ja: "../../hero-wars-alliance/characters-guide/satori-ja.html" },       
   noStrip: true
 },  
     ]
@@ -234,7 +226,7 @@ window.CALENDAR_DATA = [
       
       {        
   titles: { en: "🦊Satori Guide", pt: "🦊Guia do Satori", de: "🦊Satori Leitfaden", es: "🦊Guía de Satori", fr: "🦊Guide de Satori",  ja: "🦊サトリ - ガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-pt.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/satori-en.html", de: "../../hero-wars-alliance/characters-guide/satori-de.html", es: "../../hero-wars-alliance/characters-guide/satori-es.html", fr: "../../hero-wars-alliance/characters-guide/satori-fr.html", pt: "../../hero-wars-alliance/characters-guide/satori-pt.html", ja: "../../hero-wars-alliance/characters-guide/satori-ja.html" },       
   noStrip: true
 },  
 
@@ -261,7 +253,7 @@ window.CALENDAR_DATA = [
       
       {        
   titles: { en: "🦊Satori Guide", pt: "🦊Guia do Satori", de: "🦊Satori Leitfaden", es: "🦊Guía de Satori", fr: "🦊Guide de Satori",  ja: "🦊サトリ - ガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-pt.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/satori-en.html", de: "../../hero-wars-alliance/characters-guide/satori-de.html", es: "../../hero-wars-alliance/characters-guide/satori-es.html", fr: "../../hero-wars-alliance/characters-guide/satori-fr.html", pt: "../../hero-wars-alliance/characters-guide/satori-pt.html", ja: "../../hero-wars-alliance/characters-guide/satori-ja.html" },       
   noStrip: true
 },  
       
@@ -287,7 +279,7 @@ window.CALENDAR_DATA = [
       
       {        
   titles: { en: "🦊Satori Guide", pt: "🦊Guia do Satori", de: "🦊Satori Leitfaden", es: "🦊Guía de Satori", fr: "🦊Guide de Satori",  ja: "🦊サトリ - ガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-pt.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/satori-en.html", de: "../../hero-wars-alliance/characters-guide/satori-de.html", es: "../../hero-wars-alliance/characters-guide/satori-es.html", fr: "../../hero-wars-alliance/characters-guide/satori-fr.html", pt: "../../hero-wars-alliance/characters-guide/satori-pt.html", ja: "../../hero-wars-alliance/characters-guide/satori-ja.html" },       
   noStrip: true
 },  
       
@@ -314,7 +306,7 @@ window.CALENDAR_DATA = [
       
       {        
   titles: { en: "🦊Satori Guide", pt: "🦊Guia do Satori", de: "🦊Satori Leitfaden", es: "🦊Guía de Satori", fr: "🦊Guide de Satori",  ja: "🦊サトリ - ガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-pt.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/satori-en.html", de: "../../hero-wars-alliance/characters-guide/satori-de.html", es: "../../hero-wars-alliance/characters-guide/satori-es.html", fr: "../../hero-wars-alliance/characters-guide/satori-fr.html", pt: "../../hero-wars-alliance/characters-guide/satori-pt.html", ja: "../../hero-wars-alliance/characters-guide/satori-ja.html" },       
   noStrip: true
 },  
       
@@ -339,7 +331,7 @@ window.CALENDAR_DATA = [
       
       {        
   titles: { en: "🦊Satori Guide", pt: "🦊Guia do Satori", de: "🦊Satori Leitfaden", es: "🦊Guía de Satori", fr: "🦊Guide de Satori",  ja: "🦊サトリ - ガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/satori-guide-hero-wars-alliance-pt.html", ja: "" },       
+  links: { en: "../../hero-wars-alliance/characters-guide/satori-en.html", de: "../../hero-wars-alliance/characters-guide/satori-de.html", es: "../../hero-wars-alliance/characters-guide/satori-es.html", fr: "../../hero-wars-alliance/characters-guide/satori-fr.html", pt: "../../hero-wars-alliance/characters-guide/satori-pt.html", ja: "../../hero-wars-alliance/characters-guide/satori-ja.html" },       
   noStrip: true
 },  
        

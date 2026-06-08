@@ -37,7 +37,23 @@
 },  
    */      
 window.CALENDAR_DATA = [
-
+{
+    weekday: "Sunday",
+    date: "",
+    image: "../../imagens/image-shared/kendle-300px.webp",
+    alt: "Kendle Guide",
+  titles: {
+  en: "New Hero: Kendle Guide", 
+ de: "Neuer Held: Kendle Leitfaden",
+ es: "Nuevo Héroe: Guía de Kendle",
+ fr: "Nouveau Héros : Guide de Kendle",
+ pt: "Novo Herói: Guia de Kendle",
+ ja: "新しいヒーロー：ケンドルガイド"
+},
+  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
+  noStrip: true,
+  extra: []
+  },
   {
     weekday: "Sunday",
     date: "",
