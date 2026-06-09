@@ -5,28 +5,7 @@
   // Quando tirar do carousel, cole aqui.
   // Este submenu fica na pag. Calendario para eventos da temporada recentes.
   // =====================================================
-  var slides = [
-    
-    
-    {
-      link: "../../hero-wars-alliance/event-special-hwa/kendle-season-adventure-guide-en.html",
-      src500: "../../hero-wars-alliance/images/events-special-hwa/kendle-adventure-shop/kendle-adventure-shop-500px.webp",
-      src400: "../../hero-wars-alliance/images/events-special-hwa/kendle-adventure-shop/kendle-adventure-shop-400px.webp",
-      alt: "Kendle Adventure and Shop Guide for Hero Wars Alliance",
-      title: "Kendle Adventure and Shop Guide for Hero Wars Alliance",
-      strong: "Guide: Kendle Adventure and Shop f2p Strategy for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },
-    
-    {
-      link: "/hero-wars-alliance/characters-guide/kendle-en.html",
-      src500: "/hero-wars-alliance/images/hero/kendle/kendle-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/kendle/kendle-400px.webp",
-      alt: "Kendle Legendary Skills Guide for Hero Wars Alliance",
-      title: "Kendle Guide for Hero Wars Alliance",
-      strong: "Guide: Kendle Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },
+  var slides = [   
     {
       link: "../../hero-wars-alliance/titans-guide/orm-en.html",
       src500: "../../hero-wars-alliance/images/titans/orm/orm-500px.webp",
@@ -45,6 +24,27 @@
       strong: "Redeem your Daily Gifts for Hero Wars Alliance",
       updated: "Updated: Everyday."
     },
+    {
+      link: "/hero-wars-alliance/characters-guide/satori-en.html",
+      src500: "/hero-wars-alliance/images/hero/satori/satori-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/satori/satori-400px.webp",
+      alt: "Satori Legendary Skills Guide for Hero Wars Alliance",
+      title: "Satori Guide for Hero Wars Alliance",
+      strong: "Guide Updated Skin+: Satori Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },    
+    
+    {
+      link: "/hero-wars-alliance/characters-guide/kendle-en.html",
+      src500: "/hero-wars-alliance/images/hero/kendle/kendle-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/kendle/kendle-400px.webp",
+      alt: "Kendle Legendary Skills Guide for Hero Wars Alliance",
+      title: "Kendle Guide for Hero Wars Alliance",
+      strong: "Guide: Kendle Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },
+    
+    
   ];
 
   var headingByLang = {

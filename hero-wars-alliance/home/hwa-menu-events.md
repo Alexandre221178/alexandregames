@@ -1,3 +1,14 @@
+
+ {
+      link: "../../hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-en.html",
+      src500: "../../hero-wars-alliance/images/daily-gifts/giveaway-ag-500px.webp",
+      src400: "../../hero-wars-alliance/images/daily-gifts/giveaway-ag-500px.webp",
+      alt: "Giveaway Alexandre Games Community for Hero Wars Alliance",
+      title: "Giveaway Alexandre Games Community for Hero Wars Alliance",
+      strong: "Giveaway 1 Titan Orm - Alexandre Games Community for Hero Wars Alliance",
+      updated: "Updated: Everyday."
+    },
+
 {
       link: "/hero-wars-alliance/event-hwa/rune-storm-en.html",
       src500: "/hero-wars-alliance/images/events/rune-storm/rune-storm-500px.webp",

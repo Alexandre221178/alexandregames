@@ -124,5 +124,56 @@
       "Orm has two elements: Elarite and Water.",
       "His Devastating Link skill is designed to protect allies by storing part of incoming damage and returning it as a powerful hit."
     ]
+  },
+
+
+   "nota_pvp": {
+    "resumo": "Nos testes de Arena, o novo Titã Orm apresentou um desempenho muito bom.",
+    "times_testados": [
+      {
+        "composicao": ["Hyperion", "Tydus", "Orm", "Nova", "Sigurd"],
+        "resultado": {
+          "venceu": ["Luz", "Fogo"],
+          "perdeu": ["Terra", "Escuridão"]
+        }
+      },
+      {
+        "composicao": ["Hyperion", "Mairi", "Tydus", "Orm", "Sigurd"],
+        "resultado": {
+          "venceu": ["Luz", "Fogo"],
+          "perdeu": ["Terra", "Escuridão"]
+        }
+      }
+    ],
+    "defesa": {
+      "perdeu_para": ["Terra", "Escuridão", "Luz"],
+      "segurou_apenas": ["Fogo"],
+      "observacao": "O time de Luz utilizado nos testes é significativamente mais forte que o time de Água, o que pode ter influenciado os resultados."
+    },
+    "conclusao": "Ficou evidente que o time de Água com Orm se torna mais forte contra equipes de Luz e Fogo.",
+    "times_mistos": {
+      "observacao": "Apesar de Orm pertencer aos elementos Elarite e Água, suas habilidades não possuem grande dependência de sinergias específicas com Água, permitindo bom desempenho em composições mistas.",
+      "melhor_composicao": {
+        "composicao": ["Tenebris", "Umbra", "Mort", "Orm", "Brustar"],
+        "resultado": {
+          "venceu_ou_resistiu_bem": ["Luz", "Água"],
+          "perdeu_para": ["Terra", "Fogo"]
+        }
+      }
+    }
+  },
+  "nota_dungeon": {
+    "resumo": "Orm também se mostrou bastante útil na Dungeon.",
+    "vantagens": [
+      "Ajuda iniciantes por adicionar mais um Titã disponível para avançar na Dungeon.",
+      "Tem bom desempenho em salas de Água contra fogo."
+    ],
+    "limitacoes": [
+      "Ainda não demonstrou grande utilidade em salas mistas dentro da estratégia utilizada nos testes."
+    ],
+    "estrategia_atual": {
+      "time_principal": ["Hyperion", "Tydus", "Moloch", "Angus", "Sigurd"],
+      "objetivo": "Recuperar vida dos tanques continuamente e realizar farm infinito na Masmorra."
+    }
   }
 }

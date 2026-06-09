@@ -1,24 +1,8 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
-    {
-      link: "/hero-wars-alliance/titans-events-tips/eden-shop-titan-power-en.html",
-      src500: "/hero-wars-alliance/images/events/titan-power/eden-titan-power-shop-500px.webp",
-      src400: "/hero-wars-alliance/images/events/titan-power/eden-titan-power-shop-400px.webp",
-      alt: "Eden's Champion Coins shop during the Titan Power Event in Hero Wars Alliance",
-      title: "Titan Power Event Shop - Hero Wars Alliance",
-      strong: "Guide: Eden Shop! What to Buy? Hero Wars Alliance",
-      updated: "Updated: June, 2026."
-    },   
-     {
-      link: "../../hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-en.html",
-      src500: "../../hero-wars-alliance/images/daily-gifts/giveaway-ag-500px.webp",
-      src400: "../../hero-wars-alliance/images/daily-gifts/giveaway-ag-500px.webp",
-      alt: "Giveaway Alexandre Games Community for Hero Wars Alliance",
-      title: "Giveaway Alexandre Games Community for Hero Wars Alliance",
-      strong: "Giveaway 1 Titan Orm - Alexandre Games Community for Hero Wars Alliance",
-      updated: "Updated: Everyday."
-    },
+    
+    
     {
       link: "../../hero-wars-alliance/titans-events-tips/orm-ancient-awakening-event-en.html",
       src500: "../../hero-wars-alliance/images/titans-events-tips/orm-event-tips/orm-event-tips-500px.webp",
@@ -38,14 +22,15 @@
       updated: "Updated: June, 2026."
     },   
     {
-      link: "../../hero-wars-alliance/event-special-hwa/kendle-season-adventure-guide-en.html",
-      src500: "../../hero-wars-alliance/images/events-special-hwa/kendle-adventure-shop/kendle-adventure-shop-500px.webp",
-      src400: "../../hero-wars-alliance/images/events-special-hwa/kendle-adventure-shop/kendle-adventure-shop-400px.webp",
-      alt: "Kendle Adventure and Shop Guide for Hero Wars Alliance",
-      title: "Kendle Adventure and Shop Guide for Hero Wars Alliance",
-      strong: "Guide: Kendle Adventure and Shop f2p Strategy for Hero Wars Alliance(EN)",
+      link: "/hero-wars-alliance/characters-guide/satori-en.html",
+      src500: "/hero-wars-alliance/images/hero/satori/satori-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/satori/satori-400px.webp",
+      alt: "Satori Legendary Skills Guide for Hero Wars Alliance",
+      title: "Satori Guide for Hero Wars Alliance",
+      strong: "Guide Updated Skin+: Satori Legendary Skills for Hero Wars Alliance",
       updated: "Updated: May, 2026."
-    },
+    },      
+    
     {
       link: "/hero-wars-alliance/characters-guide/kendle-en.html",
       src500: "/hero-wars-alliance/images/hero/kendle/kendle-500px.webp",
