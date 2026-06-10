@@ -28,7 +28,7 @@
       alt: "Satori Legendary Skills Guide for Hero Wars Alliance",
       title: "Satori Guide for Hero Wars Alliance",
       strong: "Guide Updated Skin+: Satori Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
+      updated: "Updated: June, 2026."
     },      
     
     {
