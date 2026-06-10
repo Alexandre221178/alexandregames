@@ -11,6 +11,8 @@
 https://herowars.me/3Qi2VqS
 */window.HWDE_GIFTS = [
    // ── June 10, 2026 ──────────────────────────────
+   { date:'2026-06-10', type:'link', giftId:'811d37497aa96f10f1fe566529f9cff8', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
   { date:'2026-06-10', type:'link', giftLinkWeb:'https://herowars.me/3Qi2VqS', giftLinkFb:'https://herowars.me/4ediGHL', note:'until|2026-06-12T02:00:00Z',
   rewards:['energy x500'] },
    // ── June 9, 2026 ──────────────────────────────
