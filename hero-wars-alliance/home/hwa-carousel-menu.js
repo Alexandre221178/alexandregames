@@ -30,6 +30,15 @@
       strong: "Guide Updated Skin+: Satori Legendary Skills for Hero Wars Alliance",
       updated: "Updated: June, 2026."
     },      
+    {
+      link: "/hero-wars-alliance/guide/talisman-guide-hwa-en.html",
+      src500: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-400px.webp",
+      alt: "Talisman Guide for Hero Wars Alliance",
+      title: "Talisman Guide for Hero Wars Alliance",
+      strong: "Updated Reroll: Talisman Guide for Hero Wars Alliance",
+      updated: "Updated: June, 2026."
+    },    
     
     {
       link: "/hero-wars-alliance/characters-guide/kendle-en.html",
