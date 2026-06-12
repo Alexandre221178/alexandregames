@@ -1,10 +1,7 @@
-//para3: "This March Map 1 is ideal for players who want to collect a War Flag Chest, Primal Catalyst and Emeralds — see the table below for how to obtain these items at low cost.",
-//para1: "A Ilha Misteriosa de março de 2026 traz desafios frescos e recompensas emocionantes para todos os aventureiros! O mapa deste mês apresenta uma rota otimizada que permite aos jogadores F2P coletar eficientemente Baús de Bandeira de Guerra, Esmeraldas e Esferas de Artefato Titã.",
-//para3: "Este Mapa 1 de março é ideal para jogadores que querem coletar Caixa de Bandeira de Guerra, Catalisador Primal e Esmeraldas, veja a tabela abaixo como garantir esses itens com baixo custo.",
-// npm run update-mysterious-island-hwde
+//para1: "",
 window.giveawayWinnersData = {
  pt: {
-    title: "🚨 SORTEIO EXCLUSIVO NOVO TITÃ ORM 🚨",
+    title: "🚨 SORTEIO EXCLUSIVO ALEXANDREGAMES 🚨",
     para1: "Atenção, seguidores! Preparei um sorteio especial exclusivamente para quem faz parte da nossa comunidade oficial no WhatsApp. Esta é a sua chance de garantir recursos raros!",
     para2: "<p><b>📝 COMO PARTICIPAR:</b></p>  <ol>        <li>1️⃣ <strong>Entre no grupo</strong> pelo link abaixo (se você ainda não estiver lá).</li>        <li>2️⃣ <strong>Envie seu ID</strong> no grupo para validar sua participação.</li>        <li>3️⃣ O sorteio acontece <b>7 de Junho!</b></li>    </ol>",
     para3: "<div style=\"text-align: center; margin: 25px 0;\">        <p>👉 <b>LINK DO GRUPO:</b></p>        <a href=\"https://chat.whatsapp.com/Bzeu7RaEMqG5IypPfuJpBP\" target=\"_blank\" style=\"background-color: #25d366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">ENTRAR NO GRUPO DO WHATSAPP</a>    </div>",
