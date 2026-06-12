@@ -13,6 +13,8 @@ https://herowars.me/4eftaX1
   { date:'2026-06-12', type:'link', giftLinkWeb:'https://herowars.me/4eftaX1', giftLinkFb:'https://herowars.me/3QCQnKW ', note:'until|2026-06-16T02:00:00Z',
   rewards:['energy x500'] },
    // ── June #, 2026 ──────────────────────────────
+    { date:'2026-06-11', type:'link', giftId:'2f39e8f1e7f0bebb883630985f09e828', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
  { date:'2026-06-11', type:'link', giftLinkWeb:'https://herowars.me/4xCtuZ1', giftLinkFb:'https://herowars.me/3PRrPxF', note:'until|2026-06-14T02:00:00Z',
   rewards:['energy x500'] },
    // ── June 10, 2026 ──────────────────────────────
