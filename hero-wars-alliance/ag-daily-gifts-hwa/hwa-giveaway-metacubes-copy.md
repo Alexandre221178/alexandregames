@@ -6,7 +6,7 @@ rewardsTitle: "GIVEAWAY REWARDS: ALEXANDRE GAMES COMMUNITY",
       item: "5,000 Metacubes + 1 Lucky Boxy Avatar",
       winner_id: "???",
       images: [
-        "../../hero-wars-alliance/images/events/shared/metacubes.webp",
+        "../../hero-wars-alliance/images/events/shared/meta-cube.webp",
         "../../hero-wars-alliance/images/events/shared/avatar.webp"
       ]
     },
@@ -14,7 +14,7 @@ rewardsTitle: "GIVEAWAY REWARDS: ALEXANDRE GAMES COMMUNITY",
       item: "5,000 Metacubes + 1 Lucky Boxy Avatar",
       winner_id: "???",
       images: [
-        "../../hero-wars-alliance/images/events/shared/metacubes.webp",
+        "../../hero-wars-alliance/images/events/shared/meta-cube.webp",
         "../../hero-wars-alliance/images/events/shared/avatar.webp"
       ]
     },
@@ -22,7 +22,7 @@ rewardsTitle: "GIVEAWAY REWARDS: ALEXANDRE GAMES COMMUNITY",
       item: "5,000 Metacubes + 1 Lucky Boxy Avatar",
       winner_id: "???",
       images: [
-        "../../hero-wars-alliance/images/events/shared/metacubes.webp",
+        "../../hero-wars-alliance/images/events/shared/meta-cube.webp",
         "../../hero-wars-alliance/images/events/shared/avatar.webp"
       ]
     },
@@ -30,7 +30,7 @@ rewardsTitle: "GIVEAWAY REWARDS: ALEXANDRE GAMES COMMUNITY",
       item: "5,000 Metacubes + 1 Lucky Boxy Avatar",
       winner_id: "???",
       images: [
-        "../../hero-wars-alliance/images/events/shared/metacubes.webp",
+        "../../hero-wars-alliance/images/events/shared/meta-cube.webp",
         "../../hero-wars-alliance/images/events/shared/avatar.webp"
       ]
     },
@@ -38,7 +38,7 @@ rewardsTitle: "GIVEAWAY REWARDS: ALEXANDRE GAMES COMMUNITY",
       item: "5,000 Metacubes + 1 Lucky Boxy Avatar",
       winner_id: "???",
       images: [
-        "../../hero-wars-alliance/images/events/shared/metacubes.webp",
+        "../../hero-wars-alliance/images/events/shared/meta-cube.webp",
         "../../hero-wars-alliance/images/events/shared/avatar.webp"
       ]
     }

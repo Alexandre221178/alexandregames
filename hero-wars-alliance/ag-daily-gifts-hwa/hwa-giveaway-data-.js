@@ -11,7 +11,7 @@ window.giveawayWinnersData = {
 <p>Cada vencedor receberá:</p>
 
 <div style="display:flex;align-items:center;gap:10px;margin:10px 0;">
-  <img src="../../hero-wars-alliance/images/events/shared/metacubes.webp" width="40">
+  <img src="../../hero-wars-alliance/images/events/shared/meta-cube.webp" width="40">
   <span><b>5.000 Metacubos</b></span>
 </div>
 
@@ -36,7 +36,7 @@ window.giveawayWinnersData = {
 <p>Each winner will receive:</p>
 
 <div style="display:flex;align-items:center;gap:10px;margin:10px 0;">
-  <img src="../../hero-wars-alliance/images/events/shared/metacubes.webp" width="40">
+  <img src="../../hero-wars-alliance/images/events/shared/meta-cube.webp" width="40">
   <span><b>5,000 Metacubes</b></span>
 </div>
 
@@ -61,7 +61,7 @@ window.giveawayWinnersData = {
 <p>Jeder Gewinner erhält:</p>
 
 <div style="display:flex;align-items:center;gap:10px;margin:10px 0;">
-  <img src="../../hero-wars-alliance/images/events/shared/metacubes.webp" width="40">
+  <img src="../../hero-wars-alliance/images/events/shared/meta-cube.webp" width="40">
   <span><b>5.000 Metacubes</b></span>
 </div>
 
@@ -86,7 +86,7 @@ window.giveawayWinnersData = {
 <p>Cada ganador recibirá:</p>
 
 <div style="display:flex;align-items:center;gap:10px;margin:10px 0;">
-  <img src="../../hero-wars-alliance/images/events/shared/metacubes.webp" width="40">
+  <img src="../../hero-wars-alliance/images/events/shared/meta-cube.webp" width="40">
   <span><b>5.000 Metacubos</b></span>
 </div>
 
@@ -111,7 +111,7 @@ window.giveawayWinnersData = {
 <p>Chaque gagnant recevra :</p>
 
 <div style="display:flex;align-items:center;gap:10px;margin:10px 0;">
-  <img src="../../hero-wars-alliance/images/events/shared/metacubes.webp" width="40">
+  <img src="../../hero-wars-alliance/images/events/shared/meta-cube.webp" width="40">
   <span><b>5 000 Métacubes</b></span>
 </div>
 
@@ -136,7 +136,7 @@ window.giveawayWinnersData = {
 <p>各当選者には以下が贈られます：</p>
 
 <div style="display:flex;align-items:center;gap:10px;margin:10px 0;">
-  <img src="../../hero-wars-alliance/images/events/shared/metacubes.webp" width="40">
+  <img src="../../hero-wars-alliance/images/events/shared/meta-cube.webp" width="40">
   <span><b>5,000 メタキューブ</b></span>
 </div>
 
