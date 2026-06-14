@@ -7,13 +7,16 @@
       "gender": "male",
       "role": ["Damage Dealer", "Control"],
       "main_class": "Marksman",
-      "position": null,
+      "realm-buff": "Marksman attack and defense 120%",
+      "position": "Back line",
       "level": 120,
       "main_stat": "Agility",
       "faction": "Way of Mystery",
       "how_to_get_soul_stones": null,
       "hydra_tier_list": null,
       "hero_tier_list": null,
+      "hero_synergy": "Satori, Amira, Lian",
+      "hero_counters": "Corvus(Altar Skill damage, When Cascade charges into the middle of the enemy team, she deals area damage, and Corvus's Altar redirects all the damage to Cascade.), ",
       "relic_max_stats": {
         "physical_attack": 43001,
         "health": 215429
@@ -28,7 +31,7 @@
           "magic_attack": 26230,
           "armor": 51463.7,
           "magic_defense": 13360,
-          "armor_penetration": 35788,
+          "armor_penetration": 46438,
           "crushing": 5747
         },
         "max_with_talisman_of_whirlpools": {
@@ -40,7 +43,7 @@
           "magic_attack": 26230,
           "armor": 72233.7,
           "magic_defense": 13360,
-          "armor_penetration": 35788,
+          "armor_penetration": 46438,
           "crushing": 5747
         }
       },
@@ -236,6 +239,12 @@
           "name": "Harvest Skin",
           "stat": "Health",
           "bonus": 106645,
+          "level": 60
+        },
+        {
+          "name": "Dawn Skin",
+          "stat": "Armor Penetration",
+          "bonus": 10650,
           "level": 60
         }
       ],
