@@ -8,8 +8,14 @@
 // ── June #, 2026 ──────────────────────────────
 { date:'2026-06-##', type:'link', giftId:'#####', note:'until|2026-0#-##T02:00:00Z',
   rewards:['energy x500'] },
-https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
+  // ── 2 Link Exclusivo Web/FB ──────────────────────────────
+{ date:'2026-0#-##30', type:'link', giftLinkWeb:'https://herowars.me/##', giftLinkFb:'https://herowars.me/##', note:'until|2026-05-03T02:00:00Z',
+  rewards:['energy x500'] },
+https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=QFfxfSq5yk
 */window.HWDE_GIFTS = [
+   // ── June 14, 2026 ──────────────────────────────
+{ date:'2026-06-14', type:'link', giftId:'QFfxfSq5yk', note:'until|2026-06-17T02:00:00Z',
+  rewards:['energy x500'] },
    // ── June 13, 2026 ──────────────────────────────
   { date:'2026-06-13', type:'link', giftId:'116989cd593ee77db61056b1f45344cc', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },
@@ -220,6 +226,10 @@ link type  : { date:'YYYY-MM-DD', type:'link',  giftId:'...', note:'until|YYYY-M
 *OBRIGARORIO MANTER HTTP:// PARA OS LINKS ABAIXO WEB/FB
 // ── 2 Link Exclusivo Web/FB ──────────────────────────────
 { date:'2026-0#-##30', type:'link', giftLinkWeb:'https://herowars.me/##', giftLinkFb:'https://herowars.me/##', note:'until|2026-05-03T02:00:00Z',
+  rewards:['energy x500'] },
+
+  // ── June #, 2026 ──────────────────────────────
+{ date:'2026-06-##', type:'link', giftId:'#####', note:'until|2026-0#-##T02:00:00Z',
   rewards:['energy x500'] },
 
   // ── 1 Link Exclusivo so giftWebId diferente de weblink esse so coloca o id ──────────────────────────────
