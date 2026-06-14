@@ -11,6 +11,11 @@
   links: { en: "../../", de: "", es: "", fr: "", pt: "../../", ja: "" },       
   noStrip: true
 },  
+
+{
+        titles: { en: "🌀Event: Random Hero or New Umbra Titan ???", pt: "🌀Evento: Herói Aleatório ou novo Titã Umbra ???", de: "🌀Ereignis: Zufälliger Held oder neuer Umbra-Titan ???", es: "🌀Evento: Héroe Aleatorio o Nuevo Titán Umbra ???", fr: "🌀Événement: Héros Aléatoire ou Nouveau Titan Umbra ???", ja: "🌀イベント: ランダムヒーローまたは新しいアンブラタイタン ???" },
+        labelOnly: true,
+      },
 */      
 // ===================== missoes do titans brawl guardians of balance  =====================
 

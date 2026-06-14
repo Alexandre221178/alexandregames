@@ -459,21 +459,23 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
   {
     weekday: "Sunday",
     date: "June, 14",
-    image: "../../hero-wars-dominion-era/images/events/a-portal-anomaly/a-portal-anomaly-150px.webp",
-    alt: "Portal Anomaly",
-    titles: { en: "🐾Portal Anomaly", pt: "🐾Anomalia do Portal", de: "🐾Eine Portalanomalie", es: "🐾Anomalía del Portal", fr: "🐾Anomalie du Portail", ja: "🐾ポータルアノマリー" },
-    links: { en: "../../hero-wars-dominion-era/events/a-portal-anomaly-en.html", pt: "../../hero-wars-dominion-era/events/a-portal-anomaly-pt.html", de: "../../hero-wars-dominion-era/events/a-portal-anomaly-de.html", es: "../../hero-wars-dominion-era/events/a-portal-anomaly-es.html", fr: "../../hero-wars-dominion-era/events/a-portal-anomaly-fr.html", ja: "../../hero-wars-dominion-era/events/a-portal-anomaly-ja.html" },
+   image: "../../hero-wars-dominion-era/images/events/fates-wish/fates-wish-250px.webp",
+    alt: "🎡Fate's Wish",
+   titles: {  en: "🎡 Fate's Wish", pt: "🎡 Desejo do Destino",de: "🎡 Schicksalswunsch", es: "🎡 Deseo del Destino", fr: "🎡 Vœu du Destin", ja: "🎡 運命の願い"},
+    links: { en: "../../hero-wars-dominion-era/events/fates-wish-en.html", pt: "../../hero-wars-dominion-era/events/fates-wish-pt.html", de: "../../hero-wars-dominion-era/events/fates-wish-de.html", es: "../../hero-wars-dominion-era/events/fates-wish-es.html", fr: "../../hero-wars-dominion-era/events/fates-wish-fr.html", ja: "../../hero-wars-dominion-era/events/fates-wish-ja.html" },
     noStrip: true,
     extra: [
+      {
+        titles: { en: "🐾Portal Anomaly", pt: "🐾Anomalia do Portal", de: "🐾Eine Portalanomalie", es: "🐾Anomalía del Portal", fr: "🐾Anomalie du Portail", ja: "🐾ポータルアノマリー" },
+    links: { en: "../../hero-wars-dominion-era/events/a-portal-anomaly-en.html", pt: "../../hero-wars-dominion-era/events/a-portal-anomaly-pt.html", de: "../../hero-wars-dominion-era/events/a-portal-anomaly-de.html", es: "../../hero-wars-dominion-era/events/a-portal-anomaly-es.html", fr: "../../hero-wars-dominion-era/events/a-portal-anomaly-fr.html", ja: "../../hero-wars-dominion-era/events/a-portal-anomaly-ja.html" },
+        noStrip: true
+      },
       {
        titles: { en: "🪙Elemental Synergy", pt: "🪙Sinergia Elemental", de: "🪙Elementarsynergie", es: "🪙Sinergia Elemental", fr: "🪙Synergie Élémentaire", ja: "🪙エレメンタルシナジー" },
     links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
         noStrip: true
       },
-      {
-        titles: { en: "🌀Event: Random Hero or New Umbra Titan ???", pt: "🌀Evento: Herói Aleatório ou novo Titã Umbra ???", de: "🌀Ereignis: Zufälliger Held oder neuer Umbra-Titan ???", es: "🌀Evento: Héroe Aleatorio o Nuevo Titán Umbra ???", fr: "🌀Événement: Héros Aléatoire ou Nouveau Titan Umbra ???", ja: "🌀イベント: ランダムヒーローまたは新しいアンブラタイタン ???" },
-        labelOnly: true,
-      },
+      
       
     ]
   },
@@ -482,12 +484,17 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
   {
     weekday: "Monday",
     date: "June, 15",
-    image: "../../hero-wars-dominion-era/images/events/a-portal-anomaly/a-portal-anomaly-150px.webp",
+   image: "../../hero-wars-dominion-era/images/events/a-portal-anomaly/a-portal-anomaly-150px.webp",
     alt: "Portal Anomaly",
     titles: { en: "🐾Portal Anomaly", pt: "🐾Anomalia do Portal", de: "🐾Eine Portalanomalie", es: "🐾Anomalía del Portal", fr: "🐾Anomalie du Portail", ja: "🐾ポータルアノマリー" },
     links: { en: "../../hero-wars-dominion-era/events/a-portal-anomaly-en.html", pt: "../../hero-wars-dominion-era/events/a-portal-anomaly-pt.html", de: "../../hero-wars-dominion-era/events/a-portal-anomaly-de.html", es: "../../hero-wars-dominion-era/events/a-portal-anomaly-es.html", fr: "../../hero-wars-dominion-era/events/a-portal-anomaly-fr.html", ja: "../../hero-wars-dominion-era/events/a-portal-anomaly-ja.html" },
     noStrip: true,
     extra: [
+      {
+       titles: {  en: "🎡 Fate's Wish", pt: "🎡 Desejo do Destino",de: "🎡 Schicksalswunsch", es: "🎡 Deseo del Destino", fr: "🎡 Vœu du Destin", ja: "🎡 運命の願い"},
+    links: { en: "../../hero-wars-dominion-era/events/fates-wish-en.html", pt: "../../hero-wars-dominion-era/events/fates-wish-pt.html", de: "../../hero-wars-dominion-era/events/fates-wish-de.html", es: "../../hero-wars-dominion-era/events/fates-wish-es.html", fr: "../../hero-wars-dominion-era/events/fates-wish-fr.html", ja: "../../hero-wars-dominion-era/events/fates-wish-ja.html" },
+       noStrip: true
+      },
       {
        titles: { en: "🪙Elemental Synergy", pt: "🪙Sinergia Elemental", de: "🪙Elementarsynergie", es: "🪙Sinergia Elemental", fr: "🪙Synergie Élémentaire", ja: "🪙エレメンタルシナジー" },
     links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
@@ -497,10 +504,7 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
       },
-      {
-        titles: { en: "🌀Event: Random Hero or New Umbra Titan ???", pt: "🌀Evento: Herói Aleatório ou novo Titã Umbra ???", de: "🌀Ereignis: Zufälliger Held oder neuer Umbra-Titan ???", es: "🌀Evento: Héroe Aleatorio o Nuevo Titán Umbra ???", fr: "🌀Événement: Héros Aléatoire ou Nouveau Titan Umbra ???", ja: "🌀イベント: ランダムヒーローまたは新しいアンブラタイタン ???" },
-        labelOnly: true,
-      },
+      
     ]
   },
 
@@ -514,6 +518,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/a-portal-anomaly-en.html", pt: "../../hero-wars-dominion-era/events/a-portal-anomaly-pt.html", de: "../../hero-wars-dominion-era/events/a-portal-anomaly-de.html", es: "../../hero-wars-dominion-era/events/a-portal-anomaly-es.html", fr: "../../hero-wars-dominion-era/events/a-portal-anomaly-fr.html", ja: "../../hero-wars-dominion-era/events/a-portal-anomaly-ja.html" },
     noStrip: true,
     extra: [
+      {
+       titles: {  en: "🎡 Fate's Wish", pt: "🎡 Desejo do Destino",de: "🎡 Schicksalswunsch", es: "🎡 Deseo del Destino", fr: "🎡 Vœu du Destin", ja: "🎡 運命の願い"},
+    links: { en: "../../hero-wars-dominion-era/events/fates-wish-en.html", pt: "../../hero-wars-dominion-era/events/fates-wish-pt.html", de: "../../hero-wars-dominion-era/events/fates-wish-de.html", es: "../../hero-wars-dominion-era/events/fates-wish-es.html", fr: "../../hero-wars-dominion-era/events/fates-wish-fr.html", ja: "../../hero-wars-dominion-era/events/fates-wish-ja.html" },
+       noStrip: true
+      },
       
       {
         titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
@@ -523,10 +532,7 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
-      {
-        titles: { en: "🌀Event: Random Hero or New Umbra Titan ???", pt: "🌀Evento: Herói Aleatório ou novo Titã Umbra ???", de: "🌀Ereignis: Zufälliger Held oder neuer Umbra-Titan ???", es: "🌀Evento: Héroe Aleatorio o Nuevo Titán Umbra ???", fr: "🌀Événement: Héros Aléatoire ou Nouveau Titan Umbra ???", ja: "🌀イベント: ランダムヒーローまたは新しいアンブラタイタン ???" },
-        labelOnly: true,
-      },
+     
       {
         titles: { en: "🌠Astral Seer - Sale 15%", pt: "🌠Astral Seer - Desconto 15%", de: "🌠Astral Seer - 15% Rabatt", es: "🌠Astral Seer - 15% de Descuento", fr: "🌠Astral Seer - 15% de Réduction", ja: "🌠Astral Seer - 15%オフ" },
         labelOnly: true,
