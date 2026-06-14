@@ -5,16 +5,26 @@
   // Quando tirar do carousel, cole aqui.
   // Este submenu fica na pag. Calendario para eventos da temporada recentes.
   // =====================================================
-  var slides = [   
+  var slides = [  
     {
-      link: "/hero-wars-alliance/event-special-hwa/satori-cascade-orm-season-en.html",
-      src500: "/hero-wars-alliance/images/events-special-hwa/satori-cascade-orm-season/satori-cascade-orm-season-500px.webp",
-      src400: "/hero-wars-alliance/images/events-special-hwa/satori-cascade-orm-season/satori-cascade-orm-season-400px.webp",
-      alt: "Satori, Cascade & Orm Seasonal Event Guide for Hero Wars Alliance",
-      title: "Satori, Cascade & Orm Seasonal Event Guide for Hero Wars Alliance",
-      strong: "Guide: Satori, Cascade & Orm Seasonal Event for Hero Wars Alliance",
+      link: "/hero-wars-alliance/characters-guide/satori-en.html",
+      src500: "/hero-wars-alliance/images/hero/satori/satori-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/satori/satori-400px.webp",
+      alt: "Satori Legendary Skills Guide for Hero Wars Alliance",
+      title: "Satori Guide for Hero Wars Alliance",
+      strong: "Guide Updated: Satori Legendary Skills for Hero Wars Alliance",
       updated: "Updated: June, 2026."
-    },  
+    },      
+    {
+      link: "/hero-wars-alliance/characters-guide/cascade-en.html",
+      src500: "/hero-wars-alliance/images/hero/cascade/cascade-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/cascade/cascade-400px.webp",
+      alt: "Cascade Legendary Skills Guide for Hero Wars Alliance",
+      title: "Cascade Guide for Hero Wars Alliance",
+      strong: "Guide Updated: Cascade Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: June, 2026."
+    },    
+    
     {
       link: "../../hero-wars-alliance/titans-guide/orm-en.html",
       src500: "../../hero-wars-alliance/images/titans/orm/orm-500px.webp",
@@ -25,6 +35,15 @@
       updated: "Updated: June, 2026."
     },   
     {
+      link: "/hero-wars-alliance/event-special-hwa/satori-cascade-orm-season-en.html",
+      src500: "/hero-wars-alliance/images/events-special-hwa/satori-cascade-orm-season/satori-cascade-orm-season-500px.webp",
+      src400: "/hero-wars-alliance/images/events-special-hwa/satori-cascade-orm-season/satori-cascade-orm-season-400px.webp",
+      alt: "Satori, Cascade & Orm Seasonal Event Guide for Hero Wars Alliance",
+      title: "Satori, Cascade & Orm Seasonal Event Guide for Hero Wars Alliance",
+      strong: "Guide: Satori, Cascade & Orm Seasonal Event for Hero Wars Alliance",
+      updated: "Updated: June, 2026."
+    },  
+    {
       link: "../../hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-en.html",
       src500: "../../hero-wars-alliance/images/daily-gifts/gifts-hwa-500px.webp",
       src400: "../../hero-wars-alliance/images/daily-gifts/gifts-hwa-400px.webp",
@@ -33,16 +52,7 @@
       strong: "Redeem your Daily Gifts for Hero Wars Alliance",
       updated: "Updated: Everyday."
     },
-    {
-      link: "/hero-wars-alliance/characters-guide/satori-en.html",
-      src500: "/hero-wars-alliance/images/hero/satori/satori-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/satori/satori-400px.webp",
-      alt: "Satori Legendary Skills Guide for Hero Wars Alliance",
-      title: "Satori Guide for Hero Wars Alliance",
-      strong: "Guide Updated Skin+: Satori Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: June, 2026."
-    },    
-    
+        
     {
       link: "/hero-wars-alliance/characters-guide/kendle-en.html",
       src500: "/hero-wars-alliance/images/hero/kendle/kendle-500px.webp",

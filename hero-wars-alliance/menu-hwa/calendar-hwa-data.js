@@ -52,7 +52,11 @@ window.CALENDAR_DATA = [
     alt: "Satori Guide",
    titles: { en: "🦊Satori Relic Guide", pt: "🦊Guia do Satori com Relíquias", de: "🦊Satori-Relikt-Leitfaden", es: "🦊Guía de Satori con Reliquias", fr: "🦊Guide de Satori avec Reliques", ja: "🦊サトリのレリックガイド" },  links: { en: "../../hero-wars-alliance/characters-guide/satori-en.html", de: "../../hero-wars-alliance/characters-guide/satori-de.html", es: "../../hero-wars-alliance/characters-guide/satori-es.html", fr: "../../hero-wars-alliance/characters-guide/satori-fr.html", pt: "../../hero-wars-alliance/characters-guide/satori-pt.html", ja: "../../hero-wars-alliance/characters-guide/satori-ja.html" },       
   noStrip: true,
-  extra: []
+  extra: [{
+titles: { en: "📘Cascade Relic Guide", de: "📘Kaskade Leitfaden und Relikte", es: "📘Guía de Cascade con Reliquias", fr: "📘Guide Cascadee com Reliques", pt: "📘Guia da Dilúvio com Relíquias", ja: "📘カスケード - ガイド" },
+ links: { en: "../../hero-wars-alliance/characters-guide/cascade-en.html", de: "../../hero-wars-alliance/characters-guide/cascade-de.html", es: "../../hero-wars-alliance/characters-guide/cascade-es.html", fr: "../../hero-wars-alliance/characters-guide/cascade-fr.html", pt: "../../hero-wars-alliance/characters-guide/cascade-pt.html", ja: "../../hero-wars-alliance/characters-guide/cascade-ja.html" },       
+noStrip: true
+}, ]
   },
   
 {
@@ -444,11 +448,11 @@ window.CALENDAR_DATA = [
  { titles: { en: "👗Somna New Skin: Dawn", pt: "👗Somna Nova Skin: Aurora", de: "👗Somna Neue Skin: Morgenröte", es: "👗Somna Nueva Skin: Aurora", fr: "👗Somna Nouvelle Skin : Aurore", ja: "👗ソムナ ード新スキン：ドーン" },
  labelOnly: true }, 
 { titles: { en: "🏺Cascade - Relic Event", de: "🏺Kaskade - Relikt-Ereignis", es: "🏺Cascade - Evento de Reliquia", fr: "🏺Cascade - Événement des Reliques", pt: "🏺Dilúvio - Evento de Relíquia", ja: "🏺カスケード - レリックイベント" },
-  links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+  links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html" }
 },  
 {
 titles: { en: "📘Cascade Guide", de: "📘Kaskade Leitfaden", es: "📘Guía de Cascade", fr: "📘Guide Cascadee", pt: "📘Guia da Dilúvio", ja: "📘カスケード - ガイド" },
- links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Cascade - English.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+ links: { en: "../../hero-wars-alliance/characters-guide/cascade-en.html", de: "../../hero-wars-alliance/characters-guide/cascade-de.html", es: "../../hero-wars-alliance/characters-guide/cascade-es.html", fr: "../../hero-wars-alliance/characters-guide/cascade-fr.html", pt: "../../hero-wars-alliance/characters-guide/cascade-pt.html", ja: "../../hero-wars-alliance/characters-guide/cascade-ja.html" },       
 noStrip: true
 },  
              
@@ -468,7 +472,7 @@ noStrip: true
 },  
 {
 titles: { en: "📘Cascade Guide", de: "📘Kaskade Leitfaden", es: "📘Guía de Cascade", fr: "📘Guide Cascadee", pt: "📘Guia da Dilúvio", ja: "📘カスケード - ガイド" },
- links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Cascade - English.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+ links: { en: "../../hero-wars-alliance/characters-guide/cascade-en.html", de: "../../hero-wars-alliance/characters-guide/cascade-de.html", es: "../../hero-wars-alliance/characters-guide/cascade-es.html", fr: "../../hero-wars-alliance/characters-guide/cascade-fr.html", pt: "../../hero-wars-alliance/characters-guide/cascade-pt.html", ja: "../../hero-wars-alliance/characters-guide/cascade-ja.html" },       
 noStrip: true
 },  
     ]
@@ -487,7 +491,8 @@ noStrip: true
 },  
 {
 titles: { en: "📘Cascade Guide", de: "📘Kaskade Leitfaden", es: "📘Guía de Cascade", fr: "📘Guide Cascadee", pt: "📘Guia da Dilúvio", ja: "📘カスケード - ガイド" },
- links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Cascade - English.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+links: { en: "../../hero-wars-alliance/characters-guide/cascade-en.html", de: "../../hero-wars-alliance/characters-guide/cascade-de.html", es: "../../hero-wars-alliance/characters-guide/cascade-es.html", fr: "../../hero-wars-alliance/characters-guide/cascade-fr.html", pt: "../../hero-wars-alliance/characters-guide/cascade-pt.html", ja: "../../hero-wars-alliance/characters-guide/cascade-ja.html" },       
+   
 noStrip: true
 },   
     ]
@@ -505,7 +510,7 @@ noStrip: true
 },  
 {
 titles: { en: "📘Cascade Guide", de: "📘Kaskade Leitfaden", es: "📘Guía de Cascade", fr: "📘Guide Cascadee", pt: "📘Guia da Dilúvio", ja: "📘カスケード - ガイド" },
- links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Cascade - English.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+ links: { en: "../../hero-wars-alliance/characters-guide/cascade-en.html", de: "../../hero-wars-alliance/characters-guide/cascade-de.html", es: "../../hero-wars-alliance/characters-guide/cascade-es.html", fr: "../../hero-wars-alliance/characters-guide/cascade-fr.html", pt: "../../hero-wars-alliance/characters-guide/cascade-pt.html", ja: "../../hero-wars-alliance/characters-guide/cascade-ja.html" },       
 noStrip: true
 },  
     ]
@@ -538,7 +543,7 @@ noStrip: true
 },  
 {
 titles: { en: "📘Cascade Guide", de: "📘Kaskade Leitfaden", es: "📘Guía de Cascade", fr: "📘Guide Cascadee", pt: "📘Guia da Dilúvio", ja: "📘カスケード - ガイド" },
- links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Cascade - English.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+ links: { en: "../../hero-wars-alliance/characters-guide/cascade-en.html", de: "../../hero-wars-alliance/characters-guide/cascade-de.html", es: "../../hero-wars-alliance/characters-guide/cascade-es.html", fr: "../../hero-wars-alliance/characters-guide/cascade-fr.html", pt: "../../hero-wars-alliance/characters-guide/cascade-pt.html", ja: "../../hero-wars-alliance/characters-guide/cascade-ja.html" },       
 noStrip: true
 },  
     
@@ -573,7 +578,7 @@ noStrip: true
 },  
 {
 titles: { en: "📘Cascade Guide", de: "📘Kaskade Leitfaden", es: "📘Guía de Cascade", fr: "📘Guide Cascadee", pt: "📘Guia da Dilúvio", ja: "📘カスケード - ガイド" },
- links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Cascade - English.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+ links: { en: "../../hero-wars-alliance/characters-guide/cascade-en.html", de: "../../hero-wars-alliance/characters-guide/cascade-de.html", es: "../../hero-wars-alliance/characters-guide/cascade-es.html", fr: "../../hero-wars-alliance/characters-guide/cascade-fr.html", pt: "../../hero-wars-alliance/characters-guide/cascade-pt.html", ja: "../../hero-wars-alliance/characters-guide/cascade-ja.html" },       
 noStrip: true
 },  
     
@@ -608,7 +613,7 @@ noStrip: true
 },  
 {
 titles: { en: "📘Cascade Guide", de: "📘Kaskade Leitfaden", es: "📘Guía de Cascade", fr: "📘Guide Cascadee", pt: "📘Guia da Dilúvio", ja: "📘カスケード - ガイド" },
- links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Cascade - English.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+ links: { en: "../../hero-wars-alliance/characters-guide/cascade-en.html", de: "../../hero-wars-alliance/characters-guide/cascade-de.html", es: "../../hero-wars-alliance/characters-guide/cascade-es.html", fr: "../../hero-wars-alliance/characters-guide/cascade-fr.html", pt: "../../hero-wars-alliance/characters-guide/cascade-pt.html", ja: "../../hero-wars-alliance/characters-guide/cascade-ja.html" },       
 noStrip: true
 },  
     
