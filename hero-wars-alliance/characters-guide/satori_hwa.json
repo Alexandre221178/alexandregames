@@ -119,7 +119,7 @@
                     "level": 120,
                     "name": "Spirit Banishment",
                     "type": ["Magical Damage", "Mark"],
-                    "description": "Satori attacks all enemies, dealing damage and applying a Fox Fire mark. Applies an extra mark for each allied Mystery Hero.",
+                    "description": "Satori attacks all enemies, dealing damage and applying a Fox Fire mark. Applies an extra mark for each allied Mystery Hero, up to 5 marks at a time",
                     "keywords": ["Mark"],
                     "initial_cooldown_seconds": 8,
                     "cooldown_seconds": 15,
