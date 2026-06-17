@@ -8,12 +8,14 @@
 // ── June #, 2026 ──────────────────────────────
 { date:'2026-06-##', type:'link', giftId:'#####', note:'until|2026-0#-##T02:00:00Z',
   rewards:['energy x500'] },
-  // ── 2 Link Exclusivo Web/FB ──────────────────────────────
+  // 2026-06-##── 2 Link Exclusivo Web/FB ──────────────────────────────
 { date:'2026-06-##', type:'link', giftLinkWeb:'https://herowars.me/##', giftLinkFb:'https://herowars.me/##', note:'until|2026-05-03T02:00:00Z',
   rewards:['energy x500'] },
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=51a884bf9fd9479aff006545b4db39d5
 */window.HWDE_GIFTS = [
-   
+   // 2026-06-17── 2 Link Exclusivo Web/FB_Dominion ──────────────────────────────
+{ date:'2026-06-17', type:'link', giftLinkWeb:'https://herowars.me/4uCzMVx', giftLinkFb:'https://herowars.me/3QuxnhD', note:'until|2026-05-03T02:00:00Z',
+  rewards:['energy x500'] },
    // ── June 16, 2026 ──────────────────────────────
    { date:'2026-06-16', type:'link', giftId:'790dadd625640475826ccb19cb6a0ff6', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
