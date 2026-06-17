@@ -1,0 +1,122 @@
+{
+  "name": "Umbra",
+  "game": "Hero Wars: Dominion Era",
+  "position": 14,
+  "roles": ["summoner"],
+  "obtention": "Circle of Summoning",
+  "basic_attack": {
+    "value": 799605,
+    "type": "100% physical attack",
+    "interval_seconds": 3.8
+  },
+  "stats": {
+    "health": 14881865,
+    "power": 218567,
+    "attack": 795605,
+    "elemental_attack": 479475,
+    "elemental_armor": 175467
+  },
+  "skills": [
+    {
+      "name": "Caligomora",
+      "type": "ultimate",
+      "color": "white",
+      "description": "Summons Caligo for 7s. While active, spreads around an aura. Caligo receives 50% of damage dealt to opponents inside the aura. After the timer expires, Caligo dies. At the moment of his death, opponents inside the aura receive 795,605 damage and additional damage equal to Caligo's remaining Health. Caligo's Health is 30% of Umbra's maximum Health. Caligo can't be attacked directly.",
+      "summon": "Caligo",
+      "duration_seconds": 7,
+      "aura_damage_received_percent": 50,
+      "death_damage": 795605,
+      "damage_type": "100% physical attack",
+      "additional_damage": "equal to Caligo's remaining Health",
+      "caligo_health_percent_of_umbra": 30,
+      "notes": "Caligo can't be attacked directly"
+    },
+    {
+      "name": "Spiritual Bond: Darkness",
+      "type": "passive",
+      "color": "green",
+      "description": "Umbra and Caligo envelop themselves in shadows, creating a bond with the element of Darkness. Thanks to it, they begin the battle with 30% of Energy and generate 10% more Energy for Dark Spirit Totem activation.",
+      "battle_start_energy_percent": 30,
+      "dark_totem_energy_bonus_percent": 10,
+      "element": "Darkness"
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": {
+        "health": 1022985,
+        "power": 5217
+      },
+      "upgrade_cost": {
+        "titan_skin_stone": 354960
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "Nephtis' Horn",
+      "stats": {
+        "elemental_damage": 479475,
+        "power": 32604
+      },
+      "upgrade_cost": {
+        "essence_of_the_elements": 686080
+      }
+    },
+    {
+      "name": "Crown of Darkness",
+      "stats": {
+        "elemental_armor": 175467,
+        "power": 55973
+      },
+      "upgrade_cost": {
+        "essence_of_the_elements": 666080
+      }
+    },
+    {
+      "name": "Cosmos' Seal",
+      "stats": {
+        "health": 3995583,
+        "physical_attack": 299673,
+        "power": 40755
+      },
+      "upgrade_cost": {
+        "gold": 173005000
+      }
+    },
+    {
+      "name": "Dark Spirit Totem",
+      "stats": {
+        "health": 3995583,
+        "power": 20377
+      },
+      "upgrade_cost": {}
+    }
+  ],
+  "levels": {
+    "stats": {
+      "health": null,
+      "physical_attack": null,
+      "power": null
+    },
+    "upgrade_cost": {
+      "titan_potion": null,
+      "emeralds": null,
+      "umbra_soul_stone": null
+    }
+  },
+  "battle_tests": {
+    "tester": "Alexandre",
+    "condition": "",
+    "attack_results": [],
+    "defense_results": []
+  },
+  "umbra_best_team": {
+    "tester": "Alexandre",
+    "condition": "",
+    "composition": [],
+    "notes": "",
+    "results": []
+  }
+}
