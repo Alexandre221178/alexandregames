@@ -558,7 +558,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
-           
+            {
+        titles: { en: "🌠Early Access - Umbra", pt: "🌠Early Access - Umbra", de: "🌠Early Access - Umbra", es: "🌠Early Access - Umbra", fr: "🌠Early Access - Umbra", ja: "🌠Early Access - Umbra" },
+        labelOnly: true,
+      },
       {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
@@ -590,6 +593,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/power-of-the-titans-en.html", pt: "../../hero-wars-dominion-era/events/power-of-the-titans-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+       {
+        titles: { en: "🌠Early Access - Umbra", pt: "🌠Early Access - Umbra", de: "🌠Early Access - Umbra", es: "🌠Early Access - Umbra", fr: "🌠Early Access - Umbra", ja: "🌠Early Access - Umbra" },
+        labelOnly: true,
+      },
       
       {
         titles: { en: "🏆Tournament of Titan Power", pt: "🏆Torneio de Poder dos Titãs", de: "🏆Titanenkraft-Turnier", es: "🏆Torneo de Poder de Titanes", fr: "🏆Tournoi de Puissance des Titans", ja: "🏆タイタンパワートーナメント" },
@@ -650,6 +657,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🐾Pet Summoning - Sale 20%", pt: "🐾Invocação de Pets - Desconto 20%", de: "🐾Tierbeschwörung - 20% Rabatt", es: "🐾Invocación de Mascotas - 20% de Descuento", fr: "🐾Invocation de Compagnons - 20% de Réduction", ja: "🐾ペット召喚 - 20%オフ" },
         labelOnly: true,
       },
+       {
+        titles: { en: "🌠Early Access - Umbra", pt: "🌠Early Access - Umbra", de: "🌠Early Access - Umbra", es: "🌠Early Access - Umbra", fr: "🌠Early Access - Umbra", ja: "🌠Early Access - Umbra" },
+        labelOnly: true,
+      },
     ]
   },
 
@@ -679,6 +690,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },
+       {
+        titles: { en: "🌠Early Access - Umbra", pt: "🌠Early Access - Umbra", de: "🌠Early Access - Umbra", es: "🌠Early Access - Umbra", fr: "🌠Early Access - Umbra", ja: "🌠Early Access - Umbra" },
+        labelOnly: true,
+      },
     ]
   },
 
@@ -707,6 +722,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },
+       {
+        titles: { en: "🌠Early Access - Umbra", pt: "🌠Early Access - Umbra", de: "🌠Early Access - Umbra", es: "🌠Early Access - Umbra", fr: "🌠Early Access - Umbra", ja: "🌠Early Access - Umbra" },
+        labelOnly: true,
+      },
     ]
   },
 
@@ -725,6 +744,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
 {
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
+      },
+       {
+        titles: { en: "🌠Early Access - Umbra", pt: "🌠Early Access - Umbra", de: "🌠Early Access - Umbra", es: "🌠Early Access - Umbra", fr: "🌠Early Access - Umbra", ja: "🌠Early Access - Umbra" },
+        labelOnly: true,
       },
     ]
   },
@@ -755,6 +778,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
       },
       {
         titles: { en: "🌀Soul Atrium - Sale 50%", pt: "🌀Átrio da Alma - Desconto 50%", de: "🌀Seelenatrium - 50% Rabatt", es: "🌀Atrio del Alma - 50% de Descuento", fr: "🌀Atrium de l'Âme - 50% de Réduction", ja: "🌀ソウルアトリウム - 50%オフ" },
+        labelOnly: true,
+      },
+       {
+        titles: { en: "🌠Early Access - Umbra", pt: "🌠Early Access - Umbra", de: "🌠Early Access - Umbra", es: "🌠Early Access - Umbra", fr: "🌠Early Access - Umbra", ja: "🌠Early Access - Umbra" },
         labelOnly: true,
       },
     ]
@@ -797,6 +824,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🌀Soul Atrium - Sale 50%", pt: "🌀Átrio da Alma - Desconto 50%", de: "🌀Seelenatrium - 50% Rabatt", es: "🌀Atrio del Alma - 50% de Descuento", fr: "🌀Atrium de l'Âme - 50% de Réduction", ja: "🌀ソウルアトリウム - 50%オフ" },
         labelOnly: true,
       },
+       {
+        titles: { en: "🌠Early Access - Umbra", pt: "🌠Early Access - Umbra", de: "🌠Early Access - Umbra", es: "🌠Early Access - Umbra", fr: "🌠Early Access - Umbra", ja: "🌠Early Access - Umbra" },
+        labelOnly: true,
+      },
     ]
   },
 
@@ -810,6 +841,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+       {
+        titles: { en: "🌠Event - Umbra", pt: "🌠Event - Umbra", de: "🌠Event - Umbra", es: "🌠Event - Umbra", fr: "🌠Event - Umbra", ja: "🌠Event - Umbra" },
+        labelOnly: true,
+      },
        {
     titles: { en: "🔶Guardians of Outland", pt: "🔶Guardiões da Fronteira", de: "🔶Wächter des Außenlands", es: "🔶Guardianes de la Frontera", fr: "🔶Gardiens de l'Outreterre", ja: "🔶アウトランドの守護者" },
         links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
