@@ -8,7 +8,7 @@
 
 {
   titles: { en: "", de: "", es: "", fr: "", pt: "", ja: "" },
-  links: { en: "../../", de: "", es: "", fr: "", pt: "../../", ja: "" },       
+  links: { en: "../../", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
 },  
 

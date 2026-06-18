@@ -96,5 +96,10 @@
     {"id":"Lumira","gender":"Female","en":"Lumira","de":"Lumira","es":"Lumira","fr":"Lumira","pt":"Lumira","ja":"ルミラ"},
   
     {"id":"Tidus","gender":"Male","en":"Tidus","de":"Tidus","es":"Tidus","fr":"Tidus","pt":"Tidus","ja":"タイダス"},
-{"id":"Tidus and Gelo","gender":"Male","en":"Tidus and Gelo","de":"Tidus und Gelo","es":"Tidus y Gelo","fr":"Tidus et Gelo","pt":"Tidus e Gelo","ja":"タイダスとゲロ"}  ]
+    {"id":"Tidus and Gelo","gender":"Male","en":"Tidus and Gelo","de":"Tidus und Gelo","es":"Tidus y Gelo","fr":"Tidus et Gelo","pt":"Tidus e Gelo","ja":"タイダスとゲロ"},  
+
+{"id":"Umbra","gender":"Male","en":"Umbra","de":"Umbra","es":"Umbra","fr":"Umbra","pt":"Umbra","ja":"アンブラ"}
+
+
+  ]
 }

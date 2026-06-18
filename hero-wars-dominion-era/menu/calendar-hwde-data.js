@@ -558,6 +558,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      {
+  titles: { en: "Umbra Event Missions", de: "Umbra-Event-Missionen", es: "Misiones del Evento Umbra", fr: "Missions de l'Événement Umbra", pt: "Missões do Evento Umbra", ja: "ウンブライベントのミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
             {
         titles: { en: "🌠Early Access - Umbra", pt: "🌠Early Access - Umbra", de: "🌠Early Access - Umbra", es: "🌠Early Access - Umbra", fr: "🌠Early Access - Umbra", ja: "🌠Early Access - Umbra" },
         labelOnly: true,
@@ -593,6 +598,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/power-of-the-titans-en.html", pt: "../../hero-wars-dominion-era/events/power-of-the-titans-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      {
+  titles: { en: "Umbra Event Missions", de: "Umbra-Event-Missionen", es: "Misiones del Evento Umbra", fr: "Missions de l'Événement Umbra", pt: "Missões do Evento Umbra", ja: "ウンブライベントのミッション" }, 
+    links: { en: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
        {
         titles: { en: "🌠Early Access - Umbra", pt: "🌠Early Access - Umbra", de: "🌠Early Access - Umbra", es: "🌠Early Access - Umbra", fr: "🌠Early Access - Umbra", ja: "🌠Early Access - Umbra" },
         labelOnly: true,
@@ -634,6 +644,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     noStrip: true,
     extra: [
       {
+  titles: { en: "Umbra Event Missions", de: "Umbra-Event-Missionen", es: "Misiones del Evento Umbra", fr: "Missions de l'Événement Umbra", pt: "Missões do Evento Umbra", ja: "ウンブライベントのミッション" },   links: { en: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+      {
        titles: { en: "⚡Power of the Titans", pt: "⚡Poder dos Titãs", de: "⚡Macht der Titanen", es: "⚡Poder de los Titanes", fr: "⚡Puissance des Titans", ja: "⚡タイタンの力" },
     links: { en: "../../hero-wars-dominion-era/events/power-of-the-titans-en.html", pt: "../../hero-wars-dominion-era/events/power-of-the-titans-pt.html", de: "", es: "", fr: "", ja: "" },
          noStrip: true
@@ -674,6 +688,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/foundations-of-power-en.html", pt: "../../hero-wars-dominion-era/events/foundations-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      {
+  titles: { en: "Umbra Event Missions", de: "Umbra-Event-Missionen", es: "Misiones del Evento Umbra", fr: "Missions de l'Événement Umbra", pt: "Missões do Evento Umbra", ja: "ウンブライベントのミッション" },   links: { en: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
       
       {
         titles: { en: "🏆Tournament of Titan Power", pt: "🏆Torneio de Poder dos Titãs", de: "🏆Titanenkraft-Turnier", es: "🏆Torneo de Poder de Titanes", fr: "🏆Tournoi de Puissance des Titans", ja: "🏆タイタンパワートーナメント" },
@@ -707,6 +725,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/foundations-of-power-en.html", pt: "../../hero-wars-dominion-era/events/foundations-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      {
+  titles: { en: "Umbra Event Missions", de: "Umbra-Event-Missionen", es: "Misiones del Evento Umbra", fr: "Missions de l'Événement Umbra", pt: "Missões do Evento Umbra", ja: "ウンブライベントのミッション" },   links: { en: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
        {
         titles: { en: "🏆Tournament of Titan Power", pt: "🏆Torneio de Poder dos Titãs", de: "🏆Titanenkraft-Turnier", es: "🏆Torneo de Poder de Titanes", fr: "🏆Tournoi de Puissance des Titans", ja: "🏆タイタンパワートーナメント" },
     links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -739,7 +761,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/titan-cosmic-battle-en.html", pt: "../../hero-wars-dominion-era/events/titan-cosmic-battle-pt.html", de: "../../hero-wars-dominion-era/events/titan-cosmic-battle-de.html", es: "../../hero-wars-dominion-era/events/titan-cosmic-battle-es.html", fr: "../../hero-wars-dominion-era/events/titan-cosmic-battle-fr.html", ja: "../../hero-wars-dominion-era/events/titan-cosmic-battle-ja.html" },
     noStrip: true,
     extra: [
-     
+     {
+  titles: { en: "Umbra Event Missions", de: "Umbra-Event-Missionen", es: "Misiones del Evento Umbra", fr: "Missions de l'Événement Umbra", pt: "Missões do Evento Umbra", ja: "ウンブライベントのミッション" },   links: { en: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
  
 {
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
@@ -762,7 +787,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/titan-cosmic-battle-en.html", pt: "../../hero-wars-dominion-era/events/titan-cosmic-battle-pt.html", de: "../../hero-wars-dominion-era/events/titan-cosmic-battle-de.html", es: "../../hero-wars-dominion-era/events/titan-cosmic-battle-es.html", fr: "../../hero-wars-dominion-era/events/titan-cosmic-battle-fr.html", ja: "../../hero-wars-dominion-era/events/titan-cosmic-battle-ja.html" },
     noStrip: true,
     extra: [
-      
+      {
+  titles: { en: "Umbra Event Missions", de: "Umbra-Event-Missionen", es: "Misiones del Evento Umbra", fr: "Missions de l'Événement Umbra", pt: "Missões do Evento Umbra", ja: "ウンブライベントのミッション" },
+     links: { en: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
 
  {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
@@ -797,6 +826,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
     noStrip: true,
     extra: [
+      {
+  titles: { en: "Umbra Event Missions", de: "Umbra-Event-Missionen", es: "Misiones del Evento Umbra", fr: "Missions de l'Événement Umbra", pt: "Missões do Evento Umbra", ja: "ウンブライベントのミッション" },
+     links: { en: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
       
       {
         titles: { en: "🌌 Cosmic Battle: Titans Edition", pt: "🌌 Batalha Cósmica: Edição Titãs", de: "🌌 Kosmischer Kampf: Titanen-Edition", es: "🌌 Batalla Cósmica: Edición Titanes", fr: "🌌 Combat Cosmique : Édition Titans", ja: "🌌 コズミックバトル：タイタンズエディション" },
