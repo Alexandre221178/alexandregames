@@ -114,9 +114,61 @@
   },
   "umbra_best_team": {
     "tester": "Alexandre",
-    "condition": "",
-    "composition": [],
-    "notes": "",
-    "results": []
+    "condition": "Umbra at max level with Dark Spirit Totem",
+    "composition": [
+      "Tenebris",
+      "Keros",
+      "Umbra",
+      "Mort",
+      "Brustar"
+    ],
+    "notes": "Best Dark team tested. Extremely strong against Fire, Water and Earth teams. Full Light teams remain the most reliable counter on defense. Tenebris was consistently the MVP, often surviving until the end of the battle and securing victories alone due to her exceptional damage and survivability.",
+    "results": [
+      {
+        "opponent_team_name": "Full Water",
+        "opponent_composition": [
+          "Hyperion",
+          "Mairi",
+          "Tydus",
+          "Nova",
+          "Sigurd"
+        ],
+        "result": "victory"
+      },
+      {
+        "opponent_team_name": "Full Fire",
+        "opponent_composition": [
+          "Ignis",
+          "Araji",
+          "Asherona",
+          "Vulcan",
+          "Moloch"
+        ],
+        "result": "victory"
+      },
+      {
+        "opponent_team_name": "Full Earth",
+        "opponent_composition": [
+          "Sylva",
+          "Eden",
+          "Verdoc",
+          "Avalon",
+          "Angus"
+        ],
+        "result": "victory"
+      },
+      {
+        "opponent_team_name": "Full Light",
+        "opponent_composition": [
+          "Lumira",
+          "Iyari",
+          "Solaris",
+          "Amon",
+          "Rigel"
+        ],
+        "result": "defeat_on_defense",
+        "attack_result": "victory"
+      }
+    ]
   }
-}
+} 
