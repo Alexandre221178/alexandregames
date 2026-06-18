@@ -2,6 +2,15 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
+      link: "/hero-wars-alliance/guide/talisman-guide-hwa-en.html",
+      src500: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-400px.webp",
+      alt: "Talisman Guide for Hero Wars Alliance",
+      title: "Talisman Guide for Hero Wars Alliance",
+      strong: "Updated Reroll: Talisman Guide for Hero Wars Alliance",
+      updated: "Updated: June, 2026."
+    },      
+    {
       link: "/hero-wars-alliance/characters-guide/satori-en.html",
       src500: "/hero-wars-alliance/images/hero/satori/satori-500px.webp",
       src400: "/hero-wars-alliance/images/hero/satori/satori-400px.webp",
@@ -9,26 +18,8 @@
       title: "Satori Guide for Hero Wars Alliance",
       strong: "Guide Updated: Satori Legendary Skills for Hero Wars Alliance",
       updated: "Updated: June, 2026."
-    },    
+    },  
     
-    {
-      link: "../../hero-wars-alliance/titans-events-tips/orm-ancient-awakening-event-en.html",
-      src500: "../../hero-wars-alliance/images/titans-events-tips/orm-event-tips/orm-event-tips-500px.webp",
-      src400: "../../hero-wars-alliance/images/titans-events-tips/orm-event-tips/orm-event-tips-400px.webp",
-      alt: "Orm Event and Shop Guide for Hero Wars Alliance",
-      title: "Orm Event and Shop Guide for Hero Wars Alliance",
-      strong: "Guide: Orm Event and f2p Strategy + Shop priorities - Hero Wars Alliance(EN)",
-      updated: "Updated: June, 2026."
-    },
-    {
-      link: "../../hero-wars-alliance/titans-guide/orm-en.html",
-      src500: "../../hero-wars-alliance/images/titans/orm/orm-500px.webp",
-      src400: "../../hero-wars-alliance/images/titans/orm/orm-400px.webp",
-      alt: "Orm Legendary Skills Guide for Hero Wars Alliance",
-      title: "Titan Orm Guide for Hero Wars Alliance",
-      strong: "Guide: Titan Orm for Hero Wars Alliance",
-      updated: "Updated: June, 2026."
-    }, 
     {
       link: "/hero-wars-alliance/event-special-hwa/satori-cascade-orm-season-en.html",
       src500: "/hero-wars-alliance/images/events-special-hwa/satori-cascade-orm-season/satori-cascade-orm-season-500px.webp",
@@ -39,6 +30,18 @@
       updated: "Updated: June, 2026."
     },  
     
+    
+    
+    {
+      link: "../../hero-wars-alliance/titans-guide/orm-en.html",
+      src500: "../../hero-wars-alliance/images/titans/orm/orm-500px.webp",
+      src400: "../../hero-wars-alliance/images/titans/orm/orm-400px.webp",
+      alt: "Orm Legendary Skills Guide for Hero Wars Alliance",
+      title: "Titan Orm Guide for Hero Wars Alliance",
+      strong: "Guide: Titan Orm for Hero Wars Alliance",
+      updated: "Updated: June, 2026."
+    }, 
+    
     {
       link: "/hero-wars-alliance/characters-guide/cascade-en.html",
       src500: "/hero-wars-alliance/images/hero/cascade/cascade-500px.webp",
@@ -48,15 +51,7 @@
       strong: "Guide Updated: Cascade Legendary Skills for Hero Wars Alliance",
       updated: "Updated: June, 2026."
     },      
-    {
-      link: "/hero-wars-alliance/guide/talisman-guide-hwa-en.html",
-      src500: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-500px.webp",
-      src400: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-400px.webp",
-      alt: "Talisman Guide for Hero Wars Alliance",
-      title: "Talisman Guide for Hero Wars Alliance",
-      strong: "Updated Reroll: Talisman Guide for Hero Wars Alliance",
-      updated: "Updated: June, 2026."
-    },    
+    
     
     {
       link: "/hero-wars-alliance/characters-guide/kendle-en.html",
