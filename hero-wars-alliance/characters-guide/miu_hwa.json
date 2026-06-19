@@ -40,6 +40,19 @@
 					"magical_crit_hit_chance": 5040,
 					"magic_penetration": 12660,
 					"crushing": 1358
+				},
+				"talisman_of_priestess": {
+					"intelligence": 14141,
+					"agility": 2503,
+					"strength": 2485,
+					"health": 655004,
+					"physical_attack": 19693,
+					"magic_attack": 159940,
+					"magic_defense": 19679,
+					"toughness": 2790,
+					"magical_crit_hit_chance": 9040,
+					"magic_penetration": 12660,
+					"crushing": 1358
 				}
 			},
 			"talisman_details": {
@@ -57,6 +70,16 @@
 						{ "stat": "Armor", "value": 6600 }
 					],
 					"total_reroll_bonus": { "stat": "Armor", "value": 19800 }
+				},
+				"talisman_of_priestess": {
+					"main_stat": "Magical Crit Hit Chance",
+					"main_stat_bonus": 4000,
+					"reroll_slots": [
+						{ "stat": "Magic Attack", "value": 6600 },
+						{ "stat": "Magic Attack", "value": 6600 },
+						{ "stat": "Magic Attack", "value": 6600 }
+					],
+					"total_reroll_bonus": { "stat": "Magic Attack", "value": 19800 }
 				},
 				"recommended": "talisman_of_storm"
 			},
@@ -297,7 +320,7 @@
 			"notes": [
 				"Miu é Forte contra times de Esquiva: Dante, Aurora, Octavia.",
 				"Realm skills are not available yet.",
-				"Only Talisman of Storm is available at the moment.",
+				"Miu has two talismans: Talisman of Storm and Talisman of Priestess.",
 				"The source notes listed Eternal Blindness both as a skill enhancement and as a new legendary skill at relic level 30; both entries were preserved for later in-game verification."
 			]
 		}
