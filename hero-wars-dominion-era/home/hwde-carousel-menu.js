@@ -2,6 +2,15 @@
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
     {
+  link: "../../hero-wars-dominion-era/titans/umbra-en.html",
+  src500: "../../hero-wars-dominion-era/images/titans-hwde/umbra/umbra-500px.webp",
+  src400: "../../hero-wars-dominion-era/images/titans-hwde/umbra/umbra-400px.webp",
+  alt: "Umbra for Hero Wars: Dominion Era",
+  title: "Umbra for Hero Wars: Dominion Era.",
+  strong: "Guide: Umbra - Hero Wars: Dominion Era",
+  updated: "Updated: June, 2026."
+},
+    {
       link: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-missions-en.html",
       src500: "../../hero-wars-dominion-era/images/events-special/umbra-event/how-to-prepare-500px.webp",
       src400: "../../hero-wars-dominion-era/images/events-special/umbra-event/how-to-prepare-400px.webp",

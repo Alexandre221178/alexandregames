@@ -155,7 +155,7 @@
           "Avalon",
           "Angus"
         ],
-        "result": "victory"
+        "result": "victory 10% of the time, defeat 90% of the time"
       },
       {
         "opponent_team_name": "Full Light",
