@@ -110,6 +110,8 @@
 "update-hero-cosmic-battle-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js hero-cosmic-battle-hwde",
 
     "update-titan-cosmic-battle-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titan-cosmic-battle-hwde",
+"update-totem-fusion-skills-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js totem-fusion-skills-hwde",
+
 "update-fates-wish-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js fates-wish-hwde",
 
 

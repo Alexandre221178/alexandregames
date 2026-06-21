@@ -1,0 +1,272 @@
+{
+  "requisitos_desbloqueio": {
+    "totem_level": 130,
+    "totem_rank": 6,
+    "skill_rank": 6
+  },
+  "elemental_skills": [
+    {
+      "nome": "Last Flash",
+      "descricao": "Quando o Titan morreria, ele entra em um estado de fúria ao invés de morrer. Velocidade aumenta 15%. Enquanto enfurecido, o dano de ataque aumenta e ele fica imune a todos os efeitos, com a Vida não podendo cair abaixo de 1. O Titan morre quando o efeito termina. Ativa uma vez por batalha.",
+      "atributos": {
+        "aumento_ataque": 112125,
+        "duracao_segundos": 20,
+        "cooldown_segundos": 300
+      }
+    },
+    {
+      "nome": "Star Dust",
+      "descricao": "Cria uma tempestade mágica no campo de batalha que deixa uma distorção. Por 15s, a energia empurra periodicamente um Titan aleatório. Enquanto o efeito durar, qualquer movimento de um Titan causa dano proporcional à distância percorrida.",
+      "atributos": {
+        "dano_por_movimento": 828750,
+        "frequencia_empurrao_segundos": 1
+      }
+    },
+    {
+      "nome": "Ice Age",
+      "descricao": "Quando a skill base do totem inimigo ativa, todos os Titans inimigos congelam por 1s, perdendo a capacidade de agir, e recebem fragilidade, aumentando o dano recebido.",
+      "atributos": {
+        "bonus_dano_fragilidade_percent": 55,
+        "duracao_fragilidade_segundos": 15
+      }
+    },
+    {
+      "nome": "Wrath of the Depths",
+      "descricao": "Ao morrer, um Titan aliado se transforma em pedra, sobe acima do campo e cai no centro do time adversário, causando dano em área e atordoando inimigos. Ativa uma vez por batalha.",
+      "atributos": {
+        "dano": 2193750,
+        "duracao_atordoamento_segundos": 4,
+        "cooldown_segundos": 300
+      }
+    },
+    {
+      "nome": "Gravitational Anomaly",
+      "descricao": "Cria uma anomalia no centro do time inimigo que arrasta e causa dano aos inimigos por 5s. Quanto mais distante do epicentro, menor o dano recebido.",
+      "atributos": {
+        "dano_epicentro": 1669078
+      }
+    },
+    {
+      "nome": "Nova Flare",
+      "descricao": "Cria uma labareda que se concentra por 5s. Durante 2s após a ativação, a Vida dos Titans aliados não pode cair abaixo de 1. Depois disso, a labareda explode e dana todos os inimigos.",
+      "atributos": {
+        "dano_explosao": 5449641
+      }
+    },
+    {
+      "nome": "Flame Dance",
+      "descricao": "Convoca um vórtice flamejante que percorre o time inimigo e causa dano aos oponentes próximos a cada ativação.",
+      "atributos": {
+        "dano_por_ativacao": 973294
+      }
+    },
+    {
+      "nome": "The Depths Whisper",
+      "descricao": "Cria um turbilhão que restaura Vida aos aliados e dana inimigos próximos por 10s. A cada ativação, a cura é distribuída entre os Titans que mais precisam.",
+      "atributos": {
+        "dano_e_cura_por_ativacao": 486647
+      }
+    },
+    {
+      "nome": "Murmur of the Crags",
+      "descricao": "Cria uma cascata rochosa que protege todos os aliados de qualquer ataque. Perde durabilidade ao sofrer dano, mas reflete o dobro do dano recebido de volta aos atacantes.",
+      "atributos": {
+        "dano_absorvido_pela_barreira": 5654756
+      }
+    },
+    {
+      "nome": "Dark Matter",
+      "descricao": "Toda vez que um inimigo recebe atordoamento, é atingido por um cometa que causa dano e aumenta a vulnerabilidade a dano elemental em 75%.",
+      "atributos": {
+        "dano_cometa": 2437500,
+        "duracao_vulnerabilidade_segundos": 21
+      }
+    },
+    {
+      "nome": "Main Sequence",
+      "descricao": "A cada poucos segundos, aumenta o ataque de todos os Titans aliados até o fim da batalha.",
+      "atributos": {
+        "bonus_ataque": 146250,
+        "frequencia_segundos": 5
+      }
+    },
+    {
+      "nome": "Dreamveil",
+      "descricao": "Quando a skill base do totem inimigo ativa, aplica sono a todos os Titans inimigos, deixando-os inativos até despertarem por tempo ou dano suficiente.",
+      "atributos": {
+        "duracao_segundos": 7.75,
+        "dano_para_despertar": 2925000,
+        "cooldown_segundos": 10
+      }
+    }
+  ],
+  "primal_skills": [
+    {
+      "nome": "Pulse of the Ancients",
+      "descricao": "Toda vez que um Titan aliado usa uma habilidade, ele é curado.",
+      "atributos": {
+        "cura": 780000,
+        "intervalo_minimo_segundos": 8.5
+      }
+    },
+    {
+      "nome": "Primal Zeal",
+      "descricao": "Ao usar uma skill básica, o Titan tem chance de recuperar parte da Energia.",
+      "atributos": {
+        "energia_recuperada": 255,
+        "chance_ativacao_percent": 70,
+        "cooldown_segundos": 5
+      }
+    },
+    {
+      "nome": "Echo Aegis",
+      "descricao": "Quando um escudo aplicado a um Titan do seu time se rompe, outro escudo é aplicado por 5s.",
+      "atributos": {
+        "durabilidade_escudo_percent_vida_max": 23.5,
+        "chance_ativacao_percent": 120,
+        "cooldown_segundos": 5,
+        "obs": "chance acima de 100% é convertida em durabilidade extra do escudo"
+      }
+    },
+    {
+      "nome": "Triple Cycle",
+      "descricao": "Se um Titan recebe escudo, é curado. Se é curado, seu ataque fica mais poderoso. Se o ataque é potencializado, recebe escudo. Apenas um efeito é ativado por vez.",
+      "atributos": {
+        "cura_por_segundo": 39000,
+        "bonus_ataque": 170625,
+        "durabilidade_escudo": 351000,
+        "duracao_efeito_segundos": 12,
+        "cooldown_segundos": 10
+      }
+    },
+    {
+      "nome": "Call of Elements",
+      "descricao": "O ataque do Titan aumenta proporcionalmente à Vida que está faltando.",
+      "atributos": {
+        "bonus_ataque_base": 14625,
+        "bonus_por_percent_vida_faltante": 11
+      }
+    }
+  ],
+  "recomendacoes_por_elemento": {
+    "observacao_geral": "A escolha ideal de skill de fusão depende do time e dos adversários enfrentados; estas são apenas sugestões que costumam funcionar bem.",
+    "water": [
+      { "skill": "Murmur of the Crags", "nota": "5/5", "comentario": "Boa para dar um respiro a Titans que dependem do ultimate, e ajuda a evitar atordoamentos de fontes como Solaris ou Ice Age." },
+      { "skill": "The Depths Whisper", "nota": "4/5", "comentario": "Foi referência antes de certas atualizações do meta, hoje considerada um pouco redundante." },
+      { "skill": "Last Flash", "nota": "situacional", "comentario": "Pouco útil com certos tanques, mas essencial para permitir que outros Titans sustentem o tank, especialmente contra combinações terra+luz." },
+      { "skill": "Triple Cycle", "nota": "5/5", "comentario": "Combina muito bem com cura do totem, gerando escudo extra." },
+      { "skill": "Primal Zeal", "nota": "4/5", "comentario": "Pode ajudar a manter Titans-chave vivos, mas geralmente Triple Cycle rende mais." },
+      { "skill": "Dark Matter", "nota": "incerto", "comentario": "Faz o atordoamento aplicar vulnerabilidade, aumentando o dano do totem." },
+      { "skill": "Main Sequence", "nota": "incerto", "comentario": "Água e terra tendem a prolongar combates, o que favorece esse tipo de bônus contínuo." },
+      { "skill": "Dreamveil", "nota": "incerto", "comentario": "Pode ser eficaz se o time focar dano na linha de frente." }
+    ],
+    "fire": [
+      { "skill": "Flame Dance", "nota": "5/5", "comentario": "Muito eficaz contra terra, ou para eliminar luz antes que ative o ultimate; combinado ao totem, reduz bastante o tempo de carga necessário." },
+      { "skill": "Last Flash", "nota": "4/5", "comentario": "Permite que efeitos de atordoamento continuem mesmo após a morte do Titan, prolongando o impacto no time." },
+      { "skill": "Dark Matter", "nota": "incerto", "comentario": "Faz o atordoamento aplicar vulnerabilidade que potencializa o dano do totem." }
+    ],
+    "earth": [
+      { "skill": "Murmur of the Crags", "nota": "5/5", "comentario": "Escolha mais popular; fortalece bastante o totem de terra." },
+      { "skill": "The Depths Whisper", "nota": "4/5", "comentario": "Geralmente um pouco menos forte que Murmur of the Crags, mas ainda assim eficaz." },
+      { "skill": "Last Flash", "nota": "3/5", "comentario": "Permite que certos Titans mantenham seu ultimate ativo mesmo após a morte." },
+      { "skill": "Echo Aegis", "nota": "4/5", "comentario": "Sinergia muito boa com Titans focados em escudo; melhor opção nesse caso." },
+      { "skill": "Main Sequence", "nota": "incerto", "comentario": "Água e terra tendem a prolongar combates, favorecendo esse bônus contínuo." }
+    ],
+    "light": [
+      { "skill": "The Depths Whisper", "nota": "3/5", "comentario": "Permite curar durante a fase de imortalidade; melhor opção para luz, ainda que não excepcional." },
+      { "skill": "Dark Matter", "nota": "incerto", "comentario": "Luz é o elemento com mais atordoamentos, mas a vulnerabilidade só afeta dano elemental." }
+    ],
+    "dark": [
+      { "skill": "Flame Dance", "nota": "5/5", "comentario": "Reforça o perfil ofensivo - importante porque o time de trevas precisa eliminar rápido para vencer." },
+      { "skill": "The Depths Whisper", "nota": "4/5", "comentario": "Trevas costuma ter bastante Vida, então consegue aguentar até a cura entrar em ação." },
+      { "skill": "Triple Cycle", "nota": "4/5", "comentario": "Efeitos de vampirismo geram muitos gatilhos de cura, boa sinergia." },
+      { "skill": "Star Dust", "nota": "incerto", "comentario": "O totem de trevas força movimento, o que pode combinar bem com Gravitational Anomaly em um segundo totem." },
+      { "skill": "Gravitational Anomaly", "nota": "incerto", "comentario": "Pode reforçar o dano do totem ao acelerar o agrupamento no centro, embora isso não seja confirmado." }
+    ],
+    "qualquer_time": [
+      { "skill": "Nova Flare", "nota": "4/5", "comentario": "Dano alto e útil de forma geral." },
+      { "skill": "Ice Age", "nota": "4/5", "comentario": "Útil contra a maioria dos times, exceto terra." },
+      { "skill": "Last Flash", "nota": "4/5", "comentario": "Ótima com tanques que se beneficiam de continuar agindo após a morte; com outros Titans, apenas ajuda a acelerar o gatilho do totem." },
+      { "skill": "Primal Zeal", "nota": "4/5", "comentario": "Funciona bem com qualquer time, trazendo aleatoriedade útil e acelerando o totem." },
+      { "skill": "Pulse of the Ancients", "nota": "3/5", "comentario": "Pode permitir que um Titan sobreviva sob pressão pesada, embora normalmente não seja o tanque." },
+      { "skill": "Call of Elements", "nota": "3/5", "comentario": "Bônus pequeno, mas pode fazer diferença contra certos oponentes específicos." },
+      { "skill": "Wrath of the Depths", "nota": "3/5", "comentario": "Um atordoamento com dano em área é útil, mas raramente decisivo." }
+    ],
+    "times_com_dois_totens": {
+      "regra": "Um dos dois totens sempre ativa antes do outro, dependendo da posição dos Titans no time. Por isso, skills ativas vão no totem que ativa primeiro, e skills passivas no segundo.",
+      "observacao": "Bônus de duas cópias da mesma skill não se acumulam; no máximo a duração do efeito é renovada."
+    }
+  },
+  "mecanica_geral": {
+    "pode_recusar_skill_sorteada": true,
+    "skills_sao_fixas_ao_totem": "Não podem ser removidas ou substituídas depois de aplicadas.",
+    "copias_nao_acumulam": "Apenas renovam a duração do efeito."
+  },
+  "estrategia_catalisadores": {
+    "sem_skill_ainda": "Use 10 catalisadores de uma vez para obter qualquer skill aleatória; aceite temporariamente.",
+    "rank_1_a_5": "Use 100 catalisadores por vez; você pode escolher a skill desejada.",
+    "rank_6_troca_de_skill": "Use 10 (primal) ou 50 (elemental) por vez, recusando skills aleatórias indesejadas.",
+    "notas": [
+      "Pode valer a pena parar no rank 4 ou 5 e usar a proteção de sorte para os últimos ranks.",
+      "É desvantajoso gastar menos catalisadores por tentativa aleatória, ao menos antes do rank 6.",
+      "Nunca regrida de rank: mesmo com a skill errada, ranks mais altos aumentam a chance de conseguir uma skill ainda melhor."
+    ]
+  },
+  "upgrade_de_skill": {
+    "custo_medio_para_rank_6": {
+      "rank_1_para_6": { "catalisadores": 3184, "lote": 100, "chance_final_percent": 2.5 },
+      "rank_2_para_6": { "catalisadores": 3182, "lote": 100, "chance_final_percent": 2.5 },
+      "rank_3_para_6": { "catalisadores": 3167, "lote": 100, "chance_final_percent": 2.6 },
+      "rank_4_para_6": { "catalisadores": 3071, "lote": 100, "chance_final_percent": 3.0 },
+      "rank_5_para_6": { "catalisadores": 2942, "lote": 100, "chance_final_percent": 3.4 }
+    },
+    "custo_medio_para_rank_5_ou_mais": {
+      "rank_1": { "catalisadores": 1344, "lote": 100, "chances_percent": [4.0, 2.5] },
+      "rank_2": { "catalisadores": 1342, "lote": 100, "chances_percent": [4.1, 2.5] },
+      "rank_3": { "catalisadores": 1325, "lote": 100, "chances_percent": [4.2, 2.6] },
+      "rank_4": { "catalisadores": 1203, "lote": 100, "chances_percent": [5.3, 3.0] }
+    },
+    "custo_medio_para_rank_4_ou_mais": {
+      "rank_1": { "catalisadores": 729, "lote": 100, "chances_percent": [6.0, 4.0, 2.5] },
+      "rank_2": { "catalisadores": 726, "lote": 100, "chances_percent": [6.0, 4.1, 2.5] },
+      "rank_3": { "catalisadores": 679, "lote": 100, "chances_percent": [7.9, 4.2, 2.6] }
+    }
+  },
+  "troca_de_skill_em_rank_alto": {
+    "observacao": "A partir do rank V, trocar de skill fica bem mais barato; gastar 100 catalisadores dá quase a mesma chance de upgrade que gastar 10, então compensa apostar em skills aleatórias e simplesmente recusar resultados indesejados.",
+    "resultados": {
+      "rank_5_primal": { "catalisadores_medios": 110, "lote": 10, "chance_percent": 23.6, "chance_skill_errada_percent": 61.5 },
+      "rank_5_elemental": { "catalisadores_medios": 198, "lote": 50, "chance_percent": 25.3 },
+      "rank_6_primal": { "catalisadores_medios": 112, "lote": 10, "chance_percent": 23.1, "chance_skill_errada_percent": 61.5 },
+      "rank_6_elemental": { "catalisadores_medios": 204, "lote": 50, "chance_percent": 24.5 }
+    }
+  },
+  "crystallized_might": {
+    "descricao": "Ao gastar catalisadores, você acumula Crystallized Might. Ao atingir 3000, pode usá-lo para subir o rank de uma skill escolhida em um nível. Após atingir 3000, o acúmulo para até você gastá-lo.",
+    "custo_para_3000": {
+      "catalisadores_elementais": 3000,
+      "catalisadores_primais": 7500
+    }
+  },
+  "tabela_primal_por_lote": [
+    { "lote": 100, "rank2_percent": 32.02, "rank3_percent": 16.07, "rank4_percent": 5.97, "rank5_percent": 4.02, "rank6_percent": 2.51, "skill_errada_percent": null, "custo_medio_aprox": 165 },
+    { "lote": 95, "rank2_percent": 30.99, "rank3_percent": 15.44, "rank4_percent": 5.64, "rank5_percent": 3.42, "rank6_percent": 2.10, "skill_errada_percent": null, "custo_medio_aprox": 165 },
+    { "lote": 90, "rank2_percent": 29.90, "rank3_percent": 14.79, "rank4_percent": 5.30, "rank5_percent": 2.89, "rank6_percent": 1.74, "skill_errada_percent": null, "custo_medio_aprox": 165 },
+    { "lote": 85, "rank2_percent": 28.76, "rank3_percent": 14.11, "rank4_percent": 4.95, "rank5_percent": 2.41, "rank6_percent": 1.42, "skill_errada_percent": 10.26, "custo_medio_aprox": 183 },
+    { "lote": 80, "rank2_percent": 27.58, "rank3_percent": 13.41, "rank4_percent": 4.59, "rank5_percent": 1.97, "rank6_percent": 1.16, "skill_errada_percent": 19.05, "custo_medio_aprox": 203 },
+    { "lote": 75, "rank2_percent": 26.36, "rank3_percent": 12.69, "rank4_percent": 4.22, "rank5_percent": 1.59, "rank6_percent": 0.94, "skill_errada_percent": 26.67, "custo_medio_aprox": 223 },
+    { "lote": 70, "rank2_percent": 25.12, "rank3_percent": 11.96, "rank4_percent": 3.85, "rank5_percent": 1.25, "rank6_percent": 0.72, "skill_errada_percent": 33.33, "custo_medio_aprox": 245 },
+    { "lote": 65, "rank2_percent": 23.85, "rank3_percent": 11.21, "rank4_percent": 3.47, "rank5_percent": 0.97, "rank6_percent": 0.56, "skill_errada_percent": 39.22, "custo_medio_aprox": 267 },
+    { "lote": 60, "rank2_percent": 22.55, "rank3_percent": 10.45, "rank4_percent": 3.09, "rank5_percent": 0.74, "rank6_percent": 0.44, "skill_errada_percent": 44.44, "custo_medio_aprox": 290 },
+    { "lote": 55, "rank2_percent": 21.31, "rank3_percent": 9.66, "rank4_percent": 2.72, "rank5_percent": 0.56, "rank6_percent": 0.00, "skill_errada_percent": 49.12, "custo_medio_aprox": 316 },
+    { "lote": 50, "rank2_percent": 19.97, "rank3_percent": 8.83, "rank4_percent": 2.33, "rank5_percent": 0.44, "rank6_percent": 0.00, "skill_errada_percent": 53.33, "custo_medio_aprox": 339 },
+    { "lote": 45, "rank2_percent": 18.62, "rank3_percent": 7.99, "rank4_percent": 1.94, "rank5_percent": 0.00, "rank6_percent": 0.00, "skill_errada_percent": 57.14, "custo_medio_aprox": 368 },
+    { "lote": 40, "rank2_percent": 17.18, "rank3_percent": 7.11, "rank4_percent": 1.54, "rank5_percent": 0.00, "rank6_percent": 0.00, "skill_errada_percent": 60.61, "custo_medio_aprox": 393 },
+    { "lote": 35, "rank2_percent": 15.77, "rank3_percent": 6.25, "rank4_percent": 1.15, "rank5_percent": 0.00, "rank6_percent": 0.00, "skill_errada_percent": 63.77, "custo_medio_aprox": 417 },
+    { "lote": 30, "rank2_percent": 14.37, "rank3_percent": 5.40, "rank4_percent": 0.77, "rank5_percent": 0.00, "rank6_percent": 0.00, "skill_errada_percent": 66.67, "custo_medio_aprox": 438 },
+    { "lote": 25, "rank2_percent": 12.99, "rank3_percent": 4.56, "rank4_percent": 0.39, "rank5_percent": 0.00, "rank6_percent": 0.00, "skill_errada_percent": 69.33, "custo_medio_aprox": 455 },
+    { "lote": 20, "rank2_percent": 11.60, "rank3_percent": 3.72, "rank4_percent": 0.00, "rank5_percent": 0.00, "rank6_percent": 0.00, "skill_errada_percent": 71.79, "custo_medio_aprox": 463 },
+    { "lote": 15, "rank2_percent": 10.18, "rank3_percent": 2.89, "rank4_percent": 0.00, "rank5_percent": 0.00, "rank6_percent": 0.00, "skill_errada_percent": 74.07, "custo_medio_aprox": 443 },
+    { "lote": 10, "rank2_percent": 8.81, "rank3_percent": 2.07, "rank4_percent": 0.00, "rank5_percent": 0.00, "rank6_percent": 0.00, "skill_errada_percent": 76.19, "custo_medio_aprox": 386 }
+  ]
+}
