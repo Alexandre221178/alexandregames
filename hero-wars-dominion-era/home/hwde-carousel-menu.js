@@ -1,6 +1,15 @@
 (function(){
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
+     {
+      link: "../../hero-wars-dominion-era/guide/totem-fusion-skills-en.html",
+      src500: "../../hero-wars-dominion-era/images/guides/totem-fusion/totem-fusion-skills-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/guides/totem-fusion/totem-fusion-skills-400px.webp",
+      alt: "Totem Fusion Skills Tier List for Hero Wars: Dominion Era",
+      title: "Totem Fusion Skills for Hero Wars: Dominion Era.",
+      strong: "Guide(Tier List): Totem Fusion Skills - Hero Wars: Dominion Era",
+      updated: "Updated: Monthly."
+    },
     {
   link: "../../hero-wars-dominion-era/titans/umbra-en.html",
   src500: "../../hero-wars-dominion-era/images/titans-hwde/umbra/umbra-500px.webp",

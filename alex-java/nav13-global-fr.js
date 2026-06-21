@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="https://alexandregames.com/hero-wars-dominion-era/guide/pets-tier-list-en.html">🏆 Tier List des Familiers</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/guide/promo-code-hwde-en.html">🎟️ Codes Promo</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/menu/titans-menu-hwde-en.html">⚔️ Guide des Titans</a>
-        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totem-fusion-skills-en.html">⚡ Compétences de Fusion Totem</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totem-fusion-skills-fr.html">⚡ Compétences de Fusion Totem</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totems-guide-en.html">🗿 Guide des Totems</a>
         <br><br><br><br>
     </div>

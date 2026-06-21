@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="https://alexandregames.com/hero-wars-dominion-era/guide/pets-tier-list-en.html">🏆 ペットティアリスト</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/guide/promo-code-hwde-en.html">🎟️ プロモコード</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/menu/titans-menu-hwde-en.html">⚔️ タイタンガイド</a>
-        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totem-fusion-skills-en.html">⚡ トーテムフュージョンスキル</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totem-fusion-skills-ja.html">⚡ トーテムフュージョンスキル</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/guide/totems-guide-en.html">🗿 トーテムガイド</a>
         <br><br><br><br>
     </div>
