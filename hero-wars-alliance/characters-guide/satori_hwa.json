@@ -34,7 +34,7 @@
                     "magic_attack": 171755,
                     "physical_armor": 37123.5,
                     "magical_armor": 36931,
-                    "magic_penetration": 58038,
+                    "magic_penetration": 79338,
                     "magic_crit_chance": 7808,
                     "crushing": 4301
                 },
@@ -47,7 +47,7 @@
                     "magic_attack": 165755,
                     "physical_armor": 50923.5,
                     "magical_armor": 34931,
-                    "magic_penetration": 38238,
+                    "magic_penetration": 59538,
                     "magic_crit_chance": 7808,
                     "crushing": 4301
                 }
@@ -228,9 +228,9 @@
                 },
                 {
                     "name": "Dawn Skin+",
-                    "stat": null,
-                    "bonus": null,
-                    "level": null
+                    "stat": "Magic penetration",
+                    "bonus": 21300,
+                    "level": 60
                 }
             ],
             "artifacts": [
