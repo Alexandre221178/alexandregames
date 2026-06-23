@@ -6,6 +6,12 @@ const ROOT_DIR = __dirname;
 const EXPECTED_LANGS_GLOBAL = new Set(['en', 'pt', 'ja', 'es', 'fr', 'de', 'x-default']);
 const EXPECTED_LANGS_BILINGUAL = new Set(['en', 'pt', 'x-default']);
 const EXPECTED_LANGS_ENGLISH_ONLY = new Set(['en', 'x-default']);
+const VALID_LANGUAGE_CODES = ['en', 'pt', 'de', 'es', 'fr', 'ja'];
+const VALID_HREFLANGS = [...VALID_LANGUAGE_CODES, 'x-default'];
+const HERO_WARS_LANG_URL_EXCEPTIONS = new Set([
+    'hero-wars-alliance/events-tips-hwa/dorian-skin-plus-charisma-shop.html',
+    'hero-wars-alliance/events-tips-hwa/electra-skin-plus-charisma-shop.html'
+]);
 
 function collectAlternateLinks($) {
     const alternates = [];
@@ -25,6 +31,11 @@ function isModernHeroWarsPage(filePath) {
            relativePath.startsWith('hero-wars-dominion-era/');
 }
 
+function isHeroWarsLangUrlException(filePath) {
+    const relativePath = path.relative(ROOT_DIR, filePath).replace(/\\/g, '/');
+    return HERO_WARS_LANG_URL_EXCEPTIONS.has(relativePath);
+}
+
 function getHrefFileName(href) {
     if (!href) {
         return '';
@@ -41,24 +52,37 @@ function getHrefFileName(href) {
     return decodedPathname.split(/[\\/]/).pop() || '';
 }
 
-function acceptedLanguageSuffixes(lang) {
-    return [`-${lang}.html`, `-${lang}-hwa.html`];
+function acceptedLanguagePatterns(lang) {
+    return [`-${lang}.html`, `-${lang}-hwa.html`, `-${lang}-...html`];
 }
 
-function hrefEndsWithLanguagePage(href, lang) {
+function getTrailingLanguageCode(fileName) {
+    return VALID_LANGUAGE_CODES.find(lang =>
+        fileName.endsWith(`-${lang}.html`) ||
+        fileName.endsWith(`-${lang}-hwa.html`)
+    ) || null;
+}
+
+function hrefMatchesLanguagePage(href, lang) {
     const fileName = getHrefFileName(href).toLowerCase();
-    return acceptedLanguageSuffixes(lang).some(suffix => fileName.endsWith(suffix));
+    const trailingLang = getTrailingLanguageCode(fileName);
+
+    if (trailingLang) {
+        return trailingLang === lang;
+    }
+
+    return fileName.endsWith('.html') && fileName.includes(`-${lang}-`);
 }
 
-function expectedCanonicalSuffixesForLang(lang) {
+function expectedCanonicalLanguageForHtmlLang(lang) {
     const normalizedLang = (lang || '').toLowerCase().replace('_', '-');
     if (normalizedLang === 'pt' || normalizedLang === 'pt-br') {
-        return acceptedLanguageSuffixes('pt');
+        return 'pt';
     }
-    if (['en', 'de', 'es', 'fr', 'ja'].includes(normalizedLang)) {
-        return acceptedLanguageSuffixes(normalizedLang);
+    if (VALID_LANGUAGE_CODES.includes(normalizedLang)) {
+        return normalizedLang;
     }
-    return [];
+    return '';
 }
 
 function hasMultilingualAlternates(hreflangs) {
@@ -97,7 +121,8 @@ function checkFile(filePath) {
         if (titleText === 'Redirecting...' || titleText === 'Redirecionando...') {
             return issues; // sem issues
         }
-        const shouldCheckModernHeroWarsLangUrls = isModernHeroWarsPage(filePath);
+        const shouldCheckModernHeroWarsLangUrls =
+            isModernHeroWarsPage(filePath) && !isHeroWarsLangUrlException(filePath);
 
         // Páginas que não devem ter anúncios (páginas legais, contato, etc.)
         const noAdsPages = [
@@ -256,14 +281,8 @@ function checkFile(filePath) {
             const uniqueEnHrefs = [...new Set(enHrefs)];
 
             uniqueXDefaultHrefs.forEach(href => {
-                if (!hrefEndsWithLanguagePage(href, 'en')) {
-                    issues.push(`x-default deve apontar para arquivo terminado em -en.html ou -en-hwa.html: ${href || '(href vazio)'}`);
-                }
-            });
-
-            uniqueEnHrefs.forEach(href => {
-                if (!hrefEndsWithLanguagePage(href, 'en')) {
-                    issues.push(`hreflang en deve apontar para arquivo terminado em -en.html ou -en-hwa.html: ${href || '(href vazio)'}`);
+                if (!hrefMatchesLanguagePage(href, 'en')) {
+                    issues.push(`x-default deve apontar para arquivo com idioma en (${acceptedLanguagePatterns('en').join(', ')}): ${href || '(href vazio)'}`);
                 }
             });
 
@@ -311,10 +330,17 @@ function checkFile(filePath) {
                         issues.push(`Hreflang ${hreflang} não é absoluto: ${href}`);
                     }
                     // Verificar se hreflang é válido (ex: en, pt, etc.)
-                    const validLangs = ['en', 'pt', 'de', 'es', 'fr', 'ja', 'x-default'];
-                    if (!validLangs.includes(hreflang)) {
+                    if (!VALID_HREFLANGS.includes(hreflang)) {
                         issues.push(`Hreflang inválido: ${hreflang}`);
                     }
+                }
+            });
+        }
+
+        if (shouldCheckModernHeroWarsLangUrls) {
+            alternates.forEach(({ hreflang, href }) => {
+                if (VALID_LANGUAGE_CODES.includes(hreflang) && !hrefMatchesLanguagePage(href, hreflang)) {
+                    issues.push(`hreflang ${hreflang} deve apontar para arquivo com idioma ${hreflang} (${acceptedLanguagePatterns(hreflang).join(', ')}): ${href || '(href vazio)'}`);
                 }
             });
         }
@@ -324,11 +350,10 @@ function checkFile(filePath) {
             if (canonical.length === 1) {
                 const href = canonical.attr('href') || '';
                 const htmlLang = $('html').attr('lang') || '';
-                const expectedSuffixes = expectedCanonicalSuffixesForLang(htmlLang);
-                const fileName = getHrefFileName(href).toLowerCase();
+                const expectedLang = expectedCanonicalLanguageForHtmlLang(htmlLang);
 
-                if (expectedSuffixes.length && !expectedSuffixes.some(suffix => fileName.endsWith(suffix))) {
-                    issues.push(`Canonical deve terminar em ${expectedSuffixes.join(' ou ')} para html lang="${htmlLang}": ${href || '(href vazio)'}`);
+                if (expectedLang && !hrefMatchesLanguagePage(href, expectedLang)) {
+                    issues.push(`Canonical deve apontar para arquivo com idioma ${expectedLang} (${acceptedLanguagePatterns(expectedLang).join(', ')}) para html lang="${htmlLang}": ${href || '(href vazio)'}`);
                 }
             }
         }
