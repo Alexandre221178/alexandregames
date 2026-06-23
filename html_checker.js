@@ -19,6 +19,58 @@ function collectAlternateLinks($) {
     return alternates;
 }
 
+function isModernHeroWarsPage(filePath) {
+    const relativePath = path.relative(ROOT_DIR, filePath).replace(/\\/g, '/');
+    return relativePath.startsWith('hero-wars-alliance/') ||
+           relativePath.startsWith('hero-wars-dominion-era/');
+}
+
+function getHrefFileName(href) {
+    if (!href) {
+        return '';
+    }
+
+    let pathname = href.split('#')[0].split('?')[0];
+    try {
+        pathname = new URL(href).pathname;
+    } catch (e) {
+        // href relativo: usa o valor limpo acima
+    }
+
+    const decodedPathname = decodeURIComponent(pathname);
+    return decodedPathname.split(/[\\/]/).pop() || '';
+}
+
+function acceptedLanguageSuffixes(lang) {
+    return [`-${lang}.html`, `-${lang}-hwa.html`];
+}
+
+function hrefEndsWithLanguagePage(href, lang) {
+    const fileName = getHrefFileName(href).toLowerCase();
+    return acceptedLanguageSuffixes(lang).some(suffix => fileName.endsWith(suffix));
+}
+
+function expectedCanonicalSuffixesForLang(lang) {
+    const normalizedLang = (lang || '').toLowerCase().replace('_', '-');
+    if (normalizedLang === 'pt' || normalizedLang === 'pt-br') {
+        return acceptedLanguageSuffixes('pt');
+    }
+    if (['en', 'de', 'es', 'fr', 'ja'].includes(normalizedLang)) {
+        return acceptedLanguageSuffixes(normalizedLang);
+    }
+    return [];
+}
+
+function hasMultilingualAlternates(hreflangs) {
+    return hreflangs.has('en') &&
+           hreflangs.has('x-default') &&
+           [...hreflangs].some(lang => !['en', 'x-default'].includes(lang));
+}
+
+function normalizeHrefForComparison(href) {
+    return (href || '').split('#')[0];
+}
+
 function findFiles(dir) {
     let results = [];
     const list = fs.readdirSync(dir);
@@ -45,6 +97,7 @@ function checkFile(filePath) {
         if (titleText === 'Redirecting...' || titleText === 'Redirecionando...') {
             return issues; // sem issues
         }
+        const shouldCheckModernHeroWarsLangUrls = isModernHeroWarsPage(filePath);
 
         // Páginas que não devem ter anúncios (páginas legais, contato, etc.)
         const noAdsPages = [
@@ -164,17 +217,20 @@ function checkFile(filePath) {
         }
 
         // Verificar hreflang
-        if (expectedLangs) {
-            const alternates = collectAlternateLinks($);
-            const hreflangs = new Set(alternates.map(alternate => alternate.hreflang));
-            const hreflangOccurrences = new Map();
+        const alternates = collectAlternateLinks($);
+        const hreflangs = new Set(alternates.map(alternate => alternate.hreflang));
+        const hreflangOccurrences = new Map();
 
-            alternates.forEach(({ hreflang, href }) => {
-                if (!hreflangOccurrences.has(hreflang)) {
-                    hreflangOccurrences.set(hreflang, []);
-                }
-                hreflangOccurrences.get(hreflang).push(href);
-            });
+        alternates.forEach(({ hreflang, href }) => {
+            if (!hreflangOccurrences.has(hreflang)) {
+                hreflangOccurrences.set(hreflang, []);
+            }
+            hreflangOccurrences.get(hreflang).push(href);
+        });
+        const shouldCheckModernHeroWarsMultilingualLangUrls =
+            shouldCheckModernHeroWarsLangUrls && hasMultilingualAlternates(hreflangs);
+
+        if (expectedLangs) {
 
             hreflangOccurrences.forEach((hrefs, hreflang) => {
                 if (hrefs.length > 1) {
@@ -190,6 +246,33 @@ function checkFile(filePath) {
             const missingLangs = [...expectedLangs].filter(lang => !hreflangs.has(lang));
             if (missingLangs.length) {
                 issues.push(`Hreflang faltando: ${missingLangs.join(', ')}`);
+            }
+        }
+
+        if (shouldCheckModernHeroWarsMultilingualLangUrls) {
+            const xDefaultHrefs = hreflangOccurrences.get('x-default') || [];
+            const uniqueXDefaultHrefs = [...new Set(xDefaultHrefs)];
+            const enHrefs = hreflangOccurrences.get('en') || [];
+            const uniqueEnHrefs = [...new Set(enHrefs)];
+
+            uniqueXDefaultHrefs.forEach(href => {
+                if (!hrefEndsWithLanguagePage(href, 'en')) {
+                    issues.push(`x-default deve apontar para arquivo terminado em -en.html ou -en-hwa.html: ${href || '(href vazio)'}`);
+                }
+            });
+
+            uniqueEnHrefs.forEach(href => {
+                if (!hrefEndsWithLanguagePage(href, 'en')) {
+                    issues.push(`hreflang en deve apontar para arquivo terminado em -en.html ou -en-hwa.html: ${href || '(href vazio)'}`);
+                }
+            });
+
+            if (
+                uniqueXDefaultHrefs.length === 1 &&
+                uniqueEnHrefs.length === 1 &&
+                normalizeHrefForComparison(uniqueXDefaultHrefs[0]) !== normalizeHrefForComparison(uniqueEnHrefs[0])
+            ) {
+                issues.push(`x-default diferente do hreflang en: esperado ${uniqueEnHrefs[0]}, encontrado ${uniqueXDefaultHrefs[0]}`);
             }
         }
 
@@ -234,6 +317,20 @@ function checkFile(filePath) {
                     }
                 }
             });
+        }
+
+        if (shouldCheckModernHeroWarsMultilingualLangUrls) {
+            const canonical = $('link[rel="canonical"]');
+            if (canonical.length === 1) {
+                const href = canonical.attr('href') || '';
+                const htmlLang = $('html').attr('lang') || '';
+                const expectedSuffixes = expectedCanonicalSuffixesForLang(htmlLang);
+                const fileName = getHrefFileName(href).toLowerCase();
+
+                if (expectedSuffixes.length && !expectedSuffixes.some(suffix => fileName.endsWith(suffix))) {
+                    issues.push(`Canonical deve terminar em ${expectedSuffixes.join(' ou ')} para html lang="${htmlLang}": ${href || '(href vazio)'}`);
+                }
+            }
         }
 
         // Verificar links internos quebrados
