@@ -744,11 +744,15 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/titan-cosmic-battle-en.html", pt: "../../hero-wars-dominion-era/events/titan-cosmic-battle-pt.html", de: "../../hero-wars-dominion-era/events/titan-cosmic-battle-de.html", es: "../../hero-wars-dominion-era/events/titan-cosmic-battle-es.html", fr: "../../hero-wars-dominion-era/events/titan-cosmic-battle-fr.html", ja: "../../hero-wars-dominion-era/events/titan-cosmic-battle-ja.html" },
     noStrip: true,
     extra: [
+     
     
- 
-{
+ {
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
+      },
+      {
+        titles: { en: "🚫 Cosmic Battle: Elimination Stage", pt: "🚫 Batalha Cósmica: Estágio de Eliminação", de: "🚫 Kosmischer Kampf: Eliminations-Phase", es: "🚫 Batalla Cósmica: Etapa de Eliminación", fr: "🚫 Combat Cosmique : Phase d'Élimination", ja: "🚫 コズミックバトル：削除ステージ" },
+        labelOnly: true,
       },
        {
         titles: { en: "🌠Early Access - Umbra", pt: "🌠Early Access - Umbra", de: "🌠Early Access - Umbra", es: "🌠Early Access - Umbra", fr: "🌠Early Access - Umbra", ja: "🌠Early Access - Umbra" },
@@ -767,7 +771,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/titan-cosmic-battle-en.html", pt: "../../hero-wars-dominion-era/events/titan-cosmic-battle-pt.html", de: "../../hero-wars-dominion-era/events/titan-cosmic-battle-de.html", es: "../../hero-wars-dominion-era/events/titan-cosmic-battle-es.html", fr: "../../hero-wars-dominion-era/events/titan-cosmic-battle-fr.html", ja: "../../hero-wars-dominion-era/events/titan-cosmic-battle-ja.html" },
     noStrip: true,
     extra: [
-     
+     {
+  titles: { en: "⚔️Best Teams for Titan Cosmic Battle",  de: "⚔️ Beste Teams für den Titanen-Kosmischen Kampf", es: "⚔️ Mejores Equipos para la Batalla Cósmica de Titanes", fr: "⚔️ Meilleures Équipes pour la Bataille Cosmique des Titans", pt: "⚔️ Melhores Equipes para a Batalha Cósmica dos Titãs",  ja: "⚔️ タイタン宇宙戦の最強チーム"},
+  links: { en: "../../hero-wars-dominion-era/events/titan-cosmic-battle-best-teams-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true,
+},  
 
  {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
@@ -802,6 +810,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
     noStrip: true,
     extra: [
+      {
+  titles: { en: "⚔️Best Teams for Titan Cosmic Battle",  de: "⚔️ Beste Teams für den Titanen-Kosmischen Kampf", es: "⚔️ Mejores Equipos para la Batalla Cósmica de Titanes", fr: "⚔️ Meilleures Équipes pour la Bataille Cosmique des Titans", pt: "⚔️ Melhores Equipes para a Batalha Cósmica dos Titãs",  ja: "⚔️ タイタン宇宙戦の最強チーム"},
+  links: { en: "../../hero-wars-dominion-era/events/titan-cosmic-battle-best-teams-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true,
+},  
       {
   titles: { en: "📋Umbra Event Missions", de: "📋Umbra-Event-Missionen", es: "📋Misiones del Evento Umbra", fr: "📋Missions de l'Événement Umbra", pt: "📋Missões do Evento Umbra", ja: "📋ウンブライベントのミッション" },
      links: { en: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
@@ -861,6 +874,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+       {
+  titles: { en: "⚔️Best Teams for Titan Cosmic Battle",  de: "⚔️ Beste Teams für den Titanen-Kosmischen Kampf", es: "⚔️ Mejores Equipos para la Batalla Cósmica de Titanes", fr: "⚔️ Meilleures Équipes pour la Bataille Cosmique des Titans", pt: "⚔️ Melhores Equipes para a Batalha Cósmica dos Titãs",  ja: "⚔️ タイタン宇宙戦の最強チーム"},
+  links: { en: "../../hero-wars-dominion-era/events/titan-cosmic-battle-best-teams-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true,
+},  
       {
   titles: { en: "📋Umbra Event Missions", de: "📋Umbra-Event-Missionen", es: "📋Misiones del Evento Umbra", fr: "📋Missions de l'Événement Umbra", pt: "📋Missões do Evento Umbra", ja: "📋ウンブライベントのミッション" },
      links: { en: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       

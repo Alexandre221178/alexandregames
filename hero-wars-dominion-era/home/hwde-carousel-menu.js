@@ -1,7 +1,25 @@
 (function(){
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
-     {
+    {
+      link: "../../hero-wars-dominion-era/events/titan-cosmic-battle-best-teams-en.html",
+      src500: "../../hero-wars-dominion-era/images/events/titan-cosmic-battle-best-teams/titans-cosmic-battle-best-teams-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events/titan-cosmic-battle-best-teams/titans-cosmic-battle-best-teams-400px.webp",
+      alt: "Best Teams for Titan Cosmic Battle - Hero Wars: Dominion Era",
+      title: "Best Teams for Titan Cosmic Battle - Hero Wars: Dominion Era.",
+      strong: "Guide: Best Teams for Titan Cosmic Battle - Hero Wars: Dominion Era",
+      updated: "Updated: Monthly."
+    },
+    {
+      link: "../../hero-wars-dominion-era/guide/totem-fusion-skills-en.html",
+      src500: "../../hero-wars-dominion-era/images/guides/totem-fusion/totem-fusion-skills-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/guides/totem-fusion/totem-fusion-skills-400px.webp",
+      alt: "Totem Fusion Skills Tier List for Hero Wars: Dominion Era",
+      title: "Totem Fusion Skills for Hero Wars: Dominion Era.",
+      strong: "Guide(Tier List): Totem Fusion Skills - Hero Wars: Dominion Era",
+      updated: "Updated: Monthly."
+    },
+    {
       link: "../../hero-wars-dominion-era/guide/totem-fusion-skills-en.html",
       src500: "../../hero-wars-dominion-era/images/guides/totem-fusion/totem-fusion-skills-500px.webp",
       src400: "../../hero-wars-dominion-era/images/guides/totem-fusion/totem-fusion-skills-400px.webp",
