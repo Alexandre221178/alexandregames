@@ -19,7 +19,7 @@
    // ── June 23, 2026 ──────────────────────────────
     // 2026-06-##── 2 Link Exclusivo Web/FB ──────────────────────────────
 { date:'2026-06-24', type:'link', giftLinkWeb:'https://herowars.me/HLfx79mDnh', giftLinkFb:'https://herowars.me/HLfx79mDnh',
- note:'until|2026-06-##T02:00:00Z', rewards:['large-skin-stone-chest x5', 'portal-charge x3'] },
+ note:'until|2026-06-28T02:00:00Z', rewards:['large-skin-stone-chest x5', 'portal-charge x3'] },
    { date:'2026-06-23', type:'link', giftId:'5748a1213f88280c75bc989ec855e949', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
  
