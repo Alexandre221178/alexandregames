@@ -19,6 +19,7 @@
    // ── June 23, 2026 ──────────────────────────────
    { date:'2026-06-23', type:'link', giftId:'5748a1213f88280c75bc989ec855e949', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
+ 
      { date:'2026-06-22', type:'link', giftId:'91605f844c620a456f66fa13860c3bc4', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
   // 2026-06-22── 2 Link Exclusivo Web/FB ──────────────────────────────
