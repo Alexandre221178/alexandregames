@@ -37,6 +37,8 @@
     "update-damage-over-time-hwa": "node hero-wars-alliance/update-data-menu-hwa.js review damage-over-time",
 
 
+    "update-heroes-guide-hwa-hwa": "node hero-wars-alliance/update-data-menu-hwa.js menu-hwa heroes-guide-hwa",
+
     "update-alvanor-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide alvanor",
     "update-byrna-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide byrna",
     "update-cascade-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide cascade",

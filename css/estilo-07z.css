@@ -15,7 +15,7 @@ body{
 
 /* Container principal para organizar o layout em desktop */
 .container-principal {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     
     display: flex;
@@ -142,7 +142,7 @@ body{
 }
   /* Estilos para reservar o espaço do menu */
   #menu-container {
-    width: 100%;
+    width: 937px;
     min-height: 80px; /* nav Altura mínima para garantir espaço reservado */
     background-color: #323131; /* Cor de fundo para visualização enquanto o menu carrega */
 }
@@ -1034,8 +1034,10 @@ section p{
         
 
 
-.img-menuguide img{
-    aspect-ratio: 300 / 260; /* Ajusta a proporção para mobile */
+.img-menuguide picture{
+    display: block;
+    width: 67%;
+    aspect-ratio: 300 / 260; /* Reserva espaco para evitar CLS */
 }
 
    /* imagens do menu guia de heróis */
@@ -1043,6 +1045,7 @@ section p{
     width: 25%; /* usa porcentagem para um layout responsivo */
     max-width: auto; /* tamanho máximo para telas grandes */
     padding: 2% 3%;
+    margin: 0;
     float: left;
     box-sizing: border-box; /* para que padding não afete o width */
     text-align: center; /* centraliza o conteúdo do link */
@@ -1062,12 +1065,27 @@ section p{
 }
 
 .img-menuguide img {
-    width: 67%; /* imagem ocupa 100% do contêiner */
-    height: auto; /* mantém a proporção da imagem */
+    width: 100%; /* imagem ocupa 100% do picture */
+    height: 100%;
+    object-fit: contain; /* Evita distorcao quando o mobile usa imagem quadrada */
+    display: block;
 }
 
 .img-menuguide a:hover {
     color: red;
+}
+
+
+.heroes-guide-menu {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px 0;
+}
+
+.heroes-guide-menu .img-menuguide {
+    float: none;
+    width: auto;
+    margin: 0;
 }
 
      /* imagens do menu guia de heróis */    
@@ -2002,13 +2020,21 @@ body > .skiptranslate {
     }
 
        
+    .heroes-guide-menu {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px 0;
+    }
+
     .img-menuguide{
-        font-size: 108px;
-        width: 40%; /* ajusta para 1 imagem por linha em telas muito pequenas */
+        
+        width: 37%; /* ajusta para 1 imagem por linha em telas muito pequenas */
         height: auto; /* altura automática para manter a proporção */    
         margin-bottom: 20px;
-        font-size: 20px;
-    }
+       }
+       .img-menuguide a{
+        font-size: 16px; /* tamanho letras nav mobile*/
+        
+       }
 
     .img-menumobile{
         Width: 30%;
