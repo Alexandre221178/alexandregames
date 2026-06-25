@@ -10,6 +10,15 @@
       strong: "Guide f2p: Tips for Umbra Event - Hero Wars: Dominion Era",
       updated: "Updated: June, 2026."
     },
+    {
+      link: "../../hero-wars-dominion-era/characters/byrna-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/byrna/byrna-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/byrna/byrna-400px.webp",
+      alt: "Byrna for Hero Wars: Dominion Era",
+      title: "Byrna for Hero Wars: Dominion Era.",
+      strong: "Guide: Byrna New Skin - Hero Wars: Dominion Era",
+      updated: "Updated: June, 2026."
+    },
     
     {
       link: "../../hero-wars-dominion-era/guide/totem-fusion-skills-en.html",

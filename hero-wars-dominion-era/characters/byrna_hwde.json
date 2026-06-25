@@ -134,6 +134,21 @@
 			"costs": {
 				"intelligence_skin_stone": 55410
 			}
+			
+		},
+		{
+			"name": "Cybernetic Skin",
+			"stats": {
+				"health": 106645,
+				"power": 5332
+			},
+			"costs": {
+				"intelligence_skin_stone": 55410
+			},
+			"how to obtain": {
+				"emerald city event ": "exclusive until unknown date"
+			}
+			
 		}
 	],
 	"glyphs": [
