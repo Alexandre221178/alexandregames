@@ -1696,6 +1696,13 @@ body > .skiptranslate {
 
 
 @media (max-width:768px) {
+    #menu-container {
+        width: 100vw;
+        max-width: 100vw;
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+    }
+
     nav .menu-icon{
         display: block;
     }
@@ -1717,7 +1724,7 @@ body > .skiptranslate {
         background-color: black;
     }
     nav {
-        position: relative;
+        position: relative;        
         z-index: 1000; /* Ou qualquer valor maior que o z-index do anúncio */
     }
     
@@ -1743,7 +1750,7 @@ body > .skiptranslate {
         font-size: 16px; 
         
         margin-top: 18px; /* Mantém o margin-top */
-        line-height: 0.1 /* Reduz o espaço entre as linhas */
+        line-height: 1.25;
          
     }
     
