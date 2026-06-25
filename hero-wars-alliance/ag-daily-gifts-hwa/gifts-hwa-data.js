@@ -4,6 +4,9 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+   // ── June 25, 2026 ──────────────────────────────
+   { date:'2026-06-25', type:'daily', mission:'3-13', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
    // ── June 24, 2026 ──────────────────────────────
     // ── Hub Code nao definido a data false ──────────────────────────────
 { date:'2026-06-24', type:'hub', code:'EMAILGIFT2206', note:'custom',
