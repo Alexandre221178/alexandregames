@@ -2,14 +2,15 @@
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
     {
-      link: "../../hero-wars-dominion-era/events/titan-cosmic-battle-best-teams-en.html",
-      src500: "../../hero-wars-dominion-era/images/events/titan-cosmic-battle-best-teams/titans-cosmic-battle-best-teams-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events/titan-cosmic-battle-best-teams/titans-cosmic-battle-best-teams-400px.webp",
-      alt: "Best Teams for Titan Cosmic Battle - Hero Wars: Dominion Era",
-      title: "Best Teams for Titan Cosmic Battle - Hero Wars: Dominion Era.",
-      strong: "Guide: Best Teams for Titan Cosmic Battle - Hero Wars: Dominion Era",
-      updated: "Updated: Monthly."
+      link: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-guide-en.html",
+      src500: "../../hero-wars-dominion-era/images/events-special/umbra-event/umbra-event-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events-special/umbra-event/umbra-event-400px.webp",
+      alt: "Umbra Event Guide for Hero Wars: Dominion Era",
+      title: "Umbra Event Guide for Hero Wars: Dominion Era.",
+      strong: "Guide f2p: Tips for Umbra Event - Hero Wars: Dominion Era",
+      updated: "Updated: June, 2026."
     },
+    
     {
       link: "../../hero-wars-dominion-era/guide/totem-fusion-skills-en.html",
       src500: "../../hero-wars-dominion-era/images/guides/totem-fusion/totem-fusion-skills-500px.webp",
@@ -17,17 +18,9 @@
       alt: "Totem Fusion Skills Tier List for Hero Wars: Dominion Era",
       title: "Totem Fusion Skills for Hero Wars: Dominion Era.",
       strong: "Guide(Tier List): Totem Fusion Skills - Hero Wars: Dominion Era",
-      updated: "Updated: Monthly."
+      updated: "Updated: June, 2026."
     },
-    {
-      link: "../../hero-wars-dominion-era/guide/totem-fusion-skills-en.html",
-      src500: "../../hero-wars-dominion-era/images/guides/totem-fusion/totem-fusion-skills-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/guides/totem-fusion/totem-fusion-skills-400px.webp",
-      alt: "Totem Fusion Skills Tier List for Hero Wars: Dominion Era",
-      title: "Totem Fusion Skills for Hero Wars: Dominion Era.",
-      strong: "Guide(Tier List): Totem Fusion Skills - Hero Wars: Dominion Era",
-      updated: "Updated: Monthly."
-    },
+    
     {
   link: "../../hero-wars-dominion-era/titans/umbra-en.html",
   src500: "../../hero-wars-dominion-era/images/titans-hwde/umbra/umbra-500px.webp",
@@ -37,31 +30,13 @@
   strong: "Guide: Umbra - Hero Wars: Dominion Era",
   updated: "Updated: June, 2026."
 },
-    {
-      link: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-missions-en.html",
-      src500: "../../hero-wars-dominion-era/images/events-special/umbra-event/how-to-prepare-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events-special/umbra-event/how-to-prepare-400px.webp",
-      alt: "Umbra Event Missions for Hero Wars: Dominion Era",
-      title: "Umbra Event Missions for Hero Wars: Dominion Era.",
-      strong: "Guide: Umbra Event Missions - Hero Wars: Dominion Era",
-      updated: "Updated: June, 2026."
-    },
-    {
-      link: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-guide-en.html",
-      src500: "../../hero-wars-dominion-era/images/events-special/umbra-event/umbra-event-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events-special/umbra-event/umbra-event-400px.webp",
-      alt: "Umbra Event Guide for Hero Wars: Dominion Era",
-      title: "Umbra Event Guide for Hero Wars: Dominion Era.",
-      strong: "Guide f2p: Tips for Umbra Event - Hero Wars: Dominion Era",
-      updated: "Updated: June, 2026."
-    },
-    {
-      link: "../../hero-wars-dominion-era/characters/lyria-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/lyria/lyria-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/lyria/lyria-400px.webp",
-      alt: "Lyria for Hero Wars: Dominion Era",
-      title: "Lyria for Hero Wars: Dominion Era.",
-      strong: "Guide: Lyria New Skin - Hero Wars: Dominion Era",
+{
+      link: "../../hero-wars-dominion-era/events/titan-cosmic-battle-best-teams-en.html",
+      src500: "../../hero-wars-dominion-era/images/events/titan-cosmic-battle-best-teams/titans-cosmic-battle-best-teams-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events/titan-cosmic-battle-best-teams/titans-cosmic-battle-best-teams-400px.webp",
+      alt: "Best Teams for Titan Cosmic Battle - Hero Wars: Dominion Era",
+      title: "Best Teams for Titan Cosmic Battle - Hero Wars: Dominion Era.",
+      strong: "Guide: Best Teams for Titan Cosmic Battle - Hero Wars: Dominion Era",
       updated: "Updated: June, 2026."
     },
     {
@@ -73,6 +48,26 @@
       strong: "Guide: Mysterious Island - Hero Wars: Dominion Era",
       updated: "Updated: Monthly."
     },
+    {
+      link: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-missions-en.html",
+      src500: "../../hero-wars-dominion-era/images/events-special/umbra-event/how-to-prepare-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events-special/umbra-event/how-to-prepare-400px.webp",
+      alt: "Umbra Event Missions for Hero Wars: Dominion Era",
+      title: "Umbra Event Missions for Hero Wars: Dominion Era.",
+      strong: "Guide: Umbra Event Missions - Hero Wars: Dominion Era",
+      updated: "Updated: June, 2026."
+    },
+    
+    {
+      link: "../../hero-wars-dominion-era/characters/lyria-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/lyria/lyria-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/lyria/lyria-400px.webp",
+      alt: "Lyria for Hero Wars: Dominion Era",
+      title: "Lyria for Hero Wars: Dominion Era.",
+      strong: "Guide: Lyria New Skin - Hero Wars: Dominion Era",
+      updated: "Updated: June, 2026."
+    },
+    
     {
       link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
       src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
