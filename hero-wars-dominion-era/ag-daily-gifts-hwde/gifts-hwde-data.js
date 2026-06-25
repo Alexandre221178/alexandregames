@@ -20,13 +20,9 @@ b4ba6233060e4d08641a28b1ffb847f6
   rewards:['energy-crystal x16', 'valor-coin x8500', 'sapphire-medallion x2','energy x500' ] },
    // ── June 23, 2026 ──────────────────────────────
     // 2026-06-##── 2 Link Exclusivo Web/FB ──────────────────────────────
-<<<<<<< HEAD
-{ date:'2026-06-##', type:'link', giftLinkWeb:'https://herowars.me/#wb#', giftLinkFb:'https://herowars.me/#fb#',
- note:'until|2026-06-0#T02:00:00Z', rewards:['energy x500'] },
-=======
+
 { date:'2026-06-24', type:'link', giftLinkWeb:'https://herowars.me/HLfx79mDnh', giftLinkFb:'https://herowars.me/HLfx79mDnh',
  note:'until|2026-06-28T02:00:00Z', rewards:['large-skin-stone-chest x5', 'portal-charge x3'] },
->>>>>>> c43d1ec5ca308b55ed20045fb918d1fa462a1e0a
    { date:'2026-06-23', type:'link', giftId:'5748a1213f88280c75bc989ec855e949', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
  
