@@ -13,6 +13,9 @@
  note:'until|2026-06-0#T02:00:00Z', rewards:['energy x500'] },
 gA6AsbsN33
 */window.HWDE_GIFTS = [
+   // ── June 25, 2026 ──────────────────────────────
+   { date:'2026-06-25', type:'link', giftId:'4d2a9b6ca5afa3e88e283db18fa07f9c', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
   // ── 1 Link Exclusivo so giftWebId diferente de weblink esse so coloca o id ──────────────────────────────
 { date:'2026-06-24', type:'link', giftWebId:'gA6AsbsN33', note:'until|2026-06-30T02:00:00Z',
   rewards:['valor-coin x10000'] },
