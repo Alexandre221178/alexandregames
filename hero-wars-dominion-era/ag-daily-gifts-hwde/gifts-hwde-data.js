@@ -21,7 +21,8 @@ b4ba6233060e4d08641a28b1ffb847f6
    // ── June 23, 2026 ──────────────────────────────
     // 2026-06-##── 2 Link Exclusivo Web/FB ──────────────────────────────
 
-{ date:'2026-06-24', type:'link', giftLinkWeb:'https://herowars.me/HLfx79mDnh', giftLinkFb:'https://herowars.me/HLfx79mDnh',
+{ date:'2026-06-24', type:'link', giftLinkWeb:'https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTg5WHk4SVNFRzVsa3VIcEJ2WU1rejZGcE1MQXxBQ3Jtc0tsb2ZJdG5ENEwzY2Y5R05YZGZCWDRhang2RllwbFVDRjJUSGQ4Wnp1YkMzM0dIcVY2ekd2RWcySUZMc09tTjZ2UlRNMndwaHJiTkJWS1pwQ2hIaTFMalVSelE3aWY5TXo0LS1VV3pKaXM4X3ZSVUxQaw&q=https%3A%2F%2Fwww.hero-wars.com%2F%3Fnx_source%3Dgroup_posting%26gift_id%3DHLfx79mDnh&v=19sHPuQChno', 
+  giftLinkFb:'https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbmVxT3NPbk5Ld2toN1U5UUtXWlluSlN4NzBsd3xBQ3Jtc0tuX1Rkd09ZbmNrb0dRU1owV3ZEUFdwZHdnTFNyUl9JMHNPcDhjaFd6RTVSLTcycm92eFVmUFZRSzNCRS1TeUEzbUtTalZCdkRaTXlXc3E3V3ZvMnF4eG0xcV9EV000S040cXNHRE1BZ2wteFpDRUVqSQ&q=https%3A%2F%2Ffb.gg%2Fplay%2Fmobaheroes%2Fd%2F4587815481507820%2F&v=19sHPuQChno',
  note:'until|2026-06-28T02:00:00Z', rewards:['large-skin-stone-chest x5', 'portal-charge x3'] },
    { date:'2026-06-23', type:'link', giftId:'5748a1213f88280c75bc989ec855e949', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
