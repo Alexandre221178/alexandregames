@@ -214,7 +214,17 @@
 					"bonus": 106645,
 					"evolution_priority": "High"
 					
-				}
+				},
+				{
+					"name": "Dawn Skin+",
+					"stat": "Magic Attack",
+          "bonus": 21300,
+          "is_skin_plus": true,
+          "evolution_priority": "Very High",
+          "priority_reason": "Doubles the Magic Attack bonus of the Skin. It's most powerful offensive skin, drastically improving burst potential and all Magic-scaling LegendaryRelic effects."
+        }
+					
+				
 			],
 			"artifacts": [
 				{
