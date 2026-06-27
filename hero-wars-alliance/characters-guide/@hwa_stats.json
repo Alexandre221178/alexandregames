@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "game": "Hero Wars Alliance",
+  "source_note": "Structured reference for special stats and combat mechanics used in Hero Wars Alliance guides.",
+  "stats": {
+    "crushing": {
+      "name": {
+        "en": "Crushing",
+        "pt": "Esmagamento"
+      },
+      "type": "offensive_stat",
+      "trigger": "Target has less than 50% health.",
+      "effect": "Increases all outgoing damage dealt by the hero to low-health enemies.",
+      "applies_to_damage_types": [
+        "physical",
+        "magical",
+        "pure"
+      ],
+      "does_not_apply_to": [
+        "health loss from allied skills"
+      ],
+      "formula": "(Crushing / (Crushing + target_main_stat)) * 100%",
+      "formula_variables": {
+        "Crushing": "The attacker's Crushing stat.",
+        "target_main_stat": "The target's main stat: Strength, Agility, or Intelligence."
+      },
+      "summary": "Crushing increases all outgoing physical, magical, and pure damage dealt to opponents below 50% health."
+    },
+    "toughness": {
+      "name": {
+        "en": "Toughness",
+        "pt": "Dureza"
+      },
+      "type": "defensive_stat",
+      "trigger": "Hero has less than 50% health.",
+      "effect": "Reduces all incoming damage from enemies while the hero's health is low.",
+      "applies_to_damage_types": [
+        "physical",
+        "magical",
+        "pure"
+      ],
+      "does_not_apply_to": [
+        "health loss from allied abilities"
+      ],
+      "formula": "(Toughness / (Toughness + enemy_main_stat)) * 100%",
+      "formula_variables": {
+        "Toughness": "The defender's Toughness stat.",
+        "enemy_main_stat": "The attacker's main stat: Strength, Agility, or Intelligence."
+      },
+      "summary": "Toughness decreases all incoming physical, magical, and pure damage when the hero falls below 50% health."
+    },
+    "magical_critical_hit_chance": {
+      "name": {
+        "en": "Magical Critical Hit Chance",
+        "pt": "Chance de Critico Magico"
+      },
+      "type": "offensive_stat",
+      "trigger": "Hero deals magical damage.",
+      "effect": "Gives the hero a chance to deal increased magical damage.",
+      "critical_damage_multiplier": 2.5,
+      "applies_to_damage_types": [
+        "magical"
+      ],
+      "does_not_apply_to": [
+        "physical damage",
+        "pure damage"
+      ],
+      "formula": "(Magical Critical Hit Chance / (Magical Critical Hit Chance + enemy_main_stat)) * 100%",
+      "formula_variables": {
+        "Magical Critical Hit Chance": "The attacker's Magical Critical Hit Chance stat.",
+        "enemy_main_stat": "The target's main stat: Strength, Agility, or Intelligence."
+      },
+      "summary": "Magical Critical Hit Chance works like regular Critical Hit Chance, but only when dealing magical damage. Magical critical hits deal 2.5x regular damage."
+    },
+    "magic_reflection": {
+      "name": {
+        "en": "Magic Reflection",
+        "pt": "Reflexao Magica"
+      },
+      "type": "defensive_stat",
+      "trigger": "Hero receives magical damage.",
+      "effect": "Gives the hero a chance to dodge incoming magical damage and reflect 20% of it back to the enemy.",
+      "reflection_percent": 20,
+      "on_success": [
+        "incoming magical damage is fully avoided",
+        "20% of the avoided magical damage is reflected back to the attacker"
+      ],
+      "applies_to_damage_types": [
+        "magical"
+      ],
+      "does_not_apply_to": [
+        "physical damage",
+        "pure damage"
+      ],
+      "status_interactions": {
+        "stun": "Can activate while the hero is stunned.",
+        "silence": "Does not activate while the hero is silenced."
+      },
+      "formula": "(Magic Reflection / (Magic Reflection + enemy_main_stat)) * 100%",
+      "formula_variables": {
+        "Magic Reflection": "The defender's Magic Reflection stat.",
+        "enemy_main_stat": "The attacker's main stat: Strength, Agility, or Intelligence."
+      },
+      "summary": "Magic Reflection gives a chance to completely avoid incoming magical damage and reflect part of that damage back."
+    }
+  },
+  "damage_traits": {
+    "damage_over_time": {
+      "name": {
+        "en": "Damage over Time",
+        "pt": "Dano ao Longo do Tempo"
+      },
+      "aliases": [
+        "DoT",
+        "Periodical Damage"
+      ],
+      "purpose": "Removes battle delays caused by heroes generating many repeated damage effects.",
+      "rules": [
+        "Cannot miss.",
+        "Cannot be dodged.",
+        "Cannot be reflected."
+      ],
+      "affected_sources": [
+        {
+          "source": "Kai",
+          "effect": "Pure damage from the third skill."
+        },
+        {
+          "source": "Maya",
+          "effect": "Damage from the second, third, and fourth skills."
+        },
+        {
+          "source": "Qing Mao",
+          "effect": "Burn damage from the first skill."
+        },
+        {
+          "source": "Yasmine",
+          "effect": "Poison from the third skill."
+        },
+        {
+          "source": "Rufus",
+          "effect": "Damage from the second skill."
+        },
+        {
+          "source": "Arachne",
+          "effect": "Damage from the fourth skill."
+        },
+        {
+          "source": "Iris",
+          "effect": "Burn damage from the fourth skill."
+        },
+        {
+          "source": "Tempus",
+          "effect": "Damage from the third skill."
+        },
+        {
+          "source": "Polaris",
+          "effect": "Damage from the first skill."
+        },
+        {
+          "source": "Heidi",
+          "effect": "Toxin damage."
+        },
+        {
+          "source": "Alvanor",
+          "effect": "Damage from the third skill enhanced by a Relic."
+        },
+        {
+          "source": "Adventure effect",
+          "effect": "Pure damage equal to a percentage of heroes' maximum Health."
+        },
+        {
+          "source": "Outland Boss Ilyssa the Weaver",
+          "effect": "Pure damage."
+        },
+        {
+          "source": "Hydra Fire Head",
+          "effect": "Burning effect."
+        }
+      ]
+    }
+  },
+  "hero_mechanics_changes": {
+    "tempus_fourth_skill": {
+      "hero": "Tempus",
+      "skill_slot": 4,
+      "changes": [
+        "Effects from Tempus's clock that increase maximum Health and apply slow or speed-up do not affect heroes while they are unavailable.",
+        "Those effects apply once unavailable heroes become available again, as long as they are within the clock's area.",
+        "Effects from Tempus's clock can be applied again if removed, as long as the hero remains inside the clock."
+      ],
+      "previous_behavior": "Effects from Tempus's clock could be removed permanently."
+    }
+  },
+  "ultimate_energy": {
+    "max_energy": 1000,
+    "rules": [
+      {
+        "source": "basic_attack_or_skill_use",
+        "energy_gained": 100,
+        "percent_of_bar": 10,
+        "description": "A hero gains 100 energy for each basic attack or skill they use."
+      },
+      {
+        "source": "taking_damage",
+        "energy_gained": "1% energy for every 1% of total health lost as damage",
+        "description": "Heroes gain energy based on the percentage of their total health lost. Lower-health heroes can sometimes reach their ultimate faster."
+      },
+      {
+        "source": "defeating_enemy",
+        "energy_gained": 300,
+        "percent_of_bar": 30,
+        "description": "The hero who delivers the final blow gains 300 extra energy."
+      },
+      {
+        "source": "final_blow_attack_total",
+        "energy_gained": 400,
+        "percent_of_bar": 40,
+        "description": "If the final blow also counts as an attack or skill use, the hero gains 100 energy from the action plus 300 from the kill."
+      },
+      {
+        "source": "class_rune_bonus",
+        "description": "Some Mages can gain additional energy at the start of battle based on their Class Rune level."
+      }
+    ],
+    "summary": "A hero must reach 1,000 energy to use the ultimate skill. Energy is gained by using abilities, taking damage, defeating enemies, and in some cases through Class Rune bonuses."
+  }
+}

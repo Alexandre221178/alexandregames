@@ -255,6 +255,12 @@
           "bonus": 21300,
           "is_skin_plus": true,
           "evolution_priority": "Medium"
+        },
+        {
+          "name": "Dawn Skin",
+          "stat": "Magic Reflection",
+          "bonus": 2960,
+         "evolution_priority": "Low"
         }
       ],
       "class_skill": {
