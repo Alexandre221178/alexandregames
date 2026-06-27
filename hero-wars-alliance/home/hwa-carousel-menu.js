@@ -7,7 +7,16 @@
       src400: "/hero-wars-alliance/images/hero/miu/miu-400px.webp",
       alt: "Miu Legendary Skills Guide for Hero Wars Alliance",
       title: "Miu Guide for Hero Wars Alliance",
-      strong: "Talisman 2 Guide Updated: Miu Legendary Skills for Hero Wars Alliance",
+      strong: "Dawn Skin+ Updated: Miu - Guide for Hero Wars Alliance",
+      updated: "Updated: June, 2026."
+    },  
+    {
+      link: "/hero-wars-alliance/characters-guide/somna-en.html",
+      src500: "/hero-wars-alliance/images/hero/somna/somna-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/somna/somna-400px.webp",
+      alt: "Somna Legendary Skills Guide for Hero Wars Alliance",
+      title: "Dawn Skin Updated: Somna Guide for Hero Wars Alliance",
+      strong: "Dawn Skin Updated: Somna  - Guide for Hero Wars Alliance",
       updated: "Updated: June, 2026."
     },  
     {
