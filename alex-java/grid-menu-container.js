@@ -27,6 +27,7 @@ figure::after {
   width: 100%;
   border-radius: 10px;
   transition: transform 0.3s;
+  border: 4px solid #5654b3;
 }
 
 .grid-item img:hover {
@@ -40,6 +41,8 @@ figure::after {
 }
 
 .grid-item span {
+  display: block;
+  margin-top: 5px;
   font-size: 12px;
   color: gray;
 }
@@ -66,6 +69,8 @@ const container = document.getElementById("grid-container");
 items.forEach(item => {
   const div = document.createElement("div");
   div.className = "grid-item";
+  const updated = (item.updated || "").trim();
+  const hasUpdated = updated && !/^updated\s*:?\s*$/i.test(updated);
 
   // margem top
   div.style.marginTop = "13px";
@@ -74,7 +79,7 @@ items.forEach(item => {
     <a href="${item.link}">
       <img src="${item.src500}" alt="${item.alt}" title="${item.title}" loading="lazy">
       <br><strong>${item.strong}</strong>
-      <br><span>${item.updated}</span>
+      ${hasUpdated ? `<span>${updated}</span>` : ""}
     </a>
   `;
 
