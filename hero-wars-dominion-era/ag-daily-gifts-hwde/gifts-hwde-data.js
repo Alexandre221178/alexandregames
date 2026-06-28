@@ -11,8 +11,11 @@
   // 2026-06-##── 2 Link Exclusivo Web/FB ──────────────────────────────
 { date:'2026-06-##', type:'link', giftLinkWeb:'https://herowars.me/#wb#', giftLinkFb:'https://herowars.me/#fb#',
  note:'until|2026-07-0#T02:00:00Z', rewards:['energy x500'] },
-https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
+ https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
+
 */window.HWDE_GIFTS = [
+   { date:'2026-06-28', type:'link', giftId:'c201c0a13ec92f0bb5d751e6847c9336', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },
   // ── 1 Link Exclusivo so giftWebId diferente de weblink esse so coloca o id ──────────────────────────────
 { date:'2026-06-28', type:'link', giftWebId:'7PxH3tkBNO', note:'until|2026-06-31T02:00:00Z',
   rewards:['valor-coin x1000'] },
@@ -133,6 +136,7 @@ link type  : { date:'YYYY-MM-DD', type:'link',  giftId:'...', note:'until|YYYY-M
    For unknown items use: 'alexandregames NAME x1'
    To mark expired code add: expired:true
 ###################################################################################
+https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 
 *OBRIGARORIO MANTER HTTP:// PARA OS LINKS ABAIXO WEB/FB
 // ── 2 Link Exclusivo Web/FB ──────────────────────────────
