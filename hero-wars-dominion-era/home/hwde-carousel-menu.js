@@ -78,16 +78,6 @@
     },
     
     {
-      link: "../../hero-wars-dominion-era/characters/lyria-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/lyria/lyria-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/lyria/lyria-400px.webp",
-      alt: "Lyria for Hero Wars: Dominion Era",
-      title: "Lyria for Hero Wars: Dominion Era.",
-      strong: "Guide: Lyria New Skin - Hero Wars: Dominion Era",
-      updated: "Updated: June, 2026."
-    },
-    
-    {
       link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
       src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
       src400: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-400px.webp",
@@ -127,47 +117,7 @@
       updated: "Updated: Daily."
     },
    
-    {
-      link: "../../hero-wars-dominion-era/characters/mushy-and-shroom-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/mushy-and-shroom/mushy-and-shroom-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/mushy-and-shroom/mushy-and-shroom-400px.webp",
-      alt: "Mushy and Shroom for Hero Wars: Dominion Era",
-      title: "Mushy and Shroom for Hero Wars: Dominion Era.",
-      strong: "Guide: Mushy and Shroom - Hero Wars: Dominion Era",
-      updated: "Updated: April, 2026."
-    },
-    
-    {
-  link: "../../hero-wars-dominion-era/titans/lumira-en.html",
-  src500: "../../hero-wars-dominion-era/images/titans-hwde/lumira/lumira-500px.webp",
-  src400: "../../hero-wars-dominion-era/images/titans-hwde/lumira/lumira-400px.webp",
-  alt: "Lumira for Hero Wars: Dominion Era",
-  title: "Lumira for Hero Wars: Dominion Era.",
-  strong: "Guide: Lumira - Hero Wars: Dominion Era",
-  updated: "Updated: April, 2026."
-},
-
-
-    {
-      link: "../../hero-wars-dominion-era/characters/fluffy-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/fluffy/fluffy-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/fluffy/fluffy-400px.webp",
-      alt: "Fluffy for Hero Wars: Dominion Era",
-      title: "Fluffy for Hero Wars: Dominion Era.",
-      strong: "Fluffy (Updated - Masquerade Skin) - Hero Wars: Dominion Era",
-      updated: "Updated: April, 2026."
-    },
-        
-    {
-      link: "../../hero-wars-dominion-era/characters/byrna-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/byrna/byrna-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/byrna/byrna-400px.webp",
-      alt: "Byrna Guide for Hero Wars: Dominion Era",
-      title: "Byrna Guide for Hero Wars: Dominion Era.",
-      strong: "Guide: Byrna - Hero Wars: Dominion Era",
-      updated: "Updated: April, 2026."
-    },
-        
+           
     
        
     
