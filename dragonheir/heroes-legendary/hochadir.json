@@ -1,0 +1,105 @@
+{
+  "name": "Hochadir",
+  "class": "Melee",
+  "rarity": "Legendary",
+  "element": "Ice/Frost",
+  "race": "Undead",
+  "faction": "Death Knight",
+  "level": 100,
+  "stars": 5,
+  "stats": {
+    "health": 34886,
+    "defense": 1147,
+    "attack": 1431,
+    "mastery": 0,
+    "critRate": "15%",
+    "critDmg": "60%",
+    "accuracy": 0,
+    "resistance": 0,
+    "skillHaste": 0
+  },
+  "inspiration": [
+    {
+      "id": 1,
+      "effect": "Reduces the hero's damage taken by 20% when under Control."
+    },
+    {
+      "id": 2,
+      "effect": "When inflicting a debuff, there is a 70% chance of extending its duration by 30%."
+    },
+    {
+      "id": 3,
+      "effect": "Skill Haste +30"
+    },
+    {
+      "id": 4,
+      "effect": "Accuracy +50"
+    },
+    {
+      "id": 5,
+      "effect": "Buffs granted with the battle skill cannot be dispelled."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frost Reign",
+      "type": "Ultimate",
+      "description": "Has a 50.0% chance of inflicting Frost on all enemies for 10.0s. Instantly detonates all enemies under Frost, dealing AOE [+500%Attack] Cold Damage centered on them. Then detonates all enemies under Frozen again, dealing [+500%Attack] Cold Damage."
+    },
+    {
+      "name": "Frostfall",
+      "type": "Battle Skill",
+      "description": "Grants 20% Attack Up on the Frost ally with the highest Attack for 5.0s, then deals [+360%Attack] Cold Damage to enemies in a designated area, with a 75.0% chance to inflict Frost for 5.0s."
+    },
+    {
+      "name": "Frostbite",
+      "type": "Passive Skill",
+      "description": "When the hero is alive, extends the duration of Frost inflicted by allies by 5.0s."
+    }
+  ],
+  "story": [
+    {
+      "chapter": 1,
+      "text": "The icy blade pierced through Hochadir's helmet. A few icy spikes broke off in the freezing wind, but the curse quickly regrew them. His horse had carried him for a long time, but neither of them knew how much longer they had to go. Hochadir was looking for an island; it was where he had slept for a long time after being brought ashore by his warhorse in Iskalland."
+    },
+    {
+      "chapter": 2,
+      "text": "A grim certainty had taken root in Hochadir's heart — his dynasty lay in ruins. Once, he had sailed aboard the Emperor's vessel, bearing the sacred charge to investigate an isle in Iskalland. The mission failed before it truly began. They said a slumbering god dwelled within that fickle island — now submerged, now breaching the waves like a dying leviathan. After months of torment, when hope itself had frozen solid, the mists parted to reveal its jagged silhouette. What fool's errand had they sent him on? This knight, ignorant as a newborn lamb, understood neither the task's grim purpose nor the horrors it would unleash."
+    },
+    {
+      "chapter": 3,
+      "text": "Everyone eventually perished, including Hochadir. They screamed in agony as they were corroded by the sea and devoured by the cold, endlessly tormented as they died. The first tsunami carried him away, and Hochadir thus escaped from the island. He remembered clearly that he had refused the god, and lost all his memories as a result. What was it that he had refused? A flash of fear invaded Hochadir's numb thoughts. What exactly had he refused?"
+    }
+  ],
+  "recommendedEquipment": {
+    "set1": [
+      "Darknight Guardian Helmet",
+      "Darknight Guardian Gloves",
+      "Darknight Guardian Armor",
+      "Darknight Guardian Axe"
+    ],
+    "set2": [
+      "Gem Broker's Hood",
+      "Gem Broker's Gloves",
+      "Gem Broker's Light Armor",
+      "Gem Broker's Dagger"
+    ],
+    "set3": [
+      "Barbarian Helmet",
+      "Barbarian Armor",
+      "Barbarian Gloves",
+      "Barbarian Battleaxe"
+    ]
+  },
+  "recommendedArtifact": [
+    "Golden Antlers",
+    "Arcane Music Box",
+    "Ancestor's Bone"
+  ],
+  "recommendedTeam": [
+    "Felosia",
+    "Eurion",
+    "Lossenia",
+    "Hvitar"
+  ]
+}
