@@ -13,6 +13,9 @@
  note:'until|2026-07-0#T02:00:00Z', rewards:['energy x500'] },
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 */window.HWDE_GIFTS = [
+  // ── 1 Link Exclusivo so giftWebId diferente de weblink esse so coloca o id ──────────────────────────────
+{ date:'2026-06-28', type:'link', giftWebId:'7PxH3tkBNO', note:'until|2026-06-31T02:00:00Z',
+  rewards:['valor-coin x1000'] },
    // 2026-06-28── 2 Link Exclusivo Web/FB ──────────────────────────────
 { date:'2026-06-28', type:'link', giftLinkWeb:'https://herowars.me/4aSfccM', giftLinkFb:'https://herowars.me/4weC7az',
  note:'until|2026-07-02T02:00:00Z', rewards:['energy x500'] },
@@ -183,4 +186,8 @@ link type  : { date:'YYYY-MM-DD', type:'link',  giftId:'...', note:'until|YYYY-M
    ║    'level'    → 24h + box type depends on Team Level            ║
    ║    '24h'      → link works 24 hours                             ║
    ║    'custom'   → use customNote:{ en:'...', pt:'...' }           ║
-   ╚══════════════════════════════════════════════════════════════════╝ */
+   ╚══════════════════════════════════════════════════════════════════╝ 
+   
+   
+   
+   */
