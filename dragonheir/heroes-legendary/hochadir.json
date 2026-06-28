@@ -7,6 +7,7 @@
   "faction": "Death Knight",
   "level": 100,
   "stars": 5,
+  "role": "Ice damage dealer that deals Cold Damage, enhances Frost granted by allies, and inflicts Frost on enemies.",
   "stats": {
     "health": 34886,
     "defense": 1147,
@@ -17,6 +18,28 @@
     "accuracy": 0,
     "resistance": 0,
     "skillHaste": 0
+  },
+  "mechanics": {
+    "frost": {
+      "type": "Debuff",
+      "description": "At 5 stacks, deals [+3% Max HP] Cold Damage (extra damage scaled with the Frost inflicter's Attack). When Frost reaches 5 stacks and deals damage, additionally inflicts Frozen on the target."
+    },
+    "frozen": {
+      "type": "Debuff",
+      "description": "Reduces Attack Speed by 50%, and Recharge Speed by 20%."
+    },
+    "permafrost": {
+      "description": "Deploying a certain number of Ice or Necrosis heroes can trigger the Elemental Affinity bonus.",
+      "elementalAffinity": {
+        "3-hero": {
+          "attackPercent": "+2%",
+          "defense": "+200",
+          "attack": "+200",
+          "hpPercent": "+10%",
+          "hp": "+2000"
+        }
+      }
+    }
   },
   "inspiration": [
     {
@@ -42,19 +65,119 @@
   ],
   "skills": [
     {
-      "name": "Frost Reign",
-      "type": "Ultimate",
-      "description": "Has a 50.0% chance of inflicting Frost on all enemies for 10.0s. Instantly detonates all enemies under Frost, dealing AOE [+500%Attack] Cold Damage centered on them. Then detonates all enemies under Frozen again, dealing [+500%Attack] Cold Damage."
+      "name": "Frostbite",
+      "type": "Passive Skill",
+      "subtype": "Enhance Passive",
+      "description": "When the hero is alive, extends the duration of Frost granted by allies by 5s. Targets under Frost will now explode in their current position upon death, dealing [+200% Attack] Cold Damage to enemies within range."
     },
     {
       "name": "Frostfall",
       "type": "Battle Skill",
-      "description": "Grants 20% Attack Up on the Frost ally with the highest Attack for 5.0s, then deals [+360%Attack] Cold Damage to enemies in a designated area, with a 75.0% chance to inflict Frost for 5.0s."
+      "subtype": "Inflict Frost",
+      "skillDamagePerSecond": 271,
+      "damageModifier": "Attack",
+      "initialCompleteRecharge": "8/14s",
+      "description": "Grants 20% Attack Up on the Frost ally with the highest Attack for 5s, then deals [+360% Attack] Cold Damage to enemies in a designated area, with a 75% chance to inflict Frost for 5s.",
+      "upgrades": [
+        { "level": 2, "effect": "Damage +5%" },
+        { "level": 3, "effect": "Damage +10%" },
+        { "level": 4, "effect": "Chance +25%" },
+        { "level": 5, "effect": "Initial/Complete Recharge -2s" }
+      ]
     },
     {
-      "name": "Frostbite",
-      "type": "Passive Skill",
-      "description": "When the hero is alive, extends the duration of Frost inflicted by allies by 5.0s."
+      "name": "Frost Reign",
+      "type": "Ultimate",
+      "skillDamagePerSecond": 383,
+      "damageModifier": "Attack",
+      "initialCompleteRecharge": "17/21s",
+      "description": "Has a 50% chance of inflicting Frost on all enemies for 10s. Instantly detonates all enemies under Frost, dealing AOE [+500% Attack] Cold Damage centered on them. Then detonates all enemies under Frozen again, dealing [+500% Attack] Cold Damage.",
+      "upgrades": [
+        { "level": 2, "effect": "Damage +10%" },
+        { "level": 3, "effect": "Chance +15%" },
+        { "level": 4, "effect": "Initial Recharge -3s" },
+        { "level": 5, "effect": "Initial/Complete Recharge -3s" }
+      ]
+    }
+  ],
+  "talentTree": [
+    {
+      "level": 1,
+      "name": "Attack Enhancement",
+      "effect": "Attack: +100"
+    },
+    {
+      "level": 2,
+      "name": "Damage Synergy",
+      "effect": "The hero gains 2000 HP and a Damage Aura: All allies deal 6% more damage. The Aura effect doubles for the hero. (Aura effects of the same type do not stack)"
+    },
+    {
+      "level": 3,
+      "options": [
+        {
+          "name": "Warheart",
+          "effect": "When dealing damage to targets inflicted with any negative effect, increases damage dealt by 10%."
+        },
+        {
+          "name": "Disabling Shock",
+          "effect": "While dealing damage with the ultimate skill, deals additional damage equal to 200 + 200% of the hero's Accuracy when the target is inflicted with negative effects."
+        },
+         {
+          "name": "Rising Momentum",
+          "effect": "While dealing damage with the ultimate skill, deals additional damage by 200 + 200% of the hero's Accuracy upon each hit."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "options": [
+        {
+          "name": "Howling Wind",
+          "effect": "Deals 15% increased damage to enemies with Frost."
+        },
+        {
+          "name": "Bitter Frost",
+          "effect": "Inflicting Frost on an enemy has a 50% chance to inflict Frozen on an extra enemy."
+        },
+        {
+          "name": "Winter's Bite",
+          "effect": "Increases Accuracy by 50 when inflicting Frost."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "options": [
+        {
+          "name": "Cold Surge",
+          "effect": "Increases damage dealt by Frost by 20%."
+        },
+        {
+          "name": "Glacial Doom",
+          "effect": "After an ultimate skill hits an enemy with Frost, increases the hero's Crit Rate and Crit Damage by 20% for 5s."
+        },
+        {
+          "name": "Glacial Touch",
+          "effect": "Basic attacks have a 30% chance to inflict 1 stack(s) of Frost for 5s."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "options": [
+        {
+          "name": "Tornado",
+          "effect": "After inflicting Frost 10 times, deals [+100% Attack] Cold Damage to all enemies. If enemies have Frost, damage increases by 50%."
+        },
+        {
+          "name": "Frozen Gale",
+          "effect": "After every 10 basic attacks, the next ultimate skill releases an extra Snowball at the hit target, dealing [+100% Attack] Cold Damage and inflicting Frost for 5s."
+        },
+        {
+          "name": "Frozen Wasteland",
+          "effect": "Gains a [+1% Max HP] shield. When it vanishes, inflicts Frost on all enemies, triggering once every 30s."
+        }
+      ]
     }
   ],
   "story": [
@@ -71,6 +194,12 @@
       "text": "Everyone eventually perished, including Hochadir. They screamed in agony as they were corroded by the sea and devoured by the cold, endlessly tormented as they died. The first tsunami carried him away, and Hochadir thus escaped from the island. He remembered clearly that he had refused the god, and lost all his memories as a result. What was it that he had refused? A flash of fear invaded Hochadir's numb thoughts. What exactly had he refused?"
     }
   ],
+  "playstyle": {
+    "role": "Inflicting Frost",
+    "description": "Hochadir extends the duration of an enemy's Frost debuff and increases the Attack of Frost school allies.",
+    "recommendedAttributes": ["Accuracy", "Attack"],
+    "recommendedScenes": ["Goblin Lair", "Grave of Venom", "Heretical Ruins"]
+  },
   "recommendedEquipment": {
     "set1": [
       "Darknight Guardian Helmet",
@@ -89,12 +218,24 @@
       "Barbarian Armor",
       "Barbarian Gloves",
       "Barbarian Battleaxe"
-    ]
+    ],
+    "recommendedSet": {
+      "name": "Swift Shadow Headgear",
+      "description": "The 2-piece effect of Swift Shadow can increase the wearer's Accuracy and Skill Haste, making it suitable for support heroes."
+    }
   },
   "recommendedArtifact": [
     "Golden Antlers",
     "Arcane Music Box",
-    "Ancestor's Bone"
+    "Ancestor's Bone",
+    {
+      "name": "Mark of the Ice Calamity",
+      "description": "Allows Ice Element wearers to stack up Damage Up when inflicting Frost and has a chance of making the Frost inflicted undispellable, suitable for heroes capable of inflicting Frost."
+    },
+    {
+      "name": "Eyeball of the Giant",
+      "description": "Increases the ultimate skill damage dealt by the wearer, making it suitable for damage dealers specializing in ultimate skills."
+    }
   ],
   "recommendedTeam": [
     "Felosia",

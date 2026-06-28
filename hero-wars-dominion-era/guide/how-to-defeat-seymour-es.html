@@ -310,6 +310,17 @@
   </table>
 </section>
 
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="8517307629"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 2 - LAZY LOAD -->
+
 <section>
   <h2>Por Qué Este Equipo Más Débil Funciona</h2>
   <p>
@@ -360,6 +371,18 @@
     Martha fue excelente en esta pelea por su curación y aceleración. Puede funcionar con una inversión moderada, especialmente si el resto del equipo está haciendo su trabajo, pero debe sobrevivir lo suficiente para mantener el ritmo.
   </p>
 </section>
+
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="7060755724"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWDE - BLOCO 3 - LAZY LOAD -->
+
 
 <section>
   <h2>Por Qué Mi Equipo Más Fuerte Falló</h2>
@@ -463,5 +486,30 @@
 <script src="../../alex-java/translate07-es.js" defer></script>
 <script src="../../alex-java/author-es.js" defer></script>
 </div>
+
+<script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
+
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
+
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
+
 </body>
 </html>
