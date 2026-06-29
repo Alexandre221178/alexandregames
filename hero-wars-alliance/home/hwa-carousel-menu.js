@@ -1,15 +1,7 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
-    {
-      link: "/hero-wars-alliance/characters-guide/cascade-en.html",
-      src500: "/hero-wars-alliance/images/hero/cascade/cascade-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/cascade/cascade-400px.webp",
-      alt: "Cascade Legendary Skills Guide for Hero Wars Alliance",
-      title: "Cascade Guide for Hero Wars Alliance",
-      strong: "Guide Updated: Cascade Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: June, 2026."
-    },      
+    
     {
       link: "/hero-wars-alliance/events-tips-hwa/miu-skin-plus-charisma-shop-en.html",
       src500: "/hero-wars-alliance/images/events-tips-hwa/miu-ode-of-the-dawn/miu-ode-of-the-dawn-500px.webp",
@@ -19,6 +11,15 @@
       strong: "Guide: Miu Skin+ Charisma Shop Event - What to Buy?",
       updated: "Updated: June, 2026."
     },
+    {
+      link: "/hero-wars-alliance/characters-guide/cascade-en.html",
+      src500: "/hero-wars-alliance/images/hero/cascade/cascade-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/cascade/cascade-400px.webp",
+      alt: "Cascade Legendary Skills Guide for Hero Wars Alliance",
+      title: "Cascade Guide for Hero Wars Alliance",
+      strong: "Guide Updated: Cascade Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: June, 2026."
+    },      
     {
       link: "/hero-wars-alliance/characters-guide/miu-en.html",
       src500: "/hero-wars-alliance/images/hero/miu/miu-500px.webp",
