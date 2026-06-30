@@ -3,12 +3,12 @@
   const slides = [
     
     {
-      link: "/hero-wars-alliance/events-tips-hwa/miu-skin-plus-charisma-shop-en.html",
-      src500: "/hero-wars-alliance/images/events-tips-hwa/miu-ode-of-the-dawn/miu-ode-of-the-dawn-500px.webp",
-      src400: "/hero-wars-alliance/images/events-tips-hwa/miu-ode-of-the-dawn/miu-ode-of-the-dawn-400px.webp",
-      alt: "Miu Skin+ Charisma Shop Event for Hero Wars Alliance",
-      title: "Miu Skin+ Charisma Shop Event for Hero Wars Alliance",
-      strong: "Guide: Miu Skin+ Charisma Shop Event - What to Buy?",
+      link: "/hero-wars-alliance/events-tips-hwa/cascade-way-of-mystery-shop-en.html",
+      src500: "/hero-wars-alliance/images/events-tips-hwa/cascade-way-of-mystery-shop/cascade-way-of-mystery-shop-500px.webp",
+      src400: "/hero-wars-alliance/images/events-tips-hwa/cascade-way-of-mystery-shop/cascade-way-of-mystery-shop-400px.webp",
+      alt: "Cascade Way of Mystery Shop Event for Hero Wars Alliance",
+      title: "Cascade Way of Mystery Shop Event for Hero Wars Alliance",
+      strong: "Guide: Cascade Way of Mystery Shop Event - What to Buy?",
       updated: "Updated: June, 2026."
     },
     {

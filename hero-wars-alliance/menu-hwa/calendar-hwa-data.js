@@ -471,6 +471,18 @@ noStrip: true
   links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
 },  
 {
+  titles: {
+    en: "📘Guide: Cascade Way of Mystery Shop Event - What to Buy?",
+    pt: "📘Guia: Evento Loja Caminho do Mistério da Dilúvio - O Que Comprar?",
+    de: "📘Leitfaden: Kaskade Weg des Mysteriums-Shop-Event – Was kaufen?",
+    es: "📘Guía: Evento de la Tienda Camino del Misterio de Cascade - ¿Qué comprar?",
+    fr: "📘Guide : Événement Boutique Voie du Mystère de Cascade - Que faut-il acheter ?",
+    ja: "📘ガイド：カスケード 神秘の道ショップイベント - 何を買うべき？"
+  },
+   links: { en: "../../hero-wars-alliance/events-tips-hwa/cascade-way-of-mystery-shop-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},
+{
 titles: { en: "📘Cascade Guide", de: "📘Kaskade Leitfaden", es: "📘Guía de Cascade", fr: "📘Guide Cascadee", pt: "📘Guia da Dilúvio", ja: "📘カスケード - ガイド" },
  links: { en: "../../hero-wars-alliance/characters-guide/cascade-en.html", de: "../../hero-wars-alliance/characters-guide/cascade-de.html", es: "../../hero-wars-alliance/characters-guide/cascade-es.html", fr: "../../hero-wars-alliance/characters-guide/cascade-fr.html", pt: "../../hero-wars-alliance/characters-guide/cascade-pt.html", ja: "../../hero-wars-alliance/characters-guide/cascade-ja.html" },       
 noStrip: true
@@ -490,6 +502,18 @@ noStrip: true
   links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
 },  
 {
+  titles: {
+    en: "📘Guide: Cascade Way of Mystery Shop Event - What to Buy?",
+    pt: "📘Guia: Evento Loja Caminho do Mistério da Dilúvio - O Que Comprar?",
+    de: "📘Leitfaden: Kaskade Weg des Mysteriums-Shop-Event – Was kaufen?",
+    es: "📘Guía: Evento de la Tienda Camino del Misterio de Cascade - ¿Qué comprar?",
+    fr: "📘Guide : Événement Boutique Voie du Mystère de Cascade - Que faut-il acheter ?",
+    ja: "📘ガイド：カスケード 神秘の道ショップイベント - 何を買うべき？"
+  },
+   links: { en: "../../hero-wars-alliance/events-tips-hwa/cascade-way-of-mystery-shop-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},
+{
 titles: { en: "📘Cascade Guide", de: "📘Kaskade Leitfaden", es: "📘Guía de Cascade", fr: "📘Guide Cascadee", pt: "📘Guia da Dilúvio", ja: "📘カスケード - ガイド" },
 links: { en: "../../hero-wars-alliance/characters-guide/cascade-en.html", de: "../../hero-wars-alliance/characters-guide/cascade-de.html", es: "../../hero-wars-alliance/characters-guide/cascade-es.html", fr: "../../hero-wars-alliance/characters-guide/cascade-fr.html", pt: "../../hero-wars-alliance/characters-guide/cascade-pt.html", ja: "../../hero-wars-alliance/characters-guide/cascade-ja.html" },       
    
@@ -508,6 +532,18 @@ noStrip: true
       { titles: { en: "🏺Cascade - Relic Event", de: "🏺Kaskade - Relikt-Ereignis", es: "🏺Cascade - Evento de Reliquia", fr: "🏺Cascade - Événement des Reliques", pt: "🏺Dilúvio - Evento de Relíquia", ja: "🏺カスケード - レリックイベント" },
   links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
 },  
+{
+  titles: {
+    en: "📘Guide: Cascade Way of Mystery Shop Event - What to Buy?",
+    pt: "📘Guia: Evento Loja Caminho do Mistério da Dilúvio - O Que Comprar?",
+    de: "📘Leitfaden: Kaskade Weg des Mysteriums-Shop-Event – Was kaufen?",
+    es: "📘Guía: Evento de la Tienda Camino del Misterio de Cascade - ¿Qué comprar?",
+    fr: "📘Guide : Événement Boutique Voie du Mystère de Cascade - Que faut-il acheter ?",
+    ja: "📘ガイド：カスケード 神秘の道ショップイベント - 何を買うべき？"
+  },
+   links: { en: "../../hero-wars-alliance/events-tips-hwa/cascade-way-of-mystery-shop-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},
 {
 titles: { en: "📘Cascade Guide", de: "📘Kaskade Leitfaden", es: "📘Guía de Cascade", fr: "📘Guide Cascadee", pt: "📘Guia da Dilúvio", ja: "📘カスケード - ガイド" },
  links: { en: "../../hero-wars-alliance/characters-guide/cascade-en.html", de: "../../hero-wars-alliance/characters-guide/cascade-de.html", es: "../../hero-wars-alliance/characters-guide/cascade-es.html", fr: "../../hero-wars-alliance/characters-guide/cascade-fr.html", pt: "../../hero-wars-alliance/characters-guide/cascade-pt.html", ja: "../../hero-wars-alliance/characters-guide/cascade-ja.html" },       
