@@ -2,19 +2,21 @@
 // ── June #, 2026 ──────────────────────────────
    { date:'2026-06-##', type:'link', giftId:'######', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
-// ── June #, 2026 ──────────────────────────────
-  { date:'2026-06-##', type:'link', giftId:'#####', note:'level',
+// ── July #, 2026 ──────────────────────────────
+  { date:'2026-07-##', type:'link', giftId:'#####', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },
-// ── June #, 2026 ──────────────────────────────
-{ date:'2026-06-##', type:'link', giftId:'#####', note:'until|2026-0#-##T02:00:00Z',
+// ── July #, 2026 ──────────────────────────────
+{ date:'2026-07-##', type:'link', giftId:'#####', note:'until|2026-07-##T02:00:00Z',
   rewards:['energy x500'] },
   // 2026-07-##── 2 Link Exclusivo Web/FB ──────────────────────────────
-{ date:'2026-06-##', type:'link', giftLinkWeb:'https://herowars.me/#wb#', giftLinkFb:'https://herowars.me/#fb#',
- note:'until|2026-07-0#T02:00:00Z', rewards:['energy x500'] },
+{ date:'2026-07-##', type:'link', giftLinkWeb:'https://herowars.me/#wb#', giftLinkFb:'https://herowars.me/#fb#',
+ note:'until|2026-07-##T02:00:00Z', rewards:['energy x500'] },
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 */window.HWDE_GIFTS = [
    // 2026-07-01── 2 Link Exclusivo Web/FB ──────────────────────────────
-{ date:'2026-06-01', type:'link', giftLinkWeb:'https://herowars.me/4vI5Mck', giftLinkFb:'https://herowars.me/4y0jOHL',
+    { date:'2026-07-01', type:'link', giftId:'1114df853b2d3ee732f52e920b9ac727', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
+{ date:'2026-07-01', type:'link', giftLinkWeb:'https://herowars.me/4vI5Mck', giftLinkFb:'https://herowars.me/4y0jOHL',
  note:'until|2026-07-06T02:00:00Z', rewards:['energy x500'] },
 // ── June 30, 2026 ──────────────────────────────
    { date:'2026-06-30', type:'link', giftId:'ed9af8199981301a31e1feaa17588950', note:'level',
