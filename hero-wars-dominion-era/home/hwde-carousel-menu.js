@@ -11,13 +11,13 @@
       updated: "Updated: June, 2026."
     },
     {
-      link: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-guide-en.html",
-      src500: "../../hero-wars-dominion-era/images/events-special/umbra-event/umbra-event-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events-special/umbra-event/umbra-event-400px.webp",
-      alt: "Umbra Event Guide for Hero Wars: Dominion Era",
-      title: "Umbra Event Guide for Hero Wars: Dominion Era.",
-      strong: "Guide f2p: Tips for Umbra Event - Hero Wars: Dominion Era",
-      updated: "Updated: June, 2026."
+      link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
+      src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-400px.webp",
+      alt: "Calendar for Hero Wars: Dominion Era",
+      title: "Calendar for Hero Wars: Dominion Era.",
+      strong: "Calendar - Hero Wars: Dominion Era",
+      updated: "Updated: Monthly."
     },
     
     
@@ -30,6 +30,16 @@
       strong: "Guide(Tier List): Totem Fusion Skills - Hero Wars: Dominion Era",
       updated: "Updated: June, 2026."
     },
+     {
+      link: "../../hero-wars-dominion-era/guide/mysterious-island-en.html",
+      src500: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-400px.webp",
+      alt: "Mysterious Island for Hero Wars: Dominion Era",
+      title: "Mysterious Island for Hero Wars: Dominion Era.",
+      strong: "Guide: Mysterious Island - Hero Wars: Dominion Era",
+      updated: "Updated: Monthly."
+    },
+     
     
     {
   link: "../../hero-wars-dominion-era/titans/umbra-en.html",
@@ -58,34 +68,8 @@
       strong: "Guide: Best Teams for Titan Cosmic Battle - Hero Wars: Dominion Era",
       updated: "Updated: June, 2026."
     },
-    {
-      link: "../../hero-wars-dominion-era/guide/mysterious-island-en.html",
-      src500: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-400px.webp",
-      alt: "Mysterious Island for Hero Wars: Dominion Era",
-      title: "Mysterious Island for Hero Wars: Dominion Era.",
-      strong: "Guide: Mysterious Island - Hero Wars: Dominion Era",
-      updated: "Updated: Monthly."
-    },
-    {
-      link: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-missions-en.html",
-      src500: "../../hero-wars-dominion-era/images/events-special/umbra-event/how-to-prepare-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events-special/umbra-event/how-to-prepare-400px.webp",
-      alt: "Umbra Event Missions for Hero Wars: Dominion Era",
-      title: "Umbra Event Missions for Hero Wars: Dominion Era.",
-      strong: "Guide: Umbra Event Missions - Hero Wars: Dominion Era",
-      updated: "Updated: June, 2026."
-    },
+   
     
-    {
-      link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
-      src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-400px.webp",
-      alt: "Calendar for Hero Wars: Dominion Era",
-      title: "Calendar for Hero Wars: Dominion Era.",
-      strong: "Calendar - Hero Wars: Dominion Era",
-      updated: "Updated: Monthly."
-    },
      
     {
       link: "../../hero-wars-dominion-era/characters/adam-en.html",

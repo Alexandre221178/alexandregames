@@ -691,10 +691,7 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     noStrip: true,
     extra: [
       
-            {
-        titles: { en: "🌠Early Access - Umbra", pt: "🌠Early Access - Umbra", de: "🌠Early Access - Umbra", es: "🌠Early Access - Umbra", fr: "🌠Early Access - Umbra", ja: "🌠Early Access - Umbra" },
-        labelOnly: true,
-      },
+          
       {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
@@ -709,7 +706,7 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         labelOnly: true,
       },
       {
-        titles: { en: "Verdoc & Igines New Champion Skin", pt: "Verdoc & Igines Nova Skin Campeão", de: "Verdoc & Igines Neue Champion-Haut", es: "Verdoc & Igines Nueva Piel de Campeón", fr: "Verdoc & Igines Nouvelle Peau de Champion", ja: "バーデック＆イギネス 新しいチャンピオンスキン" },
+        titles: { en: "Verdoc & Ignis New Champion Skin", pt: "Verdoc & Ignis Nova Skin Campeão", de: "Verdoc & Ignis Neue Champion-Haut", es: "Verdoc & Ignis Nueva Piel de Campeón", fr: "Verdoc & Ignis Nouvelle Peau de Champion", ja: "バーデック＆イギネス 新しいチャンピオンスキン" },
         labelOnly: true,
       },
 
