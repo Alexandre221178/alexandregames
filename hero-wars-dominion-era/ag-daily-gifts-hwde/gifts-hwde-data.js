@@ -1,6 +1,6 @@
 /* HWDE Daily Gifts Data - npm run update-gifts-hwde
-// ── June #, 2026 ──────────────────────────────
-   { date:'2026-06-##', type:'link', giftId:'######', note:'level',
+// ── July #, 2026 ──────────────────────────────
+   { date:'2026-07-##', type:'link', giftId:'######', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
 // ── July #, 2026 ──────────────────────────────
   { date:'2026-07-##', type:'link', giftId:'#####', note:'level',
@@ -13,6 +13,9 @@
  note:'until|2026-07-##T02:00:00Z', rewards:['energy x500'] },
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 */window.HWDE_GIFTS = [
+   // ── July 2, 2026 ──────────────────────────────
+   { date:'2026-07-02', type:'link', giftId:'d3577e49c5222bac1d063dab4c42afb6', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
    // 2026-07-01── 2 Link Exclusivo Web/FB ──────────────────────────────
     { date:'2026-07-01', type:'link', giftId:'1114df853b2d3ee732f52e920b9ac727', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
