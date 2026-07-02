@@ -19,7 +19,7 @@
 		"physical_attack": 31271,
 		"magic_attack": 62625,
 		"armor": 53093,
-		"magic_defense": 24524,
+		"magic_defense": 35174,
 		"dodge": 0,
 		"crit_hit_chance": 0,
 		"accuracy": 17443,
@@ -27,7 +27,7 @@
 		"vampirism": 0,
 		"magic_penetration": 30070,
 		"armor_penetration": 0,
-		"power": 189744
+		"power": 195069
 	},
 	"skills": [
 		{
@@ -181,6 +181,16 @@
 			"name": "Cybernetic Skin",
 			"stats": {
 				"armor": 10650,
+				"power": 5325
+			},
+			"costs": {
+				"strength_skin_stone": 55410
+			}
+		},
+		{
+			"name": "Angelic Skin",
+			"stats": {
+				"Magic Defense": 10650,
 				"power": 5325
 			},
 			"costs": {
