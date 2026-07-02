@@ -4,6 +4,9 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+      // ── Hub Code nao definido a data false ──────────────────────────────
+{ date:'2026-07-02', type:'hub', code:'EMAILGOAL0207', note:'until|2026-07-0#T01:00:00Z',
+   rewards:['alexandregames Hub lucky ball x100'] },
    // ── July 2, 2026 ──────────────────────────────
    { date:'2026-07-02', type:'daily', mission:'3-7', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
