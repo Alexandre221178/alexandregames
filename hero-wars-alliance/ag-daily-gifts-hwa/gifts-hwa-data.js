@@ -4,6 +4,8 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+       { date:'2026-07-02', type:'special', mission:'3-5', note:'until|2026-07-06T01:00:00Z',
+    rewards:['adventure-coin x1000', 'energy x100'] },
       // ── Hub Code nao definido a data false ──────────────────────────────
 { date:'2026-07-02', type:'hub', code:'SUPWORLDCUP', note:'until|2026-07-0#T01:00:00Z',
    rewards:[ 'energy x150', 'artifact-coin x400',  'artifact-chest-key x5'] },
