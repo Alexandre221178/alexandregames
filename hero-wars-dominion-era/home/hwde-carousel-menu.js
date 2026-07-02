@@ -2,14 +2,15 @@
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
     {
-      link: "../../hero-wars-dominion-era/guide/how-to-defeat-seymour-en.html",
-      src500: "../../hero-wars-dominion-era/images/guides/how-to-defeat-seymour/how-to-defeat-seymour-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/guides/how-to-defeat-seymour/how-to-defeat-seymour-400px.webp",
-      alt: "How to Defeat Seymour for Hero Wars: Dominion Era",
-      title: "How to Defeat Seymour for Hero Wars: Dominion Era.",
-      strong: "Guide: How to Defeat Seymour - Hero Wars: Dominion Era",
-      updated: "Updated: June, 2026."
+      link: "../../hero-wars-dominion-era/guide/mysterious-island-en.html",
+      src500: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-400px.webp",
+      alt: "Mysterious Island - How to Get a War Flag?",
+      title: "Mysterious Island for Hero Wars: Dominion Era.",
+      strong: "Mysterious Island - How to Get a War Flag?",
+      updated: "Updated: Monthly."
     },
+    
     {
       link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
       src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
@@ -20,7 +21,15 @@
       updated: "Updated: Monthly."
     },
     
-    
+    {
+      link: "../../hero-wars-dominion-era/guide/how-to-defeat-seymour-en.html",
+      src500: "../../hero-wars-dominion-era/images/guides/how-to-defeat-seymour/how-to-defeat-seymour-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/guides/how-to-defeat-seymour/how-to-defeat-seymour-400px.webp",
+      alt: "How to Defeat Seymour for Hero Wars: Dominion Era",
+      title: "How to Defeat Seymour for Hero Wars: Dominion Era.",
+      strong: "Guide: How to Defeat Seymour - Hero Wars: Dominion Era",
+      updated: "Updated: June, 2026."
+    },
     {
       link: "../../hero-wars-dominion-era/guide/totem-fusion-skills-en.html",
       src500: "../../hero-wars-dominion-era/images/guides/totem-fusion/totem-fusion-skills-500px.webp",
@@ -30,16 +39,7 @@
       strong: "Guide(Tier List): Totem Fusion Skills - Hero Wars: Dominion Era",
       updated: "Updated: June, 2026."
     },
-     {
-      link: "../../hero-wars-dominion-era/guide/mysterious-island-en.html",
-      src500: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-400px.webp",
-      alt: "Mysterious Island for Hero Wars: Dominion Era",
-      title: "Mysterious Island for Hero Wars: Dominion Era.",
-      strong: "Guide: Mysterious Island - Hero Wars: Dominion Era",
-      updated: "Updated: Monthly."
-    },
-     
+         
     
     {
   link: "../../hero-wars-dominion-era/titans/umbra-en.html",
@@ -112,34 +112,34 @@
   const translations = {
     en: {updatedPrefix: 'Updated:', map: {}},
     pt: {updatedPrefix: 'Atualizado:', map: {'Guide':'Guia','Best Teams':'Melhores Equipes','Stay updated':'Fique atualizado','Redeem your Daily Gifts':'Resgate seus Presentes Diários','Event':'Evento',
-      'Best Meta Teams and Combos':'Melhores Times e Combos', 'New Hero':'Novo Herói', 'for':'para',
+      'Best Meta Teams and Combos':'Melhores Times e Combos', 'New Hero':'Novo Herói', 'for':'para','How to Get a War Flag?':'Como Conseguir uma Bandeira de Guerra?',
       'Mushy and Shroom':'Cogu e Mélio', 'Monthly':'Mensal', 'Calendar':'Calendário',
       'Mushy & Shroom':'Cogu e Mélio', 'New':'Nova',
       'Updated':'Atualizado', 'Missions':'Missões', 'Tips':'Dicas', 
     }},
     es: {updatedPrefix: 'Actualizado:', map: {'Guide':'Guía','Best Teams':'Mejores Equipos','Stay updated':'Mantente al día','Redeem your Daily Gifts':'Canjea tus Regalos Diarios','Event':'Evento',
-      'Best Meta Teams and Combos':'Mejores Equipos y Combos', 'for':'para',
+      'Best Meta Teams and Combos':'Mejores Equipos y Combos', 'for':'para', 'How to Get a War Flag?':'¿Cómo obtener una Bandeira de Guerra?',
       'New Hero':'Nuevo Héroe', 'Monthly':'Mensual', 'Calendar':'Calendario',
       'Mushy and Shroom':'Mushy y Shroom',
       'Mushy & Shroom':'Mushy y Shroom', 'New':'Nuevo',
       'Updated':'Actualizado', 'Missions':'Misiones', 'Tips':'Consejos',
     }},
     fr: {updatedPrefix: 'Mis à jour:', map: {'Guide':'Guide','Best Teams':'Meilleures équipes','Stay updated':'Restez informé','Redeem your Daily Gifts':'Échangez vos Cadeaux Quotidiens','Event':'Événement',
-      'Best Meta Teams and Combos':'Meilleures Équipes et Combos', 'for':'pour',
+      'Best Meta Teams and Combos':'Meilleures Équipes et Combos', 'for':'pour', 'How to Get a War Flag?':'Comment Obtenir une Bandeira de Guerra?',
       'New Hero':'Nouveau Héros', 'Monthly':'Mensuel', 'Calendar':'Calendrier',
       'Mushy and Shroom':'Champi et Gnon',
       'Mushy & Shroom':'Champi et Gnon', 'New':'Nouvelle',
       'Updated':'Mis à jour', 'Missions':'Missions', 'Tips':'Conseils',
     }},
     de: {updatedPrefix: 'Aktualisiert:', map: {'Guide':'Leitfaden','Best Teams':'Beste Teams','Stay updated':'Bleiben Sie informiert','Redeem your Daily Gifts':'Löse deine täglichen Geschenke ein','Event':'Event',
-      'Best Meta Teams and Combos':'Beste Meta-Teams und Combos', 'for':'für',
+      'Best Meta Teams and Combos':'Beste Meta-Teams und Combos', 'for':'für', 'How to Get a War Flag?':'Wie bekomme ich eine Kriegsflagge?',
       'New Hero':'Neuer Held', 'Monthly':'Monatlich', 'Calendar':'Kalender',
       'Mushy and Shroom':'Champi und Gnon',
       'Mushy & Shroom':'Champi und Gnon', 'New':'Neu',
       'Updated':'Aktualisiert', 'Missions':'Missionen', 'Tips':'Tipps',
     }},
     ja: {updatedPrefix: '更新:', map: {'Guide':'ガイド','Best Teams':'ベストチーム','Stay updated':'最新情報をチェック','Redeem your Daily Gifts':'毎日のギフトを受け取る','Event':'イベント',
-      'Best Meta Teams and Combos':'ベストメタチームとコンボ', 'for':'ため',
+      'Best Meta Teams and Combos':'ベストメタチームとコンボ', 'for':'ため', 'How to Get a War Flag?':'戦争の旗を手に入れる方法',
       'New Hero':'新しいヒーロー', 'Monthly':'毎月', 'Calendar':'カレンダー',
       'Mushy and Shroom':'マッシーとシュルーム', 'Skin':'スキン', 
       'Mushy & Shroom':'マッシーとシュルーム', 'New':'新しい', 
