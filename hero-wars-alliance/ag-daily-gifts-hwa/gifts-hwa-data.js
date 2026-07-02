@@ -4,6 +4,10 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+  // ── youtube live stream code ──────────────────────────────
+  { date:'2026-07-02', type:'hub', code:'CROWSTREAM', note:'until|2026-07-05T01:00:00Z',
+rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
+   
        { date:'2026-07-02', type:'special', mission:'3-5', note:'until|2026-07-06T01:00:00Z',
     rewards:['adventure-coin x1000', 'energy x100'] },
       // ── Hub Code nao definido a data false ──────────────────────────────
