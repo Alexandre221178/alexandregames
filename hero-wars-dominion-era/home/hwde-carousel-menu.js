@@ -10,6 +10,15 @@
       strong: "Mysterious Island - How to Get a War Flag?",
       updated: "Updated: Monthly."
     },
+    {
+      link: "../../hero-wars-dominion-era/characters/mushy-and-shroom-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/mushy-and-shroom/mushy-and-shroom-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/mushy-and-shroom/mushy-and-shroom-400px.webp",
+      alt: "Mushy & Shroom for Hero Wars: Dominion Era",
+      title: "Mushy & Shroom for Hero Wars: Dominion Era.",
+      strong: "Guide New Skin: Mushy & Shroom - Hero Wars: Dominion Era",
+      updated: "Updated: June, 2026."
+    },
     
     {
       link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
