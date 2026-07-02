@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta property="article:published_time" content="2025-05-08T21:47-03:00" />
-<meta property="article:modified_time" content="2026-04-12T07:43-03:00" />
+<meta property="article:modified_time" content="2026-07-01T23:13-03:00" />
 <link rel="stylesheet" href="../../css/estilo13z.css">
 
 <title>Guia do Evento Bênção dos Mundos em Hero Wars Alliance</title>
@@ -245,6 +245,18 @@
     </tr>
   </tbody>
 </table>
+<!-- HWA- BLOCO 2 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="1483590443"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWA- BLOCO 2 - LAZY LOAD -->
+
+
 
 <!-- 2. Alma Generosa -->
 <h3>2. Alma Generosa – Obtenha Pontos VIP</h3>
@@ -354,6 +366,18 @@
   </tbody>
 </table>
 
+<!-- HWA- BLOCO 3 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="6544345439"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+<!-- HWA- BLOCO 3 - LAZY LOAD -->
+
+
 <!-- 5. Jornada -->
 <h3>5. Jornada – Complete Expedições de Aeronave</h3>
 <p><b>Observação:</b> Você pode completar essas missões durante um evento especial.</p>
@@ -458,6 +482,16 @@
   </tbody>
 </table>
 <hr>
+
+<!-- HWA- BLOCO 4 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="2442207065"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
 
 
 <section id="Invoke Light (Invoke Solaris)">
@@ -628,6 +662,17 @@
   </table>
 
   <hr>
+  <!-- HWA- BLOCO 5 - LAZY LOAD -->
+<div style="min-height: 250px; text-align: center;">
+    <ins class="adsbygoogle ads-lazy"
+         style="display:block"
+         data-ad-client="ca-pub-7838775403194689"
+         data-ad-slot="1184159154"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+
+
 
   <section id="Touch of Abyss (Invoke Tenebris)"></section>
   <h2>Missões Toque do Abismo – Caminho de Tenebris</h2>
@@ -846,7 +891,30 @@
 
 
 
-<!-- close <div class="container"> -->
+<script>
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
+
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
+
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
+</script>
+
 
 </body>
 </html>
