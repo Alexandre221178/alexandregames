@@ -5,6 +5,9 @@ rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
       // ── Hub Code nao definido a data false ──────────────────────────────
+{ date:'2026-07-02', type:'hub', code:'SUPWORLDCUP', note:'until|2026-07-0#T01:00:00Z',
+   rewards:[ 'energy x150', 'artifact-coin x400',  'artifact-chest-key x5'] },
+      // ── Hub Code nao definido a data false ──────────────────────────────
 { date:'2026-07-02', type:'hub', code:'EMAILGOAL0207', note:'until|2026-07-0#T01:00:00Z',
    rewards:['alexandregames Hub lucky ball x100'] },
    // ── July 2, 2026 ──────────────────────────────
@@ -25,7 +28,7 @@ rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
    // ── June 27, 2026 ──────────────────────────────
     // ── Hub Code gft valid data true ──────────────────────────────
 { date:'2026-06-26', type:'hub', code:'DAWN', note:'until|2026-07-06T01:00:00Z',
-      rewards:['energy x20', 'artifact-chest-key x5', 'rune-stone x1500'] },
+      rewards:['energy x20', '-chest-key x5', 'rune-stone x1500'] },
    { date:'2026-06-27', type:'daily', mission:'3-2', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
     { date:'2026-06-26', type:'special', mission:'3-9', note:'until|2026-07-06T01:00:00Z',
@@ -88,7 +91,7 @@ rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
    // ── June 13, 2026 ──────────────────────────────
    { date:'2026-06-13', type:'special', mission:'3-14', note:'until|2026-07-06T01:00:00Z',
-    rewards:['artifact-chest-key x5', 'energy x100'] },
+    rewards:['-chest-key x5', 'energy x100'] },
  
    { date:'2026-06-13', type:'daily', mission:'3-12', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
@@ -126,7 +129,7 @@ rewards:['energy x20', 'intelligence-skin-stone x350', 'strength-skin-stone x350
      
    // ── Hub Code gft valid data true ──────────────────────────────
 { date:'2026-05-30', type:'hub', code:'BLAZING', note:'until|2026-06-08T01:00:00Z',
-      rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
+      rewards:['energy x20', 'rune-stone x1500', '-chest-key x5'] },
       
     // ── Hub Code gft valid data true ──────────────────────────────
 { date:'2026-05-24', type:'hub', code:'ANGELDEMON', note:'until|2026-06-08T01:00:00Z',
