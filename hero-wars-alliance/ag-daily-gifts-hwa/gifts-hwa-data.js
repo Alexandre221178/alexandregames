@@ -4,7 +4,7 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
-   // ── July 3, 2026 ──────────────────────────────
+   // ── July 3, 2026 ────────────----──────────────────
    { date:'2026-07-03', type:'daily', mission:'2-9', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   // ── youtube live stream code ──────────────────────────────
