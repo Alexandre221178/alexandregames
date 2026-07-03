@@ -1,0 +1,341 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "crow",
+      "name": "Crow",
+      "gender": "male",
+      "role": ["Control"],
+      "main_class": "Control",
+      "position": "Middle Line",
+      "level": 120,
+      "equipment_rank": 16,
+      "main_stat": "Agility",
+      "faction": "Way of Honor",
+      "realm_buff_troops": "Spearmen",
+      "realm_buff": "Spearmen attack/defense +120%",
+      "description": "Control hero who applies Silence and punishes enemies by extending Silence windows and dealing extra damage. Very dangerous to Mages and high-Intelligence enemies.",
+      "hydra_tier_list": null,
+      "hero_tier_list": null,
+      "best_synergy": "Fafnir, Thea, Keira",
+      "stat_rules": {
+        "agility": {
+          "physical_attack_per_point": 2,
+          "armor_per_point": 1,
+          "extra_physical_attack_per_point_when_main_stat": 1,
+          "total_physical_attack_per_point_for_agility_hero": 3
+        }
+      },
+      "stats": {
+        "max_with_talisman_of_retribution": {
+          "agility": 16288,
+          "intelligence": 2598,
+          "strength": 2610,
+          "health": 754940,
+          "physical_attack": 109513,
+          "magic_attack": 7852,
+          "armor": 32003,
+          "magic_defense": 18365,
+          "armor_penetration": 24448,
+          "toughness": 1564
+        }
+      },
+      "talisman_details": {
+        "talisman_of_retribution": {
+          "display_name": "Talisman of Retribution",
+          "level": 50,
+          "main_stat": "Agility",
+          "main_stat_bonus": 2000,
+          "derived_bonuses": {
+            "physical_attack": 6000,
+            "armor": 2000
+          },
+          "calculation": {
+            "physical_attack_from_agility": "2000 * 2 = 4000",
+            "extra_physical_attack_from_main_stat": "2000 * 1 = 2000",
+            "total_physical_attack_from_agility": "4000 + 2000 = 6000",
+            "armor_from_agility": "2000 * 1 = 2000"
+          },
+          "reroll_slots": [
+            { "stat": "Armor", "value": 6600 },
+            { "stat": "Armor", "value": 6600 },
+            { "stat": "Armor", "value": 6600 }
+          ],
+          "total_reroll_bonus": {
+            "stat": "Armor",
+            "value": 19800
+          },
+          "total_bonus_summary": "Physical Attack +6000 | Armor +21800"
+        },
+        "recommended": "talisman_of_retribution"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "Silent Judgment",
+          "type": ["Physical Damage", "Control", "Silence"],
+          "keywords": ["Control", "Silence", "Anti-Mage"],
+          "can_upgrade_to_legendary": true,
+          "physical_damage_formula": "200% Phys. atk. + 9000",
+          "physical_damage_value": 228026,
+          "silence_duration_seconds": 8,
+          "targeting": "Attacks enemies in the front and applies Silence to all enemies whose main stat is Intelligence.",
+          "description": "Crow attacks enemies in the front, applying Silence for 8.0 seconds to all Intelligence-main-stat enemies."
+        },
+        {
+          "id": 1,
+          "variant": "legendary",
+          "relic_level": 10,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 1
+          },
+          "name": "Silent Judgment",
+          "type": ["Control", "Silence"],
+          "keywords": ["Control", "Silence"],
+          "silence_duration_seconds": 8,
+          "description": "Silent Judgment now applies Silence to all enemies for 8.0 seconds."
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 120,
+          "name": "Holy Grenade",
+          "type": ["Physical Damage", "Control", "Silence", "Area Damage"],
+          "keywords": ["Control", "Silence", "Anti-Mage"],
+          "can_upgrade_to_legendary": true,
+          "physical_damage_formula": "100% Phys. atk. + 9000",
+          "physical_damage_value": 118513,
+          "silence_duration_seconds": 5,
+          "targeting": "Enemy with the highest Intelligence.",
+          "description": "Throws a grenade at the enemy with the highest Intelligence, applying Silence for 5.0 seconds. The target and nearby enemies take physical area damage."
+        },
+        {
+          "id": 2,
+          "variant": "legendary",
+          "relic_level": 20,
+          "unlock_condition": {
+            "unlock_type": "enhancement",
+            "target_skill_id": 2
+          },
+          "name": "Holy Grenade",
+          "type": ["Physical Damage", "Control", "Silence", "Area Damage"],
+          "keywords": ["Control", "Silence"],
+          "grenade_shards_physical_damage_formula": "75% Phys. atk. + 9000",
+          "grenade_shards_physical_damage_value": 91134.75,
+          "silence_duration_bonus_seconds": 2,
+          "description": "Grenade shards deal physical damage to all Silenced enemies and enemies around them. Silence duration is increased by 2.0 seconds for all affected targets."
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 100,
+          "name": "Swift Retribution",
+          "type": ["Buff", "Physical Damage", "Cooldown Reduction"],
+          "keywords": ["Buff", "Silence Punish"],
+          "duration_seconds": 12,
+          "skill_recharge_speed_increase_percent": 30,
+          "physical_damage_formula": "100% Phys. atk. + 12000",
+          "physical_damage_value": 121513,
+          "description": "For 12.0 seconds, Crow's skills recharge 30% faster, and his basic attacks deal an additional hit to all enemies affected by Silence."
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "level": 80,
+          "name": "Final Verdict",
+          "type": ["Passive", "Physical Damage", "Silence Extension"],
+          "keywords": ["Silence Punish", "Duration Extension"],
+          "physical_damage_formula": "150% Phys. atk. + 21000",
+          "physical_damage_value": 185269.5,
+          "trigger": "When Crow applies Silence to an enemy that already has Silence active.",
+          "description": "When Crow reapplies Silence to an enemy that already has the same active effect, the enemy takes physical damage. The effect's duration is increased by the duration of the longest Silence already affecting the enemy."
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Witch Hunt",
+          "type": ["Physical Damage", "Control", "Silence"],
+          "keywords": ["Control", "Silence", "Anti-Mage"],
+          "cooldown_seconds": 12,
+          "physical_damage_formula": "150% Phys. atk.",
+          "physical_damage_value": 164269.5,
+          "targeting": "Enemy with the highest Intelligence.",
+          "silence_duration_seconds": 5,
+          "description": "Every 12.0 seconds, Crow attacks the enemy with the highest Intelligence. If the target is Silenced, Crow spreads the effect to all nearby enemies for the remaining duration. Otherwise, he applies Silence for 5.0 seconds."
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "unlock_condition": {
+            "unlock_type": "new_skill"
+          },
+          "name": "Confinement",
+          "type": ["Passive", "Debuff Prevention", "Curse Prevention"],
+          "keywords": ["Silence", "Debuff Block", "Curse Block"],
+          "active_condition": "At least one enemy is Silenced.",
+          "prevented_effects": ["Debuffs", "Curses"],
+          "active_while": "Crow is alive.",
+          "description": "While at least one enemy is Silenced, enemies cannot apply Debuffs or Curses. The skill remains active while Crow is alive."
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default Skin",
+          "stat": "Agility",
+          "bonus": 1365,
+          "derived_bonuses": {
+            "physical_attack": 4095,
+            "armor": 1365
+          }
+        },
+        {
+          "name": "Twilight Skin",
+          "stat": "Health",
+          "bonus": 106645
+        },
+        {
+          "name": "Justice Skin",
+          "stat": "Armor Penetration",
+          "bonus": 10659
+        }
+      ],
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Holy Grenade",
+          "level": 100,
+          "activation_chance": 100,
+          "physical_attack": 21357,
+          "trigger_skill": "Silent Judgment",
+          "effect": "Team-wide Physical Attack bonus for 9 seconds when Crow uses Silent Judgment.",
+          "buff_duration_seconds": 9
+        },
+        {
+          "slot": "Book",
+          "name": "Laws Codex",
+          "level": 100,
+          "armor_penetration": 10680,
+          "health": 53394
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Agility",
+          "level": 100,
+          "agility": 3990,
+          "derived_bonuses": {
+            "physical_attack": 11970,
+            "armor": 3990
+          }
+        }
+      ],
+      "glyphs": [
+        {
+          "rank": 1,
+          "name": "Physical Attack",
+          "level": 80,
+          "bonus": 8340
+        },
+        {
+          "rank": 2,
+          "name": "Magic Defense",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "rank": 3,
+          "name": "Health",
+          "level": 80,
+          "bonus": 122800
+        },
+        {
+          "rank": 4,
+          "name": "Armor Penetration",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "rank": 5,
+          "name": "Agility",
+          "level": 80,
+          "bonus": 2110,
+          "derived_bonuses": {
+            "physical_attack": 6330,
+            "armor": 2110
+          }
+        }
+      ],
+      "glyph_class": {
+        "class": "Control"
+      },
+      "realm": {
+        "buff_troop": "Spearmen",
+        "buff_description": "Spearmen attack/defense +120%"
+      },
+      "synergies": [
+        {
+          "hero": "Fafnir",
+          "reason": "Fafnir prioritizes Agility-main-stat allies for Runic Shield and boosts physical attack damage with Runic Blade, making Crow stronger and harder to kill.",
+          "relevant_skills": [
+            {
+              "name": "Runic Shield",
+              "type": ["Shield"],
+              "shield_durability_with_each_hit_formula": "60% Phys. atk. + 6000",
+              "shield_durability_with_each_hit_value": 38872,
+              "health_threshold_percent": 25,
+              "note": "Heroes with Agility as their main stat are prioritized when selecting a target."
+            },
+            {
+              "name": "Runic Blade",
+              "type": ["Buff"],
+              "extra_damage_formula": "65% Phys. atk. + 3000",
+              "extra_damage_value": 38612,
+              "duration_seconds": 8,
+              "honor_bonus_note": "While allied Honor Heroes attack enemies with the Strength main stat, their bonus from this skill is doubled."
+            }
+          ]
+        },
+        {
+          "hero": "Thea",
+          "reason": "Thea can apply Silence with Vow of Silence, helping Crow keep Silence active for Swift Retribution, Final Verdict, Witch Hunt, and Confinement.",
+          "relevant_skills": [
+            {
+              "name": "Vow of Silence",
+              "type": ["Mark", "Control", "Silence"],
+              "damage_formula": "10% Mag. atk. + 3600",
+              "damage_value": 8500,
+              "silence_duration_seconds": 4,
+              "note": "Chance to apply Silence decreases if the target's level is higher than 120."
+            }
+          ]
+        },
+        {
+          "hero": "Keira",
+          "reason": "Keira's Blade Whirlwind can Silence enemies, creating more targets for Crow's Silence-based punishment.",
+          "relevant_skills": [
+            {
+              "name": "Blade Whirlwind",
+              "type": ["Control", "Silence"],
+              "hit_damage_formula": "30% Phys. atk. + 6000",
+              "hit_damage_value": 36164,
+              "silence_duration_seconds": 4,
+              "note": "Silence debuff can affect higher-level enemies."
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Crow is especially dangerous to Mages because multiple skills target enemies with the highest Intelligence or punish Intelligence-main-stat enemies.",
+        "Silence is the core of Crow's kit. Reapplying Silence activates Final Verdict, while active Silence enables Swift Retribution, Witch Hunt spreading, and Confinement.",
+        "The Talisman of Retribution adds Agility +2000, which gives Crow Physical Attack +6000 and Armor +2000 because Agility is his main stat."
+      ]
+    }
+  ]
+}
