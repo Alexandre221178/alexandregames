@@ -11,8 +11,11 @@
   // 2026-07-##── 2 Link Exclusivo Web/FB ──────────────────────────────
 { date:'2026-07-##', type:'link', giftLinkWeb:'https://herowars.me/#wb#', giftLinkFb:'https://herowars.me/#fb#',
  note:'until|2026-07-##T02:00:00Z', rewards:['energy x500'] },
-https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
+
 */window.HWDE_GIFTS = [
+   // ── July 3, 2026 ──────────────────────────────
+   { date:'2026-07-03', type:'link', giftId:'e80f0e06246c5333f8049fc2e9e9cd6a', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
    // ── July 2, 2026 ──────────────────────────────
    { date:'2026-07-02', type:'link', giftId:'d3577e49c5222bac1d063dab4c42afb6', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
