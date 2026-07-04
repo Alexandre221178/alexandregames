@@ -5,6 +5,9 @@ rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
    // ── July 4, 2026 ──────────────────────────────
+   { date:'2026-07-04', type:'hub', code:'CROWCALENDAR', note:'until|2026-08-03T01:00:00Z',
+rewards:['energy x20', 'intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350',] },
+
    { date:'2026-07-04', type:'daily', mission:'3-8', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
       // ── July 3, 2026 ────────────----──────────────────
