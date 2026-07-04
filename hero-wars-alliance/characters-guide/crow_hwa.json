@@ -17,7 +17,7 @@
       "description": "Control hero who applies Silence and punishes enemies by extending Silence windows and dealing extra damage. Very dangerous to Mages and high-Intelligence enemies.",
       "hydra_tier_list": null,
       "hero_tier_list": null,
-      "best_synergy": "Fafnir, Thea, Keira",
+      "best_synergy": "Polaris, Phobos, Byrna, Aidan, Isaac, Judge, Julius, Iris, Tempus, Electra, Miu, Folio, Amira, Satori, Kayla",
       "stat_rules": {
         "agility": {
           "physical_attack_per_point": 2,
@@ -304,7 +304,7 @@
         },
         {
           "hero": "Thea",
-          "reason": "Thea can apply Silence with Vow of Silence, helping Crow keep Silence active for Swift Retribution, Final Verdict, Witch Hunt, and Confinement.",
+          "reason": "Thea can apply Silence with Vow of Silence, helping Crow keep Silence active for Swift Retribution, Final Verdict, Witch Hunt, and Confinement. In the current meta this is more of an optional/off-meta synergy because Crow already applies enough Silence pressure by himself.",
           "relevant_skills": [
             {
               "name": "Vow of Silence",
@@ -318,7 +318,7 @@
         },
         {
           "hero": "Keira",
-          "reason": "Keira's Blade Whirlwind can Silence enemies, creating more targets for Crow's Silence-based punishment.",
+          "reason": "Keira's Blade Whirlwind can Silence enemies, creating more targets for Crow's Silence-based punishment. Like Thea, she can improve Silence uptime, but she is not required for Crow to perform well and is currently outside the strongest meta options.",
           "relevant_skills": [
             {
               "name": "Blade Whirlwind",
@@ -331,9 +331,74 @@
           ]
         }
       ],
+      "best_teams": [
+        {
+          "rank": 1,
+          "label": "Team 1",
+          "heroes": [
+            { "hero": "Phobos", "talisman": "T2" },
+            { "hero": "Iris", "talisman": "T2" },
+            { "hero": "Crow", "talisman": "T1" },
+            { "hero": "Tempus", "talisman": "T2" },
+            { "hero": "Electra", "talisman": "T2" }
+          ],
+          "testing_note": "Strong anti-mage control composition. Crow's repeated Silence weakens high-Intelligence threats while Phobos, Iris, Tempus, and Electra add pressure and control."
+        },
+        {
+          "rank": 2,
+          "label": "Team 2",
+          "heroes": [
+            { "hero": "Polaris", "talisman": "T1" },
+            { "hero": "Isaac", "talisman": "T1" },
+            { "hero": "Crow", "talisman": "T1" },
+            { "hero": "Judge", "talisman": "T1" },
+            { "hero": "Julius", "talisman": "T2" }
+          ],
+          "testing_note": "Progress-style control team where Crow adds heavy Silence pressure against mages while Isaac, Judge, Julius, and Polaris keep the team stable and disruptive."
+        },
+        {
+          "rank": 3,
+          "label": "Team 3",
+          "heroes": [
+            { "hero": "Aidan", "talisman": "T2" },
+            { "hero": "Polaris", "talisman": "T1" },
+            { "hero": "Crow", "talisman": "T1" },
+            { "hero": "Byrna", "talisman": "T2" },
+            { "hero": "Kayla", "talisman": "T2" }
+          ],
+          "testing_note": "Sustain and pressure composition. Aidan, Byrna, and Kayla create a durable core while Polaris and Crow keep enemies controlled."
+        },
+        {
+          "rank": 4,
+          "label": "Team 4",
+          "heroes": [
+            { "hero": "Miu", "talisman": "T2" },
+            { "hero": "Phobos", "talisman": "T2" },
+            { "hero": "Folio", "talisman": "T2" },
+            { "hero": "Iris", "talisman": "T2" },
+            { "hero": "Crow", "talisman": "T1" }
+          ],
+          "testing_note": "Magic-heavy control team. Crow helps suppress enemy mages while Miu, Phobos, Folio, and Iris provide strong magical pressure."
+        },
+        {
+          "rank": 5,
+          "label": "Team 5",
+          "heroes": [
+            { "hero": "Phobos", "talisman": "T2" },
+            { "hero": "Amira", "talisman": "T1" },
+            { "hero": "Crow", "talisman": "T1" },
+            { "hero": "Byrna", "talisman": "T2" },
+            { "hero": "Satori", "talisman": "T2" }
+          ],
+          "testing_note": "Mystery/control composition. Crow adds Silence lockdown while Amira, Satori, Phobos, and Byrna support a slower but highly disruptive fight."
+        }
+      ],
       "notes": [
         "Crow is especially dangerous to Mages because multiple skills target enemies with the highest Intelligence or punish Intelligence-main-stat enemies.",
         "Silence is the core of Crow's kit. Reapplying Silence activates Final Verdict, while active Silence enables Swift Retribution, Witch Hunt spreading, and Confinement.",
+        "In battle testing, Crow performed very strongly because he applies Silence repeatedly, especially against mages and enemies with the highest Intelligence. This can leave enemy teams locked down for long windows.",
+        "Crow does not need off-meta Silence helpers such as Thea or Keira to work well. They can add more Silence, but Crow's own kit already creates enough Silence pressure in strong meta teams.",
+        "Crow is especially effective into strong mage threats such as Iris, Folio, and Miu. Even damage-over-time teams can struggle because Confinement prevents enemies from applying Debuffs and Curses while at least one enemy is Silenced.",
         "The Talisman of Retribution adds Agility +2000, which gives Crow Physical Attack +6000 and Armor +2000 because Agility is his main stat."
       ]
     }

@@ -1,16 +1,16 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
-    
     {
-      link: "/hero-wars-alliance/events-tips-hwa/cascade-way-of-mystery-shop-en.html",
-      src500: "/hero-wars-alliance/images/events-tips-hwa/cascade-way-of-mystery-shop/cascade-way-of-mystery-shop-500px.webp",
-      src400: "/hero-wars-alliance/images/events-tips-hwa/cascade-way-of-mystery-shop/cascade-way-of-mystery-shop-400px.webp",
-      alt: "Cascade Way of Mystery Shop Event for Hero Wars Alliance",
-      title: "Cascade Way of Mystery Shop Event for Hero Wars Alliance",
-      strong: "Guide: Cascade Way of Mystery Shop Event - What to Buy?",
-      updated: "Updated: June, 2026."
-    },
+      link: "/hero-wars-alliance/titans-events-tips/umbra-shop-titan-power-en.html",
+      src500: "/hero-wars-alliance/images/titans-events-tips/umbra-shop-titan-power/umbra-shop-titan-power-500px.webp",
+      src400: "/hero-wars-alliance/images/titans-events-tips/umbra-shop-titan-power/umbra-shop-titan-power-400px.webp",
+      alt: "Umbra's Champion Coins shop during the Titan Power Event in Hero Wars Alliance",
+      title: "Umbra Shop - Titan Power Event Hero Wars Alliance",
+      strong: "Guide: Umbra Shop! What to Buy? Hero Wars Alliance",
+      updated: "Updated: July, 2026."
+    },   
+    
     {
       link: "/hero-wars-alliance/characters-guide/cascade-en.html",
       src500: "/hero-wars-alliance/images/hero/cascade/cascade-500px.webp",
