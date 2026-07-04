@@ -176,6 +176,40 @@
       img: 'elemental-sphere.webp', alt: 'Elemental Sphere',
       titles: { en:'Elemental Sphere', pt:'Esfera Elemental', de:'Elementar-Sphäre', es:'Esfera Elemental', fr:'Sphère Élémentaire', ja:'エレメンタルスフィア' }
     },
+'violet-equipment-fragment-box-mage': {
+  img: 'violet-equipment-fragment-box-mage.webp', alt: 'Violet Equipment Fragment Box (Mage)',
+  titles: {
+    en:'Violet Equipment Fragment Box (Mage)',
+    pt:'Caixa de Fragmentos de Equipamento Violeta (Mago)',
+    de:'Violette Ausrüstungsfragmentkiste (Magier)',
+    es:'Caja de Fragmentos de Equipo Violeta (Mago)',
+    fr:'Boîte de Fragments d’Équipement Violet (Mage)',
+    ja:'バイオレット装備の欠片ボックス（メイジ）'
+  }
+},
+'violet-equipment-fragment-box-tank': {
+  img: 'violet-equipment-fragment-box-tank.webp', alt: 'Violet Equipment Fragment Box (Tank)',
+  titles: {
+    en:'Violet Equipment Fragment Box (Tank)',
+    pt:'Caixa de Fragmentos de Equipamento Violeta (Tanque)',
+    de:'Violette Ausrüstungsfragmentkiste (Tank)',
+    es:'Caja de Fragmentos de Equipo Violeta (Tanque)',
+    fr:'Boîte de Fragments d’Équipement Violet (Tank)',
+    ja:'バイオレット装備の欠片ボックス（タンク）'
+  }
+},
+'violet-equipment-fragment-box-healer': {
+  img: 'violet-equipment-fragment-box-healer.webp', alt: 'Violet Equipment Fragment Box (Healer)',
+  titles: {
+    en:'Violet Equipment Fragment Box (Healer)',
+    pt:'Caixa de Fragmentos de Equipamento Violeta (Curandeiro)',
+    de:'Violette Ausrüstungsfragmentkiste (Heiler)',
+    es:'Caja de Fragmentos de Equipo Violeta (Sanador)',
+    fr:'Boîte de Fragments d’Équipement Violet (Soigneur)',
+    ja:'バイオレット装備の欠片ボックス（ヒーラー）'
+  }
+},
+
     'titan-resource-chest': {
       img: 'titan-resource-chest.webp', alt: 'Titan Resource Chest',
       titles: { en:'Titan Resource Chest', pt:'Baú de Recursos de Titã', de:'Titan-Ressourcentruhe', es:'Cofre de Recursos de Titán', fr:'Coffre de Ressources Titan', ja:'タイタンリソースチェスト' }
