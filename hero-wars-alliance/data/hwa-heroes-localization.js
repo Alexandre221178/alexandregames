@@ -99,7 +99,7 @@ const hwaHeroesLocalization = {
     "pt": "Dilúvio",
     "ja": "カスケード"
   },
-  "Celeste": {
+    "Celeste": {
     "gender": "female",
     "en": "Celeste",
     "de": "Celeste",
@@ -144,6 +144,16 @@ const hwaHeroesLocalization = {
     "pt": "Corvus",
     "ja": "コーブス"
   },
+  "Crow": {
+    "gender": "male",
+    "en": "Crow",
+    "de": "Crow",
+    "es": "Crow",
+    "fr": "Crowu",
+    "pt": "Crow",
+    "ja": "クロウ"
+  },
+    
   "Dante": {
     "gender": "male",
     "en": "Dante",

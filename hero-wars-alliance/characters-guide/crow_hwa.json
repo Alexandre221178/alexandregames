@@ -281,6 +281,21 @@
       },
       "synergies": [
         {
+  "hero": "Cascade",
+  "reason": "Cascade has strong synergy with Crow after receiving Relic skills. Hydrokinesis applies Silence to Intelligence-based enemies while also reducing Armor and Magic Defense against Strength heroes, making it easier for Crow to trigger Swift Retribution, Final Verdict, Witch Hunt, and Confinement. This makes Cascade one of Crow's strongest Silence enablers against mage-heavy teams.",
+  "relevant_skills": [
+    {
+      "name": "Hydrokinesis",
+      "type": ["Debuff", "Control", "Silence", "Blinding"],
+      "damage_formula": "2% Phys. atk. + 600 each second",
+      "damage_value": 8464,
+      "duration_seconds": 4,
+      "armor_and_magic_defense_reduction": 7266,
+      "note": "Applies different effects depending on the target's main stat: Strength heroes lose Armor and Magic Defense, Agility heroes are Blinded, and Intelligence heroes are Silenced for the duration."
+    }
+  ]
+},
+        {
           "hero": "Fafnir",
           "reason": "Fafnir prioritizes Agility-main-stat allies for Runic Shield and boosts physical attack damage with Runic Blade, making Crow stronger and harder to kill.",
           "relevant_skills": [

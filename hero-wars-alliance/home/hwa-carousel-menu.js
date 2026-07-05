@@ -2,6 +2,15 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
+      link: "/hero-wars-alliance/characters-guide/crow-en.html",
+      src500: "/hero-wars-alliance/images/hero/crow/crow-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/crow/crow-400px.webp",
+      alt: "Crow Legendary Skills Guide for Hero Wars Alliance",
+      title: "Crow Guide for Hero Wars Alliance",
+      strong: "Guide Updated: Crow Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: July, 2026."
+    },      
+    {
       link: "/hero-wars-alliance/titans-events-tips/umbra-shop-titan-power-en.html",
       src500: "/hero-wars-alliance/images/titans-events-tips/umbra-shop-titan-power/umbra-shop-titan-power-500px.webp",
       src400: "/hero-wars-alliance/images/titans-events-tips/umbra-shop-titan-power/umbra-shop-titan-power-400px.webp",
@@ -18,7 +27,7 @@
       alt: "Cascade Legendary Skills Guide for Hero Wars Alliance",
       title: "Cascade Guide for Hero Wars Alliance",
       strong: "Guide Updated: Cascade Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: June, 2026."
+      updated: "Updated: July, 2026."
     },      
     {
       link: "/hero-wars-alliance/characters-guide/miu-en.html",

@@ -42,6 +42,8 @@
     "update-alvanor-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide alvanor",
     "update-byrna-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide byrna",
     "update-cascade-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide cascade",
+     "update-crow-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide crow",
+ 
     "update-dante-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide dante",
     "update-dorian-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide dorian",
  
