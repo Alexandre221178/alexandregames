@@ -37,10 +37,10 @@ div.calendar #calendar-container > .event-container {
   font-size: 14px !important;
   position: relative !important;
   padding: 10px !important;
-  background-color: lab(72.57% 25.32 63.6) !important;/* cor calendário mobile */
+  background-color: lab(60.26% 64.22 36.54) !important;/* cor calendário mobile */
   border-radius: 5px !important;
   text-align: center !important;
-  height: 250px !important;
+  height: 270px !important;/* altura Desktop do container no PC */
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -179,7 +179,7 @@ div.calendar .event-label:hover {
   
   div.calendar > .event-container,
   div.calendar #calendar-container > .event-container {
-    height: 203px !important;/* altura Mobile do container */
+    height: 227px !important;/* altura Mobile do container */
   }
   
   div.calendar .event a {

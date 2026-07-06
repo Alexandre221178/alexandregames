@@ -444,10 +444,7 @@ window.CALENDAR_DATA = [
 
   noStrip: true
 },
-{ titles: { en: "👗Guus New Skin+: Twilight", pt: "👗Guus Nova Skin+: Crepúsculo", de: "👗Guus Neue Skin+: Dämmerung", es: "👗Guus Nueva Skin+: Crepúsculo", fr: "👗Guus Nouvelle Skin+ : Crépuscule", ja: "👗グース 新スキン+：黄昏" },
-  labelOnly: true },
-{ titles: { en: "👗Artemis New Skin: Twilight", pt: "👗Artemis Nova Skin: Crepúsculo", de: "👗Artemis Neue Skin: Dämmerung", es: "👗Artemis Nueva Skin: Crepúsculo", fr: "👗Artemis Nouvelle Skin : Crépuscule", ja: "👗アルテミス 新スキン：黄昏" },
-  labelOnly: true },
+
   {
         titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
         links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
@@ -456,6 +453,10 @@ window.CALENDAR_DATA = [
         titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
         links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
       },
+      { titles: { en: "👗Guus New Skin+: Twilight", pt: "👗Guus Nova Skin+: Crepúsculo", de: "👗Guus Neue Skin+: Dämmerung", es: "👗Guus Nueva Skin+: Crepúsculo", fr: "👗Guus Nouvelle Skin+ : Crépuscule", ja: "👗グース 新スキン+：黄昏" },
+  labelOnly: true },
+{ titles: { en: "👗Artemis New Skin: Twilight", pt: "👗Artemis Nova Skin: Crepúsculo", de: "👗Artemis Neue Skin: Dämmerung", es: "👗Artemis Nueva Skin: Crepúsculo", fr: "👗Artemis Nouvelle Skin : Crépuscule", ja: "👗アルテミス 新スキン：黄昏" },
+  labelOnly: true },
 
   ]
   },
