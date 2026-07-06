@@ -12,7 +12,7 @@
 /* Default calendar grid - 7 columns on desktop */
 div.calendar {
   display: grid !important;
-  grid-template-columns: repeat(7, 1fr) !important;
+  grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
   gap: 10px !important;
   padding: 20px !important;
 }
@@ -23,9 +23,12 @@ div.calendar {
 /* CRITICAL: Make #calendar-container also a grid so events display in columns */
 div.calendar #calendar-container {
   display: grid !important;
-  grid-template-columns: repeat(7, 1fr) !important;
+  grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
   gap: 10px !important;
   grid-column: 1 / -1; /* span all columns of parent grid */
+  min-width: 0 !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
 }
 
 /* Event container styling */
@@ -41,6 +44,8 @@ div.calendar #calendar-container > .event-container {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+  min-width: 0 !important;
+  box-sizing: border-box !important;
 }
 
 /* Weekday label */
@@ -75,6 +80,7 @@ div.calendar .event a {
   top: 25px !important;/* altura das letras */
   left: 2px !important;
   z-index: 10 !important;
+  overflow-wrap: anywhere !important;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000 !important;
 }
 
@@ -141,6 +147,7 @@ div.calendar .event .event-label {
   top: 25px !important;
   left: 2px !important;
   z-index: 10 !important;
+  overflow-wrap: anywhere !important;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000 !important;
 }
 div.calendar .event-label:hover {
@@ -154,20 +161,20 @@ div.calendar .event-label:hover {
 /* Tablet: 4 columns */
 @media (max-width: 768px) {
   div.calendar {
-    grid-template-columns: repeat(4, 1fr) !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
   }
   div.calendar #calendar-container {
-    grid-template-columns: repeat(4, 1fr) !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
   }
 }
 
 /* Mobile: 2 columns */
 @media (max-width: 480px) {
   div.calendar {
-    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
   div.calendar #calendar-container {
-    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
   
   div.calendar > .event-container,
