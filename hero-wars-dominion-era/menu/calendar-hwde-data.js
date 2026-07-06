@@ -77,12 +77,12 @@ window.CALENDAR_DATA = [
   noStrip: true
 },  
 {
-  titles: { en: "🆓Umbra Event Guide F2P 6★", pt: "🆓Guia do Evento Umbra F2P 6★", de: "🆓Umbra-Eventguide F2P 6★", es: "🆓Guía del Evento Umbra F2P 6★", fr: "🆓Guide de l'Événement Umbra F2P 6★", ja: "🆓アンブライベントガイド F2P 6★" },
+  titles: { en: "🆓Umbra Event Guide F2P 6★", pt: "🆓Guia do Evento Umbra F2P 6★", de: "🆓Umbra-Eventleitfaden F2P 6★", es: "🆓Guía del Evento Umbra F2P 6★", fr: "🆓Guide de l'Événement Umbra F2P 6★", ja: "🆓アンブライベントガイド F2P 6★" },
   links: { en: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },     
   noStrip: true
 },
 {
-  titles: { en: "🌑Umbra - New Titan Guide", pt: "🌑Umbra - Guia do Novo Titã", de: "🌑Umbra - Neuer Titan Guide", es: "🌑Umbra - Guía del Nuevo Titán", fr: "🌑Umbra - Guide du Nouveau Titan", ja: "🌑Umbra - 新タイタンガイド" },
+  titles: { en: "🌑Umbra - New Titan Guide", pt: "🌑Umbra - Guia do Novo Titã", de: "🌑Umbra - Neuer Titanen-Leitfaden", es: "🌑Umbra - Guía del Nuevo Titán", fr: "🌑Umbra - Guide du Nouveau Titan", ja: "🌑Umbra - 新タイタンガイド" },
   links: { en: "../../hero-wars-dominion-era/titans/umbra-en.html", pt: "../../hero-wars-dominion-era/titans/umbra-pt.html", de: "../../hero-wars-dominion-era/titans/umbra-de.html", es: "../../hero-wars-dominion-era/titans/umbra-es.html", fr: "../../hero-wars-dominion-era/titans/umbra-fr.html", ja: "../../hero-wars-dominion-era/titans/umbra-ja.html" },
   noStrip: true
 },
@@ -115,12 +115,12 @@ window.CALENDAR_DATA = [
   noStrip: true
 },  
 {
-  titles: { en: "🆓Umbra Event Guide F2P 6★", pt: "🆓Guia do Evento Umbra F2P 6★", de: "🆓Umbra-Eventguide F2P 6★", es: "🆓Guía del Evento Umbra F2P 6★", fr: "🆓Guide de l'Événement Umbra F2P 6★", ja: "🆓アンブライベントガイド F2P 6★" },
+  titles: { en: "🆓Umbra Event Guide F2P 6★", pt: "🆓Guia do Evento Umbra F2P 6★", de: "🆓Umbra-Eventleitfaden F2P 6★", es: "🆓Guía del Evento Umbra F2P 6★", fr: "🆓Guide de l'Événement Umbra F2P 6★", ja: "🆓アンブライベントガイド F2P 6★" },
   links: { en: "../../hero-wars-dominion-era/events-special-hwde/umbra-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },     
   noStrip: true
 },
 {
-  titles: { en: "🌑Umbra - New Titan Guide", pt: "🌑Umbra - Guia do Novo Titã", de: "🌑Umbra - Neuer Titan Guide", es: "🌑Umbra - Guía del Nuevo Titán", fr: "🌑Umbra - Guide du Nouveau Titan", ja: "🌑Umbra - 新タイタンガイド" },
+  titles: { en: "🌑Umbra - New Titan Guide", pt: "🌑Umbra - Guia do Novo Titã", de: "🌑Umbra - Neuer Titanen-Leitfaden", es: "🌑Umbra - Guía del Nuevo Titán", fr: "🌑Umbra - Guide du Nouveau Titan", ja: "🌑Umbra - 新タイタンガイド" },
   links: { en: "../../hero-wars-dominion-era/titans/umbra-en.html", pt: "../../hero-wars-dominion-era/titans/umbra-pt.html", de: "../../hero-wars-dominion-era/titans/umbra-de.html", es: "../../hero-wars-dominion-era/titans/umbra-es.html", fr: "../../hero-wars-dominion-era/titans/umbra-fr.html", ja: "../../hero-wars-dominion-era/titans/umbra-ja.html" },
   noStrip: true
 },

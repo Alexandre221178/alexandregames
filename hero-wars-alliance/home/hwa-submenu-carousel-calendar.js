@@ -7,6 +7,33 @@
   // =====================================================
   var slides = [  
     {
+      link: "/hero-wars-alliance/event-special-hwa/satori-cascade-orm-season-en.html",
+      src500: "/hero-wars-alliance/images/events-special-hwa/satori-cascade-orm-season/satori-cascade-orm-season-500px.webp",
+      src400: "/hero-wars-alliance/images/events-special-hwa/satori-cascade-orm-season/satori-cascade-orm-season-400px.webp",
+      alt: "Satori, Cascade & Orm Seasonal Event Guide for Hero Wars Alliance",
+      title: "Satori, Cascade & Orm Seasonal Event Guide for Hero Wars Alliance",
+      strong: "Guide: Satori, Cascade & Orm Seasonal Event for Hero Wars Alliance",
+      updated: "Updated: June, 2026."
+    },  
+     {
+      link: "/hero-wars-alliance/titans-events-tips/umbra-shop-titan-power-en.html",
+      src500: "/hero-wars-alliance/images/titans-events-tips/umbra-shop-titan-power/umbra-shop-titan-power-500px.webp",
+      src400: "/hero-wars-alliance/images/titans-events-tips/umbra-shop-titan-power/umbra-shop-titan-power-400px.webp",
+      alt: "Umbra's Champion Coins shop during the Titan Power Event in Hero Wars Alliance",
+      title: "Umbra Shop - Titan Power Event Hero Wars Alliance",
+      strong: "Guide: Umbra Shop! What to Buy? Hero Wars Alliance",
+      updated: "Updated: July, 2026."
+    },   
+    {
+      link: "/hero-wars-alliance/characters-guide/crow-en.html",
+      src500: "/hero-wars-alliance/images/hero/crow/crow-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/crow/crow-400px.webp",
+      alt: "Crow Legendary Skills Guide for Hero Wars Alliance",
+      title: "Crow Guide for Hero Wars Alliance",
+      strong: "New Hero Guide: Crow Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: July, 2026."
+    },      
+    {
       link: "/hero-wars-alliance/characters-guide/satori-en.html",
       src500: "/hero-wars-alliance/images/hero/satori/satori-500px.webp",
       src400: "/hero-wars-alliance/images/hero/satori/satori-400px.webp",
@@ -34,15 +61,7 @@
       strong: "Guide: Titan Orm for Hero Wars Alliance",
       updated: "Updated: June, 2026."
     },   
-    {
-      link: "/hero-wars-alliance/event-special-hwa/satori-cascade-orm-season-en.html",
-      src500: "/hero-wars-alliance/images/events-special-hwa/satori-cascade-orm-season/satori-cascade-orm-season-500px.webp",
-      src400: "/hero-wars-alliance/images/events-special-hwa/satori-cascade-orm-season/satori-cascade-orm-season-400px.webp",
-      alt: "Satori, Cascade & Orm Seasonal Event Guide for Hero Wars Alliance",
-      title: "Satori, Cascade & Orm Seasonal Event Guide for Hero Wars Alliance",
-      strong: "Guide: Satori, Cascade & Orm Seasonal Event for Hero Wars Alliance",
-      updated: "Updated: June, 2026."
-    },  
+    
     {
       link: "../../hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-en.html",
       src500: "../../hero-wars-alliance/images/daily-gifts/gifts-hwa-500px.webp",
