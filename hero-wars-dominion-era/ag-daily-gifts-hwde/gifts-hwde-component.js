@@ -172,6 +172,10 @@
       img: 'seers-coin.webp', alt: "Seer's Coin",
       titles: { en:"Seer's Coin", pt:'Moeda do Vidente', de:'Seher-Münze', es:'Moneda del Vidente', fr:'Pièce du Voyant', ja:'占い師のコイン' }
     },
+    'honey-energy': {
+      img: 'honey-energy.webp', alt: "Honey Energy",
+      titles: { en:"Honey Energy", pt:'Energia de Mel', de:'Honig-Energie', es:'Energía de Miel', fr:'Énergie de Miel', ja:'ハニーエネルギー' }
+    },
     'elemental-sphere': {
       img: 'elemental-sphere.webp', alt: 'Elemental Sphere',
       titles: { en:'Elemental Sphere', pt:'Esfera Elemental', de:'Elementar-Sphäre', es:'Esfera Elemental', fr:'Sphère Élémentaire', ja:'エレメンタルスフィア' }
