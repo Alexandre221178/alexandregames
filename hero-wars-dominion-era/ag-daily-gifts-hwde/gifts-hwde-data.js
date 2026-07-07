@@ -195,7 +195,7 @@ https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
   rewards:['energy x500'] },
 
   // ── 1 Link Exclusivo so giftWebId diferente de weblink esse so coloca o id ──────────────────────────────
-{ date:'2026-##-##', type:'link', giftWebId:'#####', note:'until|2026-05-31T02:00:00Z',
+{ date:'2026-##-##', type:'link', giftWebId:'#####', note:'until|2026-##-##T02:00:00Z',
   rewards:['valor-coin x1000'] },
 
   // ── Gifts New hero or titan ──────────────────────────────
@@ -203,17 +203,17 @@ https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
   rewards:['energy-crystal x16', 'valor-coin x8000', 'sapphire-medallion x1'] },
 
   // ── Code Gift Type ──────────────────────────────
-{ date:'2026-04-06', type:'code', code:'EGGHNT', note:'until|2026-04-09T02:00:00Z', expired:true,
+{ date:'2026-04-06', type:'code', code:'EGGHNT', note:'until|2026-##-##T02:00:00Z', expired:true,
   rewards:['easter-key x5', 'soul-crystal x10'] },
 
   // ── gift friend-chip coin e Gold ──────────────────────────────
-{ date:'2026-03-27', type:'link', giftId:'xqYzCnjZ49', note:'until|2026-04-05T02:00:00Z',
+{ date:'2026-03-27', type:'link', giftId:'xqYzCnjZ49', note:'until|2026-##-##T02:00:00Z',
   rewards:['large-skin-stone-chest x10', 'friendship-chip x10000', 'gold 1M'] },
 
 // ── 2 Link Exclusivo Web/FB postado atrasado ──────────────────────────────
 { date:'2026-05-14', type:'link', giftLinkWeb:'https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa3BlbXdoZ2Z3UmhaVTJTMjJURzk4ZHVJeHQ3QXxBQ3Jtc0tsQnBjUGwzOE5Cc044c0lFWXp3a2JlWk5MbGFQR3RaZXdwa3dCUWpPYzlMcWo3S1EzY1hZaGtQQXJIN014bzY4akxBSEx5YjNvSDBfdmhUamhzdFZ5OXRZdWduYnVVWW9ZNjUwU0c3YUgtSk13UjQ1bw&q=https%3A%2F%2Fwww.hero-wars.com%2F%3Fnx_source%3Dgroup_posting_boxweb%26gift_id%3D8PdgKQBHWP&v=6ICF5LDfVTo',
    giftLinkFb:'https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbl9yMHZwSGhzWDRJcmJqajlEZTlHSU5nMy1RUXxBQ3Jtc0trSXdxaUNDb1pEOGFkUzMxOTFaV0MyUHFZckZoaVZSSFFuUnVSLVhGS3hlUVFPUGhhOEtfNkFYYVBFRndDeGk3elhtZGZkMTRMczc1QWtKcDlRaGN2eW0yMXktXzVjQ25UeVFpU21DNVp6WnVLX2pnbw&q=https%3A%2F%2Ffb.gg%2Fplay%2Fmobaheroes%2Fd%2F4546179685671400%2F&v=6ICF5LDfVTo', note:'until|2026-05-03T02:00:00Z',
-  note:'until|2026-05-19T02:00:00Z', rewards:['large-skin-stone-chest x5', 'portal-charge x3']
+  note:'until|2026-##-##T02:00:00Z', rewards:['large-skin-stone-chest x5', 'portal-charge x3']
  },
 
 ╔══════════════════════════════════════════════════════════════════╗
