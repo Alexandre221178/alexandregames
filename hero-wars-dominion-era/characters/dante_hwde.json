@@ -164,6 +164,16 @@
 			"costs": {
 				"agility_skin_stone": 55410
 			}
+		},
+		{
+			"name": "Oblivion Skin",
+			"stats": {
+				"magic_defense": 10650,
+       			"power": 5325
+			},
+			"costs": {
+				"agility_skin_stone": 55410
+			}
 		}
 	],
 	"glyphs": [

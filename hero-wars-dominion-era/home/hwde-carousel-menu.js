@@ -11,6 +11,15 @@
       updated: "Updated: Monthly."
     },
     {
+      link: "../../hero-wars-dominion-era/characters/dante-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/dante/dante-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/dante/dante-400px.webp",
+      alt: "Dante for Hero Wars: Dominion Era",
+      title: "Dante for Hero Wars: Dominion Era.",
+      strong: "Guide New Skin: Dante - Hero Wars: Dominion Era",
+      updated: "Updated: July, 2026."
+    },
+    {
       link: "../../hero-wars-dominion-era/characters/guus-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/guus/guus-500px.webp",
       src400: "../../hero-wars-dominion-era/images/hero/guus/guus-400px.webp",
@@ -19,7 +28,6 @@
       strong: "Guide New Skin: Guus - Hero Wars: Dominion Era",
       updated: "Updated: July, 2026."
     },
-    
     
     {
       link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
@@ -39,6 +47,15 @@
       title: "How to Defeat Seymour for Hero Wars: Dominion Era.",
       strong: "Guide: How to Defeat Seymour - Hero Wars: Dominion Era",
       updated: "Updated: June, 2026."
+    },
+    {
+      link: "../../hero-wars-dominion-era/characters/guus-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/guus/guus-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/guus/guus-400px.webp",
+      alt: "Guus for Hero Wars: Dominion Era",
+      title: "Guus for Hero Wars: Dominion Era.",
+      strong: "Guide New Skin: Guus - Hero Wars: Dominion Era",
+      updated: "Updated: July, 2026."
     },
     {
       link: "../../hero-wars-dominion-era/guide/totem-fusion-skills-en.html",
