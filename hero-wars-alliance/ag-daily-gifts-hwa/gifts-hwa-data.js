@@ -12,42 +12,25 @@ window.HWA_GIFTS = [
    // ── July 10, 2026 ──────────────────────────────
    { date:'2026-07-10', type:'daily', mission:'3-2', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── July 9, 2026 ──────────────────────────────
-   { date:'2026-07-09', type:'daily', mission:'2-8', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── July 08, 2026 ──────────────────────────────
-   { date:'2026-07-08', type:'daily', mission:'3-13', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+  
     // ── July 7, 2026 ──────────────────────────────
    { date:'2026-07-07', type:'special', mission:'2-4', note:'until|2026-08-03T01:00:00Z',
     rewards:['adventure-coin x1000', 'energy x20', 'adventure-energy x50'] },
-   // ── July 7, 2026 ──────────────────────────────
-   { date:'2026-07-07', type:'daily', mission:'2-12', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── July 6, 2026 ──────────────────────────────
-   { date:'2026-07-06', type:'daily', mission:'3-4', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── July 05, 2026 ──────────────────────────────
-   { date:'2026-07-05', type:'daily', mission:'2-13', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+   
    // ── July 4, 2026 ─────────---─────────────────────
    { date:'2026-07-04', type:'hub', code:'CROWCALENDAR', note:'until|2026-08-03T01:00:00Z',
 rewards:['energy x20', 'intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350',] },
 
-   { date:'2026-07-04', type:'daily', mission:'3-8', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
       // ── July 3, 2026 ────────────----──────────────────
     { date:'2026-07-03', type:'hub', code:'CROWTRAILER', note:'until|2026-08-03T01:00:00Z',
 rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
    // ── July 3, 2026 ────────────----──────────────────
-   { date:'2026-07-03', type:'daily', mission:'2-9', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+   
   // ── youtube live stream code ──────────────────────────────
   { date:'2026-07-02', type:'hub', code:'CROWSTREAM', note:'until|2026-07-05T01:00:00Z',
 rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
    
-       { date:'2026-07-02', type:'special', mission:'3-5', note:'until|2026-07-06T01:00:00Z',
-    rewards:['adventure-coin x1000', 'energy x100'] },
+     
       // ── Hub Code nao definido a data false ──────────────────────────────
 { date:'2026-07-02', type:'hub', code:'SUPWORLDCUP', note:'until|2026-07-0#T01:00:00Z',
    rewards:[ 'energy x150', 'artifact-coin x400',  'artifact-chest-key x5'] },
@@ -55,93 +38,39 @@ rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
 { date:'2026-07-02', type:'hub', code:'EMAILGOAL0207', note:'until|2026-07-0#T01:00:00Z',
    rewards:['alexandregames Hub lucky ball x100'] },
    // ── July 2, 2026 ──────────────────────────────
-   { date:'2026-07-02', type:'daily', mission:'3-7', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── July 1, 2026 ──────────────────────────────
-   { date:'2026-07-01', type:'daily', mission:'2-2', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── June 30, 2026 ──────────────────────────────
-   { date:'2026-06-30', type:'daily', mission:'3-3', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── June 29, 2026 ──────────────────────────────
-   { date:'2026-06-29', type:'daily', mission:'2-5', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── June 28, 2026 ──────────────────────────────
-   { date:'2026-06-28', type:'daily', mission:'2-8', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── June 27, 2026 ──────────────────────────────
-    // ── Hub Code gft valid data true ──────────────────────────────
-{ date:'2026-06-26', type:'hub', code:'DAWN', note:'until|2026-07-06T01:00:00Z',
-      rewards:['energy x20', '-chest-key x5', 'rune-stone x1500'] },
-   { date:'2026-06-27', type:'daily', mission:'3-2', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+   
     { date:'2026-06-26', type:'special', mission:'3-9', note:'until|2026-07-06T01:00:00Z',
     rewards:['adventure-coin x1000', 'energy x100'] },
    // ── June 26, 2026 ──────────────────────────────
-   { date:'2026-06-26', type:'daily', mission:'2-12', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-    { date:'2026-06-25', type:'special', mission:'3-12', note:'until|2026-07-06T01:00:00Z',
-    rewards:['energy x100'] },
-   // ── June 25, 2026 ──────────────────────────────
-   { date:'2026-06-25', type:'daily', mission:'3-13', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+   
    // ── June 24, 2026 ──────────────────────────────
     // ── Hub Code nao definido a data false ──────────────────────────────
 { date:'2026-06-24', type:'hub', code:'EMAILGIFT2206', note:'custom',
     customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
     rewards:[ 'summoning-sphere x10'] },
-   { date:'2026-06-24', type:'daily', mission:'2-3', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+  
    // ── June 23, 2026 ──────────────────────────────
    { date:'2026-06-23', type:'special', mission:'2-14', note:'until|2026-07-06T01:00:00Z',
     rewards:['seers-orb x50', 'energy x100', 'world-energy x30', 'random-resources-chest-100k x6'] },
-   { date:'2026-06-23', type:'daily', mission:'3-4', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+   
    // ── June 22, 2026 ──────────────────────────────
    // ── 6gft Realm ────────────────────────────── 
 { date:'2026-06-22', type:'special', mission:'3-11', note:'until|2026-07-06T01:00:00Z',
  rewards:['energy x20', '1h-construction-speedup x1', '1h-research-speedup X1', '1h-training-speedup x1', '1h-general-speedup x2', 'world-energy x30', ] }, 
-   { date:'2026-06-22', type:'daily', mission:'2-13', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── June 21, 2026 ──────────────────────────────
-   { date:'2026-06-21', type:'daily', mission:'3-5', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── June 20, 2026 ──────────────────────────────
+ 
+   
     // ── Hub Code gft valid data true ──────────────────────────────
 { date:'2026-06-20', type:'hub', code:'DAWNSTATS', note:'until|2026-07-06T01:00:00Z',
       rewards:['energy x20', 'strength-skin-stone x500'] },
-   { date:'2026-06-20', type:'daily', mission:'2-9', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── June 19, 2026 ──────────────────────────────
-   { date:'2026-06-19', type:'daily', mission:'3-8', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+   
    // ── June 18, 2026 ──────────────────────────────
     { date:'2026-06-18', type:'special', mission:'2-4', note:'until|2026-07-06T01:00:00Z',
     rewards:['large-skin-stone-chest x5', 'adventure-energy x100', 'energy x20'] },
  
-   { date:'2026-06-18', type:'daily', mission:'2-2', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── June 17, 2026 ──────────────────────────────
-   { date:'2026-06-17', type:'daily', mission:'3-7', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── June 16, 2026 ──────────────────────────────
-   { date:'2026-06-16', type:'daily', mission:'2-5', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── June 15, 2026 ──────────────────────────────
-   { date:'2026-06-15', type:'daily', mission:'3-3', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── June 14, 2026 ──────────────────────────────
-   { date:'2026-06-14', type:'daily', mission:'2-14', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+   
    // ── June 13, 2026 ──────────────────────────────
    { date:'2026-06-13', type:'special', mission:'3-14', note:'until|2026-07-06T01:00:00Z',
-    rewards:['-chest-key x5', 'energy x100'] },
- 
-   { date:'2026-06-13', type:'daily', mission:'3-12', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-      // ── June 12, 2026 ──────────────────────────────
-   { date:'2026-06-12', type:'daily', mission:'2-8', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+    rewards:['artifact-chest-key x5', 'energy x100'] },
    
    // ── June 11, 2026 ──────────────────────────────
   { date:'2026-07-11', type:'special', mission:'2-11', note:'until|2026-07-06T01:00:00Z',
@@ -152,9 +81,6 @@ rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
    { date:'2026-06-09', type:'special', mission:'3-9', note:'until|2026-07-06T01:00:00Z',
     rewards:['adventure-coin x1000', 'energy x20', 'adventure-energy x50'] },
    
-   // ── June 8, 2026 ──────────────────────────────
-   { date:'2026-06-08', type:'daily', mission:'2-3', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
    // ── June 7, 2026 ──────────────────────────────
     { date:'2026-06-07', type:'hub', code:'ORMCALENDAR', note:'until|2026-07-01T01:00:00Z',
  rewards:['summoning-sphere x5', 'gold 250k', 'energy x20'] },
@@ -173,7 +99,7 @@ rewards:['energy x20', 'intelligence-skin-stone x350', 'strength-skin-stone x350
      
    // ── Hub Code gft valid data true ──────────────────────────────
 { date:'2026-05-30', type:'hub', code:'BLAZING', note:'until|2026-06-08T01:00:00Z',
-      rewards:['energy x20', 'rune-stone x1500', '-chest-key x5'] },
+      rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
       
     // ── Hub Code gft valid data true ──────────────────────────────
 { date:'2026-05-24', type:'hub', code:'ANGELDEMON', note:'until|2026-06-08T01:00:00Z',
@@ -229,16 +155,6 @@ customNote:{ en:'The gift is available until... not defined (or 24h)',
   ja:'ギフトの有効期限は... 未定義（または24時間）'  
 }, rewards:[ 'energy x150', 'artifact-coin x400',  'artifact-chest-key x5'] },
 
- 
-    // ── April 30, 2026 ──────────────────────────────
-   { date:'2026-04-30', type:'special', mission:'2-3', note:'until|2026-05-11T01:00:00Z',
-    rewards:['adventure-coin x1000', 'energy x100'] },
-    
-
-
-// ── April 27, 2026 ──────────────────────────────
-{ date:'2026-04-27', type:'special', mission:'3-2', note:'until|2026-05-11T01:00:00Z',
-    rewards:[ 'energy x100', 'avatar x1'] },   
    
 // ── April 26, 2026 ──────────────────────────────
 { date:'2026-04-26', type:'special', mission:'3-13', note:'until|2026-05-11T01:00:00Z',
@@ -254,22 +170,6 @@ customNote:{ en:'The gift is available until... not defined (or 24h)',
    { date:'2026-04-23', type:'hub', code:'TRY', note:'until|2026-05-11T02:00:00Z',
       rewards:['energy x100', 'large-skin-stone-chest x5'] },
  
-  
-  // ── April 21, 2026 ──────────────────────────────
-{ date:'2026-04-21', type:'specialTask', mission:'2-4', note:'untilLevel|2026-05-11T01:00:00Z|15',
-rewards:['large-skin-stone-chest x5', 'energy x20', 'adventure-energy x100'] },
-  
-
-  // ── April 18, 2026 ──────────────────────────────
-{ date:'2026-04-18', type:'hub', code:'DUNGEON', note:'until|2026-05-11T01:00:00Z',
-      rewards:['energy x100', 'artifact-chest-key x5'] },
-
- 
-  
-// ── April 16, 2026 ──────────────────────────────
-{ date:'2026-04-16', type:'special', mission:'3-7', note:'until|2026-05-11T01:00:00Z',
-    rewards:['adventure-coin x1000', 'energy x20', 'adventure-energy x50'] },
-
 
 // ── April 13, 2026 ──────────────────────────────
 { date:'2026-04-13', type:'hub', code:'WEB', note:'custom',
@@ -281,18 +181,11 @@ rewards:[ 'energy x100'] },
     customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
     rewards:[ 'energy x150', 'artifact-coin x100',  'artifact-chest-key x5'] },
 
-// ── April 10, 2026 ──────────────────────────────
-{ date:'2026-04-10', type:'special', mission:'2-9', note:'until|2026-05-11T05:00:00Z',
-    rewards:['alexandregames ??? x3', 'energy x100', 'realm-gift x3'] },
-   
-
 // ── April 9, 2026 ──────────────────────────────
 { date:'2026-04-09', type:'hub', code:'Asleepsam', note:'custom',
     customNote:{ en:'The gift is available until... not defined(expired or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
     rewards:['artifact-chest-key x5', 'energy x100'] },
    
- { date:'2026-04-09', type:'special', mission:'2-7', note:'until|2026-05-12T05:00:00Z',
-    rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
    
  // ── Code nao definido a data ──────────────────────────────
   { date:'2026-04-01', type:'hub', code:'CONFIDENTIAL', note:'custom',
