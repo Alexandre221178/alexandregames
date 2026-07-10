@@ -1,0 +1,361 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "tristan",
+      "name": "Tristan",
+      "gender": "male",
+      "tristan_description": "Demon Fighter who inspires allies in front of him and draws strength from their newfound courage.",
+      "role": ["Warrior"],
+      "main_class": "Warrior",
+      "position": "Front Line",
+      "level": 120,
+      "main_stat": "Strength",
+      "equipment_rank": 16,
+      "way": "Way of Honor",
+      "faction": "Way of Honor",
+      "glyph_class": "Warrior",
+      "best_synergy": "Crow, Oya, Fafnir, Yasmine, Artemis",
+      "realm": {
+        "troop_buff": "Infantry",
+        "realm_buff": "Attack/Defense 120%",
+        "realm_skills_available": false,
+        "skills": []
+      },
+      "stat_rules": {
+        "strength": {
+          "health_per_point": 40,
+          "extra_physical_attack_per_point_when_main_stat": 1
+        }
+      },
+      "stats": {
+        "max_with_talisman_of_righteous": {
+          "intelligence": 3944,
+          "agility": 3823,
+          "strength": 17488,
+          "health": 1545175,
+          "physical_attack": 114529,
+          "magic_attack": 27258,
+          "physical_armor": 37941.2,
+          "magical_armor": 22863.8,
+          "toughness": 782,
+          "armor_penetration": 37396,
+          "crushing": 8863
+        },
+        "max_with_talisman_of_blessing": {
+          "intelligence": 3944,
+          "agility": 3823,
+          "strength": 15488,
+          "health": 1283675,
+          "physical_attack": 125729,
+          "magic_attack": 27258,
+          "physical_armor": 51741.2,
+          "magical_armor": 22863.8,
+          "toughness": 782,
+          "armor_penetration": 37396,
+          "crushing": 8863
+        }
+      },
+      "talisman_details": {
+        "talisman_of_righteous": {
+          "coin_talisman": 0,
+          "display_name": "Talisman of Righteous",
+          "border": {
+            "level": 50,
+            "main_stat": "Strength",
+            "main_stat_value": 2000
+          },
+          "derived_bonuses": {
+            "health_from_strength": 80000,
+            "physical_attack_from_strength": 2000
+          },
+          "rerolls": [
+            { "stat": "health", "value": 60500 },
+            { "stat": "health", "value": 60500 },
+            { "stat": "health", "value": 60500 }
+          ],
+          "total_reroll_bonus": {
+            "stat": "Health",
+            "value": 181500
+          },
+          "total_bonus_summary": "Strength +2000 | Health +261500 | Physical attack +2000"
+        },
+        "talisman_of_blessing": {
+          "coin_talisman": 0,
+          "display_name": "Talisman of Blessing",
+          "border": {
+            "level": 50,
+            "main_stat": "Armor",
+            "main_stat_value": 12000
+          },
+          "rerolls": [
+            { "stat": "physicalAttack", "value": 4400 },
+            { "stat": "physicalAttack", "value": 4400 },
+            { "stat": "physicalAttack", "value": 4400 }
+          ],
+          "total_reroll_bonus": {
+            "stat": "Physical attack",
+            "value": 13200
+          },
+          "total_bonus_summary": "Armor +12000 | Physical attack +13200"
+        },
+        "recommended": "talisman_of_blessing"
+      },
+      "skills": [
+        {
+          "id": 0,
+          "variant": "basic_attack",
+          "name": "Basic attack",
+          "type": ["Physical Damage"],
+          "description": "Tristan's basic attack deals physical damage.",
+          "damage": "100% Phys.atk.",
+          "cooldown_seconds": 5,
+          "animation_delay_seconds": 1.01
+        },
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "Purifier's Wrath",
+          "type": ["Physical Damage"],
+          "can_upgrade_to_legendary": true,
+          "description": "Tristan attacks nearby enemies, dealing physical damage.",
+          "physical_damage": "25% Phys.atk. + 9000"
+        },
+        {
+          "id": 1,
+          "variant": "legendary",
+          "relic_level": 10,
+          "name": "Purifier's Wrath (enhancement)",
+          "type": ["Physical Damage", "Control", "Silence"],
+          "keywords": ["Silence"],
+          "description": "The skill now applies Silence to nearby enemies for 4.0 seconds and deals increased damage.",
+          "physical_damage": "50% Phys.atk. + 18000",
+          "silence_duration_seconds": 4
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 120,
+          "name": "Righteous Zeal",
+          "type": ["Buff"],
+          "keywords": ["Buff"],
+          "description": "For 5.0 seconds, Tristan increases Physical Attack for himself and allies in front of him.",
+          "physical_attack_bonus": "20% Phys.atk. + 4800",
+          "duration_seconds": 5,
+          "targets": "Tristan and allies in front of him"
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 100,
+          "name": "Judge of Sorcerers",
+          "type": ["Physical Damage", "Energy Burn"],
+          "keywords": ["Energy Burn", "Way of Honor"],
+          "description": "Tristan attacks the enemy with the highest Magic Penetration, or the farthest enemy if there are none. Each hit deals physical damage and burns part of the target's Energy. This skill triggers once for each allied Way of Honor Hero.",
+          "physical_damage": "5% Phys.atk. + 3000",
+          "energy_burned": 100,
+          "targeting": "Enemy with the highest Magic Penetration, or the farthest enemy if there are none",
+          "trigger": "Once for each allied Way of Honor Hero"
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "level": 80,
+          "name": "Blessed Vanguard",
+          "type": ["Passive", "Energy Gain"],
+          "can_upgrade_to_legendary": true,
+          "description": "Whenever the ally in front of Tristan gains Energy, Tristan gains the same amount. Tristan can gain bonus Energy only from Heroes who started the battle with him.",
+          "note": "Chance to gain energy from the ally is lowered if the target's level is above 120."
+        },
+        {
+          "id": 4,
+          "variant": "legendary",
+          "relic_level": 20,
+          "name": "Blessed Vanguard (enhancement)",
+          "type": ["Passive", "Energy Gain", "Energy Sharing"],
+          "description": "Allies whose Physical Attack is higher than their Magic Attack at the start of battle now gain 30% of the Energy Tristan receives from this skill.",
+          "energy_share_percent": 30
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "name": "Seal of Retribution",
+          "type": ["Physical Damage", "Control", "Silence"],
+          "keywords": ["Silence"],
+          "description": "Every 11.0 seconds, Tristan applies Silence for 4.0 seconds to the enemy with the highest Magic Penetration, or the farthest enemy if there are none, and nearby enemies. Heroes affected by the skill also take physical damage.",
+          "physical_damage": "80% Phys.atk.",
+          "cooldown_seconds": 11,
+          "silence_duration_seconds": 4,
+          "targeting": "Enemy with the highest Magic Penetration, or the farthest enemy if there are none, and nearby enemies"
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "name": "Sinners' Payback",
+          "type": ["Passive", "Physical Damage"],
+          "description": "When Tristan or his allies penetrate a target's Armor, the enemy takes additional damage equal to the portion of damage that exceeded the Armor value.",
+          "physical_damage": "200% of damage exceeding Armor"
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default",
+          "stat": "Strength",
+          "bonus": 1365,
+          "derived": {
+            "health": 54600,
+            "physical_attack": 1365
+          }
+        },
+        {
+          "name": "Solar Skin+",
+          "stat": "Physical attack",
+          "bonus": 14190,
+          "level": 60,
+          "is_skin_plus": true,
+          "note": "Skin+ has double the stat points of a normal skin, but only activates the doubled stats when the player acquires the Skin+. The skin stone cost remains the same as a normal skin."
+        },
+        {
+          "name": "Masquerade",
+          "stat": "Magic defense",
+          "bonus": 10650,
+          "level": 60
+        },
+        {
+          "name": "Stellar",
+          "stat": "Armor penetration",
+          "bonus": 10650,
+          "level": 60
+        },
+        {
+          "name": "Dark Depths",
+          "stat": "Armor",
+          "bonus": 10650,
+          "level": 60
+        },
+        {
+          "name": "Sport",
+          "stat": "Crushing",
+          "bonus": 5920,
+          "level": 60
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "Demonic Reliquary",
+          "slot": "Weapon",
+          "bigStar": true,
+          "evolve": 6,
+          "level": 100,
+          "activation_chance": "100%",
+          "effect": "Armor penetration +32040",
+          "armor_penetration": 32040,
+          "note": "Activates with the ultimate skill."
+        },
+        {
+          "name": "Alchemist's Folio",
+          "slot": "Book",
+          "bigStar": true,
+          "evolve": 6,
+          "level": 100,
+          "effect": "Armor penetration +10680, Physical attack +3561",
+          "armor_penetration": 10680,
+          "physical_attack": 3561
+        },
+        {
+          "name": "Ring of Strength",
+          "slot": "Ring",
+          "bigStar": true,
+          "evolve": 6,
+          "level": 100,
+          "strength": 3990,
+          "derived": {
+            "health": 159600,
+            "physical_attack": 3990
+          }
+        }
+      ],
+      "glyphs": {
+        "class": "Warrior",
+        "runesphere": 0,
+        "tristan5": 45,
+        "warrior_class_level": "585 / 585",
+        "warrior_class_glyphs_bonuses": "Every time the warrior deals damage to enemies with a regular attack, they apply an effect to themselves that increases Physical Attack by 33345.24 (8% Phys.atk. + 26325) for 16.7 seconds. A character cannot have more than 6 effects at the same time.",
+        "glyphs_level": 80,
+        "list": [
+          { "name": "Physical attack", "level": 80, "bonus": 8340 },
+          { "name": "Health", "level": 80, "bonus": 122800 },
+          { "name": "Armor", "level": 80, "bonus": 12850 },
+          { "name": "Armor penetration", "level": 80, "bonus": 12850 },
+          {
+            "name": "Strength",
+            "level": 80,
+            "bonus": 2110,
+            "derived": {
+              "health": 84400,
+              "physical_attack": 2110
+            }
+          }
+        ]
+      },
+      "gift_of_the_elements": {
+        "level": 30,
+        "bonuses": {
+          "strength": 720,
+          "agility": 360,
+          "intelligence": 360
+        }
+      },
+      "best_teams": [
+        {
+          "rank": 1,
+          "heroes": [
+            { "hero": "Kendle", "talisman": "T1" },
+            { "hero": "Crow", "talisman": "T1" },
+            { "hero": "Yasmine", "talisman": "T2" },
+            { "hero": "Oya", "talisman": "T2" },
+            { "hero": "Tristan", "talisman": "T2" }
+          ]
+        },
+        {
+          "rank": 2,
+          "heroes": [
+            { "hero": "Guus", "talisman": "T2" },
+            { "hero": "Crow", "talisman": "T1" },
+            { "hero": "Yasmine", "talisman": "T2" },
+            { "hero": "Oya", "talisman": "T2" },
+            { "hero": "Tristan", "talisman": "T2" }
+          ]
+        },
+        {
+          "rank": 3,
+          "heroes": [
+            { "hero": "Fafnir", "talisman": "T2" },
+            { "hero": "Kendle", "talisman": "T1" },
+            { "hero": "Guus", "talisman": "T2" },
+            { "hero": "Yasmine", "talisman": "T2" },
+            { "hero": "Tristan", "talisman": "T2" }
+          ]
+        }
+      ],
+      "popular_teams": [
+        ["Fafnir", "Artemis", "Tristan", "Galahad", "Luther"],
+        ["Fafnir", "Artemis", "Tristan", "Luther", "Cleaver"],
+        ["Jet", "Sebastian", "Tristan", "Galahad", "Cleaver"],
+        ["Fafnir", "Artemis", "Mojo", "Tristan", "Galahad"],
+        ["Jet", "Sebastian", "Tristan", "Galahad", "Luther"]
+      ],
+      "notes": [
+        "Tristan is a front-line Honor Warrior focused on physical damage, Armor penetration, Energy gain, and Silence after Legendary Relic upgrades.",
+        "Talisman of Righteous focuses on Strength and Health. Talisman of Blessing focuses on Armor and Physical attack and is recommended in the source teams.",
+        "Tristan e muito usado com Oya em times de Yasmine e Artemis; atualmente aparece mais com Yasmine.",
+        "Quando Oya puxa o inimigo para frente, Tristan ataca junto com Oya. Com alto dano e muita perfuracao de armadura, o alvo normalmente cai rapido.",
+        "As novas skills lendarias de Reliquias do Tristan tem muita sinergia com Crow, porque adicionam Silence e fortalecem combos de controle.",
+        "Skin+ has double the stat points of a normal skin, but only activates the doubled stats when the player acquires the Skin+. The skin stone cost remains the same as a normal skin."
+      ]
+    }
+  ]
+}
