@@ -1,6 +1,15 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
+    {
+      link: "/hero-wars-alliance/characters-guide/tristan-en.html",
+      src500: "/hero-wars-alliance/images/hero/tristan/tristan-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/tristan/tristan-400px.webp",
+      alt: "Tristan Legendary Skills Guide for Hero Wars Alliance",
+      title: "Tristan Guide for Hero Wars Alliance",
+      strong: "Guide: Tristan Legendary Skills for Hero Wars Alliance",
+      updated: "Updated: July, 2026."
+    },     
      
     {
       link: "/hero-wars-alliance/characters-guide/crow-en.html",
@@ -8,7 +17,7 @@
       src400: "/hero-wars-alliance/images/hero/crow/crow-400px.webp",
       alt: "Crow Legendary Skills Guide for Hero Wars Alliance",
       title: "Crow Guide for Hero Wars Alliance",
-      strong: "New Hero Guide: Crow Legendary Skills for Hero Wars Alliance",
+      strong: "Guide: Crow Legendary Skills for Hero Wars Alliance",
       updated: "Updated: July, 2026."
     },     
      {
