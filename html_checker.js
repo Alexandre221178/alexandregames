@@ -10,7 +10,8 @@ const VALID_LANGUAGE_CODES = ['en', 'pt', 'de', 'es', 'fr', 'ja'];
 const VALID_HREFLANGS = [...VALID_LANGUAGE_CODES, 'x-default'];
 const HERO_WARS_LANG_URL_EXCEPTIONS = new Set([
     'hero-wars-alliance/events-tips-hwa/dorian-skin-plus-charisma-shop.html',
-    'hero-wars-alliance/events-tips-hwa/electra-skin-plus-charisma-shop.html'
+    'hero-wars-alliance/events-tips-hwa/electra-skin-plus-charisma-shop.html',
+    'hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html'
 ]);
 
 function collectAlternateLinks($) {
