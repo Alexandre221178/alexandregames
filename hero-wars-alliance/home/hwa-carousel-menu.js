@@ -10,6 +10,15 @@
       strong: "Guide: Tristan Legendary Skills for Hero Wars Alliance",
       updated: "Updated: July, 2026."
     },     
+    {
+      link: "/hero-wars-alliance/guide/realm-brown-squares-map-en.html",
+      src500: "/hero-wars-alliance/images/guides/realm-brown-squares-map/realm-brown-squares-map-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/realm-brown-squares-map/realm-brown-squares-map-400px.webp",
+      alt: "Realm Brown Squares Map for Hero Wars Alliance",
+      title: "Realm Brown Squares Map for Hero Wars Alliance",
+      strong: "Updated Realm: Map - Brown Squares for Hero Wars Alliance",
+      updated: "Updated: July, 2026."
+    },      
      
     {
       link: "/hero-wars-alliance/characters-guide/crow-en.html",
@@ -189,7 +198,7 @@
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Resgate seus Presentes Diários para Hero Wars Alliance',
         'Complete Talisman Guide': 'Guia Completo de Talismãs',  'everyday': 'todos os dias', 'How to Play': 'Como Jogar',
         'monthly': 'mensalmente', 'How to Get the': 'Como Obter a', 'Talisman': 'Talismã',
-        'Calendar': 'Calendário', 'priorities': 'prioridades',
+        'Calendar': 'Calendário', 'priorities': 'prioridades', 'Realm': 'Reino', 'Brown Squares': 'Quadrados Marrons', 'Map': 'Mapa',
         'New': 'Nova', 'and': 'e', 'Strategy': 'Estratégia',
         'Adventure Shop Tips': 'Dicas da Loja de Aventura', 'Event': 'Evento ',
         'What to Buy': 'O que Comprar', 'What to do?': 'O que fazer?', 
@@ -215,7 +224,7 @@
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Guía Completa de Reliquia Legendaria de Yasmine para Hero Wars Alliance',
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guía de Byrna: Libera el Espíritu del Oso Sanador en Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Canjea tus Regalos Diarios para Hero Wars Alliance',
-        'Complete Talisman Guide': 'Guía completa de talismanes:', 'priorities': 'prioridades',
+        'Complete Talisman Guide': 'Guía completa de talismanes:', 'priorities': 'prioridades', 'Realm': 'Reino', 'Brown Squares': 'Cuadrados marrones', 'Map': 'Mapa',
         'everyday': 'todos los días', 'How to Play': 'Cómo Jugar', 'Talisman': 'Talismán',
         'monthly': 'mensalmente', 'How to Get the': 'Cómo Obtener la',
         'Calendar': 'Calendario', 'Strategy': 'Estrategia',
@@ -243,7 +252,7 @@
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Guide Complet de Relique Légendaire de Yasmine pour Hero Wars Alliance',
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guide de Byrna: Libérez l\'Esprit de l\'Ours Guérisseur dans Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Échangez vos Cadeaux Quotidiens pour Hero Wars Alliance',
-        'Complete Talisman Guide:': 'Guide complet des talismans:', 'priorities': 'priorités',
+        'Complete Talisman Guide:': 'Guide complet des talismans:', 'priorities': 'priorités', 'Realm': 'Royaume', 'Brown Squares': 'carrés marron', 'Map': 'carte',
         'everyday': 'tous les jours', 'How to Play': 'Comment Jouer', 'Event': 'Événement',
         'monthly': 'mensuellement', 'How to Get the': 'Comment Obtenir le', 'Talisman': 'Talisman',
         'Calendar': 'Calendrier', 'Strategy': 'Stratégie',
@@ -271,7 +280,7 @@
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'Vollständiger Leitfaden zu Legendärer Relikt von Yasmine für Hero Wars Alliance',
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Byrna Leitfaden: Entfessle den Heiler-Bärengeist in Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Löse deine täglichen Geschenke für Hero Wars Alliance ein',
-        'Complete Talisman Guide:': 'Vollständiger Talisman-Leitfaden:', 'priorities': 'Prioritäten',
+        'Complete Talisman Guide:': 'Vollständiger Talisman-Leitfaden:', 'priorities': 'Prioritäten', 'Realm': 'Königreich', 'braune Quadrate': 'carrés marron', 'Map': 'Karte',
         'for': 'für', 'How to Play': 'Wie man spielt', 'Event': 'Event', 'Talisman': 'Talismane',
         'skin': 'Skin', 'How to Get the': 'Wie man das bekommt',
         'everyday': 'täglich',
@@ -328,7 +337,7 @@
         'Complete Talisman Guide:': 'タリスマン完全ガイド:', 'How to Get the': '入手方法', 'Event': 'イベント',
         'Hero Wars: Alliance': 'ヒーローウォーズ アライアンス', 'hero wars alliance': 'ヒーローウォーズ アライアンス',
         'for': '向け', 'skin': 'スキン',  'everyday': '毎日', 'monthly': '毎月', 'Calendar': 'カレンダー',
-        'New': '新しい', 'How to Play': '遊び方', 'and': 'と', 'What to do?': '何をすべきか？', 
+        'New': '新しい', 'How to Play': '遊び方', 'and': 'と', 'What to do?': '何をすべきか？', 'Realm': '王国', 'braune Quadrate': '茶色の四角形n', 'Map': '地図',
         'Adventure Shop Tips': 'アドベンチャーショップのヒント', 'Strategy': '戦略', 'priorities': '優先事項',
         'What to Buy?': '何を買うべき？', 'Which is better': 'どちらがいいですか',
         'Updated': '更新'

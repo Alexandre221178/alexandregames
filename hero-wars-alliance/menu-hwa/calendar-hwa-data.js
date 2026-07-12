@@ -224,7 +224,7 @@ window.CALENDAR_DATA = [
 
       {
  titles: { en: "🦸Tristan Guide", pt: "🦸Guia do Tristan", de: "🦸Tristan Leitfaden", es: "🦸Guía de Tristan", fr: "🦸Guide de Tristan", ja: "🦸トリスタン ガイド" },
- links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Tristan - English.html", de: "", es: "", fr: "", pt: "", ja: "" },
+ links: { en: "../../hero-wars-alliance/characters-guide/tristan-en.html", de: "../../hero-wars-alliance/characters-guide/tristan-de.html", es: "../../hero-wars-alliance/characters-guide/tristan-es.html", fr: "../../hero-wars-alliance/characters-guide/tristan-fr.html", pt: "../../hero-wars-alliance/characters-guide/tristan-pt.html", ja: "../../hero-wars-alliance/characters-guide/tristan-ja.html" },
   noStrip: true
 },
 
@@ -246,7 +246,7 @@ window.CALENDAR_DATA = [
 
       {
  titles: { en: "🦸Tristan Guide", pt: "🦸Guia do Tristan", de: "🦸Tristan Leitfaden", es: "🦸Guía de Tristan", fr: "🦸Guide de Tristan", ja: "🦸トリスタン ガイド" },
- links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Tristan - English.html", de: "", es: "", fr: "", pt: "", ja: "" },
+ links: { en: "../../hero-wars-alliance/characters-guide/tristan-en.html", de: "../../hero-wars-alliance/characters-guide/tristan-de.html", es: "../../hero-wars-alliance/characters-guide/tristan-es.html", fr: "../../hero-wars-alliance/characters-guide/tristan-fr.html", pt: "../../hero-wars-alliance/characters-guide/tristan-pt.html", ja: "../../hero-wars-alliance/characters-guide/tristan-ja.html" },
   noStrip: true
 },
 
@@ -268,7 +268,7 @@ window.CALENDAR_DATA = [
 
       {
  titles: { en: "🦸Tristan Guide", pt: "🦸Guia do Tristan", de: "🦸Tristan Leitfaden", es: "🦸Guía de Tristan", fr: "🦸Guide de Tristan", ja: "🦸トリスタン ガイド" },
- links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Tristan - English.html", de: "", es: "", fr: "", pt: "", ja: "" },
+ links: { en: "../../hero-wars-alliance/characters-guide/tristan-en.html", de: "../../hero-wars-alliance/characters-guide/tristan-de.html", es: "../../hero-wars-alliance/characters-guide/tristan-es.html", fr: "../../hero-wars-alliance/characters-guide/tristan-fr.html", pt: "../../hero-wars-alliance/characters-guide/tristan-pt.html", ja: "../../hero-wars-alliance/characters-guide/tristan-ja.html" },
   noStrip: true
 },
 
@@ -289,7 +289,7 @@ window.CALENDAR_DATA = [
 
       {
  titles: { en: "🦸Tristan Guide", pt: "🦸Guia do Tristan", de: "🦸Tristan Leitfaden", es: "🦸Guía de Tristan", fr: "🦸Guide de Tristan", ja: "🦸トリスタン ガイド" },
- links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Tristan - English.html", de: "", es: "", fr: "", pt: "", ja: "" },
+ links: { en: "../../hero-wars-alliance/characters-guide/tristan-en.html", de: "../../hero-wars-alliance/characters-guide/tristan-de.html", es: "../../hero-wars-alliance/characters-guide/tristan-es.html", fr: "../../hero-wars-alliance/characters-guide/tristan-fr.html", pt: "../../hero-wars-alliance/characters-guide/tristan-pt.html", ja: "../../hero-wars-alliance/characters-guide/tristan-ja.html" },
   noStrip: true
 },
 
@@ -310,7 +310,7 @@ window.CALENDAR_DATA = [
 
       {
  titles: { en: "🦸Tristan Guide", pt: "🦸Guia do Tristan", de: "🦸Tristan Leitfaden", es: "🦸Guía de Tristan", fr: "🦸Guide de Tristan", ja: "🦸トリスタン ガイド" },
- links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Tristan - English.html", de: "", es: "", fr: "", pt: "", ja: "" },
+ links: { en: "../../hero-wars-alliance/characters-guide/tristan-en.html", de: "../../hero-wars-alliance/characters-guide/tristan-de.html", es: "../../hero-wars-alliance/characters-guide/tristan-es.html", fr: "../../hero-wars-alliance/characters-guide/tristan-fr.html", pt: "../../hero-wars-alliance/characters-guide/tristan-pt.html", ja: "../../hero-wars-alliance/characters-guide/tristan-ja.html" },
   noStrip: true
 },
 
@@ -331,7 +331,7 @@ window.CALENDAR_DATA = [
 
       {
  titles: { en: "🦸Tristan Guide", pt: "🦸Guia do Tristan", de: "🦸Tristan Leitfaden", es: "🦸Guía de Tristan", fr: "🦸Guide de Tristan", ja: "🦸トリスタン ガイド" },
- links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Tristan - English.html", de: "", es: "", fr: "", pt: "", ja: "" },
+ links: { en: "../../hero-wars-alliance/characters-guide/tristan-en.html", de: "../../hero-wars-alliance/characters-guide/tristan-de.html", es: "../../hero-wars-alliance/characters-guide/tristan-es.html", fr: "../../hero-wars-alliance/characters-guide/tristan-fr.html", pt: "../../hero-wars-alliance/characters-guide/tristan-pt.html", ja: "../../hero-wars-alliance/characters-guide/tristan-ja.html" },
   noStrip: true
 },
 
@@ -353,7 +353,7 @@ window.CALENDAR_DATA = [
 
       {
  titles: { en: "🦸Tristan Guide", pt: "🦸Guia do Tristan", de: "🦸Tristan Leitfaden", es: "🦸Guía de Tristan", fr: "🦸Guide de Tristan", ja: "🦸トリスタン ガイド" },
- links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Tristan - English.html", de: "", es: "", fr: "", pt: "", ja: "" },
+ links: { en: "../../hero-wars-alliance/characters-guide/tristan-en.html", de: "../../hero-wars-alliance/characters-guide/tristan-de.html", es: "../../hero-wars-alliance/characters-guide/tristan-es.html", fr: "../../hero-wars-alliance/characters-guide/tristan-fr.html", pt: "../../hero-wars-alliance/characters-guide/tristan-pt.html", ja: "../../hero-wars-alliance/characters-guide/tristan-ja.html" },
   noStrip: true
 },
     ]
