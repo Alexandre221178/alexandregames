@@ -52,9 +52,25 @@ window.CALENDAR_DATA = [
     image: "../../imagens/image-shared/crow-300px.webp",
     alt: "Trade Routes Events",
    titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
-   links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" },
+    links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" }, 
     extra: [
+      {
+titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche Straßen", es: "Caminos Prósperos", fr: "Routes Prospères", ja: "豊かな街道" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
  {
+  titles: { en: "Grand Caravan", pt: "Grande Caravana", de: "Große Karawane", es: "Gran Caravana", fr: "Grande Caravane", ja: "大キャラバン" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-grand-caravan-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "Roads Unlocked", pt: "Estradas Desbloqueadas", de: "Freigelegene Straßen", es: "Caminos Desbloqueados", fr: "Routes Déverrouillées", ja: "開放された街道" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+ 
+      {
   titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
   links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
   noStrip: true
@@ -67,8 +83,23 @@ window.CALENDAR_DATA = [
     image: "../../imagens/image-shared/crow-300px.webp",
     alt: "Trade Routes Events",
    titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
-   links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" },
+   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
     extra: [
+      {
+titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche Straßen", es: "Caminos Prósperos", fr: "Routes Prospères", ja: "豊かな街道" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+ {
+  titles: { en: "Grand Caravan", pt: "Grande Caravana", de: "Große Karawane", es: "Gran Caravana", fr: "Grande Caravane", ja: "大キャラバン" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-grand-caravan-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "Roads Unlocked", pt: "Estradas Desbloqueadas", de: "Freigelegene Straßen", es: "Caminos Desbloqueados", fr: "Routes Déverrouillées", ja: "開放された街道" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
  {
   titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
   links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
@@ -84,8 +115,23 @@ window.CALENDAR_DATA = [
     image: "../../imagens/image-shared/crow-300px.webp",
     alt: "Trade Routes Events",
    titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
-   links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" },
+   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
     extra: [
+      {
+titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche Straßen", es: "Caminos Prósperos", fr: "Routes Prospères", ja: "豊かな街道" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+ {
+  titles: { en: "Grand Caravan", pt: "Grande Caravana", de: "Große Karawane", es: "Gran Caravana", fr: "Grande Caravane", ja: "大キャラバン" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-grand-caravan-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "Roads Unlocked", pt: "Estradas Desbloqueadas", de: "Freigelegene Straßen", es: "Caminos Desbloqueados", fr: "Routes Déverrouillées", ja: "開放された街道" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
  {
   titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
   links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
@@ -101,7 +147,7 @@ window.CALENDAR_DATA = [
      image: "../../imagens/image-shared/crow-300px.webp",
     alt: "Trade Routes Events",
    titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
-   links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" },
+   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-pt.html", de: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-de.html", es: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-es.html", fr: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-fr.html", ja: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-ja.html" },
     extra: [
  {
   titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
@@ -120,6 +166,21 @@ window.CALENDAR_DATA = [
         titles: { en: "🟡Summoning Sphere Discount", pt: "🟡Desconto de Esferas de Convocação", de: "🟡Rabatt auf Beschwörungssphären", es: "🟡Descuento de Esferas de Invocación", fr: "🟡éduction sur les Sphères d'Invocation", ja: "🟡召喚スフィア割引" },
         links: { en: "#section13", pt: "#section13", de: "#section13", es: "#section13", fr: "#section13", ja: "#section13" }
       },
+      {
+titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche Straßen", es: "Caminos Prósperos", fr: "Routes Prospères", ja: "豊かな街道" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+ {
+  titles: { en: "Grand Caravan", pt: "Grande Caravana", de: "Große Karawane", es: "Gran Caravana", fr: "Grande Caravane", ja: "大キャラバン" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-grand-caravan-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "Roads Unlocked", pt: "Estradas Desbloqueadas", de: "Freigelegene Straßen", es: "Caminos Desbloqueados", fr: "Routes Déverrouillées", ja: "開放された街道" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
     ]
   },
   {
@@ -128,7 +189,7 @@ window.CALENDAR_DATA = [
      image: "../../imagens/image-shared/crow-300px.webp",
     alt: "Trade Routes Events",
    titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
-   links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" },
+   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-pt.html", de: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-de.html", es: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-es.html", fr: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-fr.html", ja: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-ja.html" },
     extra: [
  {
   titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
@@ -148,6 +209,21 @@ window.CALENDAR_DATA = [
         links: { en: "#section14", pt: "#section14", de: "#section14", es: "#section14", fr: "#section14", ja: "#section14" }
 
       },
+      {
+titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche Straßen", es: "Caminos Prósperos", fr: "Routes Prospères", ja: "豊かな街道" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+ {
+  titles: { en: "Grand Caravan", pt: "Grande Caravana", de: "Große Karawane", es: "Gran Caravana", fr: "Grande Caravane", ja: "大キャラバン" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-grand-caravan-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "Roads Unlocked", pt: "Estradas Desbloqueadas", de: "Freigelegene Straßen", es: "Caminos Desbloqueados", fr: "Routes Déverrouillées", ja: "開放された街道" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
 
     ]
   },
@@ -177,6 +253,21 @@ window.CALENDAR_DATA = [
         links: { en: "#section15", pt: "#section15", de: "#section15", es: "#section15", fr: "#section15", ja: "#section15" }
 
       },
+      {
+titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche Straßen", es: "Caminos Prósperos", fr: "Routes Prospères", ja: "豊かな街道" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+ {
+  titles: { en: "Grand Caravan", pt: "Grande Caravana", de: "Große Karawane", es: "Gran Caravana", fr: "Grande Caravane", ja: "大キャラバン" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-grand-caravan-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "Roads Unlocked", pt: "Estradas Desbloqueadas", de: "Freigelegene Straßen", es: "Caminos Desbloqueados", fr: "Routes Déverrouillées", ja: "開放された街道" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
 
     ]
   },
@@ -207,6 +298,21 @@ window.CALENDAR_DATA = [
         links: { en: "#section16", pt: "#section16", de: "#section16", es: "#section16", fr: "#section16", ja: "#section16" }
 
       },
+      {
+titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche Straßen", es: "Caminos Prósperos", fr: "Routes Prospères", ja: "豊かな街道" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+ {
+  titles: { en: "Grand Caravan", pt: "Grande Caravana", de: "Große Karawane", es: "Gran Caravana", fr: "Grande Caravane", ja: "大キャラバン" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-grand-caravan-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "Roads Unlocked", pt: "Estradas Desbloqueadas", de: "Freigelegene Straßen", es: "Caminos Desbloqueados", fr: "Routes Déverrouillées", ja: "開放された街道" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
 
     ]
   },
