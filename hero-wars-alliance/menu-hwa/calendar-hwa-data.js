@@ -646,9 +646,6 @@ window.CALENDAR_DATA = [
     ]
   },
 
-{ weekday: "Highwaymen Notice", date: "", image: "", alt: "Highwaymen Shop Notice", titles: { en: "🔸 Highwaymen mode will be discontinued, but the Highwaymen Shop remains available until July 6. Spend your coins before it closes!", pt: "🔸 O modo Highwaymen será descontinuado, mas a Loja dos Highwaymen continuará disponível até 6 de julho. Gaste suas moedas antes que ela feche!", es: "🔸 El modo Highwaymen será descontinuado, pero la Tienda de Highwaymen seguirá disponible hasta el 6 de julio. ¡Gasta tus monedas antes de que cierre!", de: "🔸 Der Highwaymen-Modus wird eingestellt, aber der Highwaymen-Shop bleibt bis zum 6. Juli verfügbar. Gib deine Münzen aus, bevor er schließt!", fr: "🔸 Le mode Highwaymen sera supprimé, mais la Boutique Highwaymen restera disponible jusqu’au 6 juillet. Dépensez vos pièces avant sa fermeture !", ja: "🔸 ハイウェイマンモードは廃止されますが、ハイウェイマンショップは7月6日まで利用可能です。閉店前にコインを使い切りましょう！" },
- labelOnly: true },
-
 
  {
     weekday: "WhatsApp Group",
@@ -701,6 +698,15 @@ window.CALENDAR_DATA = [
   links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
   noStrip: true,
   extra: [
+{
+  titles: { en: "---", pt: "---", de: "---", es: "---", fr: "---", ja: "---" },
+  labelOnly: true
+},  
+     {
+ titles: { en: "🦸Tristan Guide", pt: "🦸Guia do Tristan", de: "🦸Tristan Leitfaden", es: "🦸Guía de Tristan", fr: "🦸Guide de Tristan", ja: "🦸トリスタン ガイド" },
+ links: { en: "../../hero-wars-alliance/characters-guide/tristan-en.html", de: "../../hero-wars-alliance/characters-guide/tristan-de.html", es: "../../hero-wars-alliance/characters-guide/tristan-es.html", fr: "../../hero-wars-alliance/characters-guide/tristan-fr.html", pt: "../../hero-wars-alliance/characters-guide/tristan-pt.html", ja: "../../hero-wars-alliance/characters-guide/tristan-ja.html" },
+  noStrip: true
+},
 
    ]
   },
