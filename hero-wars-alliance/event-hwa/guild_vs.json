@@ -1,0 +1,928 @@
+{
+  "event": {
+    "id": "guild-vs",
+    "name": "Guild Versus",
+    "game": "Hero Wars Alliance",
+    "durationDays": 7,
+    "activeDays": 6,
+    "pointsName": "Guild Versus points",
+    "dailyChests": {
+  "reset": "daily",
+  "allChestsAvailableEachActiveDay": true,
+  "chestCount": 9,
+  "maximumDailyPointsRequired": 4500000,
+  "chests": [
+    {
+      "chest": 1,
+      "pointsRequired": 25000,
+      "rewards": [
+        {
+          "item": "Titan Potion",
+          "amount": 250
+        },
+        {
+          "item": "Spark of Power",
+          "amount": 100
+        },
+        {
+          "item": "Big EXP Potion",
+          "amount": 25
+        },
+        {
+          "item": "Fairy Dust",
+          "amount": 100
+        },
+        {
+          "item": "Energy",
+          "amount": 50
+        },
+        {
+          "item": "Gold",
+          "amount": 30000
+        }
+      ]
+    },
+    {
+      "chest": 2,
+      "pointsRequired": 100000,
+      "rewards": [
+        {
+          "item": "Titan Potion",
+          "amount": 500
+        },
+        {
+          "item": "Spark of Power",
+          "amount": 200
+        },
+        {
+          "item": "Big EXP Potion",
+          "amount": 50
+        },
+        {
+          "item": "Fairy Dust",
+          "amount": 200
+        },
+        {
+          "item": "Energy",
+          "amount": 100
+        },
+        {
+          "item": "Gold",
+          "amount": 50000
+        }
+      ]
+    },
+    {
+      "chest": 3,
+      "pointsRequired": 400000,
+      "rewards": [
+        {
+          "item": "Titan Potion",
+          "amount": 1250
+        },
+        {
+          "item": "Artifact Essence Chest",
+          "amount": 4
+        },
+        {
+          "item": "Artifact Scroll Chest",
+          "amount": 4
+        },
+        {
+          "item": "Artifact Metal Chest",
+          "amount": 4
+        },
+        {
+          "item": "Titan Skin Stones",
+          "amount": 300
+        },
+        {
+          "item": "Fairy Dust",
+          "amount": 200
+        },
+        {
+          "item": "Relic Shard",
+          "amount": 1
+        },
+        {
+          "item": "Energy",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "chest": 4,
+      "pointsRequired": 600000,
+      "rewards": [
+        {
+          "item": "Spark of Power",
+          "amount": 200
+        },
+        {
+          "item": "Big EXP Potion",
+          "amount": 50
+        },
+        {
+          "item": "Titan Artifact Chest",
+          "amount": 4
+        },
+        {
+          "item": "Rune Stones",
+          "amount": 250
+        },
+        {
+          "item": "Fairy Dust",
+          "amount": 200
+        },
+        {
+          "item": "Energy",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "chest": 5,
+      "pointsRequired": 1000000,
+      "rewards": [
+        {
+          "item": "Spark of Power",
+          "amount": 250
+        },
+        {
+          "item": "Big EXP Potion",
+          "amount": 50
+        },
+        {
+          "item": "Titan Artifact Chest",
+          "amount": 6
+        },
+        {
+          "item": "Rune Stones",
+          "amount": 350
+        },
+        {
+          "item": "Fairy Dust",
+          "amount": 250
+        },
+        {
+          "item": "Energy",
+          "amount": 300
+        }
+      ]
+    },
+    {
+      "chest": 6,
+      "pointsRequired": 2000000,
+      "rewards": [
+        {
+          "item": "Relic Casket",
+          "amount": 2
+        },
+        {
+          "item": "Artifact Essence Chest",
+          "amount": 6
+        },
+        {
+          "item": "Artifact Scroll Chest",
+          "amount": 6
+        },
+        {
+          "item": "Artifact Metal Chest",
+          "amount": 6
+        },
+        {
+          "item": "Titan Chest",
+          "amount": 8
+        },
+        {
+          "item": "Titan Skin Stones",
+          "amount": 500
+        },
+        {
+          "item": "Relic Shard",
+          "amount": 1
+        },
+        {
+          "item": "Energy",
+          "amount": 400
+        }
+      ]
+    },
+    {
+      "chest": 7,
+      "pointsRequired": 2500000,
+      "rewards": [
+        {
+          "item": "Artifact Essence Chest",
+          "amount": 6
+        },
+        {
+          "item": "Artifact Scroll Chest",
+          "amount": 6
+        },
+        {
+          "item": "Artifact Metal Chest",
+          "amount": 6
+        },
+        {
+          "item": "Titan Artifact Chest",
+          "amount": 4
+        },
+        {
+          "item": "Rune Stones",
+          "amount": 550
+        },
+        {
+          "item": "Titan Skin Stones",
+          "amount": 500
+        },
+        {
+          "item": "Fairy Dust",
+          "amount": 200
+        },
+        {
+          "item": "Energy",
+          "amount": 400
+        }
+      ]
+    },
+    {
+      "chest": 8,
+      "pointsRequired": 3000000,
+      "rewards": [
+        {
+          "item": "Artifact Essence Chest",
+          "amount": 8
+        },
+        {
+          "item": "Artifact Scroll Chest",
+          "amount": 8
+        },
+        {
+          "item": "Artifact Metal Chest",
+          "amount": 8
+        },
+        {
+          "item": "Titan Artifact Chest",
+          "amount": 6
+        },
+        {
+          "item": "Rune Stones",
+          "amount": 750
+        },
+        {
+          "item": "Titan Skin Stones",
+          "amount": 600
+        },
+        {
+          "item": "Fairy Dust",
+          "amount": 300
+        },
+        {
+          "item": "Energy",
+          "amount": 600
+        }
+      ]
+    },
+    {
+      "chest": 9,
+      "pointsRequired": 4500000,
+      "rewards": [
+        {
+          "item": "Relic Casket",
+          "amount": 5
+        },
+        {
+          "item": "Artifact Chest Key",
+          "amount": 10
+        },
+        {
+          "item": "Titan Potion",
+          "amount": 2500
+        },
+        {
+          "item": "Rune Stones",
+          "amount": 3500
+        },
+        {
+          "item": "Titan Skin Stones",
+          "amount": 2500
+        },
+        {
+          "item": "Fairy Dust",
+          "amount": 800
+        },
+        {
+          "item": "Relic Shard",
+          "amount": 2
+        },
+        {
+          "item": "Energy",
+          "amount": 1000
+        }
+      ]
+    }
+  ],
+      "rewardTotalsScope": "all 9 chests per active day",
+      "rewardTotals": [
+    {
+      "item": "Titan Potion",
+      "amount": 4500
+    },
+    {
+      "item": "Spark of Power",
+      "amount": 750
+    },
+    {
+      "item": "Big EXP Potion",
+      "amount": 175
+    },
+    {
+      "item": "Fairy Dust",
+      "amount": 2250
+    },
+    {
+      "item": "Energy",
+      "amount": 3250
+    },
+    {
+      "item": "Gold",
+      "amount": 80000
+    },
+    {
+      "item": "Artifact Essence Chest",
+      "amount": 24
+    },
+    {
+      "item": "Artifact Scroll Chest",
+      "amount": 24
+    },
+    {
+      "item": "Artifact Metal Chest",
+      "amount": 24
+    },
+    {
+      "item": "Titan Skin Stones",
+      "amount": 4400
+    },
+    {
+      "item": "Relic Shard",
+      "amount": 4
+    },
+    {
+      "item": "Titan Artifact Chest",
+      "amount": 20
+    },
+    {
+      "item": "Rune Stones",
+      "amount": 5400
+    },
+    {
+      "item": "Relic Casket",
+      "amount": 7
+    },
+    {
+      "item": "Titan Chest",
+      "amount": 8
+    },
+    {
+      "item": "Artifact Chest Key",
+      "amount": 10
+    }
+  ]
+},
+    "days": [
+      {
+        "day": 1,
+        "weekday": "Monday",
+        "theme": "Titan Power",
+        "available": true,
+        "tasks": [
+          {
+            "id": "increase-titan-power",
+            "action": "Increase Titan Power",
+            "amount": 3,
+            "points": 100
+          },
+          {
+            "id": "defeat-monster-level-1-or-above",
+            "action": "Defeat a Lv. 1 or above Monster",
+            "amount": 1,
+            "points": 2000
+          },
+          {
+            "id": "clear-brigand-camp",
+            "action": "Clear Brigand Camp",
+            "amount": 1,
+            "points": 2500
+          },
+          {
+            "id": "collect-food-on-map",
+            "action": "Collect Food on the map",
+            "amount": 3000,
+            "points": 10
+          },
+          {
+            "id": "collect-wood-on-map",
+            "action": "Collect Wood on the map",
+            "amount": 3000,
+            "points": 10
+          },
+          {
+            "id": "collect-stone-on-map",
+            "action": "Collect Stone on the map",
+            "amount": 600,
+            "points": 10
+          },
+          {
+            "id": "collect-iron-on-map",
+            "action": "Collect Iron on the map",
+            "amount": 150,
+            "points": 10
+          },
+          {
+            "id": "defeat-boss",
+            "action": "Defeat Boss",
+            "amount": 1,
+            "points": 850
+          },
+          {
+            "id": "open-summoning-sphere",
+            "action": "Open a Summoning Sphere",
+            "amount": 1,
+            "points": 1500
+          },
+          {
+            "id": "open-elemental-sphere",
+            "action": "Open an Elemental Sphere",
+            "amount": 1,
+            "points": 1200
+          },
+          {
+            "id": "fight-arena",
+            "action": "Fight in the Arena",
+            "amount": 1,
+            "points": 6000
+          },
+          {
+            "id": "open-tower-chest",
+            "action": "Open a chest in the Tower",
+            "amount": 1,
+            "points": 4000
+          },
+          {
+            "id": "complete-daily-quest",
+            "action": "Complete a Daily Quest",
+            "amount": 1,
+            "points": 2000
+          },
+          {
+            "id": "spend-sparks-of-power",
+            "action": "Spend Sparks of Power",
+            "amount": 15,
+            "points": 30
+          },
+          {
+            "id": "open-heroic-chest",
+            "action": "Open Heroic Chest",
+            "amount": 1,
+            "points": 4000
+          },
+          {
+            "id": "get-vip-points",
+            "action": "Get VIP Points",
+            "amount": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "weekday": "Tuesday",
+        "theme": "Hero Skins",
+        "available": true,
+        "tasks": [
+          {
+            "id": "defeat-monster-level-1-or-above",
+            "action": "Defeat a Lv. 1 or above Monster",
+            "amount": 1,
+            "points": 2000
+          },
+          {
+            "id": "defeat-boss",
+            "action": "Defeat Boss",
+            "amount": 1,
+            "points": 850
+          },
+          {
+            "id": "spend-hero-artifact-fragment",
+            "action": "Spend a Hero artifact fragment",
+            "amount": 1,
+            "points": 1200
+          },
+          {
+            "id": "spend-hero-skin-stones",
+            "action": "Spend Hero Skin Stones",
+            "amount": 15,
+            "points": 700
+          },
+          {
+            "id": "open-artifact-chest",
+            "action": "Open an Artifact Chest",
+            "amount": 1,
+            "points": 750
+          },
+          {
+            "id": "fight-arena",
+            "action": "Fight in the Arena",
+            "amount": 1,
+            "points": 6000
+          },
+          {
+            "id": "start-expedition",
+            "action": "Start an Expedition",
+            "amount": 1,
+            "points": 5000
+          },
+          {
+            "id": "open-tower-chest",
+            "action": "Open a chest in the Tower",
+            "amount": 1,
+            "points": 4000
+          },
+          {
+            "id": "complete-daily-quest",
+            "action": "Complete a Daily Quest",
+            "amount": 1,
+            "points": 2000
+          },
+          {
+            "id": "use-titan-potions",
+            "action": "Use Titan Potions",
+            "amount": 100,
+            "points": 150
+          },
+          {
+            "id": "get-vip-points",
+            "action": "Get VIP Points",
+            "amount": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "weekday": "Wednesday",
+        "theme": "Hero Gear",
+        "available": true,
+        "tasks": [
+          {
+            "id": "increase-power-with-research",
+            "action": "Increase Power with research",
+            "amount": 1,
+            "points": 30
+          },
+          {
+            "id": "use-research-speed-up-minutes",
+            "action": "Use research speed-up",
+            "amount": 1,
+            "unit": "minute",
+            "points": 300
+          },
+          {
+            "id": "clear-brigand-camp",
+            "action": "Clear Brigand Camp",
+            "amount": 1,
+            "points": 2500
+          },
+          {
+            "id": "equip-red-item",
+            "action": "Equip a Red item",
+            "amount": 1,
+            "points": 1250000
+          },
+          {
+            "id": "equip-orange-item",
+            "action": "Equip an Orange item",
+            "amount": 1,
+            "points": 160000
+          },
+          {
+            "id": "equip-violet-item",
+            "action": "Equip a Violet item",
+            "amount": 1,
+            "points": 27000
+          },
+          {
+            "id": "equip-blue-item",
+            "action": "Equip a Blue item",
+            "amount": 1,
+            "points": 5000
+          },
+          {
+            "id": "equip-green-item",
+            "action": "Equip a Green item",
+            "amount": 1,
+            "points": 1000
+          },
+          {
+            "id": "equip-white-item",
+            "action": "Equip a White item",
+            "amount": 1,
+            "points": 400
+          },
+          {
+            "id": "spend-hero-artifact-fragment",
+            "action": "Spend a Hero artifact fragment",
+            "amount": 1,
+            "points": 1200
+          },
+          {
+            "id": "complete-daily-quest",
+            "action": "Complete a Daily Quest",
+            "amount": 1,
+            "points": 2000
+          },
+          {
+            "id": "open-tower-chest",
+            "action": "Open a chest in the Tower",
+            "amount": 1,
+            "points": 4000
+          },
+          {
+            "id": "get-hero-soul-stone",
+            "action": "Get a Hero Soul Stone",
+            "amount": 1,
+            "points": 500
+          },
+          {
+            "id": "spend-fairy-dust",
+            "action": "Spend Fairy Dust",
+            "amount": 25,
+            "points": 50
+          },
+          {
+            "id": "spend-energy",
+            "action": "Spend Energy",
+            "amount": 3,
+            "points": 100
+          },
+          {
+            "id": "get-vip-points",
+            "action": "Get VIP Points",
+            "amount": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "weekday": "Thursday",
+        "theme": "Rune Mastery",
+        "available": true,
+        "tasks": [
+          {
+            "id": "spend-manuals-on-troop-commander-skills",
+            "action": "Spend Manuals to upgrade troop commanders' skills",
+            "amount": 1,
+            "points": 5000
+          },
+          {
+            "id": "defeat-monster-level-1-or-above",
+            "action": "Defeat a Lv. 1 or above Monster",
+            "amount": 1,
+            "points": 2000
+          },
+          {
+            "id": "spend-rune-spheres",
+            "action": "Spend Rune Spheres",
+            "amount": 100,
+            "points": 50000
+          },
+          {
+            "id": "spend-rune-stones",
+            "action": "Spend Rune Stones",
+            "amount": 20,
+            "points": 100
+          },
+          {
+            "id": "increase-hero-power",
+            "action": "Increase Hero Power",
+            "amount": 1,
+            "points": 30
+          },
+          {
+            "id": "fight-grand-arena",
+            "action": "Fight in the Grand Arena",
+            "amount": 1,
+            "points": 6000
+          },
+          {
+            "id": "fight-arena",
+            "action": "Fight in the Arena",
+            "amount": 1,
+            "points": 6000
+          },
+          {
+            "id": "complete-daily-quest",
+            "action": "Complete a Daily Quest",
+            "amount": 1,
+            "points": 2000
+          },
+          {
+            "id": "spend-titan-skin-stones",
+            "action": "Spend Titan Skin Stones",
+            "amount": 15,
+            "points": 100
+          },
+          {
+            "id": "open-heroic-chest",
+            "action": "Open Heroic Chest",
+            "amount": 1,
+            "points": 4000
+          },
+          {
+            "id": "get-vip-points",
+            "action": "Get VIP Points",
+            "amount": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "weekday": "Friday",
+        "theme": "Hero Training",
+        "available": true,
+        "tasks": [
+          {
+            "id": "clear-brigand-camp",
+            "action": "Clear Brigand Camp",
+            "amount": 1,
+            "points": 2500
+          },
+          {
+            "id": "equip-red-item",
+            "action": "Equip a Red item",
+            "amount": 1,
+            "points": 1250000
+          },
+          {
+            "id": "equip-orange-item",
+            "action": "Equip an Orange item",
+            "amount": 1,
+            "points": 160000
+          },
+          {
+            "id": "equip-violet-item",
+            "action": "Equip a Violet item",
+            "amount": 1,
+            "points": 27000
+          },
+          {
+            "id": "equip-blue-item",
+            "action": "Equip a Blue item",
+            "amount": 1,
+            "points": 5000
+          },
+          {
+            "id": "equip-green-item",
+            "action": "Equip a Green item",
+            "amount": 1,
+            "points": 1000
+          },
+          {
+            "id": "equip-white-item",
+            "action": "Equip a White item",
+            "amount": 1,
+            "points": 400
+          },
+          {
+            "id": "spend-hero-skin-stones",
+            "action": "Spend Hero Skin Stones",
+            "amount": 15,
+            "points": 700
+          },
+          {
+            "id": "complete-summoning-circle-summon",
+            "action": "Complete a summon in the Summoning Circle",
+            "amount": 1,
+            "points": 1500
+          },
+          {
+            "id": "complete-daily-quest",
+            "action": "Complete a Daily Quest",
+            "amount": 1,
+            "points": 2000
+          },
+          {
+            "id": "start-expedition",
+            "action": "Start an Expedition",
+            "amount": 1,
+            "points": 5000
+          },
+          {
+            "id": "fight-arena",
+            "action": "Fight in the Arena",
+            "amount": 1,
+            "points": 6000
+          },
+          {
+            "id": "spend-fairy-dust",
+            "action": "Spend Fairy Dust",
+            "amount": 25,
+            "points": 50
+          },
+          {
+            "id": "get-vip-points",
+            "action": "Get VIP Points",
+            "amount": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "weekday": "Saturday",
+        "theme": "Relics Upgrade",
+        "available": true,
+        "tasks": [
+          {
+            "id": "spend-relic-shards",
+            "action": "Spend Relic Shards",
+            "amount": 10,
+            "points": 225000
+          },
+          {
+            "id": "use-research-speed-up-minutes",
+            "action": "Use research speed-up",
+            "amount": 1,
+            "unit": "minute",
+            "points": 300
+          },
+          {
+            "id": "defeat-boss",
+            "action": "Defeat Boss",
+            "amount": 1,
+            "points": 850
+          },
+          {
+            "id": "clear-brigand-camp",
+            "action": "Clear Brigand Camp",
+            "amount": 1,
+            "points": 2500
+          },
+          {
+            "id": "open-tower-chest",
+            "action": "Open a chest in the Tower",
+            "amount": 1,
+            "points": 4000
+          },
+          {
+            "id": "fight-arena",
+            "action": "Fight in the Arena",
+            "amount": 1,
+            "points": 6000
+          },
+          {
+            "id": "complete-daily-quest",
+            "action": "Complete a Daily Quest",
+            "amount": 1,
+            "points": 2000
+          },
+          {
+            "id": "use-titan-potions",
+            "action": "Use Titan Potions",
+            "amount": 100,
+            "points": 150
+          },
+          {
+            "id": "spend-mastery-crystals",
+            "action": "Spend Mastery Crystals",
+            "amount": 15,
+            "points": 200
+          },
+          {
+            "id": "spend-chaos-core",
+            "action": "Spend a Chaos Core",
+            "amount": 1,
+            "points": 3000
+          },
+          {
+            "id": "get-vip-points",
+            "action": "Get VIP Points",
+            "amount": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "day": 7,
+        "weekday": "Sunday",
+        "theme": null,
+        "available": false,
+        "tasks": []
+      }
+    ]
+  }
+}
