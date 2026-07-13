@@ -4,6 +4,9 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+   // ── July 13, 2026 ──────────────────────────────
+   { date:'2026-07-13', type:'daily', mission:'2-2', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
    // ── July 12, 2026 ──────────────────────────────
    { date:'2026-07-12', type:'special', mission:'2-14', note:'until|2026-08-03T01:00:00Z',
     rewards:['adventure-coin x1000', 'energy x20', 'adventure-energy x50'] },
