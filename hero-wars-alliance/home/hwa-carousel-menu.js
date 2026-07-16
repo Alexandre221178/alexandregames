@@ -1,10 +1,19 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
+    {
+      link: "/hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html",
+      src500: "/hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-500px.webp",
+      src400: "/hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-400px.webp",
+      alt: "Balance of Power Event Group Guide",
+      title: "Balance of Power Event Group Guide",
+      strong: "Balance of Power Event Group Guide | Hero Wars Alliance",
+      updated: "Updated: July, 2026."
+    },     
      {
       link: "/hero-wars-alliance/events-tips-hwa/sanctum-of-balance-shop-en.html",
       src500: "/hero-wars-alliance/images/events-tips-hwa/sanctum-of-balance-shop/sanctum-of-balance-shop-500px.webp",
-      src400: "/hero-wars-alliance/images/events-tips-hwa/sanctum-of-balance-shop/sanctum-of-balance-shop-500px.webp",
+      src400: "/hero-wars-alliance/images/events-tips-hwa/sanctum-of-balance-shop/sanctum-of-balance-shop-400px.webp",
       alt: "Sanctum of Balance Shop Guide for Hero Wars Alliance",
       title: "Sanctum of Balance Shop Guide for Hero Wars Alliance",
       strong: "Sanctum of Balance Shop Guide for Hero Wars Alliance",
@@ -192,7 +201,8 @@
       map: {
       strong: "Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance",
         'Sanctum of Balance Shop Guide for Hero Wars Alliance': 'Guia da Loja do Sanctum of Balance para Hero Wars Alliance',
-      'Astral Reflections': 'Reflexões Astrais',
+      'Balance of Power Event Group Guide': 'Guia do Evento "Equilíbrio de Poder"',
+        'Astral Reflections': 'Reflexões Astrais', 
         'Legendary Skills Guide for Hero Wars Alliance': 'Guia de Habilidades Lendárias para Hero Wars Alliance',
         'Complete Talisman Guide 2026 for Hero Wars Alliance': 'Guia Completo de Talismãs 2026 para Hero Wars Alliance',
         'Realm Tier List Guide for Hero Wars Alliance': 'Guia da Tier List do Reino para Hero Wars Alliance',
@@ -222,7 +232,7 @@
       map: {
         'Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance': 'Guía del Evento Lian Astral Reflections Skin+ - ¿Qué Comprar? (Inglés) para Hero Wars Alliance',
           'Sanctum of Balance Shop Guide for Hero Wars Alliance': 'Guía de la Loja del Sanctum of Balance para Hero Wars Alliance',
- 
+      'Balance of Power Event Group Guide': 'Guía del evento «Equilibrio de poder» para grupos',
         'Legendary Skills Guide for Hero Wars Alliance': 'Guía de Habilidades Legendarias para Hero Wars Alliance',
         'Complete Talisman Guide 2026 for Hero Wars Alliance': 'Guía Completa de Talismáns 2026 para Hero Wars Alliance',
         'Realm Tier List Guide for Hero Wars Alliance': 'Guía de la Lista de Niveles del Reino para Hero Wars Alliance',
@@ -251,7 +261,7 @@
       updatedPrefix: 'Mis à jour:',
       map: {
         'Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance': 'Guide de l’événement Skin+ Reflets Astraux de Lian - Que acheter ? (Anglais) pour Hero Wars Alliance',
-        
+        'Balance of Power Event Group Guide': 'Guide de l’événement « Équilibre des pouvoirs »',
         'Sanctum of Balance Shop Guide for Hero Wars Alliance': 'Guide de la Loja du Sanctum of Balance pour Hero Wars Alliance',
         'Legendary Skills Guide for Hero Wars Alliance': 'Guide des Compétences Légendaires pour Hero Wars Alliance',
         'Complete Talisman Guide 2026 for Hero Wars Alliance': 'Guide Complet des Talismans 2026 pour Hero Wars Alliance',
@@ -283,7 +293,7 @@
       map: {
         'Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance': 'Leitfaden zum Event „Lian Astral Reflections Skin+“ - Was kaufen? (Englisch) für Hero Wars Alliance',
         'Sanctum of Balance Shop Guide for Hero Wars Alliance': 'Leitfaden zur Loja do Sanctum of Balance für Hero Wars Alliance',
- 
+ 'Balance of Power Event Group Guide': 'Leitfaden zum Event „Machtgleichgewicht“',
         'Legendary Skills Guide for Hero Wars Alliance': 'Leitfaden zu Legendären Fähigkeiten für Hero Wars Alliance',
         'Complete Talisman Guide 2026 for Hero Wars Alliance': 'Kompletter Talisman-Leitfaden 2026 für Hero Wars Alliance',
         'Realm Tier List Guide for Hero Wars Alliance': 'Realm-Tier-Liste Leitfaden für Hero Wars Alliance',
@@ -314,7 +324,7 @@
       map: {
        'Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance': 'リアン 星界の反射スキン+イベントガイド - 何を買うべき？（英語）Hero Wars Alliance向け',
           'Sanctum of Balance Shop Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのサンクタム・オブ・バランスショップガイド',
- 
+ 'Balance of Power Event Group Guide': '「力の均衡」イベント・グループ・ガイド',
        'Legendary Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスの伝説スキルガイド',
         'Complete Talisman Guide 2026 for Hero Wars Alliance': 'ヒーローウォーズ アライアンス完全タリスマンガイド2026',
         'Lian Legendary Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのリアン伝説スキルガイド',

@@ -147,7 +147,7 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
      image: "../../imagens/image-shared/crow-300px.webp",
     alt: "Trade Routes Events",
    titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
-   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-pt.html", de: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-de.html", es: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-es.html", fr: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-fr.html", ja: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-ja.html" },
+   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
     extra: [
  {
   titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
@@ -189,7 +189,7 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
      image: "../../imagens/image-shared/crow-300px.webp",
     alt: "Trade Routes Events",
    titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
-   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-pt.html", de: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-de.html", es: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-es.html", fr: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-fr.html", ja: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-ja.html" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
     extra: [
  {
   titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
@@ -233,7 +233,7 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
    image: "../../imagens/image-shared/crow-300px.webp",
     alt: "Trade Routes Events",
    titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
-   links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" },
+  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
     extra: [
  {
   titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
@@ -277,7 +277,7 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
    image: "../../imagens/image-shared/crow-300px.webp",
     alt: "Trade Routes Events",
    titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
-   links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" },
+ links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
     extra: [
  {
   titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
@@ -322,7 +322,25 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
    image: "../../imagens/image-shared/tristan-300px.webp",
     alt: "Balance of Power Event",
    titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
-    extra: [
+    links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+
+   extra: [
+{
+ titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
+ links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
+  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},   
+
       {
         titles: { en: "📿Tristan - Relic Event", de: "📿Tristan - Relikt-Ereignis", es: "📿Tristan - Evento de Reliquia", fr: "📿Tristan - Événement des Reliques", pt: "📿Tristan - Evento de Relíquia", ja: "📿トリストン - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
@@ -343,8 +361,23 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
    image: "../../imagens/image-shared/tristan-300px.webp",
    alt: "Balance of Power Event",
    titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
-   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
     extra: [
+      {
+ titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
+ links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
+  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},   
       {
         titles: { en: "📿Tristan - Relic Event", de: "📿Tristan - Relikt-Ereignis", es: "📿Tristan - Evento de Reliquia", fr: "📿Tristan - Événement des Reliques", pt: "📿Tristan - Evento de Relíquia", ja: "📿トリストン - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
@@ -365,8 +398,23 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
    image: "../../imagens/image-shared/tristan-300px.webp",
     alt: "Balance of Power Event",
    titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
-   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
+ links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
     extra: [
+      {
+ titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
+ links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
+  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},   
       {
         titles: { en: "📿Tristan - Relic Event", de: "📿Tristan - Relikt-Ereignis", es: "📿Tristan - Evento de Reliquia", fr: "📿Tristan - Événement des Reliques", pt: "📿Tristan - Evento de Relíquia", ja: "📿トリストン - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
@@ -386,8 +434,23 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
    image: "../../imagens/image-shared/tristan-300px.webp",
    alt: "Balance of Power Event",
    titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
-   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
+  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
     extra: [
+      {
+ titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
+ links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
+  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},   
       {
         titles: { en: "📿Tristan - Relic Event", de: "📿Tristan - Relikt-Ereignis", es: "📿Tristan - Evento de Reliquia", fr: "📿Tristan - Événement des Reliques", pt: "📿Tristan - Evento de Relíquia", ja: "📿トリストン - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
@@ -407,8 +470,23 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
    image: "../../imagens/image-shared/tristan-300px.webp",
     alt: "Balance of Power Event",
      titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },
-   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
     extra: [
+      {
+ titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
+ links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
+  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},   
       {
         titles: { en: "📿Tristan - Relic Event", de: "📿Tristan - Relikt-Ereignis", es: "📿Tristan - Evento de Reliquia", fr: "📿Tristan - Événement des Reliques", pt: "📿Tristan - Evento de Relíquia", ja: "📿トリストン - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
@@ -428,8 +506,23 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
    image: "../../imagens/image-shared/tristan-300px.webp",
     alt: "Balance of Power Event",
    titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
-   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
+  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
     extra: [
+      {
+ titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
+ links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
+  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},   
       {
         titles: { en: "📿Tristan - Relic Event", de: "📿Tristan - Relikt-Ereignis", es: "📿Tristan - Evento de Reliquia", fr: "📿Tristan - Événement des Reliques", pt: "📿Tristan - Evento de Relíquia", ja: "📿トリストン - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
@@ -450,8 +543,23 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
    image: "../../imagens/image-shared/tristan-300px.webp",
     alt: "Balance of Power Event",
      titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },
-   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
     extra: [
+      {
+ titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
+ links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
+  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},   
       {
         titles: { en: "📿Tristan - Relic Event", de: "📿Tristan - Relikt-Ereignis", es: "📿Tristan - Evento de Reliquia", fr: "📿Tristan - Événement des Reliques", pt: "📿Tristan - Evento de Relíquia", ja: "📿トリストン - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
