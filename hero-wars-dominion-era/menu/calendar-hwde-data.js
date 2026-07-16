@@ -690,12 +690,17 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
-      
+    
           
       {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
+
+      {
+  titles: { en: "Somna - Pre-Order", pt: "Somna - Pré-venda", de: "Somna - Vorbestellung", es: "Somna - Reserva", fr: "Somna - Précommande", ja: "ソムナ - 事前予約" },
+  labelOnly: true,
+},
       
       {
         titles: { en: "🌠Astral Seer - Sale 15%", pt: "🌠Astral Seer - Desconto 15%", de: "🌠Astral Seer - 15% Rabatt", es: "🌠Astral Seer - 15% de Descuento", fr: "🌠Astral Seer - 15% de Réduction", ja: "🌠Astral Seer - 15%オフ" },
@@ -724,6 +729,7 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     noStrip: true,
     extra: [
       
+      
       {
         titles: { en: "🏆Tournament of Titan Power", pt: "🏆Torneio de Poder dos Titãs", de: "🏆Titanenkraft-Turnier", es: "🏆Torneo de Poder de Titanes", fr: "🏆Tournoi de Puissance des Titans", ja: "🏆タイタンパワートーナメント" },
     links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -742,6 +748,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🐾Pet Summoning - Sale 20%", pt: "🐾Invocação de Pets - Desconto 20%", de: "🐾Tierbeschwörung - 20% Rabatt", es: "🐾Invocación de Mascotas - 20% de Descuento", fr: "🐾Invocation de Compagnons - 20% de Réduction", ja: "🐾ペット召喚 - 20%オフ" },
         labelOnly: true,
       },
+      {
+  titles: { en: "Somna - Pre-Order", pt: "Somna - Pré-venda", de: "Somna - Vorbestellung", es: "Somna - Reserva", fr: "Somna - Précommande", ja: "ソムナ - 事前予約" },
+  labelOnly: true,
+},
       
     ]
   },
@@ -781,6 +791,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🐾Pet Summoning - Sale 20%", pt: "🐾Invocação de Pets - Desconto 20%", de: "🐾Tierbeschwörung - 20% Rabatt", es: "🐾Invocación de Mascotas - 20% de Descuento", fr: "🐾Invocation de Compagnons - 20% de Réduction", ja: "🐾ペット召喚 - 20%オフ" },
         labelOnly: true,
       },
+      {
+  titles: { en: "Somna - Pre-Order", pt: "Somna - Pré-venda", de: "Somna - Vorbestellung", es: "Somna - Reserva", fr: "Somna - Précommande", ja: "ソムナ - 事前予約" },
+  labelOnly: true,
+},
       
     ]
   },
@@ -812,6 +826,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },
+      {
+  titles: { en: "Somna - Pre-Order", pt: "Somna - Pré-venda", de: "Somna - Vorbestellung", es: "Somna - Reserva", fr: "Somna - Précommande", ja: "ソムナ - 事前予約" },
+  labelOnly: true,
+},
      
     ]
   },
@@ -842,7 +860,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },
-      
+      {
+  titles: { en: "Somna - Pre-Order", pt: "Somna - Pré-venda", de: "Somna - Vorbestellung", es: "Somna - Reserva", fr: "Somna - Précommande", ja: "ソムナ - 事前予約" },
+  labelOnly: true,
+},
     ]
   },
 
@@ -870,6 +891,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🚫 Cosmic Battle: Elimination Stage", pt: "🚫 Batalha Cósmica: Estágio de Eliminação", de: "🚫 Kosmischer Kampf: Eliminations-Phase", es: "🚫 Batalla Cósmica: Etapa de Eliminación", fr: "🚫 Combat Cosmique : Phase d'Élimination", ja: "🚫 コズミックバトル：削除ステージ" },
         labelOnly: true,
       },
+      {
+  titles: { en: "Somna - Pre-Order", pt: "Somna - Pré-venda", de: "Somna - Vorbestellung", es: "Somna - Reserva", fr: "Somna - Précommande", ja: "ソムナ - 事前予約" },
+  labelOnly: true,
+},
       
     ]
   },
@@ -914,7 +939,7 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
   {
     weekday: "Friday",
     date: "July, 24",
-     image: "../../hero-wars-dominion-era/images/events/titan-cosmic-battle/titan-cosmic-battle-250px.webp",
+     image: "../../imagens/image-shared/somna-300px.webp",
     alt: "Titan Brawls",
     titles: { en: "🌌 Cosmic Battle: Titans Edition", pt: "🌌 Batalha Cósmica: Edição Titãs", de: "🌌 Kosmischer Kampf: Titanen-Edition", es: "🌌 Batalla Cósmica: Edición Titanes", fr: "🌌 Combat Cosmique : Édition Titans", ja: "🌌 コズミックバトル：タイタンズエディション" },
     links: { en: "../../hero-wars-dominion-era/events/titan-cosmic-battle-en.html", pt: "../../hero-wars-dominion-era/events/titan-cosmic-battle-pt.html", de: "../../hero-wars-dominion-era/events/titan-cosmic-battle-de.html", es: "../../hero-wars-dominion-era/events/titan-cosmic-battle-es.html", fr: "../../hero-wars-dominion-era/events/titan-cosmic-battle-fr.html", ja: "../../hero-wars-dominion-era/events/titan-cosmic-battle-ja.html" },
@@ -940,6 +965,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
       },
+      {
+  titles: { en: "Somna Event", pt: "Evento Somna", de: "Somna-Event", es: "Evento Somna", fr: "Événement Somna", ja: "ソムナイベント" },
+  labelOnly: true,
+},
       {
   titles: {
     en: "👗 Electra's Oblivion Skin: Full Unlock",
