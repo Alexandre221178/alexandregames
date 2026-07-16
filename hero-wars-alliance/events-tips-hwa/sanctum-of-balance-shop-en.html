@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta property="article:published_time" content="2026-07-14T23:03-03:00" />
-    <meta property="article:modified_time" content="2026-07-14T23:03-03:00" />
+    <meta property="article:modified_time" content="2026-07-15T23:15:00-03:00" />
     <link rel="stylesheet" href="../../css/estilo13z.css">
 
     <title>Sanctum of Balance Shop Guide - Hero Wars Alliance</title>
@@ -158,6 +158,28 @@
     .content-wrapper p { font-size: 22px; margin-left: 13px; }
     .skin-table { font-size: 18px; }
   }
+
+  .event-nav { margin: 28px 12px; }
+  .event-nav-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  .event-card { display:block; min-width:0; text-align:center; text-decoration:none; background:#fff; color:inherit; border:1px solid #d8d8d8; border-radius:10px; overflow:hidden; padding-bottom:12px; box-shadow:0 2px 7px rgba(0,0,0,.08); }
+  .event-card.current { border:3px solid #7b4bb7; background:#f4ecff; }
+  .event-card.shop-card { border-color:#d18b00; background:#fff8e1; }
+  .event-card.shop-card.current { border-color:#7b4bb7; background:#f4ecff; }
+  .event-card img { width:100%; height:auto; display:block; margin-bottom:10px; }
+  .event-card-kicker { display:block; margin-top:4px; font-size:14px; color:#7a5600; }
+  .event-nav-hint { font-family:Arial,sans-serif; font-size:15px; color:#555; margin:0 0 8px; }
+  .shop-cycle-note { margin:22px 12px; padding:18px 20px; border-radius:10px; background:#f2edff; border-left:6px solid #6f42c1; }
+  .shop-cycle-note h2 { margin-top:0; }
+  @media (max-width:767px) {
+    .event-nav-grid { display:flex; grid-template-columns:none; gap:16px; overflow-x:auto; scroll-snap-type:x mandatory; padding:4px 2px 14px; -webkit-overflow-scrolling:touch; overscroll-behavior-inline:contain; }
+    .event-nav-grid .event-card { flex:0 0 min(82vw,280px); scroll-snap-align:start; }
+    .event-nav-grid::-webkit-scrollbar { height:8px; }
+    .event-nav-grid::-webkit-scrollbar-thumb { background:#b8b8b8; border-radius:8px; }
+  }
+  @media (min-width:768px) {
+    .event-nav-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:14px; overflow:visible; padding:0; }
+    .event-nav-hint { display:none; }
+  }
 </style>
 
 <div class="ad-fold-container">
@@ -196,10 +218,39 @@
     <figcaption>Sanctum of Balance Shop in Hero Wars Alliance.</figcaption>
 </figure>
 
+<section class="event-nav" aria-label="Balance of Power event guides">
+  <h2>Balance of Power Guides</h2>
+  <p class="event-nav-hint" aria-hidden="true">Swipe to view all guides →</p>
+  <div class="event-nav-grid">
+    <a class="event-card" href="../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html">
+      <picture><source media="(min-width:768px)" srcset="../../hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-400px.webp"><img src="../../hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-500px.webp" alt="Balance of Power overview" width="500" height="281" loading="lazy"></picture>
+      <strong>Event Group Overview</strong>
+    </a>
+    <a class="event-card" href="../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html">
+      <picture><source media="(min-width:768px)" srcset="../../hero-wars-alliance/images/events/balance-of-power/defiant-edge-400px.webp"><img src="../../hero-wars-alliance/images/events/balance-of-power/defiant-edge-500px.webp" alt="Defiant Edge event" width="500" height="281" loading="lazy"></picture>
+      <strong>Defiant Edge</strong>
+    </a>
+    <a class="event-card" href="../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html">
+      <picture><source media="(min-width:768px)" srcset="../../hero-wars-alliance/images/events/balance-of-power/unbroken-bond-400px.webp"><img src="../../hero-wars-alliance/images/events/balance-of-power/unbroken-bond-500px.webp" alt="Unbroken Bond event" width="500" height="281" loading="lazy"></picture>
+      <strong>Unbroken Bond</strong>
+    </a>
+    <a class="event-card" href="../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html">
+      <picture><source media="(min-width:768px)" srcset="../../hero-wars-alliance/images/events/balance-of-power/gear-and-glory-400px.webp"><img src="../../hero-wars-alliance/images/events/balance-of-power/gear-and-glory-500px.webp" alt="Gear and Glory event" width="500" height="281" loading="lazy"></picture>
+      <strong>Gear &amp; Glory</strong>
+    </a>
+    <a class="event-card shop-card current" aria-current="page" href="../../hero-wars-alliance/events-tips-hwa/sanctum-of-balance-shop-en.html">
+      <picture><source media="(min-width:768px)" srcset="../../hero-wars-alliance/images/events-tips-hwa/sanctum-of-balance-shop/sanctum-of-balance-shop-400px.webp"><img src="../../hero-wars-alliance/images/events-tips-hwa/sanctum-of-balance-shop/sanctum-of-balance-shop-500px.webp" alt="Sanctum of Balance Shop" width="500" height="281" loading="lazy"></picture>
+      <strong>Sanctum Shop</strong><span class="event-card-kicker">Spend Balance Sigils</span>
+    </a>
+  </div>
+</section>
+
+<div class="shop-cycle-note"><h2>The Shop Lineup Rotates</h2><p>The featured Hero, Relic Shards, Soul Stones, Artifacts, skins, and other premium rewards can change each time Balance of Power returns. The priorities below describe the supplied season; always compare them with the live Sanctum of Balance Shop and your current teams.</p></div>
+
 <section>
   <h2>How to Earn Balance Sigils</h2>
   <p>You spend in this shop with <strong>Balance Sigils</strong>, the event coins earned across the Balance of Power event group. The good part is that you are not limited to one source. You can earn a strong amount by completing missions in the event group and also through the brawl-style event, where attacks and defenses can both give coins.</p>
-  <p>This is why I always say: prepare before the event begins. Energy, emeralds, Summoning Spheres, Skin Stones, Rune Stones, Elemental Spheres, Tower Chests, Arena battles, Titanite, VIP Points, Soul Stones, and boss defeats can all matter depending on the event mission. If you arrive empty, the shop feels expensive. If you arrive prepared, the shop becomes an opportunity.</p>
+  <p>This is why I always say: prepare before the event begins. Energy, Emeralds, Summoning Circle summons, Skin Stones, Rune Stones, Elemental Spheres, Tower Chests, Arena and Grand Arena battles, Titanite, VIP Points, and Realm boss defeats can all matter depending on the event mission. If you arrive empty, the shop feels expensive. If you arrive prepared, the shop becomes an opportunity.</p>
 </section>
 
 <section>
@@ -254,18 +305,18 @@
 </section>
 
 <section>
-  <h2>Balance of Power Event Group</h2>
+  <h2><a href="../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html">Balance of Power Event Group</a></h2>
   <p>The <strong>Balance of Power</strong> event group focuses on upgrading Honor Heroes while giving valuable resources for your entire roster. The shop is only one side of the event; the real power comes from completing missions across all three connected events and turning those missions into more Balance Sigils.</p>
 
-  <h3>Defiant Edge</h3>
-  <p><strong>Rewards:</strong> Event Coins, Orm Soul Stones, Alecto Soul Stones, Artifact resources, Recurve Bow red item fragments, and other valuable rewards.</p>
-  <p><strong>Complete quests by:</strong> logging in, spending Energy, using Summoning Spheres and Skin Stones, fighting in the Arena, earning VIP Points, and defeating Bosses as the Rally Leader.</p>
+  <h3><a href="../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html">Defiant Edge</a></h3>
+  <p><strong>Rewards:</strong> Event Coins, Orm Soul Stones, Alecto Soul Stones, Artifact resources, Fragment of Red Equipment 1 (Random), and other valuable rewards.</p>
+  <p><strong>Complete quests by:</strong> logging in, spending Energy, using Summoning Circle summons and Skin Stones, fighting in the Arena, earning VIP Points, and defeating Bosses as the Rally Leader.</p>
 
-  <h3>Unbroken Bond</h3>
-  <p><strong>Rewards:</strong> Miu Soul Stones, Kendle Soul Stones, Alecto Soul Stones, Orm Soul Stones, Recurve Bow red item fragments, Artifact resources, and more.</p>
-  <p><strong>Complete quests by:</strong> logging in, earning VIP Points, spending Emeralds, Rune Stones, and Elemental Spheres, opening Tower Chests, earning Titanite, and collecting Hero Soul Stones.</p>
+  <h3><a href="../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html">Unbroken Bond</a></h3>
+  <p><strong>Rewards:</strong> Miu Soul Stones, Kendle Soul Stones, Alecto Soul Stones, Orm Soul Stones, Fragment of Red Equipment 1 (Random), Artifact resources, and more.</p>
+  <p><strong>Complete quests by:</strong> logging in, earning VIP Points, spending Emeralds, Rune Stones, and Elemental Spheres, opening Tower Chests, earning Titanite, and fighting in the Grand Arena.</p>
 
-  <h3>Gear & Glory</h3>
+  <h3><a href="../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html">Gear & Glory</a></h3>
   <p><strong>Rewards:</strong> Tristan Soul Stones, Tristan's Artifact, his unique red item, Solar Skin+, Dark Depths Skin, Talisman of Blessing, and additional rewards.</p>
   <p><strong>Complete quests by:</strong> upgrading Tristan's Level, Rank, Gift of the Elements, Glyphs, Artifact Level, and Artifact Star Rank, while also completing quests from Defiant Edge and Unbroken Bond.</p>
 </section>
