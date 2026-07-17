@@ -698,6 +698,17 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
       },
 
       {
+titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es: "📋 Misiones del Evento Somna", fr: "📋 Missions de l'Événement Somna", pt: "📋 Missões do Evento Somna", ja: "📋 ソムナイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+
+      {
   titles: { en: "Somna - Pre-Order", pt: "Somna - Pré-venda", de: "Somna - Vorbestellung", es: "Somna - Reserva", fr: "Somna - Précommande", ja: "ソムナ - 事前予約" },
   labelOnly: true,
 },
@@ -748,6 +759,16 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🐾Pet Summoning - Sale 20%", pt: "🐾Invocação de Pets - Desconto 20%", de: "🐾Tierbeschwörung - 20% Rabatt", es: "🐾Invocación de Mascotas - 20% de Descuento", fr: "🐾Invocation de Compagnons - 20% de Réduction", ja: "🐾ペット召喚 - 20%オフ" },
         labelOnly: true,
       },
+       {
+titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es: "📋 Misiones del Evento Somna", fr: "📋 Missions de l'Événement Somna", pt: "📋 Missões do Evento Somna", ja: "📋 ソムナイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
       {
   titles: { en: "Somna - Pre-Order", pt: "Somna - Pré-venda", de: "Somna - Vorbestellung", es: "Somna - Reserva", fr: "Somna - Précommande", ja: "ソムナ - 事前予約" },
   labelOnly: true,
@@ -783,6 +804,16 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
+       {
+titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es: "📋 Misiones del Evento Somna", fr: "📋 Missions de l'Événement Somna", pt: "📋 Missões do Evento Somna", ja: "📋 ソムナイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
       {
         titles: { en: "🌠Astral Seer - Sale 15%", pt: "🌠Astral Seer - Desconto 15%", de: "🌠Astral Seer - 15% Rabatt", es: "🌠Astral Seer - 15% de Descuento", fr: "🌠Astral Seer - 15% de Réduction", ja: "🌠Astral Seer - 15%オフ" },
         labelOnly: true,
@@ -826,6 +857,16 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },
+       {
+titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es: "📋 Misiones del Evento Somna", fr: "📋 Missions de l'Événement Somna", pt: "📋 Missões do Evento Somna", ja: "📋 ソムナイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
       {
   titles: { en: "Somna - Pre-Order", pt: "Somna - Pré-venda", de: "Somna - Vorbestellung", es: "Somna - Reserva", fr: "Somna - Précommande", ja: "ソムナ - 事前予約" },
   labelOnly: true,
@@ -860,6 +901,16 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },
+       {
+titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es: "📋 Misiones del Evento Somna", fr: "📋 Missions de l'Événement Somna", pt: "📋 Missões do Evento Somna", ja: "📋 ソムナイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
       {
   titles: { en: "Somna - Pre-Order", pt: "Somna - Pré-venda", de: "Somna - Vorbestellung", es: "Somna - Reserva", fr: "Somna - Précommande", ja: "ソムナ - 事前予約" },
   labelOnly: true,
@@ -887,6 +938,16 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },
+       {
+titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es: "📋 Misiones del Evento Somna", fr: "📋 Missions de l'Événement Somna", pt: "📋 Missões do Evento Somna", ja: "📋 ソムナイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
       {
         titles: { en: "🚫 Cosmic Battle: Elimination Stage", pt: "🚫 Batalha Cósmica: Estágio de Eliminação", de: "🚫 Kosmischer Kampf: Eliminations-Phase", es: "🚫 Batalla Cósmica: Etapa de Eliminación", fr: "🚫 Combat Cosmique : Phase d'Élimination", ja: "🚫 コズミックバトル：削除ステージ" },
         labelOnly: true,
@@ -923,6 +984,16 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
       },
+       {
+titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es: "📋 Misiones del Evento Somna", fr: "📋 Missions de l'Événement Somna", pt: "📋 Missões do Evento Somna", ja: "📋 ソムナイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
       {
         titles: { en: "📦Artifact Chest - Sale 30%", pt: "📦Baú de Artefatos - Desconto 30%", de: "📦Artefakttruhe - 30% Rabatt", es: "📦Cofre de Artefactos - 30% de Descuento", fr: "📦Coffre d'Artéfacts - 30% de Réduction", ja: "📦アーティファクトチェスト - 30%オフ" },
         labelOnly: true,
@@ -965,6 +1036,16 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
       },
+       {
+titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es: "📋 Misiones del Evento Somna", fr: "📋 Missions de l'Événement Somna", pt: "📋 Missões do Evento Somna", ja: "📋 ソムナイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
       {
   titles: { en: "Somna Event", pt: "Evento Somna", de: "Somna-Event", es: "Evento Somna", fr: "Événement Somna", ja: "ソムナイベント" },
   labelOnly: true,
@@ -1012,6 +1093,16 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
   links: { en: "../../hero-wars-dominion-era/events/titan-cosmic-battle-best-teams-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true,
 },  
+ {
+titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es: "📋 Misiones del Evento Somna", fr: "📋 Missions de l'Événement Somna", pt: "📋 Missões do Evento Somna", ja: "📋 ソムナイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
     
       {
         titles: { en: "💎Emerald City", pt: "💎Cidade Esmeralda", de: "💎Smaragdstadt", es: "💎Ciudad Esmeralda", fr: "💎Ville d'Émeraude", ja: "💎エメラルドシティ" },
@@ -1044,7 +1135,16 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
-     
+      {
+titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es: "📋 Misiones del Evento Somna", fr: "📋 Missions de l'Événement Somna", pt: "📋 Missões do Evento Somna", ja: "📋 ソムナイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
 
       {
         titles: { en: "💎Emerald City", pt: "💎Cidade Esmeralda", de: "💎Smaragdstadt", es: "💎Ciudad Esmeralda", fr: "💎Ville d'Émeraude", ja: "💎エメラルドシティ" },
@@ -1086,6 +1186,16 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
       },
+       {
+titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es: "📋 Misiones del Evento Somna", fr: "📋 Missions de l'Événement Somna", pt: "📋 Missões do Evento Somna", ja: "📋 ソムナイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
        
     ]
   },
@@ -1114,7 +1224,18 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
       {
         titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
         links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" }
-      }
+      },
+       {
+titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es: "📋 Misiones del Evento Somna", fr: "📋 Missions de l'Événement Somna", pt: "📋 Missões do Evento Somna", ja: "📋 ソムナイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+      
     ]
   },
 
@@ -1138,6 +1259,17 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
       },
+ {
+titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es: "📋 Misiones del Evento Somna", fr: "📋 Missions de l'Événement Somna", pt: "📋 Missões do Evento Somna", ja: "📋 ソムナイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+
     ]
   },
 
@@ -1167,6 +1299,17 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
       },
+ {
+titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es: "📋 Misiones del Evento Somna", fr: "📋 Missions de l'Événement Somna", pt: "📋 Missões do Evento Somna", ja: "📋 ソムナイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+
     ]
   },
 
