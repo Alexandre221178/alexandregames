@@ -83,7 +83,7 @@
 <header>          
 <div class="text-title">  
     <!-- tem que ser <= 70 cararcteres--> 
-    <h1>Somna Event Missions: Nightmare Abode Guide<b> for Hero Wars: Dominion Era (Web/FB)</b></h1>         
+    <h1>Somna Event Missions: Nightmare Abode Guide for Hero Wars: Dominion Era (Web/FB)</h1>
 </div>
 
 <div id="google_translate_element"></div>
@@ -200,6 +200,29 @@
     .content-wrapper p {
       font-size: 22px;
       margin-left: 13px
+    }
+  }
+  @media (max-width: 767px) {
+    html, body { max-width: 100%; overflow-x: hidden; }
+    .container, #second-half, #second-half > section, .content-wrapper, main, main > div {
+      width: 100%;
+      min-width: 0;
+      max-width: 100%;
+    }
+    #second-half figure, #second-half picture, #second-half img {
+      max-width: 100%;
+      height: auto;
+    }
+    #second-half table {
+      display: block !important;
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+      overflow-x: auto !important;
+      -webkit-overflow-scrolling: touch;
+    }
+    #second-half p, #second-half li, #second-half h1, #second-half h2, #second-half h3 {
+      overflow-wrap: anywhere;
     }
   }
 </style>     

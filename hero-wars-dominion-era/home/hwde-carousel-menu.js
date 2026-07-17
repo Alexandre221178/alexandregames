@@ -2,6 +2,24 @@
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
     {
+      link: "/hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html",
+      src500: "/hero-wars-dominion-era/images/events-special/somna-event/somna-unleashing-power-500px.webp",
+      src400: "/hero-wars-dominion-era/images/events-special/somna-event/somna-unleashing-power-400px.webp",
+      alt: "Somna - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era",
+      title: "Somna - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era.",
+      strong: "Guide: Somna Event (Missions) - Hero Wars: Dominion Era",
+      updated: "Updated: July, 2026."
+    },
+    {
+      link: "/hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html",
+      src500: "/hero-wars-dominion-era/images/events-special/somna-event/somna-event-500px.webp",
+      src400: "/hero-wars-dominion-era/images/events-special/somna-event/somna-event-400px.webp",
+      alt: "Somna - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era",
+      title: "Somna - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era.",
+      strong: "Guide F2P: Somna Heroes Awakening Event - Hero Wars: Dominion Era",
+      updated: "Updated: July, 2026."
+    },
+    {
       link: "../../hero-wars-dominion-era/guide/mysterious-island-en.html",
       src500: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-500px.webp",
       src400: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-400px.webp",
