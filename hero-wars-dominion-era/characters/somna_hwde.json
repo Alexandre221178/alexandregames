@@ -1,0 +1,154 @@
+{
+  "id": "somna",
+  "name": "Somna",
+  "gender": "female",
+  "role": ["control"],
+  "main_role": "Control",
+  "position": "51",
+  "main_stat": "Agility",
+  "how_to_get_soul_stones": "Unobtainable (temporary)",
+  "pet_patronage": "Fenris, Oliver, Axel",
+  "sinergy": "",
+  "counter": "Sebastian",
+  "basic_attack_formula": "(100% physical attack)",
+  "basic_attack": 92033,
+  "basic_attack_cooldown": "4.5s",
+  "stats": {
+    "intelligence": 2965,
+    "agility": 16881,
+    "strength": 2700,
+    "health": 446752,
+    "physical_attack": 92033,
+    "magic_attack": 17463,
+    "armor": 37149,
+    "magic_defense": 37594,
+    "dodge": 0,
+    "crit_hit_chance": 0,
+    "accuracy": 16881,
+    "crit_resistance": 16881,
+    "vampirism": 0,
+    "magic_penetration": 0,
+    "armor_penetration": 17900,
+    "power": 173612
+  },
+  "skills": [
+    {
+      "id": 1,
+      "variant": "base",
+      "level": 130,
+      "name": "Lullaby Veil",
+      "type": ["ultimate", "white"],
+      "animation_delay_seconds": 0,
+      "damage_formula": "Damage threshold: 107,633 (100% physical attack + 120 * level)",
+      "scales_with": ["Physical Attack"],
+      "description": "Puts enemy Heroes to sleep for 7s. Sleeping opponents cannot act but can wake up prematurely if they receive 107,633 damage. Sleep chance is lowered if the target's level is above 130."
+    },
+    {
+      "id": 2,
+      "variant": "base",
+      "level": 130,
+      "name": "Dream Armor",
+      "type": ["periodic", "green"],
+      "animation_delay_seconds": 0,
+      "damage_formula": "Armor increase: 34,110 (30% physical attack + 50 * level). Attack decrease: 26,908 (25% physical attack + 30 * level)",
+      "scales_with": ["Physical Attack"],
+      "cooldown_seconds": 16,
+      "initial_cooldown_seconds": 10,
+      "description": "Blesses the ally in the front for 10s. The blessing increases their Armor by 34,110 and adds the Sleepiness effect to their basic attacks. Each Sleepiness effect on an opponent decreases their Physical and Magic Attack by 26,908. The effect lasts for 10s and can be applied up to 3 times. Sleepiness chance is lowered if the target's level is above 130."
+    },
+    {
+      "id": 3,
+      "variant": "base",
+      "level": 130,
+      "name": "Counting Sheep",
+      "type": ["periodic", "blue"],
+      "animation_delay_seconds": 0,
+      "damage_formula": "Damage: 31,510 (30% physical attack + 30 * level)",
+      "scales_with": ["Physical Attack"],
+      "cooldown_seconds": 13,
+      "initial_cooldown_seconds": 5,
+      "description": "Curses an area in the center of the enemy team. Opponents in the area receive 31,510 damage, and 1 Sleepiness effect is applied to them. If an affected enemy already has 3 Sleepiness effects, they turn into a sheep for 5s. They cannot attack and try to run for their lives. Sleepiness chance is lowered if the target's level is above 130."
+    },
+    {
+      "id": 4,
+      "variant": "base",
+      "level": 130,
+      "name": "Domain of Tranquility",
+      "type": ["passive", "violet"],
+      "animation_delay_seconds": 0,
+      "damage_formula": "",
+      "scales_with": [],
+      "cooldown_seconds": 1,
+      "description": "Passive skill. When an opponent deals damage to Somna or adjacent allies, 1 Sleepiness effect is applied to the enemy who dealt the damage. If the damage was dealt by an ultimate ability, 2 Sleepiness effects are applied. This effect can trigger no more often than once every 1s. Sleepiness chance is lowered if the target's level is above 130."
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "A Thousand and One Lullaby",
+      "stats": {
+        "magic_defense": 50190,
+        "power": 12547
+      },
+      "costs": {
+        "absolute_artifact_essence": 1635,
+        "flawless_artifact_essence": 1199,
+        "chaos_core": 121,
+        "a_thousand_and_one_lullaby_fragment": 225,
+        "artifact_coin": 90000
+      }
+    },
+    {
+      "name": "Defender's Covenant",
+      "stats": {
+        "magic_defense": 12546,
+        "armor": 12546,
+        "power": 12546
+      },
+      "costs": {
+        "absolute_artifact_scroll": 1635,
+        "flawless_artifact_scroll": 1199,
+        "chaos_core": 121,
+        "defenders_covenant_fragment": 225,
+        "artifact_coin": 90000
+      }
+    },
+    {
+      "name": "Ring of Agility",
+      "stats": {
+        "agility": 6249,
+        "power": 17184
+      },
+      "costs": {
+        "absolute_artifact_metal": 1635,
+        "flawless_artifact_metal": 1199,
+        "chaos_core": 121,
+        "ring_of_agility_fragment": 225,
+        "artifact_coin": 90000
+      }
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": {
+        "agility": 1365,
+        "power": 3753
+      },
+      "costs": {
+        "agility_skin_stone": 30825
+      }
+    },
+    {
+      "name": "Solar Skin",
+      "stats": {
+        "physical_attack": 7095,
+        "power": 5321
+      },
+      "costs": {
+        "agility_skin_stone": 55410
+      },
+      "note": "Exclusive availability on July 24; unlocks on December 1"
+    }
+  ],
+  "presentation": "A crowd controller who puts all enemies to sleep, allowing the team to focus on one or two opponents. Sleep can only be blocked by Sebastian, not Khorus."
+}
