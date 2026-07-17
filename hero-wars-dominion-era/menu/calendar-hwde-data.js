@@ -1042,14 +1042,11 @@ titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es:
   noStrip: true
 },  
 {
-titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
+titles: { en: "⭐ Somna Event ", de: "⭐ Somna-Event", es: "⭐ Evento Somna (F2P)", fr: "⭐ Événement Somna (F2P)", pt: "⭐ Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
   links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
 },  
-      {
-  titles: { en: "Somna Event", pt: "Evento Somna", de: "Somna-Event", es: "Evento Somna", fr: "Événement Somna", ja: "ソムナイベント" },
-  labelOnly: true,
-},
+     
       {
   titles: {
     en: "👗 Electra's Oblivion Skin: Full Unlock",

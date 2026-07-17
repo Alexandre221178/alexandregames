@@ -48,10 +48,10 @@ div.calendar #calendar-container > .event-container {
   font-size: 14px !important;
   position: relative !important;
   padding: 10px !important;
-  background-color: #9051ad !important;
+  background-color: #515aad !important;
   border-radius: 5px !important;
   text-align: center !important;
-  height: 300px !important;/* altura da caixa de eventos até maio era 250px */
+  height: 350px !important;/* altura da caixa de eventos PC até maio era 250px */
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -187,7 +187,7 @@ div.calendar .event-label:hover {
   
   div.calendar > .event-container,
   div.calendar #calendar-container > .event-container {
-    height: 276px !important; /* Aumenta a altura da caixa para mobile antes 227px*/
+    height: 353px !important; /* Aumenta a altura da caixa para mobile antes 227px*/
   }
   
   div.calendar .event a {
