@@ -14,48 +14,19 @@ window.CALENDAR_MONTH_HEADER = {
 window.CALENDAR_DATA = [
  
   // ===================== July 2026 =====================
-{
-    weekday: "WhatsApp & Discord",
+ {
+    weekday: "",
     date: "",
-    image: "",
-    alt: "Alexandre Games WhatsApp Group",
-  titles: {
-   en: "🎁 Join our English WhatsApp group for Hero Wars Dominion Era tips and giveaways!",
-  pt: "🎁 Entre no nosso grupo WhatsApp em Português para dicas de Hero Wars Dominion Era e sorteios!",
-  es: "🎁 ¡Únete a nuestro grupo de WhatsApp en inglés para consejos de Hero Wars Dominion Era y sorteos!",
-  de: "🎁 Trete unserer englischen WhatsApp-Gruppe für Hero Wars Dominion Era-Tipps und Gewinnspiele bei!",
-  fr: "🎁 Rejoignez notre groupe WhatsApp en anglais pour des conseils et des giveaways sur Hero Wars Dominion Era !",
-  ja: "🎁 英語のWhatsAppグループに参加して、ヒーローウォーズドミニオン時代のヒントやギブアウェイをゲット！"
-},
-  links: { en: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY", de: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY", es: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY", fr: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY", pt: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY", ja: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY" },
-  noStrip: true,
-  extra: [
-    {// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
+   image: "../../imagens/image-shared/somna-300px.webp",
+    alt: "🦸Somna Guide",
+    titles: { en: "🦸Somna Guide", pt: "🦸Guia da Somna", de: "🦸Somna-Leitfaden", es: "🦸Guía de Somna", fr: "🦸Guide de Somna", ja: "🦸ソムナガイド" },
+    links: { en: "../../hero-wars-dominion-era/characters/somna-en.html", pt: "../../hero-wars-dominion-era/characters/somna-pt.html", de: "../../hero-wars-dominion-era/characters/somna-de.html", es: "../../hero-wars-dominion-era/characters/somna-es.html", fr: "../../hero-wars-dominion-era/characters/somna-fr.html", ja: "../../hero-wars-dominion-era/characters/somna-ja.html" },
+    noStrip: true,
+    extra: [
+     
+    ]
+  },
 
-{
-  titles: {
-    en: "💬Join Alexandre Games Discord",
-    pt: "💬Entre no Discord Alexandre Games",
-    de: "💬Tritt dem Alexandre Games Discord bei",
-    es: "💬Únete al Discord de Alexandre Games",
-    fr: "💬Rejoignez le Discord Alexandre Games",
-    ja: "💬Alexandre Games Discordに参加しよう"
-  },
-  links: {
-    en: "https://discord.gg/37BRnhBv6r",
-    pt: "https://discord.gg/37BRnhBv6r",
-    de: "https://discord.gg/37BRnhBv6r",
-    es: "https://discord.gg/37BRnhBv6r",
-    fr: "https://discord.gg/37BRnhBv6r",
-    ja: "https://discord.gg/37BRnhBv6r"
-  },
-  noStrip: true
-},
-  ]
-  },
 // June 29 - Monday
   {
     weekday: "Monday",
@@ -769,6 +740,12 @@ titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P
   links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
 },  
+{
+ titles: { en: "🦸Somna Guide", pt: "🦸Guia da Somna", de: "🦸Somna-Leitfaden", es: "🦸Guía de Somna", fr: "🦸Guide de Somna", ja: "🦸ソムナガイド" },
+    links: { en: "../../hero-wars-dominion-era/characters/somna-en.html", pt: "../../hero-wars-dominion-era/characters/somna-pt.html", de: "../../hero-wars-dominion-era/characters/somna-de.html", es: "../../hero-wars-dominion-era/characters/somna-es.html", fr: "../../hero-wars-dominion-era/characters/somna-fr.html", ja: "../../hero-wars-dominion-era/characters/somna-ja.html" },
+
+  noStrip: true
+},  
       {
   titles: { en: "Somna - Pre-Order", pt: "Somna - Pré-venda", de: "Somna - Vorbestellung", es: "Somna - Reserva", fr: "Somna - Précommande", ja: "ソムナ - 事前予約" },
   labelOnly: true,
@@ -812,6 +789,12 @@ titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es:
 {
 titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
   links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+ titles: { en: "🦸Somna Guide", pt: "🦸Guia da Somna", de: "🦸Somna-Leitfaden", es: "🦸Guía de Somna", fr: "🦸Guide de Somna", ja: "🦸ソムナガイド" },
+    links: { en: "../../hero-wars-dominion-era/characters/somna-en.html", pt: "../../hero-wars-dominion-era/characters/somna-pt.html", de: "../../hero-wars-dominion-era/characters/somna-de.html", es: "../../hero-wars-dominion-era/characters/somna-es.html", fr: "../../hero-wars-dominion-era/characters/somna-fr.html", ja: "../../hero-wars-dominion-era/characters/somna-ja.html" },
+
   noStrip: true
 },  
       {
@@ -867,6 +850,13 @@ titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P
   links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
 },  
+{
+ titles: { en: "🦸Somna Guide", pt: "🦸Guia da Somna", de: "🦸Somna-Leitfaden", es: "🦸Guía de Somna", fr: "🦸Guide de Somna", ja: "🦸ソムナガイド" },
+    links: { en: "../../hero-wars-dominion-era/characters/somna-en.html", pt: "../../hero-wars-dominion-era/characters/somna-pt.html", de: "../../hero-wars-dominion-era/characters/somna-de.html", es: "../../hero-wars-dominion-era/characters/somna-es.html", fr: "../../hero-wars-dominion-era/characters/somna-fr.html", ja: "../../hero-wars-dominion-era/characters/somna-ja.html" },
+
+  noStrip: true
+},  
+
       {
   titles: { en: "Somna - Pre-Order", pt: "Somna - Pré-venda", de: "Somna - Vorbestellung", es: "Somna - Reserva", fr: "Somna - Précommande", ja: "ソムナ - 事前予約" },
   labelOnly: true,
@@ -911,6 +901,12 @@ titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P
   links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
 },  
+{
+ titles: { en: "🦸Somna Guide", pt: "🦸Guia da Somna", de: "🦸Somna-Leitfaden", es: "🦸Guía de Somna", fr: "🦸Guide de Somna", ja: "🦸ソムナガイド" },
+    links: { en: "../../hero-wars-dominion-era/characters/somna-en.html", pt: "../../hero-wars-dominion-era/characters/somna-pt.html", de: "../../hero-wars-dominion-era/characters/somna-de.html", es: "../../hero-wars-dominion-era/characters/somna-es.html", fr: "../../hero-wars-dominion-era/characters/somna-fr.html", ja: "../../hero-wars-dominion-era/characters/somna-ja.html" },
+
+  noStrip: true
+},  
       {
   titles: { en: "Somna - Pre-Order", pt: "Somna - Pré-venda", de: "Somna - Vorbestellung", es: "Somna - Reserva", fr: "Somna - Précommande", ja: "ソムナ - 事前予約" },
   labelOnly: true,
@@ -946,6 +942,12 @@ titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es:
 {
 titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
   links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+ titles: { en: "🦸Somna Guide", pt: "🦸Guia da Somna", de: "🦸Somna-Leitfaden", es: "🦸Guía de Somna", fr: "🦸Guide de Somna", ja: "🦸ソムナガイド" },
+    links: { en: "../../hero-wars-dominion-era/characters/somna-en.html", pt: "../../hero-wars-dominion-era/characters/somna-pt.html", de: "../../hero-wars-dominion-era/characters/somna-de.html", es: "../../hero-wars-dominion-era/characters/somna-es.html", fr: "../../hero-wars-dominion-era/characters/somna-fr.html", ja: "../../hero-wars-dominion-era/characters/somna-ja.html" },
+
   noStrip: true
 },  
       {
@@ -992,6 +994,12 @@ titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es:
 {
 titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
   links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+ titles: { en: "🦸Somna Guide", pt: "🦸Guia da Somna", de: "🦸Somna-Leitfaden", es: "🦸Guía de Somna", fr: "🦸Guide de Somna", ja: "🦸ソムナガイド" },
+    links: { en: "../../hero-wars-dominion-era/characters/somna-en.html", pt: "../../hero-wars-dominion-era/characters/somna-pt.html", de: "../../hero-wars-dominion-era/characters/somna-de.html", es: "../../hero-wars-dominion-era/characters/somna-es.html", fr: "../../hero-wars-dominion-era/characters/somna-fr.html", ja: "../../hero-wars-dominion-era/characters/somna-ja.html" },
+
   noStrip: true
 },  
       {
@@ -1153,6 +1161,12 @@ titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P
         links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
       },
       {
+ titles: { en: "🦸Somna Guide", pt: "🦸Guia da Somna", de: "🦸Somna-Leitfaden", es: "🦸Guía de Somna", fr: "🦸Guide de Somna", ja: "🦸ソムナガイド" },
+    links: { en: "../../hero-wars-dominion-era/characters/somna-en.html", pt: "../../hero-wars-dominion-era/characters/somna-pt.html", de: "../../hero-wars-dominion-era/characters/somna-de.html", es: "../../hero-wars-dominion-era/characters/somna-es.html", fr: "../../hero-wars-dominion-era/characters/somna-fr.html", ja: "../../hero-wars-dominion-era/characters/somna-ja.html" },
+
+  noStrip: true
+},  
+      {
         titles: { en: "📦Artifact Chest - Sale 30%", pt: "📦Baú de Artefatos - Desconto 30%", de: "📦Artefakttruhe - 30% Rabatt", es: "📦Cofre de Artefactos - 30% de Descuento", fr: "📦Coffre d'Artéfacts - 30% de Réduction", ja: "📦アーティファクトチェスト - 30%オフ" },
         labelOnly: true,
       },
@@ -1191,6 +1205,12 @@ titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es:
 {
 titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
   links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+ titles: { en: "🦸Somna Guide", pt: "🦸Guia da Somna", de: "🦸Somna-Leitfaden", es: "🦸Guía de Somna", fr: "🦸Guide de Somna", ja: "🦸ソムナガイド" },
+    links: { en: "../../hero-wars-dominion-era/characters/somna-en.html", pt: "../../hero-wars-dominion-era/characters/somna-pt.html", de: "../../hero-wars-dominion-era/characters/somna-de.html", es: "../../hero-wars-dominion-era/characters/somna-es.html", fr: "../../hero-wars-dominion-era/characters/somna-fr.html", ja: "../../hero-wars-dominion-era/characters/somna-ja.html" },
+
   noStrip: true
 },  
        
@@ -1232,6 +1252,12 @@ titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P
   links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
 },  
+{
+ titles: { en: "🦸Somna Guide", pt: "🦸Guia da Somna", de: "🦸Somna-Leitfaden", es: "🦸Guía de Somna", fr: "🦸Guide de Somna", ja: "🦸ソムナガイド" },
+    links: { en: "../../hero-wars-dominion-era/characters/somna-en.html", pt: "../../hero-wars-dominion-era/characters/somna-pt.html", de: "../../hero-wars-dominion-era/characters/somna-de.html", es: "../../hero-wars-dominion-era/characters/somna-es.html", fr: "../../hero-wars-dominion-era/characters/somna-fr.html", ja: "../../hero-wars-dominion-era/characters/somna-ja.html" },
+
+  noStrip: true
+},  
       
     ]
   },
@@ -1266,7 +1292,12 @@ titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P
   links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
 },  
+{
+ titles: { en: "🦸Somna Guide", pt: "🦸Guia da Somna", de: "🦸Somna-Leitfaden", es: "🦸Guía de Somna", fr: "🦸Guide de Somna", ja: "🦸ソムナガイド" },
+    links: { en: "../../hero-wars-dominion-era/characters/somna-en.html", pt: "../../hero-wars-dominion-era/characters/somna-pt.html", de: "../../hero-wars-dominion-era/characters/somna-de.html", es: "../../hero-wars-dominion-era/characters/somna-es.html", fr: "../../hero-wars-dominion-era/characters/somna-fr.html", ja: "../../hero-wars-dominion-era/characters/somna-ja.html" },
 
+  noStrip: true
+},  
     ]
   },
 
@@ -1304,6 +1335,12 @@ titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es:
 {
 titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
   links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+{
+ titles: { en: "🦸Somna Guide", pt: "🦸Guia da Somna", de: "🦸Somna-Leitfaden", es: "🦸Guía de Somna", fr: "🦸Guide de Somna", ja: "🦸ソムナガイド" },
+    links: { en: "../../hero-wars-dominion-era/characters/somna-en.html", pt: "../../hero-wars-dominion-era/characters/somna-pt.html", de: "../../hero-wars-dominion-era/characters/somna-de.html", es: "../../hero-wars-dominion-era/characters/somna-es.html", fr: "../../hero-wars-dominion-era/characters/somna-fr.html", ja: "../../hero-wars-dominion-era/characters/somna-ja.html" },
+
   noStrip: true
 },  
 
