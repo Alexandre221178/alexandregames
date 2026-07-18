@@ -150,5 +150,67 @@
       "note": "Exclusive availability on July 24; unlocks on December 1"
     }
   ],
+  "glyphs": [
+    {
+      "name": "Physical attack Glyph",
+      "stats": {
+        "physical_attack": 4340,
+        "power": 3255
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    },
+    {
+      "name": "Armor penetration Glyph",
+      "stats": {
+        "armor_penetration": 6500,
+        "power": 3250
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    },
+    {
+      "name": "Health Glyph",
+      "stats": {
+        "health": 62200,
+        "power": 3110
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    },
+    {
+      "name": "Magic defense Glyph",
+      "stats": {
+        "magic_defense": 6500,
+        "power": 3250
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    },
+    {
+      "name": "Agility Glyph",
+      "stats": {
+        "agility": 1135,
+        "power": 3121
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    }
+  ],
   "presentation": "A crowd controller who puts all enemies to sleep, allowing the team to focus on one or two opponents. Sleep can only be blocked by Sebastian, not Khorus."
 }
