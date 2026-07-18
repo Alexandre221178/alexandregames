@@ -2,6 +2,15 @@
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
     {
+      link: "../../hero-wars-dominion-era/characters/somna-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/somna/somna-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/somna/somna-400px.webp",
+      alt: "Somna for Hero Wars: Dominion Era",
+      title: "Somna for Hero Wars: Dominion Era.",
+      strong: "Guide: Somna - Hero Wars: Dominion Era",
+      updated: "Updated: July, 2026."
+    },
+    {
       link: "/hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html",
       src500: "/hero-wars-dominion-era/images/events-special/somna-event/somna-unleashing-power-500px.webp",
       src400: "/hero-wars-dominion-era/images/events-special/somna-event/somna-unleashing-power-400px.webp",
