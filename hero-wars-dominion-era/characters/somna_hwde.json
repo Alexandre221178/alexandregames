@@ -198,6 +198,7 @@
         "gold": 4190900,
         "emeralds": 43750
       }
+      
     },
     {
       "name": "Agility Glyph",
@@ -209,8 +210,40 @@
         "great_enchantment_rune": 438,
         "gold": 4190900,
         "emeralds": 43750
-      }
+      },
+      "note": "prioridade de evolucao do alexandre para glifos, atk fisico, agilidade, vida, defesa magica, penetração de armadura por ultimo pq a prioridade da somna nao é causar dano."
     }
   ],
-  "presentation": "A crowd controller who puts all enemies to sleep, allowing the team to focus on one or two opponents. Sleep can only be blocked by Sebastian, not Khorus."
+  "best_teams": [
+    {
+      "rank": 1,
+      "main_pet": "Axel",
+      "heroes": [
+        { "hero": "Somna", "pet": "Fenris" },
+        { "hero": "Adam", "pet": "Cain" },
+        { "hero": "Fluffy", "pet": "Axel" },
+        { "hero": "Byrna", "pet": "Merlin" },
+        { "hero": "Julius", "pet": "Oliver" }
+      ]
+    },
+    {
+      "rank": 2,
+      "main_pet": "Axel",
+      "heroes": [
+        { "hero": "Somna", "pet": "Oliver" },
+        { "hero": "Fluffy", "pet": "Khorus" },
+        { "hero": "Cascade", "pet": "Merlin" },
+        { "hero": "Byrna", "pet": "Biscuit" },
+        { "hero": "Krista", "pet": "Axel" }
+      ]
+    }
+  ],
+  "testing_notes": [
+    "Nos testes, Somna apresentou boa sinergia tanto com times fisicos quanto com times magicos.",
+    "Adam se beneficia da sinergia com Somna, pois fica mais forte conforme a luta se prolonga.",
+    "Somna se encaixou muito bem como suporte em times meta de magos com Fluffy, Cascade e Krista."
+  ],
+  "presentation": "A crowd controller who puts all enemies to sleep, allowing the team to focus on one or two opponents. Sleep can only be blocked by Sebastian, not Khorus.",
+ "Somna pet": "Compativeis com Somn sao Fenris, Oliver, Axel"
+
 }

@@ -71,7 +71,6 @@
 
     "update-somna-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide somna",
     "update-tempus-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide tempus",
-  "update-tempus-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide tempus",
     "update-tristan-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide tristan",
     "update-yasmine-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide yasmine",
     
@@ -107,6 +106,7 @@
     "update-mushy-and-shroom-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js mushy-and-shroom",
   
     "update-orion-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js orion",
+    "update-somna-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js somna",
     "update-ziri-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js ziri",
     "update-yasmine-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js yasmine",
 
