@@ -4,6 +4,9 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+   // ── July 19, 2026 ──────────────────────────────
+   { date:'2026-07-19', type:'daily', mission:'2-3', note:'daily|80',
+rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
    // ── Hub Code gft valid data true ──────────────────────────────
 { date:'2026-07-18', type:'hub', code:'TWILIGHTSTATS', note:'until|2026-08-03T01:00:00Z',
       rewards:['energy x20', 'agility-skin-stone x500'] },
