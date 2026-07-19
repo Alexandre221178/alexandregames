@@ -583,12 +583,14 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
     extra: [
  {
        titles: { en: "🕳️Titan Rift", pt: "🕳️Fenda dos Titãs", de: "🕳️Titanenkluft", es: "🕳️Grieta de Titanes", fr: "🕳️Faille des Titans", ja: "🕳️タイタンリフト" },
-       links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
+       links: { en: "../../hero-wars-alliance/event-hwa/titan-rift-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },      
       },
       {
        titles: { en: "👑Legacy of Power", pt: "👑Legado do Poder", de: "👑Erbe des Macht", es: "👑 Legado del Poder", fr: "👑 Héritage du Pouvoir", ja: "👑 パワーの遺産" },
        links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },
+      { titles: { en: "👗Tristan New Skin+: Twilight", pt: "👗Tristan Nova Skin+: Crepúsculo", de: "👗Tristan Neue Skin+: Dämmerung", es: "👗Tristan Nueva Skin+: Crepúsculo", fr: "👗Tristan Nouvelle Skin+ : Crépuscule", ja: "👗トリスタン 新スキン+：トワイライト" },
+  labelOnly: true },
 
     ]
   },
@@ -602,12 +604,14 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
     extra: [
  {
        titles: { en: "🕳️Titan Rift", pt: "🕳️Fenda dos Titãs", de: "🕳️Titanenkluft", es: "🕳️Grieta de Titanes", fr: "🕳️Faille des Titans", ja: "🕳️タイタンリフト" },
-       links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
+       links: { en: "../../hero-wars-alliance/event-hwa/titan-rift-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },      
       },
       {
        titles: { en: "👑Legacy of Power", pt: "👑Legado do Poder", de: "👑Erbe des Macht", es: "👑 Legado del Poder", fr: "👑 Héritage du Pouvoir", ja: "👑 パワーの遺産" },
        links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },
+      { titles: { en: "👗Tristan New Skin+: Twilight", pt: "👗Tristan Nova Skin+: Crepúsculo", de: "👗Tristan Neue Skin+: Dämmerung", es: "👗Tristan Nueva Skin+: Crepúsculo", fr: "👗Tristan Nouvelle Skin+ : Crépuscule", ja: "👗トリスタン 新スキン+：トワイライト" },
+  labelOnly: true },
 
     ]
   },
@@ -622,12 +626,14 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
     extra: [
  {
        titles: { en: "🕳️Titan Rift", pt: "🕳️Fenda dos Titãs", de: "🕳️Titanenkluft", es: "🕳️Grieta de Titanes", fr: "🕳️Faille des Titans", ja: "🕳️タイタンリフト" },
-       links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
+       links: { en: "../../hero-wars-alliance/event-hwa/titan-rift-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },      
       },
       {
        titles: { en: "👑Legacy of Power", pt: "👑Legado do Poder", de: "👑Erbe des Macht", es: "👑 Legado del Poder", fr: "👑 Héritage du Pouvoir", ja: "👑 パワーの遺産" },
        links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
       },
+      { titles: { en: "👗Tristan New Skin+: Twilight", pt: "👗Tristan Nova Skin+: Crepúsculo", de: "👗Tristan Neue Skin+: Dämmerung", es: "👗Tristan Nueva Skin+: Crepúsculo", fr: "👗Tristan Nouvelle Skin+ : Crépuscule", ja: "👗トリスタン 新スキン+：トワイライト" },
+  labelOnly: true },
 
     ]
   },
