@@ -241,6 +241,15 @@
           "stat": "Crushing",
           "bonus": 5920,
           "level": 60
+        },
+        {
+          "name": "Twilight Skin+",
+          "stat": "Magic Reflection",
+          "bonus": 5920,
+          "level": 60,
+          "is_skin_plus": true,
+          "note": "Skin+ has double the stat points of a normal skin, but only activates the doubled stats when the player acquires the Skin+. The skin stone cost remains the same as a normal skin."
+       
         }
       ],
       "artifacts": [
