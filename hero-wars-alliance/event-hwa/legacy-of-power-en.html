@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"><!-- -->
+  <meta charset="UTF-8"><!---->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta property="article:published_time" content="2026-07-20T21:14:10-03:00">
-  <meta property="article:modified_time" content="2026-07-20T21:14:10-03:00">
+  <meta property="article:modified_time" content="2026-07-21T18:51:10-03:00">
   <link rel="stylesheet" href="../../css/estilo13z.css">
 
   <title>Legacy of Power Event Guide and Best Days - Hero Wars Alliance</title>
@@ -72,7 +72,7 @@
       line-height: 1.55;
       color: #111;
     }
-    .event-summary, .day-card, .alexandre-tips, .event-note {
+    .event-summary, .day-card, .alexandre-tips, .event-note, .advanced-strategy {
       border-radius: 8px;
       margin: 18px 10px;
       padding: 16px;
@@ -85,6 +85,8 @@
     .wednesday { border-left: 5px solid #d77916; }
     .alexandre-tips { background: #fff7df; border-left: 5px solid #f0aa00; }
     .event-note { background: #fff0f0; border-left: 5px solid #c62828; }
+    .advanced-strategy { background: #fff8dc; border: 2px solid #d49b00; border-left-width: 7px; box-shadow: 0 3px 9px rgba(116, 78, 0, .18); }
+    .advanced-strategy h3 { margin-top: 0; color: #704b00; }
     .event-table {
       width: 100%;
       border-collapse: collapse;
@@ -104,8 +106,19 @@
     .best-day { font-weight: 700; color: #126b2f; }
     .indirect { color: #7a4b00; font-weight: 700; }
     .table-scroll { overflow-x: auto; margin: 0 10px; }
-    .quick-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 15px 10px; }
-    .quick-links a { background: #263b54; color: #fff; padding: 8px 11px; border-radius: 5px; text-decoration: none; }
+    .quick-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: stretch;
+      gap: 8px;
+      height: auto !important;
+      margin: 15px 10px;
+    }
+    .quick-links a { display: inline-flex; align-items: center; background: #263b54; color: #fff; padding: 8px 11px; border-radius: 5px; line-height: 1.3; text-decoration: none; }
+    @media (max-width: 768px) {
+      .quick-links { margin-bottom: 24px; }
+    }
     @media (min-width: 768px) {
       .content-wrapper p, .content-wrapper li, section p, section li { font-size: 21px; }
       .event-table { font-size: 18px; }
@@ -182,7 +195,7 @@
       <h2>Best Days at a Glance</h2>
       <ul>
         <li><strong>Monday:</strong> open saved <strong>Summoning Spheres</strong>, fight in the Arena, and open any Elemental Spheres you earn.</li>
-        <li><strong>Tuesday:</strong> finish remaining <strong>Arena fights</strong> and use Titan Potions earned from the event.</li>
+        <li><strong>Tuesday:</strong> finish remaining <strong>Arena fights</strong> and use saved Titan Potions. Advanced players can spend them on Golden Horns of Summoning for Taming Hydra.</li>
         <li><strong>Wednesday:</strong> claim saved <strong>Hero Soul Stone</strong> rewards, spend earned Fairy Dust, and equip a completed Red item if possible.</li>
       </ul>
     </div>
@@ -211,7 +224,7 @@
             <tr data-day="1" data-task="fight-arena" data-total="30"><td class="best-day">Monday or Tuesday</td><td>Fight up to 30 times in the Arena</td><td>Fight in the Arena</td><td class="guild-rate">1 = 6,000 points</td><td class="guild-potential">180,000 points</td></tr>
             <tr data-day="1" data-task="get-vip-points" data-total="10000"><td class="best-day">Any event day</td><td>Earn up to 10,000 VIP Points</td><td>Get VIP Points</td><td class="guild-rate">1 = 100 points</td><td class="guild-potential">1,000,000 points</td></tr>
             <tr data-day="1" data-task="open-elemental-sphere" data-total="100"><td class="indirect">Monday (reward use)</td><td>Open Elemental Spheres earned from Legacy of Power</td><td>Open an Elemental Sphere</td><td class="guild-rate">1 = 1,200 points</td><td class="guild-potential">120,000 points</td></tr>
-            <tr data-day="2" data-task="use-titan-potions"><td class="indirect">Tuesday (reward use)</td><td>Use Titan Potions earned from Legacy of Power</td><td>Use Titan Potions</td><td class="guild-rate">100 = 150 points</td><td class="guild-potential">Depends on potions available Tuesday</td></tr>
+            <tr data-day="2" data-task="use-titan-potions"><td class="indirect">Tuesday (advanced strategy)</td><td>Spend saved Titan Potions, including Golden Horn purchases in the Titan Soul Shop</td><td>Use Titan Potions</td><td class="guild-rate">100 = 150 points</td><td class="guild-potential">Depends on potions available Tuesday</td></tr>
             <tr data-day="3" data-task="get-hero-soul-stone"><td class="indirect">Wednesday (reward claim)</td><td>Claim Hero Soul Stone rewards when possible</td><td>Get a Hero Soul Stone</td><td class="guild-rate">1 = 500 points</td><td class="guild-potential">500 per stone</td></tr>
             <tr data-day="3" data-task="spend-fairy-dust" data-total="8250"><td class="indirect">Wednesday (reward use)</td><td>Spend Fairy Dust earned from Legacy of Power</td><td>Spend Fairy Dust</td><td class="guild-rate">25 = 50 points</td><td class="guild-potential">16,500 points</td></tr>
             <tr data-day="3" data-task="equip-red-item"><td class="indirect">Wednesday (conditional)</td><td>Use rewarded Red equipment fragments to finish an item</td><td>Equip a Red item</td><td class="guild-rate">1 = 1,250,000 points</td><td class="guild-potential">1,250,000 if completed</td></tr>
@@ -233,7 +246,7 @@
       </div>
       <div class="day-card tuesday">
         <h3>Tuesday — Arena and Titan Potion Day</h3>
-        <p>Finish as many of the 30 Arena fights as your normal attempts allow; Arena gives the same 6,000 points per fight on Monday and Tuesday. Use Titan Potions already claimed from Legacy of Power on Tuesday, because Guild Versus awards 150 points per 100 potions used. Do not buy unnecessary Arena attempts only to force the final event milestone.</p>
+        <p>Finish as many of the 30 Arena fights as your normal attempts allow; Arena gives the same 6,000 points per fight on Monday and Tuesday. Tuesday is also the best day for advanced players to use accumulated Titan Potions, because Guild Versus awards 150 points per 100 potions used. Buying Golden Horns of Summoning for Taming Hydra turns a veteran stockpile into progress in both events. Do not buy unnecessary Arena attempts only to force the final event milestone.</p>
       </div>
       <div class="day-card wednesday">
         <h3>Wednesday — Save and Convert Rewards</h3>
@@ -342,7 +355,20 @@
 
     <section id="taming-hydra">
       <h2>6. Taming Hydra — Battle Any Hydra</h2>
-      <p>This quest chain can be completed again after a full walkthrough. Each three-battle step can also be completed by giving three Horns of Summoning to the Fairies.</p>
+      <p>This quest chain can be completed again after a full walkthrough. You can advance it by battling any Hydra or by giving <strong>Golden Horns of Summoning</strong> to the Fairies.</p>
+
+      <div class="advanced-strategy">
+        <h3>Advanced Strategy: Golden Horns + Tuesday Guild Versus</h3>
+        <p>For veteran accounts, Tuesday is the best day to turn accumulated Titan resources into progress. A <strong>Golden Horn of Summoning costs 15,000 Titan Potions</strong> in the <strong>Titan Soul Shop</strong>. Buying one while Tuesday's Guild Versus task is active spends Titan Potions for that mission, and giving the Golden Horn to the Fairies advances Taming Hydra.</p>
+        <ul>
+          <li><strong>Wait for Tuesday's task to become active:</strong> Guild Versus awards 150 points for every 100 Titan Potions used.</li>
+          <li><strong>Buy Golden Horns of Summoning:</strong> each purchase uses 15,000 Titan Potions and creates a second route through the repeatable Taming Hydra chain.</li>
+          <li><strong>Use the Titan Soul Shop economy:</strong> advanced players can also buy Titan Potions with accumulated Titan Soul Coins.</li>
+          <li><strong>Keep running the Dungeon daily:</strong> rebuild your Titan Potion and Titan Soul Coin reserves after the event and prepare for the next month's rotation.</li>
+        </ul>
+        <p><strong>My example:</strong> I entered this event with more than <strong>1 million Titan Potions</strong> and about <strong>3 million Titan Soul Coins</strong>. This strategy finally gives those veteran reserves a meaningful use.</p>
+        <p><strong>Alexandre's opinion:</strong> this is a great move by the developers. It gives long-time players a new reason to keep completing the Dungeon every day instead of letting Titan resources accumulate without a clear purpose.</p>
+      </div>
       <div class="table-scroll"><table class="event-table"><caption>Taming Hydra rewards per walkthrough</caption><thead><tr><th>Hydra Battles</th><th>Rewards</th></tr></thead><tbody>
         <tr><td>3</td><td>100 Rune Stones; 10 Skin Stone Chests; 2 Hero Soul Stones</td></tr>
         <tr><td>6</td><td>250 Titan Potions; 20 Skin Stone Chests; 2 Hero Soul Stones</td></tr>
