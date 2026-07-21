@@ -587,8 +587,7 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
       },
       {
        titles: { en: "👑Legacy of Power", pt: "👑Legado do Poder", de: "👑Erbe des Macht", es: "👑 Legado del Poder", fr: "👑 Héritage du Pouvoir", ja: "👑 パワーの遺産" },
-       links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
-      },
+      links: { en: "../../hero-wars-alliance/event-hwa/legacy-of-power-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },      },
       { titles: { en: "👗Tristan New Skin+: Twilight", pt: "👗Tristan Nova Skin+: Crepúsculo", de: "👗Tristan Neue Skin+: Dämmerung", es: "👗Tristan Nueva Skin+: Crepúsculo", fr: "👗Tristan Nouvelle Skin+ : Crépuscule", ja: "👗トリスタン 新スキン+：トワイライト" },
   labelOnly: true },
 
@@ -608,7 +607,7 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
       },
       {
        titles: { en: "👑Legacy of Power", pt: "👑Legado do Poder", de: "👑Erbe des Macht", es: "👑 Legado del Poder", fr: "👑 Héritage du Pouvoir", ja: "👑 パワーの遺産" },
-       links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
+       links: { en: "../../hero-wars-alliance/event-hwa/legacy-of-power-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },      
       },
       { titles: { en: "👗Tristan New Skin+: Twilight", pt: "👗Tristan Nova Skin+: Crepúsculo", de: "👗Tristan Neue Skin+: Dämmerung", es: "👗Tristan Nueva Skin+: Crepúsculo", fr: "👗Tristan Nouvelle Skin+ : Crépuscule", ja: "👗トリスタン 新スキン+：トワイライト" },
   labelOnly: true },
@@ -630,7 +629,7 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
       },
       {
        titles: { en: "👑Legacy of Power", pt: "👑Legado do Poder", de: "👑Erbe des Macht", es: "👑 Legado del Poder", fr: "👑 Héritage du Pouvoir", ja: "👑 パワーの遺産" },
-       links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
+       links: { en: "../../hero-wars-alliance/event-hwa/legacy-of-power-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },      
       },
       { titles: { en: "👗Tristan New Skin+: Twilight", pt: "👗Tristan Nova Skin+: Crepúsculo", de: "👗Tristan Neue Skin+: Dämmerung", es: "👗Tristan Nueva Skin+: Crepúsculo", fr: "👗Tristan Nouvelle Skin+ : Crépuscule", ja: "👗トリスタン 新スキン+：トワイライト" },
   labelOnly: true },
