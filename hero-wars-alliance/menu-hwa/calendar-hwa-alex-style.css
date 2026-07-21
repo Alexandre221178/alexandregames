@@ -40,7 +40,7 @@ div.calendar #calendar-container > .event-container {
   background-color: lab(60.26% 64.22 36.54) !important;/* cor calendário mobile */
   border-radius: 5px !important;
   text-align: center !important;
-  height: 270px !important;/* altura Desktop do container no PC */
+  height: 337px !important;/* altura Desktop do container no PC */
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -77,7 +77,7 @@ div.calendar .event a {
   text-decoration: none !important;
   position: relative !important;
   font-weight: bold !important;
-  top: 25px !important;/* altura das letras */
+  top: 9px !important;/* altura das letras 25 para brancas nao sobreporem as amarelas */
   left: 2px !important;
   z-index: 10 !important;
   overflow-wrap: anywhere !important;
