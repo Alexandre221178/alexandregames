@@ -14,7 +14,9 @@
   
 
     "update-calendar-hwa": "node hero-wars-alliance/update-data-menu-hwa.js menu-hwa calendar-hwa",
-   "update-hydra-best-teams-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide hydra-best-teams",
+    "update-fort-guide-realm-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide fort-guide-realm",
+
+    "update-hydra-best-teams-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide hydra-best-teams",
      "update-realm-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide realm",
 
    "update-realm-brown-squares-map-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide realm",

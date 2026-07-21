@@ -2,23 +2,15 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
-      link: "/hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html",
-      src500: "/hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-500px.webp",
-      src400: "/hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-400px.webp",
-      alt: "Balance of Power Event Group Guide",
-      title: "Balance of Power Event Group Guide",
-      strong: "Balance of Power Event Group Guide | Hero Wars Alliance",
+      link: "/hero-wars-alliance/guide/fort-guide-realm-en.html",
+      src500: "/hero-wars-alliance/images/guides/fort-guide-realm/fort-guide-realm-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/fort-guide-realm/fort-guide-realm-400px.webp",
+      alt: "Fort Guide for Hero Wars Alliance",
+      title: "Fort Guide for Hero Wars Alliance",
+      strong: "Guide: Fort - Hero Wars Alliance",
       updated: "Updated: July, 2026."
-    },     
-     {
-      link: "/hero-wars-alliance/events-tips-hwa/sanctum-of-balance-shop-en.html",
-      src500: "/hero-wars-alliance/images/events-tips-hwa/sanctum-of-balance-shop/sanctum-of-balance-shop-500px.webp",
-      src400: "/hero-wars-alliance/images/events-tips-hwa/sanctum-of-balance-shop/sanctum-of-balance-shop-400px.webp",
-      alt: "Sanctum of Balance Shop Guide for Hero Wars Alliance",
-      title: "Sanctum of Balance Shop Guide for Hero Wars Alliance",
-      strong: "Sanctum of Balance Shop Guide for Hero Wars Alliance",
-      updated: "Updated: July, 2026."
-    },     
+    },      
+    
     {
       link: "/hero-wars-alliance/characters-guide/tristan-en.html",
       src500: "/hero-wars-alliance/images/hero/tristan/tristan-500px.webp",
