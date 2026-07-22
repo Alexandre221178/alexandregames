@@ -1,4 +1,4 @@
-// npm run update-mysterious-island-hwde
+// giveaway-hwde
 const giveawayData = {
   pt: {
     title: "🚨 SORTEIO EXCLUSIVO: CANAL ALEXANDRE GAMES YOUTUBE 🚨",
