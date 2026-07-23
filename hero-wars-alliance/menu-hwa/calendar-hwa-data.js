@@ -644,7 +644,14 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
   titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
    links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
   extra: [
-
+ { titles: { en: "👗Guus New Skin+: Twilight", pt: "👗Guus Nova Skin+: Crepúsculo", de: "👗Guus Neue Skin+: Dämmerung", es: "👗Guus Nueva Skin+: Crepúsculo", fr: "👗Guus Nouvelle Skin+ : Crépuscule", ja: "👗グース 新スキン+：黄昏" },
+links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../../hero-wars-alliance/characters-guide/guus-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{ titles: { en: "👗Artemis New Skin: Twilight", pt: "👗Artemis Nova Skin: Crepúsculo", de: "👗Artemis Neue Skin: Dämmerung", es: "👗Artemis Nueva Skin: Crepúsculo", fr: "👗Artemis Nouvelle Skin : Crépuscule", ja: "👗アルテミス 新スキン：黄昏" },
+ links: { en: "../../hero-wars-alliance/characters-guide/artemis-en.html", pt: "../../hero-wars-alliance/characters-guide/artemis-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
 
           ]
   },
@@ -657,12 +664,7 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
    links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
    extra: [
 
-      {
-  titles: { en: "👗 Skin+ Event", de: "👗 Skin+-Event", es: "👗 Evento Skin+", fr: "👗 Événement Skin+", pt: "👗 Evento Skin+", ja: "👗 スキン+ イベント" },
-    links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "../../hero-wars-alliance/event-hwa/skinplus-event-de.html", es: "../../hero-wars-alliance/event-hwa/skinplus-event-es.html", fr: "../../hero-wars-alliance/event-hwa/skinplus-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/skinplus-event-ja.html" },
-
-  noStrip: true
-},
+      
 
   {
         titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
@@ -673,9 +675,13 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
         links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
       },
       { titles: { en: "👗Guus New Skin+: Twilight", pt: "👗Guus Nova Skin+: Crepúsculo", de: "👗Guus Neue Skin+: Dämmerung", es: "👗Guus Nueva Skin+: Crepúsculo", fr: "👗Guus Nouvelle Skin+ : Crépuscule", ja: "👗グース 新スキン+：黄昏" },
-  labelOnly: true },
+links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../../hero-wars-alliance/characters-guide/guus-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
 { titles: { en: "👗Artemis New Skin: Twilight", pt: "👗Artemis Nova Skin: Crepúsculo", de: "👗Artemis Neue Skin: Dämmerung", es: "👗Artemis Nueva Skin: Crepúsculo", fr: "👗Artemis Nouvelle Skin : Crépuscule", ja: "👗アルテミス 新スキン：黄昏" },
-  labelOnly: true },
+ links: { en: "../../hero-wars-alliance/characters-guide/artemis-en.html", pt: "../../hero-wars-alliance/characters-guide/artemis-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
 
   ]
   },
@@ -689,12 +695,7 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
    links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
    extra: [
 
-      {
-  titles: { en: "👗 Skin+ Event", de: "👗 Skin+-Event", es: "👗 Evento Skin+", fr: "👗 Événement Skin+", pt: "👗 Evento Skin+", ja: "👗 スキン+ イベント" },
-    links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "../../hero-wars-alliance/event-hwa/skinplus-event-de.html", es: "../../hero-wars-alliance/event-hwa/skinplus-event-es.html", fr: "../../hero-wars-alliance/event-hwa/skinplus-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/skinplus-event-ja.html" },
-
-  noStrip: true
-},
+     
 
   {
         titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
@@ -705,9 +706,13 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
         links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
       },
       { titles: { en: "👗Guus New Skin+: Twilight", pt: "👗Guus Nova Skin+: Crepúsculo", de: "👗Guus Neue Skin+: Dämmerung", es: "👗Guus Nueva Skin+: Crepúsculo", fr: "👗Guus Nouvelle Skin+ : Crépuscule", ja: "👗グース 新スキン+：黄昏" },
-  labelOnly: true },
+links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../../hero-wars-alliance/characters-guide/guus-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
 { titles: { en: "👗Artemis New Skin: Twilight", pt: "👗Artemis Nova Skin: Crepúsculo", de: "👗Artemis Neue Skin: Dämmerung", es: "👗Artemis Nueva Skin: Crepúsculo", fr: "👗Artemis Nouvelle Skin : Crépuscule", ja: "👗アルテミス 新スキン：黄昏" },
-  labelOnly: true },
+ links: { en: "../../hero-wars-alliance/characters-guide/artemis-en.html", pt: "../../hero-wars-alliance/characters-guide/artemis-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
 
   ]
   },
@@ -720,12 +725,7 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
    links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
    extra: [
 
-      {
-  titles: { en: "👗 Skin+ Event", de: "👗 Skin+-Event", es: "👗 Evento Skin+", fr: "👗 Événement Skin+", pt: "👗 Evento Skin+", ja: "👗 スキン+ イベント" },
-    links: { en: "../../hero-wars-alliance/event-hwa/skinplus-event-en.html", de: "../../hero-wars-alliance/event-hwa/skinplus-event-de.html", es: "../../hero-wars-alliance/event-hwa/skinplus-event-es.html", fr: "../../hero-wars-alliance/event-hwa/skinplus-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/skinplus-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/skinplus-event-ja.html" },
-
-  noStrip: true
-},
+     
 
   {
         titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
@@ -736,9 +736,13 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
         links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
       },
       { titles: { en: "👗Guus New Skin+: Twilight", pt: "👗Guus Nova Skin+: Crepúsculo", de: "👗Guus Neue Skin+: Dämmerung", es: "👗Guus Nueva Skin+: Crepúsculo", fr: "👗Guus Nouvelle Skin+ : Crépuscule", ja: "👗グース 新スキン+：黄昏" },
-  labelOnly: true },
+links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../../hero-wars-alliance/characters-guide/guus-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
 { titles: { en: "👗Artemis New Skin: Twilight", pt: "👗Artemis Nova Skin: Crepúsculo", de: "👗Artemis Neue Skin: Dämmerung", es: "👗Artemis Nueva Skin: Crepúsculo", fr: "👗Artemis Nouvelle Skin : Crépuscule", ja: "👗アルテミス 新スキン：黄昏" },
-  labelOnly: true },
+ links: { en: "../../hero-wars-alliance/characters-guide/artemis-en.html", pt: "../../hero-wars-alliance/characters-guide/artemis-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
 
   ]
   },
@@ -759,6 +763,14 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
   links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
   noStrip: true
 },
+ { titles: { en: "👗Guus New Skin+: Twilight", pt: "👗Guus Nova Skin+: Crepúsculo", de: "👗Guus Neue Skin+: Dämmerung", es: "👗Guus Nueva Skin+: Crepúsculo", fr: "👗Guus Nouvelle Skin+ : Crépuscule", ja: "👗グース 新スキン+：黄昏" },
+links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../../hero-wars-alliance/characters-guide/guus-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{ titles: { en: "👗Artemis New Skin: Twilight", pt: "👗Artemis Nova Skin: Crepúsculo", de: "👗Artemis Neue Skin: Dämmerung", es: "👗Artemis Nueva Skin: Crepúsculo", fr: "👗Artemis Nouvelle Skin : Crépuscule", ja: "👗アルテミス 新スキン：黄昏" },
+ links: { en: "../../hero-wars-alliance/characters-guide/artemis-en.html", pt: "../../hero-wars-alliance/characters-guide/artemis-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
 
           ]
   },
@@ -780,6 +792,14 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
   links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
   noStrip: true
 },
+ { titles: { en: "👗Guus New Skin+: Twilight", pt: "👗Guus Nova Skin+: Crepúsculo", de: "👗Guus Neue Skin+: Dämmerung", es: "👗Guus Nueva Skin+: Crepúsculo", fr: "👗Guus Nouvelle Skin+ : Crépuscule", ja: "👗グース 新スキン+：黄昏" },
+links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../../hero-wars-alliance/characters-guide/guus-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{ titles: { en: "👗Artemis New Skin: Twilight", pt: "👗Artemis Nova Skin: Crepúsculo", de: "👗Artemis Neue Skin: Dämmerung", es: "👗Artemis Nueva Skin: Crepúsculo", fr: "👗Artemis Nouvelle Skin : Crépuscule", ja: "👗アルテミス 新スキン：黄昏" },
+ links: { en: "../../hero-wars-alliance/characters-guide/artemis-en.html", pt: "../../hero-wars-alliance/characters-guide/artemis-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
 
           ]
   },
@@ -801,6 +821,14 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
   links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
   noStrip: true
 },
+ { titles: { en: "👗Guus New Skin+: Twilight", pt: "👗Guus Nova Skin+: Crepúsculo", de: "👗Guus Neue Skin+: Dämmerung", es: "👗Guus Nueva Skin+: Crepúsculo", fr: "👗Guus Nouvelle Skin+ : Crépuscule", ja: "👗グース 新スキン+：黄昏" },
+links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../../hero-wars-alliance/characters-guide/guus-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{ titles: { en: "👗Artemis New Skin: Twilight", pt: "👗Artemis Nova Skin: Crepúsculo", de: "👗Artemis Neue Skin: Dämmerung", es: "👗Artemis Nueva Skin: Crepúsculo", fr: "👗Artemis Nouvelle Skin : Crépuscule", ja: "👗アルテミス 新スキン：黄昏" },
+ links: { en: "../../hero-wars-alliance/characters-guide/artemis-en.html", pt: "../../hero-wars-alliance/characters-guide/artemis-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
 
           ]
   },
