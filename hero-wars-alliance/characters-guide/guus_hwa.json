@@ -188,6 +188,16 @@
                     "level": 60,
                     "upgrade_cost_stones": 50410,
                     "special_effect": "When healing an ally, also applies an effect for 5.0 seconds that converts any incoming damage into healing (no more than 97371.3 (30% Mag.atk. + 89100)). Can be triggered no more than once every 10 seconds for each target."
+                },
+                {
+                    "name": "Twilight Skin+",
+                    "stat": "Crit hit chance",
+                    "bonus_skin_plus": 5920,
+                    "bonus_base": 2960,
+                    "level": 60,
+                    "upgrade_cost_stones": 50410,
+                     "note": "Skin+ available during Skin+ event. Doubles the base skin stats.",
+                      "is_skin_plus": true
                 }
             ],
             "artifacts": [
