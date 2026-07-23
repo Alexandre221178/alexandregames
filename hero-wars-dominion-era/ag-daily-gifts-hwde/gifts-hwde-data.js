@@ -1,6 +1,6 @@
 /* HWDE Daily Gifts Data - npm run update-gifts-hwde
 
-// ── July #, 2026 ──────────────────────────────
+// ── July #, 2026 ─────────────────────────────
    { date:'2026-07-##', type:'link', giftId:'######', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
 // ── July #, 2026 ──────────────────────────────
