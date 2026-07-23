@@ -4,6 +4,8 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+      { date:'2026-07-23', type:'hub', code:'TWILIGHT', note:'until|2026-08-03T01:00:00Z',
+      rewards:[ 'energy x100', 'small-skin-stone-chest x75'] },
    // ── July 223, 2026 ──────────────────────────────
    { date:'2026-07-23', type:'daily', mission:'2-8', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
