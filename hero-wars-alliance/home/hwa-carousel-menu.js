@@ -2,6 +2,25 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
+      link: "/hero-wars-alliance/events-tips-hwa/guus-champions-gallery-en.html",
+      src500: "/hero-wars-alliance/images/events-tips-hwa/champions-gallery/champions-gallery-500px-1.webp",
+      src400: "/hero-wars-alliance/images/events-tips-hwa/champions-gallery/champions-gallery-400px-1.webp",
+      alt: "Guus Champions Gallery for Hero Wars Alliance",
+      title: "Guus Champions Gallery for Hero Wars Alliance",
+      strong: "Guide: Guus Champions Gallery - What to Buy?",
+      updated: "Updated: July, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html",
+      src500: "/hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-400px.webp",
+      alt: "Ascendant Glory Event Group for Hero Wars Alliance",
+      title: "Ascendant Glory Event Group for Hero Wars Alliance",
+      strong: "Guide: Ascendant Glory Event Group for Hero Wars Alliance",
+      updated: "Updated: May, 2026."
+    },
+    
+    {
       link: "/hero-wars-alliance/guide/fort-guide-realm-en.html",
       src500: "/hero-wars-alliance/images/guides/fort-guide-realm/fort-guide-realm-500px.webp",
       src400: "/hero-wars-alliance/images/guides/fort-guide-realm/fort-guide-realm-400px.webp",

@@ -68,6 +68,133 @@
     </div>
     <div class="autor"><ul><li><i>By: Alexandre Domingos.</i> <i id="data-modificacao"></i>.</li></ul></div>
   </header>
+  <script>
+(function() {
+  const userLang = navigator.language || navigator.userLanguage;
+  const siteLang = "en";
+
+  const supportedLangs = ["pt","es","fr","de","it","pl","ru","ko","ja","zh"];
+
+  if (localStorage.getItem("translateDismissed")) return;
+
+  let lang = userLang.split("-")[0];
+
+  if (!supportedLangs.includes(lang)) {
+    lang = "en";
+  }
+
+  // não mostra se já for inglês
+  if (lang === siteLang) return;
+
+  const messages = {
+    pt: "🌍 Ver esta página em português?",
+    es: "🌍 ¿Ver esta página en español?",
+    fr: "🌍 Voir cette page en français ?",
+    de: "🌍 Diese Seite auf Deutsch anzeigen?",
+    it: "🌍 Visualizzare questa pagina in italiano?",
+    pl: "🌍 Wyświetlić tę stronę po polsku?",
+    ru: "🌍 Показать эту страницу на русском?",
+    ko: "🌍 이 페이지를 한국어로 보시겠습니까?",
+    ja: "🌍 このページを日本語で表示しますか？",
+    zh: "🌍 是否将此页面翻译为中文？",
+    default: "🌍 View this page in your language?"
+  };
+
+  const text = messages[lang] || messages.default;
+
+  setTimeout(() => {
+
+    const banner = document.createElement("div");
+    banner.innerHTML = `
+      <div style="
+        position:fixed;
+        bottom:0px;
+        left:20px;
+        right:20px;
+        background:#111;
+        color:#fff;
+        padding:15px;
+        border-radius:10px;
+        z-index:9999;
+        font-size:14px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:10px;
+        ">
+        <span>${text}</span>
+        <div>
+          <button id="translateBtn" style="margin-right:10px; cursor:pointer;">OK</button>
+          <button id="closeBtn" style="cursor:pointer;">✕</button>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(banner);
+
+    // ✅ aqui é a chave: chama seu sistema
+    document.getElementById("translateBtn").onclick = function() {
+      if (typeof translatePage === "function") {
+        translatePage();
+      }
+      banner.remove();
+    };
+
+    document.getElementById("closeBtn").onclick = function() {
+      localStorage.setItem("translateDismissed", "true");
+      banner.remove();
+    };
+
+  }, 2500);
+
+})();
+</script>
+
+<style>
+  .content-wrapper {
+   margin: 10px;
+  }
+  .content-wrapper p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+    color: #000000;
+    margin-left: 13px !important;
+  }
+  .shop-priority-list li,
+  .warning-list li {
+    margin-bottom: 10px;
+  }
+  .skin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  .skin-table th,
+  .skin-table td {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    text-align: left;
+  }
+  .skin-table th {
+    background-color: #2c3e50;
+    color: #fff;
+  }
+  .skin-table tr:nth-child(even) {
+    background-color: #f4f4f4;
+  }
+  @media (min-width: 768px) {
+    .content-wrapper p {
+      font-size: 22px;
+      margin-left: 13px;
+    }
+    .skin-table {
+      font-size: 18px;
+    }
+  }
+</style>
 
   <div class="ad-fold-container">
     <ins class="adsbygoogle" style="display:block;width:100%;height:auto" data-ad-client="ca-pub-7838775403194689" data-ad-slot="5891786274" data-ad-format="auto" data-full-width-responsive="true"></ins>
@@ -290,7 +417,28 @@
 <script src="../../alex-java/translate07-en.js" defer></script>
 <script src="../../alex-java/author-en.js" defer></script>
 <script>
-(function(){if(!("IntersectionObserver" in window))return;const observer=new IntersectionObserver(function(entries,current){entries.forEach(function(entry){if(entry.isIntersecting&&window.adsbygoogle&&!entry.target.dataset.loaded){entry.target.dataset.loaded="true";window.adsbygoogle.push({});current.unobserve(entry.target)}})},{rootMargin:"500px"});document.querySelectorAll(".ads-lazy").forEach(function(ad){observer.observe(ad)})})();
+(function() {
+    const loadAd = (ad) => {
+        if (window.adsbygoogle && !ad.dataset.loaded) {
+            ad.dataset.loaded = "true";
+            window.adsbygoogle.push({});
+        }
+    };
+
+    const adObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadAd(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '500px' });
+
+    document.querySelectorAll('.ads-lazy').forEach(ad => {
+        adObserver.observe(ad);
+    });
+})();
 </script>
+
 </body>
 </html>
