@@ -642,7 +642,7 @@ titles: { en: "Bountiful Roads", pt: "Estradas Prósperas", de: "Ertragreiche St
      image: "../../hero-wars-alliance/images/events/shared/alexandregames-150px.webp",
     alt: "🪽Ascendant Glory Event Group",
   titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
-   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
+ links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" }, 
   extra: [
  { titles: { en: "👗Guus New Skin+: Twilight", pt: "👗Guus Nova Skin+: Crepúsculo", de: "👗Guus Neue Skin+: Dämmerung", es: "👗Guus Nueva Skin+: Crepúsculo", fr: "👗Guus Nouvelle Skin+ : Crépuscule", ja: "👗グース 新スキン+：黄昏" },
 links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../../hero-wars-alliance/characters-guide/guus-pt.html", de: "", es: "", fr: "",  ja: "" },       
@@ -658,10 +658,10 @@ links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../.
   {
     weekday: "Friday",
     date: "July, 24",
-   image: "../../hero-wars-alliance/images/events/skinplus-event/skinplus-event-500px.webp",
+   image: "../../hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-250px.webp",
     alt: "🪽Ascendant Glory Events",
      titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
-   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
+    links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" }, 
    extra: [
 
       
@@ -689,11 +689,10 @@ links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../.
   {
     weekday: "Saturday",
     date: "July, 25",
-    image: "../../hero-wars-alliance/images/events/skinplus-event/skinplus-event-500px.webp",
+    image: "../../hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-250px.webp",
     alt: "🪽Ascendant Glory Events",
      titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
-   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
-   extra: [
+      links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },   extra: [
 
      
 
@@ -719,11 +718,10 @@ links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../.
   {
     weekday: "Sunday",
     date: "July, 26",
-    image: "../../hero-wars-alliance/images/events/skinplus-event/skinplus-event-500px.webp",
+    image: "../../hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-250px.webp",
     alt: "🪽Ascendant Glory Events",
      titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
-   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
-   extra: [
+     links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },   extra: [
 
      
 
@@ -752,8 +750,7 @@ links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../.
      image: "../../imagens/image-shared/crow-300px.webp",
     alt: "🪽Ascendant Glory Event Group",
   titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
-   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
-  extra: [
+     links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },  extra: [
       {
         titles: { en: "📿Crow - Relic Event", de: "📿Crow - Relikt-Ereignis", es: "📿Crow - Evento de Reliquia", fr: "📿Crow - Événement des Reliques", pt: "📿Crow - Evento de Relíquia", ja: "📿カラス - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
@@ -781,8 +778,7 @@ links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../.
      image: "../../imagens/image-shared/crow-300px.webp",
     alt: "🪽Ascendant Glory Event Group",
   titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
-   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
-  extra: [
+     links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },  extra: [
        {
         titles: { en: "📿Crow - Relic Event", de: "📿Crow - Relikt-Ereignis", es: "📿Crow - Evento de Reliquia", fr: "📿Crow - Événement des Reliques", pt: "📿Crow - Evento de Relíquia", ja: "📿カラス - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
@@ -810,8 +806,7 @@ links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../.
      image: "../../imagens/image-shared/crow-300px.webp",
     alt: "🪽Ascendant Glory Event Group",
   titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
-   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
-  extra: [
+      links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },  extra: [
        {
         titles: { en: "📿Crow - Relic Event", de: "📿Crow - Relikt-Ereignis", es: "📿Crow - Evento de Reliquia", fr: "📿Crow - Événement des Reliques", pt: "📿Crow - Evento de Relíquia", ja: "📿カラス - レリックイベント" },
         links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
