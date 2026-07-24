@@ -14,11 +14,15 @@
  note:'until|2026-07-##T02:00:00Z', rewards:['energy x500'] },
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 */window.HWDE_GIFTS = [
+  // ── July 24, 2026 ──────────────────────────────
+{ date:'2026-07-24', type:'link', giftLinkWeb:'https://herowars.me/4vGc6A7', giftLinkFb:'https://herowars.me/4oPNbIO', note:'until|2026-07-31T02:00:00Z',
+  rewards:['energy-crystal x16', 'valor-coin x8500', 'sapphire-medallion x2' ] },
+
    // ── July 23, 2026 ─────────────────────────────
    { date:'2026-07-23', type:'link', giftId:'37124d047d012161bdd3820566e82161', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
    // 2026-07-23── 2 Link Exclusivo Web/FB ──────────────────────────────
-{ date:'2026-07-23', type:'link', giftLinkWeb:'https://herowars.me/4fwdXSf', giftLinkFb:'https://herowars.me/4wnEQPw',
+{ date:'2026-07-23', type:'link', giftLinkWeb:'https://herowars.me/4fwdXSf', giftLinkFb:'https://herowars.me/3Rnoc3e',
  note:'until|2026-07-26T02:00:00Z', rewards:['energy x500'] },
    // ── July 22, 2026 ──────────────────────────────
   { date:'2026-07-22', type:'link', giftId:'67c4339f9b5290d5d84cb3f94a7fa274', note:'level',
@@ -108,13 +112,6 @@ https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 { date:'2026-06-24', type:'link', giftWebId:'gA6AsbsN33', note:'until|2026-06-30T02:00:00Z',
   rewards:['valor-coin x10000'] },
   
-  
- { date:'2026-06-24', type:'link', giftLinkWeb:'https://herowars.me/4vt3gXh', giftLinkFb:'https://herowars.me/4oPNbIO', note:'until|2026-07-01T02:00:00Z',
-  rewards:['energy-crystal x16', 'valor-coin x8500', 'sapphire-medallion x2','energy x500' ] },
-   // ── June 23, 2026 ──────────────────────────────
-    // 2026-06-##── 2 Link Exclusivo Web/FB ──────────────────────────────
-  
-
       
   
   
@@ -165,6 +162,11 @@ https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
    giftLinkFb:'https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbl9yMHZwSGhzWDRJcmJqajlEZTlHSU5nMy1RUXxBQ3Jtc0trSXdxaUNDb1pEOGFkUzMxOTFaV0MyUHFZckZoaVZSSFFuUnVSLVhGS3hlUVFPUGhhOEtfNkFYYVBFRndDeGk3elhtZGZkMTRMczc1QWtKcDlRaGN2eW0yMXktXzVjQ25UeVFpU21DNVp6WnVLX2pnbw&q=https%3A%2F%2Ffb.gg%2Fplay%2Fmobaheroes%2Fd%2F4546179685671400%2F&v=6ICF5LDfVTo', note:'until|2026-05-03T02:00:00Z',
   note:'until|2026-##-##T02:00:00Z', rewards:['large-skin-stone-chest x5', 'portal-charge x3']
  },
+ 
+ // 2026-06-##── 2 Link Exclusivo Web/FB ──────────────────────────────
+  { date:'2026-06-24', type:'link', giftLinkWeb:'https://herowars.me/4vt3gXh', giftLinkFb:'https://herowars.me/4oPNbIO', note:'until|2026-07-01T02:00:00Z',
+  rewards:['energy-crystal x16', 'valor-coin x8500', 'sapphire-medallion x2','energy x500' ] },
+
 
 ╔══════════════════════════════════════════════════════════════════╗
    ║  HWDE GIFTS — Add newest entries at the TOP                     ║
