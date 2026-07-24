@@ -10,15 +10,7 @@
       strong: "Guide: Somna - Hero Wars: Dominion Era",
       updated: "Updated: July, 2026."
     },
-    {
-      link: "/hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html",
-      src500: "/hero-wars-dominion-era/images/events-special/somna-event/somna-unleashing-power-500px.webp",
-      src400: "/hero-wars-dominion-era/images/events-special/somna-event/somna-unleashing-power-400px.webp",
-      alt: "Somna - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era",
-      title: "Somna - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era.",
-      strong: "Guide: Somna Event (Missions) - Hero Wars: Dominion Era",
-      updated: "Updated: July, 2026."
-    },
+    
     {
       link: "/hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html",
       src500: "/hero-wars-dominion-era/images/events-special/somna-event/somna-event-500px.webp",
@@ -36,6 +28,15 @@
       title: "Mysterious Island for Hero Wars: Dominion Era.",
       strong: "Mysterious Island - How to Get a War Flag?",
       updated: "Updated: Monthly."
+    },
+    {
+      link: "/hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html",
+      src500: "/hero-wars-dominion-era/images/events-special/somna-event/somna-unleashing-power-500px.webp",
+      src400: "/hero-wars-dominion-era/images/events-special/somna-event/somna-unleashing-power-400px.webp",
+      alt: "Somna - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era",
+      title: "Somna - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era.",
+      strong: "Guide: Somna Event (Missions) - Hero Wars: Dominion Era",
+      updated: "Updated: July, 2026."
     },
     {
       link: "../../hero-wars-dominion-era/characters/dante-en.html",
