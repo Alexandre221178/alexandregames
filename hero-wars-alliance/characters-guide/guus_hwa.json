@@ -5,7 +5,7 @@
             "id": "guus",
             "name": "Guus",
             "gender": "male",
-            "folio_description": "A guardian of his allies, Guus empowers his team with Golden Feathers, boosting critical hit chance, restoring health, and protecting those on the brink of defeat.",
+            "guus_description": "A guardian of his allies, Guus empowers his team with Golden Feathers, boosting critical hit chance, restoring health, and protecting those on the brink of defeat.",
             "role": ["Healer", "Support"],
             "main_class": "Healer",
             "position": null,
@@ -31,7 +31,7 @@
                     "physical_armor": 40075.9,
                     "magical_armor": 25328.8,
                     "toughness": 6313,
-                    "crit_hit_chance": 18180.4
+                    "crit_hit_chance": 24100.4
                 },
                 "max_with_talisman_of_the_grand_yolk": {
                     "intelligence": 4155,
@@ -43,7 +43,7 @@
                     "physical_armor": 53875.9,
                     "magical_armor": 25328.8,
                     "toughness": 6313,
-                    "crit_hit_chance": 10590.4
+                    "crit_hit_chance": 16510.4
                 }
             },
             "talisman_details": {
