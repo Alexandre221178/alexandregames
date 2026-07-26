@@ -20,7 +20,16 @@
       title: "Guus Guide for Hero Wars Alliance",
       strong: "Guide: Guus for Hero Wars Alliance",
       updated: "Updated: July, 2026."
-    },     
+    },    
+    {
+      link: "/hero-wars-alliance/events-tips-hwa/guus-champions-gallery-en.html",
+      src500: "/hero-wars-alliance/images/events-tips-hwa/champions-gallery/champions-gallery-500px-1.webp",
+      src400: "/hero-wars-alliance/images/events-tips-hwa/champions-gallery/champions-gallery-400px-1.webp",
+      alt: "Guus Champions Gallery for Hero Wars Alliance",
+      title: "Guus Champions Gallery for Hero Wars Alliance",
+      strong: "Guide: Guus Champions Gallery - What to Buy?",
+      updated: "Updated: July, 2026."
+    }, 
     
     {
       link: "/hero-wars-alliance/characters-guide/tristan-en.html",
@@ -50,15 +59,7 @@
       strong: "Guide: Crow Legendary Skills for Hero Wars Alliance",
       updated: "Updated: July, 2026."
     },     
-    {
-      link: "/hero-wars-alliance/events-tips-hwa/guus-champions-gallery-en.html",
-      src500: "/hero-wars-alliance/images/events-tips-hwa/champions-gallery/champions-gallery-500px-1.webp",
-      src400: "/hero-wars-alliance/images/events-tips-hwa/champions-gallery/champions-gallery-400px-1.webp",
-      alt: "Guus Champions Gallery for Hero Wars Alliance",
-      title: "Guus Champions Gallery for Hero Wars Alliance",
-      strong: "Guide: Guus Champions Gallery - What to Buy?",
-      updated: "Updated: July, 2026."
-    },
+    
     {
       link: "/hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html",
       src500: "/hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-500px.webp",
@@ -515,6 +516,22 @@
     return pageAvailabilityCache[absoluteUrl];
   }
 
+  function setEnglishFallbackIndicator(anchor, showIndicator){
+    if(!anchor) return;
+
+    anchor.setAttribute('data-english-fallback', showIndicator ? 'true' : 'false');
+
+    var label = anchor.querySelector('strong');
+    if(!label) return;
+
+    var text = (label.textContent || '').replace(/\s*\(EN\)\s*$/i, '').trim();
+    label.textContent = text + (showIndicator ? ' (EN)' : '');
+  }
+
+  function isEnglishPageLink(link){
+    return /-en(?:-hwa)?\.html(?:[?#].*)?$/i.test(link || '');
+  }
+
   function resolveCarouselLink(anchor){
     if(!anchor) return Promise.resolve();
 
@@ -522,15 +539,30 @@
     var localizedLink = anchor.getAttribute('data-localized-link') || englishLink;
     var lang = anchor.getAttribute('data-lang') || 'en';
 
-    if(!englishLink || !localizedLink || lang === 'en' || localizedLink === englishLink){
+    if(!englishLink || !localizedLink){
       anchor.setAttribute('href', englishLink || localizedLink || '#');
+      setEnglishFallbackIndicator(anchor, false);
+      return Promise.resolve();
+    }
+
+    if(lang === 'en'){
+      anchor.setAttribute('href', englishLink);
+      setEnglishFallbackIndicator(anchor, false);
+      return Promise.resolve();
+    }
+
+    if(localizedLink === englishLink){
+      anchor.setAttribute('href', englishLink);
+      setEnglishFallbackIndicator(anchor, isEnglishPageLink(englishLink));
       return Promise.resolve();
     }
 
     return checkPageExists(localizedLink).then(function(exists){
       anchor.setAttribute('href', exists ? localizedLink : englishLink);
+      setEnglishFallbackIndicator(anchor, !exists);
     }).catch(function(){
       anchor.setAttribute('href', englishLink);
+      setEnglishFallbackIndicator(anchor, true);
     });
   }
 
