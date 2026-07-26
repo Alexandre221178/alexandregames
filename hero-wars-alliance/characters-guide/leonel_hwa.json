@@ -1,0 +1,335 @@
+{
+    "game": "Hero Wars Alliance",
+    "heroes": [
+        {
+            "id": "leonel",
+            "name": "Leonel",
+            "gender": "male",
+            "leonel_description": "A fighter who wields two blades. A master of Critical Damage who burns away his enemies' Energy.",
+            "role": ["Warrior"],
+            "main_class": "Warrior",
+            "position": "Front Line",
+            "level": 120,
+            "main_stat": "Agility",
+            "equipment_rank": 16,
+            "way": "Way of Nature",
+            "faction": "Way of Nature",
+            "realm_buff_troops": "Infantry",
+            "realm_buff": "Infantry attack/defense +120%",
+            "crowd_control_(cc)": null,
+            "damage_output": null,
+            "team_synergy": null,
+            "self_sufficiency": null,
+            "hydra_tier_list": null,
+            "hero_tier_list": null,
+            "best_synergy": "Oya, Yasmine, Guus, Byrna, Aidan, Polaris",
+            "stat_rules": {
+                "agility": {
+                    "physical_attack_per_point": 2,
+                    "armor_per_point": 1,
+                    "extra_physical_attack_per_point_when_main_stat": 1,
+                    "total_physical_attack_per_point_for_agility_hero": 3
+                }
+            },
+            "stats": {
+                "max_with_talisman_of_forgotten_paths": {
+                    "intelligence": 3527,
+                    "agility": 16622,
+                    "strength": 5172,
+                    "health": 718538,
+                    "physical_attack": 78303,
+                    "magic_attack": 25687,
+                    "physical_armor": 24232.7,
+                    "magical_armor": 10921.5,
+                    "toughness": 1860,
+                    "armor_penetration": 28674,
+                    "crit_hit_chance": 8822.8,
+                    "crushing": 4363
+                }
+            },
+            "talisman_details": {
+                "talisman_of_forgotten_paths": {
+                    "coin_talisman": 0,
+                    "display_name": "Talisman of Forgotten Paths",
+                    "border": {
+                        "level": 50,
+                        "main_stat": "Agility",
+                        "main_stat_value": 2000
+                    },
+                    "derived_bonuses": {
+                        "physical_attack": 6000,
+                        "armor": 2000
+                    },
+                    "rerolls": [
+                        { "stat": "health", "value": 60500 },
+                        { "stat": "health", "value": 60500 },
+                        { "stat": "health", "value": 60500 }
+                    ],
+                    "total_reroll_bonus": {
+                        "stat": "health",
+                        "value": 181500
+                    },
+                    "total_bonus_summary": "Agility +2000 | Physical Attack +6000 | Armor +2000 | Health +181500"
+                },
+                "recommended": "talisman_of_forgotten_paths"
+            },
+            "skills": [
+                {
+                    "id": 0,
+                    "variant": "basic_attack",
+                    "name": "Basic Attack",
+                    "type": ["Physical Damage"],
+                    "description": "Leonel's basic attack deals physical damage.",
+                    "damage": "78303 (100% Phys.atk.)",
+                    "cooldown_seconds": 5.1,
+                    "animation_delay_seconds": 0.67
+                },
+                {
+                    "id": 1,
+                    "variant": "base",
+                    "level": 120,
+                    "name": "Blades of Shadow",
+                    "type": ["Physical Damage", "Untargetable"],
+                    "keywords": ["Can't be copied"],
+                    "description": "Disappears into the shadows and delivers a series of strikes, appearing behind enemies. Each hit deals more damage than the last one. Leonel cannot be targeted by enemy attacks or abilities while the skill is active.",
+                    "cannot_be_targeted_while_active": true,
+                    "animation_delay_seconds": 0.5,
+                    "range": 3000,
+                    "first_hit_physical_damage": "94727.25 (75% Phys.atk. + 36000)",
+                    "additional_physical_damage_per_subsequent_hit": "57151.5 (50% Phys.atk. + 18000)"
+                },
+                {
+                    "id": 2,
+                    "variant": "base",
+                    "level": 120,
+                    "name": "Predator Jump",
+                    "type": ["Physical Damage", "Mark", "Shield Punish"],
+                    "description": "Attacks the nearest enemy and strikes them twice. Enemies with shields take increased damage and are afflicted with the Mark of Fate, if it has been learned.",
+                    "initial_cooldown_seconds": 5,
+                    "cooldown_seconds": 12,
+                    "animation_delay_seconds": 0.7,
+                    "range": 100,
+                    "physical_damage_per_hit": "108303 (100% Phys.atk. + 30000)",
+                    "physical_damage_per_hit_against_shielded_enemies": "324909 (300% Phys.atk. + 90000)",
+                    "applies_mark_of_fate_to_shielded_enemies": true
+                },
+                {
+                    "id": 3,
+                    "variant": "base",
+                    "level": 100,
+                    "name": "Royal Roar",
+                    "type": ["Buff"],
+                    "keywords": ["Buff"],
+                    "description": "Increases Critical Hit Chance of Leonel and the ally with the highest Physical Attack. If Leonel has the highest Physical Attack, the effect is applied only to him. In this case, his Critical Hit Chance is increased even further, and his Critical Damage is increased.",
+                    "initial_cooldown_seconds": 3,
+                    "cooldown_seconds": 12,
+                    "animation_delay_seconds": 0.8,
+                    "duration_seconds": 7,
+                    "range": 100,
+                    "critical_hit_chance_increase": "29490.9 (30% Phys.atk. + 6000)",
+                    "leonel_only_critical_hit_chance_increase": "70727.25 (75% Phys.atk. + 12000)",
+                    "leonel_only_critical_damage": "300%"
+                },
+                {
+                    "id": 4,
+                    "variant": "base",
+                    "level": 80,
+                    "name": "Mark of Fate",
+                    "type": ["Passive", "Mark", "Energy Burn"],
+                    "keywords": ["Mark"],
+                    "description": "Critical attacks apply a mark that drains enemy Energy. The higher Leonel's Critical Damage multiplier, the stronger the effect. The mark can stack multiple times.",
+                    "duration_seconds": 5.01,
+                    "hits": 20,
+                    "energy_burn_per_second": 75,
+                    "note": "Chance to apply the mark is reduced if the enemy's level is higher than 120."
+                }
+            ],
+            "realm": {
+                "troop_buff": "Infantry",
+                "realm_buff": "Attack/Defense 120%",
+                "skills": [
+                    {
+                        "id": 1,
+                        "name": "Double Blade",
+                        "level": 5,
+                        "description": "Leonel combines beastly rage and human cunning, inspiring infantry.",
+                        "effect": "Increases infantry crit chance by an unavailable percentage.",
+                        "ability_damage_description": "Temporarily unavailable."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Predator's Shadow",
+                        "level": 5,
+                        "description": "The infantry that follows Leonel tries to mimic his predatory grace.",
+                        "effect": "Every second infantry attack deals additional damage to spearmen and marksmen. Exact percentages are temporarily unavailable.",
+                        "ability_damage_description": "Temporarily unavailable."
+                    }
+                ]
+            },
+            "skins": [
+                {
+                    "name": "Default",
+                    "stat": "Agility",
+                    "bonus": 1365,
+                    "level": 60,
+                    "derived": {
+                        "physical_attack": 4095,
+                        "armor": 1365
+                    },
+                    "source": "Realm"
+                }
+            ],
+            "artifacts": [
+                {
+                    "name": "Crest of Goldmane",
+                    "slot": "Weapon",
+                    "bigStar": true,
+                    "evolve": 6,
+                    "level": 100,
+                    "activation_chance": "100%",
+                    "effect": "Armor penetration +32040",
+                    "note": "Activates with Leonel's ultimate skill."
+                },
+                {
+                    "name": "Twin Blades Codex",
+                    "slot": "Book",
+                    "bigStar": true,
+                    "evolve": 6,
+                    "level": 100,
+                    "effect": "Armor penetration +10680, Crit hit chance +1485"
+                },
+                {
+                    "name": "Ring of Agility",
+                    "slot": "Ring",
+                    "bigStar": true,
+                    "evolve": 6,
+                    "level": 100,
+                    "agility": 3990,
+                    "derived": {
+                        "physical_attack": 11970,
+                        "armor": 3990
+                    }
+                }
+            ],
+            "glyphs": {
+                "class": "Warrior",
+                "runesphere": 0,
+                "leonel2": 45,
+                "warrior_class_level": null,
+                "warrior_class_glyphs_bonuses": "Every time the warrior deals damage to enemies with a regular attack, they apply an effect to themselves that increases Physical Attack by 32589.24 (8% Phys.atk. + 26325) for 16.7 seconds. A character cannot have more than 6 effects at the same time.",
+                "glyphs_level": 80,
+                "list": [
+                    { "name": "Physical attack", "level": 80, "bonus": 8340 },
+                    { "name": "Health", "level": 80, "bonus": 122800 },
+                    { "name": "Crit hit chance", "level": 80, "bonus": 4170 },
+                    { "name": "Armor penetration", "level": 80, "bonus": 12850 },
+                    {
+                        "name": "Agility",
+                        "level": 80,
+                        "bonus": 2110,
+                        "derived": {
+                            "physical_attack": 6330,
+                            "armor": 2110
+                        }
+                    }
+                ]
+            },
+            "gift_of_the_elements": {
+                "level": 30,
+                "bonuses": {
+                    "strength": 360,
+                    "agility": 720,
+                    "intelligence": 360
+                }
+            },
+            "counters": [
+                {
+                    "hero": "Iris",
+                    "reason": "Iris is one of the strongest counters to Leonel because Mysterious Pact makes her immune to debuffs and punishes mark applications by reducing the attack stats of the enemy who applied them."
+                }
+            ],
+            "synergies": [
+                {
+                    "hero": "Oya",
+                    "reason": "Oya heals when allies land critical hits or break shields, then increases the healed ally's Critical Hit Chance. This creates a strong loop with Leonel's critical-hit-based Mark of Fate."
+                },
+                {
+                    "hero": "Yasmine",
+                    "reason": "Yasmine benefits heavily from critical hit support. Royal Roar can boost her Critical Hit Chance when she has the highest Physical Attack, creating strong double-assassin pressure."
+                },
+                {
+                    "hero": "Guus",
+                    "reason": "Guus adds healing and Critical Hit Chance support, helping Leonel keep Mark of Fate active more often."
+                },
+                {
+                    "hero": "Byrna",
+                    "reason": "Byrna adds healing, sustain, and energy support, giving Leonel more time to dismantle the enemy front line."
+                }
+            ],
+            "best_teams": [
+                {
+                    "rank": 1,
+                    "label": "Leonel Best Team 2026 #1",
+                    "heroes": [
+                        { "hero": "Aidan", "talisman": "Talisman 2" },
+                        { "hero": "Polaris", "talisman": "Talisman 2" },
+                        { "hero": "Guus", "talisman": "Talisman 2" },
+                        { "hero": "Byrna", "talisman": "Talisman 1" },
+                        { "hero": "Leonel", "talisman": "Talisman 1" }
+                    ],
+                    "testing_note": "One of Leonel's strongest current meta teams. Leonel pressures tanks and shield-heavy defenders such as Julius, while Guus, Byrna, Aidan, and Polaris provide healing, shields, control, damage, and critical support. In battle testing, this team also performed very well against Crow lineups."
+                },
+                {
+                    "rank": 2,
+                    "label": "Other Leonel Team",
+                    "heroes": [
+                        { "hero": "Byrna" },
+                        { "hero": "Yasmine" },
+                        { "hero": "Leonel" },
+                        { "hero": "Oya" },
+                        { "hero": "Electra" }
+                    ]
+                },
+                {
+                    "rank": 3,
+                    "label": "Other Leonel Team",
+                    "heroes": [
+                        { "hero": "Fafnir" },
+                        { "hero": "Byrna" },
+                        { "hero": "Yasmine" },
+                        { "hero": "Leonel" },
+                        { "hero": "Electra" }
+                    ]
+                },
+                {
+                    "rank": 4,
+                    "label": "Other Leonel Team",
+                    "heroes": [
+                        { "hero": "Guus" },
+                        { "hero": "Byrna" },
+                        { "hero": "Leonel" },
+                        { "hero": "Oya" },
+                        { "hero": "Julius" }
+                    ]
+                }
+            ],
+            "acquisition": {
+                "source": "Realm",
+                "required_player_level": 80,
+                "notes": [
+                    "Leonel can be acquired exclusively through Realm content.",
+                    "Soul Stones, skins, artifacts, and red-rank equipment materials are tied to Realm progression.",
+                    "Red-rank equipment materials can be obtained through rallies and by defeating monsters."
+                ]
+            },
+            "notes": [
+                "Leonel is a front-line Warrior from the Way of Nature focused on Critical Damage and Energy burn.",
+                "Mark of Fate is the core of his kit: critical attacks apply marks that burn enemy Energy and can stack multiple times.",
+                "Predator Jump makes Leonel especially dangerous against shielded enemies because shielded targets take increased damage and receive Mark of Fate if it has been learned.",
+                "For PvP, Leonel has been performing very strongly on both defense and attack.",
+                "Leonel pode também ser uma ameaça para Julius no Realm uma vez que Julius tem skills do realm e sera bastante usado, As skills base do julius protege os aliados com escudo e as skill de realm do julius protege as tropas com escudo. eliminando julius rapido as tropas perdem o escudo.",
+                "From Alexandre's point of view, Leonel is currently one of the best free-to-play heroes because players can unlock him by doing Realm missions, but Realm is only available starting at player level 80."
+            ]
+        }
+    ]
+}
