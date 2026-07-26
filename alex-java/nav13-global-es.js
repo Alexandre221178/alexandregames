@@ -163,6 +163,8 @@ document.addEventListener('DOMContentLoaded', () => {
             <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-es.html">Guía Completa del Reino</a>
             <a href="https://alexandregames.com/hero-wars-alliance/tier-list-hwa/realm-tier-list-es.html">Tier List del Reino</a>
             <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-pve-best-teams-es.html">Mejores equipos Rally y Monstruo</a>
+            <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-brown-squares-map-es.html">Cuadrados Marrones: Qué Significan</a>
+            <a href="https://alexandregames.com/hero-wars-alliance/guide/fort-guide-realm-es.html">Guía de Fuertes del Reino</a>
         </div>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-review-en-hwa.html">🎨 Consejos de Eventos y Reseñas</a>
         <a href="https://alexandregames.com/hero-wars-alliance/event-special-hwa/satori-cascade-orm-season-en.html">🧭 Guía de Temporada - Satori, Cascade & Orm</a>

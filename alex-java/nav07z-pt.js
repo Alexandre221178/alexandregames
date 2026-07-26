@@ -23,7 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
             <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-pt.html">Guia Completo do Reino</a>
             <a href="https://alexandregames.com/hero-wars-alliance/tier-list-hwa/realm-tier-list-pt.html">Tier List do Reino</a>
             <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-pve-best-teams-pt.html">Melhores equipes para Rally e Monstro</a>
-
+            <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-brown-squares-map-pt.html">Quadrados Marrons: O Que Significam</a>
+            <a href="https://alexandregames.com/hero-wars-alliance/guide/fort-guide-realm-pt.html">Guia dos Fortes do Reino</a>
+       
         </div>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-review-pt-hwa.html">🎨 Análises, Dicas e Estratégias</a>
         <a href="https://alexandregames.com/Hero%20Wars/Guia%20de%20Titans.html">⚔️ Guia de Titãs</a>

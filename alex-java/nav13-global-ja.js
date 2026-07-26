@@ -163,6 +163,8 @@ document.addEventListener('DOMContentLoaded', () => {
             <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-ja.html">レルム完全ガイド</a>
             <a href="https://alexandregames.com/hero-wars-alliance/tier-list-hwa/realm-tier-list-ja.html">レルムティアリスト</a>
             <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-pve-best-teams-ja.html">最高のチーム（ラリー＆モンスター）</a>
+            <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-brown-squares-map-ja.html">茶色マス：その意味</a>
+            <a href="https://alexandregames.com/hero-wars-alliance/guide/fort-guide-realm-ja.html">レルム要塞ガイド</a>
         </div>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-review-en-hwa.html">🎨 イベント攻略とレビュー</a>
         <a href="https://alexandregames.com/hero-wars-alliance/event-special-hwa/satori-cascade-orm-season-en.html">🧭 シーズンガイド - サトリ、カスケード、オーム</a>
