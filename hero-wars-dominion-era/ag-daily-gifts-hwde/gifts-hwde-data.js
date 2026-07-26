@@ -14,6 +14,9 @@
  note:'until|2026-07-##T02:00:00Z', rewards:['energy x500'] },
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 */window.HWDE_GIFTS = [
+// 2026-06-26── Novo herói Exclusivo Web/FB com link──────────────────────────────
+  { date:'2026-07-26', type:'link', giftLinkWeb:'https://herowars.me/4wqDaEY', giftLinkFb:'https://herowars.me/4yEF5am', note:'until|2026-0#-0#T02:00:00Z',
+  rewards:['energy-crystal x16', 'valor-coin x8500', 'sapphire-medallion x2' ] },
 
   // ── July 25, 2026 ──────────────────────────────
   { date:'2026-07-25', type:'link', giftId:'b1ac004312d389d1ca0fadb22f076b40', note:'level',
@@ -157,11 +160,7 @@ https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 { date:'2026-##-##', type:'link', giftWebId:'#####', note:'until|2026-##-##T02:00:00Z',
   rewards:['valor-coin x1000'] },
 
-  // ── Gifts New hero or titan ──────────────────────────────
- { date:'2026-0#-##', type:'link', giftId:'#####', note:'until|2026-0#-0#T02:00:00Z',
-  rewards:['energy-crystal x16', 'valor-coin x8000', 'sapphire-medallion x1'] },
-
-  // ── Code Gift Type ──────────────────────────────
+    // ── Code Gift Type ──────────────────────────────
 { date:'2026-04-06', type:'code', code:'EGGHNT', note:'until|2026-##-##T02:00:00Z', expired:true,
   rewards:['easter-key x5', 'soul-crystal x10'] },
 
@@ -173,10 +172,14 @@ https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 { date:'2026-05-14', type:'link', giftLinkWeb:'https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa3BlbXdoZ2Z3UmhaVTJTMjJURzk4ZHVJeHQ3QXxBQ3Jtc0tsQnBjUGwzOE5Cc044c0lFWXp3a2JlWk5MbGFQR3RaZXdwa3dCUWpPYzlMcWo3S1EzY1hZaGtQQXJIN014bzY4akxBSEx5YjNvSDBfdmhUamhzdFZ5OXRZdWduYnVVWW9ZNjUwU0c3YUgtSk13UjQ1bw&q=https%3A%2F%2Fwww.hero-wars.com%2F%3Fnx_source%3Dgroup_posting_boxweb%26gift_id%3D8PdgKQBHWP&v=6ICF5LDfVTo',
    giftLinkFb:'https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbl9yMHZwSGhzWDRJcmJqajlEZTlHSU5nMy1RUXxBQ3Jtc0trSXdxaUNDb1pEOGFkUzMxOTFaV0MyUHFZckZoaVZSSFFuUnVSLVhGS3hlUVFPUGhhOEtfNkFYYVBFRndDeGk3elhtZGZkMTRMczc1QWtKcDlRaGN2eW0yMXktXzVjQ25UeVFpU21DNVp6WnVLX2pnbw&q=https%3A%2F%2Ffb.gg%2Fplay%2Fmobaheroes%2Fd%2F4546179685671400%2F&v=6ICF5LDfVTo', note:'until|2026-05-03T02:00:00Z',
   note:'until|2026-##-##T02:00:00Z', rewards:['large-skin-stone-chest x5', 'portal-charge x3']
- },
+ },3
  
- // 2026-06-##── 2 Link Exclusivo Web/FB ──────────────────────────────
-  { date:'2026-06-24', type:'link', giftLinkWeb:'https://herowars.me/4vt3gXh', giftLinkFb:'https://herowars.me/4oPNbIO', note:'until|2026-07-01T02:00:00Z',
+// ── Gifts Novo herói ou titan com ID ──────────────────────────────
+ { date:'2026-0#-##', type:'link', giftId:'#####', note:'until|2026-0#-0#T02:00:00Z',
+  rewards:['energy-crystal x16', 'valor-coin x8000', 'sapphire-medallion x1'] },
+
+ // 2026-##-##── Novo herói Exclusivo Web/FB com link──────────────────────────────
+  { date:'2026-##-##', type:'link', giftLinkWeb:'https://herowars.me/#w#', giftLinkFb:'https://herowars.me/#d#', note:'until|2026-##-##T02:00:00Z',
   rewards:['energy-crystal x16', 'valor-coin x8500', 'sapphire-medallion x2','energy x500' ] },
 
 
