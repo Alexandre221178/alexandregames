@@ -1,5 +1,5 @@
 /* HWDE Daily Gifts Data - npm run update-gifts-hwde
-
+https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 // ── July #, 2026 ─────────────────────────────
    { date:'2026-07-##', type:'link', giftId:'######', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
@@ -14,6 +14,9 @@
  note:'until|2026-07-##T02:00:00Z', rewards:['energy x500'] },
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 */window.HWDE_GIFTS = [
+   // ── July #, 2026 ──────────────────────────────
+  { date:'2026-07-26', type:'link', giftId:'aab208dd75dcd9263132943aeec0ec28', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },
 // 2026-06-26── Novo herói Exclusivo Web/FB com link──────────────────────────────
   { date:'2026-07-26', type:'link', giftLinkWeb:'https://herowars.me/4wqDaEY', giftLinkFb:'https://herowars.me/4yEF5am', note:'until|2026-0#-0#T02:00:00Z',
   rewards:['energy-crystal x16', 'valor-coin x8500', 'sapphire-medallion x2' ] },
