@@ -12,6 +12,15 @@
       strong: "Guide: Fort - Hero Wars Alliance",
       updated: "Updated: July, 2026."
     },      
+    {
+      link: "/hero-wars-alliance/characters-guide/guus-en.html",
+      src500: "/hero-wars-alliance/images/hero/guus/guus-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/guus/guus-400px.webp",
+      alt: "Guus Guide for Hero Wars Alliance",
+      title: "Guus Guide for Hero Wars Alliance",
+      strong: "Guide: Guus for Hero Wars Alliance",
+      updated: "Updated: July, 2026."
+    },     
     
     {
       link: "/hero-wars-alliance/characters-guide/tristan-en.html",
