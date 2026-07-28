@@ -835,7 +835,21 @@ links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../.
     alt: "👑 Lords of the Elements Event Group",
    titles: { en: "👑 Lords of the Elements Events", pt: "👑 Eventos dos Senhores dos Elementos", de: "👑 Ereignisse der Herrscher der Elemente", es: "👑 Eventos de los Señores de los Elementos", fr: "👑 Événements des Seigneurs des Éléments", ja: "👑 エレメントロードイベント" },   links: { en: "#section6", pt: "#section6", de: "#section6", es: "#section6", fr: "#section6", ja: "#section6" },
     extra: [
-
+{
+  titles: { en: "🌪️ Lord of the Elements - KI1", pt: "🌪️ Senhor dos Elementos - KI1", de: "🌪️ Herr der Elemente - KI1", es: "🌪️ Señor de los Elementos - KI1", fr: "🌪️ Seigneur des Éléments - KI1", ja: "🌪️ エレメンタルロード - KI1" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "🌪️ Lord of the Elements - KI2", pt: "🌪️ Senhor dos Elementos - KI2", de: "🌪️ Herr der Elemente - KI2", es: "🌪️ Señor de los Elementos - KI2", fr: "🌪️ Seigneur des Éléments - KI2", ja: "🌪️ エレメンタルロード - KI2" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "🌪️ Lord of the Elements - KI3", pt: "🌪️ Senhor dos Elementos - KI3", de: "🌪️ Herr der Elemente - KI3", es: "🌪️ Señor de los Elementos - KI3", fr: "🌪️ Seigneur des Éléments - KI3", ja: "🌪️ エレメンタルロード - KI3" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
     ]
   },
   {
@@ -845,6 +859,21 @@ links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../.
     alt: "👑 Lords of the Elements Event Group",
    titles: { en: "👑 Lords of the Elements Events", pt: "👑 Eventos dos Senhores dos Elementos", de: "👑 Ereignisse der Herrscher der Elemente", es: "👑 Eventos de los Señores de los Elementos", fr: "👑 Événements des Seigneurs des Éléments", ja: "👑 エレメントロードイベント" },   links: { en: "#section6", pt: "#section6", de: "#section6", es: "#section6", fr: "#section6", ja: "#section6" },
     extra: [
+      {
+  titles: { en: "🌪️ Lord of the Elements - KI1", pt: "🌪️ Senhor dos Elementos - KI1", de: "🌪️ Herr der Elemente - KI1", es: "🌪️ Señor de los Elementos - KI1", fr: "🌪️ Seigneur des Éléments - KI1", ja: "🌪️ エレメンタルロード - KI1" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "🌪️ Lord of the Elements - KI2", pt: "🌪️ Senhor dos Elementos - KI2", de: "🌪️ Herr der Elemente - KI2", es: "🌪️ Señor de los Elementos - KI2", fr: "🌪️ Seigneur des Éléments - KI2", ja: "🌪️ エレメンタルロード - KI2" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "🌪️ Lord of the Elements - KI3", pt: "🌪️ Senhor dos Elementos - KI3", de: "🌪️ Herr der Elemente - KI3", es: "🌪️ Señor de los Elementos - KI3", fr: "🌪️ Seigneur des Éléments - KI3", ja: "🌪️ エレメンタルロード - KI3" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
       {
         titles: { en: "🟣Elemental Sphere Discount", pt: "🟣Desconto de Esferas Elementais", de: "🟣Rabatt auf Elementsphären", es: "🟣Descuento de Esferas Elementales", fr: "🟣Réduction sur les Sphères Élémentaires", ja: "🟣エレメンタルスフィア割引" },
         links: { en: "#section15", pt: "#section15", de: "#section15", es: "#section15", fr: "#section15", ja: "#section15" }
@@ -862,6 +891,21 @@ links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../.
     alt: "👑 Lords of the Elements Event Group",
    titles: { en: "👑 Lords of the Elements Events", pt: "👑 Eventos dos Senhores dos Elementos", de: "👑 Ereignisse der Herrscher der Elemente", es: "👑 Eventos de los Señores de los Elementos", fr: "👑 Événements des Seigneurs des Éléments", ja: "👑 エレメントロードイベント" },   links: { en: "#section6", pt: "#section6", de: "#section6", es: "#section6", fr: "#section6", ja: "#section6" },
     extra: [
+      {
+  titles: { en: "🌪️ Lord of the Elements - KI1", pt: "🌪️ Senhor dos Elementos - KI1", de: "🌪️ Herr der Elemente - KI1", es: "🌪️ Señor de los Elementos - KI1", fr: "🌪️ Seigneur des Éléments - KI1", ja: "🌪️ エレメンタルロード - KI1" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "🌪️ Lord of the Elements - KI2", pt: "🌪️ Senhor dos Elementos - KI2", de: "🌪️ Herr der Elemente - KI2", es: "🌪️ Señor de los Elementos - KI2", fr: "🌪️ Seigneur des Éléments - KI2", ja: "🌪️ エレメンタルロード - KI2" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "🌪️ Lord of the Elements - KI3", pt: "🌪️ Senhor dos Elementos - KI3", de: "🌪️ Herr der Elemente - KI3", es: "🌪️ Señor de los Elementos - KI3", fr: "🌪️ Seigneur des Éléments - KI3", ja: "🌪️ エレメンタルロード - KI3" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
      {
         titles: { en: "🟣Elemental Sphere Discount", pt: "🟣Desconto de Esferas Elementais", de: "🟣Rabatt auf Elementsphären", es: "🟣Descuento de Esferas Elementales", fr: "🟣Réduction sur les Sphères Élémentaires", ja: "🟣エレメンタルスフィア割引" },
         links: { en: "#section15", pt: "#section15", de: "#section15", es: "#section15", fr: "#section15", ja: "#section15" }
@@ -879,6 +923,21 @@ links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../.
     alt: "👑 Lords of the Elements Event Group",
    titles: { en: "👑 Lords of the Elements Events", pt: "👑 Eventos dos Senhores dos Elementos", de: "👑 Ereignisse der Herrscher der Elemente", es: "👑 Eventos de los Señores de los Elementos", fr: "👑 Événements des Seigneurs des Éléments", ja: "👑 エレメントロードイベント" },   links: { en: "#section6", pt: "#section6", de: "#section6", es: "#section6", fr: "#section6", ja: "#section6" },
     extra: [
+      {
+  titles: { en: "🌪️ Lord of the Elements - KI1", pt: "🌪️ Senhor dos Elementos - KI1", de: "🌪️ Herr der Elemente - KI1", es: "🌪️ Señor de los Elementos - KI1", fr: "🌪️ Seigneur des Éléments - KI1", ja: "🌪️ エレメンタルロード - KI1" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "🌪️ Lord of the Elements - KI2", pt: "🌪️ Senhor dos Elementos - KI2", de: "🌪️ Herr der Elemente - KI2", es: "🌪️ Señor de los Elementos - KI2", fr: "🌪️ Seigneur des Éléments - KI2", ja: "🌪️ エレメンタルロード - KI2" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "🌪️ Lord of the Elements - KI3", pt: "🌪️ Senhor dos Elementos - KI3", de: "🌪️ Herr der Elemente - KI3", es: "🌪️ Señor de los Elementos - KI3", fr: "🌪️ Seigneur des Éléments - KI3", ja: "🌪️ エレメンタルロード - KI3" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
      {
         titles: { en: "🟣Elemental Sphere Discount", pt: "🟣Desconto de Esferas Elementais", de: "🟣Rabatt auf Elementsphären", es: "🟣Descuento de Esferas Elementales", fr: "🟣Réduction sur les Sphères Élémentaires", ja: "🟣エレメンタルスフィア割引" },
         links: { en: "#section15", pt: "#section15", de: "#section15", es: "#section15", fr: "#section15", ja: "#section15" }
