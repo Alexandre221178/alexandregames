@@ -14,6 +14,13 @@ https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
  note:'until|2026-07-##T02:00:00Z', rewards:['energy x500'] },
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 */window.HWDE_GIFTS = [
+// ── 1 Link Exclusivo so giftWebId diferente de weblink esse so coloca o id ──────────────────────────────
+{ date:'2026-07-28', type:'link', giftWebId:'NhbomcK49j', note:'until|2026-##-##T02:00:00Z',
+  rewards:['valor-coin x10000'] },
+
+  // 2026-07-28── 2 Link Exclusivo Web/FB ──────────────────────────────
+{ date:'2026-07-28', type:'link', giftLinkWeb:'https://herowars.me/4fUpHPE', giftLinkFb:'https://herowars.me/4wqLwfK',
+ note:'until|2026-07-30T02:00:00Z', rewards:['energy x500'] },
    // ── July 27, 2026 ─────────────────────────────
    { date:'2026-07-27', type:'link', giftId:'97dc1799c18f0271f5d20ee4b4cabf63', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
@@ -167,7 +174,7 @@ https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 
   // ── 1 Link Exclusivo so giftWebId diferente de weblink esse so coloca o id ──────────────────────────────
 { date:'2026-##-##', type:'link', giftWebId:'#####', note:'until|2026-##-##T02:00:00Z',
-  rewards:['valor-coin x1000'] },
+  rewards:['valor-coin x10000'] },
 
     // ── Code Gift Type ──────────────────────────────
 { date:'2026-04-06', type:'code', code:'EGGHNT', note:'until|2026-##-##T02:00:00Z', expired:true,
