@@ -3,7 +3,7 @@ const giveawayData = {
   pt: {
     title: "🚨 SORTEIO EXCLUSIVO: CANAL ALEXANDRE GAMES OFICIAL 🚨",
     para1: "Sorteio exclusivo para os inscritos no <b>canal Alexandre Games Oficial no YouTube!</b> 🎉 Participe para concorrer a recompensas incriveis e mostrar seu amor por Hero Wars: Dominion Era. Confira os detalhes abaixo e boa sorte a todos os participantes! 🍀",
-    para2: "<p><b>📝 COMO PARTICIPAR:</b></p><ol><li>1️⃣ <strong>Acesse o video</strong> pelo link abaixo.</li><li>2️⃣ <strong>Envie seu ID</strong> nos comentarios do video para validar sua participacao.</li><li>3️⃣ O sorteio acontece, <b> terca 26 de Julho!</b></li></ol>",
+    para2: "<p><b>📝 COMO PARTICIPAR:</b></p><ol><li>1️⃣ <strong>Acesse o video</strong> pelo link abaixo.</li><li>2️⃣ <strong>Envie seu ID</strong> nos comentarios do video para validar sua participacao.</li><li>3️⃣ O sorteio acontece, <b> quarta-feira 29 de Julho!</b></li></ol>",
     para3: "<a href=\"https://youtu.be/t_U_me5ahHc\" target=\"_blank\" style=\"background-color: #f30808; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">Acessar video da Somna no YouTube</a>",
     para4: "",
     rewardsTitle: "RECOMPENSAS DO SORTEIO MENSAL: CANAL ALEXANDRE GAMES",
@@ -28,7 +28,7 @@ const giveawayData = {
   en: {
     title: "🚨 EXCLUSIVE GIVEAWAY: OFFICIAL ALEXANDRE GAMES CHANNEL 🚨",
     para1: "Exclusive giveaway for subscribers to the <b>Official Alexandre Games YouTube channel!</b> 🎉 Enter for a chance to win amazing rewards and show your love for Hero Wars: Dominion Era. Check the details below, and good luck to all participants! 🍀",
-    para2: "<p><b>📝 HOW TO PARTICIPATE:</b></p><ol><li>1️⃣ <strong>Open the video</strong> using the link below.</li><li>2️⃣ <strong>Post your ID</strong> in the video comments to validate your participation.</li><li>3️⃣ The giveaway takes place on <b>Tuesday, July 26!</b></li></ol>",
+    para2: "<p><b>📝 HOW TO PARTICIPATE:</b></p><ol><li>1️⃣ <strong>Open the video</strong> using the link below.</li><li>2️⃣ <strong>Post your ID</strong> in the video comments to validate your participation.</li><li>3️⃣ The giveaway takes place on <b>Wednesday, July 29!</b></li></ol>",
     para3: "<a href=\"https://youtu.be/t_U_me5ahHc\" target=\"_blank\" style=\"background-color: #f30808; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">Open Somna's video on YouTube</a>",
     para4: "",
     rewardsTitle: "MONTHLY GIVEAWAY REWARDS: ALEXANDRE GAMES CHANNEL",
@@ -53,7 +53,7 @@ const giveawayData = {
   de: {
     title: "🚨 EXKLUSIVES GEWINNSPIEL: OFFIZIELLER ALEXANDRE GAMES KANAL 🚨",
     para1: "Exklusives Gewinnspiel für Abonnenten des <b>offiziellen YouTube-Kanals von Alexandre Games!</b> 🎉 Mach mit, um fantastische Belohnungen zu gewinnen und deine Liebe zu Hero Wars: Dominion Era zu zeigen. Sieh dir die Details unten an, und viel Glück an alle Teilnehmer! 🍀",
-    para2: "<p><b>📝 SO NIMMST DU TEIL:</b></p><ol><li>1️⃣ <strong>Öffne das Video</strong> über den untenstehenden Link.</li><li>2️⃣ <strong>Poste deine ID</strong> in den Kommentaren des Videos, um deine Teilnahme zu bestätigen.</li><li>3️⃣ Das Gewinnspiel findet am <b>Dienstag, den 26. Juli, statt!</b></li></ol>",
+    para2: "<p><b>📝 SO NIMMST DU TEIL:</b></p><ol><li>1️⃣ <strong>Öffne das Video</strong> über den untenstehenden Link.</li><li>2️⃣ <strong>Poste deine ID</strong> in den Kommentaren des Videos, um deine Teilnahme zu bestätigen.</li><li>3️⃣ Das Gewinnspiel findet am <b>Mittwoch, den 29. Juli, statt!</b></li></ol>",
     para3: "<a href=\"https://youtu.be/t_U_me5ahHc\" target=\"_blank\" style=\"background-color: #f30808; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">Somna-Video auf YouTube öffnen</a>",
     para4: "",
     rewardsTitle: "MONATLICHE GEWINNSPIEL-BELOHNUNGEN: ALEXANDRE GAMES KANAL",
@@ -78,7 +78,7 @@ const giveawayData = {
   es: {
     title: "🚨 SORTEO EXCLUSIVO: CANAL OFICIAL DE ALEXANDRE GAMES 🚨",
     para1: "¡Sorteo exclusivo para los suscriptores del <b>canal oficial de Alexandre Games en YouTube!</b> 🎉 Participa para tener la oportunidad de ganar recompensas increíbles y demostrar tu amor por Hero Wars: Dominion Era. Revisa los detalles a continuación, ¡y mucha suerte a todos los participantes! 🍀",
-    para2: "<p><b>📝 CÓMO PARTICIPAR:</b></p><ol><li>1️⃣ <strong>Abre el video</strong> usando el enlace de abajo.</li><li>2️⃣ <strong>Publica tu ID</strong> en los comentarios del video para validar tu participación.</li><li>3️⃣ El sorteo se realizará el <b>martes 26 de julio.</b></li></ol>",
+    para2: "<p><b>📝 CÓMO PARTICIPAR:</b></p><ol><li>1️⃣ <strong>Abre el video</strong> usando el enlace de abajo.</li><li>2️⃣ <strong>Publica tu ID</strong> en los comentarios del video para validar tu participación.</li><li>3️⃣ El sorteo se realizará el <b>miércoles 29 de julio.</b></li></ol>",
     para3: "<a href=\"https://youtu.be/t_U_me5ahHc\" target=\"_blank\" style=\"background-color: #f30808; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">Ver el video de Somna en YouTube</a>",
     para4: "",
     rewardsTitle: "RECOMPENSAS DEL SORTEO MENSUAL: CANAL ALEXANDRE GAMES",
@@ -103,7 +103,7 @@ const giveawayData = {
   fr: {
     title: "🚨 CONCOURS EXCLUSIF : CHAÎNE OFFICIELLE ALEXANDRE GAMES 🚨",
     para1: "Concours exclusif réservé aux abonnés de la <b>chaîne YouTube officielle Alexandre Games !</b> 🎉 Participez pour tenter de gagner des récompenses incroyables et montrer votre amour pour Hero Wars: Dominion Era. Consultez les détails ci-dessous, et bonne chance à tous les participants ! 🍀",
-    para2: "<p><b>📝 COMMENT PARTICIPER :</b></p><ol><li>1️⃣ <strong>Ouvrez la vidéo</strong> via le lien ci-dessous.</li><li>2️⃣ <strong>Publiez votre ID</strong> dans les commentaires de la vidéo pour valider votre participation.</li><li>3️⃣ Le tirage au sort aura lieu le <b>mardi 26 juillet !</b></li></ol>",
+    para2: "<p><b>📝 COMMENT PARTICIPER :</b></p><ol><li>1️⃣ <strong>Ouvrez la vidéo</strong> via le lien ci-dessous.</li><li>2️⃣ <strong>Publiez votre ID</strong> dans les commentaires de la vidéo pour valider votre participation.</li><li>3️⃣ Le tirage au sort aura lieu le <b>mercredi 29 juillet !</b></li></ol>",
     para3: "<a href=\"https://youtu.be/t_U_me5ahHc\" target=\"_blank\" style=\"background-color: #f30808; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">Voir la vidéo de Somna sur YouTube</a>",
     para4: "",
     rewardsTitle: "RECOMPENSES DU GIVEAWAY MENSUEL : CHAINE ALEXANDRE GAMES",
@@ -128,7 +128,7 @@ const giveawayData = {
   ja: {
     title: "🚨 Alexandre Games公式YouTubeチャンネル限定プレゼント企画 🚨",
     para1: "<b>Alexandre Games公式YouTubeチャンネル</b>の登録者限定プレゼント企画です！🎉 豪華報酬を獲得して、Hero Wars: Dominion Eraへの愛を示すチャンスです。以下の詳細を確認して、ぜひご参加ください。皆さんの幸運を祈ります！🍀",
-    para2: "<p><b>📝 参加方法:</b></p><ol><li>1️⃣ <strong>下のリンクから動画を開く</strong></li><li>2️⃣ <strong>動画のコメント欄にあなたのIDを投稿</strong>して参加を有効にする</li><li>3️⃣ 抽選は<b>7月26日（火）</b>に行われます。</li></ol>",
+    para2: "<p><b>📝 参加方法:</b></p><ol><li>1️⃣ <strong>下のリンクから動画を開く</strong></li><li>2️⃣ <strong>動画のコメント欄にあなたのIDを投稿</strong>して参加を有効にする</li><li>3️⃣ 抽選は<b>7月29日（水）</b>に行われます。</li></ol>",
     para3: "<a href=\"https://youtu.be/t_U_me5ahHc\" target=\"_blank\" style=\"background-color: #f30808; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">YouTubeでソムナの動画を見る</a>",
     para4: "",
     rewardsTitle: "月間ギブアウェイ報酬: ALEXANDRE GAMESチャンネル",
