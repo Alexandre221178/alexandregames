@@ -1,26 +1,15 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
-    
-    
     {
-      link: "/hero-wars-alliance/guide/fort-guide-realm-en.html",
-      src500: "/hero-wars-alliance/images/guides/fort-guide-realm/fort-guide-realm-500px.webp",
-      src400: "/hero-wars-alliance/images/guides/fort-guide-realm/fort-guide-realm-400px.webp",
-      alt: "Fort Guide for Hero Wars Alliance",
-      title: "Fort Guide for Hero Wars Alliance",
-      strong: "Guide: Fort - Hero Wars Alliance",
+      link: "/hero-wars-alliance/guide/best-farms-hwa-en.html",
+      src500: "/hero-wars-alliance/images/guides/best-farms-hwa/best-farms-hwa-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/best-farms-hwa/best-farms-hwa-400px.webp",
+      alt: "Most Players Don’t Know These SECRET FARMS for Hero Wars Alliance",
+      title: "Most Players Don’t Know These SECRET FARMS for Hero Wars Alliance",
+      strong: "Most Players Don’t Know These SECRET FARMS - Hero Wars Alliance",
       updated: "Updated: July, 2026."
     },      
-    {
-      link: "/hero-wars-alliance/characters-guide/guus-en.html",
-      src500: "/hero-wars-alliance/images/hero/guus/guus-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/guus/guus-400px.webp",
-      alt: "Guus Guide for Hero Wars Alliance",
-      title: "Guus Guide for Hero Wars Alliance",
-      strong: "Guide: Guus for Hero Wars Alliance",
-      updated: "Updated: July, 2026."
-    },    
     {
       link: "/hero-wars-alliance/events-tips-hwa/guus-champions-gallery-en.html",
       src500: "/hero-wars-alliance/images/events-tips-hwa/champions-gallery/champions-gallery-500px-1.webp",
@@ -30,6 +19,26 @@
       strong: "Guide: Guus Champions Gallery - What to Buy?",
       updated: "Updated: July, 2026."
     }, 
+     {
+      link: "/hero-wars-alliance/characters-guide/guus-en.html",
+      src500: "/hero-wars-alliance/images/hero/guus/guus-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/guus/guus-400px.webp",
+      alt: "Guus Guide for Hero Wars Alliance",
+      title: "Guus Guide for Hero Wars Alliance",
+      strong: "Guide: Guus for Hero Wars Alliance",
+      updated: "Updated: July, 2026."
+    },        
+    {
+      link: "/hero-wars-alliance/guide/fort-guide-realm-en.html",
+      src500: "/hero-wars-alliance/images/guides/fort-guide-realm/fort-guide-realm-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/fort-guide-realm/fort-guide-realm-400px.webp",
+      alt: "Fort Guide for Hero Wars Alliance",
+      title: "Fort Guide for Hero Wars Alliance",
+      strong: "Guide: Fort - Hero Wars Alliance",
+      updated: "Updated: July, 2026."
+    },      
+   
+    
     
     {
       link: "/hero-wars-alliance/characters-guide/tristan-en.html",
@@ -241,7 +250,8 @@
         'Complete Talisman Guide': 'Guia Completo de Talismãs',  'everyday': 'todos os dias', 'How to Play': 'Como Jogar',
         'monthly': 'mensalmente', 'How to Get the': 'Como Obter a', 'Talisman': 'Talismã',
         'Calendar': 'Calendário', 'priorities': 'prioridades', 'Realm': 'Reino', 'Brown Squares': 'Quadrados Marrons', 'Map': 'Mapa',
-        'New': 'Nova', 'and': 'e', 'Strategy': 'Estratégia',
+        'New': 'Nova', 'and': 'e', 'Strategy': 'Estratégia', 
+        'Most Players Don’t Know These SECRET FARMS': 'A Maioria dos Jogadores Não Conhece Estas FARMS SECRETAS', 
         'Adventure Shop Tips': 'Dicas da Loja de Aventura', 'Event': 'Evento ',
         'What to Buy': 'O que Comprar', 'What to do?': 'O que fazer?', 
         'Which is better': 'Qual é o Melhor',
@@ -270,6 +280,7 @@
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Canjea tus Regalos Diarios para Hero Wars Alliance',
         'Complete Talisman Guide': 'Guía completa de talismanes:', 'priorities': 'prioridades', 'Realm': 'Reino', 'Brown Squares': 'Cuadrados marrones', 'Map': 'Mapa',
         'everyday': 'todos los días', 'How to Play': 'Cómo Jugar', 'Talisman': 'Talismán',
+        'Most Players Don’t Know These SECRET FARMS': 'La mayoría de los jugadores no conoce estas GRANJAS SECRETAS', 
         'monthly': 'mensalmente', 'How to Get the': 'Cómo Obtener la',
         'Calendar': 'Calendario', 'Strategy': 'Estrategia',
         'New': 'Nueva', 'and': 'y', 'Event': 'Evento ',
@@ -282,6 +293,8 @@
     fr: {
       updatedPrefix: 'Mis à jour:',
       map: {
+         'Most Players Don’t Know These SECRET FARMS': 'La plupart des joueurs ne connaissent pas ces FERMES SECRÈTES', 
+
         'Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance': 'Guide de l’événement Skin+ Reflets Astraux de Lian - Que acheter ? (Anglais) pour Hero Wars Alliance',
         'Balance of Power Event Group Guide': 'Guide de l’événement « Équilibre des pouvoirs »',
         'Sanctum of Balance Shop Guide for Hero Wars Alliance': 'Guide de la Loja du Sanctum of Balance pour Hero Wars Alliance',
@@ -313,6 +326,7 @@
  de: {
       updatedPrefix: 'Aktualisiert:',
       map: {
+                 'Most Players Don’t Know These SECRET FARMS': 'Die meisten Spieler kennen diese GEHEIMEN FARMEN nicht', 
         'Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance': 'Leitfaden zum Event „Lian Astral Reflections Skin+“ - Was kaufen? (Englisch) für Hero Wars Alliance',
         'Sanctum of Balance Shop Guide for Hero Wars Alliance': 'Leitfaden zur Loja do Sanctum of Balance für Hero Wars Alliance',
  'Balance of Power Event Group Guide': 'Leitfaden zum Event „Machtgleichgewicht“',
@@ -344,6 +358,8 @@
     ja: {
       updatedPrefix: '更新:',
       map: {
+'Most Players Don’t Know These SECRET FARMS': 'ほとんどのプレイヤーが知らない秘密の農場', 
+  
        'Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance': 'リアン 星界の反射スキン+イベントガイド - 何を買うべき？（英語）Hero Wars Alliance向け',
           'Sanctum of Balance Shop Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのサンクタム・オブ・バランスショップガイド',
  'Balance of Power Event Group Guide': '「力の均衡」イベント・グループ・ガイド',

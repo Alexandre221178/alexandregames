@@ -38,8 +38,11 @@
  
     "update-when-worlds-collide-hwa": "node hero-wars-alliance/update-data-menu-hwa.js event-hwa when-worlds-collide",
 
+
+    
     "update-damage-over-time-hwa": "node hero-wars-alliance/update-data-menu-hwa.js review damage-over-time",
 
+    "update-best-farms-hwa-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide best-farms-hwa",
 
     "update-heroes-guide-hwa-hwa": "node hero-wars-alliance/update-data-menu-hwa.js menu-hwa heroes-guide-hwa",
 
