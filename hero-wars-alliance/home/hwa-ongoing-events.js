@@ -1,6 +1,33 @@
 (function(){
   // Active Ascendant Glory guides shown below the main calendar carousel.
   var slides = [
+     {
+      link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-titans-roar-en.html",
+      src500: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki1-titans-roar-500px.webp",
+      src400: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki1-titans-roar-400px.webp",
+      alt: "Lords of the Elements: Titan's Roar Guide for Hero Wars Alliance",
+      title: "Lords of the Elements: Titan's Roar Guide for Hero Wars Alliance",
+      strong: "Lords of the Elements: Titan's Roar Guide",
+      updated: "Updated: July 29, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-elemental-tempest-en.html",
+      src500: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki2-elemental-tempest-500px.webp",
+      src400: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki2-elemental-tempest-400px.webp",
+      alt: "Lords of the Elements: Elemental Tempest Guide for Hero Wars Alliance",
+      title: "Lords of the Elements: Elemental Tempest Guide for Hero Wars Alliance",
+      strong: "Lords of the Elements: Elemental Tempest Guide",
+      updated: "Updated: July 29, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-united-by-power-en.html",
+      src500: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki3-united-by-power-500px.webp",
+      src400: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki3-united-by-power-400px.webp",
+      alt: "Lords of the Elements: United by Power Guide for Hero Wars Alliance",
+      title: "Lords of the Elements: United by Power Guide for Hero Wars Alliance",
+      strong: "LLords of the Elements: United by Power Guide",
+      updated: "Updated: July 29, 2026."
+    },
     {
       link: "/hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html",
       src500: "/hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-500px.webp",
