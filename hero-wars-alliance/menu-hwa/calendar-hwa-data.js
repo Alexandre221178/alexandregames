@@ -836,18 +836,18 @@ links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../.
    titles: { en: "👑 Lords of the Elements Events", pt: "👑 Eventos dos Senhores dos Elementos", de: "👑 Ereignisse der Herrscher der Elemente", es: "👑 Eventos de los Señores de los Elementos", fr: "👑 Événements des Seigneurs des Éléments", ja: "👑 エレメントロードイベント" },   links: { en: "#section6", pt: "#section6", de: "#section6", es: "#section6", fr: "#section6", ja: "#section6" },
     extra: [
 {
-  titles: { en: "🌪️ Lord of the Elements - KI1", pt: "🌪️ Senhor dos Elementos - KI1", de: "🌪️ Herr der Elemente - KI1", es: "🌪️ Señor de los Elementos - KI1", fr: "🌪️ Seigneur des Éléments - KI1", ja: "🌪️ エレメンタルロード - KI1" },
-  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌪️ Titan's Roar", pt: "🌪️ Rugido do Titã", de: "🌪️ Gebrüll des Titanen", es: "🌪️ Rugido del Titán", fr: "🌪️ Rugissement du Titan", ja: "🌪️ タイタンの咆哮" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-titans-roar-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 }, 
 {
-  titles: { en: "🌪️ Lord of the Elements - KI2", pt: "🌪️ Senhor dos Elementos - KI2", de: "🌪️ Herr der Elemente - KI2", es: "🌪️ Señor de los Elementos - KI2", fr: "🌪️ Seigneur des Éléments - KI2", ja: "🌪️ エレメンタルロード - KI2" },
-  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌪️ Elemental Tempest", pt: "🌪️ Tempestade Elemental", de: "🌪️ Elementarsturm", es: "🌪️ Tempestad Elemental", fr: "🌪️ Tempête Élémentaire", ja: "🌪️ エレメンタルテンペスト" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-elemental-tempest-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 }, 
 {
-  titles: { en: "🌪️ Lord of the Elements - KI3", pt: "🌪️ Senhor dos Elementos - KI3", de: "🌪️ Herr der Elemente - KI3", es: "🌪️ Señor de los Elementos - KI3", fr: "🌪️ Seigneur des Éléments - KI3", ja: "🌪️ エレメンタルロード - KI3" },
-  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌪️ United by Power", pt: "🌪️ Unidos pelo Poder", de: "🌪️ Vereint durch Macht", es: "🌪️ Unidos por el Poder", fr: "🌪️ Unis par le Pouvoir", ja: "🌪️ 力で結ばれて" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-united-by-power-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 }, 
     ]
@@ -860,18 +860,18 @@ links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../.
    titles: { en: "👑 Lords of the Elements Events", pt: "👑 Eventos dos Senhores dos Elementos", de: "👑 Ereignisse der Herrscher der Elemente", es: "👑 Eventos de los Señores de los Elementos", fr: "👑 Événements des Seigneurs des Éléments", ja: "👑 エレメントロードイベント" },   links: { en: "#section6", pt: "#section6", de: "#section6", es: "#section6", fr: "#section6", ja: "#section6" },
     extra: [
       {
-  titles: { en: "🌪️ Lord of the Elements - KI1", pt: "🌪️ Senhor dos Elementos - KI1", de: "🌪️ Herr der Elemente - KI1", es: "🌪️ Señor de los Elementos - KI1", fr: "🌪️ Seigneur des Éléments - KI1", ja: "🌪️ エレメンタルロード - KI1" },
-  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌪️ Titan's Roar", pt: "🌪️ Rugido do Titã", de: "🌪️ Gebrüll des Titanen", es: "🌪️ Rugido del Titán", fr: "🌪️ Rugissement du Titan", ja: "🌪️ タイタンの咆哮" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-titans-roar-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 }, 
 {
-  titles: { en: "🌪️ Lord of the Elements - KI2", pt: "🌪️ Senhor dos Elementos - KI2", de: "🌪️ Herr der Elemente - KI2", es: "🌪️ Señor de los Elementos - KI2", fr: "🌪️ Seigneur des Éléments - KI2", ja: "🌪️ エレメンタルロード - KI2" },
-  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌪️ Elemental Tempest", pt: "🌪️ Tempestade Elemental", de: "🌪️ Elementarsturm", es: "🌪️ Tempestad Elemental", fr: "🌪️ Tempête Élémentaire", ja: "🌪️ エレメンタルテンペスト" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-elemental-tempest-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 }, 
 {
-  titles: { en: "🌪️ Lord of the Elements - KI3", pt: "🌪️ Senhor dos Elementos - KI3", de: "🌪️ Herr der Elemente - KI3", es: "🌪️ Señor de los Elementos - KI3", fr: "🌪️ Seigneur des Éléments - KI3", ja: "🌪️ エレメンタルロード - KI3" },
-  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌪️ United by Power", pt: "🌪️ Unidos pelo Poder", de: "🌪️ Vereint durch Macht", es: "🌪️ Unidos por el Poder", fr: "🌪️ Unis par le Pouvoir", ja: "🌪️ 力で結ばれて" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-united-by-power-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 }, 
       {
@@ -892,18 +892,18 @@ links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../.
    titles: { en: "👑 Lords of the Elements Events", pt: "👑 Eventos dos Senhores dos Elementos", de: "👑 Ereignisse der Herrscher der Elemente", es: "👑 Eventos de los Señores de los Elementos", fr: "👑 Événements des Seigneurs des Éléments", ja: "👑 エレメントロードイベント" },   links: { en: "#section6", pt: "#section6", de: "#section6", es: "#section6", fr: "#section6", ja: "#section6" },
     extra: [
       {
-  titles: { en: "🌪️ Lord of the Elements - KI1", pt: "🌪️ Senhor dos Elementos - KI1", de: "🌪️ Herr der Elemente - KI1", es: "🌪️ Señor de los Elementos - KI1", fr: "🌪️ Seigneur des Éléments - KI1", ja: "🌪️ エレメンタルロード - KI1" },
-  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌪️ Titan's Roar", pt: "🌪️ Rugido do Titã", de: "🌪️ Gebrüll des Titanen", es: "🌪️ Rugido del Titán", fr: "🌪️ Rugissement du Titan", ja: "🌪️ タイタンの咆哮" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-titans-roar-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 }, 
 {
-  titles: { en: "🌪️ Lord of the Elements - KI2", pt: "🌪️ Senhor dos Elementos - KI2", de: "🌪️ Herr der Elemente - KI2", es: "🌪️ Señor de los Elementos - KI2", fr: "🌪️ Seigneur des Éléments - KI2", ja: "🌪️ エレメンタルロード - KI2" },
-  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌪️ Elemental Tempest", pt: "🌪️ Tempestade Elemental", de: "🌪️ Elementarsturm", es: "🌪️ Tempestad Elemental", fr: "🌪️ Tempête Élémentaire", ja: "🌪️ エレメンタルテンペスト" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-elemental-tempest-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 }, 
 {
-  titles: { en: "🌪️ Lord of the Elements - KI3", pt: "🌪️ Senhor dos Elementos - KI3", de: "🌪️ Herr der Elemente - KI3", es: "🌪️ Señor de los Elementos - KI3", fr: "🌪️ Seigneur des Éléments - KI3", ja: "🌪️ エレメンタルロード - KI3" },
-  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌪️ United by Power", pt: "🌪️ Unidos pelo Poder", de: "🌪️ Vereint durch Macht", es: "🌪️ Unidos por el Poder", fr: "🌪️ Unis par le Pouvoir", ja: "🌪️ 力で結ばれて" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-united-by-power-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 }, 
      {
@@ -924,18 +924,18 @@ links: { en: "../../hero-wars-alliance/characters-guide/guus-en.html", pt: "../.
    titles: { en: "👑 Lords of the Elements Events", pt: "👑 Eventos dos Senhores dos Elementos", de: "👑 Ereignisse der Herrscher der Elemente", es: "👑 Eventos de los Señores de los Elementos", fr: "👑 Événements des Seigneurs des Éléments", ja: "👑 エレメントロードイベント" },   links: { en: "#section6", pt: "#section6", de: "#section6", es: "#section6", fr: "#section6", ja: "#section6" },
     extra: [
       {
-  titles: { en: "🌪️ Lord of the Elements - KI1", pt: "🌪️ Senhor dos Elementos - KI1", de: "🌪️ Herr der Elemente - KI1", es: "🌪️ Señor de los Elementos - KI1", fr: "🌪️ Seigneur des Éléments - KI1", ja: "🌪️ エレメンタルロード - KI1" },
-  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌪️ Titan's Roar", pt: "🌪️ Rugido do Titã", de: "🌪️ Gebrüll des Titanen", es: "🌪️ Rugido del Titán", fr: "🌪️ Rugissement du Titan", ja: "🌪️ タイタンの咆哮" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-titans-roar-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 }, 
 {
-  titles: { en: "🌪️ Lord of the Elements - KI2", pt: "🌪️ Senhor dos Elementos - KI2", de: "🌪️ Herr der Elemente - KI2", es: "🌪️ Señor de los Elementos - KI2", fr: "🌪️ Seigneur des Éléments - KI2", ja: "🌪️ エレメンタルロード - KI2" },
-  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌪️ Elemental Tempest", pt: "🌪️ Tempestade Elemental", de: "🌪️ Elementarsturm", es: "🌪️ Tempestad Elemental", fr: "🌪️ Tempête Élémentaire", ja: "🌪️ エレメンタルテンペスト" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-elemental-tempest-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 }, 
 {
-  titles: { en: "🌪️ Lord of the Elements - KI3", pt: "🌪️ Senhor dos Elementos - KI3", de: "🌪️ Herr der Elemente - KI3", es: "🌪️ Señor de los Elementos - KI3", fr: "🌪️ Seigneur des Éléments - KI3", ja: "🌪️ エレメンタルロード - KI3" },
-  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌪️ United by Power", pt: "🌪️ Unidos pelo Poder", de: "🌪️ Vereint durch Macht", es: "🌪️ Unidos por el Poder", fr: "🌪️ Unis par le Pouvoir", ja: "🌪️ 力で結ばれて" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-united-by-power-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 }, 
      {
