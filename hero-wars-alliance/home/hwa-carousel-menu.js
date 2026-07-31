@@ -2,6 +2,15 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
+      link: "/hero-wars-alliance/titans-guide/pallant-en.html",
+      src500: "/hero-wars-alliance/images/titans/pallant/pallant-500px.webp",
+      src400: "/hero-wars-alliance/images/titans/pallant/pallant-500px.webp",
+      alt: "New Titan Pallant Guide for Hero Wars Alliance",
+      title: "New Titan Pallant Guide Hero Wars Alliance",
+      strong: "New Titan Pallant Guide Hero Wars Alliance",
+      updated: "Updated: July, 2026."
+    },     
+    {
       link: "/hero-wars-alliance/guide/best-farms-hwa-en.html",
       src500: "/hero-wars-alliance/images/guides/best-farms-hwa/best-farms-hwa-500px.webp",
       src400: "/hero-wars-alliance/images/guides/best-farms-hwa/best-farms-hwa-400px.webp",
@@ -254,7 +263,7 @@
         'Most Players Don’t Know These SECRET FARMS': 'A Maioria dos Jogadores Não Conhece Estas FARMS SECRETAS', 
         'Adventure Shop Tips': 'Dicas da Loja de Aventura', 'Event': 'Evento ',
         'What to Buy': 'O que Comprar', 'What to do?': 'O que fazer?', 
-        'Which is better': 'Qual é o Melhor',
+        'Which is better': 'Qual é o Melhor', 'New Titan': 'Novo Titã',
         'Updated': 'Atualizado',
         'Updated:': 'Atualizado:'
       }
@@ -286,7 +295,7 @@
         'New': 'Nueva', 'and': 'y', 'Event': 'Evento ',
         'Adventure Shop Tips': 'Consejos de la Tienda de Aventura',
         'What to Buy': 'Qué Comprar', 'What to do?': 'Qué Hacer?', 
-        'Which is better': 'Cuál es Mejor',
+        'Which is better': 'Cuál es Mejor', 'New Titan': 'Nuevo Titán',
         'Updated': 'Actualizado',
       }
     },
@@ -315,7 +324,7 @@
         'everyday': 'tous les jours', 'How to Play': 'Comment Jouer', 'Event': 'Événement',
         'monthly': 'mensuellement', 'How to Get the': 'Comment Obtenir le', 'Talisman': 'Talisman',
         'Calendar': 'Calendrier', 'Strategy': 'Stratégie',
-        'New': 'Nouvelle', 'and': 'et',
+        'New': 'Nouvelle', 'and': 'et', 'New Titan': 'Nouveau Titan',
         'Adventure Shop Tips': 'Conseils de la Boutique d\'Aventure',
         'What to Buy?': 'Que Acheter?', 'What to do?': 'Que Faire?',
         'Which is better': '¿Lequel est meilleur',
@@ -345,7 +354,7 @@
         'Complete Talisman Guide:': 'Vollständiger Talisman-Leitfaden:', 'priorities': 'Prioritäten', 'Realm': 'Königreich', 'braune Quadrate': 'carrés marron', 'Map': 'Karte',
         'for': 'für', 'How to Play': 'Wie man spielt', 'Event': 'Event', 'Talisman': 'Talismane',
         'skin': 'Skin', 'How to Get the': 'Wie man das bekommt',
-        'everyday': 'täglich',
+        'everyday': 'täglich', 'New Titan': 'Neuer Titan',
         'monthly': 'monatlich',
         'Calendar': 'Kalender', 'Strategy': 'Strategie',
         'New': 'Neu', 'and': 'und',
@@ -393,7 +402,7 @@
         'Dante Legendary Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのダンテ伝説スキルガイド',
         'Dante Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのダンテガイド',
         'Dante Complete Legendary Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのダンテ完全伝説スキルガイド',
-        'Drayne Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのドレインガイド',
+        'Drayne Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのドレインガイド', 'New Titan': '新しいタイタン',
         'Drayne Complete Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのドレイン完全ガイド',
         'Yasmine Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのヤスミンガイド',
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのヤスミン伝説遺物完全ガイド',

@@ -1,0 +1,161 @@
+{
+  "id": "pallant",
+  "name": "Pallant",
+  "type": "titan",
+  "game_id": "Hero Wars Alliance",
+  "title": "New Elarite Titan Pallant",
+  "gender": "male",
+  "role": ["tank"],
+  "main_role": "Tank",
+  "position": "front line",
+  "main_stat": "Physical Attack",
+  "element": ["elarite", "earth"],
+  "how_to_get_soul_stones": "",
+  "synergy": {
+    "type": "Earth Titans",
+    "members": ["Eden", "Sylva", "Verdoc", "Angus", "Avalon"]
+  },
+  "counters": {
+    "strong_against": ["Water Titans", "Light Titans", "Dark Titans"],
+    "weak_against": ["Fire Titans"],
+    "notable_counters": ["Moloch", "Vulcan", "Araji", "Asherona", "Ignis"]
+  },
+  "basic_attack_formula": "(100% physical attack)",
+  "basic_attack": 426578,
+  "max_level": {
+    "exp_level": 120,
+    "notes": "This Titan is at the maximum level."
+  },
+  "stats": {
+    "health": 16213343,
+    "physical_attack": 426578,
+    "extra_defense_from_light_and_dark_titans": 120600,
+    "extra_damage_to_light_and_dark_titans": 213000
+  },
+  "description": "Pallant is an Elarite and Earth tank built for Earth Titan teams. His ultimate knocks back the nearest enemy and turns their movement into area damage against enemies in the path.",
+  "skills": [
+    {
+      "id": 1,
+      "variant": "base",
+      "level": 0,
+      "name": "Elarite Ram",
+      "type": ["ultimate", "control", "damage"],
+      "target": "nearest enemy",
+      "description": "Attacks the nearest enemy and knocks them back. While in motion, the opponent deals damage to all enemies in their path.",
+      "effects": {
+        "knockback_damage": 853157,
+        "knockback_damage_formula": "200% physical attack",
+        "collision_damage": 1279735,
+        "collision_damage_formula": "300% physical attack"
+      },
+      "scales_with": ["Physical Attack"]
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "Zorval's Grimoire",
+      "type": "weapon",
+      "level": 120,
+      "activation_chance": 100,
+      "duration_seconds": 9,
+      "stats": {
+        "health_regen": 100050
+      },
+      "description": "When a titan uses the Elarite Ram skill in combat, it can trigger an effect that gives bonus weapon artifact stats to the whole team for 9 seconds."
+    },
+    {
+      "name": "Elarite Crown",
+      "type": "crown",
+      "level": 120,
+      "stats": {
+        "extra_damage_to_light_and_dark_titans": 213000,
+        "extra_defense_from_light_and_dark_titans": 120600
+      },
+      "notes": "Unique Elarite crown artifact shared among Elarite-class titans."
+    },
+    {
+      "name": "Chthonic Defense Seal",
+      "type": "seal",
+      "level": 120,
+      "stats": {
+        "physical_attack": 82500,
+        "health": 4575000
+      },
+      "notes": "Unique Elarite seal artifact shared among Elarite-class titans."
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": {
+        "health": 2627975
+      },
+      "max_level": 60
+    },
+    {
+      "name": "Primordial Skin",
+      "stats": {
+        "health": 2627975
+      },
+      "max_level": 60
+    }
+  ],
+  "best_teams": [
+    {
+      "id": 1,
+      "name": "Earth Elarite Core",
+      "members": ["Sylva", "Eden", "Verdoc", "Angus", "Pallant"],
+      "notes": "Earth team with Pallant as the Elarite tank. Tested at max level and performed very well against mirrored Earth compositions."
+    },
+    {
+      "id": 2,
+      "name": "Darkness Counter Test",
+      "members": ["Pallant", "Angus", "Verdoc", "Eden", "Sylva"],
+      "notes": "Tested against Tenebris, Keros, Umbra, Mort, and Brustar at max level."
+    },
+    {
+      "id": 3,
+      "name": "Elarite Mixed Core",
+      "members": ["Pallant", "Alecto", "Orm"],
+      "notes": "Early Elarite core with Pallant as tank, Alecto as killer, and Orm as support. Add two super titans such as Tenebris, Araji, Eden, Solaris, or Hyperion until more Elarite titans arrive."
+    }
+  ],
+  "team_member_notes": {
+    "Pallant": "Elarite and Earth tank with knockback control.",
+    "Angus": "Earth tank with area damage.",
+    "Verdoc": "Earth titan used in current Earth team cores.",
+    "Eden": "Earth super titan with strong control and burst.",
+    "Sylva": "Earth titan used in current Earth team cores.",
+    "Alecto": "Elarite and Fire marksman.",
+    "Orm": "Elarite and Water support."
+  },
+  "lore": "Pallant brings Elarite power to Earth Titan teams, giving them a front-line tank who can disrupt enemy positioning with Elarite Ram.",
+  "miscellaneous": {
+    "notes": [
+      "Pallant has two elements: Elarite and Earth.",
+      "His Elarite Ram skill deals knockback damage and collision damage based on Physical Attack.",
+      "He gives Earth teams a new Elarite tank option and helps form the early Elarite core with Alecto and Orm."
+    ]
+  },
+  "nota_pvp": {
+    "resumo": "Testes feitos em nivel maximo indicam que Pallant fortalece muito os times de Terra.",
+    "testes": [
+      {
+        "time_1": ["Sylva", "Eden", "Verdoc", "Angus", "Pallant"],
+        "placar": "10vs0",
+        "time_2": ["Pallant", "Angus", "Verdoc", "Eden", "Sylva"]
+      },
+      {
+        "time_1": ["Tenebris", "Keros", "Umbra", "Mort", "Brustar"],
+        "placar": "8vs2",
+        "time_2": ["Pallant", "Angus", "Verdoc", "Eden", "Sylva"]
+      },
+      {
+        "time_1": ["Sylva", "Eden", "Verdoc", "Angus", "Pallant"],
+        "placar": "3vs7",
+        "time_2": ["Moloch", "Vulcan", "Araji", "Asherona", "Ignis"]
+      }
+    ],
+    "conclusao": "Os times de Terra estao entre os mais fortes da atualidade. Pallant deve brilhar muito em times de Terra, principalmente contra times de Agua. Como ja existem Pallant, Alecto e Orm, tambem ja da para montar um nucleo Elarite com dois aliados super titans ate chegarem novos Elarites."
+  }
+}

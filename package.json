@@ -86,6 +86,7 @@
 
     "update-lumira-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide lumira",
      "update-orm-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide orm",
+"update-pallant-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide pallant",
 
     "update-umbra-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide umbra",
     

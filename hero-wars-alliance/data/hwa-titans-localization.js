@@ -172,6 +172,15 @@ const hwaTitansLocalization = {
     "pt": "Mort",
     "ja": "モルト"
   },
+  "Pallant": {
+  "gender": "Male",
+  "en": "Pallant",
+  "de": "Pallant",
+  "es": "Pallant",
+  "fr": "Pallant",
+  "pt": "Pallant",
+  "ja": "パラント"
+},
   "Tenebris": {
     "gender": "Female",
     "en": "Tenebris",
