@@ -4,6 +4,9 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+   // ── youtube live stream code ──────────────────────────────
+  { date:'2026-07-31', type:'hub', code:'PALLANTTRAILER', note:'until|2026-08-31T01:00:00Z',
+rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
    // ── July 31, 2026 ──────────────────────────────
    { date:'2026-07-31', type:'daily', mission:'2-11', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
