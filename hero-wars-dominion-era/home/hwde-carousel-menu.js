@@ -2,23 +2,13 @@
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
     {
-      link: "../../hero-wars-dominion-era/characters/somna-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/somna/somna-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/somna/somna-400px.webp",
-      alt: "Somna for Hero Wars: Dominion Era",
-      title: "Somna for Hero Wars: Dominion Era.",
-      strong: "Guide: Somna - Hero Wars: Dominion Era",
-      updated: "Updated: July, 2026."
-    },
-    
-    {
-      link: "/hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html",
-      src500: "/hero-wars-dominion-era/images/events-special/somna-event/somna-event-500px.webp",
-      src400: "/hero-wars-dominion-era/images/events-special/somna-event/somna-event-400px.webp",
-      alt: "Somna - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era",
-      title: "Somna - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era.",
-      strong: "Guide F2P: Somna Heroes Awakening Event - Hero Wars: Dominion Era",
-      updated: "Updated: July, 2026."
+      link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
+      src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-400px.webp",
+      alt: "Calendar for Hero Wars: Dominion Era",
+      title: "Calendar for Hero Wars: Dominion Era.",
+      strong: "Calendar - Hero Wars: Dominion Era",
+      updated: "Updated: Monthly."
     },
     {
       link: "../../hero-wars-dominion-era/guide/mysterious-island-en.html",
@@ -29,15 +19,19 @@
       strong: "Mysterious Island - How to Get a War Flag?",
       updated: "Updated: Monthly."
     },
+   
     {
-      link: "/hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html",
-      src500: "/hero-wars-dominion-era/images/events-special/somna-event/somna-unleashing-power-500px.webp",
-      src400: "/hero-wars-dominion-era/images/events-special/somna-event/somna-unleashing-power-400px.webp",
-      alt: "Somna - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era",
-      title: "Somna - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era.",
-      strong: "Guide: Somna Event (Missions) - Hero Wars: Dominion Era",
+      link: "../../hero-wars-dominion-era/characters/somna-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/somna/somna-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/somna/somna-400px.webp",
+      alt: "Somna for Hero Wars: Dominion Era",
+      title: "Somna for Hero Wars: Dominion Era.",
+      strong: "Guide: Somna - Hero Wars: Dominion Era",
       updated: "Updated: July, 2026."
     },
+    
+    
+    
     {
       link: "../../hero-wars-dominion-era/characters/dante-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/dante/dante-500px.webp",
@@ -57,15 +51,7 @@
       updated: "Updated: July, 2026."
     },
     
-    {
-      link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
-      src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-400px.webp",
-      alt: "Calendar for Hero Wars: Dominion Era",
-      title: "Calendar for Hero Wars: Dominion Era.",
-      strong: "Calendar - Hero Wars: Dominion Era",
-      updated: "Updated: Monthly."
-    },
+    
     
     {
       link: "../../hero-wars-dominion-era/guide/how-to-defeat-seymour-en.html",
