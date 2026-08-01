@@ -8,8 +8,26 @@
       alt: "New Titan Pallant Guide for Hero Wars Alliance",
       title: "New Titan Pallant Guide Hero Wars Alliance",
       strong: "New Titan Pallant Guide Hero Wars Alliance",
-      updated: "Updated: July, 2026."
+      updated: "Updated: August, 2026."
     },     
+    {
+      link: "/hero-wars-alliance/guide/realm-pve-best-teams-en.html",
+      src500: "/hero-wars-alliance/images/guides/realm-pve-best-teams/realm-pve-best-teams-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/realm-pve-best-teams/realm-pve-best-teams-400px.webp",
+      alt: "Realm PVE Best Teams for Hero Wars Alliance",
+      title: "Realm PVE Best Teams for Hero Wars Alliance",
+      strong: "Guide: Updated - Realm PVE Best Teams - Hero Wars Alliance",
+      updated: "Updated: August, 2026."
+    },      
+    {
+      link: "/hero-wars-alliance/guide/fort-guide-realm-en.html",
+      src500: "/hero-wars-alliance/images/guides/fort-guide-realm/fort-guide-realm-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/fort-guide-realm/fort-guide-realm-400px.webp",
+      alt: "Fort Guide for Hero Wars Alliance",
+      title: "Fort Guide for Hero Wars Alliance",
+      strong: "Guide: Fort - Hero Wars Alliance",
+      updated: "Updated: August, 2026."
+    },      
     {
       link: "/hero-wars-alliance/guide/best-farms-hwa-en.html",
       src500: "/hero-wars-alliance/images/guides/best-farms-hwa/best-farms-hwa-500px.webp",
@@ -21,15 +39,7 @@
     },      
     
         
-    {
-      link: "/hero-wars-alliance/guide/fort-guide-realm-en.html",
-      src500: "/hero-wars-alliance/images/guides/fort-guide-realm/fort-guide-realm-500px.webp",
-      src400: "/hero-wars-alliance/images/guides/fort-guide-realm/fort-guide-realm-400px.webp",
-      alt: "Fort Guide for Hero Wars Alliance",
-      title: "Fort Guide for Hero Wars Alliance",
-      strong: "Guide: Fort - Hero Wars Alliance",
-      updated: "Updated: July, 2026."
-    },      
+    
      {
       link: "/hero-wars-alliance/guide/realm-brown-squares-map-en.html",
       src500: "/hero-wars-alliance/images/guides/realm-brown-squares-map/realm-brown-squares-map-500px.webp",
