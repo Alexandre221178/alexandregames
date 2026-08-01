@@ -14,6 +14,18 @@ window.CALENDAR_MONTH_HEADER = {
 window.CALENDAR_DATA = [
  
   // ===================== August 2026 =====================
+  {
+    weekday: "",
+    date: "",
+   image: "../../imagens/image-shared/adam-300px.webp",
+    alt: "🦸Adam Guide",
+    titles: {    en: "🦸 Adam Guide - Hero of the Month", pt: "🦸 Guia do Adam - Herói do Mês", de: "🦸 Adam-Leitfaden – Held des Monats", es: "🦸 Guía de Adam - Héroe del Mes", fr: "🦸 Guide d'Adam - Héros du Mois", ja: "🦸 アダムガイド - 今月のヒーロー"
+},    links: { en: "../../hero-wars-dominion-era/characters/adam-en.html", pt: "../../hero-wars-dominion-era/characters/adam-pt.html", de: "../../hero-wars-dominion-era/characters/adam-de.html", es: "../../hero-wars-dominion-era/characters/adam-es.html", fr: "../../hero-wars-dominion-era/characters/adam-fr.html", ja: "../../hero-wars-dominion-era/characters/adam-ja.html" },
+    noStrip: true,
+    extra: [
+     
+    ]
+  },
 {
     weekday: "",
     date: "",
@@ -92,50 +104,7 @@ window.CALENDAR_DATA = [
 },
   ]
   },
-  // July 28 
-  {
-    weekday: "Tuesday",
-    date: "July, 28",
-    image: "../../hero-wars-dominion-era/images/events/weaving-patterns/weaving-patterns-150px.webp",
-    alt: "Weaving Patterns",
-    titles: { en: "🧵Weaving Patterns", pt: "🧵Tecendo Padrões", de: "🧵Webmuster", es: "🧵Tejiendo Patrones", fr: "🧵Tissage de Motifs", ja: "🧵ウィービングパターン" },
-    links: { en: "../../hero-wars-dominion-era/events/weaving-patterns-en.html", pt: "../../hero-wars-dominion-era/events/weaving-patterns-pt.html", de: "", es: "", fr: "", ja: "" },
-    noStrip: true,
-    extra: [
-      {
-    titles: {  en: "🏰 Area of Conquest: Titan Territory",  pt: "🏰 Área de Conquista: Território dos Titãs", de: "🏰 Eroberungsgebiet: Territorium der Titanen", es: "🏰 Área de Conquista: Territorio de los Titanes", fr: "🏰 Zone de Conquête : Territoire des Titans", ja: "🏰 征服エリア：タイタンの領域"}, 
-    links: { en: "../../hero-wars-dominion-era/events/territory-of-titans-en.html", pt: "../../hero-wars-dominion-era/events/territory-of-titans-pt.html", de: "../../hero-wars-dominion-era/events/territory-of-titans-de.html", es: "../../hero-wars-dominion-era/events/territory-of-titans-es.html", fr: "../../hero-wars-dominion-era/events/territory-of-titans-fr.html", ja: "../../hero-wars-dominion-era/events/territory-of-titans-ja.html" },
-    noStrip: true
-    },
-        
-       {
-        titles: { en: "💎Emerald City", pt: "💎Cidade Esmeralda", de: "💎Smaragdstadt", es: "💎Ciudad Esmeralda", fr: "💎Ville d'Émeraude", ja: "💎エメラルドシティ" },
-    links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
-    noStrip: true,
-      },
-      {
-        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
-        links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" }
-      },
-       {
-titles: { en: "📋 Somna Event Missions", de: "📋 Somna-Event-Missionen", es: "📋 Misiones del Evento Somna", fr: "📋 Missions de l'Événement Somna", pt: "📋 Missões do Evento Somna", ja: "📋 ソムナイベントミッション" },
-  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
-  noStrip: true
-},  
-{
-titles: { en: "⭐ Somna Event Guide (F2P)", de: "⭐ Somna-Event-Leitfaden (F2P)", es: "⭐ Guía del Evento Somna (F2P)", fr: "⭐ Guide de l'Événement Somna (F2P)", pt: "⭐ Guia do Evento Somna (F2P)", ja: "⭐ ソムナイベントガイド（F2P）" },
-  links: { en: "../../hero-wars-dominion-era/events-special-hwde/somna-event-guide-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
-  noStrip: true
-},  
-{
- titles: { en: "🦸Somna Guide", pt: "🦸Guia da Somna", de: "🦸Somna-Leitfaden", es: "🦸Guía de Somna", fr: "🦸Guide de Somna", ja: "🦸ソムナガイド" },
-    links: { en: "../../hero-wars-dominion-era/characters/somna-en.html", pt: "../../hero-wars-dominion-era/characters/somna-pt.html", de: "../../hero-wars-dominion-era/characters/somna-de.html", es: "../../hero-wars-dominion-era/characters/somna-es.html", fr: "../../hero-wars-dominion-era/characters/somna-fr.html", ja: "../../hero-wars-dominion-era/characters/somna-ja.html" },
-
-  noStrip: true
-},  
-      
-    ]
-  },
+ 
 
 // July 29 - Wednesday
   {
