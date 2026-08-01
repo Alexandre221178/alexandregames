@@ -228,13 +228,14 @@
       updatedPrefix: 'Updated:',
       map: {}
     },
+   
     pt: {
       updatedPrefix: 'Atualizado:',
       map: {
       strong: "Lian Astral Reflections Skin+ Event Guide - What to Buy? (English) for Hero Wars Alliance",
         'Sanctum of Balance Shop Guide for Hero Wars Alliance': 'Guia da Loja do Sanctum of Balance para Hero Wars Alliance',
       'Balance of Power Event Group Guide': 'Guia do Evento "Equilíbrio de Poder"',
-        'Astral Reflections': 'Reflexões Astrais', 
+        'Astral Reflections': 'Reflexões Astrais', 'Lords of the Elements': 'Senhores dos Elementos', 
         'Legendary Skills Guide for Hero Wars Alliance': 'Guia de Habilidades Lendárias para Hero Wars Alliance',
         'Complete Talisman Guide 2026 for Hero Wars Alliance': 'Guia Completo de Talismãs 2026 para Hero Wars Alliance',
         'Realm Tier List Guide for Hero Wars Alliance': 'Guia da Tier List do Reino para Hero Wars Alliance',
@@ -280,7 +281,7 @@
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guía de Byrna: Libera el Espíritu del Oso Sanador en Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Canjea tus Regalos Diarios para Hero Wars Alliance',
         'Complete Talisman Guide': 'Guía completa de talismanes:', 'priorities': 'prioridades', 'Realm': 'Reino', 'Brown Squares': 'Cuadrados marrones', 'Map': 'Mapa',
-        'everyday': 'todos los días', 'How to Play': 'Cómo Jugar', 'Talisman': 'Talismán',
+        'everyday': 'todos los días', 'How to Play': 'Cómo Jugar', 'Talisman': 'Talismán', 'Lords of the Elements': 'Señores de los Elementos',
         'Most Players Don’t Know These SECRET FARMS': 'La mayoría de los jugadores no conoce estas GRANJAS SECRETAS', 
         'monthly': 'mensalmente', 'How to Get the': 'Cómo Obtener la',
         'Calendar': 'Calendario', 'Strategy': 'Estrategia',
@@ -313,7 +314,7 @@
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Guide de Byrna: Libérez l\'Esprit de l\'Ours Guérisseur dans Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Échangez vos Cadeaux Quotidiens pour Hero Wars Alliance',
         'Complete Talisman Guide:': 'Guide complet des talismans:', 'priorities': 'priorités', 'Realm': 'Royaume', 'Brown Squares': 'carrés marron', 'Map': 'carte',
-        'everyday': 'tous les jours', 'How to Play': 'Comment Jouer', 'Event': 'Événement',
+        'everyday': 'tous les jours', 'How to Play': 'Comment Jouer', 'Event': 'Événement', 'Lords of the Elements': 'Seigneurs des Éléments',
         'monthly': 'mensuellement', 'How to Get the': 'Comment Obtenir le', 'Talisman': 'Talisman',
         'Calendar': 'Calendrier', 'Strategy': 'Stratégie',
         'New': 'Nouvelle', 'and': 'et', 'New Titan': 'Nouveau Titan',
@@ -344,7 +345,7 @@
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'Byrna Leitfaden: Entfessle den Heiler-Bärengeist in Hero Wars: Alliance',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'Löse deine täglichen Geschenke für Hero Wars Alliance ein',
         'Complete Talisman Guide:': 'Vollständiger Talisman-Leitfaden:', 'priorities': 'Prioritäten', 'Realm': 'Königreich', 'braune Quadrate': 'carrés marron', 'Map': 'Karte',
-        'for': 'für', 'How to Play': 'Wie man spielt', 'Event': 'Event', 'Talisman': 'Talismane',
+        'for': 'für', 'How to Play': 'Wie man spielt', 'Event': 'Event', 'Talisman': 'Talismane', 'Lords of the Elements': 'Herren der Elemente',
         'skin': 'Skin', 'How to Get the': 'Wie man das bekommt',
         'everyday': 'täglich', 'New Titan': 'Neuer Titan',
         'monthly': 'monatlich',
@@ -371,7 +372,7 @@
         'Lian Legendary Guide Skills for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのリアン伝説スキルガイド',
         'Realm Tier List Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのレルムティアリストガイド',
         'Miu Legendary Skills Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスの美雨伝説スキルガイド',
-        'Miu Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスの美雨ガイド',
+        'Miu Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスの美雨ガイド', 
         'Miu Legendary Guide Skills for Hero Wars Alliance': 'ヒーローウォーズ アライアンスの美雨伝説スキルガイド',
         'Meta Teams and Combos Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのメタチームとコンボガイド',
         'Complete Meta Teams and Combos 2026 Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンス完全メタチーム＆コンボガイド2026',
@@ -399,7 +400,7 @@
         'Yasmine Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのヤスミンガイド',
         'Yasmine Legendary Relic Complete Guide for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのヤスミン伝説遺物完全ガイド',
         'Byrna Guide: Unleash the Healer Bear Spirit in Hero Wars: Alliance': 'ヒーローウォーズ アライアンスのバーナガイド: 癒やしの熊の精霊を解き放て',
-        'Calendar for Hero Wars Alliance': 'ヒーローウォーズ アライアンス カレンダー','Talisman': 'タリスマン',
+        'Calendar for Hero Wars Alliance': 'ヒーローウォーズ アライアンス カレンダー','Talisman': 'タリスマン', 'Lords of the Elements': '元素の支配者たち',
         'Redeem your Daily Gifts for Hero Wars Alliance': 'ヒーローウォーズ アライアンスのデイリーギフトを受け取る',
         'Complete Talisman Guide:': 'タリスマン完全ガイド:', 'How to Get the': '入手方法', 'Event': 'イベント',
         'Hero Wars: Alliance': 'ヒーローウォーズ アライアンス', 'hero wars alliance': 'ヒーローウォーズ アライアンス',
@@ -410,6 +411,9 @@
         'Updated': '更新'
       }
     },
+
+
+ 
    
   };
 

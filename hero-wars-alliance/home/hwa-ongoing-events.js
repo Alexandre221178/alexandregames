@@ -10,11 +10,20 @@
       strong: "Lords of the Elements Shop Guide",
       updated: "Updated: July 23, 2026."
     },
+    {
+      link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-event-group-en.html",
+      src500: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-elements-event-group-500px.webp",
+      src400: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-elements-event-group-400px.webp",
+      alt: "Lords of the Elements event group Guide for Hero Wars Alliance",
+      title: "Lords of the Elements event group Guide for Hero Wars Alliance",
+      strong: "Lords of the Elements event group Guide",
+      updated: "Updated: July 29, 2026."
+    },
      {
       link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-titans-roar-en.html",
       src500: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki1-titans-roar-500px.webp",
       src400: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki1-titans-roar-400px.webp",
-      alt: "Lords of the Elements: Titan's Roar Guide for Hero Wars Alliance",
+      alt: "Lords of the Elements event group: Titan's Roar Guide for Hero Wars Alliance",
       title: "Lords of the Elements: Titan's Roar Guide for Hero Wars Alliance",
       strong: "Lords of the Elements: Titan's Roar Guide",
       updated: "Updated: July 29, 2026."
@@ -34,7 +43,7 @@
       src400: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki3-united-by-power-400px.webp",
       alt: "Lords of the Elements: United by Power Guide for Hero Wars Alliance",
       title: "Lords of the Elements: United by Power Guide for Hero Wars Alliance",
-      strong: "LLords of the Elements: United by Power Guide",
+      strong: "Lords of the Elements: United by Power Guide",
       updated: "Updated: July 29, 2026."
     },
     {
