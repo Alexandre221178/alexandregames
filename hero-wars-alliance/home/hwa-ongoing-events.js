@@ -1,6 +1,15 @@
 (function(){
   // Active Ascendant Glory guides shown below the main calendar carousel.
   var slides = [
+    {
+      link: "/hero-wars-alliance/events-tips-hwa/lords-of-the-elements-shop-en.html",
+      src500: "/hero-wars-alliance/images/events-tips-hwa/lords-of-the-elements-shop/lords-of-the-elements-shop-500px.webp",
+      src400: "/hero-wars-alliance/images/events-tips-hwa/lords-of-the-elements-shop/lords-of-the-elements-shop-400px.webp",
+      alt: "Lords of the Elements Shop Guide for Hero Wars Alliance",
+      title: "Lords of the Elements Shop Guide for Hero Wars Alliance",
+      strong: "Lords of the Elements Shop Guide",
+      updated: "Updated: July 23, 2026."
+    },
      {
       link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-titans-roar-en.html",
       src500: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki1-titans-roar-500px.webp",

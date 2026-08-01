@@ -19,24 +19,8 @@
       strong: "Most Players Don’t Know These SECRET FARMS - Hero Wars Alliance",
       updated: "Updated: July, 2026."
     },      
-    {
-      link: "/hero-wars-alliance/events-tips-hwa/guus-champions-gallery-en.html",
-      src500: "/hero-wars-alliance/images/events-tips-hwa/champions-gallery/champions-gallery-500px-1.webp",
-      src400: "/hero-wars-alliance/images/events-tips-hwa/champions-gallery/champions-gallery-400px-1.webp",
-      alt: "Guus Champions Gallery for Hero Wars Alliance",
-      title: "Guus Champions Gallery for Hero Wars Alliance",
-      strong: "Guide: Guus Champions Gallery - What to Buy?",
-      updated: "Updated: July, 2026."
-    }, 
-     {
-      link: "/hero-wars-alliance/characters-guide/guus-en.html",
-      src500: "/hero-wars-alliance/images/hero/guus/guus-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/guus/guus-400px.webp",
-      alt: "Guus Guide for Hero Wars Alliance",
-      title: "Guus Guide for Hero Wars Alliance",
-      strong: "Guide: Guus for Hero Wars Alliance",
-      updated: "Updated: July, 2026."
-    },        
+    
+        
     {
       link: "/hero-wars-alliance/guide/fort-guide-realm-en.html",
       src500: "/hero-wars-alliance/images/guides/fort-guide-realm/fort-guide-realm-500px.webp",
@@ -46,8 +30,24 @@
       strong: "Guide: Fort - Hero Wars Alliance",
       updated: "Updated: July, 2026."
     },      
-   
-    
+     {
+      link: "/hero-wars-alliance/guide/realm-brown-squares-map-en.html",
+      src500: "/hero-wars-alliance/images/guides/realm-brown-squares-map/realm-brown-squares-map-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/realm-brown-squares-map/realm-brown-squares-map-400px.webp",
+      alt: "Realm Brown Squares Map for Hero Wars Alliance",
+      title: "Realm Brown Squares Map for Hero Wars Alliance",
+      strong: "Updated Realm: Map - Brown Squares for Hero Wars Alliance",
+      updated: "Updated: July, 2026."
+    },      
+   {
+      link: "/hero-wars-alliance/characters-guide/guus-en.html",
+      src500: "/hero-wars-alliance/images/hero/guus/guus-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/guus/guus-400px.webp",
+      alt: "Guus Guide for Hero Wars Alliance",
+      title: "Guus Guide for Hero Wars Alliance",
+      strong: "Guide: Guus for Hero Wars Alliance",
+      updated: "Updated: July, 2026."
+    },     
     
     {
       link: "/hero-wars-alliance/characters-guide/tristan-en.html",
@@ -58,15 +58,7 @@
       strong: "Guide: Tristan Legendary Skills for Hero Wars Alliance",
       updated: "Updated: July, 2026."
     },     
-    {
-      link: "/hero-wars-alliance/guide/realm-brown-squares-map-en.html",
-      src500: "/hero-wars-alliance/images/guides/realm-brown-squares-map/realm-brown-squares-map-500px.webp",
-      src400: "/hero-wars-alliance/images/guides/realm-brown-squares-map/realm-brown-squares-map-400px.webp",
-      alt: "Realm Brown Squares Map for Hero Wars Alliance",
-      title: "Realm Brown Squares Map for Hero Wars Alliance",
-      strong: "Updated Realm: Map - Brown Squares for Hero Wars Alliance",
-      updated: "Updated: July, 2026."
-    },      
+   
      
     {
       link: "/hero-wars-alliance/characters-guide/crow-en.html",
