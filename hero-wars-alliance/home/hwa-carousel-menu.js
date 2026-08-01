@@ -7,7 +7,7 @@
       src400: "/hero-wars-alliance/images/titans/pallant/pallant-500px.webp",
       alt: "New Titan Pallant Guide for Hero Wars Alliance",
       title: "New Titan Pallant Guide Hero Wars Alliance",
-      strong: "New Titan Pallant Guide Hero Wars Alliance",
+      strong: "New Titan Pallant - Guide for Hero Wars Alliance",
       updated: "Updated: August, 2026."
     },     
     {
