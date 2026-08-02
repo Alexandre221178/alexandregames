@@ -74,7 +74,7 @@
       updated: "Updated: July 23, 2026."
     },
     {
-      link: "/hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legend-en.html",
+      link: "/hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html",
       src500: "/hero-wars-alliance/images/events/ascendant-glory/trial-of-legends-500px.webp",
       src400: "/hero-wars-alliance/images/events/ascendant-glory/trial-of-legends-400px.webp",
       alt: "Trial of Legends Event Guide for Hero Wars Alliance",

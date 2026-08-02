@@ -214,8 +214,8 @@
     
     {
       link: "../../hero-wars-alliance/menu-hwa/calendar-hwa-en.html",
-      src500: "../../img-HWM/events-img/herowarsalliance-calendar-500px.webp",
-      src400: "../../img-HWM/events-img/herowarsalliance-calendar-400px.webp",
+      src500: "../../hero-wars-alliance/images/calendar/calendar-500px.webp",
+      src400: "../../hero-wars-alliance/images/calendar/calendar-400px.webp",
       alt: "Calendar for Hero Wars Alliance",
       title: "Calendar for Hero Wars Alliance",
       strong: "Calendar for Hero Wars Alliance",

@@ -13,7 +13,7 @@
 }, 
 */
 // Não esquecer de trocar o mes e as img 1200px,500px,400px!
-// img-HWM/events-img/herowarsalliance-calendar-1200px.webp?v=2026-02
+// hero-wars-alliance/images/calendar/calendar-1200px.webp?v=2026-02
 // Título do mês do calendário (traduzido automaticamente)
 window.CALENDAR_MONTH_HEADER = {
   en: "Emerald Spirits Season Events",
