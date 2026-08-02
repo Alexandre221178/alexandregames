@@ -4,6 +4,10 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+   // ── august 02, 2026 ─────────---─────────────────────
+   { date:'2026-08-02', type:'hub', code:'ELARITECALENDAR', note:'until|2026-08-31T01:00:00Z',
+rewards:['energy x20', 'intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350',] },
+
    // ── July 2, 2026 ──────────────────────────────
    { date:'2026-07-02', type:'daily', mission:'2-5', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
