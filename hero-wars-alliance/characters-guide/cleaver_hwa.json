@@ -1,0 +1,370 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "cleaver",
+      "name": "Cleaver",
+      "gender": "male",
+      "description": "Butcher monster wielding an enormous hook that will reach and stop anyone trying to get away.",
+      "role": ["Tank", "Control"],
+      "main_class": "Tank",
+      "position": "Front Line",
+      "level": 120,
+      "main_stat": "Strength",
+      "equipment_rank": 16,
+      "way": "Way of Chaos",
+      "how_to_get_soul_stones": "Heroic Chest",
+      "hydra_tier_list": "b",
+      "hero_tier_list": null,
+      "best_synergy": "Aidan, Kendle, Peech, Kayla, Dorian",
+      "stats": {
+        "max_with_talisman_of_decomposition": {
+          "intelligence": 3739,
+          "agility": 3923,
+          "strength": 20382,
+          "health": 1615098,
+          "physical_attack": 100606,
+          "magic_attack": 26323,
+          "physical_armor": 54924.4,
+          "magical_armor": 47212.5,
+          "toughness": 6313,
+          "vampirism_percent": 55
+        },
+        "max_with_talisman_of_butcher": {
+          "intelligence": 3739,
+          "agility": 3923,
+          "strength": 18382,
+          "health": 1353598,
+          "physical_attack": 98606,
+          "magic_attack": 26323,
+          "physical_armor": 54924.4,
+          "magical_armor": 47212.5,
+          "toughness": 12913,
+          "crushing": 8000,
+          "vampirism_percent": 55
+        }
+      },
+      "talisman_details": {
+        "talisman_of_decomposition": {
+          "coin_talisman": 0,
+          "display_name": "Talisman of Decomposition",
+          "border": {
+            "level": 50,
+            "main_stat": "Strength",
+            "main_stat_value": 2000
+          },
+          "rerolls": [
+            { "stat": "health", "value": 60500 },
+            { "stat": "health", "value": 60500 },
+            { "stat": "health", "value": 60500 }
+          ],
+          "total_reroll_bonus": { "stat": "Health", "value": 181500 }
+        },
+        "talisman_of_butcher": {
+          "coin_talisman": 0,
+          "display_name": "Talisman of Butcher",
+          "border": {
+            "level": 50,
+            "main_stat": "Crushing",
+            "main_stat_value": 8000
+          },
+          "rerolls": [
+            { "stat": "toughness", "value": 2200 },
+            { "stat": "toughness", "value": 2200 },
+            { "stat": "toughness", "value": 2200 }
+          ],
+          "total_reroll_bonus": { "stat": "Toughness", "value": 6600 }
+        },
+        "recommended": "talisman_of_decomposition"
+      },
+      "skills": [
+        {
+          "id": 0,
+          "variant": "basic_attack",
+          "name": "Basic attack",
+          "type": ["Physical Damage"],
+          "description": "Cleaver's basic attack deals physical damage before Rusty Hook changes his basic attacks to pure damage.",
+          "damage": "100% Phys.atk.",
+          "cooldown_seconds": 5.2,
+          "animation_delay_seconds": 0.38
+        },
+        {
+          "id": 1,
+          "variant": "base",
+          "level": 120,
+          "name": "Rusty Hook",
+          "type": ["Pure Damage", "Control"],
+          "description": "Cleaver throws a hook at the farthest enemy, pulls them in, and deals pure damage. Cleaver's basic attacks now deal pure damage.",
+          "pure_damage": "Depends on Physical Attack",
+          "basic_attack_pure_damage": "Depends on Physical Attack",
+          "target": "Farthest enemy"
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "level": 120,
+          "name": "Putrefaction",
+          "type": ["Pure Damage", "Sacrifice"],
+          "keywords": ["Sacrifice", "Upgradeable to Legendary"],
+          "description": "Deals pure damage to Cleaver and nearby enemies every 0.5 seconds for 7.0 seconds.",
+          "pure_damage": "Depends on Health",
+          "tick_seconds": 0.5,
+          "duration_seconds": 7.0
+        },
+        {
+          "id": 2,
+          "variant": "legendary",
+          "relic_level": 10,
+          "name": "Putrefaction",
+          "type": ["Healing Reduction", "Sacrifice", "Enhancement"],
+          "description": "Enemies within this skill's area of effect or those affected by Miasma restore 60% less health points to themselves and their allies. If an enemy is affected by both effects, the healing reduction is doubled.",
+          "healing_reduction_percent": 60,
+          "can_double_healing_reduction": true,
+          "relic_total_stats_gain": {
+            "health": 53269,
+            "physical_attack": 6956
+          },
+          "relic_unlocks": {
+            "relic_shards_level_2_to_10": 280,
+            "total_relic_shards_level_0_to_10": 330
+          }
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "level": 100,
+          "name": "Mutilation",
+          "type": ["Pure Damage", "Stun", "Control"],
+          "description": "Strikes in front of himself, stunning nearby enemies for 2.0 seconds and dealing pure damage. The chance to stun is reduced if the target's level is higher than 120.",
+          "pure_damage": "Depends on Physical Attack",
+          "stun_duration_seconds": 2.0
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "level": 80,
+          "name": "Heavyweight",
+          "type": ["Passive", "Buff"],
+          "keywords": ["Upgradeable to Legendary"],
+          "description": "Passive. Cleaver gains additional Strength.",
+          "strength": 4800
+        },
+        {
+          "id": 4,
+          "variant": "legendary",
+          "relic_level": 20,
+          "name": "Heavyweight",
+          "type": ["Cleanse", "Support", "Enhancement"],
+          "description": "Whenever Cleaver or his allies take damage from their own or allied skills, all negative effects are removed from the damaged hero. This skill remains active while Cleaver is alive.",
+          "note": "This turns Cleaver into a tank-support option, especially with Chaos allies that use Sacrifice skills such as Dorian, Aidan, Kayla, Kendle, Lilith, Xe'sha, and Cleaver himself. It can cleanse negative effects such as Iris' Inner Fire.",
+          "relic_total_stats_gain": {
+            "health": 146854,
+            "physical_attack": 19176
+          },
+          "relic_unlocks": {
+            "relic_shards_level_11_to_20": 800,
+            "total_relic_shards_level_0_to_20": 1130
+          }
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "name": "Miasma",
+          "type": ["Pure Damage", "Damage over Time", "Debuff"],
+          "description": "Applies an effect to the central enemy for 7.0 seconds, dealing pure damage to all enemies around them every 0.5 seconds. If Putrefaction is upgraded, enemies are also afflicted with an effect that reduces their healing.",
+          "pure_damage_per_0_5_sec": "Depends on Physical Attack",
+          "total_damage": "Depends on Physical Attack over 7 seconds",
+          "tick_seconds": 0.5,
+          "duration_seconds": 7.0,
+          "target": "Central enemy",
+          "note": "This skill becomes much stronger when the relic level 10 Putrefaction healing reduction is active, making relic level 10 a very high priority for Cleaver.",
+          "relic_total_stats_gain": {
+            "health": 28794,
+            "physical_attack": 3760
+          },
+          "relic_unlocks": {
+            "relic_shards_level_0_to_1": 50,
+            "total_relic_shards_level_0_to_1": 50
+          }
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "name": "Carnage",
+          "type": ["Damage Increase", "Legendary"],
+          "description": "Cleaver now deals more damage for each enemy around him.",
+          "damage_increase_percent": 20,
+          "relic_unlocks": {
+            "relic_shards_level_21_to_30": 1750,
+            "total_relic_shards_level_0_to_30": 2880
+          }
+        }
+      ],
+      "realm": {
+        "troop_buff": "Infantry",
+        "realm_buff": "Attack/Defense 120%",
+        "skills": []
+      },
+      "skins": [
+        {
+          "name": "Default",
+          "stat": "Strength",
+          "bonus": 1365,
+          "level": 60,
+          "derived": {
+            "health": 54500,
+            "physical_attack": 1365
+          },
+          "total_skin_stones": 30825
+        },
+        {
+          "name": "Champion",
+          "stat": "Physical attack",
+          "bonus": 7117,
+          "level": 60
+        },
+        {
+          "name": "Barbarian",
+          "stat": "Health",
+          "bonus": 106645,
+          "level": 60
+        },
+        {
+          "name": "Masquerade",
+          "stat": "Armor",
+          "bonus": 10650,
+          "level": 60
+        },
+        {
+          "name": "Beach",
+          "stat": "Magic defense",
+          "bonus": 10650,
+          "level": 60
+        },
+        {
+          "name": "Lunar",
+          "stat": "Toughness",
+          "bonus": 2960,
+          "level": 60
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "Executioner's Hook",
+          "slot": "Weapon",
+          "bigStar": true,
+          "evolve": 6,
+          "level": 100,
+          "activation_chance": "100%",
+          "effect": "Armor +32040"
+        },
+        {
+          "name": "Defender's Covenant",
+          "slot": "Book",
+          "bigStar": true,
+          "evolve": 6,
+          "level": 100,
+          "armor": 8010,
+          "magic_defense": 8010
+        },
+        {
+          "name": "Ring of Strength",
+          "slot": "Ring",
+          "bigStar": true,
+          "evolve": 6,
+          "level": 100,
+          "strength": 3990,
+          "derived": {
+            "health": 159600,
+            "physical_attack": 3990
+          }
+        }
+      ],
+      "glyphs": {
+        "class": "Tank",
+        "runesphere": 0,
+        "cleaver4": 45,
+        "overall_class_level": "495 / 495",
+        "tank_class_glyphs_bonuses": "Every 10 seconds, the effect is applied to the ally with the lowest health percentage, increasing armor and magic defense by 35377.74 (1% Health + 24750) for 5.0 seconds. This ability can be used on the tank itself and depends on their maximum Health stat.",
+        "glyphs_level": 80,
+        "list": [
+          { "name": "Physical attack", "level": 80, "bonus": 8340 },
+          { "name": "Armor", "level": 80, "bonus": 12850 },
+          { "name": "Health", "level": 80, "bonus": 122800 },
+          { "name": "Magic defense", "level": 80, "bonus": 12850 },
+          {
+            "name": "Strength",
+            "level": 80,
+            "bonus": 2110,
+            "derived": {
+              "health": 84400,
+              "physical_attack": 2110
+            }
+          }
+        ]
+      },
+      "gift_of_the_elements": {
+        "level": 30,
+        "bonuses": {
+          "strength": 720,
+          "agility": 360,
+          "intelligence": 360
+        }
+      },
+      "best_teams": [
+        {
+          "name": "team1",
+          "heroes": [
+            { "hero": "Aidan", "talisman": "T2" },
+            { "hero": "Kendle", "talisman": "T1" },
+            { "hero": "Peech", "talisman": "T2" },
+            { "hero": "Kayla", "talisman": "T2" },
+            { "hero": "Cleaver", "talisman": "T1" }
+          ]
+        },
+        {
+          "name": "team2",
+          "heroes": [
+            { "hero": "Aidan", "talisman": "T2" },
+            { "hero": "Kendle", "talisman": "T1" },
+            { "hero": "Dorian", "talisman": "T2" },
+            { "hero": "Peech", "talisman": "T2" },
+            { "hero": "Cleaver", "talisman": "T1" }
+          ]
+        }
+      ],
+      "mechanics_notes": {
+        "crushing": {
+          "description": "Crushing increases all outgoing damage to enemies with low health.",
+          "applies_to": ["Physical Damage", "Magical Damage", "Pure Damage"],
+          "does_not_apply_to": ["Health loss from allied skills"],
+          "threshold": "Target has less than 50% health",
+          "formula": "(Crushing / (Crushing + target's main stat)) * 100%"
+        },
+        "toughness": {
+          "description": "Toughness reduces all incoming damage from enemies when the hero's health is low.",
+          "applies_to": ["Physical Damage", "Magical Damage", "Pure Damage"],
+          "does_not_apply_to": ["Health loss from allied abilities"],
+          "threshold": "Hero has less than 50% health",
+          "formula": "(Toughness / (Toughness + enemy's main stat)) * 100%"
+        },
+        "vampirism": {
+          "description": "Vampirism grants a hero healing equal to a percentage of the damage dealt with a basic attack or an ability.",
+          "example": "If a hero deals 100 damage and has 10% Vampirism, they receive 10 health points."
+        }
+      },
+      "relic_resources": {
+        "total_relic_shards_to_level_30": 2880
+      },
+      "notes": [
+        "Cleaver has always been difficult to obtain because he comes from the Heroic Chest at absolute star level.",
+        "After opening 400 Heroic Chests, the first major reward is Cleaver. Other rewards are Super Skins+.",
+        "Cleaver currently has no Realm skills.",
+        "Talisman of Decomposition is the recommended talisman from the provided team examples because it gives Strength and Health, improving Cleaver's durability and physical attack scaling.",
+        "Talisman of Butcher gives Crushing and more Toughness, making it useful when Cleaver needs better low-health damage pressure and defensive mitigation."
+      ]
+    }
+  ]
+}
