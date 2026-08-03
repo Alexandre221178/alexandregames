@@ -140,6 +140,11 @@
   "nota_pvp": {
     "resumo": "Testes feitos em nivel maximo indicam que Pallant fortalece muito os times de Terra.",
     "testes": [
+       {
+        "time_1": ["Eden", "Verdoc", "Avalon", "Angus", "Pallant"],
+        "placar": "10vs0",
+        "time_2": ["Pallant", "Angus", "Verdoc", "Eden", "Sylva"]
+      },
       {
         "time_1": ["Sylva", "Eden", "Verdoc", "Angus", "Pallant"],
         "placar": "10vs0",
@@ -156,6 +161,6 @@
         "time_2": ["Moloch", "Vulcan", "Araji", "Asherona", "Ignis"]
       }
     ],
-    "conclusao": "Os times de Terra estao entre os mais fortes da atualidade. Pallant deve brilhar muito em times de Terra, principalmente contra times de Agua. Como ja existem Pallant, Alecto e Orm, tambem ja da para montar um nucleo Elarite com dois aliados super titans ate chegarem novos Elarites."
+    "conclusao": "Nos meus testes o time eden, verdoc, avalon, angus, pallant, foi a melhor combinacao para times de terra no evento de rixo que reune os todos titans no nivel maximo, esse time foi o que se saiu melhor na defesa e o que mais venceu no ataque. Os times de Terra estao entre os mais fortes da atualidade. Pallant deve brilhar muito em times de Terra, principalmente contra times de Agua. Como ja existem Pallant, Alecto e Orm, tambem ja da para montar um nucleo Elarite com dois aliados super titans ate chegarem novos Elarites."
   }
 }
