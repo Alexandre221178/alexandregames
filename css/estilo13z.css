@@ -744,6 +744,7 @@ section p{
   width: 100%;
   margin: 0;          /* remove margem padrão */
      /* espaçamento interno opcional */
+     margin-bottom: 13px;
   font-size: 14px;
   line-height: 1.4;
   text-align: left;   /* garante que o texto começa da esquerda */

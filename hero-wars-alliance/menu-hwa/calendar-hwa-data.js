@@ -213,6 +213,11 @@ window.CALENDAR_DATA = [
       titles: { en: "📿 Cleaver - Relic Event", de: "📿 Cleaver - Relikt-Event", es: "📿 Cleaver - Evento de Reliquia", fr: "📿 Cleaver - Événement des Reliques", pt: "📿 Cleaver - Evento de Relíquia", ja: "📿 クリーバー - レリックイベント", },
     links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
   },
+   {
+ titles: { en: "🦸 Cleaver Guide", pt: "🦸 Guia da Cleaver", de: "🦸 Cleaver-Leitfaden", es: "🦸 Guía de Cleaver", fr: "🦸 Guide de Cleaver", ja: "🦸 クリーバー ガイド" }, 
+ links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
+  noStrip: true
+},
   {
   titles: { en: "👗 Peech New Skin: Inner Demons", pt: "👗 Peech Nova Skin: Demônios Interiores", de: "👗 Peech Neue Skin: Innere Dämonen", es: "👗 Peech Nueva Skin: Demonios Interiores", fr: "👗 Peech Nouvelle Skin : Démons Intérieurs", ja: "👗 ピーチ 新スキン：インナーデーモン" },
   links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html",pt: "", de: "", es: "", fr: "",  ja: "" }, 
@@ -249,6 +254,11 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
   },
   {
+ titles: { en: "🦸 Cleaver Guide", pt: "🦸 Guia da Cleaver", de: "🦸 Cleaver-Leitfaden", es: "🦸 Guía de Cleaver", fr: "🦸 Guide de Cleaver", ja: "🦸 クリーバー ガイド" }, 
+ links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
+  noStrip: true
+},
+  {
   titles: { en: "👗 Peech New Skin: Inner Demons", pt: "👗 Peech Nova Skin: Demônios Interiores", de: "👗 Peech Neue Skin: Innere Dämonen", es: "👗 Peech Nueva Skin: Demonios Interiores", fr: "👗 Peech Nouvelle Skin : Démons Intérieurs", ja: "👗 ピーチ 新スキン：インナーデーモン" },
   links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html",pt: "", de: "", es: "", fr: "",  ja: "" }, 
   noStrip: true
@@ -283,6 +293,11 @@ window.CALENDAR_DATA = [
       titles: { en: "📿 Cleaver - Relic Event", de: "📿 Cleaver - Relikt-Event", es: "📿 Cleaver - Evento de Reliquia", fr: "📿 Cleaver - Événement des Reliques", pt: "📿 Cleaver - Evento de Relíquia", ja: "📿 クリーバー - レリックイベント", },
     links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
   },
+  {
+ titles: { en: "🦸 Cleaver Guide", pt: "🦸 Guia da Cleaver", de: "🦸 Cleaver-Leitfaden", es: "🦸 Guía de Cleaver", fr: "🦸 Guide de Cleaver", ja: "🦸 クリーバー ガイド" }, 
+ links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
+  noStrip: true
+},
    {
   titles: { en: "👗 Peech New Skin: Inner Demons", pt: "👗 Peech Nova Skin: Demônios Interiores", de: "👗 Peech Neue Skin: Innere Dämonen", es: "👗 Peech Nueva Skin: Demonios Interiores", fr: "👗 Peech Nouvelle Skin : Démons Intérieurs", ja: "👗 ピーチ 新スキン：インナーデーモン" },
   links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -318,6 +333,11 @@ window.CALENDAR_DATA = [
       titles: { en: "📿 Cleaver - Relic Event", de: "📿 Cleaver - Relikt-Event", es: "📿 Cleaver - Evento de Reliquia", fr: "📿 Cleaver - Événement des Reliques", pt: "📿 Cleaver - Evento de Relíquia", ja: "📿 クリーバー - レリックイベント", },
     links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
   },
+  {
+ titles: { en: "🦸 Cleaver Guide", pt: "🦸 Guia da Cleaver", de: "🦸 Cleaver-Leitfaden", es: "🦸 Guía de Cleaver", fr: "🦸 Guide de Cleaver", ja: "🦸 クリーバー ガイド" }, 
+ links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
+  noStrip: true
+},
   {
         titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
         links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
@@ -367,6 +387,11 @@ window.CALENDAR_DATA = [
       titles: { en: "📿 Cleaver - Relic Event", de: "📿 Cleaver - Relikt-Event", es: "📿 Cleaver - Evento de Reliquia", fr: "📿 Cleaver - Événement des Reliques", pt: "📿 Cleaver - Evento de Relíquia", ja: "📿 クリーバー - レリックイベント", },
     links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
   },
+  {
+ titles: { en: "🦸 Cleaver Guide", pt: "🦸 Guia da Cleaver", de: "🦸 Cleaver-Leitfaden", es: "🦸 Guía de Cleaver", fr: "🦸 Guide de Cleaver", ja: "🦸 クリーバー ガイド" }, 
+ links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
+  noStrip: true
+},
   {
         titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
         links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
@@ -422,6 +447,11 @@ window.CALENDAR_DATA = [
     links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
   },
   {
+ titles: { en: "🦸 Cleaver Guide", pt: "🦸 Guia da Cleaver", de: "🦸 Cleaver-Leitfaden", es: "🦸 Guía de Cleaver", fr: "🦸 Guide de Cleaver", ja: "🦸 クリーバー ガイド" }, 
+ links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
+  noStrip: true
+},
+  {
         titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
         links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
       },
@@ -474,6 +504,11 @@ window.CALENDAR_DATA = [
       titles: { en: "📿 Cleaver - Relic Event", de: "📿 Cleaver - Relikt-Event", es: "📿 Cleaver - Evento de Reliquia", fr: "📿 Cleaver - Événement des Reliques", pt: "📿 Cleaver - Evento de Relíquia", ja: "📿 クリーバー - レリックイベント", },
     links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
   },
+  {
+ titles: { en: "🦸 Cleaver Guide", pt: "🦸 Guia da Cleaver", de: "🦸 Cleaver-Leitfaden", es: "🦸 Guía de Cleaver", fr: "🦸 Guide de Cleaver", ja: "🦸 クリーバー ガイド" }, 
+ links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
+  noStrip: true
+},
   {
         titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
         links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
