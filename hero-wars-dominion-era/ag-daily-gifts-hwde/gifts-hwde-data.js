@@ -15,7 +15,7 @@ https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=--
 */window.HWDE_GIFTS = [
   // 2026-08-04── 2 Link Exclusivo Web/FB ──────────────────────────────
-{ date:'2026-08-04', type:'link', giftLinkWeb:'https://herowars.me/#wb#', giftLinkFb:'https://herowars.me/#fb#',
+{ date:'2026-08-04', type:'link', giftLinkWeb:'https://herowars.me/4wwLAKO', giftLinkFb:'https://herowars.me/4fS1UyK',
  note:'until|2026-08-07T02:00:00Z', rewards:['energy x500', 'alexandregames Equipment Fragment Box! x1', 'alexandregames Equipment Fragment Box! x1','alexandregames Equipment Fragment Box! x1'] },
    // ── August 3, 2026 ─────────────────────────────
    { date:'2026-08-03', type:'link', giftId:'06efd7144d4d1484aaf692ce568422e6', note:'level',
