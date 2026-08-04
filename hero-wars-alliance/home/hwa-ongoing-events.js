@@ -2,6 +2,15 @@
   // Active Ascendant Glory guides shown below the main calendar carousel.
   var slides = [
     {
+      link: "/hero-wars-alliance/titans-events-tips/pallant-shop-ancient-awakening-en.html",
+      src500: "/hero-wars-alliance/images/titans-events-tips/pallant-shop-ancient-awakening/pallant-shop-ancient-awakening-500px.webp",
+      src400: "/hero-wars-alliance/images/titans-events-tips/pallant-shop-ancient-awakening/pallant-shop-ancient-awakening-400px.webp",
+      alt: "Pallant Shop Guide for Hero Wars Alliance",
+      title: "Pallant Shop Guide for Hero Wars Alliance",
+      strong: "Guide: Pallant Shop - Hero Wars Alliance",
+      updated: "Updated: August 03, 2026."
+    },
+    {
       link: "/hero-wars-alliance/events-tips-hwa/lords-of-the-elements-shop-en.html",
       src500: "/hero-wars-alliance/images/events-tips-hwa/lords-of-the-elements-shop/lords-of-the-elements-shop-500px.webp",
       src400: "/hero-wars-alliance/images/events-tips-hwa/lords-of-the-elements-shop/lords-of-the-elements-shop-400px.webp",

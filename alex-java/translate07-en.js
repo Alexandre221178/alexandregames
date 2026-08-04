@@ -3,6 +3,8 @@
 
     var LOCAL_PAGE_LANGUAGES = ['de', 'fr', 'pt', 'es', 'ja'];
     var googleTranslateLoading = false;
+    var googleTranslateTargetLanguage = '';
+    var googleTranslateRequest = 0;
 
     var languageMessages = {
         de: {
@@ -39,6 +41,41 @@
             open: '開く',
             translate: '翻訳',
             close: '後で'
+        },
+        ko: {
+            local: '이 페이지는 한국어로 제공됩니다. 한국어 버전을 여시겠습니까?',
+            google: '이 페이지를 한국어로 번역하시겠습니까?',
+            open: '열기',
+            translate: '번역',
+            close: '나중에'
+        },
+        pl: {
+            local: 'Ta strona jest dostępna w języku polskim. Czy chcesz otworzyć polską wersję?',
+            google: 'Czy chcesz przetłumaczyć tę stronę na język polski?',
+            open: 'Otwórz',
+            translate: 'Przetłumacz',
+            close: 'Nie teraz'
+        },
+        it: {
+            local: 'Questa pagina è disponibile in italiano. Vuoi aprire la versione italiana?',
+            google: 'Vuoi tradurre questa pagina in italiano?',
+            open: 'Apri',
+            translate: 'Traduci',
+            close: 'Non ora'
+        },
+        ru: {
+            local: 'Эта страница доступна на русском языке. Открыть русскую версию?',
+            google: 'Хотите перевести эту страницу на русский язык?',
+            open: 'Открыть',
+            translate: 'Перевести',
+            close: 'Не сейчас'
+        },
+        ar: {
+            local: 'هذه الصفحة متاحة باللغة العربية. هل تريد فتح النسخة العربية؟',
+            google: 'هل تريد ترجمة هذه الصفحة إلى العربية؟',
+            open: 'فتح',
+            translate: 'ترجمة',
+            close: 'ليس الآن'
         }
     };
 
@@ -85,6 +122,8 @@
             return { type: 'local', language: lang, url: localizedUrl };
         }
 
+        // No local hreflang page: keep this page open and use the
+        // Google translator connected to the Translate button.
         return { type: 'google', language: lang, url: '' };
     }
 
@@ -95,14 +134,18 @@
             return {
                 message: action.type === 'local' ? messages.local : messages.google,
                 accept: action.type === 'local' ? messages.open : messages.translate,
-                close: messages.close
+                close: messages.close,
+                language: action.language,
+                direction: action.language === 'ar' ? 'rtl' : 'ltr'
             };
         }
 
         return {
             message: 'Would you like to translate this page into your language?',
             accept: 'Translate',
-            close: 'Not now'
+            close: 'Not now',
+            language: 'en',
+            direction: 'ltr'
         };
     }
 
@@ -121,7 +164,7 @@
         var select = document.querySelector('.goog-te-combo');
         if (select) {
             select.value = language;
-            select.dispatchEvent(new Event('change'));
+            select.dispatchEvent(new Event('change', { bubbles: true }));
             return;
         }
 
@@ -134,34 +177,105 @@
         }
     }
 
+    function isGoogleTranslateReady() {
+        return Boolean(
+            window.google &&
+            window.google.translate &&
+            typeof window.google.translate.TranslateElement === 'function'
+        );
+    }
+
+    function initializeGoogleTranslate(language) {
+        var container = ensureGoogleTranslateContainer();
+
+        try {
+            if (container.dataset.googleTranslateInitialized !== 'true') {
+                new window.google.translate.TranslateElement({
+                    pageLanguage: getPageLanguage()
+                }, 'google_translate_element');
+                container.dataset.googleTranslateInitialized = 'true';
+            }
+
+            applyTranslation(language, 60);
+        } catch (error) {
+            googleTranslateLoading = false;
+            showNotice('The translator could not be loaded. Please try again.');
+        }
+    }
+
+    function waitForGoogleTranslate(language, attemptsLeft, requestId) {
+        if (requestId !== googleTranslateRequest) return;
+
+        if (isGoogleTranslateReady()) {
+            googleTranslateLoading = false;
+            initializeGoogleTranslate(language);
+            return;
+        }
+
+        if (attemptsLeft > 0) {
+            window.setTimeout(function () {
+                waitForGoogleTranslate(language, attemptsLeft - 1, requestId);
+            }, 250);
+            return;
+        }
+
+        googleTranslateLoading = false;
+        var staleScript = document.getElementById('google-translate-element-script');
+        if (staleScript && staleScript.parentNode) {
+            staleScript.parentNode.removeChild(staleScript);
+        }
+        showNotice('The translator could not be loaded. Please try again.');
+    }
+
     function startGoogleTranslation(language) {
-        var pageLang = getPageLanguage();
+        var requestedLanguage = normalizeLanguage(language);
+        if (!requestedLanguage) return;
+
+        googleTranslateTargetLanguage = requestedLanguage;
+        googleTranslateRequest += 1;
+        var requestId = googleTranslateRequest;
         ensureGoogleTranslateContainer();
 
         if (document.querySelector('.goog-te-combo')) {
-            applyTranslation(language, 20);
+            applyTranslation(requestedLanguage, 60);
+            return;
+        }
+
+        if (isGoogleTranslateReady()) {
+            initializeGoogleTranslate(requestedLanguage);
             return;
         }
 
         window.googleTranslateElementInit = function () {
-            new window.google.translate.TranslateElement({
-                pageLanguage: pageLang
-            }, 'google_translate_element');
-            applyTranslation(language, 20);
+            googleTranslateLoading = false;
+            if (isGoogleTranslateReady()) {
+                initializeGoogleTranslate(googleTranslateTargetLanguage);
+            }
         };
 
-        if (!googleTranslateLoading && !document.getElementById('google-translate-element-script')) {
+        var existingScript = document.getElementById('google-translate-element-script');
+        if (!googleTranslateLoading && !existingScript) {
             googleTranslateLoading = true;
             var script = document.createElement('script');
             script.id = 'google-translate-element-script';
             script.type = 'text/javascript';
             script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+            script.onload = function () {
+                waitForGoogleTranslate(googleTranslateTargetLanguage, 60, requestId);
+            };
             script.onerror = function () {
                 googleTranslateLoading = false;
+                if (script.parentNode) script.parentNode.removeChild(script);
                 showNotice('The translator could not be loaded. Please try again.');
             };
             document.body.appendChild(script);
+            return;
         }
+
+        // A previous click may already have inserted the loader. Wait for its
+        // API instead of silently doing nothing; if it is stale, the timeout
+        // removes it so the next click can load a fresh copy.
+        waitForGoogleTranslate(requestedLanguage, 60, requestId);
     }
 
     function executeLanguageAction(action) {
@@ -185,6 +299,24 @@
         }
 
         executeLanguageAction(action);
+    }
+
+    function bindTranslateButtons(root) {
+        var scope = root && root.querySelectorAll ? root : document;
+        var buttons = scope.querySelectorAll('.share-button.translate');
+
+        for (var i = 0; i < buttons.length; i += 1) {
+            var button = buttons[i];
+            if (button.dataset.translateRoutingReady === 'true') continue;
+
+            button.dataset.translateRoutingReady = 'true';
+            button.removeAttribute('onclick');
+            button.onclick = null;
+            button.addEventListener('click', function (event) {
+                event.preventDefault();
+                translatePage(this.getAttribute('data-translate-language') || '');
+            });
+        }
     }
 
     function getDismissalKey() {
@@ -225,8 +357,10 @@
         var content = getPromptContent(action);
         var wrapper = document.createElement('div');
         wrapper.id = 'language-offer-wrapper';
+        wrapper.lang = content.language;
 
         var panel = document.createElement('div');
+        panel.dir = content.direction;
         panel.style.cssText = 'position:fixed;bottom:0;left:20px;right:20px;background:#111;color:#fff;padding:15px;border-radius:10px;z-index:9999;font-size:14px;display:flex;flex-direction:column;align-items:center;gap:10px';
 
         var message = document.createElement('span');
@@ -278,6 +412,8 @@
         var message = panel.querySelector('span');
         var close = document.getElementById('closeBtn');
 
+        panel.lang = content.language;
+        panel.dir = content.direction;
         if (message) message.textContent = content.message;
         accept.textContent = content.accept;
         accept.dataset.languageRoutingReady = 'true';
@@ -311,6 +447,7 @@
     window.getLocalizedPageUrl = getLocalizedPageUrl;
     window.offerPreferredLanguage = offerPreferredLanguage;
     window.translatePage = translatePage;
+    window.translateWithGoogle = startGoogleTranslation;
 
     if ('MutationObserver' in window) {
         var legacyObserver = new MutationObserver(function () {
@@ -319,6 +456,7 @@
         legacyObserver.observe(document.documentElement, { childList: true, subtree: true });
     }
 
+    bindTranslateButtons();
     enhanceLegacyPrompt();
 
     if (getPageLanguage() === 'en') {
