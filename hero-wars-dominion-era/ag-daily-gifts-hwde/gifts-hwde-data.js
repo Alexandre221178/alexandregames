@@ -1,4 +1,4 @@
-/* HWDE Daily Gifts Data - npm run update-gifts-hwde
+/* HWDE Daily Gifts Data  - npm run update-gifts-hwde
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 // ── August #, 2026 ─────────────────────────────
    { date:'2026-08-##', type:'link', giftId:'######', note:'level',
