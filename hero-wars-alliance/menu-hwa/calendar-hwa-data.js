@@ -52,12 +52,19 @@ window.CALENDAR_DATA = [
     image: "../../imagens/image-shared/pallant-300px.webp",
     alt: "Ancient Awakening Event",
    titles: {  en: "🌋 Ancient Awakening Event", de: "🌋 Ereignis „Uraltes Erwachen“", es: "🌋 Evento Despertar Ancestral", fr: "🌋 Événement Éveil Ancestral", pt: "🌋 Evento Despertar Ancestral", ja: "🌋 古代覚醒イベント"},
-    labelOnly: true,
+    links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-main-event.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
     extra: [
-      {
- titles: { en: "&nbsp;", pt: "&nbsp;", de: "&nbsp;", es: "&nbsp;", fr: "&nbsp;", ja: "&nbsp;" },
-  labelOnly: true
-},   
+     
+{
+titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogênitos", de: "👑 Ereignis „Kraft der Erstgeborenen“", es: "👑 Evento Fuerza de los Primogénitos", fr: "👑 Événement Force des Premiers-Nés", ja: "👑 始祖の力イベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚖️Unstable Equilibrium Guide", pt: "⚖️Guia da Equilíbrio Instável", de: "⚖️Leitfaden für instabile Gleichgewicht", es: "⚖️Guía del Equilibrio Inestable", fr: "⚖️Guide de l'Équilibre Instable", ja: "⚖️不安定均衡ガイド" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
      
       {
   titles: { en: "🦸Pallant Guide", pt: "🦸Guia do Pallant", de: "🦸Pallant Leitfaden", es: "🦸Guía de Pallant", fr: "🦸Guide de Pallant", ja: "🦸パラント ガイド" },
@@ -72,13 +79,19 @@ window.CALENDAR_DATA = [
     image: "../../imagens/image-shared/pallant-300px.webp",
     alt: "Ancient Awakening Event",
    titles: {  en: "🌋 Ancient Awakening Event", de: "🌋 Ereignis „Uraltes Erwachen“", es: "🌋 Evento Despertar Ancestral", fr: "🌋 Événement Éveil Ancestral", pt: "🌋 Evento Despertar Ancestral", ja: "🌋 古代覚醒イベント"},
-    labelOnly: true,
+    links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-main-event.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
     extra: [
-      {
- titles: { en: "&nbsp;", pt: "&nbsp;", de: "&nbsp;", es: "&nbsp;", fr: "&nbsp;", ja: "&nbsp;" },
-  labelOnly: true
-},   
      
+{
+titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogênitos", de: "👑 Ereignis „Kraft der Erstgeborenen“", es: "👑 Evento Fuerza de los Primogénitos", fr: "👑 Événement Force des Premiers-Nés", ja: "👑 始祖の力イベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚖️Unstable Equilibrium Guide", pt: "⚖️Guia da Equilíbrio Instável", de: "⚖️Leitfaden für instabile Gleichgewicht", es: "⚖️Guía del Equilibrio Inestable", fr: "⚖️Guide de l'Équilibre Instable", ja: "⚖️不安定均衡ガイド" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},    
       {
   titles: { en: "🦸Pallant Guide", pt: "🦸Guia do Pallant", de: "🦸Pallant Leitfaden", es: "🦸Guía de Pallant", fr: "🦸Guide de Pallant", ja: "🦸パラント ガイド" },
   links: { en: "../../hero-wars-alliance/titans-guide/pallant-en.html", pt: "../../hero-wars-alliance/titans-guide/pallant-pt.html", de: "../../hero-wars-alliance/titans-guide/pallant-de.html", es: "../../hero-wars-alliance/titans-guide/pallant-es.html", fr: "../../hero-wars-alliance/titans-guide/pallant-fr.html", ja: "../../hero-wars-alliance/titans-guide/pallant-ja.html" },
@@ -92,11 +105,18 @@ window.CALENDAR_DATA = [
     image: "../../imagens/image-shared/pallant-300px.webp",
     alt: "Ancient Awakening Event",
    titles: {  en: "🌋 Ancient Awakening Event", de: "🌋 Ereignis „Uraltes Erwachen“", es: "🌋 Evento Despertar Ancestral", fr: "🌋 Événement Éveil Ancestral", pt: "🌋 Evento Despertar Ancestral", ja: "🌋 古代覚醒イベント"},
-    labelOnly: true,
+    links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-main-event.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
     extra: [
-      {
- titles: { en: "&nbsp;", pt: "&nbsp;", de: "&nbsp;", es: "&nbsp;", fr: "&nbsp;", ja: "&nbsp;" },
-  labelOnly: true
+     
+{
+titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogênitos", de: "👑 Ereignis „Kraft der Erstgeborenen“", es: "👑 Evento Fuerza de los Primogénitos", fr: "👑 Événement Force des Premiers-Nés", ja: "👑 始祖の力イベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚖️Unstable Equilibrium Guide", pt: "⚖️Guia da Equilíbrio Instável", de: "⚖️Leitfaden für instabile Gleichgewicht", es: "⚖️Guía del Equilibrio Inestable", fr: "⚖️Guide de l'Équilibre Instable", ja: "⚖️不安定均衡ガイド" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
 },   
      
       {
@@ -111,13 +131,20 @@ window.CALENDAR_DATA = [
    date: "August, 06",
     image: "../../imagens/image-shared/pallant-300px.webp",
     alt: "Ancient Awakening Event",
-   titles: {  en: "🌋 Ancient Awakening Event", de: "🌋 Ereignis „Uraltes Erwachen“", es: "🌋 Evento Despertar Ancestral", fr: "🌋 Événement Éveil Ancestral", pt: "🌋 Evento Despertar Ancestral", ja: "🌋 古代覚醒イベント"},
-    labelOnly: true,
+  titles: {  en: "🌋 Ancient Awakening Event", de: "🌋 Ereignis „Uraltes Erwachen“", es: "🌋 Evento Despertar Ancestral", fr: "🌋 Événement Éveil Ancestral", pt: "🌋 Evento Despertar Ancestral", ja: "🌋 古代覚醒イベント"},
+    links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-main-event.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
     extra: [
-      {
- titles: { en: "&nbsp;", pt: "&nbsp;", de: "&nbsp;", es: "&nbsp;", fr: "&nbsp;", ja: "&nbsp;" },
-  labelOnly: true
-},   
+     
+{
+titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogênitos", de: "👑 Ereignis „Kraft der Erstgeborenen“", es: "👑 Evento Fuerza de los Primogénitos", fr: "👑 Événement Force des Premiers-Nés", ja: "👑 始祖の力イベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚖️Unstable Equilibrium Guide", pt: "⚖️Guia da Equilíbrio Instável", de: "⚖️Leitfaden für instabile Gleichgewicht", es: "⚖️Guía del Equilibrio Inestable", fr: "⚖️Guide de l'Équilibre Instable", ja: "⚖️不安定均衡ガイド" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
      
       {
   titles: { en: "🦸Pallant Guide", pt: "🦸Guia do Pallant", de: "🦸Pallant Leitfaden", es: "🦸Guía de Pallant", fr: "🦸Guide de Pallant", ja: "🦸パラント ガイド" },
@@ -131,13 +158,20 @@ window.CALENDAR_DATA = [
  date: "August, 07",
     image: "../../imagens/image-shared/pallant-300px.webp",
     alt: "Ancient Awakening Event",
-   titles: {  en: "🌋 Ancient Awakening Event", de: "🌋 Ereignis „Uraltes Erwachen“", es: "🌋 Evento Despertar Ancestral", fr: "🌋 Événement Éveil Ancestral", pt: "🌋 Evento Despertar Ancestral", ja: "🌋 古代覚醒イベント"},
-    labelOnly: true,
+  titles: {  en: "🌋 Ancient Awakening Event", de: "🌋 Ereignis „Uraltes Erwachen“", es: "🌋 Evento Despertar Ancestral", fr: "🌋 Événement Éveil Ancestral", pt: "🌋 Evento Despertar Ancestral", ja: "🌋 古代覚醒イベント"},
+    links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-main-event.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
     extra: [
-      {
- titles: { en: "&nbsp;", pt: "&nbsp;", de: "&nbsp;", es: "&nbsp;", fr: "&nbsp;", ja: "&nbsp;" },
-  labelOnly: true
-},   
+     
+{
+titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogênitos", de: "👑 Ereignis „Kraft der Erstgeborenen“", es: "👑 Evento Fuerza de los Primogénitos", fr: "👑 Événement Force des Premiers-Nés", ja: "👑 始祖の力イベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚖️Unstable Equilibrium Guide", pt: "⚖️Guia da Equilíbrio Instável", de: "⚖️Leitfaden für instabile Gleichgewicht", es: "⚖️Guía del Equilibrio Inestable", fr: "⚖️Guide de l'Équilibre Instable", ja: "⚖️不安定均衡ガイド" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
      
       {
   titles: { en: "🦸Pallant Guide", pt: "🦸Guia do Pallant", de: "🦸Pallant Leitfaden", es: "🦸Guía de Pallant", fr: "🦸Guide de Pallant", ja: "🦸パラント ガイド" },
@@ -152,12 +186,19 @@ window.CALENDAR_DATA = [
     image: "../../imagens/image-shared/pallant-300px.webp",
     alt: "Ancient Awakening Event",
    titles: {  en: "🌋 Ancient Awakening Event", de: "🌋 Ereignis „Uraltes Erwachen“", es: "🌋 Evento Despertar Ancestral", fr: "🌋 Événement Éveil Ancestral", pt: "🌋 Evento Despertar Ancestral", ja: "🌋 古代覚醒イベント"},
-    labelOnly: true,
+    links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-main-event.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
     extra: [
-      {
- titles: { en: "&nbsp;", pt: "&nbsp;", de: "&nbsp;", es: "&nbsp;", fr: "&nbsp;", ja: "&nbsp;" },
-  labelOnly: true
-},   
+     
+{
+titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogênitos", de: "👑 Ereignis „Kraft der Erstgeborenen“", es: "👑 Evento Fuerza de los Primogénitos", fr: "👑 Événement Force des Premiers-Nés", ja: "👑 始祖の力イベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚖️Unstable Equilibrium Guide", pt: "⚖️Guia da Equilíbrio Instável", de: "⚖️Leitfaden für instabile Gleichgewicht", es: "⚖️Guía del Equilibrio Inestable", fr: "⚖️Guide de l'Équilibre Instable", ja: "⚖️不安定均衡ガイド" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
      
       {
   titles: { en: "🦸Pallant Guide", pt: "🦸Guia do Pallant", de: "🦸Pallant Leitfaden", es: "🦸Guía de Pallant", fr: "🦸Guide de Pallant", ja: "🦸パラント ガイド" },
@@ -172,12 +213,19 @@ window.CALENDAR_DATA = [
     image: "../../imagens/image-shared/pallant-300px.webp",
     alt: "Ancient Awakening Event",
    titles: {  en: "🌋 Ancient Awakening Event", de: "🌋 Ereignis „Uraltes Erwachen“", es: "🌋 Evento Despertar Ancestral", fr: "🌋 Événement Éveil Ancestral", pt: "🌋 Evento Despertar Ancestral", ja: "🌋 古代覚醒イベント"},
-    labelOnly: true,
+    links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-main-event.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
     extra: [
-      {
- titles: { en: "&nbsp;", pt: "&nbsp;", de: "&nbsp;", es: "&nbsp;", fr: "&nbsp;", ja: "&nbsp;" },
-  labelOnly: true
-},   
+     
+{
+titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogênitos", de: "👑 Ereignis „Kraft der Erstgeborenen“", es: "👑 Evento Fuerza de los Primogénitos", fr: "👑 Événement Force des Premiers-Nés", ja: "👑 始祖の力イベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚖️Unstable Equilibrium Guide", pt: "⚖️Guia da Equilíbrio Instável", de: "⚖️Leitfaden für instabile Gleichgewicht", es: "⚖️Guía del Equilibrio Inestable", fr: "⚖️Guide de l'Équilibre Instable", ja: "⚖️不安定均衡ガイド" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
      
       {
   titles: { en: "🦸Pallant Guide", pt: "🦸Guia do Pallant", de: "🦸Pallant Leitfaden", es: "🦸Guía de Pallant", fr: "🦸Guide de Pallant", ja: "🦸パラント ガイド" },

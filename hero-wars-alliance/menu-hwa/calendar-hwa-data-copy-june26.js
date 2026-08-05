@@ -1,8 +1,8 @@
 /*Abaixo para simular um espaço vazio - npm run update-calendar-hwa
-{// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+ {
+ titles: { en: "&nbsp;", pt: "&nbsp;", de: "&nbsp;", es: "&nbsp;", fr: "&nbsp;", ja: "&nbsp;" },
   labelOnly: true
-}, 
+},   
 {
   titles: { en: "", pt: "", de: "", es: "", fr: "", ja: "" },
   labelOnly: true
@@ -12,6 +12,7 @@
   links: { en: "../../", pt: "", de: "", es: "", fr: "",  ja: "" },       
   noStrip: true
 },  
+
 
 
 {

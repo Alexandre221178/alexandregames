@@ -2,6 +2,33 @@
   // Active Ascendant Glory guides shown below the main calendar carousel.
   var slides = [
     {
+      link: "/hero-wars-alliance/event-hwa/ancient-awakening-main-event.html",
+      src500: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-400px.webp",
+      alt: "Ancient Awakening Guide for Hero Wars Alliance",
+      title: "Ancient Awakening Guide for Hero Wars Alliance",
+      strong: "Guide: Ancient Awakening - Hero Wars Alliance",
+      updated: "Updated: August 04, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html",
+      src500: "/hero-wars-alliance/images/events/ancient-awakening/events-firstborn-force-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ancient-awakening/events-firstborn-force-400px.webp",
+      alt: "Firstborn Force Guide for Hero Wars Alliance",
+      title: "Firstborn Force Guide for Hero Wars Alliance",
+      strong: "Guide: Firstborn Force - Hero Wars Alliance",
+      updated: "Updated: August 04, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html",
+      src500: "/hero-wars-alliance/images/events/ancient-awakening/events-unstable-equilibrium-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ancient-awakening/events-unstable-equilibrium-400px.webp",
+      alt: "Unstable Equilibrium Guide for Hero Wars Alliance",
+      title: "Unstable Equilibrium Guide for Hero Wars Alliance",
+      strong: "Guide: Unstable Equilibrium - Hero Wars Alliance",
+      updated: "Updated: August 04, 2026."
+    },
+    {
       link: "/hero-wars-alliance/titans-events-tips/pallant-shop-ancient-awakening-en.html",
       src500: "/hero-wars-alliance/images/titans-events-tips/pallant-shop-ancient-awakening/pallant-shop-ancient-awakening-500px.webp",
       src400: "/hero-wars-alliance/images/titans-events-tips/pallant-shop-ancient-awakening/pallant-shop-ancient-awakening-400px.webp",
