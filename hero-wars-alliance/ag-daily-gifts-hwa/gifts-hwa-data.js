@@ -1,13 +1,16 @@
 /*     npm run update-gifts-hwa       
-// ── July #, 2026 ──────────────────────────────
+// ── August #, 2026 ──────────────────────────────
    { date:'2026-07-##', type:'daily', mission:'##', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
-   // ── July 04, 2026 ──────────────────────────────
+    // ── August 04, 2026 ──────────────────────────────
+   { date:'2026-08-04', type:'special', mission:'3-11', note:'until|2026-08-31T01:00:00Z',
+    rewards:['adventure-coin x1000', 'energy x20', 'adventure-energy x50'] },
+   // ── August 04, 2026 ──────────────────────────────
    { date:'2026-07-04', type:'daily', mission:'2-13', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── July 03, 2026 ──────────────────────────────
+   // ── August 03, 2026 ──────────────────────────────
    { date:'2026-07-03', type:'daily', mission:'3-9', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
    // ── august 02, 2026 ─────────---─────────────────────
