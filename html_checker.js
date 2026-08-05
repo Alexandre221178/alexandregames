@@ -11,6 +11,9 @@ const VALID_HREFLANGS = [...VALID_LANGUAGE_CODES, 'x-default'];
 const HERO_WARS_LANG_URL_EXCEPTIONS = new Set([
     'hero-wars-alliance/events-tips-hwa/dorian-skin-plus-charisma-shop.html',
     'hero-wars-alliance/events-tips-hwa/electra-skin-plus-charisma-shop.html',
+    'hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html',
+    'hero-wars-alliance/event-hwa/ancient-awakening-main-event.html',
+    'hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html',
     'hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html'
 ]);
 
