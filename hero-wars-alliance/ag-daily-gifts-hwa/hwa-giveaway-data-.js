@@ -10,7 +10,7 @@ window.giveawayWinnersData = {
     rewards: [
       {
         item: "3.130 Fragmentos do Pallant + 4.875.000 de Ouro + Avatar Lucky Boxy",
-        winner_id: "???",
+        winner_id: "658026355",
         images: ["../../imagens/image-shared/pallant-75px.webp", "../../hero-wars-alliance/images/events/shared/gold.webp", "../../hero-wars-alliance/images/events/shared/avatar.webp"]
       }
     ]
@@ -27,7 +27,7 @@ window.giveawayWinnersData = {
     rewards: [
       {
         item: "3,130 Pallant Fragments + 4,875,000 Gold + Lucky Boxy Avatar",
-        winner_id: "???",
+        winner_id: "658026355",
         images: ["../../imagens/image-shared/pallant-75px.webp", "../../hero-wars-alliance/images/events/shared/gold.webp", "../../hero-wars-alliance/images/events/shared/avatar.webp"]
       }
     ]
@@ -44,7 +44,7 @@ window.giveawayWinnersData = {
     rewards: [
       {
         item: "3.130 Pallant-Fragmente + 4.875.000 Gold + Lucky Boxy Avatar",
-        winner_id: "???",
+        winner_id: "658026355",
         images: ["../../imagens/image-shared/pallant-75px.webp", "../../hero-wars-alliance/images/events/shared/gold.webp", "../../hero-wars-alliance/images/events/shared/avatar.webp"]
       }
     ]
@@ -61,7 +61,7 @@ window.giveawayWinnersData = {
     rewards: [
       {
         item: "3.130 Fragmentos de Pallant + 4.875.000 de Oro + Avatar Lucky Boxy",
-        winner_id: "???",
+        winner_id: "658026355",
         images: ["../../imagens/image-shared/pallant-75px.webp", "../../hero-wars-alliance/images/events/shared/gold.webp", "../../hero-wars-alliance/images/events/shared/avatar.webp"]
       }
     ]
@@ -78,7 +78,7 @@ window.giveawayWinnersData = {
     rewards: [
       {
         item: "3 130 Fragments de Pallant + 4 875 000 d'Or + Avatar Lucky Boxy",
-        winner_id: "???",
+        winner_id: "658026355",
         images: ["../../imagens/image-shared/pallant-75px.webp", "../../hero-wars-alliance/images/events/shared/gold.webp", "../../hero-wars-alliance/images/events/shared/avatar.webp"]
       }
     ]
@@ -95,7 +95,7 @@ window.giveawayWinnersData = {
     rewards: [
       {
         item: "Pallantの欠片3,130個 + ゴールド4,875,000 + Lucky Boxyアバター",
-        winner_id: "???",
+        winner_id: "658026355",
         images: ["../../imagens/image-shared/pallant-75px.webp", "../../hero-wars-alliance/images/events/shared/gold.webp", "../../hero-wars-alliance/images/events/shared/avatar.webp"]
       }
     ]
