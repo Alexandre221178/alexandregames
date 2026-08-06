@@ -3,9 +3,8 @@
    { date:'2026-07-##', type:'daily', mission:'##', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
-window.HWA_GIFTS = [
-   
-    // ── al3x Hub Code gft valid data true ──────────────────────────────
+window.HWA_GIFTS = [   
+    // ── alaxandre Hub Code gft valid data true ──────────────────────────────
 { date:'2026-08-06', type:'hub', code:'AUGUSTSALE', note:'until|2026-08-31T01:00:00Z',
       rewards:['energy x100', 'artifact-chest-key x5'] },
    // ── August 6, 2026 ──────────────────────────────
