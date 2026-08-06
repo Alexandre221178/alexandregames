@@ -234,24 +234,6 @@ rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
 { date:'2026-06-20', type:'hub', code:'DAWNSTATS', note:'until|2026-07-06T01:00:00Z',
       rewards:['energy x20', 'strength-skin-stone x500'] },
    
-   // ── June 18, 2026 ──────────────────────────────
-    { date:'2026-06-18', type:'special', mission:'2-4', note:'until|2026-07-06T01:00:00Z',
-    rewards:['large-skin-stone-chest x5', 'adventure-energy x100', 'energy x20'] },
- 
-   
-   // ── June 13, 2026 ──────────────────────────────
-   { date:'2026-06-13', type:'special', mission:'3-14', note:'until|2026-07-06T01:00:00Z',
-    rewards:['artifact-chest-key x5', 'energy x100'] },
-   
-   // ── June 11, 2026 ──────────────────────────────
-  { date:'2026-07-11', type:'special', mission:'2-11', note:'until|2026-07-06T01:00:00Z',
-    rewards:['large-skin-stone-chest x5', 'coin-of-luck x3', 'energy x20'] },
-
-   
-   // ── June 9, 2026 ──────────────────────────────
-   { date:'2026-06-09', type:'special', mission:'3-9', note:'until|2026-07-06T01:00:00Z',
-    rewards:['adventure-coin x1000', 'energy x20', 'adventure-energy x50'] },
-   
    // ── June 7, 2026 ──────────────────────────────
     { date:'2026-06-07', type:'hub', code:'ORMCALENDAR', note:'until|2026-07-01T01:00:00Z',
  rewards:['summoning-sphere x5', 'gold 250k', 'energy x20'] },
@@ -300,17 +282,9 @@ rewards:['intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-sk
 
  
   
-// ── May 7, 2026 ──────────────────────────────
-   // ── youtube live stream ──────────────────────────────
-   { date:'2026-05-07', type:'daily', mission:'2-7', note:'until|2026-05-10T05:00:00Z',
-rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
 { date:'2026-05-07', type:'hub', code:'KENDLEREVEAL', note:'until|2026-05-11T01:00:00Z',
       rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
    
- 
-    // ── May 4, 2026 ──────────────────────────────
-    { date:'2026-05-04', type:'special', mission:'2-12', note:'until|2026-05-11T01:00:00Z',
-    rewards:['artifact-chest-key x5', 'adventure-coin x1000', 'energy x20'] },
  
     // ── May 2, 2026 ──────────────────────────────
 { date:'2026-05-02', type:'hub', code:'JADEFLAME', note:'until|2026-05-11T01:00:00Z',
