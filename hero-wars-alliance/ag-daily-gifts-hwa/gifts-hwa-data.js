@@ -4,6 +4,9 @@
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+    // ── Hub Code gft valid data true ──────────────────────────────
+{ date:'2026-08-06', type:'hub', code:'AUGUSTSALE', note:'until|2026-08-31T01:00:00Z',
+      rewards:['energy x100', 'artifact-chest-key x5'] },
    // ── August 6, 2026 ──────────────────────────────
    { date:'2026-07-06', type:'daily', mission:'2-8', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
