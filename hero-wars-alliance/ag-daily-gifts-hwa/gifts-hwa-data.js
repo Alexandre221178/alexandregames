@@ -1,5 +1,5 @@
 /*     npm run update-gifts-hwa      
-// ── August #, 2026 ─────────────────────────────
+// ── August #, 2026 ────────────────────────────
    { date:'2026-07-##', type:'daily', mission:'##', note:'daily|80',
 rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
