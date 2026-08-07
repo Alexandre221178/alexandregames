@@ -152,6 +152,10 @@ titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogê
   noStrip: true
 },
 {
+titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
+},
+{
 titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
 links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
 },
@@ -185,6 +189,10 @@ titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogê
   titles: { en: "🦸Pallant Guide", pt: "🦸Guia do Pallant", de: "🦸Pallant Leitfaden", es: "🦸Guía de Pallant", fr: "🦸Guide de Pallant", ja: "🦸パラント ガイド" },
   links: { en: "../../hero-wars-alliance/titans-guide/pallant-en.html", pt: "../../hero-wars-alliance/titans-guide/pallant-pt.html", de: "../../hero-wars-alliance/titans-guide/pallant-de.html", es: "../../hero-wars-alliance/titans-guide/pallant-es.html", fr: "../../hero-wars-alliance/titans-guide/pallant-fr.html", ja: "../../hero-wars-alliance/titans-guide/pallant-ja.html" },
   noStrip: true
+},
+{
+titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
 },
 {
 titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
@@ -223,6 +231,10 @@ titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogê
   noStrip: true
 },
 {
+titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
+},
+{
   titles: { en: "🎁Heroic Chest Discount", pt: "🎁Desconto de Baús Heroicos", de: "🎁Rabatt auf Heroische Truhen", es: "🎁Descuento de Cajas Heroicas", fr: "🎁Réduction sur les Coffres Héroïques", ja: "🎁ヒーローの宝箱割引" },
   links: { en: "#section16", pt: "#section16", de: "#section16", es: "#section16", fr: "#section16", ja: "#section16" }
 },
@@ -258,6 +270,10 @@ titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogê
   titles: { en: "🦸Pallant Guide", pt: "🦸Guia do Pallant", de: "🦸Pallant Leitfaden", es: "🦸Guía de Pallant", fr: "🦸Guide de Pallant", ja: "🦸パラント ガイド" },
   links: { en: "../../hero-wars-alliance/titans-guide/pallant-en.html", pt: "../../hero-wars-alliance/titans-guide/pallant-pt.html", de: "../../hero-wars-alliance/titans-guide/pallant-de.html", es: "../../hero-wars-alliance/titans-guide/pallant-es.html", fr: "../../hero-wars-alliance/titans-guide/pallant-fr.html", ja: "../../hero-wars-alliance/titans-guide/pallant-ja.html" },
   noStrip: true
+},
+{
+titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
 },
 {
   titles: { en: "🟡Summoning Sphere Discount", pt: "🟡Desconto de Esferas de Convocação", de: "🟡Rabatt auf Beschwörungssphären", es: "🟡Descuento de Esferas de Invocación", fr: "🟡éduction sur les Sphères d'Invocation", ja: "🟡召喚スフィア割引" },
