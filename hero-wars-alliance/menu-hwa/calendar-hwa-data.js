@@ -349,6 +349,8 @@ links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11",
   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",pt: "", de: "", es: "", fr: "",  ja: "" }, 
   noStrip: true
 },
+
+
  {
       titles: { en: "📿 Cleaver - Relic Event", de: "📿 Cleaver - Relikt-Event", es: "📿 Cleaver - Evento de Reliquia", fr: "📿 Cleaver - Événement des Reliques", pt: "📿 Cleaver - Evento de Relíquia", ja: "📿 クリーバー - レリックイベント", },
     links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
@@ -358,11 +360,25 @@ links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11",
  links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
   noStrip: true
 },
-  {
-  titles: { en: "👗 Peech New Skin: Inner Demons", pt: "👗 Peech Nova Skin: Demônios Interiores", de: "👗 Peech Neue Skin: Innere Dämonen", es: "👗 Peech Nueva Skin: Demonios Interiores", fr: "👗 Peech Nouvelle Skin : Démons Intérieurs", ja: "👗 ピーチ 新スキン：インナーデーモン" },
-  links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html",pt: "", de: "", es: "", fr: "",  ja: "" }, 
-  noStrip: true
+{
+titles: { en: "👗 Peech New Skin: Inner Demons", pt: "👗 Peech Nova Skin: Demônios Interiores", de: "👗 Peech Neue Skin: Innere Dämonen", es: "👗 Peech Nueva Skin: Demonios Interiores", fr: "👗 Peech Nouvelle Skin : Démons Intérieurs", ja: "👗 ピーチ 新スキン：インナーデーモン" },
+links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html",pt: "", de: "", es: "", fr: "",  ja: "" }, 
+noStrip: true
 },
+{
+titles: { en: "Talisman Fever", de: "Talismanfieber", es: "Fiebre del Talismán", fr: "Fièvre du Talisman", pt: "Febre do Talismã", ja: "タリスマンフィーバー" },
+links: { en: "../../hero-wars-alliance/event-hwa/talisman-fever-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/talisman-fever-event-pt.html", ja: "" }
+},
+{
+  titles: { en: "🧙 Kendle Guide: 2nd Talisman", pt: "🧙 Guia da Kendle: 2º Talismã", de: "🧙 Kendle-Leitfaden: 2. Talisman", es: "🧙 Guía de Kendle: 2º Talismán", fr: "🧙 Guide de Kendle: 2ème Talisman", ja: "🧙 ケンドル ガイド: 2番目のタリスマン" },
+ links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
+  noStrip: true
+},  
+{
+  titles: { en: "☯️All Talisman Guides", de: "☯️Alle Talisman Guides", es: "☯️Guía de Todos los Talismanes", fr: "☯️Tous les Guides des Talismans", pt: "☯️Guia de Todos os Talismãs", ja: "☯️すべてのタリスマンガイド" },
+  links: { en: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html", de: "../../hero-wars-alliance/guide/talisman-guide-hwa-de.html", es: "../../hero-wars-alliance/guide/talisman-guide-hwa-es.html", fr: "../../hero-wars-alliance/guide/talisman-guide-hwa-fr.html", pt: "../../hero-wars-alliance/guide/talisman-guide-hwa-pt.html", ja: "../../hero-wars-alliance/guide/talisman-guide-hwa-ja.html" },       
+  noStrip: true
+},  
 
     ]
   },
@@ -403,6 +419,21 @@ links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11",
   links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", de: "", es: "", fr: "", ja: "" },
   noStrip: true
 },
+{
+titles: { en: "Talisman Fever", de: "Talismanfieber", es: "Fiebre del Talismán", fr: "Fièvre du Talisman", pt: "Febre do Talismã", ja: "タリスマンフィーバー" },
+links: { en: "../../hero-wars-alliance/event-hwa/talisman-fever-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/talisman-fever-event-pt.html", ja: "" }
+},
+{
+  titles: { en: "🧙 Kendle Guide: 2nd Talisman", pt: "🧙 Guia da Kendle: 2º Talismã", de: "🧙 Kendle-Leitfaden: 2. Talisman", es: "🧙 Guía de Kendle: 2º Talismán", fr: "🧙 Guide de Kendle: 2ème Talisman", ja: "🧙 ケンドル ガイド: 2番目のタリスマン" },
+ links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
+  noStrip: true
+},  
+{
+  titles: { en: "☯️All Talisman Guides", de: "☯️Alle Talisman Guides", es: "☯️Guía de Todos los Talismanes", fr: "☯️Tous les Guides des Talismans", pt: "☯️Guia de Todos os Talismãs", ja: "☯️すべてのタリスマンガイド" },
+  links: { en: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html", de: "../../hero-wars-alliance/guide/talisman-guide-hwa-de.html", es: "../../hero-wars-alliance/guide/talisman-guide-hwa-es.html", fr: "../../hero-wars-alliance/guide/talisman-guide-hwa-fr.html", pt: "../../hero-wars-alliance/guide/talisman-guide-hwa-pt.html", ja: "../../hero-wars-alliance/guide/talisman-guide-hwa-ja.html" },       
+  noStrip: true
+},  
+
 
     ]
   },
@@ -452,6 +483,21 @@ links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11",
         links: { en: "#section16", pt: "#section16", de: "#section16", es: "#section16", fr: "#section16", ja: "#section16" }
 
       },
+      {
+titles: { en: "Talisman Fever", de: "Talismanfieber", es: "Fiebre del Talismán", fr: "Fièvre du Talisman", pt: "Febre do Talismã", ja: "タリスマンフィーバー" },
+links: { en: "../../hero-wars-alliance/event-hwa/talisman-fever-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/talisman-fever-event-pt.html", ja: "" }
+},
+{
+  titles: { en: "🧙 Kendle Guide: 2nd Talisman", pt: "🧙 Guia da Kendle: 2º Talismã", de: "🧙 Kendle-Leitfaden: 2. Talisman", es: "🧙 Guía de Kendle: 2º Talismán", fr: "🧙 Guide de Kendle: 2ème Talisman", ja: "🧙 ケンドル ガイド: 2番目のタリスマン" },
+ links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
+  noStrip: true
+},  
+{
+  titles: { en: "☯️All Talisman Guides", de: "☯️Alle Talisman Guides", es: "☯️Guía de Todos los Talismanes", fr: "☯️Tous les Guides des Talismans", pt: "☯️Guia de Todos os Talismãs", ja: "☯️すべてのタリスマンガイド" },
+  links: { en: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html", de: "../../hero-wars-alliance/guide/talisman-guide-hwa-de.html", es: "../../hero-wars-alliance/guide/talisman-guide-hwa-es.html", fr: "../../hero-wars-alliance/guide/talisman-guide-hwa-fr.html", pt: "../../hero-wars-alliance/guide/talisman-guide-hwa-pt.html", ja: "../../hero-wars-alliance/guide/talisman-guide-hwa-ja.html" },       
+  noStrip: true
+},  
+
 
     ]
   },
