@@ -151,6 +151,14 @@ titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogê
   links: { en: "../../hero-wars-alliance/titans-guide/pallant-en.html", pt: "../../hero-wars-alliance/titans-guide/pallant-pt.html", de: "../../hero-wars-alliance/titans-guide/pallant-de.html", es: "../../hero-wars-alliance/titans-guide/pallant-es.html", fr: "../../hero-wars-alliance/titans-guide/pallant-fr.html", ja: "../../hero-wars-alliance/titans-guide/pallant-ja.html" },
   noStrip: true
 },
+{
+titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
+links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
+},
+{
+titles: { en: "🟣Elemental Sphere Discount", pt: "🟣Desconto de Esferas Elementais", de: "🟣Rabatt auf Elementsphären", es: "🟣Descuento de Esferas Elementales", fr: "🟣Réduction sur les Sphères Élémentaires", ja: "🟣エレメンタルスフィア割引" },
+links: { en: "#section15", pt: "#section15", de: "#section15", es: "#section15", fr: "#section15", ja: "#section15" }
+},
     ]
   },
   {
@@ -178,6 +186,15 @@ titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogê
   links: { en: "../../hero-wars-alliance/titans-guide/pallant-en.html", pt: "../../hero-wars-alliance/titans-guide/pallant-pt.html", de: "../../hero-wars-alliance/titans-guide/pallant-de.html", es: "../../hero-wars-alliance/titans-guide/pallant-es.html", fr: "../../hero-wars-alliance/titans-guide/pallant-fr.html", ja: "../../hero-wars-alliance/titans-guide/pallant-ja.html" },
   noStrip: true
 },
+{
+titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
+links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
+},
+{
+titles: { en: "🟣Elemental Sphere Discount", pt: "🟣Desconto de Esferas Elementais", de: "🟣Rabatt auf Elementsphären", es: "🟣Descuento de Esferas Elementales", fr: "🟣Réduction sur les Sphères Élémentaires", ja: "🟣エレメンタルスフィア割引" },
+links: { en: "#section15", pt: "#section15", de: "#section15", es: "#section15", fr: "#section15", ja: "#section15" }
+},
+
     ]
   },
   {
@@ -205,6 +222,16 @@ titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogê
   links: { en: "../../hero-wars-alliance/titans-guide/pallant-en.html", pt: "../../hero-wars-alliance/titans-guide/pallant-pt.html", de: "../../hero-wars-alliance/titans-guide/pallant-de.html", es: "../../hero-wars-alliance/titans-guide/pallant-es.html", fr: "../../hero-wars-alliance/titans-guide/pallant-fr.html", ja: "../../hero-wars-alliance/titans-guide/pallant-ja.html" },
   noStrip: true
 },
+{
+  titles: { en: "🎁Heroic Chest Discount", pt: "🎁Desconto de Baús Heroicos", de: "🎁Rabatt auf Heroische Truhen", es: "🎁Descuento de Cajas Heroicas", fr: "🎁Réduction sur les Coffres Héroïques", ja: "🎁ヒーローの宝箱割引" },
+  links: { en: "#section16", pt: "#section16", de: "#section16", es: "#section16", fr: "#section16", ja: "#section16" }
+},
+{
+  titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
+  links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
+},
+
+
     ]
   },
 {
@@ -232,8 +259,17 @@ titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogê
   links: { en: "../../hero-wars-alliance/titans-guide/pallant-en.html", pt: "../../hero-wars-alliance/titans-guide/pallant-pt.html", de: "../../hero-wars-alliance/titans-guide/pallant-de.html", es: "../../hero-wars-alliance/titans-guide/pallant-es.html", fr: "../../hero-wars-alliance/titans-guide/pallant-fr.html", ja: "../../hero-wars-alliance/titans-guide/pallant-ja.html" },
   noStrip: true
 },
-    ]
-  },
+{
+  titles: { en: "🟡Summoning Sphere Discount", pt: "🟡Desconto de Esferas de Convocação", de: "🟡Rabatt auf Beschwörungssphären", es: "🟡Descuento de Esferas de Invocación", fr: "🟡éduction sur les Sphères d'Invocation", ja: "🟡召喚スフィア割引" },
+  links: { en: "#section13", pt: "#section13", de: "#section13", es: "#section13", fr: "#section13", ja: "#section13" }
+},
+{
+  titles: { en: "🎁Heroic Chest Discount", pt: "🎁Desconto de Baús Heroicos", de: "🎁Rabatt auf Heroische Truhen", es: "🎁Descuento de Cajas Heroicas", fr: "🎁Réduction sur les Coffres Héroïques", ja: "🎁ヒーローの宝箱割引" },
+  links: { en: "#section16", pt: "#section16", de: "#section16", es: "#section16", fr: "#section16", ja: "#section16" }
+},
+
+]
+},
 {
   weekday: "Monday",
   date: "August, 10",
@@ -604,7 +640,7 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
 },
  
 {
-  titles: { en: "👗 Kendle New Skin: Inner Demons", pt: "👗 Kendle Nova Skin: Demônios Interiores", de: "👗 Kendle Neue Skin: Innere Dämonen", es: "👗 Kendle Nueva Skin: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin : Démons Intérieurs", ja: "👗 ケンドル 新スキン：インナーデーモン" },
+  titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },
   links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
   noStrip: true
 },
@@ -649,7 +685,7 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
         links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
       },
     {
-  titles: { en: "👗 Kendle New Skin: Inner Demons", pt: "👗 Kendle Nova Skin: Demônios Interiores", de: "👗 Kendle Neue Skin: Innere Dämonen", es: "👗 Kendle Nueva Skin: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin : Démons Intérieurs", ja: "👗 ケンドル 新スキン：インナーデーモン" },
+ titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },
   links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
   noStrip: true
 },
@@ -696,7 +732,7 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
         links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
       },
     {
-  titles: { en: "👗 Kendle New Skin: Inner Demons", pt: "👗 Kendle Nova Skin: Demônios Interiores", de: "👗 Kendle Neue Skin: Innere Dämonen", es: "👗 Kendle Nueva Skin: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin : Démons Intérieurs", ja: "👗 ケンドル 新スキン：インナーデーモン" },
+  titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },
   links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
   noStrip: true
 },
@@ -742,7 +778,7 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
         links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
       },
      {
-  titles: { en: "👗 Kendle New Skin: Inner Demons", pt: "👗 Kendle Nova Skin: Demônios Interiores", de: "👗 Kendle Neue Skin: Innere Dämonen", es: "👗 Kendle Nueva Skin: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin : Démons Intérieurs", ja: "👗 ケンドル 新スキン：インナーデーモン" },
+ titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },
   links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
   noStrip: true
 },
@@ -780,7 +816,7 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
 
       
  {
-  titles: { en: "👗 Kendle New Skin: Inner Demons", pt: "👗 Kendle Nova Skin: Demônios Interiores", de: "👗 Kendle Neue Skin: Innere Dämonen", es: "👗 Kendle Nueva Skin: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin : Démons Intérieurs", ja: "👗 ケンドル 新スキン：インナーデーモン" },
+  titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },
   links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
   noStrip: true
 },
@@ -818,7 +854,7 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
 },
 
       {
-  titles: { en: "👗 Kendle New Skin: Inner Demons", pt: "👗 Kendle Nova Skin: Demônios Interiores", de: "👗 Kendle Neue Skin: Innere Dämonen", es: "👗 Kendle Nueva Skin: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin : Démons Intérieurs", ja: "👗 ケンドル 新スキン：インナーデーモン" },
+  titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },
   links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
   noStrip: true
 },
@@ -856,7 +892,7 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
 },
 
       {
-  titles: { en: "👗 Kendle New Skin: Inner Demons", pt: "👗 Kendle Nova Skin: Demônios Interiores", de: "👗 Kendle Neue Skin: Innere Dämonen", es: "👗 Kendle Nueva Skin: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin : Démons Intérieurs", ja: "👗 ケンドル 新スキン：インナーデーモン" },
+ titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },
   links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
   noStrip: true
 },
