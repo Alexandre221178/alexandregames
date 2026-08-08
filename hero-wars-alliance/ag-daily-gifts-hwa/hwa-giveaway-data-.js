@@ -1,103 +1,139 @@
-window.giveawayWinnersData = {
-  pt: {
-    title: "🎉 SORTEIO DO PALLANT!",
-    para1: "Estou sorteando <b>1 prêmio</b> para <b>1 vencedor</b> sortudo!",
-    para2: "<p><b>📝 COMO PARTICIPAR:</b></p><ol><li>Entre na nossa comunidade oficial do WhatsApp pelo link abaixo.</li><li>Comente seu <b>Game ID</b> no grupo do sorteio.</li><li>Inscreva-se no canal <a href=\"https://www.youtube.com/channel/UCVXIv4Movg3KAaPHVE7dstw\" target=\"_blank\" rel=\"noopener noreferrer\"><b>Alexandre Games Alliance</b></a>.</li></ol>",
-    para3: "<div style=\"text-align: center; margin: 25px 0;\"><p>👉 <b>LINK DO GRUPO:</b></p><a href=\"https://chat.whatsapp.com/Bzeu7RaEMqG5IypPfuJpBP\" target=\"_blank\" style=\"background-color: #25d366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">ENTRAR NO GRUPO DO WHATSAPP</a></div>",
-    para4: "🎁 <b>PRÊMIO:</b><ul><li>🧩 <b>3.130 Fragmentos do Pallant</b></li><li>🪙 <b>4.875.000 de Ouro</b></li><li>🖼️ <b>Avatar Lucky Boxy</b></li></ul><p>🎲 O vencedor será escolhido aleatoriamente e anunciado em <b>4 de agosto</b>.</p>",
-    rewardsTitle: "RECOMPENSAS DO SORTEIO: PALLANT",
-    tableCaption: "Tabela: prêmio do sorteio e ID do vencedor",
-    rewards: [
-      {
-        item: "3.130 Fragmentos do Pallant + 4.875.000 de Ouro + Avatar Lucky Boxy",
-        winner_id: "658026355",
-        images: ["../../imagens/image-shared/pallant-75px.webp", "../../hero-wars-alliance/images/events/shared/gold.webp", "../../hero-wars-alliance/images/events/shared/avatar.webp"]
-      }
-    ]
-  },
+(function () {
+  const VIDEO_URL = "https://youtu.be/eExyBI0fhDg";
+  const IMAGE_BASE = "../../hero-wars-alliance/images/events/shared/";
 
-  en: {
-    title: "🎉 PALLANT GIVEAWAY!",
-    para1: "I'm giving away <b>1 prize</b> to <b>1 lucky winner</b>!",
-    para2: "<p><b>📝 HOW TO ENTER:</b></p><ol><li>Join our official WhatsApp community using the link below.</li><li>Comment your <b>Game ID</b> in the giveaway group.</li><li>Subscribe to the <a href=\"https://www.youtube.com/channel/UCVXIv4Movg3KAaPHVE7dstw\" target=\"_blank\" rel=\"noopener noreferrer\"><b>Alexandre Games Alliance</b></a> channel.</li></ol>",
-    para3: "<div style=\"text-align: center; margin: 25px 0;\"><p>👉 <b>GROUP LINK:</b></p><a href=\"https://chat.whatsapp.com/Bzeu7RaEMqG5IypPfuJpBP\" target=\"_blank\" style=\"background-color: #25d366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">JOIN WHATSAPP GROUP</a></div>",
-    para4: "🎁 <b>PRIZE:</b><ul><li>🧩 <b>3,130 Pallant Fragments</b></li><li>🪙 <b>4,875,000 Gold</b></li><li>🖼️ <b>Lucky Boxy Avatar</b></li></ul><p>🎲 The winner will be selected randomly and announced on <b>August 4</b>.</p>",
-    rewardsTitle: "GIVEAWAY REWARDS: PALLANT",
-    tableCaption: "Table: Giveaway prize and winner ID",
-    rewards: [
-      {
-        item: "3,130 Pallant Fragments + 4,875,000 Gold + Lucky Boxy Avatar",
-        winner_id: "658026355",
-        images: ["../../imagens/image-shared/pallant-75px.webp", "../../hero-wars-alliance/images/events/shared/gold.webp", "../../hero-wars-alliance/images/events/shared/avatar.webp"]
-      }
-    ]
-  },
-
-  de: {
-    title: "🎉 PALLANT-GEWINNSPIEL!",
-    para1: "Ich verlose <b>1 Preis</b> an <b>1 glücklichen Gewinner</b>!",
-    para2: "<p><b>📝 SO NIMMST DU TEIL:</b></p><ol><li>Tritt über den Link unten unserer offiziellen WhatsApp-Community bei.</li><li>Poste deine <b>Spiel-ID</b> in der Gewinnspielgruppe.</li><li>Abonniere den Kanal <a href=\"https://www.youtube.com/channel/UCVXIv4Movg3KAaPHVE7dstw\" target=\"_blank\" rel=\"noopener noreferrer\"><b>Alexandre Games Alliance</b></a>.</li></ol>",
-    para3: "<div style=\"text-align: center; margin: 25px 0;\"><p>👉 <b>GRUPPENLINK:</b></p><a href=\"https://chat.whatsapp.com/Bzeu7RaEMqG5IypPfuJpBP\" target=\"_blank\" style=\"background-color: #25d366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">WHATSAPP-GRUPPE BEITRETEN</a></div>",
-    para4: "🎁 <b>PREIS:</b><ul><li>🧩 <b>3.130 Pallant-Fragmente</b></li><li>🪙 <b>4.875.000 Gold</b></li><li>🖼️ <b>Lucky Boxy Avatar</b></li></ul><p>🎲 Der Gewinner wird zufällig ausgewählt und am <b>4. August</b> bekannt gegeben.</p>",
-    rewardsTitle: "GEWINNSPIEL-BELOHNUNGEN: PALLANT",
-    tableCaption: "Tabelle: Gewinnspielpreis und Gewinner-ID",
-    rewards: [
-      {
-        item: "3.130 Pallant-Fragmente + 4.875.000 Gold + Lucky Boxy Avatar",
-        winner_id: "658026355",
-        images: ["../../imagens/image-shared/pallant-75px.webp", "../../hero-wars-alliance/images/events/shared/gold.webp", "../../hero-wars-alliance/images/events/shared/avatar.webp"]
-      }
-    ]
-  },
-
-  es: {
-    title: "🎉 ¡SORTEO DE PALLANT!",
-    para1: "¡Estoy sorteando <b>1 premio</b> para <b>1 ganador afortunado</b>!",
-    para2: "<p><b>📝 CÓMO PARTICIPAR:</b></p><ol><li>Únete a nuestra comunidad oficial de WhatsApp mediante el enlace de abajo.</li><li>Comenta tu <b>ID del juego</b> en el grupo del sorteo.</li><li>Suscríbete al canal <a href=\"https://www.youtube.com/channel/UCVXIv4Movg3KAaPHVE7dstw\" target=\"_blank\" rel=\"noopener noreferrer\"><b>Alexandre Games Alliance</b></a>.</li></ol>",
-    para3: "<div style=\"text-align: center; margin: 25px 0;\"><p>👉 <b>ENLACE DEL GRUPO:</b></p><a href=\"https://chat.whatsapp.com/Bzeu7RaEMqG5IypPfuJpBP\" target=\"_blank\" style=\"background-color: #25d366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">UNIRSE AL GRUPO DE WHATSAPP</a></div>",
-    para4: "🎁 <b>PREMIO:</b><ul><li>🧩 <b>3.130 Fragmentos de Pallant</b></li><li>🪙 <b>4.875.000 de Oro</b></li><li>🖼️ <b>Avatar Lucky Boxy</b></li></ul><p>🎲 El ganador será seleccionado al azar y anunciado el <b>4 de agosto</b>.</p>",
-    rewardsTitle: "RECOMPENSAS DEL SORTEO: PALLANT",
-    tableCaption: "Tabla: premio del sorteo e ID del ganador",
-    rewards: [
-      {
-        item: "3.130 Fragmentos de Pallant + 4.875.000 de Oro + Avatar Lucky Boxy",
-        winner_id: "658026355",
-        images: ["../../imagens/image-shared/pallant-75px.webp", "../../hero-wars-alliance/images/events/shared/gold.webp", "../../hero-wars-alliance/images/events/shared/avatar.webp"]
-      }
-    ]
-  },
-
-  fr: {
-    title: "🎉 GIVEAWAY PALLANT !",
-    para1: "Je fais gagner <b>1 lot</b> à <b>1 heureux gagnant</b> !",
-    para2: "<p><b>📝 COMMENT PARTICIPER :</b></p><ol><li>Rejoignez notre communauté WhatsApp officielle avec le lien ci-dessous.</li><li>Publiez votre <b>ID de jeu</b> dans le groupe du giveaway.</li><li>Abonnez-vous à la chaîne <a href=\"https://www.youtube.com/channel/UCVXIv4Movg3KAaPHVE7dstw\" target=\"_blank\" rel=\"noopener noreferrer\"><b>Alexandre Games Alliance</b></a>.</li></ol>",
-    para3: "<div style=\"text-align: center; margin: 25px 0;\"><p>👉 <b>LIEN DU GROUPE :</b></p><a href=\"https://chat.whatsapp.com/Bzeu7RaEMqG5IypPfuJpBP\" target=\"_blank\" style=\"background-color: #25d366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">REJOINDRE LE GROUPE WHATSAPP</a></div>",
-    para4: "🎁 <b>LOT :</b><ul><li>🧩 <b>3 130 Fragments de Pallant</b></li><li>🪙 <b>4 875 000 d'Or</b></li><li>🖼️ <b>Avatar Lucky Boxy</b></li></ul><p>🎲 Le gagnant sera sélectionné au hasard et annoncé le <b>4 août</b>.</p>",
-    rewardsTitle: "RÉCOMPENSES DU GIVEAWAY : PALLANT",
-    tableCaption: "Tableau : lot du giveaway et ID du gagnant",
-    rewards: [
-      {
-        item: "3 130 Fragments de Pallant + 4 875 000 d'Or + Avatar Lucky Boxy",
-        winner_id: "658026355",
-        images: ["../../imagens/image-shared/pallant-75px.webp", "../../hero-wars-alliance/images/events/shared/gold.webp", "../../hero-wars-alliance/images/events/shared/avatar.webp"]
-      }
-    ]
-  },
-
-  ja: {
-    title: "🎉 PALLANT ギブアウェイ！",
-    para1: "<b>1名の当選者</b>に<b>賞品1セット</b>をプレゼントします！",
-    para2: "<p><b>📝 参加方法:</b></p><ol><li>下のリンクから公式WhatsAppコミュニティに参加してください。</li><li>ギブアウェイグループにあなたの<b>ゲームID</b>を投稿してください。</li><li><a href=\"https://www.youtube.com/channel/UCVXIv4Movg3KAaPHVE7dstw\" target=\"_blank\" rel=\"noopener noreferrer\"><b>Alexandre Games Alliance</b></a>チャンネルに登録してください。</li></ol>",
-    para3: "<div style=\"text-align: center; margin: 25px 0;\"><p>👉 <b>グループリンク:</b></p><a href=\"https://chat.whatsapp.com/Bzeu7RaEMqG5IypPfuJpBP\" target=\"_blank\" style=\"background-color: #25d366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">WHATSAPPグループに参加</a></div>",
-    para4: "🎁 <b>賞品:</b><ul><li>🧩 <b>Pallantの欠片3,130個</b></li><li>🪙 <b>ゴールド4,875,000</b></li><li>🖼️ <b>Lucky Boxyアバター</b></li></ul><p>🎲 当選者はランダムに選ばれ、<b>8月4日</b>に発表されます。</p>",
-    rewardsTitle: "ギブアウェイ報酬: PALLANT",
-    tableCaption: "表: ギブアウェイ賞品と当選者ID",
-    rewards: [
-      {
-        item: "Pallantの欠片3,130個 + ゴールド4,875,000 + Lucky Boxyアバター",
-        winner_id: "658026355",
-        images: ["../../imagens/image-shared/pallant-75px.webp", "../../hero-wars-alliance/images/events/shared/gold.webp", "../../hero-wars-alliance/images/events/shared/avatar.webp"]
-      }
-    ]
+  function createRewards(labels) {
+    return Array.from({ length: 5 }, (_, index) => ({
+      item: labels.package,
+      winner_label: `${labels.winner} ${index + 1}`,
+      winner_id: labels.pending,
+      images: [
+        { src: `${IMAGE_BASE}meta-cube.webp`, caption: labels.metacubes },
+        { src: `${IMAGE_BASE}hydra-coin.webp`, caption: labels.hydraCoins },
+        { src: `${IMAGE_BASE}lucky-avatar.webp`, caption: labels.avatar }
+      ]
+    }));
   }
-};
+
+  window.giveawayWinnersData = {
+    pt: {
+      title: "🎉 SORTEIO DE METACUBOS E MOEDAS DE HIDRA!",
+      para1: "Este sorteio terá <b>cinco vencedores</b>, e cada vencedor receberá o pacote completo de prêmios abaixo!",
+      para2: `<p><b>📝 COMO PARTICIPAR:</b></p><ol class="giveaway-entry-list"><li>Acesse o vídeo do sorteio no canal <a href="${VIDEO_URL}" target="_blank" rel="noopener noreferrer"><b>Alexandre Games Alliance</b></a>.</li><li>Inscreva-se no canal.</li><li>Deixe o seu <b>Game ID</b> em um comentário no vídeo.</li></ol>`,
+      para3: `<div class="giveaway-video-cta"><a class="giveaway-video-button" href="${VIDEO_URL}" target="_blank" rel="noopener noreferrer">ASSISTIR AO VÍDEO E PARTICIPAR</a></div>`,
+      para4: "🎁 <b>CADA VENCEDOR RECEBERÁ:</b><ul><li><b>5.000 Metacubos</b></li><li><b>10.000 Moedas de Hidra</b></li><li>O avatar exclusivo <b>Lucky Boxy</b></li></ul><p>🎲 Os cinco vencedores serão sorteados e anunciados no dia <b>10 de agosto</b>.</p>",
+      rewardsTitle: "PRÊMIOS PARA CADA UM DOS 5 VENCEDORES",
+      tableCaption: "Prêmios do sorteio e IDs dos cinco vencedores",
+      rewardHeader: "Prêmios de cada vencedor",
+      winnerHeader: "ID do vencedor",
+      rewards: createRewards({
+        package: "5.000 Metacubos + 10.000 Moedas de Hidra + Avatar Lucky Boxy",
+        winner: "Vencedor",
+        pending: "A anunciar",
+        metacubes: "5.000 Metacubos",
+        hydraCoins: "10.000 Moedas de Hidra",
+        avatar: "Avatar Lucky Boxy"
+      })
+    },
+
+    en: {
+      title: "🎉 METACUBES AND HYDRA COINS GIVEAWAY!",
+      para1: "This giveaway will have <b>five winners</b>, and each winner will receive the complete prize bundle below!",
+      para2: `<p><b>📝 HOW TO ENTER:</b></p><ol class="giveaway-entry-list"><li>Open the giveaway video on the <a href="${VIDEO_URL}" target="_blank" rel="noopener noreferrer"><b>Alexandre Games Alliance</b></a> channel.</li><li>Subscribe to the channel.</li><li>Leave your <b>Game ID</b> in a comment on the video.</li></ol>`,
+      para3: `<div class="giveaway-video-cta"><a class="giveaway-video-button" href="${VIDEO_URL}" target="_blank" rel="noopener noreferrer">WATCH THE VIDEO AND ENTER</a></div>`,
+      para4: "🎁 <b>EACH WINNER WILL RECEIVE:</b><ul><li><b>5,000 Metacubes</b></li><li><b>10,000 Hydra Coins</b></li><li>The exclusive <b>Lucky Boxy Avatar</b></li></ul><p>🎲 The five winners will be drawn and announced on <b>August 10</b>.</p>",
+      rewardsTitle: "PRIZES FOR EACH OF THE 5 WINNERS",
+      tableCaption: "Giveaway prizes and the five winners' IDs",
+      rewardHeader: "Each winner's prizes",
+      winnerHeader: "Winner ID",
+      rewards: createRewards({
+        package: "5,000 Metacubes + 10,000 Hydra Coins + Lucky Boxy Avatar",
+        winner: "Winner",
+        pending: "To be announced",
+        metacubes: "5,000 Metacubes",
+        hydraCoins: "10,000 Hydra Coins",
+        avatar: "Lucky Boxy Avatar"
+      })
+    },
+
+    de: {
+      title: "🎉 METAWÜRFEL- UND HYDRA-MÜNZEN-GEWINNSPIEL!",
+      para1: "Bei diesem Gewinnspiel gibt es <b>fünf Gewinner</b>. Jeder Gewinner erhält das vollständige Preispaket unten!",
+      para2: `<p><b>📝 SO NIMMST DU TEIL:</b></p><ol class="giveaway-entry-list"><li>Öffne das Gewinnspielvideo auf dem Kanal <a href="${VIDEO_URL}" target="_blank" rel="noopener noreferrer"><b>Alexandre Games Alliance</b></a>.</li><li>Abonniere den Kanal.</li><li>Hinterlasse deine <b>Spiel-ID</b> in einem Kommentar unter dem Video.</li></ol>`,
+      para3: `<div class="giveaway-video-cta"><a class="giveaway-video-button" href="${VIDEO_URL}" target="_blank" rel="noopener noreferrer">VIDEO ANSEHEN UND TEILNEHMEN</a></div>`,
+      para4: "🎁 <b>JEDER GEWINNER ERHÄLT:</b><ul><li><b>5.000 Metawürfel</b></li><li><b>10.000 Hydra-Münzen</b></li><li>Den exklusiven <b>Lucky Boxy-Avatar</b></li></ul><p>🎲 Die fünf Gewinner werden ausgelost und am <b>10. August</b> bekannt gegeben.</p>",
+      rewardsTitle: "PREISE FÜR JEDEN DER 5 GEWINNER",
+      tableCaption: "Gewinnspielpreise und IDs der fünf Gewinner",
+      rewardHeader: "Preise pro Gewinner",
+      winnerHeader: "Gewinner-ID",
+      rewards: createRewards({
+        package: "5.000 Metawürfel + 10.000 Hydra-Münzen + Lucky Boxy-Avatar",
+        winner: "Gewinner",
+        pending: "Wird bekannt gegeben",
+        metacubes: "5.000 Metawürfel",
+        hydraCoins: "10.000 Hydra-Münzen",
+        avatar: "Lucky Boxy-Avatar"
+      })
+    },
+
+    es: {
+      title: "🎉 ¡SORTEO DE METACUBOS Y MONEDAS DE HIDRA!",
+      para1: "Este sorteo tendrá <b>cinco ganadores</b>, y cada ganador recibirá el paquete completo de premios que aparece abajo.",
+      para2: `<p><b>📝 CÓMO PARTICIPAR:</b></p><ol class="giveaway-entry-list"><li>Abre el video del sorteo en el canal <a href="${VIDEO_URL}" target="_blank" rel="noopener noreferrer"><b>Alexandre Games Alliance</b></a>.</li><li>Suscríbete al canal.</li><li>Deja tu <b>ID del juego</b> en un comentario del video.</li></ol>`,
+      para3: `<div class="giveaway-video-cta"><a class="giveaway-video-button" href="${VIDEO_URL}" target="_blank" rel="noopener noreferrer">VER EL VIDEO Y PARTICIPAR</a></div>`,
+      para4: "🎁 <b>CADA GANADOR RECIBIRÁ:</b><ul><li><b>5.000 Metacubos</b></li><li><b>10.000 Monedas de Hidra</b></li><li>El exclusivo <b>Avatar Lucky Boxy</b></li></ul><p>🎲 Los cinco ganadores serán sorteados y anunciados el <b>10 de agosto</b>.</p>",
+      rewardsTitle: "PREMIOS PARA CADA UNO DE LOS 5 GANADORES",
+      tableCaption: "Premios del sorteo e ID de los cinco ganadores",
+      rewardHeader: "Premios de cada ganador",
+      winnerHeader: "ID del ganador",
+      rewards: createRewards({
+        package: "5.000 Metacubos + 10.000 Monedas de Hidra + Avatar Lucky Boxy",
+        winner: "Ganador",
+        pending: "Por anunciar",
+        metacubes: "5.000 Metacubos",
+        hydraCoins: "10.000 Monedas de Hidra",
+        avatar: "Avatar Lucky Boxy"
+      })
+    },
+
+    fr: {
+      title: "🎉 GIVEAWAY MÉTACUBES ET PIÈCES D'HYDRE !",
+      para1: "Ce giveaway aura <b>cinq gagnants</b>, et chaque gagnant recevra le lot complet présenté ci-dessous !",
+      para2: `<p><b>📝 COMMENT PARTICIPER :</b></p><ol class="giveaway-entry-list"><li>Ouvrez la vidéo du giveaway sur la chaîne <a href="${VIDEO_URL}" target="_blank" rel="noopener noreferrer"><b>Alexandre Games Alliance</b></a>.</li><li>Abonnez-vous à la chaîne.</li><li>Laissez votre <b>ID de jeu</b> dans un commentaire sous la vidéo.</li></ol>`,
+      para3: `<div class="giveaway-video-cta"><a class="giveaway-video-button" href="${VIDEO_URL}" target="_blank" rel="noopener noreferrer">VOIR LA VIDÉO ET PARTICIPER</a></div>`,
+      para4: "🎁 <b>CHAQUE GAGNANT RECEVRA :</b><ul><li><b>5 000 Métacubes</b></li><li><b>10 000 Pièces d'Hydre</b></li><li>L'<b>Avatar Lucky Boxy</b> exclusif</li></ul><p>🎲 Les cinq gagnants seront tirés au sort et annoncés le <b>10 août</b>.</p>",
+      rewardsTitle: "LOTS POUR CHACUN DES 5 GAGNANTS",
+      tableCaption: "Lots du giveaway et ID des cinq gagnants",
+      rewardHeader: "Lots de chaque gagnant",
+      winnerHeader: "ID du gagnant",
+      rewards: createRewards({
+        package: "5 000 Métacubes + 10 000 Pièces d'Hydre + Avatar Lucky Boxy",
+        winner: "Gagnant",
+        pending: "À annoncer",
+        metacubes: "5 000 Métacubes",
+        hydraCoins: "10 000 Pièces d'Hydre",
+        avatar: "Avatar Lucky Boxy"
+      })
+    },
+
+    ja: {
+      title: "🎉 メタキューブ＆ヒドラコイン プレゼント！",
+      para1: "このプレゼント企画では<b>5名様</b>が当選し、各当選者に以下の賞品セットをすべてプレゼントします！",
+      para2: `<p><b>📝 応募方法:</b></p><ol class="giveaway-entry-list"><li><a href="${VIDEO_URL}" target="_blank" rel="noopener noreferrer"><b>Alexandre Games Alliance</b></a>チャンネルのプレゼント動画を開きます。</li><li>チャンネル登録をします。</li><li>動画のコメント欄にあなたの<b>ゲームID</b>を投稿します。</li></ol>`,
+      para3: `<div class="giveaway-video-cta"><a class="giveaway-video-button" href="${VIDEO_URL}" target="_blank" rel="noopener noreferrer">動画を見て応募する</a></div>`,
+      para4: "🎁 <b>各当選者への賞品:</b><ul><li><b>メタキューブ 5,000個</b></li><li><b>ヒドラコイン 10,000枚</b></li><li>限定<b>Lucky Boxyアバター</b></li></ul><p>🎲 5名の当選者は抽選で選ばれ、<b>8月10日</b>に発表されます。</p>",
+      rewardsTitle: "5名の各当選者への賞品",
+      tableCaption: "プレゼント賞品と5名の当選者ID",
+      rewardHeader: "各当選者への賞品",
+      winnerHeader: "当選者ID",
+      rewards: createRewards({
+        package: "メタキューブ 5,000個 + ヒドラコイン 10,000枚 + Lucky Boxyアバター",
+        winner: "当選者",
+        pending: "後日発表",
+        metacubes: "メタキューブ 5,000個",
+        hydraCoins: "ヒドラコイン 10,000枚",
+        avatar: "Lucky Boxyアバター"
+      })
+    }
+  };
+})();
