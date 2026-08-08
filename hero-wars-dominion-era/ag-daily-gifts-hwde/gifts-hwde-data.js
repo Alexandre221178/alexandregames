@@ -6,14 +6,14 @@ https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 // ── August #, 2026 ──────────────────────────────
   { date:'2026-08-##', type:'link', giftId:'#####', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },
-// ── August #, 2026 ──────────────────────────────
-{ date:'2026-08-##', type:'link', giftId:'#####', note:'until|2026-07-##T02:00:00Z',
-  rewards:['energy x500'] },
   // 2026-08-##── 2 Link Exclusivo Web/FB ──────────────────────────────
 { date:'2026-08-##', type:'link', giftLinkWeb:'https://herowars.me/#wb#', giftLinkFb:'https://herowars.me/#fb#',
  note:'until|2026-08-##T02:00:00Z', rewards:['energy x500'] },
-https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=--https://herowars.me/4fW6PPe
+https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 */window.HWDE_GIFTS = [
+  // ── August 8, 2026 ──────────────────────────────
+  { date:'2026-08-08', type:'link', giftId:'b0ccb63b576b1d62176a4782d9f0e07f', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },
    // ── August 7, 2026 ─────────────────────────────
    { date:'2026-08-07', type:'link', giftId:'6dc0a821f1e238e2b63a0fc8e13c4f49', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
@@ -216,6 +216,10 @@ link type  : { date:'YYYY-MM-DD', type:'link',  giftId:'...', note:'until|YYYY-M
    To mark expired code add: expired:true
 ###################################################################################
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
+
+// ── August #, 2026 ──────────────────────────────
+{ date:'2026-08-##', type:'link', giftId:'#####', note:'until|2026-07-##T02:00:00Z',
+  rewards:['energy x500'] },
 
 *OBRIGARORIO MANTER HTTP:// PARA OS LINKS ABAIXO WEB/FB
 // ── 2 Link Exclusivo Web/FB ──────────────────────────────
