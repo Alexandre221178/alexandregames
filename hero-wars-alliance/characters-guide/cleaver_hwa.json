@@ -16,7 +16,11 @@
       "how_to_get_soul_stones": "Heroic Chest",
       "hydra_tier_list": "b",
       "hero_tier_list": null,
-      "best_synergy": "Aidan, Kendle, Peech, Kayla, Dorian",
+      "best_synergy": "Kendle, Dorian, Xe'sha, Aidan, Kayla",
+      "relic_skills_synergy": {
+        "description": "Cleaver works especially well with heroes who deal damage to themselves. His third Relic skill, Heavyweight, removes all negative effects from those allies, significantly improving the team's survivability.",
+        "heroes": ["Kendle", "Dorian", "Xe'sha", "Aidan", "Kayla"]
+      },
       "stats": {
         "max_with_talisman_of_decomposition": {
           "intelligence": 3739,
@@ -118,6 +122,8 @@
           "name": "Putrefaction",
           "type": ["Healing Reduction", "Sacrifice", "Enhancement"],
           "description": "Enemies within this skill's area of effect or those affected by Miasma restore 60% less health points to themselves and their allies. If an enemy is affected by both effects, the healing reduction is doubled.",
+          "strategy": "Putrefaction and Miasma severely weaken enemy healing. When both effects are active at the same time, enemy heroes lose the ability to heal themselves or their allies altogether.",
+          "great_against": ["Byrna", "Aidan", "Dorian"],
           "healing_reduction_percent": 60,
           "can_double_healing_reduction": true,
           "relic_total_stats_gain": {
@@ -156,7 +162,10 @@
           "name": "Heavyweight",
           "type": ["Cleanse", "Support", "Enhancement"],
           "description": "Whenever Cleaver or his allies take damage from their own or allied skills, all negative effects are removed from the damaged hero. This skill remains active while Cleaver is alive.",
-          "note": "This turns Cleaver into a tank-support option, especially with Chaos allies that use Sacrifice skills such as Dorian, Aidan, Kayla, Kendle, Lilith, Xe'sha, and Cleaver himself. It can cleanse negative effects such as Iris' Inner Fire.",
+          "strategy": "Forget about debuffs: Cleaver can remove negative effects from himself and his allies, including stuns, silences, weaknesses, and Iris' burning effects. This skill becomes especially powerful when paired with Xe'sha or Aidan.",
+          "great_with": ["Kendle", "Dorian", "Aidan", "Xe'sha"],
+          "great_against": ["Iris", "Tempus", "Phobos"],
+          "note": "This turns Cleaver into a tank-support option, especially with Chaos allies that use Sacrifice skills such as Dorian, Aidan, Kayla, Kendle, Lilith, Xe'sha, and Cleaver himself.",
           "relic_total_stats_gain": {
             "health": 146854,
             "physical_attack": 19176
@@ -173,6 +182,7 @@
           "name": "Miasma",
           "type": ["Pure Damage", "Damage over Time", "Debuff"],
           "description": "Applies an effect to the central enemy for 7.0 seconds, dealing pure damage to all enemies around them every 0.5 seconds. If Putrefaction is upgraded, enemies are also afflicted with an effect that reduces their healing.",
+          "strategy": "Miasma allows Cleaver to deal heavy damage over time, hitting almost the entire enemy team.",
           "pure_damage_per_0_5_sec": "Depends on Physical Attack",
           "total_damage": "Depends on Physical Attack over 7 seconds",
           "tick_seconds": 0.5,
@@ -195,6 +205,7 @@
           "name": "Carnage",
           "type": ["Damage Increase", "Legendary"],
           "description": "Cleaver now deals more damage for each enemy around him.",
+          "strategy": "Cleaver already deals an incredible amount of pure damage, and Carnage increases it even further by boosting the damage of all his abilities.",
           "damage_increase_percent": 20,
           "relic_unlocks": {
             "relic_shards_level_21_to_30": 1750,
@@ -319,7 +330,7 @@
           "heroes": [
             { "hero": "Aidan", "talisman": "T2" },
             { "hero": "Kendle", "talisman": "T1" },
-            { "hero": "Peech", "talisman": "T2" },
+            { "hero": "Dorian", "talisman": "T2" },
             { "hero": "Kayla", "talisman": "T2" },
             { "hero": "Cleaver", "talisman": "T1" }
           ]
@@ -330,7 +341,7 @@
             { "hero": "Aidan", "talisman": "T2" },
             { "hero": "Kendle", "talisman": "T1" },
             { "hero": "Dorian", "talisman": "T2" },
-            { "hero": "Peech", "talisman": "T2" },
+            { "hero": "Xe'sha", "talisman": "T2" },
             { "hero": "Cleaver", "talisman": "T1" }
           ]
         }
