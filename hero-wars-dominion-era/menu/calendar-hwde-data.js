@@ -1,4 +1,4 @@
-/*   Calendar data for Hero Wars: Dominion Era
+/*  Calendar data for Hero Wars: Dominion Era
   npm run update-calendar-hwde
 */
 // Título do mês do calendário (npm run update-calendar-hwde)
@@ -502,6 +502,12 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/seers-game-hwde-en.html", pt: "../../hero-wars-dominion-era/events/seers-game-hwde-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+{
+titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeards Vermächtnis", es: "🏴‍☠️ El Legado de Barbanegra", fr: "🏴‍☠️ L'Héritage de Barbe Noire", pt: "🏴‍☠️ Legado do Barba Negra", ja: "🏴‍☠️ 黒ひげの遺産" },
+  links: { en: "../../hero-wars-dominion-era/events/blackbeards-legacy-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+
       {
        titles: { en: "⚔️Hero Cosmic Battle", pt: "⚔️Batalha Cósmica de Heróis", de: "⚔️Kosmischer Kampf der Helden", es: "⚔️Batalla Cósmica de Héroes", fr: "⚔️Bataille Cosmique des Héros", ja: "⚔️ヒーローの宇宙の戦い" },
         links: { en: "../../hero-wars-dominion-era/events/hero-cosmic-battle-en.html", pt: "../../hero-wars-dominion-era/events/hero-cosmic-battle-pt.html", de: "../../hero-wars-dominion-era/events/hero-cosmic-battle-de.html", es: "../../hero-wars-dominion-era/events/hero-cosmic-battle-es.html", fr: "../../hero-wars-dominion-era/events/hero-cosmic-battle-fr.html", ja: "../../hero-wars-dominion-era/events/hero-cosmic-battle-ja.html" },
@@ -568,6 +574,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         links: { en: "../../hero-wars-dominion-era/events/hero-cosmic-battle-en.html", pt: "../../hero-wars-dominion-era/events/hero-cosmic-battle-pt.html", de: "../../hero-wars-dominion-era/events/hero-cosmic-battle-de.html", es: "../../hero-wars-dominion-era/events/hero-cosmic-battle-es.html", fr: "../../hero-wars-dominion-era/events/hero-cosmic-battle-fr.html", ja: "../../hero-wars-dominion-era/events/hero-cosmic-battle-ja.html" },
       noStrip: true,
     extra: [     
+      {
+titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeards Vermächtnis", es: "🏴‍☠️ El Legado de Barbanegra", fr: "🏴‍☠️ L'Héritage de Barbe Noire", pt: "🏴‍☠️ Legado do Barba Negra", ja: "🏴‍☠️ 黒ひげの遺産" },
+  links: { en: "../../hero-wars-dominion-era/events/blackbeards-legacy-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
        {
         titles: { en: "🔮Seer's Game", pt: "🔮Jogo do Vidente", de: "🔮Spiel des Sehers", es: "🔮Juego del Vidente", fr: "🔮Jeu du Voyant", ja: "🔮予言者のゲーム" },
     links: { en: "../../hero-wars-dominion-era/events/seers-game-hwde-en.html", pt: "../../hero-wars-dominion-era/events/seers-game-hwde-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -638,6 +649,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
     noStrip: true,
     extra: [
+      {
+titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeards Vermächtnis", es: "🏴‍☠️ El Legado de Barbanegra", fr: "🏴‍☠️ L'Héritage de Barbe Noire", pt: "🏴‍☠️ Legado do Barba Negra", ja: "🏴‍☠️ 黒ひげの遺産" },
+  links: { en: "../../hero-wars-dominion-era/events/blackbeards-legacy-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
         {
         titles: { en: "🔮Seer's Game", pt: "🔮Jogo do Vidente", de: "🔮Spiel des Sehers", es: "🔮Juego del Vidente", fr: "🔮Jeu du Voyant", ja: "🔮予言者のゲーム" },
     links: { en: "../../hero-wars-dominion-era/events/seers-game-hwde-en.html", pt: "../../hero-wars-dominion-era/events/seers-game-hwde-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -685,7 +701,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/area-of-conquest-en.html", pt: "../../hero-wars-dominion-era/events/area-of-conquest-pt.html", de: "../../hero-wars-dominion-era/events/area-of-conquest-de.html", es: "../../hero-wars-dominion-era/events/area-of-conquest-es.html", fr: "../../hero-wars-dominion-era/events/area-of-conquest-fr.html", ja: "../../hero-wars-dominion-era/events/area-of-conquest-ja.html" },
     noStrip: true,
     extra: [
-      
+      {
+titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeards Vermächtnis", es: "🏴‍☠️ El Legado de Barbanegra", fr: "🏴‍☠️ L'Héritage de Barbe Noire", pt: "🏴‍☠️ Legado do Barba Negra", ja: "🏴‍☠️ 黒ひげの遺産" },
+  links: { en: "../../hero-wars-dominion-era/events/blackbeards-legacy-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
       
       {
         titles: { en: "🔶Guardians of Outland", pt: "🔶Guardiões da Fronteira", de: "🔶Wächter des Außenlands", es: "🔶Guardianes de la Frontera", fr: "🔶Gardiens de l'Outreterre", ja: "🔶アウトランドの守護者" },
@@ -733,6 +753,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/area-of-conquest-en.html", pt: "../../hero-wars-dominion-era/events/area-of-conquest-pt.html", de: "../../hero-wars-dominion-era/events/area-of-conquest-de.html", es: "../../hero-wars-dominion-era/events/area-of-conquest-es.html", fr: "../../hero-wars-dominion-era/events/area-of-conquest-fr.html", ja: "../../hero-wars-dominion-era/events/area-of-conquest-ja.html" },
     noStrip: true,
     extra: [
+      {
+titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeards Vermächtnis", es: "🏴‍☠️ El Legado de Barbanegra", fr: "🏴‍☠️ L'Héritage de Barbe Noire", pt: "🏴‍☠️ Legado do Barba Negra", ja: "🏴‍☠️ 黒ひげの遺産" },
+  links: { en: "../../hero-wars-dominion-era/events/blackbeards-legacy-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
        
       {
         titles: { en: "🔶Guardians of Outland", pt: "🔶Guardiões da Fronteira", de: "🔶Wächter des Außenlands", es: "🔶Guardianes de la Frontera", fr: "🔶Gardiens de l'Outreterre", ja: "🔶アウトランドの守護者" },
@@ -780,7 +805,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/area-of-conquest-en.html", pt: "../../hero-wars-dominion-era/events/area-of-conquest-pt.html", de: "../../hero-wars-dominion-era/events/area-of-conquest-de.html", es: "../../hero-wars-dominion-era/events/area-of-conquest-es.html", fr: "../../hero-wars-dominion-era/events/area-of-conquest-fr.html", ja: "../../hero-wars-dominion-era/events/area-of-conquest-ja.html" },
     noStrip: true,
     extra: [
-      
+      {
+titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeards Vermächtnis", es: "🏴‍☠️ El Legado de Barbanegra", fr: "🏴‍☠️ L'Héritage de Barbe Noire", pt: "🏴‍☠️ Legado do Barba Negra", ja: "🏴‍☠️ 黒ひげの遺産" },
+  links: { en: "../../hero-wars-dominion-era/events/blackbeards-legacy-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
      
       {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
@@ -821,7 +850,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
     noStrip: true,
     extra: [
-       
+       {
+titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeards Vermächtnis", es: "🏴‍☠️ El Legado de Barbanegra", fr: "🏴‍☠️ L'Héritage de Barbe Noire", pt: "🏴‍☠️ Legado do Barba Negra", ja: "🏴‍☠️ 黒ひげの遺産" },
+  links: { en: "../../hero-wars-dominion-era/events/blackbeards-legacy-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
       
       {
        titles: { en: "🗺️Heroes' Area of Conquest", pt: "🗺️Área de Conquista de Heróis", de: "🗺️Eroberungsgebiet der Helden", es: "🗺️Área de Conquista de Héroes", fr: "🗺️Zone de Conquête des Héros", ja: "🗺️英雄の征服エリア" },
