@@ -73,6 +73,8 @@
     "update-miu-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide miu",
 
     "update-oya-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide oya",
+     "update-peech-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide peech",
+
     "update-phobos-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide phobos",
     "update-satori-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide satori",
 

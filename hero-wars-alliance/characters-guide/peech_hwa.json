@@ -1,0 +1,396 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "peech",
+      "name": "Peech",
+      "gender": "female",
+      "description": "Circus performer who knocks enemies off their feet with her whip. Hits harder when fighting alongside Chaos heroes.",
+      "role": ["Warrior", "Control"],
+      "main_class": "Warrior",
+      "position": "Front Line",
+      "level": 120,
+      "main_stat": "Agility",
+      "equipment_rank": null,
+      "way": "Way of Chaos",
+      "how_to_get_soul_stones": null,
+      "hydra_tier_list": null,
+      "hero_tier_list": null,
+      "best_synergy": "Cleaver, Kendle, Dorian, Xe'sha, Aidan, Kayla",
+      "stats": {
+        "max_with_talisman_of_actress": {
+          "intelligence": 3745,
+          "agility": 16403,
+          "strength": 4649,
+          "health": 920293,
+          "physical_attack": 141099,
+          "magic_attack": 26341,
+          "physical_armor": 23318,
+          "magical_armor": 10625.5,
+          "dodge": 6810.3,
+          "armor_penetration": 28718,
+          "crit_hit_chance": 867.1,
+          "crushing": 17101
+        },
+        "max_with_talisman_of_the_acrobat": {
+          "intelligence": 3745,
+          "agility": 14403,
+          "strength": 4649,
+          "health": 1030293,
+          "physical_attack": 121899,
+          "magic_attack": 26341,
+          "physical_armor": 21318,
+          "magical_armor": 10625.5,
+          "dodge": 6810.3,
+          "armor_penetration": 28718,
+          "crit_hit_chance": 8457.1,
+          "crushing": 17101
+        }
+      },
+      "talisman_details": {
+        "talisman_of_actress": {
+          "coin_talisman": 0,
+          "display_name": "Talisman of Actress",
+          "border": {
+            "level": 50,
+            "main_stat": "Agility",
+            "main_stat_value": 2000,
+            "derived": {
+              "physical_attack": 6000,
+              "armor": 2000
+            }
+          },
+          "rerolls": [
+            { "stat": "physical_attack", "value": 4400 },
+            { "stat": "physical_attack", "value": 4400 },
+            { "stat": "physical_attack", "value": 4400 }
+          ],
+          "total_reroll_bonus": { "stat": "Physical attack", "value": 13200 }
+        },
+        "talisman_of_the_acrobat": {
+          "coin_talisman": 0,
+          "display_name": "Talisman of the Acrobat",
+          "border": {
+            "level": 50,
+            "main_stat": "Health",
+            "main_stat_value": 110000
+          },
+          "rerolls": [
+            { "stat": "crit_hit_chance", "value": 2200 },
+            { "stat": "crit_hit_chance", "value": 2200 },
+            { "stat": "crit_hit_chance", "value": 2200 }
+          ],
+          "total_reroll_bonus": { "stat": "Crit hit chance", "value": 6600 }
+        },
+        "recommended": "talisman_of_the_acrobat"
+      },
+      "skills": [
+        {
+          "id": 0,
+          "variant": "basic_attack",
+          "name": "Basic Attack",
+          "type": ["Physical Damage"],
+          "description": "Peech deals physical damage to a single target.",
+          "damage": "100% Phys.atk.",
+          "cooldown_seconds": 4.6,
+          "animation_delay_seconds": 0.6
+        },
+        {
+          "id": 1,
+          "variant": "base",
+          "color": "gray",
+          "level": 120,
+          "name": "Theater of Pain",
+          "type": ["Physical Damage", "Knockback", "Control", "Passive Enhancement"],
+          "keywords": ["Knockback", "Control"],
+          "description": "Strikes the nearest enemy 3 times. Each strike deals physical area damage and slightly pushes back affected enemies. Passive: Peech increases the range of her basic attacks and the area of effect of her basic attacks and first skill by 25% for each Chaos ally the Hero starts the battle with.",
+          "damage_per_strike": "60% Phys.atk. + 4800",
+          "hits": 3,
+          "range_increase_per_chaos_ally_percent": 25,
+          "area_increase_per_chaos_ally_percent": 25,
+          "animation_delay_seconds": 0.75,
+          "area": 200,
+          "range": 3000,
+          "target": "Nearest enemy"
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "color": "green",
+          "level": 120,
+          "name": "Harlequin's Punishment",
+          "type": ["Physical Damage", "Buff", "Debuff"],
+          "keywords": ["Buff", "Debuff", "Upgradeable to Legendary"],
+          "description": "Deals physical damage to the enemy with the highest Armor. Then, for 9.0 seconds, reduces the target's Armor and increases the Physical or Magic Attack of all allies whose Intelligence exceeds that of the target by a percentage of the target's current Armor. Allies gain a boost to whichever attack stat was higher at the start of the battle.",
+          "damage": "50% Phys.atk. + 8400",
+          "armor_reduction_percent": 50,
+          "physical_or_magic_attack_increase": "50% of the target's current Armor",
+          "initial_cooldown_seconds": 2,
+          "cooldown_seconds": 12,
+          "animation_delay_seconds": 1.05,
+          "duration_seconds": 9,
+          "range": 3000,
+          "target": "Enemy with the highest Armor"
+        },
+        {
+          "id": 2,
+          "variant": "legendary",
+          "relic_level": 10,
+          "name": "Harlequin's Punishment",
+          "type": ["Buff", "Debuff", "Enhancement"],
+          "description": "The skill now affects two enemies and increases allies' Physical or Magic Attack for each enemy weakened by Harlequin's Punishment. The bonuses stack. Targets are prioritized by descending Armor.",
+          "targets": 2,
+          "bonuses_stack": true,
+          "target_priority": "Descending Armor",
+          "relic_total_stats_gain": {
+            "physical_attack": 6956,
+            "health": 53269
+          },
+          "relic_unlocks": {
+            "relic_shards_level_2_to_10": 280,
+            "total_relic_shards_level_0_to_10": 330
+          }
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "color": "blue",
+          "level": 100,
+          "name": "The Final Act",
+          "type": ["Physical Attack Steal", "Immobilize", "Debuff"],
+          "keywords": ["Debuff", "Upgradeable to Legendary"],
+          "description": "Links herself to the enemy with the highest Physical Attack for 6.0 seconds. The target is unable to move, and Peech steals a portion of their Physical Attack every 0.5 seconds. Peech retains the stolen Physical Attack for 6.0 seconds after the effect ends or is interrupted. This ability does not prevent Heroes from fighting but is interrupted if Peech is subjected to a control effect.",
+          "physical_attack_steal_per_0_5_sec": "15% Phys.atk. + 1800",
+          "tick_seconds": 0.5,
+          "initial_cooldown_seconds": 9,
+          "cooldown_seconds": 15,
+          "animation_delay_seconds": 1,
+          "duration_seconds": 6.01,
+          "stolen_attack_retention_seconds": 6,
+          "range": 3000,
+          "target": "Enemy with the highest Physical Attack",
+          "interrupted_by_control": true
+        },
+        {
+          "id": 3,
+          "variant": "legendary",
+          "relic_level": 20,
+          "name": "The Final Act",
+          "type": ["Physical Attack Steal", "Immobilize", "Debuff", "Enhancement"],
+          "description": "The skill now affects two enemies. Targets are prioritized by descending Physical Attack.",
+          "targets": 2,
+          "target_priority": "Descending Physical Attack",
+          "relic_total_stats_gain": {
+            "physical_attack": 19176,
+            "health": 146854
+          },
+          "relic_unlocks": {
+            "relic_shards_level_11_to_20": 800,
+            "total_relic_shards_level_0_to_20": 1130
+          }
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "color": "purple",
+          "level": 80,
+          "name": "Stage Presence",
+          "type": ["Passive", "Damage Increase", "Faction Synergy"],
+          "description": "Passive skill. Each ally positioned in front of Peech at the moment of the attack increases all damage the Hero deals. The bonus is greater if an ally belongs to the Chaos faction. Only the allies that Peech started the battle with are counted.",
+          "damage_bonus_per_ally": "15% Phys.atk. + 1200",
+          "damage_bonus_per_chaos_ally": "15% Phys.atk. + 2400",
+          "animation_delay_seconds": 1,
+          "duration_seconds": 1,
+          "range": 3000
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "name": "Tragic Finale",
+          "type": ["Physical Damage", "Damage over Time", "Legendary"],
+          "description": "Every 15 seconds, applies the Tragic Finale effect to enemies weakened by Harlequin's Punishment. For 8.0 seconds, the effect deals physical damage over time every 2 seconds. If there are no such enemies, the effect is applied to the central enemy.",
+          "physical_damage_per_2_sec": "Depends on Physical Attack",
+          "total_damage": "Depends on Physical Attack over 8 seconds",
+          "application_interval_seconds": 15,
+          "tick_seconds": 2,
+          "duration_seconds": 8,
+          "target_priority": "Enemies weakened by Harlequin's Punishment; otherwise the central enemy",
+          "relic_total_stats_gain": {
+            "physical_attack": 3760,
+            "health": 28794
+          },
+          "relic_unlocks": {
+            "relic_shards_level_0_to_1": 50,
+            "total_relic_shards_level_0_to_1": 50
+          }
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "name": "Show Must Go On",
+          "type": ["Passive", "Damage over Time", "Legendary"],
+          "description": "Any damage Peech deals to enemies, except for damage over time, now has a 60% chance to apply the Tragic Finale effect to the target.",
+          "tragic_finale_application_chance_percent": 60,
+          "damage_over_time_can_trigger": false,
+          "relic_total_stats_gain": {
+            "physical_attack": 37976,
+            "health": 290824
+          },
+          "relic_unlocks": {
+            "relic_shards_level_21_to_30": 1750,
+            "total_relic_shards_level_0_to_30": 2880
+          }
+        }
+      ],
+      "realm": {
+        "troop_buff": "Infantry",
+        "realm_buff": "Attack/Defense 120%",
+        "skills": [],
+        "skills_available": false
+      },
+      "skins": [
+        {
+          "name": "Default",
+          "stat": "Agility",
+          "bonus": 1365,
+          "level": 60,
+          "derived": {
+            "physical_attack": 4095,
+            "armor": 1365
+          },
+          "total_skin_stones": 30825
+        },
+        {
+          "name": "Romantic",
+          "stat": "Health",
+          "bonus": 106645,
+          "level": 60,
+          "total_skin_stones": 50410
+        },
+        {
+          "name": "Mythical Skin+",
+          "stat": "Crushing",
+          "bonus": 11840,
+          "level": 60,
+          "is_skin_plus": true,
+          "total_skin_stones": 50410
+        },
+        {
+          "name": "Stellar",
+          "stat": "Physical attack",
+          "bonus": 7095,
+          "level": 60,
+          "total_skin_stones": 50410
+        },
+        {
+          "name": "Inner Demons",
+          "stat": "Crit hit chance",
+          "bonus": 2960,
+          "level": 60,
+          "total_skin_stones": 50410
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "Heartbreaker",
+          "slot": "Weapon",
+          "bigStar": true,
+          "evolve": 6,
+          "level": 100,
+          "activation_chance": "100%",
+          "effect": "Armor +32040"
+        },
+        {
+          "name": "Alchemist's Folio",
+          "slot": "Book",
+          "bigStar": true,
+          "evolve": 6,
+          "level": 100,
+          "armor_penetration": 10680,
+          "physical_attack": 3561
+        },
+        {
+          "name": "Ring of Agility",
+          "slot": "Ring",
+          "bigStar": true,
+          "evolve": 6,
+          "level": 100,
+          "agility": 3990,
+          "derived": {
+            "physical_attack": 11970,
+            "armor": 3990
+          }
+        }
+      ],
+      "glyphs": {
+        "class": "Warrior",
+        "runesphere": 0,
+        "peech2": 45,
+        "overall_class_level": "585 / 585",
+        "warrior_class_glyphs_bonuses": "Every time the warrior deals damage to enemies with a regular attack, they apply an effect to themselves that increases Physical Attack by 34574.84 (8% Phys.atk. + 26325) for 16.7 seconds. A character cannot have more than 6 effects at the same time.",
+        "glyphs_level": 80,
+        "list": [
+          { "name": "Physical attack", "level": 80, "bonus": 8340 },
+          { "name": "Health", "level": 80, "bonus": 122800 },
+          { "name": "Dodge", "level": 80, "bonus": 4170 },
+          { "name": "Armor penetration", "level": 80, "bonus": 12850 },
+          {
+            "name": "Agility",
+            "level": 80,
+            "bonus": 2110,
+            "derived": {
+              "physical_attack": 6330,
+              "armor": 2110
+            }
+          }
+        ]
+      },
+      "gift_of_the_elements": {
+        "level": 30,
+        "bonuses": {
+          "strength": 360,
+          "agility": 720,
+          "intelligence": 360
+        }
+      },
+      "best_teams": [
+        {
+          "rank": 1,
+          "name": "Vampirism and Sustained Chaos",
+          "heroes": [
+            { "hero": "Aidan", "talisman": "T2" },
+            { "hero": "Kendle", "talisman": "T1" },
+            { "hero": "Dorian", "talisman": "T2" },
+            { "hero": "Peech", "talisman": "T2" },
+            { "hero": "Cleaver", "talisman": "T1" }
+          ],
+          "description": "Dorian provides sustain and Vampirism while Aidan, Kendle, and Peech maintain the Chaos and Sacrifice pressure. Cleaver protects the front line, disrupts enemy positioning, and benefits from enough sustain to cycle his skills repeatedly."
+        },
+        {
+          "rank": 2,
+          "name": "Chaos Critical Pressure",
+          "heroes": [
+            { "hero": "Aidan", "talisman": "T2" },
+            { "hero": "Kendle", "talisman": "T1" },
+            { "hero": "Peech", "talisman": "T2" },
+            { "hero": "Guus", "talisman": "T2" },
+            { "hero": "Kayla", "talisman": "T2" }
+          ]
+        }
+      ],
+      "relic_resources": {
+        "total_relic_shards_to_level_30": 2880
+      },
+      "notes": [
+        "Peech is a front-line Warrior whose first skill gains range and area for each Chaos ally present at the start of battle.",
+        "Harlequin's Punishment Legendary and The Final Act Legendary each increase their number of targets from one to two.",
+        "Tragic Finale adds recurring physical damage over time, while Show Must Go On gives non-damage-over-time attacks a 60% chance to apply it.",
+        "Talisman of Actress focuses on Agility and Physical Attack; Talisman of the Acrobat focuses on Health and Critical Hit Chance.",
+        "Talisman of the Acrobat is marked as recommended because both provided team examples equip Peech with Talisman 2.",
+        "Gift of the Elements values follow the standard Level 30 distribution for an Agility hero."
+      ]
+    }
+  ]
+}
