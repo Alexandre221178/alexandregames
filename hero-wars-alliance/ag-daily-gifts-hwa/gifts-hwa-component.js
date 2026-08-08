@@ -1,5 +1,6 @@
 /* gifts-hwa-component.js
-   Renders daily gifts from window.HWA_GIFTS (flat array).
+   Renders current gifts from window.HWA_GIFTS and the text-only HUB archive
+   from window.HWA_HUB_ARCHIVE.
    Contains reward presets, multi-language UI, and rendering logic.
    Data format: see gifts-hwa-data.js header for templates.
 */
@@ -128,6 +129,10 @@
       hubCaption: 'Table: Redeem your Hero Wars Alliance HUB Gifts',
       specialCaption: 'Table: Redeem your Special Gifts',
       dailyCaption: 'Table: Redeem your Daily Gifts',
+      archiveCaption: 'List of all expired Hero Wars Alliance HUB gift codes',
+      archiveCode: 'HUB code', archiveExpiry: 'Expiration date',
+      archiveGifts: 'Gifts', archiveUndefined: 'Not defined / 24h',
+      archiveToggle: 'Open/close expired codes table',
       expired: '(expired)',
       hubHow: 'How to Redeem the Code in the HWA Hub',
       hubStep1: 'Click the link:',
@@ -148,6 +153,10 @@
       hubCaption: 'Tabela: Resgate seus Presentes do HUB Hero Wars Alliance',
       specialCaption: 'Tabela: Resgate seus Presentes Especiais',
       dailyCaption: 'Tabela: Resgate seus Presentes Di\u00e1rios',
+      archiveCaption: 'Lista de todos os c\u00f3digos HUB expirados',
+      archiveCode: 'C\u00f3digo HUB', archiveExpiry: 'Data de validade',
+      archiveGifts: 'Presentes', archiveUndefined: 'N\u00e3o definida / 24h',
+      archiveToggle: 'Abrir/fechar tabela de c\u00f3digos expirados',
       expired: '(expirado)',
       hubHow: 'Como Resgatar o C\u00f3digo no HUB HWA',
       hubStep1: 'Clique no link:',
@@ -168,6 +177,10 @@
       hubCaption: 'Tabelle: HUB-Geschenke f\u00fcr Hero Wars Alliance einl\u00f6sen',
       specialCaption: 'Tabelle: Spezielle Geschenke einl\u00f6sen',
       dailyCaption: 'Tabelle: T\u00e4gliche Geschenke einl\u00f6sen',
+      archiveCaption: 'Liste aller abgelaufenen Hero Wars Alliance HUB-Geschenkcodes',
+      archiveCode: 'HUB-Code', archiveExpiry: 'Ablaufdatum',
+      archiveGifts: 'Geschenke', archiveUndefined: 'Nicht definiert / 24 Std.',
+      archiveToggle: 'Tabelle mit abgelaufenen Codes \u00f6ffnen/schlie\u00dfen',
       expired: '(abgelaufen)',
       hubHow: 'So l\u00f6sen Sie den Code im HWA Hub ein',
       hubStep1: 'Klicken Sie auf den Link:',
@@ -188,6 +201,10 @@
       hubCaption: 'Tabla: Canjea tus Regalos del HUB de Hero Wars Alliance',
       specialCaption: 'Tabla: Canjea tus Regalos Especiales',
       dailyCaption: 'Tabla: Canjea tus Regalos Diarios',
+      archiveCaption: 'Lista de todos los c\u00f3digos de regalo HUB caducados',
+      archiveCode: 'C\u00f3digo HUB', archiveExpiry: 'Fecha de caducidad',
+      archiveGifts: 'Regalos', archiveUndefined: 'No definida / 24 h',
+      archiveToggle: 'Abrir/cerrar tabla de c\u00f3digos caducados',
       expired: '(expirado)',
       hubHow: 'C\u00f3mo Canjear el C\u00f3digo en el HUB HWA',
       hubStep1: 'Haz clic en el enlace:',
@@ -208,6 +225,10 @@
       hubCaption: 'Tableau : \u00c9changez vos Cadeaux du HUB Hero Wars Alliance',
       specialCaption: 'Tableau : \u00c9changez vos Cadeaux Sp\u00e9ciaux',
       dailyCaption: 'Tableau : \u00c9changez vos Cadeaux Quotidiens',
+      archiveCaption: 'Liste de tous les codes cadeaux HUB expir\u00e9s',
+      archiveCode: 'Code HUB', archiveExpiry: "Date d'expiration",
+      archiveGifts: 'Cadeaux', archiveUndefined: 'Non d\u00e9finie / 24 h',
+      archiveToggle: 'Ouvrir/fermer le tableau des codes expir\u00e9s',
       expired: '(expir\u00e9)',
       hubHow: 'Comment \u00c9changer le Code dans le HUB HWA',
       hubStep1: 'Cliquez sur le lien :',
@@ -228,6 +249,10 @@
       hubCaption: '\u30d2\u30fc\u30ed\u30fc\u30a6\u30a9\u30fc\u30ba\u30fb\u30a2\u30e9\u30a4\u30a2\u30f3\u30b9 HUB\u30ae\u30d5\u30c8\u3092\u53d7\u3051\u53d6\u308b',
       specialCaption: '\u30b9\u30da\u30b7\u30e3\u30eb\u30ae\u30d5\u30c8\u3092\u53d7\u3051\u53d6\u308b',
       dailyCaption: '\u30c7\u30a4\u30ea\u30fc\u30ae\u30d5\u30c8\u3092\u53d7\u3051\u53d6\u308b',
+      archiveCaption: '\u671f\u9650\u5207\u308c\u306eHUB\u30ae\u30d5\u30c8\u30b3\u30fc\u30c9\u4e00\u89a7',
+      archiveCode: 'HUB\u30b3\u30fc\u30c9', archiveExpiry: '\u6709\u52b9\u671f\u9650',
+      archiveGifts: '\u30ae\u30d5\u30c8', archiveUndefined: '\u672a\u5b9a\u7fa9 / 24\u6642\u9593',
+      archiveToggle: '\u671f\u9650\u5207\u308c\u30b3\u30fc\u30c9\u8868\u3092\u958b\u304f/\u9589\u3058\u308b',
       expired: '\uff08\u671f\u9650\u5207\u308c\uff09',
       hubHow: 'HWA Hub\u3067\u30b3\u30fc\u30c9\u3092\u5f15\u304d\u63db\u3048\u308b\u65b9\u6cd5',
       hubStep1: '\u30ea\u30f3\u30af\u3092\u30af\u30ea\u30c3\u30af\uff1a',
@@ -280,6 +305,12 @@
 
   function formatDate(date, lang) {
     return new Date(date + 'T12:00:00').toLocaleDateString(LOCALES[lang] || LOCALES.en, { month: 'long', day: 'numeric' });
+  }
+
+  function formatFullDate(date, lang) {
+    return new Date(date + 'T12:00:00').toLocaleDateString(LOCALES[lang] || LOCALES.en, {
+      year: 'numeric', month: 'long', day: 'numeric'
+    });
   }
 
   function formatDateTime(dt, lang) {
@@ -430,6 +461,56 @@
       '</div><hr>';
   }
 
+  function renderRewardText(raw, lang) {
+    var reward = resolveReward(raw);
+    var title = t(reward.titles, lang) || reward.alt || titleCaseFromSlug(reward.preset);
+    var qtySuffix = reward.qtyText ? reward.qtyText : 'x' + (reward.qty || 1);
+    return escapeHtml(title + ' ' + qtySuffix);
+  }
+
+  function renderHubArchive(entries, txt, lang) {
+    if (!entries.length) return '';
+
+    var rows = '';
+    var i;
+    var j;
+
+    for (i = 0; i < entries.length; i++) {
+      var rewards = '';
+      for (j = 0; j < entries[i].rewards.length; j++) {
+        if (j) rewards += '<br>';
+        rewards += renderRewardText(entries[i].rewards[j], lang);
+      }
+
+      rows += '<tr>' +
+        '<td style="text-align:center; white-space:nowrap;">' + escapeHtml(formatFullDate(entries[i].date, lang)) + '</td>' +
+        '<td style="text-align:center;"><strong>' + escapeHtml(entries[i].code) + '</strong></td>' +
+        '<td style="text-align:center; white-space:nowrap;">' +
+          escapeHtml(entries[i].expires ? formatFullDate(entries[i].expires, lang) : txt.archiveUndefined) +
+        '</td>' +
+        '<td>' + rewards + '</td>' +
+      '</tr>';
+    }
+
+    return '<section class="hub-archive-section" aria-labelledby="hub-archive-title">' +
+      '<h2 id="hub-archive-title">' + escapeHtml(txt.archiveCaption) + '</h2>' +
+      '<details class="hub-archive-details">' +
+        '<summary>' + escapeHtml(txt.archiveToggle) + '</summary>' +
+        '<div class="content-wrapper">' +
+          '<table class="event-table hub-archive-table" aria-labelledby="hub-archive-title">' +
+            '<thead><tr>' +
+              '<th>' + escapeHtml(txt.date) + '</th>' +
+              '<th>' + escapeHtml(txt.archiveCode) + '</th>' +
+              '<th>' + escapeHtml(txt.archiveExpiry) + '</th>' +
+              '<th>' + escapeHtml(txt.archiveGifts) + '</th>' +
+            '</tr></thead>' +
+            '<tbody>' + rows + '</tbody>' +
+          '</table>' +
+        '</div>' +
+      '</details>' +
+    '</section>';
+  }
+
   // ─── MAIN RENDER ─────────────────────────────────────────
 
   function renderAll(container) {
@@ -442,6 +523,8 @@
     for (i = 0; i < data.length; i++) {
       html += renderEntry(data[i], txt, lang);
     }
+
+    html += renderHubArchive(window.HWA_HUB_ARCHIVE || [], txt, lang);
 
     container.innerHTML = html;
   }

@@ -1,400 +1,62 @@
-/*     npm run update-gifts-hwa      
-// ── August #, 2026 ────────────────────────────
-   { date:'2026-07-##', type:'daily', mission:'##', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+/* Current gifts shown with the full visual layout.
+   Expired HUB gifts published on or before 2026-07-30 are kept in
+   gifts-hwa-hub-archive.js and rendered as one text-only table.
+
+   npm run update-gifts-hwa
 */
-window.HWA_GIFTS = [   
-   // ── August 8, 2026 ────────────────────────────
-   { date:'2026-07-08', type:'daily', mission:'2-2', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+window.HWA_GIFTS = [
+  { date:'2026-07-08', type:'daily', mission:'2-2', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
-    { date:'2026-08-07', type:'hub', code:'EMAILGIFT0708', note:'custom',
+  { date:'2026-08-07', type:'hub', code:'EMAILGIFT0708', note:'custom',
     customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
-rewards:[ 'titan-skin-stone x1000'] },
-     { date:'2026-08-07', type:'special', mission:'2-5', note:'until|2026-08-31T01:00:00Z',
-    rewards:['large-skin-stone-chest x5',  'energy x20', 'adventure-energy x100'] },
-   // ── August 7, 2026 ─────────────────────────────
-   { date:'2026-08-07', type:'daily', mission:'3-12', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-    // ── alaxandregames1 Hub Code gft valid data true ──────────────────────────────
-{ date:'2026-08-06', type:'hub', code:'AUGUSTSALE', note:'until|2026-08-31T01:00:00Z',
-      rewards:['energy x100', 'artifact-chest-key x5'] },
-   // ── August 6, 2026 ──────────────────────────────
-   { date:'2026-07-06', type:'daily', mission:'2-8', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── August 05, 2026 ──────────────────────────────
-   { date:'2026-07-05', type:'daily', mission:'3-5', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-    // ── August 04, 2026 ──────────────────────────────
-   { date:'2026-08-04', type:'special', mission:'3-11', note:'until|2026-08-31T01:00:00Z',
-    rewards:['adventure-coin x1000', 'energy x20', 'adventure-energy x50'] },
-   // ── August 04, 2026 ──────────────────────────────
-   { date:'2026-07-04', type:'daily', mission:'2-13', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── August 03, 2026 ──────────────────────────────
-   { date:'2026-07-03', type:'daily', mission:'3-9', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── august 02, 2026 ─────────---─────────────────────
-   { date:'2026-08-02', type:'hub', code:'ELARITECALENDAR', note:'until|2026-08-31T01:00:00Z',
-rewards:['energy x20', 'intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350',] },
+    rewards:['titan-skin-stone x1000'] },
+  { date:'2026-08-07', type:'special', mission:'2-5', note:'until|2026-08-31T01:00:00Z',
+    rewards:['large-skin-stone-chest x5', 'energy x20', 'adventure-energy x100'] },
+  { date:'2026-08-07', type:'daily', mission:'3-12', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
-   // ── July 2, 2026 ──────────────────────────────
-   { date:'2026-07-02', type:'daily', mission:'2-5', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── August 1, 2026 ──────────────────────────────
-   { date:'2026-08-01', type:'daily', mission:'3-8', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-    // ── code ──────────────────────────────
+  { date:'2026-08-06', type:'hub', code:'AUGUSTSALE', note:'until|2026-08-31T01:00:00Z',
+    rewards:['energy x100', 'artifact-chest-key x5'] },
+  { date:'2026-07-06', type:'daily', mission:'2-8', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+  { date:'2026-07-05', type:'daily', mission:'3-5', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+
+  { date:'2026-08-04', type:'special', mission:'3-11', note:'until|2026-08-31T01:00:00Z',
+    rewards:['adventure-coin x1000', 'energy x20', 'adventure-energy x50'] },
+  { date:'2026-08-02', type:'hub', code:'ELARITECALENDAR', note:'until|2026-08-31T01:00:00Z',
+    rewards:['energy x20', 'intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350'] },
   { date:'2026-07-31', type:'hub', code:'EMAILGIFT3107', note:'custom',
     customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
-rewards:[ 'titan-potion x1000'] },
-   // ── youtube live stream code ──────────────────────────────
+    rewards:['titan-potion x1000'] },
   { date:'2026-07-31', type:'hub', code:'PALLANTTRAILER', note:'until|2026-08-31T01:00:00Z',
-rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
-   // ── July 31, 2026 ──────────────────────────────
-   { date:'2026-07-31', type:'daily', mission:'2-11', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-// ── youtube live stream code ──────────────────────────────
-  { date:'2026-07-30', type:'hub', code:'PALLANTLIVE', note:'until|2026-08-03T01:00:00Z',
-rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
-   
-   // ── July 30, 2026 ──────────────────────────────
-   { date:'2026-07-30', type:'daily', mission:'3-7', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── Hub Code nao definido a data false ──────────────────────────────
-{ date:'2026-07-29', type:'hub', code:'PALLANT', note:'until|2026-08-03T01:00:00Z',
-   rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
+    rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
 
-   
-   // ── July 29, 2026 ──────────────────────────────
-   { date:'2026-07-29', type:'daily', mission:'2-3', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── July 28, 2026 ──────────────────────────────
-   { date:'2026-07-28', type:'daily', mission:'3-3', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── July 27, 2026 ──────────────────────────────
-   { date:'2026-07-27', type:'daily', mission:'2-2', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── July 19, 2026 Especial ──────────────────────────────
-   { date:'2026-07-26', type:'special', mission:'2-9', note:'until|2026-08-03T01:00:00Z',
-      rewards:['energy x100', 'large-skin-stone-chest x5'] },
-   // ── July 26, 2026 ──────────────────────────────
-   { date:'2026-07-26', type:'daily', mission:'3-4', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── July 25, 2026 ──────────────────────────────
-   { date:'2026-07-25', type:'daily', mission:'2-5', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-    // ── Hub Code nao definido a data false ──────────────────────────────
-{ date:'2026-07-24', type:'hub', code:'EMAILGIFT1007', note:'custom',
-    customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
-    rewards:[ 'small-skin-stone-chest x30' ] },
-  // ── Hub Code nao definido a data false ──────────────────────────────
-{ date:'2026-07-24', type:'hub', code:'EMAILGIFT2407', note:'custom',
-    customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
-    rewards:[ 'small-skin-stone-chest x30' ] },
-   
-   
-// ── July 24, 2026 ──────────────────────────────
-   { date:'2026-07-24', type:'daily', mission:'3-11', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-
-      { date:'2026-07-23', type:'hub', code:'TWILIGHT', note:'until|2026-08-03T01:00:00Z',
-      rewards:[ 'energy x100', 'small-skin-stone-chest x75'] },
-   // ── July 223, 2026 ──────────────────────────────
-   { date:'2026-07-23', type:'daily', mission:'2-8', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-    // ── July 22, 2026 ──────────────────────────────
-   { date:'2026-07-22', type:'special', mission:'3-2', note:'until|2026-08-03T01:00:00Z',
-    rewards:[ 'bottled-energy x5',  'artifact-chest-key x5', 'energy x20', 'avatar x1'] },
-   
-   // ── July 22, 2026 ──────────────────────────────
-   { date:'2026-07-22', type:'daily', mission:'3-12', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-
-   { date:'2026-07-21', type:'hub', code:'BONUS963', note:'custom',
-    customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
-   rewards:[ 'energy x150', 'artifact-coin x400',  'artifact-chest-key x5'] },
-   { date:'2026-07-21', type:'hub', code:'BONUS741', note:'custom',
-    customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
-   rewards:[ 'energy x150', 'artifact-coin x400',  'artifact-chest-key x5'] },
-   { date:'2026-07-21', type:'hub', code:'BONUS852', note:'custom',
-    customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
-   rewards:[ 'energy x150', 'artifact-coin x400',  'artifact-chest-key x5'] },
-   
-   // ── July 21, 2026 ──────────────────────────────
-   { date:'2026-07-21', type:'daily', mission:'2-11', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── July 20, 2026 ──────────────────────────────
   { date:'2026-07-20', type:'special', mission:'3-13', note:'until|2026-07-23T01:00:00Z',
     rewards:['seers-orb x50', 'energy x100'] },
-   // ── July 20, 2026 ──────────────────────────────
-   { date:'2026-07-20', type:'daily', mission:'3-5', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── July 19, 2026 ──────────────────────────────
-{ date:'2026-07-19', type:'hub', code:'CROWFREEDOM', note:'until|2026-08-03T01:00:00Z',
-      rewards:['energy x100', 'large-skin-stone-chest x5'] },
-
-   { date:'2026-07-19', type:'daily', mission:'2-3', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── Hub Code gft valid data true ──────────────────────────────
-{ date:'2026-07-18', type:'hub', code:'TWILIGHTSTATS', note:'until|2026-08-03T01:00:00Z',
-      rewards:['energy x20', 'agility-skin-stone x500'] },
-   // ── July 18, 2026 ──────────────────────────────
-   { date:'2026-07-18', type:'daily', mission:'3-9', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-      // ── Hub Code nao definido a data false ──────────────────────────────
-{ date:'2026-17-07', type:'hub', code:'THRONERUSH', note:'custom',
-    customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
-rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
-    // ── Hub Code nao definido a data false ──────────────────────────────
-{ date:'2026-17-07', type:'hub', code:'EMAILGIFT1707', note:'custom',
-    customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
-    rewards:[ 'rune-stone x1500' ] },
- // ── July 17, 2026 ──────────────────────────────
-   { date:'2026-07-17', type:'daily', mission:'2-13', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── July 16, 2026 ──────────────────────────────
-   { date:'2026-07-16', type:'daily', mission:'3-8', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── July 15, 2026 ──────────────────────────────
-   { date:'2026-07-15', type:'daily', mission:'2-9', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── July 14, 2026 ──────────────────────────────
-   { date:'2026-07-14', type:'special', mission:'2-12', note:'until|2026-08-03T01:00:00Z',
+  { date:'2026-07-14', type:'special', mission:'2-12', note:'until|2026-08-03T01:00:00Z',
     rewards:['artifact-chest-key x5', 'energy x100', 'avatar x1'] },
-   // ── July 14, 2026 ──────────────────────────────
-   { date:'2026-07-14', type:'daily', mission:'3-7', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-    // ── 5gft Realm ────────────────────────────── 
-{ date:'2026-07-13', type:'special', mission:'3-14', note:'until|2026-08-03T01:00:00Z',
- rewards:['world-energy x30', '1h-general-speedup x2', '1h-training-speedup x1',  '1h-construction-speedup x1', '1h-research-speedup X1' ] }, 
- 
-   // ── July 13, 2026 ──────────────────────────────
-   { date:'2026-07-13', type:'daily', mission:'2-2', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── July 12, 2026 ──────────────────────────────
-   { date:'2026-07-12', type:'special', mission:'2-14', note:'until|2026-08-03T01:00:00Z',
+  { date:'2026-07-13', type:'special', mission:'3-14', note:'until|2026-08-03T01:00:00Z',
+    rewards:['world-energy x30', '1h-general-speedup x2', '1h-training-speedup x1', '1h-construction-speedup x1', '1h-research-speedup X1'] },
+  { date:'2026-07-12', type:'special', mission:'2-14', note:'until|2026-08-03T01:00:00Z',
     rewards:['adventure-coin x1000', 'energy x20', 'adventure-energy x50'] },
-   // ── July 12, 2026 ──────────────────────────────
-   { date:'2026-07-12', type:'daily', mission:'3-3', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-   // ── Hub Code gft valid data true ──────────────────────────────
-   { date:'2026-07-11', type:'hub', code:'NEWRESEARCH', note:'until|2026-08-03T01:00:00Z',
-      rewards:['world-energy x30', 'random-resources-chest-100k x6'] },
-   { date:'2026-07-11', type:'hub', code:'NEWCITY', note:'until|2026-08-03T01:00:00Z',
-      rewards:['gold 250k', 'energy x20', 'summoning-sphere x5'] },
-   // ── July 11, 2026 ──────────────────────────────
-   { date:'2026-07-11', type:'daily', mission:'2-5', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-
-   // ── Hub Code nao definido a data false ──────────────────────────────
-{ date:'2026-07-10', type:'hub', code:'EMAILGIFT1007', note:'custom',
-    customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
-    rewards:[ 'small-skin-stone-chest x30'] },
-   // ── July 10, 2026 ──────────────────────────────
-   { date:'2026-07-10', type:'daily', mission:'3-2', note:'daily|80',
-rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-  
-    // ── July 7, 2026 ──────────────────────────────
-   { date:'2026-07-07', type:'special', mission:'2-4', note:'until|2026-08-03T01:00:00Z',
+  { date:'2026-07-07', type:'special', mission:'2-4', note:'until|2026-08-03T01:00:00Z',
     rewards:['adventure-coin x1000', 'energy x20', 'adventure-energy x50'] },
-   
-   // ── July 4, 2026 ─────────---─────────────────────
-   { date:'2026-07-04', type:'hub', code:'CROWCALENDAR', note:'until|2026-08-03T01:00:00Z',
-rewards:['energy x20', 'intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350',] },
-
-      // ── July 3, 2026 ────────────----──────────────────
-    { date:'2026-07-03', type:'hub', code:'CROWTRAILER', note:'until|2026-08-03T01:00:00Z',
-rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
-   // ── July 3, 2026 ────────────----──────────────────
-   
-  // ── youtube live stream code ──────────────────────────────
-  { date:'2026-07-02', type:'hub', code:'CROWSTREAM', note:'until|2026-07-05T01:00:00Z',
-rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
-   
-     
-      // ── Hub Code nao definido a data false ──────────────────────────────
-{ date:'2026-07-02', type:'hub', code:'SUPWORLDCUP', note:'until|2026-07-0#T01:00:00Z',
-   rewards:[ 'energy x150', 'artifact-coin x400',  'artifact-chest-key x5'] },
-      // ── Hub Code nao definido a data false ──────────────────────────────
-{ date:'2026-07-02', type:'hub', code:'EMAILGOAL0207', note:'until|2026-07-0#T01:00:00Z',
-   rewards:['alexandregames Hub lucky ball x100'] },
-   // ── July 2, 2026 ──────────────────────────────
-   
-    { date:'2026-06-26', type:'special', mission:'3-9', note:'until|2026-07-06T01:00:00Z',
+  { date:'2026-06-26', type:'special', mission:'3-9', note:'until|2026-07-06T01:00:00Z',
     rewards:['adventure-coin x1000', 'energy x100'] },
-   // ── June 26, 2026 ──────────────────────────────
-   
-   // ── June 24, 2026 ──────────────────────────────
-    // ── Hub Code nao definido a data false ──────────────────────────────
-{ date:'2026-06-24', type:'hub', code:'EMAILGIFT2206', note:'custom',
-    customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
-    rewards:[ 'summoning-sphere x10'] },
-  
-   // ── June 23, 2026 ──────────────────────────────
-   { date:'2026-06-23', type:'special', mission:'2-14', note:'until|2026-07-06T01:00:00Z',
+  { date:'2026-06-23', type:'special', mission:'2-14', note:'until|2026-07-06T01:00:00Z',
     rewards:['seers-orb x50', 'energy x100', 'world-energy x30', 'random-resources-chest-100k x6'] },
-   
-   // ── June 22, 2026 ──────────────────────────────
-   // ── 6gft Realm ────────────────────────────── 
-{ date:'2026-06-22', type:'special', mission:'3-11', note:'until|2026-07-06T01:00:00Z',
- rewards:['energy x20', '1h-construction-speedup x1', '1h-research-speedup X1', '1h-training-speedup x1', '1h-general-speedup x2', 'world-energy x30', ] }, 
- 
-   
-    // ── Hub Code gft valid data true ──────────────────────────────
-{ date:'2026-06-20', type:'hub', code:'DAWNSTATS', note:'until|2026-07-06T01:00:00Z',
-      rewards:['energy x20', 'strength-skin-stone x500'] },
-   
-   // ── June 7, 2026 ──────────────────────────────
-    { date:'2026-06-07', type:'hub', code:'ORMCALENDAR', note:'until|2026-07-01T01:00:00Z',
- rewards:['summoning-sphere x5', 'gold 250k', 'energy x20'] },
-  
-   // ── June 5, 2026 ──────────────────────────────
-    { date:'2026-06-03', type:'hub', code:'ORMVIDEO', note:'until|2026-06-08T01:00:00Z',
-rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
-   
-   // ── June 3, 2026 ──────────────────────────────
-   { date:'2026-06-03', type:'hub', code:'ORMMM', note:'until|2026-06-08T01:00:00Z',
-rewards:['energy x20', 'intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350',] },
-
-   // ── Hub Code gft valid data true ──────────────────────────────
-{ date:'2026-05-31', type:'hub', code:'CAPYBARA', note:'until|2026-06-08T01:00:00Z',
-      rewards:['energy x100', 'large-skin-stone-chest x5'] },
-     
-   // ── Hub Code gft valid data true ──────────────────────────────
-{ date:'2026-05-30', type:'hub', code:'BLAZING', note:'until|2026-06-08T01:00:00Z',
-      rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
-      
-    // ── Hub Code gft valid data true ──────────────────────────────
-{ date:'2026-05-24', type:'hub', code:'ANGELDEMON', note:'until|2026-06-08T01:00:00Z',
-      rewards:['seers-orb x50', 'energy x100'] },
-  
-   // ── Hub Code gft valid data true ──────────────────────────────
-{ date:'2026-05-22', type:'hub', code:'LAVA', note:'until|2026-06-08T01:00:00Z',
-      rewards:['intelligence-skin-stone x500', 'energy x20'] },
-  
-    // ── May 16, 2026 ──────────────────────────────
-    { date:'2026-05-16', type:'hub', code:'HOTSPRINGS', note:'until|2026-06-01T01:00:00Z',
-   rewards:['energy x100', 'large-skin-stone-chest x5'] },
-  
-// ── May 15, 2026 ──────────────────────────────
-{ date:'2026-05-15', type:'hub', code:'CREATORHUB', note:'until|2026-05-18T01:00:00Z',
-   rewards:['summoning-sphere x5', 'gold 250k', 'energy x20'] },
- 
-    // ── May 14, 2026 ──────────────────────────────
-   // ── Hub Code gft valid data true ──────────────────────────────
-{ date:'2026-05-14', type:'hub', code:'MIUMIU', note:'until|2026-06-08T01:00:00Z',
-      rewards:['energy x100', 'artifact-chest-key x5'] },
- 
-  
-    // ── May 10, 2026 ──────────────────────────────
-    { date:'2026-05-10', type:'hub', code:'KENDLECALENDAR', note:'until|2026-05-13T12:00:00Z',
-rewards:['intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350', 'energy x20',] },
-
- 
-  
-{ date:'2026-05-07', type:'hub', code:'KENDLEREVEAL', note:'until|2026-05-11T01:00:00Z',
-      rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
-   
- 
-    // ── May 2, 2026 ──────────────────────────────
-{ date:'2026-05-02', type:'hub', code:'JADEFLAME', note:'until|2026-05-11T01:00:00Z',
-      rewards:['summoning-sphere x5', 'gold 250k', 'energy x20'] },
-
-    // ── May 1, 2026 ──────────────────────────────
-    { date:'2026-05-01', type:'hub', code:'SUPGOLDENWEEK', note:'custom',
-customNote:{ en:'The gift is available until... not defined (or 24h)',
-  pt:'O presente está disponível até... não definido (ou 24h)',
-  de:'Das Geschenk ist verfügbar bis... nicht definiert (oder 24h)',
-  es:'El regalo está disponible hasta... no definido (o 24h)',
-  fr:'Le cadeau est disponible jusqu\'à... non défini (ou 24h)',
-  ja:'ギフトの有効期限は... 未定義（または24時間）'  
-}, rewards:[ 'energy x150', 'artifact-coin x400',  'artifact-chest-key x5'] },
-
-   
-// ── April 26, 2026 ──────────────────────────────
-{ date:'2026-04-26', type:'special', mission:'3-13', note:'until|2026-05-11T01:00:00Z',
-    rewards:['seers-orb x50', 'coin-of-luck x1', 'energy x20', 'avatar x1'] },
-
-  // ── April 25, 2026 ──────────────────────────────
-// ── Hub gft valid data true ──────────────────────────────
-{ date:'2026-04-25', type:'hub', code:'JADESTATS', note:'until|2026-05-11T01:00:00Z',
-      rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
-
-
-  // ── April 23, 2026 ──────────────────────────────
-   { date:'2026-04-23', type:'hub', code:'TRY', note:'until|2026-05-11T02:00:00Z',
-      rewards:['energy x100', 'large-skin-stone-chest x5'] },
- 
-
-// ── April 13, 2026 ──────────────────────────────
-{ date:'2026-04-13', type:'hub', code:'WEB', note:'custom',
-customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
-rewards:[ 'energy x100'] },
-
-// ── April 11, 2026 ──────────────────────────────
-{ date:'2026-04-11', type:'hub', code:'FROMSUPPORT', note:'custom',
-    customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
-    rewards:[ 'energy x150', 'artifact-coin x100',  'artifact-chest-key x5'] },
-
-// ── April 9, 2026 ──────────────────────────────
-{ date:'2026-04-09', type:'hub', code:'Asleepsam', note:'custom',
-    customNote:{ en:'The gift is available until... not defined(expired or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
-    rewards:['artifact-chest-key x5', 'energy x100'] },
-   
-   
- // ── Code nao definido a data ──────────────────────────────
-  { date:'2026-04-01', type:'hub', code:'CONFIDENTIAL', note:'custom',
-    customNote:{ en:'The gift is available until... not defined', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert', es:'El regalo est\u00e1 disponible hasta... no definido', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9' },
-    rewards:['large-skin-stone-chest x5', 'energy x100'] }, 
-
+  { date:'2026-06-22', type:'special', mission:'3-11', note:'until|2026-07-06T01:00:00Z',
+    rewards:['energy x20', '1h-construction-speedup x1', '1h-research-speedup X1', '1h-training-speedup x1', '1h-general-speedup x2', 'world-energy x30'] },
+  { date:'2026-04-26', type:'special', mission:'3-13', note:'until|2026-05-11T01:00:00Z',
+    rewards:['seers-orb x50', 'coin-of-luck x1', 'energy x20', 'avatar x1'] }
 ];
-/* ╔══════════════════════════════════════════════════════════════════╗
-   ║  DAILY GIFTS — Add newest entries at the TOP                    ║
-   ║  Copy a line, change date / code / mission / rewards            ║
-   ╚══════════════════════════════════════════════════════════════════╝
-For expired hub codes add: expired:true For text qty (like 250k) use: 'gold 250k' instead of 'gold x250'
-For unknown new gifts use: 'alexandregames NAME x1' or 'alexandre games NAME x1' The component will use the Alexandre Games logo and display only NAME
 
-// ── Hub Code gft valid data true ──────────────────────────────
-{ date:'2026-04-25', type:'hub', code:'JADESTATS', note:'until|2026-05-11T01:00:00Z',
-      rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
-
-{ date:'2026-##-##', type:'hub', code:'##CAIXA-ALTA##', note:'until|2026-##-##T01:00:00Z',
-rewards:['intelligence-skin-stone x300', 'strength-skin-stone x300', 'agility-skin-stone x300',] },
-
-
-   // ── Hub Code nao definido a data false ──────────────────────────────
-{ date:'2026-04-11', type:'hub', code:'FROMSUPPORT', note:'custom',
-    customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
-    rewards:[ 'energy x150', 'artifact-coin x100',  'artifact-chest-key x5'] },
-
-// ── youtube live stream code ──────────────────────────────
-  { date:'2026-07-02', type:'hub', code:'CROWSTREAM', note:'until|2026-07-05T01:00:00Z',
-rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
-
-   TEMPLATES — copy & paste:
-   { date:'YYYY-MM-DD', type:'hub',         code:'CODE',  note:'hub24h',                        rewards:['preset x5'] },
-   { date:'YYYY-MM-DD', type:'hub',         code:'CODE',  note:'hubUntil|DATETIME',             rewards:['preset x5'] },
-   { date:'YYYY-MM-DD', type:'special',     mission:'X-X', note:'until|DATETIME',               rewards:['preset x5'] },
-   { date:'YYYY-MM-DD', type:'specialTask', mission:'X-X', note:'untilLevel|DATETIME|15',       rewards:['preset x5'] },
-   { date:'YYYY-MM-DD', type:'daily',       mission:'X-X', note:'daily|80',                     rewards:['preset x5'] },
-
-   REWARD PRESETS (use these names in the rewards array):
-   energy, gold, large-skin-stone-chest, adventure-coin, adventure-energy,
-   silver-casket, realm-casket, artifact-chest-key, rune-stone,
-   random-resources-chest-1k, 1h-general-speedup, world-energy,
-   strength-skin-stone, intelligence-skin-stone, agility-skin-stone,
-   seers-orb, boxys-gift, realm-gift, summoning-sphere
-
-   NOTE FORMATS:
-   hub24h                        — 24h or undefined expiry
-   hubUntil|2026-04-07T10:00:00Z — hub gift until date
-   until|2026-04-13T01:00:00Z    — reward until date
-   untilLevel|2026-04-13T01:00:00Z|15 — until date, level 15+
-   daily|80                      — daily mission, level 80+
-   custom                        — add customNote:{ en:'...', pt:'...' }
-
-   
-
+/* Templates
+   { date:'YYYY-MM-DD', type:'hub', code:'CODE', note:'hub24h', rewards:['preset x5'] },
+   { date:'YYYY-MM-DD', type:'hub', code:'CODE', note:'until|DATETIME', rewards:['preset x5'] },
+   { date:'YYYY-MM-DD', type:'special', mission:'X-X', note:'until|DATETIME', rewards:['preset x5'] },
+   { date:'YYYY-MM-DD', type:'specialTask', mission:'X-X', note:'untilLevel|DATETIME|15', rewards:['preset x5'] },
+   { date:'YYYY-MM-DD', type:'daily', mission:'X-X', note:'daily|80', rewards:['preset x5'] }
 */

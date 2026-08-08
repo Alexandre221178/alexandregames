@@ -3153,3 +3153,56 @@ margin-bottom: 7px !important;
         height: 20px;
     }
 }
+/* Botao da tabela de codigos HUB expirados */
+.hub-archive-details > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0 16px;
+  padding: 12px 18px;
+  border: 2px solid #0d47a1;
+  border-radius: 8px;
+  background-color: #1565c0;
+  box-shadow: 0 3px 8px rgba(13, 71, 161, 0.3);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3;
+  cursor: pointer;
+  list-style: none;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.hub-archive-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.hub-archive-details > summary::before {
+  content: '+';
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #1565c0;
+  font-size: 19px;
+  line-height: 1;
+}
+
+.hub-archive-details[open] > summary::before {
+  content: '\2212';
+}
+
+.hub-archive-details > summary:hover,
+.hub-archive-details > summary:focus-visible {
+  background-color: #0d47a1;
+  box-shadow: 0 4px 12px rgba(13, 71, 161, 0.42);
+  transform: translateY(-1px);
+}
+
+.hub-archive-details > summary:focus-visible {
+  outline: 3px solid #90caf9;
+  outline-offset: 3px;
+}
