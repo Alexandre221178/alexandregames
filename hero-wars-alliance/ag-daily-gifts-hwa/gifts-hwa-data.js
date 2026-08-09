@@ -1,11 +1,12 @@
-/* Current gifts shown with the full visual layout.
-   Expired HUB gifts published on or before 2026-07-30 are kept in
-   gifts-hwa-hub-archive.js and rendered as one text-only table.
-
-   npm run update-gifts-hwa
+/* npm run update-gifts-hwa
+{ date:'2026-07-08', type:'daily', mission:'2-2', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
-  { date:'2026-07-08', type:'daily', mission:'2-2', note:'daily|80',
+  { date:'2026-08-09', type:'daily', mission:'3-13', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+
+  { date:'2026-08-08', type:'daily', mission:'2-2', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
   { date:'2026-08-07', type:'hub', code:'EMAILGIFT0708', note:'custom',
@@ -18,7 +19,7 @@ window.HWA_GIFTS = [
 
   { date:'2026-08-06', type:'hub', code:'AUGUSTSALE', note:'until|2026-08-31T01:00:00Z',
     rewards:['energy x100', 'artifact-chest-key x5'] },
-  { date:'2026-07-06', type:'daily', mission:'2-8', note:'daily|80',
+  { date:'2026-08-06', type:'daily', mission:'2-8', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-07-05', type:'daily', mission:'3-5', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
