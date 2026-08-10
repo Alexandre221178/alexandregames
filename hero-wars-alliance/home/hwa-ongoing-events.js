@@ -2,6 +2,42 @@
   // Active Ascendant Glory guides shown below the main calendar carousel.
   var slides = [
     {
+      link: "/hero-wars-alliance/event-hwa/trade-routes-event-group-en.html",
+      src500: "/hero-wars-alliance/images/events/trade-routes/trade-routes-500px.webp",
+      src400: "/hero-wars-alliance/images/events/trade-routes/trade-routes-400px.webp",
+      alt: "Trade Routes Event Group Guide for Hero Wars Alliance",
+      title: "Trade Routes Event Group Guide for Hero Wars Alliance",
+      strong: "Guide: Trade Routes Event Group - Hero Wars Alliance",
+      updated: "Updated: August 09, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html",
+      src500: "/hero-wars-alliance/images/events/trade-routes/bountiful-roads-500px.webp",
+      src400: "/hero-wars-alliance/images/events/trade-routes/bountiful-roads-400px.webp",
+      alt: "Bountiful Roads Event Guide for Hero Wars Alliance",
+      title: "Bountiful Roads Event Guide for Hero Wars Alliance",
+      strong: "Guide: Bountiful Roads Event Guide - Hero Wars Alliance",
+      updated: "Updated: August 09, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/trade-routes-grand-caravan-en.html",
+      src500: "/hero-wars-alliance/images/events/trade-routes/grand-caravan-500px.webp",
+      src400: "/hero-wars-alliance/images/events/trade-routes/grand-caravan-400px.webp",
+      alt: "Grand Caravan Event Guide for Hero Wars Alliance",
+      title: "Grand Caravan Event Guide for Hero Wars Alliance",
+      strong: "Guide: Grand Caravan Event Guide - Hero Wars Alliance",
+      updated: "Updated: August 09, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",
+      src500: "/hero-wars-alliance/images/events/trade-routes/roads-unlocked-500px.webp",
+      src400: "/hero-wars-alliance/images/events/trade-routes/roads-unlocked-400px.webp",
+      alt: "Roads Unlocked Event Guide for Hero Wars Alliance",
+      title: "Roads Unlocked Event Guide for Hero Wars Alliance",
+      strong: "Guide: Roads Unlocked Event Guide - Hero Wars Alliance",
+      updated: "Updated: August 09, 2026."
+    },
+    {
       link: "/hero-wars-alliance/event-hwa/ancient-awakening-main-event.html",
       src500: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-500px.webp",
       src400: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-400px.webp",
