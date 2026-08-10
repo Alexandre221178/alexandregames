@@ -1,12 +1,13 @@
 (function () {
   const VIDEO_URL = "https://youtu.be/eExyBI0fhDg";
   const IMAGE_BASE = "../../hero-wars-alliance/images/events/shared/";
+  const WINNER_IDS = ["1208052253", "1208545846", "659688363", "663078464", "1157664233"];
 
   function createRewards(labels) {
     return Array.from({ length: 5 }, (_, index) => ({
       item: labels.package,
       winner_label: `${labels.winner} ${index + 1}`,
-      winner_id: labels.pending,
+      winner_id: WINNER_IDS[index],
       images: [
         { src: `${IMAGE_BASE}meta-cube.webp`, caption: labels.metacubes },
         { src: `${IMAGE_BASE}hydra-coin.webp`, caption: labels.hydraCoins },
