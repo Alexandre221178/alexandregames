@@ -738,14 +738,7 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
 },
       
 
-  {
-        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
-        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
-      },
-       {
-        titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
-        links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
-      },
+  
     {
  titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },
   links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
@@ -785,14 +778,7 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
   noStrip: true
 },
 
-  {
-        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
-        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
-      },
-       {
-        titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
-        links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
-      },
+  
     {
   titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },
   links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
@@ -831,14 +817,7 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
   noStrip: true
 },
 
-  {
-        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
-        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
-      },
-       {
-        titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
-        links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
-      },
+  
      {
  titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },
   links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
@@ -875,6 +854,14 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
   links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 },
+{
+        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
+      },
+       {
+        titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
+        links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
+      },
 
       
  {
@@ -914,6 +901,14 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
   links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 },
+{
+        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
+      },
+       {
+        titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
+        links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
+      },
 
       {
   titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },
@@ -952,6 +947,14 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
   links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 },
+{
+        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
+      },
+       {
+        titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
+        links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
+      },
 
       {
  titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },

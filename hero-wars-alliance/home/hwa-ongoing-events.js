@@ -1,6 +1,16 @@
 (function(){
   // Active Ascendant Glory guides shown below the main calendar carousel.
   var slides = [
+    
+     {
+      link: "/hero-wars-alliance/event-hwa/trade-routes-caravan-hall-en.html",
+      src500: "/hero-wars-alliance/images/events/trade-routes/caravan-hall-500px.webp",
+      src400: "/hero-wars-alliance/images/events/trade-routes/caravan-hall-400px.webp",
+      alt: "Caravan Hall Shop Guide for Hero Wars Alliance",
+      title: "Caravan Hall Shop Guide for Hero Wars Alliance",
+      strong: "Guide: Caravan Hall Shop - Hero Wars Alliance",
+      updated: "Updated: August 10, 2026."
+    },
     {
       link: "/hero-wars-alliance/event-hwa/trade-routes-event-group-en.html",
       src500: "/hero-wars-alliance/images/events/trade-routes/trade-routes-500px.webp",
@@ -9,6 +19,15 @@
       title: "Trade Routes Event Group Guide for Hero Wars Alliance",
       strong: "Guide: Trade Routes Event Group - Hero Wars Alliance",
       updated: "Updated: August 09, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/guide/talisman-guide-hwa-en.html",
+      src500: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-400px.webp",
+      alt: "All Talisman Guides for Hero Wars Alliance",
+      title: "Talisman Guide for Hero Wars Alliance",
+      strong: "Guide: All Talisman - Hero Wars Alliance",
+      updated: "Updated: August 10, 2026."
     },
     {
       link: "/hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html",

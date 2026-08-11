@@ -1,24 +1,8 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
-    {
-      link: "/hero-wars-alliance/titans-events-tips/pallant-shop-ancient-awakening-en.html",
-      src500: "/hero-wars-alliance/images/titans-events-tips/pallant-shop-ancient-awakening/pallant-shop-ancient-awakening-500px.webp",
-      src400: "/hero-wars-alliance/images/titans-events-tips/pallant-shop-ancient-awakening/pallant-shop-ancient-awakening-400px.webp",
-      alt: "Pallant Shop Guide for Hero Wars Alliance",
-      title: "Pallant Shop Guide for Hero Wars Alliance",
-      strong: "Guide: Pallant Shop - Hero Wars Alliance",
-      updated: "Updated: August 03, 2026."
-    },
-    {
-      link: "/hero-wars-alliance/titans-guide/pallant-en.html",
-      src500: "/hero-wars-alliance/images/titans/pallant/pallant-500px.webp",
-      src400: "/hero-wars-alliance/images/titans/pallant/pallant-500px.webp",
-      alt: "New Titan Pallant Guide for Hero Wars Alliance",
-      title: "New Titan Pallant Guide Hero Wars Alliance",
-      strong: "New Titan Pallant - Guide for Hero Wars Alliance",
-      updated: "Updated: August, 2026."
-    },     
+    
+    
     {
       link: "/hero-wars-alliance/characters-guide/cleaver-en.html",
       src500: "/hero-wars-alliance/images/hero/cleaver/cleaver-500px.webp",
