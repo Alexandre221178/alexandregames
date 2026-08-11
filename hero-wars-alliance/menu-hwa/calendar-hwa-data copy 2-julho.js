@@ -365,7 +365,10 @@ titles: { en: "👗 Peech New Skin: Inner Demons", pt: "👗 Peech Nova Skin: De
 links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html",pt: "", de: "", es: "", fr: "",  ja: "" }, 
 noStrip: true
 },
-
+{
+titles: { en: "Talisman Fever", de: "Talismanfieber", es: "Fiebre del Talismán", fr: "Fièvre du Talisman", pt: "Febre do Talismã", ja: "タリスマンフィーバー" },
+links: { en: "../../hero-wars-alliance/event-hwa/talisman-fever-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/talisman-fever-event-pt.html", ja: "" }
+},
 {
   titles: { en: "🧙 Kendle Guide: 2nd Talisman", pt: "🧙 Guia da Kendle: 2º Talismã", de: "🧙 Kendle-Leitfaden: 2. Talisman", es: "🧙 Guía de Kendle: 2º Talismán", fr: "🧙 Guide de Kendle: 2ème Talisman", ja: "🧙 ケンドル ガイド: 2番目のタリスマン" },
  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
@@ -416,7 +419,10 @@ noStrip: true
   links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", de: "", es: "", fr: "", ja: "" },
   noStrip: true
 },
-
+{
+titles: { en: "Talisman Fever", de: "Talismanfieber", es: "Fiebre del Talismán", fr: "Fièvre du Talisman", pt: "Febre do Talismã", ja: "タリスマンフィーバー" },
+links: { en: "../../hero-wars-alliance/event-hwa/talisman-fever-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/talisman-fever-event-pt.html", ja: "" }
+},
 {
   titles: { en: "🧙 Kendle Guide: 2nd Talisman", pt: "🧙 Guia da Kendle: 2º Talismã", de: "🧙 Kendle-Leitfaden: 2. Talisman", es: "🧙 Guía de Kendle: 2º Talismán", fr: "🧙 Guide de Kendle: 2ème Talisman", ja: "🧙 ケンドル ガイド: 2番目のタリスマン" },
  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
@@ -463,8 +469,24 @@ noStrip: true
  links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
   noStrip: true
 },
-  
-      
+  {
+        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
+      },
+      {
+        titles: { en: "🟣Elemental Sphere Discount", pt: "🟣Desconto de Esferas Elementais", de: "🟣Rabatt auf Elementsphären", es: "🟣Descuento de Esferas Elementales", fr: "🟣Réduction sur les Sphères Élémentaires", ja: "🟣エレメンタルスフィア割引" },
+        links: { en: "#section15", pt: "#section15", de: "#section15", es: "#section15", fr: "#section15", ja: "#section15" }
+
+      },
+      {
+        titles: { en: "🎁Heroic Chest Discount", pt: "🎁Desconto de Baús Heroicos", de: "🎁Rabatt auf Heroische Truhen", es: "🎁Descuento de Cajas Heroicas", fr: "🎁Réduction sur les Coffres Héroïques", ja: "🎁ヒーローの宝箱割引" },
+        links: { en: "#section16", pt: "#section16", de: "#section16", es: "#section16", fr: "#section16", ja: "#section16" }
+
+      },
+      {
+titles: { en: "Talisman Fever", de: "Talismanfieber", es: "Fiebre del Talismán", fr: "Fièvre du Talisman", pt: "Febre do Talismã", ja: "タリスマンフィーバー" },
+links: { en: "../../hero-wars-alliance/event-hwa/talisman-fever-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/talisman-fever-event-pt.html", ja: "" }
+},
 {
   titles: { en: "🧙 Kendle Guide: 2nd Talisman", pt: "🧙 Guia da Kendle: 2º Talismã", de: "🧙 Kendle-Leitfaden: 2. Talisman", es: "🧙 Guía de Kendle: 2º Talismán", fr: "🧙 Guide de Kendle: 2ème Talisman", ja: "🧙 ケンドル ガイド: 2番目のタリスマン" },
  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
@@ -516,7 +538,20 @@ noStrip: true
  links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
   noStrip: true
 },
- 
+  {
+        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
+      },
+      {
+        titles: { en: "🟣Elemental Sphere Discount", pt: "🟣Desconto de Esferas Elementais", de: "🟣Rabatt auf Elementsphären", es: "🟣Descuento de Esferas Elementales", fr: "🟣Réduction sur les Sphères Élémentaires", ja: "🟣エレメンタルスフィア割引" },
+        links: { en: "#section15", pt: "#section15", de: "#section15", es: "#section15", fr: "#section15", ja: "#section15" }
+
+      },
+      {
+        titles: { en: "🎁Heroic Chest Discount", pt: "🎁Desconto de Baús Heroicos", de: "🎁Rabatt auf Heroische Truhen", es: "🎁Descuento de Cajas Heroicas", fr: "🎁Réduction sur les Coffres Héroïques", ja: "🎁ヒーローの宝箱割引" },
+        links: { en: "#section16", pt: "#section16", de: "#section16", es: "#section16", fr: "#section16", ja: "#section16" }
+
+      },
 
       {
   titles: { en: "👗 Xe'Sha New Skin+: Inner Demons", pt: "👗 Xe'Sha Nova Skin+: Demônios Interiores", de: "👗 Xe'Sha Neue Skin+: Innere Dämonen", es: "👗 Xe'Sha Nueva Skin+: Demonios Interiores", fr: "👗 Xe'Sha Nouvelle Skin+ : Démons Intérieurs", ja: "👗 ゼーシャ 新スキン+：インナーデーモン" },
@@ -562,7 +597,20 @@ noStrip: true
  links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
   noStrip: true
 },
- 
+  {
+        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
+      },
+      {
+        titles: { en: "🟣Elemental Sphere Discount", pt: "🟣Desconto de Esferas Elementais", de: "🟣Rabatt auf Elementsphären", es: "🟣Descuento de Esferas Elementales", fr: "🟣Réduction sur les Sphères Élémentaires", ja: "🟣エレメンタルスフィア割引" },
+        links: { en: "#section15", pt: "#section15", de: "#section15", es: "#section15", fr: "#section15", ja: "#section15" }
+
+      },
+      {
+        titles: { en: "🎁Heroic Chest Discount", pt: "🎁Desconto de Baús Heroicos", de: "🎁Rabatt auf Heroische Truhen", es: "🎁Descuento de Cajas Heroicas", fr: "🎁Réduction sur les Coffres Héroïques", ja: "🎁ヒーローの宝箱割引" },
+        links: { en: "#section16", pt: "#section16", de: "#section16", es: "#section16", fr: "#section16", ja: "#section16" }
+
+      },
        {
   titles: { en: "👗 Xe'Sha New Skin+: Inner Demons", pt: "👗 Xe'Sha Nova Skin+: Demônios Interiores", de: "👗 Xe'Sha Neue Skin+: Innere Dämonen", es: "👗 Xe'Sha Nueva Skin+: Demonios Interiores", fr: "👗 Xe'Sha Nouvelle Skin+ : Démons Intérieurs", ja: "👗 ゼーシャ 新スキン+：インナーデーモン" },
    labelOnly: true
@@ -607,7 +655,20 @@ noStrip: true
  links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
   noStrip: true
 },
- 
+  {
+        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
+      },
+      {
+        titles: { en: "🟣Elemental Sphere Discount", pt: "🟣Desconto de Esferas Elementais", de: "🟣Rabatt auf Elementsphären", es: "🟣Descuento de Esferas Elementales", fr: "🟣Réduction sur les Sphères Élémentaires", ja: "🟣エレメンタルスフィア割引" },
+        links: { en: "#section15", pt: "#section15", de: "#section15", es: "#section15", fr: "#section15", ja: "#section15" }
+
+      },
+      {
+        titles: { en: "🎁Heroic Chest Discount", pt: "🎁Desconto de Baús Heroicos", de: "🎁Rabatt auf Heroische Truhen", es: "🎁Descuento de Cajas Heroicas", fr: "🎁Réduction sur les Coffres Héroïques", ja: "🎁ヒーローの宝箱割引" },
+        links: { en: "#section16", pt: "#section16", de: "#section16", es: "#section16", fr: "#section16", ja: "#section16" }
+
+      },
        {
   titles: { en: "👗 Xe'Sha New Skin+: Inner Demons", pt: "👗 Xe'Sha Nova Skin+: Demônios Interiores", de: "👗 Xe'Sha Neue Skin+: Innere Dämonen", es: "👗 Xe'Sha Nueva Skin+: Demonios Interiores", fr: "👗 Xe'Sha Nouvelle Skin+ : Démons Intérieurs", ja: "👗 ゼーシャ 新スキン+：インナーデーモン" },
    labelOnly: true
