@@ -27,8 +27,18 @@
           "magic_defense": 24427,
           "magical_crit_hit_chance": 5418
         },
-        "talisman_2": null,
-        "talisman_2_note": "2nd talisman max stats not available yet"
+        "talisman_of_pain": {
+          "intelligence": 12384,
+          "agility": 2296,
+          "strength": 2968,
+          "health": 721988,
+          "physical_attack": 23030,
+          "magic_attack": 170663,
+          "armor": 19543.7,
+          "magic_defense": 22427,
+          "magical_crit_hit_chance": 12018,
+          "crushing": 8000
+        }
       },
       "talisman_details": {
         "talisman_of_torture": {
@@ -46,7 +56,17 @@
           ],
           "total_reroll_bonus": { "stat": "Armor", "value": 19800 }
         },
-        "talisman_2_available": false,
+        "talisman_of_pain": {
+          "main_stat": "Crushing",
+          "main_stat_bonus": 8000,
+          "reroll_slots": [
+            { "stat": "Magical Crit Hit Chance", "value": 2200 },
+            { "stat": "Magical Crit Hit Chance", "value": 2200 },
+            { "stat": "Magical Crit Hit Chance", "value": 2200 }
+          ],
+          "total_reroll_bonus": { "stat": "Magical Crit Hit Chance", "value": 6600 }
+        },
+        "talisman_2_available": true,
         "recommended": "talisman_of_torture"
       },
       "skills": [
@@ -261,5 +281,30 @@
 
       
     }
-  ]
+  ],
+  "stats": {
+    "crushing": {
+      "name": {
+        "en": "Crushing",
+        "pt": "Esmagamento"
+      },
+      "type": "offensive_stat",
+      "trigger": "Target has less than 50% health.",
+      "effect": "Increases all outgoing damage dealt by the hero to low-health enemies.",
+      "applies_to_damage_types": [
+        "physical",
+        "magical",
+        "pure"
+      ],
+      "does_not_apply_to": [
+        "health loss from allied skills"
+      ],
+      "formula": "(Crushing / (Crushing + target_main_stat)) * 100%",
+      "formula_variables": {
+        "Crushing": "The attacker's Crushing stat.",
+        "target_main_stat": "The target's main stat: Strength, Agility, or Intelligence."
+      },
+      "summary": "Crushing increases all outgoing physical, magical, and pure damage dealt to opponents below 50% health."
+    }
+  }
 }
