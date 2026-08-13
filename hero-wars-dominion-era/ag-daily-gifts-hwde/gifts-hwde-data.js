@@ -11,6 +11,16 @@ https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
  note:'until|2026-08-##T02:00:00Z', rewards:['energy x500'] },
 
 */window.HWDE_GIFTS = [
+// ── 2 Link Exclusivo Web/FB postado atrasado ──────────────────────────────
+{ date:'2026-08-13', type:'link', 
+giftLinkWeb:'https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rVDFSQ3RORUtsN0hfeGpCdk1Zd3VVYXxBR3JiS2FuNnIyZmp6Z1FNM05BMmhiVy1Cc3Ridlp6MGZXUTBIRjByNURpZzBUWDNvTlJZNV82NDZhVlB5ZmpHSTRLUF8zX2RNNWxjbDVpR0N5OElfeHUyWkxEVWlyRjhLd0Fa&q=https%3A%2F%2Fwww.hero-wars.com%2F%3Fnx_source%3Dgroup_posting%26gift_id%3DZ2G24qrfKM&v=-9qa2DCxgT8',
+
+ giftLinkFb:'https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rUXhxdHF2WDBoNDFsTFp0dHlqdVRiSHxBR3JiS2FrTlBOdXJwb0Jod0dEZk9fb25hWVlJeFpJS2RQUV85OUQxdkZOeWwwYlJqbzhOOHV6a3ZzOXNaWmpkZ2l4VzBxOF9Ga1E3ZDVScnRvUU8wUU9QVGZZQnp0ZmhQOGxK&q=https%3A%2F%2Ffb.gg%2Fplay%2Fmobaheroes%2Fd%2F4639934132962621%2F&v=-9qa2DCxgT8',
+
+  note:'until|2026-08-17T02:00:00Z', rewards:['large-skin-stone-chest x5', 'portal-charge x3']
+ },
+
+   
 
     { date:'2026-08-12', type:'link', giftId:'c323a329e22419ecffb5067e42968660', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
