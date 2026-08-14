@@ -2,7 +2,15 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     
-    
+    {
+      link: "/hero-wars-alliance/guide/top-heroes-hwa-de.html",
+      src500: "/hero-wars-alliance/images/guides/top-heroes-hwa/top-heroes-hwa-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/top-heroes-hwa/top-heroes-hwa-400px.webp",
+      alt: "Top 17 Meta Heroes - Hero Wars Alliance",
+      title: "Top 17 Meta Heroes - Hero Wars Alliance",
+      strong: "Guide: Top 17 Meta Heroes - Hero Wars Alliance",
+      updated: "Updated: August, 2026."
+    },      
     {
       link: "/hero-wars-alliance/characters-guide/cleaver-en.html",
       src500: "/hero-wars-alliance/images/hero/cleaver/cleaver-500px.webp",

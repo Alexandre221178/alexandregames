@@ -22,7 +22,10 @@
    "update-realm-brown-squares-map-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide realm",
     "update-realm-pve-best-teams-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide realm-pve-best-teams",
     "update-talisman-guide-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide talisman-guide",
-   "update-how-to-play-hero-wars-on-pc-and-mac-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide how-to-play-hero-wars-on-pc-and-mac",
+    "update-top-heroes-hwa-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide top-heroes-hwa",
+
+   
+    "update-how-to-play-hero-wars-on-pc-and-mac-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide how-to-play-hero-wars-on-pc-and-mac",
    
    "update-abyss-splendor-hwa": "node hero-wars-alliance/update-data-menu-hwa.js event-hwa abyss-splendor",
    "update-alliance-of-forces-hwa": "node hero-wars-alliance/update-data-menu-hwa.js event-hwa alliance-of-forces",
