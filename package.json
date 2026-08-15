@@ -84,6 +84,7 @@
     "update-somna-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide somna",
     "update-tempus-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide tempus",
     "update-tristan-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide tristan",
+     "update-xesha-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide xesha",
     "update-yasmine-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide yasmine",
     
     

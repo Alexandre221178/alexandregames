@@ -1,6 +1,15 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
+    {
+      link: "/hero-wars-alliance/characters-guide/xesha-en.html",
+      src500: "/hero-wars-alliance/images/hero/xesha/xesha-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/xesha/xesha-400px.webp",
+      alt: "Xesha Guide for Hero Wars Alliance",
+      title: "Xesha Guide for Hero Wars Alliance",
+      strong: "Guide Skin+: Xesha for Hero Wars Alliance",
+      updated: "Updated: August, 2026."
+    },     
     
     {
       link: "/hero-wars-alliance/guide/top-heroes-hwa-de.html",
