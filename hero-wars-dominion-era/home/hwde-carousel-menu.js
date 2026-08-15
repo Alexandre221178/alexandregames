@@ -2,6 +2,15 @@
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
     {
+      link: "/hero-wars-dominion-era/events-special-hwde/alecto-event-missions-en.html",
+      src500: "/hero-wars-dominion-era/images/events-special/alecto-event/alecto-event-missions-500px.webp",
+      src400: "/hero-wars-dominion-era/images/events-special/alecto-event/alecto-event-missions-400px.webp",
+      alt: "Alecto - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era",
+      title: "Alecto - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era.",
+      strong: "Guide: Alecto Event (Missions) - Hero Wars: Dominion Era",
+      updated: "Updated: August, 2026."
+    },
+    {
       link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
       src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
       src400: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-400px.webp",

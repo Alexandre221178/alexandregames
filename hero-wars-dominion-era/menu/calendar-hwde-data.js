@@ -62,48 +62,6 @@ window.CALENDAR_DATA = [
 
   ]
   },
- {
-    weekday: "WhatsApp & Discord",
-    date: "",
-    image: "",
-    alt: "Alexandre Games WhatsApp Group",
-  titles: {
-   en: "🎁 Join our English WhatsApp group for Hero Wars Dominion Era tips and giveaways!",
-  pt: "🎁 Entre no nosso grupo WhatsApp em Português para dicas de Hero Wars Dominion Era e sorteios!",
-  es: "🎁 ¡Únete a nuestro grupo de WhatsApp en inglés para consejos de Hero Wars Dominion Era y sorteos!",
-  de: "🎁 Trete unserer englischen WhatsApp-Gruppe für Hero Wars Dominion Era-Tipps und Gewinnspiele bei!",
-  fr: "🎁 Rejoignez notre groupe WhatsApp en anglais pour des conseils et des giveaways sur Hero Wars Dominion Era !",
-  ja: "🎁 英語のWhatsAppグループに参加して、ヒーローウォーズドミニオン時代のヒントやギブアウェイをゲット！"
-},
-  links: { en: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY", de: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY", es: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY", fr: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY", pt: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY", ja: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY" },
-  noStrip: true,
-  extra: [
-    {// Dentro de extra[] de um evento:
- titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
-  labelOnly: true
-}, 
-
-{
-  titles: {
-    en: "💬Join Alexandre Games Discord",
-    pt: "💬Entre no Discord Alexandre Games",
-    de: "💬Tritt dem Alexandre Games Discord bei",
-    es: "💬Únete al Discord de Alexandre Games",
-    fr: "💬Rejoignez le Discord Alexandre Games",
-    ja: "💬Alexandre Games Discordに参加しよう"
-  },
-  links: {
-    en: "https://discord.gg/37BRnhBv6r",
-    pt: "https://discord.gg/37BRnhBv6r",
-    de: "https://discord.gg/37BRnhBv6r",
-    es: "https://discord.gg/37BRnhBv6r",
-    fr: "https://discord.gg/37BRnhBv6r",
-    ja: "https://discord.gg/37BRnhBv6r"
-  },
-  noStrip: true
-},
-  ]
-  },
  
 
 // July 29 - Wednesday
@@ -1037,6 +995,11 @@ titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeard
   },
   labelOnly: true,
 },
+{
+  titles: { en: "Alecto's Preorder", pt: "Pré-venda do Alecto", de: "Alecto Vorbestellung", es: "Preventa de Alecto", fr: "Précommande Alecto", ja: "アレクトの先行予約" },
+  labelOnly: true
+},
+
 
     ]
   },
@@ -1088,7 +1051,10 @@ titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeard
   },
   labelOnly: true,
 },
-     
+{
+  titles: { en: "Alecto's Preorder", pt: "Pré-venda do Alecto", de: "Alecto Vorbestellung", es: "Preventa de Alecto", fr: "Précommande Alecto", ja: "アレクトの先行予約" },
+  labelOnly: true
+}, 
       
       
     ]
@@ -1129,6 +1095,10 @@ titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeard
         titles: { en: "🐾Pet Summoning - Sale 20%", pt: "🐾Invocação de Pets - Desconto 20%", de: "🐾Tierbeschwörung - 20% Rabatt", es: "🐾Invocación de Mascotas - 20% de Descuento", fr: "🐾Invocation de Compagnons - 20% de Réduction", ja: "🐾ペット召喚 - 20%オフ" },
         labelOnly: true,
       },
+{
+  titles: { en: "Alecto's Preorder", pt: "Pré-venda do Alecto", de: "Alecto Vorbestellung", es: "Preventa de Alecto", fr: "Précommande Alecto", ja: "アレクトの先行予約" },
+  labelOnly: true
+},
     
       
     ]
@@ -1160,7 +1130,11 @@ titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeard
        {
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
-      },
+     },
+{
+  titles: { en: "Alecto's Preorder", pt: "Pré-venda do Alecto", de: "Alecto Vorbestellung", es: "Preventa de Alecto", fr: "Précommande Alecto", ja: "アレクトの先行予約" },
+  labelOnly: true
+},
        
 
      
@@ -1183,6 +1157,12 @@ titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeard
     links: { en: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-en.html", pt: "../../hero-wars-dominion-era/events/the-tournament-of-titan-power-pt.html", de: "", es: "", fr: "", ja: "" },
          noStrip: true
       },
+
+      {
+  titles: { en: "Alecto Event Missions Guide", de: "Alecto Event-Missionsguide", es: "Guía de Misiones del Evento de Alecto", fr: "Guide des Missions de l’Événement d’Alecto", pt: "Guia das Missões do Evento de Alecto", ja: "アレクト イベントミッションガイド" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/alecto-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
      
      
       {
@@ -1213,6 +1193,12 @@ titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeard
   links: { en: "../../hero-wars-dominion-era/events/titan-cosmic-battle-best-teams-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true,
 },  
+{
+  titles: { en: "Alecto Event Missions Guide", de: "Alecto Event-Missionsguide", es: "Guía de Misiones del Evento de Alecto", fr: "Guide des Missions de l’Événement d’Alecto", pt: "Guia das Missões do Evento de Alecto", ja: "アレクト イベントミッションガイド" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/alecto-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+   
  {
         titles: { en: "🐖Piggy Bank", pt: "🐖Porquinho", de: "🐖Sparschwein", es: "🐖Alcancía", fr: "🐖Tirelire", ja: "🐖ピギーバンク" },
         links: { en: "#section4", pt: "#section4", de: "#section4", es: "#section4", fr: "#section4", ja: "#section4" }
@@ -1242,6 +1228,12 @@ titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeard
   links: { en: "../../hero-wars-dominion-era/events/titan-cosmic-battle-best-teams-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true,
 },  
+{
+  titles: { en: "Alecto Event Missions Guide", de: "Alecto Event-Missionsguide", es: "Guía de Misiones del Evento de Alecto", fr: "Guide des Missions de l’Événement d’Alecto", pt: "Guia das Missões do Evento de Alecto", ja: "アレクト イベントミッションガイド" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/alecto-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+   
 
  {
         titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
@@ -1280,6 +1272,12 @@ titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeard
   links: { en: "../../hero-wars-dominion-era/events/titan-cosmic-battle-best-teams-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true,
       },
+      {
+  titles: { en: "Alecto Event Missions Guide", de: "Alecto Event-Missionsguide", es: "Guía de Misiones del Evento de Alecto", fr: "Guide des Missions de l’Événement d’Alecto", pt: "Guia das Missões do Evento de Alecto", ja: "アレクト イベントミッションガイド" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/alecto-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+   
       {
         titles: { en: "💎Emerald City", pt: "💎Cidade Esmeralda", de: "💎Smaragdstadt", es: "💎Ciudad Esmeralda", fr: "💎Ville d'Émeraude", ja: "💎エメラルドシティ" },
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -1334,6 +1332,12 @@ titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeard
   links: { en: "../../hero-wars-dominion-era/events/titan-cosmic-battle-best-teams-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true,
 },  
+{
+  titles: { en: "Alecto Event Missions Guide", de: "Alecto Event-Missionsguide", es: "Guía de Misiones del Evento de Alecto", fr: "Guide des Missions de l’Événement d’Alecto", pt: "Guia das Missões do Evento de Alecto", ja: "アレクト イベントミッションガイド" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/alecto-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+   
  
       {
         titles: { en: "💎Emerald City", pt: "💎Cidade Esmeralda", de: "💎Smaragdstadt", es: "💎Ciudad Esmeralda", fr: "💎Ville d'Émeraude", ja: "💎エメラルドシティ" },
