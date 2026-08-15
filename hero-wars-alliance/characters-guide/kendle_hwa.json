@@ -25,7 +25,8 @@
           "magic_attack": 176663,
           "armor": 19543.7,
           "magic_defense": 24427,
-          "magical_crit_hit_chance": 5418
+          "magical_crit_hit_chance": 5418,
+          "crushing": 11840
         },
         "talisman_of_pain": {
           "intelligence": 12384,
@@ -37,7 +38,7 @@
           "armor": 19543.7,
           "magic_defense": 22427,
           "magical_crit_hit_chance": 12018,
-          "crushing": 8000
+          "crushing": 19840
         }
       },
       "talisman_details": {
@@ -188,6 +189,14 @@
           "name": "Angel Skin",
           "stat": "Health",
           "bonus": 106645
+        },
+        {
+          "name": "Inner Demons Skin+",
+          "stat": "Crushing",
+          "bonus": 11840,
+          "level": 60,
+          "is_skin_plus": true,
+          "total_skin_stones": 50410
         }
       ],
       "artifacts": [

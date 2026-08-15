@@ -7,10 +7,27 @@
       src400: "/hero-wars-alliance/images/hero/xesha/xesha-400px.webp",
       alt: "Xesha Guide for Hero Wars Alliance",
       title: "Xesha Guide for Hero Wars Alliance",
-      strong: "Guide Skin+: Xesha for Hero Wars Alliance",
+      strong: "Guide New Skin+: Xesha for Hero Wars Alliance",
       updated: "Updated: August, 2026."
     },     
-    
+    {
+      link: "/hero-wars-alliance/characters-guide/kendle-en.html",
+      src500: "/hero-wars-alliance/images/hero/kendle/kendle-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/kendle/kendle-400px.webp",
+      alt: "Kendle Guide for Hero Wars Alliance",
+      title: "Kendle Guide for Hero Wars Alliance",
+      strong: "Guide New Skin+: Kendle for Hero Wars Alliance",
+      updated: "Updated: August, 2026."
+    },     
+    {
+      link: "/hero-wars-alliance/characters-guide/cleaver-en.html",
+      src500: "/hero-wars-alliance/images/hero/cleaver/cleaver-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/cleaver/cleaver-400px.webp",
+      alt: "Cleaver Guide for Hero Wars Alliance",
+      title: "Cleaver Guide for Hero Wars Alliance",
+      strong: "Guide New Skin: Cleaver for Hero Wars Alliance",
+      updated: "Updated: August, 2026."
+    },     
     {
       link: "/hero-wars-alliance/guide/top-heroes-hwa-de.html",
       src500: "/hero-wars-alliance/images/guides/top-heroes-hwa/top-heroes-hwa-500px.webp",
@@ -20,15 +37,7 @@
       strong: "Guide: Top 17 Meta Heroes - Hero Wars Alliance",
       updated: "Updated: August, 2026."
     },      
-    {
-      link: "/hero-wars-alliance/characters-guide/cleaver-en.html",
-      src500: "/hero-wars-alliance/images/hero/cleaver/cleaver-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/cleaver/cleaver-400px.webp",
-      alt: "Cleaver Guide for Hero Wars Alliance",
-      title: "Cleaver Guide for Hero Wars Alliance",
-      strong: "Guide: Cleaver for Hero Wars Alliance",
-      updated: "Updated: August, 2026."
-    },     
+    
     {
       link: "/hero-wars-alliance/guide/realm-pve-best-teams-en.html",
       src500: "/hero-wars-alliance/images/guides/realm-pve-best-teams/realm-pve-best-teams-500px.webp",
@@ -99,15 +108,6 @@
       updated: "Updated: July, 2026."
     },     
     
-    {
-      link: "/hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html",
-      src500: "/hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-500px.webp",
-      src400: "/hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-400px.webp",
-      alt: "Ascendant Glory Event Group for Hero Wars Alliance",
-      title: "Ascendant Glory Event Group for Hero Wars Alliance",
-      strong: "Guide: Ascendant Glory Event Group for Hero Wars Alliance",
-      updated: "Updated: July, 2026."
-    },
      {
       link: "/hero-wars-alliance/guide/talisman-guide-hwa-en.html",
       src500: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-500px.webp",
@@ -118,46 +118,6 @@
       updated: "Updated: June, 2026."
     },       
         
-    {
-      link: "/hero-wars-alliance/characters-guide/cascade-en.html",
-      src500: "/hero-wars-alliance/images/hero/cascade/cascade-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/cascade/cascade-400px.webp",
-      alt: "Cascade Legendary Skills Guide for Hero Wars Alliance",
-      title: "Cascade Guide for Hero Wars Alliance",
-      strong: "Guide Updated: Cascade Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: July, 2026."
-    },      
-    {
-      link: "/hero-wars-alliance/characters-guide/miu-en.html",
-      src500: "/hero-wars-alliance/images/hero/miu/miu-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/miu/miu-400px.webp",
-      alt: "Miu Legendary Skills Guide for Hero Wars Alliance",
-      title: "Miu Guide for Hero Wars Alliance",
-      strong: "Dawn Skin+ Updated: Miu - Guide for Hero Wars Alliance",
-      updated: "Updated: June, 2026."
-    },  
-    {
-      link: "/hero-wars-alliance/characters-guide/somna-en.html",
-      src500: "/hero-wars-alliance/images/hero/somna/somna-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/somna/somna-400px.webp",
-      alt: "Somna Legendary Skills Guide for Hero Wars Alliance",
-      title: "Dawn Skin Updated: Somna Guide for Hero Wars Alliance",
-      strong: "Dawn Skin Updated: Somna  - Guide for Hero Wars Alliance",
-      updated: "Updated: June, 2026."
-    },  
-   
-    {
-      link: "/hero-wars-alliance/characters-guide/satori-en.html",
-      src500: "/hero-wars-alliance/images/hero/satori/satori-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/satori/satori-400px.webp",
-      alt: "Satori Legendary Skills Guide for Hero Wars Alliance",
-      title: "Satori Guide for Hero Wars Alliance",
-      strong: "Guide Updated: Satori Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: June, 2026."
-    },  
-    
-     
-    
     
     {
       link: "../../hero-wars-alliance/titans-guide/orm-en.html",
@@ -168,37 +128,7 @@
       strong: "Guide: Titan Orm for Hero Wars Alliance",
       updated: "Updated: June, 2026."
     }, 
-    
-       
-    
-    {
-      link: "/hero-wars-alliance/characters-guide/kendle-en.html",
-      src500: "/hero-wars-alliance/images/hero/kendle/kendle-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/kendle/kendle-400px.webp",
-      alt: "Kendle Legendary Skills Guide for Hero Wars Alliance",
-      title: "Kendle Guide for Hero Wars Alliance",
-      strong: "Guide Updated Skin+: Kendle Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },      
-     
-    {
-      link: "/hero-wars-alliance/characters-guide/kayla-en.html",
-      src500: "/hero-wars-alliance/images/hero/kayla/kayla-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/kayla/kayla-400px.webp",
-      alt: "Kayla Legendary Skills Guide for Hero Wars Alliance",
-      title: "Kayla Guide for Hero Wars Alliance",
-      strong: "Guide Updated Blazing Skin: Kayla Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },
-    {
-      link: "/hero-wars-alliance/characters-guide/dorian-en.html",
-      src500: "/hero-wars-alliance/images/hero/dorian/dorian-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/dorian/dorian-400px.webp",
-      alt: "Dorian Legendary Skills Guide for Hero Wars Alliance",
-      title: "Dorian Guide for Hero Wars Alliance",
-      strong: "Guide Updated Skin+: Dorian Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },
+         
     
     {
       link: "/hero-wars-alliance/review/damage-over-time-en.html",
@@ -219,16 +149,6 @@
       updated: "Updated: May, 2026."
     },   
     
-    {
-      link: "/hero-wars-alliance/characters-guide/tempus-en.html",
-      src500: "/hero-wars-alliance/images/hero/tempus/tempus-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/tempus/tempus-400px.webp",
-      alt: "Tempus Legendary Skills Guide for Hero Wars Alliance",
-      title: "Tempus Guide for Hero Wars Alliance",
-      strong: "Guide: Tempus Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },
- 
           
     
     {
