@@ -26,7 +26,7 @@
           "intelligence": 3739,
           "agility": 3923,
           "strength": 20382,
-          "health": 1615098,
+          "health": 1721743,
           "physical_attack": 100606,
           "magic_attack": 26323,
           "physical_armor": 54924.4,
@@ -38,7 +38,7 @@
           "intelligence": 3739,
           "agility": 3923,
           "strength": 18382,
-          "health": 1353598,
+          "health": 1460243,
           "physical_attack": 98606,
           "magic_attack": 26323,
           "physical_armor": 54924.4,
@@ -259,6 +259,12 @@
           "stat": "Toughness",
           "bonus": 2960,
           "level": 60
+        },
+        {
+          "name": "Inner Demons",
+          "stat": "Health",
+          "bonus": 106645,
+          "level": 60
         }
       ],
       "artifacts": [
@@ -298,7 +304,7 @@
         "runesphere": 0,
         "cleaver4": 45,
         "overall_class_level": "495 / 495",
-        "tank_class_glyphs_bonuses": "Every 10 seconds, the effect is applied to the ally with the lowest health percentage, increasing armor and magic defense by 35377.74 (1% Health + 24750) for 5.0 seconds. This ability can be used on the tank itself and depends on their maximum Health stat.",
+        "tank_class_glyphs_bonuses": "Every 10 seconds, the effect is applied to the ally with the lowest health percentage, increasing armor and magic defense by 36444.19 (1% Health + 24750) for 5.0 seconds. This ability can be used on the tank itself and depends on their maximum Health stat.",
         "glyphs_level": 80,
         "list": [
           { "name": "Physical attack", "level": 80, "bonus": 8340 },
@@ -373,6 +379,7 @@
         "Cleaver has always been difficult to obtain because he comes from the Heroic Chest at absolute star level.",
         "After opening 400 Heroic Chests, the first major reward is Cleaver. Other rewards are Super Skins+.",
         "Cleaver currently has no Realm skills.",
+        "Both maximum-stat sets include the 106645 Health granted by Inner Demons Skin.",
         "Talisman of Decomposition is the recommended talisman from the provided team examples because it gives Strength and Health, improving Cleaver's durability and physical attack scaling.",
         "Talisman of Butcher gives Crushing and more Toughness, making it useful when Cleaver needs better low-health damage pressure and defensive mitigation."
       ]
