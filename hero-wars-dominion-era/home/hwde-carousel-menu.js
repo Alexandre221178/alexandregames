@@ -11,6 +11,15 @@
       updated: "Updated: August, 2026."
     },
     {
+      link: "/hero-wars-dominion-era/events-special-hwde/valdur-event-missions-en.html",
+      src500: "/hero-wars-dominion-era/images/events-special/valdur-event/valdur-event-missions-500px.webp",
+      src400: "/hero-wars-dominion-era/images/events-special/valdur-event/valdur-event-missions-400px.webp",
+      alt: "Valdur - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era",
+      title: "Valdur - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era.",
+      strong: "Guide: Valdur Event (Missions) - Hero Wars: Dominion Era",
+      updated: "Updated: August, 2026."
+    },
+    {
       link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
       src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
       src400: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-400px.webp",

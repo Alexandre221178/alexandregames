@@ -1412,6 +1412,12 @@ titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeard
     links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
   noStrip: true
 },  
+{
+  titles: { en: "Valdur Event Missions Guide", de: "Valdur Event-Missionsguide", es: "Guía de Misiones del Evento de Valdur", fr: "Guide des Missions de l’Événement de Valdur", pt: "Guia das Missões do Evento de Valdur", ja: "ヴァルダー イベントミッションガイド" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/valdur-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+
       {
         titles: { en: "💎Emerald City", pt: "💎Cidade Esmeralda", de: "💎Smaragdstadt", es: "💎Ciudad Esmeralda", fr: "💎Ville d'Émeraude", ja: "💎エメラルドシティ" },
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -1437,6 +1443,11 @@ titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeard
     links: { en: "../../hero-wars-dominion-era/events/territory-of-titans-en.html", pt: "../../hero-wars-dominion-era/events/territory-of-titans-pt.html", de: "../../hero-wars-dominion-era/events/territory-of-titans-de.html", es: "../../hero-wars-dominion-era/events/territory-of-titans-es.html", fr: "../../hero-wars-dominion-era/events/territory-of-titans-fr.html", ja: "../../hero-wars-dominion-era/events/territory-of-titans-ja.html" },
     noStrip: true
     },
+    {
+  titles: { en: "Valdur Event Missions Guide", de: "Valdur Event-Missionsguide", es: "Guía de Misiones del Evento de Valdur", fr: "Guide des Missions de l’Événement de Valdur", pt: "Guia das Missões do Evento de Valdur", ja: "ヴァルダー イベントミッションガイド" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/valdur-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
         
        {
         titles: { en: "💎Emerald City", pt: "💎Cidade Esmeralda", de: "💎Smaragdstadt", es: "💎Ciudad Esmeralda", fr: "💎Ville d'Émeraude", ja: "💎エメラルドシティ" },
@@ -1467,6 +1478,11 @@ titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeard
       links: { en: "../../hero-wars-dominion-era/events/territory-of-titans-en.html", pt: "../../hero-wars-dominion-era/events/territory-of-titans-pt.html", de: "../../hero-wars-dominion-era/events/territory-of-titans-de.html", es: "../../hero-wars-dominion-era/events/territory-of-titans-es.html", fr: "../../hero-wars-dominion-era/events/territory-of-titans-fr.html", ja: "../../hero-wars-dominion-era/events/territory-of-titans-ja.html" },
       noStrip: true
       },
+      {
+  titles: { en: "Valdur Event Missions Guide", de: "Valdur Event-Missionsguide", es: "Guía de Misiones del Evento de Valdur", fr: "Guide des Missions de l’Événement de Valdur", pt: "Guia das Missões do Evento de Valdur", ja: "ヴァルダー イベントミッションガイド" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/valdur-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
         
        {
         titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
@@ -1496,6 +1512,11 @@ titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeard
     links: { en: "../../hero-wars-dominion-era/events/territory-of-titans-en.html", pt: "../../hero-wars-dominion-era/events/territory-of-titans-pt.html", de: "../../hero-wars-dominion-era/events/territory-of-titans-de.html", es: "../../hero-wars-dominion-era/events/territory-of-titans-es.html", fr: "../../hero-wars-dominion-era/events/territory-of-titans-fr.html", ja: "../../hero-wars-dominion-era/events/territory-of-titans-ja.html" },
     noStrip: true
     },
+    {
+  titles: { en: "Valdur Event Missions Guide", de: "Valdur Event-Missionsguide", es: "Guía de Misiones del Evento de Valdur", fr: "Guide des Missions de l’Événement de Valdur", pt: "Guia das Missões do Evento de Valdur", ja: "ヴァルダー イベントミッションガイド" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/valdur-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
    
       
       {
@@ -1516,7 +1537,11 @@ titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeard
     links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
     noStrip: true,
     extra: [
-     
+     {
+  titles: { en: "Valdur Event Missions Guide", de: "Valdur Event-Missionsguide", es: "Guía de Misiones del Evento de Valdur", fr: "Guide des Missions de l’Événement de Valdur", pt: "Guia das Missões do Evento de Valdur", ja: "ヴァルダー イベントミッションガイド" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/valdur-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
       
      
     ]
