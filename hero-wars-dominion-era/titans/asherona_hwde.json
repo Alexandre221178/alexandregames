@@ -1,0 +1,156 @@
+{
+  "name": "Asherona and Pyro",
+  "short_name": "Asherona",
+  "game": "Hero Wars: Dominion Era",
+  "position": 12,
+  "element": "Fire",
+  "roles": [
+    "summoner"
+  ],
+  "obtention": "Circle of Summoning",
+  "basic_attack": {
+    "value": 1133816,
+    "type": "100% physical attack",
+    "interval_seconds": 3.8
+  },
+  "stats": {
+    "health": 9779057,
+    "power": 206325,
+    "attack": 1133816,
+    "elemental_attack": 479475,
+    "elemental_armor": 146547
+  },
+  "appearance": {
+    "portrait": "Asherona and Pyro",
+    "in_game": "Default Skin"
+  },
+  "skills": [
+    {
+      "name": "Pyromania",
+      "type": "ultimate",
+      "color": "white",
+      "description": "Summons Pyro. On arrival, he deals 566,908 damage to all nearby enemies and applies Smoldering Brand to each of them. While active, Pyro applies Smoldering Brand to nearby enemies every 10 seconds. When an enemy marked with Smoldering Brand takes damage from another Titan, the Brand explodes, dealing 453,526 damage to that enemy and surrounding foes. Pyro's Health is 15% of Asherona's maximum Health. Pyro cannot be targeted directly; however, whenever Asherona loses Health, Pyro loses the same amount.",
+      "summon": "Pyro",
+      "initial_damage": 566908,
+      "initial_damage_formula": "50% physical attack",
+      "initial_damage_target": "all nearby enemies",
+      "mark": "Smoldering Brand",
+      "mark_application_interval_seconds": 10,
+      "mark_trigger": "The marked enemy takes damage from another Titan.",
+      "brand_explosion_damage": 453526,
+      "brand_explosion_damage_formula": "40% physical attack",
+      "brand_explosion_target": "the marked enemy and surrounding foes",
+      "damage_type": "physical",
+      "pyro_health_percent_of_asherona": 15,
+      "pyro_targetable": false,
+      "shared_health_loss": "Whenever Asherona loses Health, Pyro loses the same amount."
+    },
+    {
+      "name": "Spiritual Bond: Fire",
+      "type": "passive",
+      "color": "green",
+      "description": "Asherona and Pyro merge their will, forming a blazing bond with the Fire element. For Totem activation purposes, they count as 2 Fire Titans. Because of this bond, in combat they generate 20% more Energy towards activating the Fire Totem.",
+      "element": "Fire",
+      "totem_activation_titan_count": 2,
+      "fire_totem_energy_bonus_percent": 20
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": {
+        "health": 1022985,
+        "power": 5217
+      },
+      "upgrade_cost": {
+        "titan_skin_stone": 354960
+      }
+    },
+    {
+      "name": "Champion Skin",
+      "stats": {
+        "elemental_armor": 49065,
+        "power": 15651
+      },
+      "upgrade_cost": {
+        "titan_skin_stone": 364585
+      },
+      "availability": {
+        "exclusive_from": "2026-08-17",
+        "publicly_available_from": "2026-12-17"
+      }
+    }
+  ],
+  "skin_bonus_note": "The choice is purely cosmetic. The bonuses from all unlocked skins stack regardless of the skin selected for Asherona and Pyro's appearance.",
+  "artifacts": [
+    {
+      "name": "Ragni's Eye",
+      "stats": {
+        "elemental_damage": 479475,
+        "power": 32604
+      },
+      "upgrade_cost": {
+        "essence_of_the_elements": 686080,
+        "emeralds": 68608,
+        "ragnis_eye_fragment": 18400
+      }
+    },
+    {
+      "name": "Fire Crown",
+      "stats": {
+        "elemental_armor": 97482,
+        "power": 31096
+      },
+      "upgrade_cost": {
+        "essence_of_the_elements": 686080,
+        "emeralds": 68608,
+        "fire_crown_fragment": 18400
+      }
+    },
+    {
+      "name": "Nature's Seal",
+      "stats": {
+        "health": 3995583,
+        "physical_attack": 299673,
+        "power": 40755
+      },
+      "upgrade_cost": {
+        "gold": 173005000,
+        "emeralds": 68608,
+        "natures_seal_fragment": 18400
+      }
+    },
+    {
+      "name": "Fire Spirit Totem",
+      "stats": {
+        "physical_attack": 299673,
+        "power_per_titan": 20377
+      },
+      "upgrade_cost": {
+        "bronze_guild_war_trophy": 1394,
+        "silver_guild_war_trophy": 6945,
+        "gold_guild_war_trophy": 25303,
+        "emeralds": 303938,
+        "fire_spirit_totem_fragment": 6
+      }
+    }
+  ],
+  "levels": {
+    "stats": {
+      "health": 4743129,
+      "physical_attack": 533602,
+      "power": 60474
+    },
+    "upgrade_cost": {
+      "titan_potion": 1009660,
+      "emeralds": 201932,
+      "asherona_and_pyro_soul_stone": 3130
+    }
+  },
+  "apparition": {
+    "introduced_during": "Embers of the Past",
+    "introduced_in": "December 2025",
+    "added_to_circle_of_summoning": true,
+    "circle_of_summoning_added_on": "2026-04-16"
+  }
+}

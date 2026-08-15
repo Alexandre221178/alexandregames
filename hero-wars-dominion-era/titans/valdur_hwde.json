@@ -1,0 +1,211 @@
+{
+  "name": "Valdur and Echo",
+  "short_name": "Valdur",
+  "game": "Hero Wars: Dominion Era",
+  "position": 25,
+  "element": "Distortion",
+  "roles": [
+    "summoner"
+  ],
+  "obtention": "Circle of Summoning",
+  "basic_attack": {
+    "value": 1261688,
+    "type": "100% physical attack",
+    "interval_seconds": 3.8
+  },
+  "stats": {
+    "health": 8662432,
+    "power": 234203,
+    "attack": 1261688,
+    "elemental_attack": 479475,
+    "elemental_armor": 224532
+  },
+  "appearance": {
+    "in_game": "Default Skin",
+    "portrait": "Valdur and Echo"
+  },
+  "skills": [
+    {
+      "name": "Echoclasm",
+      "type": "ultimate",
+      "color": "white",
+      "description": "Summons lesser images onto the battlefield, one for each living enemy Titan. Images have 692,995 Health and receive 30% less damage from area-of-effect attacks. After death, an image deals 1,135,519 damage to enemy Titans around it and pushes the closest enemy Titan in a random direction. If new images are being summoned while living images remain on the battlefield, the old images die and are replaced by the new ones.",
+      "summon": "lesser images",
+      "number_of_images": "one for each living enemy Titan",
+      "image_health": 692995,
+      "image_health_formula": "8% health",
+      "area_of_effect_damage_reduction_percent": 30,
+      "death_damage": 1135519,
+      "death_damage_formula": "90% physical attack",
+      "damage_type": "physical",
+      "death_effects": [
+        "deals damage to enemy Titans around the image",
+        "pushes the closest enemy Titan in a random direction"
+      ],
+      "replacement_rule": "When new images are summoned, all previously living images die and are replaced by the new images."
+    },
+    {
+      "name": "Spiritual Bond: Distortion",
+      "type": "passive",
+      "color": "green",
+      "description": "Valdur and Echo perpetually balance on the border of existence, using the thinness of the fabric of reality wherever they find it. For Totem activation, Valdur and Echo count as 2 Distortion Titans. Thanks to their mastery, Valdur and Echo generate 20% more Energy for Distortion Totem activation.",
+      "element": "Distortion",
+      "totem_activation_titan_count": 2,
+      "distortion_totem_energy_bonus_percent": 20
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": {
+        "health": 1022985,
+        "power": 5217
+      },
+      "upgrade_cost": {
+        "titan_skin_stone": 354960
+      }
+    },
+    {
+      "name": "Primordial Skin",
+      "stats": {
+        "elemental_armor": 49065,
+        "power": 15651
+      },
+      "upgrade_cost": {
+        "titan_skin_stone": 364585
+      },
+      "availability": {
+        "exclusive_from": "2026-09-24",
+        "publicly_available_from": "2027-01-24"
+      }
+    }
+  ],
+  "skin_bonus_note": "The choice is purely cosmetic. The bonuses from all unlocked skins stack regardless of the skin selected for Valdur and Echo's appearance.",
+  "artifacts": [
+    {
+      "name": "Zorval's Reins",
+      "stats": {
+        "elemental_damage": 479475,
+        "power": 32604
+      },
+      "upgrade_cost": {
+        "essence_of_the_elements": 686080,
+        "emeralds": 68608,
+        "zorvals_reins_fragment": 18400
+      }
+    },
+    {
+      "name": "Crown of Distortion",
+      "stats": {
+        "elemental_armor": 175467,
+        "power": 55973
+      },
+      "upgrade_cost": {
+        "essence_of_the_elements": 686080,
+        "emeralds": 68608,
+        "crown_of_distortion_fragment": 18400
+      }
+    },
+    {
+      "name": "Seal of Calling",
+      "stats": {
+        "health": 2397375,
+        "physical_attack": 419542,
+        "power": 40755
+      },
+      "upgrade_cost": {
+        "gold": 173005000,
+        "emeralds": 68608,
+        "seal_of_calling_fragment": 18400
+      }
+    },
+    {
+      "name": "Elemental Spirit of Distortion",
+      "stats": {
+        "physical_attack": 299673,
+        "power_per_titan": 20377
+      },
+      "upgrade_cost": {
+        "bronze_guild_war_trophy": 1394,
+        "silver_guild_war_trophy": 6945,
+        "gold_guild_war_trophy": 25303,
+        "emeralds": 303938,
+        "elemental_spirit_of_distortion_fragment": 6
+      }
+    }
+  ],
+  "levels": {
+    "stats": {
+      "health": 5229300,
+      "physical_attack": 541013,
+      "power": 63458
+    },
+    "upgrade_cost": {
+      "titan_potion": 1009660,
+      "emeralds": 201932,
+      "valdur_and_echo_soul_stone": 3130
+    }
+  },
+  "apparition": {
+    "introduced_during": "Judgment Day",
+    "introduced_in": "August 2026",
+    "added_to_circle_of_summoning": false,
+    "circle_of_summoning_status": "not yet"
+  },
+  "battle_tests": {
+    "tester": "Alexandre",
+    "results": [
+      {
+        "team_composition": [
+          "Valdur",
+          "Tenebris",
+          "Mort",
+          "Alecto",
+          "Brustar"
+        ],
+        "battle_side": "defense",
+        "opponent_team_type": "Full Darkness",
+        "result": "victory",
+        "notes": "This defense defeated full Darkness teams in the reported tests."
+      },
+      {
+        "team_composition": [
+          "Valdur",
+          "Ignis",
+          "Araji",
+          "Alecto",
+          "Moloch"
+        ],
+        "opponent_team_type": "Mixed Earth and Light",
+        "result": "victory",
+        "notes": "This composition defeated mixed Earth and Light teams in the reported tests."
+      }
+    ]
+  },
+  "valdur_best_teams": [
+    {
+      "composition": [
+        "Valdur",
+        "Tenebris",
+        "Mort",
+        "Alecto",
+        "Brustar"
+      ],
+      "recommended_for": "defense",
+      "tested_against": "Full Darkness",
+      "result": "victory"
+    },
+    {
+      "composition": [
+        "Valdur",
+        "Ignis",
+        "Araji",
+        "Alecto",
+        "Moloch"
+      ],
+      "recommended_for": "mixed matchups",
+      "tested_against": "Mixed Earth and Light",
+      "result": "victory"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "name": "Alecto",
+  "game": "Hero Wars: Dominion Era",
+  "position": 6,
+  "element": "Distortion",
+  "roles": [
+    "marksman"
+  ],
+  "obtention": "Circle of Summoning",
+  "basic_attack": {
+    "value": 1144764,
+    "type": "100% physical attack",
+    "interval_seconds": 4
+  },
+  "stats": {
+    "health": 10236956,
+    "power": 234281,
+    "attack": 1144764,
+    "elemental_attack": 709635,
+    "elemental_armor": 175467
+  },
+  "appearance": {
+    "in_game": "Default Skin"
+  },
+  "skills": [
+    {
+      "name": "Phase Breach",
+      "type": "ultimate",
+      "color": "white",
+      "description": "Alecto moves behind the back of the farthest enemy and hits them 5 times. While the skill is active, Alecto is invulnerable. Each hit deals 686,858 damage to the target and 343,429 damage to nearby enemies. After the skill ends, Alecto returns to her initial position.",
+      "target": "farthest enemy",
+      "number_of_hits": 5,
+      "primary_target_damage_per_hit": 686858,
+      "primary_target_damage_formula": "60% physical attack",
+      "nearby_enemies_damage_per_hit": 343429,
+      "nearby_enemies_damage_formula": "30% physical attack",
+      "damage_type": "physical",
+      "effects": [
+        "moves behind the farthest enemy",
+        "becomes invulnerable while the skill is active",
+        "returns to the initial position after the skill ends"
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": {
+        "physical_attack": 76740,
+        "power": 5218
+      },
+      "upgrade_cost": {
+        "titan_skin_stone": 354960
+      }
+    },
+    {
+      "name": "Primordial Skin",
+      "stats": {
+        "elemental_damage": 230160,
+        "power": 15650
+      },
+      "upgrade_cost": {
+        "titan_skin_stone": 364585
+      },
+      "availability": {
+        "exclusive_from": "2026-08-24",
+        "publicly_available_from": "2026-12-24"
+      }
+    }
+  ],
+  "skin_bonus_note": "The choice is purely cosmetic. The bonuses from all unlocked skins stack regardless of the skin selected for Alecto's appearance.",
+  "artifacts": [
+    {
+      "name": "Zorval's Wing",
+      "stats": {
+        "elemental_damage": 479475,
+        "power": 32604
+      },
+      "upgrade_cost": {
+        "essence_of_the_elements": 686080,
+        "emeralds": 68608,
+        "zorvals_wing_fragment": 18400
+      }
+    },
+    {
+      "name": "Crown of Distortion",
+      "stats": {
+        "elemental_armor": 175467,
+        "power": 55973
+      },
+      "upgrade_cost": {
+        "essence_of_the_elements": 686080,
+        "emeralds": 68608,
+        "crown_of_distortion_fragment": 18400
+      }
+    },
+    {
+      "name": "Distorted Attack Seal",
+      "stats": {
+        "health": 5593676,
+        "physical_attack": 179805,
+        "power": 40754
+      },
+      "upgrade_cost": {
+        "gold": 173005000,
+        "emeralds": 68608,
+        "distorted_attack_seal_fragment": 18400
+      }
+    },
+    {
+      "name": "Elemental Spirit of Distortion",
+      "stats": {
+        "physical_attack": 299673,
+        "power_per_titan": 20377
+      },
+      "upgrade_cost": {
+        "bronze_guild_war_trophy": 1394,
+        "silver_guild_war_trophy": 6945,
+        "gold_guild_war_trophy": 25303,
+        "emeralds": 303938,
+        "elemental_spirit_of_distortion_fragment": 6
+      }
+    }
+  ],
+  "levels": {
+    "stats": {
+      "health": 4631962,
+      "physical_attack": 586962,
+      "power": 63536
+    },
+    "upgrade_cost": {
+      "titan_potion": 1009660,
+      "emeralds": 201932,
+      "alecto_soul_stone": 3130
+    }
+  },
+  "apparition": {
+    "introduced_during": "Fall of the Veil",
+    "introduced_in": "August 2026",
+    "added_to_circle_of_summoning": false,
+    "circle_of_summoning_status": "not yet"
+  },
+  "battle_tests": {
+    "tester": "Alexandre",
+    "results": [
+      {
+        "team_composition": [
+          "Valdur",
+          "Tenebris",
+          "Mort",
+          "Alecto",
+          "Brustar"
+        ],
+        "battle_side": "defense",
+        "opponent_team_type": "Full Darkness",
+        "result": "victory",
+        "notes": "This defense defeated full Darkness teams in the reported tests."
+      },
+      {
+        "team_composition": [
+          "Valdur",
+          "Ignis",
+          "Araji",
+          "Alecto",
+          "Moloch"
+        ],
+        "opponent_team_type": "Mixed Earth and Light",
+        "result": "victory",
+        "notes": "This composition defeated mixed Earth and Light teams in the reported tests."
+      }
+    ]
+  },
+  "alecto_best_teams": [
+    {
+      "composition": [
+        "Valdur",
+        "Tenebris",
+        "Mort",
+        "Alecto",
+        "Brustar"
+      ],
+      "recommended_for": "defense",
+      "tested_against": "Full Darkness",
+      "result": "victory"
+    },
+    {
+      "composition": [
+        "Valdur",
+        "Ignis",
+        "Araji",
+        "Alecto",
+        "Moloch"
+      ],
+      "recommended_for": "mixed matchups",
+      "tested_against": "Mixed Earth and Light",
+      "result": "victory"
+    }
+  ]
+}
