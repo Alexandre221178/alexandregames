@@ -1,0 +1,366 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "xesha",
+      "name": "Xe'Sha",
+      "gender": "female",
+      "description": "Witch who draws power by lowering allied health, imbuing them with destructive strength instead.",
+      "role": ["Mage", "Damage"],
+      "main_class": "Mage",
+      "position": "Middle Line",
+      "level": 120,
+      "main_stat": "Intelligence",
+      "equipment_rank": null,
+      "faction": "Way of Chaos",
+      "how_to_get_soul_stones": ["Events", "Heroic Chest"],
+      "hydra_tier_list": "S++",
+      "hero_tier_list": null,
+      "best_synergy": ["Kayla", "Aidan", "Cleaver", "Dorian", "Peech", "Kendle"],
+      "stats": {
+        "max_with_talisman_of_mighty": {
+          "intelligence": 18110,
+          "agility": 3634,
+          "strength": 3969,
+          "health": 602009,
+          "physical_attack": 37481,
+          "magic_attack": 147622,
+          "armor": 22250.2,
+          "magic_defense": 40551.1,
+          "magic_penetration": 58448,
+          "magical_crit_hit_chance": 4404,
+          "crushing": 4301
+        },
+        "max_with_talisman_of_exile": {
+          "intelligence": 16110,
+          "agility": 3634,
+          "strength": 3969,
+          "health": 602009,
+          "physical_attack": 35481,
+          "magic_attack": 121822,
+          "armor": 36050.2,
+          "magic_defense": 38551.1,
+          "magic_penetration": 78248,
+          "magical_crit_hit_chance": 4404,
+          "crushing": 4301
+        }
+      },
+      "talisman_details": {
+        "talisman_of_mighty": {
+          "display_name": "Talisman of Mighty",
+          "level": 50,
+          "main_stat": "Intelligence",
+          "main_stat_bonus": 2000,
+          "derived_bonuses": {
+            "magic_attack": 6000,
+            "magic_defense": 2000,
+            "physical_attack": 2000
+          },
+          "reroll_slots": [
+            { "stat": "Magic attack", "value": 6600 },
+            { "stat": "Magic attack", "value": 6600 },
+            { "stat": "Magic attack", "value": 6600 }
+          ],
+          "total_reroll_bonus": { "stat": "Magic attack", "value": 19800 }
+        },
+        "talisman_of_exile": {
+          "display_name": "Talisman of Exile",
+          "level": 50,
+          "main_stat": "Armor",
+          "main_stat_bonus": 12000,
+          "reroll_slots": [
+            { "stat": "Magic penetration", "value": 6600 },
+            { "stat": "Magic penetration", "value": 6600 },
+            { "stat": "Magic penetration", "value": 6600 }
+          ],
+          "total_reroll_bonus": { "stat": "Magic penetration", "value": 19800 }
+        },
+        "talisman_2_available": true,
+        "recommended": "talisman_of_exile"
+      },
+      "skills": [
+        {
+          "id": 0,
+          "variant": "basic_attack",
+          "name": "Basic Attack",
+          "type": ["Magic Damage"],
+          "description": "Xe'Sha's basic attacks deal magic damage and scale with Magic Attack.",
+          "magic_damage": 147622,
+          "magic_damage_formula": "100% Mag.atk.",
+          "cooldown_seconds": 5.2,
+          "animation_delay_seconds": 0.48
+        },
+        {
+          "id": 1,
+          "variant": "base",
+          "color": "gray",
+          "level": 120,
+          "name": "Deadly Ray",
+          "type": ["Magic Damage", "Sacrifice", "Healing"],
+          "keywords": ["Sacrifice", "Can't be copied"],
+          "description": "Xe'Sha drains 3% from the max health of any allies with over 25% of their health currently remaining, then attacks the enemy with the lowest magic defense. The damage dealt depends on the damage dealt to allies and Xe'Sha's magic attack. If the target is killed as a result, allies recover double the health they lost.",
+          "ally_max_health_drain_percent": 3,
+          "ally_health_threshold_percent": 25,
+          "magic_damage": 189327.5,
+          "magic_damage_formula": "125% Mag.atk. + 4800 + 3% of allied max health",
+          "kill_healing_multiplier_of_health_lost": 2,
+          "target": "Enemy with the lowest Magic Defense",
+          "animation_delay_seconds": 1.25,
+          "can_be_copied": false
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "color": "green",
+          "level": 120,
+          "name": "Spiritual Power",
+          "type": ["Sacrifice", "Buff"],
+          "keywords": ["Sacrifice", "Buff"],
+          "description": "Xe'Sha fills her allies with power, damaging them by 3% of their max health if their current health is above 25%. The empowered heroes gain a magic attack bonus for 4.0 seconds. The bonus is doubled for Chaos Heroes.",
+          "ally_max_health_damage_percent": 3,
+          "ally_health_threshold_percent": 25,
+          "magic_attack_bonus": 77411,
+          "magic_attack_bonus_formula": "50% Mag.atk. + 3600",
+          "chaos_hero_bonus_multiplier": 2,
+          "duration_seconds": 4.0,
+          "cooldown_seconds": 7,
+          "animation_delay_seconds": 0.3
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "color": "blue",
+          "level": 100,
+          "name": "Crimson Mist",
+          "type": ["Blind", "Control"],
+          "keywords": ["Blind"],
+          "description": "Xe'Sha shrouds the battlefield in mist for 4.0 seconds, causing enemy basic attacks to miss. The chance to affect an enemy is lowered if their level is above 120.",
+          "duration_seconds": 4.0,
+          "initial_cooldown_seconds": 4,
+          "cooldown_seconds": 22,
+          "animation_delay_seconds": 1,
+          "level_check": 120
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "color": "purple",
+          "level": null,
+          "name": "Soaring Might",
+          "type": ["Passive", "Sacrifice", "Buff"],
+          "keywords": ["Sacrifice"],
+          "description": "Whenever an ally loses health from allied skills, Xe'Sha gains a permanent magic attack bonus equal to 25% of the health lost by the ally. The chance to trigger the skill is lowered if the ally's level is above 120.",
+          "permanent_magic_attack_bonus_formula": "25% of the health lost by the ally",
+          "animation_delay_seconds": 1,
+          "level_check": 120
+        }
+      ],
+      "realm": {
+        "skills_available": true,
+        "skills": [
+          {
+            "name": "Abyssal Shackles",
+            "level": 5,
+            "effect": "Increases the attack of all troops.",
+            "bonus_percent": null,
+            "source_note": "Ability percentage description is temporarily unavailable."
+          },
+          {
+            "name": "Pulse of Sorrow",
+            "level": 5,
+            "effect": "Increases the critical hit chance of all troops.",
+            "bonus_percent": null,
+            "source_note": "Ability percentage description is temporarily unavailable."
+          }
+        ]
+      },
+      "skins": [
+        {
+          "name": "Default",
+          "stat": "Intelligence",
+          "bonus": 1365,
+          "level": 60,
+          "derived": {
+            "magic_attack": 4095,
+            "magic_defense": 1365,
+            "physical_attack": 1365
+          },
+          "total_skin_stones": 30825
+        },
+        {
+          "name": "Celestial",
+          "stat": "Magic penetration",
+          "bonus": 10650,
+          "level": 60,
+          "total_skin_stones": 50410
+        },
+        {
+          "name": "Beach Skin+",
+          "stat": "Magic attack",
+          "bonus": 21300,
+          "level": 60,
+          "is_skin_plus": true,
+          "total_skin_stones": 50410
+        },
+        {
+          "name": "Cybernetic",
+          "stat": "Armor",
+          "bonus": 10650,
+          "level": 60,
+          "total_skin_stones": 50410
+        },
+        {
+          "name": "Dark Depths",
+          "stat": "Health",
+          "bonus": 106645,
+          "level": 60,
+          "total_skin_stones": 50410
+        },
+        {
+          "name": "Solar",
+          "stat": "Magical crit hit chance",
+          "bonus": 2960,
+          "level": 60,
+          "total_skin_stones": 50410
+        },
+        {
+          "name": "Inner Demons Skin+",
+          "stat": "Magic penetration",
+          "bonus": 21300,
+          "level": 60,
+          "is_skin_plus": true,
+          "total_skin_stones": 50410
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "Spiritual Eye",
+          "slot": "Weapon",
+          "evolve": null,
+          "level": null,
+          "activation_chance_percent": 100,
+          "magic_attack": 32040
+        },
+        {
+          "name": "Manuscript of the Void",
+          "slot": "Book",
+          "evolve": null,
+          "level": null,
+          "magic_penetration": 10680,
+          "magic_attack": 5340
+        },
+        {
+          "name": "Ring of Intelligence",
+          "slot": "Ring",
+          "evolve": null,
+          "level": null,
+          "intelligence": 3990,
+          "derived": {
+            "magic_attack": 11970,
+            "magic_defense": 3990,
+            "physical_attack": 3990
+          }
+        }
+      ],
+      "class_skill": {
+        "class": "Mage",
+        "runesphere": 0,
+        "class_level": 45,
+        "starting_energy": 374,
+        "additional_energy": 108,
+        "trigger": "When using any ability other than the first skill and the regular attack."
+      },
+      "glyphs": {
+        "level": 80,
+        "list": [
+          { "name": "Magic attack", "bonus": 12850 },
+          { "name": "Health", "bonus": 122800 },
+          { "name": "Magic defense", "bonus": 12850 },
+          { "name": "Magic penetration", "bonus": 12850 },
+          {
+            "name": "Intelligence",
+            "bonus": 2110,
+            "derived": {
+              "magic_attack": 6330,
+              "magic_defense": 2110,
+              "physical_attack": 2110
+            }
+          }
+        ]
+      },
+      "priorities": {
+        "glyphs": [
+          { "stat": "Magic penetration", "priority": "High" },
+          { "stat": "Magic attack", "priority": "High" },
+          { "stat": "Intelligence", "priority": "High" },
+          { "stat": "Health", "priority": "Medium" },
+          { "stat": "Magic defense", "priority": "Medium" }
+        ],
+        "artifacts": [
+          { "slot": "Book", "priority": "High" },
+          { "slot": "Weapon", "stat": "Magic attack", "priority": "High" },
+          { "slot": "Ring", "priority": "Medium" }
+        ],
+        "skins": [
+          { "stat": "Magic attack", "skin": "Beach Skin+", "priority": "Very High" },
+          { "stat": "Magic penetration", "priority": "Very High" },
+          { "stat": "Magical crit hit chance", "skin": "Solar", "priority": "High" },
+          { "stat": "Intelligence", "priority": "High" },
+          { "stat": "Health", "skin": "Dark Depths", "priority": "Medium" },
+          { "stat": "Armor", "priority": "Low" }
+        ]
+      },
+      "hydra": {
+        "rating": "S++",
+        "recommended_against": "Magical Hydras",
+        "reported_team": ["Martha", "Aidan", "Faceless", "Xe'Sha", "Mushroom", "Melium"],
+        "reported_damage": 220000000,
+        "source_note": "The lineup and names are preserved as provided in the source text."
+      },
+      "counters": [
+        {
+          "hero": "Rufus",
+          "reason": "Rufus is effectively immortal against magical damage, and Rakashi's Barrier absorbs magical damage received by his allies, preventing Xe'Sha from eliminating protected targets."
+        },
+        {
+          "hero": "Cornelius",
+          "reason": "If Xe'Sha has the highest Intelligence, Cornelius can target her with his ultimate for heavy physical damage. He also creates a shield that increases allies' Magic Defense."
+        },
+        {
+          "hero": "Phobos",
+          "reason": "If Xe'Sha has the highest Magic Attack, Dark Binds connects to her and transfers the energy she gains to Phobos for 10 seconds, delaying her ultimate."
+        }
+      ],
+      "best_team_2026": {
+        "heroes": [
+          { "hero": "Aidan", "talisman": "T2" },
+          { "hero": "Kendle", "talisman": "T2" },
+          { "hero": "Dorian", "talisman": "T2" },
+          { "hero": "Xe'Sha", "talisman": "T2" },
+          { "hero": "Cleaver", "talisman": "T1" }
+        ]
+      },
+      "common_teams": [
+        { "rank": 1, "heroes": ["Lilith", "Aidan", "Dorian", "Xe'Sha", "Astaroth"] },
+        { "rank": 2, "heroes": ["Aidan", "Dorian", "Xe'Sha", "Jorgen", "Astaroth"] },
+        { "rank": 3, "heroes": ["Lilith", "Aidan", "Xe'Sha", "Kayla", "Astaroth"] },
+        { "rank": 4, "heroes": ["Aidan", "Xe'Sha", "Judge", "Kayla", "Hatchet"] },
+        { "rank": 5, "heroes": ["Aidan", "Xe'Sha", "Nebula", "Kayla", "Cleaver"] },
+        { "rank": 6, "heroes": ["Aidan", "Dorian", "Xe'Sha", "Kayla", "Cleaver"] },
+        { "rank": 7, "heroes": ["Aidan", "Peech", "Xe'Sha", "Kayla", "Cleaver"] },
+        { "rank": 8, "heroes": ["Lilith", "Dorian", "Xe'Sha", "Jorgen", "Astaroth"] },
+        { "rank": 9, "heroes": ["Lilith", "Peech", "Dorian", "Xe'Sha", "Cleaver"] },
+        { "rank": 10, "heroes": ["Lilith", "Dorian", "Xe'Sha", "Jorgen", "Cleaver"] },
+        { "rank": 11, "heroes": ["Lilith", "Dorian", "Xe'Sha", "Astaroth", "Cleaver"] },
+        { "rank": 12, "heroes": ["Dorian", "Lars", "Xe'Sha", "Krista", "Astaroth"] }
+      ],
+      "notes": [
+        "Xe'Sha converts allied health loss into offensive power through Sacrifice mechanics.",
+        "Chaos allies receive double the Magic Attack bonus from Spiritual Power.",
+        "Both maximum-stat sets include the 21300 Magic Penetration granted by Inner Demons Skin+.",
+        "Talisman of Exile is marked as recommended because the provided best team for 2026 equips Xe'Sha with Talisman 2.",
+        "The source did not provide the level of Soaring Might, artifact levels/evolution, Realm ability percentages, equipment rank, or an overall hero tier. Those values remain null."
+      ]
+    }
+  ]
+}
