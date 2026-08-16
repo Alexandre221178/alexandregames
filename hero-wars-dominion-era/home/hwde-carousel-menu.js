@@ -10,6 +10,15 @@
   strong: "Guide: Alecto - Hero Wars: Dominion Era",
   updated: "Updated: August, 2026."
 },
+{
+  link: "../../hero-wars-dominion-era/titans/valdur-en.html",
+  src500: "../../hero-wars-dominion-era/images/titans-hwde/valdur/valdur-500px.webp",
+  src400: "../../hero-wars-dominion-era/images/titans-hwde/valdur/valdur-400px.webp",
+  alt: "Valdur for Hero Wars: Dominion Era",
+  title: "Valdur for Hero Wars: Dominion Era.",
+  strong: "Guide: Valdur - Hero Wars: Dominion Era",
+  updated: "Updated: August, 2026."
+},
     {
       link: "/hero-wars-dominion-era/events-special-hwde/alecto-event-missions-en.html",
       src500: "/hero-wars-dominion-era/images/events-special/alecto-event/alecto-event-missions-500px.webp",
