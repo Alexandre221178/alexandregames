@@ -152,5 +152,31 @@
     "introduced_in": "December 2025",
     "added_to_circle_of_summoning": true,
     "circle_of_summoning_added_on": "2026-04-16"
-  }
+  },
+  "best_teams": [
+    {
+      "name": "team 1",
+      "totem elemental e primal": "Totem Fusion Elemental & Last Flash",
+      "totem_skill": "fire",
+      "team": [
+        "Ignis",
+        "Araji",
+        "Asherona",
+        "Vulcan",
+        "Moloch"
+      ]
+    },
+    {
+      "name": "team 2",
+      "totem elemental e primal": "a definir",
+      "totem_skill": "fire e distortion",
+      "team": [
+        "Ignis",
+        "Araji",
+        "Asherona",
+        "Vulcan",
+        "Moloch"
+      ]
+    }
+  ]
 }
