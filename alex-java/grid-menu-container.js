@@ -24,14 +24,23 @@ figure::after {
 }
 
 .grid-item img {
+  display: block;
   width: 100%;
+  height: auto;
+  box-sizing: border-box;
   border-radius: 10px;
-  transition: transform 0.3s;
+  transition: transform 0.3s ease;
   border: 4px solid #5654b3;
 }
 
-.grid-item img:hover {
+.grid-item a:hover img,
+.grid-item a:focus-visible img,
+.grid-item a:active img {
   transform: scale(1.05);
+}
+
+.grid-item picture {
+  display: block;
 }
 
 .grid-item strong {
@@ -60,6 +69,12 @@ figure::after {
     width: 80%;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .grid-item img {
+    transition: none;
+  }
+}
 `;
 document.head.appendChild(style);
 
@@ -71,14 +86,19 @@ items.forEach(item => {
   div.className = "grid-item";
   const updated = (item.updated || "").trim();
   const hasUpdated = updated && !/^updated\s*:?\s*$/i.test(updated);
+  const src500 = item.src500 || item.src400 || "";
+  const src400 = item.src400 || item.src500 || "";
 
   // margem top
   div.style.marginTop = "13px";
 
   div.innerHTML = `
     <a href="${item.link}">
-      <img src="${item.src500}" alt="${item.alt}" title="${item.title}" loading="lazy">
-      <br><strong>${item.strong}</strong>
+      <picture>
+        <source media="(min-width: 769px)" srcset="${src500}">
+        <img src="${src400}" alt="${item.alt}" title="${item.title}" loading="lazy">
+      </picture>
+      <strong>${item.strong}</strong>
       ${hasUpdated ? `<span>${updated}</span>` : ""}
     </a>
   `;

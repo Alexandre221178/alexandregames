@@ -38,7 +38,18 @@
       updated: "Updated: August, 2026."
     },      
     
+   
     {
+      link: "/hero-wars-alliance/guide/best-farms-hwa-en.html",
+      src500: "/hero-wars-alliance/images/guides/best-farms-hwa/best-farms-hwa-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/best-farms-hwa/best-farms-hwa-400px.webp",
+      alt: "Most Players Don’t Know These SECRET FARMS for Hero Wars Alliance",
+      title: "Most Players Don’t Know These SECRET FARMS for Hero Wars Alliance",
+      strong: "Most Players Don’t Know These SECRET FARMS - Hero Wars Alliance",
+      updated: "Updated: July, 2026."
+    },      
+    
+       {
       link: "/hero-wars-alliance/guide/realm-pve-best-teams-en.html",
       src500: "/hero-wars-alliance/images/guides/realm-pve-best-teams/realm-pve-best-teams-500px.webp",
       src400: "/hero-wars-alliance/images/guides/realm-pve-best-teams/realm-pve-best-teams-400px.webp",
@@ -55,18 +66,7 @@
       title: "Fort Guide for Hero Wars Alliance",
       strong: "Guide: Fort - Hero Wars Alliance",
       updated: "Updated: August, 2026."
-    },      
-    {
-      link: "/hero-wars-alliance/guide/best-farms-hwa-en.html",
-      src500: "/hero-wars-alliance/images/guides/best-farms-hwa/best-farms-hwa-500px.webp",
-      src400: "/hero-wars-alliance/images/guides/best-farms-hwa/best-farms-hwa-400px.webp",
-      alt: "Most Players Don’t Know These SECRET FARMS for Hero Wars Alliance",
-      title: "Most Players Don’t Know These SECRET FARMS for Hero Wars Alliance",
-      strong: "Most Players Don’t Know These SECRET FARMS - Hero Wars Alliance",
-      updated: "Updated: July, 2026."
-    },      
-    
-        
+    },        
     
      {
       link: "/hero-wars-alliance/guide/realm-brown-squares-map-en.html",
@@ -87,16 +87,7 @@
       updated: "Updated: July, 2026."
     },     
     
-    {
-      link: "/hero-wars-alliance/characters-guide/tristan-en.html",
-      src500: "/hero-wars-alliance/images/hero/tristan/tristan-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/tristan/tristan-400px.webp",
-      alt: "Tristan Legendary Skills Guide for Hero Wars Alliance",
-      title: "Tristan Guide for Hero Wars Alliance",
-      strong: "Guide: Tristan Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: July, 2026."
-    },     
-   
+  
      
     {
       link: "/hero-wars-alliance/characters-guide/crow-en.html",
