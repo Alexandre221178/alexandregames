@@ -2,6 +2,15 @@
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
     {
+  link: "../../hero-wars-dominion-era/titans/alecto-en.html",
+  src500: "../../hero-wars-dominion-era/images/titans-hwde/alecto/alecto-500px.webp",
+  src400: "../../hero-wars-dominion-era/images/titans-hwde/alecto/alecto-400px.webp",
+  alt: "Alecto for Hero Wars: Dominion Era",
+  title: "Alecto for Hero Wars: Dominion Era.",
+  strong: "Guide: Alecto - Hero Wars: Dominion Era",
+  updated: "Updated: August, 2026."
+},
+    {
       link: "/hero-wars-dominion-era/events-special-hwde/alecto-event-missions-en.html",
       src500: "/hero-wars-dominion-era/images/events-special/alecto-event/alecto-event-missions-500px.webp",
       src400: "/hero-wars-dominion-era/images/events-special/alecto-event/alecto-event-missions-400px.webp",
@@ -100,15 +109,7 @@
     },
          
     
-    {
-  link: "../../hero-wars-dominion-era/titans/umbra-en.html",
-  src500: "../../hero-wars-dominion-era/images/titans-hwde/umbra/umbra-500px.webp",
-  src400: "../../hero-wars-dominion-era/images/titans-hwde/umbra/umbra-400px.webp",
-  alt: "Umbra for Hero Wars: Dominion Era",
-  title: "Umbra for Hero Wars: Dominion Era.",
-  strong: "Guide: Umbra - Hero Wars: Dominion Era",
-  updated: "Updated: June, 2026."
-},
+    
 {
       link: "../../hero-wars-dominion-era/characters/byrna-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/byrna/byrna-500px.webp",

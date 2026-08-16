@@ -70,7 +70,7 @@
 
   "titans": [
 
-    
+{"id": "Alecto",  "gender": "Female",  "en": "Alecto",  "de": "Alecto",  "es": "Alecto",  "fr": "Alecto",  "pt": "Alecto",  "ja": "アレクト"},
     {"id":"Sigurd","gender":"Male","en":"Sigurd","de":"Sigurd","es":"Sigurd","fr":"Sigurd","pt":"Sigurd","ja":"シグルド"},
     {"id":"Nova","gender":"Female","en":"Nova","de":"Nova","es":"Nova","fr":"Nova","pt":"Nova","ja":"ノヴァ"},
     {"id":"Mairi","gender":"Female","en":"Mairi","de":"Mairi","es":"Mairi","fr":"Mairi","pt":"Mairi","ja":"マイリ"},

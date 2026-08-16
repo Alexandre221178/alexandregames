@@ -140,14 +140,15 @@
 
 "update-fates-wish-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js fates-wish-hwde",
 
+"update-alecto-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titans alecto",
 
-    "update-angus-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titans angus",
-    "update-tidus-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titans tidus",
-   
-    "update-ignis-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titans ignis",
-    "update-lumira-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titans lumira",
-    "update-umbra-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titans umbra"
- 
+"update-angus-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titans angus",
+"update-tidus-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titans tidus",
+
+"update-ignis-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titans ignis",
+"update-lumira-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titans lumira",
+"update-umbra-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titans umbra"
+
   },
   "notes": "Para adicionar outros menus HWA: node hero-wars-alliance/update-data-menu-hwa.js <pasta> <prefixo>. Para HWDE: npm run update-hwde <prefixo> (ex.: npm run update-hwde electra-brawls)",
   "repository": {
