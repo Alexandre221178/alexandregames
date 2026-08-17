@@ -3,6 +3,10 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+     { date:'2026-08-17', type:'hub', code:'DEMONS', note:'until|2026-08-31T01:00:00Z',
+  rewards:['energy x20', 'gold 250k', 'summoning-sphere x5' ] },
+   
+    
   { date:'2026-08-17', type:'daily', mission:'3-14', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-08-16', type:'daily', mission:'2-4', note:'daily|80',
