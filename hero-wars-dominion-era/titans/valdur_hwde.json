@@ -158,15 +158,74 @@
       {
         "team_composition": [
           "Valdur",
-          "Tenebris",
-          "Mort",
+          "Ignis",
+          "Araji",
           "Alecto",
-          "Brustar"
+          "Moloch"
         ],
-        "battle_side": "defense",
-        "opponent_team_type": "Full Darkness",
+        "opponent_team": [
+          "Brustar",
+          "Rigel",
+          "Mort",
+          "Solaris",
+          "Tenebris"
+        ],
+        "result": "reported matchup",
+        "score": "not supplied"
+      },
+      {
+        "team_composition": [
+          "Valdur",
+          "Tenebris",
+          "Asherona",
+          "Alecto",
+          "Moloch"
+        ],
+        "opponent_team": [
+          "Brustar",
+          "Rigel",
+          "Solaris",
+          "Iyari",
+          "Tenebris"
+        ],
+        "result": "reported matchup",
+        "score": "not supplied"
+      },
+      {
+        "team_composition": [
+          "Valdur",
+          "Tenebris",
+          "Verdoc",
+          "Alecto",
+          "Angus"
+        ],
+        "opponent_team": [
+          "Brustar",
+          "Rigel",
+          "Solaris",
+          "Iyari",
+          "Tenebris"
+        ],
         "result": "victory",
-        "notes": "This defense defeated full Darkness teams in the reported tests."
+        "score": "10-0"
+      },
+      {
+        "team_composition": [
+          "Valdur",
+          "Tenebris",
+          "Solaris",
+          "Alecto",
+          "Rigel"
+        ],
+        "opponent_team": [
+          "Brustar",
+          "Rigel",
+          "Solaris",
+          "Iyari",
+          "Tenebris"
+        ],
+        "result": "victory",
+        "score": "10-0"
       },
       {
         "team_composition": [
@@ -176,9 +235,105 @@
           "Alecto",
           "Moloch"
         ],
-        "opponent_team_type": "Mixed Earth and Light",
+        "opponent_team": [
+          "Rigel",
+          "Mort",
+          "Solaris",
+          "Iyari",
+          "Tenebris"
+        ],
         "result": "victory",
-        "notes": "This composition defeated mixed Earth and Light teams in the reported tests."
+        "score": "10-0"
+      },
+      {
+        "team_composition": [
+          "Valdur",
+          "Tenebris",
+          "Verdoc",
+          "Alecto",
+          "Angus"
+        ],
+        "opponent_team": [
+          "Rigel",
+          "Mort",
+          "Solaris",
+          "Iyari",
+          "Tenebris"
+        ],
+        "result": "victory",
+        "score": "10-0"
+      },
+      {
+        "team_composition": [
+          "Valdur",
+          "Tenebris",
+          "Solaris",
+          "Alecto",
+          "Rigel"
+        ],
+        "opponent_team": [
+          "Rigel",
+          "Mort",
+          "Solaris",
+          "Iyari",
+          "Tenebris"
+        ],
+        "result": "victory",
+        "score": "10-0"
+      },
+      {
+        "team_composition": [
+          "Valdur",
+          "Araji",
+          "Asherona",
+          "Alecto",
+          "Moloch"
+        ],
+        "opponent_team": [
+          "Rigel",
+          "Mort",
+          "Solaris",
+          "Iyari",
+          "Tenebris"
+        ],
+        "result": "victory",
+        "score": "10-0"
+      },
+      {
+        "team_composition": [
+          "Valdur",
+          "Mairi",
+          "Tidus",
+          "Alecto",
+          "Sigurd"
+        ],
+        "opponent_team": [
+          "Rigel",
+          "Mort",
+          "Solaris",
+          "Iyari",
+          "Tenebris"
+        ],
+        "result": "victory",
+        "score": "10-0"
+      },
+      {
+        "team_composition": [
+          "Valdur",
+          "Hyperion",
+          "Tidus",
+          "Alecto",
+          "Sigurd"
+        ],
+        "opponent_team": [
+          "Rigel",
+          "Mort",
+          "Solaris",
+          "Iyari",
+          "Tenebris"
+        ],
+        "result": "victory",
+        "score": "10-0"
       }
     ]
   },
@@ -187,13 +342,12 @@
       "composition": [
         "Valdur",
         "Tenebris",
-        "Mort",
+        "Tidus",
         "Alecto",
-        "Brustar"
+        "Sigurd"
       ],
-      "recommended_for": "defense",
-      "tested_against": "Full Darkness",
-      "result": "victory"
+      "tested_matchups": [],
+      "notes": "Recommended composition supplied; no opponent or score was reported."
     },
     {
       "composition": [
@@ -203,9 +357,184 @@
         "Alecto",
         "Moloch"
       ],
-      "recommended_for": "mixed matchups",
-      "tested_against": "Mixed Earth and Light",
-      "result": "victory"
+      "tested_matchups": [
+        {
+          "opponent_team": [
+            "Brustar",
+            "Rigel",
+            "Mort",
+            "Solaris",
+            "Tenebris"
+          ],
+          "result": "reported matchup",
+          "score": "not supplied"
+        },
+        {
+          "opponent_team": [
+            "Rigel",
+            "Mort",
+            "Solaris",
+            "Iyari",
+            "Tenebris"
+          ],
+          "result": "victory",
+          "score": "10-0"
+        }
+      ]
+    },
+    {
+      "composition": [
+        "Valdur",
+        "Tenebris",
+        "Asherona",
+        "Alecto",
+        "Moloch"
+      ],
+      "tested_matchups": [
+        {
+          "opponent_team": [
+            "Brustar",
+            "Rigel",
+            "Solaris",
+            "Iyari",
+            "Tenebris"
+          ],
+          "result": "reported matchup",
+          "score": "not supplied"
+        }
+      ]
+    },
+    {
+      "composition": [
+        "Valdur",
+        "Tenebris",
+        "Verdoc",
+        "Alecto",
+        "Angus"
+      ],
+      "tested_matchups": [
+        {
+          "opponent_team": [
+            "Brustar",
+            "Rigel",
+            "Solaris",
+            "Iyari",
+            "Tenebris"
+          ],
+          "result": "victory",
+          "score": "10-0"
+        },
+        {
+          "opponent_team": [
+            "Rigel",
+            "Mort",
+            "Solaris",
+            "Iyari",
+            "Tenebris"
+          ],
+          "result": "victory",
+          "score": "10-0"
+        }
+      ]
+    },
+    {
+      "composition": [
+        "Valdur",
+        "Tenebris",
+        "Solaris",
+        "Alecto",
+        "Rigel"
+      ],
+      "tested_matchups": [
+        {
+          "opponent_team": [
+            "Brustar",
+            "Rigel",
+            "Solaris",
+            "Iyari",
+            "Tenebris"
+          ],
+          "result": "victory",
+          "score": "10-0"
+        },
+        {
+          "opponent_team": [
+            "Rigel",
+            "Mort",
+            "Solaris",
+            "Iyari",
+            "Tenebris"
+          ],
+          "result": "victory",
+          "score": "10-0"
+        }
+      ]
+    },
+    {
+      "composition": [
+        "Valdur",
+        "Araji",
+        "Asherona",
+        "Alecto",
+        "Moloch"
+      ],
+      "tested_matchups": [
+        {
+          "opponent_team": [
+            "Rigel",
+            "Mort",
+            "Solaris",
+            "Iyari",
+            "Tenebris"
+          ],
+          "result": "victory",
+          "score": "10-0"
+        }
+      ]
+    },
+    {
+      "composition": [
+        "Valdur",
+        "Mairi",
+        "Tidus",
+        "Alecto",
+        "Sigurd"
+      ],
+      "tested_matchups": [
+        {
+          "opponent_team": [
+            "Rigel",
+            "Mort",
+            "Solaris",
+            "Iyari",
+            "Tenebris"
+          ],
+          "result": "victory",
+          "score": "10-0"
+        }
+      ]
+    },
+    {
+      "composition": [
+        "Valdur",
+        "Hyperion",
+        "Tidus",
+        "Alecto",
+        "Sigurd"
+      ],
+      "tested_matchups": [
+        {
+          "opponent_team": [
+            "Rigel",
+            "Mort",
+            "Solaris",
+            "Iyari",
+            "Tenebris"
+          ],
+          "result": "victory",
+          "score": "10-0"
+        }
+      ]
     }
   ]
 }
