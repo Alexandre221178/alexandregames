@@ -11,15 +11,15 @@ document.addEventListener("DOMContentLoaded", function () {
     const socialLinksData = [
         {
             href: "https://www.youtube.com/channel/UCVXIv4Movg3KAaPHVE7dstw",
-            src: "https://alexandregames.com/imagens/youtubeenglish.webp",
-            alt: "Alexandre Games English Edition",
-            title: "Alexandre Games English Edition"
+            src: "https://alexandregames.com/imagens/youtube-black.webp",
+            alt: "Alexandre Games Alliance",
+            title: "Alexandre Games Alliance"
         },
         {
             href: "https://www.youtube.com/channel/UCtzRcfrI2dlPB9gEN4h92Zg",
-            src: "https://alexandregames.com/imagens/youtubebrazil.webp",
-            alt: "Alexandre Games Official",
-            title: "Alexandre Games Official"
+            src: "https://alexandregames.com/imagens/youtube-black.webp",
+            alt: "Alexandre Games Dominion",
+            title: "Alexandre Games Dominion"
         },
         {
             href: "http://facebook.com/profile.php?id=100093242163291",
@@ -27,12 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
             alt: "Alexandre Games Facebook",
             title: "Alexandre Games Facebook"
         },
-        {
-            href: "https://www.twitch.tv/ytalexandre",
-            src: "https://alexandregames.com/imagens/twitchblack.webp",
-            alt: "Alexandre Games Twitch",
-            title: "Alexandre Games Twitch"
-        },
+        
         {
             href: "https://discord.gg/37BRnhBv6r",
             src: "https://alexandregames.com/imagens/discord-black.webp",
