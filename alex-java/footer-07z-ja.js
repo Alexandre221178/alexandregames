@@ -39,12 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
             alt: "Discordコミュニティに参加",
             title: "Discordコミュニティに参加"
         },
-        {
-            href: "https://store.alexandregames.com/",
-            src: "https://alexandregames.com/imagens/store.webp",
-            alt: "Alexandre Gamesストア",
-            title: "Alexandre Gamesストア"
-        },
+       
         {
             href: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY",
             src: "https://alexandregames.com/imagens/logo-whatsapp.webp",

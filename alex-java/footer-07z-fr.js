@@ -39,12 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
             alt: "Rejoignez la Communauté Discord",
             title: "Rejoignez la Communauté Discord"
         },
-        {
-            href: "https://store.alexandregames.com/",
-            src: "https://alexandregames.com/imagens/store.webp",
-            alt: "Boutique Alexandre Games",
-            title: "Boutique Alexandre Games"
-        },
+       
         {
             href: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY",
             src: "https://alexandregames.com/imagens/logo-whatsapp.webp",
