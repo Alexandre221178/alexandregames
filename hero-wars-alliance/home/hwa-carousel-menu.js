@@ -1,13 +1,13 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
-    {
-      link: "/hero-wars-alliance/characters-guide/xesha-en.html",
-      src500: "/hero-wars-alliance/images/hero/xesha/xesha-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/xesha/xesha-400px.webp",
-      alt: "Xesha Guide for Hero Wars Alliance",
-      title: "Xesha Guide for Hero Wars Alliance",
-      strong: "Guide New Skin+: Xesha for Hero Wars Alliance",
+     {
+      link: "/hero-wars-alliance/event-special-hwa/pallant-adventure-shop-en.html",
+      src500: "/hero-wars-alliance/images/events-special-hwa/pallant-adventure-shop/event-500px.webp",
+      src400: "/hero-wars-alliance/images/events-special-hwa/pallant-adventure-shop/event-400px.webp",
+      alt: "Pallant Adventure Shop Guide for Hero Wars Alliance",
+      title: "Pallant Adventure Shop Guide for Hero Wars Alliance",
+      strong: "Guide: Pallant Adventure Shop - Hero Wars Alliance",
       updated: "Updated: August, 2026."
     },     
     {
@@ -37,7 +37,15 @@
       strong: "Guide: Top 17 Meta Heroes - Hero Wars Alliance",
       updated: "Updated: August, 2026."
     },      
-    
+    {
+      link: "/hero-wars-alliance/characters-guide/xesha-en.html",
+      src500: "/hero-wars-alliance/images/hero/xesha/xesha-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/xesha/xesha-400px.webp",
+      alt: "Xesha Guide for Hero Wars Alliance",
+      title: "Xesha Guide for Hero Wars Alliance",
+      strong: "Guide New Skin+: Xesha for Hero Wars Alliance",
+      updated: "Updated: August, 2026."
+    },     
    
     {
       link: "/hero-wars-alliance/guide/best-farms-hwa-en.html",
