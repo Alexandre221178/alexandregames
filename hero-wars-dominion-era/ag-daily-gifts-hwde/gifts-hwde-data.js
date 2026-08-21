@@ -1,5 +1,5 @@
 /* HWDE Daily Gifts Data  - npm run update-gifts-hwde
-https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
+
 // ── August #, 2026 ─────────────────────────────
    { date:'2026-08-##', type:'link', giftId:'######', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
@@ -9,8 +9,15 @@ https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
   // 2026-08-##── 2 Link Exclusivo Web/FB ──────────────────────────────
 { date:'2026-08-##', type:'link', giftLinkWeb:'https://herowars.me/#wb#', giftLinkFb:'https://herowars.me/#fb#',
  note:'until|2026-08-##T02:00:00Z', rewards:['energy x500'] },
-https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
+https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=TUldKRkhcC
 */window.HWDE_GIFTS = [
+// ── Gifts Novo herói ou titan com ID ──────────────────────────────
+ { date:'2026-08-21', type:'link', giftId:'TUldKRkhcC', note:'until|2026-08-27T02:00:00Z',
+   rewards:['energy-crystal x16', 'valor-coin x8500', 'sapphire-medallion x2'] },
+
+{ date:'2026-08-21', type:'link', giftLinkWeb:'https://herowars.me/4xht5dK', giftLinkFb:'https://herowars.me/4wJ8n5A',
+ note:'until|2026-08-271T02:00:00Z', rewards:['energy x500'] },
+  
  { date:'2026-08-20', type:'link', giftId:'3662b38f2ea94eb8cf9685bc57213532', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
      { date:'2026-08-19', type:'link', giftId:'a5da344ebd2a52ae6815aa93647f24e4', note:'level',
@@ -294,7 +301,7 @@ https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 { date:'2026-06-##', type:'link', giftId:'#####', note:'until|2026-0#-##T02:00:00Z',
   rewards:['energy x500'] },
 
-  // ── 1 Link Exclusivo so giftWebId diferente de weblink esse so coloca o id ──────────────────────────────
+  // ── 1 Link Exclusivo somente giftWebId diferente de weblink esse so coloca o id ──────────────────────────────
 { date:'2026-##-##', type:'link', giftWebId:'#####', note:'until|2026-##-##T02:00:00Z',
   rewards:['valor-coin x10000'] },
 
