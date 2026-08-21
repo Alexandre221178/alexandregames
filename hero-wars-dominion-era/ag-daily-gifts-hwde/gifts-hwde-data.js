@@ -11,6 +11,9 @@
  note:'until|2026-08-##T02:00:00Z', rewards:['energy x500'] },
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=TUldKRkhcC
 */window.HWDE_GIFTS = [
+ { date:'2026-08-21', type:'link', giftId:'a04af1f68ae1f25f69bbb6c92a6b138d', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
+   
 // ── Gifts Novo herói ou titan com ID ──────────────────────────────
  { date:'2026-08-21', type:'link', giftId:'TUldKRkhcC', note:'until|2026-08-27T02:00:00Z',
    rewards:['energy-crystal x16', 'valor-coin x8500', 'sapphire-medallion x2'] },
