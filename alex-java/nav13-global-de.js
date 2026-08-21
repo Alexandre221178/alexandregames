@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <a href="https://alexandregames.com/hero-wars-alliance/guide/fort-guide-realm-de.html">Reich-Fort-Guide</a>
         </div>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-review-en-hwa.html">🎨 Event-Tipps und Rezensionen</a>
-        <a href="https://alexandregames.com/hero-wars-alliance/event-special-hwa/satori-cascade-orm-season-en.html">🧭 Saisonguide - Satori, Cascade & Orm</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/event-special-hwa/pallant-adventure-shop-en.html">🧭 Saison-Shop-Guide - Elarite Heat</a>
         <a href="https://alexandregames.com/Hero%20Wars%20English/Titans%20Guide%20Hero%20Wars.html">⚔️ Titanen-Guide</a>
         <br><br><br><br>
     </div>
