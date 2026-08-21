@@ -25,7 +25,7 @@
           "magic_attack": 176663,
           "armor": 19543.7,
           "magic_defense": 24427,
-          "magical_crit_hit_chance": 5418,
+          "magical_crit_hit_chance": 8378,
           "crushing": 11840
         },
         "talisman_of_pain": {
@@ -37,7 +37,7 @@
           "magic_attack": 170663,
           "armor": 19543.7,
           "magic_defense": 22427,
-          "magical_crit_hit_chance": 12018,
+          "magical_crit_hit_chance": 14978,
           "crushing": 19840
         }
       },
@@ -179,17 +179,18 @@
             "physical_attack": 1365
           }
         },
+         {
+          "name": "Angel Skin",
+          "stat": "Health",
+          "bonus": 106645
+        },
         {
           "name": "Blazing Skin+",
           "stat": "Magic Attack",
           "bonus": 21300,
           "is_skin_plus": true
         },
-        {
-          "name": "Angel Skin",
-          "stat": "Health",
-          "bonus": 106645
-        },
+       
         {
           "name": "Inner Demons Skin+",
           "stat": "Crushing",
@@ -197,6 +198,11 @@
           "level": 60,
           "is_skin_plus": true,
           "total_skin_stones": 50410
+        },
+        {
+          "name": "Crimson Petals Skin",
+          "stat": "Magical Crit Hit Chance",
+          "bonus": 2960
         }
       ],
       "artifacts": [
