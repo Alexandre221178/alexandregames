@@ -3,6 +3,8 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+     { date:'2026-08-21', type:'special', mission:'3-13', note:'until|2026-08-31T01:00:00Z',
+    rewards:['artifact-chest-key x5', 'adventure-coin x1000', 'energy x20'] },
   { date:'2026-08-21', type:'daily', mission:'3-5', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
     { date:'2026-08-20', type:'hub', code:'INNERDEMON', note:'until|2026-08-31T01:00:00Z',
