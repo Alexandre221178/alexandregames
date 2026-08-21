@@ -1,4 +1,4 @@
-/* HWDE Daily Gifts Data  - npm run update-gifts-hwde
+/* HWDE Daily Gifts Data  -  npm run update-gifts-hwde
 
 // ── August #, 2026 ─────────────────────────────
    { date:'2026-08-##', type:'link', giftId:'######', note:'level',
