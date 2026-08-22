@@ -361,8 +361,9 @@
 
         var panel = document.createElement('div');
         panel.dir = content.direction;
-        panel.style.cssText = 'position:fixed;bottom:0;left:20px;right:20px;background:#111;color:#fff;padding:15px;border-radius:10px;z-index:9999;font-size:14px;display:flex;flex-direction:column;align-items:center;gap:10px';
-
+        //  css da pagina de sugestão de tradução
+        panel.style.cssText = 'position:fixed;bottom:100px;left:20px;right:20px;background:#111;color:#fff;padding:15px;border-radius:10px;z-index:9999;font-size:14px;display:flex;flex-direction:column;align-items:center;gap:10px';
+//  css da pagina de sugestão de tradução
         var message = document.createElement('span');
         message.textContent = content.message;
 
