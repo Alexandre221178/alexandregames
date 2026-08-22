@@ -9,8 +9,10 @@
   // 2026-08-##── 2 Link Exclusivo Web/FB ──────────────────────────────
 { date:'2026-08-##', type:'link', giftLinkWeb:'https://herowars.me/#wb#', giftLinkFb:'https://herowars.me/#fb#',
  note:'until|2026-08-##T02:00:00Z', rewards:['energy x500'] },
-https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=TUldKRkhcC
+https://herowars.me/4xht5dK
 */window.HWDE_GIFTS = [
+  
+
  { date:'2026-08-21', type:'link', giftId:'a04af1f68ae1f25f69bbb6c92a6b138d', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
    
@@ -291,8 +293,9 @@ link type  : { date:'YYYY-MM-DD', type:'link',  giftId:'...', note:'until|YYYY-M
 ###################################################################################
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 
-// ── August #, 2026 ──────────────────────────────
-{ date:'2026-08-##', type:'link', giftId:'#####', note:'until|2026-07-##T02:00:00Z',
+ 
+// ── daily web energy for web/fb ──────────────────────────────
+{ date:'2026-08-##', type:'link', giftId:'#####', note:'until|2026-##-##T02:00:00Z',
   rewards:['energy x500'] },
 
 *OBRIGARORIO MANTER HTTP:// PARA OS LINKS ABAIXO WEB/FB
