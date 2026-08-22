@@ -2,6 +2,15 @@
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
     {
+   link: "/hero-wars-dominion-era/events-special-hwde/alecto-valdur-guide-en.html",
+    src500: "../../hero-wars-dominion-era/images/events-special/f2p-tips-event/alecto-and-valdur-f2p-500px.webp",
+  src400: "../../hero-wars-dominion-era/images/events-special/f2p-tips-event/alecto-and-valdur-f2p-400px.webp",
+  alt: "Alecto & Valdur f2p Tips for Hero Wars: Dominion Era",
+  title: "Alecto & Valdur f2p Tips for Hero Wars: Dominion Era.",
+  strong: "Guide F2P: Alecto & Valdur Event - Hero Wars: Dominion Era",
+  updated: "Updated: August, 2026."
+},
+    {
   link: "../../hero-wars-dominion-era/titans/alecto-en.html",
   src500: "../../hero-wars-dominion-era/images/titans-hwde/alecto/alecto-500px.webp",
   src400: "../../hero-wars-dominion-era/images/titans-hwde/alecto/alecto-400px.webp",
