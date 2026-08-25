@@ -3,6 +3,7 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+{ date:'2026-08-25', code:'EVASEASON', expires:'2026-08-31', rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
   { date:'2026-08-25', type:'daily', mission:'3-4', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-08-24', type:'daily', mission:'2-3', note:'daily|80',
