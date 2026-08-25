@@ -116,6 +116,9 @@ window.HWA_GIFTS = [
 ];
 
 /* Templates
+{ date:'2026-##-##', type:'hub', code:'######', expires:'2026-##-##', rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
+
+
    { date:'YYYY-MM-DD', type:'hub', code:'CODE', note:'hub24h', rewards:['preset x5'] },
    { date:'YYYY-MM-DD', type:'hub', code:'CODE', note:'until|DATETIME', rewards:['preset x5'] },
    { date:'YYYY-MM-DD', type:'special', mission:'X-X', note:'until|DATETIME', rewards:['preset x5'] },
