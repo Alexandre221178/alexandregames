@@ -11,6 +11,8 @@
  note:'until|2026-08-##T02:00:00Z', rewards:['energy x500'] },
 
 */window.HWDE_GIFTS = [
+     { date:'2026-08-26', type:'link', giftId:'5d2a12c298af5d66d00ed3437f66255f', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
     { date:'2026-08-25', type:'link', giftId:'7fbb41a1123bf4ceefe0be65bda1d24f', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
     { date:'2026-08-24', type:'link', giftId:'f0fb2051377eb03357ef3b0075c2a554', note:'level',
