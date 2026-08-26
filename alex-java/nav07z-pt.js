@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
        
         </div>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-review-pt-hwa.html">🎨 Análises, Dicas e Estratégias</a>
-        <a href="https://alexandregames.com/Hero%20Wars/Guia%20de%20Titans.html">⚔️ Guia de Titãs</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/titans-guide-hwa-pt.html">⚔️ Guia de Titãs</a>
         <br><br><br><br>
                 </div>  
             </div>           

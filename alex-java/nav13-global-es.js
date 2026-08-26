@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-review-en-hwa.html">🎨 Consejos de Eventos y Reseñas</a>
         <a href="https://alexandregames.com/hero-wars-alliance/event-special-hwa/pallant-adventure-shop-en.html">🧭 Guía de la Tienda de Temporada - Elarite Heat</a>
-        <a href="https://alexandregames.com/Hero%20Wars%20English/Titans%20Guide%20Hero%20Wars.html">⚔️ Guía de Titanes</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/titans-guide-hwa-en.html">⚔️ Guía de Titanes</a>
         <br><br><br><br>
     </div>
 </div>  

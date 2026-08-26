@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
       
             </div>
         <a href="https://alexandregames.com/hero-wars-alliance/event-special-hwa/pallant-adventure-shop-en.html">🧭 Season Shop Guide - Elarite Heat</a>
-        <a href="https://alexandregames.com/Hero%20Wars%20English/Titans%20Guide%20Hero%20Wars.html">⚔️ Titans Guide</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/titans-guide-hwa-en.html">⚔️ Titans Guide</a>
        
         <br><br><br><br>
     </div>

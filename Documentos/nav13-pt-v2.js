@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-pve-best-teams-pt.html">Melhores equipes para Rally e Monstro</a>
         </div>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-review-pt-hwa.html">🎨 Análises, Dicas e Estratégias</a>
-        <a href="https://alexandregames.com/Hero%20Wars/Guia%20de%20Titans.html">⚔️ Guia de Titãs</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/titans-guide-hwa-pt.html">⚔️ Guia de Titãs</a>
     
     
         
