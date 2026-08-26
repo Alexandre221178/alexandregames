@@ -16,6 +16,7 @@
 "update-heroes-guide-hwa-hwa": "node hero-wars-alliance/update-data-menu-hwa.js menu-hwa heroes-guide-hwa",
 "update-calendar-hwa": "node hero-wars-alliance/update-data-menu-hwa.js menu-hwa calendar-hwa",
 "update-realm-tips-and-guides-hwa": "node hero-wars-alliance/update-data-menu-hwa.js menu-hwa realm-tips-and-guides",
+"update-titans-guide-hwa-hwa": "node hero-wars-alliance/update-data-menu-hwa.js menu-hwa titans-guide-hwa",
 
          
 
