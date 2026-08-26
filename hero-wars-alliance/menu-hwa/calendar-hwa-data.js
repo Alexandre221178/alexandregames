@@ -1231,7 +1231,7 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
   noStrip: true,
   extra: [
 {
-  titles: { en: "---", pt: "---", de: "---", es: "---", fr: "---", ja: "---" },
+  titles: { en: "&nbsp;", pt: "&nbsp;", de: "&nbsp;", es: "&nbsp;", fr: "&nbsp;", ja: "&nbsp;" },
   labelOnly: true
 },  
      {
@@ -1240,9 +1240,42 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
   noStrip: true
 },
 
+
+
    ]
   },
 
+  {
+    weekday: "Cleaver Guide",
+    date: "",
+    image: "../../imagens/image-shared/cleaver-300px.webp",
+    alt: "Cleaver Guide",
+    titles: { en: "🦸 Cleaver Guide", pt: "🦸 Guia da Cleaver", de: "🦸 Cleaver-Leitfaden", es: "🦸 Guía de Cleaver", fr: "🦸 Guide de Cleaver", ja: "🦸 クリーバー ガイド" }, 
+ links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
+  noStrip: true,
+  extra: [
+{
+titles: { en: "&nbsp;", pt: "&nbsp;", de: "&nbsp;", es: "&nbsp;", fr: "&nbsp;", ja: "&nbsp;" },
+  labelOnly: true
+},       
+   ]
+  },
+
+   {
+    weekday: "Peech Guide",
+    date: "",
+    image: "../../imagens/image-shared/peech-300px.webp",
+    alt: "Peech Guide",
+   titles: { en: "🦸‍♀️ Peech Guide", pt: "🦸‍♀️ Guia da Peech", de: "🦸‍♀️ Peech-Leitfaden", es: "🦸‍♀️ Guía de Peech", fr: "🦸‍♀️ Guide de Peech", ja: "🦸‍♀️ ピーチ ガイド" }, 
+ links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", de: "../../hero-wars-alliance/characters-guide/peech-de.html", es: "../../hero-wars-alliance/characters-guide/peech-es.html", fr: "", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", ja: "../../hero-wars-alliance/characters-guide/peech-ja.html" },
+  noStrip: true,
+  extra: [
+{
+titles: { en: "&nbsp;", pt: "&nbsp;", de: "&nbsp;", es: "&nbsp;", fr: "&nbsp;", ja: "&nbsp;" },
+  labelOnly: true
+},       
+   ]
+  },
 
 
 

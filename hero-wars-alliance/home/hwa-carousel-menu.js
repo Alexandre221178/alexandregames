@@ -1,6 +1,15 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
+    {
+      link: "/hero-wars-alliance/characters-guide/peech-en.html",
+      src500: "/hero-wars-alliance/images/hero/peech/peech-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/peech/peech-400px.webp",
+      alt: "Peech Guide for Hero Wars Alliance",
+      title: "Peech Guide for Hero Wars Alliance",
+      strong: "Guide New Skin+: Peech for Hero Wars Alliance",
+      updated: "Updated: August, 2026."
+    },   
      {
       link: "/hero-wars-alliance/event-special-hwa/pallant-adventure-shop-en.html",
       src500: "/hero-wars-alliance/images/events-special-hwa/pallant-adventure-shop/event-500px.webp",
