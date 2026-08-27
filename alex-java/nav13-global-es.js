@@ -158,14 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="https://alexandregames.com/Hero%20Wars/articles-herowars/tierlist-en-pvp-herowars.html">🏆 Mejor Tier List</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-best-teams-en-hwa.html">👥 Guía de Mejores Equipos</a>
         <a href="https://alexandregames.com/hero-wars-alliance/guide/counter-en-herowarsalliance.html">🎯 Guía de Counters</a>
-        <a class="expandable-menu" onclick="toggleSubmenu(event, 'realm')">🏰 Reino</a>
-        <div id="realm" class="submenu-items">
-            <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-es.html">Guía Completa del Reino</a>
-            <a href="https://alexandregames.com/hero-wars-alliance/tier-list-hwa/realm-tier-list-es.html">Tier List del Reino</a>
-            <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-pve-best-teams-es.html">Mejores equipos Rally y Monstruo</a>
-            <a href="https://alexandregames.com/hero-wars-alliance/guide/realm-brown-squares-map-es.html">Cuadrados Marrones: Qué Significan</a>
-            <a href="https://alexandregames.com/hero-wars-alliance/guide/fort-guide-realm-es.html">Guía de Fuertes del Reino</a>
-        </div>
+        <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/realm-tips-and-guides-es.html">🏰Consejos y Guías Completas del Reino</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-review-en-hwa.html">🎨 Consejos de Eventos y Reseñas</a>
         <a href="https://alexandregames.com/hero-wars-alliance/event-special-hwa/pallant-adventure-shop-en.html">🧭 Guía de la Tienda de Temporada - Elarite Heat</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/titans-guide-hwa-es.html">⚔️ Guía de Titanes</a>
