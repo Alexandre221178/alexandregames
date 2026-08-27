@@ -3,6 +3,7 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+{ date:'2026-08-27', code:'EVASTREAM', expires:'2026-08-30', rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
   { date:'2026-08-27', type:'daily', mission:'3-7', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 { date:'2026-08-26', type:'daily', mission:'2-11', note:'daily|80',
