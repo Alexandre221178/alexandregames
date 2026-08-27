@@ -1,0 +1,241 @@
+{
+    "game": "Hero Wars Alliance",
+    "heroes": [
+        {
+            "id": "eva",
+            "name": "Eva",
+            "gender": "female",
+            "eva_description": "An incredibly powerful Marksman who deals massive damage, efficiently takes down both close and distant targets, and makes allied Marksmen even stronger.",
+            "role": ["Marksman"],
+            "main_class": "Marksman",
+            "position": "Back Line",
+            "level": 120,
+            "main_stat": "Agility",
+            "equipment_rank": 16,
+            "way": "Way of Progress",
+            "crowd_control_(cc)": null,
+            "damage_output": null,
+            "team_synergy": null,
+            "self_sufficiency": null,
+            "hydra_tier_list": null,
+            "hero_tier_list": null,
+            "best_synergy": "Nebula, Isaac, Judge, Julius, and all Marksmen",
+            "strong_against": ["Electra", "Byrna", "High-Health Heroes", "Tanks", "Back Line Heroes"],
+            "relic_max_level": {
+                "health": 290824,
+                "physical_attack": 37976
+            },
+            "stats": {
+                "max_with_talisman_of_candidate": {
+                    "agility": 15547,
+                    "intelligence": 2046,
+                    "strength": 2771,
+                    "health": 614927,
+                    "physical_attack": 109614,
+                    "magic_attack": 6138,
+                    "physical_armor": 15967,
+                    "magical_armor": 3879,
+                    "armor_penetration": 34438,
+                    "critical_hit_chance": 10189,
+                    "crushing": 7307
+                }
+            },
+            "talisman_details": {
+                "talisman_of_candidate": {
+                    "coin_talisman": 0,
+                    "display_name": "Talisman of Candidate",
+                    "border": {
+                        "level": 50,
+                        "main_stat": "Agility",
+                        "main_stat_value": 2000,
+                        "derived": {
+                            "physical_attack": 6000,
+                            "physical_armor": 2000
+                        }
+                    },
+                    "rerolls": [
+                        { "stat": "splittingPhysicalArmor", "value": 6600 },
+                        { "stat": "splittingPhysicalArmor", "value": 6600 },
+                        { "stat": "splittingPhysicalArmor", "value": 6600 }
+                    ]
+                }
+            },
+            "skills": [
+                {
+                    "id": 1,
+                    "variant": "base",
+                    "level": 120,
+                    "name": "Impossible Shot",
+                    "type": ["Physical Damage"],
+                    "description": "Aims for 3 seconds, then fires at the nearest enemy, dealing physical damage plus extra physical damage equal to 25% of the target's Max Health.",
+                    "aim_duration_seconds": 3,
+                    "physical_damage": 249228,
+                    "damage_formula_note": "Depends on Physical Attack",
+                    "extra_physical_damage_target_max_health_percent": 25,
+                    "tip": "Eva's first skill takes time to charge, but it is well worth the wait. She deals massive damage based on the enemy's maximum Health.",
+                    "great_against": ["Electra"]
+                },
+                {
+                    "id": 1,
+                    "variant": "legendary",
+                    "relic_level": 10,
+                    "name": "Impossible Shot (enhancement)",
+                    "type": ["Physical Damage"],
+                    "description": "Now deals more extra physical damage equal to 50% of the target's Max Health.",
+                    "extra_physical_damage_target_max_health_percent": 50,
+                    "relic_stats": { "health": 53269, "physical_attack": 6956 }
+                },
+                {
+                    "id": 2,
+                    "variant": "base",
+                    "level": 120,
+                    "name": "Focusing Scope",
+                    "type": ["Physical Damage", "Mark", "Shared Damage"],
+                    "description": "Attacks the farthest enemy and applies the Marked effect to them for 9.0 seconds. While Marked is active, the target additionally takes a portion of the damage dealt by allied Marksmen to other Heroes.",
+                    "physical_damage": 74768,
+                    "damage_formula_note": "Depends on Physical Attack",
+                    "marked_duration_seconds": 9,
+                    "shared_damage_percent": 50,
+                    "tip": "A precise shot at the farthest enemy. After that, all of Eva's attacks and attacks from other Marksmen also deal damage to the target.",
+                    "great_with": ["Marksmen"]
+                },
+                {
+                    "id": 3,
+                    "variant": "base",
+                    "level": 100,
+                    "name": "Piercing Shot",
+                    "type": ["Physical Damage"],
+                    "description": "Aims and fires at all enemies in front of her.",
+                    "physical_damage": 91210,
+                    "damage_formula_note": "Depends on Physical Attack"
+                },
+                {
+                    "id": 3,
+                    "variant": "legendary",
+                    "relic_level": 20,
+                    "name": "Piercing Shot (enhancement)",
+                    "type": ["Energy Recovery"],
+                    "description": "Now restores 30 Energy for each enemy hit by this skill.",
+                    "energy_restored_per_enemy": 30,
+                    "relic_stats": { "health": 146854, "physical_attack": 19176 }
+                },
+                {
+                    "id": 4,
+                    "variant": "base",
+                    "level": 90,
+                    "name": "Marksmen Unity",
+                    "type": ["Passive", "Damage Boost"],
+                    "description": "Increases the damage dealt by Eva and all allied Marksmen. The bonus scales with the distance to the target and can reach up to 400% of the original damage.",
+                    "maximum_damage_increase_percent": 400,
+                    "note": "The chance for this skill to trigger is reduced if the Marksman's level is higher than 120. Distance is calculated separately for each allied Marksman.",
+                    "tip": "The farther the target, the higher the damage. This also applies to allied Marksmen.",
+                    "great_with": ["Keira", "Daredevil", "Fox", "Ginger", "Dante", "Dark Star", "Artemis", "Jhu", "Astrid", "Isaac", "Cascade", "Lara Croft"]
+                },
+                {
+                    "id": 5,
+                    "variant": "legendary",
+                    "relic_level": 1,
+                    "name": "Antivirus",
+                    "type": ["Cleanse", "Control Immunity"],
+                    "description": "Every 8 seconds, Eva gains an effect that removes all control effects and prevents new control effects from being applied for 5.0 seconds.",
+                    "cooldown_seconds": 8,
+                    "control_immunity_duration_seconds": 5,
+                    "relic_stats": { "health": 28794, "physical_attack": 3760 }
+                },
+                {
+                    "id": 6,
+                    "variant": "legendary",
+                    "relic_level": 30,
+                    "name": "Explosive Payload",
+                    "type": ["Physical Damage"],
+                    "description": "Whenever Eva deals damage to a target, it is increased by 10% of the target's Max Health. Does not affect damage over time or shared damage.",
+                    "extra_physical_damage_target_max_health_percent": 10,
+                    "exclusions": ["Damage over time", "Shared damage"],
+                    "relic_stats": { "health": 290824, "physical_attack": 37976 }
+                }
+            ],
+            "realm": {
+                "troop_buff": "Marksmen",
+                "realm_buff": "Attack/Defense 120%",
+                "skills": []
+            },
+            "skins": [
+                {
+                    "name": "Default",
+                    "stat": "Agility",
+                    "cost": "30825 Agility skin stones",
+                    "bonus": 1365,
+                    "derived": { "physical_attack": 4095, "physical_armor": 1365 }
+                },
+                {
+                    "name": "Singularity",
+                    "stat": "Health",
+                    "bonus": 106645,
+                    "cost": "50410 Agility skin stones",
+                    "level": 60
+                }
+            ],
+            "artifacts": [
+                {
+                    "name": "Ruiner",
+                    "slot": "Weapon",
+                    "bigStar": true,
+                    "evolve": 6,
+                    "level": 100,
+                    "activation_chance": "100%",
+                    "effect": "Critical hit chance +8898",
+                    "note": "Activates with the ultimate skill."
+                },
+                {
+                    "name": "Prime Access",
+                    "slot": "Book",
+                    "bigStar": true,
+                    "evolve": 6,
+                    "level": 100,
+                    "effect": "Critical hit chance +2967, Armor penetration +5340"
+                },
+                {
+                    "name": "Ring of Agility",
+                    "slot": "Ring",
+                    "bigStar": true,
+                    "evolve": 6,
+                    "level": 100,
+                    "agility": 3990,
+                    "derived": { "physical_attack": 11970, "physical_armor": 3990 }
+                }
+            ],
+            "glyphs": {
+                "class": "Marksman",
+                "runesphere": 0,
+                "glyphs_level": 80,
+                "list": [
+                    { "name": "Physical attack", "level": 80, "bonus": 8340 },
+                    { "name": "Armor penetration", "level": 80, "bonus": 12850 },
+                    { "name": "Critical hit chance", "level": 80, "bonus": 4170 },
+                    { "name": "Health", "level": 80, "bonus": 122800 },
+                    {
+                        "name": "Agility",
+                        "level": 80,
+                        "bonus": 2110,
+                        "derived": { "physical_attack": 6330, "physical_armor": 2110 }
+                    }
+                ]
+            },
+            "gift_of_the_elements": {
+                "level": 30,
+                "bonuses": { "strength": 360, "agility": 720, "intelligence": 360 }
+            },
+            "best_teams": [
+                ["Eva", "Isaac", "Nebula", "Judge", "Julius"],
+                ["Eva", "Lara Croft", "Isaac", "Judge", "Julius"],
+                ["Eva", "Polaris", "Isaac", "Judge", "Julius"]
+            ],
+            "notes": [
+                "Eva shines in Progress teams: shields, debuff removal, and healing help her stay in battle longer, while Julius and Nebula make her even faster.",
+                "Eva works well with all Marksmen: she increases their damage, while Focusing Scope transfers part of their damage to a distant target.",
+                "Eva is especially dangerous against the closest and farthest enemies. Tanks usually stand at the front and take percentage-based damage, while distant enemies become priority targets for Eva and allied Marksmen.",
+                "Hydra interaction requires testing: Hydras are immune to penalties, but Eva's extra physical damage based on the target's Max Health is not explicitly described as a penalty."
+            ]
+        }
+    ]
+}
