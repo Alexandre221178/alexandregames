@@ -11,6 +11,8 @@
  note:'until|2026-08-##T02:00:00Z', rewards:['energy x500'] },
 https://herowars.me/4ixcHkE
 */window.HWDE_GIFTS = [
+ { date:'2026-08-28', type:'link', giftId:'1a86ee41b6920eb2798953eeb88046ef', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },   
 // 2026-08-28── 2 Link Exclusivo Web/FB ──────────────────────────────
 { date:'2026-08-28', type:'link', giftLinkWeb:'https://herowars.me/4gwlK2M', giftLinkFb:'https://herowars.me/4ch7dqu',
  note:'until|2026-09-01T02:00:00Z', rewards:['energy-crystal x20', 'valor-coin x8500', 'sapphire-medallion x2' ] },
