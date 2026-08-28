@@ -2,6 +2,15 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
+      link: "/hero-wars-alliance/characters-guide/eva-en.html",
+      src500: "/hero-wars-alliance/images/hero/eva/eva-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/eva/eva-400px.webp",
+      alt: "Eva Guide for Hero Wars Alliance",
+      title: "Eva Guide for Hero Wars Alliance",
+      strong: "Guide: Eva for Hero Wars Alliance",
+      updated: "Updated: August, 2026."
+    },   
+    {
       link: "/hero-wars-alliance/characters-guide/peech-en.html",
       src500: "/hero-wars-alliance/images/hero/peech/peech-500px.webp",
       src400: "/hero-wars-alliance/images/hero/peech/peech-400px.webp",

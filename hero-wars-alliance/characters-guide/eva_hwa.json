@@ -226,9 +226,9 @@
                 "bonuses": { "strength": 360, "agility": 720, "intelligence": 360 }
             },
             "best_teams": [
-                ["Eva", "Isaac", "Nebula", "Judge", "Julius"],
-                ["Eva", "Lara Croft", "Isaac", "Judge", "Julius"],
-                ["Eva", "Polaris", "Isaac", "Judge", "Julius"]
+                ["Eva(talisman1)", "Isaac(talisman1)", "Nebula(talisman1)", "Judge(talisman1)", "Julius(talisman2)"],
+                ["Eva(talisman1)", "Lara Croft(talisman1)", "Isaac(talisman1)", "Judge(talisman1)", "Julius(talisman2)"],
+                ["Eva(talisman1)", "Polaris(talisman1)", "Isaac(talisman1)", "Judge(talisman1)", "Julius(talisman2)"]
             ],
             "notes": [
                 "Eva shines in Progress teams: shields, debuff removal, and healing help her stay in battle longer, while Julius and Nebula make her even faster.",
