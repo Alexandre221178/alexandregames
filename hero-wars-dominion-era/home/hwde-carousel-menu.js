@@ -10,15 +10,6 @@
   strong: "Guide F2P: Alecto & Valdur Event - Hero Wars: Dominion Era",
   updated: "Updated: August, 2026."
 },
-    {
-  link: "../../hero-wars-dominion-era/titans/alecto-en.html",
-  src500: "../../hero-wars-dominion-era/images/titans-hwde/alecto/alecto-500px.webp",
-  src400: "../../hero-wars-dominion-era/images/titans-hwde/alecto/alecto-400px.webp",
-  alt: "Alecto for Hero Wars: Dominion Era",
-  title: "Alecto for Hero Wars: Dominion Era.",
-  strong: "Guide: Alecto - Hero Wars: Dominion Era",
-  updated: "Updated: August, 2026."
-},
 {
   link: "../../hero-wars-dominion-era/titans/valdur-en.html",
   src500: "../../hero-wars-dominion-era/images/titans-hwde/valdur/valdur-500px.webp",
@@ -28,6 +19,25 @@
   strong: "Guide: Valdur - Hero Wars: Dominion Era",
   updated: "Updated: August, 2026."
 },
+{
+      link: "/hero-wars-dominion-era/events-special-hwde/valdur-event-missions-en.html",
+      src500: "/hero-wars-dominion-era/images/events-special/valdur-event/valdur-event-missions-500px.webp",
+      src400: "/hero-wars-dominion-era/images/events-special/valdur-event/valdur-event-missions-400px.webp",
+      alt: "Valdur - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era",
+      title: "Valdur - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era.",
+      strong: "Guide: Valdur Event (Missions) - Hero Wars: Dominion Era",
+      updated: "Updated: August, 2026."
+    },
+    {
+  link: "../../hero-wars-dominion-era/titans/alecto-en.html",
+  src500: "../../hero-wars-dominion-era/images/titans-hwde/alecto/alecto-500px.webp",
+  src400: "../../hero-wars-dominion-era/images/titans-hwde/alecto/alecto-400px.webp",
+  alt: "Alecto for Hero Wars: Dominion Era",
+  title: "Alecto for Hero Wars: Dominion Era.",
+  strong: "Guide: Alecto - Hero Wars: Dominion Era",
+  updated: "Updated: August, 2026."
+},
+
     {
       link: "/hero-wars-dominion-era/events-special-hwde/alecto-event-missions-en.html",
       src500: "/hero-wars-dominion-era/images/events-special/alecto-event/alecto-event-missions-500px.webp",
@@ -37,15 +47,7 @@
       strong: "Guide: Alecto Event (Missions) - Hero Wars: Dominion Era",
       updated: "Updated: August, 2026."
     },
-    {
-      link: "/hero-wars-dominion-era/events-special-hwde/valdur-event-missions-en.html",
-      src500: "/hero-wars-dominion-era/images/events-special/valdur-event/valdur-event-missions-500px.webp",
-      src400: "/hero-wars-dominion-era/images/events-special/valdur-event/valdur-event-missions-400px.webp",
-      alt: "Valdur - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era",
-      title: "Valdur - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era.",
-      strong: "Guide: Valdur Event (Missions) - Hero Wars: Dominion Era",
-      updated: "Updated: August, 2026."
-    },
+    
     {
       link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
       src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
