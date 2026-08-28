@@ -22,8 +22,8 @@
             "best_synergy": "Nebula, Isaac, Judge, Julius, and all Marksmen",
             "strong_against": ["Electra", "Byrna", "High-Health Heroes", "Tanks", "Back Line Heroes"],
             "relic_max_level": {
-                "health": 290824,
-                "physical_attack": 37976
+                "health": 215429,
+                "physical_attack": 43001
             },
             "stats": {
                 "max_with_talisman_of_candidate": {
@@ -83,7 +83,7 @@
                     "type": ["Physical Damage"],
                     "description": "Now deals more extra physical damage equal to 50% of the target's Max Health.",
                     "extra_physical_damage_target_max_health_percent": 50,
-                    "relic_stats": { "health": 53269, "physical_attack": 6956 }
+                    "relic_stats": { "health": 39459, "physical_attack": 7876 }
                 },
                 {
                     "id": 2,
@@ -117,7 +117,7 @@
                     "type": ["Energy Recovery"],
                     "description": "Now restores 30 Energy for each enemy hit by this skill.",
                     "energy_restored_per_enemy": 30,
-                    "relic_stats": { "health": 146854, "physical_attack": 19176 }
+                    "relic_stats": { "health": 108779, "physical_attack": 21711 }
                 },
                 {
                     "id": 4,
@@ -140,7 +140,7 @@
                     "description": "Every 8 seconds, Eva gains an effect that removes all control effects and prevents new control effects from being applied for 5.0 seconds.",
                     "cooldown_seconds": 8,
                     "control_immunity_duration_seconds": 5,
-                    "relic_stats": { "health": 28794, "physical_attack": 3760 }
+                    "relic_stats": { "health": 21329, "physical_attack": 4257 }
                 },
                 {
                     "id": 6,
@@ -151,7 +151,7 @@
                     "description": "Whenever Eva deals damage to a target, it is increased by 10% of the target's Max Health. Does not affect damage over time or shared damage.",
                     "extra_physical_damage_target_max_health_percent": 10,
                     "exclusions": ["Damage over time", "Shared damage"],
-                    "relic_stats": { "health": 290824, "physical_attack": 37976 }
+                    "relic_stats": { "health": 215429, "physical_attack": 43001 }
                 }
             ],
             "realm": {
