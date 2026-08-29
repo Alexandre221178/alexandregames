@@ -3,6 +3,8 @@
  titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
   labelOnly: true
 },
+hero 🦸masculino e 🦸‍♀️feminino
+skin 🥋🧥masculino skin 👗feminino 
 {
   titles: { en: "", pt: "", de: "", es: "", fr: "", ja: "" },
   labelOnly: true
@@ -48,253 +50,13 @@ window.CALENDAR_DATA = [
 
 {
   weekday: "Monday",
-  date: "August, 03",
-    image: "../../imagens/image-shared/pallant-300px.webp",
-    alt: "Ancient Awakening Event",
-   titles: {  en: "🌋 Ancient Awakening Event", de: "🌋 Ereignis „Uraltes Erwachen“", es: "🌋 Evento Despertar Ancestral", fr: "🌋 Événement Éveil Ancestral", pt: "🌋 Evento Despertar Ancestral", ja: "🌋 古代覚醒イベント"},
-    links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-main-event.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-    extra: [
-     
-{
-titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogênitos", de: "👑 Ereignis „Kraft der Erstgeborenen“", es: "👑 Evento Fuerza de los Primogénitos", fr: "👑 Événement Force des Premiers-Nés", ja: "👑 始祖の力イベント" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},  
-{
-  titles: { en: "⚖️Unstable Equilibrium Guide", pt: "⚖️Guia da Equilíbrio Instável", de: "⚖️Leitfaden für instabile Gleichgewicht", es: "⚖️Guía del Equilibrio Inestable", fr: "⚖️Guide de l'Équilibre Instable", ja: "⚖️不安定均衡ガイド" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},  
-     
-      {
-  titles: { en: "🦸Pallant Guide", pt: "🦸Guia do Pallant", de: "🦸Pallant Leitfaden", es: "🦸Guía de Pallant", fr: "🦸Guide de Pallant", ja: "🦸パラント ガイド" },
-  links: { en: "../../hero-wars-alliance/titans-guide/pallant-en.html", pt: "../../hero-wars-alliance/titans-guide/pallant-pt.html", de: "../../hero-wars-alliance/titans-guide/pallant-de.html", es: "../../hero-wars-alliance/titans-guide/pallant-es.html", fr: "../../hero-wars-alliance/titans-guide/pallant-fr.html", ja: "../../hero-wars-alliance/titans-guide/pallant-ja.html" },
-  noStrip: true
-},
-    ]
-  },
-  {
-    weekday: "Tuesday",
-   date: "August, 04",
-    image: "../../imagens/image-shared/pallant-300px.webp",
-    alt: "Ancient Awakening Event",
-   titles: {  en: "🌋 Ancient Awakening Event", de: "🌋 Ereignis „Uraltes Erwachen“", es: "🌋 Evento Despertar Ancestral", fr: "🌋 Événement Éveil Ancestral", pt: "🌋 Evento Despertar Ancestral", ja: "🌋 古代覚醒イベント"},
-    links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-main-event.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-    extra: [
-     
-{
-titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogênitos", de: "👑 Ereignis „Kraft der Erstgeborenen“", es: "👑 Evento Fuerza de los Primogénitos", fr: "👑 Événement Force des Premiers-Nés", ja: "👑 始祖の力イベント" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},  
-{
-  titles: { en: "⚖️Unstable Equilibrium Guide", pt: "⚖️Guia da Equilíbrio Instável", de: "⚖️Leitfaden für instabile Gleichgewicht", es: "⚖️Guía del Equilibrio Inestable", fr: "⚖️Guide de l'Équilibre Instable", ja: "⚖️不安定均衡ガイド" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},    
-      {
-  titles: { en: "🦸Pallant Guide", pt: "🦸Guia do Pallant", de: "🦸Pallant Leitfaden", es: "🦸Guía de Pallant", fr: "🦸Guide de Pallant", ja: "🦸パラント ガイド" },
-  links: { en: "../../hero-wars-alliance/titans-guide/pallant-en.html", pt: "../../hero-wars-alliance/titans-guide/pallant-pt.html", de: "../../hero-wars-alliance/titans-guide/pallant-de.html", es: "../../hero-wars-alliance/titans-guide/pallant-es.html", fr: "../../hero-wars-alliance/titans-guide/pallant-fr.html", ja: "../../hero-wars-alliance/titans-guide/pallant-ja.html" },
-  noStrip: true
-},
-    ]
-  },
-{
-  weekday: "Wednesday",
- date: "August, 05",
-    image: "../../imagens/image-shared/pallant-300px.webp",
-    alt: "Ancient Awakening Event",
-   titles: {  en: "🌋 Ancient Awakening Event", de: "🌋 Ereignis „Uraltes Erwachen“", es: "🌋 Evento Despertar Ancestral", fr: "🌋 Événement Éveil Ancestral", pt: "🌋 Evento Despertar Ancestral", ja: "🌋 古代覚醒イベント"},
-    links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-main-event.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-    extra: [
-     
-{
-titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogênitos", de: "👑 Ereignis „Kraft der Erstgeborenen“", es: "👑 Evento Fuerza de los Primogénitos", fr: "👑 Événement Force des Premiers-Nés", ja: "👑 始祖の力イベント" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},  
-{
-  titles: { en: "⚖️Unstable Equilibrium Guide", pt: "⚖️Guia da Equilíbrio Instável", de: "⚖️Leitfaden für instabile Gleichgewicht", es: "⚖️Guía del Equilibrio Inestable", fr: "⚖️Guide de l'Équilibre Instable", ja: "⚖️不安定均衡ガイド" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},   
-     
-      {
-  titles: { en: "🦸Pallant Guide", pt: "🦸Guia do Pallant", de: "🦸Pallant Leitfaden", es: "🦸Guía de Pallant", fr: "🦸Guide de Pallant", ja: "🦸パラント ガイド" },
-  links: { en: "../../hero-wars-alliance/titans-guide/pallant-en.html", pt: "../../hero-wars-alliance/titans-guide/pallant-pt.html", de: "../../hero-wars-alliance/titans-guide/pallant-de.html", es: "../../hero-wars-alliance/titans-guide/pallant-es.html", fr: "../../hero-wars-alliance/titans-guide/pallant-fr.html", ja: "../../hero-wars-alliance/titans-guide/pallant-ja.html" },
-  noStrip: true
-},
-    ]
-  },
-  {
-    weekday: "Thursday",
-   date: "August, 06",
-    image: "../../imagens/image-shared/pallant-300px.webp",
-    alt: "Ancient Awakening Event",
-  titles: {  en: "🌋 Ancient Awakening Event", de: "🌋 Ereignis „Uraltes Erwachen“", es: "🌋 Evento Despertar Ancestral", fr: "🌋 Événement Éveil Ancestral", pt: "🌋 Evento Despertar Ancestral", ja: "🌋 古代覚醒イベント"},
-    links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-main-event.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-    extra: [
-     
-{
-titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogênitos", de: "👑 Ereignis „Kraft der Erstgeborenen“", es: "👑 Evento Fuerza de los Primogénitos", fr: "👑 Événement Force des Premiers-Nés", ja: "👑 始祖の力イベント" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},  
-{
-  titles: { en: "⚖️Unstable Equilibrium Guide", pt: "⚖️Guia da Equilíbrio Instável", de: "⚖️Leitfaden für instabile Gleichgewicht", es: "⚖️Guía del Equilibrio Inestable", fr: "⚖️Guide de l'Équilibre Instable", ja: "⚖️不安定均衡ガイド" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-}, 
-     
-      {
-  titles: { en: "🦸Pallant Guide", pt: "🦸Guia do Pallant", de: "🦸Pallant Leitfaden", es: "🦸Guía de Pallant", fr: "🦸Guide de Pallant", ja: "🦸パラント ガイド" },
-  links: { en: "../../hero-wars-alliance/titans-guide/pallant-en.html", pt: "../../hero-wars-alliance/titans-guide/pallant-pt.html", de: "../../hero-wars-alliance/titans-guide/pallant-de.html", es: "../../hero-wars-alliance/titans-guide/pallant-es.html", fr: "../../hero-wars-alliance/titans-guide/pallant-fr.html", ja: "../../hero-wars-alliance/titans-guide/pallant-ja.html" },
-  noStrip: true
-},
-{
-titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
-links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
-},
-{
-titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
-links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
-},
-{
-titles: { en: "🟣Elemental Sphere Discount", pt: "🟣Desconto de Esferas Elementais", de: "🟣Rabatt auf Elementsphären", es: "🟣Descuento de Esferas Elementales", fr: "🟣Réduction sur les Sphères Élémentaires", ja: "🟣エレメンタルスフィア割引" },
-links: { en: "#section15", pt: "#section15", de: "#section15", es: "#section15", fr: "#section15", ja: "#section15" }
-},
-    ]
-  },
-  {
-    weekday: "Friday",
- date: "August, 07",
-    image: "../../imagens/image-shared/pallant-300px.webp",
-    alt: "Ancient Awakening Event",
-  titles: {  en: "🌋 Ancient Awakening Event", de: "🌋 Ereignis „Uraltes Erwachen“", es: "🌋 Evento Despertar Ancestral", fr: "🌋 Événement Éveil Ancestral", pt: "🌋 Evento Despertar Ancestral", ja: "🌋 古代覚醒イベント"},
-    links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-main-event.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-    extra: [
-     
-{
-titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogênitos", de: "👑 Ereignis „Kraft der Erstgeborenen“", es: "👑 Evento Fuerza de los Primogénitos", fr: "👑 Événement Force des Premiers-Nés", ja: "👑 始祖の力イベント" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},  
-{
-  titles: { en: "⚖️Unstable Equilibrium Guide", pt: "⚖️Guia da Equilíbrio Instável", de: "⚖️Leitfaden für instabile Gleichgewicht", es: "⚖️Guía del Equilibrio Inestable", fr: "⚖️Guide de l'Équilibre Instable", ja: "⚖️不安定均衡ガイド" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-}, 
-     
-      {
-  titles: { en: "🦸Pallant Guide", pt: "🦸Guia do Pallant", de: "🦸Pallant Leitfaden", es: "🦸Guía de Pallant", fr: "🦸Guide de Pallant", ja: "🦸パラント ガイド" },
-  links: { en: "../../hero-wars-alliance/titans-guide/pallant-en.html", pt: "../../hero-wars-alliance/titans-guide/pallant-pt.html", de: "../../hero-wars-alliance/titans-guide/pallant-de.html", es: "../../hero-wars-alliance/titans-guide/pallant-es.html", fr: "../../hero-wars-alliance/titans-guide/pallant-fr.html", ja: "../../hero-wars-alliance/titans-guide/pallant-ja.html" },
-  noStrip: true
-},
-{
-titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
-links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
-},
-{
-titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
-links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
-},
-{
-titles: { en: "🟣Elemental Sphere Discount", pt: "🟣Desconto de Esferas Elementais", de: "🟣Rabatt auf Elementsphären", es: "🟣Descuento de Esferas Elementales", fr: "🟣Réduction sur les Sphères Élémentaires", ja: "🟣エレメンタルスフィア割引" },
-links: { en: "#section15", pt: "#section15", de: "#section15", es: "#section15", fr: "#section15", ja: "#section15" }
-},
-
-    ]
-  },
-  {
-    weekday: "Saturday",
-  date: "August, 08",
-    image: "../../imagens/image-shared/pallant-300px.webp",
-    alt: "Ancient Awakening Event",
-   titles: {  en: "🌋 Ancient Awakening Event", de: "🌋 Ereignis „Uraltes Erwachen“", es: "🌋 Evento Despertar Ancestral", fr: "🌋 Événement Éveil Ancestral", pt: "🌋 Evento Despertar Ancestral", ja: "🌋 古代覚醒イベント"},
-    links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-main-event.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-    extra: [
-     
-{
-titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogênitos", de: "👑 Ereignis „Kraft der Erstgeborenen“", es: "👑 Evento Fuerza de los Primogénitos", fr: "👑 Événement Force des Premiers-Nés", ja: "👑 始祖の力イベント" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},  
-{
-  titles: { en: "⚖️Unstable Equilibrium Guide", pt: "⚖️Guia da Equilíbrio Instável", de: "⚖️Leitfaden für instabile Gleichgewicht", es: "⚖️Guía del Equilibrio Inestable", fr: "⚖️Guide de l'Équilibre Instable", ja: "⚖️不安定均衡ガイド" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},  
-     
-      {
-  titles: { en: "🦸Pallant Guide", pt: "🦸Guia do Pallant", de: "🦸Pallant Leitfaden", es: "🦸Guía de Pallant", fr: "🦸Guide de Pallant", ja: "🦸パラント ガイド" },
-  links: { en: "../../hero-wars-alliance/titans-guide/pallant-en.html", pt: "../../hero-wars-alliance/titans-guide/pallant-pt.html", de: "../../hero-wars-alliance/titans-guide/pallant-de.html", es: "../../hero-wars-alliance/titans-guide/pallant-es.html", fr: "../../hero-wars-alliance/titans-guide/pallant-fr.html", ja: "../../hero-wars-alliance/titans-guide/pallant-ja.html" },
-  noStrip: true
-},
-{
-titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
-links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
-},
-{
-  titles: { en: "🎁Heroic Chest Discount", pt: "🎁Desconto de Baús Heroicos", de: "🎁Rabatt auf Heroische Truhen", es: "🎁Descuento de Cajas Heroicas", fr: "🎁Réduction sur les Coffres Héroïques", ja: "🎁ヒーローの宝箱割引" },
-  links: { en: "#section16", pt: "#section16", de: "#section16", es: "#section16", fr: "#section16", ja: "#section16" }
-},
-{
-  titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
-  links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
-},
-
-
-    ]
-  },
-{
-  weekday: "Sunday",
- date: "August, 09",
-    image: "../../imagens/image-shared/pallant-300px.webp",
-    alt: "Ancient Awakening Event",
-   titles: {  en: "🌋 Ancient Awakening Event", de: "🌋 Ereignis „Uraltes Erwachen“", es: "🌋 Evento Despertar Ancestral", fr: "🌋 Événement Éveil Ancestral", pt: "🌋 Evento Despertar Ancestral", ja: "🌋 古代覚醒イベント"},
-    links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-main-event.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-    extra: [
-     
-{
-titles: { en: "👑 Firstborn Force Event", pt: "👑 Evento Força dos Primogênitos", de: "👑 Ereignis „Kraft der Erstgeborenen“", es: "👑 Evento Fuerza de los Primogénitos", fr: "👑 Événement Force des Premiers-Nés", ja: "👑 始祖の力イベント" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},  
-{
-  titles: { en: "⚖️Unstable Equilibrium Guide", pt: "⚖️Guia da Equilíbrio Instável", de: "⚖️Leitfaden für instabile Gleichgewicht", es: "⚖️Guía del Equilibrio Inestable", fr: "⚖️Guide de l'Équilibre Instable", ja: "⚖️不安定均衡ガイド" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-}, 
-     
-      {
-  titles: { en: "🦸Pallant Guide", pt: "🦸Guia do Pallant", de: "🦸Pallant Leitfaden", es: "🦸Guía de Pallant", fr: "🦸Guide de Pallant", ja: "🦸パラント ガイド" },
-  links: { en: "../../hero-wars-alliance/titans-guide/pallant-en.html", pt: "../../hero-wars-alliance/titans-guide/pallant-pt.html", de: "../../hero-wars-alliance/titans-guide/pallant-de.html", es: "../../hero-wars-alliance/titans-guide/pallant-es.html", fr: "../../hero-wars-alliance/titans-guide/pallant-fr.html", ja: "../../hero-wars-alliance/titans-guide/pallant-ja.html" },
-  noStrip: true
-},
-{
-titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
-links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
-},
-{
-  titles: { en: "🟡Summoning Sphere Discount", pt: "🟡Desconto de Esferas de Convocação", de: "🟡Rabatt auf Beschwörungssphären", es: "🟡Descuento de Esferas de Invocación", fr: "🟡éduction sur les Sphères d'Invocation", ja: "🟡召喚スフィア割引" },
-  links: { en: "#section13", pt: "#section13", de: "#section13", es: "#section13", fr: "#section13", ja: "#section13" }
-},
-{
-  titles: { en: "🎁Heroic Chest Discount", pt: "🎁Desconto de Baús Heroicos", de: "🎁Rabatt auf Heroische Truhen", es: "🎁Descuento de Cajas Heroicas", fr: "🎁Réduction sur les Coffres Héroïques", ja: "🎁ヒーローの宝箱割引" },
-  links: { en: "#section16", pt: "#section16", de: "#section16", es: "#section16", fr: "#section16", ja: "#section16" }
-},
-
-]
-},
-{
-  weekday: "Monday",
-  date: "August, 10",
+  date: "August, 31",
     image: "../../hero-wars-alliance/images/events/trade-routes/trade-routes-250px.webp",
     alt: "Trade Routes Events",
    titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" }, 
     extra: [
-     {
+      {
   titles: { en: "🛤️ Bountiful Roads", pt: "🛤️ Estradas Prósperas", de: "🛤️ Ertragreiche Straßen", es: "🛤️ Caminos Prósperos", fr: "🛤️ Routes Prospères", ja: "🛤️ 豊かな街道" },
   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
   noStrip: true
@@ -309,32 +71,22 @@ links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11",
   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",pt: "", de: "", es: "", fr: "",  ja: "" }, 
   noStrip: true
 },
- {
-      titles: { en: "📿 Cleaver - Relic Event", de: "📿 Cleaver - Relikt-Event", es: "📿 Cleaver - Evento de Reliquia", fr: "📿 Cleaver - Événement des Reliques", pt: "📿 Cleaver - Evento de Relíquia", ja: "📿 クリーバー - レリックイベント", },
-    links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
-  },
-   {
- titles: { en: "🦸 Cleaver Guide", pt: "🦸 Guia da Cleaver", de: "🦸 Cleaver-Leitfaden", es: "🦸 Guía de Cleaver", fr: "🦸 Guide de Cleaver", ja: "🦸 クリーバー ガイド" }, 
- links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
+      {
+  titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
+  links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
   noStrip: true
 },
-  {
-  titles: { en: "👗 Peech New Skin: Inner Demons", pt: "👗 Peech Nova Skin: Demônios Interiores", de: "👗 Peech Neue Skin: Innere Dämonen", es: "👗 Peech Nueva Skin: Demonios Interiores", fr: "👗 Peech Nouvelle Skin : Démons Intérieurs", ja: "👗 ピーチ 新スキン：インナーデーモン" },
-  links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html",pt: "", de: "", es: "", fr: "",  ja: "" }, 
-  noStrip: true
-},
-
     ]
   },
   {
     weekday: "Tuesday",
-   date: "August, 11",
+   date: "September, 01",
     image: "../../hero-wars-alliance/images/events/trade-routes/trade-routes-250px.webp",
     alt: "Trade Routes Events",
    titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
    links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
-   extra: [
-     {
+    extra: [
+      {
   titles: { en: "🛤️ Bountiful Roads", pt: "🛤️ Estradas Prósperas", de: "🛤️ Ertragreiche Straßen", es: "🛤️ Caminos Prósperos", fr: "🛤️ Routes Prospères", ja: "🛤️ 豊かな街道" },
   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
   noStrip: true
@@ -349,45 +101,24 @@ links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11",
   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",pt: "", de: "", es: "", fr: "",  ja: "" }, 
   noStrip: true
 },
-
-
  {
-      titles: { en: "📿 Cleaver - Relic Event", de: "📿 Cleaver - Relikt-Event", es: "📿 Cleaver - Evento de Reliquia", fr: "📿 Cleaver - Événement des Reliques", pt: "📿 Cleaver - Evento de Relíquia", ja: "📿 クリーバー - レリックイベント", },
-    links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
-  },
-  {
- titles: { en: "🦸 Cleaver Guide", pt: "🦸 Guia da Cleaver", de: "🦸 Cleaver-Leitfaden", es: "🦸 Guía de Cleaver", fr: "🦸 Guide de Cleaver", ja: "🦸 クリーバー ガイド" }, 
- links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
+  titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
+  links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
   noStrip: true
-},
-{
-titles: { en: "👗 Peech New Skin: Inner Demons", pt: "👗 Peech Nova Skin: Demônios Interiores", de: "👗 Peech Neue Skin: Innere Dämonen", es: "👗 Peech Nueva Skin: Demonios Interiores", fr: "👗 Peech Nouvelle Skin : Démons Intérieurs", ja: "👗 ピーチ 新スキン：インナーデーモン" },
-links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html",pt: "", de: "", es: "", fr: "",  ja: "" }, 
-noStrip: true
 },
 
-{
-  titles: { en: "🧙 Kendle Guide: 2nd Talisman", pt: "🧙 Guia da Kendle: 2º Talismã", de: "🧙 Kendle-Leitfaden: 2. Talisman", es: "🧙 Guía de Kendle: 2º Talismán", fr: "🧙 Guide de Kendle: 2ème Talisman", ja: "🧙 ケンドル ガイド: 2番目のタリスマン" },
- links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
-  noStrip: true
-},  
-{
-  titles: { en: "☯️All Talisman Guides", de: "☯️Alle Talisman Guides", es: "☯️Guía de Todos los Talismanes", fr: "☯️Tous les Guides des Talismans", pt: "☯️Guia de Todos os Talismãs", ja: "☯️すべてのタリスマンガイド" },
-  links: { en: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html", de: "../../hero-wars-alliance/guide/talisman-guide-hwa-de.html", es: "../../hero-wars-alliance/guide/talisman-guide-hwa-es.html", fr: "../../hero-wars-alliance/guide/talisman-guide-hwa-fr.html", pt: "../../hero-wars-alliance/guide/talisman-guide-hwa-pt.html", ja: "../../hero-wars-alliance/guide/talisman-guide-hwa-ja.html" },       
-  noStrip: true
-},  
 
     ]
   },
 {
   weekday: "Wednesday",
-  date: "August, 12",
+  date: "September, 02",
     image: "../../hero-wars-alliance/images/events/trade-routes/trade-routes-250px.webp",
     alt: "Trade Routes Events",
    titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
-    links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" }, 
+   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
     extra: [
-     {
+       {
   titles: { en: "🛤️ Bountiful Roads", pt: "🛤️ Estradas Prósperas", de: "🛤️ Ertragreiche Straßen", es: "🛤️ Caminos Prósperos", fr: "🛤️ Routes Prospères", ja: "🛤️ 豊かな街道" },
   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
   noStrip: true
@@ -403,43 +134,40 @@ noStrip: true
   noStrip: true
 },
  {
-      titles: { en: "📿 Cleaver - Relic Event", de: "📿 Cleaver - Relikt-Event", es: "📿 Cleaver - Evento de Reliquia", fr: "📿 Cleaver - Événement des Reliques", pt: "📿 Cleaver - Evento de Relíquia", ja: "📿 クリーバー - レリックイベント", },
-    links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
-  },
-  {
- titles: { en: "🦸 Cleaver Guide", pt: "🦸 Guia da Cleaver", de: "🦸 Cleaver-Leitfaden", es: "🦸 Guía de Cleaver", fr: "🦸 Guide de Cleaver", ja: "🦸 クリーバー ガイド" }, 
- links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
+  titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
+  links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
   noStrip: true
 },
-   {
-  titles: { en: "👗 Peech New Skin: Inner Demons", pt: "👗 Peech Nova Skin: Demônios Interiores", de: "👗 Peech Neue Skin: Innere Dämonen", es: "👗 Peech Nueva Skin: Demonios Interiores", fr: "👗 Peech Nouvelle Skin : Démons Intérieurs", ja: "👗 ピーチ 新スキン：インナーデーモン" },
-  links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", de: "", es: "", fr: "", ja: "" },
-  noStrip: true
-},
-
-{
-  titles: { en: "🧙 Kendle Guide: 2nd Talisman", pt: "🧙 Guia da Kendle: 2º Talismã", de: "🧙 Kendle-Leitfaden: 2. Talisman", es: "🧙 Guía de Kendle: 2º Talismán", fr: "🧙 Guide de Kendle: 2ème Talisman", ja: "🧙 ケンドル ガイド: 2番目のタリスマン" },
- links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
-  noStrip: true
-},  
-{
-  titles: { en: "☯️All Talisman Guides", de: "☯️Alle Talisman Guides", es: "☯️Guía de Todos los Talismanes", fr: "☯️Tous les Guides des Talismans", pt: "☯️Guia de Todos os Talismãs", ja: "☯️すべてのタリスマンガイド" },
-  links: { en: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html", de: "../../hero-wars-alliance/guide/talisman-guide-hwa-de.html", es: "../../hero-wars-alliance/guide/talisman-guide-hwa-es.html", fr: "../../hero-wars-alliance/guide/talisman-guide-hwa-fr.html", pt: "../../hero-wars-alliance/guide/talisman-guide-hwa-pt.html", ja: "../../hero-wars-alliance/guide/talisman-guide-hwa-ja.html" },       
-  noStrip: true
-},  
 
 
     ]
   },
   {
     weekday: "Thursday",
-   date: "August, 13",
+   date: "September, 03",
      image: "../../hero-wars-alliance/images/events/trade-routes/trade-routes-250px.webp",
     alt: "Trade Routes Events",
    titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
    links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
-   extra: [
-     {
+    extra: [
+ {
+  titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
+  links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
+  noStrip: true
+},
+      {
+        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
+      },
+       {
+        titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
+        links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
+      },
+      {
+        titles: { en: "🟡Summoning Sphere Discount", pt: "🟡Desconto de Esferas de Convocação", de: "🟡Rabatt auf Beschwörungssphären", es: "🟡Descuento de Esferas de Invocación", fr: "🟡éduction sur les Sphères d'Invocation", ja: "🟡召喚スフィア割引" },
+        links: { en: "#section13", pt: "#section13", de: "#section13", es: "#section13", fr: "#section13", ja: "#section13" }
+      },
+      {
   titles: { en: "🛤️ Bountiful Roads", pt: "🛤️ Estradas Prósperas", de: "🛤️ Ertragreiche Straßen", es: "🛤️ Caminos Prósperos", fr: "🛤️ Routes Prospères", ja: "🛤️ 豊かな街道" },
   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
   noStrip: true
@@ -454,45 +182,35 @@ noStrip: true
   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",pt: "", de: "", es: "", fr: "",  ja: "" }, 
   noStrip: true
 },
- {
-      titles: { en: "📿 Cleaver - Relic Event", de: "📿 Cleaver - Relikt-Event", es: "📿 Cleaver - Evento de Reliquia", fr: "📿 Cleaver - Événement des Reliques", pt: "📿 Cleaver - Evento de Relíquia", ja: "📿 クリーバー - レリックイベント", },
-    links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
-  },
-  {
- titles: { en: "🦸 Cleaver Guide", pt: "🦸 Guia da Cleaver", de: "🦸 Cleaver-Leitfaden", es: "🦸 Guía de Cleaver", fr: "🦸 Guide de Cleaver", ja: "🦸 クリーバー ガイド" }, 
- links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
-  noStrip: true
-},
-  
-      
-{
-  titles: { en: "🧙 Kendle Guide: 2nd Talisman", pt: "🧙 Guia da Kendle: 2º Talismã", de: "🧙 Kendle-Leitfaden: 2. Talisman", es: "🧙 Guía de Kendle: 2º Talismán", fr: "🧙 Guide de Kendle: 2ème Talisman", ja: "🧙 ケンドル ガイド: 2番目のタリスマン" },
- links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
-  noStrip: true
-},  
-{
-  titles: { en: "☯️All Talisman Guides", de: "☯️Alle Talisman Guides", es: "☯️Guía de Todos los Talismanes", fr: "☯️Tous les Guides des Talismans", pt: "☯️Guia de Todos os Talismãs", ja: "☯️すべてのタリスマンガイド" },
-  links: { en: "../../hero-wars-alliance/guide/talisman-guide-hwa-en.html", de: "../../hero-wars-alliance/guide/talisman-guide-hwa-de.html", es: "../../hero-wars-alliance/guide/talisman-guide-hwa-es.html", fr: "../../hero-wars-alliance/guide/talisman-guide-hwa-fr.html", pt: "../../hero-wars-alliance/guide/talisman-guide-hwa-pt.html", ja: "../../hero-wars-alliance/guide/talisman-guide-hwa-ja.html" },       
-  noStrip: true
-},  
-
-
     ]
   },
   {
     weekday: "Friday",
-   date: "August, 14",
-     image: "../../hero-wars-alliance/images/events/seers-game/seers-game-150px.webp",
-    alt: "Seers' Game",
-    titles: { en: "🔮 Seer's Game Event", de: "Event des Seherspiels", es: "🔮 Evento del Juego de la Vidente", fr: "🔮 Événement du Jeu de la Voyante", pt: "🔮 Evento do Jogo da Vidente", ja: "🔮 予言者のゲームイベント" },
-    links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "../../hero-wars-alliance/event-hwa/seers-game-de.html", es: "../../hero-wars-alliance/event-hwa/seers-game-es.html", fr: "../../hero-wars-alliance/event-hwa/seers-game-fr.html", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "../../hero-wars-alliance/event-hwa/seers-game-ja.html" },
-   extra: [
-    {
-  titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
+   date: "September, 04",
+     image: "../../hero-wars-alliance/images/events/trade-routes/trade-routes-250px.webp",
+    alt: "Trade Routes Events",
+   titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+    extra: [
+ {
+  titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
+  links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
   noStrip: true
 },
-     {
+      {
+        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
+      },
+       {
+        titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
+        links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
+      },
+       {
+        titles: { en: "📦Artifact Chest Discount", pt: "📦Baú de Artefatos - Desconto", de: "📦Rabatt auf Artefakttruhen", es: "📦Cofre de Artefactos - Descuento", fr: "📦Coffre d'Artéfacts - Réduction", ja: "📦アーティファクトチェスト - オフ" },
+        links: { en: "#section14", pt: "#section14", de: "#section14", es: "#section14", fr: "#section14", ja: "#section14" }
+
+      },
+      {
   titles: { en: "🛤️ Bountiful Roads", pt: "🛤️ Estradas Prósperas", de: "🛤️ Ertragreiche Straßen", es: "🛤️ Caminos Prósperos", fr: "🛤️ Routes Prospères", ja: "🛤️ 豊かな街道" },
   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
   noStrip: true
@@ -506,38 +224,36 @@ noStrip: true
   titles: { en: "🔓 Roads Unlocked", pt: "🔓 Estradas Desbloqueadas", de: "🔓 Freigegebene Straßen", es: "🔓 Caminos Desbloqueados", fr: "🔓 Routes Déverrouillées", ja: "🔓 開放された街道" },
   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",pt: "", de: "", es: "", fr: "",  ja: "" }, 
   noStrip: true
-},
- {
-      titles: { en: "📿 Cleaver - Relic Event", de: "📿 Cleaver - Relikt-Event", es: "📿 Cleaver - Evento de Reliquia", fr: "📿 Cleaver - Événement des Reliques", pt: "📿 Cleaver - Evento de Relíquia", ja: "📿 クリーバー - レリックイベント", },
-    links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
-  },
-  {
- titles: { en: "🦸 Cleaver Guide", pt: "🦸 Guia da Cleaver", de: "🦸 Cleaver-Leitfaden", es: "🦸 Guía de Cleaver", fr: "🦸 Guide de Cleaver", ja: "🦸 クリーバー ガイド" }, 
- links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
-  noStrip: true
-},
- 
-
-      {
-  titles: { en: "👗 Xe'Sha New Skin+: Inner Demons", pt: "👗 Xe'Sha Nova Skin+: Demônios Interiores", de: "👗 Xe'Sha Neue Skin+: Innere Dämonen", es: "👗 Xe'Sha Nueva Skin+: Demonios Interiores", fr: "👗 Xe'Sha Nouvelle Skin+ : Démons Intérieurs", ja: "👗 ゼーシャ 新スキン+：インナーデーモン" },
-   labelOnly: true
 },
 
     ]
   },
   {
     weekday: "Saturday",
-    date: "August, 15",
-    image: "../../hero-wars-alliance/images/events/seers-game/seers-game-150px.webp",
-    alt: "Seers' Game",
-    titles: { en: "🔮 Seer's Game Event", de: "Event des Seherspiels", es: "🔮 Evento del Juego de la Vidente", fr: "🔮 Événement du Jeu de la Voyante", pt: "🔮 Evento do Jogo da Vidente", ja: "🔮 予言者のゲームイベント" },
-    links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "../../hero-wars-alliance/event-hwa/seers-game-de.html", es: "../../hero-wars-alliance/event-hwa/seers-game-es.html", fr: "../../hero-wars-alliance/event-hwa/seers-game-fr.html", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "../../hero-wars-alliance/event-hwa/seers-game-ja.html" },
-   extra: [
-    {
-  titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
+    date: "September, 05",
+   image: "../../hero-wars-alliance/images/events/trade-routes/trade-routes-250px.webp",
+    alt: "Trade Routes Events",
+   titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+    extra: [
+ {
+  titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
+  links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
   noStrip: true
 },
+      {
+        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
+      },
+       {
+        titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
+        links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
+      },
+       {
+        titles: { en: "🟣Elemental Sphere Discount", pt: "🟣Desconto de Esferas Elementais", de: "🟣Rabatt auf Elementsphären", es: "🟣Descuento de Esferas Elementales", fr: "🟣Réduction sur les Sphères Élémentaires", ja: "🟣エレメンタルスフィア割引" },
+        links: { en: "#section15", pt: "#section15", de: "#section15", es: "#section15", fr: "#section15", ja: "#section15" }
+
+      },
      {
   titles: { en: "🛤️ Bountiful Roads", pt: "🛤️ Estradas Prósperas", de: "🛤️ Ertragreiche Straßen", es: "🛤️ Caminos Prósperos", fr: "🛤️ Routes Prospères", ja: "🛤️ 豊かな街道" },
   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
@@ -552,38 +268,38 @@ noStrip: true
   titles: { en: "🔓 Roads Unlocked", pt: "🔓 Estradas Desbloqueadas", de: "🔓 Freigegebene Straßen", es: "🔓 Caminos Desbloqueados", fr: "🔓 Routes Déverrouillées", ja: "🔓 開放された街道" },
   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",pt: "", de: "", es: "", fr: "",  ja: "" }, 
   noStrip: true
-},
- {
-      titles: { en: "📿 Cleaver - Relic Event", de: "📿 Cleaver - Relikt-Event", es: "📿 Cleaver - Evento de Reliquia", fr: "📿 Cleaver - Événement des Reliques", pt: "📿 Cleaver - Evento de Relíquia", ja: "📿 クリーバー - レリックイベント", },
-    links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
-  },
-  {
- titles: { en: "🦸 Cleaver Guide", pt: "🦸 Guia da Cleaver", de: "🦸 Cleaver-Leitfaden", es: "🦸 Guía de Cleaver", fr: "🦸 Guide de Cleaver", ja: "🦸 クリーバー ガイド" }, 
- links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
-  noStrip: true
-},
- 
-       {
-  titles: { en: "👗 Xe'Sha New Skin+: Inner Demons", pt: "👗 Xe'Sha Nova Skin+: Demônios Interiores", de: "👗 Xe'Sha Neue Skin+: Innere Dämonen", es: "👗 Xe'Sha Nueva Skin+: Demonios Interiores", fr: "👗 Xe'Sha Nouvelle Skin+ : Démons Intérieurs", ja: "👗 ゼーシャ 新スキン+：インナーデーモン" },
-   labelOnly: true
 },
 
     ]
   },
 {
   weekday: "Sunday",
-  date: "August, 16",
-    image: "../../hero-wars-alliance/images/events/seers-game/seers-game-150px.webp",
-    alt: "Seers' Game",
-    titles: { en: "🔮 Seer's Game Event", de: "Event des Seherspiels", es: "🔮 Evento del Juego de la Vidente", fr: "🔮 Événement du Jeu de la Voyante", pt: "🔮 Evento do Jogo da Vidente", ja: "🔮 予言者のゲームイベント" },
-    links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "../../hero-wars-alliance/event-hwa/seers-game-de.html", es: "../../hero-wars-alliance/event-hwa/seers-game-es.html", fr: "../../hero-wars-alliance/event-hwa/seers-game-fr.html", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "../../hero-wars-alliance/event-hwa/seers-game-ja.html" },
-   extra: [
-    {
-  titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
-  links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+  date: "September, 06",
+   image: "../../hero-wars-alliance/images/events/trade-routes/trade-routes-250px.webp",
+    alt: "Trade Routes Events",
+   titles: { en: "🌌 Trade Routes Events", de: "🌌 Handelsrouten-Events", es: "🌌 Eventos de Rutas Comerciales", fr: "🌌 Événements Routes Commerciales", pt: "🌌 Eventos Rotas Comerciais", ja: "🌌 交易路イベント" },
+ links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+    extra: [
+ {
+  titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
+  links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
   noStrip: true
 },
-     {
+      {
+        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
+      },
+      {
+        titles: { en: "🟣Elemental Sphere Discount", pt: "🟣Desconto de Esferas Elementais", de: "🟣Rabatt auf Elementsphären", es: "🟣Descuento de Esferas Elementales", fr: "🟣Réduction sur les Sphères Élémentaires", ja: "🟣エレメンタルスフィア割引" },
+        links: { en: "#section15", pt: "#section15", de: "#section15", es: "#section15", fr: "#section15", ja: "#section15" }
+
+      },
+      {
+        titles: { en: "🎁Heroic Chest Discount", pt: "🎁Desconto de Baús Heroicos", de: "🎁Rabatt auf Heroische Truhen", es: "🎁Descuento de Cajas Heroicas", fr: "🎁Réduction sur les Coffres Héroïques", ja: "🎁ヒーローの宝箱割引" },
+        links: { en: "#section16", pt: "#section16", de: "#section16", es: "#section16", fr: "#section16", ja: "#section16" }
+
+      },
+      {
   titles: { en: "🛤️ Bountiful Roads", pt: "🛤️ Estradas Prósperas", de: "🛤️ Ertragreiche Straßen", es: "🛤️ Caminos Prósperos", fr: "🛤️ Routes Prospères", ja: "🛤️ 豊かな街道" },
   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
   noStrip: true
@@ -598,33 +314,479 @@ noStrip: true
   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",pt: "", de: "", es: "", fr: "",  ja: "" }, 
   noStrip: true
 },
- {
-      titles: { en: "📿 Cleaver - Relic Event", de: "📿 Cleaver - Relikt-Event", es: "📿 Cleaver - Evento de Reliquia", fr: "📿 Cleaver - Événement des Reliques", pt: "📿 Cleaver - Evento de Relíquia", ja: "📿 クリーバー - レリックイベント", },
-    links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
+
+    ]
   },
   {
- titles: { en: "🦸 Cleaver Guide", pt: "🦸 Guia da Cleaver", de: "🦸 Cleaver-Leitfaden", es: "🦸 Guía de Cleaver", fr: "🦸 Guide de Cleaver", ja: "🦸 クリーバー ガイド" }, 
- links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
+    weekday: "Monday",
+    date: "September, 07",
+   image: "../../hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-250px.webp",
+    alt: "Balance of Power Event",
+   titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
+    links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+
+   extra: [
+{
+ titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
+ links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
   noStrip: true
+},  
+{
+  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
+  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},   
+
+     {
+  titles: { en: "📿Nebula - Relic Event", de: "📿Nebula - Relikt-Ereignis", es: "📿Nebula - Evento de Reliquia", fr: "📿Nebula - Événement des Reliques", pt: "📿Nebula - Evento de Relíquia", ja: "📿ネビュラ - レリックイベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+  },
+
+{
+titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネビュラ ガイド" },
+links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", pt: "", de: "", es: "", fr: "",  ja: "" },  noStrip: true
 },
- 
-       {
-  titles: { en: "👗 Xe'Sha New Skin+: Inner Demons", pt: "👗 Xe'Sha Nova Skin+: Demônios Interiores", de: "👗 Xe'Sha Neue Skin+: Innere Dämonen", es: "👗 Xe'Sha Nueva Skin+: Demonios Interiores", fr: "👗 Xe'Sha Nouvelle Skin+ : Démons Intérieurs", ja: "👗 ゼーシャ 新スキン+：インナーデーモン" },
-   labelOnly: true
-},
+{ titles: { en: "👗Nebula New Skin+: Singularity", pt: "👗Nebula Nova Skin+: Singularidade", de: "👗Nebula Neue Skin+: Singularität", es: "👗Nebula Nueva Skin+: Singularidad", fr: "👗Nebula Nouvelle Skin+ : Singularité", ja: "👗ネビュラ 新スキン+：シングュラリティ" },
+  labelOnly: true },
 
     ]
   },
 
   {
-    weekday: "Monday",
-     date: "August, 17",
-     image: "../../hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-250px.webp",
+    weekday: "Tuesday",
+    date: "September, 08",
+   image: "../../imagens/image-shared/nebula-300px.webp",
+   alt: "Balance of Power Event",
+   titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+    extra: [
+      {
+ titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
+ links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
+  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},   
+     {
+  titles: { en: "📿Nebula - Relic Event", de: "📿Nebula - Relikt-Ereignis", es: "📿Nebula - Evento de Reliquia", fr: "📿Nebula - Événement des Reliques", pt: "📿Nebula - Evento de Relíquia", ja: "📿ネビュラ - レリックイベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+  },
+
+{
+titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネビュラ ガイド" },
+links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", pt: "", de: "", es: "", fr: "",  ja: "" },  noStrip: true
+},
+{ titles: { en: "👗Nebula New Skin+: Singularity", pt: "👗Nebula Nova Skin+: Singularidade", de: "👗Nebula Neue Skin+: Singularität", es: "👗Nebula Nueva Skin+: Singularidad", fr: "👗Nebula Nouvelle Skin+ : Singularité", ja: "👗ネビュラ 新スキン+：シングュラリティ" },
+  labelOnly: true },
+
+]
+},
+
+  {
+    weekday: "Wednesday",
+     date: "September, 09",
+   image: "../../imagens/image-shared/nebula-300px.webp",
+   alt: "Balance of Power Event",
+   titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
+ links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+    extra: [
+      {
+ titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
+ links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
+  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},   
+      {
+  titles: { en: "📿Nebula - Relic Event", de: "📿Nebula - Relikt-Ereignis", es: "📿Nebula - Evento de Reliquia", fr: "📿Nebula - Événement des Reliques", pt: "📿Nebula - Evento de Relíquia", ja: "📿ネビュラ - レリックイベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+  },
+
+{
+titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネビュラ ガイド" },
+links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", pt: "", de: "", es: "", fr: "",  ja: "" },  noStrip: true
+},
+{ titles: { en: "👗Nebula New Skin+: Singularity", pt: "👗Nebula Nova Skin+: Singularidade", de: "👗Nebula Neue Skin+: Singularität", es: "👗Nebula Nueva Skin+: Singularidad", fr: "👗Nebula Nouvelle Skin+ : Singularité", ja: "👗ネビュラ 新スキン+：シングュラリティ" },
+  labelOnly: true },
+
+    ]
+  },
+  {
+    weekday: "Thursday",
+    date: "September, 10",
+   image: "../../imagens/image-shared/nebula-300px.webp",
+   alt: "Balance of Power Event",
+   titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
+  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+    extra: [
+      {
+ titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
+ links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
+  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},   
+     {
+  titles: { en: "📿Nebula - Relic Event", de: "📿Nebula - Relikt-Ereignis", es: "📿Nebula - Evento de Reliquia", fr: "📿Nebula - Événement des Reliques", pt: "📿Nebula - Evento de Relíquia", ja: "📿ネビュラ - レリックイベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+  },
+
+{
+titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネビュラ ガイド" },
+links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", pt: "", de: "", es: "", fr: "",  ja: "" },  noStrip: true
+},
+{ titles: { en: "👗Nebula New Skin+: Singularity", pt: "👗Nebula Nova Skin+: Singularidade", de: "👗Nebula Neue Skin+: Singularität", es: "👗Nebula Nueva Skin+: Singularidad", fr: "👗Nebula Nouvelle Skin+ : Singularité", ja: "👗ネビュラ 新スキン+：シングュラリティ" },
+  labelOnly: true },
+
+    ]
+  },
+  {
+    weekday: "Friday",
+     date: "September, 11",
+   image: "../../imagens/image-shared/nebula-300px.webp",
+    alt: "Balance of Power Event",
+     titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+    extra: [
+      {
+ titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
+ links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
+  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},   
+     {
+  titles: { en: "📿Nebula - Relic Event", de: "📿Nebula - Relikt-Ereignis", es: "📿Nebula - Evento de Reliquia", fr: "📿Nebula - Événement des Reliques", pt: "📿Nebula - Evento de Relíquia", ja: "📿ネビュラ - レリックイベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+  },
+
+{
+titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネビュラ ガイド" },
+links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", pt: "", de: "", es: "", fr: "",  ja: "" },  noStrip: true
+},
+{ titles: { en: "👗Nebula New Skin+: Singularity", pt: "👗Nebula Nova Skin+: Singularidade", de: "👗Nebula Neue Skin+: Singularität", es: "👗Nebula Nueva Skin+: Singularidad", fr: "👗Nebula Nouvelle Skin+ : Singularité", ja: "👗ネビュラ 新スキン+：シングュラリティ" },
+  labelOnly: true },
+
+    ]
+  },
+  {
+    weekday: "Saturday",
+     date: "September, 12",
+   image: "../../imagens/image-shared/nebula-300px.webp",
+    alt: "Balance of Power Event",
+   titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
+  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+    extra: [
+      {
+ titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
+ links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
+  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},   
+{
+  titles: { en: "📿Nebula - Relic Event", de: "📿Nebula - Relikt-Ereignis", es: "📿Nebula - Evento de Reliquia", fr: "📿Nebula - Événement des Reliques", pt: "📿Nebula - Evento de Relíquia", ja: "📿ネビュラ - レリックイベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+  },
+
+{
+titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネビュラ ガイド" },
+links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", pt: "", de: "", es: "", fr: "",  ja: "" },  noStrip: true
+},
+  { titles: { en: "👗Nebula New Skin+: Singularity", pt: "👗Nebula Nova Skin+: Singularidade", de: "👗Nebula Neue Skin+: Singularität", es: "👗Nebula Nueva Skin+: Singularidad", fr: "👗Nebula Nouvelle Skin+ : Singularité", ja: "👗ネビュラ 新スキン+：シングュラリティ" },
+  labelOnly: true },
+
+    ]
+  },
+
+{
+  weekday: "Sunday",
+   date: "September, 13",
+   image: "../../imagens/image-shared/nebula-300px.webp",
+    alt: "Balance of Power Event",
+     titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+    extra: [
+      {
+ titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
+ links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
+   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
+  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},   
+      {
+  titles: { en: "📿Nebula - Relic Event", de: "📿Nebula - Relikt-Ereignis", es: "📿Nebula - Evento de Reliquia", fr: "📿Nebula - Événement des Reliques", pt: "📿Nebula - Evento de Relíquia", ja: "📿ネビュラ - レリックイベント" },
+  links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+  },
+
+{
+titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネビュラ ガイド" },
+links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", pt: "", de: "", es: "", fr: "",  ja: "" },  noStrip: true
+},
+{ titles: { en: "👗Nebula New Skin+: Singularity", pt: "👗Nebula Nova Skin+: Singularidade", de: "👗Nebula Neue Skin+: Singularität", es: "👗Nebula Nueva Skin+: Singularidad", fr: "👗Nebula Nouvelle Skin+ : Singularité", ja: "👗ネビュラ 新スキン+：シングュラリティ" },
+  labelOnly: true },
+
+    ]
+  },
+
+{
+  weekday: "Monday",
+  date: "September, 14",
+    image: "../../hero-wars-alliance/images/events/seers-game/seers-game-150px.webp",
+    alt: "Seers' Game",
+    titles: { en: "🔮 Seer's Game Event", de: "Event des Seherspiels", es: "🔮 Evento del Juego de la Vidente", fr: "🔮 Événement du Jeu de la Voyante", pt: "🔮 Evento do Jogo da Vidente", ja: "🔮 予言者のゲームイベント" },
+    links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "../../hero-wars-alliance/event-hwa/seers-game-de.html", es: "../../hero-wars-alliance/event-hwa/seers-game-es.html", fr: "../../hero-wars-alliance/event-hwa/seers-game-fr.html", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "../../hero-wars-alliance/event-hwa/seers-game-ja.html" },
+    extra: [
+ {
+       titles: { en: "🕳️Titan Rift", pt: "🕳️Fenda dos Titãs", de: "🕳️Titanenkluft", es: "🕳️Grieta de Titanes", fr: "🕳️Faille des Titans", ja: "🕳️タイタンリフト" },
+       links: { en: "../../hero-wars-alliance/event-hwa/titan-rift-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },      
+      },
+      {
+       titles: { en: "👑Legacy of Power", pt: "👑Legado do Poder", de: "👑Erbe des Macht", es: "👑 Legado del Poder", fr: "👑 Héritage du Pouvoir", ja: "👑 パワーの遺産" },
+      links: { en: "../../hero-wars-alliance/event-hwa/legacy-of-power-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },      },
+      { titles: { en: "👗Isaac New Skin+: Singularity", pt: "👗Isaac Nova Skin+: Singularidade", de: "👗Isaac Neue Skin+: Singularität", es: "👗Isaac Nueva Skin+: Singularidad", fr: "👗Isaac Nouvelle Skin+ : Singularité", ja: "👗アイザック 新スキン+：シングュラリティ" },
+  links: { en: "../../hero-wars-alliance/characters-guide/isaac-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+titles: { en: "📿Eva - Relic Event", de: "📿Eva - Relikt-Ereignis", es: "📿Eva - Evento de Reliquia", fr: "📿Eva - Événement des Reliques", pt: "📿Eva - Evento de Relíquia", ja: "📿エヴァ - レリックイベント" },
+links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+},
+{
+titles: { en: "🦸Eva Guide", pt: "🦸Guia da Eva", de: "🦸Eva Leitfaden", es: "🦸Guía de Eva", fr: "🦸Guide d'Eva", ja: "🦸エヴァ ガイド" },
+links: { en: "../../hero-wars-alliance/characters-guide/eva-en.html", pt: "../../hero-wars-alliance/characters-guide/eva-pt.html", de: "../../hero-wars-alliance/characters-guide/eva-de.html", es: "../../hero-wars-alliance/characters-guide/eva-es.html", fr: "../../hero-wars-alliance/characters-guide/eva-fr.html", ja: "../../hero-wars-alliance/characters-guide/eva-ja.html" },
+noStrip: true
+},
+
+    ]
+  },
+  {
+    weekday: "Tuesday",
+   date: "September, 15",
+    image: "../../imagens/image-shared/eva-300px.webp",
+    alt: "Seers' Game",
+    titles: { en: "🔮 Seer's Game Event", de: "Event des Seherspiels", es: "🔮 Evento del Juego de la Vidente", fr: "🔮 Événement du Jeu de la Voyante", pt: "🔮 Evento do Jogo da Vidente", ja: "🔮 予言者のゲームイベント" },
+    links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "../../hero-wars-alliance/event-hwa/seers-game-de.html", es: "../../hero-wars-alliance/event-hwa/seers-game-es.html", fr: "../../hero-wars-alliance/event-hwa/seers-game-fr.html", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "../../hero-wars-alliance/event-hwa/seers-game-ja.html" },
+    extra: [
+ {
+       titles: { en: "🕳️Titan Rift", pt: "🕳️Fenda dos Titãs", de: "🕳️Titanenkluft", es: "🕳️Grieta de Titanes", fr: "🕳️Faille des Titans", ja: "🕳️タイタンリフト" },
+       links: { en: "../../hero-wars-alliance/event-hwa/titan-rift-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },      
+      },
+      {
+       titles: { en: "👑Legacy of Power", pt: "👑Legado do Poder", de: "👑Erbe des Macht", es: "👑 Legado del Poder", fr: "👑 Héritage du Pouvoir", ja: "👑 パワーの遺産" },
+       links: { en: "../../hero-wars-alliance/event-hwa/legacy-of-power-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },      
+      },
+       { titles: { en: "👗Isaac New Skin+: Singularity", pt: "👗Isaac Nova Skin+: Singularidade", de: "👗Isaac Neue Skin+: Singularität", es: "👗Isaac Nueva Skin+: Singularidad", fr: "👗Isaac Nouvelle Skin+ : Singularité", ja: "👗アイザック 新スキン+：シングュラリティ" },
+  links: { en: "../../hero-wars-alliance/characters-guide/isaac-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+}, 
+{
+titles: { en: "📿Eva - Relic Event", de: "📿Eva - Relikt-Ereignis", es: "📿Eva - Evento de Reliquia", fr: "📿Eva - Événement des Reliques", pt: "📿Eva - Evento de Relíquia", ja: "📿エヴァ - レリックイベント" },
+links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+},
+{
+titles: { en: "🦸Eva Guide", pt: "🦸Guia da Eva", de: "🦸Eva Leitfaden", es: "🦸Guía de Eva", fr: "🦸Guide d'Eva", ja: "🦸エヴァ ガイド" },
+links: { en: "../../hero-wars-alliance/characters-guide/eva-en.html", pt: "../../hero-wars-alliance/characters-guide/eva-pt.html", de: "../../hero-wars-alliance/characters-guide/eva-de.html", es: "../../hero-wars-alliance/characters-guide/eva-es.html", fr: "../../hero-wars-alliance/characters-guide/eva-fr.html", ja: "../../hero-wars-alliance/characters-guide/eva-ja.html" },
+noStrip: true
+},
+
+    ]
+  },
+
+{
+  weekday: "Wednesday",
+ date: "September, 16",
+      image: "../../imagens/image-shared/eva-300px.webp",
+    alt: "Seers' Game",
+    titles: { en: "🔮 Seer's Game Event", de: "Event des Seherspiels", es: "🔮 Evento del Juego de la Vidente", fr: "🔮 Événement du Jeu de la Voyante", pt: "🔮 Evento do Jogo da Vidente", ja: "🔮 予言者のゲームイベント" },
+    links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "../../hero-wars-alliance/event-hwa/seers-game-de.html", es: "../../hero-wars-alliance/event-hwa/seers-game-es.html", fr: "../../hero-wars-alliance/event-hwa/seers-game-fr.html", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "../../hero-wars-alliance/event-hwa/seers-game-ja.html" },
+    extra: [
+      {
+titles: { en: "📿Eva - Relic Event", de: "📿Eva - Relikt-Ereignis", es: "📿Eva - Evento de Reliquia", fr: "📿Eva - Événement des Reliques", pt: "📿Eva - Evento de Relíquia", ja: "📿エヴァ - レリックイベント" },
+links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+},
+{
+titles: { en: "🦸Eva Guide", pt: "🦸Guia da Eva", de: "🦸Eva Leitfaden", es: "🦸Guía de Eva", fr: "🦸Guide d'Eva", ja: "🦸エヴァ ガイド" },
+links: { en: "../../hero-wars-alliance/characters-guide/eva-en.html", pt: "../../hero-wars-alliance/characters-guide/eva-pt.html", de: "../../hero-wars-alliance/characters-guide/eva-de.html", es: "../../hero-wars-alliance/characters-guide/eva-es.html", fr: "../../hero-wars-alliance/characters-guide/eva-fr.html", ja: "../../hero-wars-alliance/characters-guide/eva-ja.html" },
+noStrip: true
+},
+ {
+       titles: { en: "🕳️Titan Rift", pt: "🕳️Fenda dos Titãs", de: "🕳️Titanenkluft", es: "🕳️Grieta de Titanes", fr: "🕳️Faille des Titans", ja: "🕳️タイタンリフト" },
+       links: { en: "../../hero-wars-alliance/event-hwa/titan-rift-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },      
+      },
+      {
+       titles: { en: "👑Legacy of Power", pt: "👑Legado do Poder", de: "👑Erbe des Macht", es: "👑 Legado del Poder", fr: "👑 Héritage du Pouvoir", ja: "👑 パワーの遺産" },
+       links: { en: "../../hero-wars-alliance/event-hwa/legacy-of-power-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },      
+      },
+      { titles: { en: "👗Isaac New Skin+: Singularity", pt: "👗Isaac Nova Skin+: Singularidade", de: "👗Isaac Neue Skin+: Singularität", es: "👗Isaac Nueva Skin+: Singularidad", fr: "👗Isaac Nouvelle Skin+ : Singularité", ja: "👗アイザック 新スキン+：シングュラリティ" },
+  links: { en: "../../hero-wars-alliance/characters-guide/isaac-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+
+    ]
+  },
+  {
+    weekday: "Thursday",
+     date: "September, 17",
+      image: "../../hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-250px.webp",
     alt: "🪽Ascendant Glory Event Group",
   titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" }, 
   extra: [
-   {
+     {
+titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufsteigende Legende", es: "🌟 Leyenda Ascendente", fr: "🌟 Légende Montante", ja: "🌟 ライジングレジェンド" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-rising-legend-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
+  noStrip: true
+},
+{
+  titles: { en: "🎇Spark of Glory", pt: "🎇Spark de Glória", de: "🎇Funke des Ruhms", es: "🎇Chispa de Gloria", fr: "🎇Étincelle de Gloire", ja: "🎇栄光の閃光" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-spark-of-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
+  noStrip: true
+},
+{
+  titles: { en: "🧩Trial of Legends", pt: "🧩Prova das Lendas", de: "🧩Prüfung der Legenden", es: "🧩Prueba de las Leyendas", fr: "🧩Épreuve des Légendes", ja: "🧩伝説の試練" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
+  noStrip: true
+},
+{
+titles: { en: "📿Eva - Relic Event", de: "📿Eva - Relikt-Ereignis", es: "📿Eva - Evento de Reliquia", fr: "📿Eva - Événement des Reliques", pt: "📿Eva - Evento de Relíquia", ja: "📿エヴァ - レリックイベント" },
+links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+},
+{
+titles: { en: "🦸Eva Guide", pt: "🦸Guia da Eva", de: "🦸Eva Leitfaden", es: "🦸Guía de Eva", fr: "🦸Guide d'Eva", ja: "🦸エヴァ ガイド" },
+links: { en: "../../hero-wars-alliance/characters-guide/eva-en.html", pt: "../../hero-wars-alliance/characters-guide/eva-pt.html", de: "../../hero-wars-alliance/characters-guide/eva-de.html", es: "../../hero-wars-alliance/characters-guide/eva-es.html", fr: "../../hero-wars-alliance/characters-guide/eva-fr.html", ja: "../../hero-wars-alliance/characters-guide/eva-ja.html" },
+noStrip: true
+},
+ 
+ { titles: { en: "👗Peech New Skin+: Singularity", pt: "👗Peech Nova Skin+: Singularidade", de: "👗Peech Neue Skin+: Singularität", es: "👗Peech Nueva Skin+: Singularidad", fr: "👗Peech Nouvelle Skin+ : Singularité", ja: "👗ピーチ 新スキン+：シングュラリティ" },
+links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{ titles: { en: "👗Polaris New Skin: Singularity", pt: "👗Polaris Nova Skin: Singularidade", de: "👗Polaris Neue Skin: Singularität", es: "👗Polaris Nueva Skin: Singularidad", fr: "👗Polaris Nouvelle Skin : Singularité", ja: "👗ポラリス 新スキン：シングュラリティ" },
+ links: { en: "../../hero-wars-alliance/characters-guide/polaris-guide-en.html", pt: "../../hero-wars-alliance/characters-guide/polaris-guide-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+
+          ]
+  },
+  {
+    weekday: "Friday",
+    date: "September, 18",
+    image: "../../imagens/image-shared/eva-300px.webp",
+    alt: "🪽Ascendant Glory Events",
+     titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
+    links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" }, 
+   extra: [
+
+     {
+titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufsteigende Legende", es: "🌟 Leyenda Ascendente", fr: "🌟 Légende Montante", ja: "🌟 ライジングレジェンド" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-rising-legend-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
+  noStrip: true
+},
+{
+  titles: { en: "🎇Spark of Glory", pt: "🎇Spark de Glória", de: "🎇Funke des Ruhms", es: "🎇Chispa de Gloria", fr: "🎇Étincelle de Gloire", ja: "🎇栄光の閃光" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-spark-of-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
+  noStrip: true
+},
+{
+  titles: { en: "🧩Trial of Legends", pt: "🧩Prova das Lendas", de: "🧩Prüfung der Legenden", es: "🧩Prueba de las Leyendas", fr: "🧩Épreuve des Légendes", ja: "🧩伝説の試練" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
+  noStrip: true
+},
+  
+
+{
+titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
+},
+{
+titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
+links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
+},
+{ titles: { en: "👗Peech New Skin+: Singularity", pt: "👗Peech Nova Skin+: Singularidade", de: "👗Peech Neue Skin+: Singularität", es: "👗Peech Nueva Skin+: Singularidad", fr: "👗Peech Nouvelle Skin+ : Singularité", ja: "👗ピーチ 新スキン+：シングュラリティ" },
+links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", de: "", es: "", fr: "",  ja: "" },       
+noStrip: true
+},  
+{ titles: { en: "👗Polaris New Skin: Singularity", pt: "👗Polaris Nova Skin: Singularidade", de: "👗Polaris Neue Skin: Singularität", es: "👗Polaris Nueva Skin: Singularidad", fr: "👗Polaris Nouvelle Skin : Singularité", ja: "👗ポラリス 新スキン：シングュラリティ" },
+links: { en: "../../hero-wars-alliance/characters-guide/polaris-guide-en.html", pt: "../../hero-wars-alliance/characters-guide/polaris-guide-pt.html", de: "", es: "", fr: "",  ja: "" },       
+noStrip: true
+},  
+{
+titles: { en: "📿Eva - Relic Event", de: "📿Eva - Relikt-Ereignis", es: "📿Eva - Evento de Reliquia", fr: "📿Eva - Événement des Reliques", pt: "📿Eva - Evento de Relíquia", ja: "📿エヴァ - レリックイベント" },
+links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+},
+{
+titles: { en: "🦸Eva Guide", pt: "🦸Guia da Eva", de: "🦸Eva Leitfaden", es: "🦸Guía de Eva", fr: "🦸Guide d'Eva", ja: "🦸エヴァ ガイド" },
+links: { en: "../../hero-wars-alliance/characters-guide/eva-en.html", pt: "../../hero-wars-alliance/characters-guide/eva-pt.html", de: "../../hero-wars-alliance/characters-guide/eva-de.html", es: "../../hero-wars-alliance/characters-guide/eva-es.html", fr: "../../hero-wars-alliance/characters-guide/eva-fr.html", ja: "../../hero-wars-alliance/characters-guide/eva-ja.html" },
+noStrip: true
+},
+
+  ]
+  },
+
+  {
+    weekday: "Saturday",
+    date: "September, 19",
+      image: "../../imagens/image-shared/eva-300px.webp",
+    alt: "🪽Ascendant Glory Events",
+     titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
+      links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },  
+       extra: [
+
+      {
 titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufsteigende Legende", es: "🌟 Leyenda Ascendente", fr: "🌟 Légende Montante", ja: "🌟 ライジングレジェンド" },
   links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-rising-legend-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
@@ -640,105 +802,43 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
   noStrip: true
 },
  
-{
-  titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },
-  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
-  noStrip: true
-},
-{
-  titles: { en: "🥋 Cleaver New Skin: Inner Demons", pt: "🥋 Cleaver Nova Skin: Demônios Interiores", de: "🥋 Cleaver Neue Skin: Innere Dämonen", es: "🥋 Cleaver Nueva Skin: Demonios Interiores", fr: "🥋 Cleaver Nouvelle Skin : Démons Intérieurs", ja: "🥋 クリーバー 新スキン：インナーデーモン" },
-   labelOnly: true
-},
-
-          ]
-  },
-  {
-    weekday: "Tuesday",
-    date: "August, 18",
-   image: "../../hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-250px.webp",
-    alt: "🪽Ascendant Glory Events",
-     titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
-    links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" }, 
-   extra: [
- {
-titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufsteigende Legende", es: "🌟 Leyenda Ascendente", fr: "🌟 Légende Montante", ja: "🌟 ライジングレジェンド" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-rising-legend-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
-  noStrip: true
-},
-{
-  titles: { en: "🎇Spark of Glory", pt: "🎇Spark de Glória", de: "🎇Funke des Ruhms", es: "🎇Chispa de Gloria", fr: "🎇Étincelle de Gloire", ja: "🎇栄光の閃光" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-spark-of-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
-  noStrip: true
-},
-{
-  titles: { en: "🧩Trial of Legends", pt: "🧩Prova das Lendas", de: "🧩Prüfung der Legenden", es: "🧩Prueba de las Leyendas", fr: "🧩Épreuve des Légendes", ja: "🧩伝説の試練" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
-  noStrip: true
-},
-      
-
-  
-    {
- titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },
-  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
-  noStrip: true
-},
-{
-  titles: { en: "🥋 Cleaver New Skin: Inner Demons", pt: "🥋 Cleaver Nova Skin: Demônios Interiores", de: "🥋 Cleaver Neue Skin: Innere Dämonen", es: "🥋 Cleaver Nueva Skin: Demonios Interiores", fr: "🥋 Cleaver Nouvelle Skin : Démons Intérieurs", ja: "🥋 クリーバー 新スキン：インナーデーモン" },
-   labelOnly: true
-},
-
-
-  ]
-  },
 
   {
-    weekday: "Wednesday",
-    date: "August, 19",
-    image: "../../hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-250px.webp",
-    alt: "🪽Ascendant Glory Events",
-     titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
-      links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
-         extra: [
-
-      {
-titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufsteigende Legende", es: "🌟 Leyenda Ascendente", fr: "🌟 Légende Montante", ja: "🌟 ライジングレジェンド" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-rising-legend-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
+        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
+      },
+       {
+        titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
+        links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
+      },
+      { titles: { en: "👗Peech New Skin+: Singularity", pt: "👗Peech Nova Skin+: Singularidade", de: "👗Peech Neue Skin+: Singularität", es: "👗Peech Nueva Skin+: Singularidad", fr: "👗Peech Nouvelle Skin+ : Singularité", ja: "👗ピーチ 新スキン+：シングュラリティ" },
+links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", de: "", es: "", fr: "",  ja: "" },       
   noStrip: true
+},  
+{ titles: { en: "👗Polaris New Skin: Singularity", pt: "👗Polaris Nova Skin: Singularidade", de: "👗Polaris Neue Skin: Singularität", es: "👗Polaris Nueva Skin: Singularidad", fr: "👗Polaris Nouvelle Skin : Singularité", ja: "👗ポラリス 新スキン：シングュラリティ" },
+ links: { en: "../../hero-wars-alliance/characters-guide/polaris-guide-en.html", pt: "../../hero-wars-alliance/characters-guide/polaris-guide-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+titles: { en: "📿Eva - Relic Event", de: "📿Eva - Relikt-Ereignis", es: "📿Eva - Evento de Reliquia", fr: "📿Eva - Événement des Reliques", pt: "📿Eva - Evento de Relíquia", ja: "📿エヴァ - レリックイベント" },
+links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
 },
 {
-  titles: { en: "🎇Spark of Glory", pt: "🎇Spark de Glória", de: "🎇Funke des Ruhms", es: "🎇Chispa de Gloria", fr: "🎇Étincelle de Gloire", ja: "🎇栄光の閃光" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-spark-of-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
-  noStrip: true
+titles: { en: "🦸Eva Guide", pt: "🦸Guia da Eva", de: "🦸Eva Leitfaden", es: "🦸Guía de Eva", fr: "🦸Guide d'Eva", ja: "🦸エヴァ ガイド" },
+links: { en: "../../hero-wars-alliance/characters-guide/eva-en.html", pt: "../../hero-wars-alliance/characters-guide/eva-pt.html", de: "../../hero-wars-alliance/characters-guide/eva-de.html", es: "../../hero-wars-alliance/characters-guide/eva-es.html", fr: "../../hero-wars-alliance/characters-guide/eva-fr.html", ja: "../../hero-wars-alliance/characters-guide/eva-ja.html" },
+noStrip: true
 },
-{
-  titles: { en: "🧩Trial of Legends", pt: "🧩Prova das Lendas", de: "🧩Prüfung der Legenden", es: "🧩Prueba de las Leyendas", fr: "🧩Épreuve des Légendes", ja: "🧩伝説の試練" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
-  noStrip: true
-},
-
-  
-    {
-  titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },
-  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
-  noStrip: true
-},
-{
-  titles: { en: "🥋 Cleaver New Skin: Inner Demons", pt: "🥋 Cleaver Nova Skin: Demônios Interiores", de: "🥋 Cleaver Neue Skin: Innere Dämonen", es: "🥋 Cleaver Nueva Skin: Demonios Interiores", fr: "🥋 Cleaver Nouvelle Skin : Démons Intérieurs", ja: "🥋 クリーバー 新スキン：インナーデーモン" },
-   labelOnly: true
-},
-
 
   ]
   },
   {
-    weekday: "Thursday",
-    date: "August, 20",
-    image: "../../hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-250px.webp",
+    weekday: "Sunday",
+    date: "September, 20",
+        image: "../../imagens/image-shared/eva-300px.webp",
     alt: "🪽Ascendant Glory Events",
      titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
      links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
-     extra: [
+        extra: [
 
       {
 titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufsteigende Legende", es: "🌟 Leyenda Ascendente", fr: "🌟 Légende Montante", ja: "🌟 ライジングレジェンド" },
@@ -755,30 +855,45 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
   links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 },
+ 
 
-  
-     {
- titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },
-  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
+  {
+        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
+        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
+      },
+       {
+        titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
+        links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
+      },
+      { titles: { en: "👗Peech New Skin+: Singularity", pt: "👗Peech Nova Skin+: Singularidade", de: "👗Peech Neue Skin+: Singularität", es: "👗Peech Nueva Skin+: Singularidad", fr: "👗Peech Nouvelle Skin+ : Singularité", ja: "👗ピーチ 新スキン+：シングュラリティ" },
+links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", de: "", es: "", fr: "",  ja: "" },       
   noStrip: true
+},  
+{ titles: { en: "👗Polaris New Skin: Singularity", pt: "👗Polaris Nova Skin: Singularidade", de: "👗Polaris Neue Skin: Singularität", es: "👗Polaris Nueva Skin: Singularidad", fr: "👗Polaris Nouvelle Skin : Singularité", ja: "👗ポラリス 新スキン：シングュラリティ" },
+ links: { en: "../../hero-wars-alliance/characters-guide/polaris-guide-en.html", pt: "../../hero-wars-alliance/characters-guide/polaris-guide-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{
+titles: { en: "📿Eva - Relic Event", de: "📿Eva - Relikt-Ereignis", es: "📿Eva - Evento de Reliquia", fr: "📿Eva - Événement des Reliques", pt: "📿Eva - Evento de Relíquia", ja: "📿エヴァ - レリックイベント" },
+links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
 },
 {
-  titles: { en: "🥋 Cleaver New Skin: Inner Demons", pt: "🥋 Cleaver Nova Skin: Demônios Interiores", de: "🥋 Cleaver Neue Skin: Innere Dämonen", es: "🥋 Cleaver Nueva Skin: Demonios Interiores", fr: "🥋 Cleaver Nouvelle Skin : Démons Intérieurs", ja: "🥋 クリーバー 新スキン：インナーデーモン" },
-   labelOnly: true
+titles: { en: "🦸Eva Guide", pt: "🦸Guia da Eva", de: "🦸Eva Leitfaden", es: "🦸Guía de Eva", fr: "🦸Guide d'Eva", ja: "🦸エヴァ ガイド" },
+links: { en: "../../hero-wars-alliance/characters-guide/eva-en.html", pt: "../../hero-wars-alliance/characters-guide/eva-pt.html", de: "../../hero-wars-alliance/characters-guide/eva-de.html", es: "../../hero-wars-alliance/characters-guide/eva-es.html", fr: "../../hero-wars-alliance/characters-guide/eva-fr.html", ja: "../../hero-wars-alliance/characters-guide/eva-ja.html" },
+noStrip: true
 },
-
 
   ]
   },
   {
-    weekday: "Fryday",
-    date: "August, 21",
-       image: "../../hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-250px.webp",
+    weekday: "Monday",
+    date: "September, 21",
+   image: "../../hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-250px.webp",
     alt: "🪽Ascendant Glory Event Group",
   titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
      links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" }, 
       extra: [
- {
+         {
 titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufsteigende Legende", es: "🌟 Leyenda Ascendente", fr: "🌟 Légende Montante", ja: "🌟 ライジングレジェンド" },
   links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-rising-legend-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
@@ -793,391 +908,223 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
   links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 },
-{
-        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
-        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
-      },
-       {
-        titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
-        links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
-      },
-
-      
- {
-  titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },
-  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
+ 
+      {
+        titles: { en: "📿Crow - Relic Event", de: "📿Crow - Relikt-Ereignis", es: "📿Crow - Evento de Reliquia", fr: "📿Crow - Événement des Reliques", pt: "📿Crow - Evento de Relíquia", ja: "📿カラス - レリックイベント" },
+        links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "" }
+       },
+      {
+  titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
+  links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
   noStrip: true
 },
-{
-  titles: { en: "🥋 Cleaver New Skin: Inner Demons", pt: "🥋 Cleaver Nova Skin: Demônios Interiores", de: "🥋 Cleaver Neue Skin: Innere Dämonen", es: "🥋 Cleaver Nueva Skin: Demonios Interiores", fr: "🥋 Cleaver Nouvelle Skin : Démons Intérieurs", ja: "🥋 クリーバー 新スキン：インナーデーモン" },
-   labelOnly: true
-},
-
+ { titles: { en: "👗Peech New Skin+: Singularity", pt: "👗Peech Nova Skin+: Singularidade", de: "👗Peech Neue Skin+: Singularität", es: "👗Peech Nueva Skin+: Singularidad", fr: "👗Peech Nouvelle Skin+ : Singularité", ja: "👗ピーチ 新スキン+：シングュラリティ" },
+links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{ titles: { en: "👗Polaris New Skin: Singularity", pt: "👗Polaris Nova Skin: Singularidade", de: "👗Polaris Neue Skin: Singularität", es: "👗Polaris Nueva Skin: Singularidad", fr: "👗Polaris Nouvelle Skin : Singularité", ja: "👗ポラリス 新スキン：シングュラリティ" },
+ links: { en: "../../hero-wars-alliance/characters-guide/polaris-guide-en.html", pt: "../../hero-wars-alliance/characters-guide/polaris-guide-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
 
           ]
   },
 
   {
-    weekday: "Saturday",
-    date: "August, 22",
-       image: "../../hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-250px.webp",
-    alt: "🪽Ascendant Glory Event Group",
-  titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
-     links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },  
-     extra: [
- {
-titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufsteigende Legende", es: "🌟 Leyenda Ascendente", fr: "🌟 Légende Montante", ja: "🌟 ライジングレジェンド" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-rising-legend-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
-  noStrip: true
-},
-{
-  titles: { en: "🎇Spark of Glory", pt: "🎇Spark de Glória", de: "🎇Funke des Ruhms", es: "🎇Chispa de Gloria", fr: "🎇Étincelle de Gloire", ja: "🎇栄光の閃光" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-spark-of-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
-  noStrip: true
-},
-{
-  titles: { en: "🧩Trial of Legends", pt: "🧩Prova das Lendas", de: "🧩Prüfung der Legenden", es: "🧩Prueba de las Leyendas", fr: "🧩Épreuve des Légendes", ja: "🧩伝説の試練" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
-  noStrip: true
-},
-{
-        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
-        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
-      },
-       {
-        titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
-        links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
-      },
-
-      {
-  titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },
-  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
-  noStrip: true
-},
-{
-  titles: { en: "🥋 Cleaver New Skin: Inner Demons", pt: "🥋 Cleaver Nova Skin: Demônios Interiores", de: "🥋 Cleaver Neue Skin: Innere Dämonen", es: "🥋 Cleaver Nueva Skin: Demonios Interiores", fr: "🥋 Cleaver Nouvelle Skin : Démons Intérieurs", ja: "🥋 クリーバー 新スキン：インナーデーモン" },
-   labelOnly: true
-},
-
-
-]
-  },
-
-  {
-    weekday: "Sunday",
-    date: "August, 23",
-      image: "../../hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-250px.webp",
-    alt: "🪽Ascendant Glory Event Group",
-  titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
-      links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },  
-      extra: [
- {
-titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufsteigende Legende", es: "🌟 Leyenda Ascendente", fr: "🌟 Légende Montante", ja: "🌟 ライジングレジェンド" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-rising-legend-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
-  noStrip: true
-},
-{
-  titles: { en: "🎇Spark of Glory", pt: "🎇Spark de Glória", de: "🎇Funke des Ruhms", es: "🎇Chispa de Gloria", fr: "🎇Étincelle de Gloire", ja: "🎇栄光の閃光" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-spark-of-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
-  noStrip: true
-},
-{
-  titles: { en: "🧩Trial of Legends", pt: "🧩Prova das Lendas", de: "🧩Prüfung der Legenden", es: "🧩Prueba de las Leyendas", fr: "🧩Épreuve des Légendes", ja: "🧩伝説の試練" },
-  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
-  noStrip: true
-},
-{
-        titles: { en: "💎Emeralds Sale x4", pt: "💎Promoção de Esmeraldas x4", de: "💎Smaragd-Angebot x4", es: "💎Oferta de Esmeraldas x4", fr: "💎Vente d'Émeraudes x4", ja: "💎エメラルドセール x4" },
-        links: { en: "#section11", pt: "#section11", de: "#section11", es: "#section11", fr: "#section11", ja: "#section11" }
-      },
-       {
-        titles: { en: "🔶Outland Chest Discount", pt: "🔶Desconto de Baús do Outland", de: "🔶Rabatt auf Outland-Truhen", es: "🔶Descuento de Cajas del Outland", fr: "🔶Réduction sur les Coffres de l'Outland", ja: "🔶アウトランドチェスト割引)" },
-        links: { en: "#section12", pt: "#section12", de: "#section12", es: "#section12", fr: "#section12", ja: "#section12" }
-      },
-
-      {
- titles: { en: "👗 Kendle New Skin+: Inner Demons", pt: "👗 Kendle Nova Skin+: Demônios Interiores", de: "👗 Kendle Neue Skin+: Innere Dämonen", es: "👗 Kendle Nueva Skin+: Demonios Interiores", fr: "👗 Kendle Nouvelle Skin+: Démons Intérieurs", ja: "👗 ケンドル 新スキン+：インナーデーモン" },
-  links: { en: "../../hero-wars-alliance/characters-guide/kendle-en.html", pt: "../../hero-wars-alliance/characters-guide/kendle-pt.html", de: "../../hero-wars-alliance/characters-guide/kendle-de.html", es: "../../hero-wars-alliance/characters-guide/kendle-es.html", fr: "../../hero-wars-alliance/characters-guide/kendle-fr.html", ja: "../../hero-wars-alliance/characters-guide/kendle-ja.html" },
-  noStrip: true
-},
-{
-  titles: { en: "🥋 Cleaver New Skin: Inner Demons", pt: "🥋 Cleaver Nova Skin: Demônios Interiores", de: "🥋 Cleaver Neue Skin: Innere Dämonen", es: "🥋 Cleaver Nueva Skin: Demonios Interiores", fr: "🥋 Cleaver Nouvelle Skin : Démons Intérieurs", ja: "🥋 クリーバー 新スキン：インナーデーモン" },
-   labelOnly: true
-},
-
-
-]
-  },
-
-
-  {
-    weekday: "Monday",
-    date: "August, 24",
-   image: "../../hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-250px.webp",
-    alt: "Balance of Power Event",
-   titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
-    links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
-
-   extra: [
-{
- titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
- links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},  
-{
-  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
-   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-}, 
-{
-  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
-  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},   
-
-      {
-        titles: { en: "📿Peech - Relic Event", de: "📿Peech - Relikt-Ereignis", es: "📿Peech - Evento de Reliquia", fr: "📿Peech - Événement des Reliques", pt: "📿Peech - Evento de Relíquia", ja: "📿ピーチ - レリックイベント" },
-       links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
-       },
-
-      {
- titles: { en: "🦸‍♀️ Peech Guide", pt: "🦸‍♀️ Guia da Peech", de: "🦸‍♀️ Peech-Leitfaden", es: "🦸‍♀️ Guía de Peech", fr: "🦸‍♀️ Guide de Peech", ja: "🦸‍♀️ ピーチ ガイド" }, 
- links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", ja: "" },
-  noStrip: true
-},
-
-    ]
-  },
-
-  {
     weekday: "Tuesday",
-    date: "August, 25",
-    image: "../../hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-250px.webp",
-    alt: "Balance of Power Event",
-   titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
-    links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
-
-   extra: [
-{
- titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
- links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},  
-{
-  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
-   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-}, 
-{
-  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
-  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},   
-
-      {
-        titles: { en: "📿Peech - Relic Event", de: "📿Peech - Relikt-Ereignis", es: "📿Peech - Evento de Reliquia", fr: "📿Peech - Événement des Reliques", pt: "📿Peech - Evento de Relíquia", ja: "📿ピーチ - レリックイベント" },
-       links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
-       },
-
-      {
- titles: { en: "🦸‍♀️ Peech Guide", pt: "🦸‍♀️ Guia da Peech", de: "🦸‍♀️ Peech-Leitfaden", es: "🦸‍♀️ Guía de Peech", fr: "🦸‍♀️ Guide de Peech", ja: "🦸‍♀️ ピーチ ガイド" }, 
- links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", ja: "" },
+    date: "September, 22",
+ image: "../../hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-250px.webp",
+    alt: "🪽Ascendant Glory Event Group",
+  titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
+     links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" }, 
+      extra: [
+         {
+titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufsteigende Legende", es: "🌟 Leyenda Ascendente", fr: "🌟 Légende Montante", ja: "🌟 ライジングレジェンド" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-rising-legend-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 },
+{
+  titles: { en: "🎇Spark of Glory", pt: "🎇Spark de Glória", de: "🎇Funke des Ruhms", es: "🎇Chispa de Gloria", fr: "🎇Étincelle de Gloire", ja: "🎇栄光の閃光" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-spark-of-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
+  noStrip: true
+},
+{
+  titles: { en: "🧩Trial of Legends", pt: "🧩Prova das Lendas", de: "🧩Prüfung der Legenden", es: "🧩Prueba de las Leyendas", fr: "🧩Épreuve des Légendes", ja: "🧩伝説の試練" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
+  noStrip: true
+},
+ 
+      
+ { titles: { en: "👗Peech New Skin+: Singularity", pt: "👗Peech Nova Skin+: Singularidade", de: "👗Peech Neue Skin+: Singularität", es: "👗Peech Nueva Skin+: Singularidad", fr: "👗Peech Nouvelle Skin+ : Singularité", ja: "👗ピーチ 新スキン+：シングュラリティ" },
+links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{ titles: { en: "👗Polaris New Skin: Singularity", pt: "👗Polaris Nova Skin: Singularidade", de: "👗Polaris Neue Skin: Singularität", es: "👗Polaris Nueva Skin: Singularidad", fr: "👗Polaris Nouvelle Skin : Singularité", ja: "👗ポラリス 新スキン：シングュラリティ" },
+ links: { en: "../../hero-wars-alliance/characters-guide/polaris-guide-en.html", pt: "../../hero-wars-alliance/characters-guide/polaris-guide-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
 
-    ]
+          ]
   },
 
   {
     weekday: "Wednesday",
-     date: "August, 26",
-   image: "../../hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-250px.webp",
-    alt: "Balance of Power Event",
-   titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
-    links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
-
-   extra: [
-{
- titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
- links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},  
-{
-  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
-   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-}, 
-{
-  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
-  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},   
-
-      {
-        titles: { en: "📿Peech - Relic Event", de: "📿Peech - Relikt-Ereignis", es: "📿Peech - Evento de Reliquia", fr: "📿Peech - Événement des Reliques", pt: "📿Peech - Evento de Relíquia", ja: "📿ピーチ - レリックイベント" },
-       links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
-       },
-
-      {
- titles: { en: "🦸‍♀️ Peech Guide", pt: "🦸‍♀️ Guia da Peech", de: "🦸‍♀️ Peech-Leitfaden", es: "🦸‍♀️ Guía de Peech", fr: "🦸‍♀️ Guide de Peech", ja: "🦸‍♀️ ピーチ ガイド" }, 
- links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", ja: "" },
+    date: "September, 23",
+     image: "../../hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-250px.webp",
+    alt: "🪽Ascendant Glory Event Group",
+  titles: { en: "🪽Ascendant Glory Events", de: "🪽Aufsteigender Ruhm-Events", es: "🪽Eventos de Gloria Ascendente", fr: "🪽Événements Gloire Ascendante", pt: "🪽Eventos Glória Ascendente", ja: "🪽栄光への飛翔イベント" },   links: { en: "#section5", pt: "#section5", de: "#section5", es: "#section5", fr: "#section5", ja: "#section5" },
+      links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
+        extra: [
+           {
+titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufsteigende Legende", es: "🌟 Leyenda Ascendente", fr: "🌟 Légende Montante", ja: "🌟 ライジングレジェンド" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-rising-legend-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 },
+{
+  titles: { en: "🎇Spark of Glory", pt: "🎇Spark de Glória", de: "🎇Funke des Ruhms", es: "🎇Chispa de Gloria", fr: "🎇Étincelle de Gloire", ja: "🎇栄光の閃光" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-spark-of-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
+  noStrip: true
+},
+{
+  titles: { en: "🧩Trial of Legends", pt: "🧩Prova das Lendas", de: "🧩Prüfung der Legenden", es: "🧩Prueba de las Leyendas", fr: "🧩Épreuve des Légendes", ja: "🧩伝説の試練" },
+  links: { en: "../../hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
+  noStrip: true
+},
+ 
+       
+ { titles: { en: "👗Peech New Skin+: Singularity", pt: "👗Peech Nova Skin+: Singularidade", de: "👗Peech Neue Skin+: Singularität", es: "👗Peech Nueva Skin+: Singularidad", fr: "👗Peech Nouvelle Skin+ : Singularité", ja: "👗ピーチ 新スキン+：シングュラリティ" },
+links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+{ titles: { en: "👗Polaris New Skin: Singularity", pt: "👗Polaris Nova Skin: Singularidade", de: "👗Polaris Neue Skin: Singularität", es: "👗Polaris Nueva Skin: Singularidad", fr: "👗Polaris Nouvelle Skin : Singularité", ja: "👗ポラリス 新スキン：シングュラリティ" },
+ links: { en: "../../hero-wars-alliance/characters-guide/polaris-guide-en.html", pt: "../../hero-wars-alliance/characters-guide/polaris-guide-pt.html", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
 
-    ]
+          ]
   },
+
   {
     weekday: "Thursday",
-    date: "August, 27",
-   image: "../../hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-250px.webp",
-    alt: "Balance of Power Event",
-   titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
-    links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
-
-   extra: [
+  date: "September, 24",
+    image: "../../imagens/image-shared/pallant-300px.webp",
+    alt: "👑 Lords of the Elements Event Group",
+   titles: { en: "👑 Lords of the Elements Events", pt: "👑 Eventos dos Senhores dos Elementos", de: "👑 Ereignisse der Herrscher der Elemente", es: "👑 Eventos de los Señores de los Elementos", fr: "👑 Événements des Seigneurs des Éléments", ja: "👑 エレメントロードイベント" },   links: { en: "#section6", pt: "#section6", de: "#section6", es: "#section6", fr: "#section6", ja: "#section6" },
+    extra: [
 {
- titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
- links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},  
-{
-  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
-   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌪️ Titan's Roar", pt: "🌪️ Rugido do Titã", de: "🌪️ Gebrüll des Titanen", es: "🌪️ Rugido del Titán", fr: "🌪️ Rugissement du Titan", ja: "🌪️ タイタンの咆哮" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-titans-roar-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 }, 
 {
-  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
-  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌪️ Elemental Tempest", pt: "🌪️ Tempestade Elemental", de: "🌪️ Elementarsturm", es: "🌪️ Tempestad Elemental", fr: "🌪️ Tempête Élémentaire", ja: "🌪️ エレメンタルテンペスト" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-elemental-tempest-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
-},   
-
-      {
-        titles: { en: "📿Peech - Relic Event", de: "📿Peech - Relikt-Ereignis", es: "📿Peech - Evento de Reliquia", fr: "📿Peech - Événement des Reliques", pt: "📿Peech - Evento de Relíquia", ja: "📿ピーチ - レリックイベント" },
-       links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
-       },
-
-      {
- titles: { en: "🦸‍♀️ Peech Guide", pt: "🦸‍♀️ Guia da Peech", de: "🦸‍♀️ Peech-Leitfaden", es: "🦸‍♀️ Guía de Peech", fr: "🦸‍♀️ Guide de Peech", ja: "🦸‍♀️ ピーチ ガイド" }, 
- links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", ja: "" },
+}, 
+{
+  titles: { en: "🌪️ United by Power", pt: "🌪️ Unidos pelo Poder", de: "🌪️ Vereint durch Macht", es: "🌪️ Unidos por el Poder", fr: "🌪️ Unis par le Pouvoir", ja: "🌪️ 力で結ばれて" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-united-by-power-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
-},
-
+}, 
     ]
   },
   {
     weekday: "Friday",
-     date: "August, 28",
-   image: "../../hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-250px.webp",
-    alt: "Balance of Power Event",
-   titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
-    links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
-
-   extra: [
-{
- titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
- links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},  
-{
-  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
-   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+    date: "September, 25",
+    image: "../../imagens/image-shared/pallant-300px.webp",
+    alt: "👑 Lords of the Elements Event Group",
+   titles: { en: "👑 Lords of the Elements Events", pt: "👑 Eventos dos Senhores dos Elementos", de: "👑 Ereignisse der Herrscher der Elemente", es: "👑 Eventos de los Señores de los Elementos", fr: "👑 Événements des Seigneurs des Éléments", ja: "👑 エレメントロードイベント" },   links: { en: "#section6", pt: "#section6", de: "#section6", es: "#section6", fr: "#section6", ja: "#section6" },
+    extra: [
+      {
+  titles: { en: "🌪️ Titan's Roar", pt: "🌪️ Rugido do Titã", de: "🌪️ Gebrüll des Titanen", es: "🌪️ Rugido del Titán", fr: "🌪️ Rugissement du Titan", ja: "🌪️ タイタンの咆哮" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-titans-roar-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 }, 
 {
-  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
-  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌪️ Elemental Tempest", pt: "🌪️ Tempestade Elemental", de: "🌪️ Elementarsturm", es: "🌪️ Tempestad Elemental", fr: "🌪️ Tempête Élémentaire", ja: "🌪️ エレメンタルテンペスト" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-elemental-tempest-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
-},   
-
-      {
-        titles: { en: "📿Peech - Relic Event", de: "📿Peech - Relikt-Ereignis", es: "📿Peech - Evento de Reliquia", fr: "📿Peech - Événement des Reliques", pt: "📿Peech - Evento de Relíquia", ja: "📿ピーチ - レリックイベント" },
-       links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
-       },
-
-      {
- titles: { en: "🦸‍♀️ Peech Guide", pt: "🦸‍♀️ Guia da Peech", de: "🦸‍♀️ Peech-Leitfaden", es: "🦸‍♀️ Guía de Peech", fr: "🦸‍♀️ Guide de Peech", ja: "🦸‍♀️ ピーチ ガイド" }, 
- links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", ja: "" },
+}, 
+{
+  titles: { en: "🌪️ United by Power", pt: "🌪️ Unidos pelo Poder", de: "🌪️ Vereint durch Macht", es: "🌪️ Unidos por el Poder", fr: "🌪️ Unis par le Pouvoir", ja: "🌪️ 力で結ばれて" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-united-by-power-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
-},
-
+}, 
+      {
+        titles: { en: "🟣Elemental Sphere Discount", pt: "🟣Desconto de Esferas Elementais", de: "🟣Rabatt auf Elementsphären", es: "🟣Descuento de Esferas Elementales", fr: "🟣Réduction sur les Sphères Élémentaires", ja: "🟣エレメンタルスフィア割引" },
+        links: { en: "#section15", pt: "#section15", de: "#section15", es: "#section15", fr: "#section15", ja: "#section15" }
+        },
+        {
+        titles: { en: "🟡Summoning Sphere Discount", pt: "🟡Desconto de Esferas de Convocação", de: "🟡Rabatt auf Beschwörungssphären", es: "🟡Descuento de Esferas de Invocación", fr: "🟡éduction sur les Sphères d'Invocation", ja: "🟡召喚スフィア割引" },
+        links: { en: "#section13", pt: "#section13", de: "#section13", es: "#section13", fr: "#section13", ja: "#section13" }
+      },
     ]
   },
   {
     weekday: "Saturday",
-     date: "August, 29",
-   image: "../../hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-250px.webp",
-    alt: "Balance of Power Event",
-   titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
-    links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
-
-   extra: [
-{
- titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
- links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},  
-{
-  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
-   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+    date: "September, 26",
+     image: "../../imagens/image-shared/pallant-300px.webp",
+    alt: "👑 Lords of the Elements Event Group",
+   titles: { en: "👑 Lords of the Elements Events", pt: "👑 Eventos dos Senhores dos Elementos", de: "👑 Ereignisse der Herrscher der Elemente", es: "👑 Eventos de los Señores de los Elementos", fr: "👑 Événements des Seigneurs des Éléments", ja: "👑 エレメントロードイベント" },   links: { en: "#section6", pt: "#section6", de: "#section6", es: "#section6", fr: "#section6", ja: "#section6" },
+    extra: [
+      {
+  titles: { en: "🌪️ Titan's Roar", pt: "🌪️ Rugido do Titã", de: "🌪️ Gebrüll des Titanen", es: "🌪️ Rugido del Titán", fr: "🌪️ Rugissement du Titan", ja: "🌪️ タイタンの咆哮" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-titans-roar-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 }, 
 {
-  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
-  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},   
-
-      {
-        titles: { en: "📿Peech - Relic Event", de: "📿Peech - Relikt-Ereignis", es: "📿Peech - Evento de Reliquia", fr: "📿Peech - Événement des Reliques", pt: "📿Peech - Evento de Relíquia", ja: "📿ピーチ - レリックイベント" },
-       links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
-       },
-
-      {
- titles: { en: "🦸‍♀️ Peech Guide", pt: "🦸‍♀️ Guia da Peech", de: "🦸‍♀️ Peech-Leitfaden", es: "🦸‍♀️ Guía de Peech", fr: "🦸‍♀️ Guide de Peech", ja: "🦸‍♀️ ピーチ ガイド" }, 
- links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", ja: "" },
-  noStrip: true
-},
-
-    ]
-  },
-{
-  weekday: "Sunday",
-   date: "August, 30",
-   image: "../../hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-250px.webp",
-    alt: "Balance of Power Event",
-   titles: { en: "🪙 Balance of Power Event", de: "🪙 Balance der Macht", es: "🪙 Equilibrio de Poder", fr: "🪙 Équilibre du Pouvoir", pt: "🪙 Evento Equilíbrio de Poder", ja: "🪙 パワーバランスイベント" },   links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" },
-    links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
-
-   extra: [
-{
- titles: { en: "⚔️ Defiant Edge Event: All Quests & Rewards", pt: "⚔️ Evento Gume Desafiante: Todas as Missões e Recompensas", de: "⚔️ Defiant Edge-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Filo Desafiante: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lame Défiante : Toutes les Quêtes et Récompenses", ja: "⚔️ ディファイアントエッジイベント：全クエスト＆報酬" },
- links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
-  noStrip: true
-},  
-{
-  titles: { en: "⚔️ Gear & Glory Event: All Quests & Rewards", pt: "⚔️ Evento Equipamento e Glória: Todas as Missões e Recompensas", de: "⚔️ Gear & Glory-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Gear & Glory: Todas las Misiones y Recompensas", fr: "⚔️ Événement Gear & Glory : Toutes les Quêtes et Récompenses", ja: "⚔️ Gear & Gloryイベント：全クエスト＆報酬" },
-   links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌪️ Elemental Tempest", pt: "🌪️ Tempestade Elemental", de: "🌪️ Elementarsturm", es: "🌪️ Tempestad Elemental", fr: "🌪️ Tempête Élémentaire", ja: "🌪️ エレメンタルテンペスト" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-elemental-tempest-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
 }, 
 {
-  titles: { en: "⚔️ Unbroken Bond Event: All Quests & Rewards", pt: "⚔️ Evento Laço Inquebrável: Todas as Missões e Recompensas", de: "⚔️ Unbreakable Bond-Event: Alle Quests & Belohnungen", es: "⚔️ Evento Lazo Inquebrantable: Todas las Misiones y Recompensas", fr: "⚔️ Événement Lien Indestructible : Toutes les Quêtes et Récompenses", ja: "⚔️ Unbroken Bondイベント：全クエスト＆報酬" },  
-  links: { en: "../../hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  titles: { en: "🌪️ United by Power", pt: "🌪️ Unidos pelo Poder", de: "🌪️ Vereint durch Macht", es: "🌪️ Unidos por el Poder", fr: "🌪️ Unis par le Pouvoir", ja: "🌪️ 力で結ばれて" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-united-by-power-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
   noStrip: true
-},   
-
-      {
-        titles: { en: "📿Peech - Relic Event", de: "📿Peech - Relikt-Ereignis", es: "📿Peech - Evento de Reliquia", fr: "📿Peech - Événement des Reliques", pt: "📿Peech - Evento de Relíquia", ja: "📿ピーチ - レリックイベント" },
-       links: { en: "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", de: "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", es: "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", fr: "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", pt: "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", ja: "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html", },
-       },
-
-      {
- titles: { en: "🦸‍♀️ Peech Guide", pt: "🦸‍♀️ Guia da Peech", de: "🦸‍♀️ Peech-Leitfaden", es: "🦸‍♀️ Guía de Peech", fr: "🦸‍♀️ Guide de Peech", ja: "🦸‍♀️ ピーチ ガイド" }, 
- links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", de: "", es: "", fr: "", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", ja: "" },
-  noStrip: true
-},
-
+}, 
+     {
+        titles: { en: "🟣Elemental Sphere Discount", pt: "🟣Desconto de Esferas Elementais", de: "🟣Rabatt auf Elementsphären", es: "🟣Descuento de Esferas Elementales", fr: "🟣Réduction sur les Sphères Élémentaires", ja: "🟣エレメンタルスフィア割引" },
+        links: { en: "#section15", pt: "#section15", de: "#section15", es: "#section15", fr: "#section15", ja: "#section15" }
+        },
+        {
+        titles: { en: "🟡Summoning Sphere Discount", pt: "🟡Desconto de Esferas de Convocação", de: "🟡Rabatt auf Beschwörungssphären", es: "🟡Descuento de Esferas de Invocación", fr: "🟡éduction sur les Sphères d'Invocation", ja: "🟡召喚スフィア割引" },
+        links: { en: "#section13", pt: "#section13", de: "#section13", es: "#section13", fr: "#section13", ja: "#section13" }
+      },
     ]
   },
+  {
+    weekday: "Sunday",
+    date: "September, 27",
+     image: "../../imagens/image-shared/orm-300px.webp",
+    alt: "👑 Lords of the Elements Event Group",
+   titles: { en: "👑 Lords of the Elements Events", pt: "👑 Eventos dos Senhores dos Elementos", de: "👑 Ereignisse der Herrscher der Elemente", es: "👑 Eventos de los Señores de los Elementos", fr: "👑 Événements des Seigneurs des Éléments", ja: "👑 エレメントロードイベント" },   links: { en: "#section6", pt: "#section6", de: "#section6", es: "#section6", fr: "#section6", ja: "#section6" },
+    extra: [
+      {
+  titles: { en: "🌪️ Titan's Roar", pt: "🌪️ Rugido do Titã", de: "🌪️ Gebrüll des Titanen", es: "🌪️ Rugido del Titán", fr: "🌪️ Rugissement du Titan", ja: "🌪️ タイタンの咆哮" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-titans-roar-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
+  noStrip: true
+}, 
+{
+  titles: { en: "🌪️ Elemental Tempest", pt: "🌪️ Tempestade Elemental", de: "🌪️ Elementarsturm", es: "🌪️ Tempestad Elemental", fr: "🌪️ Tempête Élémentaire", ja: "🌪️ エレメンタルテンペスト" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-elemental-tempest-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
+  noStrip: true
+}, 
+{
+  titles: { en: "🌪️ United by Power", pt: "🌪️ Unidos pelo Poder", de: "🌪️ Vereint durch Macht", es: "🌪️ Unidos por el Poder", fr: "🌪️ Unis par le Pouvoir", ja: "🌪️ 力で結ばれて" },
+  links: { en: "../../hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-united-by-power-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },
+  noStrip: true
+}, 
+     {
+        titles: { en: "🟣Elemental Sphere Discount", pt: "🟣Desconto de Esferas Elementais", de: "🟣Rabatt auf Elementsphären", es: "🟣Descuento de Esferas Elementales", fr: "🟣Réduction sur les Sphères Élémentaires", ja: "🟣エレメンタルスフィア割引" },
+        links: { en: "#section15", pt: "#section15", de: "#section15", es: "#section15", fr: "#section15", ja: "#section15" }
+        },
+        {
+        titles: { en: "🟡Summoning Sphere Discount", pt: "🟡Desconto de Esferas de Convocação", de: "🟡Rabatt auf Beschwörungssphären", es: "🟡Descuento de Esferas de Invocación", fr: "🟡éduction sur les Sphères d'Invocation", ja: "🟡召喚スフィア割引" },
+        links: { en: "#section13", pt: "#section13", de: "#section13", es: "#section13", fr: "#section13", ja: "#section13" }
+      },
+    ]
+  },
+
 
  {
     weekday: "WhatsApp Group",
@@ -1222,61 +1169,30 @@ titles: { en: "🌟 Rising Legend", pt: "🌟 Lenda Ascendente", de: "🌟 Aufst
   ]
   },
   {
-    weekday: "Crow Guide",
+    weekday: "Eva Guide",
     date: "",
-    image: "../../imagens/image-shared/crow-300px.webp",
-    alt: "Crow Guide",
-    titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
+    image: "../../imagens/image-shared/eva-300px.webp",
+    alt: "Eva Guide",
+    titles: { en: "🦸Eva Guide", pt: "🦸Guia da Eva", de: "🦸Eva Leitfaden", es: "🦸Guía de Eva", fr: "🦸Guide d'Eva", ja: "🦸エヴァ ガイド" },
+  links: { en: "../../hero-wars-alliance/characters-guide/eva-en.html", pt: "../../hero-wars-alliance/characters-guide/eva-pt.html", de: "../../hero-wars-alliance/characters-guide/eva-de.html", es: "../../hero-wars-alliance/characters-guide/eva-es.html", fr: "../../hero-wars-alliance/characters-guide/eva-fr.html", ja: "../../hero-wars-alliance/characters-guide/eva-ja.html" },
   noStrip: true,
   extra: [
-{
-  titles: { en: "&nbsp;", pt: "&nbsp;", de: "&nbsp;", es: "&nbsp;", fr: "&nbsp;", ja: "&nbsp;" },
-  labelOnly: true
-},  
-     {
- titles: { en: "🦸Tristan Guide", pt: "🦸Guia do Tristan", de: "🦸Tristan Leitfaden", es: "🦸Guía de Tristan", fr: "🦸Guide de Tristan", ja: "🦸トリスタン ガイド" },
- links: { en: "../../hero-wars-alliance/characters-guide/tristan-en.html", de: "../../hero-wars-alliance/characters-guide/tristan-de.html", es: "../../hero-wars-alliance/characters-guide/tristan-es.html", fr: "../../hero-wars-alliance/characters-guide/tristan-fr.html", pt: "../../hero-wars-alliance/characters-guide/tristan-pt.html", ja: "../../hero-wars-alliance/characters-guide/tristan-ja.html" },
-  noStrip: true
-},
-
 
 
    ]
   },
-
-  {
-    weekday: "Cleaver Guide",
-    date: "",
-    image: "../../imagens/image-shared/cleaver-300px.webp",
-    alt: "Cleaver Guide",
-    titles: { en: "🦸 Cleaver Guide", pt: "🦸 Guia da Cleaver", de: "🦸 Cleaver-Leitfaden", es: "🦸 Guía de Cleaver", fr: "🦸 Guide de Cleaver", ja: "🦸 クリーバー ガイド" }, 
- links: { en: "../../hero-wars-alliance/characters-guide/cleaver-en.html", de: "../../hero-wars-alliance/characters-guide/cleaver-de.html", es: "../../hero-wars-alliance/characters-guide/cleaver-es.html", fr: "../../hero-wars-alliance/characters-guide/cleaver-fr.html", pt: "../../hero-wars-alliance/characters-guide/cleaver-pt.html", ja: "../../hero-wars-alliance/characters-guide/cleaver-ja.html" },
-  noStrip: true,
-  extra: [
 {
-titles: { en: "&nbsp;", pt: "&nbsp;", de: "&nbsp;", es: "&nbsp;", fr: "&nbsp;", ja: "&nbsp;" },
-  labelOnly: true
-},       
-   ]
-  },
-
-   {
-    weekday: "Peech Guide",
+    weekday: "Nebula Guide",
     date: "",
-    image: "../../imagens/image-shared/peech-300px.webp",
-    alt: "Peech Guide",
-   titles: { en: "🦸‍♀️ Peech Guide", pt: "🦸‍♀️ Guia da Peech", de: "🦸‍♀️ Peech-Leitfaden", es: "🦸‍♀️ Guía de Peech", fr: "🦸‍♀️ Guide de Peech", ja: "🦸‍♀️ ピーチ ガイド" }, 
- links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", de: "../../hero-wars-alliance/characters-guide/peech-de.html", es: "../../hero-wars-alliance/characters-guide/peech-es.html", fr: "", pt: "../../hero-wars-alliance/characters-guide/peech-pt.html", ja: "../../hero-wars-alliance/characters-guide/peech-ja.html" },
-  noStrip: true,
+    image: "../../imagens/image-shared/nebula-300px.webp",
+    alt: "Nebula Guide",
+    titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネブュラ ガイド" },
+   links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", pt: "", de: "", es: "", fr: "",  ja: "" },  noStrip: true,
   extra: [
-{
-titles: { en: "&nbsp;", pt: "&nbsp;", de: "&nbsp;", es: "&nbsp;", fr: "&nbsp;", ja: "&nbsp;" },
-  labelOnly: true
-},       
-   ]
-  },
 
+
+   ]
+}
 
 
 /* ################################################

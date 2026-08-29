@@ -2,6 +2,15 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
+      link: "/hero-wars-alliance/event-special-hwa/pallant-adventure-shop-en.html",
+      src500: "/hero-wars-alliance/images/events-special-hwa/pallant-adventure-shop/event-500px.webp",
+      src400: "/hero-wars-alliance/images/events-special-hwa/pallant-adventure-shop/event-400px.webp",
+      alt: "Pallant Adventure Shop Guide for Hero Wars Alliance",
+      title: "Pallant Adventure Shop Guide for Hero Wars Alliance",
+      strong: "Guide: Pallant Adventure Shop - Hero Wars Alliance",
+      updated: "Updated: August, 2026."
+    },     
+    {
       link: "/hero-wars-alliance/characters-guide/eva-en.html",
       src500: "/hero-wars-alliance/images/hero/eva/eva-500px.webp",
       src400: "/hero-wars-alliance/images/hero/eva/eva-400px.webp",
@@ -19,15 +28,7 @@
       strong: "Guide New Skin+: Peech for Hero Wars Alliance",
       updated: "Updated: August, 2026."
     },   
-     {
-      link: "/hero-wars-alliance/event-special-hwa/pallant-adventure-shop-en.html",
-      src500: "/hero-wars-alliance/images/events-special-hwa/pallant-adventure-shop/event-500px.webp",
-      src400: "/hero-wars-alliance/images/events-special-hwa/pallant-adventure-shop/event-400px.webp",
-      alt: "Pallant Adventure Shop Guide for Hero Wars Alliance",
-      title: "Pallant Adventure Shop Guide for Hero Wars Alliance",
-      strong: "Guide: Pallant Adventure Shop - Hero Wars Alliance",
-      updated: "Updated: August, 2026."
-    },     
+     
     {
       link: "/hero-wars-alliance/characters-guide/kendle-en.html",
       src500: "/hero-wars-alliance/images/hero/kendle/kendle-500px.webp",
