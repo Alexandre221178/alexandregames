@@ -3,9 +3,13 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+  { date:'2026-08-29', type:'hub', code:'EVACALENDAR', note:'until|2026-09-28T01:00:00Z',
+    rewards:['energy x20', 'intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350'] },
+
   { date:'2026-08-29', type:'daily', mission:'3-8', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-{ date:'2026-08-28', type:'hub', code:'EVATRAILER', expires:'2026-09-28', rewards:['energy x100', 'boxys-gift x3', 'realm-gift x3'] },
+{ date:'2026-08-28', type:'hub', code:'EVATRAILER', note:'until|2026-09-28T01:00:00Z',
+   rewards:['energy x100', 'boxys-gift x3', 'realm-gift x3'] },
     
 { date:'2026-08-28', type:'daily', mission:'2-9', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
