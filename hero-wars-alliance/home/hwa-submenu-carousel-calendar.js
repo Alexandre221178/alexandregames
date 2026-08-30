@@ -6,6 +6,7 @@
   // Este submenu fica na pag. Calendario para eventos da temporada recentes.
   // =====================================================
   var slides = [  
+
     {
       link: "../../hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-en.html",
       src500: "../../hero-wars-alliance/images/daily-gifts/gifts-hwa-500px.webp",
@@ -15,6 +16,33 @@
       strong: "Redeem your Daily Gifts for Hero Wars Alliance",
       updated: "Updated: Everyday."
     },
+    {
+      link: "/hero-wars-alliance/characters-guide/nebula-en.html",
+      src500: "/hero-wars-alliance/images/hero/nebula/nebula-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/nebula/nebula-400px.webp",
+      alt: "Nebula Guide for Hero Wars Alliance",
+      title: "Nebula Guide for Hero Wars Alliance",
+      strong: "Guide: Nebula Rework for Hero Wars Alliance",
+      updated: "Updated: August, 2026."
+    },   
+    {
+      link: "/hero-wars-alliance/characters-guide/eva-en.html",
+      src500: "/hero-wars-alliance/images/hero/eva/eva-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/eva/eva-400px.webp",
+      alt: "Eva Guide for Hero Wars Alliance",
+      title: "Eva Guide for Hero Wars Alliance",
+      strong: "Guide: Eva for Hero Wars Alliance",
+      updated: "Updated: August, 2026."
+    },   
+    {
+      link: "/hero-wars-alliance/characters-guide/peech-en.html",
+      src500: "/hero-wars-alliance/images/hero/peech/peech-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/peech/peech-400px.webp",
+      alt: "Peech Guide for Hero Wars Alliance",
+      title: "Peech Guide for Hero Wars Alliance",
+      strong: "Guide New Skin+: Peech for Hero Wars Alliance",
+      updated: "Updated: August, 2026."
+    },   
     {
       link: "/hero-wars-alliance/characters-guide/crow-en.html",
       src500: "/hero-wars-alliance/images/hero/crow/crow-500px.webp",
@@ -33,15 +61,7 @@
       strong: "Guide: Kendle Legendary Skills for Hero Wars Alliance",
       updated: "Updated: May, 2026."
     },     
-    {
-      link: "/hero-wars-alliance/characters-guide/satori-en.html",
-      src500: "/hero-wars-alliance/images/hero/satori/satori-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/satori/satori-400px.webp",
-      alt: "Satori Legendary Skills Guide for Hero Wars Alliance",
-      title: "Satori Guide for Hero Wars Alliance",
-      strong: "Guide Updated: Satori Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: June, 2026."
-    },      
+     
     
     
         

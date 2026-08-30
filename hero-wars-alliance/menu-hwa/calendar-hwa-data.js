@@ -71,10 +71,15 @@ window.CALENDAR_DATA = [
   links: { en: "../../hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",pt: "", de: "", es: "", fr: "",  ja: "" }, 
   noStrip: true
 },
-      {
-  titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
-  noStrip: true
+     {
+titles: { en: "🦸Eva Guide", pt: "🦸Guia da Eva", de: "🦸Eva Leitfaden", es: "🦸Guía de Eva", fr: "🦸Guide d'Eva", ja: "🦸エヴァ ガイド" },
+links: { en: "../../hero-wars-alliance/characters-guide/eva-en.html", pt: "../../hero-wars-alliance/characters-guide/eva-pt.html", de: "../../hero-wars-alliance/characters-guide/eva-de.html", es: "../../hero-wars-alliance/characters-guide/eva-es.html", fr: "../../hero-wars-alliance/characters-guide/eva-fr.html", ja: "../../hero-wars-alliance/characters-guide/eva-ja.html" },
+noStrip: true
+},
+{
+titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネビュラ ガイド" },
+links: { en: "../../hero-wars-alliance/characters-guide/nebula-en.html", pt: "../../hero-wars-alliance/characters-guide/nebula-pt.html", de: "../../hero-wars-alliance/characters-guide/nebula-de.html", es: "../../hero-wars-alliance/characters-guide/nebula-es.html", fr: "../../hero-wars-alliance/characters-guide/nebula-fr.html",  ja: "../../hero-wars-alliance/characters-guide/nebula-ja.html" },
+ noStrip: true,
 },
     ]
   },
@@ -102,9 +107,14 @@ window.CALENDAR_DATA = [
   noStrip: true
 },
  {
-  titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
-  noStrip: true
+titles: { en: "🦸Eva Guide", pt: "🦸Guia da Eva", de: "🦸Eva Leitfaden", es: "🦸Guía de Eva", fr: "🦸Guide d'Eva", ja: "🦸エヴァ ガイド" },
+links: { en: "../../hero-wars-alliance/characters-guide/eva-en.html", pt: "../../hero-wars-alliance/characters-guide/eva-pt.html", de: "../../hero-wars-alliance/characters-guide/eva-de.html", es: "../../hero-wars-alliance/characters-guide/eva-es.html", fr: "../../hero-wars-alliance/characters-guide/eva-fr.html", ja: "../../hero-wars-alliance/characters-guide/eva-ja.html" },
+noStrip: true
+},
+{
+titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネビュラ ガイド" },
+links: { en: "../../hero-wars-alliance/characters-guide/nebula-en.html", pt: "../../hero-wars-alliance/characters-guide/nebula-pt.html", de: "../../hero-wars-alliance/characters-guide/nebula-de.html", es: "../../hero-wars-alliance/characters-guide/nebula-es.html", fr: "../../hero-wars-alliance/characters-guide/nebula-fr.html",  ja: "../../hero-wars-alliance/characters-guide/nebula-ja.html" },
+ noStrip: true,
 },
 
 
@@ -134,9 +144,14 @@ window.CALENDAR_DATA = [
   noStrip: true
 },
  {
-  titles: { en: "🦸Crow Guide", pt: "🦸Guia do Crow", de: "🦸Crow Leitfaden", es: "🦸Guía de Crow", fr: "🦸Guide de Crow", ja: "🦸クロウ ガイド" },
-  links: { en: "../../hero-wars-alliance/characters-guide/crow-en.html", pt: "../../hero-wars-alliance/characters-guide/crow-pt.html", de: "../../hero-wars-alliance/characters-guide/crow-de.html", es: "../../hero-wars-alliance/characters-guide/crow-es.html", fr: "../../hero-wars-alliance/characters-guide/crow-fr.html", ja: "../../hero-wars-alliance/characters-guide/crow-ja.html" },
-  noStrip: true
+titles: { en: "🦸Eva Guide", pt: "🦸Guia da Eva", de: "🦸Eva Leitfaden", es: "🦸Guía de Eva", fr: "🦸Guide d'Eva", ja: "🦸エヴァ ガイド" },
+links: { en: "../../hero-wars-alliance/characters-guide/eva-en.html", pt: "../../hero-wars-alliance/characters-guide/eva-pt.html", de: "../../hero-wars-alliance/characters-guide/eva-de.html", es: "../../hero-wars-alliance/characters-guide/eva-es.html", fr: "../../hero-wars-alliance/characters-guide/eva-fr.html", ja: "../../hero-wars-alliance/characters-guide/eva-ja.html" },
+noStrip: true
+},
+{
+titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネビュラ ガイド" },
+links: { en: "../../hero-wars-alliance/characters-guide/nebula-en.html", pt: "../../hero-wars-alliance/characters-guide/nebula-pt.html", de: "../../hero-wars-alliance/characters-guide/nebula-de.html", es: "../../hero-wars-alliance/characters-guide/nebula-es.html", fr: "../../hero-wars-alliance/characters-guide/nebula-fr.html",  ja: "../../hero-wars-alliance/characters-guide/nebula-ja.html" },
+ noStrip: true,
 },
 
 
@@ -349,7 +364,8 @@ window.CALENDAR_DATA = [
 
 {
 titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネビュラ ガイド" },
-links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", pt: "", de: "", es: "", fr: "",  ja: "" },  noStrip: true
+links: { en: "../../hero-wars-alliance/characters-guide/nebula-en.html", pt: "../../hero-wars-alliance/characters-guide/nebula-pt.html", de: "../../hero-wars-alliance/characters-guide/nebula-de.html", es: "../../hero-wars-alliance/characters-guide/nebula-es.html", fr: "../../hero-wars-alliance/characters-guide/nebula-fr.html",  ja: "../../hero-wars-alliance/characters-guide/nebula-ja.html" },
+ noStrip: true,
 },
 { titles: { en: "👗Nebula New Skin+: Singularity", pt: "👗Nebula Nova Skin+: Singularidade", de: "👗Nebula Neue Skin+: Singularität", es: "👗Nebula Nueva Skin+: Singularidad", fr: "👗Nebula Nouvelle Skin+ : Singularité", ja: "👗ネビュラ 新スキン+：シングュラリティ" },
   labelOnly: true },
@@ -387,7 +403,8 @@ links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", 
 
 {
 titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネビュラ ガイド" },
-links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", pt: "", de: "", es: "", fr: "",  ja: "" },  noStrip: true
+links: { en: "../../hero-wars-alliance/characters-guide/nebula-en.html", pt: "../../hero-wars-alliance/characters-guide/nebula-pt.html", de: "../../hero-wars-alliance/characters-guide/nebula-de.html", es: "../../hero-wars-alliance/characters-guide/nebula-es.html", fr: "../../hero-wars-alliance/characters-guide/nebula-fr.html",  ja: "../../hero-wars-alliance/characters-guide/nebula-ja.html" },
+ noStrip: true,
 },
 { titles: { en: "👗Nebula New Skin+: Singularity", pt: "👗Nebula Nova Skin+: Singularidade", de: "👗Nebula Neue Skin+: Singularität", es: "👗Nebula Nueva Skin+: Singularidad", fr: "👗Nebula Nouvelle Skin+ : Singularité", ja: "👗ネビュラ 新スキン+：シングュラリティ" },
   labelOnly: true },
@@ -425,7 +442,8 @@ links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", 
 
 {
 titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネビュラ ガイド" },
-links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", pt: "", de: "", es: "", fr: "",  ja: "" },  noStrip: true
+links: { en: "../../hero-wars-alliance/characters-guide/nebula-en.html", pt: "../../hero-wars-alliance/characters-guide/nebula-pt.html", de: "../../hero-wars-alliance/characters-guide/nebula-de.html", es: "../../hero-wars-alliance/characters-guide/nebula-es.html", fr: "../../hero-wars-alliance/characters-guide/nebula-fr.html",  ja: "../../hero-wars-alliance/characters-guide/nebula-ja.html" },
+ noStrip: true,
 },
 { titles: { en: "👗Nebula New Skin+: Singularity", pt: "👗Nebula Nova Skin+: Singularidade", de: "👗Nebula Neue Skin+: Singularität", es: "👗Nebula Nueva Skin+: Singularidad", fr: "👗Nebula Nouvelle Skin+ : Singularité", ja: "👗ネビュラ 新スキン+：シングュラリティ" },
   labelOnly: true },
@@ -462,7 +480,8 @@ links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", 
 
 {
 titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネビュラ ガイド" },
-links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", pt: "", de: "", es: "", fr: "",  ja: "" },  noStrip: true
+links: { en: "../../hero-wars-alliance/characters-guide/nebula-en.html", pt: "../../hero-wars-alliance/characters-guide/nebula-pt.html", de: "../../hero-wars-alliance/characters-guide/nebula-de.html", es: "../../hero-wars-alliance/characters-guide/nebula-es.html", fr: "../../hero-wars-alliance/characters-guide/nebula-fr.html",  ja: "../../hero-wars-alliance/characters-guide/nebula-ja.html" },
+ noStrip: true,
 },
 { titles: { en: "👗Nebula New Skin+: Singularity", pt: "👗Nebula Nova Skin+: Singularidade", de: "👗Nebula Neue Skin+: Singularität", es: "👗Nebula Nueva Skin+: Singularidad", fr: "👗Nebula Nouvelle Skin+ : Singularité", ja: "👗ネビュラ 新スキン+：シングュラリティ" },
   labelOnly: true },
@@ -499,7 +518,8 @@ links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", 
 
 {
 titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネビュラ ガイド" },
-links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", pt: "", de: "", es: "", fr: "",  ja: "" },  noStrip: true
+links: { en: "../../hero-wars-alliance/characters-guide/nebula-en.html", pt: "../../hero-wars-alliance/characters-guide/nebula-pt.html", de: "../../hero-wars-alliance/characters-guide/nebula-de.html", es: "../../hero-wars-alliance/characters-guide/nebula-es.html", fr: "../../hero-wars-alliance/characters-guide/nebula-fr.html",  ja: "../../hero-wars-alliance/characters-guide/nebula-ja.html" },
+ noStrip: true,
 },
 { titles: { en: "👗Nebula New Skin+: Singularity", pt: "👗Nebula Nova Skin+: Singularidade", de: "👗Nebula Neue Skin+: Singularität", es: "👗Nebula Nueva Skin+: Singularidad", fr: "👗Nebula Nouvelle Skin+ : Singularité", ja: "👗ネビュラ 新スキン+：シングュラリティ" },
   labelOnly: true },
@@ -536,7 +556,8 @@ links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", 
 
 {
 titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネビュラ ガイド" },
-links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", pt: "", de: "", es: "", fr: "",  ja: "" },  noStrip: true
+links: { en: "../../hero-wars-alliance/characters-guide/nebula-en.html", pt: "../../hero-wars-alliance/characters-guide/nebula-pt.html", de: "../../hero-wars-alliance/characters-guide/nebula-de.html", es: "../../hero-wars-alliance/characters-guide/nebula-es.html", fr: "../../hero-wars-alliance/characters-guide/nebula-fr.html",  ja: "../../hero-wars-alliance/characters-guide/nebula-ja.html" },
+ noStrip: true,
 },
   { titles: { en: "👗Nebula New Skin+: Singularity", pt: "👗Nebula Nova Skin+: Singularidade", de: "👗Nebula Neue Skin+: Singularität", es: "👗Nebula Nueva Skin+: Singularidad", fr: "👗Nebula Nouvelle Skin+ : Singularité", ja: "👗ネビュラ 新スキン+：シングュラリティ" },
   labelOnly: true },
@@ -574,7 +595,8 @@ links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", 
 
 {
 titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネビュラ ガイド" },
-links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", pt: "", de: "", es: "", fr: "",  ja: "" },  noStrip: true
+links: { en: "../../hero-wars-alliance/characters-guide/nebula-en.html", pt: "../../hero-wars-alliance/characters-guide/nebula-pt.html", de: "../../hero-wars-alliance/characters-guide/nebula-de.html", es: "../../hero-wars-alliance/characters-guide/nebula-es.html", fr: "../../hero-wars-alliance/characters-guide/nebula-fr.html",  ja: "../../hero-wars-alliance/characters-guide/nebula-ja.html" },
+ noStrip: true,
 },
 { titles: { en: "👗Nebula New Skin+: Singularity", pt: "👗Nebula Nova Skin+: Singularidade", de: "👗Nebula Neue Skin+: Singularität", es: "👗Nebula Nueva Skin+: Singularidad", fr: "👗Nebula Nouvelle Skin+ : Singularité", ja: "👗ネビュラ 新スキン+：シングュラリティ" },
   labelOnly: true },
@@ -1187,7 +1209,7 @@ links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../
     image: "../../imagens/image-shared/nebula-300px.webp",
     alt: "Nebula Guide",
     titles: { en: "🦸Nebula Guide", pt: "🦸Guia da Nebula", de: "🦸Nebula Leitfaden", es: "🦸Guía de Nebula", fr: "🦸Guide de Nebula", ja: "🦸ネブュラ ガイド" },
-   links: { en: "../../Hero Wars/Guia de Heróis Hero Wars/Nebula - English.html", pt: "", de: "", es: "", fr: "",  ja: "" },  noStrip: true,
+links: { en: "../../hero-wars-alliance/characters-guide/nebula-en.html", pt: "../../hero-wars-alliance/characters-guide/nebula-pt.html", de: "../../hero-wars-alliance/characters-guide/nebula-de.html", es: "../../hero-wars-alliance/characters-guide/nebula-es.html", fr: "../../hero-wars-alliance/characters-guide/nebula-fr.html",  ja: "../../hero-wars-alliance/characters-guide/nebula-ja.html" },  noStrip: true,
   extra: [
 
 
