@@ -1,0 +1,387 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "nebula",
+      "name": "Nebula",
+      "gender": "female",
+      "description": "Stellar warrior who attacks less with promotions, but her buffs and healing become more effective.",
+      "role": ["Support"],
+      "main_class": "Support",
+      "position": "Middle Line",
+      "level": 120,
+      "main_stat": "Agility",
+      "way": "Way of Progress",
+      "faction": "Way of Progress",
+      "best_synergy": ["Eva", "Isaac", "Judge", "Julius"],
+      "realm_buff": ["Spearmen attack/defense 120%"],
+      "relic_max_level": {
+        "physical_attack": 37976,
+        "health": 290824
+      },
+      "stat_rules": {
+        "agility": {
+          "physical_attack_per_point": 2,
+          "armor_per_point": 1,
+          "extra_physical_attack_per_point_when_main_stat": 1
+        }
+      },
+      "stats": {
+        "max_with_talisman_of_consistency": {
+          "intelligence": 3963,
+          "agility": 16704,
+          "strength": 3803,
+          "health": 814144,
+          "physical_attack": 145933,
+          "magic_attack": 26995,
+          "physical_armor": 55518.8,
+          "magical_armor": 26366.2,
+          "toughness": 3073,
+          "dodge": 8654.9,
+          "crushing": 1564
+        },
+        "max_with_talisman_of_stars": {
+          "intelligence": 3963,
+          "agility": 14704,
+          "strength": 3803,
+          "health": 814144,
+          "physical_attack": 126733,
+          "magic_attack": 26995,
+          "physical_armor": 67318.8,
+          "magical_armor": 26366.2,
+          "toughness": 3073,
+          "dodge": 16244.9,
+          "crushing": 1564
+        }
+      },
+      "talisman_details": {
+        "talisman_of_consistency": {
+          "display_name": "Talisman of Consistency",
+          "border": {
+            "level": 50,
+            "main_stat": "Agility",
+            "main_stat_value": 2000
+          },
+          "rerolls": [
+            { "stat": "physicalAttack", "value": 4400 },
+            { "stat": "physicalAttack", "value": 4400 },
+            { "stat": "physicalAttack", "value": 4400 }
+          ],
+          "total_reroll_bonus": {
+            "stat": "Physical attack",
+            "value": 13200
+          }
+        },
+        "talisman_of_stars": {
+          "display_name": "Talisman of Stars",
+          "border": {
+            "level": 50,
+            "main_stat": "Armor",
+            "main_stat_value": 12000
+          },
+          "rerolls": [
+            { "stat": "dodge", "value": 2200 },
+            { "stat": "dodge", "value": 2200 },
+            { "stat": "dodge", "value": 2200 }
+          ],
+          "total_reroll_bonus": {
+            "stat": "Dodge",
+            "value": 6600
+          }
+        }
+      },
+      "skills": [
+        {
+          "id": 0,
+          "variant": "basic_attack",
+          "name": "Basic attack",
+          "type": ["Physical Damage"],
+          "description": "Nebula's basic attack deals physical damage.",
+          "damage": "100% Phys.atk.",
+          "cooldown_seconds": 5.2,
+          "animation_delay_seconds": 0.66
+        },
+        {
+          "id": 1,
+          "variant": "base",
+          "color": "gray",
+          "level": 120,
+          "name": "Astral Projection",
+          "type": ["Physical Damage", "Energy Burn"],
+          "description": "Launches a projectile that deals damage to enemies within its area of effect and burns their Energy upon activation. The damage and Energy burn are divided equally among affected enemies. If not activated manually, the projectile explodes automatically upon reaching the farthest enemy.",
+          "total_physical_damage": "Depends on physical attack",
+          "total_energy_burned": 100,
+          "activation": "Manual, or automatic upon reaching the farthest enemy"
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "color": "green",
+          "level": 120,
+          "name": "Serenity",
+          "type": ["Healing", "Cleanse"],
+          "can_upgrade_to_legendary": true,
+          "description": "Restores Health to the two nearest allies and removes negative effects from them. If there is only one nearby ally, Nebula applies this skill to that ally and herself.",
+          "recovered_health": "Depends on physical attack",
+          "targets": "The two nearest allies",
+          "note": "The chance of removing a negative effect is reduced if the level of the enemy that applied the effect is higher than 120."
+        },
+        {
+          "id": 2,
+          "variant": "legendary",
+          "relic_level": 10,
+          "name": "Serenity (enhancement)",
+          "type": ["Healing", "Cleanse"],
+          "description": "Heals Nebula and all allies, removing negative effects from them.",
+          "targets": "Nebula and all allies",
+          "relic_total_stats_gain": {
+            "physical_attack": 6956,
+            "health": 53269
+          },
+          "relic_unlocks": {
+            "relic_shards_level_2_to_10": 280,
+            "total_relic_shards_level_0_to_10": 330
+          }
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "color": "blue",
+          "level": 100,
+          "name": "Disharmony",
+          "type": ["Buff", "Damage over Time Protection"],
+          "keywords": ["Buff"],
+          "description": "Increases Movement Speed and Skill Recharge Speed of Nebula and allies behind her by 25% for 5.0 seconds, and blocks incoming Damage Over Time.",
+          "movement_speed_increase_percent": 25,
+          "skill_recharge_speed_increase_percent": 25,
+          "duration_seconds": 5.0,
+          "targets": "Nebula and allies behind her",
+          "note": "The chance for this skill to affect the target is reduced if the target's level is higher than 120. This protection makes Nebula a strong counter to heroes that rely on Damage over Time, especially Iris."
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "color": "purple",
+          "level": 90,
+          "name": "Equilibrium",
+          "type": ["Buff"],
+          "keywords": ["Buff"],
+          "can_upgrade_to_legendary": true,
+          "description": "Nebula's basic attacks switch to Support mode. Whenever this skill triggers, it increases the Physical and Magic Attack of one nearby ally for 5.0 seconds. If there is only one nearby ally, Nebula alternates this skill between that ally and herself.",
+          "temporary_physical_attack_boost": "Depends on physical attack",
+          "temporary_magic_attack_boost": 224031,
+          "temporary_magic_attack_boost_formula": "Depends on physical attack",
+          "duration_seconds": 5.0,
+          "targets": "One nearby ally"
+        },
+        {
+          "id": 4,
+          "variant": "legendary",
+          "relic_level": 20,
+          "name": "Equilibrium (enhancement)",
+          "type": ["Buff"],
+          "keywords": ["Buff"],
+          "description": "Increases both Physical and Magic Attack of the two nearest allies simultaneously. If there is only one nearby ally, Nebula applies this skill to that ally and herself.",
+          "targets": "The two nearest allies",
+          "analysis": "The enhancement removes much of the timing and target randomness from Equilibrium, making Nebula's large damage buff substantially more consistent.",
+          "relic_total_stats_gain": {
+            "physical_attack": 19176,
+            "health": 146854
+          },
+          "relic_unlocks": {
+            "relic_shards_level_11_to_20": 800,
+            "total_relic_shards_level_0_to_20": 1130
+          }
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "name": "Power of Balance",
+          "type": ["Buff"],
+          "keywords": ["Buff", "Alliance"],
+          "description": "Every 12.0 seconds, increases the Main Stat of the nearest allies for 4.0 seconds. If there are no nearby allies, Nebula buffs herself. Only affects allies who started the battle with Nebula.",
+          "main_stat_increase": "Depends on physical attack",
+          "cooldown_seconds": 12.0,
+          "duration_seconds": 4.0,
+          "targets": "Nearest allies who started the battle with Nebula",
+          "analysis": "Main Stat can increase attack, defense, or Health depending on the hero. It is also important for Dodge accuracy and Critical Hit resistance checks.",
+          "relic_total_stats_gain": {
+            "physical_attack": 3760,
+            "health": 28794
+          },
+          "relic_unlocks": {
+            "relic_shards_level_0_to_1": 50,
+            "total_relic_shards_level_0_to_1": 50
+          }
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "name": "Deep Meditation",
+          "type": ["Buff Extension", "Artifact Extension"],
+          "description": "The duration of all buffs applied by Nebula and her allies, as well as the effects of their first Artifacts, is increased by 2.0 seconds.",
+          "duration_increase_seconds": 2.0,
+          "analysis": "This extends a first Artifact effect from 9 to 11 seconds. Nebula's Physical Attack weapon Artifact further improves the physical scaling of her team and of Equilibrium. Relic levels 20 to 30 also provide a large Physical Attack and Health increase for stronger skills and better survivability.",
+          "relic_total_stats_gain": {
+            "physical_attack": 37976,
+            "health": 290824
+          },
+          "relic_unlocks": {
+            "relic_shards_level_21_to_30": 1750,
+            "total_relic_shards_level_0_to_30": 2880
+          }
+        }
+      ],
+      "damage_traits": {
+        "damage_over_time": {
+          "name": {
+            "en": "Damage over Time",
+            "pt": "Dano ao Longo do Tempo"
+          },
+          "aliases": ["DoT", "Periodical Damage"],
+          "purpose": "Removes battle delays caused by heroes generating many repeated damage effects.",
+          "rules": [
+            "Cannot miss.",
+            "Cannot be dodged.",
+            "Cannot be reflected."
+          ],
+          "affected_sources": [
+            { "source": "Kai", "effect": "Pure damage from the third skill." },
+            { "source": "Maya", "effect": "Damage from the second, third, and fourth skills." },
+            { "source": "Qing Mao", "effect": "Burn damage from the first skill." },
+            { "source": "Yasmine", "effect": "Poison from the third skill." },
+            { "source": "Rufus", "effect": "Damage from the second skill." },
+            { "source": "Arachne", "effect": "Damage from the fourth skill." },
+            { "source": "Iris", "effect": "Burn damage from the fourth skill." },
+            { "source": "Tempus", "effect": "Damage from the third skill." },
+            { "source": "Polaris", "effect": "Damage from the first skill." },
+            { "source": "Heidi", "effect": "Toxin damage." },
+            { "source": "Alvanor", "effect": "Damage from the third skill enhanced by a Relic." },
+            { "source": "Adventure effect", "effect": "Pure damage equal to a percentage of heroes' maximum Health." },
+            { "source": "Outland Boss Ilyssa the Weaver", "effect": "Pure damage." },
+            { "source": "Hydra Fire Head", "effect": "Burning effect." }
+          ]
+        }
+      },
+      "skins": [
+        {
+          "name": "Default",
+          "stat": "Agility",
+          "bonus": 1365,
+          "level": 60,
+          "total_skin_stones": 30825,
+          "derived": {
+            "physical_attack": 4095,
+            "armor": 1365
+          }
+        },
+        {
+          "name": "Romantic",
+          "stat": "Physical attack",
+          "bonus": 7095,
+          "level": 60,
+          "total_skin_stones": 50410
+        },
+        {
+          "name": "Spring",
+          "stat": "Dodge",
+          "bonus": 2960,
+          "level": 60,
+          "total_skin_stones": 50410
+        },
+        {
+          "name": "Winter",
+          "stat": "Physical attack",
+          "bonus": 7120,
+          "level": 60,
+          "total_skin_stones": 50410
+        },
+        {
+          "name": "Celestial",
+          "stat": "Armor",
+          "bonus": 10650,
+          "level": 60,
+          "total_skin_stones": 50410
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "Unborn Stars",
+          "slot": "Weapon",
+          "level": 100,
+          "activation_chance_percent": 100,
+          "effect": "Physical attack +21357",
+          "physical_attack": 21357,
+          "note": "Activates with the ultimate skill."
+        },
+        {
+          "name": "Book of Illusions",
+          "slot": "Book",
+          "level": 100,
+          "effect": "Dodge +2967, Health +53394",
+          "dodge": 2967,
+          "health": 53394
+        },
+        {
+          "name": "Ring of Agility",
+          "slot": "Ring",
+          "level": 100,
+          "agility": 3990,
+          "derived": {
+            "physical_attack": 11970,
+            "armor": 3990
+          }
+        }
+      ],
+      "class_skill": {
+        "class": "Support",
+        "level": 45,
+        "overall_class_level": "585 / 585",
+        "trigger": "On damage to an opponent or use of a buff on allies",
+        "duration_seconds": 4.0,
+        "max_stacks": 5,
+        "armor_magic_defense_phys_formula": "1% Phys.atk. + 2925",
+        "armor_magic_defense_phys_example": 3812.57,
+        "armor_magic_defense_mag_formula": "1% Mag.atk. + 2925",
+        "armor_magic_defense_mag_example": 3194.95,
+        "effect": "Each time Nebula deals damage to an opponent or uses a buff on allies, she applies an effect to all enemies for 4.0 seconds that reduces Armor and Magic Defense by 3812.57 (1% Phys.atk. + 2925) or 3194.95 (1% Mag.atk. + 2925), depending on which of her Support stats is higher. A character cannot have more than 5 effects at the same time."
+      },
+      "glyphs": {
+        "level": 80,
+        "list": [
+          { "name": "Physical attack", "level": 80, "bonus": 8340 },
+          { "name": "Armor", "level": 80, "bonus": 12850 },
+          { "name": "Magic defense", "level": 80, "bonus": 12850 },
+          { "name": "Health", "level": 80, "bonus": 122800 },
+          {
+            "name": "Agility",
+            "level": 80,
+            "bonus": 2110,
+            "derived": {
+              "physical_attack": 6330,
+              "armor": 2110
+            }
+          }
+        ]
+      },
+       "best_teams": [
+                ["Eva(talisman1)", "Isaac(talisman1)", "Nebula(talisman1)", "Judge(talisman1)", "Julius(talisman2)"],
+                ["Eva(talisman1)", "Iris(talisman2)", "Nebula(talisman1)", "Dante(talisman1)", "Electra(talisman1)"],
+                ["Octavia(talisman1)", "Iris(talisman2)", "Nebula(talisman1)", "Dante(talisman1)", "Electra(talisman1)"]
+            ],
+      "relic_resources": {
+        "total_relic_shards_to_level_30": 2880
+      },
+      "notes": [
+        "Nebula's rework shifts more of her value toward frequent, reliable buffs and healing.",
+        "Disharmony blocks incoming Damage over Time and makes Nebula a particularly strong answer to Iris.",
+        "The Legendary Equilibrium enhancement buffs the two nearest allies simultaneously, removing the old reliance on favorable timing and target selection.",
+        "Deep Meditation extends allied buffs and first Artifact effects by 2 seconds, including extending the usual 9-second weapon Artifact effect to 11 seconds.",
+        "Both maximum-stat sets include the Level 30 Legendary Relic bonuses of 37976 Physical Attack and 290824 Health.",
+        "The source does not provide Nebula's equipment rank, soul-stone acquisition methods, Realm data, Gift of the Elements, exact formulas for scaling skill values, or Artifact evolution levels, so these values were not inferred."
+      ]
+    }
+  ]
+}

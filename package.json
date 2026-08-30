@@ -79,6 +79,7 @@
     "update-lian-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide lian",
 
     "update-miu-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide miu",
+"update-nebula-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide nebula",
 
     "update-oya-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide oya",
      "update-peech-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide peech",

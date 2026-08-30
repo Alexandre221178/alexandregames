@@ -11,6 +11,15 @@
       updated: "Updated: August, 2026."
     },     
     {
+      link: "/hero-wars-alliance/characters-guide/nebula-en.html",
+      src500: "/hero-wars-alliance/images/hero/nebula/nebula-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/nebula/nebula-400px.webp",
+      alt: "Nebula Guide for Hero Wars Alliance",
+      title: "Nebula Guide for Hero Wars Alliance",
+      strong: "Guide: Nebula Rework for Hero Wars Alliance",
+      updated: "Updated: August, 2026."
+    },   
+    {
       link: "/hero-wars-alliance/characters-guide/eva-en.html",
       src500: "/hero-wars-alliance/images/hero/eva/eva-500px.webp",
       src400: "/hero-wars-alliance/images/hero/eva/eva-400px.webp",
