@@ -1556,11 +1556,103 @@ titles: { en: "🏴‍☠️ Blackbeard's Legacy", de: "🏴‍☠️ Blackbeard
     links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
     noStrip: true,
     extra: [
-     
+      {
+         titles: { en: "🏆Tournament of Hero Power", pt: "🏆Torneio de Poder do Herói", de: "🏆Helden-Kraftturnier", es: "🏆Torneo de Poder del Héroe", fr: "🏆Tournoi de Puissance des Héros", ja: "🏆ヒーローパワートーナメント" },
+links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.html", pt: "../../hero-wars-dominion-era/events/hero-tournament-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
+
+      },
       
      
     ]
   },
+  // September 2
+  {
+    weekday: "Wednesday",
+    date: "September, 2",
+   image: "../../hero-wars-dominion-era/images/events/elemental-synergy/elemental-synergy-150px.webp",
+    alt: "Elemental Synergy",
+   titles: { en: "🪙Elemental Synergy", pt: "🪙Sinergia Elemental", de: "🪙Elementarsynergie", es: "🪙Sinergia Elemental", fr: "🪙Synergie Élémentaire", ja: "🪙エレメンタルシナジー" },
+    links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
+    noStrip: true,
+    extra: [
+     
+      {
+         titles: { en: "🏆Tournament of Hero Power", pt: "🏆Torneio de Poder do Herói", de: "🏆Helden-Kraftturnier", es: "🏆Torneo de Poder del Héroe", fr: "🏆Tournoi de Puissance des Héros", ja: "🏆ヒーローパワートーナメント" },
+links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.html", pt: "../../hero-wars-dominion-era/events/hero-tournament-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
+
+      },
+       {
+  titles: { en: "Strongford Quiz", pt: "Strongford Quiz", de: "Strongford Quiz", es: "Strongford Quiz", fr: "Strongford Quiz", ja: "Strongford Quiz" },
+    labelOnly: true,
+}, 
+      
+     
+    ]
+  },
+  // Sep2 - 
+  {
+    weekday: "Thursday",
+    date: "September, 2",
+    image: "../../hero-wars-dominion-era/images/events/legacy-of-great-ones/legacy-of-great-ones-150px.webp",
+    alt: "Legacy of Great Ones",
+    titles: { en: "✨Legacy of Great Ones", pt: "✨Legado dos Grandes", de: "✨Vermächtnis der Großen", es: "✨Legado de los Grandes", fr: "✨Héritage des Grands", ja: "✨偉大なる者の遺産"  },
+    links: { en: "../../hero-wars-dominion-era/events/legacy-of-great-ones-en.html", pt: "../../hero-wars-dominion-era/events/legacy-of-great-ones-pt.html", de: "", es: "", fr: "", ja: ""   },
+    noStrip: true,
+    extra: [
+      {
+         titles: { en: "🏆Tournament of Hero Power", pt: "🏆Torneio de Poder do Herói", de: "🏆Helden-Kraftturnier", es: "🏆Torneo de Poder del Héroe", fr: "🏆Tournoi de Puissance des Héros", ja: "🏆ヒーローパワートーナメント" },
+links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.html", pt: "../../hero-wars-dominion-era/events/hero-tournament-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
+
+      },
+      
+      
+     {
+  titles: { en: "Strongford Quiz", pt: "Strongford Quiz", de: "Strongford Quiz", es: "Strongford Quiz", fr: "Strongford Quiz", ja: "Strongford Quiz" },
+    labelOnly: true,
+}, 
+
+     
+    ]
+  },
+
+  {
+    weekday: "Monday",
+    date: "September, 3",
+     image: "../../hero-wars-dominion-era/images/events/foundations-of-power/foundation-of-power-150px.webp",
+    alt: "Foundations of Power",
+    titles: { en: "🛡️Foundations of Power", pt: "🛡️Fundamentos do Poder", de: "🛡️Grundlagen der Macht", es: "🛡️Fundamentos del Poder", fr: "🛡️Fondements de la Puissance", ja: "🛡️パワーの基盤" },
+    links: { en: "../../hero-wars-dominion-era/events/foundations-of-power-en.html", pt: "../../hero-wars-dominion-era/events/foundations-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
+    noStrip: true,
+    extra: [
+      {
+         titles: { en: "🏆Tournament of Hero Power", pt: "🏆Torneio de Poder do Herói", de: "🏆Helden-Kraftturnier", es: "🏆Torneo de Poder del Héroe", fr: "🏆Tournoi de Puissance des Héros", ja: "🏆ヒーローパワートーナメント" },
+links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.html", pt: "../../hero-wars-dominion-era/events/hero-tournament-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
+      noStrip: true
+      },
+      
+      {
+       titles: { en: "✨Legacy of Great Ones", pt: "✨Legado dos Grandes", de: "✨Vermächtnis der Großen", es: "✨Legado de los Grandes", fr: "✨Héritage des Grands", ja: "✨偉大なる者の遺産"  },
+    links: { en: "../../hero-wars-dominion-era/events/legacy-of-great-ones-en.html", pt: "../../hero-wars-dominion-era/events/legacy-of-great-ones-pt.html", de: "", es: "", fr: "", ja: ""   },
+        noStrip: true
+      },      
+      {
+        titles: { en: "💧Emerald Waterfalls", pt: "💧Cachoeiras de Esmeralda", de: "💧Smaragdwasserfälle", es: "💧Cascadas de Esmeraldas", fr: "💧Cascades d'Émeraudes", ja: "💧エメラルドの滝" },
+        links: { en: "#section2", pt: "#section2", de: "#section2", es: "#section2", fr: "#section2", ja: "#section2" }
+      },
+      
+     {
+  titles: { en: "Strongford Quiz", pt: "Strongford Quiz", de: "Strongford Quiz", es: "Strongford Quiz", fr: "Strongford Quiz", ja: "Strongford Quiz" },
+    labelOnly: true,
+}, 
+{
+  titles: { en: "Astrid & Lucas Ascension", pt: "Astrid & Lucas Ascension", de: "Astrid & Lucas Ascension", es: "Astrid & Lucas Ascension", fr: "Astrid & Lucas Ascension", ja: "Astrid & Lucas Ascension" },
+    labelOnly: true,
+}, 
+
+     
+    ]
+  },
+
   
   {
     weekday: "WhatsApp & Discord",
