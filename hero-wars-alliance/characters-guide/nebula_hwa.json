@@ -109,7 +109,7 @@
           "name": "Astral Projection",
           "type": ["Physical Damage", "Energy Burn"],
           "description": "Launches a projectile that deals damage to enemies within its area of effect and burns their Energy upon activation. The damage and Energy burn are divided equally among affected enemies. If not activated manually, the projectile explodes automatically upon reaching the farthest enemy.",
-          "total_physical_damage": "Depends on physical attack",
+          "total_physical_damage_formula": "120% Phys.atk. + 24000",
           "total_energy_burned": 100,
           "activation": "Manual, or automatic upon reaching the farthest enemy"
         },
@@ -122,7 +122,7 @@
           "type": ["Healing", "Cleanse"],
           "can_upgrade_to_legendary": true,
           "description": "Restores Health to the two nearest allies and removes negative effects from them. If there is only one nearby ally, Nebula applies this skill to that ally and herself.",
-          "recovered_health": "Depends on physical attack",
+          "recovered_health_formula": "40% Phys.atk. + 9000",
           "targets": "The two nearest allies",
           "note": "The chance of removing a negative effect is reduced if the level of the enemy that applied the effect is higher than 120."
         },
@@ -168,9 +168,9 @@
           "keywords": ["Buff"],
           "can_upgrade_to_legendary": true,
           "description": "Nebula's basic attacks switch to Support mode. Whenever this skill triggers, it increases the Physical and Magic Attack of one nearby ally for 5.0 seconds. If there is only one nearby ally, Nebula alternates this skill between that ally and herself.",
-          "temporary_physical_attack_boost": "Depends on physical attack",
+          "temporary_physical_attack_boost_formula": "100% Phys.atk. + 13000",
           "temporary_magic_attack_boost": 224031,
-          "temporary_magic_attack_boost_formula": "Depends on physical attack",
+          "temporary_magic_attack_boost_formula": "150% Phys.atk. + 27000",
           "duration_seconds": 5.0,
           "targets": "One nearby ally"
         },
@@ -201,7 +201,7 @@
           "type": ["Buff"],
           "keywords": ["Buff", "Alliance"],
           "description": "Every 12.0 seconds, increases the Main Stat of the nearest allies for 4.0 seconds. If there are no nearby allies, Nebula buffs herself. Only affects allies who started the battle with Nebula.",
-          "main_stat_increase": "Depends on physical attack",
+          "main_stat_increase_formula": "7% Phys.atk.",
           "cooldown_seconds": 12.0,
           "duration_seconds": 4.0,
           "targets": "Nearest allies who started the battle with Nebula",
@@ -380,7 +380,7 @@
         "The Legendary Equilibrium enhancement buffs the two nearest allies simultaneously, removing the old reliance on favorable timing and target selection.",
         "Deep Meditation extends allied buffs and first Artifact effects by 2 seconds, including extending the usual 9-second weapon Artifact effect to 11 seconds.",
         "Both maximum-stat sets include the Level 30 Legendary Relic bonuses of 37976 Physical Attack and 290824 Health.",
-        "The source does not provide Nebula's equipment rank, soul-stone acquisition methods, Realm data, Gift of the Elements, exact formulas for scaling skill values, or Artifact evolution levels, so these values were not inferred."
+        "The source does not provide Nebula's equipment rank, soul-stone acquisition methods, Realm data, Gift of the Elements, or Artifact evolution levels, so these values were not inferred."
       ]
     }
   ]
