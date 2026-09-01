@@ -5,12 +5,16 @@
   titles: { en: "", pt: "", de: "", es: "", fr: "", ja: "" },
   labelOnly: true
 },
-
+👗#### #### Skin: Full Unlock
+👗#### New ##### Skin
 {
   titles: { en: "", de: "", es: "", fr: "", pt: "", ja: "" },
   links: { en: "../../", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
 },  
+
+hero 🦸masculino e 🦸‍♀️feminino
+skin 🥋🧥masculino skin 👗feminino 
 
 {
         titles: { en: "🌀Event: Random Hero or New Umbra Titan ???", pt: "🌀Evento: Herói Aleatório ou novo Titã Umbra ???", de: "🌀Ereignis: Zufälliger Held oder neuer Umbra-Titan ???", es: "🌀Evento: Héroe Aleatorio o Nuevo Titán Umbra ???", fr: "🌀Événement: Héros Aléatoire ou Nouveau Titan Umbra ???", ja: "🌀イベント: ランダムヒーローまたは新しいアンブラタイタン ???" },
