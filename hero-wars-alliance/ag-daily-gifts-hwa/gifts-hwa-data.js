@@ -1,8 +1,10 @@
 /* npm run update-gifts-hwa
-{ date:'2026-08-##', type:'daily', mission:'#', note:'daily|80',
+{ date:'2026-09-##', type:'daily', mission:'#', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+  { date:'2026-09-01', type:'daily', mission:'2-12', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-08-31', type:'daily', mission:'3-2', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-08-30', type:'daily', mission:'2-4', note:'daily|80',
