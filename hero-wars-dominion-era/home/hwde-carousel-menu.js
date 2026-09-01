@@ -2,14 +2,15 @@
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
     {
-   link: "/hero-wars-dominion-era/events-special-hwde/alecto-valdur-guide-en.html",
-    src500: "../../hero-wars-dominion-era/images/events-special/f2p-tips-event/alecto-and-valdur-f2p-500px.webp",
-  src400: "../../hero-wars-dominion-era/images/events-special/f2p-tips-event/alecto-and-valdur-f2p-400px.webp",
-  alt: "Alecto & Valdur f2p Tips for Hero Wars: Dominion Era",
-  title: "Alecto & Valdur f2p Tips for Hero Wars: Dominion Era.",
-  strong: "Guide F2P: Alecto & Valdur Event - Hero Wars: Dominion Era",
-  updated: "Updated: August, 2026."
-},
+      link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
+      src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-400px.webp",
+      alt: "Calendar for Hero Wars: Dominion Era",
+      title: "Calendar for Hero Wars: Dominion Era.",
+      strong: "Calendar - Hero Wars: Dominion Era",
+      updated: "Updated: Monthly."
+    },
+    
 {
   link: "../../hero-wars-dominion-era/titans/valdur-en.html",
   src500: "../../hero-wars-dominion-era/images/titans-hwde/valdur/valdur-500px.webp",
@@ -19,15 +20,7 @@
   strong: "Guide: Valdur - Hero Wars: Dominion Era",
   updated: "Updated: August, 2026."
 },
-{
-      link: "/hero-wars-dominion-era/events-special-hwde/valdur-event-missions-en.html",
-      src500: "/hero-wars-dominion-era/images/events-special/valdur-event/valdur-event-missions-500px.webp",
-      src400: "/hero-wars-dominion-era/images/events-special/valdur-event/valdur-event-missions-400px.webp",
-      alt: "Valdur - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era",
-      title: "Valdur - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era.",
-      strong: "Guide: Valdur Event (Missions) - Hero Wars: Dominion Era",
-      updated: "Updated: August, 2026."
-    },
+
     {
   link: "../../hero-wars-dominion-era/titans/alecto-en.html",
   src500: "../../hero-wars-dominion-era/images/titans-hwde/alecto/alecto-500px.webp",
@@ -48,15 +41,7 @@
       updated: "Updated: August, 2026."
     },
     
-    {
-      link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
-      src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-400px.webp",
-      alt: "Calendar for Hero Wars: Dominion Era",
-      title: "Calendar for Hero Wars: Dominion Era.",
-      strong: "Calendar - Hero Wars: Dominion Era",
-      updated: "Updated: Monthly."
-    },
+    
     {
       link: "../../hero-wars-dominion-era/guide/mysterious-island-en.html",
       src500: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-500px.webp",
