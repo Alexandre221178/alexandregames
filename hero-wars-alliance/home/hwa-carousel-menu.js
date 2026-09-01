@@ -2,14 +2,15 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
-      link: "/hero-wars-alliance/event-special-hwa/pallant-adventure-shop-en.html",
-      src500: "/hero-wars-alliance/images/events-special-hwa/pallant-adventure-shop/event-500px.webp",
-      src400: "/hero-wars-alliance/images/events-special-hwa/pallant-adventure-shop/event-400px.webp",
-      alt: "Pallant Adventure Shop Guide for Hero Wars Alliance",
-      title: "Pallant Adventure Shop Guide for Hero Wars Alliance",
-      strong: "Guide: Pallant Adventure Shop - Hero Wars Alliance",
+      link: "/hero-wars-alliance/characters-guide/eva-en.html",
+      src500: "/hero-wars-alliance/images/hero/eva/eva-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/eva/eva-400px.webp",
+      alt: "Eva Guide for Hero Wars Alliance",
+      title: "Eva Guide for Hero Wars Alliance",
+      strong: "Guide: Eva for Hero Wars Alliance",
       updated: "Updated: August, 2026."
-    },     
+    },   
+   
     {
       link: "/hero-wars-alliance/characters-guide/nebula-en.html",
       src500: "/hero-wars-alliance/images/hero/nebula/nebula-500px.webp",
@@ -20,14 +21,15 @@
       updated: "Updated: August, 2026."
     },   
     {
-      link: "/hero-wars-alliance/characters-guide/eva-en.html",
-      src500: "/hero-wars-alliance/images/hero/eva/eva-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/eva/eva-400px.webp",
-      alt: "Eva Guide for Hero Wars Alliance",
-      title: "Eva Guide for Hero Wars Alliance",
-      strong: "Guide: Eva for Hero Wars Alliance",
+      link: "/hero-wars-alliance/guide/top-heroes-hwa-de.html",
+      src500: "/hero-wars-alliance/images/guides/top-heroes-hwa/top-heroes-hwa-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/top-heroes-hwa/top-heroes-hwa-400px.webp",
+      alt: "Top 17 Meta Heroes - Hero Wars Alliance",
+      title: "Top 17 Meta Heroes - Hero Wars Alliance",
+      strong: "Guide: Top 17 Meta Heroes - Hero Wars Alliance",
       updated: "Updated: August, 2026."
-    },   
+    },    
+    
     {
       link: "/hero-wars-alliance/characters-guide/peech-en.html",
       src500: "/hero-wars-alliance/images/hero/peech/peech-500px.webp",
@@ -56,15 +58,7 @@
       strong: "Guide New Skin: Cleaver for Hero Wars Alliance",
       updated: "Updated: August, 2026."
     },     
-    {
-      link: "/hero-wars-alliance/guide/top-heroes-hwa-de.html",
-      src500: "/hero-wars-alliance/images/guides/top-heroes-hwa/top-heroes-hwa-500px.webp",
-      src400: "/hero-wars-alliance/images/guides/top-heroes-hwa/top-heroes-hwa-400px.webp",
-      alt: "Top 17 Meta Heroes - Hero Wars Alliance",
-      title: "Top 17 Meta Heroes - Hero Wars Alliance",
-      strong: "Guide: Top 17 Meta Heroes - Hero Wars Alliance",
-      updated: "Updated: August, 2026."
-    },      
+      
     {
       link: "/hero-wars-alliance/characters-guide/xesha-en.html",
       src500: "/hero-wars-alliance/images/hero/xesha/xesha-500px.webp",
