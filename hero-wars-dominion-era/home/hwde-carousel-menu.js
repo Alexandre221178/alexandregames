@@ -1,6 +1,7 @@
 (function(){
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
+    
     {
       link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
       src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
