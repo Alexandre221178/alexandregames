@@ -1,7 +1,15 @@
 (function(){
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
-    
+    {
+      link: "../../hero-wars-dominion-era/guide/mysterious-island-en.html",
+      src500: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-400px.webp",
+      alt: "Mysterious Island - How to Get a War Flag?",
+      title: "Mysterious Island for Hero Wars: Dominion Era.",
+      strong: "Mysterious Island - How to Get a War Flag?",
+      updated: "Updated: Monthly."
+    },
     {
       link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
       src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
