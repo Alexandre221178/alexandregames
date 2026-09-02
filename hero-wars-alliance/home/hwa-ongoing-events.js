@@ -2,6 +2,15 @@
   // Active Ascendant Glory guides shown below the main calendar carousel.
   var slides = [
     {
+      link: "/hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",
+      src500: "/hero-wars-alliance/images/events/trade-routes/roads-unlocked-500px.webp",
+      src400: "/hero-wars-alliance/images/events/trade-routes/roads-unlocked-400px.webp",
+      alt: "Roads Unlocked Event Guide for Hero Wars Alliance",
+      title: "Roads Unlocked Event Guide for Hero Wars Alliance",
+      strong: "Guide: Roads Unlocked Best Tower Strategy to Push for 25 Chests - Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    },
+    {
       link: "/hero-wars-alliance/event-hwa/trade-routes-caravan-hall-en.html",
       src500: "/hero-wars-alliance/images/events/trade-routes/caravan-hall-500px.webp",
       src400: "/hero-wars-alliance/images/events/trade-routes/caravan-hall-400px.webp",
@@ -46,15 +55,7 @@
       strong: "Guide: Grand Caravan Event Guide - Hero Wars Alliance",
       updated: "Updated: September, 2026."
     },
-    {
-      link: "/hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",
-      src500: "/hero-wars-alliance/images/events/trade-routes/roads-unlocked-500px.webp",
-      src400: "/hero-wars-alliance/images/events/trade-routes/roads-unlocked-400px.webp",
-      alt: "Roads Unlocked Event Guide for Hero Wars Alliance",
-      title: "Roads Unlocked Event Guide for Hero Wars Alliance",
-      strong: "Guide: Roads Unlocked Event Guide - Hero Wars Alliance",
-      updated: "Updated: September, 2026."
-    },
+    
 
    
 
