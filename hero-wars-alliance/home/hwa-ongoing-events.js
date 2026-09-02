@@ -8,7 +8,7 @@
       alt: "Caravan Hall Shop Guide for Hero Wars Alliance",
       title: "Caravan Hall Shop Guide for Hero Wars Alliance",
       strong: "Guide: Caravan Hall Shop - Hero Wars Alliance",
-      updated: "Updated: August 10, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/event-hwa/trade-routes-event-group-en.html",
@@ -17,7 +17,7 @@
       alt: "Trade Routes Event Group Guide for Hero Wars Alliance",
       title: "Trade Routes Event Group Guide for Hero Wars Alliance",
       strong: "Guide: Trade Routes Event Group - Hero Wars Alliance",
-      updated: "Updated: August 09, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/guide/talisman-guide-hwa-en.html",
@@ -26,7 +26,7 @@
       alt: "All Talisman Guides for Hero Wars Alliance",
       title: "Talisman Guide for Hero Wars Alliance",
       strong: "Guide: All Talisman - Hero Wars Alliance",
-      updated: "Updated: August 10, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html",
@@ -35,7 +35,7 @@
       alt: "Bountiful Roads Event Guide for Hero Wars Alliance",
       title: "Bountiful Roads Event Guide for Hero Wars Alliance",
       strong: "Guide: Bountiful Roads Event Guide - Hero Wars Alliance",
-      updated: "Updated: August 09, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/event-hwa/trade-routes-grand-caravan-en.html",
@@ -44,7 +44,7 @@
       alt: "Grand Caravan Event Guide for Hero Wars Alliance",
       title: "Grand Caravan Event Guide for Hero Wars Alliance",
       strong: "Guide: Grand Caravan Event Guide - Hero Wars Alliance",
-      updated: "Updated: August 09, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",
@@ -53,7 +53,7 @@
       alt: "Roads Unlocked Event Guide for Hero Wars Alliance",
       title: "Roads Unlocked Event Guide for Hero Wars Alliance",
       strong: "Guide: Roads Unlocked Event Guide - Hero Wars Alliance",
-      updated: "Updated: August 09, 2026."
+      updated: "Updated: September, 2026."
     },
 
    
@@ -269,7 +269,7 @@
       alt: "Ancient Awakening Guide for Hero Wars Alliance",
       title: "Ancient Awakening Guide for Hero Wars Alliance",
       strong: "Guide: Ancient Awakening - Hero Wars Alliance",
-      updated: "Updated: August 04, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html",
@@ -278,7 +278,7 @@
       alt: "Firstborn Force Guide for Hero Wars Alliance",
       title: "Firstborn Force Guide for Hero Wars Alliance",
       strong: "Guide: Firstborn Force - Hero Wars Alliance",
-      updated: "Updated: August 04, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html",
@@ -287,7 +287,7 @@
       alt: "Unstable Equilibrium Guide for Hero Wars Alliance",
       title: "Unstable Equilibrium Guide for Hero Wars Alliance",
       strong: "Guide: Unstable Equilibrium - Hero Wars Alliance",
-      updated: "Updated: August 04, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/titans-events-tips/pallant-shop-ancient-awakening-en.html",
@@ -296,7 +296,7 @@
       alt: "Pallant Shop Guide for Hero Wars Alliance",
       title: "Pallant Shop Guide for Hero Wars Alliance",
       strong: "Guide: Pallant Shop - Hero Wars Alliance",
-      updated: "Updated: August 03, 2026."
+      updated: "Updated: September, 2026."
     },
 
 */
@@ -310,7 +310,7 @@
       alt: "Caravan Hall Shop Guide for Hero Wars Alliance",
       title: "Caravan Hall Shop Guide for Hero Wars Alliance",
       strong: "Guide: Caravan Hall Shop - Hero Wars Alliance",
-      updated: "Updated: August 10, 2026."
+      updated: "Updated: September, 2026."
     }, 
 
     {
@@ -320,7 +320,7 @@
       alt: "Trade Routes Event Group Guide for Hero Wars Alliance",
       title: "Trade Routes Event Group Guide for Hero Wars Alliance",
       strong: "Guide: Trade Routes Event Group - Hero Wars Alliance",
-      updated: "Updated: August 09, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/guide/talisman-guide-hwa-en.html",
@@ -329,7 +329,7 @@
       alt: "All Talisman Guides for Hero Wars Alliance",
       title: "Talisman Guide for Hero Wars Alliance",
       strong: "Guide: All Talisman - Hero Wars Alliance",
-      updated: "Updated: August 10, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html",
@@ -338,7 +338,7 @@
       alt: "Bountiful Roads Event Guide for Hero Wars Alliance",
       title: "Bountiful Roads Event Guide for Hero Wars Alliance",
       strong: "Guide: Bountiful Roads Event Guide - Hero Wars Alliance",
-      updated: "Updated: August 09, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/event-hwa/trade-routes-grand-caravan-en.html",
@@ -347,7 +347,7 @@
       alt: "Grand Caravan Event Guide for Hero Wars Alliance",
       title: "Grand Caravan Event Guide for Hero Wars Alliance",
       strong: "Guide: Grand Caravan Event Guide - Hero Wars Alliance",
-      updated: "Updated: August 09, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",
@@ -356,7 +356,7 @@
       alt: "Roads Unlocked Event Guide for Hero Wars Alliance",
       title: "Roads Unlocked Event Guide for Hero Wars Alliance",
       strong: "Guide: Roads Unlocked Event Guide - Hero Wars Alliance",
-      updated: "Updated: August 09, 2026."
+      updated: "Updated: September, 2026."
     },
 
 */
@@ -370,7 +370,7 @@
       alt: "Champion's Gallery Shop Guide for Hero Wars Alliance",
       title: "Champion's Gallery Shop Guide for Hero Wars Alliance",
       strong: "Kendle - Champion's Gallery Shop Guide",
-      updated: "Updated: August 18, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html",
@@ -379,7 +379,7 @@
       alt: "Ascendant Glory Event Group Guide for Hero Wars Alliance",
       title: "Ascendant Glory Event Group Guide for Hero Wars Alliance",
       strong: "Ascendant Glory Event Group Guide",
-      updated: "Updated: August 18, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/event-hwa/ascendant-glory-rising-legend-en.html",
@@ -388,7 +388,7 @@
       alt: "Rising Legend Event Guide for Hero Wars Alliance",
       title: "Rising Legend Event Guide for Hero Wars Alliance",
       strong: "Rising Legend Event Guide",
-      updated: "Updated: August 18, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/event-hwa/ascendant-glory-spark-of-glory-en.html",
@@ -397,7 +397,7 @@
       alt: "Spark of Glory Skin Plus Event Guide for Hero Wars Alliance",
       title: "Spark of Glory Skin Plus Event Guide for Hero Wars Alliance",
       strong: "Spark of Glory Skin+ Event Guide",
-      updated: "Updated: August 18, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html",
@@ -406,7 +406,7 @@
       alt: "Trial of Legends Event Guide for Hero Wars Alliance",
       title: "Trial of Legends Event Guide for Hero Wars Alliance",
       strong: "Trial of Legends Event Guide",
-      updated: "Updated: August 18, 2026."
+      updated: "Updated: September, 2026."
     },
     
 
@@ -421,7 +421,7 @@
       alt: "Lords of the Elements Shop Guide for Hero Wars Alliance",
       title: "Lords of the Elements Shop Guide for Hero Wars Alliance",
       strong: "Lords of the Elements Shop Guide",
-      updated: "Updated: July 23, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-event-group-en.html",
@@ -430,7 +430,7 @@
       alt: "Lords of the Elements event group Guide for Hero Wars Alliance",
       title: "Lords of the Elements event group Guide for Hero Wars Alliance",
       strong: "Lords of the Elements event group Guide",
-      updated: "Updated: July 29, 2026."
+      updated: "Updated: September, 2026."
     },
      {
       link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-titans-roar-en.html",
@@ -439,7 +439,7 @@
       alt: "Lords of the Elements event group: Titan's Roar Guide for Hero Wars Alliance",
       title: "Lords of the Elements: Titan's Roar Guide for Hero Wars Alliance",
       strong: "Lords of the Elements: Titan's Roar Guide",
-      updated: "Updated: July 29, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-elemental-tempest-en.html",
@@ -448,7 +448,7 @@
       alt: "Lords of the Elements: Elemental Tempest Guide for Hero Wars Alliance",
       title: "Lords of the Elements: Elemental Tempest Guide for Hero Wars Alliance",
       strong: "Lords of the Elements: Elemental Tempest Guide",
-      updated: "Updated: July 29, 2026."
+      updated: "Updated: September, 2026."
     },
     {
       link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-united-by-power-en.html",
@@ -457,7 +457,7 @@
       alt: "Lords of the Elements: United by Power Guide for Hero Wars Alliance",
       title: "Lords of the Elements: United by Power Guide for Hero Wars Alliance",
       strong: "Lords of the Elements: United by Power Guide",
-      updated: "Updated: July 29, 2026."
+      updated: "Updated: September, 2026."
     },
 
 */
@@ -471,7 +471,7 @@
   alt: "Sanctum of Balance Shop Guide for Hero Wars Alliance",
   title: "Sanctum of Balance Shop for Hero Wars Alliance",
   strong: "Guide: Sanctum of Balance- Xe'sha Shop - Hero Wars Alliance",
-  updated: "Updated: August 25, 2026."
+  updated: "Updated: September, 2026."
 },
 {
   link: "/hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html",
@@ -480,7 +480,7 @@
   alt: "Balance of Power Guide for Hero Wars Alliance",
   title: "Balance of Power Event Group for Hero Wars Alliance",
   strong: "Guide: Balance of Power Event Group- Hero Wars Alliance",
-  updated: "Updated: August 25, 2026."
+  updated: "Updated: September, 2026."
 },
 {
   link: "/hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html",
@@ -489,7 +489,7 @@
   alt: "Defiant Edge Guide for Hero Wars Alliance",
   title: "Defiant Edge Guide for Hero Wars Alliance",
   strong: "Guide: Defiant Edge - Hero Wars Alliance",
-  updated: "Updated: August 25, 2026."
+ updated: "Updated: September, 2026."
 },
 {
   link: "/hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html",
@@ -498,7 +498,7 @@
   alt: "Gear and Glory Guide for Hero Wars Alliance",
   title: "Gear and Glory Guide for Hero Wars Alliance",
   strong: "Guide: Gear and Glory - Hero Wars Alliance",
-  updated: "Updated: August 25, 2026."
+  updated: "Updated: September, 2026."
 },
 {
   link: "/hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html",
@@ -507,7 +507,7 @@
   alt: "Unbroken Bond Guide for Hero Wars Alliance",
   title: "Unbroken Bond Guide for Hero Wars Alliance",
   strong: "Guide: Unbroken Bond - Hero Wars Alliance",
-  updated: "Updated: August 25, 2026."
+  updated: "Updated: September, 2026."
 },
 
 */
