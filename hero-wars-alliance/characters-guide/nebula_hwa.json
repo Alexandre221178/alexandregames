@@ -314,7 +314,8 @@
           "activation_chance_percent": 100,
           "effect": "Physical attack +21357",
           "physical_attack": 21357,
-          "note": "Activates with the ultimate skill."
+          "note": "Activates with the ultimate skill.",
+          "note2": "o artefato de arma pode até ser bom mas a nebula transforma o ataque basicom em suporte com a skill equilibrium sendo assim ela ganha menos energia e demora mais para usar o artefato."
         },
         {
           "name": "Book of Illusions",
