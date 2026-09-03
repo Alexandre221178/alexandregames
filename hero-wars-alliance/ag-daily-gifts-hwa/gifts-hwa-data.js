@@ -4,7 +4,7 @@
 */
 window.HWA_GIFTS = [
  { date:'2026-09-03', type:'special', mission:'2-3', note:'until|2026-09-28T01:00:00Z',
-    rewards:['summoning-sphere x5', 'gold 250k', 'energy x20' 'avatar x1'] },
+    rewards:['summoning-sphere x5', 'gold 250k', 'energy x20', 'avatar x1'] },
 
     
   { date:'2026-09-03', type:'daily', mission:'2-13', note:'daily|80',
