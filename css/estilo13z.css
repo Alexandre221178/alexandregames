@@ -1936,7 +1936,7 @@ td.team-cell span{
 .video-caption {
     text-align: left;
     margin: 2px 0 0 0;
-    font-size: 14px;
+    font-size: 15px;
     width: 100%;
 }
 
@@ -1995,7 +1995,7 @@ iframe {
     text-align: left;
     margin: 0 0 10px 0; /* Remove margem superior e dá espaço apenas para o texto que vem depois */
     font-size: 14px;
-    color: #333; /* Um cinza escuro para não brigar com o título principal */
+    color: #000000; /* Um cinza escuro para não brigar com o título principal */
     display: block; /* Garante que se comporte como bloco */
 }
 
@@ -2126,9 +2126,41 @@ iframe {
 
 .alexandre-tips:hover {
   transform: translateY(-3px);
-  box-shadow: 0 6px 18px rgba(0, 183, 255, 0.3);
+  box-shadow: 0 6px 18px rgba(255, 0, 81, 0.3);
 }
 
+.alexandre-games-video {
+  background: linear-gradient(145deg, #ffffff, #ff6767);
+  color: #000000;
+  border-left: 5px solid #ff0000;
+  border-radius: 12px;
+  padding: 7px 7px;
+  margin: 20px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-size: 23px!important; 
+  line-height: 1.6;
+}
+
+.alexandre-games-video {
+  margin: 4px 0 0 0;
+  font-size: 22px!important; 
+  font-style: italic !important; 
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.alexandre-games-video {
+  color: #000000;
+  font-weight: 600;
+}
+
+.alexandre-games-video:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(255, 0, 0, 0.3);
+}
 
 
 
