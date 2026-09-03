@@ -8,7 +8,7 @@
       alt: "Eva Guide for Hero Wars Alliance",
       title: "Eva Guide for Hero Wars Alliance",
       strong: "Guide: Eva for Hero Wars Alliance",
-      updated: "Updated: August, 2026."
+      updated: "Updated: September, 2026."
     },   
    
     {
@@ -18,7 +18,7 @@
       alt: "Nebula Guide for Hero Wars Alliance",
       title: "Nebula Guide for Hero Wars Alliance",
       strong: "Guide: Nebula Rework for Hero Wars Alliance",
-      updated: "Updated: August, 2026."
+      updated: "Updated: September, 2026."
     },   
     {
       link: "/hero-wars-alliance/guide/top-heroes-hwa-de.html",

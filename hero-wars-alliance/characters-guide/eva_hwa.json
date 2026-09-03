@@ -17,8 +17,8 @@
             "damage_output": null,
             "team_synergy": null,
             "self_sufficiency": null,
-            "hydra_tier_list": null,
-            "hero_tier_list": null,
+            "hydra_tier_list": "A",
+            "hero_tier_list": "S",
             "best_synergy": "Nebula, Isaac, Judge, Julius, and all Marksmen",
             "strong_against": ["Electra", "Byrna", "High-Health Heroes", "Tanks", "Back Line Heroes"],
             "relic_max_level": {
@@ -235,7 +235,7 @@
                 "Eva shines in Progress teams: shields, debuff removal, and healing help her stay in battle longer, while Julius and Nebula make her even faster.",
                 "Eva works well with all Marksmen: she increases their damage, while Focusing Scope transfers part of their damage to a distant target.",
                 "Eva is especially dangerous against the closest and farthest enemies. Tanks usually stand at the front and take percentage-based damage, while distant enemies become priority targets for Eva and allied Marksmen.",
-                "Hydra interaction requires testing: Hydras are immune to penalties, but Eva's extra physical damage based on the target's Max Health is not explicitly described as a penalty."
+                "Eva deals excellent damage against Hydras, especially alongside other Marksmen. She did not perform as well as Xe'Sha or Kendle, but her results were strong enough to make her an excellent secondary Hydra-team option after a primary team built around Xe'Sha and Kendle."
             ]
         }
     ]
