@@ -1,0 +1,493 @@
+{
+	"id": "astrid_and_lucas",
+	"name": "Astrid and Lucas",
+	"gender": "female",
+	"role": ["marksman", "warrior", "tank", "hunter"],
+	"main_role": "Marksman",
+	"position": "57",
+	"main_stat": "Agility",
+	"how_to_get_soul_stones": "Soul Chests, Campaign, Soul Atrium",
+	"pet_patronage": "Fenris, Mara, Vex",
+	"sinergy": "Adam",
+	"basic_attack_formula": "(100% physical attack)",
+	"basic_attack": 108049,
+	"basic_attack_cooldown": "5s",
+	"stats": {
+		"intelligence": 2832,
+		"agility": 17925,
+		"strength": 3259,
+		"health": 514477,
+		"physical_attack": 108049,
+		"magic_attack": 8496,
+		"armor": 35293,
+		"magic_defense": 11372,
+		"dodge": 0,
+		"crit_hit_chance": 0,
+		"accuracy": 17925,
+		"crit_resistance": 17925,
+		"vampirism": 0,
+		"magic_penetration": 0,
+		"armor_penetration": 54871,
+		"power": 2394132
+	},
+	"skills": [
+		{
+			"id": 1,
+			"variant": "base",
+			"level": 130,
+			"name": "Go for it, Lucas!",
+			"type": ["ultimate", "white"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Pet attack damage: 55,367 (35% physical attack + 135 * level)",
+			"scales_with": ["Physical Attack"],
+			"description": "Each time Astrid attacks, she gains 17% Rage. Once her Rage reaches 100%, Astrid can use her first skill: Lucas takes on his Rage form and rushes to the front row, taking hits instead of other characters. Attacks cannot damage Lucas, but each enemy hit reduces his Rage by 7%. While he has Rage remaining, Lucas attacks the nearest enemies. His attacks deal area damage and can hit multiple enemies. Once his Rage is depleted, he returns to his passive form."
+		},
+		{
+			"id": 2,
+			"variant": "base",
+			"level": 130,
+			"name": "Rampant Nature",
+			"type": ["periodic", "green"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Attack and skill speed increased up to 159.8% (0.46 * level + 100)",
+			"scales_with": [],
+			"description": "Astrid increases her and Lucas's attack speed and skill use speed for 9s. They both also gain this effect each time Lucas takes on his Rage form. Cooldown: 20s. Initial cooldown: 1s"
+		},
+		{
+			"id": 2,
+			"variant": "ascension",
+			"ascension_level": "II",
+			"name": "Hardened Temper",
+			"type": ["ascension"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Damage reduction: 30% at grade 3",
+			"scales_with": [],
+			"description": "While Rampant Nature is active, Astrid takes less damage. At grade 3, the 30% damage reduction also applies to all Hunters on the team.",
+			"grades": [
+				{
+					"grade": 0,
+					"damage_reduction_percent": 10,
+					"description": "While Rampant Nature is active, Astrid takes 10% less damage."
+				},
+				{
+					"grade": 1,
+					"damage_reduction_percent": 20,
+					"description": "While Rampant Nature is active, Astrid takes 20% less damage.",
+					"costs": {
+						"ascension_dust": 200,
+						"gold": 1450000
+					}
+				},
+				{
+					"grade": 2,
+					"damage_reduction_percent": 30,
+					"description": "While Rampant Nature is active, Astrid takes 30% less damage.",
+					"costs": {
+						"ascension_dust": 300,
+						"gold": 2900000
+					}
+				},
+				{
+					"grade": 3,
+					"damage_reduction_percent": 30,
+					"description": "While Rampant Nature is active, Astrid takes 30% less damage. Damage reduction from Rampant Nature now applies to all Hunters on the team.",
+					"costs": {
+						"ascension_dust": 750,
+						"gold": 4350000
+					}
+				}
+			]
+		},
+		{
+			"id": 3,
+			"variant": "base",
+			"level": 130,
+			"name": "Predator's Charge",
+			"type": ["passive", "blue"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Increase in damage with each attack: 7% (0.05 * level + 0.50)",
+			"scales_with": [],
+			"description": "Passive skill. As long as Lucas is in Rage form, each consecutive attack deals increasing damage."
+		},
+		{
+			"id": 4,
+			"variant": "base",
+			"level": 130,
+			"name": "Hunter's Mark",
+			"type": ["passive", "violet"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "",
+			"scales_with": [],
+			"description": "Passive skill. Each of Astrid's attacks applies Hunter's Mark to the target for 4 seconds. The mark is not considered a negative effect and cannot be blocked or removed by Sebastian and similar abilities. If Lucas attacks a marked target, he briefly stuns them. In Rage form, all marked enemies hit by Lucas's area attacks can be stunned. Chance to stun is lowered if the target's level is above 130. Astrid uses the same Hunter's Mark as Adam."
+		},
+		{
+			"id": 4,
+			"variant": "ascension",
+			"ascension_level": "V",
+			"name": "The Thrill of the Hunt",
+			"type": ["ascension"],
+			"animation_delay_seconds": 0,
+			"damage_formula": "Starting Rage: 500 at grade 3. Additional Rage: 30 whenever a Hunter damages a target affected by Hunter's Mark",
+			"scales_with": [],
+			"description": "Astrid starts the battle with additional Rage. At grade 3, whenever a target affected by Hunter's Mark takes damage from any Hunter, Astrid gains an additional 30 Rage.",
+			"grades": [
+				{
+					"grade": 0,
+					"starting_rage": 100,
+					"description": "Astrid gains 100 Rage at the start of battle."
+				},
+				{
+					"grade": 1,
+					"starting_rage": 200,
+					"description": "Astrid gains 200 Rage at the start of battle.",
+					"costs": {
+						"ascension_shard": 200,
+						"gold": 1750000
+					}
+				},
+				{
+					"grade": 2,
+					"starting_rage": 300,
+					"description": "Astrid gains 300 Rage at the start of battle.",
+					"costs": {
+						"ascension_shard": 300,
+						"gold": 3500000
+					}
+				},
+				{
+					"grade": 3,
+					"starting_rage": 500,
+					"rage_per_hunter_hit": 30,
+					"description": "Astrid gains 500 Rage at the start of battle. Whenever a target affected by Hunter's Mark takes damage from any Hunter, Astrid gains an additional 30 Rage.",
+					"costs": {
+						"ascension_shard": 750,
+						"gold": 5250000
+					}
+				}
+			]
+		}
+	],
+	"artifacts": [
+		{
+			"name": "Princess' Musket",
+			"stats": {
+				"armor": 50190,
+				"power": 12547
+			},
+			"costs": {
+				"absolute_artifact_essence": 1635,
+				"flawless_artifact_essence": 1199,
+				"chaos_core": 121,
+				"princess_musket_fragment": 225,
+				"artifact_coin": 90000
+			}
+		},
+		{
+			"name": "Alchemist's Folio",
+			"stats": {
+				"physical_attack": 5577,
+				"armor_penetration": 16731,
+				"power": 12548
+			},
+			"costs": {
+				"absolute_artifact_scroll": 1635,
+				"flawless_artifact_scroll": 1199,
+				"chaos_core": 121,
+				"alchemists_folio_fragment": 225,
+				"artifact_coin": 90000
+			}
+		},
+		{
+			"name": "Ring of Agility",
+			"stats": {
+				"agility": 6249,
+				"power": 17184
+			},
+			"costs": {
+				"absolute_artifact_metal": 1635,
+				"flawless_artifact_metal": 1199,
+				"chaos_core": 121,
+				"ring_of_agility_fragment": 225,
+				"artifact_coin": 90000
+			}
+		}
+	],
+	"skins": [
+		{
+			"name": "Default Skin",
+			"stats": {
+				"agility": 1365,
+				"power": 3753
+			},
+			"costs": {
+				"agility_skin_stone": 30825
+			}
+		},
+		{
+			"name": "Demonic Skin",
+			"stats": {
+				"physical_attack": 7095,
+				"power": 5321
+			},
+			"costs": {
+				"agility_skin_stone": 55410
+			}
+		},
+		{
+			"name": "Spring Skin",
+			"stats": {
+				"physical_attack": 7095,
+				"power": 5321
+			},
+			"costs": {
+				"agility_skin_stone": 55410
+			}
+		},
+		{
+			"name": "Romantic Skin",
+			"stats": {
+				"armor_penetration": 10650,
+				"power": 5325
+			},
+			"costs": {
+				"agility_skin_stone": 55410
+			}
+		},
+		{
+			"name": "Solar Skin",
+			"stats": {
+				"health": 106645,
+				"power": 5332
+			},
+			"costs": {
+				"agility_skin_stone": 55410
+			}
+		}
+	],
+	"glyphs": [
+		{
+			"name": "Physical attack Glyph",
+			"stats": {
+				"physical_attack": 4340,
+				"power": 3255
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Health Glyph",
+			"stats": {
+				"health": 62200,
+				"power": 3110
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Armor Glyph",
+			"stats": {
+				"armor": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Armor penetration Glyph",
+			"stats": {
+				"armor_penetration": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Agility Glyph",
+			"stats": {
+				"agility": 1135,
+				"power": 3121
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		}
+	],
+	"ascension": {
+		"I": {
+			"stats": {
+				"health": 7000,
+				"agility": 230,
+				"physical_attack": 360,
+				"magic_defense": 200,
+				"armor": 690,
+				"armor_penetration": 1090,
+				"power": 2242
+			},
+			"costs": {
+				"agility_crystal": 2275,
+				"star_mana": 5420,
+				"gold": 1650000
+			}
+		},
+		"II": {
+			"stats": {
+				"health": 14000,
+				"agility": 315,
+				"physical_attack": 710,
+				"magic_defense": 910,
+				"armor": 490,
+				"armor_penetration": 1400,
+				"power": 3498
+			},
+			"costs": {
+				"vibrant_agility_crystal": 1150,
+				"agility_crystal": 1950,
+				"star_mana": 9160,
+				"ascension_dust": 1250,
+				"gold": 14475000
+			}
+		},
+		"III": {
+			"stats": {
+				"health": 19500,
+				"agility": 495,
+				"physical_attack": 1130,
+				"magic_defense": 780,
+				"armor": 1420,
+				"armor_penetration": 2450,
+				"power": 5508
+			},
+			"costs": {
+				"vibrant_agility_crystal": 2375,
+				"composure_insignia": 1175,
+				"star_mana": 20200,
+				"gold": 12400000
+			}
+		},
+		"IV": {
+			"stats": {
+				"health": 25500,
+				"agility": 560,
+				"physical_attack": 1440,
+				"magic_defense": 1570,
+				"armor": 1000,
+				"armor_penetration": 2620,
+				"power": 6490
+			},
+			"costs": {
+				"radiant_agility_crystal": 1460,
+				"vibrant_agility_crystal": 475,
+				"greater_composure_insignia": 235,
+				"composure_insignia": 1220,
+				"star_mana": 42540,
+				"gold": 21600000
+			}
+		},
+		"V": {
+			"stats": {
+				"health": 26750,
+				"agility": 610,
+				"physical_attack": 1630,
+				"magic_defense": 1170,
+				"armor": 1730,
+				"armor_penetration": 3130,
+				"power": 7252
+			},
+			"costs": {
+				"radiant_agility_crystal": 1925,
+				"greater_composure_insignia": 1925,
+				"star_mana": 80180,
+				"ascension_shard": 1250,
+				"gold": 48800000
+			}
+		},
+		"I-V": {
+			"stats": {
+				"health": 92750,
+				"agility": 2210,
+				"physical_attack": 5270,
+				"magic_defense": 4630,
+				"armor": 5330,
+				"armor_penetration": 10690,
+				"power": 24992
+			},
+			"costs": {
+				"radiant_agility_crystal": 3385,
+				"vibrant_agility_crystal": 4000,
+				"agility_crystal": 4225,
+				"greater_composure_insignia": 2160,
+				"composure_insignia": 2395,
+				"star_mana": 157500,
+				"ascension_shard": 1250,
+				"ascension_dust": 1250,
+				"gold": 98925000
+			}
+		}
+	},
+	"tree_of_wisdom": {
+		"stats": {
+			"health": 35280,
+			"physical_attack": 8215,
+			"magic_defense": 2416,
+			"armor": 3378,
+			"armor_penetration": 3460,
+			"power": 12552
+		},
+		"costs": {
+			"eternal_seed": 586,
+			"ancient_wisdom_crystal": 47400
+		}
+	},
+	"miscellaneous": {
+		"levels": {
+			"stats": {
+				"intelligence": 1690,
+				"agility": 2730,
+				"strength": 2080,
+				"power": 17875
+			},
+			"costs": {
+				"huge_exp_potion": 483,
+				"astrid_and_lucas_soul_stone": 630
+			}
+		},
+		"gift_of_the_elements": {
+			"stats": {
+				"intelligence": 360,
+				"agility": 720,
+				"strength": 360,
+				"power": 3960
+			},
+			"costs": {
+				"spark_of_power": 65150,
+				"gold": 7927500
+			}
+		}
+	},
+	"special_mechanic": "Astrid does not gain Energy. Instead, her attacks generate Rage, shown as a red bar below her health. Because she does not use Energy, Energy-control effects such as those from Satori and Jorgen do not affect this resource.",
+	"presentation": "Astrid and Lucas are a Hunter duo. Lucas becomes considerably more dangerous in Rage form, dealing area damage and stunning enemies affected by Hunter's Mark. Astrid supports him and, through her Ascension skills, can extend damage reduction to allied Hunters and gain Rage when Hunters damage marked targets.",
+	"synergies_detail": [
+		{
+			"hero": "Adam",
+			"skill": "Hunter's Mark",
+			"description": "Astrid and Adam use the same Hunter's Mark. Adam and other Hunters can help trigger The Thrill of the Hunt at grade 3 by damaging marked targets.",
+			"values": {
+				"rage_per_hunter_hit": 30
+			}
+		}
+	]
+}
