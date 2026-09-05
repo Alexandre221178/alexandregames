@@ -16,8 +16,8 @@
       "best_synergy": ["Eva", "Isaac", "Judge", "Julius"],
       "realm_buff": ["Spearmen attack/defense 120%"],
       "relic_max_level": {
-        "physical_attack": 37976,
-        "health": 290824
+        "physical_attack": 43001,
+        "health": 215429
       },
       "stat_rules": {
         "agility": {
@@ -31,8 +31,8 @@
           "intelligence": 3963,
           "agility": 16704,
           "strength": 3803,
-          "health": 814144,
-          "physical_attack": 145933,
+          "health": 845394,
+          "physical_attack": 150958,
           "magic_attack": 26995,
           "physical_armor": 55518.8,
           "magical_armor": 26366.2,
@@ -44,8 +44,8 @@
           "intelligence": 3963,
           "agility": 14704,
           "strength": 3803,
-          "health": 814144,
-          "physical_attack": 126733,
+          "health": 845394,
+          "physical_attack": 131758,
           "magic_attack": 26995,
           "physical_armor": 67318.8,
           "magical_armor": 26366.2,
@@ -135,8 +135,8 @@
           "description": "Heals Nebula and all allies, removing negative effects from them.",
           "targets": "Nebula and all allies",
           "relic_total_stats_gain": {
-            "physical_attack": 6956,
-            "health": 53269
+            "physical_attack": 7876,
+            "health": 39459
           },
           "relic_unlocks": {
             "relic_shards_level_2_to_10": 280,
@@ -185,8 +185,8 @@
           "targets": "The two nearest allies",
           "analysis": "The enhancement removes much of the timing and target randomness from Equilibrium, making Nebula's large damage buff substantially more consistent.",
           "relic_total_stats_gain": {
-            "physical_attack": 19176,
-            "health": 146854
+            "physical_attack": 21711,
+            "health": 108779
           },
           "relic_unlocks": {
             "relic_shards_level_11_to_20": 800,
@@ -207,8 +207,8 @@
           "targets": "Nearest allies who started the battle with Nebula",
           "analysis": "Main Stat can increase attack, defense, or Health depending on the hero. It is also important for Dodge accuracy and Critical Hit resistance checks.",
           "relic_total_stats_gain": {
-            "physical_attack": 3760,
-            "health": 28794
+            "physical_attack": 4257,
+            "health": 21329
           },
           "relic_unlocks": {
             "relic_shards_level_0_to_1": 50,
@@ -225,8 +225,8 @@
           "duration_increase_seconds": 2.0,
           "analysis": "This extends a first Artifact effect from 9 to 11 seconds. Nebula's Physical Attack weapon Artifact further improves the physical scaling of her team and of Equilibrium. Relic levels 20 to 30 also provide a large Physical Attack and Health increase for stronger skills and better survivability.",
           "relic_total_stats_gain": {
-            "physical_attack": 37976,
-            "health": 290824
+            "physical_attack": 43001,
+            "health": 215429
           },
           "relic_unlocks": {
             "relic_shards_level_21_to_30": 1750,
@@ -304,6 +304,11 @@
           "bonus": 10650,
           "level": 60,
           "total_skin_stones": 50410
+        },
+        {
+          "name": "Singularity",
+          "stat": "Health",
+          "bonus": 106645
         }
       ],
       "artifacts": [
@@ -380,7 +385,7 @@
         "Disharmony blocks incoming Damage over Time and makes Nebula a particularly strong answer to Iris.",
         "The Legendary Equilibrium enhancement buffs the two nearest allies simultaneously, removing the old reliance on favorable timing and target selection.",
         "Deep Meditation extends allied buffs and first Artifact effects by 2 seconds, including extending the usual 9-second weapon Artifact effect to 11 seconds.",
-        "Both maximum-stat sets include the Level 30 Legendary Relic bonuses of 37976 Physical Attack and 290824 Health.",
+        "Both maximum-stat sets include the Level 30 Legendary Relic bonuses of 43001 Physical Attack and 215429 Health.",
         "The source does not provide Nebula's equipment rank, soul-stone acquisition methods, Realm data, Gift of the Elements, or Artifact evolution levels, so these values were not inferred."
       ]
     }

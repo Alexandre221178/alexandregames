@@ -2,6 +2,15 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
+      link: "/hero-wars-alliance/characters-guide/nebula-en.html",
+      src500: "/hero-wars-alliance/images/hero/nebula/nebula-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/nebula/nebula-400px.webp",
+      alt: "Nebula Guide for Hero Wars Alliance",
+      title: "Nebula Guide for Hero Wars Alliance",
+      strong: "Guide: Nebula Rework for Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    },   
+    {
       link: "/hero-wars-alliance/characters-guide/eva-en.html",
       src500: "/hero-wars-alliance/images/hero/eva/eva-500px.webp",
       src400: "/hero-wars-alliance/images/hero/eva/eva-400px.webp",
@@ -11,15 +20,7 @@
       updated: "Updated: September, 2026."
     },   
    
-    {
-      link: "/hero-wars-alliance/characters-guide/nebula-en.html",
-      src500: "/hero-wars-alliance/images/hero/nebula/nebula-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/nebula/nebula-400px.webp",
-      alt: "Nebula Guide for Hero Wars Alliance",
-      title: "Nebula Guide for Hero Wars Alliance",
-      strong: "Guide: Nebula Rework for Hero Wars Alliance",
-      updated: "Updated: September, 2026."
-    },   
+    
     {
       link: "/hero-wars-alliance/guide/top-heroes-hwa-de.html",
       src500: "/hero-wars-alliance/images/guides/top-heroes-hwa/top-heroes-hwa-500px.webp",
