@@ -3,9 +3,10 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
-{ date:'2026-09-04', type:'hub', code:'NEBULARELIC', expires:'2026-09-28', rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
+{ date:'2026-09-05', type:'daily', mission:'2-8', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
-    
+{ date:'2026-09-04', type:'hub', code:'NEBULARELIC', expires:'2026-09-28', rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },   
   { date:'2026-09-04', type:'daily', mission:'3-9', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
  { date:'2026-09-03', type:'hub', code:'NEWOFFERSPROMO', note:'custom',
