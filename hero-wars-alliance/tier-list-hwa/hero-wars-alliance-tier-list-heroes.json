@@ -1,0 +1,966 @@
+{
+  "Crow": {
+    "image": "../../imagens/image-shared/crow.webp",
+    "guide": "../characters-guide/crow-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "クロウ"
+    }
+  },
+  "Kendle": {
+    "image": "../../imagens/image-shared/kendle.webp",
+    "guide": "../characters-guide/kendle-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "ケンドル"
+    }
+  },
+  "Iris": {
+    "image": "../../imagens/image-shared/iris.webp",
+    "guide": "../characters-guide/iris-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "アイリス"
+    }
+  },
+  "Aidan": {
+    "image": "../../imagens/image-shared/aidan.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Aidan-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Aidan.html"
+    },
+    "names": {
+      "ja": "エイダン"
+    }
+  },
+  "Byrna": {
+    "image": "../../imagens/image-shared/byrna.webp",
+    "guide": "../characters-guide/byrna-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "バーナ"
+    }
+  },
+  "Cornelius": {
+    "image": "../../imagens/image-shared/cornelius.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Cornelius%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Cornelius.html"
+    },
+    "names": {
+      "ja": "コーネリウス"
+    }
+  },
+  "Drayne": {
+    "image": "../../imagens/image-shared/drayne.webp",
+    "guide": "../characters-guide/drayne-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "ドレイン"
+    }
+  },
+  "Electra": {
+    "image": "../../imagens/image-shared/electra.webp",
+    "guide": "../characters-guide/electra-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "エレクトラ"
+    }
+  },
+  "Eva": {
+    "image": "../../imagens/image-shared/eva.webp",
+    "guide": "../characters-guide/eva-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "エバ"
+    }
+  },
+  "Folio": {
+    "image": "../../imagens/image-shared/folio.webp",
+    "guide": "../characters-guide/folio-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "フォリオ"
+    }
+  },
+  "Guus": {
+    "image": "../../imagens/image-shared/guus.webp",
+    "guide": "../characters-guide/guus-{lang}.html",
+    "languages": [
+      "en",
+      "pt"
+    ],
+    "names": {
+      "ja": "グース"
+    }
+  },
+  "Julius": {
+    "image": "../../imagens/image-shared/julius.webp",
+    "guides": {
+      "en": "../characters-guide/julius-guide-en.html",
+      "pt": "../characters-guide/julius-guide-pt.html"
+    },
+    "names": {
+      "ja": "ジュリアス"
+    }
+  },
+  "Kayla": {
+    "image": "../../imagens/image-shared/kayla.webp",
+    "guide": "../characters-guide/kayla-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "カイラ"
+    }
+  },
+  "Lara Croft": {
+    "image": "../../imagens/image-shared/lara-croft.webp",
+    "guide": "../characters-guide/lara-croft-{lang}.html",
+    "languages": [
+      "en",
+      "pt"
+    ],
+    "names": {
+      "ja": "ララ・クロフト"
+    }
+  },
+  "Miu": {
+    "image": "../../imagens/image-shared/miu.webp",
+    "guide": "../characters-guide/miu-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "美雨"
+    }
+  },
+  "Polaris": {
+    "image": "../../imagens/image-shared/polaris.webp",
+    "guides": {
+      "en": "../characters-guide/polaris-guide-en.html",
+      "pt": "../characters-guide/polaris-guide-pt.html"
+    },
+    "names": {
+      "ja": "ポラリス"
+    }
+  },
+  "Satori": {
+    "image": "../../imagens/image-shared/satori.webp",
+    "guide": "../characters-guide/satori-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "サトリ"
+    }
+  },
+  "Soleil": {
+    "image": "../../imagens/image-shared/soleil.webp",
+    "guide": "../characters-guide/soleil-{lang}.html",
+    "languages": [
+      "en",
+      "pt"
+    ],
+    "names": {
+      "ja": "ソレイル"
+    }
+  },
+  "Somna": {
+    "image": "../../imagens/image-shared/somna.webp",
+    "guide": "../characters-guide/somna-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "ソムナ"
+    }
+  },
+  "Tempus": {
+    "image": "../../imagens/image-shared/tempus.webp",
+    "guide": "../characters-guide/tempus-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "テンプス"
+    }
+  },
+  "Yasmine": {
+    "image": "../../imagens/image-shared/yasmine.webp",
+    "guide": "../characters-guide/yasmine-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "ヤスミン"
+    }
+  },
+  "Andvari": {
+    "image": "../../imagens/image-shared/andvari.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Andvari%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Andvari.html"
+    },
+    "names": {
+      "ja": "アンドバリ"
+    }
+  },
+  "Cascade": {
+    "image": "../../imagens/image-shared/cascade.webp",
+    "guide": "../characters-guide/cascade-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "カスケード"
+    }
+  },
+  "Corvus": {
+    "image": "../../imagens/image-shared/corvus.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Corvus%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Corvus.html"
+    },
+    "names": {
+      "ja": "コーブス"
+    }
+  },
+  "Dante": {
+    "image": "../../imagens/image-shared/dante.webp",
+    "guide": "../characters-guide/dante-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "ダンテ"
+    }
+  },
+  "Faceless": {
+    "image": "../../imagens/image-shared/faceless.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Faceless-English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/SemRosto.html"
+    },
+    "names": {
+      "ja": "フェイスレス"
+    }
+  },
+  "Isaac": {
+    "image": "../../imagens/image-shared/isaac.webp",
+    "guide": "../characters-guide/isaac-{lang}.html",
+    "languages": [
+      "en",
+      "pt"
+    ],
+    "names": {
+      "ja": "アイザック"
+    }
+  },
+  "Jorgen": {
+    "image": "../../imagens/image-shared/jorgen.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Jorgen%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Jorgen.html"
+    },
+    "names": {
+      "ja": "ヨルガン"
+    }
+  },
+  "Krista": {
+    "image": "../../imagens/image-shared/krista.webp",
+    "guide": "../characters-guide/krista-{lang}.html",
+    "languages": [
+      "en",
+      "pt"
+    ],
+    "names": {
+      "ja": "クリスタ"
+    }
+  },
+  "Octavia": {
+    "image": "../../imagens/image-shared/octavia.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/octavia-herowars.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/octavia.html"
+    },
+    "names": {
+      "ja": "オクタヴィア"
+    }
+  },
+  "Oya": {
+    "image": "../../imagens/image-shared/oya.webp",
+    "guide": "../characters-guide/oya-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "オヤ"
+    }
+  },
+  "Peech": {
+    "image": "../../imagens/image-shared/peech.webp",
+    "guide": "../characters-guide/peech-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "ピーチ"
+    }
+  },
+  "Rufus": {
+    "image": "../../imagens/image-shared/rufus.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Rufus%20%20-%20%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Rufus.html"
+    },
+    "names": {
+      "ja": "ルーファス"
+    }
+  },
+  "Lian": {
+    "image": "../../imagens/image-shared/lian.webp",
+    "guide": "../characters-guide/lian-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "リアン"
+    }
+  },
+  "Mushy and Shroom": {
+    "image": "../../imagens/image-shared/mushy-and-shroom.webp",
+    "guide": "../characters-guide/mushy-and-shroom-{lang}.html",
+    "languages": [
+      "en",
+      "pt"
+    ],
+    "names": {
+      "ja": "マッシーとシュルーム"
+    }
+  },
+  "Nebula": {
+    "image": "../../imagens/image-shared/nebula.webp",
+    "guide": "../characters-guide/nebula-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "ネブラ"
+    }
+  },
+  "Tristan": {
+    "image": "../../imagens/image-shared/tristan.webp",
+    "guide": "../characters-guide/tristan-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "トリスタン"
+    }
+  },
+  "Xe'Sha": {
+    "image": "../../imagens/image-shared/xesha.webp",
+    "guide": "../characters-guide/xesha-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "セーシャ"
+    }
+  },
+  "Alvanor": {
+    "image": "../../imagens/image-shared/alvanor.webp",
+    "guide": "../characters-guide/alvanor-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "アルバノール"
+    }
+  },
+  "Amira": {
+    "image": "../../imagens/image-shared/amira.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Amira%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Amira.html"
+    },
+    "names": {
+      "ja": "アミラ"
+    }
+  },
+  "Arachne": {
+    "image": "../../imagens/image-shared/arachne.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Arachne%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Arachne.html"
+    },
+    "names": {
+      "ja": "アラクネ"
+    }
+  },
+  "Astaroth": {
+    "image": "../../imagens/image-shared/astaroth.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Astaroth%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Astaroth.html"
+    },
+    "names": {
+      "ja": "アスタロス"
+    }
+  },
+  "Artemis": {
+    "image": "../../imagens/image-shared/artemis.webp",
+    "guide": "../characters-guide/artemis-{lang}.html",
+    "languages": [
+      "en",
+      "pt"
+    ],
+    "names": {
+      "ja": "アルテミス"
+    }
+  },
+  "Astrid and Lucas": {
+    "image": "../../imagens/image-shared/astrid-and-lucas.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Astrid%20and%20Lucas-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Astrid%20e%20Lucas.html"
+    },
+    "names": {
+      "ja": "アストリッドとルーカス"
+    }
+  },
+  "Aurora": {
+    "image": "../../imagens/image-shared/aurora.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Aurora%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Aurora.html"
+    },
+    "names": {
+      "ja": "オーロラ"
+    }
+  },
+  "Cleaver": {
+    "image": "../../imagens/image-shared/cleaver.webp",
+    "guide": "../characters-guide/cleaver-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "クリーバー"
+    }
+  },
+  "Fafnir": {
+    "image": "../../imagens/image-shared/fafnir.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Fafnir%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Fafnir.html"
+    },
+    "names": {
+      "ja": "ファフニール"
+    }
+  },
+  "Ginger": {
+    "image": "../../img-HWM/Ginger-img/ginger-300x260.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Ginger%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Ginger.html"
+    },
+    "names": {
+      "ja": "ジンジャー"
+    }
+  },
+  "Helios": {
+    "image": "../../imagens/image-shared/helios.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Helios%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/H%C3%A9lio.html"
+    },
+    "names": {
+      "ja": "ヘリオス"
+    }
+  },
+  "Judge": {
+    "image": "../../imagens/image-shared/judge.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Judge%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Juiz.html"
+    },
+    "names": {
+      "ja": "ジャッジ"
+    }
+  },
+  "Kai": {
+    "image": "../../imagens/image-shared/kai.webp",
+    "guide": "../characters-guide/kai-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "カイ"
+    }
+  },
+  "Leonel": {
+    "image": "../../imagens/image-shared/leonel.webp",
+    "guide": "../characters-guide/leonel-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "レオネル"
+    }
+  },
+  "Luther": {
+    "image": "../../img-HWM/Luther-img/luther%20300x260.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Luther%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Luther.html"
+    },
+    "names": {
+      "ja": "ルーサー"
+    }
+  },
+  "Morrigan": {
+    "image": "../../imagens/image-shared/morrigan.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Morrigan%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Morrigan.html"
+    },
+    "names": {
+      "ja": "モリガン"
+    }
+  },
+  "Phobos": {
+    "image": "../../imagens/image-shared/phobos.webp",
+    "guide": "../characters-guide/phobos-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "フォボス"
+    }
+  },
+  "Lars": {
+    "image": "../../imagens/image-shared/lars.webp",
+    "guide": "../characters-guide/lars-{lang}.html",
+    "languages": [
+      "en",
+      "pt"
+    ],
+    "names": {
+      "ja": "ラース"
+    }
+  },
+  "Sebastian": {
+    "image": "../../imagens/image-shared/sebastian.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Sebastian%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Sebastian.html"
+    },
+    "names": {
+      "ja": "セバスチャン"
+    }
+  },
+  "Teenage Mutant Ninja Turtles": {
+    "image": "../../img-HWM/ninja-turtles-img/ninja-turtles-300x260.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/ninja-turtles-hwa-en.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/ninja-turtles-hwa-pt.html"
+    },
+    "names": {
+      "ja": "忍者タートルズ"
+    }
+  },
+  "Celeste": {
+    "image": "../../imagens/image-shared/celeste.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Celeste%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Celeste.html"
+    },
+    "names": {
+      "ja": "セレステ"
+    }
+  },
+  "Dark Star": {
+    "image": "../../hero-wars-alliance/images/hero/darkstar/darkstar300x260.webp",
+    "guides": {
+      "en": "../characters-guide/darkstar-en.html",
+      "pt": "../characters-guide/darkstar-pt.html"
+    },
+    "names": {
+      "ja": "ダークスター"
+    }
+  },
+  "Dorian": {
+    "image": "../../imagens/image-shared/dorian.webp",
+    "guide": "../characters-guide/dorian-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "ドリアン"
+    }
+  },
+  "Galahad": {
+    "image": "../../imagens/image-shared/galahad.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Galahad-English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Galahad.html"
+    },
+    "names": {
+      "ja": "ギャラハッド"
+    }
+  },
+  "K'arkh": {
+    "image": "../../img-HWM/Karkh-img/karkh300x260.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/k'arkh-english.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/k'arkh.html"
+    },
+    "names": {
+      "ja": "カーク"
+    }
+  },
+  "Keira": {
+    "image": "../../imagens/image-shared/keira.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Keira%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Keira.html"
+    },
+    "names": {
+      "ja": "ケイラ"
+    }
+  },
+  "Lilith": {
+    "image": "../../imagens/image-shared/lilith.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Lilith%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Lilith.html"
+    },
+    "names": {
+      "ja": "リリス"
+    }
+  },
+  "Maya": {
+    "image": "../../imagens/image-shared/maya.webp",
+    "guide": "../characters-guide/maya-{lang}.html",
+    "languages": [
+      "en",
+      "pt"
+    ],
+    "names": {
+      "ja": "マヤ"
+    }
+  },
+  "Qing Mao": {
+    "image": "../../imagens/image-shared/qing-mao.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/qingmao-herowars.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/qingmao.html"
+    },
+    "names": {
+      "ja": "チン・マオ"
+    }
+  },
+  "Ziri": {
+    "image": "../../imagens/image-shared/ziri.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/ziri-english.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/ziri.html"
+    },
+    "names": {
+      "ja": "ジリ"
+    }
+  },
+  "Chabba": {
+    "image": "../../imagens/image-shared/chabba.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Chabba%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Chabba.html"
+    },
+    "names": {
+      "ja": "チャバ"
+    }
+  },
+  "Daredevil": {
+    "image": "../../imagens/image-shared/daredevil.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/daredevil-herowars.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/danada.html"
+    },
+    "names": {
+      "ja": "デアデビル"
+    }
+  },
+  "Ishmael": {
+    "image": "../../img-HWM/Ishmael-img/ishmael-300x260.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Ishmael%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Ishmael.html"
+    },
+    "names": {
+      "ja": "イシュマエル"
+    }
+  },
+  "Jhu": {
+    "image": "../../imagens/image-shared/jhu.webp",
+    "guide": "../characters-guide/jhu-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
+    "names": {
+      "ja": "ジュウ"
+    }
+  },
+  "Martha": {
+    "image": "../../imagens/image-shared/martha.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Martha%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Martha.html"
+    },
+    "names": {
+      "ja": "マーサ"
+    }
+  },
+  "Mojo": {
+    "image": "../../imagens/image-shared/mojo.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Mojo%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Mojo.html"
+    },
+    "names": {
+      "ja": "モージョー"
+    }
+  },
+  "Orion": {
+    "image": "../../imagens/image-shared/orion.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/orion-herowars.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/orion.html"
+    },
+    "names": {
+      "ja": "オリオン"
+    }
+  },
+  "Elmir": {
+    "image": "../../imagens/image-shared/elmir.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/elmir-herowars.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/elmir.html"
+    },
+    "names": {
+      "ja": "エルミル"
+    }
+  },
+  "Fox": {
+    "image": "../../imagens/image-shared/fox.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/fox-herowars.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/raposa.html"
+    },
+    "names": {
+      "ja": "フォックス"
+    }
+  },
+  "Jet": {
+    "image": "../../img-HWM/Jet-img/jet-300x260.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Jet%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Jet.html"
+    },
+    "names": {
+      "ja": "ジェット"
+    }
+  },
+  "Markus": {
+    "image": "../../img-HWM/Markus-img/markus-300x260.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Markus-English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Markus.html"
+    },
+    "names": {
+      "ja": "マーカス"
+    }
+  },
+  "Peppy": {
+    "image": "../../imagens/image-shared/peppy.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/peppy-herowars.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/peppy.html"
+    },
+    "names": {
+      "ja": "ペピー"
+    }
+  },
+  "Thea": {
+    "image": "../../imagens/image-shared/thea.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Thea%20-%20English.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Thea.html"
+    },
+    "names": {
+      "ja": "テア"
+    }
+  }
+}
