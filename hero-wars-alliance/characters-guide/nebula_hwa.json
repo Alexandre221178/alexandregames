@@ -31,7 +31,7 @@
           "intelligence": 3963,
           "agility": 16704,
           "strength": 3803,
-          "health": 845394,
+          "health": 952039,
           "physical_attack": 150958,
           "magic_attack": 26995,
           "physical_armor": 55518.8,
@@ -44,7 +44,7 @@
           "intelligence": 3963,
           "agility": 14704,
           "strength": 3803,
-          "health": 845394,
+          "health": 952039,
           "physical_attack": 131758,
           "magic_attack": 26995,
           "physical_armor": 67318.8,
@@ -306,9 +306,12 @@
           "total_skin_stones": 50410
         },
         {
-          "name": "Singularity",
+          "name": "Singularity Skin+",
           "stat": "Health",
-          "bonus": 106645
+          "bonus": 213290,
+          "level": 60,
+          "is_skin_plus": true,
+          "total_agility_skin_stones": 50410
         }
       ],
       "artifacts": [
