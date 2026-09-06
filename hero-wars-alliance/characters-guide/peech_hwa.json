@@ -28,7 +28,7 @@
           "physical_armor": 23318,
           "magical_armor": 10625.5,
           "dodge": 6810.3,
-          "armor_penetration": 28718,
+          "armor_penetration": 50018,
           "crit_hit_chance": 867.1,
           "crushing": 17101
         },
@@ -42,7 +42,7 @@
           "physical_armor": 21318,
           "magical_armor": 10625.5,
           "dodge": 6810.3,
-          "armor_penetration": 28718,
+          "armor_penetration": 50018,
           "crit_hit_chance": 8457.1,
           "crushing": 17101
         }
@@ -290,6 +290,15 @@
           "bonus": 2960,
           "level": 60,
           "total_skin_stones": 50410
+        },
+        {
+          "name": "Singularity Skin+",
+          "stat": "Armor Penetration",
+          "stat_skin_base": "10650",
+          "bonus_with_skin+": 21300,
+          "level": 60,
+          "is_skin_plus": true,
+          "total_agility_skin_stones": 50410
         }
       ],
       "artifacts": [
