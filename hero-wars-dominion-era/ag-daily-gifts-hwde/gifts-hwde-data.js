@@ -11,6 +11,8 @@
  note:'until|2026-09-##T02:00:00Z', rewards:['energy x500'] },
 68f91a73df1791d852df492d51bda669
 */window.HWDE_GIFTS = [
+  { date:'2026-09-06', type:'link', giftLinkWeb:'https://herowars.me/4AearWf', giftLinkFb:'https://herowars.me/4zWJmGK',
+ note:'until|2026-09-08T02:00:00Z', rewards:['quiz-ticket x15'] },
    { date:'2026-09-05', type:'link', giftId:'818a7a9d81b065605bf7f793016f8e51', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },
   { date:'2026-09-05', type:'link', giftLinkWeb:'https://herowars.me/4iKm3JY', giftLinkFb:'https://herowars.me/3UxMrwN',
