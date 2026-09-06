@@ -3,8 +3,8 @@ const giveawayData = {
   pt: {
     title: "🚨 SORTEIO EXCLUSIVO: CANAL ALEXANDRE GAMES OFICIAL 🚨",
     para1: "Sorteio exclusivo para os inscritos no <b>canal Alexandre Games Dominion no YouTube!</b> 🎉 Participe para concorrer a recompensas incriveis e mostrar seu amor por Hero Wars: Dominion Era. Confira os detalhes abaixo e boa sorte a todos os participantes! 🍀",
-    para2: "<p><b>📝 COMO PARTICIPAR:</b></p><ol><li>1️⃣ <strong>Acesse o video</strong> pelo link abaixo.</li><li>2️⃣ <strong>Envie seu ID</strong> nos comentarios do video para validar sua participacao.</li><li>3️⃣ O sorteio acontece, <b> quarta-feira 26 de Agosto!</b></li></ol>",
-    para3: "<a href=\"https://youtu.be/sAG1Wn3Irr0\" target=\"_blank\" style=\"background-color: #f30808; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">Acessar video da Alecto e Valdur no YouTube</a>",
+    para2: "<p><b>📝 COMO PARTICIPAR:</b></p><ol><li>1️⃣ <strong>Acesse o video</strong> pelo link abaixo.</li><li>2️⃣ <strong>Envie seu ID</strong> nos comentarios do video para validar sua participacao.</li><li>3️⃣ O sorteio acontece, <b> quarta-feira 236 de Setembro!</b></li></ol>",
+    para3: "<a href=\"https://youtu.be/GFU4HPaFd-0\" target=\"_blank\" style=\"background-color: #f30808; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">Acessar video da Astrid & Lucas no YouTube</a>",
     para4: "",
     rewardsTitle: "RECOMPENSAS DO SORTEIO MENSAL: CANAL ALEXANDRE GAMES",
     tableCaption: "Tabela: Principais recompensas do sorteio e IDs dos vencedores",
