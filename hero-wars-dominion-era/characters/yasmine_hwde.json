@@ -26,8 +26,8 @@
       "": 17935,
       "vampirism": 0,
       "magic_penetration": 0,
-      "armor_penetration": 5740,
-      "power": 190271
+      "armor_penetration": 27040,
+      "power": 200921
     
     },
    
@@ -165,6 +165,16 @@
       },
       "cost": {
         "agility_skin_stone": 55410
+      }
+    },
+    {
+      "name": "Mythic Skin",
+      "stats": {
+        "armor_penetration": 21300,
+        "power": 10650
+      },
+      "cost": {
+        "agility_skin_stone": 110520
       }
     },
     {
