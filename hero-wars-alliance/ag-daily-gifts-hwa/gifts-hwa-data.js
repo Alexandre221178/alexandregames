@@ -3,6 +3,10 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+ { date:'2026-09-06', type:'hub', code:'MARKSMAN', note:'until|2026-09-28T01:00:00Z',
+    rewards:['energy x100', 'artifact-chest-key x5'] },
+
+  
 { date:'2026-09-06', type:'daily', mission:'3-5', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
