@@ -11,14 +11,14 @@
 	"sinergy": "Lyria, Electra, Polaris, Fafnir, Iris",
 	"counter": "Fluffy",
 	"basic_attack_formula": "(100% physical attack)",
-	"basic_attack": 82362,
+	"basic_attack": 89457,
 	"basic_attack_cooldown": "4s",
 	"stats": {
 		"intelligence": 3247,
 		"agility": 17009,
 		"strength": 3242,
 		"health": 450732,
-		"physical_attack": 82362,
+		"physical_attack": 89457,
 		"magic_attack": 9741,
 		"armor": 32452,
 		"magic_defense": 14879,
@@ -29,7 +29,7 @@
 		"vampirism": 0,
 		"magic_penetration": 0,
 		"armor_penetration": 26680,
-		"power": 174815
+		"power": 180136
 	},
 	"skills": [
 		{
@@ -39,9 +39,9 @@
 			"name": "Bounty Lock",
 			"type": ["ultimate", "white"],
 			"animation_delay_seconds": 0,
-			"damage_formula": "Damage: 257,905 (250% physical attack + 400 * level)",
+			"damage_formula": "Damage: 275,643 (250% physical attack + 400 * level)",
 			"scales_with": ["Physical Attack"],
-			"description": "Fires a tracking round at the enemy Hero without Hunter's Mark closest to the center of the enemy team. The shot applies Hunter's Mark and deals 257,905 damage. If the target dies while affected by Hunter's Mark, the ability is immediately reset."
+			"description": "Fires a tracking round at the enemy Hero without Hunter's Mark closest to the center of the enemy team. The shot applies Hunter's Mark and deals 275,643 damage. If the target dies while affected by Hunter's Mark, the ability is immediately reset."
 		},
 		{
 			"id": 2,
@@ -50,9 +50,9 @@
 			"name": "Fan the Hammer",
 			"type": ["periodic", "green"],
 			"animation_delay_seconds": 0,
-			"damage_formula": "Damage to main target: 78,990 (80% physical attack + 100 * level + 100). Damage to marked target: 46,045 (40% physical attack + 100 * level + 100). Cooldown: 7s",
+			"damage_formula": "Damage to main target: 84,666 (80% physical attack + 100 * level + 100). Damage to marked target: 48,883 (40% physical attack + 100 * level + 100). Cooldown: 7s",
 			"scales_with": ["Physical Attack"],
-			"description": "Fires a series of 3 shots at the nearest enemy, dealing 78,990 damage with each shot. If there are enemies on the battlefield with Hunter's Mark, the shots ricochet to them, dealing 46,045 damage. Cooldown: 7s"
+			"description": "Fires a series of 3 shots at the nearest enemy, dealing 84,666 damage with each shot. If there are enemies on the battlefield with Hunter's Mark, the shots ricochet to them, dealing 48,883 damage. Cooldown: 7s"
 		},
 		{
 			"id": 3,
@@ -61,9 +61,9 @@
 			"name": "Reactive Screen",
 			"type": ["periodic", "blue"],
 			"animation_delay_seconds": 0,
-			"damage_formula": "Additional dodge: 13,436 (10% physical attack + 40 * level). Cooldown: 10s",
+			"damage_formula": "Additional dodge: 14,146 (10% physical attack + 40 * level). Cooldown: 10s",
 			"scales_with": ["Physical Attack"],
-			"description": "Once every 10s, when Adam takes damage from enemies, a smoke screen is deployed beneath him for 5s. While inside the smoke screen, Adam gains 13,436 additional dodge and can evade all types of damage, not just physical. Cooldown: 10s"
+			"description": "Once every 10s, when Adam takes damage from enemies, a smoke screen is deployed beneath him for 5s. While inside the smoke screen, Adam gains 14,146 additional dodge and can evade all types of damage, not just physical. Cooldown: 10s"
 		},
 		{
 			"id": 4,
@@ -72,9 +72,9 @@
 			"name": "Adaptive Caliber",
 			"type": ["passive", "violet"],
 			"animation_delay_seconds": 0,
-			"damage_formula": "Physical Attack increase: 4,707 (0.9% health + 5 * level). Armor Penetration increase: 3,533 (3.5% physical attack + 5 * level)",
+			"damage_formula": "Physical Attack increase: 4,707 (0.9% health + 5 * level). Armor Penetration increase: 3,781 (3.5% physical attack + 5 * level)",
 			"scales_with": ["Health", "Physical Attack"],
-			"description": "Passive skill. When Adam deals physical damage and does not fully penetrate the target's armor, his Armor Penetration increases by 3,533. If Adam fully penetrates the target's armor, his Physical Attack increases by 4,707. Both effects stack and last until the end of the battle."
+			"description": "Passive skill. When Adam deals physical damage and does not fully penetrate the target's armor, his Armor Penetration increases by 3,781. If Adam fully penetrates the target's armor, his Physical Attack increases by 4,707. Both effects stack and last until the end of the battle."
 		}
 	],
 	"artifacts": [
@@ -135,13 +135,22 @@
 		},
 		{
 			"name": "Ceremonial Skin",
-			"note": "Can only be obtained during a special event (May 24)",
 			"stats": {
 				"health": 106645,
 				"power": 5332
 			},
 			"costs": {
-				"exclusive_skin_coin": 55410
+				"agility_skin_stone": 55410
+			}
+		},
+		{
+			"name": "Beach Skin",
+			"stats": {
+				"physical_attack": 7095,
+				"power": 5321				
+			},
+			"costs": {
+				"agility_skin_stone": 55410
 			}
 		}
 	],
