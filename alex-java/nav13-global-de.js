@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-de.html">📅 Kalender: Events & Tipps</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/guide/best-war-flag-en.html">⚔️ Beste Kriegsflaggen</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/menu/heroes-guide-hwde-en.html">📖 Helden-Guide</a>
-        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-en.html">🏆 Helden Tier-Liste</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/guide/heroes-rank-tier-list-de.html">🏆 Helden Tier-Liste</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/guide/mysterious-island-de.html">🏝️ Mysteriöse Insel 09/2026</a>
         <a class="expandable-menu" onclick="toggleSubmenu(event, 'pet-maps')">Haustier-Abenteuerkarten</a>
         <div id="pet-maps" class="submenu-items">
