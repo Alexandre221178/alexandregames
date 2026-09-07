@@ -1,7 +1,7 @@
 // giveaway-hwde
 const giveawayData = {
   pt: {
-    title: "🚨 SORTEIO EXCLUSIVO: CANAL ALEXANDRE GAMES OFICIAL 🚨",
+    title: "🚨 SORTEIO EXCLUSIVO: CANAL ALEXANDRE GAMES DOMINION 🚨",
     para1: "Sorteio exclusivo para os inscritos no <b>canal Alexandre Games Dominion no YouTube!</b> 🎉 Participe para concorrer a recompensas incriveis e mostrar seu amor por Hero Wars: Dominion Era. Confira os detalhes abaixo e boa sorte a todos os participantes! 🍀",
     para2: "<p><b>📝 COMO PARTICIPAR:</b></p><ol><li>1️⃣ <strong>Acesse o video</strong> pelo link abaixo.</li><li>2️⃣ <strong>Envie seu ID</strong> nos comentarios do video para validar sua participacao.</li><li>3️⃣ O sorteio acontece, <b> quarta-feira 23 de Setembro!</b></li></ol>",
     para3: "<a href=\"https://youtu.be/GFU4HPaFd-0\" target=\"_blank\" style=\"background-color: #f30808; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">Acessar video da Astrid & Lucas no YouTube</a>",
@@ -26,7 +26,7 @@ const giveawayData = {
   },
 
   en: {
-    title: "🚨 EXCLUSIVE GIVEAWAY: OFFICIAL ALEXANDRE GAMES CHANNEL 🚨",
+    title: "🚨 EXCLUSIVE GIVEAWAY: ALEXANDRE GAMES DOMINION CHANNEL 🚨",
     para1: "Exclusive giveaway for subscribers to the <b>Alexandre Games Dominion YouTube channel!</b> 🎉 Enter for a chance to win amazing rewards and show your love for Hero Wars: Dominion Era. Check the details below, and good luck to all participants! 🍀",
     para2: "<p><b>📝 HOW TO PARTICIPATE:</b></p><ol><li>1️⃣ <strong>Open the video</strong> using the link below.</li><li>2️⃣ <strong>Post your ID</strong> in the video comments to validate your participation.</li><li>3️⃣ The giveaway takes place on <b>Wednesday, September 23!</b></li></ol>",
     para3: "<a href=\"https://youtu.be/GFU4HPaFd-0\" target=\"_blank\" style=\"background-color: #f30808; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;\">Open Astrid and Lucas's video on YouTube</a>",
