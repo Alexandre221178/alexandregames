@@ -1,0 +1,41 @@
+/* The site stylesheet uses flex on main and main > div for other layouts. */
+main.hwde-ranking { display: block; width: 100%; max-width: 1120px; min-width: 0; margin: 24px auto; padding: 0 16px; font-family: Arial, sans-serif; color: #192333; }
+main.hwde-ranking > div:not(.column) { display: block; width: 100%; }
+.hwde-ranking *, .hwde-ranking *::before, .hwde-ranking *::after { box-sizing: border-box; }
+.hwde-ranking [hidden] { display: none !important; }
+.hwde-ranking .hwde-intro { max-width: 760px; font-size: 18px; line-height: 1.65; margin: 0 0 24px; }
+.hwde-ranking .hwde-kicker { color: #6c431b; font-size: 13px; letter-spacing: .14em; font-weight: bold; text-transform: uppercase; }
+.hwde-tier-nav { display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 8px; height: auto !important; background: transparent; margin: 20px 0; position: relative; z-index: 0; }
+.hwde-tier-nav a { border: 1px solid #c7cdd5; border-radius: 8px; min-width: 48px; padding: 12px; color: #192333; text-decoration: none; text-align: center; font-weight: bold; background: #fff; }
+.hwde-tier-nav a:hover { background: #fff0cf; border-color: #906225; }
+.hwde-search-panel { padding: 20px; background: #f1f4f8; border: 1px solid #d9e0e8; border-radius: 12px; margin: 0 0 24px; }
+.hwde-search-panel label { display: block; font-weight: bold; margin-bottom: 10px; }
+.hwde-search-panel input { display: block; width: 100%; max-width: 440px; padding: 12px 14px; font: inherit; font-size: 16px; color: #192333; background: #fff; border: 1px solid #8b97a7; border-radius: 8px; }
+.hwde-search-panel p { margin: 12px 0 0; font-size: 14px; line-height: 1.5; }
+.hwde-search-panel button { margin-top: 12px; padding: 12px 18px; border: 0; border-radius: 8px; background: #192333; color: #fff; font: inherit; cursor: pointer; }
+.hwde-ranking a:focus-visible, .hwde-ranking input:focus-visible, .hwde-ranking button:focus-visible { outline: 3px solid #1b64c9; outline-offset: 4px; }
+.hwde-tier { display: grid; grid-template-columns: 96px minmax(0, 1fr); margin-bottom: 16px; border: 1px solid #d9e0e8; border-radius: 12px; overflow: hidden; background: #fff; scroll-margin-top: 24px; }
+.hwde-ranking .hwde-tier-label { margin: 0; padding: 24px 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; font-size: 32px; line-height: 1; color: #192333; background: var(--tier-color); border: 0; }
+.hwde-tier-count { font-size: 13px; padding: 5px 10px; background: #ffffffa8; border-radius: 12px; }
+.hwde-tier-0 { --tier-color: #ff9898; } .hwde-tier-1 { --tier-color: #ffc18c; }
+.hwde-tier-2 { --tier-color: #f7d875; } .hwde-tier-3 { --tier-color: #ecea91; }
+.hwde-tier-4 { --tier-color: #b7e3a3; } .hwde-tier-5 { --tier-color: #9edfd5; }
+.hwde-tier-6 { --tier-color: #accff2; } .hwde-tier-7 { --tier-color: #d0c5e9; }
+.hwde-tier-body { padding: 16px; min-width: 0; }
+.hwde-ranking .hwde-hero-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 12px; list-style: none; margin: 0; padding: 0; }
+.hwde-ranking .hwde-hero { margin: 0; padding: 0; min-width: 0; }
+.hwde-hero-card { display: flex; flex-direction: column; align-items: center; height: 100%; padding: 8px 4px; border: 1px solid #e0e5eb; border-radius: 10px; background: #f8fafc; color: #192333; text-decoration: none; }
+a.hwde-hero-card:hover { border-color: #986923; background: #fff5df; }
+.hwde-hero-card img, .hwde-hero-initial { width: 80px; height: 80px; object-fit: contain; display: block; border-radius: 8px; }
+.hwde-hero-initial { background: #e4eaf2; display: grid; place-items: center; font-size: 32px; }
+.hwde-hero-name { font-size: 14px; line-height: 1.35; text-align: center; font-weight: bold; margin-top: 8px; overflow-wrap: anywhere; }
+.hwde-ranking .hwde-tier-empty { margin: 12px; font-size: 15px; color: #566274; }
+.hwde-ranking .hwde-notes { margin: 28px 0; font-size: 16px; line-height: 1.6; }
+@media (max-width: 540px) {
+  main.hwde-ranking { padding: 0 10px; }
+  .hwde-tier { grid-template-columns: 58px minmax(0, 1fr); }
+  .hwde-ranking .hwde-tier-label { font-size: 24px; padding: 16px 4px; }
+  .hwde-tier-body { padding: 10px; }
+  .hwde-ranking .hwde-hero-grid { grid-template-columns: repeat(auto-fill, minmax(85px, 1fr)); gap: 8px; }
+  .hwde-hero-card img, .hwde-hero-initial { width: 68px; height: 68px; }
+}

@@ -1,0 +1,790 @@
+{
+  "Electra": {
+    "image": "../../hero-wars-dominion-era/images/hero/electra/electra.webp",
+    "names": {
+      "pt": "Electra",
+      "ja": "エレクトラ"
+    },
+    "guides": {
+      "en": "../characters/electra-en.html",
+      "pt": "../characters/electra-pt.html",
+      "de": "../characters/electra-de.html",
+      "es": "../characters/electra-es.html",
+      "fr": "../characters/electra-fr.html",
+      "ja": "../characters/electra-ja.html"
+    }
+  },
+  "Byrna": {
+    "image": "../../imagens/image-shared/byrna.webp",
+    "names": {
+      "pt": "Byrna",
+      "ja": "バーナ"
+    },
+    "guides": {
+      "en": "../characters/byrna-en.html",
+      "pt": "../characters/byrna-pt.html",
+      "de": "../characters/byrna-de.html",
+      "es": "../characters/byrna-es.html",
+      "fr": "../characters/byrna-fr.html",
+      "ja": "../characters/byrna-ja.html"
+    }
+  },
+  "Fluffy": {
+    "image": "../../imagens/image-shared/fluffy.webp",
+    "names": {
+      "pt": "Fofinho(Fluffy)",
+      "ja": "フラッフィ"
+    },
+    "guides": {
+      "en": "../characters/fluffy-en.html",
+      "pt": "../characters/fluffy-pt.html",
+      "de": "../characters/fluffy-de.html",
+      "es": "../characters/fluffy-es.html",
+      "fr": "../characters/fluffy-fr.html",
+      "ja": "../characters/fluffy-ja.html"
+    }
+  },
+  "Cascade": {
+    "image": "../../hero-wars-dominion-era/images/hero/cascade/cascade.webp",
+    "names": {
+      "pt": "Dilúvio(Cascade)",
+      "ja": "カスケード"
+    },
+    "guides": {
+      "en": "../characters/cascade-en.html",
+      "pt": "../characters/cascade-pt.html",
+      "de": "../characters/cascade-de.html",
+      "es": "../characters/cascade-es.html",
+      "fr": "../characters/cascade-fr.html",
+      "ja": "../characters/cascade-ja.html"
+    }
+  },
+  "Aidan": {
+    "image": "../../hero-wars-dominion-era/images/hero/aidan/aidan.webp",
+    "names": {
+      "pt": "Aidan",
+      "ja": "エイダン"
+    },
+    "guides": {
+      "en": "../characters/aidan-en.html",
+      "pt": "../characters/aidan-pt.html",
+      "de": "../characters/aidan-de.html",
+      "es": "../characters/aidan-es.html",
+      "fr": "../characters/aidan-fr.html",
+      "ja": "../characters/aidan-ja.html"
+    }
+  },
+  "Adam": {
+    "image": "../../imagens/image-shared/adam.webp",
+    "names": {
+      "pt": "Adam",
+      "ja": "アダム"
+    },
+    "guides": {
+      "en": "../characters/adam-en.html",
+      "pt": "../characters/adam-pt.html",
+      "de": "../characters/adam-de.html",
+      "es": "../characters/adam-es.html",
+      "fr": "../characters/adam-fr.html",
+      "ja": "../characters/adam-ja.html"
+    }
+  },
+  "Amira": {
+    "image": "../../hero-wars-dominion-era/images/hero/amira/amira.webp",
+    "names": {
+      "pt": "Amira",
+      "ja": "アミラ"
+    },
+    "guides": {
+      "en": "../characters/amira-en.html",
+      "pt": "../characters/amira-pt.html"
+    }
+  },
+  "Augustus": {
+    "image": "../../hero-wars-dominion-era/images/hero/augustus/augustus.webp",
+    "names": {
+      "pt": "Augustus",
+      "ja": "アウグストゥス"
+    },
+    "guides": {
+      "en": "../characters/augustus-en.html",
+      "pt": "../characters/augustus-pt.html",
+      "de": "../characters/augustus-de.html",
+      "es": "../characters/augustus-es.html",
+      "fr": "../characters/augustus-fr.html",
+      "ja": "../characters/augustus-ja.html"
+    }
+  },
+  "Aurora": {
+    "image": "../../hero-wars-dominion-era/images/hero/aurora/aurora.webp",
+    "names": {
+      "pt": "Aurora",
+      "ja": "オーロラ"
+    },
+    "guides": {
+      "en": "../characters/aurora-en.html",
+      "pt": "../characters/aurora-pt.html"
+    }
+  },
+  "Dante": {
+    "image": "../../hero-wars-dominion-era/images/hero/dante/dante.webp",
+    "names": {
+      "pt": "Dante",
+      "ja": "ダンテ"
+    },
+    "guides": {
+      "en": "../characters/dante-en.html",
+      "pt": "../characters/dante-pt.html",
+      "de": "../characters/dante-de.html",
+      "es": "../characters/dante-es.html",
+      "fr": "../characters/dante-fr.html",
+      "ja": "../characters/dante-ja.html"
+    }
+  },
+  "Guus": {
+    "image": "../../hero-wars-dominion-era/images/hero/guus/guus.webp",
+    "names": {
+      "pt": "Guus",
+      "ja": "グース"
+    },
+    "guides": {
+      "en": "../characters/guus-en.html",
+      "pt": "../characters/guus-pt.html"
+    }
+  },
+  "Heidi": {
+    "image": "../../hero-wars-dominion-era/images/hero/heidi/heidi.webp",
+    "names": {
+      "pt": "Heidi",
+      "ja": "ハイディ"
+    },
+    "guides": {
+      "en": "../characters/heidi-en.html",
+      "pt": "../characters/heidi-pt.html"
+    }
+  },
+  "Isaac": {
+    "image": "../../hero-wars-dominion-era/images/hero/isaac/isaac.webp",
+    "names": {
+      "pt": "Isaac",
+      "ja": "アイザック"
+    },
+    "guides": {
+      "en": "../characters/isaac-en.html",
+      "pt": "../characters/isaac-pt.html"
+    }
+  },
+  "Iris": {
+    "image": "../../hero-wars-dominion-era/images/hero/iris/iris.webp",
+    "names": {
+      "pt": "Iris",
+      "ja": "アイリス"
+    },
+    "guides": {
+      "en": "../characters/iris-en.html",
+      "pt": "../characters/iris-pt.html"
+    }
+  },
+  "Ishmael": {
+    "image": "../../hero-wars-dominion-era/images/hero/ishmael/ishmael.webp",
+    "names": {
+      "pt": "Ishmael",
+      "ja": "イシュマエル"
+    },
+    "guides": {
+      "en": "../characters/ishmael-en.html",
+      "pt": "../characters/ishmael-pt.html"
+    }
+  },
+  "Julius": {
+    "image": "../../hero-wars-dominion-era/images/hero/julius/julius.webp",
+    "names": {
+      "pt": "Julius",
+      "ja": "ジュリアス"
+    },
+    "guides": {
+      "en": "../characters/julius-en.html",
+      "pt": "../characters/julius-pt.html"
+    }
+  },
+  "Krista": {
+    "image": "../../hero-wars-dominion-era/images/hero/krista/krista.webp",
+    "names": {
+      "pt": "Krista",
+      "ja": "クリスタ"
+    },
+    "guides": {
+      "en": "../characters/krista-en.html",
+      "pt": "../characters/krista-pt.html"
+    }
+  },
+  "Lara Croft": {
+    "image": "../../hero-wars-dominion-era/images/hero/lara-croft/lara-croft.webp",
+    "names": {
+      "pt": "Lara Croft",
+      "ja": "ララ・クロフト"
+    },
+    "guides": {
+      "en": "../characters/lara-croft-en.html",
+      "pt": "../characters/lara-croft-pt.html"
+    }
+  },
+  "Lyria": {
+    "image": "../../hero-wars-dominion-era/images/hero/lyria/lyria.webp",
+    "names": {
+      "pt": "Lyria",
+      "ja": "リリア"
+    },
+    "guides": {
+      "en": "../characters/lyria-en.html",
+      "pt": "../characters/lyria-pt.html",
+      "de": "../characters/lyria-de.html",
+      "es": "../characters/lyria-es.html",
+      "fr": "../characters/lyria-fr.html",
+      "ja": "../characters/lyria-ja.html"
+    }
+  },
+  "Nebula": {
+    "image": "../../hero-wars-dominion-era/images/hero/nebula/nebula.webp",
+    "names": {
+      "pt": "Nebula",
+      "ja": "ネブラ"
+    },
+    "guides": {
+      "en": "../characters/nebula-en.html",
+      "pt": "../characters/nebula-pt.html"
+    }
+  },
+  "Orion": {
+    "image": "../../hero-wars-dominion-era/images/hero/orion/orion.webp",
+    "names": {
+      "pt": "Orion",
+      "ja": "オリオン"
+    },
+    "guides": {
+      "en": "../characters/orion-en.html",
+      "pt": "../characters/orion-pt.html",
+      "de": "../characters/orion-de.html",
+      "es": "../characters/orion-es.html",
+      "fr": "../characters/orion-fr.html",
+      "ja": "../characters/orion-ja.html"
+    }
+  },
+  "Qing Mao": {
+    "image": "../../hero-wars-dominion-era/images/hero/qing-mao-img/qing-mao.webp",
+    "names": {
+      "pt": "Qing Mao",
+      "ja": "チン・マオ"
+    },
+    "guides": {
+      "en": "../characters/qing-mao-en.html",
+      "pt": "../characters/qing-mao-pt.html"
+    }
+  },
+  "Rufus": {
+    "image": "../../hero-wars-dominion-era/images/hero/rufus/rufus.webp",
+    "names": {
+      "pt": "Rufus",
+      "ja": "ルーファス"
+    },
+    "guides": {
+      "en": "../characters/rufus-en.html",
+      "pt": "../characters/rufus-pt.html"
+    }
+  },
+  "Sebastian": {
+    "image": "../../hero-wars-dominion-era/images/hero/sebastian/sebastian.webp",
+    "names": {
+      "pt": "Sebastian",
+      "ja": "セバスチャン"
+    },
+    "guides": {
+      "en": "../characters/sebastian-en.html",
+      "pt": "../characters/sebastian-pt.html"
+    }
+  },
+  "Somna": {
+    "image": "../../imagens/image-shared/somna.webp",
+    "names": {
+      "pt": "Somna",
+      "ja": "ソムナ"
+    },
+    "guides": {
+      "en": "../characters/somna-en.html",
+      "pt": "../characters/somna-pt.html",
+      "de": "../characters/somna-de.html",
+      "es": "../characters/somna-es.html",
+      "fr": "../characters/somna-fr.html",
+      "ja": "../characters/somna-ja.html"
+    }
+  },
+  "Thea": {
+    "image": "../../hero-wars-dominion-era/images/hero/thea/thea.webp",
+    "names": {
+      "pt": "Thea",
+      "ja": "テア"
+    },
+    "guides": {
+      "en": "../characters/thea-en.html",
+      "pt": "../characters/thea-pt.html"
+    }
+  },
+  "Yasmine": {
+    "image": "../../hero-wars-dominion-era/images/hero/yasmine/yasmine.webp",
+    "names": {
+      "pt": "Yasmine",
+      "ja": "ヤスミン"
+    },
+    "guides": {
+      "en": "../characters/yasmine-en.html",
+      "pt": "../characters/yasmine-pt.html",
+      "de": "../characters/yasmine-de.html",
+      "es": "../characters/yasmine-es.html",
+      "fr": "../characters/yasmine-fr.html",
+      "ja": "../characters/yasmine-ja.html"
+    }
+  },
+  "Arachne": {
+    "image": "../../hero-wars-dominion-era/images/hero/arachne/arachne.webp",
+    "names": {
+      "pt": "Arachne",
+      "ja": "アラクネ"
+    },
+    "guides": {
+      "en": "../characters/arachne-en.html",
+      "pt": "../characters/arachne-pt.html",
+      "de": "../characters/arachne-de.html",
+      "es": "../characters/arachne-es.html",
+      "fr": "../characters/arachne-fr.html",
+      "ja": "../characters/arachne-ja.html"
+    }
+  },
+  "Astaroth": {
+    "image": "../../hero-wars-dominion-era/images/hero/astaroth/astaroth.webp",
+    "names": {
+      "pt": "Astaroth",
+      "ja": "アスタロス"
+    },
+    "guides": {
+      "en": "../characters/astaroth-en.html",
+      "pt": "../characters/astaroth-pt.html"
+    }
+  },
+  "Astrid and Lucas": {
+    "image": "../../imagens/image-shared/astrid-and-lucas.webp",
+    "names": {
+      "pt": "Astrid e Lucas",
+      "ja": "アストリッドとルーカス"
+    },
+    "guides": {
+      "en": "../characters/astrid-and-lucas-en.html",
+      "pt": "../characters/astrid-and-lucas-pt.html",
+      "de": "../characters/astrid-and-lucas-de.html",
+      "es": "../characters/astrid-and-lucas-es.html",
+      "fr": "../characters/astrid-and-lucas-fr.html",
+      "ja": "../characters/astrid-and-lucas-ja.html"
+    }
+  },
+  "Celeste": {
+    "image": "../../hero-wars-dominion-era/images/hero/celeste/celeste.webp",
+    "names": {
+      "pt": "Celeste",
+      "ja": "セレステ"
+    },
+    "guides": {
+      "en": "../characters/celeste-en.html",
+      "pt": "../characters/celeste-pt.html"
+    }
+  },
+  "Corvus": {
+    "image": "../../hero-wars-dominion-era/images/hero/corvus/corvus.webp",
+    "names": {
+      "pt": "Corvus",
+      "ja": "コーブス"
+    },
+    "guides": {
+      "en": "../characters/corvus-en.html",
+      "pt": "../characters/corvus-pt.html"
+    }
+  },
+  "Dorian": {
+    "image": "../../hero-wars-dominion-era/images/hero/dorian/dorian.webp",
+    "names": {
+      "pt": "Dorian",
+      "ja": "ドリアン"
+    },
+    "guides": {}
+  },
+  "Folio": {
+    "image": "../../hero-wars-dominion-era/images/hero/folio/folio.webp",
+    "names": {
+      "pt": "Folio",
+      "ja": "フォリオ"
+    },
+    "guides": {
+      "en": "../characters/folio-en.html",
+      "pt": "../characters/folio-pt.html"
+    }
+  },
+  "Galahad": {
+    "image": "../../hero-wars-dominion-era/images/hero/galahad/galahad.webp",
+    "names": {
+      "pt": "Galahad",
+      "ja": "ギャラハッド"
+    },
+    "guides": {
+      "en": "../characters/galahad-en.html",
+      "pt": "../characters/galahad-pt.html",
+      "de": "../characters/galahad-de.html",
+      "es": "../characters/galahad-es.html",
+      "fr": "../characters/galahad-fr.html",
+      "ja": "../characters/galahad-ja.html"
+    }
+  },
+  "Helios": {
+    "image": "../../hero-wars-dominion-era/images/hero/helios/helios.webp",
+    "names": {
+      "pt": "Hélio",
+      "ja": "ヘリオス"
+    },
+    "guides": {}
+  },
+  "Jorgen": {
+    "image": "../../hero-wars-dominion-era/images/hero/jorgen/jorgen.webp",
+    "names": {
+      "pt": "Jorgen",
+      "ja": "ヨルガン"
+    },
+    "guides": {}
+  },
+  "Kayla": {
+    "image": "../../hero-wars-dominion-era/images/hero/kayla/kayla.webp",
+    "names": {
+      "pt": "Kayla",
+      "ja": "カイラ"
+    },
+    "guides": {
+      "en": "../characters/kayla-en.html",
+      "pt": "../characters/kayla-pt.html",
+      "de": "../characters/kayla-de.html",
+      "es": "../characters/kayla-es.html",
+      "fr": "../characters/kayla-fr.html",
+      "ja": "../characters/kayla-ja.html"
+    }
+  },
+  "Keira": {
+    "image": "../../hero-wars-dominion-era/images/hero/keira/keira.webp",
+    "names": {
+      "pt": "Keira",
+      "ja": "ケイラ"
+    },
+    "guides": {
+      "en": "../characters/keira-en.html",
+      "pt": "../characters/keira-pt.html"
+    }
+  },
+  "Martha": {
+    "image": "../../hero-wars-dominion-era/images/hero/martha/martha.webp",
+    "names": {
+      "pt": "Martha",
+      "ja": "マーサ"
+    },
+    "guides": {}
+  },
+  "Mojo": {
+    "image": "../../hero-wars-dominion-era/images/hero/mojo/mojo.webp",
+    "names": {
+      "pt": "Mojo",
+      "ja": "モージョー"
+    },
+    "guides": {}
+  },
+  "Morrigan": {
+    "image": "../../hero-wars-dominion-era/images/hero/morrigan/morrigan.webp",
+    "names": {
+      "pt": "Morrigan",
+      "ja": "モリガン"
+    },
+    "guides": {}
+  },
+  "Mushy and Shroom": {
+    "image": "../../hero-wars-dominion-era/images/hero/mushy-and-shroom/mushy-and-shroom.webp",
+    "names": {
+      "pt": "Cogu e Mélio",
+      "ja": "マッシーとシュルーム"
+    },
+    "guides": {
+      "en": "../characters/mushy-and-shroom-en.html",
+      "pt": "../characters/mushy-and-shroom-pt.html",
+      "de": "../characters/mushy-and-shroom-de.html",
+      "es": "../characters/mushy-and-shroom-es.html",
+      "fr": "../characters/mushy-and-shroom-fr.html",
+      "ja": "../characters/mushy-and-shroom-ja.html"
+    }
+  },
+  "Polaris": {
+    "image": "../../hero-wars-dominion-era/images/hero/polaris/polaris.webp",
+    "names": {
+      "pt": "Polaris",
+      "ja": "ポラリス"
+    },
+    "guides": {}
+  },
+  "Ninja Turtles": {
+    "image": "../../hero-wars-dominion-era/images/hero/ninja-turtles/ninja-turtles-150px.webp",
+    "names": {
+      "pt": "Ninja Turtles",
+      "ja": "忍者タートルズ"
+    },
+    "guides": {}
+  },
+  "Andvari": {
+    "image": "../../hero-wars-dominion-era/images/hero/andvari/andvari.webp",
+    "names": {
+      "pt": "Andvari",
+      "ja": "アンドバリ"
+    },
+    "guides": {}
+  },
+  "Cleaver": {
+    "image": "../../hero-wars-dominion-era/images/hero/cleaver/cleaver.webp",
+    "names": {
+      "pt": "Cleaver",
+      "ja": "クリーバー"
+    },
+    "guides": {}
+  },
+  "Faceless": {
+    "image": "../../hero-wars-dominion-era/images/hero/faceless/faceless.webp",
+    "names": {
+      "pt": "Faceless",
+      "ja": "フェイスレス"
+    },
+    "guides": {}
+  },
+  "Fafnir": {
+    "image": "../../hero-wars-dominion-era/images/hero/fafnir/fafnir.webp",
+    "names": {
+      "pt": "Fafnir",
+      "ja": "ファフニール"
+    },
+    "guides": {}
+  },
+  "Jhu": {
+    "image": "../../hero-wars-dominion-era/images/hero/jhu/jhu.webp",
+    "names": {
+      "pt": "Jhu",
+      "ja": "ジュウ"
+    },
+    "guides": {}
+  },
+  "Judge": {
+    "image": "../../hero-wars-dominion-era/images/hero/judge/judge.webp",
+    "names": {
+      "pt": "Judge",
+      "ja": "ジャッジ"
+    },
+    "guides": {}
+  },
+  "Lars": {
+    "image": "../../hero-wars-dominion-era/images/hero/lars/lars.webp",
+    "names": {
+      "pt": "Lars",
+      "ja": "ラース"
+    },
+    "guides": {}
+  },
+  "Lian": {
+    "image": "../../hero-wars-dominion-era/images/hero/lian/lian.webp",
+    "names": {
+      "pt": "Lian",
+      "ja": "リアン"
+    },
+    "guides": {}
+  },
+  "Phobos": {
+    "image": "../../hero-wars-dominion-era/images/hero/phobos/phobos.webp",
+    "names": {
+      "pt": "Phobos",
+      "ja": "フォボス"
+    },
+    "guides": {}
+  },
+  "Satori": {
+    "image": "../../hero-wars-dominion-era/images/hero/satori/satori.webp",
+    "names": {
+      "pt": "Satori",
+      "ja": "サトリ"
+    },
+    "guides": {}
+  },
+  "Alvanor": {
+    "image": "../../hero-wars-dominion-era/images/hero/alvanor/alvanor.webp",
+    "names": {
+      "pt": "Alvanor",
+      "ja": "アルバノール"
+    },
+    "guides": {}
+  },
+  "Artemis": {
+    "image": "../../hero-wars-dominion-era/images/hero/artemis/artemis.webp",
+    "names": {
+      "pt": "Artemis",
+      "ja": "アルテミス"
+    },
+    "guides": {}
+  },
+  "Cornelius": {
+    "image": "../../hero-wars-dominion-era/images/hero/cornelius/cornelius.webp",
+    "names": {
+      "pt": "Cornelius",
+      "ja": "コーネリウス"
+    },
+    "guides": {}
+  },
+  "Daredevil": {
+    "image": "../../hero-wars-dominion-era/images/hero/daredevil/daredevil.webp",
+    "names": {
+      "pt": "Daredevil",
+      "ja": "デアデビル"
+    },
+    "guides": {}
+  },
+  "Ginger": {
+    "image": "../../hero-wars-dominion-era/images/hero/ginger/ginger.webp",
+    "names": {
+      "pt": "Ginger",
+      "ja": "ジンジャー"
+    },
+    "guides": {}
+  },
+  "Jet": {
+    "image": "../../hero-wars-dominion-era/images/hero/jet/jet.webp",
+    "names": {
+      "pt": "Jet",
+      "ja": "ジェット"
+    },
+    "guides": {
+      "en": "../characters/jet-en.html",
+      "pt": "../characters/jet-pt.html"
+    }
+  },
+  "K'arkh": {
+    "image": "../../hero-wars-dominion-era/images/hero/karkh/karkh.webp",
+    "names": {
+      "pt": "K'arkh",
+      "ja": "カーク"
+    },
+    "guides": {}
+  },
+  "Maya": {
+    "image": "../../hero-wars-dominion-era/images/hero/maya/maya.webp",
+    "names": {
+      "pt": "Maya",
+      "ja": "マヤ"
+    },
+    "guides": {}
+  },
+  "Tristan": {
+    "image": "../../hero-wars-dominion-era/images/hero/tristan/tristan.webp",
+    "names": {
+      "pt": "Tristan",
+      "ja": "トリスタン"
+    },
+    "guides": {}
+  },
+  "Chabba": {
+    "image": "../../hero-wars-dominion-era/images/hero/chabba/chabba.webp",
+    "names": {
+      "pt": "Chabba",
+      "ja": "チャバ"
+    },
+    "guides": {}
+  },
+  "Dark Star": {
+    "image": "../../hero-wars-dominion-era/images/hero/dark-star/dark-star.webp",
+    "names": {
+      "pt": "Dark Star",
+      "ja": "ダークスター"
+    },
+    "guides": {}
+  },
+  "Elmir": {
+    "image": "../../hero-wars-dominion-era/images/hero/elmir/elmir.webp",
+    "names": {
+      "pt": "Elmir",
+      "ja": "エルミル"
+    },
+    "guides": {
+      "en": "../characters/elmir-en.html",
+      "pt": "../characters/elmir-pt.html",
+      "de": "../characters/elmir-de.html",
+      "es": "../characters/elmir-es.html",
+      "fr": "../characters/elmir-fr.html",
+      "ja": "../characters/elmir-ja.html"
+    }
+  },
+  "Fox": {
+    "image": "../../hero-wars-dominion-era/images/hero/fox/fox.webp",
+    "names": {
+      "pt": "Fox",
+      "ja": "フォックス"
+    },
+    "guides": {}
+  },
+  "Kai": {
+    "image": "../../hero-wars-dominion-era/images/hero/kai/kai.webp",
+    "names": {
+      "pt": "Kai",
+      "ja": "カイ"
+    },
+    "guides": {}
+  },
+  "Lilith": {
+    "image": "../../hero-wars-dominion-era/images/hero/lilith/lilith.webp",
+    "names": {
+      "pt": "Lilith",
+      "ja": "リリス"
+    },
+    "guides": {}
+  },
+  "Luther": {
+    "image": "../../hero-wars-dominion-era/images/hero/luther/luther.webp",
+    "names": {
+      "pt": "Luther",
+      "ja": "ルーサー"
+    },
+    "guides": {}
+  },
+  "Markus": {
+    "image": "../../hero-wars-dominion-era/images/hero/markus/markus.webp",
+    "names": {
+      "pt": "Markus",
+      "ja": "マーカス"
+    },
+    "guides": {}
+  },
+  "Peppy": {
+    "image": "../../hero-wars-dominion-era/images/hero/peppy/peppy.webp",
+    "names": {
+      "pt": "Peppy",
+      "ja": "ペピー"
+    },
+    "guides": {}
+  },
+  "Ziri": {
+    "image": "../../hero-wars-dominion-era/images/hero/ziri/ziri.webp",
+    "names": {
+      "pt": "Ziri",
+      "ja": "ジリ"
+    },
+    "guides": {
+      "en": "../characters/ziri-en.html",
+      "pt": "../characters/ziri-pt.html",
+      "de": "../characters/ziri-de.html",
+      "es": "../characters/ziri-es.html",
+      "fr": "../characters/ziri-fr.html",
+      "ja": "../characters/ziri-ja.html"
+    }
+  }
+}
