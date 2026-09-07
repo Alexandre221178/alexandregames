@@ -73,10 +73,12 @@
     border-radius: 8px;
   }
   #ad-desktop { width: 300px; min-height: 600px; }
+  #ad-mobile { width: 300px; max-width: 100%; min-height: 250px; margin: 20px auto; background: #f5f5f5; }
   #tier-end-ad { width: 100%; min-height: 250px; margin: 24px 0; background: #f5f5f5; }
   .tier-ad-label { display: block; padding: 8px 0; text-align: center; color: #666; font: 12px Arial, sans-serif; }
   @media (min-width: 841px) {
     .container-principal > .container-fixo { display: block; }
+    #ad-mobile { display: none; }
   }
   @media (max-width: 840px) {
     .container-principal { display: block; padding: 0 12px; }
@@ -101,7 +103,7 @@
 </div>
 
     <div class="autor"><ul><li><i>Par : Alexandre Domingos.</i><b></b> <i id="data-modificacao"></i>.</li></ul></div>
-  </header>
+  </header><div id="ad-mobile" aria-label="Publicité"><span class="tier-ad-label">Publicité</span></div>
   <main class="hwa-ranking"><nav class="hwa-tier-nav hwa-language-nav" aria-label="Langues"><a href="hero-wars-alliance-tier-list-en.html" hreflang="en" lang="en">English</a><a href="hero-wars-alliance-tier-list-de.html" hreflang="de" lang="de">Deutsch</a><a href="hero-wars-alliance-tier-list-es.html" hreflang="es" lang="es">Español</a><a href="hero-wars-alliance-tier-list-fr.html" hreflang="fr" lang="fr" aria-current="page">Français</a><a href="hero-wars-alliance-tier-list-ja.html" hreflang="ja" lang="ja">日本語</a><a href="hero-wars-alliance-tier-list-pt.html" hreflang="pt" lang="pt">Português</a></nav>
     <p class="hwa-kicker">Arène · Grande arène · Championnat mondial</p>
     <p class="hwa-intro">Trouvez rapidement votre prochain allié. Parcourez les héros de SS à C, recherchez un nom et ouvrez les guides pour préparer votre équipe.</p>
@@ -171,11 +173,12 @@
     container.append(ad);
     (window.adsbygoogle = window.adsbygoogle || []).push({});
   }
-  function loadDesktopAd() {
-    if (desktop.matches) insertAd(document.getElementById('ad-desktop'), '3843707081');
+  function loadTopAd() {
+    const id = desktop.matches ? 'ad-desktop' : 'ad-mobile';
+    insertAd(document.getElementById(id), '3843707081');
   }
-  loadDesktopAd();
-  desktop.addEventListener('change', loadDesktopAd);
+  loadTopAd();
+  desktop.addEventListener('change', loadTopAd);
   const bottom = document.getElementById('tier-end-ad');
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(entries => {
@@ -189,4 +192,5 @@
     insertAd(bottom, '2442207065');
   }
 })();
-</script></body></html>
+</script>
+</body></html>

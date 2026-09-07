@@ -46,13 +46,6 @@
 
 
   <script src="hero-wars-alliance-tier-list.js" defer=""></script>
-<link rel="alternate" hreflang="en" href="https://alexandregames.com/hero-wars-alliance/tier-list-hwa/hero-wars-alliance-tier-list-en.html">
-<link rel="alternate" hreflang="de" href="https://alexandregames.com/hero-wars-alliance/tier-list-hwa/hero-wars-alliance-tier-list-de.html">
-<link rel="alternate" hreflang="es" href="https://alexandregames.com/hero-wars-alliance/tier-list-hwa/hero-wars-alliance-tier-list-es.html">
-<link rel="alternate" hreflang="fr" href="https://alexandregames.com/hero-wars-alliance/tier-list-hwa/hero-wars-alliance-tier-list-fr.html">
-<link rel="alternate" hreflang="ja" href="https://alexandregames.com/hero-wars-alliance/tier-list-hwa/hero-wars-alliance-tier-list-ja.html">
-<link rel="alternate" hreflang="pt" href="https://alexandregames.com/hero-wars-alliance/tier-list-hwa/hero-wars-alliance-tier-list-pt.html">
-<link rel="alternate" hreflang="x-default" href="https://alexandregames.com/hero-wars-alliance/tier-list-hwa/hero-wars-alliance-tier-list-en.html">
 
 <style id="tier-page-ad-layout">
   .container-principal {
@@ -84,10 +77,12 @@
     border-radius: 8px;
   }
   #ad-desktop { width: 300px; min-height: 600px; }
+  #ad-mobile { width: 300px; max-width: 100%; min-height: 250px; margin: 20px auto; background: #f5f5f5; }
   #tier-end-ad { width: 100%; min-height: 250px; margin: 24px 0; background: #f5f5f5; }
   .tier-ad-label { display: block; padding: 8px 0; text-align: center; color: #666; font: 12px Arial, sans-serif; }
   @media (min-width: 841px) {
     .container-principal > .container-fixo { display: block; }
+    #ad-mobile { display: none; }
   }
   @media (max-width: 840px) {
     .container-principal { display: block; padding: 0 12px; }
@@ -116,6 +111,7 @@
 
    <div class="autor"><ul><li><i>By: Alexandre Domingos.</i><b></b> <i id="data-modificacao"></i>.</li></ul></div>   
   </header>
+  <div id="ad-mobile" aria-label="Advertisement"><span class="tier-ad-label">Advertisement</span></div>
   <main class="hwa-ranking"><nav class="hwa-tier-nav hwa-language-nav" aria-label="Languages"><a href="hero-wars-alliance-tier-list-en.html" hreflang="en" lang="en" aria-current="page">English</a><a href="hero-wars-alliance-tier-list-de.html" hreflang="de" lang="de">Deutsch</a><a href="hero-wars-alliance-tier-list-es.html" hreflang="es" lang="es">Español</a><a href="hero-wars-alliance-tier-list-fr.html" hreflang="fr" lang="fr">Français</a><a href="hero-wars-alliance-tier-list-ja.html" hreflang="ja" lang="ja">日本語</a><a href="hero-wars-alliance-tier-list-pt.html" hreflang="pt" lang="pt">Português</a></nav>
     <p class="hwa-kicker">Arena · Grand Arena · Global Championship</p>
     <p class="hwa-intro">Find your next team member at a glance. Browse the heroes from SS to C, search for a name, and open an available hero guide to plan your team.</p>
@@ -189,11 +185,12 @@
     container.append(ad);
     (window.adsbygoogle = window.adsbygoogle || []).push({});
   }
-  function loadDesktopAd() {
-    if (desktop.matches) insertAd(document.getElementById('ad-desktop'), '3843707081');
+  function loadTopAd() {
+    const id = desktop.matches ? 'ad-desktop' : 'ad-mobile';
+    insertAd(document.getElementById(id), '3843707081');
   }
-  loadDesktopAd();
-  desktop.addEventListener('change', loadDesktopAd);
+  loadTopAd();
+  desktop.addEventListener('change', loadTopAd);
   const bottom = document.getElementById('tier-end-ad');
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(entries => {

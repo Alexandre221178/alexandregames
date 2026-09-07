@@ -5,7 +5,7 @@ main.hwa-ranking > div:not(.column) { display: block; width: 100%; }
 .hwa-ranking [hidden] { display: none !important; }
 .hwa-ranking .hwa-intro { max-width: 760px; font-size: 18px; line-height: 1.65; margin: 0 0 24px; }
 .hwa-ranking .hwa-kicker { color: #6c431b; font-size: 13px; letter-spacing: .14em; font-weight: bold; text-transform: uppercase; }
-.hwa-tier-nav { display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 8px; height: auto !important; background: transparent; margin: 20px 0; }
+.hwa-tier-nav { display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 8px; height: auto !important; background: transparent; margin: 20px 0; position: relative; z-index: 0; }
 .hwa-tier-nav a { border: 1px solid #c7cdd5; border-radius: 8px; min-width: 48px; padding: 12px; color: #192333; text-decoration: none; text-align: center; font-weight: bold; background: #fff; }
 .hwa-tier-nav a:hover { background: #fff0cf; border-color: #906225; }
 .hwa-search-panel { padding: 20px; background: #f1f4f8; border: 1px solid #d9e0e8; border-radius: 12px; margin: 0 0 24px; }
