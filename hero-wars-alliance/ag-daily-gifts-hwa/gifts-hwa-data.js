@@ -3,14 +3,13 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+  { date:'2026-09-07', type:'daily', mission:'2-11', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
  { date:'2026-09-06', type:'hub', code:'MARKSMAN', note:'until|2026-09-28T01:00:00Z',
     rewards:['energy x100', 'artifact-chest-key x5'] },
 
-  
 { date:'2026-09-06', type:'daily', mission:'3-5', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-
-
 
 { date:'2026-09-04', type:'hub', code:'NEBULARELIC', expires:'2026-09-28', rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },   
  
@@ -20,41 +19,33 @@ window.HWA_GIFTS = [
     
  { date:'2026-09-03', type:'special', mission:'2-3', note:'until|2026-09-28T01:00:00Z',
     rewards:['summoning-sphere x5', 'gold 250k', 'energy x20', 'avatar x1'] },
-    
- 
+     
     { date:'2026-09-01', type:'special', mission:'3-12', note:'until|2026-09-28T01:00:00Z',   
       rewards:['adventure-coin x1000', 'energy x20', 'adventure-energy x50'] },
   
   { date:'2026-08-29', type:'hub', code:'EVACALENDAR', note:'until|2026-09-28T01:00:00Z',
     rewards:['energy x20', 'intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350'] },
-
  
 { date:'2026-08-28', type:'hub', code:'EVATRAILER', note:'until|2026-09-28T01:00:00Z',
    rewards:['energy x100', 'boxys-gift x3', 'realm-gift x3'] },
-    
-
     
 { date:'2026-08-27', type:'hub', code:'EMAILGIFT2808', note:'custom',
     customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
     rewards:['small-skin-stone-chest x30'] },
 { date:'2026-08-27', type:'hub', code:'EVASTREAM', expires:'2026-08-30', rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
-
     
 { date:'2026-08-25', type:'hub', code:'EVASEASON', expires:'2026-08-31', rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
  
     { date:'2026-08-21', type:'hub', code:'EMAILGIFT2108', note:'custom',
     customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
     rewards:['summoning-sphere x10'] },
-
      
     { date:'2026-08-20', type:'hub', code:'INNERDEMON', note:'until|2026-08-31T01:00:00Z',
   rewards:['energy x100', 'artifact-chest-key x5'] },   
- 
-   
+    
      { date:'2026-08-17', type:'hub', code:'DEMONS', note:'until|2026-08-31T01:00:00Z',
   rewards:['energy x20', 'gold 250k', 'summoning-sphere x5' ] },   
-    
-  
+      
     { date:'2026-08-14', type:'hub', code:'EMAILGIFT1408', note:'custom',
     customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
     rewards:['strength-skin-stone x500'] },
@@ -64,7 +55,6 @@ window.HWA_GIFTS = [
   { date:'2026-08-12', type:'hub', code:'GETSTARTED', note:'custom',
     customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
   rewards:['energy x150', 'large-skin-stone-chest x3', 'gold 100k', 'big-exp-potion x5' ] },
-
 
   { date:'2026-08-07', type:'hub', code:'EMAILGIFT0708', note:'custom',
     customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
