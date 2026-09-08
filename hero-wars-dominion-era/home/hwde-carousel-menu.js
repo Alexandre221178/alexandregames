@@ -2,6 +2,15 @@
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
     {
+      link: "../../hero-wars-dominion-era/characters/yasmine-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/yasmine/yasmine-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/yasmine/yasmine-400px.webp",
+      alt: "Yasmine for Hero Wars: Dominion Era",
+      title: "Yasmine for Hero Wars: Dominion Era.",
+      strong: "Guide(NEW SKIN): Yasmine - Hero Wars: Dominion Era",
+      updated: "Updated: September, 2026."
+    },
+    {
       link: "../../hero-wars-dominion-era/guide/mysterious-island-en.html",
       src500: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-500px.webp",
       src400: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-400px.webp",
@@ -52,16 +61,6 @@
     
     
     {
-      link: "../../hero-wars-dominion-era/guide/mysterious-island-en.html",
-      src500: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-400px.webp",
-      alt: "Mysterious Island - How to Get a War Flag?",
-      title: "Mysterious Island for Hero Wars: Dominion Era.",
-      strong: "Mysterious Island - How to Get a War Flag?",
-      updated: "Updated: Monthly."
-    },
-   
-    {
       link: "../../hero-wars-dominion-era/characters/somna-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/somna/somna-500px.webp",
       src400: "../../hero-wars-dominion-era/images/hero/somna/somna-400px.webp",
@@ -73,15 +72,7 @@
     
     
     
-    {
-      link: "../../hero-wars-dominion-era/characters/dante-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/dante/dante-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/dante/dante-400px.webp",
-      alt: "Dante for Hero Wars: Dominion Era",
-      title: "Dante for Hero Wars: Dominion Era.",
-      strong: "Guide New Skin: Dante - Hero Wars: Dominion Era",
-      updated: "Updated: July, 2026."
-    },
+    
     {
       link: "../../hero-wars-dominion-era/characters/guus-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/guus/guus-500px.webp",
