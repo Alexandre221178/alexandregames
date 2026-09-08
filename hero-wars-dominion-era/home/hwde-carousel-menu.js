@@ -2,6 +2,16 @@
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
     {
+      link: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html",
+      src500: "../../hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-400px.webp",
+      alt: "Astrid Event Awakening Guide and Rewards F2P to 6★",
+      title: "Astrid Event Awakening Guide and Rewards F2P to 6★",
+      strong: "Guide: Astrid & Lucas Event - Rewards F2P to 6★",
+      updated: "Updated: September, 2026."
+    },
+    
+    {
       link: "../../hero-wars-dominion-era/characters/yasmine-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/yasmine/yasmine-500px.webp",
       src400: "../../hero-wars-dominion-era/images/hero/yasmine/yasmine-400px.webp",

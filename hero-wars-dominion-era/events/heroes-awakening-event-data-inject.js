@@ -12,7 +12,6 @@ function injectHeroesAwakeningEventContent() {
   if (!container || !data) return;
 
   const rewards = Array.isArray(data.rewards) ? data.rewards : [];
-  const figcaption = data.figcaption || '';
   const title2 = data.title2 || '';
   const para3 = data.para3 || '';
   const para4 = data.para4 || '';
@@ -35,31 +34,17 @@ function injectHeroesAwakeningEventContent() {
   let html = `<h2>${data.title}</h2>
 <p>${data.para1}</p>
 <p>${data.para2}</p>
-<figure class="img-review">
-  <picture>
-    <source media="(min-width: 768px)" srcset="../../hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-1200px.webp">
-    <img src="../../hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-500px.webp"
-         alt="Heroes Awakening Event - Wallpaper"
-         title="Heroes Awakening Event - Hero Wars Dominion Era"
-         loading="lazy"
-         width="100%">
-  </picture>
-  <figcaption>${figcaption}</figcaption>
-</figure>
+<p><a href="${data.guideUrl}">${data.guideLinkText}</a></p>
 <h3>${title2}</h3>
 <p>${para3}</p>
 <p>${para4}</p>
 <p>${para5}</p>
-<h2>${title3}</h2>
-<p>${para6}</p>
-<h2>${title4}</h2>
-<p>${para7}</p>
-<p>${para8}</p>
-<p>${para9}</p>
-<p>${para10}</p>
-<p>${para11}</p>
-<p>${para12}</p>
-<p>${para13}</p>
+${title3 ? `<h2>${title3}</h2>` : ''}
+${para6}
+${title4 ? `<h2>${title4}</h2>` : ''}
+${[para7, para8, para9, para10, para11, para12, para13].some(Boolean)
+  ? `<ul>${para7}${para8}${para9}${para10}${para11}${para12}${para13.replace(/<\/ul>\s*$/, '')}</ul>`
+  : ''}
 `;
 
   if (rewards.length > 0) {
