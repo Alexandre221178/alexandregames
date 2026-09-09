@@ -3,6 +3,8 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+{ date:'2026-09-09', type:'hub', code:'EVALOFI', expires:'2026-09-28', rewards:['energy x100', 'large-skin-stone-chest x5'] },   
+
   { date:'2026-09-09', type:'daily', mission:'2-9', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-09-08', type:'daily', mission:'3-4', note:'daily|80',
