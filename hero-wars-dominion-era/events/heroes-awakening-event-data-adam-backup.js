@@ -10,7 +10,7 @@ const heroesAwakeningEventData = {
     para4: "Jogadores free-to-play devem priorizar primeiro as cadeias de missões mais eficientes. Adam se beneficia bastante de melhorias que aumentam sua sobrevivência e sua capacidade de cura, então níveis, habilidades, artefatos e glifos contribuem tanto para o progresso no evento quanto para o valor de longo prazo da conta.",
     para5: "Para evoluir Adam com eficiência, concentre seus recursos nele durante o evento. Evite espalhar Ouro, materiais e recursos de aprimoramento entre vários heróis se o seu objetivo principal for levá-lo a 6 estrelas.",
     title3: "Melhores Times para o Arquidemônio no Evento Último Contrato",
-    para6: "<p><strong>Um Bilhão de Dano (Capítulo 2)</strong></p><ul><li><strong>Albus, Guss(+), Isaac(+), Nebula(+),  Dante(Fenris), Aurora(Cain)</strong></li></ul>",
+    para6: "<p><strong>100 Bilhão de Dano (Capítulo 1)</strong></p><ul><li><strong>Albus, Guss(+), Isaac(+), Nebula(+),  Dante(Fenris), Aurora(Cain)</strong></li></ul>",
     title4: "Melhores Times para o Arquidemônio no Evento Último Contrato",
     para7: "<li><strong>Capítulo 1:</strong> Axel, Adam(Fenris), Fluffy(Biscuit), Cascade(Axel), Byrna(Merlin), Electra(Oliver)</li>",
     para8: "<li><strong>Capítulo 2 - Buff(Vampirismo):</strong> Axel, Adam(Cain), Fluffy(Axel), Cascade(Khorus), Isaac(Mara), Electra(Oliver)</li>",

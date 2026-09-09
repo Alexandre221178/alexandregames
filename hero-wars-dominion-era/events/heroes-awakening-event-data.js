@@ -9,7 +9,15 @@ const heroesAwakeningEventData = {
     "para3": "Confira as missões e recompensas disponíveis no jogo antes de gastar seus recursos.",
     "para4": "Priorize as melhorias de acordo com seus objetivos e com os recursos disponíveis na sua conta.",
     "para5": "Use o guia de Astrid e Lucas como referência para decidir quais melhorias realizar.",
-    "guideUrl": "../characters/astrid-and-lucas-pt.html"
+    "guideUrl": "../characters/astrid-and-lucas-pt.html",
+    "title4": "Melhores Times para o Arquidemônio no Evento da Astrid (Path of Legends)",
+    "para7": "<li><strong>100 Bilhões de Dano — Capítulo 1 (Buff 0):</strong> Axel, Astrid(Mara), Adam(Fenris), Guus(Khorus), Byrna(Merlin), Electra(Axel)</li>",
+    "para8": "<li><strong>Capítulo 2 (Buff 0):</strong> Axel, Astrid(Fenris), Adam(Cain), Guus(Khorus), Byrna(Merlin), Electra(Axel)</li>",
+    "para9": "<li><strong>Capítulo 3 (Buff 50):</strong> Axel, Thea(), Astrid(Vex), Somna(Axel), Adam(Cain), Byrna(Khorus)</li>",
+    "para10": "<li><strong>Capítulo 4 (Buff 100):</strong> Axel, Astrid(Fenris), Adam(Cain), Guus(Khorus), Byrna(Merlin), Electra(Axel)</li>",
+    "para11": "<li><strong>Capítulo 5 (Buff 150) [Talismã recomendado: Qualquer um]:</strong> Somna(), Adam(Cain), Fluffy(Merlin), Byrna(Khorus), Electra(Oliver)</li><li>Este capítulo não foi muito difícil. Precisei criar um time em torno de Byrna, Electra, Fluffy e Somna.</li><li>O time foi criado com base nas habilidades e sinergias dos heróis.</li>",
+    "para12": "<li><strong>Capítulo 6 (Buff 200):</strong> Khorus, Dorian(), Orion(Khorus), Fluffy(Merlin), Cascade(), Electra(Axel)</li><li>Neste capítulo, precisei criar um time em torno de Orion e Electra com níveis mais altos. Dorian pode ter um nível mais baixo.</li><li>O time foi criado com base nas habilidades e sinergias dos heróis.</li>",
+    "para13": "<li><strong>Capítulo 7 (Buff 250) [Talismã recomendado: Riqueza]:</strong> Vex, Nebula(Cain), Isaac(Axel), Guus(Khorus), Lyria(Oliver), Electra(Oliver), Galahad(Albus)</li>"
   },
   "en": {
     "title": "Guide: Astrid Event (Path of Legends)",
@@ -20,7 +28,15 @@ const heroesAwakeningEventData = {
     "para3": "Check the missions and rewards available in the game before spending your resources.",
     "para4": "Prioritize upgrades according to your goals and the resources available on your account.",
     "para5": "Use the Astrid and Lucas guide as a reference when deciding which upgrades to make.",
-    "guideUrl": "../characters/astrid-and-lucas-en.html"
+    "guideUrl": "../characters/astrid-and-lucas-en.html",
+    "title4": "Best Teams for the Archdemon in the Astrid Event (Path of Legends)",
+    "para7": "<li><strong>100 Billion Damage — Chapter 1 (Buff 0):</strong> Axel, Astrid(Mara), Adam(Fenris), Guus(Khorus), Byrna(Merlin), Electra(Axel)</li>",
+    "para8": "<li><strong>Chapter 2 (Buff 0):</strong> Axel, Astrid(Fenris), Adam(Cain), Guus(Khorus), Byrna(Merlin), Electra(Axel)</li>",
+    "para9": "<li><strong>Chapter 3 (Buff 50):</strong> Axel, Thea(), Astrid(Vex), Somna(Axel), Adam(Cain), Byrna(Khorus)</li>",
+    "para10": "<li><strong>Chapter 4 (Buff 100):</strong> Axel, Astrid(Fenris), Adam(Cain), Guus(Khorus), Byrna(Merlin), Electra(Axel)</li>",
+    "para11": "<li><strong>Chapter 5 (Buff 150) [Recommended talisman: Any]:</strong> Somna(), Adam(Cain), Fluffy(Merlin), Byrna(Khorus), Electra(Oliver)</li><li>This chapter was not very difficult. I needed to build a team around Byrna, Electra, Fluffy, and Somna.</li><li>The team was built around the heroes’ skills and synergies.</li>",
+    "para12": "<li><strong>Chapter 6 (Buff 200):</strong> Khorus, Dorian(), Orion(Khorus), Fluffy(Merlin), Cascade(), Electra(Axel)</li><li>In this chapter, I needed to build a team around higher-level Orion and Electra. Dorian can be at a lower level.</li><li>The team was built around the heroes’ skills and synergies.</li>",
+    "para13": "<li><strong>Chapter 7 (Buff 250) [Recommended talisman: Wealth]:</strong> Vex, Nebula(Cain), Isaac(Axel), Guus(Khorus), Lyria(Oliver), Electra(Oliver), Galahad(Albus)</li>"
   },
   "de": {
     "title": "Leitfaden: Astrid-Event (Path of Legends)",
@@ -31,7 +47,15 @@ const heroesAwakeningEventData = {
     "para3": "Prüfe die im Spiel verfügbaren Missionen und Belohnungen, bevor du Ressourcen ausgibst.",
     "para4": "Priorisiere Verbesserungen entsprechend deinen Zielen und den verfügbaren Ressourcen deines Kontos.",
     "para5": "Nutze den Leitfaden zu Astrid und Lucas als Orientierung bei der Auswahl deiner Verbesserungen.",
-    "guideUrl": "../characters/astrid-and-lucas-de.html"
+    "guideUrl": "../characters/astrid-and-lucas-de.html",
+    "title4": "Beste Teams für den Erzdämon im Astrid-Event (Path of Legends)",
+    "para7": "<li><strong>100 Milliarden Schaden — Kapitel 1 (Buff 0):</strong> Axel, Astrid(Mara), Adam(Fenris), Guus(Khorus), Byrna(Merlin), Electra(Axel)</li>",
+    "para8": "<li><strong>Kapitel 2 (Buff 0):</strong> Axel, Astrid(Fenris), Adam(Cain), Guus(Khorus), Byrna(Merlin), Electra(Axel)</li>",
+    "para9": "<li><strong>Kapitel 3 (Buff 50):</strong> Axel, Thea(), Astrid(Vex), Somna(Axel), Adam(Cain), Byrna(Khorus)</li>",
+    "para10": "<li><strong>Kapitel 4 (Buff 100):</strong> Axel, Astrid(Fenris), Adam(Cain), Guus(Khorus), Byrna(Merlin), Electra(Axel)</li>",
+    "para11": "<li><strong>Kapitel 5 (Buff 150) [Empfohlener Talisman: Beliebig]:</strong> Somna(), Adam(Cain), Fluffy(Merlin), Byrna(Khorus), Electra(Oliver)</li><li>Dieses Kapitel war nicht sehr schwierig. Ich musste ein Team um Byrna, Electra, Fluffy und Somna aufbauen.</li><li>Das Team wurde auf Grundlage der Fähigkeiten und Synergien der Helden zusammengestellt.</li>",
+    "para12": "<li><strong>Kapitel 6 (Buff 200):</strong> Khorus, Dorian(), Orion(Khorus), Fluffy(Merlin), Cascade(), Electra(Axel)</li><li>In diesem Kapitel musste ich ein Team um Orion und Electra mit höheren Leveln aufbauen. Dorian kann ein niedrigeres Level haben.</li><li>Das Team wurde auf Grundlage der Fähigkeiten und Synergien der Helden zusammengestellt.</li>",
+    "para13": "<li><strong>Kapitel 7 (Buff 250) [Empfohlener Talisman: Reichtum]:</strong> Vex, Nebula(Cain), Isaac(Axel), Guus(Khorus), Lyria(Oliver), Electra(Oliver), Galahad(Albus)</li>"
   },
   "es": {
     "title": "Guía: Evento de Astrid (Path of Legends)",
@@ -42,7 +66,15 @@ const heroesAwakeningEventData = {
     "para3": "Revisa las misiones y recompensas disponibles en el juego antes de gastar tus recursos.",
     "para4": "Prioriza las mejoras según tus objetivos y los recursos disponibles en tu cuenta.",
     "para5": "Usa la guía de Astrid y Lucas como referencia para decidir qué mejoras realizar.",
-    "guideUrl": "../characters/astrid-and-lucas-es.html"
+    "guideUrl": "../characters/astrid-and-lucas-es.html",
+    "title4": "Mejores equipos para el Archidemonio en el evento de Astrid (Path of Legends)",
+    "para7": "<li><strong>100 mil millones de daño — Capítulo 1 (Mejora 0):</strong> Axel, Astrid(Mara), Adam(Fenris), Guus(Khorus), Byrna(Merlin), Electra(Axel)</li>",
+    "para8": "<li><strong>Capítulo 2 (Mejora 0):</strong> Axel, Astrid(Fenris), Adam(Cain), Guus(Khorus), Byrna(Merlin), Electra(Axel)</li>",
+    "para9": "<li><strong>Capítulo 3 (Mejora 50):</strong> Axel, Thea(), Astrid(Vex), Somna(Axel), Adam(Cain), Byrna(Khorus)</li>",
+    "para10": "<li><strong>Capítulo 4 (Mejora 100):</strong> Axel, Astrid(Fenris), Adam(Cain), Guus(Khorus), Byrna(Merlin), Electra(Axel)</li>",
+    "para11": "<li><strong>Capítulo 5 (Mejora 150) [Talismán recomendado: Cualquiera]:</strong> Somna(), Adam(Cain), Fluffy(Merlin), Byrna(Khorus), Electra(Oliver)</li><li>Este capítulo no fue muy difícil. Tuve que crear un equipo alrededor de Byrna, Electra, Fluffy y Somna.</li><li>El equipo se creó a partir de las habilidades y sinergias de los héroes.</li>",
+    "para12": "<li><strong>Capítulo 6 (Mejora 200):</strong> Khorus, Dorian(), Orion(Khorus), Fluffy(Merlin), Cascade(), Electra(Axel)</li><li>En este capítulo, tuve que crear un equipo alrededor de Orion y Electra con niveles más altos. Dorian puede tener un nivel más bajo.</li><li>El equipo se creó a partir de las habilidades y sinergias de los héroes.</li>",
+    "para13": "<li><strong>Capítulo 7 (Mejora 250) [Talismán recomendado: Riqueza]:</strong> Vex, Nebula(Cain), Isaac(Axel), Guus(Khorus), Lyria(Oliver), Electra(Oliver), Galahad(Albus)</li>"
   },
   "fr": {
     "title": "Guide : Événement Astrid (Path of Legends)",
@@ -53,7 +85,15 @@ const heroesAwakeningEventData = {
     "para3": "Vérifiez les missions et récompenses disponibles dans le jeu avant de dépenser vos ressources.",
     "para4": "Choisissez vos améliorations selon vos objectifs et les ressources disponibles sur votre compte.",
     "para5": "Utilisez le guide d’Astrid et Lucas comme référence pour choisir les améliorations à effectuer.",
-    "guideUrl": "../characters/astrid-and-lucas-fr.html"
+    "guideUrl": "../characters/astrid-and-lucas-fr.html",
+    "title4": "Meilleures équipes contre l’Archidémon pour l’événement Astrid (Path of Legends)",
+    "para7": "<li><strong>100 milliards de dégâts — Chapitre 1 (Bonus 0):</strong> Axel, Astrid(Mara), Adam(Fenris), Guus(Khorus), Byrna(Merlin), Electra(Axel)</li>",
+    "para8": "<li><strong>Chapitre 2 (Bonus 0):</strong> Axel, Astrid(Fenris), Adam(Cain), Guus(Khorus), Byrna(Merlin), Electra(Axel)</li>",
+    "para9": "<li><strong>Chapitre 3 (Bonus 50):</strong> Axel, Thea(), Astrid(Vex), Somna(Axel), Adam(Cain), Byrna(Khorus)</li>",
+    "para10": "<li><strong>Chapitre 4 (Bonus 100):</strong> Axel, Astrid(Fenris), Adam(Cain), Guus(Khorus), Byrna(Merlin), Electra(Axel)</li>",
+    "para11": "<li><strong>Chapitre 5 (Bonus 150) [Talisman recommandé: N’importe lequel]:</strong> Somna(), Adam(Cain), Fluffy(Merlin), Byrna(Khorus), Electra(Oliver)</li><li>Ce chapitre n’était pas très difficile. J’ai dû créer une équipe autour de Byrna, Electra, Fluffy et Somna.</li><li>L’équipe a été créée en fonction des compétences et des synergies des héros.</li>",
+    "para12": "<li><strong>Chapitre 6 (Bonus 200):</strong> Khorus, Dorian(), Orion(Khorus), Fluffy(Merlin), Cascade(), Electra(Axel)</li><li>Dans ce chapitre, j’ai dû créer une équipe autour d’Orion et d’Electra avec des niveaux plus élevés. Dorian peut avoir un niveau plus bas.</li><li>L’équipe a été créée en fonction des compétences et des synergies des héros.</li>",
+    "para13": "<li><strong>Chapitre 7 (Bonus 250) [Talisman recommandé: Richesse]:</strong> Vex, Nebula(Cain), Isaac(Axel), Guus(Khorus), Lyria(Oliver), Electra(Oliver), Galahad(Albus)</li>"
   },
   "ja": {
     "title": "ガイド：アストリッドイベント（Path of Legends）",
@@ -64,6 +104,14 @@ const heroesAwakeningEventData = {
     "para3": "リソースを使う前に、ゲーム内で利用できるミッションと報酬を確認しましょう。",
     "para4": "目標とアカウントで利用できるリソースに応じて、強化の優先順位を決めましょう。",
     "para5": "どの強化を行うか決める際は、アストリッドとルーカスのガイドを参考にしてください。",
-    "guideUrl": "../characters/astrid-and-lucas-ja.html"
+    "guideUrl": "../characters/astrid-and-lucas-ja.html",
+    "title4": "アストリッドイベント（Path of Legends）のアークデーモンおすすめチーム",
+    "para7": "<li><strong>1000億ダメージ — 第1章 (バフ 0):</strong> アクセル, アストリッド(マーラ), アダム(フェンリス), グース(コーラス), バーナ(マーリン), エレクトラ(アクセル)</li>",
+    "para8": "<li><strong>第2章 (バフ 0):</strong> アクセル, アストリッド(フェンリス), アダム(カイン), グース(コーラス), バーナ(マーリン), エレクトラ(アクセル)</li>",
+    "para9": "<li><strong>第3章 (バフ 50):</strong> アクセル, テア(), アストリッド(ヴェックス), ソムナ(アクセル), アダム(カイン), バーナ(コーラス)</li>",
+    "para10": "<li><strong>第4章 (バフ 100):</strong> アクセル, アストリッド(フェンリス), アダム(カイン), グース(コーラス), バーナ(マーリン), エレクトラ(アクセル)</li>",
+    "para11": "<li><strong>第5章 (バフ 150) [推奨タリスマン: どれでも可]:</strong> ソムナ(), アダム(カイン), フラッフィ(マーリン), バーナ(コーラス), エレクトラ(オリバー)</li><li>この章はそれほど難しくありませんでした。バーナ、エレクトラ、フラッフィ、ソムナを中心にチームを組む必要がありました。</li><li>チームはヒーローのスキルとシナジーに基づいて編成しました。</li>",
+    "para12": "<li><strong>第6章 (バフ 200):</strong> コーラス, ドリアン(), オリオン(コーラス), フラッフィ(マーリン), カスケード(), エレクトラ(アクセル)</li><li>この章では、レベルを高くしたオリオンとエレクトラを中心にチームを組む必要がありました。ドリアンは低めのレベルでも構いません。</li><li>チームはヒーローのスキルとシナジーに基づいて編成しました。</li>",
+    "para13": "<li><strong>第7章 (バフ 250) [推奨タリスマン: 富]:</strong> ヴェックス, ネビュラ(カイン), アイザック(アクセル), グース(コーラス), リリア(オリバー), エレクトラ(オリバー), ガラハッド(アルバス)</li>"
   }
 };
