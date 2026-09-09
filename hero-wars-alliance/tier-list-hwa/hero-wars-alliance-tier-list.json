@@ -4,13 +4,16 @@
     "Crow",
     "Iris",
     "Kendle",
-    "Leonel"
+    "Leonel",
+    "Satori"
   ],
   "S+": [
     
     "Aidan",
     "Byrna",
+    "Dorian",
     "Drayne",
+
     "Electra",
     "Eva",
     "Folio",
@@ -22,7 +25,7 @@
     "Nebula",
     "Peech",
     "Polaris",
-    "Satori",
+    "Phobos",
     "Soleil",
     "Somna",
     "Tempus",
@@ -64,8 +67,9 @@
     "Kai",
     
     "Luther",
+    "Maya",
     "Morrigan",
-    "Phobos",
+    
     "Lars",
     "Sebastian",
     "Teenage Mutant Ninja Turtles"
@@ -73,32 +77,36 @@
   "A": [
     "Celeste",
     "Dark Star",
-    "Dorian",
-    "Galahad",
+    
+    "Jhu",
     "K'arkh",
-    "Keira",
-    "Lilith",
-    "Maya",
     "Qing Mao",
-    "Ziri"
+    
+    "Martha"
+    
   ],
   "B+": [
- "Jhu",
-    "Martha"
+    "Galahad",
+    "Chabba",
+    "Keira",
+    "Lilith",
+ 
+    "Ziri"
   ],
   "B": [
-    "Chabba",
+    
     "Daredevil",
     "Ishmael",
     "Mojo",
-    "Orion"
+    "Orion",
+    "Thea"
   ],
   "C": [
     "Elmir",
     "Fox",
     "Jet",
     "Markus",
-    "Peppy",
-    "Thea"
+    "Peppy"
+  
   ]
 }
