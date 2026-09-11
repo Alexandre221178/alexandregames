@@ -83,7 +83,7 @@
   @media (max-width: 840px) {
     .container-principal { display: block; padding: 0 12px; }
   }
-</style><meta property="article:modified_time" content="2026-09-08T22:58:31-03:00"></head>
+</style><meta property="article:modified_time" content="2026-09-10T21:44:48-03:00"></head>
 <body>
 <div class="container-principal"><aside class="container-fixo" aria-label="広告">
   <span class="tier-ad-label">広告</span>
@@ -133,7 +133,62 @@
       <p>ヒーローを選ぶと、スキルやスキン、育成優先度を確認できます。(EN)は英語のガイドへのリンクを示します。</p>
     </section>
   </main>
+<div class="alexandre-games-video">
+<section>
+  <h2>Alexandre GamesのYouTube動画</h2>
+  <h3>▶️SSティアに到達したのは誰？2026年ヒーローティアリスト – Hero Wars Alliance</h3>
+  <div class="video-container">
+  <div class="video-wrapper2 video-lazy" data-id="lXrX9w3hVcM">
+
+    <img
+      src="https://img.youtube.com/vi/lXrX9w3hVcM/hqdefault.jpg"
+      srcset="
+        https://img.youtube.com/vi/lXrX9w3hVcM/hqdefault.jpg 480w,
+        https://img.youtube.com/vi/lXrX9w3hVcM/maxresdefault.jpg 1280w
+      "
+      sizes="(max-width: 600px) 480px, 1280px"
+      alt="SSティアに到達したのは誰？2026年ヒーローティアリスト – Hero Wars Alliance" class="video-thumb" fetchpriority="high" decoding="async"
+      width="1280" height="720">
+    <button class="video-play" aria-label="動画を再生">▶</button>
+  </div>
+  <p>
+    <a href="https://www.youtube.com/watch?v=lXrX9w3hVcM" target="_blank" rel="noopener">
+      ▶ この動画をYouTubeで見る
+    </a>
+  </p>
+  <figcaption class="video-caption">
+    <strong>動画： SSティアに到達したのは誰？2026年ヒーローティアリスト – Hero Wars Alliance</strong>
+  </figcaption>
+  <i>🔊 多言語音声（メインは英語）・字幕付き！</i>
+</div> 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "SSティアに到達したのは誰？2026年ヒーローティアリスト – Hero Wars Alliance",
+  "description": "SSティアに到達したのは誰？2026年ヒーローティアリスト – Hero Wars Alliance",
+  "thumbnailUrl": "https://img.youtube.com/vi/lXrX9w3hVcM/maxresdefault.jpg",
+  "uploadDate": "2026-09-10T00:00:00-03:00",
+  "embedUrl": "https://www.youtube.com/embed/lXrX9w3hVcM",
+  "contentUrl": "https://www.youtube.com/watch?v=lXrX9w3hVcM"
+}
+</script>
+</section>
+</div>
+
   <div id="author-alexandre-games"></div>
+
+<div class="alexandre-tips"> 
+<section>
+    <h2>💬 あなたはどう思いますか？コメントを残しましょう！</h2>
+    <p id="commentParagraph">このティアリストに賛成ですか？👀 過大評価や過小評価されていると思うヒーローは誰ですか？あなたの意見と、その理由をぜひ教えてください！自分のティアリストや選んだ理由を共有して、コミュニティの意見が一致する点や分かれる点を見てみましょう。🔥<br>下のボタンをクリックして、ディスカッションに参加してください：</p>
+    <button id="loadScript">コメントを読み込む</button>
+    <!-- button code is in the footer JS -->
+    <div id="loadingMessage" style="display: none;">コメントを読み込み中... しばらくお待ちください</div>
+    <div id="graphcomment"></div>
+</section>
+</div>
+
   <footer>
     <div class="footer">
         <div class="row" id="social-links"></div> <!-- Links de redes sociais serão inseridos aqui -->
@@ -156,7 +211,9 @@
 
 
 
-<script src="../../alex-java/graphcomments-07z.js" defer=""></script><script id="tier-page-ads">
+<script src="../../alex-java/graphcomments-07z.js" defer=""></script>
+<script src="../../alex-java/youtube.js" defer></script>
+<script id="tier-page-ads">
 (() => {
   const desktop = window.matchMedia('(min-width: 841px)');
   function insertAd(container, slot) {
