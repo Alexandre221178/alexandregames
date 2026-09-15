@@ -6,7 +6,7 @@
   labelOnly: true
 },
 👗#### #### Skin: Full Unlock
-👗#### New ##### Skin
+👗####: New ##### Skin
 {
   titles: { en: "", de: "", es: "", fr: "", pt: "", ja: "" },
   links: { en: "../../", de: "", es: "", fr: "", pt: "", ja: "" },       

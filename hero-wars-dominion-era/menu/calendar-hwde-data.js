@@ -674,14 +674,29 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
 
      
       
-      {
-        titles: { en: "🌠Astral Seer - Sale 15%", pt: "🌠Astral Seer - Desconto 15%", de: "🌠Astral Seer - 15% Rabatt", es: "🌠Astral Seer - 15% de Descuento", fr: "🌠Astral Seer - 15% de Réduction", ja: "🌠Astral Seer - 15%オフ" },
-        labelOnly: true,
-      },
-      {
-        titles: { en: "🐾Pet Summoning - Sale 20%", pt: "🐾Invocação de Pets - Desconto 20%", de: "🐾Tierbeschwörung - 20% Rabatt", es: "🐾Invocación de Mascotas - 20% de Descuento", fr: "🐾Invocation de Compagnons - 20% de Réduction", ja: "🐾ペット召喚 - 20%オフ" },
-        labelOnly: true,
-      },
+     
+
+     {
+  titles: {
+    en: "👗Alecto: New Mechanical Skin",
+    de: "👗Alecto: Neuer Mechanischer Skin",
+    es: "👗Alecto: Nueva Skin Mecánica",
+    fr: "👗Alecto : Nouveau Skin Mécanique",
+    pt: "👗Alecto: Nova Skin Mecânica",
+    ja: "👗アレクト：新メカニカルスキン"
+  },
+
+  links: {
+    en: "../../hero-wars-dominion-era/titans/alecto-en.html",
+    de: "../../hero-wars-dominion-era/titans/alecto-de.html",
+    es: "../../hero-wars-dominion-era/titans/alecto-es.html",
+    fr: "../../hero-wars-dominion-era/titans/alecto-fr.html",
+    pt: "../../hero-wars-dominion-era/titans/alecto-pt.html",
+    ja: "../../hero-wars-dominion-era/titans/alecto-ja.html"
+  },
+
+  noStrip: true
+},
      
 {
   titles: {
@@ -700,6 +715,14 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
   labelOnly: true,
 },
 
+ {
+        titles: { en: "🌠Astral Seer - Sale 15%", pt: "🌠Astral Seer - Desconto 15%", de: "🌠Astral Seer - 15% Rabatt", es: "🌠Astral Seer - 15% de Descuento", fr: "🌠Astral Seer - 15% de Réduction", ja: "🌠Astral Seer - 15%オフ" },
+        labelOnly: true,
+      },
+      {
+        titles: { en: "🐾Pet Summoning - Sale 20%", pt: "🐾Invocação de Pets - Desconto 20%", de: "🐾Tierbeschwörung - 20% Rabatt", es: "🐾Invocación de Mascotas - 20% de Descuento", fr: "🐾Invocation de Compagnons - 20% de Réduction", ja: "🐾ペット召喚 - 20%オフ" },
+        labelOnly: true,
+      },
 
 
     ]
@@ -902,6 +925,10 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         titles: { en: "🎁Secret Wealth", pt: "🎁Riqueza Secreta", de: "🎁Geheimer Reichtum", es: "🎁Riqueza Secreta", fr: "🎁Richesse Secrète", ja: "🎁秘密の富" },
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
       },
+
+     { titles: { en: "👗Valdur: New Primordial Skin", de: "👗Valdur: Neuer Ursprünglicher Skin", es: "👗Valdur: Nueva Skin Primordial", fr: "👗Valdur : Nouveau Skin Primordial", pt: "👗Valdur: Nova Skin Primordial", ja: "👗ヴァルドゥル：新プライモーディアルスキン" },
+      links: { en: "../../hero-wars-dominion-era/titans/valdur-en.html", de: "../../hero-wars-dominion-era/titans/valdur-de.html", es: "../../hero-wars-dominion-era/titans/valdur-es.html", fr: "../../hero-wars-dominion-era/titans/valdur-fr.html", pt: "../../hero-wars-dominion-era/titans/valdur-pt.html", ja: "../../hero-wars-dominion-era/titans/valdur-ja.html" },
+      noStrip: true },
       
       {
         titles: { en: "📦Artifact Chest - Sale 30%", pt: "📦Baú de Artefatos - Desconto 30%", de: "📦Artefakttruhe - 30% Rabatt", es: "📦Cofre de Artefactos - 30% de Descuento", fr: "📦Coffre d'Artéfacts - 30% de Réduction", ja: "📦アーティファクトチェスト - 30%オフ" },
