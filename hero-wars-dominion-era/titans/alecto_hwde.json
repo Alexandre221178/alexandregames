@@ -14,10 +14,10 @@
   },
   "stats": {
     "health": 10236956,
-    "power": 234281,
+    "power": 249933,
     "attack": 1144764,
     "elemental_attack": 709635,
-    "elemental_armor": 175467
+    "elemental_armor": 224532
   },
   "appearance": {
     "in_game": "Default Skin"
@@ -66,7 +66,18 @@
         "exclusive_from": "2026-08-24",
         "publicly_available_from": "2026-12-24"
       }
+    },
+    {
+      "name": "Mechanical Skin",
+      "stats": {
+        "elemental_armor": 49065,
+        "power": 15652
+      },
+      "upgrade_cost": {
+        "titan_skin_stone": 364585
+      }
     }
+
   ],
   "skin_bonus_note": "The choice is purely cosmetic. The bonuses from all unlocked skins stack regardless of the skin selected for Alecto's appearance.",
   "artifacts": [
