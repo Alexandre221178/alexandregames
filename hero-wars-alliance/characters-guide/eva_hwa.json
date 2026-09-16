@@ -36,7 +36,7 @@
                     "physical_armor": 15967,
                     "magical_armor": 3879,
                     "armor_penetration": 34438,
-                    "critical_hit_chance": 10189,
+                    "critical_hit_chance": 13149,
                     "crushing": 7307
                 }
             },
@@ -172,6 +172,13 @@
                     "stat": "Health",
                     "bonus": 106645,
                     "cost": "50410 Agility skin stones",
+                    "level": 60
+                },
+                 {
+                    "name": "Flawless Guardian",
+                    "stat": "Crit Hit Chance",
+                    "bonus": 2960,
+                    "cost_level60": "50410 Agility skin stones",
                     "level": 60
                 }
             ],

@@ -112,6 +112,7 @@
       },
       "aliases": [
         "DoT",
+        "💥DoT",
         "Periodical Damage"
       ],
       "purpose": "Removes battle delays caused by heroes generating many repeated damage effects.",
