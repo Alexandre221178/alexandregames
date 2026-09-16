@@ -1,8 +1,197 @@
 {
   "schema_version": 1,
   "game": "Hero Wars Alliance",
-  "source_note": "Structured reference for special stats and combat mechanics used in Hero Wars Alliance guides.",
+  "source_note": "Structured reference for main stats, secondary stats, and combat mechanics used in Hero Wars Alliance guides. Main and secondary stat definitions include the user-supplied Main Stats and Secondary Stats reference.",
+  "main_stats": {
+    "description": "Every hero has one main stat: Strength, Intelligence, or Agility. These attributes grant secondary stats; each point of the hero's main stat also grants one additional point of Physical Attack.",
+    "strength": {
+      "name": {
+        "en": "Strength",
+        "pt": "Força"
+      },
+      "bonuses_per_point": {
+        "health": 40
+      },
+      "additional_bonuses_if_main_stat": {
+        "physical_attack": 1
+      }
+    },
+    "intelligence": {
+      "name": {
+        "en": "Intelligence",
+        "pt": "Inteligência"
+      },
+      "bonuses_per_point": {
+        "magic_attack": 3,
+        "magic_defense": 1
+      },
+      "additional_bonuses_if_main_stat": {
+        "physical_attack": 1
+      }
+    },
+    "agility": {
+      "name": {
+        "en": "Agility",
+        "pt": "Agilidade"
+      },
+      "bonuses_per_point": {
+        "physical_attack": 2,
+        "armor": 1
+      },
+      "additional_bonuses_if_main_stat": {
+        "physical_attack": 1
+      },
+      "summary": "Each Agility point grants 2 Physical Attack and 1 Armor, or 3 Physical Attack and 1 Armor when Agility is the hero's main stat."
+    }
+  },
   "stats": {
+    "health": {
+      "name": {
+        "en": "Health",
+        "pt": "Vida"
+      },
+      "type": "defensive_stat",
+      "effect": "Determines how much damage a hero can withstand before dying.",
+      "death_condition": "The hero dies when Health reaches zero."
+    },
+    "physical_attack": {
+      "name": {
+        "en": "Physical Attack",
+        "pt": "Ataque Físico"
+      },
+      "type": "offensive_stat",
+      "effect": "Determines damage dealt by basic attacks and abilities that deal physical damage.",
+      "damage_reduced_by": "armor"
+    },
+    "armor": {
+      "name": {
+        "en": "Armor",
+        "pt": "Armadura"
+      },
+      "type": "defensive_stat",
+      "effect": "Reduces incoming physical damage from attacks and abilities.",
+      "formula": "1 - 1 / (1 + effective_armor / 3000)",
+      "formula_result": "Fraction of incoming physical damage absorbed; multiply by 100 for a percentage.",
+      "formula_variables": {
+        "effective_armor": "The defender's Armor after the attacker's Armor Penetration, with a minimum of zero."
+      },
+      "examples": [
+        { "effective_armor": 1000, "damage_reduction_percent": 25 },
+        { "effective_armor": 3000, "damage_reduction_percent": 50 }
+      ]
+    },
+    "armor_penetration": {
+      "name": {
+        "en": "Armor Penetration",
+        "pt": "Penetração de Armadura"
+      },
+      "type": "offensive_stat",
+      "effect": "Each point ignores one point of the target's Armor for damage calculation. Effective Armor cannot fall below zero.",
+      "formula": "max(0, target_armor - armor_penetration)",
+      "formula_result": "Effective Armor used in the Armor damage-reduction formula.",
+      "formula_variables": {
+        "target_armor": "The target's Armor before penetration.",
+        "armor_penetration": "The attacker's Armor Penetration."
+      },
+      "examples": [
+        { "armor_penetration": 6000, "target_armor": 8000, "effective_armor": 2000 },
+        { "armor_penetration": 10000, "target_armor": 5000, "effective_armor": 0 }
+      ]
+    },
+    "vampirism": {
+      "name": {
+        "en": "Vampirism",
+        "pt": "Vampirismo"
+      },
+      "type": "healing_stat",
+      "effect": "Heals the hero for a percentage of the damage dealt with a basic attack or an ability.",
+      "formula": "damage_dealt * vampirism_percent / 100",
+      "formula_variables": {
+        "damage_dealt": "Damage dealt by the basic attack or ability.",
+        "vampirism_percent": "The hero's Vampirism percentage."
+      },
+      "examples": [
+        { "damage_dealt": 100, "vampirism_percent": 10, "health_restored": 10 }
+      ]
+    },
+    "magic_attack": {
+      "name": {
+        "en": "Magic Attack",
+        "pt": "Ataque Mágico"
+      },
+      "type": "offensive_stat",
+      "effect": "Determines the damage dealt by magic abilities and the strength of their effects.",
+      "damage_reduced_by": "magic_defense"
+    },
+    "magic_defense": {
+      "name": {
+        "en": "Magic Defense",
+        "pt": "Defesa Mágica"
+      },
+      "type": "defensive_stat",
+      "effect": "Reduces incoming magical damage from attacks and abilities.",
+      "formula": "1 - 1 / (1 + effective_magic_defense / 3000)",
+      "formula_result": "Fraction of incoming magical damage absorbed; multiply by 100 for a percentage.",
+      "formula_variables": {
+        "effective_magic_defense": "The defender's Magic Defense after the attacker's Magic Penetration, with a minimum of zero."
+      },
+      "examples": [
+        { "effective_magic_defense": 1000, "damage_reduction_percent": 25 },
+        { "effective_magic_defense": 3000, "damage_reduction_percent": 50 }
+      ]
+    },
+    "magic_penetration": {
+      "name": {
+        "en": "Magic Penetration",
+        "pt": "Penetração Mágica"
+      },
+      "type": "offensive_stat",
+      "effect": "Each point ignores one point of the target's Magic Defense for damage calculation. Effective Magic Defense cannot fall below zero.",
+      "formula": "max(0, target_magic_defense - magic_penetration)",
+      "formula_result": "Effective Magic Defense used in the Magic Defense damage-reduction formula.",
+      "formula_variables": {
+        "target_magic_defense": "The target's Magic Defense before penetration.",
+        "magic_penetration": "The attacker's Magic Penetration."
+      },
+      "examples": [
+        { "magic_penetration": 6000, "target_magic_defense": 8000, "effective_magic_defense": 2000 },
+        { "magic_penetration": 10000, "target_magic_defense": 5000, "effective_magic_defense": 0 }
+      ]
+    },
+    "dodge": {
+      "name": {
+        "en": "Dodge",
+        "pt": "Esquiva"
+      },
+      "type": "defensive_stat",
+      "effect": "Determines the hero's chance to evade physical damage. More Dodge increases this chance.",
+      "applies_to_damage_types": [
+        "physical"
+      ],
+      "formula": "(Dodge / (Dodge + enemy_main_stat)) * 100%",
+      "formula_variables": {
+        "Dodge": "The defending hero's Dodge stat.",
+        "enemy_main_stat": "The attacker's main stat: Strength, Agility, or Intelligence."
+      }
+    },
+    "critical_hit_chance": {
+      "name": {
+        "en": "Critical Hit Chance",
+        "pt": "Chance de Acerto Crítico"
+      },
+      "type": "offensive_stat",
+      "effect": "Determines the chance for a physical attack to be critical. More Critical Hit Chance increases this probability.",
+      "critical_damage_multiplier": 2,
+      "applies_to_damage_types": [
+        "physical"
+      ],
+      "formula": "(Critical Hit Chance / (Critical Hit Chance + target_main_stat)) * 100%",
+      "formula_variables": {
+        "Critical Hit Chance": "The attacker's Critical Hit Chance stat.",
+        "target_main_stat": "The target's main stat: Strength, Agility, or Intelligence."
+      },
+      "summary": "Critical hits deal double physical damage. The stat value is converted to a chance using the target's main stat."
+    },
     "crushing": {
       "name": {
         "en": "Crushing",
@@ -17,7 +206,7 @@
         "pure"
       ],
       "does_not_apply_to": [
-        "health loss from allied skills"
+        "damage from allies' abilities"
       ],
       "formula": "(Crushing / (Crushing + target_main_stat)) * 100%",
       "formula_variables": {
@@ -40,8 +229,10 @@
         "pure"
       ],
       "does_not_apply_to": [
-        "health loss from allied abilities"
+        "damage dealt by a hero to themselves"
       ],
+      "summoned_entities_default_toughness": 0,
+      "summoned_entities_note": "Summoned entities, such as Morrigan's skeletons, have zero Toughness by default.",
       "formula": "(Toughness / (Toughness + enemy_main_stat)) * 100%",
       "formula_variables": {
         "Toughness": "The defender's Toughness stat.",
@@ -52,7 +243,7 @@
     "magical_critical_hit_chance": {
       "name": {
         "en": "Magical Critical Hit Chance",
-        "pt": "Chance de Critico Magico"
+        "pt": "Chance de Crítico Mágico"
       },
       "type": "offensive_stat",
       "trigger": "Hero deals magical damage.",
@@ -75,12 +266,14 @@
     "magic_reflection": {
       "name": {
         "en": "Magic Reflection",
-        "pt": "Reflexao Magica"
+        "pt": "Reflexão Mágica"
       },
       "type": "defensive_stat",
       "trigger": "Hero receives magical damage.",
       "effect": "Gives the hero a chance to dodge incoming magical damage and reflect 20% of it back to the enemy.",
       "reflection_percent": 20,
+      "can_reflect_reflected_damage": false,
+      "reflection_chain_rule": "Reflected magical damage cannot be reflected again by the recipient's Magic Reflection.",
       "on_success": [
         "incoming magical damage is fully avoided",
         "20% of the avoided magical damage is reflected back to the attacker"
@@ -103,127 +296,5 @@
       },
       "summary": "Magic Reflection gives a chance to completely avoid incoming magical damage and reflect part of that damage back."
     }
-  },
-  "damage_traits": {
-    "damage_over_time": {
-      "name": {
-        "en": "Damage over Time",
-        "pt": "Dano ao Longo do Tempo"
-      },
-      "aliases": [
-        "DoT",
-        "💥DoT",
-        "Periodical Damage"
-      ],
-      "purpose": "Removes battle delays caused by heroes generating many repeated damage effects.",
-      "rules": [
-        "Cannot miss.",
-        "Cannot be dodged.",
-        "Cannot be reflected."
-      ],
-      "affected_sources": [
-        {
-          "source": "Kai",
-          "effect": "Pure damage from the third skill."
-        },
-        {
-          "source": "Maya",
-          "effect": "Damage from the second, third, and fourth skills."
-        },
-        {
-          "source": "Qing Mao",
-          "effect": "Burn damage from the first skill."
-        },
-        {
-          "source": "Yasmine",
-          "effect": "Poison from the third skill."
-        },
-        {
-          "source": "Rufus",
-          "effect": "Damage from the second skill."
-        },
-        {
-          "source": "Arachne",
-          "effect": "Damage from the fourth skill."
-        },
-        {
-          "source": "Iris",
-          "effect": "Burn damage from the fourth skill."
-        },
-        {
-          "source": "Tempus",
-          "effect": "Damage from the third skill."
-        },
-        {
-          "source": "Polaris",
-          "effect": "Damage from the first skill."
-        },
-        {
-          "source": "Heidi",
-          "effect": "Toxin damage."
-        },
-        {
-          "source": "Alvanor",
-          "effect": "Damage from the third skill enhanced by a Relic."
-        },
-        {
-          "source": "Adventure effect",
-          "effect": "Pure damage equal to a percentage of heroes' maximum Health."
-        },
-        {
-          "source": "Outland Boss Ilyssa the Weaver",
-          "effect": "Pure damage."
-        },
-        {
-          "source": "Hydra Fire Head",
-          "effect": "Burning effect."
-        }
-      ]
-    }
-  },
-  "hero_mechanics_changes": {
-    "tempus_fourth_skill": {
-      "hero": "Tempus",
-      "skill_slot": 4,
-      "changes": [
-        "Effects from Tempus's clock that increase maximum Health and apply slow or speed-up do not affect heroes while they are unavailable.",
-        "Those effects apply once unavailable heroes become available again, as long as they are within the clock's area.",
-        "Effects from Tempus's clock can be applied again if removed, as long as the hero remains inside the clock."
-      ],
-      "previous_behavior": "Effects from Tempus's clock could be removed permanently."
-    }
-  },
-  "ultimate_energy": {
-    "max_energy": 1000,
-    "rules": [
-      {
-        "source": "basic_attack_or_skill_use",
-        "energy_gained": 100,
-        "percent_of_bar": 10,
-        "description": "A hero gains 100 energy for each basic attack or skill they use."
-      },
-      {
-        "source": "taking_damage",
-        "energy_gained": "1% energy for every 1% of total health lost as damage",
-        "description": "Heroes gain energy based on the percentage of their total health lost. Lower-health heroes can sometimes reach their ultimate faster."
-      },
-      {
-        "source": "defeating_enemy",
-        "energy_gained": 300,
-        "percent_of_bar": 30,
-        "description": "The hero who delivers the final blow gains 300 extra energy."
-      },
-      {
-        "source": "final_blow_attack_total",
-        "energy_gained": 400,
-        "percent_of_bar": 40,
-        "description": "If the final blow also counts as an attack or skill use, the hero gains 100 energy from the action plus 300 from the kill."
-      },
-      {
-        "source": "class_rune_bonus",
-        "description": "Some Mages can gain additional energy at the start of battle based on their Class Rune level."
-      }
-    ],
-    "summary": "A hero must reach 1,000 energy to use the ultimate skill. Energy is gained by using abilities, taking damage, defeating enemies, and in some cases through Class Rune bonuses."
   }
 }

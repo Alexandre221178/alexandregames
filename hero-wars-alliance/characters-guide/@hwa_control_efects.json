@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "game": "Hero Wars Alliance",
+  "source_note": "Structured reference for control effects and other combat mechanics. Control effect rules are based on the user-supplied Control Effects article.",
+  "control_effects": {
+    "description": "Some heroes apply control effects that prevent affected heroes from performing certain actions and can significantly affect the course of battle.",
+    "source_url": "https://support-hwa.nexters.com/hc/en-us/articles/12623933127698-Control-Effects",
+    "stun": {
+      "name": { "en": "Stun", "pt": "Atordoamento" },
+      "visual_indicator": "Swirl of stars.",
+      "effect": "A stunned hero cannot move or attack.",
+      "application_methods": [
+        {
+          "type": "single_attack_damage",
+          "condition": "Damage dealt by one attack is greater than 20% of the opponent's maximum Health.",
+          "threshold_percent_of_target_max_health": 20,
+          "comparison": "strictly_greater_than"
+        },
+        {
+          "type": "skill",
+          "condition": "A skill explicitly applies Stun."
+        }
+      ]
+    },
+    "blind": {
+      "name": { "en": "Blind", "pt": "Cegueira" },
+      "visual_indicator": "Crossed-out eye.",
+      "effect": "A blinded hero misses physical damage from both attacks and abilities.",
+      "affected_damage_types": ["physical"],
+      "affected_sources": ["attacks", "abilities"]
+    },
+    "silence": {
+      "name": { "en": "Silence", "pt": "Silêncio" },
+      "visual_indicator": "Mask with a crossed-out mouth.",
+      "effect": "A silenced hero can only deal physical damage and use skills that scale with Physical Attack.",
+      "blocked_skill_categories": [
+        "Skills that do not deal damage.",
+        "Skills that deal magical damage.",
+        "Skills that deal pure damage.",
+        "Skills that scale with Magic Attack."
+      ],
+      "examples": [
+        {
+          "hero": "K'arkh",
+          "skill": "Nexus of Horror",
+          "blocked": true,
+          "reason": "The skill does not deal damage."
+        },
+        {
+          "hero": "Cornelius",
+          "skill": "ultimate",
+          "blocked": true,
+          "reason": "The skill deals physical damage but scales with Magic Attack, so Silence prevents its use."
+        }
+      ]
+    },
+    "slow": {
+      "name": { "en": "Slow", "pt": "Lentidão" },
+      "visual_indicator": "Snowflake.",
+      "effect": "Reduces basic attack speed and increases ability cooldowns."
+    },
+    "charm": {
+      "name": { "en": "Charm", "pt": "Encantamento" },
+      "visual_indicator": "Heart.",
+      "effect": "A charmed hero cannot attack or cast abilities.",
+      "removal_condition": "Damage from any character other than the character who applied Charm can remove the effect.",
+      "damage_from_caster_removes_effect": false
+    },
+    "throwing_in_the_air": {
+      "name": { "en": "Throwing in the Air", "pt": "Lançamento ao Ar" },
+      "visual_indicator": null,
+      "visual_indicator_note": "No special status sign marks this effect.",
+      "effect": "Affected heroes cannot attack or use skills.",
+      "can_be_blocked": true
+    },
+    "displacement": {
+      "name": { "en": "Displacement", "pt": "Deslocamento" },
+      "visual_indicator": null,
+      "visual_indicator_note": "No special status sign marks this effect.",
+      "effect": "Affected heroes cannot attack or use skills.",
+      "can_be_blocked": true
+    },
+    "cleanse_and_block_example": {
+      "hero": "Celeste",
+      "skill": "Purifying Sphere",
+      "effect": "Clears and blocks negative effects, including Displacement and Throwing in the Air."
+    }
+  },
+  "damage_traits": {
+    "damage_over_time": {
+      "name": {
+        "en": "Damage over Time",
+        "pt": "Dano ao Longo do Tempo"
+      },
+      "aliases": [
+        "DoT",
+        "💥DoT",
+        "Periodical Damage"
+      ],
+       "observacao": [
+        "DoT não é uma estatistica, mas sim um efeito de dano que ocorre ao longo do tempo. e nao deve ser considerado como stats."
+        
+      ],
+      "purpose": "Removes battle delays caused by heroes generating many repeated damage effects.",
+      "rules": [
+        "Cannot miss.",
+        "Cannot be dodged.",
+        "Cannot be reflected."
+      ],
+      "affected_sources": [
+        {
+          "source": "Kai",
+          "effect": "Pure damage from the third skill."
+        },
+        {
+          "source": "Maya",
+          "effect": "Damage from the second, third, and fourth skills."
+        },
+        {
+          "source": "Qing Mao",
+          "effect": "Burn damage from the first skill."
+        },
+        {
+          "source": "Yasmine",
+          "effect": "Poison from the third skill."
+        },
+        {
+          "source": "Rufus",
+          "effect": "Damage from the second skill."
+        },
+        {
+          "source": "Arachne",
+          "effect": "Damage from the fourth skill."
+        },
+        {
+          "source": "Iris",
+          "effect": "Burn damage from the fourth skill."
+        },
+        {
+          "source": "Tempus",
+          "effect": "Damage from the third skill."
+        },
+        {
+          "source": "Polaris",
+          "effect": "Damage from the first skill."
+        },
+        {
+          "source": "Heidi",
+          "effect": "Toxin damage."
+        },
+        {
+          "source": "Alvanor",
+          "effect": "Damage from the third skill enhanced by a Relic."
+        },
+        {
+          "source": "Adventure effect",
+          "effect": "Pure damage equal to a percentage of heroes' maximum Health."
+        },
+        {
+          "source": "Outland Boss Ilyssa the Weaver",
+          "effect": "Pure damage."
+        },
+        {
+          "source": "Hydra Fire Head",
+          "effect": "Burning effect."
+        }
+      ]
+    }
+  },
+  "hero_mechanics_changes": {
+    "tempus_fourth_skill": {
+      "hero": "Tempus",
+      "skill_slot": 4,
+      "changes": [
+        "Effects from Tempus's clock that increase maximum Health and apply slow or speed-up do not affect heroes while they are unavailable.",
+        "Those effects apply once unavailable heroes become available again, as long as they are within the clock's area.",
+        "Effects from Tempus's clock can be applied again if removed, as long as the hero remains inside the clock."
+      ],
+      "previous_behavior": "Effects from Tempus's clock could be removed permanently."
+    }
+  },
+  "ultimate_energy": {
+    "max_energy": 1000,
+    "rules": [
+      {
+        "source": "basic_attack_or_skill_use",
+        "energy_gained": 100,
+        "percent_of_bar": 10,
+        "description": "A hero gains 100 energy for each basic attack or skill they use."
+      },
+      {
+        "source": "taking_damage",
+        "energy_gained": "1% energy for every 1% of total health lost as damage",
+        "description": "Heroes gain energy based on the percentage of their total health lost. Lower-health heroes can sometimes reach their ultimate faster."
+      },
+      {
+        "source": "defeating_enemy",
+        "energy_gained": 300,
+        "percent_of_bar": 30,
+        "description": "The hero who delivers the final blow gains 300 extra energy."
+      },
+      {
+        "source": "final_blow_attack_total",
+        "energy_gained": 400,
+        "percent_of_bar": 40,
+        "description": "If the final blow also counts as an attack or skill use, the hero gains 100 energy from the action plus 300 from the kill."
+      },
+      {
+        "source": "class_rune_bonus",
+        "description": "Some Mages can gain additional energy at the start of battle based on their Class Rune level."
+      }
+    ],
+    "summary": "A hero must reach 1,000 energy to use the ultimate skill. Energy is gained by using abilities, taking damage, defeating enemies, and in some cases through Class Rune bonuses."
+  }
+}

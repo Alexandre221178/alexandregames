@@ -1,0 +1,38 @@
+.stats-guide { max-width: 940px; margin: 2rem auto; color: #202c35; font-size: 1.125rem; line-height: 1.75; }
+.stats-guide p, .stats-comments p { margin: 0 0 1.15rem; }
+.stats-guide section, .stats-guide aside { margin: 2.5rem 0; scroll-margin-top: 85px; }
+.stats-guide h2, .stats-guide h3 { display: flex; align-items: center; gap: .7rem; color: #16384c; line-height: 1.3; margin: 1.8rem 0 1rem; text-align: left; }
+.stats-guide h2 { font-size: clamp(1.5rem, 3vw, 2rem); }
+.stats-guide h3 { font-size: clamp(1.2rem, 2.5vw, 1.5rem); scroll-margin-top: 85px; }
+.stats-guide h2 img, .stats-guide h3 img { width: 48px; height: 48px; flex: 0 0 48px; object-fit: contain; }
+.stats-guide a { color: #075780; text-decoration: underline; text-underline-offset: .15em; }
+.stats-guide a:focus-visible, .stats-guide button:focus-visible, .stats-guide summary:focus-visible, .stats-guide input:focus-visible, .stats-table:focus-visible { outline: 3px solid #b25a00; outline-offset: 4px; }
+.stats-intro { border-left: 4px solid #167b91; padding-left: 1.25rem; }
+.stats-guide .stats-toc { display: block; width: auto; height: auto !important; min-height: 0; background: #f0f6f8; border: 1px solid #c8dbe3; border-radius: 10px; padding: 1.4rem; margin: 2rem 0; }
+.stats-guide .stats-toc h2 { margin-top: 0; }
+.stats-toc ol { padding-left: 1.6rem; columns: 2; column-gap: 2rem; }
+.stats-toc li { padding: .25rem 0; break-inside: avoid; }
+.stats-advice, .stats-example { background: #edf6f8; border-left: 4px solid #167b91; padding: 1.1rem 1.25rem; margin: 1.5rem 0; }
+.stats-example { background: #fff7e8; border-color: #b25a00; }
+.stats-advice p:last-child, .stats-example p:last-child { margin-bottom: 0; }
+.stats-table { max-width: 100%; overflow-x: auto; margin: 1.4rem 0; }
+.stats-guide table { width: 100%; min-width: 500px; border-collapse: collapse; font-size: 1rem; background: #fff; }
+.stats-guide caption { text-align: left; font-weight: 700; padding: .5rem 0; }
+.stats-guide th, .stats-guide td { padding: .85rem; text-align: left; border: 1px solid #c9d7dd; color: #202c35; }
+.stats-guide thead th { background: #16384c; color: #fff; }
+.stats-guide tbody tr:nth-child(even) { background: #f2f6f8; }
+.stats-guide details { margin: 1rem 0; border: 1px solid #c9d7dd; padding: 1rem; border-radius: 6px; }
+.stats-guide summary { cursor: pointer; font-weight: 700; color: #16384c; }
+.stats-guide details[open] summary { margin-bottom: .8rem; }
+.stats-guide details p:last-child { margin-bottom: 0; }
+.stats-calculator { background: #f0f6f8; border: 1px solid #b9d2dc; border-radius: 10px; padding: 1.4rem; margin: 1.5rem 0; }
+.stats-calculator h2:first-child, .stats-calculator h3:first-child { margin-top: 0; }
+.stats-inputs { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1rem 0; }
+.stats-inputs label { display: flex; flex-direction: column; justify-content: space-between; gap: .4rem; font-size: 1rem; font-weight: 700; }
+.stats-inputs input { width: 100%; min-height: 46px; padding: .65rem; border: 1px solid #617a87; border-radius: 4px; background: white; color: #202c35; font-size: 1rem; }
+.stats-calculator button { border: 0; border-radius: 5px; background: #145d79; color: white; padding: .8rem 1.1rem; min-height: 44px; font-size: 1rem; font-weight: 700; cursor: pointer; }
+.stats-calculator button:hover { background: #103e52; }
+.stats-calculator output { display: block; padding: 1rem; background: white; border-left: 4px solid #167b91; margin: 1rem 0; font-weight: 700; }
+.stats-guide .stats-note, .stats-sources { font-size: 1rem; }
+.stats-comments { max-width: 940px; margin: 2rem auto; line-height: 1.7; }
+@media (max-width: 600px) { .stats-toc ol { columns: 1; } .stats-guide { font-size: 1.0625rem; } .stats-calculator, .stats-guide .stats-toc { padding: 1rem; } .stats-inputs { grid-template-columns: 1fr; } }
