@@ -15,7 +15,7 @@
   },
   "stats": {
     "health": 8662432,
-    "power": 234203,
+    "power": 234204,
     "attack": 1261688,
     "elemental_attack": 479475,
     "elemental_armor": 224532
@@ -69,7 +69,7 @@
       "name": "Primordial Skin",
       "stats": {
         "elemental_armor": 49065,
-        "power": 15651
+        "power": 15652
       },
       "upgrade_cost": {
         "titan_skin_stone": 364585
