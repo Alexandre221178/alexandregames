@@ -1,0 +1,373 @@
+{
+	"id": "eva",
+    "game": "Hero Wars: Dominion Era",
+	"name": "Eva",
+	"gender": "female",
+	"role": [
+		"marksman",
+		"support",
+		"hunter"
+	],
+	"main_role": "Marksman",
+	"main_stat": "Agility",
+	"pet_patronage": "Fenris, Biscuit, Vex",
+	"sinergy": "Astrid, Adam, Jorgen",
+	"basic_attack_formula": "(100% physical attack)",
+	"basic_attack": 96348,
+	"basic_attack_cooldown": "3.1s",
+	"stats": {
+		"intelligence": 3209,
+		"agility": 17160,
+		"strength": 3211,
+		"health": 566862,
+		"physical_attack": 96348,
+		"magic_attack": 9627,
+		"armor": 27508,
+		"magic_defense": 26809,
+		"dodge": 0,
+		"crit_hit_chance": 0,
+		"accuracy": 17160,
+		"crit_resistance": 17160,
+		"vampirism": 0,
+		"magic_penetration": 0,
+		"armor_penetration": 28861,
+		"power": 174769
+	},
+	"skills": [
+		{
+			"id": 1,
+			"variant": "base",
+			"name": "Ballistic Verdict",
+			"type": [
+				"ultimate",
+				"white"
+			],
+			"charge_duration_seconds": 2,
+			"damage_formula": "Target damage: 268,050 (204% physical attack + 550 * level). Collateral damage: 162,800 (115% physical attack + 400 * level)",
+			"scales_with": [
+				"Physical Attack"
+			],
+			"description": "Eva charges the sniper rifle for 2s, ignoring the first interruption to this ability. The shot is then fired at the nearest enemy, dealing 268,050 damage. This attack cannot be dodged. If there are any Heroes on the battlefield affected by Hunter's Mark, each of them also takes 162,800 collateral damage."
+		},
+		{
+			"id": 2,
+			"variant": "base",
+			"name": "Threat Assessment",
+			"type": [
+				"periodic",
+				"green"
+			],
+			"damage_formula": "Damage: 105,969 (83% physical attack + 200 * level)",
+			"scales_with": [
+				"Physical Attack"
+			],
+			"cooldown_seconds": 16,
+			"initial_cooldown_seconds": 11,
+			"description": "Fires at the target without Hunter's Mark that has dealt the most damage over the last 10 seconds, dealing 105,969 damage. The target is affected by Hunter's Mark for 10s."
+		},
+		{
+			"id": 3,
+			"variant": "base",
+			"name": "Suppressive Shot",
+			"type": [
+				"periodic",
+				"blue"
+			],
+			"damage_formula": "Damage: 80,153 (67% physical attack + 120 * level). Damage reduction: 30% (0.15 * level + 10.5)",
+			"scales_with": [
+				"Physical Attack"
+			],
+			"cooldown_seconds": 18,
+			"initial_cooldown_seconds": 8,
+			"description": "Fires through all enemy Heroes, dealing 80,153 damage and reducing the damage they deal by 30% for 10s."
+		},
+		{
+			"id": 4,
+			"variant": "base",
+			"name": "Suppression Protocol",
+			"type": [
+				"passive",
+				"violet"
+			],
+			"damage_formula": "Slow: 30% (0.15 * level + 10.5). Energy gain reduction: 85% (0.5 * level + 20)",
+			"scales_with": [],
+			"description": "Enemies that receive Hunter's Mark are slowed by 30% and gain 85% less Energy from taking damage or dodging attacks for the duration of Hunter's Mark."
+		}
+	],
+	"artifacts": [
+		{
+			"name": "AMR-X0 \"Annihilator\"",
+			"stats": {
+				"armor_penetration": 50190,
+				"power": 12547
+			},
+			"costs": {
+				"absolute_artifact_essence": 1635,
+				"flawless_artifact_essence": 1199,
+				"chaos_core": 121,
+				"amr_x0_annihilator_fragment": 225,
+				"artifact_coin": 90000
+			}
+		},
+		{
+			"name": "Alchemist's Folio",
+			"stats": {
+				"physical_attack": 5577,
+				"armor_penetration": 16731,
+				"power": 12548
+			},
+			"costs": {
+				"absolute_artifact_scroll": 1635,
+				"flawless_artifact_scroll": 1199,
+				"chaos_core": 121,
+				"alchemists_folio_fragment": 225,
+				"artifact_coin": 90000
+			}
+		},
+		{
+			"name": "Ring of Agility",
+			"stats": {
+				"agility": 6249,
+				"power": 17184
+			},
+			"costs": {
+				"absolute_artifact_metal": 1635,
+				"flawless_artifact_metal": 1199,
+				"chaos_core": 121,
+				"ring_of_agility_fragment": 225,
+				"artifact_coin": 90000
+			}
+		}
+	],
+	"skins": [
+		{
+			"name": "Default Skin",
+			"stats": {
+				"agility": 1365,
+				"power": 3753
+			},
+			"costs": {
+				"agility_skin_stone": 30825
+			}
+		},
+		{
+			"name": "Paragon Skin",
+			"stats": {
+				"health": 106645,
+				"power": 5332
+			},
+			"costs": {
+				"agility_skin_stone": 55410
+			},
+			"availability_note": "Will be exclusive on September 24 (publicly available on February 1). Year not specified in the supplied data."
+		}
+	],
+	"skins_note": "The choice is purely cosmetic; all skins' bonuses stack regardless of the selected appearance.",
+	"glyphs": [
+		{
+			"name": "Physical attack Glyph",
+			"stats": {
+				"physical_attack": 4340,
+				"power": 3255
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Armor Glyph",
+			"stats": {
+				"armor": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Health Glyph",
+			"stats": {
+				"health": 62200,
+				"power": 3110
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Magic defense Glyph",
+			"stats": {
+				"magic_defense": 6500,
+				"power": 3250
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		},
+		{
+			"name": "Agility Glyph",
+			"stats": {
+				"agility": 1135,
+				"power": 3121
+			},
+			"costs": {
+				"great_enchantment_rune": 438,
+				"gold": 4190900,
+				"emeralds": 43750
+			}
+		}
+	],
+	"ascension": {
+		"I": {
+			"stats": {
+				"health": 1000,
+				"agility": 230,
+				"physical_attack": 1020,
+				"magic_defense": 1380,
+				"armor_penetration": 200,
+				"power": 2237
+			},
+			"costs": {
+				"agility_crystal": 2275,
+				"star_mana": 5420,
+				"gold": 1650000
+			}
+		},
+		"II": {
+			"stats": {
+				"health": 28250,
+				"agility": 315,
+				"physical_attack": 770,
+				"magic_defense": 410,
+				"armor_penetration": 910,
+				"power": 3516
+			},
+			"costs": {
+				"agility_crystal": 1950,
+				"star_mana": 9160,
+				"gold": 5775000,
+				"vibrant_agility_crystal": 1150
+			}
+		},
+		"III": {
+			"stats": {
+				"health": 33750,
+				"agility": 495,
+				"physical_attack": 1900,
+				"magic_defense": 2070,
+				"power": 5508
+			},
+			"costs": {
+				"vibrant_agility_crystal": 2375,
+				"composure_insignia": 1175,
+				"star_mana": 20200,
+				"gold": 12400000
+			}
+		},
+		"IV": {
+			"stats": {
+				"health": 40250,
+				"agility": 560,
+				"physical_attack": 1520,
+				"magic_defense": 2620,
+				"armor_penetration": 1000,
+				"power": 6502
+			},
+			"costs": {
+				"vibrant_agility_crystal": 475,
+				"composure_insignia": 1220,
+				"star_mana": 42540,
+				"gold": 21600000,
+				"radiant_agility_crystal": 1460,
+				"greater_composure_insignia": 235
+			}
+		},
+		"V": {
+			"stats": {
+				"health": 37250,
+				"agility": 610,
+				"physical_attack": 2630,
+				"magic_defense": 1620,
+				"armor_penetration": 1850,
+				"power": 7247
+			},
+			"costs": {
+				"radiant_agility_crystal": 1925,
+				"greater_composure_insignia": 1925,
+				"star_mana": 80180,
+				"gold": 38300000
+			}
+		},
+		"I-V": {
+			"stats": {
+				"health": 140500,
+				"agility": 2210,
+				"physical_attack": 7840,
+				"magic_defense": 8100,
+				"armor_penetration": 3960,
+				"power": 25012
+			},
+			"costs": {
+				"agility_crystal": 4225,
+				"star_mana": 157500,
+				"gold": 79725000,
+				"vibrant_agility_crystal": 4000,
+				"composure_insignia": 2395,
+				"radiant_agility_crystal": 3385,
+				"greater_composure_insignia": 2160
+			}
+		}
+	},
+	"tree_of_wisdom": {
+		"stats": {
+			"health": 35280,
+			"physical_attack": 8215,
+			"magic_defense": 2416,
+			"armor": 3378,
+			"armor_penetration": 3460,
+			"power": 12552
+		},
+		"costs": {
+			"eternal_seed": 586,
+			"ancient_wisdom_crystal": 47400
+		}
+	},
+	"miscellaneous": {
+		"levels": {
+			"stats": {
+				"intelligence": 2080,
+				"agility": 2340,
+				"strength": 2080,
+				"power": 17875
+			},
+			"costs": {
+				"huge_exp_potion": 483,
+				"eva_soul_stone": 630
+			}
+		},
+		"gift_of_the_elements": {
+			"stats": {
+				"intelligence": 360,
+				"agility": 720,
+				"strength": 360,
+				"power": 3960
+			},
+			"costs": {
+				"spark_of_power": 65150,
+				"gold": 7927500
+			}
+		}
+	},
+	"data_notes": [
+		"Values and formulas are transcribed from the supplied data.",
+		"The supplied Ascension I-V power total is 25,012; the five individual stage power values sum to 25,010. Both are preserved as supplied."
+	]
+}
