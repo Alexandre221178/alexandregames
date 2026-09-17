@@ -405,16 +405,97 @@
             "points": 100
           },
           {
-            "id": "defeat-monster-level-1-or-above",
-            "action": "Defeat a Lv. 1 or above Monster",
+            "id": "spend-titan-skin-stones",
+            "action": "Spend Titan Skin Stones",
+            "amount": 15,
+            "points": 10
+          },
+          {
+            "id": "open-summoning-sphere",
+            "action": "Open a Summoning Sphere",
             "amount": 1,
-            "points": 2000
+            "points": 1500
+          },
+          {
+            "id": "open-elemental-sphere",
+            "action": "Open an Elemental Sphere",
+            "amount": 1,
+            "points": 1200
+          },
+          {
+            "id": "use-titan-potions",
+            "action": "Use Titan Potions",
+            "amount": 100,
+            "points": 150
           },
           {
             "id": "clear-brigand-camp",
             "action": "Clear Brigand Camp",
             "amount": 1,
             "points": 2500
+          },
+          {
+            "id": "defeat-boss",
+            "action": "Defeat Boss",
+            "amount": 1,
+            "points": 850
+          },
+          {
+            "id": "defeat-monster-level-1-or-above",
+            "action": "Defeat a Lv. 1 or above Monster",
+            "amount": 1,
+            "points": 2000
+          },
+          {
+            "id": "open-tower-chest",
+            "action": "Open a chest in the Tower",
+            "amount": 1,
+            "points": 4000
+          },
+          {
+            "id": "start-expedition",
+            "action": "Start an Expedition",
+            "amount": 1,
+            "points": 5000
+          },
+          {
+            "id": "complete-daily-quest",
+            "action": "Complete a Daily Quest",
+            "amount": 1,
+            "points": 2000
+          },
+          {
+            "id": "get-vip-points",
+            "action": "Get VIP Points",
+            "amount": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "weekday": "Tuesday",
+        "theme": "Hero Skins",
+        "available": true,
+        "tasks": [
+          {
+            "id": "spend-hero-skin-stones",
+            "action": "Spend Hero Skin Stones",
+            "amount": 15,
+            "points": 700
+          },
+          {
+            "id": "increase-power-with-building",
+            "action": "Increase Power with building",
+            "amount": 1,
+            "points": 200
+          },
+          {
+            "id": "use-building-speed-up-minutes",
+            "action": "Use building speed-up",
+            "amount": 1,
+            "points": 200,
+            "unit": "minute"
           },
           {
             "id": "collect-food-on-map",
@@ -441,102 +522,28 @@
             "points": 10
           },
           {
-            "id": "defeat-boss",
-            "action": "Defeat Boss",
-            "amount": 1,
-            "points": 850
-          },
-          {
-            "id": "open-summoning-sphere",
-            "action": "Open a Summoning Sphere",
-            "amount": 1,
-            "points": 1500
-          },
-          {
-            "id": "open-elemental-sphere",
-            "action": "Open an Elemental Sphere",
-            "amount": 1,
-            "points": 1200
-          },
-          {
             "id": "fight-arena",
             "action": "Fight in the Arena",
             "amount": 1,
             "points": 6000
+          },
+          {
+            "id": "fight-grand-arena",
+            "action": "Fight in the Grand Arena",
+            "amount": 1,
+            "points": 6000
+          },
+          {
+            "id": "get-hero-soul-stone",
+            "action": "Get a Hero Soul Stone",
+            "amount": 1,
+            "points": 500
           },
           {
             "id": "open-tower-chest",
             "action": "Open a chest in the Tower",
             "amount": 1,
             "points": 4000
-          },
-          {
-            "id": "complete-daily-quest",
-            "action": "Complete a Daily Quest",
-            "amount": 1,
-            "points": 2000
-          },
-          {
-            "id": "spend-sparks-of-power",
-            "action": "Spend Sparks of Power",
-            "amount": 15,
-            "points": 30
-          },
-          {
-            "id": "open-heroic-chest",
-            "action": "Open Heroic Chest",
-            "amount": 1,
-            "points": 4000
-          },
-          {
-            "id": "get-vip-points",
-            "action": "Get VIP Points",
-            "amount": 1,
-            "points": 100
-          }
-        ]
-      },
-      {
-        "day": 2,
-        "weekday": "Tuesday",
-        "theme": "Hero Skins",
-        "available": true,
-        "tasks": [
-          {
-            "id": "defeat-monster-level-1-or-above",
-            "action": "Defeat a Lv. 1 or above Monster",
-            "amount": 1,
-            "points": 2000
-          },
-          {
-            "id": "defeat-boss",
-            "action": "Defeat Boss",
-            "amount": 1,
-            "points": 850
-          },
-          {
-            "id": "spend-hero-artifact-fragment",
-            "action": "Spend a Hero artifact fragment",
-            "amount": 1,
-            "points": 1200
-          },
-          {
-            "id": "spend-hero-skin-stones",
-            "action": "Spend Hero Skin Stones",
-            "amount": 15,
-            "points": 700
-          },
-          {
-            "id": "open-artifact-chest",
-            "action": "Open an Artifact Chest",
-            "amount": 1,
-            "points": 750
-          },
-          {
-            "id": "fight-arena",
-            "action": "Fight in the Arena",
-            "amount": 1,
-            "points": 6000
           },
           {
             "id": "start-expedition",
@@ -545,22 +552,10 @@
             "points": 5000
           },
           {
-            "id": "open-tower-chest",
-            "action": "Open a chest in the Tower",
-            "amount": 1,
-            "points": 4000
-          },
-          {
             "id": "complete-daily-quest",
             "action": "Complete a Daily Quest",
             "amount": 1,
             "points": 2000
-          },
-          {
-            "id": "use-titan-potions",
-            "action": "Use Titan Potions",
-            "amount": 100,
-            "points": 150
           },
           {
             "id": "get-vip-points",
@@ -573,7 +568,7 @@
       {
         "day": 3,
         "weekday": "Wednesday",
-        "theme": "Hero Gear",
+        "theme": "Tech Power",
         "available": true,
         "tasks": [
           {
@@ -587,13 +582,87 @@
             "action": "Use research speed-up",
             "amount": 1,
             "unit": "minute",
-            "points": 300
+            "points": 200
+          },
+          {
+            "id": "spend-honor-marks",
+            "action": "Spend Honor Marks",
+            "amount": 1,
+            "points": 2000
           },
           {
             "id": "clear-brigand-camp",
             "action": "Clear Brigand Camp",
             "amount": 1,
             "points": 2500
+          },
+          {
+            "id": "defeat-boss",
+            "action": "Defeat Boss",
+            "amount": 1,
+            "points": 850
+          },
+          {
+            "id": "defeat-monster-level-1-or-above",
+            "action": "Defeat a Lv. 1 or above Monster",
+            "amount": 1,
+            "points": 2000
+          },
+          {
+            "id": "open-artifact-chest",
+            "action": "Open an Artifact Chest",
+            "amount": 1,
+            "points": 750
+          },
+          {
+            "id": "spend-energy",
+            "action": "Spend Energy",
+            "amount": 3,
+            "points": 100
+          },
+          {
+            "id": "open-tower-chest",
+            "action": "Open a chest in the Tower",
+            "amount": 1,
+            "points": 4000
+          },
+          {
+            "id": "start-expedition",
+            "action": "Start an Expedition",
+            "amount": 1,
+            "points": 5000
+          },
+          {
+            "id": "complete-daily-quest",
+            "action": "Complete a Daily Quest",
+            "amount": 1,
+            "points": 2000
+          },
+          {
+            "id": "get-vip-points",
+            "action": "Get VIP Points",
+            "amount": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "weekday": "Thursday",
+        "theme": "Hero Power",
+        "available": true,
+        "tasks": [
+          {
+            "id": "increase-hero-power",
+            "action": "Increase Hero Power",
+            "amount": 1,
+            "points": 30
+          },
+          {
+            "id": "spend-mastery-crystals",
+            "action": "Spend Mastery Crystals",
+            "amount": 15,
+            "points": 200
           },
           {
             "id": "equip-red-item",
@@ -632,16 +701,40 @@
             "points": 400
           },
           {
-            "id": "spend-hero-artifact-fragment",
-            "action": "Spend a Hero artifact fragment",
-            "amount": 1,
-            "points": 1200
+            "id": "collect-food-on-map",
+            "action": "Collect Food on the map",
+            "amount": 3000,
+            "points": 10
           },
           {
-            "id": "complete-daily-quest",
-            "action": "Complete a Daily Quest",
+            "id": "collect-wood-on-map",
+            "action": "Collect Wood on the map",
+            "amount": 3000,
+            "points": 10
+          },
+          {
+            "id": "collect-stone-on-map",
+            "action": "Collect Stone on the map",
+            "amount": 600,
+            "points": 10
+          },
+          {
+            "id": "collect-iron-on-map",
+            "action": "Collect Iron on the map",
+            "amount": 150,
+            "points": 10
+          },
+          {
+            "id": "fight-arena",
+            "action": "Fight in the Arena",
             "amount": 1,
-            "points": 2000
+            "points": 6000
+          },
+          {
+            "id": "fight-grand-arena",
+            "action": "Fight in the Grand Arena",
+            "amount": 1,
+            "points": 6000
           },
           {
             "id": "open-tower-chest",
@@ -650,22 +743,16 @@
             "points": 4000
           },
           {
-            "id": "get-hero-soul-stone",
-            "action": "Get a Hero Soul Stone",
+            "id": "start-expedition",
+            "action": "Start an Expedition",
             "amount": 1,
-            "points": 500
+            "points": 5000
           },
           {
-            "id": "spend-fairy-dust",
-            "action": "Spend Fairy Dust",
-            "amount": 25,
-            "points": 50
-          },
-          {
-            "id": "spend-energy",
-            "action": "Spend Energy",
-            "amount": 3,
-            "points": 100
+            "id": "complete-daily-quest",
+            "action": "Complete a Daily Quest",
+            "amount": 1,
+            "points": 2000
           },
           {
             "id": "get-vip-points",
@@ -676,11 +763,72 @@
         ]
       },
       {
-        "day": 4,
-        "weekday": "Thursday",
-        "theme": "Rune Mastery",
+        "day": 5,
+        "weekday": "Friday",
+        "theme": "Army Training",
         "available": true,
         "tasks": [
+          {
+            "id": "train-troop-level-1",
+            "action": "Train a Lv. 1 troop",
+            "amount": 1,
+            "points": 7
+          },
+          {
+            "id": "train-troop-level-2",
+            "action": "Train a Lv. 2 troop",
+            "amount": 1,
+            "points": 10
+          },
+          {
+            "id": "train-troop-level-3",
+            "action": "Train a Lv. 3 troop",
+            "amount": 1,
+            "points": 14
+          },
+          {
+            "id": "train-troop-level-4",
+            "action": "Train a Lv. 4 troop",
+            "amount": 1,
+            "points": 20
+          },
+          {
+            "id": "train-troop-level-5",
+            "action": "Train a Lv. 5 troop",
+            "amount": 1,
+            "points": 29
+          },
+          {
+            "id": "train-troop-level-6",
+            "action": "Train a Lv. 6 troop",
+            "amount": 1,
+            "points": 41
+          },
+          {
+            "id": "train-troop-level-7",
+            "action": "Train a Lv. 7 troop",
+            "amount": 1,
+            "points": 59
+          },
+          {
+            "id": "train-troop-level-8",
+            "action": "Train a Lv. 8 troop",
+            "amount": 1,
+            "points": 84
+          },
+          {
+            "id": "train-troop-level-9",
+            "action": "Train a Lv. 9 troop",
+            "amount": 1,
+            "points": 120
+          },
+          {
+            "id": "use-training-speed-up-minutes",
+            "action": "Use training speed-up",
+            "amount": 1,
+            "points": 200,
+            "unit": "minute"
+          },
           {
             "id": "spend-manuals-on-troop-commander-skills",
             "action": "Spend Manuals to upgrade troop commanders' skills",
@@ -688,11 +836,79 @@
             "points": 5000
           },
           {
+            "id": "clear-brigand-camp",
+            "action": "Clear Brigand Camp",
+            "amount": 1,
+            "points": 2500
+          },
+          {
+            "id": "defeat-boss",
+            "action": "Defeat Boss",
+            "amount": 1,
+            "points": 850
+          },
+          {
             "id": "defeat-monster-level-1-or-above",
             "action": "Defeat a Lv. 1 or above Monster",
             "amount": 1,
             "points": 2000
           },
+          {
+            "id": "open-heroic-chest",
+            "action": "Open Heroic Chest",
+            "amount": 1,
+            "points": 4000
+          },
+          {
+            "id": "open-artifact-chest",
+            "action": "Open an Artifact Chest",
+            "amount": 1,
+            "points": 750
+          },
+          {
+            "id": "open-outlands-chest",
+            "action": "Open a chest in Outlands",
+            "amount": 1,
+            "points": 2000
+          },
+          {
+            "id": "open-elemental-sphere",
+            "action": "Open an Elemental Sphere",
+            "amount": 1,
+            "points": 1200
+          },
+          {
+            "id": "open-tower-chest",
+            "action": "Open a chest in the Tower",
+            "amount": 1,
+            "points": 4000
+          },
+          {
+            "id": "start-expedition",
+            "action": "Start an Expedition",
+            "amount": 1,
+            "points": 5000
+          },
+          {
+            "id": "complete-daily-quest",
+            "action": "Complete a Daily Quest",
+            "amount": 1,
+            "points": 2000
+          },
+          {
+            "id": "get-vip-points",
+            "action": "Get VIP Points",
+            "amount": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "weekday": "Saturday",
+        "theme": "Enemy Hunt",
+        "available": true,
+        "tasks": [
           {
             "id": "spend-rune-spheres",
             "action": "Spend Rune Spheres",
@@ -706,10 +922,132 @@
             "points": 100
           },
           {
-            "id": "increase-hero-power",
-            "action": "Increase Hero Power",
+            "id": "lose-troop-level-1",
+            "action": "Lose Lv. 1 Troops battling another player",
+            "amount": 1,
+            "points": 1
+          },
+          {
+            "id": "lose-troop-level-2",
+            "action": "Lose Lv. 2 Troops battling another player",
+            "amount": 1,
+            "points": 2
+          },
+          {
+            "id": "lose-troop-level-3",
+            "action": "Lose Lv. 3 Troops battling another player",
+            "amount": 1,
+            "points": 3
+          },
+          {
+            "id": "lose-troop-level-4",
+            "action": "Lose Lv. 4 Troops battling another player",
+            "amount": 1,
+            "points": 4
+          },
+          {
+            "id": "lose-troop-level-5",
+            "action": "Lose Lv. 5 Troops battling another player",
+            "amount": 1,
+            "points": 6
+          },
+          {
+            "id": "lose-troop-level-6",
+            "action": "Lose Lv. 6 Troops battling another player",
+            "amount": 1,
+            "points": 8
+          },
+          {
+            "id": "lose-troop-level-7",
+            "action": "Lose Lv. 7 Troops battling another player",
+            "amount": 1,
+            "points": 12
+          },
+          {
+            "id": "lose-troop-level-8",
+            "action": "Lose Lv. 8 Troops battling another player",
+            "amount": 1,
+            "points": 16
+          },
+          {
+            "id": "lose-troop-level-9",
+            "action": "Lose Lv. 9 Troops battling another player",
+            "amount": 1,
+            "points": 18
+          },
+          {
+            "id": "disable-enemy-troop-level-1",
+            "action": "Disable another player's Lv. 1 Troops",
+            "amount": 1,
+            "points": 2
+          },
+          {
+            "id": "disable-enemy-troop-level-2",
+            "action": "Disable another player's Lv. 2 Troops",
+            "amount": 1,
+            "points": 3
+          },
+          {
+            "id": "disable-enemy-troop-level-3",
+            "action": "Disable another player's Lv. 3 Troops",
+            "amount": 1,
+            "points": 4
+          },
+          {
+            "id": "disable-enemy-troop-level-4",
+            "action": "Disable another player's Lv. 4 Troops",
+            "amount": 1,
+            "points": 6
+          },
+          {
+            "id": "disable-enemy-troop-level-5",
+            "action": "Disable another player's Lv. 5 Troops",
+            "amount": 1,
+            "points": 9
+          },
+          {
+            "id": "disable-enemy-troop-level-6",
+            "action": "Disable another player's Lv. 6 Troops",
+            "amount": 1,
+            "points": 13
+          },
+          {
+            "id": "disable-enemy-troop-level-7",
+            "action": "Disable another player's Lv. 7 Troops",
+            "amount": 1,
+            "points": 19
+          },
+          {
+            "id": "disable-enemy-troop-level-8",
+            "action": "Disable another player's Lv. 8 Troops",
+            "amount": 1,
+            "points": 26
+          },
+          {
+            "id": "disable-enemy-troop-level-9",
+            "action": "Disable another player's Lv. 9 Troops",
             "amount": 1,
             "points": 30
+          },
+          {
+            "id": "use-healing-speed-up-minutes",
+            "action": "Use healing speed-up",
+            "amount": 1,
+            "points": 200,
+            "unit": "minute"
+          },
+          {
+            "id": "use-training-speed-up-minutes",
+            "action": "Use training speed-up",
+            "amount": 1,
+            "points": 200,
+            "unit": "minute"
+          },
+          {
+            "id": "fight-arena",
+            "action": "Fight in the Arena",
+            "amount": 1,
+            "points": 6000
           },
           {
             "id": "fight-grand-arena",
@@ -718,102 +1056,10 @@
             "points": 6000
           },
           {
-            "id": "fight-arena",
-            "action": "Fight in the Arena",
-            "amount": 1,
-            "points": 6000
-          },
-          {
-            "id": "complete-daily-quest",
-            "action": "Complete a Daily Quest",
-            "amount": 1,
-            "points": 2000
-          },
-          {
-            "id": "spend-titan-skin-stones",
-            "action": "Spend Titan Skin Stones",
-            "amount": 15,
-            "points": 100
-          },
-          {
-            "id": "open-heroic-chest",
-            "action": "Open Heroic Chest",
+            "id": "open-tower-chest",
+            "action": "Open a chest in the Tower",
             "amount": 1,
             "points": 4000
-          },
-          {
-            "id": "get-vip-points",
-            "action": "Get VIP Points",
-            "amount": 1,
-            "points": 100
-          }
-        ]
-      },
-      {
-        "day": 5,
-        "weekday": "Friday",
-        "theme": "Hero Training",
-        "available": true,
-        "tasks": [
-          {
-            "id": "clear-brigand-camp",
-            "action": "Clear Brigand Camp",
-            "amount": 1,
-            "points": 2500
-          },
-          {
-            "id": "equip-red-item",
-            "action": "Equip a Red item",
-            "amount": 1,
-            "points": 1250000
-          },
-          {
-            "id": "equip-orange-item",
-            "action": "Equip an Orange item",
-            "amount": 1,
-            "points": 160000
-          },
-          {
-            "id": "equip-violet-item",
-            "action": "Equip a Violet item",
-            "amount": 1,
-            "points": 27000
-          },
-          {
-            "id": "equip-blue-item",
-            "action": "Equip a Blue item",
-            "amount": 1,
-            "points": 5000
-          },
-          {
-            "id": "equip-green-item",
-            "action": "Equip a Green item",
-            "amount": 1,
-            "points": 1000
-          },
-          {
-            "id": "equip-white-item",
-            "action": "Equip a White item",
-            "amount": 1,
-            "points": 400
-          },
-          {
-            "id": "spend-hero-skin-stones",
-            "action": "Spend Hero Skin Stones",
-            "amount": 15,
-            "points": 700
-          },
-          {
-            "id": "complete-summoning-circle-summon",
-            "action": "Complete a summon in the Summoning Circle",
-            "amount": 1,
-            "points": 1500
-          },
-          {
-            "id": "complete-daily-quest",
-            "action": "Complete a Daily Quest",
-            "amount": 1,
-            "points": 2000
           },
           {
             "id": "start-expedition",
@@ -822,91 +1068,10 @@
             "points": 5000
           },
           {
-            "id": "fight-arena",
-            "action": "Fight in the Arena",
-            "amount": 1,
-            "points": 6000
-          },
-          {
-            "id": "spend-fairy-dust",
-            "action": "Spend Fairy Dust",
-            "amount": 25,
-            "points": 50
-          },
-          {
-            "id": "get-vip-points",
-            "action": "Get VIP Points",
-            "amount": 1,
-            "points": 100
-          }
-        ]
-      },
-      {
-        "day": 6,
-        "weekday": "Saturday",
-        "theme": "Relics Upgrade",
-        "available": true,
-        "tasks": [
-          {
-            "id": "spend-relic-shards",
-            "action": "Spend Relic Shards",
-            "amount": 10,
-            "points": 225000
-          },
-          {
-            "id": "use-research-speed-up-minutes",
-            "action": "Use research speed-up",
-            "amount": 1,
-            "unit": "minute",
-            "points": 300
-          },
-          {
-            "id": "defeat-boss",
-            "action": "Defeat Boss",
-            "amount": 1,
-            "points": 850
-          },
-          {
-            "id": "clear-brigand-camp",
-            "action": "Clear Brigand Camp",
-            "amount": 1,
-            "points": 2500
-          },
-          {
-            "id": "open-tower-chest",
-            "action": "Open a chest in the Tower",
-            "amount": 1,
-            "points": 4000
-          },
-          {
-            "id": "fight-arena",
-            "action": "Fight in the Arena",
-            "amount": 1,
-            "points": 6000
-          },
-          {
             "id": "complete-daily-quest",
             "action": "Complete a Daily Quest",
             "amount": 1,
             "points": 2000
-          },
-          {
-            "id": "use-titan-potions",
-            "action": "Use Titan Potions",
-            "amount": 100,
-            "points": 150
-          },
-          {
-            "id": "spend-mastery-crystals",
-            "action": "Spend Mastery Crystals",
-            "amount": 15,
-            "points": 200
-          },
-          {
-            "id": "spend-chaos-core",
-            "action": "Spend a Chaos Core",
-            "amount": 1,
-            "points": 3000
           },
           {
             "id": "get-vip-points",
