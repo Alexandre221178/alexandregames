@@ -1,6 +1,7 @@
 /* npm run update-gifts-hwa
 { date:'2026-09-##', type:'daily', mission:'#', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+    
 */
 window.HWA_GIFTS = [
      { date:'2026-09-17', type:'hub', code:'SPACE', expires:'2026-09-28', rewards:['summoning-sphere x5', 'gold 250k', 'energy x20'] },   
