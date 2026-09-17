@@ -3,6 +3,7 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+     { date:'2026-09-17', type:'hub', code:'SPACE', expires:'2026-09-28', rewards:['summoning-sphere x5', 'gold 250k', 'energy x20' },   
   { date:'2026-09-17', type:'daily', mission:'2-14', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-09-16', type:'daily', mission:'3-11', note:'daily|80',
