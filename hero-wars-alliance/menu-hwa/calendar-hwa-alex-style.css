@@ -176,12 +176,12 @@ div.calendar .event-label:hover {
   div.calendar #calendar-container {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
-  
+  /* altura Mobile do container */
   div.calendar > .event-container,
   div.calendar #calendar-container > .event-container {
-    height: 227px !important;/* altura Mobile do container */
+    height: 313px !important;/* altura Mobile do container */
   }
-  
+  /* altura Mobile do container */
   div.calendar .event a {
     top: 1px !important;
   }
