@@ -2,36 +2,52 @@
   // Active Ascendant Glory guides shown below the main calendar - carousel.
   var slides = [
 
-{
-  link: "/hero-wars-alliance/event-hwa/titan-rift-en.html",
-  src500: "/hero-wars-alliance/images/events/titan-rift/titan-rift-500px.webp",
-  src400: "/hero-wars-alliance/images/events/titan-rift/titan-rift-400px.webp",
-  alt: "Titan Rift Guide for Hero Wars Alliance",
-  title: "Titan Rift Guide for Hero Wars Alliance",
-  strong: "Guide: Titan Rift - Hero Wars Alliance",
- updated: "Updated: September, 2026."
-},
-    
-{
-  link: "/hero-wars-alliance/event-hwa/legacy-of-power-en.html",
-  src500: "/hero-wars-alliance/images/events/legacy-of-power/legacy-of-power-500px.webp",
-  src400: "/hero-wars-alliance/images/events/legacy-of-power/legacy-of-power-400px.webp",
-  alt: "Legacy of Power Guide for Hero Wars Alliance",
-  title: "Legacy of Power Event for Hero Wars Alliance",
-  strong: "Guide: Legacy of Power - Hero Wars Alliance",
-  updated: "Updated: September, 2026."
-},
 
-
-{
-  link: "/hero-wars-alliance/event-hwa/seers-game-en.html",
-  src500: "/hero-wars-alliance/images/events/seers-game/seers-game-500px.webp",
-  src400: "/hero-wars-alliance/images/events/seers-game/seers-game-400px.webp",
-  alt: "Seer's Game Guide for Hero Wars Alliance",
-  title: "Seer's Game Guide for Hero Wars Alliance",
-  strong: "Guide: Seer's Game - Hero Wars Alliance",
- updated: "Updated: September, 2026."
-},
+    {
+      link: "/hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html",
+      src500: "/hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-400px.webp",
+      alt: "Ascendant Glory Event Group Guide for Hero Wars Alliance",
+      title: "Ascendant Glory Event Group Guide for Hero Wars Alliance",
+      strong: "Ascendant Glory Event Group Guide",
+      updated: "Updated: September, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/ascendant-glory-rising-legend-en.html",
+      src500: "/hero-wars-alliance/images/events/ascendant-glory/rising-legend-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ascendant-glory/rising-legend-400px.webp",
+      alt: "Rising Legend Event Guide for Hero Wars Alliance",
+      title: "Rising Legend Event Guide for Hero Wars Alliance",
+      strong: "Rising Legend Event Guide",
+      updated: "Updated: September, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/ascendant-glory-spark-of-glory-en.html",
+      src500: "/hero-wars-alliance/images/events/ascendant-glory/spark-glory-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ascendant-glory/spark-glory-400px.webp",
+      alt: "Spark of Glory Skin Plus Event Guide for Hero Wars Alliance",
+      title: "Spark of Glory Skin Plus Event Guide for Hero Wars Alliance",
+      strong: "Spark of Glory Skin+ Event Guide",
+      updated: "Updated: September, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html",
+      src500: "/hero-wars-alliance/images/events/ascendant-glory/trial-of-legends-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ascendant-glory/trial-of-legends-400px.webp",
+      alt: "Trial of Legends Event Guide for Hero Wars Alliance",
+      title: "Trial of Legends Event Guide for Hero Wars Alliance",
+      strong: "Trial of Legends Event Guide",
+      updated: "Updated: September, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/ascendant-glory-champions-gallery-en.html",
+      src500: "/hero-wars-alliance/images/events/ascendant-glory/champions-gallery-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ascendant-glory/champions-gallery-400px.webp",
+      alt: "Champion's Gallery Shop Guide for Hero Wars Alliance",
+      title: "Champion's Gallery Shop Guide for Hero Wars Alliance",
+      strong: "Kendle - Champion's Gallery Shop Guide",
+      updated: "Updated: September, 2026."
+    },
     
     
   ];
