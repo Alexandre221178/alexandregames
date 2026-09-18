@@ -6,7 +6,7 @@
 window.HWA_GIFTS = [
   { date:'2026-09-18', type:'daily', mission:'3-2', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-     { date:'2026-09-17', type:'hub', code:'SPACE', expires:'2026-09-28', rewards:['summoning-sphere x5', 'gold 250k', 'energy x20'] },   
+     { date:'2026-09-17', type:'hub', code:'SPACE', note:'until|2026-09-28T01:00:00Z',  rewards:['summoning-sphere x5', 'gold 250k', 'energy x20'] },   
   { date:'2026-09-17', type:'daily', mission:'2-14', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-09-16', type:'daily', mission:'3-11', note:'daily|80',
@@ -20,7 +20,7 @@ window.HWA_GIFTS = [
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-09-13', type:'daily', mission:'2-5', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-  { date:'2026-09-12', type:'hub', code:'WAKEUP', expires:'2026-09-28', rewards:['energy x100', 'large-skin-stone-chest x5'] },   
+  { date:'2026-09-12', type:'hub', code:'WAKEUP', note:'until|2026-09-28T01:00:00Z',  rewards:['energy x100', 'large-skin-stone-chest x5'] },   
 
   { date:'2026-09-12', type:'daily', mission:'3-8', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
@@ -30,7 +30,7 @@ window.HWA_GIFTS = [
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-09-10', type:'daily', mission:'3-7', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-{ date:'2026-09-09', type:'hub', code:'EVALOFI', expires:'2026-09-28', rewards:['energy x100', 'large-skin-stone-chest x5'] },   
+{ date:'2026-09-09', type:'hub', code:'EVALOFI', note:'until|2026-09-28T01:00:00Z', rewards:['energy x100', 'large-skin-stone-chest x5'] },   
 
   { date:'2026-09-09', type:'daily', mission:'2-9', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
@@ -44,7 +44,7 @@ window.HWA_GIFTS = [
 { date:'2026-09-06', type:'daily', mission:'3-5', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
-{ date:'2026-09-04', type:'hub', code:'NEBULARELIC', expires:'2026-09-28', rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },   
+{ date:'2026-09-04', type:'hub', code:'NEBULARELIC', note:'until|2026-09-28T01:00:00Z',  rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },   
  
  { date:'2026-09-03', type:'hub', code:'NEWOFFERSPROMO', note:'custom',
     customNote:{ en:'The gift is available until... not defined(or 24hs)', pt:'O presente est\u00e1 dispon\u00edvel at\u00e9... n\u00e3o definido(expirado ou 24h)', de:'Das Geschenk ist verf\u00fcgbar bis... nicht definiert(abgelaufen oder 24h)', es:'El regalo est\u00e1 disponible hasta... no definido(expirado o 24h)', fr:'Le cadeau est disponible jusqu\u0027\u00e0... non d\u00e9fini(expir\u00e9 ou 24h)', ja:'\u30ae\u30d5\u30c8\u306e\u6709\u52b9\u671f\u9650... \u672a\u5b9a\u7fa9\uff08\u671f\u9650\u5207\u308c\u307e\u305f\u306f24\u6642\u9593\uff09' },
