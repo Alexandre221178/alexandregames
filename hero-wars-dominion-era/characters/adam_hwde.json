@@ -425,7 +425,22 @@
 				"self_damage": "33.5% of maximum Health",
 				"cooldown": "20s"
 			},
-			"notes": "Fluffy directly cancels Adam's Bounty Lock ultimate, preventing Hunter's Mark from being applied and shutting down his entire damage scaling loop."
+			"notes": "Fluffy can cancel Adam's Bounty Lock ultimate before it applies Hunter's Mark. This interrupts that cast; it does not cleanse existing marks or prevent Astrid or another Hunter from applying the shared mark through their own skills."
 		}
-	]
+	],
+	"hunter_mark_mechanics": {
+		"effect_name": "Hunter's Mark",
+		"is_negative_effect": false,
+		"blocked_by_debuff_prevention": false,
+		"removed_by_debuff_cleansing": false,
+		"sebastian_interaction": "Sebastian and similar debuff-prevention or cleansing abilities cannot block or cleanse Hunter's Mark itself.",
+		"shared_mark": "Astrid's Mark is the same Hunter's Mark used by Adam. Use this shared-mark rule when analyzing Hunter synergies and Eva's skills that reference Hunter's Mark.",
+		"scope_note": "This rule concerns the mark itself. It does not establish whether separate effects associated with the mark, such as Eva's slow or Energy gain reduction, can be blocked or cleansed. Preventing the skill that applies a mark from activating is also different from blocking or cleansing the mark.",
+		"source": {
+			"type": "user_provided_update_excerpt",
+			"text": "Hunter's Mark is becoming much more reliable. It will no longer count as a negative effect, meaning it can't be blocked or cleansed by Sebastian and similar abilities. And there's another important change here: Astrid's Mark will now be the same Hunter's Mark used by Adam, setting the stage for some interesting teamwork between Hunters.",
+			"effective_date": null,
+			"note": "No release date or source URL was supplied with the excerpt."
+		}
+	}
 }

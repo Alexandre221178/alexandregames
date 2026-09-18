@@ -3,12 +3,14 @@
     "game": "Hero Wars: Dominion Era",
 	"name": "Eva",
 	"gender": "female",
-	"role": [
+		"role": [
 		"marksman",
 		"support",
 		"hunter"
 	],
 	"main_role": "Marksman",
+	"additional_role": "Support",
+	"special": "hunter",
 	"main_stat": "Agility",
 	"pet_patronage": "Fenris, Biscuit, Vex",
 	"sinergy": "Astrid, Adam, Jorgen",
@@ -370,5 +372,25 @@
 		"Values and formulas are transcribed from the supplied data.",
 		"Testes em batalhas testei Eva contra times meta magos atual com times de cascade, e times de Augustus e Orion pois atualmente o meta está mais voltado para herois de dano magico entao, Eva sendo heroi de dano fisico precisa enfrenta-los em muitas batalhas, foi ai que decidi testar os combos de sinergia, Eva, Astrid e Adam, tbm use só Eva e Astrid ou só Eva e Adam e os resultados me surpreendeu eles foram capazes de enfrentar e vencer times de peso o que me deixou bem confiante em evoluir Eva.",
 		"The supplied Ascension I-V power total is 25,012; the five individual stage power values sum to 25,010. Both are preserved as supplied."
-	]
+	],
+	"data_best-teams": [
+	"team1:War flag of Vanguard, Axel, Eva(Vex), Astrid(Fenris), Adam(Cain), Guus(Axel), Julius(Oliver).",
+	"Team2: War flag of Vanguard, Axel, Eva(Vex), Somna(Fenris), Adam(Cain), Guus(Axel), Julius(Oliver).",
+	"Team3:War flag of Vanguard, Axel, Eva(Vex), Astrid(Fenris), Somna(Fenris), Guus(Khorus), Julius(Oliver)"
+	],
+	"hunter_mark_mechanics": {
+		"effect_name": "Hunter's Mark",
+		"is_negative_effect": false,
+		"blocked_by_debuff_prevention": false,
+		"removed_by_debuff_cleansing": false,
+		"sebastian_interaction": "Sebastian and similar debuff-prevention or cleansing abilities cannot block or cleanse Hunter's Mark itself.",
+		"shared_mark": "Astrid's Mark is the same Hunter's Mark used by Adam. Use this shared-mark rule when analyzing Hunter synergies and Eva's skills that reference Hunter's Mark.",
+		"scope_note": "This rule concerns the mark itself. It does not establish whether separate effects associated with the mark, such as Eva's slow or Energy gain reduction, can be blocked or cleansed. Preventing the skill that applies a mark from activating is also different from blocking or cleansing the mark.",
+		"source": {
+			"type": "user_provided_update_excerpt",
+			"text": "Hunter's Mark is becoming much more reliable. It will no longer count as a negative effect, meaning it can't be blocked or cleansed by Sebastian and similar abilities. And there's another important change here: Astrid's Mark will now be the same Hunter's Mark used by Adam, setting the stage for some interesting teamwork between Hunters.",
+			"effective_date": null,
+			"note": "No release date or source URL was supplied with the excerpt."
+		}
+	}
 }
