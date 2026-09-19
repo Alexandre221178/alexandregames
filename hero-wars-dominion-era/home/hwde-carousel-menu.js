@@ -1,25 +1,17 @@
 (function(){
   // Carousel multi-language injector (npm run update-hwde-hwde)
   const slides = [
+    
     {
-      link: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html",
-      src500: "../../hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-400px.webp",
-      alt: "Astrid Event Awakening Guide and Rewards F2P to 6★",
-      title: "Astrid Event Awakening Guide and Rewards F2P to 6★",
-      strong: "Guide: Astrid & Lucas Event - Rewards F2P to 6★",
+      link: "../../hero-wars-dominion-era/characters/eva-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/eva/eva-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/eva/eva-400px.webp",
+      alt: "Eva for Hero Wars: Dominion Era",
+      title: "Eva for Hero Wars: Dominion Era.",
+      strong: "Guide: Eva - Hero Wars: Dominion Era",
       updated: "Updated: September, 2026."
     },
     
-    {
-      link: "../../hero-wars-dominion-era/characters/yasmine-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/yasmine/yasmine-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/yasmine/yasmine-400px.webp",
-      alt: "Yasmine for Hero Wars: Dominion Era",
-      title: "Yasmine for Hero Wars: Dominion Era.",
-      strong: "Guide(NEW SKIN): Yasmine - Hero Wars: Dominion Era",
-      updated: "Updated: September, 2026."
-    },
     {
       link: "../../hero-wars-dominion-era/guide/mysterious-island-en.html",
       src500: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-500px.webp",
@@ -59,6 +51,16 @@
   updated: "Updated: August, 2026."
 },
 
+{
+      link: "../../hero-wars-dominion-era/characters/yasmine-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/yasmine/yasmine-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/yasmine/yasmine-400px.webp",
+      alt: "Yasmine for Hero Wars: Dominion Era",
+      title: "Yasmine for Hero Wars: Dominion Era.",
+      strong: "Guide(NEW SKIN): Yasmine - Hero Wars: Dominion Era",
+      updated: "Updated: September, 2026."
+    },
+
     {
       link: "/hero-wars-dominion-era/events-special-hwde/alecto-event-missions-en.html",
       src500: "/hero-wars-dominion-era/images/events-special/alecto-event/alecto-event-missions-500px.webp",
@@ -69,30 +71,15 @@
       updated: "Updated: August, 2026."
     },
     
-    
     {
-      link: "../../hero-wars-dominion-era/characters/somna-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/somna/somna-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/somna/somna-400px.webp",
-      alt: "Somna for Hero Wars: Dominion Era",
-      title: "Somna for Hero Wars: Dominion Era.",
-      strong: "Guide: Somna - Hero Wars: Dominion Era",
-      updated: "Updated: July, 2026."
+      link: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html",
+      src500: "../../hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-400px.webp",
+      alt: "Astrid Event Awakening Guide and Rewards F2P to 6★",
+      title: "Astrid Event Awakening Guide and Rewards F2P to 6★",
+      strong: "Guide: Astrid & Lucas Event - Rewards F2P to 6★",
+      updated: "Updated: September, 2026."
     },
-    
-    
-    
-    
-    {
-      link: "../../hero-wars-dominion-era/characters/guus-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/guus/guus-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/guus/guus-400px.webp",
-      alt: "Guus for Hero Wars: Dominion Era",
-      title: "Guus for Hero Wars: Dominion Era.",
-      strong: "Guide New Skin: Guus - Hero Wars: Dominion Era",
-      updated: "Updated: July, 2026."
-    },
-    
     
     
     {
