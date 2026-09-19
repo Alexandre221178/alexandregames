@@ -31,6 +31,26 @@
       updated: "Updated: Monthly."
     },
     
+     {
+      link: "../../hero-wars-dominion-era/characters/astrid-and-lucas-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/astrid-and-lucas/astrid-and-lucas-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/astrid-and-lucas/astrid-and-lucas-400px.webp",
+      alt: "Astrid and Lucas for Hero Wars: Dominion Era",
+      title: "Astrid and Lucas for Hero Wars: Dominion Era.",
+      strong: "Guide: Astrid and Lucas - Hero Wars: Dominion Era",
+      updated: "Updated: September, 2026."
+    },
+   
+    {
+      link: "../../hero-wars-dominion-era/characters/adam-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/adam/adam-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/adam/adam-400px.webp",
+      alt: "Adam for Hero Wars: Dominion Era",
+      title: "Adam for Hero Wars: Dominion Era.",
+      strong: "Guide: New Hero Adam - Hero Wars: Dominion Era",
+      updated: "Updated: September, 2026."
+    },
+    
 {
   link: "../../hero-wars-dominion-era/titans/valdur-en.html",
   src500: "../../hero-wars-dominion-era/images/titans-hwde/valdur/valdur-500px.webp",
@@ -51,37 +71,6 @@
   updated: "Updated: August, 2026."
 },
 
-{
-      link: "../../hero-wars-dominion-era/characters/yasmine-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/yasmine/yasmine-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/yasmine/yasmine-400px.webp",
-      alt: "Yasmine for Hero Wars: Dominion Era",
-      title: "Yasmine for Hero Wars: Dominion Era.",
-      strong: "Guide(NEW SKIN): Yasmine - Hero Wars: Dominion Era",
-      updated: "Updated: September, 2026."
-    },
-
-    {
-      link: "/hero-wars-dominion-era/events-special-hwde/alecto-event-missions-en.html",
-      src500: "/hero-wars-dominion-era/images/events-special/alecto-event/alecto-event-missions-500px.webp",
-      src400: "/hero-wars-dominion-era/images/events-special/alecto-event/alecto-event-missions-400px.webp",
-      alt: "Alecto - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era",
-      title: "Alecto - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era.",
-      strong: "Guide: Alecto Event (Missions) - Hero Wars: Dominion Era",
-      updated: "Updated: August, 2026."
-    },
-    
-    {
-      link: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html",
-      src500: "../../hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-400px.webp",
-      alt: "Astrid Event Awakening Guide and Rewards F2P to 6★",
-      title: "Astrid Event Awakening Guide and Rewards F2P to 6★",
-      strong: "Guide: Astrid & Lucas Event - Rewards F2P to 6★",
-      updated: "Updated: September, 2026."
-    },
-    
-    
     {
       link: "../../hero-wars-dominion-era/guide/how-to-defeat-seymour-en.html",
       src500: "../../hero-wars-dominion-era/images/guides/how-to-defeat-seymour/how-to-defeat-seymour-500px.webp",
@@ -91,16 +80,8 @@
       strong: "Guide: How to Defeat Seymour - Hero Wars: Dominion Era",
       updated: "Updated: June, 2026."
     },
-    {
-      link: "../../hero-wars-dominion-era/characters/guus-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/guus/guus-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/guus/guus-400px.webp",
-      alt: "Guus for Hero Wars: Dominion Era",
-      title: "Guus for Hero Wars: Dominion Era.",
-      strong: "Guide New Skin: Guus - Hero Wars: Dominion Era",
-      updated: "Updated: July, 2026."
-    },
-    {
+        
+     {
       link: "../../hero-wars-dominion-era/guide/totem-fusion-skills-en.html",
       src500: "../../hero-wars-dominion-era/images/guides/totem-fusion/totem-fusion-skills-500px.webp",
       src400: "../../hero-wars-dominion-era/images/guides/totem-fusion/totem-fusion-skills-400px.webp",
@@ -108,39 +89,6 @@
       title: "Totem Fusion Skills for Hero Wars: Dominion Era.",
       strong: "Guide(Tier List): Totem Fusion Skills - Hero Wars: Dominion Era",
       updated: "Updated: June, 2026."
-    },
-         
-    
-    
-{
-      link: "../../hero-wars-dominion-era/characters/byrna-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/byrna/byrna-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/byrna/byrna-400px.webp",
-      alt: "Byrna for Hero Wars: Dominion Era",
-      title: "Byrna for Hero Wars: Dominion Era.",
-      strong: "Guide: Byrna New Skin - Hero Wars: Dominion Era",
-      updated: "Updated: June, 2026."
-    },
-{
-      link: "../../hero-wars-dominion-era/events/titan-cosmic-battle-best-teams-en.html",
-      src500: "../../hero-wars-dominion-era/images/events/titan-cosmic-battle-best-teams/titans-cosmic-battle-best-teams-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events/titan-cosmic-battle-best-teams/titans-cosmic-battle-best-teams-400px.webp",
-      alt: "Best Teams for Titan Cosmic Battle - Hero Wars: Dominion Era",
-      title: "Best Teams for Titan Cosmic Battle - Hero Wars: Dominion Era.",
-      strong: "Guide: Best Teams for Titan Cosmic Battle - Hero Wars: Dominion Era",
-      updated: "Updated: June, 2026."
-    },
-   
-    
-     
-    {
-      link: "../../hero-wars-dominion-era/characters/adam-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/adam/adam-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/adam/adam-400px.webp",
-      alt: "Adam for Hero Wars: Dominion Era",
-      title: "Adam for Hero Wars: Dominion Era.",
-      strong: "Guide: New Hero Adam - Hero Wars: Dominion Era",
-      updated: "Updated: April, 2026."
     },
 
     {
@@ -170,6 +118,40 @@
     
     
   ];
+
+  /* - Eventos Especiais(traducoes esta abaixo):
+ {
+      link: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html",
+      src500: "../../hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-400px.webp",
+      alt: "Astrid Event Awakening Guide and Rewards F2P to 6★",
+      title: "Astrid Event Awakening Guide and Rewards F2P to 6★",
+      strong: "Guide: Astrid & Lucas Event - Rewards F2P to 6★",
+      updated: "Updated: September, 2026."
+    },
+
+  {
+      link: "/hero-wars-dominion-era/events-special-hwde/alecto-event-missions-en.html",
+      src500: "/hero-wars-dominion-era/images/events-special/alecto-event/alecto-event-missions-500px.webp",
+      src400: "/hero-wars-dominion-era/images/events-special/alecto-event/alecto-event-missions-400px.webp",
+      alt: "Alecto - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era",
+      title: "Alecto - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era.",
+      strong: "Guide: Alecto Event (Missions) - Hero Wars: Dominion Era",
+      updated: "Updated: August, 2026."
+    },
+  
+    {
+      link: "../../hero-wars-dominion-era/characters/yasmine-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/yasmine/yasmine-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/yasmine/yasmine-400px.webp",
+      alt: "Yasmine for Hero Wars: Dominion Era",
+      title: "Yasmine for Hero Wars: Dominion Era.",
+      strong: "Guide(NEW SKIN): Yasmine - Hero Wars: Dominion Era",
+      updated: "Updated: September, 2026."
+    },
+
+  
+  */
 
   const translations = {
     en: {updatedPrefix: 'Updated:', map: {}},
