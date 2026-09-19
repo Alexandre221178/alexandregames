@@ -121,6 +121,7 @@
     "update-byrna-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js byrna",
     "update-cascade-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js cascade",
     "update-dante-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js dante",
+ "update-eva-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js eva",
 
     "update-fluffy-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js fluffy",
     "update-galahad-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js galahad",
