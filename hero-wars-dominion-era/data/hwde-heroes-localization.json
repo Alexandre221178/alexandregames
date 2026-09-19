@@ -26,6 +26,7 @@
     {"id":"Dorian","gender":"male","en":"Dorian","de":"Dorian","es":"Dorian","fr":"Dorian","pt":"Dorian","ja":"ドリアン"},
     {"id":"Electra","gender":"female","en":"Electra","de":"Electra","es":"Electra","fr":"Electra","pt":"Electra","ja":"エレクトラ"},
     {"id":"Elmir","gender":"male","en":"Elmir","de":"Elmir","es":"Elmir","fr":"Elmir","pt":"Elmir","ja":"エルミー"},
+   {"id":"Eva","gender":"female","en":"Eva","de":"Eva","es":"Eva","fr":"Eva","pt":"Eva","ja":"エヴァ"},
     {"id":"Faceless","gender":"male","en":"Faceless","de":"Gesichtsloser","es":"Sin Rostro","fr":"Sanface","pt":"Sem Rosto","ja":"フェイスレス"},
     {"id":"Fafnir","gender":"male","en":"Fafnir","de":"Fafnir","es":"Fafnir","fr":"Fafnir","pt":"Fafnir","ja":"ファフニール"},
     {"id":"Fluffy","gender":"male","en":"Fluffy","de":"Wuschel","es":"Fluffy","fr":"Fluffy","pt":"Fofinho","ja":"フラッフィ"},
