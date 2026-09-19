@@ -926,9 +926,18 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         links: { en: "#section3", pt: "#section3", de: "#section3", es: "#section3", fr: "#section3", ja: "#section3" }
       },
 
-     { titles: { en: "👗Valdur: New Primordial Skin", de: "👗Valdur: Neuer Ursprünglicher Skin", es: "👗Valdur: Nueva Skin Primordial", fr: "👗Valdur : Nouveau Skin Primordial", pt: "👗Valdur: Nova Skin Primordial", ja: "👗ヴァルドゥル：新プライモーディアルスキン" },
-      links: { en: "../../hero-wars-dominion-era/titans/valdur-en.html", de: "../../hero-wars-dominion-era/titans/valdur-de.html", es: "../../hero-wars-dominion-era/titans/valdur-es.html", fr: "../../hero-wars-dominion-era/titans/valdur-fr.html", pt: "../../hero-wars-dominion-era/titans/valdur-pt.html", ja: "../../hero-wars-dominion-era/titans/valdur-ja.html" },
-      noStrip: true },
+    {
+  titles: { en: "👗Valdur New Primordial Skin", de: "👗Valdur Neuer Ur-Skin", es: "👗Valdur Nueva Skin Primordial", fr: "👗Valdur Nouveau Skin Primordial", pt: "👗Valdur Nova Skin Primordial", ja: "👗ヴァルドール 新プライモーディアルスキン" },
+  links: { en: "../../hero-wars-dominion-era/titans/valdur-en.html", de: "../../hero-wars-dominion-era/titans/valdur-de.html", es: "../../hero-wars-dominion-era/titans/valdur-es.html", fr: "../../hero-wars-dominion-era/titans/valdur-fr.html", pt: "../../hero-wars-dominion-era/titans/valdur-pt.html", ja: "../../hero-wars-dominion-era/titans/valdur-ja.html" },       
+  noStrip: true
+},
+
+{
+  titles: { en: "👗Bryna Cybernetic Skin: Full Unlock", de: "👗Bryna Kybernetischer Skin: Vollständig freigeschaltet", es: "👗Bryna Skin Cibernética: Desbloqueo Completo", fr: "👗Bryna Skin Cybernétique : Déverrouillage complet", pt: "👗Bryna Skin Cibernética: Desbloqueio Completo", ja: "👗ブリナ サイバネティックスキン：完全解放" },
+  links: { en: "../../hero-wars-dominion-era/characters/byrna-en.html", de: "../../hero-wars-dominion-era/characters/byrna-de.html", es: "../../hero-wars-dominion-era/characters/byrna-es.html", fr: "../../hero-wars-dominion-era/characters/byrna-fr.html", pt: "../../hero-wars-dominion-era/characters/byrna-pt.html", ja: "../../hero-wars-dominion-era/characters/byrna-ja.html" },       
+  noStrip: true
+
+},
       
       {
         titles: { en: "📦Artifact Chest - Sale 30%", pt: "📦Baú de Artefatos - Desconto 30%", de: "📦Artefakttruhe - 30% Rabatt", es: "📦Cofre de Artefactos - 30% de Descuento", fr: "📦Coffre d'Artéfacts - 30% de Réduction", ja: "📦アーティファクトチェスト - 30%オフ" },
@@ -966,6 +975,12 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
         noStrip: true
       },
+      
+{
+  titles: { en: "Eva Guide", de: "Eva Leitfaden", es: "Guía de Eva", fr: "Guide d'Eva", pt: "Guia da Eva", ja: "エヴァガイド" },
+  links: { en: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html", de: "../../hero-wars-dominion-era/menu/calendar-hwde-de.html", es: "../../hero-wars-dominion-era/menu/calendar-hwde-es.html", fr: "../../hero-wars-dominion-era/menu/calendar-hwde-fr.html", pt: "../../hero-wars-dominion-era/menu/calendar-hwde-pt.html", ja: "../../hero-wars-dominion-era/menu/calendar-hwde-ja.html" },
+  noStrip: true
+},
 
       {
         titles: { en: "💎Emerald City", pt: "💎Cidade Esmeralda", de: "💎Smaragdstadt", es: "💎Ciudad Esmeralda", fr: "💎Ville d'Émeraude", ja: "💎エメラルドシティ" },
@@ -984,23 +999,7 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
       
      
 
-{
-  titles: { en: "👗Valdur New Primordial Skin", de: "👗Valdur Neuer Ur-Skin", es: "👗Valdur Nueva Skin Primordial", fr: "👗Valdur Nouveau Skin Primordial", pt: "👗Valdur Nova Skin Primordial", ja: "👗ヴァルドール 新プライモーディアルスキン" },
 
-  links: { en: "../../hero-wars-dominion-era/titans/valdur-en.html", de: "../../hero-wars-dominion-era/titans/valdur-de.html", es: "../../hero-wars-dominion-era/titans/valdur-es.html", fr: "../../hero-wars-dominion-era/titans/valdur-fr.html", pt: "../../hero-wars-dominion-era/titans/valdur-pt.html", ja: "../../hero-wars-dominion-era/titans/valdur-ja.html" },       
-
-  noStrip: true
-
-},
-
-{
-  titles: { en: "👗Bryna Cybernetic Skin: Full Unlock", de: "👗Bryna Kybernetischer Skin: Vollständig freigeschaltet", es: "👗Bryna Skin Cibernética: Desbloqueo Completo", fr: "👗Bryna Skin Cybernétique : Déverrouillage complet", pt: "👗Bryna Skin Cibernética: Desbloqueio Completo", ja: "👗ブリナ サイバネティックスキン：完全解放" },
-
-  links: { en: "../../hero-wars-dominion-era/characters/byrna-en.html", de: "../../hero-wars-dominion-era/characters/byrna-de.html", es: "../../hero-wars-dominion-era/characters/byrna-es.html", fr: "../../hero-wars-dominion-era/characters/byrna-fr.html", pt: "../../hero-wars-dominion-era/characters/byrna-pt.html", ja: "../../hero-wars-dominion-era/characters/byrna-ja.html" },       
-
-  noStrip: true
-
-},
      
       {
         titles: { en: "📦Artifact Chest - Sale 30%", pt: "📦Baú de Artefatos - Desconto 30%", de: "📦Artefakttruhe - 30% Rabatt", es: "📦Cofre de Artefactos - 30% de Descuento", fr: "📦Coffre d'Artéfacts - 30% de Réduction", ja: "📦アーティファクトチェスト - 30%オフ" },
@@ -1040,7 +1039,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         noStrip: true
       },
    
- 
+ {
+  titles: { en: "Eva Guide", de: "Eva Leitfaden", es: "Guía de Eva", fr: "Guide d'Eva", pt: "Guia da Eva", ja: "エヴァガイド" },
+  links: { en: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html", de: "../../hero-wars-dominion-era/menu/calendar-hwde-de.html", es: "../../hero-wars-dominion-era/menu/calendar-hwde-es.html", fr: "../../hero-wars-dominion-era/menu/calendar-hwde-fr.html", pt: "../../hero-wars-dominion-era/menu/calendar-hwde-pt.html", ja: "../../hero-wars-dominion-era/menu/calendar-hwde-ja.html" },
+  noStrip: true
+},
       {
         titles: { en: "💎Emerald City", pt: "💎Cidade Esmeralda", de: "💎Smaragdstadt", es: "💎Ciudad Esmeralda", fr: "💎Ville d'Émeraude", ja: "💎エメラルドシティ" },
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -1076,6 +1079,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
         noStrip: true
       },
+      {
+  titles: { en: "Eva Guide", de: "Eva Leitfaden", es: "Guía de Eva", fr: "Guide d'Eva", pt: "Guia da Eva", ja: "エヴァガイド" },
+  links: { en: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html", de: "../../hero-wars-dominion-era/menu/calendar-hwde-de.html", es: "../../hero-wars-dominion-era/menu/calendar-hwde-es.html", fr: "../../hero-wars-dominion-era/menu/calendar-hwde-fr.html", pt: "../../hero-wars-dominion-era/menu/calendar-hwde-pt.html", ja: "../../hero-wars-dominion-era/menu/calendar-hwde-ja.html" },
+  noStrip: true
+},
 
       {
         titles: { en: "💎Emerald City", pt: "💎Cidade Esmeralda", de: "💎Smaragdstadt", es: "💎Ciudad Esmeralda", fr: "💎Ville d'Émeraude", ja: "💎エメラルドシティ" },
@@ -1113,7 +1121,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
   noStrip: true
 },  
   
-
+{
+  titles: { en: "Eva Guide", de: "Eva Leitfaden", es: "Guía de Eva", fr: "Guide d'Eva", pt: "Guia da Eva", ja: "エヴァガイド" },
+  links: { en: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html", de: "../../hero-wars-dominion-era/menu/calendar-hwde-de.html", es: "../../hero-wars-dominion-era/menu/calendar-hwde-es.html", fr: "../../hero-wars-dominion-era/menu/calendar-hwde-fr.html", pt: "../../hero-wars-dominion-era/menu/calendar-hwde-pt.html", ja: "../../hero-wars-dominion-era/menu/calendar-hwde-ja.html" },
+  noStrip: true
+},
       {
         titles: { en: "💎Emerald City", pt: "💎Cidade Esmeralda", de: "💎Smaragdstadt", es: "💎Ciudad Esmeralda", fr: "💎Ville d'Émeraude", ja: "💎エメラルドシティ" },
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -1139,7 +1151,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     noStrip: true
     },
     
-        
+      {
+  titles: { en: "Eva Guide", de: "Eva Leitfaden", es: "Guía de Eva", fr: "Guide d'Eva", pt: "Guia da Eva", ja: "エヴァガイド" },
+  links: { en: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html", de: "../../hero-wars-dominion-era/menu/calendar-hwde-de.html", es: "../../hero-wars-dominion-era/menu/calendar-hwde-es.html", fr: "../../hero-wars-dominion-era/menu/calendar-hwde-fr.html", pt: "../../hero-wars-dominion-era/menu/calendar-hwde-pt.html", ja: "../../hero-wars-dominion-era/menu/calendar-hwde-ja.html" },
+  noStrip: true
+},  
        {
         titles: { en: "💎Emerald City", pt: "💎Cidade Esmeralda", de: "💎Smaragdstadt", es: "💎Ciudad Esmeralda", fr: "💎Ville d'Émeraude", ja: "💎エメラルドシティ" },
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -1169,7 +1185,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
       noStrip: true
       },
       
-        
+ {
+  titles: { en: "Eva Guide", de: "Eva Leitfaden", es: "Guía de Eva", fr: "Guide d'Eva", pt: "Guia da Eva", ja: "エヴァガイド" },
+  links: { en: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html", de: "../../hero-wars-dominion-era/menu/calendar-hwde-de.html", es: "../../hero-wars-dominion-era/menu/calendar-hwde-es.html", fr: "../../hero-wars-dominion-era/menu/calendar-hwde-fr.html", pt: "../../hero-wars-dominion-era/menu/calendar-hwde-pt.html", ja: "../../hero-wars-dominion-era/menu/calendar-hwde-ja.html" },
+  noStrip: true
+},       
        {
         titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
         links: { en: "#section1", pt: "#section1", de: "#section1", es: "#section1", fr: "#section1", ja: "#section1" }
@@ -1200,7 +1220,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     noStrip: true
     },
    
-   
+ {
+  titles: { en: "Eva Guide", de: "Eva Leitfaden", es: "Guía de Eva", fr: "Guide d'Eva", pt: "Guia da Eva", ja: "エヴァガイド" },
+  links: { en: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html", de: "../../hero-wars-dominion-era/menu/calendar-hwde-de.html", es: "../../hero-wars-dominion-era/menu/calendar-hwde-es.html", fr: "../../hero-wars-dominion-era/menu/calendar-hwde-fr.html", pt: "../../hero-wars-dominion-era/menu/calendar-hwde-pt.html", ja: "../../hero-wars-dominion-era/menu/calendar-hwde-ja.html" },
+  noStrip: true
+},  
       
       {
         titles: { en: "🪆Demon Dolls", pt: "🪆Bonecas Demoníacas", de: "🪆Dämonenpuppen", es: "🪆Muñecas Demoníacas", fr: "🪆Poupées Démoniaques", ja: "🪆デーモンドール" },
