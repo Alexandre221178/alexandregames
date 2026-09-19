@@ -20,10 +20,10 @@ function injectMysteriousIslandContent3() {
 <p>${data.para2}</p>
 <figure>
   <picture>
-    <source media="(min-width: 768px)" srcset="../../hero-wars-dominion-era/images/guides/mysterious-island/valdur-map-1200px.webp">
-    <img src="../../hero-wars-dominion-era/images/guides/mysterious-island/valdur-map-800px.webp"
-         alt="Valdur Map Hero Wars - Wallpaper"
-         title="Valdur Map Hero Wars - Hero Wars Dominion Era"
+    <source media="(min-width: 768px)" srcset="../../hero-wars-dominion-era/images/guides/mysterious-island/map3-1200px.webp">
+    <img src="../../hero-wars-dominion-era/images/guides/mysterious-island/map3-800px.webp"
+         alt="Map 3 - Wallpaper"
+         title="Map 3 - Hero Wars Dominion Era"
          loading="lazy"
          width="100%">
   </picture>
