@@ -14,6 +14,23 @@
       "ja": "../characters/electra-ja.html"
     }
   },
+
+"Eva": {
+    "image": "../../imagens/image-shared/eva.webp",
+    "names": {
+      "pt": "Eva",
+      "ja": "エバ"
+    },
+    "guides": {
+      "en": "../characters/eva-en.html",
+      "pt": "../characters/eva-pt.html",
+      "de": "../characters/eva-de.html",
+      "es": "../characters/eva-es.html",
+      "fr": "../characters/eva-fr.html",
+      "ja": "../characters/eva-ja.html"
+    }
+  },
+
   "Byrna": {
     "image": "../../imagens/image-shared/byrna.webp",
     "names": {
