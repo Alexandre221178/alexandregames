@@ -1,7 +1,7 @@
 /*  Calendar data for Hero Wars: Dominion Era
   npm run update-calendar-hwde
 */
-// Título do mês do calendário (npm run update-calendar-hwde)
+// Título do mês do calendário npm run update-calendar-hwde
 window.CALENDAR_MONTH_HEADER = {
   en: "August Calendar Events",
   pt: "Eventos do Calendário de Agosto",
@@ -976,11 +976,21 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         noStrip: true
       },
       
-{
-  titles: { en: "Eva Guide", de: "Eva Leitfaden", es: "Guía de Eva", fr: "Guide d'Eva", pt: "Guia da Eva", ja: "エヴァガイド" },
-  links: { en: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html", de: "../../hero-wars-dominion-era/menu/calendar-hwde-de.html", es: "../../hero-wars-dominion-era/menu/calendar-hwde-es.html", fr: "../../hero-wars-dominion-era/menu/calendar-hwde-fr.html", pt: "../../hero-wars-dominion-era/menu/calendar-hwde-pt.html", ja: "../../hero-wars-dominion-era/menu/calendar-hwde-ja.html" },
+ {
+  titles: { en: "★Guide: Eva Event F2P to 6★(Freedom Protocol)", de: "★Guide: Eva Event F2P bis 6★(Freiheitsprotokoll)", es: "★Guía: Evento de Eva F2P hasta 6★(Protocolo de Libertad)", fr: "★Guide : Événement d'Eva F2P jusqu'à 6★(Protocole de Liberté)", pt: "★Guia: Evento da Eva F2P até 6★(Protocolo da Liberdade)", ja: "★エヴァイベント攻略：F2Pで6★まで（フリーダムプロトコル）" },
+  links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },
   noStrip: true
 },
+{
+  titles: { en: "🎯Eva Event Missions", de: "🎯Eva Event-Missionen", es: "🎯Misiones del Evento de Eva", fr: "🎯Missions de l'Événement d'Eva", pt: "🎯Missões do Evento da Eva", ja: "🎯エヴァイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/eva-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+ {
+  titles: { en: "Eva Guide", de: "Eva Leitfaden", es: "Guía de Eva", fr: "Guide d'Eva", pt: "Guia da Eva", ja: "エヴァガイド" },
+  links: { en: "../../hero-wars-dominion-era/characters/eva-en.html", de: "../../hero-wars-dominion-era/characters/eva-de.html", es: "../../hero-wars-dominion-era/characters/eva-es.html", fr: "../../hero-wars-dominion-era/characters/eva-fr.html", pt: "../../hero-wars-dominion-era/characters/eva-pt.html", ja: "../../hero-wars-dominion-era/characters/eva-ja.html" },
+  noStrip: true
+},  
 
       {
         titles: { en: "💎Emerald City", pt: "💎Cidade Esmeralda", de: "💎Smaragdstadt", es: "💎Ciudad Esmeralda", fr: "💎Ville d'Émeraude", ja: "💎エメラルドシティ" },
@@ -1039,11 +1049,21 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         noStrip: true
       },
    
- {
-  titles: { en: "Eva Guide", de: "Eva Leitfaden", es: "Guía de Eva", fr: "Guide d'Eva", pt: "Guia da Eva", ja: "エヴァガイド" },
-  links: { en: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html", de: "../../hero-wars-dominion-era/menu/calendar-hwde-de.html", es: "../../hero-wars-dominion-era/menu/calendar-hwde-es.html", fr: "../../hero-wars-dominion-era/menu/calendar-hwde-fr.html", pt: "../../hero-wars-dominion-era/menu/calendar-hwde-pt.html", ja: "../../hero-wars-dominion-era/menu/calendar-hwde-ja.html" },
+  {
+  titles: { en: "★Guide: Eva Event F2P to 6★(Freedom Protocol)", de: "★Guide: Eva Event F2P bis 6★(Freiheitsprotokoll)", es: "★Guía: Evento de Eva F2P hasta 6★(Protocolo de Libertad)", fr: "★Guide : Événement d'Eva F2P jusqu'à 6★(Protocole de Liberté)", pt: "★Guia: Evento da Eva F2P até 6★(Protocolo da Liberdade)", ja: "★エヴァイベント攻略：F2Pで6★まで（フリーダムプロトコル）" },
+  links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },
   noStrip: true
 },
+{
+  titles: { en: "🎯Eva Event Missions", de: "🎯Eva Event-Missionen", es: "🎯Misiones del Evento de Eva", fr: "🎯Missions de l'Événement d'Eva", pt: "🎯Missões do Evento da Eva", ja: "🎯エヴァイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/eva-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+ {
+  titles: { en: "Eva Guide", de: "Eva Leitfaden", es: "Guía de Eva", fr: "Guide d'Eva", pt: "Guia da Eva", ja: "エヴァガイド" },
+  links: { en: "../../hero-wars-dominion-era/characters/eva-en.html", de: "../../hero-wars-dominion-era/characters/eva-de.html", es: "../../hero-wars-dominion-era/characters/eva-es.html", fr: "../../hero-wars-dominion-era/characters/eva-fr.html", pt: "../../hero-wars-dominion-era/characters/eva-pt.html", ja: "../../hero-wars-dominion-era/characters/eva-ja.html" },
+  noStrip: true
+},  
       {
         titles: { en: "💎Emerald City", pt: "💎Cidade Esmeralda", de: "💎Smaragdstadt", es: "💎Ciudad Esmeralda", fr: "💎Ville d'Émeraude", ja: "💎エメラルドシティ" },
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -1080,10 +1100,20 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
         noStrip: true
       },
       {
-  titles: { en: "Eva Guide", de: "Eva Leitfaden", es: "Guía de Eva", fr: "Guide d'Eva", pt: "Guia da Eva", ja: "エヴァガイド" },
-  links: { en: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html", de: "../../hero-wars-dominion-era/menu/calendar-hwde-de.html", es: "../../hero-wars-dominion-era/menu/calendar-hwde-es.html", fr: "../../hero-wars-dominion-era/menu/calendar-hwde-fr.html", pt: "../../hero-wars-dominion-era/menu/calendar-hwde-pt.html", ja: "../../hero-wars-dominion-era/menu/calendar-hwde-ja.html" },
+  titles: { en: "★Guide: Eva Event F2P to 6★(Freedom Protocol)", de: "★Guide: Eva Event F2P bis 6★(Freiheitsprotokoll)", es: "★Guía: Evento de Eva F2P hasta 6★(Protocolo de Libertad)", fr: "★Guide : Événement d'Eva F2P jusqu'à 6★(Protocole de Liberté)", pt: "★Guia: Evento da Eva F2P até 6★(Protocolo da Liberdade)", ja: "★エヴァイベント攻略：F2Pで6★まで（フリーダムプロトコル）" },
+  links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },
   noStrip: true
 },
+{
+  titles: { en: "🎯Eva Event Missions", de: "🎯Eva Event-Missionen", es: "🎯Misiones del Evento de Eva", fr: "🎯Missions de l'Événement d'Eva", pt: "🎯Missões do Evento da Eva", ja: "🎯エヴァイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/eva-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+ {
+  titles: { en: "Eva Guide", de: "Eva Leitfaden", es: "Guía de Eva", fr: "Guide d'Eva", pt: "Guia da Eva", ja: "エヴァガイド" },
+  links: { en: "../../hero-wars-dominion-era/characters/eva-en.html", de: "../../hero-wars-dominion-era/characters/eva-de.html", es: "../../hero-wars-dominion-era/characters/eva-es.html", fr: "../../hero-wars-dominion-era/characters/eva-fr.html", pt: "../../hero-wars-dominion-era/characters/eva-pt.html", ja: "../../hero-wars-dominion-era/characters/eva-ja.html" },
+  noStrip: true
+},  
 
       {
         titles: { en: "💎Emerald City", pt: "💎Cidade Esmeralda", de: "💎Smaragdstadt", es: "💎Ciudad Esmeralda", fr: "💎Ville d'Émeraude", ja: "💎エメラルドシティ" },
@@ -1121,11 +1151,21 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
   noStrip: true
 },  
   
-{
-  titles: { en: "Eva Guide", de: "Eva Leitfaden", es: "Guía de Eva", fr: "Guide d'Eva", pt: "Guia da Eva", ja: "エヴァガイド" },
-  links: { en: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html", de: "../../hero-wars-dominion-era/menu/calendar-hwde-de.html", es: "../../hero-wars-dominion-era/menu/calendar-hwde-es.html", fr: "../../hero-wars-dominion-era/menu/calendar-hwde-fr.html", pt: "../../hero-wars-dominion-era/menu/calendar-hwde-pt.html", ja: "../../hero-wars-dominion-era/menu/calendar-hwde-ja.html" },
+ {
+  titles: { en: "★Guide: Eva Event F2P to 6★(Freedom Protocol)", de: "★Guide: Eva Event F2P bis 6★(Freiheitsprotokoll)", es: "★Guía: Evento de Eva F2P hasta 6★(Protocolo de Libertad)", fr: "★Guide : Événement d'Eva F2P jusqu'à 6★(Protocole de Liberté)", pt: "★Guia: Evento da Eva F2P até 6★(Protocolo da Liberdade)", ja: "★エヴァイベント攻略：F2Pで6★まで（フリーダムプロトコル）" },
+  links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },
   noStrip: true
 },
+{
+  titles: { en: "🎯Eva Event Missions", de: "🎯Eva Event-Missionen", es: "🎯Misiones del Evento de Eva", fr: "🎯Missions de l'Événement d'Eva", pt: "🎯Missões do Evento da Eva", ja: "🎯エヴァイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/eva-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+ {
+  titles: { en: "Eva Guide", de: "Eva Leitfaden", es: "Guía de Eva", fr: "Guide d'Eva", pt: "Guia da Eva", ja: "エヴァガイド" },
+  links: { en: "../../hero-wars-dominion-era/characters/eva-en.html", de: "../../hero-wars-dominion-era/characters/eva-de.html", es: "../../hero-wars-dominion-era/characters/eva-es.html", fr: "../../hero-wars-dominion-era/characters/eva-fr.html", pt: "../../hero-wars-dominion-era/characters/eva-pt.html", ja: "../../hero-wars-dominion-era/characters/eva-ja.html" },
+  noStrip: true
+},  
       {
         titles: { en: "💎Emerald City", pt: "💎Cidade Esmeralda", de: "💎Smaragdstadt", es: "💎Ciudad Esmeralda", fr: "💎Ville d'Émeraude", ja: "💎エメラルドシティ" },
     links: { en: "../../hero-wars-dominion-era/events/emerald-city-en.html", pt: "../../hero-wars-dominion-era/events/emerald-city-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -1152,8 +1192,18 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     },
     
       {
+  titles: { en: "★Guide: Eva Event F2P to 6★(Freedom Protocol)", de: "★Guide: Eva Event F2P bis 6★(Freiheitsprotokoll)", es: "★Guía: Evento de Eva F2P hasta 6★(Protocolo de Libertad)", fr: "★Guide : Événement d'Eva F2P jusqu'à 6★(Protocole de Liberté)", pt: "★Guia: Evento da Eva F2P até 6★(Protocolo da Liberdade)", ja: "★エヴァイベント攻略：F2Pで6★まで（フリーダムプロトコル）" },
+  links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },
+  noStrip: true
+},
+{
+  titles: { en: "🎯Eva Event Missions", de: "🎯Eva Event-Missionen", es: "🎯Misiones del Evento de Eva", fr: "🎯Missions de l'Événement d'Eva", pt: "🎯Missões do Evento da Eva", ja: "🎯エヴァイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/eva-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
+ {
   titles: { en: "Eva Guide", de: "Eva Leitfaden", es: "Guía de Eva", fr: "Guide d'Eva", pt: "Guia da Eva", ja: "エヴァガイド" },
-  links: { en: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html", de: "../../hero-wars-dominion-era/menu/calendar-hwde-de.html", es: "../../hero-wars-dominion-era/menu/calendar-hwde-es.html", fr: "../../hero-wars-dominion-era/menu/calendar-hwde-fr.html", pt: "../../hero-wars-dominion-era/menu/calendar-hwde-pt.html", ja: "../../hero-wars-dominion-era/menu/calendar-hwde-ja.html" },
+  links: { en: "../../hero-wars-dominion-era/characters/eva-en.html", de: "../../hero-wars-dominion-era/characters/eva-de.html", es: "../../hero-wars-dominion-era/characters/eva-es.html", fr: "../../hero-wars-dominion-era/characters/eva-fr.html", pt: "../../hero-wars-dominion-era/characters/eva-pt.html", ja: "../../hero-wars-dominion-era/characters/eva-ja.html" },
   noStrip: true
 },  
        {
@@ -1185,9 +1235,19 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
       noStrip: true
       },
       
+  {
+  titles: { en: "★Guide: Eva Event F2P to 6★(Freedom Protocol)", de: "★Guide: Eva Event F2P bis 6★(Freiheitsprotokoll)", es: "★Guía: Evento de Eva F2P hasta 6★(Protocolo de Libertad)", fr: "★Guide : Événement d'Eva F2P jusqu'à 6★(Protocole de Liberté)", pt: "★Guia: Evento da Eva F2P até 6★(Protocolo da Liberdade)", ja: "★エヴァイベント攻略：F2Pで6★まで（フリーダムプロトコル）" },
+  links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },
+  noStrip: true
+},
+{
+  titles: { en: "🎯Eva Event Missions", de: "🎯Eva Event-Missionen", es: "🎯Misiones del Evento de Eva", fr: "🎯Missions de l'Événement d'Eva", pt: "🎯Missões do Evento da Eva", ja: "🎯エヴァイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/eva-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
  {
   titles: { en: "Eva Guide", de: "Eva Leitfaden", es: "Guía de Eva", fr: "Guide d'Eva", pt: "Guia da Eva", ja: "エヴァガイド" },
-  links: { en: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html", de: "../../hero-wars-dominion-era/menu/calendar-hwde-de.html", es: "../../hero-wars-dominion-era/menu/calendar-hwde-es.html", fr: "../../hero-wars-dominion-era/menu/calendar-hwde-fr.html", pt: "../../hero-wars-dominion-era/menu/calendar-hwde-pt.html", ja: "../../hero-wars-dominion-era/menu/calendar-hwde-ja.html" },
+  links: { en: "../../hero-wars-dominion-era/characters/eva-en.html", de: "../../hero-wars-dominion-era/characters/eva-de.html", es: "../../hero-wars-dominion-era/characters/eva-es.html", fr: "../../hero-wars-dominion-era/characters/eva-fr.html", pt: "../../hero-wars-dominion-era/characters/eva-pt.html", ja: "../../hero-wars-dominion-era/characters/eva-ja.html" },
   noStrip: true
 },       
        {
@@ -1219,10 +1279,20 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/weaving-patterns-en.html", pt: "../../hero-wars-dominion-era/events/weaving-patterns-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true
     },
-   
+
+    {
+  titles: { en: "★Guide: Eva Event F2P to 6★(Freedom Protocol)", de: "★Guide: Eva Event F2P bis 6★(Freiheitsprotokoll)", es: "★Guía: Evento de Eva F2P hasta 6★(Protocolo de Libertad)", fr: "★Guide : Événement d'Eva F2P jusqu'à 6★(Protocole de Liberté)", pt: "★Guia: Evento da Eva F2P até 6★(Protocolo da Liberdade)", ja: "★エヴァイベント攻略：F2Pで6★まで（フリーダムプロトコル）" },
+  links: { en: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html", de: "../../hero-wars-dominion-era/events/heroes-awakening-event-de.html", es: "../../hero-wars-dominion-era/events/heroes-awakening-event-es.html", fr: "../../hero-wars-dominion-era/events/heroes-awakening-event-fr.html", pt: "../../hero-wars-dominion-era/events/heroes-awakening-event-pt.html", ja: "../../hero-wars-dominion-era/events/heroes-awakening-event-ja.html" },
+  noStrip: true
+},
+{
+  titles: { en: "🎯Eva Event Missions", de: "🎯Eva Event-Missionen", es: "🎯Misiones del Evento de Eva", fr: "🎯Missions de l'Événement d'Eva", pt: "🎯Missões do Evento da Eva", ja: "🎯エヴァイベントミッション" },
+  links: { en: "../../hero-wars-dominion-era/events-special-hwde/eva-event-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
+  noStrip: true
+},  
  {
   titles: { en: "Eva Guide", de: "Eva Leitfaden", es: "Guía de Eva", fr: "Guide d'Eva", pt: "Guia da Eva", ja: "エヴァガイド" },
-  links: { en: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html", de: "../../hero-wars-dominion-era/menu/calendar-hwde-de.html", es: "../../hero-wars-dominion-era/menu/calendar-hwde-es.html", fr: "../../hero-wars-dominion-era/menu/calendar-hwde-fr.html", pt: "../../hero-wars-dominion-era/menu/calendar-hwde-pt.html", ja: "../../hero-wars-dominion-era/menu/calendar-hwde-ja.html" },
+  links: { en: "../../hero-wars-dominion-era/characters/eva-en.html", de: "../../hero-wars-dominion-era/characters/eva-de.html", es: "../../hero-wars-dominion-era/characters/eva-es.html", fr: "../../hero-wars-dominion-era/characters/eva-fr.html", pt: "../../hero-wars-dominion-era/characters/eva-pt.html", ja: "../../hero-wars-dominion-era/characters/eva-ja.html" },
   noStrip: true
 },  
       
@@ -1243,7 +1313,24 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/elemental-synergy-en.html", pt: "../../hero-wars-dominion-era/events/elemental-synergy-pt.html", de: "../../hero-wars-dominion-era/events/elemental-synergy-de.html", es: "../../hero-wars-dominion-era/events/elemental-synergy-es.html", fr: "../../hero-wars-dominion-era/events/elemental-synergy-fr.html", ja: "../../hero-wars-dominion-era/events/elemental-synergy-ja.html" },
     noStrip: true,
     extra: [
-      
+      {
+  titles: { en: "👗Adam New Ceremonial Skin", de: "👗Adam Neuer Zeremonieller Skin", es: "👗Adam Nueva Skin Ceremonial", fr: "👗Adam Nouveau Skin Cérémoniel", pt: "👗Adam Nova Skin Cerimonial", ja: "👗アダム 新セレモニアルスキン" },
+
+  links: { en: "../../hero-wars-dominion-era/characters/adam-en.html", de: "../../hero-wars-dominion-era/characters/adam-de.html", es: "../../hero-wars-dominion-era/characters/adam-es.html", fr: "../../hero-wars-dominion-era/characters/adam-fr.html", pt: "../../hero-wars-dominion-era/characters/adam-pt.html", ja: "../../hero-wars-dominion-era/characters/adam-ja.html" },
+
+  noStrip: true
+
+},
+
+{
+
+  titles: { en: "👗Mushy Angelic Skin: Full Unlock", de: "👗Mushy Engel-Skin: Vollständig freigeschaltet", es: "👗Mushy Skin Angelical: Desbloqueo Completo", fr: "👗Mushy Skin Angélique : Déverrouillage complet", pt: "👗Mushy Skin Angelical: Desbloqueio Completo", ja: "👗マーシャ エンジェリックスキン：完全解放" },
+
+  links: { en: "../../hero-wars-dominion-era/characters/mushy-and-shroom-en.html", de: "../../hero-wars-dominion-era/characters/mushy-and-shroom-de.html", es: "../../hero-wars-dominion-era/characters/mushy-and-shroom-es.html", fr: "../../hero-wars-dominion-era/characters/mushy-and-shroom-fr.html", pt: "../../hero-wars-dominion-era/characters/mushy-and-shroom-pt.html", ja: "../../hero-wars-dominion-era/characters/mushy-and-shroom-ja.html" },
+
+  noStrip: true
+
+},
     
     ]
   },
