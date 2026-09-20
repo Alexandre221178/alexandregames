@@ -4,6 +4,9 @@
     
 */
 window.HWA_GIFTS = [
+  { date:'2026-09-20', type:'daily', mission:'3-14', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+    
   { date:'2026-09-19', type:'daily', mission:'2-12', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
       { date:'2026-09-18', type:'special', mission:'3-9', note:'until|2026-09-28T01:00:00Z',   
