@@ -1,16 +1,20 @@
 /* HWDE Daily Gifts Data  -  npm run update-gifts-hwde
-
+https://www.hero-wars.com/?nx_source=group_posting_giftweb&gift_id=
 // ── September #, 2026 ─────────────────────────────
    { date:'2026-09-##', type:'link', giftId:'######', note:'level',
-  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
+   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'divine-card x5', 'energy x200', 'portal-charge x1' ] },
 // ── September #, 2026 ──────────────────────────────
   { date:'2026-09-##', type:'link', giftId:'#####', note:'level',
-  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] },
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5', 'divine-card x5', 'energy x200', 'portal-charge x1'] },
   // 2026-09-##── 2 Link Exclusivo Web/FB ──────────────────────────────
 { date:'2026-09-##', type:'link', giftLinkWeb:'https://herowars.me/#wb#', giftLinkFb:'https://herowars.me/#fb#',
  note:'until|2026-09-##T02:00:00Z', rewards:['energy x500'] },
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 */window.HWDE_GIFTS = [
+ { date:'2026-09-20', type:'link', giftId:'ef8451d3afadec263a861310ae90e4dc', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5', 'divine-card x5', 'energy x200', 'portal-charge x1'] },
+
+
   { date:'2026-09-20', type:'link', giftLinkWeb:'https://herowars.me/4AmNRKW', giftLinkFb:'https://herowars.me/3V1BcNm',
  note:'until|2026-09-25T02:00:00Z', rewards:['energy x500'] },
    { date:'2026-09-19', type:'link', giftId:'516744417f54811cf4eb451c289c763b', note:'level',
@@ -107,7 +111,13 @@ link type  : { date:'YYYY-MM-DD', type:'link',  giftId:'...', note:'until|YYYY-M
 ###################################################################################
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 
- 
+// ── September #, 2026 ─────────────────────────────
+   { date:'2026-09-##', type:'link', giftId:'######', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
+// ── September #, 2026 ──────────────────────────────
+  { date:'2026-09-##', type:'link', giftId:'#####', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] }, 
+
 // ── daily web energy for web/fb ──────────────────────────────
 { date:'2026-08-##', type:'link', giftId:'#####', note:'until|2026-##-##T02:00:00Z',
   rewards:['energy x500'] },
