@@ -1,4 +1,7 @@
-.stats-guide { max-width: 940px; margin: 2rem auto; color: #202c35; font-size: 1.125rem; line-height: 1.75; }
+.stats-guide { display: block; width: 100%; max-width: 940px; min-width: 0; margin: 2rem auto; color: #202c35; font-size: 1.125rem; line-height: 1.75; overflow-wrap: anywhere; }
+.stats-guide > article { width: 100%; min-width: 0; }
+.stats-guide img { max-width: 100%; }
+.stats-guide .img-banner { max-width: 100%; margin-inline: 0; }
 .stats-guide p, .stats-comments p { margin: 0 0 1.15rem; }
 .stats-guide section, .stats-guide aside { margin: 2.5rem 0; scroll-margin-top: 85px; }
 .stats-guide h2, .stats-guide h3 { display: flex; align-items: center; gap: .7rem; color: #16384c; line-height: 1.3; margin: 1.8rem 0 1rem; text-align: left; }
@@ -15,8 +18,8 @@
 .stats-advice, .stats-example { background: #edf6f8; border-left: 4px solid #167b91; padding: 1.1rem 1.25rem; margin: 1.5rem 0; }
 .stats-example { background: #fff7e8; border-color: #b25a00; }
 .stats-advice p:last-child, .stats-example p:last-child { margin-bottom: 0; }
-.stats-table { max-width: 100%; overflow-x: auto; margin: 1.4rem 0; }
-.stats-guide table { width: 100%; min-width: 500px; border-collapse: collapse; font-size: 1rem; background: #fff; }
+.stats-table { width: 100%; min-width: 0; max-width: 100%; overflow-x: auto; margin: 1.4rem 0; }
+.stats-guide table { width: 100%; min-width: 500px; margin: 0; border-collapse: collapse; font-size: 1rem; background: #fff; }
 .stats-guide caption { text-align: left; font-weight: 700; padding: .5rem 0; }
 .stats-guide th, .stats-guide td { padding: .85rem; text-align: left; border: 1px solid #c9d7dd; color: #202c35; }
 .stats-guide thead th { background: #16384c; color: #fff; }
@@ -28,11 +31,19 @@
 .stats-calculator { background: #f0f6f8; border: 1px solid #b9d2dc; border-radius: 10px; padding: 1.4rem; margin: 1.5rem 0; }
 .stats-calculator h2:first-child, .stats-calculator h3:first-child { margin-top: 0; }
 .stats-inputs { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1rem 0; }
-.stats-inputs label { display: flex; flex-direction: column; justify-content: space-between; gap: .4rem; font-size: 1rem; font-weight: 700; }
-.stats-inputs input { width: 100%; min-height: 46px; padding: .65rem; border: 1px solid #617a87; border-radius: 4px; background: white; color: #202c35; font-size: 1rem; }
+.stats-inputs label { display: flex; min-width: 0; flex-direction: column; justify-content: space-between; gap: .4rem; font-size: 1rem; font-weight: 700; }
+.stats-inputs input { width: 100%; min-width: 0; max-width: 100%; min-height: 46px; padding: .65rem; border: 1px solid #617a87; border-radius: 4px; background: white; color: #202c35; font-size: 1rem; }
 .stats-calculator button { border: 0; border-radius: 5px; background: #145d79; color: white; padding: .8rem 1.1rem; min-height: 44px; font-size: 1rem; font-weight: 700; cursor: pointer; }
 .stats-calculator button:hover { background: #103e52; }
 .stats-calculator output { display: block; padding: 1rem; background: white; border-left: 4px solid #167b91; margin: 1rem 0; font-weight: 700; }
 .stats-guide .stats-note, .stats-sources { font-size: 1rem; }
 .stats-comments { max-width: 940px; margin: 2rem auto; line-height: 1.7; }
 @media (max-width: 600px) { .stats-toc ol { columns: 1; } .stats-guide { font-size: 1.0625rem; } .stats-calculator, .stats-guide .stats-toc { padding: 1rem; } .stats-inputs { grid-template-columns: 1fr; } }
+@media (max-width: 600px) {
+  .stats-guide h2, .stats-guide h3 { display: block; }
+  .stats-guide h2 img, .stats-guide h3 img { vertical-align: middle; margin-right: .7rem; }
+  .stats-guide p { margin-inline: 0 !important; padding-inline: 0; text-indent: 0; }
+  .stats-guide ul, .stats-guide ol { padding-left: 1.5rem; margin-inline: 0; }
+  .stats-guide .stats-intro { padding-left: .85rem; }
+  .stats-advice, .stats-example { padding: 1rem; }
+}
