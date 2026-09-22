@@ -1,0 +1,717 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "julius",
+      "name": "Julius",
+      "gender": "male",
+      "description": "Fluffiest defender with an impenetrable shield. He protects, he attacks, and most of all, he naps.",
+      "role": [
+        "Tank"
+      ],
+      "main_class": "Tank",
+      "position": "Front Line",
+      "level": 120,
+      "main_stat": "Strength",
+      "equipment_rank": null,
+      "way": "Way of Progress",
+      "how_to_get_soul_stones": [
+        "Events",
+        "Heroic Chest"
+      ],
+      "hero_tier_list": "S+",
+      "hydra_tier_list": "A+",
+      "tower_tier_list": "S+",
+      "campaign_tier_list": "S+",
+      "tier_list_reference_year": 2025,
+      "best_synergy": "Nebula, Eva, Isaac, Judge; also fits many teams through his shields.",
+      "stats": {
+        "max_with_talisman_of_paw_sitivity": {
+          "intelligence": 4275,
+          "agility": 4109,
+          "strength": 16185,
+          "health": 1522136,
+          "physical_attack": 119143,
+          "magic_attack": 27931,
+          "armor": 32846,
+          "magic_defense": 24013,
+          "dodge": 0,
+          "vampirism": 0,
+          "armor_penetration": 19800,
+          "magic_penetration": 0,
+          "crit_hit_chance": 13567,
+          "magical_crit_hit_chance": 0,
+          "toughness": 9053,
+          "crushing": 0,
+          "magic_reflection": 0,
+          "total_power": 297274
+        },
+        "max_with_talisman_of_purrfection": {
+          "intelligence": 4275,
+          "agility": 4109,
+          "strength": 14185,
+          "health": 1442136,
+          "physical_attack": 125143,
+          "magic_attack": 27931,
+          "armor": 32846,
+          "magic_defense": 24013,
+          "dodge": 0,
+          "vampirism": 0,
+          "armor_penetration": 0,
+          "magic_penetration": 0,
+          "crit_hit_chance": 13567,
+          "magical_crit_hit_chance": 0,
+          "toughness": 17303,
+          "crushing": 0,
+          "magic_reflection": 0,
+          "total_power": 302724
+        }
+      },
+      "talisman_details": {
+        "talisman_of_paw_sitivity": {
+          "display_name": "Talisman of Paw-Sitivity",
+          "level": 50,
+          "main_stat": "Strength",
+          "main_stat_bonus": 2000,
+          "reroll_slots": [
+            {
+              "stat": "Armor Penetration",
+              "value": 6600
+            },
+            {
+              "stat": "Armor Penetration",
+              "value": 6600
+            },
+            {
+              "stat": "Armor Penetration",
+              "value": 6600
+            }
+          ],
+          "total_reroll_bonus": {
+            "stat": "Armor Penetration",
+            "value": 19800
+          },
+          "derived_bonuses": {
+            "health": 80000,
+            "physical_attack": 2000
+          }
+        },
+        "talisman_of_purrfection": {
+          "display_name": "Talisman of Purrfection",
+          "level": 50,
+          "main_stat": "Physical Attack",
+          "main_stat_bonus": 8000,
+          "reroll_slots": [
+            {
+              "stat": "Toughness",
+              "value": 2200
+            },
+            {
+              "stat": "Toughness",
+              "value": 2200
+            },
+            {
+              "stat": "Toughness",
+              "value": 2200
+            }
+          ],
+          "total_reroll_bonus": {
+            "stat": "Toughness",
+            "value": 6600
+          }
+        },
+        "talisman_2_available": true
+      },
+      "skills": [
+        {
+          "id": 1,
+          "variant": "base",
+          "color": "gray",
+          "level": 120,
+          "is_ultimate": true,
+          "name": "Meowsterpiece of Defense",
+          "type": [
+            "Shield",
+            "Healing"
+          ],
+          "description": "Protects the team with a shield that absorbs any damage. When the shield is destroyed or expires, Julius and all allies are healed. Way of Progress heroes receive twice as much healing.",
+          "healing": "75% Physical Attack + 9600",
+          "healing_for_progress_heroes": "150% Physical Attack + 19200",
+          "shield_durability": "500% Physical Attack + 6000",
+          "relic_boost": {
+            "legendary_relic_level": 10,
+            "description": "When a shield is destroyed or expires, the hero protected by it recovers Health. Does not apply to the Meowsterpiece of Defense skill. Way of Progress heroes receive twice as much healing.",
+            "relic_total_stats_gain": {
+              "health": 53269,
+              "physical_attack": 6956
+            },
+            "relic_unlocks": {
+              "relic_shards_level_2_to_10": 280,
+              "total_relic_shards_level_0_to_10": 330
+            }
+          }
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "color": "green",
+          "level": 120,
+          "name": "Copycat Device",
+          "type": [
+            "Shield",
+            "Buff"
+          ],
+          "description": "Passive: every time Julius gains a shield, his Physical Attack increases until the end of battle, based on his Physical Attack at the start of battle. Active: grants Julius a shield that absorbs any damage. If it survives for 5 seconds, its remaining durability is copied to each ally.",
+          "physical_attack_increase": "8% of Physical Attack at the start of battle",
+          "shield_durability": "330% Physical Attack + 24000",
+          "shield_copy_delay_seconds": 5
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "color": "blue",
+          "level": 100,
+          "name": "Nine-Lives Engine",
+          "type": [
+            "Buff",
+            "Debuff Removal"
+          ],
+          "description": "When a shield on Julius or an ally is destroyed or expires, that hero gains Armor and Magic Defense for 1.5 seconds and all negative effects are removed.",
+          "armor_increase": "30% Physical Attack + 2400",
+          "magic_defense_increase": "30% Physical Attack + 2400",
+          "duration_seconds": 1.5,
+          "relic_boost": {
+            "legendary_relic_level": 20,
+            "description": "Whenever Julius or an ally gains a shield, all negative effects are removed from that hero.",
+            "relic_total_stats_gain": {
+              "health": 146854,
+              "physical_attack": 19176
+            },
+            "relic_unlocks": {
+              "relic_shards_level_11_to_20": 800,
+              "total_relic_shards_level_0_to_20": 1130
+            }
+          }
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "color": "violet",
+          "level": 80,
+          "name": "Purrfect Reflexes",
+          "type": [
+            "Buff"
+          ],
+          "description": "Speeds up attacks and skills of all allies protected by a shield. Way of Progress heroes receive an increased bonus.",
+          "speed_increase_percent": 10,
+          "speed_increase_for_progress_heroes_percent": 20
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "legendary_relic_level": 1,
+          "name": "Pawsitive Influence",
+          "type": [
+            "Shield"
+          ],
+          "description": "Every 13 seconds, grants the most injured ally a shield that absorbs any damage. The more Health the ally has lost, the stronger the shield.",
+          "interval_seconds": 13,
+          "shield_durability": "200% Physical Attack",
+          "shield_durability_increase_per_1_percent_lost_health_percent": 1,
+          "relic_total_stats_gain": {
+            "health": 28794,
+            "physical_attack": 3760
+          },
+          "relic_unlocks": {
+            "relic_shards_level_0_to_1": 50,
+            "total_relic_shards_level_0_to_1": 50
+          }
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "legendary_relic_level": 30,
+          "name": "Defensive Lunge",
+          "type": [
+            "Buff"
+          ],
+          "description": "While Julius or his allies have a shield, their Armor Penetration is increased for each active shield.",
+          "armor_penetration_increase_per_active_shield": "15% Physical Attack",
+          "relic_total_stats_gain": {
+            "health": 290824,
+            "physical_attack": 37976
+          },
+          "relic_unlocks": {
+            "relic_shards_level_21_to_30": 1750,
+            "total_relic_shards_level_0_to_30": 2880
+          }
+        }
+      ],
+      "realm_skills": [
+        {
+          "name": "Cosmic Armor",
+          "description": "Julius shields the army with his technology, increasing the defense of all troops by 12%.",
+          "troop_defense_increase_percent": 12
+        },
+        {
+          "name": "Star Wanderer's Shield",
+          "description": "All troops' attacks have a 30% chance to grant a shield that absorbs 8% damage for 2 turns.",
+          "trigger_chance_percent": 30,
+          "damage_absorption_percent": 8,
+          "duration_turns": 2
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default Skin",
+          "stat": "Strength",
+          "bonus": 1365,
+          "total_strength_skin_stones": 30825,
+          "derived_bonuses": {
+            "health": 54600,
+            "physical_attack": 1365
+          }
+        },
+        {
+          "name": "Masquerade Skin",
+          "stat": "Magic Defense",
+          "bonus": 10650,
+          "total_strength_skin_stones": 50410
+        },
+        {
+          "name": "Devil Skin+",
+          "stat": "Health",
+          "bonus": 213290,
+          "total_strength_skin_stones": 50410,
+          "is_skin_plus": true
+        },
+        {
+          "name": "Lunar Skin",
+          "stat": "Crit Hit Chance",
+          "bonus": 2960,
+          "total_strength_skin_stones": 50410
+        },
+        {
+          "name": "Dark Depths Skin",
+          "stat": "Physical Attack",
+          "bonus": 7095,
+          "total_strength_skin_stones": 50410
+        },
+        {
+          "name": "Romantic Skin",
+          "stat": "Toughness",
+          "bonus": 2960,
+          "total_strength_skin_stones": 50410
+        },
+        {
+          "name": "Winter Skin",
+          "stat": "Physical Attack",
+          "bonus": 14190,
+          "total_strength_skin_stones": 50410
+        }
+      ],
+      "artifacts": {
+        "weapon": {
+          "name": "Cattelite Dish",
+          "level": 100,
+          "trigger_skill": "Meowsterpiece of Defense",
+          "trigger_chance_percent": 100,
+          "duration_seconds": 9,
+          "applies_to": "Whole team",
+          "stats": [
+            {
+              "stat": "Crit Hit Chance",
+              "bonus": 8898
+            }
+          ]
+        },
+        "book": {
+          "name": "Warrior's Code",
+          "level": 100,
+          "stats": [
+            {
+              "stat": "Crit Hit Chance",
+              "bonus": 2967
+            },
+            {
+              "stat": "Physical Attack",
+              "bonus": 3561
+            }
+          ]
+        },
+        "ring": {
+          "name": "Ring of Strength",
+          "level": 100,
+          "stat": "Strength",
+          "bonus": 3990,
+          "derived_bonuses": {
+            "health": 159600,
+            "physical_attack": 3990
+          }
+        }
+      },
+      "glyphs": {
+        "class": "Tank",
+        "class_skill": {
+          "level": 45,
+          "interval_seconds": 10,
+          "duration_seconds": 5,
+          "target": "Ally with the lowest Health percentage, including the tank itself",
+          "description": "Increases the target's Armor and Magic Defense based on Julius's maximum Health.",
+          "armor_increase": "1% maximum Health + 24750",
+          "magic_defense_increase": "1% maximum Health + 24750",
+          "source_example_bonus": 36423.38,
+          "source_example_note": "Value quoted in the supplied class-skill example; not recalculated using either maximum-stat talisman profile."
+        },
+        "stats": [
+          {
+            "name": "Physical Attack",
+            "level": 80,
+            "bonus": 8340
+          },
+          {
+            "name": "Health",
+            "level": 80,
+            "bonus": 122800
+          },
+          {
+            "name": "Crit Hit Chance",
+            "level": 80,
+            "bonus": 4170
+          },
+          {
+            "name": "Armor",
+            "level": 80,
+            "bonus": 12850
+          },
+          {
+            "name": "Strength",
+            "level": 80,
+            "bonus": 2110,
+            "derived_bonuses": {
+              "health": 84400,
+              "physical_attack": 2110
+            }
+          }
+        ]
+      },
+      "counters": [
+        {
+          "hero": "Leonel",
+          "reason": "Threatens shield-based defenses."
+        },
+        {
+          "hero": "Oya",
+          "reason": "Counters shield-based defenses."
+        },
+        {
+          "hero": "Iris",
+          "reason": "Julius is vulnerable against Iris teams, according to the supplied matchup notes."
+        }
+      ],
+      "synergies": [
+        {
+          "hero": "Nebula",
+          "reason": "Her healing and offensive buffs scale with Physical Attack; Talisman of Consistency supports the proposed Progress core."
+        },
+        {
+          "hero": "Eva",
+          "reason": "Completes the proposed Way of Progress core and benefits from Julius's enhanced Progress support."
+        },
+        {
+          "hero": "Isaac",
+          "reason": "Adds shields and supports physical pressure in the Progress core."
+        },
+        {
+          "hero": "Judge",
+          "reason": "Adds another layer of shields to the formation."
+        }
+      ],
+      "shield_skill_synergies": [
+        {
+          "hero": "Aidan",
+          "skill_ids": [
+            3
+          ]
+        },
+        {
+          "hero": "Astaroth",
+          "skill_ids": [
+            1
+          ]
+        },
+        {
+          "hero": "Andvari",
+          "skill_ids": [
+            4
+          ]
+        },
+        {
+          "hero": "Fafnir",
+          "skill_ids": [
+            2
+          ]
+        },
+        {
+          "hero": "Isaac",
+          "skill_ids": [
+            1,
+            3
+          ]
+        },
+        {
+          "hero": "Judge",
+          "skill_ids": [
+            2
+          ]
+        },
+        {
+          "hero": "Jorgen",
+          "skill_ids": [
+            2
+          ]
+        },
+        {
+          "hero": "Markus",
+          "skill_ids": [
+            1
+          ]
+        },
+        {
+          "hero": "Maya",
+          "skill_ids": [
+            1
+          ]
+        },
+        {
+          "hero": "Rufus",
+          "skill_ids": [
+            1
+          ]
+        },
+        {
+          "hero": "Sebastian",
+          "skill_ids": [
+            1
+          ]
+        },
+        {
+          "hero": "Peppy",
+          "skill_ids": [
+            2
+          ]
+        }
+      ],
+      "best_teams": [
+        {
+          "rank": 1,
+          "label": "Way of Progress Core",
+          "heroes": [
+            {
+              "hero": "Eva",
+              "talisman": "Talisman 1"
+            },
+            {
+              "hero": "Isaac",
+              "talisman": "Talisman 1"
+            },
+            {
+              "hero": "Nebula",
+              "talisman": "Talisman 1",
+              "talisman_name": "Talisman of Consistency"
+            },
+            {
+              "hero": "Judge",
+              "talisman": "Talisman 1"
+            },
+            {
+              "hero": "Julius",
+              "talisman": "Talisman 2"
+            }
+          ],
+          "testing_note": "Julius and Judge provide layered protection; Isaac supports physical pressure, Eva completes the Progress core, and Nebula improves healing and offensive buffs."
+        },
+        {
+          "rank": 2,
+          "label": "Julius Team #2",
+          "heroes": [
+            {
+              "hero": "Eva",
+              "talisman": "Talisman 1"
+            },
+            {
+              "hero": "Peech",
+              "talisman": "Talisman 2"
+            },
+            {
+              "hero": "Crow",
+              "talisman": "Talisman 1"
+            },
+            {
+              "hero": "Tristan",
+              "talisman": "Talisman 1"
+            },
+            {
+              "hero": "Julius",
+              "talisman": "Talisman 2"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "label": "Julius Team #3",
+          "heroes": [
+            {
+              "hero": "Julius",
+              "talisman": "Talisman 2"
+            },
+            {
+              "hero": "Kayla",
+              "talisman": "Talisman 2"
+            },
+            {
+              "hero": "Guus",
+              "talisman": "Talisman 2"
+            },
+            {
+              "hero": "Peech",
+              "talisman": "Talisman 2"
+            },
+            {
+              "hero": "Aidan",
+              "talisman": "Talisman 2"
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "label": "Julius Team #4",
+          "heroes": [
+            {
+              "hero": "Polaris",
+              "talisman": "Talisman 2"
+            },
+            {
+              "hero": "Folio",
+              "talisman": "Talisman 2"
+            },
+            {
+              "hero": "Somna",
+              "talisman": "Talisman 2"
+            },
+            {
+              "hero": "Byrna",
+              "talisman": "Talisman 1"
+            },
+            {
+              "hero": "Julius",
+              "talisman": "Talisman 2"
+            }
+          ],
+          "testing_note": "Alexandre's favorite team for attacking Kayla and Aidan formations.",
+          "reported_win_rate": {
+            "percent": 99,
+            "attribution": "Alexandre, supplied notes",
+            "sample_size": null,
+            "note": "Reported personal result; no battle sample or test conditions supplied. Not a guaranteed matchup win rate."
+          }
+        }
+      ],
+      "legacy_popular_teams": {
+        "offense": [
+          [
+            "Ginger",
+            "Isaac",
+            "Nebula",
+            "Judge",
+            "Julius"
+          ],
+          [
+            "Jet",
+            "Ginger",
+            "Isaac",
+            "Sebastian",
+            "Julius"
+          ],
+          [
+            "Astrid and Lucas",
+            "Ginger",
+            "Isaac",
+            "Judge",
+            "Julius"
+          ],
+          [
+            "Fafnir",
+            "Artemis",
+            "Tristan",
+            "Julius",
+            "Cleaver"
+          ],
+          [
+            "Astrid and Lucas",
+            "Ginger",
+            "Isaac",
+            "Nebula",
+            "Julius"
+          ]
+        ],
+        "defense": [
+          [
+            "Julius",
+            "Judge",
+            "Nebula",
+            "Isaac",
+            "Ginger"
+          ],
+          [
+            "Cleaver",
+            "Julius",
+            "Tristan",
+            "Artemis",
+            "Fafnir"
+          ],
+          [
+            "Julius",
+            "Judge",
+            "Sebastian",
+            "Isaac",
+            "Ginger"
+          ],
+          [
+            "Chabba",
+            "Julius",
+            "Tristan",
+            "Artemis",
+            "Fafnir"
+          ],
+          [
+            "Julius",
+            "Judge",
+            "Jorgen",
+            "Isaac",
+            "Ginger"
+          ]
+        ]
+      },
+      "notes": [
+        "The first skill is the ultimate.",
+        "Shields allow Julius to support many teams beyond Way of Progress.",
+        "Tier ratings were labeled 2025 in the supplied material.",
+        "Winter Skin was supplied with 14190 Physical Attack, but its Skin+ status was not specified."
+      ],
+      "data_notes": [
+        {
+          "field": "stats.max_with_talisman_of_purrfection.toughness",
+          "note": "The supplied profiles differ by 8250 Toughness (17303 minus 9053), while the listed talisman rerolls total 6600. Both source values are preserved; no unexplained modifier has been inferred."
+        },
+        {
+          "field": "stats.max_with_talisman_of_purrfection.armor_penetration",
+          "note": "The source comparison displays -19800 as a change and 0 as the final stat. The stored value is 0."
+        }
+      ],
+      "relic_resources": {
+        "total_relic_shards_to_level_30": 2880
+      }
+    }
+  ]
+}
