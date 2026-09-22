@@ -3,54 +3,30 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
-  { date:'2026-09-21', type:'daily', mission:'2-8', note:'daily|80',
+  { date:'2026-09-22', type:'daily', mission:'3-5', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-  { date:'2026-09-20', type:'daily', mission:'3-14', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-    
-  { date:'2026-09-19', type:'daily', mission:'2-12', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+ 
       { date:'2026-09-18', type:'special', mission:'3-9', note:'until|2026-09-28T01:00:00Z',   
       rewards:['adventure-coin x1000', 'energy x20', 'adventure-energy x50'] },
-  { date:'2026-09-18', type:'daily', mission:'3-2', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+ 
      { date:'2026-09-17', type:'hub', code:'SPACE', note:'until|2026-09-28T01:00:00Z',  rewards:['summoning-sphere x5', 'gold 250k', 'energy x20'] },   
-  { date:'2026-09-17', type:'daily', mission:'2-14', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-  { date:'2026-09-16', type:'daily', mission:'3-11', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-  { date:'2026-09-15', type:'daily', mission:'2-2', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+  
  { date:'2026-09-14', type:'special', mission:'2-13', note:'until|2026-09-28T01:00:00Z',
     rewards:['seers-orb x50', 'energy x100', 'avatar x1'] },
     
-  { date:'2026-09-14', type:'daily', mission:'3-3', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-  { date:'2026-09-13', type:'daily', mission:'2-5', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+  
   { date:'2026-09-12', type:'hub', code:'WAKEUP', note:'until|2026-09-28T01:00:00Z',  rewards:['energy x100', 'large-skin-stone-chest x5'] },   
 
-  { date:'2026-09-12', type:'daily', mission:'3-8', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+  
      { date:'2026-09-11', type:'special', mission:'3-13', note:'until|2026-09-28T01:00:00Z',   
       rewards:['artifact-chest-key x5', 'energy x20', 'adventure-energy x50'] },
-  { date:'2026-09-11', type:'daily', mission:'2-4', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-  { date:'2026-09-10', type:'daily', mission:'3-7', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+  
 { date:'2026-09-09', type:'hub', code:'EVALOFI', note:'until|2026-09-28T01:00:00Z', rewards:['energy x100', 'large-skin-stone-chest x5'] },   
 
-  { date:'2026-09-09', type:'daily', mission:'2-9', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-  { date:'2026-09-08', type:'daily', mission:'3-4', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-  { date:'2026-09-07', type:'daily', mission:'2-11', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+  
  { date:'2026-09-06', type:'hub', code:'MARKSMAN', note:'until|2026-09-28T01:00:00Z',
     rewards:['energy x100', 'artifact-chest-key x5'] },
 
-{ date:'2026-09-06', type:'daily', mission:'3-5', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
 { date:'2026-09-04', type:'hub', code:'NEBULARELIC', note:'until|2026-09-28T01:00:00Z',  rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },   
  
