@@ -1,4 +1,4 @@
-/* npm run update-gifts-hwa
+/* npm run update-gifts-hwa           Link: https://hwa.nexters.com/c/ALEXANDREGAMES
 { date:'2026-09-##', type:'daily', mission:'#', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
