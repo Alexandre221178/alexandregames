@@ -54,6 +54,8 @@
 
     "update-best-farms-hwa-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide best-farms-hwa",
 
+"update-stats-guide-hwa-hwa": "node hero-wars-alliance/update-data-menu-hwa.js beginners-guide-hwa stats-guide-hwa",
+
     
     "update-alvanor-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide alvanor",
     "update-byrna-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide byrna",
