@@ -24,7 +24,8 @@
       "tower_tier_list": "SS",
       "campaign_tier_list": "SS",
       "tier_list_reference_year": 2026,
-      "best_synergy": "Nebula, Eva, Isaac, Judge; also fits many teams through his shields.",
+      "best_synergy": "Judge, Isaac, Nebula, Eva, Lara Croft, Ginger, Polaris, Astrid and Lucas. Shields, extra speed, and the level-30 Relic skill strengthen these synergies by adding Armor Penetration for each active shield.",
+      "relic_overview": "With his Relic, Julius becomes an even stronger cornerstone for Progress teams. He protects vulnerable allies more effectively, turns broken shields into healing, removes negative effects, and grants substantial Armor Penetration. This improves both team survivability and allied damage.",
       "stats": {
         "max_with_talisman_of_paw_sitivity": {
           "intelligence": 4275,
@@ -140,6 +141,7 @@
           "shield_durability": "500% Physical Attack + 6000",
           "relic_boost": {
             "legendary_relic_level": 10,
+            "alexandre_tip": "Agora, quebrar qualquer escudo cura os aliados protegidos: se o escudo protegia apenas um herói, somente ele recebe cura; se protegia toda a equipe, todos são curados. A cura do escudo da habilidade suprema já faz parte do efeito base.",
             "description": "When a shield is destroyed or expires, the hero protected by it recovers Health. Does not apply to the Meowsterpiece of Defense skill. Way of Progress heroes receive twice as much healing.",
             "relic_total_stats_gain": {
               "health": 53269,
@@ -182,6 +184,7 @@
           "duration_seconds": 1.5,
           "relic_boost": {
             "legendary_relic_level": 20,
+            "alexandre_tip": "Julius também remove efeitos negativos dos aliados quando aplica um escudo. Isso fortalece a equipe contra Iris e outros heróis com muitos efeitos de controle, como Satori, Tempus e Phobos.",
             "description": "Whenever Julius or an ally gains a shield, all negative effects are removed from that hero.",
             "relic_total_stats_gain": {
               "health": 146854,
@@ -211,6 +214,7 @@
           "variant": "legendary",
           "legendary_relic_level": 1,
           "name": "Pawsitive Influence",
+          "alexandre_tip": "Julius concede um escudo adicional ao aliado com menos Vida. Quanto mais Vida esse aliado já perdeu, mais forte fica o escudo: uma ótima forma de salvar o herói mais vulnerável!",
           "type": [
             "Shield"
           ],
@@ -232,6 +236,7 @@
           "variant": "legendary",
           "legendary_relic_level": 30,
           "name": "Defensive Lunge",
+          "alexandre_tip": "Enquanto Julius e seus aliados têm escudos, recebem Penetração de Armadura adicional, com um bônus separado para cada escudo ativo no herói. Isso não transforma Julius em uma máquina de causar dano, mas oferece aos atiradores do Progresso uma fonte consistente de Penetração de Armadura que faz muita diferença.",
           "type": [
             "Buff"
           ],
@@ -398,25 +403,28 @@
       "counters": [
         {
           "hero": "Leonel",
-          "reason": "Threatens shield-based defenses."
+          "reason": "Destroys shields and threatens Julius's defenses, especially without Judge. Judge's additional shield on the frontmost ally reinforces Julius's protection in Alexandre's reported tests."
         },
         {
           "hero": "Oya",
           "reason": "Counters shield-based defenses."
-        },
-        {
-          "hero": "Iris",
-          "reason": "Julius is vulnerable against Iris teams, according to the supplied matchup notes."
         }
       ],
+      "strong_against": [
+        "Iris",
+        "Satori",
+        "Tempus",
+        "Phobos"
+      ],
+      "strong_against_note": "According to Alexandre's updated Relic notes, the level-20 shield application cleanse strengthens Julius against these four mages.",
       "synergies": [
         {
           "hero": "Nebula",
-          "reason": "Her healing and offensive buffs scale with Physical Attack; Talisman of Consistency supports the proposed Progress core."
+          "reason": "Provides attack buffs, removes negative effects, and heals. Alexandre considers her essential to the Julius, Judge, and Eva combo: without Nebula, the combination performs much worse in his PvP tests."
         },
         {
           "hero": "Eva",
-          "reason": "Completes the proposed Way of Progress core and benefits from Julius's enhanced Progress support."
+          "reason": "Deals exceptionally high damage in Alexandre's tests alongside Julius, Nebula, and Judge, benefiting from shield protection and Julius's Relic support."
         },
         {
           "hero": "Isaac",
@@ -424,7 +432,27 @@
         },
         {
           "hero": "Judge",
-          "reason": "Adds another layer of shields to the formation."
+          "reason": "Shields the frontmost and rearmost allies, protecting Julius at the front and Eva at the back in the proposed formation. His extra shield reinforces Julius against Leonel."
+        },
+        {
+          "hero": "Lara Croft",
+          "reason": "Recommended physical damage partner who benefits from shield protection, extra speed, and Armor Penetration from Julius's level-30 Relic skill; also an option for the fifth slot in Alexandre's PvP core."
+        },
+        {
+          "hero": "Ginger",
+          "reason": "Progress Marksman who benefits from shields, extra speed, and the Armor Penetration bonus for each active shield."
+        },
+        {
+          "hero": "Polaris",
+          "reason": "Recommended partner in the supplied Relic notes, an option for the fifth slot in Alexandre's PvP core, and part of the Julius, Judge, Folio, Isaac, and Polaris team."
+        },
+        {
+          "hero": "Astrid and Lucas",
+          "reason": "Recommended Progress damage partner who benefits from shields, extra speed, and Julius's Relic Armor Penetration support."
+        },
+        {
+          "hero": "Crow",
+          "reason": "An additional fifth-slot option tested by Alexandre alongside Julius, Judge, Nebula, and Eva."
         }
       ],
       "shield_skill_synergies": [
@@ -529,10 +557,32 @@
               "talisman": "Talisman 2"
             }
           ],
-          "testing_note": "Julius and Judge provide layered protection; Isaac supports physical pressure, Eva completes the Progress core, and Nebula improves healing and offensive buffs."
+          "testing_note": "Alexandre's first recommended team: Julius, Judge, Nebula, Isaac, and Eva. Julius and Judge provide layered protection; Nebula supplies attack buffs, cleansing, and healing; Eva deals very high damage, and Isaac adds shields and physical support."
         },
         {
           "rank": 2,
+          "label": "Julius, Judge, Folio, Isaac, and Polaris",
+          "heroes": [
+            {
+              "hero": "Julius"
+            },
+            {
+              "hero": "Judge"
+            },
+            {
+              "hero": "Folio"
+            },
+            {
+              "hero": "Isaac"
+            },
+            {
+              "hero": "Polaris"
+            }
+          ],
+          "testing_note": "Alexandre's second recommended team in the updated Relic notes."
+        },
+        {
+          "rank": 3,
           "label": "Julius Team #2",
           "heroes": [
             {
@@ -558,7 +608,7 @@
           ]
         },
         {
-          "rank": 3,
+          "rank": 4,
           "label": "Julius Team #3",
           "heroes": [
             {
@@ -584,7 +634,7 @@
           ]
         },
         {
-          "rank": 4,
+          "rank": 5,
           "label": "Julius Team #4",
           "heroes": [
             {
@@ -617,6 +667,53 @@
           }
         }
       ],
+      "battle_notes": {
+        "attribution": "Alexandre",
+        "mode": "PvP",
+        "core_heroes": [
+          "Julius",
+          "Judge",
+          "Nebula",
+          "Eva"
+        ],
+        "flexible_fifth_slot": [
+          "Isaac",
+          "Polaris",
+          "Lara Croft",
+          "Crow"
+        ],
+        "observations": [
+          "Nos meus testes de PvP, Julius tem impressionado. Eva, Julius, Nebula e Juiz parecem formar o melhor núcleo: Eva causa um dano muito alto nessa combinação.",
+          "Nebula aumenta o ataque, limpa efeitos negativos e cura. Sem ela, esse combo não funciona tão bem e pode decepcionar.",
+          "Juiz protege o aliado mais ao fundo e o mais à frente. Nessa formação, os escudos protegem Eva na retaguarda e reforçam Julius na linha de frente contra Leonel, que destrói escudos. Usar Julius sem Juiz pode trazer problemas contra Leonel.",
+          "Isaac, Polaris, Lara Croft, Crow e outros heróis podem ocupar a quinta vaga.",
+          "Com Relíquias fortes em Eva e Julius, o combo venceu equipes que considero entre as mais fortes da atualidade, mesmo com menos poder: cerca de 970 mil contra adversários com mais de 1 milhão."
+        ],
+        "reported_team_power": 970000,
+        "reported_wins": [
+          {
+            "opponent_heroes": [
+              "Cleaver",
+              "Byrna",
+              "Kendle",
+              "Dorian",
+              "Aidan"
+            ],
+            "opponent_power_greater_than": 1000000
+          },
+          {
+            "opponent_heroes": [
+              "Leonel",
+              "Byrna",
+              "Guus",
+              "Polaris",
+              "Aidan"
+            ],
+            "opponent_power_greater_than": 1000000
+          }
+        ],
+        "testing_note": "Resultados pessoais relatados por Alexandre, incluindo vitórias contra outros times fortes. A quinta vaga de cada batalha, os níveis exatos das Relíquias e a quantidade de testes não foram informados."
+      },
       "legacy_popular_teams": {
         "offense": [
           [
