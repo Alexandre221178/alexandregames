@@ -1,53 +1,54 @@
 (function(){
   // Active Ascendant Glory guides shown below the main calendar - carousel.
   var slides = [
- {
-      link: "/hero-wars-alliance/event-hwa/ascendant-glory-champions-gallery-en.html",
-      src500: "/hero-wars-alliance/images/events/ascendant-glory/champions-gallery-500px.webp",
-      src400: "/hero-wars-alliance/images/events/ascendant-glory/champions-gallery-400px.webp",
-      alt: "Champion's Gallery Shop Guide for Hero Wars Alliance",
-      title: "Champion's Gallery Shop Guide for Hero Wars Alliance",
-      strong: "Kendle - Champion's Gallery Shop Guide",
+ 
+    {
+      link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-event-group-en.html",
+      src500: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-elements-event-group-500px.webp",
+      src400: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-elements-event-group-400px.webp",
+      alt: "Lords of the Elements event group Guide for Hero Wars Alliance",
+      title: "Lords of the Elements event group Guide for Hero Wars Alliance",
+      strong: "Lords of the Elements event group Guide",
+      updated: "Updated: September, 2026."
+    },
+     {
+      link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-titans-roar-en.html",
+      src500: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki1-titans-roar-500px.webp",
+      src400: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki1-titans-roar-400px.webp",
+      alt: "Lords of the Elements event group: Titan's Roar Guide for Hero Wars Alliance",
+      title: "Lords of the Elements: Titan's Roar Guide for Hero Wars Alliance",
+      strong: "Lords of the Elements: Titan's Roar Guide",
+      updated: "Updated: September, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-elemental-tempest-en.html",
+      src500: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki2-elemental-tempest-500px.webp",
+      src400: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki2-elemental-tempest-400px.webp",
+      alt: "Lords of the Elements: Elemental Tempest Guide for Hero Wars Alliance",
+      title: "Lords of the Elements: Elemental Tempest Guide for Hero Wars Alliance",
+      strong: "Lords of the Elements: Elemental Tempest Guide",
+      updated: "Updated: September, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-united-by-power-en.html",
+      src500: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki3-united-by-power-500px.webp",
+      src400: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki3-united-by-power-400px.webp",
+      alt: "Lords of the Elements: United by Power Guide for Hero Wars Alliance",
+      title: "Lords of the Elements: United by Power Guide for Hero Wars Alliance",
+      strong: "Lords of the Elements: United by Power Guide",
+      updated: "Updated: September, 2026."
+    },
+    
+    {
+      link: "/hero-wars-alliance/events-tips-hwa/lords-of-the-elements-shop-en.html",
+      src500: "/hero-wars-alliance/images/events-tips-hwa/lords-of-the-elements-shop/lords-of-the-elements-shop-500px.webp",
+      src400: "/hero-wars-alliance/images/events-tips-hwa/lords-of-the-elements-shop/lords-of-the-elements-shop-400px.webp",
+      alt: "Lords of the Elements Shop Guide for Hero Wars Alliance",
+      title: "Lords of the Elements Shop Guide for Hero Wars Alliance",
+      strong: "Lords of the Elements Shop Guide",
       updated: "Updated: September, 2026."
     },
 
-    {
-      link: "/hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html",
-      src500: "/hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-500px.webp",
-      src400: "/hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-400px.webp",
-      alt: "Ascendant Glory Event Group Guide for Hero Wars Alliance",
-      title: "Ascendant Glory Event Group Guide for Hero Wars Alliance",
-      strong: "Ascendant Glory Event Group Guide",
-      updated: "Updated: September, 2026."
-    },
-    {
-      link: "/hero-wars-alliance/event-hwa/ascendant-glory-rising-legend-en.html",
-      src500: "/hero-wars-alliance/images/events/ascendant-glory/rising-legend-500px.webp",
-      src400: "/hero-wars-alliance/images/events/ascendant-glory/rising-legend-400px.webp",
-      alt: "Rising Legend Event Guide for Hero Wars Alliance",
-      title: "Rising Legend Event Guide for Hero Wars Alliance",
-      strong: "Rising Legend Event Guide",
-      updated: "Updated: September, 2026."
-    },
-    {
-      link: "/hero-wars-alliance/event-hwa/ascendant-glory-spark-of-glory-en.html",
-      src500: "/hero-wars-alliance/images/events/ascendant-glory/spark-glory-500px.webp",
-      src400: "/hero-wars-alliance/images/events/ascendant-glory/spark-glory-400px.webp",
-      alt: "Spark of Glory Skin Plus Event Guide for Hero Wars Alliance",
-      title: "Spark of Glory Skin Plus Event Guide for Hero Wars Alliance",
-      strong: "Spark of Glory Skin+ Event Guide",
-      updated: "Updated: September, 2026."
-    },
-    {
-      link: "/hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html",
-      src500: "/hero-wars-alliance/images/events/ascendant-glory/trial-of-legends-500px.webp",
-      src400: "/hero-wars-alliance/images/events/ascendant-glory/trial-of-legends-400px.webp",
-      alt: "Trial of Legends Event Guide for Hero Wars Alliance",
-      title: "Trial of Legends Event Guide for Hero Wars Alliance",
-      strong: "Trial of Legends Event Guide",
-      updated: "Updated: September, 2026."
-    },
-   
     
     
   ];

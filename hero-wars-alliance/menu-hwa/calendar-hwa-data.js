@@ -1191,6 +1191,19 @@ links: { en: "../../hero-wars-alliance/characters-guide/peech-en.html", pt: "../
   ]
   },
   {
+    weekday: "Julius Guide",
+    date: "",
+    image: "../../imagens/image-shared/julius-300px.webp",
+    alt: "Julius Guide",
+    titles: { en: "🦸Julius Guide", pt: "🦸Guia de Julius", de: "🦸Julius Leitfaden", es: "🦸Guía de Julius", fr: "🦸Guide de Julius", ja: "🦸ジュリウス ガイド" },
+  links: { en: "../../hero-wars-alliance/characters-guide/julius-en.html", pt: "../../hero-wars-alliance/characters-guide/julius-pt.html", de: "../../hero-wars-alliance/characters-guide/julius-de.html", es: "../../hero-wars-alliance/characters-guide/julius-es.html", fr: "../../hero-wars-alliance/characters-guide/julius-fr.html", ja: "../../hero-wars-alliance/characters-guide/julius-ja.html" },
+  noStrip: true,
+  extra: [
+
+
+   ]
+  },
+  {
     weekday: "Eva Guide",
     date: "",
     image: "../../imagens/image-shared/eva-300px.webp",
