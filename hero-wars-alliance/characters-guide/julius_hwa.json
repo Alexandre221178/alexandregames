@@ -309,10 +309,11 @@
           "total_strength_skin_stones": 50410
         },
         {
-          "name": "Winter Skin",
+          "name": "Winter Skin+",
           "stat": "Physical Attack",
           "bonus": 14190,
-          "total_strength_skin_stones": 50410
+          "total_strength_skin_stones": 50410,
+          "is_skin_plus": true
         }
       ],
       "artifacts": {
@@ -794,7 +795,7 @@
         "The first skill is the ultimate.",
         "Shields allow Julius to support many teams beyond Way of Progress.",
         "Tier ratings were labeled 2025 in the supplied material.",
-        "Winter Skin was supplied with 14190 Physical Attack, but its Skin+ status was not specified."
+        "Winter Skin+ grants 14190 Physical Attack; the bonus already includes the Skin+ upgrade."
       ],
       "data_notes": [
         {
