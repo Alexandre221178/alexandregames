@@ -152,10 +152,15 @@
   },
   "Julius": {
     "image": "../../imagens/image-shared/julius.webp",
-    "guides": {
-      "en": "../characters-guide/julius-guide-en.html",
-      "pt": "../characters-guide/julius-guide-pt.html"
-    },
+     "guide": "../characters-guide/julius-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
     "names": {
       "ja": "ジュリアス"
     }

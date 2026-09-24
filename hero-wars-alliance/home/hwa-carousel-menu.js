@@ -2,13 +2,22 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
+      link: "/hero-wars-alliance/characters-guide/julius-en.html",
+      src500: "/hero-wars-alliance/images/hero/julius/julius-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/julius/julius-400px.webp",
+      alt: "Julius Guide for Hero Wars Alliance",
+      title: "Julius Guide for Hero Wars Alliance",
+      strong: "Guide: Julius for Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    },   
+    {
       link: "/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-en.html",
       src500: "/hero-wars-alliance/images/beginners-guide-hwa/stats-guide-hwa/stats-guide-hwa-500px.webp",
       src400: "/hero-wars-alliance/images/beginners-guide-hwa/stats-guide-hwa/stats-guide-hwa-400px.webp",
       alt: "Stats Guide: Build Smarter, Hit Harder - Hero Wars Alliance",
       title: "Stats Guide: Build Smarter, Hit Harder - Hero Wars Alliance",
       strong: "Guide: Stats - Hero Wars Alliance",
-      updated: "Updated: August, 2026."
+      updated: "Updated: September, 2026."
     },    
     {
       link: "/hero-wars-alliance/characters-guide/nebula-en.html",
