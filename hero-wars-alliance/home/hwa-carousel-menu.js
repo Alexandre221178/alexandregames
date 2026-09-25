@@ -2,6 +2,15 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
+      link: "../../hero-wars-alliance/titans-guide/metida-en.html",
+      src500: "../../hero-wars-alliance/images/titans/metida/metida-500px.webp",
+      src400: "../../hero-wars-alliance/images/titans/metida/metida-400px.webp",
+      alt: "Metida Guide for Hero Wars Alliance",
+      title: "Titan Metida Guide for Hero Wars Alliance",
+      strong: "Guide: Super Titan Metida for Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    }, 
+    {
       link: "/hero-wars-alliance/characters-guide/julius-en.html",
       src500: "/hero-wars-alliance/images/hero/julius/julius-500px.webp",
       src400: "/hero-wars-alliance/images/hero/julius/julius-400px.webp",
@@ -159,15 +168,7 @@
     },       
         
     
-    {
-      link: "../../hero-wars-alliance/titans-guide/orm-en.html",
-      src500: "../../hero-wars-alliance/images/titans/orm/orm-500px.webp",
-      src400: "../../hero-wars-alliance/images/titans/orm/orm-400px.webp",
-      alt: "Orm Legendary Skills Guide for Hero Wars Alliance",
-      title: "Titan Orm Guide for Hero Wars Alliance",
-      strong: "Guide: Titan Orm for Hero Wars Alliance",
-      updated: "Updated: June, 2026."
-    }, 
+    
          
     
     {
