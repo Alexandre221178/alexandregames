@@ -235,6 +235,15 @@ const hwaTitansLocalization = {
     "pt": "Lumira",
     "ja": "ルミラ"
   },
+  "Metida": {
+    "gender": "Female",
+    "en": "Metida",
+    "de": "Metida",
+    "es": "Metida",
+    "fr": "Metida",
+    "pt": "Metida",
+    "ja": "メティダ"
+  },
   "Orm": {
     "gender": "Male",
     "en": "Orm",
