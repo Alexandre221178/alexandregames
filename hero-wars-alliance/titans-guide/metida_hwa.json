@@ -1,0 +1,195 @@
+{
+  "id": "metida",
+  "name": "Metida",
+  "type": "titan",
+  "game_id": "Hero Wars Alliance",
+  "role": ["super titan"],
+  "main_role": "Super Titan",
+  "position": "back line",
+  "main_stat": "Physical Attack",
+  "element": ["elarite"],
+  "synergy": {
+    "type": "Earth, Water, Fire and Elarite Titans",
+    "elements": ["earth", "water", "fire", "elarite"]
+  },
+  "stats": {
+    "health": 15283000,
+    "physical_attack": 717470,
+    "extra_defense_from_light_and_dark_titans": 120600,
+    "extra_damage_to_light_and_dark_titans": 213000
+  },
+  "description": "Metida is an Elarite Super Titan positioned in the back line. Crystal Vortex controls the central enemy, while Supreme Harmony empowers allies based on the number of surviving Titans of each element.",
+  "skills": [
+    {
+      "id": 1,
+      "variant": "base",
+      "name": "Crystal Vortex",
+      "type": ["ultimate", "control", "damage"],
+      "duration_seconds": 5,
+      "tick_interval_seconds": 1,
+      "target": "enemy in the center",
+      "description": "Summons a whirlwind for 5.0 seconds that traps the central enemy. The whirlwind deals damage every 1 second and moves the enemy around the battlefield. While trapped, the enemy cannot move, attack, or use skills.",
+      "effects": {
+        "damage_per_tick": 717470,
+        "damage_per_tick_formula": "100% physical attack",
+        "prevents": ["movement", "attacks", "skills"]
+      },
+      "scales_with": ["Physical Attack"]
+    },
+    {
+      "id": 2,
+      "variant": "base",
+      "name": "Supreme Harmony",
+      "type": ["support", "healing", "buff"],
+      "duration_seconds": 9,
+      "target": "allies",
+      "description": "Empowers allies for 9.0 seconds. The bonuses depend on the number of surviving Titans of each element: each Fire Titan provides healing to all allies every second; each Water Titan increases all allies' Physical Attack; each Earth Titan increases all allies' speed by 10; each Elarite Titan increases the damage of one ally, prioritizing Titans with the highest Attack.",
+      "effects": {
+        "fire": {
+          "target": "all allies",
+          "tick_interval_seconds": 1,
+          "healing_per_tick_per_surviving_titan": 71747,
+          "healing_formula": "10% of Metida's physical attack per surviving Fire Titan"
+        },
+        "water": {
+          "target": "all allies",
+          "physical_attack_increase_per_surviving_titan": 143494,
+          "physical_attack_increase_formula": "20% of Metida's physical attack per surviving Water Titan"
+        },
+        "earth": {
+          "target": "all allies",
+          "speed_increase_per_surviving_titan": 10
+        },
+        "elarite": {
+          "target": "one ally per surviving Elarite Titan",
+          "priority": "Titans with the highest Attack",
+          "damage_increase": 143494,
+          "damage_increase_formula": "20% of Metida's physical attack"
+        }
+      },
+      "scales_with": ["Physical Attack", "Number of surviving Titans of each element"]
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": {
+        "physical_attack": 196800
+      },
+      "level": 60,
+      "max_level": 60
+    },
+    {
+      "name": "Primordial Skin+",
+      "stats": {
+        "health": 5255950
+      },
+      "level": 60,
+      "max_level": 60,
+      "skin_plus": {
+        "enabled": true,
+        "base_skin_name": "Primordial Skin",
+        "base_skin_stats_at_max_level": {
+          "health": 2627975
+        },
+        "stat_multiplier": 2,
+        "upgrade_currency": "Titan Skin Stones",
+        "upgrade_cost_same_as_base_skin": true,
+        "notes": "Activating Skin+ immediately doubles the base skin's stats at its current level, whether activated before or after upgrading. The Titan Skin Stone cost to level the skin remains the same as the base skin."
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "Zorval's Amulet",
+      "type": "weapon",
+      "level": 120,
+      "activation_chance": 100,
+      "duration_seconds": 9,
+      "activation_skill": "Crystal Vortex",
+      "target": "whole team",
+      "stats": {
+        "extra_damage_to_light_and_dark_titans": 150000
+      },
+      "description": "When Metida uses Crystal Vortex in combat, the weapon artifact activates and grants bonus damage to Light and Dark Titans to the whole team for 9 seconds."
+    },
+    {
+      "name": "Elarite Crown",
+      "type": "crown",
+      "level": 120,
+      "stats": {
+        "extra_damage_to_light_and_dark_titans": 213000,
+        "extra_defense_from_light_and_dark_titans": 120600
+      }
+    },
+    {
+      "name": "Chthonic Balance Seal",
+      "type": "seal",
+      "level": 120,
+      "stats": {
+        "physical_attack": 97500,
+        "health": 3975000
+      }
+    }
+  ],
+  "best_teams": [
+    {
+      "id": 1,
+      "name": "Metida with Hyperion, Tydus, Orm and Sigurd",
+      "members": ["Hyperion", "Metida", "Tydus", "Orm", "Sigurd"],
+      "notes": "Venceu 10/10 contra o time de Luz e 10/10 contra o time de Escuridão nos testes informados."
+    },
+    {
+      "id": 2,
+      "name": "Metida with Hyperion, Asherona, Araji and Orm",
+      "members": ["Hyperion", "Metida", "Asherona", "Araji", "Orm"],
+      "notes": "Venceu 10/10 contra o time de Terra nos testes informados."
+    },
+    {
+      "id": 3,
+      "name": "Metida with Hyperion, Araji, Orm and Angus",
+      "members": ["Hyperion", "Metida", "Araji", "Orm", "Angus"],
+      "notes": "Venceu 10/10 contra o time misto com Brustar, Araji, Mort, Umbra e Metida nos testes informados."
+    }
+  ],
+  "miscellaneous": {
+    "notes": [
+      "Segundo as informações fornecidas, Metida é o primeiro titã a receber Skin+ em Hero Wars Alliance.",
+      "Os valores das habilidades foram calculados usando o ataque físico máximo informado de 717470: 10% = 71747; 20% = 143494; 100% = 717470."
+    ]
+  },
+  "nota_pvp": {
+    "resumo": "Quatro confrontos informados pelo usuário, com todos os titãs no máximo e 10 vitórias em 10 batalhas para cada composição testada.",
+    "fonte": "Testes fornecidos pelo usuário; não reproduzidos independentemente.",
+    "testes": [
+      {
+        "time_1": ["Hyperion", "Metida", "Tydus", "Orm", "Sigurd"],
+        "placar": "10vs0",
+        "time_2": ["Rigel", "Iyari", "Lumira", "Solaris", "Amon"],
+        "tipo_time_2": "Luz"
+      },
+      {
+        "time_1": ["Hyperion", "Metida", "Tydus", "Orm", "Sigurd"],
+        "placar": "10vs0",
+        "time_2": ["Brustar", "Keros", "Umbra", "Mort", "Tenebris"],
+        "tipo_time_2": "Escuridão"
+      },
+      {
+        "time_1": ["Hyperion", "Metida", "Asherona", "Araji", "Orm"],
+        "placar": "10vs0",
+        "time_2": ["Angus", "Avalon", "Verdoc", "Eden", "Sylva"],
+        "tipo_time_2": "Terra"
+      },
+      {
+        "time_1": ["Hyperion", "Metida", "Araji", "Orm", "Angus"],
+        "placar": "10vs0",
+        "time_2": ["Brustar", "Araji", "Mort", "Umbra", "Metida"],
+        "tipo_time_2": "Misto",
+        "observacao": "O relato original chamou este adversário de full terra, mas a composição listada é mista; os integrantes foram preservados."
+      }
+    ],
+    "observacoes": [
+      "O nome Sigure foi normalizado para Sigurd."
+    ]
+  }
+}

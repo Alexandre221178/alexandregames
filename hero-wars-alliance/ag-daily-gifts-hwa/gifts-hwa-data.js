@@ -3,8 +3,21 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
-{ date:'2026-09-22', type:'hub', code:'CATRELIC', note:'until|2026-09-28T01:00:00Z',  rewards:['energy x100', 'artifact-chest-key x5'] },    
+  { date:'2026-09-26', type:'special', mission:'3-8', note:'until|2026-09-28T01:00:00Z',   
+      rewards:['adventure-coin x1000', 'energy x100'] },
 
+{ date:'2026-09-26', type:'daily', mission:'3-7', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+      { date:'2026-09-25', type:'hub', code:'METIDATRAILER', note:'until|2026-10-26T01:00:00Z',
+    rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
+  { date:'2026-09-25', type:'daily', mission:'2-9', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+    { date:'2026-09-24', type:'hub', code:'METIDALIVE', note:'until|2026-09-27T01:00:00Z',
+    rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
+  { date:'2026-09-24', type:'daily', mission:'3-4', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+  { date:'2026-09-23', type:'daily', mission:'2-11', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },{ date:'2026-09-22', type:'hub', code:'CATRELIC', note:'until|2026-09-28T01:00:00Z',  rewards:['energy x100', 'artifact-chest-key x5'] },    
     
   { date:'2026-09-22', type:'daily', mission:'3-5', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },

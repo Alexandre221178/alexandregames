@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta property="article:published_time" content="2023-07-31T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-08-26T21:22:35-03:00">
+  <meta property="article:modified_time" content="2026-09-25T19:18:04-03:00">
   <title>全タイタンガイド | ヒーローウォーズ・アライアンス</title>
   <meta name="description" content="ヒーローウォーズ・アライアンスの全タイタンを属性別に紹介。スキル、チーム、対策、スキン、アーティファクト、育成優先度、バトル戦略を確認できます。">
   <meta name="keywords" content="ヒーローウォーズ・アライアンス タイタン, タイタンガイド, タイタンチーム, タイタン対策, タイタンアーティファクト, タイタンスキン, ダンジョン">
@@ -95,6 +95,7 @@
     a.titan-card:hover{transform:translateY(-4px);box-shadow:0 10px 22px rgba(22,32,51,.15)}
     a.titan-card:focus-visible{outline:3px solid #345fc0;outline-offset:3px}
     .titan-card[data-element="fire"]{--element-color:#d84335}.titan-card[data-element="water"]{--element-color:#2684d9}.titan-card[data-element="earth"]{--element-color:#3d8c4c}.titan-card[data-element="light"]{--element-color:#d59b14}.titan-card[data-element="dark"]{--element-color:#7046a1}
+    .titan-card[data-element="elarite"]{--element-color:#573b9d}
     .titan-portrait{display:grid;place-items:center;width:42%;min-width:104px;background:linear-gradient(145deg,color-mix(in srgb,var(--element-color) 18%,#fff),#f4f6fa)}
     .titan-portrait img{display:block;width:100%;height:auto;aspect-ratio:300/260;object-fit:contain}
     .titan-card-body{display:flex;min-width:0;flex:1;flex-direction:column;align-items:flex-start;padding:13px 12px}
@@ -154,9 +155,9 @@
             <h2 id="directory-heading">より強力なタイタンチームを編成しよう</h2>
             <p>属性を選び、タイタンを見つけてガイドを開くと、スキル、対策、アーティファクト、スキン、育成優先度、バトル戦略を確認できます。</p>
             <ul class="directory-stats" aria-label="ディレクトリの統計">
-              <li><strong>28</strong>体のタイタン</li>
-              <li><strong>25</strong>件のガイド</li>
-              <li><strong>5</strong>属性</li>
+              <li><strong>29</strong>体のタイタン</li>
+              <li><strong>26</strong>件のガイド</li>
+              <li><strong>6</strong>属性</li>
             </ul>
           </div>
           <picture>
@@ -178,7 +179,7 @@
             <button type="button" data-filter="dark" aria-pressed="false">闇</button>
             <button type="button" data-filter="elarite" aria-pressed="false">エラライト</button>
           </div>
-          <p id="directory-status" class="directory-status" aria-live="polite">全28体のタイタンを表示しています。</p>
+          <p id="directory-status" class="directory-status" aria-live="polite">全29体のタイタンを表示しています。</p>
         </section>
 
         <section id="fire-titans" class="element-group" data-element-group="fire" style="--element-color:#d84335">
@@ -238,6 +239,13 @@
             <a class="titan-card" data-titan-card data-name="モルト Mort サポート support" data-element="dark" href="../../Hero%20Wars/Guia%20de%20Tit%C3%A3s%20Hero%20Wars/mort-english.html"><div class="titan-portrait"><img src="../../imagens/image-shared/mort-300px.webp" alt="モルト（Mort）— 闇のタイタン" width="300" height="260" loading="lazy"></div><div class="titan-card-body"><span class="element-label">闇</span><h3>モルト（Mort） (EN)</h3><p class="titan-role">サポート</p><span class="card-action">ガイドを開く &rarr;</span></div></a>
             <a class="titan-card" data-titan-card data-name="テネブリス Tenebris スーパータイタン super titan 射撃手 marksman" data-element="dark" href="../../Hero%20Wars/Guia%20de%20Tit%C3%A3s%20Hero%20Wars/tenebris-en-herowars-mobile.html"><div class="titan-portrait"><img src="../../imagens/image-shared/tenebris-300px.webp" alt="テネブリス（Tenebris）— 闇のスーパータイタン" width="300" height="260" loading="lazy"></div><div class="titan-card-body"><span class="element-label">闇</span><h3>テネブリス（Tenebris） (EN)</h3><p class="titan-role">スーパータイタン</p><span class="card-action">ガイドを開く &rarr;</span></div></a>
             <a class="titan-card" data-titan-card data-name="アンブラ Umbra 召喚士 summoner" data-element="dark" href="../titans-guide/umbra-ja.html"><div class="titan-portrait"><img src="../../imagens/image-shared/umbra-300px.webp" alt="アンブラ（Umbra）— 闇のタイタン" width="300" height="260" loading="lazy"></div><div class="titan-card-body"><span class="element-label">闇</span><h3>アンブラ（Umbra）</h3><p class="titan-role">召喚士</p><span class="card-action">ガイドを開く &rarr;</span></div></a>
+          </div>
+        </section>
+
+        <section id="elarite-titans" class="element-group" data-element-group="elarite" style="--element-color:#573b9d">
+          <div class="element-heading"><h2>エラライトタイタン</h2><span>1体のタイタン</span></div>
+          <div class="titan-grid">
+            <a class="titan-card" data-titan-card data-name="メティダ スーパータイタン エラライト" data-element="elarite" data-elarite="true" href="../titans-guide/metida-ja.html"><div class="titan-portrait"><img src="../../imagens/image-shared/metida-300px.webp" alt="メティダ &#8212; エラライト スーパータイタン" width="300" height="260" loading="lazy"></div><div class="titan-card-body"><span class="elarite-label">エラライト</span><h3>メティダ</h3><p class="titan-role">スーパータイタン</p><span class="card-action">ガイドを開く &rarr;</span></div></a>
           </div>
         </section>
 
@@ -336,7 +344,7 @@
         group.hidden=!group.querySelector('[data-titan-card]:not([hidden])');
       });
       empty.style.display=visible?'none':'block';
-      status.textContent=visible===28?'全28体のタイタンを表示しています。':`28体中${visible}体のタイタンを表示しています。`;
+      status.textContent=visible===29?'全29体のタイタンを表示しています。':`29体中${visible}体のタイタンを表示しています。`;
     }
 
     buttons.forEach(function(button){

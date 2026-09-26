@@ -1,5 +1,5 @@
 /* HWDE Daily Gifts Data  -  npm run update-gifts-hwde
-https://www.hero-wars.com/?nx_source=group_posting_giftweb&gift_id=da76d084ddc6eb61e48498a0fb3c682e
+https://www.hero-wars.com/?nx_source=group_posting_giftweb&gift_id=
 // ── September #, 2026 ─────────────────────────────
    { date:'2026-09-##', type:'link', giftId:'######', note:'level',
    rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'divine-card x5', 'energy x200', 'portal-charge x1' ] },
@@ -11,6 +11,26 @@ https://www.hero-wars.com/?nx_source=group_posting_giftweb&gift_id=da76d084ddc6e
  note:'until|2026-09-##T02:00:00Z', rewards:['energy x500'] },
 https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
 */window.HWDE_GIFTS = [
+   { date:'2026-09-26', type:'link', giftId:'8369fcd4afce318ecb438304a60db30c', note:'level',
+ rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] }, 
+
+{ date:'2026-09-26', type:'link', giftLinkWeb:'https://herowars.me/4dxpIHI', giftLinkFb:'https://herowars.me/3TpQ1c6',
+ note:'until|2026-10-01T02:00:00Z', rewards:['energy-crystal x16', 'valor-coin x8000', 'sapphire-medallion x1' ] },
+
+
+ { date:'2026-09-25', type:'link', giftId:'338d8a5fa9b4b27f1c283e6ac22fe763', note:'level',
+   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'divine-card x5', 'energy x200', 'portal-charge x1' ] },
+    { date:'2026-09-24', type:'link', giftId:'27e20c3eb42a9e7d003537cc1edd8cf2', note:'level',
+   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'divine-card x5', 'energy x200', 'portal-charge x1' ] },
+{ date:'2026-09-24', type:'link', giftLinkWeb:'https://herowars.me/3V0lSRd', giftLinkFb:'https://herowars.me/3TjHxmS',
+ note:'until|2026-10-01T02:00:00Z', rewards:['energy x500','energy-crystal x16', 'valor-coin x8500', 'sapphire-medallion x2' ] },
+
+
+    { date:'2026-09-23', type:'link', giftId:'180a95bf2ee9cb5eec4850912ed47410', note:'level',
+   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'divine-card x5', 'energy x200', 'portal-charge x1' ] },
+{ date:'2026-09-22', type:'link', giftLinkWeb:'https://herowars.me/47bc6hH', giftLinkFb:'https://herowars.me/4rpW0tO',
+ note:'until|2026-09-27T02:00:00Z', rewards:['boxys-gift x5', 'portal-charge x3' ] },
+   
    { date:'2026-09-22', type:'link', giftId:'da76d084ddc6eb61e48498a0fb3c682e', note:'level',
    rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'divine-card x5', 'energy x200', 'portal-charge x1' ] },
 { date:'2026-09-22', type:'link', giftLinkWeb:'https://herowars.me/4xGqj18', giftLinkFb:'https://herowars.me/47bciO1',

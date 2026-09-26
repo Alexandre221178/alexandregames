@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta property="article:published_time" content="2023-07-31T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-08-26T21:22:35-03:00">
+  <meta property="article:modified_time" content="2026-09-25T19:18:04-03:00">
   <title>Leitfaden für alle Titanen | Hero Wars Alliance</title>
   <meta name="description" content="Entdecke alle Titanen in Hero Wars Alliance nach Element. Finde Fähigkeiten, Teams, Konter, Skins, Artefakte, Aufwertungsprioritäten und Kampfstrategien.">
   <meta name="keywords" content="Hero Wars Alliance Titanen, Titanen-Leitfaden, Titanen-Teams, Titanen-Konter, Titanen-Artefakte, Titanen-Skins, Dungeon">
@@ -95,6 +95,7 @@
     a.titan-card:hover{transform:translateY(-4px);box-shadow:0 10px 22px rgba(22,32,51,.15)}
     a.titan-card:focus-visible{outline:3px solid #345fc0;outline-offset:3px}
     .titan-card[data-element="fire"]{--element-color:#d84335}.titan-card[data-element="water"]{--element-color:#2684d9}.titan-card[data-element="earth"]{--element-color:#3d8c4c}.titan-card[data-element="light"]{--element-color:#d59b14}.titan-card[data-element="dark"]{--element-color:#7046a1}
+    .titan-card[data-element="elarite"]{--element-color:#573b9d}
     .titan-portrait{display:grid;place-items:center;width:42%;min-width:104px;background:linear-gradient(145deg,color-mix(in srgb,var(--element-color) 18%,#fff),#f4f6fa)}
     .titan-portrait img{display:block;width:100%;height:auto;aspect-ratio:300/260;object-fit:contain}
     .titan-card-body{display:flex;min-width:0;flex:1;flex-direction:column;align-items:flex-start;padding:13px 12px}
@@ -154,9 +155,9 @@
             <h2 id="directory-heading">Stelle stärkere Titanen-Teams zusammen</h2>
             <p>Wähle ein Element, finde einen Titanen und öffne den Leitfaden zu Fähigkeiten, Kontern, Artefakten, Skins, Aufwertungsprioritäten und Kampfstrategien.</p>
             <ul class="directory-stats" aria-label="Verzeichnisstatistik">
-              <li><strong>28</strong>Titanen</li>
-              <li><strong>25</strong>Leitfäden</li>
-              <li><strong>5</strong>Elemente</li>
+              <li><strong>29</strong>Titanen</li>
+              <li><strong>26</strong>Leitfäden</li>
+              <li><strong>6</strong>Elemente</li>
             </ul>
           </div>
           <picture>
@@ -178,7 +179,7 @@
             <button type="button" data-filter="dark" aria-pressed="false">Dunkelheit</button>
             <button type="button" data-filter="elarite" aria-pressed="false">Elarite</button>
           </div>
-          <p id="directory-status" class="directory-status" aria-live="polite">Alle 28 Titanen werden angezeigt.</p>
+          <p id="directory-status" class="directory-status" aria-live="polite">Alle 29 Titanen werden angezeigt.</p>
         </section>
 
         <section id="fire-titans" class="element-group" data-element-group="fire" style="--element-color:#d84335">
@@ -238,6 +239,13 @@
             <a class="titan-card" data-titan-card data-name="Mort Unterstützer" data-element="dark" href="../../Hero%20Wars/Guia%20de%20Tit%C3%A3s%20Hero%20Wars/mort-english.html"><div class="titan-portrait"><img src="../../imagens/image-shared/mort-300px.webp" alt="Mort, Dunkelheitstitan" width="300" height="260" loading="lazy"></div><div class="titan-card-body"><span class="element-label">Dunkelheit</span><h3>Mort (EN)</h3><p class="titan-role">Unterstützer</p><span class="card-action">Leitfaden öffnen &rarr;</span></div></a>
             <a class="titan-card" data-titan-card data-name="Tenebris Supertitan Schütze" data-element="dark" href="../../Hero%20Wars/Guia%20de%20Tit%C3%A3s%20Hero%20Wars/tenebris-en-herowars-mobile.html"><div class="titan-portrait"><img src="../../imagens/image-shared/tenebris-300px.webp" alt="Tenebris, Dunkelheits-Supertitan" width="300" height="260" loading="lazy"></div><div class="titan-card-body"><span class="element-label">Dunkelheit</span><h3>Tenebris (EN)</h3><p class="titan-role">Supertitan</p><span class="card-action">Leitfaden öffnen &rarr;</span></div></a>
             <a class="titan-card" data-titan-card data-name="Umbra Beschwörer" data-element="dark" href="../titans-guide/umbra-de.html"><div class="titan-portrait"><img src="../../imagens/image-shared/umbra-300px.webp" alt="Umbra, Dunkelheitstitan" width="300" height="260" loading="lazy"></div><div class="titan-card-body"><span class="element-label">Dunkelheit</span><h3>Umbra</h3><p class="titan-role">Beschwörer</p><span class="card-action">Leitfaden öffnen &rarr;</span></div></a>
+          </div>
+        </section>
+
+        <section id="elarite-titans" class="element-group" data-element-group="elarite" style="--element-color:#573b9d">
+          <div class="element-heading"><h2>Elarit-Titanen</h2><span>1 Titan</span></div>
+          <div class="titan-grid">
+            <a class="titan-card" data-titan-card data-name="Metida supertitan elarite" data-element="elarite" data-elarite="true" href="../titans-guide/metida-de.html"><div class="titan-portrait"><img src="../../imagens/image-shared/metida-300px.webp" alt="Metida ? Elarite Supertitan" width="300" height="260" loading="lazy"></div><div class="titan-card-body"><span class="elarite-label">Elarite</span><h3>Metida</h3><p class="titan-role">Supertitan</p><span class="card-action">Leitfaden öffnen &rarr;</span></div></a>
           </div>
         </section>
 
@@ -336,7 +344,7 @@
         group.hidden=!group.querySelector('[data-titan-card]:not([hidden])');
       });
       empty.style.display=visible?'none':'block';
-      status.textContent=visible===28?'Alle 28 Titanen werden angezeigt.':`${visible} von 28 Titanen werden angezeigt.`;
+      status.textContent=visible===29?'Alle 29 Titanen werden angezeigt.':`${visible} von 29 Titanen werden angezeigt.`;
     }
 
     buttons.forEach(function(button){
