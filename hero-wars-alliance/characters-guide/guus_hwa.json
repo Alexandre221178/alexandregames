@@ -125,7 +125,20 @@
                     "range": 3000,
                     "hits": 25,
                     "health_regen": "15% Health + 6000",
-                    "extra_health_regen_per_remaining_second": "8668.79 (10% Phys.atk. + 1200)"
+                    "extra_health_regen_per_remaining_second": "8668.79 (10% Phys.atk. + 1200)",
+                    "relic_boost": {
+                        "legendary_relic_level": 10,
+                        "description": "Healing from Guus's skills can be critical, restoring more health points. The Critical Healing chance depends on his Critical Hit Chance.",
+                        "critical_healing_percent": 200,
+                        "relic_total_stats_gain": {
+                            "health": 53269,
+                            "physical_attack": 6956
+                        },
+                        "relic_unlocks": {
+                            "relic_shards_level_2_to_10": 280,
+                            "total_relic_shards_level_0_to_10": 330
+                        }
+                    }
                 },
                 {
                     "id": 4,
@@ -138,7 +151,49 @@
                     "range": 3000,
                     "health_regen_on_crit": "65750.39 (80% Phys.atk. + 6000)",
                     "increased_crit_damage_for_allies": "65750.39 (80% Phys.atk. + 6000)",
-                    "increased_crit_damage_for_honor_heroes_pct": 10
+                    "increased_crit_damage_for_honor_heroes_pct": 10,
+                    "relic_boost": {
+                        "legendary_relic_level": 20,
+                        "description": "Now, when Guus deals critical damage, he additionally restores health points and grants a Golden Feather to nearby allies.",
+                        "relic_total_stats_gain": {
+                            "health": 146854,
+                            "physical_attack": 19176
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "variant": "legendary",
+                    "legendary_relic_level": 1,
+                    "name": "Featherhood",
+                    "type": ["Buff"],
+                    "description": "Every 11.0 seconds, grants a Golden Feather to himself and the ally with the highest Health stat.",
+                    "interval_seconds": 11,
+                    "relic_total_stats_gain": {
+                        "health": 28794,
+                        "physical_attack": 3760
+                    },
+                    "relic_unlocks": {
+                        "relic_shards_level_0_to_1": 50,
+                        "total_relic_shards_level_0_to_1": 50
+                    }
+                },
+                {
+                    "id": 6,
+                    "variant": "legendary",
+                    "legendary_relic_level": 30,
+                    "name": "No Honk, No Gain",
+                    "type": ["Buff"],
+                    "description": "While Guus and his allies are affected by a Golden Feather, they take less magic and pure critical damage.",
+                    "magic_and_pure_critical_damage_reduction_percent": 75,
+                    "relic_total_stats_gain": {
+                        "health": 290824,
+                        "physical_attack": 37976
+                    },
+                    "relic_unlocks": {
+                        "relic_shards_level_21_to_30": 1750,
+                        "total_relic_shards_level_0_to_30": 2880
+                    }
                 }
             ],
             "realm": {
