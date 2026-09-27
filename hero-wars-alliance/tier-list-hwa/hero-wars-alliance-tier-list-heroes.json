@@ -76,6 +76,7 @@
       "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Cornelius.html"
     },
     "names": {
+
       "ja": "コーネリウス"
     }
   },
@@ -144,7 +145,11 @@
     "guide": "../characters-guide/guus-{lang}.html",
     "languages": [
       "en",
-      "pt"
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
     ],
     "names": {
       "ja": "グース"
@@ -309,7 +314,10 @@
       "ja"
     ],
     "names": {
-      "ja": "カスケード"
+       "de": "Kaskade",
+    "pt": "Dilúvio",
+    "ja": "カスケード"
+     
     }
   },
   "Corvus": {
@@ -452,6 +460,10 @@
       "pt"
     ],
     "names": {
+       "de": "Champi und Gnon",
+    "es": "Mushy y Shroom",
+    "fr": "Champi et Gnon",
+    "pt": "Cogu e Mélio",
       "ja": "マッシーとシュルーム"
     }
   },
@@ -467,6 +479,7 @@
       "ja"
     ],
     "names": {
+       "es": "Nebulosa",
       "ja": "ネブラ"
     }
   },
@@ -573,6 +586,7 @@
       "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Aurora.html"
     },
     "names": {
+      "fr": "Aurore",
       "ja": "オーロラ"
     }
   },
@@ -588,7 +602,12 @@
       "ja"
     ],
     "names": {
-      "ja": "クリーバー"
+      "de": "Hackebeil",
+    "es": "Tajador",
+    "fr": "Coupe-chou",
+    "pt": "Machadinha",
+    "ja": "クリーバー"
+    
     }
   },
   "Fafnir": {
@@ -618,6 +637,7 @@
       "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/H%C3%A9lio.html"
     },
     "names": {
+        "pt": "Hélio",
       "ja": "ヘリオス"
     }
   },
@@ -628,7 +648,12 @@
       "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Juiz.html"
     },
     "names": {
-      "ja": "ジャッジ"
+       "de": "Richter",
+    "es": "Juez",
+    "fr": "Juge",
+    "pt": "Juiz",
+    "ja": "ジャッジ"
+   
     }
   },
   "Kai": {
@@ -693,6 +718,7 @@
       "ja"
     ],
     "names": {
+       "pt": "Fobos",
       "ja": "フォボス"
     }
   },
@@ -714,6 +740,7 @@
       "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Sebastian.html"
     },
     "names": {
+       "fr": "Sébastien",
       "ja": "セバスチャン"
     }
   },
@@ -724,6 +751,9 @@
       "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/ninja-turtles-hwa-pt.html"
     },
     "names": {
+    "es": "Tortugas Ninja",
+    "fr": "Tortues Ninja",
+    "pt": "Tartarugas Ninja",
       "ja": "忍者タートルズ"
     }
   },
@@ -744,7 +774,12 @@
       "pt": "../characters-guide/darkstar-pt.html"
     },
     "names": {
-      "ja": "ダークスター"
+       "de": "Dunkler Stern",
+    "es": "Estrella Oscura",
+    "fr": "Sombre Étoile",
+    "pt": "Estrela Sombria",
+    "ja": "ダークスター"
+     
     }
   },
   "Dorian": {
@@ -769,6 +804,7 @@
       "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Galahad.html"
     },
     "names": {
+       "fr": "Galaad",
       "ja": "ギャラハッド"
     }
   },
@@ -850,7 +886,12 @@
       "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/danada.html"
     },
     "names": {
-      "ja": "デアデビル"
+       "de": "Draufgänger",
+    "es": "Daredevil",
+    "fr": "Daredevil",
+    "pt": "Danada",
+    "ja": "デアデビル"
+     
     }
   },
   "Ishmael": {
@@ -925,7 +966,12 @@
       "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/raposa.html"
     },
     "names": {
-      "ja": "フォックス"
+        "de": "Fuchs",
+    "es": "Zorro",
+    "fr": "Renarde",
+    "pt": "Raposa",
+    "ja": "フォックス"
+   
     }
   },
   "Jet": {
