@@ -1,8 +1,28 @@
 /* Calendar data for Alexandre Games - Last updated: 2026-02-01T16:43:33-03:00*/
- /* economizar torre Missão 4(The Way Up), 11 baus da torre = 10+20+30+40+50+70+100 = 320 Rune Spheres(blue)
-   - Expedicoes de valkyries(missao 4 - Journey, Rune Stones(red) and Season Points Extra= 1000+1500(25 Season Points)+2000+2500(30season points)+4000)
-   - includes the calendar se fizer isso antes de zerar o horário do servidor vc consegue fazer 4 logins as missoes 
+ /* 
+{// Dentro de extra[] de um evento espaço vazio:
+ titles: { en: "\u00A0", pt: "\u00A0", de: "\u00A0", es: "\u00A0", fr: "\u00A0", ja: "\u00A0" },
+  labelOnly: true
+},
+ { titles: { en: "👗", pt: "👗Isaac Nova Skin+: Singularidade", de: "👗Isaac Neue Skin+: Singularität", es: "👗Isaac Nueva Skin+: Singularidad", fr: "👗Isaac Nouvelle Skin+ : Singularité", ja: "👗アイザック 新スキン+：シングュラリティ" },
+  links: { en: "../../hero-wars-alliance/characters-guide/isaac-en.html", pt: "", de: "", es: "", fr: "",  ja: "" },       
+  noStrip: true
+},  
+
+hero 🦸masculino e 🦸‍♀️feminino
+skins skin+🥋  - skin 🧥masculino & skin 👗feminino 
+##hero### New Skin+: ###skinname###
 {
+  titles: { en: "", pt: "", de: "", es: "", fr: "", ja: "" },
+  labelOnly: true
+},
+{
+  titles: { en: "", pt: "", de: "", es: "", fr: "", ja: "" },
+  links: { en: "../../", pt: "", de: "", es: "", fr: "",  ja: "" },
+  noStrip: true
+},
+
+ {
   titles: { en: "", de: "", es: "", fr: "", pt: "", ja: "" },
   links: { en: "../../", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
