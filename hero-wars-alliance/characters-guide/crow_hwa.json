@@ -32,12 +32,13 @@
           "intelligence": 2598,
           "strength": 2610,
           "health": 754940,
-          "physical_attack": 109513,
+          "physical_attack": 123703,
           "magic_attack": 7852,
           "armor": 32003,
           "magic_defense": 18365,
           "armor_penetration": 24448,
-          "toughness": 1564
+          "toughness": 1564,
+          "crushing": 5920
         }
       },
       "talisman_details": {
@@ -79,7 +80,7 @@
           "keywords": ["Control", "Silence", "Anti-Mage"],
           "can_upgrade_to_legendary": true,
           "physical_damage_formula": "200% Phys. atk. + 9000",
-          "physical_damage_value": 228026,
+          "physical_damage_value": 256406,
           "silence_duration_seconds": 8,
           "targeting": "Attacks enemies in the front and applies Silence to all enemies whose main stat is Intelligence.",
           "description": "Crow attacks enemies in the front, applying Silence for 8.0 seconds to all Intelligence-main-stat enemies."
@@ -107,7 +108,7 @@
           "keywords": ["Control", "Silence", "Anti-Mage"],
           "can_upgrade_to_legendary": true,
           "physical_damage_formula": "100% Phys. atk. + 9000",
-          "physical_damage_value": 118513,
+          "physical_damage_value": 132703,
           "silence_duration_seconds": 5,
           "targeting": "Enemy with the highest Intelligence.",
           "description": "Throws a grenade at the enemy with the highest Intelligence, applying Silence for 5.0 seconds. The target and nearby enemies take physical area damage."
@@ -124,7 +125,7 @@
           "type": ["Physical Damage", "Control", "Silence", "Area Damage"],
           "keywords": ["Control", "Silence"],
           "grenade_shards_physical_damage_formula": "75% Phys. atk. + 9000",
-          "grenade_shards_physical_damage_value": 91134.75,
+          "grenade_shards_physical_damage_value": 101777.25,
           "silence_duration_bonus_seconds": 2,
           "description": "Grenade shards deal physical damage to all Silenced enemies and enemies around them. Silence duration is increased by 2.0 seconds for all affected targets."
         },
@@ -138,7 +139,7 @@
           "duration_seconds": 12,
           "skill_recharge_speed_increase_percent": 30,
           "physical_damage_formula": "100% Phys. atk. + 12000",
-          "physical_damage_value": 121513,
+          "physical_damage_value": 135703,
           "description": "For 12.0 seconds, Crow's skills recharge 30% faster, and his basic attacks deal an additional hit to all enemies affected by Silence."
         },
         {
@@ -149,7 +150,7 @@
           "type": ["Passive", "Physical Damage", "Silence Extension"],
           "keywords": ["Silence Punish", "Duration Extension"],
           "physical_damage_formula": "150% Phys. atk. + 21000",
-          "physical_damage_value": 185269.5,
+          "physical_damage_value": 206554.5,
           "trigger": "When Crow applies Silence to an enemy that already has Silence active.",
           "description": "When Crow reapplies Silence to an enemy that already has the same active effect, the enemy takes physical damage. The effect's duration is increased by the duration of the longest Silence already affecting the enemy."
         },
@@ -165,7 +166,7 @@
           "keywords": ["Control", "Silence", "Anti-Mage"],
           "cooldown_seconds": 12,
           "physical_damage_formula": "150% Phys. atk.",
-          "physical_damage_value": 164269.5,
+          "physical_damage_value": 185554.5,
           "targeting": "Enemy with the highest Intelligence.",
           "silence_duration_seconds": 5,
           "description": "Every 12.0 seconds, Crow attacks the enemy with the highest Intelligence. If the target is Silenced, Crow spreads the effect to all nearby enemies for the remaining duration. Otherwise, he applies Silence for 5.0 seconds."
@@ -205,6 +206,17 @@
           "name": "Justice Skin",
           "stat": "Armor Penetration",
           "bonus": 10659
+        },
+        
+        {
+          "name": "Arbiter of Justice Skin",
+          "stat": "Crushing",
+          "bonus": 5920
+        },
+        {
+          "name": "Ocean Echo Skin+",
+          "stat": "Physical Attack",
+          "bonus": 14190
         }
       ],
       "artifacts": [
