@@ -328,17 +328,17 @@
     },
 
 #########guides-to-share###############
-Ancient Awakening Guide
-/hero-wars-alliance/event-hwa/ancient-awakening-main-event.html
+Guide (Ancient Awakening) Ancient Awakening:
+https://alexandregames.com/hero-wars-alliance/event-hwa/ancient-awakening-main-event.html
 
-Firstborn Force Guide
-/hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html
+Guide (Ancient Awakening) Firstborn Force:
+https://alexandregames.com/hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html
 
-Unstable Equilibrium Guide
-/hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html
+Guide (Ancient Awakening) Unstable Equilibrium Guide:
+https://alexandregames.com/hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html
 
-Pallant Shop Guide
-/hero-wars-alliance/titans-events-tips/pallant-shop-ancient-awakening-en.html
+Guide (Ancient Awakening) Pallant Shop Guide:
+https://alexandregames.com/hero-wars-alliance/titans-events-tips/pallant-shop-ancient-awakening-en.html
 
 */
 
