@@ -3,6 +3,8 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+  { date:'2026-09-28', type:'daily', mission:'3-2', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
  { date:'2026-09-27', type:'hub', code:'METIDACALENDAR', note:'until|2026-10-26T01:00:00Z',
     rewards:['energy x20', 'intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350'] },   
   { date:'2026-09-27', type:'daily', mission:'2-4', note:'daily|80',
