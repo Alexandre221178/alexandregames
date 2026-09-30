@@ -86,10 +86,11 @@
           card.append(element('span', 'hwa-hero-initial', name[0]));
         }
         const label = element('strong', 'hwa-hero-name');
-        if (language === 'ja' && item.names?.ja) {
-          label.append(element('span', '', item.names.ja), element('br'));
-        }
+        const localName = item.names?.[language]?.trim();
         label.append(element('span', '', name + (fallback ? '(EN)' : '')));
+        if (localName && localName !== name) {
+          label.append(element('br'), element('span', '', localName));
+        }
         card.append(label);
         node.append(card);
         list.append(node);

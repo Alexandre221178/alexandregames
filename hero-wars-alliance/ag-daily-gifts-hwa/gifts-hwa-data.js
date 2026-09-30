@@ -3,6 +3,20 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+     { date:'2026-09-30', type:'hub', code:'RESEARCH', note:'until|2026-10-26T01:00:00Z',
+    rewards:['world-energy x30', 'energy x20', '1h-general-speedup x2', '1h-training-speedup x1', '1h-construction-speedup x1', '1h-research-speedup X1'] },
+  { date:'2026-09-30', type:'daily', mission:'3-14', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+      { date:'2026-09-29', type:'special', mission:'2-12', note:'until|2026-10-26T01:00:00Z',   
+      rewards:['adventure-coin x1000', 'energy x20', 'adventure-energy x50'] },
+  { date:'2026-09-29', type:'daily', mission:'2-5', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+  { date:'2026-09-28', type:'daily', mission:'3-2', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+ { date:'2026-09-27', type:'hub', code:'METIDACALENDAR', note:'until|2026-10-26T01:00:00Z',
+    rewards:['energy x20', 'intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350'] },   
+  { date:'2026-09-27', type:'daily', mission:'2-4', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-09-26', type:'special', mission:'3-8', note:'until|2026-09-28T01:00:00Z',   
       rewards:['adventure-coin x1000', 'energy x100'] },
 

@@ -1,6 +1,55 @@
 (function(){
-  // Active Ascendant Glory guides shown below the main calendar - carousel.
+  // Active guides shown below the main calendar - carousel.
   var slides = [
+    {
+      link: "/hero-wars-alliance/event-hwa/ancient-awakening-event-shop-en.html",
+      src500: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-400px.webp",
+      alt: "Ancient Awakening Shop Guide for Hero Wars Alliance",
+      title: "Ancient Awakening Shop Guide for Hero Wars Alliance",
+      strong: "Guide (Ancient Awakening): Metida - Event Shop - Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    },
+    
+{
+      link: "/hero-wars-alliance/event-hwa/ancient-awakening-main-event.html",
+      src500: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-400px.webp",
+      alt: "Ancient Awakening Guide for Hero Wars Alliance",
+      title: "Ancient Awakening Guide for Hero Wars Alliance",
+      strong: "Guide (Ancient Awakening): Ancient Awakening - Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    },
+    
+    {
+      link: "/hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html",
+      src500: "/hero-wars-alliance/images/events/ancient-awakening/events-firstborn-force-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ancient-awakening/events-firstborn-force-400px.webp",
+      alt: "Firstborn Force Guide for Hero Wars Alliance",
+      title: "Firstborn Force Guide for Hero Wars Alliance",
+      strong: "Guide (Ancient Awakening): Firstborn Force - Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html",
+      src500: "/hero-wars-alliance/images/events/ancient-awakening/events-unstable-equilibrium-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ancient-awakening/events-unstable-equilibrium-400px.webp",
+      alt: "Unstable Equilibrium Guide for Hero Wars Alliance",
+      title: "Unstable Equilibrium Guide for Hero Wars Alliance",
+      strong: "Guide (Ancient Awakening): Unstable Equilibrium - Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/titans-events-tips/pallant-shop-ancient-awakening-en.html",
+      src500: "/hero-wars-alliance/images/titans-events-tips/pallant-shop-ancient-awakening/pallant-shop-ancient-awakening-500px.webp",
+      src400: "/hero-wars-alliance/images/titans-events-tips/pallant-shop-ancient-awakening/pallant-shop-ancient-awakening-400px.webp",
+      alt: "Pallant Shop Guide for Hero Wars Alliance",
+      title: "Pallant Shop Guide for Hero Wars Alliance",
+      strong: "Guide (Ancient Awakening): Pallant Shop - Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    },
+    
+
  
     {
       link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-event-group-en.html",
@@ -256,16 +305,17 @@
       src400: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-400px.webp",
       alt: "Ancient Awakening Guide for Hero Wars Alliance",
       title: "Ancient Awakening Guide for Hero Wars Alliance",
-      strong: "Guide: Ancient Awakening - Hero Wars Alliance",
+      strong: "Guide (Ancient Awakening): Ancient Awakening - Hero Wars Alliance",
       updated: "Updated: September, 2026."
     },
+    
     {
       link: "/hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html",
       src500: "/hero-wars-alliance/images/events/ancient-awakening/events-firstborn-force-500px.webp",
       src400: "/hero-wars-alliance/images/events/ancient-awakening/events-firstborn-force-400px.webp",
       alt: "Firstborn Force Guide for Hero Wars Alliance",
       title: "Firstborn Force Guide for Hero Wars Alliance",
-      strong: "Guide: Firstborn Force - Hero Wars Alliance",
+      strong: "Guide (Ancient Awakening): Firstborn Force - Hero Wars Alliance",
       updated: "Updated: September, 2026."
     },
     {
@@ -274,18 +324,31 @@
       src400: "/hero-wars-alliance/images/events/ancient-awakening/events-unstable-equilibrium-400px.webp",
       alt: "Unstable Equilibrium Guide for Hero Wars Alliance",
       title: "Unstable Equilibrium Guide for Hero Wars Alliance",
-      strong: "Guide: Unstable Equilibrium - Hero Wars Alliance",
+      strong: "Guide (Ancient Awakening): Unstable Equilibrium - Hero Wars Alliance",
       updated: "Updated: September, 2026."
     },
     {
-      link: "/hero-wars-alliance/titans-events-tips/pallant-shop-ancient-awakening-en.html",
-      src500: "/hero-wars-alliance/images/titans-events-tips/pallant-shop-ancient-awakening/pallant-shop-ancient-awakening-500px.webp",
-      src400: "/hero-wars-alliance/images/titans-events-tips/pallant-shop-ancient-awakening/pallant-shop-ancient-awakening-400px.webp",
-      alt: "Pallant Shop Guide for Hero Wars Alliance",
-      title: "Pallant Shop Guide for Hero Wars Alliance",
-      strong: "Guide: Pallant Shop - Hero Wars Alliance",
+      link: "/hero-wars-alliance/event-hwa/ancient-awakening-event-shop-en.html",
+      src500: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-400px.webp",
+      alt: "Ancient Awakening Shop Guide for Hero Wars Alliance",
+      title: "Ancient Awakening Shop Guide for Hero Wars Alliance",
+      strong: "Guide (Ancient Awakening): Event Shop - Hero Wars Alliance",
       updated: "Updated: September, 2026."
     },
+
+#########guides-to-share###############
+Guide (Ancient Awakening) Ancient Awakening:
+https://alexandregames.com/hero-wars-alliance/event-hwa/ancient-awakening-main-event.html
+
+Guide (Ancient Awakening) Firstborn Force:
+https://alexandregames.com/hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html
+
+Guide (Ancient Awakening) Unstable Equilibrium Guide:
+https://alexandregames.com/hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html
+
+Guide (Ancient Awakening) Event Shop:
+https://alexandregames.com/hero-wars-alliance/event-hwa/ancient-awakening-event-shop-en.html
 
 */
 

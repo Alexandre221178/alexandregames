@@ -505,7 +505,7 @@ links: { en: "../../hero-wars-alliance/event-hwa/talisman-fever-event-en.html", 
     weekday: "Friday",
    date: "August, 14",
      image: "../../hero-wars-alliance/images/events/seers-game/seers-game-150px.webp",
-    alt: "Seers' Game",
+    alt: "Seers' Game",// Seers Game Friday + Bountiful Roads
     titles: { en: "🔮 Seer's Game Event", de: "Event des Seherspiels", es: "🔮 Evento del Juego de la Vidente", fr: "🔮 Événement du Jeu de la Voyante", pt: "🔮 Evento do Jogo da Vidente", ja: "🔮 予言者のゲームイベント" },
     links: { en: "../../hero-wars-alliance/event-hwa/seers-game-en.html", de: "../../hero-wars-alliance/event-hwa/seers-game-de.html", es: "../../hero-wars-alliance/event-hwa/seers-game-es.html", fr: "../../hero-wars-alliance/event-hwa/seers-game-fr.html", pt: "../../hero-wars-alliance/event-hwa/seers-game-pt.html", ja: "../../hero-wars-alliance/event-hwa/seers-game-ja.html" },
    extra: [

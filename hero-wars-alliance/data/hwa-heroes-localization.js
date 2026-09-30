@@ -149,7 +149,7 @@ const hwaHeroesLocalization = {
     "en": "Crow",
     "de": "Crow",
     "es": "Crow",
-    "fr": "Crowu",
+    "fr": "Crow",
     "pt": "Crow",
     "ja": "クロウ"
   },
