@@ -14,7 +14,7 @@ window.giveawayWinnersData = {
       {
         "item": "3.130 Fragmentos da Metida + 4.875.000 de Ouro + 1 Avatar exclusivo Lucky Boxy",
         "winner_label": "Vencedor",
-        "winner_id": "A anunciar",
+        "winner_id": "1211186542",
         "images": [
           {
             "src": "../../imagens/image-shared/metida-75px.webp",
@@ -46,7 +46,7 @@ window.giveawayWinnersData = {
       {
         "item": "3,130 Metida Fragments + 4,875,000 Gold + 1 exclusive Lucky Boxy Avatar",
         "winner_label": "Winner",
-        "winner_id": "To be announced",
+        "winner_id": "1211186542",
         "images": [
           {
             "src": "../../imagens/image-shared/metida-75px.webp",
@@ -78,7 +78,7 @@ window.giveawayWinnersData = {
       {
         "item": "3.130 Metida-Fragmente + 4.875.000 Gold + 1 exklusiver Lucky Boxy-Avatar",
         "winner_label": "Gewinner",
-        "winner_id": "Wird bekannt gegeben",
+        "winner_id": "1211186542",
         "images": [
           {
             "src": "../../imagens/image-shared/metida-75px.webp",
@@ -110,7 +110,7 @@ window.giveawayWinnersData = {
       {
         "item": "3.130 Fragmentos de Metida + 4.875.000 de Oro + 1 Avatar exclusivo Lucky Boxy",
         "winner_label": "Ganador",
-        "winner_id": "Por anunciar",
+        "winner_id": "1211186542",
         "images": [
           {
             "src": "../../imagens/image-shared/metida-75px.webp",
@@ -142,7 +142,7 @@ window.giveawayWinnersData = {
       {
         "item": "3 130 Fragments de Metida + 4 875 000 d'or + 1 Avatar exclusif Lucky Boxy",
         "winner_label": "Gagnant",
-        "winner_id": "À annoncer",
+        "winner_id": "1211186542",
         "images": [
           {
             "src": "../../imagens/image-shared/metida-75px.webp",
@@ -174,7 +174,7 @@ window.giveawayWinnersData = {
       {
         "item": "メティダの欠片3,130個 + 4,875,000ゴールド + 限定Lucky Boxyアバター1個",
         "winner_label": "当選者",
-        "winner_id": "後日発表",
+        "winner_id": "1211186542",
         "images": [
           {
             "src": "../../imagens/image-shared/metida-75px.webp",
