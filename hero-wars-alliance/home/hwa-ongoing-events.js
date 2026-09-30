@@ -1,6 +1,16 @@
 (function(){
   // Active guides shown below the main calendar - carousel.
   var slides = [
+    {
+      link: "/hero-wars-alliance/event-hwa/ancient-awakening-event-shop-en.html",
+      src500: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-400px.webp",
+      alt: "Ancient Awakening Shop Guide for Hero Wars Alliance",
+      title: "Ancient Awakening Shop Guide for Hero Wars Alliance",
+      strong: "Guide (Ancient Awakening): Metida - Event Shop - Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    },
+    
 {
       link: "/hero-wars-alliance/event-hwa/ancient-awakening-main-event.html",
       src500: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-500px.webp",
@@ -318,12 +328,12 @@
       updated: "Updated: September, 2026."
     },
     {
-      link: "/hero-wars-alliance/titans-events-tips/pallant-shop-ancient-awakening-en.html",
-      src500: "/hero-wars-alliance/images/titans-events-tips/pallant-shop-ancient-awakening/pallant-shop-ancient-awakening-500px.webp",
-      src400: "/hero-wars-alliance/images/titans-events-tips/pallant-shop-ancient-awakening/pallant-shop-ancient-awakening-400px.webp",
-      alt: "Pallant Shop Guide for Hero Wars Alliance",
-      title: "Pallant Shop Guide for Hero Wars Alliance",
-      strong: "Guide (Ancient Awakening): Pallant Shop - Hero Wars Alliance",
+      link: "/hero-wars-alliance/event-hwa/ancient-awakening-event-shop-en.html",
+      src500: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-400px.webp",
+      alt: "Ancient Awakening Shop Guide for Hero Wars Alliance",
+      title: "Ancient Awakening Shop Guide for Hero Wars Alliance",
+      strong: "Guide (Ancient Awakening): Event Shop - Hero Wars Alliance",
       updated: "Updated: September, 2026."
     },
 
@@ -337,8 +347,8 @@ https://alexandregames.com/hero-wars-alliance/event-hwa/ancient-awakening-firstb
 Guide (Ancient Awakening) Unstable Equilibrium Guide:
 https://alexandregames.com/hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html
 
-Guide (Ancient Awakening) Pallant Shop Guide:
-https://alexandregames.com/hero-wars-alliance/titans-events-tips/pallant-shop-ancient-awakening-en.html
+Guide (Ancient Awakening) Event Shop:
+https://alexandregames.com/hero-wars-alliance/event-hwa/ancient-awakening-event-shop-en.html
 
 */
 
