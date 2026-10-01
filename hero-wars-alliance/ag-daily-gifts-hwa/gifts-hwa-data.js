@@ -1,8 +1,10 @@
 /* npm run update-gifts-hwa           Link: https://hwa.nexters.com/c/ALEXANDREGAMES
-{ date:'2026-09-##', type:'daily', mission:'#', note:'daily|80',
+{ date:'2026-10-##', type:'daily', mission:'#', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+  { date:'2026-10-01', type:'daily', mission:'2-2', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
      { date:'2026-09-30', type:'hub', code:'RESEARCH', note:'until|2026-10-26T01:00:00Z',
     rewards:['world-energy x30', 'energy x20', '1h-general-speedup x2', '1h-training-speedup x1', '1h-construction-speedup x1', '1h-research-speedup X1'] },
   { date:'2026-09-30', type:'daily', mission:'3-14', note:'daily|80',
