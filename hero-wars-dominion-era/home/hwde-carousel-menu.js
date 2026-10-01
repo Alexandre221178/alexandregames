@@ -1,35 +1,15 @@
 (function(){
   // Carousel multi-language injector  npm run update-hwde-hwde 
   const slides = [
-    
     {
-      link: "../../hero-wars-dominion-era/characters/eva-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/eva/eva-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/eva/eva-400px.webp",
-      alt: "Eva for Hero Wars: Dominion Era",
-      title: "Eva for Hero Wars: Dominion Era.",
-      strong: "Guide: Eva - Hero Wars: Dominion Era",
-      updated: "Updated: September, 2026."
+      link: "../../hero-wars-dominion-era/events-special-hwde/robin-mead-festival-missions-en.html",
+      src500: "../../hero-wars-dominion-era/images/events-special/robin-mead-festival-missions/robin-mead-festival-missions-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events-special/robin-mead-festival-missions/robin-mead-festival-missions-400px.webp",
+      alt: "Robin Mead Festival Missions for Hero Wars: Dominion Era",
+      title: "Robin Mead Festival Missions for Hero Wars: Dominion Era.",
+      strong: "Guide: Robin Mead Festival Missions - Hero Wars: Dominion Era",
+      updated: "Updated: October, 2026."
     },
-    {
-      link: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html",
-      src500: "../../hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-400px.webp",
-      alt: "Eva Event Awakening Guide and Rewards F2P to 6★",
-      title: "Eva Event Awakening Guide and Rewards F2P to 6★",
-      strong: "Guide: Eva Event - Rewards F2P to 6★",
-      updated: "Updated: September, 2026."
-    },
-    {
-      link: "/hero-wars-dominion-era/events-special-hwde/eva-event-missions-en.html",
-      src500: "/hero-wars-dominion-era/images/events-special/new-hero-hwde/awakening-event-missions-500px.webp",
-      src400: "/hero-wars-dominion-era/images/events-special/new-hero-hwde/awakening-event-missions-400px.webp",
-      alt: "Eva - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era",
-      title: "Eva - Heroes Awakening Event (Missions) for Hero Wars: Dominion Era.",
-      strong: "Guide: Eva Event (Missions) - Hero Wars: Dominion Era(EN)",
-      updated: "Updated: September, 2026."
-    },
-    
     {
       link: "../../hero-wars-dominion-era/guide/mysterious-island-en.html",
       src500: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-500px.webp",
@@ -39,6 +19,19 @@
       strong: "Mysterious Island - How to Get a War Flag?",
       updated: "Updated: Monthly."
     },
+    {
+      link: "../../hero-wars-dominion-era/characters/eva-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/eva/eva-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/eva/eva-400px.webp",
+      alt: "Eva for Hero Wars: Dominion Era",
+      title: "Eva for Hero Wars: Dominion Era.",
+      strong: "Guide: Eva - Hero Wars: Dominion Era",
+      updated: "Updated: September, 2026."
+    },
+    
+    
+    
+    
     {
       link: "../../hero-wars-dominion-era/menu/calendar-hwde-en.html",
       src500: "../../hero-wars-dominion-era/images/events/calendar/calendar-hwde-500px.webp",
