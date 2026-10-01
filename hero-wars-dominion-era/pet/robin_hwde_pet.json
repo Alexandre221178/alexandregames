@@ -1,0 +1,232 @@
+{
+  "id": "robin",
+  "name": "Robin",
+  "game": "Hero Wars: Dominion Era",
+  "entity_type": "pet",
+  "description": "Gives Energy to slow Heroes, impedes fast opponents.",
+  "data_source": "Information supplied by Alexandre; gameplay observations are recorded separately in alexandre_notes.",
+  "stats": {
+    "power": 181943,
+    "skill_power": 12360,
+    "patronage_power": 11064,
+    "magic_penetration": 47911,
+    "armor_penetration": 0
+  },
+  "appearance": {
+    "in_game": "Default Skin",
+    "portrait": "../images/pets/robin/robin-150px.webp",
+    "image": "../images/pets/robin/robin-800px.webp"
+  },
+  "patronage": {
+    "description": "Patronage boosts one hero's stats and grants them a bonus skill.",
+    "bonus_stats": {
+      "health": 99576,
+      "magic_defense": 9958
+    },
+    "skill_id": 3,
+    "eligible_heroes": [
+      "byrna", "somna", "guus", "thea", "nebula", "martha", "astaroth", "dorian",
+      "folio", "phobos", "jet", "fafnir", "amira", "mojo", "ginger", "morrigan",
+      "daredevil", "faceless", "maya", "markus", "satori", "judge", "andvari",
+      "cornelius", "lilith", "peppy", "alvanor", "lian", "fox", "darkstar"
+    ]
+  },
+  "skills": [
+    {
+      "id": 1,
+      "name": "On Borrowed Wings",
+      "type": "periodic",
+      "color": "white",
+      "category": "active",
+      "description": "Steals up to 90.62 Energy from each enemy Hero and transfers it to an ally who received the least amount of Energy in the last 15 seconds. If an enemy is not a Hero, steals up to 110.62 Energy from them.",
+      "energy_stolen": 90.62,
+      "energy_stolen_formula": "0.45% skill power + 35",
+      "non_hero_energy_stolen": 110.62,
+      "non_hero_energy_stolen_formula": "0.45% skill power + 55",
+      "non_hero_energy_stolen_source_display": 110.6,
+      "recipient": "ally who received the least amount of Energy in the last 15 seconds",
+      "energy_tracking_window_seconds": 15,
+      "cooldown_seconds": 15,
+      "scales_with": ["skill_power"]
+    },
+    {
+      "id": 2,
+      "name": "Counterflow",
+      "type": "passive",
+      "color": "green",
+      "category": "active",
+      "description": "When an opponent receives bonus Energy, Robin decreases their Physical and Magic Attack by 31,000 for 5 seconds.",
+      "trigger": "opponent receives bonus Energy",
+      "physical_attack_decrease": 31000,
+      "magic_attack_decrease": 31000,
+      "attack_decrease_formula": "250% skill power + 100",
+      "duration_seconds": 5,
+      "scales_with": ["skill_power"]
+    },
+    {
+      "id": 3,
+      "name": "Fair Wind",
+      "type": "periodic",
+      "color": "violet",
+      "category": "patronage",
+      "description": "Gives the owner 75.01 bonus Energy once every 5 seconds.",
+      "bonus_energy": 75.01,
+      "bonus_energy_formula": "0.452% patronage power + 25",
+      "cooldown_seconds": 5,
+      "scales_with": ["patronage_power"],
+      "formula_note": "The supplied material contains both 0.45% and 0.452%. The detailed version uses 0.452%, which gives 75.00928 Energy at 11,064 patronage power, rounded to 75.01. The alternative 0.45% formula gives 74.788, rounded to 74.79. The discrepancy has not been independently verified.",
+      "alternative_bonus_energy_formula": "0.45% patronage power + 25",
+      "alternative_bonus_energy": 74.79
+    }
+  ],
+  "alexandre_notes": {
+    "author": "Alexandre",
+    "language": "pt",
+    "counterflow": {
+      "assessment": "Acho essa habilidade forte contra inimigos que recebem energia bônus, como Orion, Jorgen, Andvari, Alvanor, Tristan e Polaris.",
+      "enemy_examples": ["orion", "jorgen", "andvari", "alvanor", "tristan", "polaris"],
+      "satori_synergy": "Também parece útil usar Robin com Satori: os dois podem punir inimigos que recebem energia bônus. Robin reduz os ataques desses inimigos, enquanto Satori aplica marcas. Essa é uma avaliação de sinergia do Alexandre."
+    },
+    "fair_wind": {
+      "assessment": "Acho essa habilidade de patronagem excelente para curandeiros, como Byrna e Guus. Mais energia permite ativar a ultimate com mais frequência.",
+      "personal_experience": "Minha Byrna ficou muito forte depois que comecei a usá-la com Robin.",
+      "suggested_heroes": [
+        { "hero": "byrna", "reason": "Melhorou bastante na experiência do Alexandre com a energia extra de Robin." },
+        { "hero": "guus", "reason": "Sugestão para aproveitar a energia extra em um curandeiro." },
+        { "hero": "nebula", "reason": "A energia extra pode ajudar a acelerar a ultimate, que demora para ser ativada." },
+        { "hero": "fafnir", "reason": "Sugestão para usar a ultimate e oferecer escudos com mais frequência." },
+        { "hero": "astaroth", "reason": "Sugestão para usar a ultimate e oferecer escudos com mais frequência." },
+        { "hero": "somna", "reason": "Sugestão para ativar mais vezes a ultimate, que, segundo a nota fornecida, faz os inimigos dormirem por 7 segundos." }
+      ],
+      "enemy_satori_caution": "A energia bônus também pode prejudicar o herói protegido por Robin ao enfrentar Satori, por causa das marcas aplicadas a quem recebe energia bônus.",
+      "suggested_support": "Alexandre sugere Nebula para limpar as marcas de Satori ou Sebastian para remover debuffs. São recomendações do autor, sem verificação independente nesta ficha."
+    }
+  },
+  "levels": {
+    "stat_bonuses": {
+      "patronage_power": 3900,
+      "skill_power": 3900,
+      "power": 42900
+    },
+    "upgrade_cost": {
+      "pet_potion": 450551,
+      "emeralds": 45055,
+      "robin_soul_stone": 3710
+    }
+  },
+  "gear": [
+    {
+      "rank": "gray",
+      "equipment": [
+        { "name": "Small Dawnstone", "quantity": 6 }
+      ],
+      "upgrade_cost": { "chaos_particle": 240, "gold": 48000, "emeralds": 1680 }
+    },
+    {
+      "rank": "green",
+      "equipment": [
+        { "name": "Small Dawnstone", "quantity": 4 },
+        { "name": "Dawnstone", "quantity": 2 }
+      ],
+      "upgrade_cost": { "chaos_particle": 430, "gold": 86000, "emeralds": 3010 }
+    },
+    {
+      "rank": "green+1",
+      "equipment": [
+        { "name": "Small Dawnstone", "quantity": 2 },
+        { "name": "Dawnstone", "quantity": 4 }
+      ],
+      "upgrade_cost": { "chaos_particle": 620, "gold": 124000, "emeralds": 4340 }
+    },
+    {
+      "rank": "blue",
+      "equipment": [
+        { "name": "Dawnstone", "quantity": 2 },
+        { "name": "Moonstone", "quantity": 2 },
+        { "name": "Uncommon Dawnstone", "quantity": 1 },
+        { "name": "Uncommon Moonstone", "quantity": 1 }
+      ],
+      "upgrade_cost": { "chaos_particle": 1380, "gold": 276000, "emeralds": 9660 }
+    },
+    {
+      "rank": "blue+1",
+      "equipment": [
+        { "name": "Dawnstone", "quantity": 1 },
+        { "name": "Moonstone", "quantity": 1 },
+        { "name": "Uncommon Dawnstone", "quantity": 2 },
+        { "name": "Uncommon Moonstone", "quantity": 2 }
+      ],
+      "upgrade_cost": { "chaos_particle": 1950, "gold": 390000, "emeralds": 13650 }
+    },
+    {
+      "rank": "blue+2",
+      "equipment": [
+        { "name": "Uncommon Dawnstone", "quantity": 2 },
+        { "name": "Uncommon Moonstone", "quantity": 2 },
+        { "name": "Rare Dawnstone", "quantity": 1 },
+        { "name": "Rare Moonstone", "quantity": 1 }
+      ],
+      "upgrade_cost": { "chaos_particle": 3580, "gold": 716000, "emeralds": 25060 }
+    },
+    {
+      "rank": "violet",
+      "equipment": [
+        { "name": "Rare Dawnstone", "quantity": 2 },
+        { "name": "Rare Moonstone", "quantity": 2 },
+        { "name": "Excellent Dawnstone", "quantity": 1 },
+        { "name": "Excellent Moonstone", "quantity": 1 }
+      ],
+      "upgrade_cost": { "chaos_particle": 8600, "gold": 1720000, "emeralds": 60200 }
+    },
+    {
+      "rank": "violet+1",
+      "equipment": [
+        { "name": "Rare Dawnstone", "quantity": 1 },
+        { "name": "Rare Moonstone", "quantity": 1 },
+        { "name": "Excellent Dawnstone", "quantity": 2 },
+        { "name": "Excellent Moonstone", "quantity": 2 }
+      ],
+      "upgrade_cost": { "chaos_particle": 11500, "gold": 2300000, "emeralds": 80500 }
+    },
+    {
+      "rank": "violet+2",
+      "equipment": [
+        { "name": "Excellent Dawnstone", "quantity": 2 },
+        { "name": "Excellent Moonstone", "quantity": 2 },
+        { "name": "Flawless Dawnstone", "quantity": 1 },
+        { "name": "Flawless Moonstone", "quantity": 1 }
+      ],
+      "upgrade_cost": { "chaos_particle": 21850, "gold": 4370000, "emeralds": 152950 }
+    },
+    {
+      "rank": "violet+3",
+      "equipment": [
+        { "name": "Excellent Dawnstone", "quantity": 1 },
+        { "name": "Excellent Moonstone", "quantity": 1 },
+        { "name": "Flawless Dawnstone", "quantity": 2 },
+        { "name": "Flawless Moonstone", "quantity": 2 }
+      ],
+      "upgrade_cost": { "chaos_particle": 29300, "gold": 5860000, "emeralds": 205100 }
+    }
+  ],
+  "gear_totals": {
+    "equipment": [
+      { "name": "Small Dawnstone", "quantity": 12 },
+      { "name": "Dawnstone", "quantity": 9 },
+      { "name": "Uncommon Dawnstone", "quantity": 5 },
+      { "name": "Rare Dawnstone", "quantity": 4 },
+      { "name": "Excellent Dawnstone", "quantity": 6 },
+      { "name": "Flawless Dawnstone", "quantity": 3 },
+      { "name": "Moonstone", "quantity": 3 },
+      { "name": "Uncommon Moonstone", "quantity": 5 },
+      { "name": "Rare Moonstone", "quantity": 4 },
+      { "name": "Excellent Moonstone", "quantity": 6 },
+      { "name": "Flawless Moonstone", "quantity": 3 }
+    ],
+    "upgrade_cost": {
+      "chaos_particle": 79450,
+      "gold": 15890000,
+      "emeralds": 556150
+    }
+  }
+}
