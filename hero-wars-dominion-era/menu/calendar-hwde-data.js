@@ -298,6 +298,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
 },  links: { en: "../../hero-wars-dominion-era/events-special-hwde/robin-mead-festival-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
 },  
+{
+  titles: { en: "🐾Robin Guide", de: "🐾Robin Guide", es: "🐾Guía de Robin", fr: "🐾Guide de Robin", pt: "🐾Guia do Robin", ja: "🐾ロビン ガイド" },
+  links: { en: "../../hero-wars-dominion-era/pet/robin-en.html", de: "../../hero-wars-dominion-era/pet/robin-de.html", es: "../../hero-wars-dominion-era/pet/robin-es.html", fr: "../../hero-wars-dominion-era/pet/robin-fr.html", pt: "../../hero-wars-dominion-era/pet/robin-pt.html", ja: "../../hero-wars-dominion-era/pet/robin-ja.html" },       
+  noStrip: true
+},
 
       {
        titles: { en: "✨Legacy of Great Ones", pt: "✨Legado dos Grandes", de: "✨Vermächtnis der Großen", es: "✨Legado de los Grandes", fr: "✨Héritage des Grands", ja: "✨偉大なる者の遺産"  },
@@ -349,6 +354,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
 },  links: { en: "../../hero-wars-dominion-era/events-special-hwde/robin-mead-festival-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
 },  
+{
+  titles: { en: "🐾Robin Guide", de: "🐾Robin Guide", es: "🐾Guía de Robin", fr: "🐾Guide de Robin", pt: "🐾Guia do Robin", ja: "🐾ロビン ガイド" },
+  links: { en: "../../hero-wars-dominion-era/pet/robin-en.html", de: "../../hero-wars-dominion-era/pet/robin-de.html", es: "../../hero-wars-dominion-era/pet/robin-es.html", fr: "../../hero-wars-dominion-era/pet/robin-fr.html", pt: "../../hero-wars-dominion-era/pet/robin-pt.html", ja: "../../hero-wars-dominion-era/pet/robin-ja.html" },       
+  noStrip: true
+},
       {
          titles: { en: "🏆Tournament of Hero Power", pt: "🏆Torneio de Poder do Herói", de: "🏆Helden-Kraftturnier", es: "🏆Torneo de Poder del Héroe", fr: "🏆Tournoi de Puissance des Héros", ja: "🏆ヒーローパワートーナメント" },
 links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.html", pt: "../../hero-wars-dominion-era/events/hero-tournament-of-power-pt.html", de: "", es: "", fr: "", ja: "" },
@@ -398,6 +408,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
 },  links: { en: "../../hero-wars-dominion-era/events-special-hwde/robin-mead-festival-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
 },  
+{
+  titles: { en: "🐾Robin Guide", de: "🐾Robin Guide", es: "🐾Guía de Robin", fr: "🐾Guide de Robin", pt: "🐾Guia do Robin", ja: "🐾ロビン ガイド" },
+  links: { en: "../../hero-wars-dominion-era/pet/robin-en.html", de: "../../hero-wars-dominion-era/pet/robin-de.html", es: "../../hero-wars-dominion-era/pet/robin-es.html", fr: "../../hero-wars-dominion-era/pet/robin-fr.html", pt: "../../hero-wars-dominion-era/pet/robin-pt.html", ja: "../../hero-wars-dominion-era/pet/robin-ja.html" },       
+  noStrip: true
+},
           ]
   },
 
@@ -422,6 +437,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
 },  links: { en: "../../hero-wars-dominion-era/events-special-hwde/robin-mead-festival-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
 },  
+{
+  titles: { en: "🐾Robin Guide", de: "🐾Robin Guide", es: "🐾Guía de Robin", fr: "🐾Guide de Robin", pt: "🐾Guia do Robin", ja: "🐾ロビン ガイド" },
+  links: { en: "../../hero-wars-dominion-era/pet/robin-en.html", de: "../../hero-wars-dominion-era/pet/robin-de.html", es: "../../hero-wars-dominion-era/pet/robin-es.html", fr: "../../hero-wars-dominion-era/pet/robin-fr.html", pt: "../../hero-wars-dominion-era/pet/robin-pt.html", ja: "../../hero-wars-dominion-era/pet/robin-ja.html" },       
+  noStrip: true
+},
 
       {
        titles: { en: "⚔️Hero Cosmic Battle", pt: "⚔️Batalha Cósmica de Heróis", de: "⚔️Kosmischer Kampf der Helden", es: "⚔️Batalla Cósmica de Héroes", fr: "⚔️Bataille Cosmique des Héros", ja: "⚔️ヒーローの宇宙の戦い" },
@@ -464,6 +484,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
 },  links: { en: "../../hero-wars-dominion-era/events-special-hwde/robin-mead-festival-missions-en.html", de: "", es: "", fr: "", pt: "", ja: "" },       
   noStrip: true
 },  
+{
+  titles: { en: "🐾Robin Guide", de: "🐾Robin Guide", es: "🐾Guía de Robin", fr: "🐾Guide de Robin", pt: "🐾Guia do Robin", ja: "🐾ロビン ガイド" },
+  links: { en: "../../hero-wars-dominion-era/pet/robin-en.html", de: "../../hero-wars-dominion-era/pet/robin-de.html", es: "../../hero-wars-dominion-era/pet/robin-es.html", fr: "../../hero-wars-dominion-era/pet/robin-fr.html", pt: "../../hero-wars-dominion-era/pet/robin-pt.html", ja: "../../hero-wars-dominion-era/pet/robin-ja.html" },       
+  noStrip: true
+},
 
       {
        titles: { en: "⚔️Hero Cosmic Battle", pt: "⚔️Batalha Cósmica de Heróis", de: "⚔️Kosmischer Kampf der Helden", es: "⚔️Batalla Cósmica de Héroes", fr: "⚔️Bataille Cosmique des Héros", ja: "⚔️ヒーローの宇宙の戦い" },
