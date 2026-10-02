@@ -12,8 +12,11 @@
 // ──  ──────────────────────────────
   { date:'2026-10-##', type:'link', giftId:'#####', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] }, 
-https://www.hero-wars.com/?nx_source=group_posting_giftweb&gift_id=27d27450abe2146012d1fc235945a8a5
+https://www.hero-wars.com/?nx_source=group_posting_giftweb&gift_id=
 */window.HWDE_GIFTS = [
+   { date:'2026-10-02', type:'link', giftId:'b752cbd95fa19ef0003df4ffc1e9a5ec', note:'level',
+   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' },  ] },
+
      { date:'2026-10-01', type:'link', giftId:'00dcab0d37a21ce70eaaa92511863af2', note:'level',
    rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'divine-card x5', 'energy x200', 'portal-charge x1' ] },
   { date:'2026-10-01', type:'link', giftLinkWeb:'https://herowars.me/4AJqzz6', giftLinkFb:'https://herowars.me/4xSRAxq',
