@@ -121,6 +121,8 @@
     {"id":"MARA","en":"Mara","de":"Mara","es":"Mara","fr":"Mara","pt":"Mara","ja":"マーラ"},
     {"id":"MERLIN","en":"Merlin","de":"Merlin","es":"Merlín","fr":"Merlin","pt":"Merlin","ja":"マーリン"},
     {"id":"OLIVER","en":"Oliver","de":"Oliver","es":"Oliver","fr":"Oliver","pt":"Oliver","ja":"オリバー"},
+     {"id":"Robin","en":"Robin","de":"Robin","es":"Robin","fr":"Robin","pt":"Robin","ja":"ロビン"},
+
     {"id":"VEX","en":"Vex","de":"Vex","es":"Vex","fr":"Vex","pt":"Vex","ja":"ヴェクス"}
   ]
 }

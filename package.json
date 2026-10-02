@@ -142,6 +142,10 @@
     "update-ziri-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js ziri",
     "update-yasmine-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js yasmine",
 
+
+ "update-robin-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js pet robin",
+
+
  "update-heroes-rank-tier-list-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js heroes-rank-tier-list-hwde",
 
     "update-totem-fusion-skills-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js totem-fusion-skills-hwde",

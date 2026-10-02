@@ -2,6 +2,15 @@
   // Carousel multi-language injector  npm run update-hwde-hwde 
   const slides = [
     {
+      link: "../../hero-wars-dominion-era/pet/robin-en.html",
+      src500: "../../hero-wars-dominion-era/images/pets/robin/robin-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/pets/robin/robin-400px.webp",
+       alt: "Robin Guide for Hero Wars: Dominion Era",
+      title: "Robin Guide for Hero Wars: Dominion Era.",
+      strong: "Guide: Robin - Hero Wars: Dominion Era",
+      updated: "Updated: October, 2026."
+    },
+    {
       link: "../../hero-wars-dominion-era/events-special-hwde/robin-mead-festival-missions-en.html",
       src500: "../../hero-wars-dominion-era/images/events-special/robin-mead-festival-missions/robin-mead-festival-missions-500px.webp",
       src400: "../../hero-wars-dominion-era/images/events-special/robin-mead-festival-missions/robin-mead-festival-missions-400px.webp",
