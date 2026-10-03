@@ -9,7 +9,7 @@
   <meta name="author" content="Alexandre Pereira Domingos">
   <meta name="robots" content="max-image-preview:large">
   <meta property="article:published_time" content="2026-09-21T00:00:00-03:00">
-  <meta property="article:modified_time" content="2026-09-21T22:21:47-03:00">
+  <meta property="article:modified_time" content="2026-10-03T15:23:46-03:00">
   <link rel="canonical" href="https://alexandregames.com/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-fr.html">
   <link rel="alternate" hreflang="en" href="https://alexandregames.com/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-en.html">
   <link rel="alternate" hreflang="x-default" href="https://alexandregames.com/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-en.html">
@@ -253,6 +253,39 @@
       <h3 id="critical-hit-chance"><img src="../images/glyphs/crit-hit-chance.webp" alt="" width="48" height="48" loading="lazy">Chances de coup critique : le double de dégâts physiques</h3>
       <p>Un coup critique physique inflige <strong>2× les dégâts</strong>. Un coup de 10 000 passe à 20 000 grâce au multiplicateur critique, toutes les autres conditions restant identiques. Vos Chances de coup critique sont comparées à l’attribut principal de la cible.</p>
       <p>Une probabilité de 50 % ne signifie pas qu’un coup sur deux sera critique. Plusieurs coups ordinaires ou plusieurs coups critiques peuvent se produire à la suite. J’accorde de la valeur aux chances de critique lorsque le héros possède déjà suffisamment de dégâts de base et de pénétration pour que ces critiques réussis comptent.</p>
+      <h4>Plus de critique augmente la probabilité, mais le gain diminue</h4>
+      <p>C’est un effet de <strong>rendements décroissants</strong> : contre une même cible, plus votre valeur de critique est élevée, moins une même augmentation apporte de points de pourcentage. La probabilité dépend aussi de l’attribut principal de la cible.</p>
+      <p><strong>Probabilité de critique physique (%) = Valeur de critique ÷ (Valeur de critique + attribut principal de la cible) × 100.</strong></p>
+      <div class="stats-table" tabindex="0" role="region" aria-label="Probabilité de critique physique contre une cible avec 15 000 d’attribut principal">
+      <table><caption>Probabilité de critique physique contre une cible avec 15 000 d’attribut principal</caption><thead><tr><th scope="col">Valeur de critique</th><th scope="col">Probabilité de critique physique</th></tr></thead><tbody>
+        <tr><th scope="row">5 000</th><td>25 %</td></tr>
+        <tr><th scope="row">10 000</th><td>40 %</td></tr>
+        <tr><th scope="row">15 000</th><td>50 %</td></tr>
+        <tr><th scope="row">20 000</th><td>57,1 %</td></tr>
+        <tr><th scope="row">25 000</th><td>62,5 %</td></tr>
+        <tr><th scope="row">30 000</th><td>66,7 %</td></tr>
+      </tbody></table></div>
+      <p>Passer de 5 000 à 10 000 de critique fait monter la probabilité de <strong>25 % à 40 %</strong>, soit un gain de 15 points de pourcentage. Passer de 25 000 à 30 000 la fait monter de <strong>62,5 % à 66,7 %</strong>, soit environ 4,2 points pour les mêmes +5 000. Sur un graphique, ce serait une courbe montante qui s’aplatit progressivement.</p>
+      <h4>Exemple avec Guus : Talisman 1 contre Talisman 2</h4>
+      <p>Avec les attributs de <a href="../characters-guide/guus-fr.html">Guus</a> contre cette même cible avec 15 000 d’attribut principal :</p>
+      <div class="stats-table" tabindex="0" role="region" aria-label="Guus : comparaison des talismans pour les critiques physiques">
+      <table><caption>Guus : comparaison des talismans pour les critiques physiques</caption><thead><tr><th scope="col">Talisman</th><th scope="col">Valeur de critique (approximative)</th><th scope="col">Probabilité de critique physique</th></tr></thead><tbody>
+        <tr><th scope="row">T2 — Talisman of the Grand Yolk</th><td>16 510</td><td>52,4 %</td></tr>
+        <tr><th scope="row">T1 — Talisman of Feathers</th><td>24 100</td><td>61,6 %</td></tr>
+      </tbody></table></div>
+      <p>Dans cet exemple, le T1 offre environ <strong>9,2 points de pourcentage supplémentaires</strong> de probabilité de critique physique, alors que la valeur de critique augmente d’environ 46 %.</p>
+      <h4>Comment l’attribut principal de l’ennemi change cette probabilité</h4>
+      <p>À valeur de critique constante pour Guus, plus l’attribut principal de l’ennemi est élevé, plus la probabilité de critique physique diminue. Voici la comparaison des deux talismans contre différentes cibles :</p>
+      <div class="stats-table" tabindex="0" role="region" aria-label="Guus : probabilité de critique physique contre différents ennemis">
+      <table><caption>Guus : probabilité de critique physique contre différents ennemis</caption><thead><tr><th scope="col">Attribut principal de l’ennemi</th><th scope="col">T1 — 24 100 (Valeur de critique)</th><th scope="col">T2 — 16 510 (Valeur de critique)</th></tr></thead><tbody>
+        <tr><th scope="row">10 000</th><td><strong>70,7 %</strong></td><td>62,3 %</td></tr>
+        <tr><th scope="row">15 000</th><td><strong>61,6 %</strong></td><td>52,4 %</td></tr>
+        <tr><th scope="row">20 000</th><td><strong>54,6 %</strong></td><td>45,2 %</td></tr>
+        <tr><th scope="row">25 000</th><td><strong>49,1 %</strong></td><td>39,8 %</td></tr>
+        <tr><th scope="row">30 000</th><td><strong>44,5 %</strong></td><td>35,5 %</td></tr>
+      </tbody></table></div>
+      <p>Le T1 conserve la probabilité de critique physique la plus élevée dans tous ces exemples, mais aucun des talismans ne donne un pourcentage fixe contre tous les ennemis. Les valeurs sont arrondies à une décimale.</p>
+      <p class="stats-note"><strong>Soins critiques de Guus :</strong> la formule spécifique reste à confirmer. Nous ne pouvons pas appliquer automatiquement la formule des attaques aux soins. Le T1 augmente la valeur de critique, mais il faut connaître la probabilité réelle de soin critique avant de conclure si ce gain compense les soins plus élevés par activation du T2.</p>
       <h3 id="magical-critical-hit-chance"><img src="../images/glyphs/magical-crit-hit-chance.webp" alt="" width="48" height="48" loading="lazy">Chances de coup critique magique : une statistique différente, un multiplicateur plus élevé</h3>
       <p>Les coups critiques magiques infligent <strong>2,5× les dégâts magiques</strong>. Un coup magique comparable de 10 000 dégâts passe à 25 000 grâce à ce multiplicateur. La probabilité utilise les Chances de coup critique magique et l’attribut principal de la cible.</p>
       <p>Les Chances de coup critique ordinaires ne remplacent pas cette statistique. De même, la version magique ne rend pas les dégâts physiques ou purs critiques. Vérifiez quels dégâts le héros inflige réellement avant de rechercher un bonus critique séduisant.</p>

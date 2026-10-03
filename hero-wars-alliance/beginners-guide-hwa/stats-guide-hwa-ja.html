@@ -9,7 +9,7 @@
   <meta name="author" content="Alexandre Pereira Domingos">
   <meta name="robots" content="max-image-preview:large">
   <meta property="article:published_time" content="2026-09-21T00:00:00-03:00">
-  <meta property="article:modified_time" content="2026-09-21T22:21:47-03:00">
+  <meta property="article:modified_time" content="2026-10-03T15:23:46-03:00">
   <link rel="canonical" href="https://alexandregames.com/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-ja.html">
   <link rel="alternate" hreflang="en" href="https://alexandregames.com/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-en.html">
   <link rel="alternate" hreflang="x-default" href="https://alexandregames.com/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-en.html">
@@ -253,6 +253,39 @@
       <h3 id="critical-hit-chance"><img src="../images/glyphs/crit-hit-chance.webp" alt="" width="48" height="48" loading="lazy">クリティカルヒット率：物理ダメージが二倍になる</h3>
       <p>物理クリティカルヒットは、<strong>2倍のダメージ</strong>を与えます。ほかの条件が同じなら、10,000の攻撃はクリティカル倍率によって20,000になります。自分のクリティカルヒット率は、対象の主属性と比較します。</p>
       <p>確率が50%でも、二回に一回必ずクリティカルになるわけではありません。通常の攻撃が何度も続くことも、クリティカルが何度も続くこともあります。ヒーローにすでに十分な基礎ダメージと貫通があり、成功したクリティカルを有効に生かせる場合に、私はクリティカル率を高く評価します。</p>
+      <h4>クリティカル評価値が高いほど確率は上がるが、上昇幅は小さくなる</h4>
+      <p>これは<strong>収穫逓減</strong>と呼ばれる効果です。同じ対象に対しては、すでに持っているクリティカル評価値が高いほど、同じ量を追加しても確率の上昇幅は小さくなります。確率は攻撃を受ける対象の主属性にも左右されます。</p>
+      <p><strong>物理クリティカル確率（%）= クリティカル評価値 ÷（クリティカル評価値 + 対象の主属性）× 100。</strong></p>
+      <div class="stats-table" tabindex="0" role="region" aria-label="主属性が15,000の対象に対する物理クリティカル確率">
+      <table><caption>主属性が15,000の対象に対する物理クリティカル確率</caption><thead><tr><th scope="col">クリティカル評価値</th><th scope="col">物理クリティカル確率</th></tr></thead><tbody>
+        <tr><th scope="row">5,000</th><td>25%</td></tr>
+        <tr><th scope="row">10,000</th><td>40%</td></tr>
+        <tr><th scope="row">15,000</th><td>50%</td></tr>
+        <tr><th scope="row">20,000</th><td>57.1%</td></tr>
+        <tr><th scope="row">25,000</th><td>62.5%</td></tr>
+        <tr><th scope="row">30,000</th><td>66.7%</td></tr>
+      </tbody></table></div>
+      <p>クリティカル評価値を5,000から10,000に増やすと、確率は<strong>25%から40%</strong>へと15ポイント上昇します。一方、25,000から30,000では<strong>62.5%から66.7%</strong>となり、同じ+5,000でも上昇幅は約4.2ポイントです。グラフにすると、上昇しながら次第に水平に近づく曲線になります。</p>
+      <h4>Guusの例：タリスマン1とタリスマン2の比較</h4>
+      <p><a href="../characters-guide/guus-ja.html">Guus</a>のステータスを使い、同じく主属性が15,000の対象と比較します。</p>
+      <div class="stats-table" tabindex="0" role="region" aria-label="Guus：物理クリティカルにおけるタリスマンの比較">
+      <table><caption>Guus：物理クリティカルにおけるタリスマンの比較</caption><thead><tr><th scope="col">タリスマン</th><th scope="col">クリティカル評価値（概数）</th><th scope="col">物理クリティカル確率</th></tr></thead><tbody>
+        <tr><th scope="row">T2 — Talisman of the Grand Yolk</th><td>16,510</td><td>52.4%</td></tr>
+        <tr><th scope="row">T1 — Talisman of Feathers</th><td>24,100</td><td>61.6%</td></tr>
+      </tbody></table></div>
+      <p>この例では、T1のクリティカル評価値は約46%高いものの、物理クリティカル確率の差は<strong>約9.2ポイント</strong>です。</p>
+      <h4>敵の主属性によって確率はどう変わるか</h4>
+      <p>Guusのクリティカル評価値が同じでも、敵の主属性が高くなるほど物理クリティカル確率は下がります。主属性の異なる対象に対して、2つのタリスマンを比較すると次のようになります。</p>
+      <div class="stats-table" tabindex="0" role="region" aria-label="Guus：敵の主属性ごとの物理クリティカル確率">
+      <table><caption>Guus：敵の主属性ごとの物理クリティカル確率</caption><thead><tr><th scope="col">敵の主属性</th><th scope="col">T1 — 24,100 (クリティカル評価値)</th><th scope="col">T2 — 16,510 (クリティカル評価値)</th></tr></thead><tbody>
+        <tr><th scope="row">10,000</th><td><strong>70.7%</strong></td><td>62.3%</td></tr>
+        <tr><th scope="row">15,000</th><td><strong>61.6%</strong></td><td>52.4%</td></tr>
+        <tr><th scope="row">20,000</th><td><strong>54.6%</strong></td><td>45.2%</td></tr>
+        <tr><th scope="row">25,000</th><td><strong>49.1%</strong></td><td>39.8%</td></tr>
+        <tr><th scope="row">30,000</th><td><strong>44.5%</strong></td><td>35.5%</td></tr>
+      </tbody></table></div>
+      <p>この例ではすべてT1の物理クリティカル確率が高くなります。ただし、どちらのタリスマンも、すべての敵に対して一定の確率になるわけではありません。数値は小数第1位に丸めています。</p>
+      <p class="stats-note"><strong>Guusのクリティカル回復：</strong>専用の計算式はまだ確認が必要です。攻撃の計算式をそのまま回復に適用することはできません。T1はクリティカル評価値を増やしますが、その効果がT2の1回あたりの回復量の多さを上回るか判断するには、実際のクリティカル回復確率を知る必要があります。</p>
       <h3 id="magical-critical-hit-chance"><img src="../images/glyphs/magical-crit-hit-chance.webp" alt="" width="48" height="48" loading="lazy">魔法クリティカルヒット率：別のステータス、より大きな倍率</h3>
       <p>魔法クリティカルヒットは、<strong>2.5倍の魔法ダメージ</strong>を与えます。同等の10,000ダメージの魔法攻撃は、その倍率によって25,000になります。確率は、魔法クリティカルヒット率と対象の主属性を使って求めます。</p>
       <p>通常のクリティカルヒット率で、このステータスを代用することはできません。同様に、魔法版のステータスが物理ダメージや純ダメージをクリティカルにすることもありません。魅力的なクリティカルボーナスを追い求める前に、そのヒーローが実際にどの種類のダメージを与えるのかを確認してください。</p>

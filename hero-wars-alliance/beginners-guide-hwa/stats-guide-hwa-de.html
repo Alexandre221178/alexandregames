@@ -9,7 +9,7 @@
   <meta name="author" content="Alexandre Pereira Domingos">
   <meta name="robots" content="max-image-preview:large">
   <meta property="article:published_time" content="2026-09-21T00:00:00-03:00">
-  <meta property="article:modified_time" content="2026-09-21T22:21:47-03:00">
+  <meta property="article:modified_time" content="2026-10-03T15:23:46-03:00">
   <link rel="canonical" href="https://alexandregames.com/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-de.html">
   <link rel="alternate" hreflang="en" href="https://alexandregames.com/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-en.html">
   <link rel="alternate" hreflang="x-default" href="https://alexandregames.com/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-en.html">
@@ -253,6 +253,39 @@
       <h3 id="critical-hit-chance"><img src="../images/glyphs/crit-hit-chance.webp" alt="" width="48" height="48" loading="lazy">Kritische Trefferchance: doppelter physischer Schaden</h3>
       <p>Ein physischer kritischer Treffer verursacht <strong>2× Schaden</strong>. Ein Treffer mit 10.000 wird durch den kritischen Multiplikator zu 20.000, wenn alle anderen Bedingungen gleich bleiben. Deine Kritische Trefferchance wird mit dem Hauptattribut des Ziels verglichen.</p>
       <p>Eine Chance von 50 % bedeutet nicht, dass jeder zweite Treffer kritisch ist. Mehrere gewöhnliche Treffer oder mehrere kritische Treffer können hintereinander auftreten. Ich schätze die kritische Trefferchance, wenn der Held bereits genug grundlegenden Schaden und Durchdringung besitzt, damit diese erfolgreichen kritischen Treffer auch etwas bewirken.</p>
+      <h4>Mehr kritischer Trefferwert erhöht die Chance, aber der Zugewinn wird kleiner</h4>
+      <p>Hier wirken <strong>abnehmende Erträge</strong>: Je mehr kritischen Trefferwert du bereits hast, desto weniger Prozentpunkte bringt derselbe zusätzliche Wert gegen dasselbe Ziel. Die Chance hängt auch vom Hauptattribut des Ziels ab.</p>
+      <p><strong>Physische kritische Trefferchance (%) = Kritischer Trefferwert ÷ (Kritischer Trefferwert + Hauptattribut des Ziels) × 100.</strong></p>
+      <div class="stats-table" tabindex="0" role="region" aria-label="Physische kritische Trefferchance gegen ein Ziel mit 15.000 Hauptattribut">
+      <table><caption>Physische kritische Trefferchance gegen ein Ziel mit 15.000 Hauptattribut</caption><thead><tr><th scope="col">Kritischer Trefferwert</th><th scope="col">Physische kritische Trefferchance</th></tr></thead><tbody>
+        <tr><th scope="row">5.000</th><td>25 %</td></tr>
+        <tr><th scope="row">10.000</th><td>40 %</td></tr>
+        <tr><th scope="row">15.000</th><td>50 %</td></tr>
+        <tr><th scope="row">20.000</th><td>57,1 %</td></tr>
+        <tr><th scope="row">25.000</th><td>62,5 %</td></tr>
+        <tr><th scope="row">30.000</th><td>66,7 %</td></tr>
+      </tbody></table></div>
+      <p>Der Anstieg von 5.000 auf 10.000 kritischen Trefferwert erhöht die Chance von <strong>25 % auf 40 %</strong>: ein Gewinn von 15 Prozentpunkten. Von 25.000 auf 30.000 steigt sie dagegen von <strong>62,5 % auf 66,7 %</strong>: etwa 4,2 Prozentpunkte für dieselben +5.000. In einem Diagramm wäre das eine ansteigende Kurve, die immer flacher wird.</p>
+      <h4>Beispiel mit Guus: Talisman 1 gegen Talisman 2</h4>
+      <p>Mit den Werten von <a href="../characters-guide/guus-de.html">Guus</a> gegen dasselbe Ziel mit 15.000 Hauptattribut:</p>
+      <div class="stats-table" tabindex="0" role="region" aria-label="Guus: Talismanvergleich für physische kritische Treffer">
+      <table><caption>Guus: Talismanvergleich für physische kritische Treffer</caption><thead><tr><th scope="col">Talisman</th><th scope="col">Kritischer Trefferwert (ungefähr)</th><th scope="col">Physische kritische Trefferchance</th></tr></thead><tbody>
+        <tr><th scope="row">T2 — Talisman of the Grand Yolk</th><td>16.510</td><td>52,4 %</td></tr>
+        <tr><th scope="row">T1 — Talisman of Feathers</th><td>24.100</td><td>61,6 %</td></tr>
+      </tbody></table></div>
+      <p>In diesem Beispiel bietet T1 etwa <strong>9,2 Prozentpunkte mehr</strong> physische kritische Trefferchance, obwohl der kritische Trefferwert um ungefähr 46 % steigt.</p>
+      <h4>Wie das Hauptattribut des Gegners die Chance verändert</h4>
+      <p>Bleibt Guus’ kritischer Trefferwert gleich, sinkt seine physische kritische Trefferchance mit steigendem Hauptattribut des Gegners. So unterscheiden sich die beiden Talismane gegen verschiedene Ziele:</p>
+      <div class="stats-table" tabindex="0" role="region" aria-label="Guus: physische kritische Trefferchance gegen verschiedene Gegner">
+      <table><caption>Guus: physische kritische Trefferchance gegen verschiedene Gegner</caption><thead><tr><th scope="col">Hauptattribut des Gegners</th><th scope="col">T1 — 24.100 (Kritischer Trefferwert)</th><th scope="col">T2 — 16.510 (Kritischer Trefferwert)</th></tr></thead><tbody>
+        <tr><th scope="row">10.000</th><td><strong>70,7 %</strong></td><td>62,3 %</td></tr>
+        <tr><th scope="row">15.000</th><td><strong>61,6 %</strong></td><td>52,4 %</td></tr>
+        <tr><th scope="row">20.000</th><td><strong>54,6 %</strong></td><td>45,2 %</td></tr>
+        <tr><th scope="row">25.000</th><td><strong>49,1 %</strong></td><td>39,8 %</td></tr>
+        <tr><th scope="row">30.000</th><td><strong>44,5 %</strong></td><td>35,5 %</td></tr>
+      </tbody></table></div>
+      <p>T1 bietet in all diesen Beispielen die höhere physische kritische Trefferchance. Keiner der Talismane liefert jedoch gegen jeden Gegner denselben Prozentsatz. Die Werte sind auf eine Nachkommastelle gerundet.</p>
+      <p class="stats-note"><strong>Guus’ kritische Heilung:</strong> Die genaue Formel muss noch bestätigt werden. Die Angriffsformel lässt sich nicht automatisch auf Heilung übertragen. T1 erhöht den kritischen Trefferwert, aber erst mit der tatsächlichen Chance auf kritische Heilung lässt sich beurteilen, ob dies die höhere Heilung pro Aktivierung von T2 aufwiegt.</p>
       <h3 id="magical-critical-hit-chance"><img src="../images/glyphs/magical-crit-hit-chance.webp" alt="" width="48" height="48" loading="lazy">Magische kritische Trefferchance: ein anderer Wert, ein größerer Multiplikator</h3>
       <p>Magische kritische Treffer verursachen <strong>2,5× magischen Schaden</strong>. Ein vergleichbarer magischer Treffer mit 10.000 Schaden wird durch diesen Multiplikator zu 25.000. Die Wahrscheinlichkeit verwendet die Magische kritische Trefferchance und das Hauptattribut des Ziels.</p>
       <p>Die gewöhnliche Kritische Trefferchance ersetzt diesen Wert nicht. Ebenso macht die magische Variante physischen oder reinen Schaden nicht kritisch. Prüfe, welchen Schaden der Held tatsächlich verursacht, bevor du einem verlockenden kritischen Bonus nachjagst.</p>

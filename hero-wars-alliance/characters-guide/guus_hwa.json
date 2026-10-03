@@ -120,6 +120,8 @@
                     "variant": "base",
                     "level": 100,
                     "name": "Beak Peak",
+                    "alexandre_tips": "This is where Guus becomes truly special: now all of his healing can crit! The Relic gives the team a huge survivability boost - while Guus could already heal through some incoming damage, critical healing now lets him restore massive amounts of Health. Enemies who rely on damage over time are going to have a much harder time.",
+                    "great_against": ["Kayla", "Peech", "Iris", "Maya"],
                     "type": ["Buff"],
                     "description": "If Health of an ally with a Golden Feather is supposed to drop below 25%, then before that happens, it is partially restored. The amount of Health restored is increased for each remaining second of the Golden Feather's duration. The Golden Feather disappears after triggering this effect.",
                     "range": 3000,
@@ -145,6 +147,8 @@
                     "variant": "base",
                     "level": 80,
                     "name": "Honkageddon",
+                    "alexandre_tips": "Guus now grants Feathers to allies around himself, not just to those near the enemy that took critical damage. This helps him keep Feathers active on more allies - both in front of and behind him.",
+                    "great_with": ["Tristan", "Crow", "Artemis"],
                     "type": ["Buff"],
                     "description": "Hero's critical hits do not deal extra damage but restore Health to all allies around the target and give them Golden Feathers. If an ally has a Golden Feather, all their critical hits deal increased damage, and Honor Heroes deal extra damage depending on their current Health.",
                     "area": 255,
@@ -166,6 +170,8 @@
                     "variant": "legendary",
                     "legendary_relic_level": 1,
                     "name": "Featherhood",
+                    "alexandre_tips": "Periodically grants a Golden Feather to himself and the ally with the highest Health. This helps him consistently boost Critical Hit Chance and keep the effect active on the team. Honor Heroes with Strength as their main stat become even harder to take down, making Guus teams even more effective.",
+                    "great_with": ["Tristan", "Luther"],
                     "type": ["Buff"],
                     "description": "Every 11.0 seconds, grants a Golden Feather to himself and the ally with the highest Health stat.",
                     "interval_seconds": 11,
@@ -183,6 +189,7 @@
                     "variant": "legendary",
                     "legendary_relic_level": 30,
                     "name": "No Honk, No Gain",
+                    "alexandre_tips": "It's simple: Guus greatly reduces enemies' critical damage. Magical and pure critical hits deal 4 times less damage. And since allies also heal from this damage, Guus can almost completely offset the enemy's damage.",
                     "type": ["Buff"],
                     "description": "While Guus and his allies are affected by a Golden Feather, they take less magic and pure critical damage.",
                     "magic_and_pure_critical_damage_reduction_percent": 75,
@@ -300,7 +307,21 @@
                 "level": null,
                 "bonuses": { "strength": null, "agility": null, "intelligence": null }
             },
+            "best_teams": [
+                {
+                    "rank": 1,
+                    "heroes": [
+                        { "hero": "Eva", "talisman": "T1" },
+                        { "hero": "Peech", "talisman": "T2" },
+                        { "hero": "Guus", "talisman": "T1" },
+                        { "hero": "Judge", "talisman": "T1" },
+                        { "hero": "Julius", "talisman": "T2" }
+                    ],
+                    "alexandre_tips": "This team is the best against Chaos teams featuring Kendle, Dorian, and Cleaver."
+                }
+            ],
             "notes": [
+                "Obs do Alexandre: depois que coloquei meu Guus com relíquia nível 30, ele ficou muito forte, diria insano. Cura muito e ajuda muito; ele já era forte, agora ficou muito forte.",
                 "Guus é um herói suporte/healer com foco em Força e Crit Hit Chance.",
                 "Seu kit gira em torno das Golden Feathers, que aumentam crit chance, regeneram vida e protegem aliados de morrer.",
                 "Skin Harvest possui efeito especial: ao curar um aliado, converte o dano recebido em cura por 5 segundos.",

@@ -9,7 +9,7 @@
   <meta name="author" content="Alexandre Pereira Domingos">
   <meta name="robots" content="max-image-preview:large">
   <meta property="article:published_time" content="2026-09-21T00:00:00-03:00">
-  <meta property="article:modified_time" content="2026-09-21T22:21:47-03:00">
+  <meta property="article:modified_time" content="2026-10-03T15:23:46-03:00">
   <link rel="canonical" href="https://alexandregames.com/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-pt.html">
   <link rel="alternate" hreflang="en" href="https://alexandregames.com/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-en.html">
   <link rel="alternate" hreflang="x-default" href="https://alexandregames.com/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-en.html">
@@ -253,6 +253,39 @@
       <h3 id="critical-hit-chance"><img src="../images/glyphs/crit-hit-chance.webp" alt="" width="48" height="48" loading="lazy">Chance de Acerto Crítico: o dobro de dano físico</h3>
       <p>Um acerto crítico físico causa <strong>2× o dano</strong>. Um golpe de 10.000 passa a causar 20.000 pelo multiplicador crítico, mantendo as demais condições iguais. Sua Chance de Acerto Crítico é comparada com o atributo principal do alvo.</p>
       <p>Uma chance de 50% não significa que um a cada dois golpes será crítico. Vários golpes comuns ou vários acertos críticos podem ocorrer em sequência. Valorizo a chance de crítico quando o herói já tem dano de base e penetração suficientes para fazer esses críticos bem-sucedidos valerem a pena.</p>
+      <h4>Mais crítico aumenta a chance, mas o ganho diminui</h4>
+      <p>Isso é um efeito de <strong>retornos decrescentes</strong>: contra o mesmo alvo, quanto mais crítico você já tem, menos pontos percentuais ganha com a mesma quantidade adicional. A chance também depende do atributo principal de quem recebe o ataque.</p>
+      <p><strong>Chance de crítico físico (%) = Crítico ÷ (Crítico + atributo principal do alvo) × 100.</strong></p>
+      <div class="stats-table" tabindex="0" role="region" aria-label="Retornos decrescentes da chance de crítico físico">
+      <table><caption>Chance de crítico físico contra um alvo com 15.000 de atributo principal</caption><thead><tr><th scope="col">Atributo de crítico</th><th scope="col">Chance de crítico físico</th></tr></thead><tbody>
+        <tr><td>5.000</td><td>25%</td></tr>
+        <tr><td>10.000</td><td>40%</td></tr>
+        <tr><td>15.000</td><td>50%</td></tr>
+        <tr><td>20.000</td><td>57,1%</td></tr>
+        <tr><td>25.000</td><td>62,5%</td></tr>
+        <tr><td>30.000</td><td>66,7%</td></tr>
+      </tbody></table></div>
+      <p>Ao passar de 5.000 para 10.000 de crítico, os +5.000 aumentam a chance de <strong>25% para 40%</strong>: um ganho de 15 pontos percentuais. Já de 25.000 para 30.000, os mesmos +5.000 aumentam a chance de <strong>62,5% para 66,7%</strong>: cerca de 4,2 pontos percentuais. Em um gráfico, seria uma curva que sobe e vai ficando mais horizontal.</p>
+      <h4>Exemplo com Guus: Talismã 1 versus Talismã 2</h4>
+      <p>Usando os atributos de <a href="../characters-guide/guus-pt.html">Guus</a> contra esse mesmo alvo com 15.000 de atributo principal:</p>
+      <div class="stats-table" tabindex="0" role="region" aria-label="Comparação da chance de crítico físico de Guus com os dois talismãs">
+      <table><caption>Guus: comparação dos talismãs para crítico físico</caption><thead><tr><th scope="col">Talismã</th><th scope="col">Atributo de crítico (aproximado)</th><th scope="col">Chance de crítico físico</th></tr></thead><tbody>
+        <tr><th scope="row">T2 — Talisman of the Grand Yolk</th><td>16.510</td><td>52,4%</td></tr>
+        <tr><th scope="row">T1 — Talisman of Feathers</th><td>24.100</td><td>61,6%</td></tr>
+      </tbody></table></div>
+      <p>Nesse exemplo, o T1 oferece cerca de <strong>9,2 pontos percentuais a mais</strong> de chance de crítico físico, apesar de o atributo de crítico aumentar aproximadamente 46%.</p>
+      <h4>Como o atributo principal do inimigo muda essa chance</h4>
+      <p>Mantendo o crítico de Guus fixo, quanto maior o atributo principal do inimigo, menor a chance de acertar um crítico físico. Veja como os dois talismãs se comparam contra alvos com atributos diferentes:</p>
+      <div class="stats-table" tabindex="0" role="region" aria-label="Chance de crítico físico de Guus por atributo principal do inimigo">
+      <table><caption>Guus: chance de crítico físico contra diferentes inimigos</caption><thead><tr><th scope="col">Atributo principal do inimigo</th><th scope="col">T1 — 24.100 crítico</th><th scope="col">T2 — 16.510 crítico</th></tr></thead><tbody>
+        <tr><th scope="row">10.000</th><td><strong>70,7%</strong></td><td>62,3%</td></tr>
+        <tr><th scope="row">15.000</th><td><strong>61,6%</strong></td><td>52,4%</td></tr>
+        <tr><th scope="row">20.000</th><td><strong>54,6%</strong></td><td>45,2%</td></tr>
+        <tr><th scope="row">25.000</th><td><strong>49,1%</strong></td><td>39,8%</td></tr>
+        <tr><th scope="row">30.000</th><td><strong>44,5%</strong></td><td>35,5%</td></tr>
+      </tbody></table></div>
+      <p>O T1 mantém a maior chance de crítico físico em todos esses exemplos, mas nenhum dos talismãs oferece uma porcentagem fixa contra qualquer inimigo. Os valores foram arredondados para uma casa decimal.</p>
+      <p class="stats-note"><strong>Cura crítica de Guus:</strong> a fórmula específica ainda precisa ser confirmada. Não podemos aplicar automaticamente a fórmula dos ataques às curas. O T1 aumenta o atributo de crítico, mas é preciso conhecer a chance real de cura crítica antes de concluir se esse ganho compensa a cura maior por ativação do T2.</p>
       <h3 id="magical-critical-hit-chance"><img src="../images/glyphs/magical-crit-hit-chance.webp" alt="" width="48" height="48" loading="lazy">Chance de Acerto Crítico Mágico: um atributo diferente, um multiplicador maior</h3>
       <p>Acertos críticos mágicos causam <strong>2,5× o dano mágico</strong>. Um golpe mágico comparável de 10.000 de dano passa a causar 25.000 com esse multiplicador. A chance usa a Chance de Acerto Crítico Mágico e o atributo principal do alvo.</p>
       <p>A Chance de Acerto Crítico comum não substitui esse atributo. Da mesma forma, a versão mágica não torna o dano físico ou puro crítico. Confira qual dano o herói realmente causa antes de buscar um bônus crítico atraente.</p>
