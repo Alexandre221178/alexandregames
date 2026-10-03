@@ -9,7 +9,7 @@
   <meta name="author" content="Alexandre Pereira Domingos">
   <meta name="robots" content="max-image-preview:large">
   <meta property="article:published_time" content="2026-09-21T00:00:00-03:00">
-  <meta property="article:modified_time" content="2026-09-21T22:21:47-03:00">
+  <meta property="article:modified_time" content="2026-10-03T15:23:46-03:00">
   <link rel="canonical" href="https://alexandregames.com/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-en.html">
   <link rel="alternate" hreflang="en" href="https://alexandregames.com/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-en.html">
   <link rel="alternate" hreflang="x-default" href="https://alexandregames.com/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-en.html">
@@ -253,6 +253,39 @@
       <h3 id="critical-hit-chance"><img src="../images/glyphs/crit-hit-chance.webp" alt="" width="48" height="48" loading="lazy">Critical Hit Chance: double physical damage</h3>
       <p>A physical critical hit deals <strong>2× damage</strong>. A hit worth 10,000 becomes 20,000 from the critical multiplier, keeping other conditions equal. Your Critical Hit Chance is compared with the target's main stat.</p>
       <p>A 50% chance does not mean every second hit will crit. Several ordinary hits or several critical hits can occur in a row. I value critical chance when the hero already has enough underlying damage and penetration to make those successful criticals count.</p>
+      <h4>More critical rating increases the chance, but each gain gets smaller</h4>
+      <p>This is <strong>diminishing returns</strong>: against the same target, the more critical rating you already have, the fewer percentage points you gain from the same additional amount. The chance also depends on the target's main stat.</p>
+      <p><strong>Physical critical hit chance (%) = Critical rating ÷ (Critical rating + target's main stat) × 100.</strong></p>
+      <div class="stats-table" tabindex="0" role="region" aria-label="Physical critical hit chance against a target with 15,000 main stat">
+      <table><caption>Physical critical hit chance against a target with 15,000 main stat</caption><thead><tr><th scope="col">Critical rating</th><th scope="col">Physical critical hit chance</th></tr></thead><tbody>
+        <tr><th scope="row">5,000</th><td>25%</td></tr>
+        <tr><th scope="row">10,000</th><td>40%</td></tr>
+        <tr><th scope="row">15,000</th><td>50%</td></tr>
+        <tr><th scope="row">20,000</th><td>57.1%</td></tr>
+        <tr><th scope="row">25,000</th><td>62.5%</td></tr>
+        <tr><th scope="row">30,000</th><td>66.7%</td></tr>
+      </tbody></table></div>
+      <p>Going from 5,000 to 10,000 critical rating raises the chance from <strong>25% to 40%</strong>: a gain of 15 percentage points. Going from 25,000 to 30,000 raises it from <strong>62.5% to 66.7%</strong>: about 4.2 percentage points for the same +5,000. On a graph, this would be a rising curve that gradually flattens.</p>
+      <h4>Guus example: Talisman 1 versus Talisman 2</h4>
+      <p>Using the stats of <a href="../characters-guide/guus-en.html">Guus</a> against the same target with 15,000 main stat:</p>
+      <div class="stats-table" tabindex="0" role="region" aria-label="Guus: talisman comparison for physical critical hits">
+      <table><caption>Guus: talisman comparison for physical critical hits</caption><thead><tr><th scope="col">Talisman</th><th scope="col">Critical rating (approximate)</th><th scope="col">Physical critical hit chance</th></tr></thead><tbody>
+        <tr><th scope="row">T2 — Talisman of the Grand Yolk</th><td>16,510</td><td>52.4%</td></tr>
+        <tr><th scope="row">T1 — Talisman of Feathers</th><td>24,100</td><td>61.6%</td></tr>
+      </tbody></table></div>
+      <p>In this example, T1 provides about <strong>9.2 percentage points more</strong> physical critical hit chance, even though the critical rating increases by approximately 46%.</p>
+      <h4>How the enemy's main stat changes this chance</h4>
+      <p>With Guus's critical rating held constant, a higher enemy main stat means a lower physical critical hit chance. Here is how the two talismans compare against different targets:</p>
+      <div class="stats-table" tabindex="0" role="region" aria-label="Guus: physical critical hit chance against different enemies">
+      <table><caption>Guus: physical critical hit chance against different enemies</caption><thead><tr><th scope="col">Enemy's main stat</th><th scope="col">T1 — 24,100 (Critical rating)</th><th scope="col">T2 — 16,510 (Critical rating)</th></tr></thead><tbody>
+        <tr><th scope="row">10,000</th><td><strong>70.7%</strong></td><td>62.3%</td></tr>
+        <tr><th scope="row">15,000</th><td><strong>61.6%</strong></td><td>52.4%</td></tr>
+        <tr><th scope="row">20,000</th><td><strong>54.6%</strong></td><td>45.2%</td></tr>
+        <tr><th scope="row">25,000</th><td><strong>49.1%</strong></td><td>39.8%</td></tr>
+        <tr><th scope="row">30,000</th><td><strong>44.5%</strong></td><td>35.5%</td></tr>
+      </tbody></table></div>
+      <p>T1 has the higher physical critical hit chance in all these examples, but neither talisman gives a fixed percentage against every enemy. Values are rounded to one decimal place.</p>
+      <p class="stats-note"><strong>Guus's critical healing:</strong> the specific formula still needs confirmation. We cannot automatically apply the attack formula to healing. T1 increases the critical rating, but we need to know the actual critical healing chance before deciding whether it outweighs T2's higher healing per activation.</p>
       <h3 id="magical-critical-hit-chance"><img src="../images/glyphs/magical-crit-hit-chance.webp" alt="" width="48" height="48" loading="lazy">Magical Critical Hit Chance: a different stat, a bigger multiplier</h3>
       <p>Magical critical hits deal <strong>2.5× magical damage</strong>. A comparable 10,000-damage magical hit becomes 25,000 from that multiplier. The chance uses Magical Critical Hit Chance and the target's main stat.</p>
       <p>Ordinary Critical Hit Chance does not substitute for this stat. Likewise, the magical version does not make physical or pure damage critical. Check which damage the hero actually deals before chasing an attractive critical bonus.</p>

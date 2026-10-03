@@ -1,19 +1,20 @@
-/* HWDE Daily Gifts Data  -  npm run update-gifts-hwde
-   { date:'2026-10-##', type:'link', giftId:'######', note:'level',
-   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'divine-card x5', 'energy x200', 'portal-charge x1' ] },
-// ── September #, 2026 ──────────────────────────────
-  { date:'2026-10-##', type:'link', giftId:'#####', note:'level',
-  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5', 'divine-card x5', 'energy x200', 'portal-charge x1'] },
-  // 2026-10-##── 2 Link Exclusivo Web/FB ──────────────────────────────
-{ date:'2026-10-##', type:'link', giftLinkWeb:'https://herowars.me/#wb#', giftLinkFb:'https://herowars.me/#fb#',
- note:'until|2026-10-##T02:00:00Z', rewards:['energy x500'] },
+/*  npm run update-gifts-hwde
+// ── daily 1, 2026 ─────────────────────────────
    { date:'2026-10-##', type:'link', giftId:'######', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
-// ──  ──────────────────────────────
+// ── daily 2, 2026 ──────────────────────────────
   { date:'2026-10-##', type:'link', giftId:'#####', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] }, 
+// ── 2 Link Exclusivo Web/FB ──────────────────────────────
+{ date:'2026-10-##', type:'link', giftLinkWeb:'https://herowars.me/##', giftLinkFb:'https://herowars.me/##', note:'until|2026-10-##T02:00:00Z',
+  rewards:['energy x500'] },
 https://www.hero-wars.com/?nx_source=group_posting_giftweb&gift_id=
 */window.HWDE_GIFTS = [
+  { date:'2026-10-03', type:'link', giftId:'43bb860ef94383bcc385e1e26e2ac702', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] }, 
+
+  { date:'2026-10-03', type:'link', giftLinkWeb:'https://herowars.me/4za5LPB', giftLinkFb:'https://herowars.me/3U4nUPZ', note:'until|2026-10-07T02:00:00Z',
+  rewards:['energy x500'] },
    { date:'2026-10-02', type:'link', giftId:'b752cbd95fa19ef0003df4ffc1e9a5ec', note:'level',
    rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' },  ] },
 
@@ -236,6 +237,12 @@ https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
    ║    'custom'   → use customNote:{ en:'...', pt:'...' }           ║
    ╚══════════════════════════════════════════════════════════════════╝ 
    
-   
+   HWDE Daily Gifts Data  -  npm run update-gifts-hwde
+   { date:'2026-10-##', type:'link', giftId:'######', note:'level',
+   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'divine-card x5', 'energy x200', 'portal-charge x1' ] },
+// ── September #, 2026 ──────────────────────────────
+  { date:'2026-10-##', type:'link', giftId:'#####', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5', 'divine-card x5', 'energy x200', 'portal-charge x1'] },
+
    
    */

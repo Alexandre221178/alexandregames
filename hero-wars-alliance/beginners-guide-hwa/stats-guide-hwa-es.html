@@ -9,7 +9,7 @@
   <meta name="author" content="Alexandre Pereira Domingos">
   <meta name="robots" content="max-image-preview:large">
   <meta property="article:published_time" content="2026-09-21T00:00:00-03:00">
-  <meta property="article:modified_time" content="2026-09-21T22:21:47-03:00">
+  <meta property="article:modified_time" content="2026-10-03T15:23:46-03:00">
   <link rel="canonical" href="https://alexandregames.com/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-es.html">
   <link rel="alternate" hreflang="en" href="https://alexandregames.com/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-en.html">
   <link rel="alternate" hreflang="x-default" href="https://alexandregames.com/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-en.html">
@@ -253,6 +253,39 @@
       <h3 id="critical-hit-chance"><img src="../images/glyphs/crit-hit-chance.webp" alt="" width="48" height="48" loading="lazy">Probabilidad de Golpe Crítico: el doble de daño físico</h3>
       <p>Un golpe crítico físico inflige <strong>2× el daño</strong>. Un golpe de 10.000 pasa a infligir 20.000 por el multiplicador crítico, manteniendo iguales las demás condiciones. Tu Probabilidad de Golpe Crítico se compara con el atributo principal del objetivo.</p>
       <p>Una probabilidad del 50% no significa que uno de cada dos golpes vaya a ser crítico. Pueden producirse varios golpes normales o varios golpes críticos seguidos. Valoro la probabilidad de crítico cuando el héroe ya tiene suficiente daño de base y penetración para que esos críticos acertados sean relevantes.</p>
+      <h4>Más crítico aumenta la probabilidad, pero la ganancia disminuye</h4>
+      <p>Es un efecto de <strong>rendimientos decrecientes</strong>: contra el mismo objetivo, cuanto más crítico tengas, menos puntos porcentuales ganarás con la misma cantidad adicional. La probabilidad también depende del atributo principal de quien recibe el ataque.</p>
+      <p><strong>Probabilidad de crítico físico (%) = Valor de crítico ÷ (Valor de crítico + atributo principal del objetivo) × 100.</strong></p>
+      <div class="stats-table" tabindex="0" role="region" aria-label="Probabilidad de crítico físico contra un objetivo con 15.000 de atributo principal">
+      <table><caption>Probabilidad de crítico físico contra un objetivo con 15.000 de atributo principal</caption><thead><tr><th scope="col">Valor de crítico</th><th scope="col">Probabilidad de crítico físico</th></tr></thead><tbody>
+        <tr><th scope="row">5.000</th><td>25%</td></tr>
+        <tr><th scope="row">10.000</th><td>40%</td></tr>
+        <tr><th scope="row">15.000</th><td>50%</td></tr>
+        <tr><th scope="row">20.000</th><td>57,1%</td></tr>
+        <tr><th scope="row">25.000</th><td>62,5%</td></tr>
+        <tr><th scope="row">30.000</th><td>66,7%</td></tr>
+      </tbody></table></div>
+      <p>Pasar de 5.000 a 10.000 de crítico aumenta la probabilidad del <strong>25% al 40%</strong>: una ganancia de 15 puntos porcentuales. Pasar de 25.000 a 30.000 la aumenta del <strong>62,5% al 66,7%</strong>: unos 4,2 puntos porcentuales por los mismos +5.000. En un gráfico, sería una curva ascendente que se va aplanando.</p>
+      <h4>Ejemplo con Guus: Talismán 1 frente a Talismán 2</h4>
+      <p>Usando los atributos de <a href="../characters-guide/guus-es.html">Guus</a> contra el mismo objetivo con 15.000 de atributo principal:</p>
+      <div class="stats-table" tabindex="0" role="region" aria-label="Guus: comparación de talismanes para críticos físicos">
+      <table><caption>Guus: comparación de talismanes para críticos físicos</caption><thead><tr><th scope="col">Talismán</th><th scope="col">Valor de crítico (aproximado)</th><th scope="col">Probabilidad de crítico físico</th></tr></thead><tbody>
+        <tr><th scope="row">T2 — Talisman of the Grand Yolk</th><td>16.510</td><td>52,4%</td></tr>
+        <tr><th scope="row">T1 — Talisman of Feathers</th><td>24.100</td><td>61,6%</td></tr>
+      </tbody></table></div>
+      <p>En este ejemplo, el T1 ofrece unos <strong>9,2 puntos porcentuales más</strong> de probabilidad de crítico físico, aunque el valor de crítico aumenta aproximadamente un 46%.</p>
+      <h4>Cómo cambia esta probabilidad con el atributo principal del enemigo</h4>
+      <p>Si el valor de crítico de Guus se mantiene fijo, cuanto mayor sea el atributo principal del enemigo, menor será la probabilidad de crítico físico. Así se comparan los dos talismanes contra distintos objetivos:</p>
+      <div class="stats-table" tabindex="0" role="region" aria-label="Guus: probabilidad de crítico físico contra distintos enemigos">
+      <table><caption>Guus: probabilidad de crítico físico contra distintos enemigos</caption><thead><tr><th scope="col">Atributo principal del enemigo</th><th scope="col">T1 — 24.100 (Valor de crítico)</th><th scope="col">T2 — 16.510 (Valor de crítico)</th></tr></thead><tbody>
+        <tr><th scope="row">10.000</th><td><strong>70,7%</strong></td><td>62,3%</td></tr>
+        <tr><th scope="row">15.000</th><td><strong>61,6%</strong></td><td>52,4%</td></tr>
+        <tr><th scope="row">20.000</th><td><strong>54,6%</strong></td><td>45,2%</td></tr>
+        <tr><th scope="row">25.000</th><td><strong>49,1%</strong></td><td>39,8%</td></tr>
+        <tr><th scope="row">30.000</th><td><strong>44,5%</strong></td><td>35,5%</td></tr>
+      </tbody></table></div>
+      <p>El T1 mantiene la mayor probabilidad de crítico físico en todos estos ejemplos, pero ninguno de los talismanes ofrece un porcentaje fijo contra cualquier enemigo. Los valores están redondeados a un decimal.</p>
+      <p class="stats-note"><strong>Curación crítica de Guus:</strong> aún falta confirmar la fórmula específica. No podemos aplicar automáticamente la fórmula de los ataques a las curaciones. El T1 aumenta el valor de crítico, pero necesitamos conocer la probabilidad real de curación crítica antes de concluir si compensa la mayor curación por activación del T2.</p>
       <h3 id="magical-critical-hit-chance"><img src="../images/glyphs/magical-crit-hit-chance.webp" alt="" width="48" height="48" loading="lazy">Probabilidad de Golpe Crítico Mágico: un atributo diferente, un multiplicador mayor</h3>
       <p>Los golpes críticos mágicos infligen <strong>2,5× el daño mágico</strong>. Un golpe mágico comparable de 10.000 de daño pasa a infligir 25.000 con ese multiplicador. La probabilidad utiliza la Probabilidad de Golpe Crítico Mágico y el atributo principal del objetivo.</p>
       <p>La Probabilidad de Golpe Crítico normal no sustituye a este atributo. Del mismo modo, la versión mágica no hace que el daño físico o puro sea crítico. Comprueba qué daño inflige realmente el héroe antes de perseguir una bonificación crítica atractiva.</p>
