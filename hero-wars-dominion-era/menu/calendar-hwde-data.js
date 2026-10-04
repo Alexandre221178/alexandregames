@@ -204,9 +204,10 @@ extra: [
 
 
 {
-  titles: { en: "👗Adam Ceremonial Skin: Full Unlock", de: "👗Adam Zeremonieller Skin: Vollständig freigeschaltet", es: "👗Adam Skin Ceremonial: Desbloqueo Completo", fr: "👗Adam Skin Cérémoniel : Déverrouillage complet", pt: "👗Adam Skin Cerimonial: Desbloqueio Completo", ja: "👗アダム セレモニアルスキン：完全解放" },
-  links: { en: "../../hero-wars-dominion-era/characters/adam-en.html", de: "../../hero-wars-dominion-era/characters/adam-de.html", es: "../../hero-wars-dominion-era/characters/adam-es.html", fr: "../../hero-wars-dominion-era/characters/adam-fr.html", pt: "../../hero-wars-dominion-era/characters/adam-pt.html", ja: "../../hero-wars-dominion-era/characters/adam-ja.html" },
+  titles: { en: "👗aidan New Dominoc Skin", de: "👗aidan Neuer Dominoc-Skin", es: "👗aidan Nueva Skin Dominoc", fr: "👗aidan Nouveau Skin Dominoc", pt: "👗aidan Nova Skin Dominoc", ja: "👗エイダン 新ドミノックスキン" },
+  links: { en: "../../hero-wars-dominion-era/characters/aidan-en.html", de: "../../hero-wars-dominion-era/characters/aidan-de.html", es: "../../hero-wars-dominion-era/characters/aidan-es.html", fr: "../../hero-wars-dominion-era/characters/aidan-fr.html", pt: "../../hero-wars-dominion-era/characters/aidan-pt.html", ja: "../../hero-wars-dominion-era/characters/aidan-ja.html" },
   noStrip: true
+
 },
     
     ]
