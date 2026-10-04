@@ -261,6 +261,22 @@
       "ja": "../characters/lyria-ja.html"
     }
   },
+   "Martha": {
+    "image": "../../hero-wars-dominion-era/images/hero/martha/martha.webp",
+    "names": {
+      "pt": "Martha",
+      "ja": "マーサ"
+    },
+    "guides": {
+      "en": "../characters/martha-en.html",
+      "pt": "../characters/martha-pt.html",
+      "de": "../characters/martha-de.html",
+      "es": "../characters/martha-es.html",
+      "fr": "../characters/martha-fr.html",
+      "ja": "../characters/martha-ja.html"
+    }
+  },
+ 
   "Nebula": {
     "image": "../../hero-wars-dominion-era/images/hero/nebula/nebula.webp",
     "names": {
@@ -500,14 +516,7 @@
       "pt": "../characters/keira-pt.html"
     }
   },
-  "Martha": {
-    "image": "../../hero-wars-dominion-era/images/hero/martha/martha.webp",
-    "names": {
-      "pt": "Martha",
-      "ja": "マーサ"
-    },
-    "guides": {}
-  },
+  
   "Mojo": {
     "image": "../../hero-wars-dominion-era/images/hero/mojo/mojo.webp",
     "names": {
