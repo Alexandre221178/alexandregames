@@ -1,0 +1,885 @@
+{
+  "id": "martha",
+  "game": "Hero Wars: Dominion Era",
+  "name": "Martha",
+  "gender": "female",
+  "role": [
+    "healer",
+    "support"
+  ],
+  "main_role": "Healer",
+  "additional_role": "Support",
+  "position": "75",
+  "main_stat": "Intelligence",
+  "how_to_get_soul_stones": "Soul Chests, Soul Atrium",
+  "pet_patronage": "Oliver, Axel, Robin",
+  "sinergy": "",
+  "basic_attack_formula": "(100% physical attack)",
+  "basic_attack": 20502,
+  "basic_attack_cooldown": "8s",
+  "hero_rating": 4.8,
+  "hero_rating_max": 5.0,
+  "description": "A special type of tea grows in the woods of Zarakkar. It grants longevity and heals the most dangerous wounds. Guarded by the Foremother, ancient forebear to all tortoises, the marvelous tea had been hidden from human sight until a young woman named Martha received its gift, paying an enormous price in return.",
+  "battle_line": "back",
+  "presentation": "Martha is the best group healer",
+  "strengths": [
+    "High healing.",
+    "Great survivability. She can withstand enemies targeting the back line (Cleaver, Jhu, Kayla, Jorgen, Luther).",
+    "Boosts her team's speed, greatly increasing damage regardless of its type.",
+    "A great choice for defense teams and against Osh, the boss in Asgard."
+  ],
+  "weaknesses": [
+    "Heroes that block healing (Celeste, Jet, Yasmine, Biscuit) can reduce Martha's effectiveness.",
+    "Heroes that deal area damage can destroy Martha's healing totem. Cleaver can also reduce Martha's effectiveness by moving her forward and leaving the back line vulnerable."
+  ],
+  "stats": {
+    "intelligence": 16208,
+    "agility": 2122,
+    "strength": 5151,
+    "health": 922177,
+    "physical_attack": 20502,
+    "magic_attack": 121512,
+    "armor": 34962,
+    "magic_defense": 43049,
+    "dodge": 0,
+    "crit_hit_chance": 0,
+    "accuracy": 16208,
+    "crit_resistance": 16208,
+    "vampirism": 0,
+    "magic_penetration": 0,
+    "armor_penetration": 0,
+    "power": 2394489
+  },
+  "skills": [
+    {
+      "id": 1,
+      "variant": "base",
+      "level": 130,
+      "name": "Foremother's Oath",
+      "type": [
+        "ultimate",
+        "white"
+      ],
+      "damage_formula": "Increases allies' speed up to 250% (1 * level + 120)",
+      "scales_with": [],
+      "description": "Increases all allies' speed for 6s."
+    },
+    {
+      "id": 2,
+      "variant": "base",
+      "level": 130,
+      "name": "Secret of Longevity",
+      "type": [
+        "passive",
+        "green"
+      ],
+      "damage_formula": "One projectile can restore up to 273,322 (24% health + 400 * level) health",
+      "scales_with": [
+        "Health"
+      ],
+      "description": "Martha's basic attacks heal her when a projectile hits an enemy. The farther the projectile travels, the more health it will restore."
+    },
+    {
+      "id": 3,
+      "variant": "base",
+      "level": 130,
+      "name": "Tea Party",
+      "type": [
+        "periodic",
+        "blue"
+      ],
+      "damage_formula": "Health regen for each ally: 105,407 (60% magic attack + 250 * level) for 8s",
+      "scales_with": [
+        "Magic Attack"
+      ],
+      "description": "Conjures a totem in front of the character that restores allies' health. Enemies can't target the totem, but it can take AoE damage.",
+      "cooldown_seconds": 15
+    },
+    {
+      "id": 3,
+      "variant": "ascension",
+      "ascension_level": "II",
+      "grade": 0,
+      "name": "Invigorating Herbs",
+      "type": [
+        "ascension"
+      ],
+      "damage_formula": "",
+      "scales_with": [],
+      "description": "While the Totem is active, it increases the speed of all allies by 10% (10).",
+      "costs": {}
+    },
+    {
+      "id": 3,
+      "variant": "ascension",
+      "ascension_level": "II",
+      "grade": 1,
+      "name": "Invigorating Herbs",
+      "type": [
+        "ascension"
+      ],
+      "damage_formula": "",
+      "scales_with": [],
+      "description": "While the Totem is active, it increases the speed of all allies by 15% (15).",
+      "costs": {
+        "ascension_dust": 200,
+        "gold": 1450000
+      }
+    },
+    {
+      "id": 3,
+      "variant": "ascension",
+      "ascension_level": "II",
+      "grade": 2,
+      "name": "Invigorating Herbs",
+      "type": [
+        "ascension"
+      ],
+      "damage_formula": "",
+      "scales_with": [],
+      "description": "While the Totem is active, it increases the speed of all allies by 20% (20).",
+      "costs": {
+        "ascension_dust": 300,
+        "gold": 2900000
+      }
+    },
+    {
+      "id": 3,
+      "variant": "ascension",
+      "ascension_level": "II",
+      "grade": 3,
+      "name": "Invigorating Herbs",
+      "type": [
+        "ascension"
+      ],
+      "damage_formula": "",
+      "scales_with": [],
+      "description": "While the Totem is active, it increases the speed of all allies by 20% (20). The Totem can take up to 3 (3) hits before it is destroyed.",
+      "costs": {
+        "ascension_dust": 750,
+        "gold": 4350000
+      }
+    },
+    {
+      "id": 4,
+      "variant": "base",
+      "level": 130,
+      "name": "Healing Brew",
+      "type": [
+        "passive",
+        "violet"
+      ],
+      "damage_formula": "Health regen per second: 180,327 (15% health + 400 * level - 10,000) for 8s",
+      "scales_with": [
+        "Health"
+      ],
+      "description": "While the totem is active, the ally with the least health now receives additional healing."
+    },
+    {
+      "id": 4,
+      "variant": "ascension",
+      "ascension_level": "V",
+      "grade": 0,
+      "name": "Turtle's Patronage",
+      "type": [
+        "ascension"
+      ],
+      "damage_formula": "",
+      "scales_with": [],
+      "description": "While Martha has more than 50% (50) Health, 10% (10) of damage received by the nearest ally is transferred to her.",
+      "costs": {}
+    },
+    {
+      "id": 4,
+      "variant": "ascension",
+      "ascension_level": "V",
+      "grade": 1,
+      "name": "Turtle's Patronage",
+      "type": [
+        "ascension"
+      ],
+      "damage_formula": "",
+      "scales_with": [],
+      "description": "While Martha has more than 50% (50) Health, 15% (15) of damage received by the nearest ally is transferred to her.",
+      "costs": {
+        "ascension_shard": 200,
+        "gold": 1750000
+      }
+    },
+    {
+      "id": 4,
+      "variant": "ascension",
+      "ascension_level": "V",
+      "grade": 2,
+      "name": "Turtle's Patronage",
+      "type": [
+        "ascension"
+      ],
+      "damage_formula": "",
+      "scales_with": [],
+      "description": "While Martha has more than 50% (50) Health, 20% (20) of damage received by the nearest ally is transferred to her.",
+      "costs": {
+        "ascension_shard": 300,
+        "gold": 3500000
+      }
+    },
+    {
+      "id": 4,
+      "variant": "ascension",
+      "ascension_level": "V",
+      "grade": 3,
+      "name": "Turtle's Patronage",
+      "type": [
+        "ascension"
+      ],
+      "damage_formula": "",
+      "scales_with": [],
+      "description": "While Martha has more than 50% (50) Health, 20% (20) of damage received by the two nearest allies is transferred to her.",
+      "costs": {
+        "ascension_shard": 750,
+        "gold": 5250000
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "Zarakkari Teapot",
+      "stats": {
+        "armor": 50190,
+        "power": 12547
+      },
+      "costs": {
+        "absolute_artifact_essence": 1635,
+        "flawless_artifact_essence": 1199,
+        "chaos_core": 121,
+        "zarakkari_teapot_fragment": 225,
+        "artifact_coin": 90000
+      }
+    },
+    {
+      "name": "Tome of Arcane Knowledge",
+      "stats": {
+        "health": 83649,
+        "magic_attack": 16731,
+        "power": 12547
+      },
+      "costs": {
+        "absolute_artifact_scroll": 1635,
+        "flawless_artifact_scroll": 1199,
+        "chaos_core": 121,
+        "tome_of_arcane_knowledge_fragment": 225,
+        "artifact_coin": 90000
+      }
+    },
+    {
+      "name": "Ring of Intelligence",
+      "stats": {
+        "intelligence": 6249,
+        "power": 17184
+      },
+      "costs": {
+        "absolute_artifact_metal": 1635,
+        "flawless_artifact_metal": 1199,
+        "chaos_core": 121,
+        "ring_of_intelligence_fragment": 225,
+        "artifact_coin": 90000
+      }
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": {
+        "intelligence": 1365,
+        "power": 3753
+      },
+      "costs": {
+        "intelligence_skin_stone": 30825
+      }
+    },
+    {
+      "name": "Winter Skin",
+      "stats": {
+        "armor": 10665,
+        "power": 5332
+      },
+      "costs": {
+        "intelligence_skin_stone": 58412
+      }
+    },
+    {
+      "name": "Solar Skin",
+      "stats": {
+        "health": 106645,
+        "power": 5332
+      },
+      "costs": {
+        "intelligence_skin_stone": 55410
+      }
+    },
+    {
+      "name": "Masquerade Skin",
+      "stats": {
+        "magic_attack": 10650,
+        "power": 5325
+      },
+      "costs": {
+        "intelligence_skin_stone": 55410
+      }
+    },
+    {
+      "name": "Celestial Skin",
+      "stats": {
+        "health": 106645,
+        "power": 5332
+      },
+      "costs": {
+        "intelligence_skin_stone": 55410
+      }
+    }
+  ],
+  "glyphs": [
+    {
+      "name": "Magic attack Glyph",
+      "stats": {
+        "magic_attack": 6500,
+        "power": 3250
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    },
+    {
+      "name": "Health Glyph",
+      "stats": {
+        "health": 62200,
+        "power": 3110
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    },
+    {
+      "name": "Magic defense Glyph",
+      "stats": {
+        "magic_defense": 6500,
+        "power": 3250
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    },
+    {
+      "name": "Armor Glyph",
+      "stats": {
+        "armor": 6500,
+        "power": 3250
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    },
+    {
+      "name": "Intelligence Glyph",
+      "stats": {
+        "intelligence": 1135,
+        "power": 3121
+      },
+      "costs": {
+        "great_enchantment_rune": 438,
+        "gold": 4190900,
+        "emeralds": 43750
+      }
+    }
+  ],
+  "ascension": {
+    "I": {
+      "stats": {
+        "health": 7000,
+        "intelligence": 230,
+        "magic_attack": 540,
+        "magic_defense": 890,
+        "armor": 1090,
+        "power": 2242
+      },
+      "costs": {
+        "intelligence_crystal": 2275,
+        "star_mana": 5420,
+        "gold": 1650000
+      }
+    },
+    "II": {
+      "stats": {
+        "health": 12250,
+        "intelligence": 315,
+        "magic_attack": 1070,
+        "magic_defense": 1570,
+        "armor": 1400,
+        "power": 3498
+      },
+      "costs": {
+        "vibrant_intelligence_crystal": 1150,
+        "intelligence_crystal": 1950,
+        "star_mana": 9160,
+        "ascension_dust": 1250,
+        "gold": 14475000
+      }
+    },
+    "III": {
+      "stats": {
+        "health": 19500,
+        "intelligence": 495,
+        "magic_attack": 1690,
+        "magic_defense": 2200,
+        "armor": 2450,
+        "power": 5506
+      },
+      "costs": {
+        "vibrant_intelligence_crystal": 2375,
+        "love_insignia": 1175,
+        "star_mana": 20200,
+        "gold": 12400000
+      }
+    },
+    "IV": {
+      "stats": {
+        "health": 23750,
+        "intelligence": 560,
+        "magic_attack": 2160,
+        "magic_defense": 2800,
+        "armor": 2570,
+        "power": 6492
+      },
+      "costs": {
+        "radiant_intelligence_crystal": 1460,
+        "vibrant_intelligence_crystal": 475,
+        "greater_love_insignia": 235,
+        "love_insignia": 1220,
+        "star_mana": 42540,
+        "gold": 21600000
+      }
+    },
+    "V": {
+      "stats": {
+        "health": 26750,
+        "intelligence": 610,
+        "magic_attack": 2450,
+        "magic_defense": 2900,
+        "armor": 3130,
+        "power": 7255
+      },
+      "costs": {
+        "radiant_intelligence_crystal": 1925,
+        "greater_love_insignia": 1925,
+        "star_mana": 80180,
+        "ascension_shard": 1250,
+        "gold": 48800000
+      }
+    },
+    "I-V": {
+      "stats": {
+        "health": 89250,
+        "intelligence": 2210,
+        "magic_attack": 7910,
+        "magic_defense": 10360,
+        "armor": 10640,
+        "power": 24995
+      },
+      "costs": {
+        "radiant_intelligence_crystal": 3385,
+        "vibrant_intelligence_crystal": 4000,
+        "intelligence_crystal": 4225,
+        "greater_love_insignia": 2160,
+        "love_insignia": 2395,
+        "star_mana": 157500,
+        "ascension_shard": 1250,
+        "ascension_dust": 1250,
+        "gold": 98925000
+      }
+    }
+  },
+  "tree_of_wisdom": {
+    "stats": {
+      "health": 78620,
+      "magic_attack": 8350,
+      "magic_defense": 4604,
+      "armor": 4290,
+      "power": 12553
+    },
+    "costs": {
+      "eternal_seed": 586,
+      "ancient_wisdom_crystal": 47400
+    }
+  },
+  "miscellaneous": {
+    "levels": {
+      "stats": {
+        "intelligence": 2730,
+        "agility": 1040,
+        "strength": 2730,
+        "power": 17875
+      },
+      "costs": {
+        "huge_exp_potion": 483,
+        "martha_soul_stone": 630
+      }
+    },
+    "gift_of_the_elements": {
+      "stats": {
+        "intelligence": 720,
+        "agility": 360,
+        "strength": 360,
+        "power": 3960
+      },
+      "costs": {
+        "spark_of_power": 65150,
+        "gold": 7927500
+      }
+    }
+  },
+  "best_teams": [
+    {
+      "rank": 1,
+      "heroes": [
+        {
+          "hero": "Martha",
+          "pet": "Robin"
+        },
+        {
+          "hero": "Somna",
+          "pet": "Fenris"
+        },
+        {
+          "hero": "Fluffy",
+          "pet": "Merlin"
+        },
+        {
+          "hero": "Cascade",
+          "pet": "Khorus"
+        },
+        {
+          "hero": "Electra",
+          "pet": "Axel"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "heroes": [
+        {
+          "hero": "Martha",
+          "pet": "Robin"
+        },
+        {
+          "hero": "Eva",
+          "pet": "Vex"
+        },
+        {
+          "hero": "Astrid",
+          "pet": "Fenris"
+        },
+        {
+          "hero": "Adam",
+          "pet": "Cain"
+        },
+        {
+          "hero": "Julius",
+          "pet": "Axel"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "heroes": [
+        {
+          "hero": "Martha",
+          "pet": "Robin"
+        },
+        {
+          "hero": "Lars",
+          "pet": "Mara"
+        },
+        {
+          "hero": "Jorgen",
+          "pet": "Oliver"
+        },
+        {
+          "hero": "Krista",
+          "pet": "Merlin"
+        },
+        {
+          "hero": "Electra",
+          "pet": "Axel"
+        }
+      ]
+    }
+  ],
+  "gear": {
+    "ranks": {
+      "gray": [
+        "Wooden Shield",
+        "Steel Pauldron",
+        "Wooden Shield",
+        "Lucky Dice",
+        "Traveller's Shoes",
+        "Oil Lamp"
+      ],
+      "green": [
+        "Imperial Shield",
+        "Orcish Hammer",
+        "Imperial Shield",
+        "Cain's Seal",
+        "Traveller's Staff",
+        "Lost Ring"
+      ],
+      "green+1": [
+        "Orcish Hammer",
+        "Cain's Seal",
+        "Wizard's Staff",
+        "Enchanter's Staff",
+        "Lost Ring",
+        "Guardian's Shield"
+      ],
+      "blue": [
+        "Guardian's Shield",
+        "Skull Crusher",
+        "Enchanter's Staff",
+        "Sacred Rosary",
+        "Voodoo Doll",
+        "Wyvern's Heart"
+      ],
+      "blue+1": [
+        "Light Crystal",
+        "Wyvern's Heart",
+        "Soul Catcher",
+        "Sacred Rosary",
+        "Enchanter's Staff",
+        "Prospero's Helmet"
+      ],
+      "blue+2": [
+        "Light Crystal",
+        "Wyvern's Heart",
+        "Shining Armor",
+        "Dark Grail",
+        "Sacred Rosary",
+        "Lion Armor"
+      ],
+      "violet": [
+        "Magic Hat",
+        "Hand of Midas",
+        "Dark Grail",
+        "Pastor's Seal",
+        "Raven King's Cloak",
+        "Flaming Heart"
+      ],
+      "violet+1": [
+        "Lion Armor",
+        "Lion Armor",
+        "Prospero's Helmet",
+        "Flaming Heart",
+        "Hand of Midas",
+        "Lion Helmet"
+      ],
+      "violet+2": [
+        "Dark Grail",
+        "Flaming Heart",
+        "Prospero's Helmet",
+        "Diviner's Orb",
+        "Hand of Midas",
+        "Book of Prophecies"
+      ],
+      "violet+3": [
+        "Lion Armor",
+        "Flaming Heart",
+        "Dark Grail",
+        "Traitor's Crown",
+        "Diviner's Orb",
+        "Book of Fate"
+      ],
+      "orange": [
+        "Traitor's Crown",
+        "Book of Prophecies",
+        "Lion Helmet",
+        "Alchemist's Set",
+        "Diviner's Orb",
+        "Enigma's Chronicles"
+      ],
+      "orange+1": [
+        "Flaming Heart",
+        "Enigma's Chronicles",
+        "Traitor's Crown",
+        "Riversar's Tiara",
+        "Book of Prophecies",
+        "Sphere of Power"
+      ],
+      "orange+2": [
+        "Trine",
+        "Alchemist's Set",
+        "All-seer",
+        "Asklepius' Staff",
+        "Alchemist's Set",
+        "All-Seeing Eye"
+      ],
+      "orange+3": [
+        "Lion Helmet",
+        "Asklepius' Staff",
+        "Book of Fate",
+        "Sphere of Power",
+        "Sphere of Power",
+        "Oppressor's Crown"
+      ],
+      "orange+4": [
+        "Book of Prophecies",
+        "Asklepius' Staff",
+        "Book of Fate",
+        "Sphere of Power",
+        "Sphere of Power",
+        "Evil Genius Cuirass"
+      ],
+      "red": [
+        "Oppressor's Crown",
+        "Blued Plate Armor",
+        "Sphere of Power",
+        "Dragon's Heart",
+        "Evil Genius Cuirass",
+        "Devourer of Mages"
+      ],
+      "red+1": [
+        "Sphere of Power",
+        "Dragon's Heart",
+        "Asklepius' Staff",
+        "Dragon's Heart",
+        "Evil Genius Cuirass",
+        "Piercing Gaze"
+      ],
+      "red+2": [
+        "Asklepius' Staff",
+        "Dragon's Heart",
+        "All-Seeing Eye",
+        "Piercing Gaze",
+        "Devourer of Mages",
+        "Creator of Worlds"
+      ]
+    },
+    "total": {
+      "Wooden Shield": 2,
+      "Oil Lamp": 1,
+      "Traveller's Shoes": 1,
+      "Steel Pauldron": 1,
+      "Lucky Dice": 1,
+      "Traveller's Staff": 1,
+      "Imperial Shield": 2,
+      "Orcish Hammer": 2,
+      "Wizard's Staff": 1,
+      "Light Crystal": 2,
+      "Guardian's Shield": 2,
+      "Lost Ring": 2,
+      "Cain's Seal": 2,
+      "Enchanter's Staff": 3,
+      "Shining Armor": 1,
+      "Voodoo Doll": 1,
+      "Soul Catcher": 1,
+      "Skull Crusher": 1,
+      "Wyvern's Heart": 3,
+      "Sacred Rosary": 3,
+      "Prospero's Helmet": 3,
+      "Dark Grail": 4,
+      "Raven King's Cloak": 1,
+      "Magic Hat": 1,
+      "Hand of Midas": 3,
+      "Lion Armor": 4,
+      "Flaming Heart": 5,
+      "Pastor's Seal": 1,
+      "All-seer": 1,
+      "Traitor's Crown": 3,
+      "Lion Helmet": 3,
+      "Trine": 1,
+      "Diviner's Orb": 3,
+      "Book of Prophecies": 4,
+      "Book of Fate": 3,
+      "Alchemist's Set": 3,
+      "Enigma's Chronicles": 2,
+      "Riversar's Tiara": 1,
+      "Sphere of Power": 7,
+      "Blued Plate Armor": 1,
+      "Asklepius' Staff": 5,
+      "All-Seeing Eye": 2,
+      "Oppressor's Crown": 2,
+      "Evil Genius Cuirass": 3,
+      "Dragon's Heart": 4,
+      "Devourer of Mages": 2,
+      "Piercing Gaze": 2,
+      "Creator of Worlds": 1
+    },
+    "base_components": {
+      "Wooden Shield": 2,
+      "Quiver": 3,
+      "Oil Lamp": 4,
+      "Traveller's Shoes": 4,
+      "Apprentice's Mantle": 2,
+      "Steel Pauldron": 1,
+      "Lucky Dice": 1,
+      "Traveller's Staff": 1,
+      "Imperial Shield": 4,
+      "Dagger": 2,
+      "Censer": 4,
+      "Branch of Antiaris": 1,
+      "Light Crystal": 2,
+      "Guardian's Shield": 4,
+      "Lost Ring": 4,
+      "Cain's Seal": 3,
+      "Skull Crusher": 1,
+      "Voodoo Doll - Recipe": 1,
+      "Soul Catcher - Recipe": 1,
+      "Wyvern's Heart": 17,
+      "Sacred Rosary": 11,
+      "Serenity Stone": 6,
+      "Enchanted Lute": 16,
+      "Storm Hammer": 3,
+      "Magic Hat": 1,
+      "Hand of Midas - Recipe": 3,
+      "Lion Armor - Recipe": 4,
+      "Flaming Heart": 54,
+      "Pastor's Seal": 45,
+      "Minotaur's Head": 27,
+      "Hand of Glory": 31,
+      "Desert Blade": 24,
+      "Book of Fate - Recipe": 3,
+      "Book of Prophecies - Recipe": 10,
+      "Diviner's Orb - Recipe": 3,
+      "Dragon Shield - Recipe": 2,
+      "Siren's Song - Recipe": 11,
+      "Alchemist's Set": 9,
+      "La Mort's Card": 28,
+      "Harunian Helm": 18,
+      "Enigma's Chronicles": 6,
+      "Throwing Knives": 2,
+      "Riversar's Tiara": 1,
+      "Sphere of Power - Recipe": 13,
+      "Blued Plate Armor - Recipe": 1,
+      "Asklepius' Staff - Recipe": 5,
+      "Radiant Armor - Recipe": 7,
+      "All-Seeing Eye - Recipe": 2,
+      "Creator's Feathering - Recipe": 1,
+      "Oppressor's Crown - Recipe": 2,
+      "Evil Genius Cuirass - Recipe": 3,
+      "Simon's Enlightenment": 2,
+      "Dragon's Heart": 4,
+      "Aigrette of Nocturnal Cicadas": 4,
+      "Devourer of Mages": 2,
+      "Piercing Gaze - Recipe": 2,
+      "Creator of Worlds - Recipe": 1
+    },
+    "costs": {
+      "gold": 68000000
+    }
+  }
+}
