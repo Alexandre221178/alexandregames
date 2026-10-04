@@ -11,6 +11,15 @@
       updated: "Updated: October, 2026."
     },
     {
+      link: "../../hero-wars-dominion-era/characters/martha-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/martha/martha-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/martha/martha-400px.webp",
+      alt: "Martha for Hero Wars: Dominion Era",
+      title: "Martha for Hero Wars: Dominion Era.",
+      strong: "Guide: Martha - Hero Wars: Dominion Era",
+      updated: "Updated: October, 2026."
+    },
+    {
       link: "../../hero-wars-dominion-era/events-special-hwde/robin-mead-festival-missions-en.html",
       src500: "../../hero-wars-dominion-era/images/events-special/robin-mead-festival-missions/robin-mead-festival-missions-500px.webp",
       src400: "../../hero-wars-dominion-era/images/events-special/robin-mead-festival-missions/robin-mead-festival-missions-400px.webp",
