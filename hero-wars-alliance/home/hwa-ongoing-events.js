@@ -2,6 +2,66 @@
   // Active guides shown below the main calendar - carousel.
   var slides = [
     {
+      link: "/hero-wars-alliance/event-hwa/trade-routes-event-group-en.html",
+      src500: "/hero-wars-alliance/images/events/trade-routes/trade-routes-500px.webp",
+      src400: "/hero-wars-alliance/images/events/trade-routes/trade-routes-400px.webp",
+      alt: "Trade Routes Event Group Guide for Hero Wars Alliance",
+      title: "Trade Routes Event Group Guide for Hero Wars Alliance",
+      strong: "Guide: Trade Routes Event Group - Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/guide/talisman-guide-hwa-en.html",
+      src500: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-400px.webp",
+      alt: "All Talisman Guides for Hero Wars Alliance",
+      title: "Talisman Guide for Hero Wars Alliance",
+      strong: "Guide: All Talisman - Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html",
+      src500: "/hero-wars-alliance/images/events/trade-routes/bountiful-roads-500px.webp",
+      src400: "/hero-wars-alliance/images/events/trade-routes/bountiful-roads-400px.webp",
+      alt: "Bountiful Roads Event Guide for Hero Wars Alliance",
+      title: "Bountiful Roads Event Guide for Hero Wars Alliance",
+      strong: "Guide: Bountiful Roads Event Guide - Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    },
+{
+      link: "/hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",
+      src500: "/hero-wars-alliance/images/events/trade-routes/roads-unlocked-500px.webp",
+      src400: "/hero-wars-alliance/images/events/trade-routes/roads-unlocked-400px.webp",
+      alt: "Roads Unlocked Event Guide for Hero Wars Alliance",
+      title: "Roads Unlocked Event Guide for Hero Wars Alliance",
+      strong: "Guide: Roads Unlocked Best Tower Strategy to Push for 25 Chests - Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    },
+{
+      link: "/hero-wars-alliance/event-hwa/trade-routes-caravan-hall-en.html",
+      src500: "/hero-wars-alliance/images/events/trade-routes/caravan-hall-500px.webp",
+      src400: "/hero-wars-alliance/images/events/trade-routes/caravan-hall-400px.webp",
+      alt: "Caravan Hall Shop Guide for Hero Wars Alliance",
+      title: "Caravan Hall Shop Guide for Hero Wars Alliance",
+      strong: "Guide: Caravan Hall Shop - Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    }, 
+
+    
+    
+    {
+      link: "/hero-wars-alliance/event-hwa/trade-routes-grand-caravan-en.html",
+      src500: "/hero-wars-alliance/images/events/trade-routes/grand-caravan-500px.webp",
+      src400: "/hero-wars-alliance/images/events/trade-routes/grand-caravan-400px.webp",
+      alt: "Grand Caravan Event Guide for Hero Wars Alliance",
+      title: "Grand Caravan Event Guide for Hero Wars Alliance",
+      strong: "Guide: Grand Caravan Event Guide - Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    },
+  
+
+
+    {
       link: "/hero-wars-alliance/event-hwa/ancient-awakening-event-shop-en.html",
       src500: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-500px.webp",
       src400: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-400px.webp",
@@ -11,92 +71,11 @@
       updated: "Updated: September, 2026."
     },
     
-{
-      link: "/hero-wars-alliance/event-hwa/ancient-awakening-main-event.html",
-      src500: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-500px.webp",
-      src400: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-400px.webp",
-      alt: "Ancient Awakening Guide for Hero Wars Alliance",
-      title: "Ancient Awakening Guide for Hero Wars Alliance",
-      strong: "Guide (Ancient Awakening): Ancient Awakening - Hero Wars Alliance",
-      updated: "Updated: September, 2026."
-    },
-    
-    {
-      link: "/hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html",
-      src500: "/hero-wars-alliance/images/events/ancient-awakening/events-firstborn-force-500px.webp",
-      src400: "/hero-wars-alliance/images/events/ancient-awakening/events-firstborn-force-400px.webp",
-      alt: "Firstborn Force Guide for Hero Wars Alliance",
-      title: "Firstborn Force Guide for Hero Wars Alliance",
-      strong: "Guide (Ancient Awakening): Firstborn Force - Hero Wars Alliance",
-      updated: "Updated: September, 2026."
-    },
-    {
-      link: "/hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html",
-      src500: "/hero-wars-alliance/images/events/ancient-awakening/events-unstable-equilibrium-500px.webp",
-      src400: "/hero-wars-alliance/images/events/ancient-awakening/events-unstable-equilibrium-400px.webp",
-      alt: "Unstable Equilibrium Guide for Hero Wars Alliance",
-      title: "Unstable Equilibrium Guide for Hero Wars Alliance",
-      strong: "Guide (Ancient Awakening): Unstable Equilibrium - Hero Wars Alliance",
-      updated: "Updated: September, 2026."
-    },
-    {
-      link: "/hero-wars-alliance/event-hwa/ancient-awakening-event-shop-en.html",
-      src500: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-500px.webp",
-      src400: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-400px.webp",
-      alt: "Ancient Awakening Event Shop Guide for Hero Wars Alliance",
-      title: "Ancient Awakening Event Shop Guide for Hero Wars Alliance",
-      strong: "Guide (Ancient Awakening): Event Shop - Hero Wars Alliance",
-      updated: "Updated: September, 2026."
-    },
+
     
 
  
-    {
-      link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-event-group-en.html",
-      src500: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-elements-event-group-500px.webp",
-      src400: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-elements-event-group-400px.webp",
-      alt: "Lords of the Elements event group Guide for Hero Wars Alliance",
-      title: "Lords of the Elements event group Guide for Hero Wars Alliance",
-      strong: "Lords of the Elements event group Guide",
-      updated: "Updated: September, 2026."
-    },
-     {
-      link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-ki1-titans-roar-en.html",
-      src500: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki1-titans-roar-500px.webp",
-      src400: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki1-titans-roar-400px.webp",
-      alt: "Lords of the Elements event group: Titan's Roar Guide for Hero Wars Alliance",
-      title: "Lords of the Elements: Titan's Roar Guide for Hero Wars Alliance",
-      strong: "Lords of the Elements: Titan's Roar Guide",
-      updated: "Updated: September, 2026."
-    },
-    {
-      link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-ki2-elemental-tempest-en.html",
-      src500: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki2-elemental-tempest-500px.webp",
-      src400: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki2-elemental-tempest-400px.webp",
-      alt: "Lords of the Elements: Elemental Tempest Guide for Hero Wars Alliance",
-      title: "Lords of the Elements: Elemental Tempest Guide for Hero Wars Alliance",
-      strong: "Lords of the Elements: Elemental Tempest Guide",
-      updated: "Updated: September, 2026."
-    },
-    {
-      link: "/hero-wars-alliance/event-hwa/lords-of-the-elements-ki3-united-by-power-en.html",
-      src500: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki3-united-by-power-500px.webp",
-      src400: "/hero-wars-alliance/images/events/lords-of-the-elements/lords-of-the-elements-ki3-united-by-power-400px.webp",
-      alt: "Lords of the Elements: United by Power Guide for Hero Wars Alliance",
-      title: "Lords of the Elements: United by Power Guide for Hero Wars Alliance",
-      strong: "Lords of the Elements: United by Power Guide",
-      updated: "Updated: September, 2026."
-    },
     
-    {
-      link: "/hero-wars-alliance/events-tips-hwa/lords-of-the-elements-shop-en.html",
-      src500: "/hero-wars-alliance/images/events-tips-hwa/lords-of-the-elements-shop/lords-of-the-elements-shop-500px.webp",
-      src400: "/hero-wars-alliance/images/events-tips-hwa/lords-of-the-elements-shop/lords-of-the-elements-shop-400px.webp",
-      alt: "Lords of the Elements Shop Guide for Hero Wars Alliance",
-      title: "Lords of the Elements Shop Guide for Hero Wars Alliance",
-      strong: "Lords of the Elements Shop Guide",
-      updated: "Updated: September, 2026."
-    },
 
     
     
@@ -300,6 +279,16 @@
 /* Anciente Awakening - Evento de titans
 
 {
+      link: "/hero-wars-alliance/event-hwa/ancient-awakening-event-shop-en.html",
+      src500: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-400px.webp",
+      alt: "Ancient Awakening Shop Guide for Hero Wars Alliance",
+      title: "Ancient Awakening Shop Guide for Hero Wars Alliance",
+      strong: "Guide (Ancient Awakening): Metida - Event Shop - Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    },
+    
+{
       link: "/hero-wars-alliance/event-hwa/ancient-awakening-main-event.html",
       src500: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-500px.webp",
       src400: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-400px.webp",
@@ -331,11 +320,12 @@
       link: "/hero-wars-alliance/event-hwa/ancient-awakening-event-shop-en.html",
       src500: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-500px.webp",
       src400: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-400px.webp",
-      alt: "Ancient Awakening Shop Guide for Hero Wars Alliance",
-      title: "Ancient Awakening Shop Guide for Hero Wars Alliance",
+      alt: "Ancient Awakening Event Shop Guide for Hero Wars Alliance",
+      title: "Ancient Awakening Event Shop Guide for Hero Wars Alliance",
       strong: "Guide (Ancient Awakening): Event Shop - Hero Wars Alliance",
       updated: "Updated: September, 2026."
     },
+    
 
 #########guides-to-share###############
 Guide (Ancient Awakening) Ancient Awakening:
