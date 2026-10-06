@@ -20,7 +20,7 @@
 		"physical_attack": 108049,
 		"magic_attack": 8496,
 		"armor": 35293,
-		"magic_defense": 11372,
+		"magic_defense": 32672,
 		"dodge": 0,
 		"crit_hit_chance": 0,
 		"accuracy": 17925,
@@ -28,7 +28,7 @@
 		"vampirism": 0,
 		"magic_penetration": 0,
 		"armor_penetration": 54871,
-		"power": 2394132
+		"power": 2404782
 	},
 	"skills": [
 		{
@@ -253,6 +253,7 @@
 				"agility_skin_stone": 55410
 			}
 		},
+		
 		{
 			"name": "Solar Skin",
 			"stats": {
@@ -261,6 +262,16 @@
 			},
 			"costs": {
 				"agility_skin_stone": 55410
+			}
+		},
+		{
+			"name": "Masquerade Skin",
+			"stats": {
+				"magic_defense": 21300,
+				"power": 10650
+			},
+			"costs": {
+				"agility_skin_stone": 110520
 			}
 		}
 	],
