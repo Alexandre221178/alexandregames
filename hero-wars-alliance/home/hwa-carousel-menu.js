@@ -2,14 +2,14 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
-      link: "../../hero-wars-alliance/titans-guide/metida-en.html",
-      src500: "../../hero-wars-alliance/images/titans/metida/metida-500px.webp",
-      src400: "../../hero-wars-alliance/images/titans/metida/metida-400px.webp",
-      alt: "Metida Guide for Hero Wars Alliance",
-      title: "Titan Metida Guide for Hero Wars Alliance",
-      strong: "Guide: Super Titan Metida for Hero Wars Alliance",
+      link: "/hero-wars-alliance/characters-guide/crow-en.html",
+      src500: "/hero-wars-alliance/images/hero/crow/crow-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/crow/crow-400px.webp",
+      alt: "Crow Guide for Hero Wars Alliance",
+      title: "Crow Guide for Hero Wars Alliance",
+      strong: "Guide(2nd Talisman): Crow for Hero Wars Alliance",
       updated: "Updated: September, 2026."
-    }, 
+    },   
     {
       link: "/hero-wars-alliance/characters-guide/julius-en.html",
       src500: "/hero-wars-alliance/images/hero/julius/julius-500px.webp",
@@ -19,6 +19,16 @@
       strong: "Guide: Julius for Hero Wars Alliance",
       updated: "Updated: September, 2026."
     },   
+    {
+      link: "../../hero-wars-alliance/titans-guide/metida-en.html",
+      src500: "../../hero-wars-alliance/images/titans/metida/metida-500px.webp",
+      src400: "../../hero-wars-alliance/images/titans/metida/metida-400px.webp",
+      alt: "Metida Guide for Hero Wars Alliance",
+      title: "Titan Metida Guide for Hero Wars Alliance",
+      strong: "Guide: Super Titan Metida for Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    }, 
+    
     {
       link: "/hero-wars-alliance/beginners-guide-hwa/stats-guide-hwa-en.html",
       src500: "/hero-wars-alliance/images/beginners-guide-hwa/stats-guide-hwa/stats-guide-hwa-500px.webp",

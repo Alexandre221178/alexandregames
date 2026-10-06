@@ -27,23 +27,50 @@
         }
       },
       "stats": {
-        "max_with_talisman_of_retribution": {
-          "agility": 16288,
-          "intelligence": 2598,
-          "strength": 2610,
-          "health": 754940,
-          "physical_attack": 123703,
-          "magic_attack": 7852,
-          "armor": 32003,
-          "magic_defense": 18365,
-          "armor_penetration": 24448,
-          "toughness": 1564,
-          "crushing": 5920
+        "max_with_talisman_of_deduction": {
+          "total_power": 277189,
+          "agility": 17555,
+          "intelligence": 4155,
+          "strength": 3855,
+          "health": 976823,
+          "physical_attack": 141644,
+          "magic_attack": 27948,
+          "armor": 46857,
+          "magic_defense": 27706,
+          "dodge": 0,
+          "vampirism": 0,
+          "armor_penetration": 35098,
+          "magic_penetration": 0,
+          "crit_hit_chance": 0,
+          "magic_crit_hit_chance": 0,
+          "toughness": 3487,
+          "crushing": 7484,
+          "magic_reflection": 0
+        },
+        "max_with_talisman_of_verdict": {
+          "total_power": 279621,
+          "agility": 15555,
+          "intelligence": 4155,
+          "strength": 3855,
+          "health": 976823,
+          "physical_attack": 143844,
+          "magic_attack": 27948,
+          "armor": 25057,
+          "magic_defense": 27706,
+          "dodge": 0,
+          "vampirism": 0,
+          "armor_penetration": 35098,
+          "magic_penetration": 0,
+          "crit_hit_chance": 7589,
+          "magic_crit_hit_chance": 0,
+          "toughness": 3487,
+          "crushing": 7484,
+          "magic_reflection": 0
         }
       },
       "talisman_details": {
-        "talisman_of_retribution": {
-          "display_name": "Talisman of Retribution",
+        "talisman_of_deduction": {
+          "display_name": "Talisman of Deduction",
           "level": 50,
           "main_stat": "Agility",
           "main_stat_bonus": 2000,
@@ -68,7 +95,23 @@
           },
           "total_bonus_summary": "Physical Attack +6000 | Armor +21800"
         },
-        "recommended": "talisman_of_retribution"
+        "talisman_of_verdict": {
+          "display_name": "Talisman of Verdict",
+          "level": 50,
+          "main_stat": "Physical Attack",
+          "main_stat_bonus": 8000,
+          "reroll_slots": [
+            { "stat": "Crit Hit Chance", "value": 2200 },
+            { "stat": "Crit Hit Chance", "value": 2200 },
+            { "stat": "Crit Hit Chance", "value": 2200 }
+          ],
+          "total_reroll_bonus": {
+            "stat": "Crit Hit Chance",
+            "value": 6600
+          },
+          "total_bonus_summary": "Physical Attack +8000 | Crit Hit Chance +6600"
+        },
+        "recommended": "talisman_of_deduction"
       },
       "skills": [
         {
@@ -80,7 +123,7 @@
           "keywords": ["Control", "Silence", "Anti-Mage"],
           "can_upgrade_to_legendary": true,
           "physical_damage_formula": "200% Phys. atk. + 9000",
-          "physical_damage_value": 256406,
+          "physical_damage_value": 292288,
           "silence_duration_seconds": 8,
           "targeting": "Attacks enemies in the front and applies Silence to all enemies whose main stat is Intelligence.",
           "description": "Crow attacks enemies in the front, applying Silence for 8.0 seconds to all Intelligence-main-stat enemies."
@@ -108,7 +151,7 @@
           "keywords": ["Control", "Silence", "Anti-Mage"],
           "can_upgrade_to_legendary": true,
           "physical_damage_formula": "100% Phys. atk. + 9000",
-          "physical_damage_value": 132703,
+          "physical_damage_value": 150644,
           "silence_duration_seconds": 5,
           "targeting": "Enemy with the highest Intelligence.",
           "description": "Throws a grenade at the enemy with the highest Intelligence, applying Silence for 5.0 seconds. The target and nearby enemies take physical area damage."
@@ -125,7 +168,7 @@
           "type": ["Physical Damage", "Control", "Silence", "Area Damage"],
           "keywords": ["Control", "Silence"],
           "grenade_shards_physical_damage_formula": "75% Phys. atk. + 9000",
-          "grenade_shards_physical_damage_value": 101777.25,
+          "grenade_shards_physical_damage_value": 115233,
           "silence_duration_bonus_seconds": 2,
           "description": "Grenade shards deal physical damage to all Silenced enemies and enemies around them. Silence duration is increased by 2.0 seconds for all affected targets."
         },
@@ -139,7 +182,7 @@
           "duration_seconds": 12,
           "skill_recharge_speed_increase_percent": 30,
           "physical_damage_formula": "100% Phys. atk. + 12000",
-          "physical_damage_value": 135703,
+          "physical_damage_value": 153644,
           "description": "For 12.0 seconds, Crow's skills recharge 30% faster, and his basic attacks deal an additional hit to all enemies affected by Silence."
         },
         {
@@ -150,7 +193,7 @@
           "type": ["Passive", "Physical Damage", "Silence Extension"],
           "keywords": ["Silence Punish", "Duration Extension"],
           "physical_damage_formula": "150% Phys. atk. + 21000",
-          "physical_damage_value": 206554.5,
+          "physical_damage_value": 233466,
           "trigger": "When Crow applies Silence to an enemy that already has Silence active.",
           "description": "When Crow reapplies Silence to an enemy that already has the same active effect, the enemy takes physical damage. The effect's duration is increased by the duration of the longest Silence already affecting the enemy."
         },
@@ -166,7 +209,7 @@
           "keywords": ["Control", "Silence", "Anti-Mage"],
           "cooldown_seconds": 12,
           "physical_damage_formula": "150% Phys. atk.",
-          "physical_damage_value": 185554.5,
+          "physical_damage_value": 212466,
           "targeting": "Enemy with the highest Intelligence.",
           "silence_duration_seconds": 5,
           "description": "Every 12.0 seconds, Crow attacks the enemy with the highest Intelligence. If the target is Silenced, Crow spreads the effect to all nearby enemies for the remaining duration. Otherwise, he applies Silence for 5.0 seconds."
@@ -426,7 +469,9 @@
         "In battle testing, Crow performed very strongly because he applies Silence repeatedly, especially against mages and enemies with the highest Intelligence. This can leave enemy teams locked down for long windows.",
         "Crow does not need off-meta Silence helpers such as Thea or Keira to work well. They can add more Silence, but Crow's own kit already creates enough Silence pressure in strong meta teams.",
         "Crow is especially effective into strong mage threats such as Iris, Folio, and Miu. Even damage-over-time teams can struggle because Confinement prevents enemies from applying Debuffs and Curses while at least one enemy is Silenced.",
-        "The Talisman of Retribution adds Agility +2000, which gives Crow Physical Attack +6000 and Armor +2000 because Agility is his main stat."
+        "The Talisman of Deduction adds Agility +2000, which gives Crow Physical Attack +6000 and Armor +2000 because Agility is his main stat.",
+        "The Talisman of Verdict at level 50 adds Physical Attack +8000 and up to Crit Hit Chance +6600 across three reroll slots of +2200 each.",
+        "Skill damage values use max_with_talisman_of_deduction (Physical Attack 141644)."
       ]
     }
   ]
