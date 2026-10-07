@@ -14,7 +14,7 @@ window.giveawayWinnersData = {
       {
         "item": "5.000 Metacubos + 10.000 HydraCoins + 1 Avatar Lucky Boxy",
         "winner_label": "5 vencedores",
-        "winner_id": "A anunciar",
+        "winner_id": "661269053, 663314810, 1215502082, 661627129, 618027816",
         "images": [
           {
             "src": "../../hero-wars-alliance/images/events/shared/meta-cube.webp",
@@ -47,7 +47,7 @@ window.giveawayWinnersData = {
       {
         "item": "5,000 Metacubes + 10,000 HydraCoins + 1 Lucky Boxy Avatar",
         "winner_label": "5 winners",
-        "winner_id": "To be announced",
+        "winner_id": "661269053, 663314810, 1215502082, 661627129, 618027816",
         "images": [
           {
             "src": "../../hero-wars-alliance/images/events/shared/meta-cube.webp",
@@ -80,7 +80,7 @@ window.giveawayWinnersData = {
       {
         "item": "5.000 Metacubes + 10.000 HydraCoins + 1 Lucky Boxy-Avatar",
         "winner_label": "5 Gewinner",
-        "winner_id": "Wird bekannt gegeben",
+        "winner_id": "661269053, 663314810, 1215502082, 661627129, 618027816",
         "images": [
           {
             "src": "../../hero-wars-alliance/images/events/shared/meta-cube.webp",
@@ -113,7 +113,7 @@ window.giveawayWinnersData = {
       {
         "item": "5.000 Metacubos + 10.000 HydraCoins + 1 Avatar Lucky Boxy",
         "winner_label": "5 ganadores",
-        "winner_id": "Por anunciar",
+        "winner_id": "661269053, 663314810, 1215502082, 661627129, 618027816",
         "images": [
           {
             "src": "../../hero-wars-alliance/images/events/shared/meta-cube.webp",
@@ -146,7 +146,7 @@ window.giveawayWinnersData = {
       {
         "item": "5 000 Métacubes + 10 000 HydraCoins + 1 Avatar Lucky Boxy",
         "winner_label": "5 gagnants",
-        "winner_id": "À annoncer",
+        "winner_id": "661269053, 663314810, 1215502082, 661627129, 618027816",
         "images": [
           {
             "src": "../../hero-wars-alliance/images/events/shared/meta-cube.webp",
@@ -179,7 +179,7 @@ window.giveawayWinnersData = {
       {
         "item": "メタキューブ5,000個 + 10,000 HydraCoins + Lucky Boxyアバター1個",
         "winner_label": "当選者5名",
-        "winner_id": "後日発表",
+        "winner_id": "661269053, 663314810, 1215502082, 661627129, 618027816",
         "images": [
           {
             "src": "../../hero-wars-alliance/images/events/shared/meta-cube.webp",
