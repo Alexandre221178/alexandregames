@@ -10,6 +10,10 @@
   rewards:['energy x500'] },
 https://www.hero-wars.com/?nx_source=group_posting_giftweb&gift_id=
 */window.HWDE_GIFTS = [
+  // ── Link Exclusivo Web ──────────────────────────────
+  { date:'2026-10-07', type:'link', giftLinkWeb:'https://herowars.me/4j9thYs', note:'until|2026-10-10T02:00:00Z',
+  rewards:['energy x500'] },
+  
    { date:'2026-10-06', type:'link', giftId:'59e97f0e0f838b204d7e5e988791e564', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
   { date:'2026-10-06', type:'link', giftLinkWeb:'https://herowars.me/4y75xrM', giftLinkFb:'https://herowars.me/4hJoOcv', note:'until|2026-10-09T02:00:00Z',
@@ -225,6 +229,8 @@ https://www.hero-wars.com/?nx_source=group_posting_boxweb&gift_id=
   { date:'2026-##-##', type:'link', giftLinkWeb:'https://herowars.me/#w#', giftLinkFb:'https://herowars.me/#d#', note:'until|2026-##-##T02:00:00Z',
   rewards:['energy-crystal x16', 'valor-coin x8500', 'sapphire-medallion x2','energy x500' ] },
 
+{ date:'2026-06-10', type:'link', giftLinkWeb:'https://herowars.me/4j9thYs', note:'until|2026-10-10T02:00:00Z',
+  rewards:['energy x500'] },
 
 ╔══════════════════════════════════════════════════════════════════╗
    ║  HWDE GIFTS — Add newest entries at the TOP                     ║
