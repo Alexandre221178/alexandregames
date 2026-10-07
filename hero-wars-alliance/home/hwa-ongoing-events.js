@@ -27,7 +27,7 @@
       alt: "Trade Routes Event Group Guide for Hero Wars Alliance",
       title: "Trade Routes Event Group Guide for Hero Wars Alliance",
       strong: "Guide: Trade Routes Event Group - Hero Wars Alliance",
-      updated: "Updated: September, 2026."
+      updated: "Updated: October, 2026."
     },
     
     {
@@ -37,7 +37,7 @@
       alt: "Bountiful Roads Event Guide for Hero Wars Alliance",
       title: "Bountiful Roads Event Guide for Hero Wars Alliance",
       strong: "Guide: Bountiful Roads Event Guide - Hero Wars Alliance",
-      updated: "Updated: September, 2026."
+      updated: "Updated: October, 2026."
     },
 {
       link: "/hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",
@@ -46,7 +46,7 @@
       alt: "Roads Unlocked Event Guide for Hero Wars Alliance",
       title: "Roads Unlocked Event Guide for Hero Wars Alliance",
       strong: "Guide: Roads Unlocked Best Tower Strategy to Push for 25 Chests - Hero Wars Alliance",
-      updated: "Updated: September, 2026."
+      updated: "Updated: October, 2026."
     },
    
     
@@ -57,7 +57,7 @@
       alt: "Grand Caravan Event Guide for Hero Wars Alliance",
       title: "Grand Caravan Event Guide for Hero Wars Alliance",
       strong: "Guide: Grand Caravan Event Guide - Hero Wars Alliance",
-      updated: "Updated: September, 2026."
+      updated: "Updated: October, 2026."
     },
   
 
