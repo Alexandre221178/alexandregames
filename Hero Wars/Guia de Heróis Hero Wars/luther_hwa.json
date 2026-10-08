@@ -1,0 +1,381 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "luther",
+      "name": "Luther",
+      "description": "Silent demon hunter who is always the first to jump into the fray, so keep out of his way.",
+      "highlights": [
+        "Ultimate anti-mage machine",
+        "Boosts his Magic Defense",
+        "Weakens enemy casters"
+      ],
+      "role": ["Tank"],
+      "main_class": "Tank",
+      "position": "Front Line",
+      "level": 120,
+      "main_stat": "Strength",
+      "way": "Way of Honor",
+      "faction": "Way of Honor",
+      "glyph_class": "Tank",
+      "realm": {
+        "troop_buff": "Infantry",
+        "realm_buff": "Attack/Defense 120%",
+        "realm_skins_available": false,
+        "skills": []
+      },
+      "stat_rules": {
+        "strength": {
+          "health_per_point": 40,
+          "extra_physical_attack_per_point_when_main_stat": 1
+        }
+      },
+      "stats": {
+        "max_with_talisman_of_faith": {
+          "total_power": 293238,
+          "intelligence": 4184,
+          "agility": 4128,
+          "strength": 16727,
+          "health": 1660841,
+          "physical_attack": 99666,
+          "magic_attack": 27658,
+          "physical_armor": 69814,
+          "magical_armor": 48160,
+          "dodge": 0,
+          "vampirism_percent": 0,
+          "armor_penetration": 0,
+          "magic_penetration": 0,
+          "crit_hit_chance": 0,
+          "magic_crit_hit_chance": 0,
+          "toughness": 13381,
+          "crushing": 0,
+          "magic_reflection": 0
+        },
+        "max_with_talisman_of_purification": {
+          "total_power": 299059,
+          "intelligence": 4184,
+          "agility": 4128,
+          "strength": 14727,
+          "health": 1390266,
+          "physical_attack": 105666,
+          "magic_attack": 27658,
+          "physical_armor": 69814,
+          "magical_armor": 48160,
+          "dodge": 0,
+          "vampirism_percent": 0,
+          "armor_penetration": 0,
+          "magic_penetration": 0,
+          "crit_hit_chance": 0,
+          "magic_crit_hit_chance": 0,
+          "toughness": 21631,
+          "crushing": 0,
+          "magic_reflection": 0
+        }
+      },
+      "talisman_details": {
+        "talisman_of_faith": {
+          "display_name": "Talisman of Faith",
+          "border": {
+            "level": 50,
+            "main_stat": "Strength",
+            "main_stat_value": 2000
+          },
+          "rerolls": [
+            { "stat": "health", "value": 60500 },
+            { "stat": "health", "value": 60500 },
+            { "stat": "health", "value": 60500 }
+          ],
+          "total_reroll_bonus": { "stat": "Health", "value": 181500 }
+        },
+        "talisman_of_purification": {
+          "display_name": "Talisman of Purification",
+          "border": {
+            "level": 50,
+            "main_stat": "Physical attack",
+            "main_stat_value": 8000
+          },
+          "rerolls": [
+            { "stat": "toughness", "value": 2200 },
+            { "stat": "toughness", "value": 2200 },
+            { "stat": "toughness", "value": 2200 }
+          ],
+          "total_reroll_bonus": { "stat": "Toughness", "value": 6600 }
+        },
+        "recommended": "talisman_of_purification"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "variant": "base",
+          "color": "Gray",
+          "level": 120,
+          "name": "Sentence",
+          "type": ["Physical Damage", "Stun", "Control"],
+          "can_be_copied": false,
+          "description": "Stuns nearby enemies and damages them.",
+          "physical_damage": "150% Phys.atk. + 18000",
+          "note": "Chance to stun is lowered if the target's level is above 120."
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "color": "Green",
+          "level": 120,
+          "name": "Omen",
+          "type": ["Physical Damage", "Knockback", "Control"],
+          "description": "Luther moves deep into the enemy team, dealing damage to nearby enemies.",
+          "physical_damage": "50% Phys.atk. + 12000"
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "color": "Blue",
+          "level": 100,
+          "name": "Gehenna",
+          "type": ["Physical Damage", "Stun", "Control"],
+          "can_upgrade_to_legendary": true,
+          "description": "Landing after using Omen, Luther creates a fiery wave that deals Physical Damage and stuns enemies around him for 2 seconds.",
+          "physical_damage": "70% Phys.atk. + 12000",
+          "stun_duration_seconds": 2,
+          "note": "Chance to stun is lowered if the target's level is above 120."
+        },
+        {
+          "id": 3,
+          "variant": "legendary",
+          "relic_level": 10,
+          "name": "Gehenna (enhancement)",
+          "type": ["Enhancement"],
+          "description": "Now, the skill triggers every 11 seconds.",
+          "cooldown_seconds": 11,
+          "relic_total_stats_gain": { "health": 53269, "physical_attack": 6956 }
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "color": "Purple",
+          "level": 80,
+          "name": "Doctrine of Faith",
+          "type": ["Passive", "Buff"],
+          "can_upgrade_to_legendary": true,
+          "description": "Passive skill. Increases own Magic Defense. Each time Luther takes Magic Damage, he increases his Magic Defense further for 4 seconds.",
+          "magic_defense_increase": "10% Phys.atk. + 1800",
+          "additional_magic_defense_increase": "10% Phys.atk. + 1200",
+          "duration_seconds": 4
+        },
+        {
+          "id": 4,
+          "variant": "legendary",
+          "relic_level": 20,
+          "name": "Doctrine of Faith (enhancement)",
+          "type": ["Buff", "Enhancement"],
+          "description": "Now, when taking Magic Damage, Luther also increases his Armor Penetration for 4 seconds.",
+          "armor_penetration_increase": "10% Phys.atk. + 400",
+          "duration_seconds": 4,
+          "relic_total_stats_gain": { "health": 146854, "physical_attack": 19176 }
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "name": "Righteous Retribution",
+          "type": ["Physical Damage"],
+          "description": "Every 12 seconds, Luther starts accumulating Righteousness. All incoming damage charges it for 8 seconds. When the timer expires or when Luther dies, he deals Physical Damage equal to accumulated charge to enemies around him.",
+          "initial_righteousness_charge": "20% Phys.atk.",
+          "righteousness_charge_increase_when_taking_damage": "10% of current Magic Defense",
+          "physical_damage": "Accumulated Righteousness charge",
+          "cooldown_seconds": 12,
+          "duration_seconds": 8,
+          "relic_total_stats_gain": { "health": 28794, "physical_attack": 3760 }
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "name": "Unshakable Faith",
+          "type": ["Passive", "Debuff"],
+          "description": "While Luther is alive, all enemies around him have their Magic Attack decreased.",
+          "magic_attack_decrease": "100% Phys.atk.",
+          "relic_total_stats_gain": { "health": 290824, "physical_attack": 37976 }
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default",
+          "stat": "Strength",
+          "bonus": 1365,
+          "derived": { "health": 54600, "physical_attack": 1365 }
+        },
+        { "name": "Stellar", "stat": "Physical attack", "bonus": 7095 },
+        { "name": "Angel", "stat": "Armor", "bonus": 10650 },
+        { "name": "Cybernetic", "stat": "Health", "bonus": 106645 },
+        { "name": "Winter", "stat": "Magic defense", "bonus": 10687 },
+        { "name": "Casey Jones", "stat": "Armor", "bonus": 10650 },
+        { "name": "Sport", "stat": "Toughness", "bonus": 2960 },
+        { "name": "Ocean Echo", "stat": "Toughness", "bonus": 2960 }
+      ],
+      "artifacts": [
+        {
+          "name": "Hammer of Righteous Judgment",
+          "slot": "Weapon",
+          "bigStar": true,
+          "evolve": 6,
+          "level": 100,
+          "activation_chance": "100%",
+          "effect": "Armor +32040",
+          "armor": 32040
+        },
+        {
+          "name": "Defender's Covenant",
+          "slot": "Book",
+          "bigStar": true,
+          "evolve": 6,
+          "level": 100,
+          "armor": 8010,
+          "magic_defense": 8010
+        },
+        {
+          "name": "Ring of Strength",
+          "slot": "Ring",
+          "bigStar": true,
+          "evolve": 6,
+          "level": 100,
+          "strength": 3990,
+          "derived": { "health": 159600, "physical_attack": 3990 }
+        }
+      ],
+      "glyphs": {
+        "class": "Tank",
+        "runesphere": 0,
+        "luther4": 45,
+        "overall_class_level": "495 / 495",
+        "tank_class_glyphs_bonuses": "Every 10 seconds, the effect is applied to the ally with the lowest health percentage, increasing armor and magic defense by 37754.71 (1% Health + 24750) for 5.0 seconds. This ability can be used on the tank itself and depends on their maximum Health stat.",
+        "glyphs_level": 80,
+        "list": [
+          { "name": "Physical attack", "level": 80, "bonus": 8340 },
+          { "name": "Health", "level": 80, "bonus": 122800 },
+          { "name": "Magic defense", "level": 80, "bonus": 12850 },
+          { "name": "Armor", "level": 80, "bonus": 12850 },
+          {
+            "name": "Strength",
+            "level": 80,
+            "bonus": 2110,
+            "derived": { "health": 84400, "physical_attack": 2110 }
+          }
+        ]
+      },
+      "counters": [
+        { "hero": "Faceless", "reason": "Can pull Luther back toward the enemy team." },
+        { "hero": "Cascade", "reason": "Can pull Luther back toward the enemy team." }
+      ],
+      "best_teams": [
+        {
+          "rank": 1,
+          "heroes": [
+            { "hero": "Luther", "talisman": "T2" },
+            { "hero": "Tristan", "talisman": "T2" },
+            { "hero": "Crow", "talisman": "T2" },
+            { "hero": "Guus", "talisman": "T2" },
+            { "hero": "Eva", "talisman": "T1" }
+          ]
+        },
+        {
+          "rank": 2,
+          "heroes": [
+            { "hero": "Luther", "talisman": "T2" },
+            { "hero": "Tristan", "talisman": "T2" },
+            { "hero": "Crow", "talisman": "T2" },
+            { "hero": "Guus", "talisman": "T2" },
+            { "hero": "Fafnir", "talisman": "T2" }
+          ]
+        }
+      ],
+      "old_teams": [
+        {
+          "rank": 1,
+          "heroes": ["Fafnir", "Artemis", "Tristan", "Galahad", "Luther"],
+          "description": "Balanced damage, control, and tankiness. Tristan and Artemis provide damage, Fafnir offers support, Galahad acts as a secondary tank, and Luther serves as the primary tank and crowd control specialist."
+        },
+        {
+          "rank": 2,
+          "heroes": ["Fafnir", "Artemis", "Tristan", "Julius", "Luther"],
+          "description": "Julius adds shields and healing, supporting Luther's ability to disrupt enemy formations."
+        },
+        {
+          "rank": 3,
+          "heroes": ["Fafnir", "Artemis", "Tristan", "Luther", "Cleaver"],
+          "description": "Cleaver provides additional disruption and crowd control for Luther to capitalize on."
+        },
+        {
+          "rank": 4,
+          "heroes": ["Fafnir", "Artemis", "Tristan", "Luther", "Chabba"],
+          "description": "Chabba complements Luther's frontline presence and enhances team sustainability."
+        },
+        {
+          "rank": 5,
+          "heroes": ["Fafnir", "Artemis", "Tristan", "Luther", "Astaroth"],
+          "description": "Astaroth serves as the primary tank, allowing Luther to focus on crowd control and disruption while Fafnir adds damage and shielding."
+        },
+        {
+          "rank": 6,
+          "heroes": ["Artemis", "Tristan", "Luther", "Galahad", "Astaroth"],
+          "description": "Astaroth and Galahad provide a sturdy frontline while Luther controls the battlefield and Tristan and Artemis deal damage."
+        },
+        {
+          "rank": 7,
+          "heroes": ["Aidan", "Jorgen", "Kayla", "Tristan", "Luther"],
+          "description": "Sustain and control with Jorgen stealing enemy energy, allowing Luther and Kayla to jump in and disrupt enemy formations."
+        },
+        {
+          "rank": 8,
+          "heroes": ["Aidan", "Yasmine", "Kayla", "Tristan", "Luther"],
+          "description": "Yasmine adds damage while Aidan provides healing support, allowing Luther to maintain frontline presence and control."
+        },
+        {
+          "rank": 9,
+          "heroes": ["Fafnir", "Artemis", "Mojo", "Tristan", "Luther"],
+          "description": "Mojo's buffs and debuffs complement Luther's crowd control while Fafnir and Artemis provide damage from the backline."
+        },
+        {
+          "rank": 10,
+          "heroes": ["Fafnir", "Artemis", "Tristan", "Luther", "Aurora"],
+          "description": "Aurora's dodging enhances team survivability, allowing Luther to stay on the frontline longer."
+        },
+        {
+          "rank": 11,
+          "heroes": ["Jet", "Sebastian", "Tristan", "Galahad", "Luther"],
+          "description": "Jet and Sebastian provide additional critical damage and control, while Galahad acts as a secondary tank alongside Luther."
+        }
+      ],
+      "relic_resources": {
+        "total_relic_shards_to_level_30": 2880
+      },
+      "upgrade_costs": {
+        "relics": 2880,
+        "gold": 80734350,
+        "huge_exp_potions": 394,
+        "soul_stones": 630,
+        "skin_stones": 387615,
+        "artifact_coins": 270000,
+        "artifact_fragments": [
+          { "name": "Hammer of Righteous Judgment", "amount": 225 },
+          { "name": "Defender's Covenant", "amount": 225 },
+          { "name": "Ring of Strength", "amount": 225 }
+        ],
+        "artifact_essences": { "white": 624, "green": 1050, "blue": 790, "purple": 555, "orange": 555 },
+        "artifact_scrolls": { "white": 624, "green": 1050, "blue": 790, "purple": 555, "orange": 555 },
+        "artifact_metals": { "white": 624, "green": 1050, "blue": 790, "purple": 555, "orange": 555 },
+        "chaos_cores": 363,
+        "rune_spheres": 41200,
+        "rune_stones": 1092000,
+        "sparks_of_power": 65150,
+        "mastery_crystals": 18375,
+        "honor_marks": 14580
+      },
+      "notes": [
+        "Talisman of Purification is used in both best teams provided in the source.",
+        "Maximum stats and the displayed Tank class bonus are preserved as supplied. The displayed class bonus of 37754.71 does not match 1% Health + 24750 for either listed maximum Health value.",
+        "Old teams are retained separately from the two best teams supplied in the source."
+      ]
+    }
+  ]
+}
