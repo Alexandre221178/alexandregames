@@ -85,6 +85,7 @@
 
     "update-leonel-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide leonel",
     "update-lian-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide lian",
+ "update-luther-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide luther",
 
     "update-miu-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide miu",
 "update-nebula-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide nebula",
