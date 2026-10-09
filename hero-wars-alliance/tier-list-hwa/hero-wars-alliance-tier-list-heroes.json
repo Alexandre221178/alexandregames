@@ -687,11 +687,16 @@
     }
   },
   "Luther": {
-    "image": "../../img-HWM/Luther-img/luther%20300x260.webp",
-    "guides": {
-      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Luther%20-%20English.html",
-      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Luther.html"
-    },
+    "image": "../../imagens/image-shared/luther.webp",
+    "guide": "../characters-guide/luther-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
     "names": {
       "ja": "ルーサー"
     }

@@ -3,10 +3,11 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+  { date:'2026-10-09', type:'daily', mission:'2-4', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
       { date:'2026-10-08', type:'hub', code:'FORTSRATING', note:'until|2026-10-26T01:00:00Z',
   rewards:[ 'energy x20', 'world-energy x30', 'random-resources-chest-100k x6'] },
-
-    
+  
   { date:'2026-10-08', type:'daily', mission:'3-5', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-10-07', type:'daily', mission:'2-11', note:'daily|80',

@@ -1,6 +1,35 @@
 {
   "schema_version": 1,
   "game": "Hero Wars Alliance",
+  "sources": {
+    "official_energy_guide": "https://support-hwa.nexters.com/hc/en-us/articles/12581439931666-Energy-Generation-in-Combat",
+    "official_stats_guide": "https://support-hwa.nexters.com/hc/en-us/articles/6964747295634-Hero-Stats",
+    "verification_note": "Confirm exact formulas, stat conversions, and special mechanics against current official documentation and in-game tests."
+  },
+  "combat_mechanics": {
+    "energy": {
+      "name": {
+        "en": "Energy",
+        "pt": "Energia"
+      },
+      "source_ref": "official_energy_guide",
+      "documentation_checked_on": "2026-10-08",
+      "energy_points_required_for_first_skill": 1000,
+      "percentage_basis": "Energy percentages refer to the 1000 points required to activate the first skill.",
+      "heroes": {
+        "basic_attack_or_skill_energy_percent": 10,
+        "energy_percent_per_one_percent_max_health_lost": 1,
+        "enemy_hero_defeated_energy_percent": 30,
+        "exclusive_skill_exception": "Exclusive skills unlocked at Relic levels 1 and 30 grant no energy on activation unless their description states otherwise."
+      },
+      "titans": {
+        "basic_attack_or_supertitan_basic_skill_energy_percent": 20,
+        "energy_percent_per_one_percent_max_health_lost": 0.5,
+        "enemy_titan_defeated_energy_percent": 30
+      },
+      "verification_note": "These rules were checked against the official guide; no in-game tests were performed."
+    }
+  },
   "source_note": "Structured reference for main stats, secondary stats, and combat mechanics used in Hero Wars Alliance guides. Main and secondary stat definitions include the user-supplied Main Stats and Secondary Stats reference.",
   "main_stats": {
     "description": "Every hero has one main stat: Strength, Intelligence, or Agility. These attributes grant secondary stats; each point of the hero's main stat also grants one additional point of Physical Attack.",

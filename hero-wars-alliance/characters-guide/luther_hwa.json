@@ -283,9 +283,10 @@
           "heroes": [
             { "hero": "Luther", "talisman": "T2" },
             { "hero": "Tristan", "talisman": "T2" },
+            { "hero": "Oya", "talisman": "T2" },
             { "hero": "Crow", "talisman": "T2" },
-            { "hero": "Guus", "talisman": "T2" },
-            { "hero": "Fafnir", "talisman": "T2" }
+            { "hero": "Guus", "talisman": "T2" }
+            
           ]
         }
       ],
