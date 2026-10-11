@@ -162,7 +162,9 @@
 
 
 "update-area-of-conquest-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js area-of-conquest-hwde",
-    "update-territory-of-titans-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js territory-of-titans-hwde",
+ "update-elemental-synergy-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js elemental-synergy-hwde",
+  
+"update-territory-of-titans-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js territory-of-titans-hwde",
 "update-hero-cosmic-battle-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js hero-cosmic-battle-hwde",
 
     "update-titan-cosmic-battle-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titan-cosmic-battle-hwde",
