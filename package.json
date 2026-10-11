@@ -165,6 +165,9 @@
     "update-titan-cosmic-battle-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titan-cosmic-battle-hwde",
 
 "update-fates-wish-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js fates-wish-hwde",
+"update-guardians-of-outland-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js guardians-of-outland-hwde",
+
+
 
 "update-alecto-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titans alecto",
 
