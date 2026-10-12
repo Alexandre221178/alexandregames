@@ -492,6 +492,26 @@ https://alexandregames.com/hero-wars-alliance/event-hwa/ancient-awakening-event-
     },
     
 
+##########################link para compartilhar##########################
+🌟 **Ascendant Glory Event – Hero Wars Alliance**
+
+📌 **Event Group Guide**  
+https://alexandregames.com/hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html
+
+🏆 **Rising Legend Event Guide**  
+https://alexandregames.com/hero-wars-alliance/event-hwa/ascendant-glory-rising-legend-en.html
+
+✨ **Spark of Glory – Skin+ Event Guide**  
+https://alexandregames.com/hero-wars-alliance/event-hwa/ascendant-glory-spark-of-glory-en.html
+
+⚔️ **Trial of Legends Event Guide**  
+https://alexandregames.com/hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html
+
+🛍️ **Champion's Gallery Shop Guide – Kendle**  
+https://alexandregames.com/hero-wars-alliance/event-hwa/ascendant-glory-champions-gallery-en.html
+
+🎮 Check out the guides for tips and strategies to get the most out of the Ascendant Glory event!
+
 */
 
 /* Lords of the Elements - Evento de 
