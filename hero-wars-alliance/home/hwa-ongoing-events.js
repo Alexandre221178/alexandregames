@@ -1,7 +1,15 @@
 (function(){
   // Active guides shown below the main calendar - carousel.
   var slides = [
-    
+    {
+      link: "/hero-wars-alliance/event-hwa/ascendant-glory-champions-gallery-en.html",
+      src500: "/hero-wars-alliance/images/events/ascendant-glory/champions-gallery-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ascendant-glory/champions-gallery-400px.webp",
+      alt: "Champion's Gallery Shop Guide for Hero Wars Alliance",
+      title: "Champion's Gallery Shop Guide for Hero Wars Alliance",
+      strong: "Crow - Champion's Gallery Shop Guide",
+      updated: "Updated: October, 2026."
+    },
     {
       link: "/hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html",
       src500: "/hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-500px.webp",
@@ -38,15 +46,7 @@
       strong: "Trial of Legends Event Guide",
       updated: "Updated: October, 2026."
     },
-    {
-      link: "/hero-wars-alliance/event-hwa/ascendant-glory-champions-gallery-en.html",
-      src500: "/hero-wars-alliance/images/events/ascendant-glory/champions-gallery-500px.webp",
-      src400: "/hero-wars-alliance/images/events/ascendant-glory/champions-gallery-400px.webp",
-      alt: "Champion's Gallery Shop Guide for Hero Wars Alliance",
-      title: "Champion's Gallery Shop Guide for Hero Wars Alliance",
-      strong: "Kendle - Champion's Gallery Shop Guide",
-      updated: "Updated: September, 2026."
-    },
+    
 
     {
       link: "/hero-wars-alliance/guide/talisman-guide-hwa-en.html",
