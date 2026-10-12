@@ -7,390 +7,330 @@
     "activeDays": 6,
     "pointsName": "Guild Versus points",
     "dailyChests": {
-  "reset": "daily",
-  "allChestsAvailableEachActiveDay": true,
-  "chestCount": 9,
-  "maximumDailyPointsRequired": 4500000,
-  "chests": [
-    {
-      "chest": 1,
-      "pointsRequired": 25000,
-      "rewards": [
+      "reset": "daily",
+      "allChestsAvailableEachActiveDay": true,
+      "chestCount": 9,
+      "maximumDailyPointsRequired": 4500000,
+      "chests": [
         {
-          "item": "Titan Potion",
-          "amount": 250
+          "chest": 1,
+          "pointsRequired": 25000,
+          "rewards": [
+            {
+              "item": "Gold",
+              "amount": 30000
+            },
+            {
+              "item": "Energy",
+              "amount": 50
+            },
+            {
+              "item": "Titan Potion",
+              "amount": 250
+            },
+            {
+              "item": "Heroes Trove",
+              "amount": 1
+            },
+            {
+              "item": "Titans Trove",
+              "amount": 1
+            }
+          ]
         },
         {
-          "item": "Spark of Power",
-          "amount": 100
+          "chest": 2,
+          "pointsRequired": 100000,
+          "rewards": [
+            {
+              "item": "Gold",
+              "amount": 50000
+            },
+            {
+              "item": "Energy",
+              "amount": 100
+            },
+            {
+              "item": "Titan Potion",
+              "amount": 500
+            },
+            {
+              "item": "Heroes Trove",
+              "amount": 2
+            },
+            {
+              "item": "Titans Trove",
+              "amount": 2
+            }
+          ]
         },
         {
-          "item": "Big EXP Potion",
-          "amount": 25
+          "chest": 3,
+          "pointsRequired": 400000,
+          "rewards": [
+            {
+              "item": "Relic Shard",
+              "amount": 1
+            },
+            {
+              "item": "Energy",
+              "amount": 200
+            },
+            {
+              "item": "Honor Marks",
+              "amount": 50
+            },
+            {
+              "item": "Titan Potion",
+              "amount": 1250
+            },
+            {
+              "item": "Heroes Trove",
+              "amount": 3
+            },
+            {
+              "item": "Titans Trove",
+              "amount": 3
+            }
+          ]
         },
         {
-          "item": "Fairy Dust",
-          "amount": 100
+          "chest": 4,
+          "pointsRequired": 600000,
+          "rewards": [
+            {
+              "item": "Rune Stones",
+              "amount": 250
+            },
+            {
+              "item": "Energy",
+              "amount": 200
+            },
+            {
+              "item": "Heroes Trove",
+              "amount": 3
+            },
+            {
+              "item": "Titans Trove",
+              "amount": 3
+            },
+            {
+              "item": "5m Research Speedup",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "chest": 5,
+          "pointsRequired": 1000000,
+          "rewards": [
+            {
+              "item": "Rune Stones",
+              "amount": 350
+            },
+            {
+              "item": "Energy",
+              "amount": 300
+            },
+            {
+              "item": "Heroes Trove",
+              "amount": 4
+            },
+            {
+              "item": "Titans Trove",
+              "amount": 4
+            },
+            {
+              "item": "5m Research Speedup",
+              "amount": 6
+            }
+          ]
+        },
+        {
+          "chest": 6,
+          "pointsRequired": 1500000,
+          "rewards": [
+            {
+              "item": "Relic Shard",
+              "amount": 1
+            },
+            {
+              "item": "Energy",
+              "amount": 400
+            },
+            {
+              "item": "Honor Marks",
+              "amount": 100
+            },
+            {
+              "item": "Heroes Trove",
+              "amount": 5
+            },
+            {
+              "item": "Titans Trove",
+              "amount": 5
+            },
+            {
+              "item": "Relic Casket",
+              "amount": 2
+            },
+            {
+              "item": "5m Research Speedup",
+              "amount": 15
+            }
+          ]
+        },
+        {
+          "chest": 7,
+          "pointsRequired": 2000000,
+          "rewards": [
+            {
+              "item": "Rune Stones",
+              "amount": 550
+            },
+            {
+              "item": "Energy",
+              "amount": 400
+            },
+            {
+              "item": "Honor Marks",
+              "amount": 50
+            },
+            {
+              "item": "Heroes Trove",
+              "amount": 5
+            },
+            {
+              "item": "Titans Trove",
+              "amount": 5
+            },
+            {
+              "item": "5m Research Speedup",
+              "amount": 8
+            }
+          ]
+        },
+        {
+          "chest": 8,
+          "pointsRequired": 3000000,
+          "rewards": [
+            {
+              "item": "Rune Stones",
+              "amount": 750
+            },
+            {
+              "item": "Energy",
+              "amount": 600
+            },
+            {
+              "item": "Honor Marks",
+              "amount": 100
+            },
+            {
+              "item": "Heroes Trove",
+              "amount": 7
+            },
+            {
+              "item": "Titans Trove",
+              "amount": 7
+            },
+            {
+              "item": "5m Research Speedup",
+              "amount": 15
+            }
+          ]
+        },
+        {
+          "chest": 9,
+          "pointsRequired": 4500000,
+          "rewards": [
+            {
+              "item": "Relic Shard",
+              "amount": 2
+            },
+            {
+              "item": "Energy",
+              "amount": 1000
+            },
+            {
+              "item": "Honor Marks",
+              "amount": 200
+            },
+            {
+              "item": "Rare Heroes Trove",
+              "amount": 5
+            },
+            {
+              "item": "Rare Titans Trove",
+              "amount": 5
+            },
+            {
+              "item": "Relic Casket",
+              "amount": 5
+            },
+            {
+              "item": "5m Research Speedup",
+              "amount": 25
+            }
+          ]
+        }
+      ],
+      "rewardTotalsScope": "all 9 chests per active day",
+      "rewardTotals": [
+        {
+          "item": "Gold",
+          "amount": 80000
         },
         {
           "item": "Energy",
-          "amount": 50
+          "amount": 3250
         },
-        {
-          "item": "Gold",
-          "amount": 30000
-        }
-      ]
-    },
-    {
-      "chest": 2,
-      "pointsRequired": 100000,
-      "rewards": [
         {
           "item": "Titan Potion",
-          "amount": 500
+          "amount": 2000
         },
         {
-          "item": "Spark of Power",
-          "amount": 200
+          "item": "Heroes Trove",
+          "amount": 30
         },
         {
-          "item": "Big EXP Potion",
-          "amount": 50
-        },
-        {
-          "item": "Fairy Dust",
-          "amount": 200
-        },
-        {
-          "item": "Energy",
-          "amount": 100
-        },
-        {
-          "item": "Gold",
-          "amount": 50000
-        }
-      ]
-    },
-    {
-      "chest": 3,
-      "pointsRequired": 400000,
-      "rewards": [
-        {
-          "item": "Titan Potion",
-          "amount": 1250
-        },
-        {
-          "item": "Artifact Essence Chest",
-          "amount": 4
-        },
-        {
-          "item": "Artifact Scroll Chest",
-          "amount": 4
-        },
-        {
-          "item": "Artifact Metal Chest",
-          "amount": 4
-        },
-        {
-          "item": "Titan Skin Stones",
-          "amount": 300
-        },
-        {
-          "item": "Fairy Dust",
-          "amount": 200
+          "item": "Titans Trove",
+          "amount": 30
         },
         {
           "item": "Relic Shard",
-          "amount": 1
-        },
-        {
-          "item": "Energy",
-          "amount": 200
-        }
-      ]
-    },
-    {
-      "chest": 4,
-      "pointsRequired": 600000,
-      "rewards": [
-        {
-          "item": "Spark of Power",
-          "amount": 200
-        },
-        {
-          "item": "Big EXP Potion",
-          "amount": 50
-        },
-        {
-          "item": "Titan Artifact Chest",
           "amount": 4
         },
         {
-          "item": "Rune Stones",
-          "amount": 250
-        },
-        {
-          "item": "Fairy Dust",
-          "amount": 200
-        },
-        {
-          "item": "Energy",
-          "amount": 200
-        }
-      ]
-    },
-    {
-      "chest": 5,
-      "pointsRequired": 1000000,
-      "rewards": [
-        {
-          "item": "Spark of Power",
-          "amount": 250
-        },
-        {
-          "item": "Big EXP Potion",
-          "amount": 50
-        },
-        {
-          "item": "Titan Artifact Chest",
-          "amount": 6
-        },
-        {
-          "item": "Rune Stones",
-          "amount": 350
-        },
-        {
-          "item": "Fairy Dust",
-          "amount": 250
-        },
-        {
-          "item": "Energy",
-          "amount": 300
-        }
-      ]
-    },
-    {
-      "chest": 6,
-      "pointsRequired": 2000000,
-      "rewards": [
-        {
-          "item": "Relic Casket",
-          "amount": 2
-        },
-        {
-          "item": "Artifact Essence Chest",
-          "amount": 6
-        },
-        {
-          "item": "Artifact Scroll Chest",
-          "amount": 6
-        },
-        {
-          "item": "Artifact Metal Chest",
-          "amount": 6
-        },
-        {
-          "item": "Titan Chest",
-          "amount": 8
-        },
-        {
-          "item": "Titan Skin Stones",
+          "item": "Honor Marks",
           "amount": 500
         },
         {
-          "item": "Relic Shard",
-          "amount": 1
-        },
-        {
-          "item": "Energy",
-          "amount": 400
-        }
-      ]
-    },
-    {
-      "chest": 7,
-      "pointsRequired": 2500000,
-      "rewards": [
-        {
-          "item": "Artifact Essence Chest",
-          "amount": 6
-        },
-        {
-          "item": "Artifact Scroll Chest",
-          "amount": 6
-        },
-        {
-          "item": "Artifact Metal Chest",
-          "amount": 6
-        },
-        {
-          "item": "Titan Artifact Chest",
-          "amount": 4
-        },
-        {
           "item": "Rune Stones",
-          "amount": 550
+          "amount": 1900
         },
         {
-          "item": "Titan Skin Stones",
-          "amount": 500
+          "item": "5m Research Speedup",
+          "amount": 72
         },
-        {
-          "item": "Fairy Dust",
-          "amount": 200
-        },
-        {
-          "item": "Energy",
-          "amount": 400
-        }
-      ]
-    },
-    {
-      "chest": 8,
-      "pointsRequired": 3000000,
-      "rewards": [
-        {
-          "item": "Artifact Essence Chest",
-          "amount": 8
-        },
-        {
-          "item": "Artifact Scroll Chest",
-          "amount": 8
-        },
-        {
-          "item": "Artifact Metal Chest",
-          "amount": 8
-        },
-        {
-          "item": "Titan Artifact Chest",
-          "amount": 6
-        },
-        {
-          "item": "Rune Stones",
-          "amount": 750
-        },
-        {
-          "item": "Titan Skin Stones",
-          "amount": 600
-        },
-        {
-          "item": "Fairy Dust",
-          "amount": 300
-        },
-        {
-          "item": "Energy",
-          "amount": 600
-        }
-      ]
-    },
-    {
-      "chest": 9,
-      "pointsRequired": 4500000,
-      "rewards": [
         {
           "item": "Relic Casket",
+          "amount": 7
+        },
+        {
+          "item": "Rare Heroes Trove",
           "amount": 5
         },
         {
-          "item": "Artifact Chest Key",
-          "amount": 10
-        },
-        {
-          "item": "Titan Potion",
-          "amount": 2500
-        },
-        {
-          "item": "Rune Stones",
-          "amount": 3500
-        },
-        {
-          "item": "Titan Skin Stones",
-          "amount": 2500
-        },
-        {
-          "item": "Fairy Dust",
-          "amount": 800
-        },
-        {
-          "item": "Relic Shard",
-          "amount": 2
-        },
-        {
-          "item": "Energy",
-          "amount": 1000
+          "item": "Rare Titans Trove",
+          "amount": 5
         }
+      ],
+      "rewardNotes": [
+        "Heroes Trove, Titans Trove, Rare Heroes Trove, and Rare Titans Trove offer a choice of rewards; their contents are not additional guaranteed rewards.",
+        "5m Research Speedup quantities count items, each worth five minutes."
       ]
-    }
-  ],
-      "rewardTotalsScope": "all 9 chests per active day",
-      "rewardTotals": [
-    {
-      "item": "Titan Potion",
-      "amount": 4500
     },
-    {
-      "item": "Spark of Power",
-      "amount": 750
-    },
-    {
-      "item": "Big EXP Potion",
-      "amount": 175
-    },
-    {
-      "item": "Fairy Dust",
-      "amount": 2250
-    },
-    {
-      "item": "Energy",
-      "amount": 3250
-    },
-    {
-      "item": "Gold",
-      "amount": 80000
-    },
-    {
-      "item": "Artifact Essence Chest",
-      "amount": 24
-    },
-    {
-      "item": "Artifact Scroll Chest",
-      "amount": 24
-    },
-    {
-      "item": "Artifact Metal Chest",
-      "amount": 24
-    },
-    {
-      "item": "Titan Skin Stones",
-      "amount": 4400
-    },
-    {
-      "item": "Relic Shard",
-      "amount": 4
-    },
-    {
-      "item": "Titan Artifact Chest",
-      "amount": 20
-    },
-    {
-      "item": "Rune Stones",
-      "amount": 5400
-    },
-    {
-      "item": "Relic Casket",
-      "amount": 7
-    },
-    {
-      "item": "Titan Chest",
-      "amount": 8
-    },
-    {
-      "item": "Artifact Chest Key",
-      "amount": 10
-    }
-  ]
-},
     "days": [
       {
         "day": 1,
@@ -408,7 +348,7 @@
             "id": "spend-titan-skin-stones",
             "action": "Spend Titan Skin Stones",
             "amount": 15,
-            "points": 10
+            "points": 100
           },
           {
             "id": "open-summoning-sphere",
@@ -427,6 +367,12 @@
             "action": "Use Titan Potions",
             "amount": 100,
             "points": 150
+          },
+          {
+            "id": "spend-relic-shards",
+            "action": "Spend Relic Shards",
+            "amount": 10,
+            "points": 150000
           },
           {
             "id": "clear-brigand-camp",
@@ -659,10 +605,22 @@
             "points": 30
           },
           {
+            "id": "spend-relic-shards",
+            "action": "Spend Relic Shards",
+            "amount": 10,
+            "points": 150000
+          },
+          {
             "id": "spend-mastery-crystals",
             "action": "Spend Mastery Crystals",
             "amount": 15,
             "points": 200
+          },
+          {
+            "id": "spend-chaos-cores",
+            "action": "Spend Chaos Cores",
+            "amount": 1,
+            "points": 3000
           },
           {
             "id": "equip-red-item",
@@ -1088,6 +1046,14 @@
         "available": false,
         "tasks": []
       }
-    ]
+    ],
+    "source": {
+      "url": "https://hw-warden.com/en/hw/events/guild-versus",
+      "verifiedDate": "2026-10-12",
+      "tasksWeekStart": "2026-10-12",
+      "seasonNumber": 30,
+      "tasksUrl": "https://api.hw-warden.com/api/hw/events/guild-versus",
+      "rewardsUrl": "https://api.hw-warden.com/api/hw/events/guild-versus/rewards"
+    }
   }
 }
