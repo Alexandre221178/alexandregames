@@ -3,7 +3,8 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
-  
+  { date:'2026-10-13', type:'daily', mission:'2-5', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-10-12', type:'daily', mission:'3-8', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
    { date:'2026-10-11', type:'special', mission:'2-13', note:'until|2026-10-26T01:00:00Z',   
