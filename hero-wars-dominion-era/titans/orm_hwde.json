@@ -1,0 +1,145 @@
+{
+  "name": "Orm",
+  "game": "Hero Wars: Dominion Era",
+  "position": 12,
+  "element": "Distortion",
+  "roles": [
+    "support"
+  ],
+  "gender": "male",
+  "obtention": "Circle of Summoning",
+  "basic_attack": {
+    "value": 1261688,
+    "type": "100% physical attack",
+    "interval_seconds": 3
+  },
+  "stats": {
+    "health": 8662432,
+    "power": 234203,
+    "attack": 1261688,
+    "elemental_attack": 479475,
+    "elemental_armor": 224532
+  },
+  "appearance": {
+    "in_game": "Default Skin",
+    "portrait": "Orm"
+  },
+  "skills": [
+    {
+      "name": "Ruinous Bond",
+      "type": "ultimate",
+      "color": "white",
+      "description": "Links an ally at the front to the central enemy for 6 seconds. The linked ally takes only 20% of incoming damage. The remaining damage is accumulated and dealt to the linked enemy once the skill expires.",
+      "duration_seconds": 6,
+      "ally_target": "ally at the front",
+      "enemy_target": "central enemy",
+      "linked_ally_incoming_damage_percent": 20,
+      "accumulated_damage_percent": 80,
+      "damage": 126168800,
+      "damage_formula": "10000% physical attack",
+      "damage_type": "physical",
+      "damage_timing": "when the link expires"
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": {
+        "health": 1022985,
+        "power": 5217
+      },
+      "upgrade_cost": {
+        "titan_skin_stone": 354960
+      }
+    },
+    {
+      "name": "Primordial Skin",
+      "stats": {
+        "elemental_armor": 49065,
+        "power": 15651
+      },
+      "upgrade_cost": {
+        "titan_skin_stone": 364585
+      },
+      "availability": {
+        "exclusive_from": "2026-10-24",
+        "publicly_available_from": "2027-02-24"
+      }
+    }
+  ],
+  "skin_bonus_note": "The choice is purely cosmetic. The bonuses from all unlocked skins stack regardless of the skin selected for Orm's appearance.",
+  "artifacts": [
+    {
+      "name": "Zorval's Rite",
+      "stats": {
+        "elemental_damage": 479475,
+        "power": 32604
+      },
+      "upgrade_cost": {
+        "essence_of_the_elements": 686080,
+        "emeralds": 68608,
+        "zorvals_rite_fragment": 18400
+      }
+    },
+    {
+      "name": "Crown of Distortion",
+      "stats": {
+        "elemental_armor": 175467,
+        "power": 55973
+      },
+      "upgrade_cost": {
+        "essence_of_the_elements": 686080,
+        "emeralds": 68608,
+        "crown_of_distortion_fragment": 18400
+      }
+    },
+    {
+      "name": "Distorted Balance Seal",
+      "stats": {
+        "health": 2397375,
+        "physical_attack": 419542,
+        "power": 40755
+      },
+      "upgrade_cost": {
+        "gold": 173005000,
+        "emeralds": 68608,
+        "distorted_balance_seal_fragment": 18400
+      }
+    },
+    {
+      "name": "Elemental Spirit of Distortion",
+      "stats": {
+        "physical_attack": 299673,
+        "power_per_titan": 20377
+      },
+      "upgrade_cost": {
+        "echo_of_change": 30394,
+        "emeralds": 303938,
+        "elemental_spirit_of_distortion_fragment": 6
+      }
+    }
+  ],
+  "levels": {
+    "stats": {
+      "health": 5229300,
+      "physical_attack": 541013,
+      "power": 63458
+    },
+    "upgrade_cost": {
+      "titan_potion": 1009660,
+      "emeralds": 201932,
+      "orm_soul_stone": 3130
+    }
+  },
+  "team suggestions": {
+    "Team 1": "Valdur, Verdoc, Orm, Alecto, Angus",
+    "Team 2": "Valdur, Solaris, Orm, Alecto, Rigel",
+    "Team 3": "Valdur, Tenebris, Orm, Alecto, Rigel"
+    
+  },
+    "notes": [
+        "Orm is a support titan that can link an ally to an enemy, redirecting most of the damage to the enemy.",
+        "Distorcion titans are Orm, Alecto and Valdur. Ainda falta chegar no Hero Wars Dominon ERa os titans Da Distorção Super titan Metida e o tanque Pallant.",
+        "His ultimate skill, Ruinous Bond, is particularly effective in protecting key allies during critical moments in battle."
+    ]
+}
