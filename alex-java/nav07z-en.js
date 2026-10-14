@@ -28,6 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="https://alexandregames.com/hero-wars-alliance/guide/fort-guide-realm-en.html">Fort Guide</a>
       
         </div>
+        <a href="https://alexandregames.com/hero-wars-alliance/guide/relic-guide-en.html">✨Relic Guide</a>           
+
 <a href="https://alexandregames.com/hero-wars-alliance/menu-review-en-hwa.html">🎨 Reviews, Tips, Strategies</a>
 <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/titans-guide-hwa-en.html">⚔️ Titans Guide</a>               
     <br><br><br>

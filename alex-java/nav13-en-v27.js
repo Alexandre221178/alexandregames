@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <div class="dropdown">
    <button class="dropbtn"><span class="notranslate">Hero Wars Alliance <br>(Mobile)</span></button>
     <div class="dropdown-content"> <br>                
-        <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-en.html">🆕 HWA - Latest Updates</a>
+       <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-en.html">🆕 HWA - Latest Updates</a>
         <a href="https://alexandregames.com/hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-en.html">🎁 HWA Daily Gifts</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/calendar-hwa-en.html">📅 HWA Calendar: Events & Tips</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/heroes-guide-hwa-en.html">📖 All Characters Guide</a>
@@ -98,6 +98,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="https://alexandregames.com/hero-wars-alliance/guide/fort-guide-realm-en.html">Fort Guide</a>
       
             </div>
+            <a href="https://alexandregames.com/hero-wars-alliance/guide/relic-guide-en.html">✨Relic Guide</a>           
+
         <a href="https://alexandregames.com/hero-wars-alliance/event-special-hwa/pallant-adventure-shop-en.html">🧭 Season Shop Guide - Elarite Heat</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/titans-guide-hwa-en.html">⚔️ Titans Guide</a>
        
