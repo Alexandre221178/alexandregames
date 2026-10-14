@@ -28,6 +28,8 @@
 
    "update-realm-brown-squares-map-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide realm",
     "update-realm-pve-best-teams-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide realm-pve-best-teams",
+    "update-relic-guide-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide relic-guide",
+
     "update-talisman-guide-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide talisman-guide",
     "update-top-heroes-hwa-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide top-heroes-hwa",
 
