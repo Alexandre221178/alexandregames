@@ -182,7 +182,8 @@
 "update-tidus-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titans tidus",
 
 "update-ignis-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titans ignis",
-"update-lumira-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titans lumira",
+"update-orm-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titans orm",
+
 "update-umbra-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titans umbra",
 "update-valdur-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js titans valdur"
 

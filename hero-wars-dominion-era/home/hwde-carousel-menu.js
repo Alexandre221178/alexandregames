@@ -1,7 +1,15 @@
 (function(){
   // Carousel multi-language injector  npm run update-hwde-hwde 
   const slides = [
-    
+    {
+  link: "../../hero-wars-dominion-era/titans/orm-en.html",
+  src500: "../../hero-wars-dominion-era/images/titans-hwde/orm/orm-500px.webp",
+  src400: "../../hero-wars-dominion-era/images/titans-hwde/orm/orm-400px.webp",
+  alt: "Orm for Hero Wars: Dominion Era",
+  title: "Orm for Hero Wars: Dominion Era.",
+  strong: "Guide: Orm - Hero Wars: Dominion Era",
+  updated: "Updated: October, 2026."
+},
     {
       link: "../../hero-wars-dominion-era/pet/robin-en.html",
       src500: "../../hero-wars-dominion-era/images/pets/robin/robin-500px.webp",
