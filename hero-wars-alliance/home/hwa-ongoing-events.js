@@ -57,60 +57,9 @@
       strong: "Guide: All Talisman - Hero Wars Alliance",
       updated: "Updated: September, 2026."
     },
-    {
-      link: "/hero-wars-alliance/event-hwa/trade-routes-caravan-hall-en.html",//link do shop
-      src500: "/hero-wars-alliance/images/events/trade-routes/caravan-hall-500px.webp",
-      src400: "/hero-wars-alliance/images/events/trade-routes/caravan-hall-400px.webp",
-      alt: "Caravan Hall Shop Guide for Hero Wars Alliance",
-      title: "Caravan Hall Shop Guide for Hero Wars Alliance",
-      strong: "Guide: Caravan Hall Shop - Hero Wars Alliance",
-      updated: "Updated: October, 2026."//shop
-    }, 
     
-    {
-      link: "/hero-wars-alliance/event-hwa/trade-routes-event-group-en.html",
-      src500: "/hero-wars-alliance/images/events/trade-routes/trade-routes-500px.webp",
-      src400: "/hero-wars-alliance/images/events/trade-routes/trade-routes-400px.webp",
-      alt: "Trade Routes Event Group Guide for Hero Wars Alliance",
-      title: "Trade Routes Event Group Guide for Hero Wars Alliance",
-      strong: "Guide: Trade Routes Event Group - Hero Wars Alliance",
-      updated: "Updated: October, 2026."
-    },
-    
-    {
-      link: "/hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html",
-      src500: "/hero-wars-alliance/images/events/trade-routes/bountiful-roads-500px.webp",
-      src400: "/hero-wars-alliance/images/events/trade-routes/bountiful-roads-400px.webp",
-      alt: "Bountiful Roads Event Guide for Hero Wars Alliance",
-      title: "Bountiful Roads Event Guide for Hero Wars Alliance",
-      strong: "Guide: Bountiful Roads Event Guide - Hero Wars Alliance",
-      updated: "Updated: October, 2026."
-    },
-{
-      link: "/hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",
-      src500: "/hero-wars-alliance/images/events/trade-routes/roads-unlocked-500px.webp",
-      src400: "/hero-wars-alliance/images/events/trade-routes/roads-unlocked-400px.webp",
-      alt: "Roads Unlocked Event Guide for Hero Wars Alliance",
-      title: "Roads Unlocked Event Guide for Hero Wars Alliance",
-      strong: "Guide: Roads Unlocked Best Tower Strategy to Push for 25 Chests - Hero Wars Alliance",
-      updated: "Updated: October, 2026."
-    },
-   
-    
-    {
-      link: "/hero-wars-alliance/event-hwa/trade-routes-grand-caravan-en.html",
-      src500: "/hero-wars-alliance/images/events/trade-routes/grand-caravan-500px.webp",
-      src400: "/hero-wars-alliance/images/events/trade-routes/grand-caravan-400px.webp",
-      alt: "Grand Caravan Event Guide for Hero Wars Alliance",
-      title: "Grand Caravan Event Guide for Hero Wars Alliance",
-      strong: "Guide: Grand Caravan Event Guide - Hero Wars Alliance",
-      updated: "Updated: October, 2026."
-    },
   
 
-
-    
-    
 
     
 
@@ -385,24 +334,15 @@ https://alexandregames.com/hero-wars-alliance/event-hwa/ancient-awakening-event-
 /* Trade Routes Events - Evento de Talismans
 
 {
-      link: "/hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",
-      src500: "/hero-wars-alliance/images/events/trade-routes/roads-unlocked-500px.webp",
-      src400: "/hero-wars-alliance/images/events/trade-routes/roads-unlocked-400px.webp",
-      alt: "Roads Unlocked Event Guide for Hero Wars Alliance",
-      title: "Roads Unlocked Event Guide for Hero Wars Alliance",
-      strong: "Guide: Roads Unlocked Best Tower Strategy to Push for 25 Chests - Hero Wars Alliance",
-      updated: "Updated: September, 2026."
-    },
-{
-      link: "/hero-wars-alliance/event-hwa/trade-routes-caravan-hall-en.html",
+      link: "/hero-wars-alliance/event-hwa/trade-routes-caravan-hall-en.html",//link do shop
       src500: "/hero-wars-alliance/images/events/trade-routes/caravan-hall-500px.webp",
       src400: "/hero-wars-alliance/images/events/trade-routes/caravan-hall-400px.webp",
       alt: "Caravan Hall Shop Guide for Hero Wars Alliance",
       title: "Caravan Hall Shop Guide for Hero Wars Alliance",
       strong: "Guide: Caravan Hall Shop - Hero Wars Alliance",
-      updated: "Updated: September, 2026."
+      updated: "Updated: October, 2026."//shop
     }, 
-
+    
     {
       link: "/hero-wars-alliance/event-hwa/trade-routes-event-group-en.html",
       src500: "/hero-wars-alliance/images/events/trade-routes/trade-routes-500px.webp",
@@ -410,17 +350,9 @@ https://alexandregames.com/hero-wars-alliance/event-hwa/ancient-awakening-event-
       alt: "Trade Routes Event Group Guide for Hero Wars Alliance",
       title: "Trade Routes Event Group Guide for Hero Wars Alliance",
       strong: "Guide: Trade Routes Event Group - Hero Wars Alliance",
-      updated: "Updated: September, 2026."
+      updated: "Updated: October, 2026."
     },
-    {
-      link: "/hero-wars-alliance/guide/talisman-guide-hwa-en.html",
-      src500: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-500px.webp",
-      src400: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-400px.webp",
-      alt: "All Talisman Guides for Hero Wars Alliance",
-      title: "Talisman Guide for Hero Wars Alliance",
-      strong: "Guide: All Talisman - Hero Wars Alliance",
-      updated: "Updated: September, 2026."
-    },
+    
     {
       link: "/hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html",
       src500: "/hero-wars-alliance/images/events/trade-routes/bountiful-roads-500px.webp",
@@ -428,8 +360,19 @@ https://alexandregames.com/hero-wars-alliance/event-hwa/ancient-awakening-event-
       alt: "Bountiful Roads Event Guide for Hero Wars Alliance",
       title: "Bountiful Roads Event Guide for Hero Wars Alliance",
       strong: "Guide: Bountiful Roads Event Guide - Hero Wars Alliance",
-      updated: "Updated: September, 2026."
+      updated: "Updated: October, 2026."
     },
+{
+      link: "/hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",
+      src500: "/hero-wars-alliance/images/events/trade-routes/roads-unlocked-500px.webp",
+      src400: "/hero-wars-alliance/images/events/trade-routes/roads-unlocked-400px.webp",
+      alt: "Roads Unlocked Event Guide for Hero Wars Alliance",
+      title: "Roads Unlocked Event Guide for Hero Wars Alliance",
+      strong: "Guide: Roads Unlocked Best Tower Strategy to Push for 25 Chests - Hero Wars Alliance",
+      updated: "Updated: October, 2026."
+    },
+   
+    
     {
       link: "/hero-wars-alliance/event-hwa/trade-routes-grand-caravan-en.html",
       src500: "/hero-wars-alliance/images/events/trade-routes/grand-caravan-500px.webp",
@@ -437,8 +380,11 @@ https://alexandregames.com/hero-wars-alliance/event-hwa/ancient-awakening-event-
       alt: "Grand Caravan Event Guide for Hero Wars Alliance",
       title: "Grand Caravan Event Guide for Hero Wars Alliance",
       strong: "Guide: Grand Caravan Event Guide - Hero Wars Alliance",
-      updated: "Updated: September, 2026."
+      updated: "Updated: October, 2026."
     },
+    
+    
+
        
 
 */
