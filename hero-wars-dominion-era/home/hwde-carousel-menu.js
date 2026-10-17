@@ -1,6 +1,26 @@
 (function(){
   // Carousel multi-language injector  npm run update-hwde-hwde 
   const slides = [
+     {
+  link: "../../hero-wars-dominion-era/events-special-hwde/orm-event-missions-en.html",
+  src500: "../../hero-wars-dominion-era/images/events-special/new-hero-hwde/awakening-event-missions-500px.webp",
+  src400: "../../hero-wars-dominion-era/images/events-special/new-hero-hwde/awakening-event-missions-400px.webp",
+  alt: "Orm Event Missions - for Hero Wars: Dominion Era",
+  title: "Orm Event Missions - for Hero Wars: Dominion Era.",
+  strong: "Guide: Orm Event Missions - Hero Wars: Dominion Era",
+  updated: "Updated: October, 2026."
+},
+ {
+  link: "../../hero-wars-dominion-era/events-special-hwde/orm-event-guide-en.html",
+  src500: "../../hero-wars-dominion-era/images/events-special/f2p-tips-event/event-guide-and-f2p-tips-500px.webp",
+  src400: "../../hero-wars-dominion-era/images/events-special/f2p-tips-event/event-guide-and-f2p-tips-500px.webp",
+  alt: "Orm Event f2p - for Hero Wars: Dominion Era",
+  alt: "Orm Event f2p - for Hero Wars: Dominion Era",
+  title: "Orm Event - for Hero Wars: Dominion Era.",
+  alt: "Orm Event f2p - for Hero Wars: Dominion Era",
+  strong: "Guide f2p: Orm Event - Hero Wars: Dominion Era",
+  updated: "Updated: October, 2026."
+},
     {
   link: "../../hero-wars-dominion-era/titans/orm-en.html",
   src500: "../../hero-wars-dominion-era/images/titans-hwde/orm/orm-500px.webp",
