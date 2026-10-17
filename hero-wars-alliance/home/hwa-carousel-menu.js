@@ -1,6 +1,24 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
+     {
+      link: "/hero-wars-alliance/characters-guide/luther-en.html",
+      src500: "/hero-wars-alliance/images/hero/luther/luther-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/luther/luther-400px.webp",
+      alt: "Luther Guide for Hero Wars Alliance",
+      title: "Luther Guide for Hero Wars Alliance",
+      strong: "Guide (Relic): Luther - Hero Wars Alliance",
+      updated: "Updated: October, 2026."
+    },     
+    {
+      link: "/hero-wars-alliance/guide/meta-teams-and-combos-en.html",
+      src500: "/hero-wars-alliance/images/guides/meta-teams-and-combos/meta-teams-and-combos-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/meta-teams-and-combos/meta-teams-and-combos-400px.webp",
+      alt: "Are you Building the Wrong Team? F2P Tips - Hero Wars Alliance",
+      title: "Top 17 Meta Heroes - Hero Wars Alliance",
+      strong: "Guide: Are you Building the Wrong Team? F2P Tips - Hero Wars Alliance",
+      updated: "Updated: October, 2026."
+    },    
     {
       link: "/hero-wars-alliance/characters-guide/crow-en.html",
       src500: "/hero-wars-alliance/images/hero/crow/crow-500px.webp",
@@ -8,7 +26,7 @@
       alt: "Crow Guide for Hero Wars Alliance",
       title: "Crow Guide for Hero Wars Alliance",
       strong: "Guide(2nd Talisman): Crow for Hero Wars Alliance",
-      updated: "Updated: September, 2026."
+      updated: "Updated: October, 2026."
     },   
     {
       link: "/hero-wars-alliance/characters-guide/julius-en.html",
@@ -17,7 +35,7 @@
       alt: "Julius Guide for Hero Wars Alliance",
       title: "Julius Guide for Hero Wars Alliance",
       strong: "Guide: Julius for Hero Wars Alliance",
-      updated: "Updated: September, 2026."
+      updated: "Updated: October, 2026."
     },   
     {
       link: "../../hero-wars-alliance/titans-guide/metida-en.html",
@@ -26,7 +44,7 @@
       alt: "Metida Guide for Hero Wars Alliance",
       title: "Titan Metida Guide for Hero Wars Alliance",
       strong: "Guide: Super Titan Metida for Hero Wars Alliance",
-      updated: "Updated: September, 2026."
+      updated: "Updated: October, 2026."
     }, 
     
     {
@@ -87,25 +105,9 @@
       strong: "Guide New Skin+: Kendle for Hero Wars Alliance",
       updated: "Updated: August, 2026."
     },     
-    {
-      link: "/hero-wars-alliance/characters-guide/cleaver-en.html",
-      src500: "/hero-wars-alliance/images/hero/cleaver/cleaver-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/cleaver/cleaver-400px.webp",
-      alt: "Cleaver Guide for Hero Wars Alliance",
-      title: "Cleaver Guide for Hero Wars Alliance",
-      strong: "Guide New Skin: Cleaver for Hero Wars Alliance",
-      updated: "Updated: August, 2026."
-    },     
+   
       
-    {
-      link: "/hero-wars-alliance/characters-guide/xesha-en.html",
-      src500: "/hero-wars-alliance/images/hero/xesha/xesha-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/xesha/xesha-400px.webp",
-      alt: "Xesha Guide for Hero Wars Alliance",
-      title: "Xesha Guide for Hero Wars Alliance",
-      strong: "Guide New Skin+: Xesha for Hero Wars Alliance",
-      updated: "Updated: August, 2026."
-    },     
+    
    
     {
       link: "/hero-wars-alliance/guide/best-farms-hwa-en.html",
@@ -136,15 +138,7 @@
       updated: "Updated: August, 2026."
     },        
     
-     {
-      link: "/hero-wars-alliance/guide/realm-brown-squares-map-en.html",
-      src500: "/hero-wars-alliance/images/guides/realm-brown-squares-map/realm-brown-squares-map-500px.webp",
-      src400: "/hero-wars-alliance/images/guides/realm-brown-squares-map/realm-brown-squares-map-400px.webp",
-      alt: "Realm Brown Squares Map for Hero Wars Alliance",
-      title: "Realm Brown Squares Map for Hero Wars Alliance",
-      strong: "Updated Realm: Map - Brown Squares for Hero Wars Alliance",
-      updated: "Updated: July, 2026."
-    },      
+      
    {
       link: "/hero-wars-alliance/characters-guide/guus-en.html",
       src500: "/hero-wars-alliance/images/hero/guus/guus-500px.webp",
@@ -176,8 +170,7 @@
       strong: "Updated Reroll: Talisman Guide for Hero Wars Alliance",
       updated: "Updated: June, 2026."
     },       
-        
-    
+           
     
          
     
@@ -190,17 +183,7 @@
       strong: "Guide: Damage Over Time (DoT) - Hero Wars Alliance",
       updated: "Updated: May, 2026."
     },   
-    {
-      link: "../../hero-wars-alliance/titans-guide/lumira-en.html",
-      src500: "../../hero-wars-alliance/images/titans/lumira/lumira-500px.webp",
-      src400: "../../hero-wars-alliance/images/titans/lumira/lumira-400px.webp",
-      alt: "Lumira Legendary Skills Guide for Hero Wars Alliance",
-      title: "Titan Lumira Guide for Hero Wars Alliance",
-      strong: "Guide: Titan Lumira for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },   
-    
-          
+             
     
     {
       link: "../../hero-wars-alliance/menu-hwa/calendar-hwa-en.html",

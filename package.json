@@ -55,6 +55,9 @@
     "update-damage-over-time-hwa": "node hero-wars-alliance/update-data-menu-hwa.js review damage-over-time",
 
     "update-best-farms-hwa-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide best-farms-hwa",
+"update-meta-teams-and-combos-hwa": "node hero-wars-alliance/update-data-menu-hwa.js guide meta-teams-and-combos",
+
+
 
 "update-stats-guide-hwa-hwa": "node hero-wars-alliance/update-data-menu-hwa.js beginners-guide-hwa stats-guide-hwa",
 
