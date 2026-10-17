@@ -1,0 +1,74 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "yasmine",
+      "name": "Yasmine",
+      "best_teams": [
+        {
+          "rank": 1,
+          "heroes": [
+            { "hero": "Luther", "talisman": "T2" },
+            { "hero": "Yasmine", "talisman": "T2" },
+            { "hero": "Byrna", "talisman": "T2" },
+            { "hero": "Dante", "talisman": "T1" },
+            { "hero": "Guus", "talisman": "T1" }
+          ],
+          "description": "A strong Yasmine team recommended by Alexandre. Luther reduces nearby enemies' Magic Attack, helping protect Yasmine against one of her weaknesses: magic damage. Dante synergizes with her dodge, Guus supports critical hits and healing, and Byrna provides healing and additional energy gain.",
+          "alexandre_tips": "Esse time ficou muito forte. Um dos pontos fracos da Yasmine é o dano mágico: ao reduzir o Ataque Mágico dos inimigos próximos, Luther ajuda Yasmine a sofrer menos dano mágico. Dante sinergiza com a esquiva dela, Guus com os críticos e a cura, e Byrna com a cura e o ganho de energia extra.",
+          "notes": [
+            "Luther's nearby enemy Magic Attack reduction comes from Unshakable Faith, unlocked at Relic level 30.",
+            "Magic Attack reduction does not directly reduce every type of damage; its benefit depends on the enemy skills, positioning, and active battle effects."
+          ]
+        },
+        {
+          "rank": 2,
+          "heroes": [
+            {
+              "hero": "Luther",
+              "talisman": "T2"
+            },
+            {
+              "hero": "Yasmine",
+              "talisman": "T2"
+            },
+            {
+              "hero": "Crow",
+              "talisman": "T2"
+            },
+            {
+              "hero": "Dante",
+              "talisman": "T1"
+            },
+            {
+              "hero": "Guus",
+              "talisman": "T1"
+            }
+          ],
+          "description": "Alternative Yasmine team recommended by Alexandre: Crow with Talisman 2 replaces Byrna. Luther and Yasmine keep Talisman 2, while Dante and Guus keep Talisman 1.",
+          "notes": [
+            "Luther's nearby enemy Magic Attack reduction comes from Unshakable Faith, unlocked at Relic level 30."
+          ]
+        }
+      ],
+      "synergies": [
+        {
+          "hero": "Luther",
+          "reason": "With his level 30 Relic skill, Unshakable Faith, Luther reduces nearby enemies' Magic Attack. This helps Yasmine take less magic damage, addressing one of her weaknesses."
+        },
+        {
+          "hero": "Dante",
+          "reason": "Synergizes with Yasmine's dodge in the recommended team."
+        },
+        {
+          "hero": "Guus",
+          "reason": "Supports Yasmine through critical-hit synergy and healing."
+        },
+        {
+          "hero": "Byrna",
+          "reason": "Provides healing and additional energy gain to support the team."
+        }
+      ]
+    }
+  ]
+}
