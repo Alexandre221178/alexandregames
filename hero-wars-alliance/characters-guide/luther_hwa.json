@@ -255,7 +255,8 @@
         { "name": "Winter", "stat": "Magic defense", "bonus": 10687 },
         { "name": "Casey Jones", "stat": "Armor", "bonus": 10650 },
         { "name": "Sport", "stat": "Toughness", "bonus": 2960 },
-        { "name": "Ocean Echo", "stat": "Toughness", "bonus": 2960 }
+        { "name": "Ocean Echo", "stat": "Toughness", "bonus": 2960 },
+        { "name": "Ocean Echo Skin+", "stat": "Toughness", "bonus": 5920, "is_skin_plus": true }
       ],
       "artifacts": [
         {
