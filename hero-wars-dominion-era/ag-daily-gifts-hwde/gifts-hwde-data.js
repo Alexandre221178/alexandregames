@@ -10,6 +10,8 @@
   rewards:['energy x500'] },
 https://www.hero-wars.com/?nx_source=group_posting_giftweb&gift_id=
 */window.HWDE_GIFTS = [
+  { date:'2026-10-17', type:'link', giftLinkWeb:'https://herowars.me/4s7cM1c', giftLinkFb:'https://herowars.me/47YlVjp', note:'until|2026-10-22T02:00:00Z',
+  rewards:['energy x500'] },
     { date:'2026-10-16', type:'link', giftId:'ed4beb4c14088f07255bbc80f6666633', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
   { date:'2026-10-16', type:'link', giftLinkWeb:'https://herowars.me/4i6HW4l', giftLinkFb:'https://herowars.me/482TWix', note:'until|2026-10-20T02:00:00Z',
