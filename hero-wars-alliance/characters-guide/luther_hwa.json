@@ -10,6 +10,40 @@
         "Boosts his Magic Defense",
         "Weakens enemy casters"
       ],
+      "relic_note": "Mages better stay away from Luther! His Relic helps him reduce nearby enemies' Magic Attack, deal more Physical Damage, and stun enemies more often. Power up Luther and send him straight into the heart of battle.",
+      "best_synergy": ["Crow", "Guus", "Tristan"],
+      "synergies": [
+        {
+          "hero": "Crow",
+          "reason": "A recommended Way of Honor teammate for Luther's Relic teams. Together with Guus and Tristan, Crow fits the physical-damage compositions suggested for Luther."
+        },
+        {
+          "hero": "Guus",
+          "reason": "Boosts Luther's Critical Hit Chance, helping his Relic's Physical Damage become more threatening. With his own Relic, Guus also provides substantial Health and Critical Hit Chance. Luther's first Relic skill is especially useful against enemies who deal damage over time."
+        },
+        {
+          "hero": "Tristan",
+          "reason": "Provides Armor Penetration to support Luther's increased Physical Damage with his Relic. Tristan is a Way of Honor teammate who fits Luther's physical-damage teams."
+        }
+      ],
+      "strong_against": [
+        {
+          "hero": "Folio",
+          "reason": "Unshakable Faith reduces nearby enemies' Magic Attack, while Doctrine of Faith increases Luther's Magic Defense, helping him withstand Intelligence-based magic damage dealers."
+        },
+        {
+          "hero": "Iris",
+          "reason": "Luther's Relic reduces her Magic Attack when she is nearby, while his increased Magic Defense helps him withstand her magic attacks."
+        },
+        {
+          "hero": "Satori",
+          "reason": "Luther combines nearby Magic Attack reduction with increasing Magic Defense, making him a strong option against this Intelligence-based damage dealer."
+        },
+        {
+          "hero": "Kendle",
+          "reason": "Luther can jump into the enemy formation and reduce Kendle's Magic Attack while nearby, weakening his magic damage output."
+        }
+      ],
       "role": ["Tank"],
       "main_class": "Tank",
       "position": "Front Line",
@@ -145,7 +179,9 @@
           "relic_level": 10,
           "name": "Gehenna (enhancement)",
           "type": ["Enhancement"],
-          "description": "Now, the skill triggers every 11 seconds.",
+          "description": "The skill now activates not only after Omen, but also every 11 seconds.",
+          "alexandre_tips": "With the Relic, Gehenna activates after Omen and every 11 seconds, so Luther deals area damage and stuns nearby enemies more often.",
+          "great_with": ["Guus"],
           "cooldown_seconds": 11,
           "relic_total_stats_gain": { "health": 53269, "physical_attack": 6956 }
         },
@@ -158,6 +194,7 @@
           "type": ["Passive", "Buff"],
           "can_upgrade_to_legendary": true,
           "description": "Passive skill. Increases own Magic Defense. Each time Luther takes Magic Damage, he increases his Magic Defense further for 4 seconds.",
+          "alexandre_note": "Luther's base fourth skill was recently updated. Even without a Relic, it now increases his Magic Defense and grants an additional Magic Defense increase for 4 seconds each time he takes Magic Damage.",
           "magic_defense_increase": "10% Phys.atk. + 1800",
           "additional_magic_defense_increase": "10% Phys.atk. + 1200",
           "duration_seconds": 4
@@ -169,6 +206,8 @@
           "name": "Doctrine of Faith (enhancement)",
           "type": ["Buff", "Enhancement"],
           "description": "Now, when taking Magic Damage, Luther also increases his Armor Penetration for 4 seconds.",
+          "alexandre_tips": "Luther now boosts not only his Magic Defense, but also his Armor Penetration. With his Relic, he can deal substantial damage, especially alongside Guus, and this skill makes him less dependent on allies for Armor Penetration.",
+          "great_against": ["Satori", "Iris"],
           "armor_penetration_increase": "10% Phys.atk. + 400",
           "duration_seconds": 4,
           "relic_total_stats_gain": { "health": 146854, "physical_attack": 19176 }
@@ -180,6 +219,8 @@
           "name": "Righteous Retribution",
           "type": ["Physical Damage"],
           "description": "Every 12 seconds, Luther starts accumulating Righteousness. All incoming damage charges it for 8 seconds. When the timer expires or when Luther dies, he deals Physical Damage equal to accumulated charge to enemies around him.",
+          "alexandre_tips": "Any damage Luther takes during the accumulation window charges his counterattack. The charge gained depends on his current Magic Defense, which his updated fourth skill increases further. Luther then deals Physical Damage to nearby enemies, making this a useful answer to mages and heroes who deal damage over time.",
+          "great_against": ["Satori", "Iris", "Kayla", "Peech"],
           "initial_righteousness_charge": "20% Phys.atk.",
           "righteousness_charge_increase_when_taking_damage": "10% of current Magic Defense",
           "physical_damage": "Accumulated Righteousness charge",
@@ -194,6 +235,9 @@
           "name": "Unshakable Faith",
           "type": ["Passive", "Debuff"],
           "description": "While Luther is alive, all enemies around him have their Magic Attack decreased.",
+          "alexandre_tips": "Another powerful skill against mages: Luther constantly reduces the Magic Attack of all nearby enemies while he is alive, and this effect cannot be removed. Jumping into a mage team lets him apply this pressure inside the enemy formation. It is especially useful against mages and heroes with Intelligence as their main stat.",
+          "strong_against": ["Mages", "Heroes with Intelligence as their main stat"],
+          "can_be_dispelled": false,
           "magic_attack_decrease": "100% Phys.atk.",
           "relic_total_stats_gain": { "health": 290824, "physical_attack": 37976 }
         }
@@ -290,6 +334,29 @@
           ]
         }
       ],
+      "relic_team_suggestions": [
+        {
+          "heroes": ["Aidan", "Kayla", "Crow", "Guus", "Luther"],
+          "requires_luther_relic": true
+        },
+        {
+          "heroes": ["Guus", "Crow", "Tristan", "Julius", "Luther"],
+          "requires_luther_relic": true
+        },
+        {
+          "heroes": ["Eva", "Guus", "Tristan", "Julius", "Luther"],
+          "requires_luther_relic": true
+        },
+        {
+          "heroes": ["Fafnir", "Artemis", "Crow", "Tristan", "Luther"],
+          "requires_luther_relic": true
+        }
+      ],
+      "relic_team_notes": [
+        "Julius can be replaced with other Tanks or Support Heroes depending on the enemy team.",
+        "These teams are suggested for Luther with his Relic, which adds Physical Damage and Armor Penetration. Guus with his own Relic provides substantial Health and Critical Hit Chance.",
+        "No Talisman recommendations were supplied for these four additional team suggestions."
+      ],
       "old_teams": [
         {
           "rank": 1,
@@ -371,6 +438,46 @@
         "sparks_of_power": 65150,
         "mastery_crystals": 18375,
         "honor_marks": 14580
+      },
+      "alexandre_analysis": {
+        "arena_observation": "Testei Luther na Arena e ele realmente está muito forte. Nos meus testes, a redução do Ataque Mágico enfraqueceu bastante os magos do meta, reduzindo muito o dano que conseguiam causar. Luther também aumenta sua própria Defesa Mágica, reforçando sua resistência contra esses ataques. O Talisman 2 é melhor para o Luther por que da mais ataque fisico para as skills dele principalmente para reliquia level 30, porem meu Luther por ainda estar fraco de skins e glifos estava morrendo muito rapido já que estou em um nivel muito alto da arena, por isso precisei mudar para o talisman 1 para que ele nao morresse tao rapido e conseguisse reduzir o ataque magico dos inimigos, mas mesmo assim ele ainda estava morrendo muito rapido, por isso recomendo que se for usar o talisman 2, que se use um tank ou guerreiro secundario no time para proteger a retaguarda, como Tristan ou Byrna.",
+        "skill": "Unshakable Faith",
+        "required_relic_level": 30,
+        "talisman": "Talisman of Purification",
+        "talisman_number": 2,
+        "luther_physical_attack": 105666,
+        "enemy_magic_attack_decrease_formula": "100% Phys.atk.",
+        "enemy_magic_attack_decrease": 105666,
+        "formula_example": "100% × 105666 = 105666",
+        "comparison_context": "Approximate maximum-level values supplied by Alexandre. The named enemy heroes use Talisman 1. Each percentage compares a fixed 105666 Magic Attack reduction with the supplied enemy Magic Attack before in-battle changes.",
+        "enemy_comparisons": [
+          {
+            "hero": "Kendle",
+            "talisman": "T1",
+            "magic_attack": 176663,
+            "magic_attack_decrease_percent": 59.81,
+            "remaining_magic_attack": 70997
+          },
+          {
+            "hero": "Folio",
+            "talisman": "T1",
+            "magic_attack": 207482,
+            "magic_attack_decrease_percent": 50.93,
+            "remaining_magic_attack": 101816
+          },
+          {
+            "hero": "Iris",
+            "talisman": "T1",
+            "magic_attack": 209881,
+            "magic_attack_decrease_percent": 50.35,
+            "remaining_magic_attack": 104215
+          }
+        ],
+        "unattributed_source_value": {
+          "magic_attack": 171755,
+          "note": "This additional Magic Attack value was supplied without a hero name, so it is not assigned to a hero or included in the named comparisons."
+        },
+        "conclusion": "Com os valores fornecidos, a redução é de aproximadamente 50% a 60% do Ataque Mágico de Kendle, Fólio e Iris no nível máximo. Isso se soma ao aumento de Defesa Mágica do próprio Luther. A redução de Ataque Mágico não é uma redução percentual direta de todo o dano e não garante que o inimigo fique sem dano; o efeito depende de o alvo estar próximo de Luther, que deve permanecer vivo, e dos atributos e efeitos ativos na batalha."
       },
       "notes": [
         "Talisman of Purification is used in both best teams provided in the source.",
