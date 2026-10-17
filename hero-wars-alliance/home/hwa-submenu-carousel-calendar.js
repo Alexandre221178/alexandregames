@@ -5,6 +5,7 @@
   // Quando tirar do carousel, cole aqui.
   // Este submenu fica na pag. Calendario para eventos da temporada recentes.
   // =====================================================
+  // Recent Season Event Guides - Esse carousel esta abaixo do calendario!
   var slides = [  
 
     {
@@ -17,15 +18,33 @@
       updated: "Updated: Everyday."
     },
     {
-      link: "/hero-wars-alliance/characters-guide/nebula-en.html",
-      src500: "/hero-wars-alliance/images/hero/nebula/nebula-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/nebula/nebula-400px.webp",
-      alt: "Nebula Guide for Hero Wars Alliance",
-      title: "Nebula Guide for Hero Wars Alliance",
-      strong: "Guide: Nebula Rework for Hero Wars Alliance",
-      updated: "Updated: August, 2026."
-    },   
+      link: "/hero-wars-alliance/guide/talisman-guide-hwa-en.html",
+      src500: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-400px.webp",
+      alt: "All Talisman Guides for Hero Wars Alliance",
+      title: "Talisman Guide for Hero Wars Alliance",
+      strong: "Guide: All Talisman - Hero Wars Alliance",
+      updated: "Updated: September, 2026."
+    },
     {
+      link: "/hero-wars-alliance/characters-guide/luther-en.html",
+      src500: "/hero-wars-alliance/images/hero/luther/luther-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/luther/luther-400px.webp",
+      alt: "Luther Guide for Hero Wars Alliance",
+      title: "Luther Guide for Hero Wars Alliance",
+      strong: "Guide (Relic): Luther - Hero Wars Alliance",
+      updated: "Updated: October, 2026."
+    },     
+    {
+      link: "/hero-wars-alliance/guide/meta-teams-and-combos-en.html",
+      src500: "/hero-wars-alliance/images/guides/meta-teams-and-combos/meta-teams-and-combos-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/meta-teams-and-combos/meta-teams-and-combos-400px.webp",
+      alt: "Are you Building the Wrong Team? F2P Tips - Hero Wars Alliance",
+      title: "Top 17 Meta Heroes - Hero Wars Alliance",
+      strong: "Guide: Are you Building the Wrong Team? F2P Tips - Hero Wars Alliance",
+      updated: "Updated: October, 2026."
+    },   
+        {
       link: "/hero-wars-alliance/characters-guide/eva-en.html",
       src500: "/hero-wars-alliance/images/hero/eva/eva-500px.webp",
       src400: "/hero-wars-alliance/images/hero/eva/eva-400px.webp",
@@ -34,15 +53,7 @@
       strong: "Guide: Eva for Hero Wars Alliance",
       updated: "Updated: August, 2026."
     },   
-    {
-      link: "/hero-wars-alliance/characters-guide/peech-en.html",
-      src500: "/hero-wars-alliance/images/hero/peech/peech-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/peech/peech-400px.webp",
-      alt: "Peech Guide for Hero Wars Alliance",
-      title: "Peech Guide for Hero Wars Alliance",
-      strong: "Guide New Skin+: Peech for Hero Wars Alliance",
-      updated: "Updated: August, 2026."
-    },   
+    
     {
       link: "/hero-wars-alliance/characters-guide/crow-en.html",
       src500: "/hero-wars-alliance/images/hero/crow/crow-500px.webp",
@@ -52,16 +63,7 @@
       strong: "New Hero Guide: Crow Legendary Skills for Hero Wars Alliance",
       updated: "Updated: July, 2026."
     }, 
-    {
-      link: "/hero-wars-alliance/characters-guide/kendle-en.html",
-      src500: "/hero-wars-alliance/images/hero/kendle/kendle-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/kendle/kendle-400px.webp",
-      alt: "Kendle Legendary Skills Guide for Hero Wars Alliance",
-      title: "Kendle Guide for Hero Wars Alliance",
-      strong: "Guide: Kendle Legendary Skills for Hero Wars Alliance",
-      updated: "Updated: May, 2026."
-    },     
-     
+         
     
     
         
