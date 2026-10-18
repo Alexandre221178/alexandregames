@@ -8,10 +8,9 @@
 // ── 2 Link Exclusivo Web/FB ──────────────────────────────
 { date:'2026-10-##', type:'link', giftLinkWeb:'https://herowars.me/##', giftLinkFb:'https://herowars.me/##', note:'until|2026-10-##T02:00:00Z',
   rewards:['energy x500'] },
-https://www.hero-wars.com/?nx_source=group_posting_giftweb&gift_id=
+https://www.hero-wars.com/?nx_source=group_posting_giftweb&gift_id=2fa039e3e0487c61902428de4fcd4b29
 */window.HWDE_GIFTS = [
-  { date:'2026-10-17', type:'link', giftId:'2fa039e3e0487c61902428de4fcd4b29', note:'level',
-  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] }, 
+  
   { date:'2026-10-17', type:'link', giftId:'2fa039e3e0487c61902428de4fcd4b29', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] }, 
 
