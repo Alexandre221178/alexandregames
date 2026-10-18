@@ -10,6 +10,7 @@
 "test": "echo \"Error: no test specified\" && exit 1",
 "update-hwa-index-hwa": "node hero-wars-alliance/update-data-menu-hwa.js home hwa-index",
 "update-hero-wars-alliance-tier-list-hwa": "node hero-wars-alliance/update-data-menu-hwa.js tier-list-hwa hero-wars-alliance-tier-list",
+"update-best-healers-hwa-hwa": "node hero-wars-alliance/update-data-menu-hwa.js tier-list-hwa best-healers-hwa",
 
 
 "update-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js",

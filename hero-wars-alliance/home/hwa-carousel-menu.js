@@ -11,6 +11,15 @@
       updated: "Updated: October, 2026."
     },     
     {
+      link: "/hero-wars-alliance/tier-list-hwa/best-healers-hwa-en.html",
+      src500: "/hero-wars-alliance/images/tier-list-hwa-img/best-healers/best-healers-hwa-500px.webp",
+      src400: "/hero-wars-alliance/images/tier-list-hwa-img/best-healers/best-healers-hwa-400px.webp",
+      alt: "7 Best Healers in Hero Wars Alliance: Guus, Byrna and More",
+      title: "7 Best Healers in Hero Wars Alliance: Top 7 Ranked",
+      strong: "Guide: 7 Best Healers in Hero Wars Alliance",
+      updated: "Updated: October, 2026."
+    },    
+    {
       link: "/hero-wars-alliance/guide/meta-teams-and-combos-en.html",
       src500: "/hero-wars-alliance/images/guides/meta-teams-and-combos/meta-teams-and-combos-500px.webp",
       src400: "/hero-wars-alliance/images/guides/meta-teams-and-combos/meta-teams-and-combos-400px.webp",
