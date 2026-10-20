@@ -10,6 +10,8 @@
   rewards:['energy x500'] },
 https://www.facebook.com/gaming/play/1701433570146040/?context_type=SOLO&source=fb_gg_url&payload=%7B%22nx_source%22%3A%22group_posting_boxweb%22%2C%22gift_id%22%3A%226943e3a319f313f54b03d1bfcc486b8b%22%7D
 */window.HWDE_GIFTS = [
+    { date:'2026-10-19', type:'link', giftId:'f57a5803b3386223be837df4dc275944', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] }, 
 { date:'2026-10-19', type:'link', giftLinkWeb:'https://herowars.me/4z70tor', giftLinkFb:'https://herowars.me/4zE1LqK', note:'until|2026-10-26T02:00:00Z',
 rewards:['energy-crystal x16', 'valor-coin x8500', 'sapphire-medallion x2' ] },
 
