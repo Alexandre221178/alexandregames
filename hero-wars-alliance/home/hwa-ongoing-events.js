@@ -1,7 +1,15 @@
 (function(){
   // Active guides shown below the main calendar - carousel.
   var slides = [
-   
+   {
+  link: "/hero-wars-alliance/events-tips-hwa/sanctum-of-balance-shop-en.html",
+  src500: "/hero-wars-alliance/images/events-tips-hwa/sanctum-of-balance-shop/sanctum-of-balance-shop-500px.webp",
+  src400: "/hero-wars-alliance/images/events-tips-hwa/sanctum-of-balance-shop/sanctum-of-balance-shop-400px.webp",
+  alt: "Sanctum of Balance Shop Guide for Hero Wars Alliance",
+  title: "Sanctum of Balance Shop for Hero Wars Alliance",
+  strong: "Guide: Sanctum of Balance- Shop - Hero Wars Alliance",
+  updated: "Updated: October, 2026."
+},
 {
   link: "/hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html",
   src500: "/hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-500px.webp",
@@ -9,17 +17,9 @@
   alt: "Balance of Power Guide for Hero Wars Alliance",
   title: "Balance of Power Event Group for Hero Wars Alliance",
   strong: "Guide: Balance of Power Event Group- Hero Wars Alliance",
-  updated: "Updated: September, 2026."
+  updated: "Updated: October, 2026."
 },
- {
-  link: "/hero-wars-alliance/events-tips-hwa/sanctum-of-balance-shop-en.html",
-  src500: "/hero-wars-alliance/images/events-tips-hwa/sanctum-of-balance-shop/sanctum-of-balance-shop-500px.webp",
-  src400: "/hero-wars-alliance/images/events-tips-hwa/sanctum-of-balance-shop/sanctum-of-balance-shop-400px.webp",
-  alt: "Sanctum of Balance Shop Guide for Hero Wars Alliance",
-  title: "Sanctum of Balance Shop for Hero Wars Alliance",
-  strong: "Guide: Sanctum of Balance- Shop - Hero Wars Alliance",
-  updated: "Updated: September, 2026."
-},
+ 
 {
   link: "/hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html",
   src500: "/hero-wars-alliance/images/events/balance-of-power/defiant-edge-500px.webp",
@@ -27,7 +27,7 @@
   alt: "Defiant Edge Guide for Hero Wars Alliance",
   title: "Defiant Edge Guide for Hero Wars Alliance",
   strong: "Guide: Defiant Edge - Hero Wars Alliance",
- updated: "Updated: September, 2026."
+  updated: "Updated: October, 2026."
 },
 {
   link: "/hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html",
@@ -47,51 +47,7 @@
   strong: "Guide: Unbroken Bond - Hero Wars Alliance",
   updated: "Updated: October, 2026."
 },
-    {
-      link: "/hero-wars-alliance/event-hwa/ascendant-glory-champions-gallery-en.html",
-      src500: "/hero-wars-alliance/images/events/ascendant-glory/champions-gallery-500px.webp",
-      src400: "/hero-wars-alliance/images/events/ascendant-glory/champions-gallery-400px.webp",
-      alt: "Champion's Gallery Shop Guide for Hero Wars Alliance",
-      title: "Champion's Gallery Shop Guide for Hero Wars Alliance",
-      strong: "Crow - Champion's Gallery Shop Guide",
-      updated: "Updated: October, 2026."
-    },
-    {
-      link: "/hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html",
-      src500: "/hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-500px.webp",
-      src400: "/hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-400px.webp",
-      alt: "Ascendant Glory Event Group Guide for Hero Wars Alliance",
-      title: "Ascendant Glory Event Group Guide for Hero Wars Alliance",
-      strong: "Ascendant Glory Event Group Guide",
-      updated: "Updated: October, 2026."
-    },
-    {
-      link: "/hero-wars-alliance/event-hwa/ascendant-glory-rising-legend-en.html",
-      src500: "/hero-wars-alliance/images/events/ascendant-glory/rising-legend-500px.webp",
-      src400: "/hero-wars-alliance/images/events/ascendant-glory/rising-legend-400px.webp",
-      alt: "Rising Legend Event Guide for Hero Wars Alliance",
-      title: "Rising Legend Event Guide for Hero Wars Alliance",
-      strong: "Rising Legend Event Guide",
-      updated: "Updated: October, 2026."
-    },
-    {
-      link: "/hero-wars-alliance/event-hwa/ascendant-glory-spark-of-glory-en.html",
-      src500: "/hero-wars-alliance/images/events/ascendant-glory/spark-glory-500px.webp",
-      src400: "/hero-wars-alliance/images/events/ascendant-glory/spark-glory-400px.webp",
-      alt: "Spark of Glory Skin Plus Event Guide for Hero Wars Alliance",
-      title: "Spark of Glory Skin Plus Event Guide for Hero Wars Alliance",
-      strong: "Spark of Glory Skin+ Event Guide",
-      updated: "Updated: October, 2026."
-    },
-    {
-      link: "/hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html",
-      src500: "/hero-wars-alliance/images/events/ascendant-glory/trial-of-legends-500px.webp",
-      src400: "/hero-wars-alliance/images/events/ascendant-glory/trial-of-legends-400px.webp",
-      alt: "Trial of Legends Event Guide for Hero Wars Alliance",
-      title: "Trial of Legends Event Guide for Hero Wars Alliance",
-      strong: "Trial of Legends Event Guide",
-      updated: "Updated: October, 2026."
-    },
+    
     
 
      
