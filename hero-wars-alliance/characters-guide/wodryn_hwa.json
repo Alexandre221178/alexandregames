@@ -1,0 +1,356 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "wodryn",
+      "name": "Wodryn",
+      "gender": "male",
+      "role": [
+        "Tank"
+      ],
+      "main_class": "Tank",
+      "position": "Front Line",
+      "main_stat": "Strength",
+      "faction": "Way of Nature",
+      "stats": {
+        "initial": {
+          "agility": 10,
+          "health": 500,
+          "intelligence": 15,
+          "physical_attack": 50,
+          "strength": 20
+        }
+      },
+      "stat_growth": [
+        {
+          "stars": 1,
+          "strength_per_level": 5,
+          "agility_per_level": 3,
+          "intelligence_per_level": 2
+        },
+        {
+          "stars": 2,
+          "strength_per_level": 7,
+          "agility_per_level": 4,
+          "intelligence_per_level": 4
+        },
+        {
+          "stars": 3,
+          "strength_per_level": 11,
+          "agility_per_level": 6,
+          "intelligence_per_level": 5
+        },
+        {
+          "stars": 4,
+          "strength_per_level": 14,
+          "agility_per_level": 9,
+          "intelligence_per_level": 7
+        },
+        {
+          "stars": 5,
+          "strength_per_level": 20,
+          "agility_per_level": 12,
+          "intelligence_per_level": 8
+        },
+        {
+          "stars": 6,
+          "strength_per_level": 24,
+          "agility_per_level": 14,
+          "intelligence_per_level": 12
+        }
+      ],
+      "equipment": {
+        "rank": "Orange +4",
+        "rank_code": "LEVEL_16",
+        "promotion_bonus_stats": {
+          "strength": 1549,
+          "intelligence": 369,
+          "agility": 369,
+          "health": 43166,
+          "physical_attack": 8201,
+          "armor": 1877,
+          "magic_defense": 2256,
+          "crit_hit_chance": 1606
+        },
+        "equipped_item_bonus_stats": {
+          "strength": 1212,
+          "agility": 152,
+          "intelligence": 152,
+          "health": 57196,
+          "toughness": 4283,
+          "physical_attack": 1487,
+          "armor": 1759
+        }
+      },
+      "talisman_details": {
+        "talisman_of_two_forms": {
+          "display_name": "Talisman of Two Forms",
+          "main_stat": "Strength",
+          "reroll_stat": "Toughness"
+        }
+      },
+      "skills": [
+        {
+          "id": 1,
+          "variant": "base",
+          "color": "gray",
+          "level": 120,
+          "name": "Crown of Wrath",
+          "type": [
+            "Physical Damage",
+            "Area Damage"
+          ],
+          "duration_seconds": 6,
+          "tick_seconds": 1,
+          "animation_delay_seconds": 1,
+          "area": 200,
+          "cannot_be_evaded": true,
+          "description": "Creates a crown over enemies that deals physical damage each second for 6 seconds. Its attacks cannot be dodged."
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "color": "green",
+          "level": 120,
+          "name": "Bark Renewal",
+          "type": [
+            "Cleanse",
+            "Healing",
+            "Energy Gain"
+          ],
+          "initial_cooldown_seconds": 4,
+          "cooldown_seconds": 9,
+          "animation_delay_seconds": 0.65,
+          "minimum_oak_bark_layers": 1,
+          "oak_bark_layers_per_removed_effect": 1,
+          "extra_energy_per_damage_received": 100,
+          "description": "Removes debuffs and control from himself and allies behind him, then heals himself. Gains Oak Bark per removed effect, with at least one layer. Oak Bark grants extra energy when damaged."
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "color": "blue",
+          "level": 100,
+          "name": "Deepwood Might",
+          "type": [
+            "Buff",
+            "Passive"
+          ],
+          "initial_cooldown_seconds": 6,
+          "cooldown_seconds": 14,
+          "animation_delay_seconds": 1,
+          "duration_seconds": 9,
+          "oak_bark_layers_removed": 2,
+          "description": "Consumes two Oak Bark layers to increase critical hit chance for allies behind him for 9 seconds. Each consumed layer also permanently increases his own critical hit chance during battle."
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "color": "violet",
+          "level": 80,
+          "name": "Unbowed Oak",
+          "type": [
+            "Passive",
+            "Damage Reduction"
+          ],
+          "damage_reduction_percent": 67,
+          "description": "Gives himself and allies behind him a chance to reduce incoming damage by 67%. The chance depends on each hero's critical hit chance."
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "relic_level": 1,
+          "name": "Wildwood Fury",
+          "type": [
+            "Physical Damage",
+            "Buff",
+            "Legendary"
+          ],
+          "application_interval_seconds": 15,
+          "duration_seconds": 9,
+          "magic_defense_to_extra_physical_damage_percent": 100,
+          "description": "Every 15 seconds, grants a 9-second effect that adds physical damage to allied critical hits, based on each attacker's magic defense."
+        },
+        {
+          "id": 2,
+          "variant": "legendary",
+          "relic_level": 10,
+          "name": "Bark Renewal",
+          "type": [
+            "Physical Damage",
+            "Legendary"
+          ],
+          "hits_received_to_trigger": 6,
+          "hit_counter_resets_when_oak_bark_expires": true,
+          "description": "While Oak Bark is active, retaliates against enemies ahead after every six incoming hits. Losing Oak Bark resets the counter."
+        },
+        {
+          "id": 4,
+          "variant": "legendary",
+          "relic_level": 20,
+          "name": "Unbowed Oak",
+          "type": [
+            "Passive",
+            "Buff",
+            "Legendary"
+          ],
+          "oak_bark_layers_on_damage_reduction": 2,
+          "description": "Gains two Oak Bark layers whenever Unbowed Oak reduces damage he receives."
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "relic_level": 30,
+          "name": "Law of the Forest",
+          "type": [
+            "Passive",
+            "Damage Conversion",
+            "Legendary"
+          ],
+          "requires_wodryn_alive": true,
+          "incoming_damage_type": "Pure Damage",
+          "converted_damage_type": "Magic Damage",
+          "description": "While alive, converts enemy pure damage against his team into magic damage."
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default skin",
+          "stat": "Strength",
+          "bonus": 1365,
+          "level": 60,
+          "is_skin_plus": false,
+          "total_skin_stones": 30825
+        },
+        {
+          "name": "Crimson Grove Skin",
+          "stat": "Health",
+          "bonus": 106645,
+          "level": 60,
+          "is_skin_plus": false,
+          "total_skin_stones": 55410,
+          "purchase_skin_stones": 5000,
+          "upgrade_skin_stones": 50410
+        },
+        {
+          "name": "Golden Crown Skin",
+          "stat": "Armor Penetration",
+          "bonus": 10650,
+          "level": 60,
+          "is_skin_plus": false,
+          "total_skin_stones": 55410,
+          "purchase_skin_stones": 5000,
+          "upgrade_skin_stones": 50410
+        }
+      ],
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Rootbreaker",
+          "level": 100,
+          "evolve": 6,
+          "activation_chance": 100,
+          "buff_stats": {
+            "magic_defense": 32040
+          }
+        },
+        {
+          "slot": "Book",
+          "name": "Grimoire of Thorns",
+          "level": 100,
+          "evolve": 6,
+          "crit_hit_chance": 2967,
+          "magic_defense": 5340
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Strength",
+          "level": 100,
+          "evolve": 6,
+          "strength": 3990
+        }
+      ],
+      "glyphs": [
+        {
+          "name": "Physical Attack",
+          "level": 80,
+          "bonus": 8340
+        },
+        {
+          "name": "Health",
+          "level": 80,
+          "bonus": 122800
+        },
+        {
+          "name": "Crit Hit Chance",
+          "level": 80,
+          "bonus": 4170
+        },
+        {
+          "name": "Magic Defense",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "name": "Strength",
+          "level": 80,
+          "bonus": 2110
+        }
+      ],
+      "class_skill": {
+        "class": "Tank",
+        "name": "Armor and Magic Defense Protection",
+        "interval_seconds": 10,
+        "duration_seconds": 5,
+        "target": "Ally with the lowest health percentage, including Wodryn",
+        "description": "Temporarily increases the target's armor and magic defense. The bonus scales with Wodryn's maximum health."
+      },
+      "gift_of_the_elements": {
+        "level": 30,
+        "strength": 720,
+        "agility": 360,
+        "intelligence": 360
+      },
+      "relic_resources": {
+        "total_relic_shards_to_level_30": 2880,
+        "total_stats_gain_at_level_30": {
+          "physical_attack": 37976,
+          "health": 290824
+        },
+        "unlocks": [
+          {
+            "level": 1,
+            "shards_for_level": 50,
+            "cumulative_shards": 50
+          },
+          {
+            "level": 10,
+            "shards_for_level": 40,
+            "cumulative_shards": 330
+          },
+          {
+            "level": 20,
+            "shards_for_level": 100,
+            "cumulative_shards": 1130
+          },
+          {
+            "level": 30,
+            "shards_for_level": 200,
+            "cumulative_shards": 2880
+          }
+        ]
+      },
+      "realm": {
+        "position": "Front",
+        "skills": [],
+        "skills_available": false
+      },
+      "notes": [
+        "Initial stats are raw starting values before level growth and upgrades.",
+        "Promotion and equipped-item bonuses are listed separately and exclude derived attributes.",
+        "Artifact values use level 100 and six stars; the weapon grants a temporary team buff.",
+        "Non-default skin totals include their purchase cost."
+      ]
+    }
+  ]
+}

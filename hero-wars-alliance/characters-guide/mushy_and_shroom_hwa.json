@@ -1,0 +1,406 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "mushy_and_shroom",
+      "name": "Mushy & Shroom",
+      "role": [
+        "Tank"
+      ],
+      "main_class": "Tank",
+      "position": "Front Line",
+      "main_stat": "Intelligence",
+      "faction": "Way of Nature",
+      "stats": {
+        "initial": {
+          "intelligence": 20,
+          "agility": 10,
+          "strength": 15,
+          "health": 500,
+          "physical_attack": 50
+        },
+        "max_with_talisman_of_mycelium": {
+          "intelligence": 15214,
+          "agility": 2344,
+          "strength": 2829,
+          "health": 525951,
+          "physical_attack": 19952,
+          "magic_attack": 110425,
+          "armor": 57759,
+          "magic_defense": 43394,
+          "toughness": 2571,
+          "magic_penetration": 10650
+        },
+        "max_with_talisman_of_fungi": {
+          "intelligence": 13214,
+          "agility": 2344,
+          "strength": 2829,
+          "health": 525951,
+          "physical_attack": 17952,
+          "magic_attack": 104425,
+          "armor": 37959,
+          "magic_defense": 41394,
+          "toughness": 9171,
+          "magic_penetration": 10650,
+          "magic_crit_hit_chance": 4000
+        }
+      },
+      "stat_growth": [
+        {
+          "stars": 1,
+          "strength_per_level": 4,
+          "agility_per_level": 1,
+          "intelligence_per_level": 5
+        },
+        {
+          "stars": 2,
+          "strength_per_level": 5,
+          "agility_per_level": 3,
+          "intelligence_per_level": 7
+        },
+        {
+          "stars": 3,
+          "strength_per_level": 7,
+          "agility_per_level": 5,
+          "intelligence_per_level": 10
+        },
+        {
+          "stars": 4,
+          "strength_per_level": 9,
+          "agility_per_level": 8,
+          "intelligence_per_level": 13
+        },
+        {
+          "stars": 5,
+          "strength_per_level": 14,
+          "agility_per_level": 10,
+          "intelligence_per_level": 16
+        },
+        {
+          "stars": 6,
+          "strength_per_level": 17,
+          "agility_per_level": 13,
+          "intelligence_per_level": 20
+        }
+      ],
+      "equipment": {
+        "rank": "Orange +4",
+        "rank_code": "LEVEL_16",
+        "promotion_bonus_stats": {
+          "strength": 262,
+          "intelligence": 1397,
+          "agility": 262,
+          "health": 97022,
+          "magic_attack": 14907,
+          "armor": 1465,
+          "magic_defense": 2675
+        },
+        "equipped_item_bonus_stats": {
+          "agility": 152,
+          "strength": 152,
+          "intelligence": 1212,
+          "toughness": 2571,
+          "health": 32430,
+          "magic_attack": 5046,
+          "magic_defense": 2005
+        }
+      },
+      "talisman_details": {
+        "talisman_of_mycelium": {
+          "display_name": "Talisman of Mycelium",
+          "main_stat": "Intelligence",
+          "reroll_stat": "Armor",
+          "main_stat_bonus": 2000,
+          "total_reroll_bonus": {
+            "stat": "Armor",
+            "value": 19800
+          },
+          "derived": {
+            "magic_attack": 6000,
+            "magic_defense": 2000,
+            "physical_attack": 2000
+          }
+        },
+        "talisman_of_fungi": {
+          "display_name": "Talisman of Fungi",
+          "main_stat": "Magic Crit Hit Chance",
+          "reroll_stat": "Toughness",
+          "main_stat_bonus": 4000,
+          "total_reroll_bonus": {
+            "stat": "Toughness",
+            "value": 6600
+          }
+        },
+        "recommended_by_mode": {
+          "pvp": "talisman_of_mycelium",
+          "pve": "talisman_of_fungi"
+        }
+      },
+      "skills": [
+        {
+          "id": 1,
+          "variant": "base",
+          "color": "gray",
+          "level": 120,
+          "name": "Perfect Copy",
+          "type": [
+            "Summon"
+          ],
+          "animation_delay_seconds": 1.2,
+          "max_summoned_shrooms": 5,
+          "copy_stats_at": "Start of battle",
+          "activation_condition": "Health fully restored for the first time",
+          "copy_can_gain_energy": false,
+          "description": "Conjures an inactive Shroom with a portion of its health missing. The copy has the hero's stats from the battle’s start. It can be targeted by attacks, offensive spells, and healing spells.\nWhen the Shroom’s health is fully replenished for the first time, it activates. After that, it can attack and use all skills learned by the hero, but it won't be able to replenish energy.\nYou can summon no more than 5 Shrooms.",
+          "starting_health_formula": "45% Health + 300 * skill level"
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "color": "green",
+          "level": 120,
+          "name": "Branching Mycelium",
+          "type": [
+            "Summon",
+            "Damage",
+            "Silence",
+            "Control"
+          ],
+          "initial_cooldown_seconds": 3,
+          "cooldown_seconds": 12,
+          "animation_delay_seconds": 0.88,
+          "spore_mushrooms_summoned": 3,
+          "spore_mushroom_max_health_percent": 30,
+          "health_basis": "Hero health at the start of battle",
+          "silence_duration_seconds": 4,
+          "area": 100,
+          "target_priority": "Nearby enemies without Mushroom Spores",
+          "description": "Conjures mycelium with 3 inactive Spore Mushrooms with a portion of their health missing. They can be targeted by attacks, offensive spells, and healing spells. Their max health is 30% of the hero's health at the battle’s start.\r\nOnce the mushroom's health is fully replenished, it runs towards the enemies and explodes, dealing damage and spreading a Mushroom Spore cloud within a short range. The cloud silences those caught within its range for 4 seconds.\r\nNearby enemies not affected by Mushroom Spores yet are prioritized when selecting the target.",
+          "starting_health_formula": "10% Health",
+          "explosion_damage_formula": "10% Health + 25% Magic Attack + 70 * skill level"
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "color": "blue",
+          "level": 100,
+          "name": "Rotting Seeds",
+          "type": [
+            "Damage"
+          ],
+          "cooldown_seconds": 10,
+          "animation_delay_seconds": 1.5,
+          "extra_damage_from_allied_healing_percent": 60,
+          "healing_accumulation_period": "Since the previous activation of this skill",
+          "target": "Nearest enemy",
+          "description": "Damages the nearest enemy. The damage is increased for each point of healing received by allies since this skill was last activated.",
+          "base_damage_formula": "10% Health + 40% Magic Attack + 50 * skill level",
+          "extra_damage_formula": "60% allied healing since previous activation"
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "color": "violet",
+          "level": 80,
+          "name": "Wild Growth",
+          "type": [
+            "Passive",
+            "Healing"
+          ],
+          "healing_tick_seconds": 1,
+          "targets": [
+            "Inactive Shrooms",
+            "Spore Mushrooms"
+          ],
+          "stacks_per_active_shroom": true,
+          "description": "Passive skill. Mushy heals inactive Shrooms and Spore Mushrooms.\nThis effects stacks for every active Shroom on the battlefield.",
+          "healing_per_second_formula": "1% Health + 4% Magic Attack + 10 * skill level"
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default skin",
+          "stat": "Intelligence",
+          "bonus": 1365,
+          "level": 60,
+          "is_skin_plus": false,
+          "total_skin_stones": 30825
+        },
+        {
+          "name": "Spring Skin",
+          "stat": "Magic Defense",
+          "bonus": 10650,
+          "level": 60,
+          "is_skin_plus": false,
+          "total_skin_stones": 55410,
+          "purchase_skin_stones": 5000,
+          "upgrade_skin_stones": 50410
+        },
+        {
+          "name": "Lunar Skin+",
+          "stat": "Magic Attack",
+          "bonus": 10650,
+          "level": 60,
+          "is_skin_plus": true,
+          "bonus_with_skin_plus": 21300,
+          "total_skin_stones": 55410,
+          "purchase_skin_stones": 5000,
+          "upgrade_skin_stones": 50410
+        },
+        {
+          "name": "Demonic Skin",
+          "stat": "Armor",
+          "bonus": 10650,
+          "level": 60,
+          "is_skin_plus": false,
+          "total_skin_stones": 55410,
+          "purchase_skin_stones": 5000,
+          "upgrade_skin_stones": 50410
+        },
+        {
+          "name": "Angel Skin",
+          "stat": "Health",
+          "bonus": 106645,
+          "level": 60,
+          "is_skin_plus": false,
+          "total_skin_stones": 55410,
+          "purchase_skin_stones": 5000,
+          "upgrade_skin_stones": 50410
+        },
+        {
+          "name": "Cybernetic Skin",
+          "stat": "Armor",
+          "bonus": 10650,
+          "level": 60,
+          "is_skin_plus": false,
+          "total_skin_stones": 55410,
+          "purchase_skin_stones": 5000,
+          "upgrade_skin_stones": 50410
+        },
+        {
+          "name": "Tribal Skin",
+          "stat": "Magic Penetration",
+          "bonus": 10650,
+          "level": 60,
+          "is_skin_plus": false,
+          "total_skin_stones": 55410,
+          "purchase_skin_stones": 5000,
+          "upgrade_skin_stones": 50410
+        }
+      ],
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Wand of Growth",
+          "level": 100,
+          "evolve": 6,
+          "activation_chance": 100,
+          "buff_stats": {
+            "armor": 32040
+          }
+        },
+        {
+          "slot": "Book",
+          "name": "Tome of Arcane Knowledge",
+          "level": 100,
+          "evolve": 6,
+          "health": 53394,
+          "magic_attack": 10680
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Intelligence",
+          "level": 100,
+          "evolve": 6,
+          "intelligence": 3990
+        }
+      ],
+      "glyphs": [
+        {
+          "name": "Magic Attack",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "name": "Health",
+          "level": 80,
+          "bonus": 122800
+        },
+        {
+          "name": "Armor",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "name": "Magic Defense",
+          "level": 80,
+          "bonus": 12850
+        },
+        {
+          "name": "Intelligence",
+          "level": 80,
+          "bonus": 2110
+        }
+      ],
+      "class_skill": {
+        "class": "Tank",
+        "name": "Armor and Magic Defense Protection",
+        "interval_seconds": 10,
+        "duration_seconds": 5,
+        "target": "Ally with the lowest health percentage, including Mushy and Shroom",
+        "description": "Temporarily increases the target's armor and magic defense. The bonus scales with the tank's maximum health."
+      },
+      "gift_of_the_elements": {
+        "level": 30,
+        "strength": 360,
+        "agility": 360,
+        "intelligence": 720
+      },
+      "relic": {
+        "available": false,
+        "skills": [],
+        "stats": []
+      },
+      "realm": {
+        "position": "Front",
+        "skills": [],
+        "skills_available": false
+      },
+      "notes": [
+        "Initial stats are raw starting values before level growth and upgrades.",
+        "Promotion and equipped-item bonuses are listed separately and exclude derived attributes.",
+        "Artifact values use level 100 and six stars; the weapon grants a temporary team buff.",
+        "Non-default skin totals include their purchase cost.",
+        "Lunar Skin lists its base bonus separately from the doubled Skin+ bonus.",
+        "Summoned Shrooms and Spore Mushrooms can be targeted by attacks, offensive spells, and healing spells.",
+        "Max-stat comparisons exclude collection bonuses, Realm research and temporary buffs; one talisman is equipped at a time."
+      ],
+      "stats_configuration": {
+        "level": 120,
+        "stars": 6,
+        "equipment_rank": "Orange +4",
+        "all_equipment_slots": true,
+        "skins_level": 60,
+        "lunar_skin_plus": true,
+        "glyphs_level": 80,
+        "artifacts_level": 100,
+        "artifacts_stars": 6,
+        "gift_of_the_elements_level": 30,
+        "talisman_level": 50,
+        "rerolls": "Maximum total across all three slots",
+        "global_collection_bonuses": false,
+        "realm_research": false,
+        "temporary_buffs": false
+      },
+      "gender": "female",
+      "names": {
+        "en": "Mushy & Shroom",
+        "de": "Champi und Gnon",
+        "es": "Mushy y Shroom",
+        "fr": "Champi et Gnon",
+        "pt": "Cogu e Mélio",
+        "ja": "マッシーとシュルーム"
+      }
+    }
+  ]
+}
