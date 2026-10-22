@@ -3,6 +3,8 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+    { date:'2026-10-22', type:'hub', code:'WODRYNLIVE', note:'until|2026-10-25T01:00:00Z',
+    rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
   { date:'2026-10-22', type:'daily', mission:'3-3', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
     { date:'2026-10-21', type:'hub', code:'WODRYNSEASON', note:'until|2026-10-26T01:00:00Z',

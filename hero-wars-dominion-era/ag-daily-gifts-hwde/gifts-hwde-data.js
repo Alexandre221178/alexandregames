@@ -10,6 +10,8 @@
   rewards:['energy x500'] },
 https://www.facebook.com/gaming/play/1701433570146040/?context_type=SOLO&source=fb_gg_url&payload=%7B%22nx_source%22%3A%22group_posting_boxweb%22%2C%22gift_id%22%3A%226943e3a319f313f54b03d1bfcc486b8b%22%7D
 */window.HWDE_GIFTS = [
+    { date:'2026-10-22', type:'link', giftId:'5f8e8d7b6144535decbe94817f84ff72', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
   { date:'2026-10-22', type:'link', giftLinkWeb:'https://herowars.me/4yxz79O', giftLinkFb:'https://herowars.me/4BkPpWk', note:'until|2026-10-26T02:00:00Z',
   rewards:['energy x500'] },
     { date:'2026-10-21', type:'link', giftId:'7535217ba9111a2b8a68b1d7c8ef36ea', note:'level',
