@@ -13,80 +13,60 @@
       "main_stat": "Strength",
       "faction": "Way of Nature",
       "stats": {
-        "initial": {
-          "agility": 10,
-          "health": 500,
-          "intelligence": 15,
-          "physical_attack": 50,
-          "strength": 20
-        }
-      },
-      "stat_growth": [
-        {
-          "stars": 1,
-          "strength_per_level": 5,
-          "agility_per_level": 3,
-          "intelligence_per_level": 2
-        },
-        {
-          "stars": 2,
-          "strength_per_level": 7,
-          "agility_per_level": 4,
-          "intelligence_per_level": 4
-        },
-        {
-          "stars": 3,
-          "strength_per_level": 11,
-          "agility_per_level": 6,
-          "intelligence_per_level": 5
-        },
-        {
-          "stars": 4,
-          "strength_per_level": 14,
-          "agility_per_level": 9,
-          "intelligence_per_level": 7
-        },
-        {
-          "stars": 5,
-          "strength_per_level": 20,
-          "agility_per_level": 12,
-          "intelligence_per_level": 8
-        },
-        {
-          "stars": 6,
-          "strength_per_level": 24,
-          "agility_per_level": 14,
-          "intelligence_per_level": 12
-        }
-      ],
-      "equipment": {
-        "rank": "Orange +4",
-        "rank_code": "LEVEL_16",
-        "promotion_bonus_stats": {
-          "strength": 1549,
-          "intelligence": 369,
-          "agility": 369,
-          "health": 43166,
-          "physical_attack": 8201,
-          "armor": 1877,
-          "magic_defense": 2256,
-          "crit_hit_chance": 1606
-        },
-        "equipped_item_bonus_stats": {
-          "strength": 1212,
-          "agility": 152,
-          "intelligence": 152,
-          "health": 57196,
-          "toughness": 4283,
-          "physical_attack": 1487,
-          "armor": 1759
+        "talisman_of_two_forms": {
+          "intelligence": 3916,
+          "agility": 3850,
+          "strength": 17105,
+          "health": 1497121,
+          "physical_attack": 92912,
+          "magic_attack": 26854,
+          "armor": 14078,
+          "magic_defense": 33048,
+          "dodge": 0,
+          "vampirism": 0,
+          "armor_penetration": 10650,
+          "magic_penetration": 0,
+          "crit_hit_chance": 10054,
+          "magic_crit_hit_chance": 0,
+          "toughness": 13603,
+          "crushing": 0,
+          "magic_reflection": 0,
+          "displayed_additional_bonuses": {
+            "health": 255480,
+            "physical_attack": 31772
+          },
+          "calculation_note": "Health and Physical Attack are the displayed totals; do not add the separately displayed bonuses again."
         }
       },
       "talisman_details": {
         "talisman_of_two_forms": {
           "display_name": "Talisman of Two Forms",
+          "level": 50,
           "main_stat": "Strength",
-          "reroll_stat": "Toughness"
+          "main_stat_bonus": 2000,
+          "main_stat_secondary_effects": {
+            "health_from_strength": 80000,
+            "physical_attack_from_strength": 2000
+          },
+          "reroll_stat": "Toughness",
+          "reroll_slots": [
+            {
+              "stat": "Toughness",
+              "value": 2200
+            },
+            {
+              "stat": "Toughness",
+              "value": 2200
+            },
+            {
+              "stat": "Toughness",
+              "value": 2200
+            }
+          ],
+          "total_reroll_bonus": {
+            "stat": "Toughness",
+            "value": 6600
+          }
         }
       },
       "skills": [
@@ -105,7 +85,9 @@
           "animation_delay_seconds": 1,
           "area": 200,
           "cannot_be_evaded": true,
-          "description": "Creates a crown over enemies that deals physical damage each second for 6 seconds. Its attacks cannot be dodged."
+          "description": "Casts a Crown above the enemy team, dealing damage every second to all enemies underneath it for 6 seconds. This attack always hits enemies, and it cannot be evaded.",
+          "physical_damage_formula": "100% Physical Attack + 18000",
+          "physical_damage": 110912
         },
         {
           "id": 2,
@@ -124,7 +106,9 @@
           "minimum_oak_bark_layers": 1,
           "oak_bark_layers_per_removed_effect": 1,
           "extra_energy_per_damage_received": 100,
-          "description": "Removes debuffs and control from himself and allies behind him, then heals himself. Gains Oak Bark per removed effect, with at least one layer. Oak Bark grants extra energy when damaged."
+          "description": "Clears all Debuffs and Control effects from himself and the allies behind him, then heals himself. Wodryn gains 1 layer of Oak Bark for each effect removed, but at least 1 layers. While Oak Bark is active, Wodryn gains extra Energy each time he takes damage.",
+          "healing_formula": "150% Physical Attack + 9000",
+          "healing": 148368
         },
         {
           "id": 3,
@@ -141,7 +125,12 @@
           "animation_delay_seconds": 1,
           "duration_seconds": 9,
           "oak_bark_layers_removed": 2,
-          "description": "Consumes two Oak Bark layers to increase critical hit chance for allies behind him for 9 seconds. Each consumed layer also permanently increases his own critical hit chance during battle."
+          "description": "Removes 2 layers of Oak Bark from himself and increases Crit hit chance of the allies behind him for 9 seconds. Passive effect. For each Oak Bark layer removed, Wodryn's Crit hit chance increases until the end of the battle.",
+          "allied_crit_hit_chance_per_layer_formula": "20% Physical Attack + 1800",
+          "allied_crit_hit_chance_per_layer": 20382,
+          "self_crit_hit_chance_per_layer_formula": "5% Physical Attack + 1200",
+          "self_crit_hit_chance_per_layer": 5845,
+          "calculation_note": "Displayed per-layer values omit the fractional part: 20382.4 is displayed as 20382; 5845.6 is displayed as 5845."
         },
         {
           "id": 4,
@@ -154,7 +143,8 @@
             "Damage Reduction"
           ],
           "damage_reduction_percent": 67,
-          "description": "Gives himself and allies behind him a chance to reduce incoming damage by 67%. The chance depends on each hero's critical hit chance."
+          "description": "Wodryn and the allies behind him have a chance to take reduced damage. The chance depends on each Hero's Critical hit chance.",
+          "reduced_activation_chance_if_ally_level_above": 120
         },
         {
           "id": 5,
@@ -169,7 +159,9 @@
           "application_interval_seconds": 15,
           "duration_seconds": 9,
           "magic_defense_to_extra_physical_damage_percent": 100,
-          "description": "Every 15 seconds, grants a 9-second effect that adds physical damage to allied critical hits, based on each attacker's magic defense."
+          "description": "For 9 seconds, critical hits of Wodryn and his allies deal extra physical damage every 15 seconds. The extra damage depends on each Hero's Magic defense.",
+          "extra_physical_damage_formula": "100% attacking hero Magic Defense",
+          "extra_physical_damage_for_wodryn": 33048
         },
         {
           "id": 2,
@@ -182,7 +174,9 @@
           ],
           "hits_received_to_trigger": 6,
           "hit_counter_resets_when_oak_bark_expires": true,
-          "description": "While Oak Bark is active, retaliates against enemies ahead after every six incoming hits. Losing Oak Bark resets the counter."
+          "description": "While Oak Bark is active, Wodryn deals damage to enemies in front of him after every 6 hits he takes. The hit counter resets when Oak Bark expires.",
+          "physical_damage_formula": "150% Physical Attack",
+          "physical_damage": 139368
         },
         {
           "id": 4,
@@ -195,7 +189,7 @@
             "Legendary"
           ],
           "oak_bark_layers_on_damage_reduction": 2,
-          "description": "Gains two Oak Bark layers whenever Unbowed Oak reduces damage he receives."
+          "description": "Whenever Wodryn's incoming damage is reduced by Unbowed Oak, he gains 2 layers of Oak Bark."
         },
         {
           "id": 6,
@@ -210,7 +204,8 @@
           "requires_wodryn_alive": true,
           "incoming_damage_type": "Pure Damage",
           "converted_damage_type": "Magic Damage",
-          "description": "While alive, converts enemy pure damage against his team into magic damage."
+          "description": "As long as Wodryn is alive, all pure damage dealt by enemies to his team is converted into magic damage.",
+          "note_alexandre": "Essa skill é forte contra heróis que causam dano puro, como Kendle, Cleaver, Yasmine, Kayla, Corvus entre outros. Ela não afeta dano físico ou mágico, apenas dano puro."
         }
       ],
       "skins": [
