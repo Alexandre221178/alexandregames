@@ -340,6 +340,296 @@
         "skills": [],
         "skills_available": false
       },
+        "alexandre_tests": {
+          "wodryn_relic_equipped": false,
+          "alexandre_tips": "Nos meus testes de times com meu Wodryn, ainda sem relíquia, ele se mostrou muito forte contra times com alguns dos magos mais fortes do meta, como Kendle, Satori, Iris e Folio.",
+          "strong_against_in_tests": [
+            "Kendle",
+            "Satori",
+            "Iris",
+            "Folio"
+          ],
+          "unbowed_oak_observation": "A quarta habilidade, Unbowed Oak (roxa), se mostrou muito boa com aliados que possuem Chance de Acerto Crítico. A chance de reduzir o dano depende da Chance de Acerto Crítico de cada herói, e o efeito protege Wodryn e os aliados atrás dele.",
+          "allies_highlighted_in_tests": [
+            "Yasmine",
+            "Oya",
+            "Kayla",
+            "Crow",
+            "Guus",
+            "Eva",
+            "Peech",
+            "Dante",
+            "Leonel",
+            "Julius",
+            "Isaac",
+            "Jhu",
+            "Lara Croft"
+          ],
+          "notes": [
+            "Observações de desempenho relatadas por Alexandre em seus testes; não representam garantia de vitória contra todas as composições desses heróis.",
+            "As interações com relíquias descritas nas sinergias abaixo são separadas dos testes de Wodryn sem relíquia."
+          ]
+        },
+        "synergies": [
+          {
+            "hero": "Tristan",
+            "alexandre_tips": "Wodryn também se deu bem ao lado de Tristan nos meus testes."
+          },
+          {
+            "hero": "Luther",
+            "alexandre_tips": "Com Luther, a sinergia fica ainda mais interessante: quando ele salta para dentro do time inimigo, Wodryn assume a linha de frente e protege os outros aliados. Enquanto isso, Luther fica próximo dos inimigos e, com sua relíquia no nível 30, reduz o Ataque Mágico deles. A passiva roxa do Luther aumenta sua própria Defesa Mágica e concede aumentos adicionais por 4 segundos quando ele recebe dano mágico. Isso combina com a relíquia nível 1 do Wodryn: durante sua janela de ativação, os críticos dos aliados causam dano físico adicional baseado na Defesa Mágica de quem atacou.",
+            "luther_relic_level_for_nearby_magic_attack_reduction": 30,
+            "wodryn_relic_level_for_extra_physical_damage": 1,
+            "notes": [
+              "Wildwood Fury fica ativa por 9 segundos a cada 15 segundos; o dano físico adicional equivale a 100% da Defesa Mágica do próprio atacante.",
+              "O texto de Wildwood Fury inclui Wodryn e seus aliados, sem exigir que estejam atrás dele. A restrição de posição de Unbowed Oak continua valendo para a redução de dano dessa habilidade."
+            ]
+          },
+          {
+            "hero": "Guus",
+            "alexandre_tips": "Adicionando Guus ao time, Luther ganha Chance de Acerto Crítico enquanto estiver com as Penas Douradas, mesmo sem possuir esse atributo naturalmente. Assim, ele consegue aproveitar o bônus da relíquia nível 1 do Wodryn, unindo sua Defesa Mágica elevada aos críticos concedidos pelas penas.",
+            "notes": [
+              "O bônus de Chance de Acerto Crítico das penas é calculado com o Ataque Físico do Guus no início da batalha e não é recalculado durante a luta.",
+              "O bônus de crítico depende de Luther estar com a Pena Dourada; não é um atributo permanente recebido apenas por ter Guus no time."
+            ]
+          }
+        ],
+        "suggested_teams": [
+          {
+            "id": 1,
+            "suggested_by": "Alexandre",
+            "heroes": [
+              {
+                "hero": "Guus",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Crow",
+                "talisman": "T2"
+              },
+              {
+                "hero": "Yasmine",
+                "talisman": "T2"
+              },
+              {
+                "hero": "Luther",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Wodryn",
+                "talisman": "T1"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "suggested_by": "Alexandre",
+            "heroes": [
+              {
+                "hero": "Guus",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Oya",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Yasmine",
+                "talisman": "T2"
+              },
+              {
+                "hero": "Luther",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Wodryn",
+                "talisman": "T1"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "suggested_by": "Alexandre",
+            "heroes": [
+              {
+                "hero": "Eva",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Guus",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Oya",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Luther",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Wodryn",
+                "talisman": "T1"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "suggested_by": "Alexandre",
+            "heroes": [
+              {
+                "hero": "Eva",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Guus",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Crow",
+                "talisman": "T2"
+              },
+              {
+                "hero": "Luther",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Wodryn",
+                "talisman": "T1"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "suggested_by": "Alexandre",
+            "heroes": [
+              {
+                "hero": "Eva",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Guus",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Leonel",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Oya",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Wodryn",
+                "talisman": "T1"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "suggested_by": "Alexandre",
+            "heroes": [
+              {
+                "hero": "Peech",
+                "talisman": "T2"
+              },
+              {
+                "hero": "Guus",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Oya",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Luther",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Wodryn",
+                "talisman": "T1"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "suggested_by": "Alexandre",
+            "heroes": [
+              {
+                "hero": "Peech",
+                "talisman": "T2"
+              },
+              {
+                "hero": "Guus",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Crow",
+                "talisman": "T2"
+              },
+              {
+                "hero": "Luther",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Wodryn",
+                "talisman": "T1"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "suggested_by": "Alexandre",
+            "heroes": [
+              {
+                "hero": "Aidan",
+                "talisman": "T2"
+              },
+              {
+                "hero": "Guus",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Kayla",
+                "talisman": "T2"
+              },
+              {
+                "hero": "Luther",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Wodryn",
+                "talisman": "T1"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "suggested_by": "Alexandre",
+            "heroes": [
+              {
+                "hero": "Guus",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Yasmine",
+                "talisman": "T2"
+              },
+              {
+                "hero": "Tristan",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Luther",
+                "talisman": "T1"
+              },
+              {
+                "hero": "Wodryn",
+                "talisman": "T1"
+              }
+            ]
+          }
+        ],
       "notes": [
         "Initial stats are raw starting values before level growth and upgrades.",
         "Promotion and equipped-item bonuses are listed separately and exclude derived attributes.",
