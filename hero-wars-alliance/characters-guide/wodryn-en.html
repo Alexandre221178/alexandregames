@@ -557,7 +557,10 @@
       </picture>
       <figcaption>Unbowed Oak - Hero Wars Alliance.</figcaption>
     </figure>
-    <p><b>Skill Explanation:</b> When this protection activates, the affected hero takes <b><span style="color:#027b02;">33% of the damage at that reduction step (100% &minus; 67% = 33%)</span></b>. The important distinction is that <strong>67% is the reduction amount, not the activation chance</strong>. Each protected hero's own critical hit chance determines their chance to trigger the effect. The exact activation formula is not specified, so a critical stat value cannot be converted into a defensive percentage here.</p>
+    <p><b>Skill Explanation:</b> Unbowed Oak gives Wodryn and allies behind him a chance to reduce incoming damage. <strong>Each protected hero uses their own Critical Hit Chance stat</strong>: Wodryn's stat affects his protection, while an ally's stat affects that ally's protection. Increasing Wodryn's critical stat alone does not increase the whole team's activation chance. These values are stat points, not percentages: Wodryn's listed 10,054 Critical Hit Chance does not mean a 10,054% activation chance.</p>
+    <p>Deepwood Might supports both sides of this mechanic. Its temporary critical stat buff helps the allies behind Wodryn trigger their protection, while its permanent self-buff improves Wodryn's own chance as he spends Oak Bark. An ally does not need to land a critical hit to activate Unbowed Oak; this passive uses their critical stat to determine the chance of reducing damage they receive.</p>
+    <p>When the protection activates, the affected hero takes <b><span style="color:#027b02;">33% of the damage at that reduction step (100% &minus; 67% = 33%)</span></b>. For example, 100,000 damage entering this step becomes 33,000 on a successful activation. <strong>67% is the reduction amount, not the activation chance</strong>; raising Critical Hit Chance improves how often the protection activates, rather than increasing that reduction amount.</p>
+    <p><b>Critical stat and activation formula:</b> For ordinary physical critical hits, the <a href="../beginners-guide-hwa/stats-guide-hwa-en.html">Hero Stats guide</a> gives the formula <strong>Critical Hit Chance / (Critical Hit Chance + target's main stat) &times; 100%</strong>. That formula describes outgoing critical hits. Neither the skill description nor the available stats reference confirms the exact formula for Unbowed Oak's defensive activation, so it cannot yet be used to calculate a verified protection percentage.</p>
     <div class="emblem-title">
       <img src="../../imagens/img-shared-talisman-hwa/wodryn-talisman-1-of-two-forms-icon.webp" alt="Talisman of Two Forms" title="Talisman of Two Forms - Hero Wars Alliance" loading="lazy" width="60" height="60">
       <h4>Effect with Talisman 1: Talisman of Two Forms</h4>
@@ -565,7 +568,7 @@
     <ul>
       <li><strong>Damage reduction when triggered:</strong> <b><span style="color:#027b02;">67%</span></b></li>
       <li><strong>Damage remaining at this reduction step:</strong> <b><span style="color:#027b02;">33% (100% &minus; 67%)</span></b></li>
-      <li><strong>Activation chance:</strong> Depends on each protected hero's Critical Hit Chance; the exact formula is not specified.</li>
+      <li><strong>Activation chance:</strong> Uses the receiving hero's own Critical Hit Chance stat, including active buffs; the exact defensive formula is unconfirmed.</li>
     </ul>
     <p><b>Skill Info</b></p>
     <ul>
