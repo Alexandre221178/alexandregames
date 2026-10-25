@@ -3,6 +3,9 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+   { date:'2026-09-30', type:'hub', code:'NEWBASE', note:'until|2026-11-23T01:00:00Z',
+    rewards:['world-energy x30', '1h-research-speedup X1', '1h-training-speedup x1', '1h-general-speedup x2', '1h-construction-speedup x1', 'energy x20'] },
+
   { date:'2026-10-25', type:'daily', mission:'2-3', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-10-24', type:'hub', code:'WODRYNCALENDAR', note:'until|2026-11-23T01:00:00Z',
