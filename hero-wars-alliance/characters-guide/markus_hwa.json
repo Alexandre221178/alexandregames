@@ -1,0 +1,428 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "markus",
+      "name": "Markus",
+      "gender": "male",
+      "role": [
+        "Tank"
+      ],
+      "main_class": "Tank",
+      "main_role": "Front-line protection, healing and damage absorption",
+      "position": "Front Line",
+      "level": 120,
+      "main_stat": "Strength",
+      "faction": "Way of Honor",
+      "way": "Way of Honor",
+      "hydra_tier_list": null,
+      "how_to_get_soul_stones": null,
+      "synergy": null,
+      "relic_note": null,
+      "seo": {
+        "meta_description": null,
+        "h1_title": null
+      },
+      "stats": {
+        "talisman_of_compassion": {
+          "total_power": 228622,
+          "strength": 17684,
+          "agility": 3674,
+          "intelligence": 3860,
+          "health": 1254990,
+          "physical_attack": 68321,
+          "magic_attack": 26686,
+          "armor": 76686,
+          "magic_defense": 36696,
+          "dodge": 0,
+          "vampirism_percent": 0,
+          "armor_penetration": 0,
+          "magic_penetration": 0,
+          "crit_hit_chance": 0,
+          "magic_crit_hit_chance": 0,
+          "toughness": 5353,
+          "crushing": 0,
+          "magic_reflection": 0
+        },
+        "talisman_of_salvation": {
+          "total_power": 228192,
+          "strength": 15684,
+          "agility": 3674,
+          "intelligence": 3860,
+          "health": 1174990,
+          "physical_attack": 79521,
+          "magic_attack": 26686,
+          "armor": 52926,
+          "magic_defense": 50796,
+          "dodge": 0,
+          "vampirism_percent": 0,
+          "armor_penetration": 0,
+          "magic_penetration": 0,
+          "crit_hit_chance": 0,
+          "magic_crit_hit_chance": 0,
+          "toughness": 5353,
+          "crushing": 0,
+          "magic_reflection": 0
+        }
+      },
+      "stats_configuration": {
+        "level": 120,
+        "stars": 6,
+        "rank": 16,
+        "all_current_rank_gear_equipped": true,
+        "skin_levels": 60,
+        "glyph_levels": 80,
+        "artifact_levels": 100,
+        "artifact_stars": 6,
+        "gift_of_elements_level": 30,
+        "class_rune_upgrades": 9,
+        "class_ability_level": 45,
+        "overall_class_level": 585,
+        "talisman_level": 50,
+        "talisman_rerolls": "Maximum in all three slots",
+        "kits_included": false,
+        "research_included": false,
+        "relic_level": 0,
+        "note": "Stats are calculated separately for each equipped talisman. The artifact weapon activation buff and temporary combat effects are excluded from permanent stats."
+      },
+      "talisman_details": {
+        "talisman_of_compassion": {
+          "display_name": "Talisman of Compassion",
+          "level": 50,
+          "main_stat": "Strength",
+          "main_stat_bonus": 2000,
+          "reroll_slots": [
+            {
+              "stat": "Armor",
+              "value": 7920
+            },
+            {
+              "stat": "Armor",
+              "value": 7920
+            },
+            {
+              "stat": "Armor",
+              "value": 7920
+            }
+          ],
+          "total_reroll_bonus": {
+            "stat": "Armor",
+            "value": 23760
+          }
+        },
+        "talisman_of_salvation": {
+          "display_name": "Talisman of Salvation",
+          "level": 50,
+          "main_stat": "Magic defense",
+          "main_stat_bonus": 14100,
+          "reroll_slots": [
+            {
+              "stat": "Physical attack",
+              "value": 4400
+            },
+            {
+              "stat": "Physical attack",
+              "value": 4400
+            },
+            {
+              "stat": "Physical attack",
+              "value": 4400
+            }
+          ],
+          "total_reroll_bonus": {
+            "stat": "Physical attack",
+            "value": 13200
+          }
+        },
+        "recommended": null,
+        "recommended_reason": null
+      },
+      "realm": {
+        "role": "Front",
+        "skills": []
+      },
+      "skills": [
+        {
+          "id": 1,
+          "variant": "base",
+          "color": "Gray",
+          "level": 120,
+          "name": "Divine Protection",
+          "type": [
+            "Ultimate",
+            "Heal",
+            "Damage Immunity"
+          ],
+          "animation_delay_seconds": 0.85,
+          "range": 375,
+          "duration_seconds": 5,
+          "healing_formula": "150% Phys.atk. + 18000",
+          "description": "Markus heals the ally with the lowest Health and grants them immunity to all damage for 5 seconds.",
+          "evolution_priority": null,
+          "healing_examples": {
+            "talisman_of_compassion": 120481.5,
+            "talisman_of_salvation": 137281.5
+          }
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "color": "Green",
+          "level": 120,
+          "name": "Retribution Ray",
+          "type": [
+            "Physical Damage",
+            "Heal"
+          ],
+          "cooldown_seconds": 12,
+          "initial_cooldown_seconds": 9,
+          "animation_delay_seconds": 1,
+          "range": 375,
+          "physical_damage_formula": "75% Phys.atk. + 9000",
+          "healing_percent_of_ally_max_health": 20,
+          "description": "Markus damages enemies and heals allies in front of him and behind him. Healing restores 20% of the ally's maximum Health.",
+          "evolution_priority": null,
+          "physical_damage_examples": {
+            "talisman_of_compassion": 60240.75,
+            "talisman_of_salvation": 68640.75
+          }
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "color": "Blue",
+          "level": 100,
+          "name": "Compassion",
+          "type": [
+            "Physical Damage",
+            "Stun",
+            "Control"
+          ],
+          "keywords": [
+            "Stun",
+            "Control"
+          ],
+          "cooldown_seconds": 12,
+          "animation_delay_seconds": 0.7,
+          "range": 100,
+          "stun_duration_seconds": 3,
+          "physical_damage_formula": "100% Phys.atk. + 12000",
+          "description": "Deals physical damage to the nearest enemies in front of Markus and stuns them for 3 seconds.",
+          "evolution_priority": null,
+          "physical_damage_examples": {
+            "talisman_of_compassion": 80321,
+            "talisman_of_salvation": 91521
+          }
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "color": "Purple",
+          "level": 80,
+          "name": "Ascension",
+          "type": [
+            "Passive",
+            "Damage Absorption"
+          ],
+          "animation_delay_seconds": 0.5,
+          "damage_absorption_percent": 50,
+          "maximum_absorbed_damage_formula": "50% Health + 300000",
+          "trigger": "On Markus's death",
+          "gains_energy_as_spirit": false,
+          "can_be_targeted_as_spirit": false,
+          "description": "After death, Markus becomes a spirit and continues using his skills without gaining Energy. He absorbs 50% of the damage taken by allies until reaching the absorption limit, then disappears. While this skill is active, Markus cannot be targeted by skills or attacks.",
+          "evolution_priority": null,
+          "maximum_absorbed_damage_examples": {
+            "talisman_of_compassion": 927495.0,
+            "talisman_of_salvation": 887495.0
+          }
+        }
+      ],
+      "artifacts": [
+        {
+          "slot": "Weapon",
+          "name": "Blessed Mace",
+          "evolve": 6,
+          "level": 100,
+          "activation_chance": 100,
+          "magic_defense": 32040,
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "slot": "Book",
+          "name": "Defender's Covenant",
+          "evolve": 6,
+          "level": 100,
+          "magic_defense": 8010,
+          "armor": 8010,
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "slot": "Ring",
+          "name": "Ring of Strength",
+          "evolve": 6,
+          "level": 100,
+          "strength": 3990,
+          "evolution_priority": null,
+          "priority_reason": null
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default skin",
+          "stat": "Strength",
+          "level": 60,
+          "bonus": 1365,
+          "is_skin_plus": false,
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "name": "Nordic Skin",
+          "stat": "Health",
+          "level": 60,
+          "bonus": 106645,
+          "is_skin_plus": false,
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "name": "Barbarian Skin",
+          "stat": "Armor",
+          "level": 60,
+          "bonus": 10650,
+          "is_skin_plus": false,
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "name": "Winter Skin",
+          "stat": "Physical attack",
+          "level": 60,
+          "bonus": 7095,
+          "is_skin_plus": false,
+          "evolution_priority": null,
+          "priority_reason": null
+        },
+        {
+          "name": "Stellar Skin",
+          "stat": "Physical attack",
+          "level": 60,
+          "bonus": 7095,
+          "is_skin_plus": false,
+          "evolution_priority": null,
+          "priority_reason": null
+        }
+      ],
+      "glyphs": [
+        {
+          "order_in_game": 1,
+          "name": "Physical attack",
+          "level": 80,
+          "bonus": 8340,
+          "evolution_priority": null,
+          "priority_rank": null,
+          "priority_reason": null
+        },
+        {
+          "order_in_game": 2,
+          "name": "Health",
+          "level": 80,
+          "bonus": 122800,
+          "evolution_priority": null,
+          "priority_rank": null,
+          "priority_reason": null
+        },
+        {
+          "order_in_game": 3,
+          "name": "Armor",
+          "level": 80,
+          "bonus": 12850,
+          "evolution_priority": null,
+          "priority_rank": null,
+          "priority_reason": null
+        },
+        {
+          "order_in_game": 4,
+          "name": "Magic defense",
+          "level": 80,
+          "bonus": 12850,
+          "evolution_priority": null,
+          "priority_rank": null,
+          "priority_reason": null
+        },
+        {
+          "order_in_game": 5,
+          "name": "Strength",
+          "level": 80,
+          "bonus": 2110,
+          "evolution_priority": null,
+          "priority_rank": null,
+          "priority_reason": null
+        }
+      ],
+      "gift_of_elements": {
+        "level": 30,
+        "strength": 720,
+        "agility": 360,
+        "intelligence": 360
+      },
+      "class_ability": {
+        "class": "Tank",
+        "level": 45,
+        "overall_class_level": 585,
+        "max_class_level": 585,
+        "cooldown_seconds": 10,
+        "duration_seconds": 5,
+        "armor_and_magic_defense_increase_formula": "1% Health + 29250",
+        "description": "Every 10 seconds, increases the Armor and Magic Defense of the ally with the lowest Health percentage for 5 seconds. Can target Markus himself. The bonus depends on Markus's maximum Health."
+      },
+      "synergies": [],
+      "counters": [],
+      "best_teams": [],
+      "notes": [],
+      "rework": {
+        "title": "Rework do Markus",
+        "overview": "Markus recebeu um novo visual, mudou de função e teve suas habilidades reformuladas para atuar como tanque, oferecendo proteção, cura e absorção de dano aos aliados.",
+        "stats_and_equipment_changes": [
+          "Markus deixa a função de Curandeiro e passa a ser Tanque. A distribuição das melhorias da habilidade de classe pode mudar após a atualização.",
+          "Seu atributo principal passa a ser Força, e seu terceiro artefato passa a ser o Anel da Força.",
+          "Os novos glifos são Ataque Físico, Vida, Armadura, Defesa Mágica e Força.",
+          "A skin padrão passa a conceder Força. As skins de Inverno e Estelar passam a conceder Ataque Físico. Todas as skins de Markus passam a usar Pedras de Skin de Força para evoluir.",
+          "O Talismã da Compaixão concede Força e Armadura. O Talismã da Salvação concede Defesa Mágica e Ataque Físico.",
+          "Os equipamentos também mudam, mas todo o progresso de melhoria existente será preservado."
+        ],
+        "skill_changes": [
+          {
+            "skill_id": 1,
+            "description": "Markus cura o aliado mais ferido e o protege completamente contra dano."
+          },
+          {
+            "skill_id": 2,
+            "description": "Markus causa dano aos inimigos e cura aliados à sua frente e atrás dele. A cura passa a considerar uma porcentagem da Vida máxima dos aliados."
+          },
+          {
+            "skill_id": 3,
+            "description": "Markus causa dano aos inimigos mais próximos à sua frente e os atordoa por 3 segundos."
+          },
+          {
+            "skill_id": 4,
+            "description": "Após morrer, Markus se torna um espírito, continua usando suas habilidades e absorve parte do dano recebido pelos aliados. Ele não pode ser alvo de habilidades. Sua permanência como espírito depende do limite de dano absorvido, calculado a partir de sua Vida, em vez de um contador fixo de tempo."
+          }
+        ]
+      },
+      "author_opinion": {
+        "title": "Minha opinião sobre o rework do Markus",
+        "paragraphs": [
+          "Desde que comecei a jogar Hero Wars Alliance, há oito anos, nunca vi Markus entre os heróis do meta. Ele fazia um combo com Luther: quando Luther saltava para o time inimigo, Markus assumia a linha de frente como tanque. Mas, como era um curandeiro, acabou perdendo espaço e ficando cada vez mais fraco com a chegada de novos heróis.",
+          "Sinceramente, as novas habilidades de Markus não me impressionaram tanto. A mudança me parece mais um buff do que um rework. A habilidade que mais chamou minha atenção foi a quarta, a roxa. Ele continua voltando como fantasma, mas agora, além de usar suas habilidades, também absorve parte do dano recebido pelos aliados. O contador de tempo dá lugar a um limite de absorção que depende da Vida de Markus: quanto mais Vida ele tiver, mais dano poderá absorver e, dependendo do dano recebido pelo time, mais tempo poderá permanecer em batalha. Essa mecânica me lembra o Altar do Corvus.",
+          "Na minha sincera opinião, Markus está melhor. Ele deixa de ser um curandeiro que eu considerava inútil para se tornar um excelente tanque de suporte, com mais resistência e durabilidade. Quem sabe até volte a formar um bom combo com Luther.",
+          "Ainda é cedo para decidir se ele vai entrar no meta, mas vejo potencial de investimento para os próximos meses. Uma possível skin+ pode fazer diferença e, se for de Vida, pode ser um estouro por aumentar também o limite de absorção da quarta habilidade.",
+          "Markus tem poucas skins, não tem skin+ e não tem relíquias neste cenário do rework. Por isso, acredito que ainda podemos esperar novidades para ele. Isso é uma expectativa minha, e não uma confirmação de futuros lançamentos."
+        ]
+      }
+    }
+  ]
+}
