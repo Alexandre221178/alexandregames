@@ -10,7 +10,9 @@
   rewards:['energy x500'] },
 https://www.hero-wars.com/?nx_source=group_posting_giftweb&gift_id=
 */window.HWDE_GIFTS = [
-  { date:'2026-10-##', type:'link', giftLinkWeb:'https://herowars.me/4jGk5uQ!', giftLinkFb:'https://herowars.me/4yLdZNE', note:'until|2026-10-##T02:00:00Z',
+      { date:'2026-10-26', type:'link', giftId:'58b537eaceb8d347f18dd449f12c3c34', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
+  { date:'2026-10-26', type:'link', giftLinkWeb:'https://herowars.me/4jGk5uQ!', giftLinkFb:'https://herowars.me/4yLdZNE', note:'until|2026-10-##T02:00:00Z',
   rewards:['spirit-energy x24', 'pumpkin x12500', 'treat x2'] },
   { date:'2026-10-25', type:'link', giftId:'54ec4c7d09d1db573d72eda4778ba794', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] }, 
