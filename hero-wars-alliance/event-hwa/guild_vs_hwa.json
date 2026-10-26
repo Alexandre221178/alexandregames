@@ -1054,6 +1054,463 @@
       "seasonNumber": 30,
       "tasksUrl": "https://api.hw-warden.com/api/hw/events/guild-versus",
       "rewardsUrl": "https://api.hw-warden.com/api/hw/events/guild-versus/rewards"
+    },
+    "strategyGuides": {
+      "bountifulRoads": {
+        "eventId": "bountiful-roads",
+        "eventName": "Bountiful Roads / Trade Routes",
+        "guidePath": "trade-routes-bountiful-roads-en.html",
+        "verifiedDate": "2026-10-26",
+        "weekStart": "2026-10-26",
+        "weekEnd": "2026-11-01",
+        "dateConvention": "Dates and weekdays follow the Guild Versus game-day labels. The daily reset is 02:00 UTC, which is 23:00 on the previous calendar date in Sao Paulo (UTC-3). Follow the in-game countdown.",
+        "rules": [
+          "No Time to Wait (speed-ups) and Energy of Evolution repeat after a full cycle; they do not reset daily. Schedule saved resources on the matching Guild Versus day.",
+          "Talisman rerolls spend Meta Cubes. The current Guild Versus tasks do not award points directly for rerolls or Meta Cubes; Mastery Crystals earned from rerolls can be saved for Thursday.",
+          "Roads Unlocked has six daily chains plus an event-wide login chain. Complete affordable daily milestones every day instead of saving every resource for one preferred weekday.",
+          "Grand Caravan objectives are event-wide, including VIP Points and troop losses. Its chains do not reset daily or repeat.",
+          "Receiving a resource and spending it are different actions. Claim Mastery Crystals, Rune Stones and Rune Spheres before their preferred spending day; spend them on that day.",
+          "Sunday has no Guild Versus tasks. Finish remaining event goals then if needed, but save flexible spending for an active scoring day.",
+          "Prefer upgrades your account needs. Do not waste resources, force troop losses, or exceed a planned budget just to reach an extra milestone."
+        ],
+        "resourceTiming": [
+          {
+            "resource": "Construction speed-ups",
+            "bestDays": [
+              "Tuesday"
+            ],
+            "taskId": "use-building-speed-up-minutes",
+            "eventMission": "No Time to Wait",
+            "tip": "Use construction speed-ups on Tuesday: 200 Guild Versus points per minute. Building power also scores 200 points per power gained that day."
+          },
+          {
+            "resource": "Research speed-ups",
+            "bestDays": [
+              "Wednesday"
+            ],
+            "taskId": "use-research-speed-up-minutes",
+            "eventMission": "No Time to Wait",
+            "tip": "Use research speed-ups on Wednesday: 200 points per minute, plus 30 points per research power gained. Honor Marks spent that day score 2,000 points each."
+          },
+          {
+            "resource": "Training speed-ups",
+            "bestDays": [
+              "Friday",
+              "Saturday"
+            ],
+            "taskId": "use-training-speed-up-minutes",
+            "eventMission": "No Time to Wait",
+            "tip": "Training speed-ups score 200 points per minute on either day. Prefer Friday when also completing troop training: level 9 troops give 120 points each; lower levels have their own rates."
+          },
+          {
+            "resource": "Healing speed-ups",
+            "bestDays": [
+              "Saturday"
+            ],
+            "taskId": "use-healing-speed-up-minutes",
+            "eventMission": "No Time to Wait",
+            "tip": "Use healing speed-ups on Saturday for 200 points per minute. Use them when healing is already needed."
+          },
+          {
+            "resource": "Energy and Emerald-funded Energy refills",
+            "bestDays": [
+              "Wednesday"
+            ],
+            "taskId": "spend-energy",
+            "eventMission": "Energy of Evolution; Grand Caravan Wise Exchange",
+            "tip": "Spend saved Energy on Wednesday for 100 points per 3 Energy. Emeralds spent on the refills also advance Wise Exchange; Emerald spending itself is not a separate Guild Versus task."
+          },
+          {
+            "resource": "Mastery Crystals from Talisman rerolls",
+            "bestDays": [
+              "Thursday"
+            ],
+            "taskId": "spend-mastery-crystals",
+            "eventMission": "Transforming Talisman",
+            "tip": "Reroll a useful Talisman to collect Mastery Crystals, then spend the crystals on Thursday for 200 points per 15. Rerolls themselves have no direct Guild Versus scoring task."
+          },
+          {
+            "resource": "Rune Spheres and Rune Stones",
+            "bestDays": [
+              "Saturday"
+            ],
+            "taskIds": [
+              "spend-rune-spheres",
+              "spend-rune-stones"
+            ],
+            "eventMission": "Bountiful Roads mission rewards",
+            "tip": "Save Rune Spheres and Rune Stones earned from event quests until Saturday: 50,000 points per 100 Rune Spheres and 100 points per 20 Rune Stones."
+          },
+          {
+            "resource": "Hero Skin Stones",
+            "bestDays": [
+              "Tuesday"
+            ],
+            "taskId": "spend-hero-skin-stones",
+            "eventMission": "Roads Unlocked Prince of Power",
+            "tip": "Tuesday gives 700 points per 15 Hero Skin Stones. Keep collecting affordable daily Prince of Power milestones on other days; do not sacrifice six days of rewards just to concentrate everything on Tuesday."
+          },
+          {
+            "resource": "Artifact Chest keys",
+            "bestDays": [
+              "Wednesday",
+              "Friday"
+            ],
+            "taskId": "open-artifact-chest",
+            "eventMission": "Grand Caravan Sealed Away",
+            "tip": "Artifact Chests give 750 points each on Wednesday or Friday. Choose the day that fits a confirmed in-game discount or your guild target."
+          },
+          {
+            "resource": "Artifact Coins and Chaos Cores",
+            "bestDays": [
+              "Thursday"
+            ],
+            "taskId": "increase-hero-power",
+            "eventMission": "Grand Caravan Artifact Empowering",
+            "tip": "Spend Artifact Coins on useful artifact upgrades on Thursday to score the resulting hero power at 30 points per power. Artifact Coins have no direct spending task. Chaos Cores spent Thursday score a separate 3,000 points each."
+          },
+          {
+            "resource": "Relic Shards and equipment from Caravan Hall",
+            "bestDays": [
+              "Thursday"
+            ],
+            "taskIds": [
+              "spend-relic-shards",
+              "equip-red-item",
+              "equip-orange-item",
+              "equip-violet-item",
+              "equip-blue-item",
+              "equip-green-item",
+              "equip-white-item"
+            ],
+            "eventMission": "Caravan Hall purchases",
+            "tip": "Buying shop items is not the scoring action. Spend Relic Shards Thursday for 150,000 points per 10 shards, or equip useful gear for its listed color reward. Relic Shards also score at the same rate on Monday."
+          },
+          {
+            "resource": "Elemental Spheres",
+            "bestDays": [
+              "Monday",
+              "Friday"
+            ],
+            "taskId": "open-elemental-sphere",
+            "eventMission": "Grand Caravan and Bountiful Roads reward claims",
+            "tip": "Open Elemental Spheres from mission rewards on Monday or Friday for 1,200 points each. Claiming spheres alone does not score the opening task."
+          },
+          {
+            "resource": "Hero Soul Stone reward claims",
+            "bestDays": [
+              "Tuesday"
+            ],
+            "taskId": "get-hero-soul-stone",
+            "eventMission": "Roads Unlocked and Grand Caravan completion rewards",
+            "tip": "Claim event-wide rewards containing Hero Soul Stones on Tuesday for 500 points per stone if doing so does not miss a claim deadline. Do not leave daily rewards unclaimed past reset."
+          },
+          {
+            "resource": "Troop losses",
+            "bestDays": [
+              "Saturday"
+            ],
+            "taskId": "lose-troop-level-9",
+            "eventMission": "Grand Caravan Tactical Losses",
+            "tip": "Only losses battling another player score Guild Versus on Saturday. Level 9 losses give 18 points each, level 8 gives 16, and level 6 gives 8. Meet the level requirement shown by your Grand Caravan tier; avoid unnecessary losses."
+          },
+          {
+            "resource": "Arena fights",
+            "bestDays": [
+              "Tuesday",
+              "Thursday",
+              "Saturday"
+            ],
+            "taskId": "fight-arena",
+            "eventMission": "Grand Caravan Trial of Strength",
+            "tip": "Arena fights give 6,000 points each on these days while advancing Trial of Strength. Grand Arena has its own Guild Versus task but does not substitute for the event Arena requirement."
+          },
+          {
+            "resource": "Fairy Dust and Titan upgrades",
+            "bestDays": [
+              "Monday"
+            ],
+            "taskId": "increase-titan-power",
+            "eventMission": "Roads Unlocked Hidden Reserves",
+            "tip": "If Fairy Dust spending raises Titan Power, schedule the larger planned upgrade for Monday: 100 points per 3 Titan Power gained. Fairy Dust spending has no direct Guild Versus task. Still complete affordable daily Hidden Reserves milestones on other days."
+          },
+          {
+            "resource": "Tower chests, Expeditions and VIP Points",
+            "bestDays": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "taskIds": [
+              "open-tower-chest",
+              "start-expedition",
+              "get-vip-points"
+            ],
+            "eventMission": "Roads Unlocked daily quests; Grand Caravan VIP",
+            "tip": "All active days use the same rates: 4,000 per Tower chest, 5,000 per Expedition started and 100 per VIP Point. Complete daily Roads Unlocked milestones rather than postponing them; do not spend solely for VIP points."
+          }
+        ],
+        "missionStrategies": [
+          {
+            "sectionId": "day-after-day",
+            "mission": "Day After Day",
+            "strategy": "Log in daily and claim every Adventure Coin reward. Logging in and obtaining Adventure Coins have no direct Guild Versus scoring task, so there is no better weekday for this chain. Plan the use of your other event rewards around their own scoring actions. Do not skip a login to wait for a spending day."
+          },
+          {
+            "sectionId": "transforming-talisman",
+            "mission": "Transforming Talisman",
+            "strategy": "Rerolls and Meta Cube spending have no direct Guild Versus task. Reroll only a useful Talisman, then save the Mastery Crystals you earn for Thursday: 200 points per 15 crystals spent. Save the Rune Spheres from the first milestone for Saturday: 50,000 points per 100 spheres spent. You may reroll earlier in the week to have these rewards ready; claiming a resource is different from spending it."
+          },
+          {
+            "sectionId": "talisman-grow-in-power",
+            "mission": "No Time to Wait",
+            "strategy": "Use construction speed-ups Tuesday, research speed-ups Wednesday, training speed-ups Friday or Saturday, and healing speed-ups Saturday. Each matching Guild Versus task gives 200 points per minute. Friday can also score troops trained, while Saturday fits needed healing after planned PvP activity. This Bountiful Roads chain repeats after 2,460 minutes; it does not reset daily. Use general speed-ups on the matching activity and check that the in-game Guild Versus counter advances."
+          },
+          {
+            "sectionId": "energy-of-evolution",
+            "mission": "Energy of Evolution",
+            "strategy": "Save flexible Energy spending for Wednesday: Guild Versus gives 100 points per 3 Energy spent. Energy of Evolution also advances and repeats after each 4,000-Energy cycle. If using planned Emerald refills, those Emeralds additionally advance Grand Caravan Wise Exchange. Claim the Rune Stones from completed cycles and save their spending for Saturday, when 20 Rune Stones give 100 points. Do not let normal Energy regeneration or an event deadline go to waste while waiting."
+          },
+          {
+            "sectionId": "complete-roads-unlocked",
+            "mission": "Complete Roads Unlocked Quests",
+            "strategy": "Build this counter through affordable Roads Unlocked daily milestones every day; do not sacrifice daily rewards to concentrate everything on one Guild Versus day. Tuesday favors planned Hero Skin Stone spending at 700 points per 15 stones. Tower chests and Expeditions have the same rates Monday through Saturday: 4,000 per chest and 5,000 per Expedition. If already unlocked in time, claim Hero Soul Stone meta-rewards Tuesday for 500 points per stone; spend earned Rune Stones Saturday. The completion counter itself has no direct Guild Versus task."
+          },
+          {
+            "sectionId": "complete-grand-caravan",
+            "mission": "Complete Grand Caravan Quests",
+            "strategy": "Advance the underlying quests on their matching Guild Versus days: Energy Wednesday, Artifact Chests Wednesday or Friday, useful artifact upgrades Thursday, Arena Tuesday/Thursday/Saturday, and already-planned qualifying PvP losses Saturday. VIP Points score the same 100 points each on all active days. This counter goes to 72 Grand Caravan quest steps and does not score Guild Versus directly. Claim unlocked Crow or Yasmine Soul Stones Tuesday only if you can do so before the claim deadline; open earned Elemental Spheres Monday or Friday."
+          }
+        ]
+      },
+      "grandCaravan": {
+        "eventId": "grand-caravan",
+        "eventName": "Grand Caravan / Trade Routes",
+        "guidePath": "trade-routes-grand-caravan-en.html",
+        "verifiedDate": "2026-10-26",
+        "weekStart": "2026-10-26",
+        "weekEnd": "2026-11-01",
+        "dateConvention": "Dates and weekdays follow the Guild Versus game-day labels. The daily reset is 02:00 UTC, which is 23:00 on the previous calendar date in Sao Paulo (UTC-3). Follow the in-game countdown.",
+        "rules": [
+          "All seven Grand Caravan mission chains track progress across the event. VIP Points and Tactical Losses do not reset daily and no Grand Caravan chain repeats after completion.",
+          "Emerald spending and Artifact Coin spending have no direct Guild Versus task. Score through the action purchased or the hero power actually gained on the appropriate day.",
+          "Artifact Chests score equally on Wednesday and Friday. There is no need to split the Grand Caravan ladder between those days unless doing so helps your guild or a confirmed in-game discount.",
+          "Roads Unlocked VIP quests reset daily. Balance any planned purchases with those daily milestones rather than moving every purchase to one day; do not buy solely for Guild Versus points.",
+          "Tactical Losses has alternative level 9+, 8+ and 6+ versions. Use the version shown in your game. Only losses battling another player count for Saturday Guild Versus troop-loss points.",
+          "Claiming rewards is not always the scoring action. Hero Soul Stones score when obtained on Tuesday, while Rune Stones, Rune Spheres, Mastery Crystals and Elemental Spheres score when spent or opened on their matching day.",
+          "Sunday has no Guild Versus tasks. Finish any remaining Grand Caravan objectives before the event ends, but do flexible spending on a matching active day when possible.",
+          "Keep daily logins and normal Arena progress. Do not delay a claim beyond its deadline, waste resources, or force unnecessary troop losses for an extra milestone."
+        ],
+        "resourceTiming": [
+          {
+            "resource": "Generous Soul — VIP Points",
+            "bestDays": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "taskId": "get-vip-points",
+            "eventMission": "Generous Soul",
+            "tip": "Every active day gives 100 Guild Versus points per VIP Point. Grand Caravan VIP progress is event-wide, so there is no uniquely better VIP weekday. Use only planned purchases and consider the separate daily Roads Unlocked VIP milestones."
+          },
+          {
+            "resource": "Wise Exchange — Emeralds spent on Energy",
+            "bestDays": [
+              "Wednesday"
+            ],
+            "taskId": "spend-energy",
+            "eventMission": "Wise Exchange",
+            "tip": "Use planned Emerald refills and spend the Energy on Wednesday: Guild Versus gives 100 points per 3 Energy, Bountiful Roads advances Energy of Evolution, and the Emeralds advance Wise Exchange. Buying Energy alone does not score the Energy-spending task."
+          },
+          {
+            "resource": "Wise Exchange — Emeralds spent on Artifact Chests",
+            "bestDays": [
+              "Wednesday",
+              "Friday"
+            ],
+            "taskId": "open-artifact-chest",
+            "eventMission": "Wise Exchange; Sealed Away",
+            "tip": "If paying Emeralds for Artifact Chests is already in your plan, Wednesday or Friday combines Wise Exchange and Sealed Away with 750 Guild Versus points per chest. Check an actual in-game discount before choosing; use saved keys first."
+          },
+          {
+            "resource": "Artifact Empowering — Artifact Coins",
+            "bestDays": [
+              "Thursday"
+            ],
+            "taskId": "increase-hero-power",
+            "eventMission": "Artifact Empowering",
+            "tip": "Spend Artifact Coins on useful artifact upgrades Thursday. Guild Versus awards 30 points per hero power actually gained; it does not award points directly per Artifact Coin. Chaos Cores consumed Thursday score another 3,000 points each."
+          },
+          {
+            "resource": "Sealed Away — saved Artifact Chest keys",
+            "bestDays": [
+              "Wednesday",
+              "Friday"
+            ],
+            "taskId": "open-artifact-chest",
+            "eventMission": "Sealed Away",
+            "tip": "Open saved Artifact Chests on Wednesday or Friday for 750 points each. The full 125-chest Grand Caravan ladder therefore adds 93,750 Guild Versus points if every opening falls on those days."
+          },
+          {
+            "resource": "Trial of Strength — Arena fights",
+            "bestDays": [
+              "Tuesday",
+              "Thursday",
+              "Saturday"
+            ],
+            "taskId": "fight-arena",
+            "eventMission": "Trial of Strength",
+            "tip": "Use normal Arena attempts on Tuesday, Thursday and Saturday for 6,000 Guild Versus points per fight while progressing toward 30 event fights. Continue normal attempts on other days if needed; Grand Arena does not substitute for the Grand Caravan Arena objective."
+          },
+          {
+            "resource": "Tactical Losses — qualifying PvP troop losses",
+            "bestDays": [
+              "Saturday"
+            ],
+            "taskIds": [
+              "lose-troop-level-9",
+              "lose-troop-level-8",
+              "lose-troop-level-6"
+            ],
+            "eventMission": "Tactical Losses",
+            "tip": "When losses are part of your planned PvP activity, Saturday also scores Guild Versus: 18 points per level 9 troop, 16 per level 8 and 8 per level 6. Use the level threshold in your event tier. Boss or monster losses do not score the Guild Versus PvP loss task; avoid unnecessary losses."
+          },
+          {
+            "resource": "Crow and Eva Soul Stone reward claims",
+            "bestDays": [
+              "Tuesday"
+            ],
+            "taskId": "get-hero-soul-stone",
+            "eventMission": "Generous Soul; Artifact Empowering; Sealed Away",
+            "tip": "Claim available event-wide Crow and Eva Soul Stone rewards Tuesday for 500 Guild Versus points per Hero Soul Stone, provided this does not miss a claim deadline. Pallant Soul Stones are Titan fragments and do not score the Hero Soul Stone task."
+          },
+          {
+            "resource": "Rune Stones and Rune Spheres from rewards",
+            "bestDays": [
+              "Saturday"
+            ],
+            "taskIds": [
+              "spend-rune-stones",
+              "spend-rune-spheres"
+            ],
+            "eventMission": "Grand Caravan reward claims",
+            "tip": "Collect these rewards in time to spend them Saturday: 100 Guild Versus points per 20 Rune Stones and 50,000 per 100 Rune Spheres. Claiming the resources alone does not score their spending tasks."
+          },
+          {
+            "resource": "Mastery Crystals from Sealed Away",
+            "bestDays": [
+              "Thursday"
+            ],
+            "taskId": "spend-mastery-crystals",
+            "eventMission": "Sealed Away",
+            "tip": "The first Artifact Chest milestone grants Mastery Crystals. Opening those chests Wednesday lets you spend the crystals Thursday for 200 Guild Versus points per 15. Spend them on a useful Talisman upgrade."
+          },
+          {
+            "resource": "Elemental Spheres from rewards",
+            "bestDays": [
+              "Monday",
+              "Friday"
+            ],
+            "taskId": "open-elemental-sphere",
+            "eventMission": "Wise Exchange; Artifact Empowering; Trial of Strength; Tactical Losses",
+            "tip": "Open earned Elemental Spheres Monday or Friday for 1,200 Guild Versus points each. Friday is the later option for rewards obtained during this event week; do not postpone them to next Monday after this rotation ends."
+          }
+        ],
+        "missionStrategies": [
+          {
+            "sectionId": "day-after-day",
+            "mission": "Day After Day",
+            "strategy": "Log in every day to keep all seven rewards. Logging in itself has no direct Guild Versus scoring task. The reward is Adventure Energy, not the normal Energy used by Wednesday?s Energy-spending task. Plan Realm boss activity for Monday, Wednesday or Friday when each boss victory gives 850 Guild Versus points, while keeping affordable daily Roads Unlocked rally milestones on other days. Do not delay the daily login to wait for a scoring day."
+          },
+          {
+            "sectionId": "generous-soul",
+            "mission": "Generous Soul",
+            "strategy": "VIP Points give the same 100 Guild Versus points per VIP Point on every active day, Monday through Saturday. Grand Caravan VIP progress is event-wide, so there is no single best VIP weekday. Keep planned purchases within your budget and consider the separate Roads Unlocked daily VIP milestones. If available before Tuesday’s reset, Crow and Eva Soul Stone rewards can be claimed Tuesday for 500 points per Hero Soul Stone; never miss a claim deadline to wait for that day."
+          },
+          {
+            "sectionId": "value-exchange",
+            "mission": "Wise Exchange",
+            "strategy": "Emerald spending has no direct Guild Versus task: choose the action the Emeralds buy. Wednesday is the best match for planned Energy refills if you spend the Energy that day: 100 points per 3 Energy, plus Bountiful Roads Energy of Evolution progress. If already planning paid Artifact Chests, open them Wednesday or Friday for 750 points each while advancing Sealed Away. Prefer saved keys and do not spend extra Emeralds only to reach another milestone."
+          },
+          {
+            "sectionId": "artifacts-empowering",
+            "mission": "Artifact Empowering",
+            "strategy": "Use Artifact Coins on useful artifact upgrades Thursday to score the hero power actually gained at 30 Guild Versus points per power. There is no direct score per Artifact Coin spent. Chaos Cores consumed Thursday give a separate 3,000 points each. Save Rune Stones and Rune Spheres from these rewards for Saturday: 100 points per 20 Rune Stones and 50,000 per 100 Rune Spheres."
+          },
+          {
+            "sectionId": "sealed-away",
+            "mission": "Sealed Away",
+            "strategy": "Open Artifact Chests Wednesday or Friday: both days give 750 Guild Versus points per chest. Completing all 125 openings on these days adds 93,750 points; split them only if it helps your guild or fits a confirmed in-game discount. Wednesday also lets you spend the Mastery Crystals from the first reward on Thursday for 200 points per 15 crystals. Use saved keys before paying Emeralds."
+          },
+          {
+            "sectionId": "trial-of-strength",
+            "mission": "Trial of Strength",
+            "strategy": "Use Arena attempts Tuesday, Thursday or Saturday for 6,000 Guild Versus points per fight while advancing this mission. Continue ordinary attempts on other days if needed to reach 30 fights before the event ends. Grand Arena has its own Guild Versus task but does not count as an Arena fight for Trial of Strength. Claiming Pallant Soul Stones does not score the Tuesday Hero Soul Stone task."
+          },
+          {
+            "sectionId": "tactical-losses",
+            "mission": "Tactical Losses",
+            "strategy": "Align already-planned qualifying PvP activity with Saturday: Guild Versus awards 18 points per level 9 troop lost, 16 per level 8 and 8 per level 6. Only losses battling another player count for that Guild Versus task; boss or monster losses do not. Follow your event’s level 9+, 8+ or 6+ version and do not add the three ladders together. Training and healing speed-ups used Saturday give 200 points per minute and also advance Bountiful Roads No Time to Wait. Avoid unnecessary losses."
+          }
+        ]
+      },
+      "roadsUnlocked": {
+        "eventId": "roads-unlocked",
+        "eventName": "Roads Unlocked / Trade Routes",
+        "guidePath": "trade-routes-roads-unlocked-en.html",
+        "verifiedDate": "2026-10-26",
+        "weekStart": "2026-10-26",
+        "weekEnd": "2026-11-01",
+        "dateConvention": "Dates and weekdays follow the Guild Versus game-day labels. The daily reset is 02:00 UTC, which is 23:00 on the previous calendar date in Sao Paulo (UTC-3). Follow the in-game countdown.",
+        "rules": [
+          "Day After Day is event-wide. The other six chains reset daily. Keep affordable daily milestones instead of postponing every action until its preferred Guild Versus day.",
+          "Guild Versus has no tasks on Sunday; complete remaining event goals and the Sunday login before the event ends.",
+          "Getting a reward and spending it are different actions. Do not treat Titan Soul Stones as Hero Soul Stones or Adventure Energy as normal Energy."
+        ],
+        "missionStrategies": [
+          {
+            "sectionId": "day-after-day",
+            "mission": "Day After Day",
+            "strategy": "Log in every day to complete all seven event milestones. Logging in and receiving Spooky Coins or Season Points have no direct Guild Versus scoring task, so there is no preferred scoring day for the login itself. Keep Sunday’s login too, even though Sunday has no Guild Versus tasks. Plan the spending of your other resources around their own Guild Versus days."
+          },
+          {
+            "sectionId": "generous-soul",
+            "mission": "Generous Soul",
+            "strategy": "VIP Points give 100 Guild Versus points each on every active day, Monday through Saturday. There is no uniquely better VIP weekday. This Roads Unlocked ladder resets daily, unlike Grand Caravan’s event-wide VIP chain: consider affordable daily milestones rather than concentrating all planned purchases on one day. Do not make extra purchases only for Guild Versus points. Save Rune Stones from these rewards for Saturday, when spending 20 gives 100 points."
+          },
+          {
+            "sectionId": "hidden-reserves",
+            "mission": "Hidden Reserves",
+            "strategy": "Fairy Dust spending has no direct Guild Versus task. If the upgrade increases Titan Power, Monday scores 100 points per 3 Titan Power gained, making it the best day for a larger planned Titan upgrade. This event chain resets daily, so keep collecting affordable daily milestones on other days instead of saving all Fairy Dust for Monday. Pallant Soul Stones are Titan fragments and do not count for Tuesday’s Hero Soul Stone task."
+          },
+          {
+            "sectionId": "on-a-titanic-scale",
+            "mission": "Prince of Power",
+            "strategy": "Tuesday is the strongest direct match: spending 15 Hero Skin Stones gives 700 Guild Versus points while advancing Prince of Power. On Thursday, useful skin upgrades may instead score through hero power actually gained, at 30 points per power. This Roads Unlocked ladder resets daily; do not sacrifice the rest of the week’s affordable milestones to spend everything Tuesday. Save Rune Spheres and Rune Stones earned here for Saturday."
+          },
+          {
+            "sectionId": "beyond-horizon",
+            "mission": "Beyond Horizon",
+            "strategy": "Starting an Expedition gives 5,000 Guild Versus points on every active day, Monday through Saturday. There is no special weekday to save Expeditions for: begin up to eight each day when practical to complete the daily event ladder. Sunday still advances Roads Unlocked but has no Guild Versus scoring. Save earned Rune Spheres for Saturday and open earned resources only when their own Guild Versus task applies."
+          },
+          {
+            "sectionId": "tower-trophy",
+            "mission": "Tower Trophy",
+            "strategy": "Every Tower chest opened Monday through Saturday gives 4,000 Guild Versus points. The 25-chest event target therefore adds 100,000 Guild Versus points on any active day. There is no better weekday for Tower chests themselves, and Tower Trophy resets daily, so do not postpone normal free openings. Sunday still provides event rewards without Guild Versus points. Use the paid 25-chest route only when its Emerald cost fits your budget; those Emeralds also advance Grand Caravan Wise Exchange."
+          },
+          {
+            "sectionId": "payback-time",
+            "mission": "Payback Time",
+            "strategy": "Boss victories give 850 Guild Versus points each on Monday, Wednesday and Friday. Lead the rally yourself so the same victory also advances Payback Time; ordinary participation does not fulfill this Roads Unlocked leader objective. This event ladder resets daily, so keep affordable daily rallies on other days too, even when Guild Versus has no boss task. Save earned Rune Spheres and Rune Stones for Saturday. Do not force troop losses during rallies: Saturday’s Guild Versus troop-loss task requires battles against another player."
+          }
+        ]
+      }
     }
   }
 }
