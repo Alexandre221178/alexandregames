@@ -1048,6 +1048,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/ascension-to-asgard-en.html", pt: "../../hero-wars-dominion-era/events/ascension-to-asgard-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      {
+        titles: { en: "Spooky Festival 2026", pt: "Festival Assustador 2026", de: "Gruselfestival 2026", es: "Festival Espeluznante 2026", fr: "Festival Effrayant 2026", ja: "スプーキー・フェスティバル 2026" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/spooky-festival-2026-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
 {
         titles: { en: "🔶Guardians of Outland", pt: "🔶Guardiões da Fronteira", de: "🔶Wächter des Außenlands", es: "🔶Guardianes de la Frontera", fr: "🔶Gardiens de l'Outreterre", ja: "🔶アウトランドの守護者" },
         links: { en: "../../hero-wars-dominion-era/events/guardians-of-outland-en.html", pt: "../../hero-wars-dominion-era/events/guardians-of-outland-pt.html", de: "../../hero-wars-dominion-era/events/guardians-of-outland-de.html", es: "../../hero-wars-dominion-era/events/guardians-of-outland-es.html", fr: "../../hero-wars-dominion-era/events/guardians-of-outland-fr.html", ja: "../../hero-wars-dominion-era/events/guardians-of-outland-ja.html" },
@@ -1084,6 +1089,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
      links: { en: "../../hero-wars-dominion-era/events/territory-of-titans-en.html", pt: "../../hero-wars-dominion-era/events/territory-of-titans-pt.html", de: "../../hero-wars-dominion-era/events/territory-of-titans-de.html", es: "../../hero-wars-dominion-era/events/territory-of-titans-es.html", fr: "../../hero-wars-dominion-era/events/territory-of-titans-fr.html", ja: "../../hero-wars-dominion-era/events/territory-of-titans-ja.html" },
     noStrip: true,
     extra: [
+      {
+        titles: { en: "Spooky Festival 2026", pt: "Festival Assustador 2026", de: "Gruselfestival 2026", es: "??Festival Espeluznante 2026", fr: "??Festival Effrayant 2026", ja: "??????????????2026" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/spooky-festival-2026-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
      
       {
     titles: { en: "💠Ascension to Asgard", pt: "💠Ascensão a Asgard", de: "💠Aufstieg nach Asgard", es: "💠Ascensión a Asgard", fr: "💠Ascension vers Asgard", ja: "💠アスガルドへの昇天" },
@@ -1114,6 +1124,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     noStrip: true,
     extra: [
       {
+        titles: { en: "Spooky Festival 2026", pt: "Festival Assustador 2026", de: "Gruselfestival 2026", es: "Festival Espeluznante 2026", fr: "Festival Effrayant 2026", ja: "スプーキー・フェスティバル 2026" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/spooky-festival-2026-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
+      {
     titles: {  en: "🏰 Area of Conquest: Titan Territory",  pt: "🏰 Área de Conquista: Território dos Titãs", de: "🏰 Eroberungsgebiet: Territorium der Titanen", es: "🏰 Área de Conquista: Territorio de los Titanes", fr: "🏰 Zone de Conquête : Territoire des Titans", ja: "🏰 征服エリア：タイタンの領域"}, 
     links: { en: "../../hero-wars-dominion-era/events/territory-of-titans-en.html", pt: "../../hero-wars-dominion-era/events/territory-of-titans-pt.html", de: "../../hero-wars-dominion-era/events/territory-of-titans-de.html", es: "../../hero-wars-dominion-era/events/territory-of-titans-es.html", fr: "../../hero-wars-dominion-era/events/territory-of-titans-fr.html", ja: "../../hero-wars-dominion-era/events/territory-of-titans-ja.html" },
     noStrip: true
@@ -1137,6 +1152,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     noStrip: true,
     extra: [
       {
+        titles: { en: "Spooky Festival 2026", pt: "Festival Assustador 2026", de: "Gruselfestival 2026", es: "Festival Espeluznante 2026", fr: "Festival Effrayant 2026", ja: "スプーキー・フェスティバル 2026" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/spooky-festival-2026-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
+      {
     titles: {  en: "🏰 Area of Conquest: Titan Territory",  pt: "🏰 Área de Conquista: Território dos Titãs", de: "🏰 Eroberungsgebiet: Territorium der Titanen", es: "🏰 Área de Conquista: Territorio de los Titanes", fr: "🏰 Zone de Conquête : Territoire des Titans", ja: "🏰 征服エリア：タイタンの領域"}, 
     links: { en: "../../hero-wars-dominion-era/events/territory-of-titans-en.html", pt: "../../hero-wars-dominion-era/events/territory-of-titans-pt.html", de: "../../hero-wars-dominion-era/events/territory-of-titans-de.html", es: "../../hero-wars-dominion-era/events/territory-of-titans-es.html", fr: "../../hero-wars-dominion-era/events/territory-of-titans-fr.html", ja: "../../hero-wars-dominion-era/events/territory-of-titans-ja.html" },
     noStrip: true
@@ -1155,6 +1175,11 @@ links: { en: "../../hero-wars-dominion-era/events/hero-tournament-of-power-en.ht
     links: { en: "../../hero-wars-dominion-era/events/weaving-patterns-en.html", pt: "../../hero-wars-dominion-era/events/weaving-patterns-pt.html", de: "", es: "", fr: "", ja: "" },
     noStrip: true,
     extra: [
+      {
+        titles: { en: "Spooky Festival 2026", pt: "Festival Assustador 2026", de: "Gruselfestival 2026", es: "Festival Espeluznante 2026", fr: "Festival Effrayant 2026", ja: "スプーキー・フェスティバル 2026" },
+        links: { en: "../../hero-wars-dominion-era/events-special-hwde/spooky-festival-2026-en.html", pt: "", de: "", es: "", fr: "", ja: "" },
+        noStrip: true
+      },
       {
     titles: {  en: "🏰 Area of Conquest: Titan Territory",  pt: "🏰 Área de Conquista: Território dos Titãs", de: "🏰 Eroberungsgebiet: Territorium der Titanen", es: "🏰 Área de Conquista: Territorio de los Titanes", fr: "🏰 Zone de Conquête : Territoire des Titans", ja: "🏰 征服エリア：タイタンの領域"}, 
     links: { en: "../../hero-wars-dominion-era/events/territory-of-titans-en.html", pt: "../../hero-wars-dominion-era/events/territory-of-titans-pt.html", de: "../../hero-wars-dominion-era/events/territory-of-titans-de.html", es: "../../hero-wars-dominion-era/events/territory-of-titans-es.html", fr: "../../hero-wars-dominion-era/events/territory-of-titans-fr.html", ja: "../../hero-wars-dominion-era/events/territory-of-titans-ja.html" },
