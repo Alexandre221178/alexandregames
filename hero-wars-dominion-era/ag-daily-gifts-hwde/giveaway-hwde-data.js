@@ -12,15 +12,15 @@ const giveawayData = {
     rewardsTitle: "RECOMPENSAS DO SORTEIO MENSAL: CANAL ALEXANDRE GAMES",
     tableCaption: "Tabela: Principais recompensas do sorteio e IDs dos vencedores",
     rewards: [
-      { winner_id: "Vencedor 1 - ID???", rewards: [
+      { winner_id: "Vencedor 1 - ID57344451", rewards: [
         { item: "Bau Pequeno de Pedras de Skin x500", image: "../../hero-wars-dominion-era/images/events/shared/small-skin-stone-chest.webp" }
       ] },
-      { winner_id: "Vencedor 2 - ID???", rewards: [
+      { winner_id: "Vencedor 2 - ID15918445", rewards: [
         { item: "Chave de Bau de Artefato x30", image: "../../hero-wars-dominion-era/images/events/shared/artifact-chest-key.webp" },
         { item: "Ovo de Invocacao de Pet x10", image: "../../hero-wars-dominion-era/images/events/shared/pet-summoning-egg.webp" },
         { item: "Esfera de Invocacao x30", image: "../../hero-wars-dominion-era/images/events/shared/summoning-sphere.webp" }
       ] },
-      { winner_id: "Vencedor 3 - ID???", rewards: [
+      { winner_id: "Vencedor 3 - ID293078923", rewards: [
         { item: "Energia Engarrafada x5", image: "../../hero-wars-dominion-era/images/events/shared/bottled-energy.webp" },
         { item: "Ouro 500k", image: "../../hero-wars-dominion-era/images/events/shared/gold.webp" },
         { item: "Carga de Portal x3", image: "../../hero-wars-dominion-era/images/events/shared/portal-charge.webp" }
@@ -37,15 +37,15 @@ const giveawayData = {
     rewardsTitle: "MONTHLY GIVEAWAY REWARDS: ALEXANDRE GAMES CHANNEL",
     tableCaption: "Table: Main giveaway rewards and winner IDs",
     rewards: [
-        { winner_id: "Winner 1 - ID???", rewards: [
+        { winner_id: "Winner 1 - ID57344451", rewards: [
         { item: "Small Skin Stone Chest x500", image: "../../hero-wars-dominion-era/images/events/shared/small-skin-stone-chest.webp" }
       ] },
-        { winner_id: "Winner 2 - ID???", rewards: [
+        { winner_id: "Winner 2 - ID15918445", rewards: [
         { item: "Artifact Chest Key x30", image: "../../hero-wars-dominion-era/images/events/shared/artifact-chest-key.webp" },
         { item: "Pet Summoning Egg x10", image: "../../hero-wars-dominion-era/images/events/shared/pet-summoning-egg.webp" },
         { item: "Summoning Sphere x30", image: "../../hero-wars-dominion-era/images/events/shared/summoning-sphere.webp" }
       ] },
-        { winner_id: "Winner 3 - ID???", rewards: [
+        { winner_id: "Winner 3 - ID293078923", rewards: [
         { item: "Bottled Energy x5", image: "../../hero-wars-dominion-era/images/events/shared/bottled-energy.webp" },
         { item: "Gold 500k", image: "../../hero-wars-dominion-era/images/events/shared/gold.webp" },
         { item: "Portal Charge x3", image: "../../hero-wars-dominion-era/images/events/shared/portal-charge.webp" }
@@ -62,15 +62,15 @@ const giveawayData = {
     rewardsTitle: "MONATLICHE GEWINNSPIEL-BELOHNUNGEN: ALEXANDRE GAMES KANAL",
     tableCaption: "Tabelle: Hauptbelohnungen des Gewinnspiels und Gewinner-IDs",
     rewards: [
-        { winner_id: "Gewinner 1 - ID???", rewards: [
+        { winner_id: "Gewinner 1 - ID57344451", rewards: [
         { item: "Kleine Skinstein-Truhe x500", image: "../../hero-wars-dominion-era/images/events/shared/small-skin-stone-chest.webp" }
       ] },
-        { winner_id: "Gewinner 2 - ID???", rewards: [
+        { winner_id: "Gewinner 2 - ID15918445", rewards: [
         { item: "Artefakttruhen-Schlussel x30", image: "../../hero-wars-dominion-era/images/events/shared/artifact-chest-key.webp" },
         { item: "Ei zur Haustierbeschworung x10", image: "../../hero-wars-dominion-era/images/events/shared/pet-summoning-egg.webp" },
         { item: "Beschworungssphare x30", image: "../../hero-wars-dominion-era/images/events/shared/summoning-sphere.webp" }
       ] },
-        { winner_id: "Gewinner 3 - ID???", rewards: [
+        { winner_id: "Gewinner 3 - ID293078923", rewards: [
         { item: "Flaschenenergie x5", image: "../../hero-wars-dominion-era/images/events/shared/bottled-energy.webp" },
         { item: "Gold 500k", image: "../../hero-wars-dominion-era/images/events/shared/gold.webp" },
         { item: "Portal-Ladung x3", image: "../../hero-wars-dominion-era/images/events/shared/portal-charge.webp" }
@@ -87,15 +87,15 @@ const giveawayData = {
     rewardsTitle: "RECOMPENSAS DEL SORTEO MENSUAL: CANAL ALEXANDRE GAMES",
     tableCaption: "Tabla: Recompensas principales del sorteo e IDs de los ganadores",
     rewards: [
-        { winner_id: "Ganador 1 - ID???", rewards: [
+        { winner_id: "Ganador 1 - ID57344451", rewards: [
         { item: "Cofre Pequeno de Piedras de Skin x500", image: "../../hero-wars-dominion-era/images/events/shared/small-skin-stone-chest.webp" }
       ] },
-        { winner_id: "Ganador 2 - ID???", rewards: [
+        { winner_id: "Ganador 2 - ID15918445", rewards: [
         { item: "Llave de Cofre de Artefacto x30", image: "../../hero-wars-dominion-era/images/events/shared/artifact-chest-key.webp" },
         { item: "Huevo de Invocacion de Mascota x10", image: "../../hero-wars-dominion-era/images/events/shared/pet-summoning-egg.webp" },
         { item: "Esfera de Invocacion x30", image: "../../hero-wars-dominion-era/images/events/shared/summoning-sphere.webp" }
       ] },
-        { winner_id: "Ganador 3 - ID???", rewards: [
+        { winner_id: "Ganador 3 - ID293078923", rewards: [
         { item: "Energia Embotellada x5", image: "../../hero-wars-dominion-era/images/events/shared/bottled-energy.webp" },
         { item: "Oro 500k", image: "../../hero-wars-dominion-era/images/events/shared/gold.webp" },
         { item: "Carga de Portal x3", image: "../../hero-wars-dominion-era/images/events/shared/portal-charge.webp" }
@@ -112,15 +112,15 @@ const giveawayData = {
     rewardsTitle: "RECOMPENSES DU GIVEAWAY MENSUEL : CHAINE ALEXANDRE GAMES",
     tableCaption: "Tableau : Principales recompenses du giveaway et IDs des gagnants",
     rewards: [
-        { winner_id: "Gagnant 1 - ID???", rewards: [
+        { winner_id: "Gagnant 1 - ID57344451", rewards: [
         { item: "Petit coffre de pierres de skin x500", image: "../../hero-wars-dominion-era/images/events/shared/small-skin-stone-chest.webp" }
       ] },
-        { winner_id: "Gagnant 2 - ID???", rewards: [
+        { winner_id: "Gagnant 2 - ID15918445", rewards: [
         { item: "Cle de coffre d'artefact x30", image: "../../hero-wars-dominion-era/images/events/shared/artifact-chest-key.webp" },
         { item: "Oeuf d'invocation de familier x10", image: "../../hero-wars-dominion-era/images/events/shared/pet-summoning-egg.webp" },
         { item: "Sphere d'invocation x30", image: "../../hero-wars-dominion-era/images/events/shared/summoning-sphere.webp" }
       ] },
-        { winner_id: "Gagnant 3 - ID???", rewards: [
+        { winner_id: "Gagnant 3 - ID293078923", rewards: [
         { item: "Energie en bouteille x5", image: "../../hero-wars-dominion-era/images/events/shared/bottled-energy.webp" },
         { item: "Or 500k", image: "../../hero-wars-dominion-era/images/events/shared/gold.webp" },
         { item: "Charge de portail x3", image: "../../hero-wars-dominion-era/images/events/shared/portal-charge.webp" }
@@ -137,15 +137,15 @@ const giveawayData = {
     rewardsTitle: "月間ギブアウェイ報酬: ALEXANDRE GAMESチャンネル",
     tableCaption: "表: ギブアウェイの主な報酬と当選者ID",
     rewards: [
-        { winner_id: "当選者1 - ID???", rewards: [
+        { winner_id: "当選者1 - ID57344451", rewards: [
         { item: "スモールスキンストーンチェスト x500", image: "../../hero-wars-dominion-era/images/events/shared/small-skin-stone-chest.webp" }
       ] },
-        { winner_id: "当選者2 - ID???", rewards: [
+        { winner_id: "当選者2 - ID15918445", rewards: [
         { item: "アーティファクトチェストキー x30", image: "../../hero-wars-dominion-era/images/events/shared/artifact-chest-key.webp" },
         { item: "ペット召喚エッグ x10", image: "../../hero-wars-dominion-era/images/events/shared/pet-summoning-egg.webp" },
         { item: "召喚スフィア x30", image: "../../hero-wars-dominion-era/images/events/shared/summoning-sphere.webp" }
       ] },
-        { winner_id: "当選者3 - ID???", rewards: [
+        { winner_id: "当選者3 - ID293078923", rewards: [
         { item: "ボトルエナジー x5", image: "../../hero-wars-dominion-era/images/events/shared/bottled-energy.webp" },
         { item: "ゴールド 500k", image: "../../hero-wars-dominion-era/images/events/shared/gold.webp" },
         { item: "ポータルチャージ x3", image: "../../hero-wars-dominion-era/images/events/shared/portal-charge.webp" }
