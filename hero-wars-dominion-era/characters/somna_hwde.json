@@ -21,7 +21,7 @@
     "physical_attack": 92033,
     "magic_attack": 17463,
     "armor": 37149,
-    "magic_defense": 37594,
+    "magic_defense": 48244,
     "dodge": 0,
     "crit_hit_chance": 0,
     "accuracy": 16881,
@@ -29,7 +29,7 @@
     "vampirism": 0,
     "magic_penetration": 0,
     "armor_penetration": 17900,
-    "power": 173612
+    "power": 178937
   },
   "skills": [
     {
@@ -148,6 +148,16 @@
         "agility_skin_stone": 55410
       },
       "note": "Exclusive availability on July 24; unlocks on December 1"
+    },
+    {
+      "name": "Demonic Skin",
+      "stats": {
+        "magic_defense": 10650,
+        "power": 5325
+      },
+      "costs": {
+        "agility_skin_stone": 55410
+      }
     }
   ],
   "glyphs": [
