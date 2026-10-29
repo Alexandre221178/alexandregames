@@ -368,7 +368,7 @@ function checkFile(filePath) {
             if (href && (href.startsWith('../') || href.startsWith('./') || (!href.startsWith('http') && !href.startsWith('#') && !href.startsWith('mailto:')))) {
                 // Ignorar âncoras como #
                 if (href !== '#') {
-                    const decodedHref = decodeURIComponent(href);
+                    const decodedHref = decodeURIComponent(href.split('#')[0].split('?')[0]);
                     const fullPath = decodedHref.startsWith('/') ? path.resolve(ROOT_DIR, decodedHref.slice(1)) : path.resolve(path.dirname(filePath), decodedHref);
                     if (!fs.existsSync(fullPath)) {
                         issues.push(`Link quebrado interno: ${href}`);
