@@ -3,6 +3,8 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+  { date:'2026-10-29', type:'daily', mission:'2-5', note:'daily|80',
+   rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
      { date:'2026-10-28', type:'hub', code:'SUPPUMPKINGIFT', note:'until|2026-11-23T01:00:00Z',
     rewards:['energy x150', 'artifact-coin x400', 'artifact-chest-key x5'] },
   { date:'2026-10-28', type:'daily', mission:'3-7', note:'daily|80',
