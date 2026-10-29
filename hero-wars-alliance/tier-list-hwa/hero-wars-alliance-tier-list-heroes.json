@@ -990,7 +990,7 @@
     }
   },
   "Markus": {
-    "image": "../../img-HWM/Markus-img/markus-300x260.webp",
+    "image": "../../imagens/image-shared/thea.webp",
     "guides": {
       "en": "../../hero-wars-alliance/characters-guide/markus-en.html",
       "pt": "../../hero-wars-alliance/characters-guide/markus-pt.html",
@@ -1011,6 +1011,20 @@
     },
     "names": {
       "ja": "ペピー"
+    }
+  },
+  "Wodryn": {
+   "image": "../../imagens/image-shared/wodryn.webp",
+    "guides": {
+      "en": "../../hero-wars-alliance/characters-guide/wodryn-en.html",
+      "pt": "../../hero-wars-alliance/characters-guide/wodryn-pt.html",
+      "es": "../../hero-wars-alliance/characters-guide/wodryn-es.html",
+      "de": "../../hero-wars-alliance/characters-guide/wodryn-de.html",
+      "fr": "../../hero-wars-alliance/characters-guide/wodryn-fr.html",
+      "ja": "../../hero-wars-alliance/characters-guide/wodryn-ja.html"
+    },
+    "names": {
+      "ja": "ウォドリン"
     }
   },
   "Thea": {

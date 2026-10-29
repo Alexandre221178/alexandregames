@@ -2,13 +2,17 @@
   "SS": [
     "Cleaver",
     "Crow",
+    "Eva",
     "Guus",
     "Iris",
     "Julius",
     "Kendle",
     "Leonel",
+     "Luther",
     "Peech",
-    "Satori"
+    "Satori",
+    "Wodryn",
+    "Yasmine"
   ],
   "S+": [ 
     "Aidan",
@@ -16,12 +20,12 @@
     "Dorian",
     "Drayne",
     "Electra",
-    "Eva",
+    
     "Folio",
         
     "Kayla",  
     "Lian",  
-    "Luther",
+   
     "Miu",
     "Nebula",
     
@@ -30,8 +34,8 @@
     "Soleil",
     "Somna",
     "Tempus",
-    "Tristan",
-    "Yasmine"
+    "Tristan"
+    
   ],
   "S": [
      "Amira",
@@ -46,7 +50,7 @@
      "Judge",
     "Krista",
     "Lara Croft",
-    
+     "Markus",
     "Octavia",
     "Oya",    
     "Rufus",
@@ -92,17 +96,18 @@
   ],
   "B": [
     
-    "Daredevil",
+    
     "Ishmael",
     "Mojo",
     "Orion",
     "Thea"
   ],
   "C": [
+    "Daredevil",
     "Elmir",
     "Fox",
     "Jet",
-    "Markus",
+   
     "Peppy"
   
   ]
