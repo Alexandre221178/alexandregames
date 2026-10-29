@@ -992,8 +992,12 @@
   "Markus": {
     "image": "../../img-HWM/Markus-img/markus-300x260.webp",
     "guides": {
-      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Markus-English.html",
-      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Markus.html"
+      "en": "../../hero-wars-alliance/characters-guide/markus-en.html",
+      "pt": "../../hero-wars-alliance/characters-guide/markus-pt.html",
+      "es": "../../hero-wars-alliance/characters-guide/markus-es.html",
+      "de": "../../hero-wars-alliance/characters-guide/markus-de.html",
+      "fr": "../../hero-wars-alliance/characters-guide/markus-fr.html",
+      "ja": "../../hero-wars-alliance/characters-guide/markus-ja.html"
     },
     "names": {
       "ja": "マーカス"
