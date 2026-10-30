@@ -3,6 +3,9 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+  { date:'2026-10-30', type:'hub', code:'SHROOMS', note:'until|2026-11-23T01:00:00Z',
+    rewards:['energy x100', 'large-skin-stone-chest x5'] },
+    
   { date:'2026-10-30', type:'daily', mission:'3-9', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
      { date:'2026-10-29', type:'hub', code:'LILIAN', note:'until|2026-11-23T01:00:00Z',
@@ -35,7 +38,8 @@ window.HWA_GIFTS = [
 ];
 
 /* Templates
-{ date:'2026-##-##', type:'hub', code:'######', expires:'2026-##-##', rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
+{ date:'2026-##-##', type:'hub', code:'######', expires:'2026-##-##',
+rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
 
 
    { date:'YYYY-MM-DD', type:'hub', code:'CODE', note:'hub24h', rewards:['preset x5'] },
