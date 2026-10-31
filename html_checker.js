@@ -581,14 +581,18 @@ function checkJsFile(filePath) {
             
             // Resolver caminho relativo
             const dir = path.dirname(filePath);
+            const linkPath = decodeURIComponent(link.split('#')[0].split('?')[0]);
+            if (!linkPath) {
+                continue;
+            }
             let resolvedPath;
             
             if (link.startsWith('../') || link.startsWith('./') || (!link.startsWith('http') && !link.startsWith('/'))) {
                 // Caminho relativo
-                resolvedPath = path.resolve(dir, link);
+                resolvedPath = path.resolve(dir, linkPath);
             } else if (link.startsWith('/')) {
                 // Caminho absoluto do site
-                resolvedPath = path.join(ROOT_DIR, link.substring(1));
+                resolvedPath = path.join(ROOT_DIR, linkPath.substring(1));
             } else {
                 // URL externa ou outro formato - pular verificação
                 continue;
