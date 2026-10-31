@@ -459,6 +459,58 @@
         ],
         "overview": "Want to grow an entire mushroom army? Get Mushy & Shroom's Relic and unleash their full power! More healing, stronger Shrooms, and increasing Magic Penetration - your enemies are in for trouble! Even enemy healing works in your favor: Mushy copies it to heal themselves and their Shrooms."
       },
+      "relic_resources": {
+        "total_relic_shards_to_level_30": 2880,
+        "total_stats_gain_at_level_30": {
+          "health": 430848,
+          "magic_attack": 28667
+        },
+        "unlocks": [
+          {
+            "level": 1,
+            "additional_shards_from_previous_milestone": 50,
+            "cumulative_shards": 50
+          },
+          {
+            "level": 10,
+            "additional_shards_from_previous_milestone": 280,
+            "cumulative_shards": 330
+          },
+          {
+            "level": 20,
+            "additional_shards_from_previous_milestone": 800,
+            "cumulative_shards": 1130
+          },
+          {
+            "level": 30,
+            "additional_shards_from_previous_milestone": 1750,
+            "cumulative_shards": 2880
+          }
+        ],
+        "stat_milestone_values": [
+          {
+            "level": 1,
+            "health": 42658,
+            "magic_attack": 2838
+          },
+          {
+            "level": 10,
+            "health": 80632,
+            "magic_attack": 5270
+          },
+          {
+            "level": 20,
+            "health": 226204,
+            "magic_attack": 14495
+          },
+          {
+            "level": 30,
+            "health": 430848,
+            "magic_attack": 28667
+          }
+        ],
+        "stat_milestone_values_basis": "Confirmed by Alexandre: these are the total cumulative relic bonuses at levels 1, 10, 20, and 30. Use the row for the current level; do not add rows together."
+      },
       "realm": {
         "position": "Front",
         "skills": [],
@@ -466,6 +518,46 @@
       },
       "alexandre_tests_relatorio_de_testes_batalha": {
         "author": "Alexandre",
+        "additional_team_tests": [
+          {
+            "id": "chaos_yasmine_electra",
+            "team": [
+              "Guus",
+              "Byrna",
+              "Yasmine",
+              "Mushy & Shroom",
+              "Electra"
+            ],
+            "talismans": [
+              {
+                "hero": "Guus",
+                "talisman": 1
+              },
+              {
+                "hero": "Byrna",
+                "talisman": 2
+              },
+              {
+                "hero": "Yasmine",
+                "talisman": 2
+              },
+              {
+                "hero": "Mushy & Shroom",
+                "talisman": 1
+              },
+              {
+                "hero": "Electra",
+                "talisman": 1
+              }
+            ],
+            "opponent": {
+              "faction": "Chaos",
+              "power_advantage": 140000
+            },
+            "alexandre_tips": "I tested Guus, Byrna, Yasmine, Mushy, and Electra against a Chaos team with 140k more power, and this team was amazing!",
+            "follow_up": "More Arena tests planned."
+          }
+        ],
         "relic_progression": [
           {
             "relic_level": 1,
@@ -520,7 +612,8 @@
         "Crimson Grove Skin lists its base bonus separately from the doubled Skin+ bonus.",
         "Summoned Shrooms and Spore Mushrooms can be targeted by attacks, offensive spells, and healing spells.",
         "Max-stat comparisons use one talisman at a time. Collection bonuses and Realm research settings for these totals are unspecified.",
-        "Max stats include the level 30 relic, Lunar Skin+ and Crimson Grove Skin+; relic stat bonuses are cumulative across all relic levels."
+        "Max stats include the level 30 relic, Lunar Skin+ and Crimson Grove Skin+; relic stat bonuses are cumulative across all relic levels.",
+        "Relic milestone figures are cumulative bonuses at the listed level, not gains to add together. Level 30 grants 430848 Health and 28667 Magic Attack in total."
       ],
       "stats_configuration": {
         "level": 120,

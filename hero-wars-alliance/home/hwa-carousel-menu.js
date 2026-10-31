@@ -2,13 +2,22 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
+      link: "/hero-wars-alliance/characters-guide/mushy-and-shroom-en.html",
+      src500: "/hero-wars-alliance/images/hero/mushy/mushy-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/mushy/mushy-400px.webp",
+      alt: "Mushy and Shroom Guide for Hero Wars Alliance",
+      title: "Mushy and Shroom Guide for Hero Wars Alliance",
+      strong: "Guide: Mushy and Shroom - Hero Wars Alliance",
+      updated: "Updated: November, 2026."
+    },     
+    {
       link: "/hero-wars-alliance/characters-guide/wodryn-en.html",
       src500: "/hero-wars-alliance/images/hero/wodryn/wodryn-500px.webp",
       src400: "/hero-wars-alliance/images/hero/wodryn/wodryn-400px.webp",
       alt: "Wodryn Guide for Hero Wars Alliance",
       title: "Wodryn Guide for Hero Wars Alliance",
       strong: "Guide: Wodryn - Hero Wars Alliance",
-      updated: "Updated: October, 2026."
+      updated: "Updated: November, 2026."
     },     
      {
       link: "/hero-wars-alliance/characters-guide/luther-en.html",
