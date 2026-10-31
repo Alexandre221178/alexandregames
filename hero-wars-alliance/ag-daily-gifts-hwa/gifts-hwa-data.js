@@ -3,6 +3,11 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+  { date:'2026-10-31', type:'hub', code:'HALLOWEEN - Collect Haunted Coins and summon rare rewards at hub shop!', note:'until|2026-11-05T01:00:00Z',
+    rewards:['haunted-coin x100'] },
+ { date:'2026-10-31', type:'hub', code:'SPOOKYGIFT', note:'until|2026-11-23T01:00:00Z',
+    rewards:['gold 1M', 'energy x300', 'large-skin-stone-chest x15'] },
+
   { date:'2026-10-31', type:'daily', mission:'2-14', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-10-30', type:'hub', code:'SHROOMS', note:'until|2026-11-23T01:00:00Z',
