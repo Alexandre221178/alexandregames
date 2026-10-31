@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Player local — Alexandre Games</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #101114; color: #e9e9ee; font-family: Arial, sans-serif; }
+    main { width: 100%; margin: 0; padding: 0; }
+    main > header, main > .toolbar, main > .script-panel, main > p { margin-left: 20px; margin-right: 20px; }
+    header, .toolbar { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+    header { margin-top: 18px; }
+    h1 { font-size: 20px; margin: 0; }
+    button, .file-button, select { border: 1px solid #484a55; border-radius: 8px; padding: 10px 14px; background: #242630; color: white; font: inherit; cursor: pointer; }
+    button:hover, .file-button:hover { background: #353846; }
+    button:focus-visible, .file-button:focus-within, select:focus-visible { outline: 2px solid #a5b4fc; outline-offset: 3px; }
+    .file-button { position: relative; overflow: hidden; }
+    .file-button input { position: absolute; inset: 0; opacity: 0; width: 100%; cursor: pointer; }
+    .stage { background: black; overflow: hidden; }
+    video { display: block; width: 100%; height: auto; max-height: 76vh; aspect-ratio: 16 / 9; object-fit: contain; background: black; }
+    .stage:fullscreen { display: grid; place-items: center; border-radius: 0; }
+    .stage:fullscreen video { max-height: 100vh; height: 100%; }
+    .toolbar { margin-top: 16px; }
+    .script-panel { margin-top: 19px; }
+    .script-panel label { display: block; margin-bottom: 8px; color: #bdc0ca; }
+    #script { display: block; width: 100%; height: 150px; min-height: 100px; resize: vertical; padding: 14px 16px; border: 1px solid #484a55; border-radius: 8px; background: #191b22; color: #f1f1f5; font: 20px/1.6 Arial, sans-serif; }
+    #script:focus-visible { outline: 2px solid #a5b4fc; outline-offset: 3px; }
+    #filename { overflow-wrap: anywhere; color: #bdc0ca; }
+    #status { color: #c5c8d4; line-height: 1.5; }
+    .hint { color: #999eaf; font-size: 14px; line-height: 1.6; }
+    body.recording main { max-width: none; padding: 0; }
+    body.recording header, body.recording .toolbar, body.recording .script-panel, body.recording p { display: none; }
+    body.recording .stage { border-radius: 0; }
+    body.recording video { height: 100vh; max-height: 100vh; }
+  </style>
+</head>
+<body>
+<main>
+  <div class="stage" id="stage">
+    <video id="video" controls playsinline preload="metadata" src="file:///C:/Users/Alexandre/Videos/2026-10-30%2018-38-02-mushy-relic1.mkv"></video>
+  </div>
+ 
+  <div class="script-panel">
+    <textarea id="script" placeholder="Cole ou escreva seu roteiro aqui…"></textarea>
+    <label for="script">Roteiro para leitura</label>
+  </div>
+   <header>
+    <h1>Player local · Alexandre Games</h1>
+  </header>
+  <div class="toolbar">
+    <label class="file-button">Abrir vídeo<input id="file" type="file" accept="video/*,.mkv,.mp4,.webm,.mov,.avi" aria-label="Selecionar vídeo local"></label>
+    <button id="back" type="button">−5 segundos</button>
+    <button id="play" type="button">Reproduzir / pausar</button>
+    <button id="forward" type="button">+5 segundos</button>
+    <label>Velocidade <select id="speed"><option value="0.5">0,5×</option><option value="0.75">0,75×</option><option value="1" selected>1×</option><option value="1.25">1,25×</option><option value="1.5">1,5×</option><option value="2">2×</option></select></label>
+    <button id="fullscreen" type="button">Tela cheia</button>
+    <button id="recording" type="button">Modo gravação</button>
+  </div>
+  <p id="filename">2026-10-30 18-38-02-mushy-relic1.mkv</p>
+  <p id="status" role="status" aria-live="polite">Carregando vídeo da pasta Videos…</p>
+  <p class="hint">Arraste outro vídeo para esta janela ou use “Abrir vídeo”. Espaço: reproduzir/pausar · Setas: avançar/voltar 5 s · F: tela cheia · G: modo gravação · Esc: sair do modo gravação.</p>
+</main>
+<script>
+  const video = document.getElementById('video');
+  const status = document.getElementById('status');
+  const speed = document.getElementById('speed');
+  let objectUrl;
+  function openFile(file) {
+    if (!file) return;
+    video.pause();
+    video.removeAttribute('src');
+    video.load();
+    if (objectUrl) URL.revokeObjectURL(objectUrl);
+    objectUrl = URL.createObjectURL(file);
+    document.getElementById('filename').textContent = file.name;
+    status.textContent = 'Carregando vídeo…';
+    video.src = objectUrl;
+    video.load();
+  }
+  function seek(seconds) {
+    if (!Number.isFinite(video.duration)) return;
+    video.currentTime = Math.max(0, Math.min(video.duration, video.currentTime + seconds));
+  }
+  function togglePlay() {
+    if (video.paused) video.play().catch(() => { status.textContent = 'Não foi possível reproduzir. Tente selecionar o arquivo ou usar uma versão MP4 com vídeo H.264 e áudio AAC.'; });
+    else video.pause();
+  }
+  async function toggleFullscreen() {
+    try {
+      if (document.fullscreenElement) await document.exitFullscreen();
+      else await document.getElementById('stage').requestFullscreen();
+    } catch { status.textContent = 'Tela cheia indisponível neste navegador. Você também pode usar o controle do próprio vídeo.'; }
+  }
+  document.getElementById('file').addEventListener('change', event => openFile(event.target.files[0]));
+  document.getElementById('play').addEventListener('click', togglePlay);
+  document.getElementById('back').addEventListener('click', () => seek(-5));
+  document.getElementById('forward').addEventListener('click', () => seek(5));
+  document.getElementById('fullscreen').addEventListener('click', toggleFullscreen);
+  document.getElementById('recording').addEventListener('click', () => document.body.classList.toggle('recording'));
+  speed.addEventListener('change', () => { video.playbackRate = Number(speed.value); });
+  video.addEventListener('loadedmetadata', () => {
+    video.playbackRate = Number(speed.value);
+    status.textContent = 'Vídeo carregado. Pronto para reproduzir.';
+  });
+  video.addEventListener('error', () => {
+    status.textContent = objectUrl
+      ? 'Não foi possível abrir este formato ou codec. Tente uma versão MP4 com vídeo H.264 e áudio AAC.'
+      : 'O acesso direto não funcionou. Clique em “Abrir vídeo” e selecione o arquivo na pasta Videos. Se continuar falhando, o formato ou codec pode ser incompatível.';
+  });
+  document.addEventListener('dragover', event => {
+    if (Array.from(event.dataTransfer.types).includes('Files')) event.preventDefault();
+  });
+  document.addEventListener('drop', event => {
+    if (!event.dataTransfer.files.length) return;
+    event.preventDefault();
+    openFile(event.dataTransfer.files[0]);
+  });
+  document.addEventListener('keydown', event => {
+    if (event.target.closest('input, textarea, select, button, label, video')) return;
+    if (event.ctrlKey || event.altKey || event.metaKey) return;
+    switch (event.key.toLowerCase()) {
+      case ' ': event.preventDefault(); togglePlay(); break;
+      case 'arrowleft': event.preventDefault(); seek(-5); break;
+      case 'arrowright': event.preventDefault(); seek(5); break;
+      case 'f': event.preventDefault(); toggleFullscreen(); break;
+      case 'g': document.body.classList.toggle('recording'); break;
+      case 'escape': document.body.classList.remove('recording'); break;
+    }
+  });
+  window.addEventListener('beforeunload', () => { if (objectUrl) URL.revokeObjectURL(objectUrl); });
+</script>
+</body>
+</html>
