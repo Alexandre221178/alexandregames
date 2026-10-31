@@ -2,42 +2,43 @@
   // Carousel multi-language injector  npm run update-hwde-hwde 
   const slides = [
     {
-      link: "../../hero-wars-dominion-era/events-special-hwde/spooky-festival-2026-en.html",
-      src500: "../../hero-wars-dominion-era/images/events/spooky-festival/spooky-festival-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events/spooky-festival/spooky-festival-400px.webp",
-      alt: "Spooky Festival 2026 for Hero Wars: Dominion Era",
-      title: "Spooky Festival 2026 for Hero Wars: Dominion Era.",
-      strong: "Guide: Spooky Festival 2026 - Hero Wars: Dominion Era",
-      updated: "Updated: October, 2026."
+      link: "../../hero-wars-dominion-era/events-special-hwde/mead-festival-missions-en.html",
+      src500: "../../hero-wars-dominion-era/images/events-special/mead-festival-missions/mead-festival-missions-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events-special/mead-festival-missions/mead-festival-missions-400px.webp",
+      alt: "Mead Festival Missions for Hero Wars: Dominion Era",
+      title: "Mead Festival Missions for Hero Wars: Dominion Era.",
+      strong: "Guide: Mead Festival Missions - Hero Wars: Dominion Era",
+      updated: "Updated: November, 2026."
     },
     {
-  link: "../../hero-wars-dominion-era/titans/orm-en.html",
-  src500: "../../hero-wars-dominion-era/images/titans-hwde/orm/orm-500px.webp",
-  src400: "../../hero-wars-dominion-era/images/titans-hwde/orm/orm-400px.webp",
-  alt: "Orm for Hero Wars: Dominion Era",
-  title: "Orm for Hero Wars: Dominion Era.",
-  strong: "Guide: Orm - Hero Wars: Dominion Era",
-  updated: "Updated: October, 2026."
-},
-    {
-      link: "../../hero-wars-dominion-era/pet/robin-en.html",
-      src500: "../../hero-wars-dominion-era/images/pets/robin/robin-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/pets/robin/robin-400px.webp",
-       alt: "Robin Guide for Hero Wars: Dominion Era",
-      title: "Robin Guide for Hero Wars: Dominion Era.",
-      strong: "Guide: Robin - Hero Wars: Dominion Era",
-      updated: "Updated: October, 2026."
+      link: "../../hero-wars-dominion-era/events-special-hwde/unleashing-power-new-hero-en.html",
+      src500: "../../hero-wars-dominion-era/images/events-special/unleashing-power-new-hero/unleashing-power-new-hero-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events-special/unleashing-power-new-hero/unleashing-power-new-hero-400px.webp",
+      alt: "Unleashing Power: New Hero for Hero Wars: Dominion Era",
+      title: "Unleashing Power: New Hero for Hero Wars: Dominion Era.",
+      strong: "Guide: Wordryn - Unleashing Power: New Hero - Hero Wars: Dominion Era",
+      updated: "Updated: November, 2026."
     },
     {
-      link: "../../hero-wars-dominion-era/characters/martha-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/martha/martha-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/martha/martha-400px.webp",
-      alt: "Martha for Hero Wars: Dominion Era",
-      title: "Martha for Hero Wars: Dominion Era.",
-      strong: "Guide: Martha - Hero Wars: Dominion Era",
-      updated: "Updated: October, 2026."
+      link: "../../hero-wars-dominion-era/events-special-hwde/unleashing-power-ascension-en.html",
+      src500: "../../hero-wars-dominion-era/images/events-special/unleashing-power-ascension/unleashing-power-ascension-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events-special/unleashing-power-ascension/unleashing-power-ascension-400px.webp",
+      alt: "Unleashing Power: Ascension for Hero Wars: Dominion Era",
+      title: "Unleashing Power: Ascension for Hero Wars: Dominion Era.",
+      strong: "Guide: K'arkh - Unleashing Power: Ascension - Hero Wars: Dominion Era",
+      updated: "Updated: November, 2026."
     },
-    
+
+    {
+      link: "../../hero-wars-dominion-era/characters/eva-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/eva/eva-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/eva/eva-400px.webp",
+      alt: "Eva for Hero Wars: Dominion Era",
+      title: "Eva for Hero Wars: Dominion Era.",
+      strong: "Guide: Eva - Hero Wars: Dominion Era",
+      updated: "Updated: November, 2026."
+    },
+        
     {
       link: "../../hero-wars-dominion-era/guide/mysterious-island-en.html",
       src500: "../../hero-wars-dominion-era/images/guides/mysterious-island/mysterious-island-500px.webp",
@@ -47,15 +48,7 @@
       strong: "Mysterious Island - How to Get a War Flag?",
       updated: "Updated: Monthly."
     },
-    {
-      link: "../../hero-wars-dominion-era/characters/eva-en.html",
-      src500: "../../hero-wars-dominion-era/images/hero/eva/eva-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/hero/eva/eva-400px.webp",
-      alt: "Eva for Hero Wars: Dominion Era",
-      title: "Eva for Hero Wars: Dominion Era.",
-      strong: "Guide: Eva - Hero Wars: Dominion Era",
-      updated: "Updated: September, 2026."
-    },
+    
     
     
     
