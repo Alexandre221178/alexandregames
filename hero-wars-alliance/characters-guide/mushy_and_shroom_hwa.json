@@ -464,6 +464,53 @@
         "skills": [],
         "skills_available": false
       },
+      "alexandre_tests_relatorio_de_testes_batalha": {
+        "author": "Alexandre",
+        "relic_progression": [
+          {
+            "relic_level": 1,
+            "team": ["Eva", "Guus", "Crow", "Byrna", "Mushy & Shroom"],
+            "opponent_team": ["Julius", "Crow", "Polaris", "Peech", "Miu"],
+            "alexandre_tips": "Sem a relíquia da Mushy, esse time foi mal e perdeu contra a composição adversária. Depois de ativar a relíquia no nível 1, já houve uma mudança: o time venceu todas as batalhas realizadas nesse teste."
+          },
+          {
+            "relic_level": 10,
+            "team": ["Eva", "Guus", "Crow", "Byrna", "Mushy & Shroom"],
+            "previous_relic_level": 1,
+            "alexandre_tips": "Com a relíquia no nível 1, o time venceu todas as batalhas contra a composição com Julius, Crow, Polaris e Peech. Ao testar contra outros times, com Satori e Leonel, perdeu algumas batalhas. Depois de subir a relíquia para o nível 10, houve uma melhora: Mushy ficou mais ofensiva, passou a tankar mais e conseguiu se sair bem sem um tanque secundário. Também apresentou bons resultados em times com Mojo.",
+            "notes": [
+              "O quinto integrante da composição adversária não foi informado no relato referente a este nível."
+            ]
+          },
+          {
+            "relic_level": 20,
+            "team": ["Miu", "Guus", "Crow", "Byrna", "Mushy & Shroom"],
+            "alexandre_tips": "Esse time ficou muito bom: Mushy não só tankou, como também se beneficiou do buff da Miu e causou mais dano. Também foi bem com Leonel e Mojo. Nos meus testes, ela combinou bem com Miu."
+          },
+          {
+            "relic_level": 30,
+            "alexandre_tips": "Com a relíquia no nível 30, Mushy melhorou muito nas batalhas: conseguiu tankar muito mais e apresentou melhores resultados em times variados. Na Arena, contra times meta, se saiu bem na maioria dos casos."
+          }
+        ],
+        "game_mode_tests": [
+          {
+            "mode": "Hydra",
+            "relic_level": 30,
+            "alexandre_tips": "Mushy já era boa contra as Hidras antes das relíquias. Com a relíquia no nível 30, ficou ainda melhor e causou mais dano."
+          },
+          {
+            "mode": "Realm",
+            "relic_level": 30,
+            "tested_modes": ["PvE", "PvP"],
+            "alexandre_tips": "Mesmo sem habilidades de Reino, Mushy já era boa nas batalhas desse modo. Com a relíquia no nível 30, ficou ainda melhor tanto no PvE quanto no PvP do Reino.",
+            "team_tips": [
+              "em arena além dos times acima ela também se saiu bem com: Eva(taliman1), Guus(talisman2), Crow(talisman1),  Mushy & Shroom(taliman1) e Julius(taliman2) ou Eva, Guus, Crow, Byrna, Mushy & Shroom. Adicionando Mojo ou Alvanor também fica bom mas como meu Mojo e meu Alvanor estão fracos em poder para uso na arena ou optei por testalos só no treinamento.",
+              "contra times do chaos Cleaver, Electra, byrna, dorian, kendle usei Eva(taliman1), guus(talisman1), byrna(talisman2), tristan(talisman1), Mushy & Shroom(taliman1)",
+              "contra times do chaos Cleaver, byrna, dorian, kendle, Aidan usei guus(talisman1), byrna(talisman2), tristan(talisman1), Mushy & Shroom(taliman1), Luther(talisman1) e venci times com mais de 150k de poder de diferença na arena e ainda com inimigo usando reliquia dourada nivel 30. Além disso esse time também conseguiu vencer o time de Chaos com Electra que antes eu só vencia com Eva."
+            ]
+          }
+        ]
+      },
       "notes": [
         "Initial stats are raw starting values before level growth and upgrades.",
         "Promotion and equipped-item bonuses are listed separately and exclude derived attributes.",
