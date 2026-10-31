@@ -3,24 +3,22 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+  { date:'2026-10-31', type:'daily', mission:'2-14', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-10-30', type:'hub', code:'SHROOMS', note:'until|2026-11-23T01:00:00Z',
     rewards:['energy x100', 'large-skin-stone-chest x5'] },
     
-  { date:'2026-10-30', type:'daily', mission:'3-9', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+ 
      { date:'2026-10-29', type:'hub', code:'LILIAN', note:'until|2026-11-23T01:00:00Z',
     rewards:['energy x100', 'artifact-chest-key x5'] },
     
-  { date:'2026-10-29', type:'daily', mission:'2-5', note:'daily|80',
-   rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+  
      { date:'2026-10-28', type:'hub', code:'SUPPUMPKINGIFT', note:'until|2026-11-23T01:00:00Z',
     rewards:['energy x150', 'artifact-coin x400', 'artifact-chest-key x5'] },
-  { date:'2026-10-28', type:'daily', mission:'3-7', note:'daily|80',
-  rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+ 
     { date:'2026-10-27', type:'special', mission:'3-13', note:'until|2026-11-23T01:00:00Z',
     rewards:['adventure-coin x1000', 'energy x100'] },
-  { date:'2026-10-27', type:'daily', mission:'2-2', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+  
   { date:'2026-09-30', type:'hub', code:'NEWBASE', note:'until|2026-11-23T01:00:00Z',
     rewards:['world-energy x30', '1h-research-speedup X1', '1h-training-speedup x1', '1h-general-speedup x2', '1h-construction-speedup x1', 'energy x20'] },
   { date:'2026-10-24', type:'hub', code:'WODRYNCALENDAR', note:'until|2026-11-23T01:00:00Z',
