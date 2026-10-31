@@ -20,29 +20,44 @@
           "physical_attack": 50
         },
         "max_with_talisman_of_mycelium": {
-          "intelligence": 15214,
-          "agility": 2344,
-          "strength": 2829,
-          "health": 525951,
-          "physical_attack": 19952,
-          "magic_attack": 110425,
-          "armor": 57759,
-          "magic_defense": 43394,
-          "toughness": 2571,
-          "magic_penetration": 10650
+          "total_power": 298185,
+          "intelligence": 16794,
+          "agility": 3623,
+          "strength": 4088,
+          "health": 1434029,
+          "dodge": 0,
+          "vampirism": 0,
+          "armor_penetration": 0,
+          "magic_penetration": 10650,
+          "crit_hit_chance": 0,
+          "crushing": 0,
+          "magic_reflection": 0,
+          "physical_attack": 36143,
+          "magic_attack": 158938,
+          "armor": 75986,
+          "magic_defense": 57637,
+          "magic_crit_hit_chance": 0,
+          "toughness": 4376
         },
         "max_with_talisman_of_fungi": {
-          "intelligence": 13214,
-          "agility": 2344,
-          "strength": 2829,
-          "health": 525951,
-          "physical_attack": 17952,
-          "magic_attack": 104425,
-          "armor": 37959,
-          "magic_defense": 41394,
-          "toughness": 9171,
+          "total_power": 303935,
+          "intelligence": 14794,
+          "agility": 3623,
+          "strength": 4088,
+          "health": 1434029,
+          "dodge": 0,
+          "vampirism": 0,
+          "armor_penetration": 0,
           "magic_penetration": 10650,
-          "magic_crit_hit_chance": 4000
+          "crit_hit_chance": 0,
+          "crushing": 0,
+          "magic_reflection": 0,
+          "physical_attack": 34143,
+          "magic_attack": 152938,
+          "armor": 52226,
+          "magic_defense": 55637,
+          "magic_crit_hit_chance": 4600,
+          "toughness": 12626
         }
       },
       "stat_growth": [
@@ -99,10 +114,10 @@
           "agility": 152,
           "strength": 152,
           "intelligence": 1212,
-          "toughness": 2571,
+          "toughness": 3501,
           "health": 32430,
           "magic_attack": 5046,
-          "magic_defense": 2005
+          "magic_defense": 4237
         }
       },
       "talisman_details": {
@@ -113,7 +128,7 @@
           "main_stat_bonus": 2000,
           "total_reroll_bonus": {
             "stat": "Armor",
-            "value": 19800
+            "value": 23760
           },
           "derived": {
             "magic_attack": 6000,
@@ -125,10 +140,10 @@
           "display_name": "Talisman of Fungi",
           "main_stat": "Magic Crit Hit Chance",
           "reroll_stat": "Toughness",
-          "main_stat_bonus": 4000,
+          "main_stat_bonus": 4600,
           "total_reroll_bonus": {
             "stat": "Toughness",
-            "value": 6600
+            "value": 8250
           }
         },
         "recommended_by_mode": {
@@ -286,6 +301,17 @@
           "total_skin_stones": 55410,
           "purchase_skin_stones": 5000,
           "upgrade_skin_stones": 50410
+        },
+        {
+          "name": "Crimson Grove Skin+",
+          "stat": "Health",
+          "bonus": 106645,
+          "level": 60,
+          "is_skin_plus": true,
+          "bonus_with_skin_plus": 213290,
+          "total_skin_stones": 55410,
+          "purchase_skin_stones": 5000,
+          "upgrade_skin_stones": 50410
         }
       ],
       "artifacts": [
@@ -357,9 +383,81 @@
         "intelligence": 720
       },
       "relic": {
-        "available": false,
-        "skills": [],
-        "stats": []
+        "available": true,
+        "level": 30,
+        "skills": [
+          {
+            "id": 1,
+            "variant": "relic",
+            "name": "Voracious Spores",
+            "unlock_relic_level": 1,
+            "type": [
+              "Damage",
+              "Health Steal"
+            ],
+            "initial_cooldown_seconds": 5,
+            "cooldown_seconds": 12,
+            "target": "Enemy with the highest maximum health",
+            "damage_formula": "150% Magic Attack",
+            "max_health_steal_percent_of_damage": 50,
+            "description": "Starting 5 seconds into battle and every 12 seconds afterward, damages the enemy with the highest maximum health and steals maximum health equal to 50% of the damage dealt.",
+            "alexandre_tips": "Mushy & Shroom drain their enemies' health and restore their own: opponents grow weaker while our Tank grows tougher! The longer the battle lasts, the harder they are to defeat!",
+            "is_new": true
+          },
+          {
+            "id": 2,
+            "variant": "relic",
+            "name": "Perfect Copy",
+            "unlock_relic_level": 10,
+            "parent_skill_id": 1,
+            "relic_skill_delay_after_activation_seconds": 5,
+            "description": "Shrooms receive the relic when they activate and begin using Voracious Spores 5 seconds later.",
+            "alexandre_tips": "It's simple: the little Shrooms created by the first skill now get the Relic too and use Voracious Spores! The Shrooms grow stronger - and, most importantly, unleash several times as many attacks. Watch enemy health bars melt away!"
+          },
+          {
+            "id": 3,
+            "variant": "relic",
+            "name": "Wild Growth",
+            "unlock_relic_level": 20,
+            "parent_skill_id": 4,
+            "duration_seconds": 4,
+            "magic_penetration_bonus_formula": "10% Magic Attack",
+            "stacks_per_active_shroom": true,
+            "description": "Whenever Mushy or an active Shroom receives healing, their magic penetration increases for 4 seconds. This effect stacks for each active Shroom on the battlefield.",
+            "alexandre_tips": "Healing now helps pierce enemy magic defense! Each time the Hero or Shrooms receive healing, they gain bonus Magic Penetration equal to 10% of Magic Attack for 4 seconds. These effects stack, so you can keep multiple buffs active at once soon after the battle begins!"
+          },
+          {
+            "id": 4,
+            "variant": "relic",
+            "name": "Mycelial Echo",
+            "unlock_relic_level": 30,
+            "type": [
+              "Passive",
+              "Healing"
+            ],
+            "copied_enemy_healing_percent": 50,
+            "targets": [
+              "Mushy",
+              "All Shrooms, including inactive Shrooms"
+            ],
+            "triggers_from_copied_healing": false,
+            "description": "Whenever an enemy is healed, Mushy and all Shrooms, including inactive Shrooms, copy 50% of that healing onto themselves. Healing copied by an equivalent ability does not trigger this effect.",
+            "alexandre_tips": "The cherry on top and a powerful counter to enemy healers! Mushy copies 50% of every heal on the enemy team to restore health to themselves and Shrooms. Each of these heals also triggers the previous ability!",
+            "is_new": true,
+            "copied_healing_triggers_wild_growth": true
+          }
+        ],
+        "stats": [
+          {
+            "name": "Magic Attack",
+            "bonus": 28667
+          },
+          {
+            "name": "Health",
+            "bonus": 430848
+          }
+        ],
+        "overview": "Want to grow an entire mushroom army? Get Mushy & Shroom's Relic and unleash their full power! More healing, stronger Shrooms, and increasing Magic Penetration - your enemies are in for trouble! Even enemy healing works in your favor: Mushy copies it to heal themselves and their Shrooms."
       },
       "realm": {
         "position": "Front",
@@ -372,8 +470,10 @@
         "Artifact values use level 100 and six stars; the weapon grants a temporary team buff.",
         "Non-default skin totals include their purchase cost.",
         "Lunar Skin lists its base bonus separately from the doubled Skin+ bonus.",
+        "Crimson Grove Skin lists its base bonus separately from the doubled Skin+ bonus.",
         "Summoned Shrooms and Spore Mushrooms can be targeted by attacks, offensive spells, and healing spells.",
-        "Max-stat comparisons exclude collection bonuses, Realm research and temporary buffs; one talisman is equipped at a time."
+        "Max-stat comparisons use one talisman at a time. Collection bonuses and Realm research settings for these totals are unspecified.",
+        "Max stats include the level 30 relic, Lunar Skin+ and Crimson Grove Skin+; relic stat bonuses are cumulative across all relic levels."
       ],
       "stats_configuration": {
         "level": 120,
@@ -388,9 +488,11 @@
         "gift_of_the_elements_level": 30,
         "talisman_level": 50,
         "rerolls": "Maximum total across all three slots",
-        "global_collection_bonuses": false,
-        "realm_research": false,
-        "temporary_buffs": false
+        "global_collection_bonuses": null,
+        "realm_research": null,
+        "temporary_buffs": false,
+        "crimson_grove_skin_plus": true,
+        "relic_level": 30
       },
       "gender": "female",
       "names": {
@@ -400,6 +502,28 @@
         "fr": "Champi et Gnon",
         "pt": "Cogu e Mélio",
         "ja": "マッシーとシュルーム"
+      },
+      "best_allies": [
+        "Byrna",
+        "Alvanor",
+        "Nebula",
+        "Mojo",
+        "Guus",
+        "Martha",
+        "Dorian"
+      ],
+      "team_tips": "Healers are key to helping Mushy & Shroom thrive: they keep them going until 4-5 little Shrooms are ready to overwhelm the enemy with powerful attacks. Add a damage dealer to complete the lineup: Mojo is a great choice, as his Artifact Weapon increases Magic Penetration even further.",
+      "great_against": {
+        "category": "Healers",
+        "examples": [
+          "Dorian",
+          "Byrna",
+          "Guus",
+          "Martha",
+          "Celeste",
+          "Aidan",
+          "Maya"
+        ]
       }
     }
   ]
