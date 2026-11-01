@@ -664,9 +664,6 @@ https://alexandregames.com/hero-wars-alliance/event-hwa/ascendant-glory-champion
 📌 **Balance of Power Event Group**
 https://alexandregames.com/hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html
 
-🛒 **Sanctum of Balance Shop**
-https://alexandregames.com/hero-wars-alliance/events-tips-hwa/sanctum-of-balance-shop-en.html
-
 ⚔️ **Defiant Edge**
 https://alexandregames.com/hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html
 
@@ -675,6 +672,9 @@ https://alexandregames.com/hero-wars-alliance/event-hwa/balance-of-power-gear-an
 
 🤝 **Unbroken Bond**
 https://alexandregames.com/hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html
+
+🛒 **Sanctum of Balance Shop**
+https://alexandregames.com/hero-wars-alliance/events-tips-hwa/sanctum-of-balance-shop-en.html
 
 
 */
