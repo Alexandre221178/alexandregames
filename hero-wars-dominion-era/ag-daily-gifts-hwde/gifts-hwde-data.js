@@ -1,22 +1,18 @@
 /*  npm run update-gifts-hwde
 // ── daily 1, 2026 ─────────────────────────────
-   { date:'2026-10-##', type:'link', giftId:'######', note:'level',
+   { date:'2026-11-##', type:'link', giftId:'###', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
 // ── daily 2, 2026 ──────────────────────────────
-  { date:'2026-10-##', type:'link', giftId:'#####', note:'level',
+  { date:'2026-11-##', type:'link', giftId:'###', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] }, 
 // ── 2 Link Exclusivo Web/FB ──────────────────────────────
-{ date:'2026-10-##', type:'link', giftLinkWeb:'https://herowars.me/##', giftLinkFb:'https://herowars.me/##', note:'until|2026-10-##T02:00:00Z',
+{ date:'2026-11-##', type:'link', giftLinkWeb:'https://herowars.me/##', giftLinkFb:'https://herowars.me/##', note:'until|2026-10-##T02:00:00Z',
   rewards:['energy x500'] },
 https://www.hero-wars.com/?nx_source=group_posting_giftweb&gift_id=
 */window.HWDE_GIFTS = [
-  { date:'2026-10-31', type:'link', giftId:'1c56f495474cb5e08266678318cf39bd', note:'level',
+   { date:'2026-11-01', type:'link', giftId:'f52edef19a8f326d492ca42b4da1597a', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] }, 
-
-    { date:'2026-10-30', type:'link', giftId:'9304db4a775e1869f424efea54b8e6f0', note:'level',
-  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
-   { date:'2026-10-29', type:'link', giftId:'7be41f08d1686ab6c0b3fde40c0604b7', note:'level',
-  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
+  
 
 { date:'2026-10-26', type:'link', giftLinkWeb:'https://herowars.me/4jIiPaw', giftLinkFb:'https://herowars.me/4yP6o0m', note:'until|2026-11-02T02:00:00Z',
   rewards:['spirit-energy x24', 'pumpkin x12500', 'treat x3'] },
