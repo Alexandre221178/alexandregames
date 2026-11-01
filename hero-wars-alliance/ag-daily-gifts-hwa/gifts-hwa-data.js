@@ -1,8 +1,13 @@
 /* npm run update-gifts-hwa      Link: https://hwa.nexters.com/c/ALEXANDREGAMES
-{ date:'2026-10-##', type:'daily', mission:'#', note:'daily|80',
+{ date:'2026-11-##', type:'daily', mission:'#', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+  { date:'2026-11-01', type:'hub', code:'CRIMSONGROVE', note:'until|2026-11-23T01:00:00Z',
+    rewards:['energy x10', 'intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350'] },
+
+  { date:'2026-11-01', type:'daily', mission:'3-8', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-10-31', type:'hub', code:'HALLOWEEN - Collect Haunted Coins and summon rare rewards at hub shop!', note:'until|2026-11-05T01:00:00Z',
     rewards:['haunted-coin x100'] },
  { date:'2026-10-31', type:'hub', code:'SPOOKYGIFT', note:'until|2026-11-23T01:00:00Z',
