@@ -123,6 +123,10 @@
     en: {
       date: 'Date', gift: 'Gift',
       copyCode: 'Copy code',
+      copyDialogTitle: "Code copied!",
+      copyDialogPrompt: "Open the HUB store to paste your code?",
+      openHubStore: "Open HUB store",
+      closeCopyDialog: "Close",
       codeCopied: 'Code copied! Paste it in the HUB store.',
       copyFailed: 'Could not copy. Select and copy the code manually.',
       hubCode: 'Special HUB Gifts Code:',
@@ -150,6 +154,10 @@
     pt: {
       date: 'Data', gift: 'Presente',
       copyCode: 'Copiar c\u00f3digo',
+      copyDialogTitle: "C\u00f3digo copiado!",
+      copyDialogPrompt: "Abrir a loja HUB para colar seu c\u00f3digo?",
+      openHubStore: "Abrir loja HUB",
+      closeCopyDialog: "Fechar",
       codeCopied: 'C\u00f3digo copiado! Cole na loja HUB.',
       copyFailed: 'N\u00e3o foi poss\u00edvel copiar. Selecione e copie o c\u00f3digo manualmente.',
       hubCode: 'C\u00f3digo Especial HUB:',
@@ -177,6 +185,10 @@
     de: {
       date: 'Datum', gift: 'Geschenk',
       copyCode: 'Code kopieren',
+      copyDialogTitle: "Code kopiert!",
+      copyDialogPrompt: "HUB-Shop \u00f6ffnen, um deinen Code einzuf\u00fcgen?",
+      openHubStore: "HUB-Shop \u00f6ffnen",
+      closeCopyDialog: "Schlie\u00dfen",
       codeCopied: 'Code kopiert! Im HUB-Shop einf\u00fcgen.',
       copyFailed: 'Kopieren fehlgeschlagen. Bitte den Code markieren und manuell kopieren.',
       hubCode: 'Spezieller HUB-Geschenkcode:',
@@ -204,6 +216,10 @@
     es: {
       date: 'Fecha', gift: 'Regalo',
       copyCode: 'Copiar c\u00f3digo',
+      copyDialogTitle: "\u00a1C\u00f3digo copiado!",
+      copyDialogPrompt: "\u00bfAbrir la tienda HUB para pegar tu c\u00f3digo?",
+      openHubStore: "Abrir tienda HUB",
+      closeCopyDialog: "Cerrar",
       codeCopied: '\u00a1C\u00f3digo copiado! P\u00e9galo en la tienda HUB.',
       copyFailed: 'No se pudo copiar. Selecciona y copia el c\u00f3digo manualmente.',
       hubCode: 'C\u00f3digo Especial HUB:',
@@ -231,6 +247,10 @@
     fr: {
       date: 'Date', gift: 'Cadeau',
       copyCode: 'Copier le code',
+      copyDialogTitle: "Code copi\u00e9 !",
+      copyDialogPrompt: "Ouvrir la boutique HUB pour coller votre code ?",
+      openHubStore: "Ouvrir la boutique HUB",
+      closeCopyDialog: "Fermer",
       codeCopied: 'Code copi\u00e9 ! Collez-le dans la boutique HUB.',
       copyFailed: 'Copie impossible. S\u00e9lectionnez et copiez le code manuellement.',
       hubCode: 'Code Sp\u00e9cial HUB :',
@@ -258,6 +278,10 @@
     ja: {
       date: '\u65e5\u4ed8', gift: '\u30ae\u30d5\u30c8',
       copyCode: '\u30b3\u30fc\u30c9\u3092\u30b3\u30d4\u30fc',
+      copyDialogTitle: "\u30b3\u30fc\u30c9\u3092\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f\uff01",
+      copyDialogPrompt: "\u30b3\u30fc\u30c9\u3092\u8cbc\u308a\u4ed8\u3051\u308b\u305f\u3081\u306bHUB\u30b9\u30c8\u30a2\u3092\u958b\u304d\u307e\u3059\u304b\uff1f",
+      openHubStore: "HUB\u30b9\u30c8\u30a2\u3092\u958b\u304f",
+      closeCopyDialog: "\u9589\u3058\u308b",
       codeCopied: '\u30b3\u30fc\u30c9\u3092\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f\uff01HUB\u30b9\u30c8\u30a2\u306b\u8cbc\u308a\u4ed8\u3051\u3066\u304f\u3060\u3055\u3044\u3002',
       copyFailed: '\u30b3\u30d4\u30fc\u3067\u304d\u307e\u305b\u3093\u3067\u3057\u305f\u3002\u30b3\u30fc\u30c9\u3092\u9078\u629e\u3057\u3066\u624b\u52d5\u3067\u30b3\u30d4\u30fc\u3057\u3066\u304f\u3060\u3055\u3044\u3002',
       hubCode: '\u7279\u5225HUB\u30ae\u30d5\u30c8\u30b3\u30fc\u30c9\uff1a',
@@ -557,6 +581,32 @@
     }
   }
 
+  function showCopyDialog(code, txt, trigger) {
+    var dialog = document.createElement('dialog');
+    dialog.className = 'hub-copy-dialog';
+    dialog.setAttribute('aria-labelledby', 'hub-copy-dialog-title');
+    dialog.setAttribute('aria-describedby', 'hub-copy-dialog-prompt');
+    dialog.innerHTML = '<h2 id="hub-copy-dialog-title">' + escapeHtml(txt.copyDialogTitle) + '</h2>' +
+      '<p class="hub-copy-dialog-code"><strong>' + escapeHtml(code) + '</strong></p>' +
+      '<p id="hub-copy-dialog-prompt">' + escapeHtml(txt.copyDialogPrompt) + '</p>' +
+      '<div class="hub-copy-dialog-actions">' +
+        '<a class="hub-copy-code" href="https://hwa.nexters.com/c/ALEXANDREGAMES" target="_blank" rel="noopener noreferrer">' + escapeHtml(txt.openHubStore) + '</a>' +
+        '<button type="button" class="hub-copy-code hub-copy-dialog-close" autofocus>' + escapeHtml(txt.closeCopyDialog) + '</button>' +
+      '</div>';
+    dialog.addEventListener('close', function () {
+      dialog.remove();
+      trigger.focus({ preventScroll: true });
+    });
+    dialog.querySelector('button').addEventListener('click', function () { dialog.close(); });
+    dialog.querySelector('a').addEventListener('click', function () { dialog.close(); });
+    document.body.appendChild(dialog);
+    if (typeof dialog.showModal === 'function') {
+      dialog.showModal();
+    } else {
+      dialog.remove();
+    }
+  }
+
   function initCopyButtons(container) {
     container.addEventListener('click', function (event) {
       var button = event.target.closest('button[data-copy-code]');
@@ -570,6 +620,7 @@
       function finish(success) {
         button.disabled = false;
         status.textContent = success ? txt.codeCopied : txt.copyFailed;
+        if (success) showCopyDialog(code, txt, button);
       }
 
       function fallback() {
