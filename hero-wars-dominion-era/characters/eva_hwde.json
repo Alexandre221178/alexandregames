@@ -32,8 +32,8 @@
 		"crit_resistance": 17160,
 		"vampirism": 0,
 		"magic_penetration": 0,
-		"armor_penetration": 28861,
-		"power": 174769
+		"armor_penetration": 39511,
+		"power": 180094
 	},
 	"skills": [
 		{
@@ -161,7 +161,17 @@
 			"costs": {
 				"agility_skin_stone": 55410
 			},
-			"availability_note": "Will be exclusive on September 24 (publicly available on February 1). Year not specified in the supplied data."
+			"availability_note": "n/a."
+		},
+		{
+			"name": "Cybernetic Skin",
+			"stats": {
+				"armor_penetration": 10650,
+				"power": 5325
+			},
+			"costs": {
+				"agility_skin_stone": 30825
+			}
 		}
 	],
 	"skins_note": "The choice is purely cosmetic; all skins' bonuses stack regardless of the selected appearance.",
