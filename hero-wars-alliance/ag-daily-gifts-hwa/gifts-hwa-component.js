@@ -122,6 +122,9 @@
   var UI = {
     en: {
       date: 'Date', gift: 'Gift',
+      copyCode: 'Copy code',
+      codeCopied: 'Code copied! Paste it in the HUB store.',
+      copyFailed: 'Could not copy. Select and copy the code manually.',
       hubCode: 'Special HUB Gifts Code:',
       specialMission: 'Special Mission',
       specialTaskMission: 'Special Task Mission',
@@ -146,6 +149,9 @@
     },
     pt: {
       date: 'Data', gift: 'Presente',
+      copyCode: 'Copiar c\u00f3digo',
+      codeCopied: 'C\u00f3digo copiado! Cole na loja HUB.',
+      copyFailed: 'N\u00e3o foi poss\u00edvel copiar. Selecione e copie o c\u00f3digo manualmente.',
       hubCode: 'C\u00f3digo Especial HUB:',
       specialMission: 'Miss\u00e3o Especial',
       specialTaskMission: 'Miss\u00e3o Especial',
@@ -170,6 +176,9 @@
     },
     de: {
       date: 'Datum', gift: 'Geschenk',
+      copyCode: 'Code kopieren',
+      codeCopied: 'Code kopiert! Im HUB-Shop einf\u00fcgen.',
+      copyFailed: 'Kopieren fehlgeschlagen. Bitte den Code markieren und manuell kopieren.',
       hubCode: 'Spezieller HUB-Geschenkcode:',
       specialMission: 'Spezielle Mission',
       specialTaskMission: 'Spezielle Aufgaben-Mission',
@@ -194,6 +203,9 @@
     },
     es: {
       date: 'Fecha', gift: 'Regalo',
+      copyCode: 'Copiar c\u00f3digo',
+      codeCopied: '\u00a1C\u00f3digo copiado! P\u00e9galo en la tienda HUB.',
+      copyFailed: 'No se pudo copiar. Selecciona y copia el c\u00f3digo manualmente.',
       hubCode: 'C\u00f3digo Especial HUB:',
       specialMission: 'Misi\u00f3n Especial',
       specialTaskMission: 'Misi\u00f3n de Tarea Especial',
@@ -218,6 +230,9 @@
     },
     fr: {
       date: 'Date', gift: 'Cadeau',
+      copyCode: 'Copier le code',
+      codeCopied: 'Code copi\u00e9 ! Collez-le dans la boutique HUB.',
+      copyFailed: 'Copie impossible. S\u00e9lectionnez et copiez le code manuellement.',
       hubCode: 'Code Sp\u00e9cial HUB :',
       specialMission: 'Mission Sp\u00e9ciale',
       specialTaskMission: 'Mission de T\u00e2che Sp\u00e9ciale',
@@ -242,6 +257,9 @@
     },
     ja: {
       date: '\u65e5\u4ed8', gift: '\u30ae\u30d5\u30c8',
+      copyCode: '\u30b3\u30fc\u30c9\u3092\u30b3\u30d4\u30fc',
+      codeCopied: '\u30b3\u30fc\u30c9\u3092\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f\uff01HUB\u30b9\u30c8\u30a2\u306b\u8cbc\u308a\u4ed8\u3051\u3066\u304f\u3060\u3055\u3044\u3002',
+      copyFailed: '\u30b3\u30d4\u30fc\u3067\u304d\u307e\u305b\u3093\u3067\u3057\u305f\u3002\u30b3\u30fc\u30c9\u3092\u9078\u629e\u3057\u3066\u624b\u52d5\u3067\u30b3\u30d4\u30fc\u3057\u3066\u304f\u3060\u3055\u3044\u3002',
       hubCode: '\u7279\u5225HUB\u30ae\u30d5\u30c8\u30b3\u30fc\u30c9\uff1a',
       specialMission: '\u30b9\u30da\u30b7\u30e3\u30eb\u30df\u30c3\u30b7\u30e7\u30f3',
       specialTaskMission: '\u30b9\u30da\u30b7\u30e3\u30eb\u30bf\u30b9\u30af\u30df\u30c3\u30b7\u30e7\u30f3',
@@ -441,6 +459,14 @@
       displayCode = escapeHtml(codeOrMission);
     }
 
+    if (entry.type === 'hub' && !entry.expired && entry.code) {
+      displayCode += '<div class="hub-copy-controls">' +
+        '<button type="button" class="hub-copy-code" data-copy-code="' +
+          escapeHtml(entry.copyCode || entry.code) + '">' + escapeHtml(txt.copyCode) + '</button>' +
+        '<span class="hub-copy-status" role="status" aria-live="polite"></span>' +
+        '</div>';
+    }
+
     return '<div class="content-wrapper">' +
       '<table class="event-table">' +
       '<caption>' + escapeHtml(txt[captionKey]) + '</caption>' +
@@ -513,6 +539,60 @@
 
   // ─── MAIN RENDER ─────────────────────────────────────────
 
+  function copyCodeFallback(code) {
+    var field = document.createElement('textarea');
+    var focused = document.activeElement;
+    field.value = code;
+    field.readOnly = true;
+    field.style.position = 'fixed';
+    field.style.opacity = '0';
+    document.body.appendChild(field);
+    try {
+      field.select();
+      field.setSelectionRange(0, field.value.length);
+      if (!document.execCommand('copy')) throw new Error('Copy failed');
+    } finally {
+      document.body.removeChild(field);
+      if (focused) focused.focus({ preventScroll: true });
+    }
+  }
+
+  function initCopyButtons(container) {
+    container.addEventListener('click', function (event) {
+      var button = event.target.closest('button[data-copy-code]');
+      if (!button || !container.contains(button) || button.disabled) return;
+      var txt = UI[getLang()] || UI.en;
+      var status = button.parentNode.querySelector('.hub-copy-status');
+      var code = button.getAttribute('data-copy-code');
+      button.disabled = true;
+      status.textContent = '';
+
+      function finish(success) {
+        button.disabled = false;
+        status.textContent = success ? txt.codeCopied : txt.copyFailed;
+      }
+
+      function fallback() {
+        try {
+          copyCodeFallback(code);
+          finish(true);
+        } catch (error) {
+          finish(false);
+        }
+      }
+
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(code).then(function () { finish(true); }, fallback);
+        } else {
+          fallback();
+        }
+      } catch (error) {
+        fallback();
+      }
+    });
+  }
+
   function renderAll(container) {
     var lang = getLang();
     var txt = UI[lang] || UI.en;
@@ -535,5 +615,6 @@
     var container = document.getElementById('gifts-container');
     if (!container) return;
     renderAll(container);
+    initCopyButtons(document);
   });
 })();
