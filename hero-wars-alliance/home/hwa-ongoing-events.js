@@ -45,7 +45,7 @@ updated: "Updated: November, 2026."
   alt: "Sanctum of Balance Shop Guide for Hero Wars Alliance",
   title: "Sanctum of Balance Shop for Hero Wars Alliance",
   strong: "Guide: Sanctum of Balance- Xe'sha Shop - Hero Wars Alliance",
-updated: "Updated: November, 2026."
+updated: "Updated: September, 2026."
 },
 
 

@@ -18,7 +18,16 @@
       title: "Wodryn Guide for Hero Wars Alliance",
       strong: "Guide: Wodryn - Hero Wars Alliance",
       updated: "Updated: November, 2026."
-    },     
+    },    
+    {
+      link: "/hero-wars-alliance/characters-guide/markus-en.html",
+      src500: "/hero-wars-alliance/images/hero/markus/markus-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/markus/markus-400px.webp",
+      alt: "Markus Guide for Hero Wars Alliance",
+      title: "Markus Guide for Hero Wars Alliance",
+      strong: "Guide: Markus Rework - Hero Wars Alliance",
+      updated: "Updated: November, 2026."
+    },      
      {
       link: "/hero-wars-alliance/characters-guide/luther-en.html",
       src500: "/hero-wars-alliance/images/hero/luther/luther-500px.webp",
