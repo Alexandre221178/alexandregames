@@ -154,6 +154,8 @@
     "update-orion-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js orion",
     "update-somna-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js somna",
     "update-ziri-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js ziri",
+     "update-wodryn-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js wodryn",
+
     "update-yasmine-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js yasmine",
 
 

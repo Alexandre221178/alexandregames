@@ -136,7 +136,7 @@ const authorHTML = `
 <div class="about-author">
 
 <img src="/imagens/alexandre-domingos.webp"
-alt="Alexandre Domingos - ブログ著者"
+alt="アレクサンドレ・ドミンゴス — ブログ著者"
 loading="lazy">
 
 <div class="author-text">
@@ -144,17 +144,17 @@ loading="lazy">
 <h3>著者について</h3>
 
 <p>
-<strong>Alexandre Domingos</strong> は工学の大学院学位を持ち、生産スーパーバイザーとして働いています。
+<strong>アレクサンドレ・ドミンゴス</strong> は工学の大学院学位を持ち、生産スーパーバイザーとして働いています。
 余暇には
 <a href="https://www.youtube.com/channel/UCVXIv4Movg3KAaPHVE7dstw" target="_blank" rel="noopener">
-<strong>YouTuber</strong></a>、<strong>ブロガー</strong>、そして
-<a href="https://alexandregames.com"><strong>Alexandre Games</strong></a> の
+<strong>ユーチューバー</strong></a>、<strong>ブロガー</strong>、そして
+<a href="https://alexandregames.com"><strong>アレクサンドレ・ゲームズ</strong></a> の
 <strong>ウェブマスター</strong>として活動しています。
 </p>
 
 <p>
-彼は5歳の頃からゲームの世界に没頭しており、MSX、Master System、Nintendo、
-そして古い286 PCなどのクラシックなプラットフォームからゲームを始めました。
+彼は5歳の頃からゲームの世界に没頭しており、エムエスエックス、マスターシステム、ニンテンドー、
+そして古い286パソコンなどのクラシックなプラットフォームからゲームを始めました。
 2019年からはコミュニティ向けにガイド、チュートリアル、そして高度な戦略を制作しています。
 </p>
 
@@ -177,7 +177,7 @@ const coffeeHTML = `
 
 <p class="creator-text">
 このガイドが役に立った場合は、
-<strong>アレクサンドル・ゲームズ</strong>のプロジェクトを
+<strong>アレクサンドレ・ゲームズ</strong>のプロジェクトを
 コーヒー1杯で応援していただけると嬉しいです。
 </p>
 
@@ -216,7 +216,7 @@ const creatorHTML = `
 </p>
 
 <p class="creator-text">
-Hero Wars の公式 Web Shop で次のクリエイターコードを使用してください：
+ヒーローウォーズの公式ウェブショップで次のクリエイターコードを使用してください：
 </p>
 
 <div class="creator-code-box">
@@ -228,7 +228,7 @@ ALEXANDREGAMES
 target="_blank"
 rel="noopener"
 class="creator-main-button">
-公式Webショップを見る
+公式ウェブショップを見る
 </a>
 
 <p class="creator-small">

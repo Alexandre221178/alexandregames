@@ -2,6 +2,15 @@
   // Carousel multi-language injector  npm run update-hwde-hwde 
   const slides = [
     {
+      link: "../../hero-wars-dominion-era/characters/wodryn-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/wodryn/wodryn-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/wodryn/wodryn-400px.webp",
+      alt: "Wodryn for Hero Wars: Dominion Era",
+      title: "Wodryn for Hero Wars: Dominion Era.",
+      strong: "Guide: Wodryn - Hero Wars: Dominion Era",
+      updated: "Updated: November, 2026."
+    },
+    {
       link: "../../hero-wars-dominion-era/events-special-hwde/mead-festival-missions-en.html",
       src500: "../../hero-wars-dominion-era/images/events-special/mead-festival-missions/mead-festival-missions-500px.webp",
       src400: "../../hero-wars-dominion-era/images/events-special/mead-festival-missions/mead-festival-missions-400px.webp",

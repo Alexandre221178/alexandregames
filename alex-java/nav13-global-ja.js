@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </style>
 
 <div class="logo">
-    <a href="https://alexandregames.com/index-ja.html"><img src="https://alexandregames.com/imagens/exandregames318x318-removebg.webp" alt="Alexandre Games Mobile Logo" title="Alexandre Games Mobile Logo" width="50" height="50"></a>
+    <a href="https://alexandregames.com/index-ja.html"><img src="https://alexandregames.com/imagens/exandregames318x318-removebg.webp" alt="アレクサンドレ・ゲームズのモバイル用ロゴ" title="アレクサンドレ・ゲームズのモバイル用ロゴ" width="50" height="50"></a>
 </div>
 
 <ul> 
@@ -139,8 +139,8 @@ document.addEventListener('DOMContentLoaded', () => {
 <div class="dropdown">
     <button class="dropbtn"><span class="notranslate">レビュー</span></button>
     <div class="dropdown-content"><br>
-        <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-en.html">Hero Wars割引のためのAppGalleryインストール方法</a>   
-        <a href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html">PCとMacでHero Wars Allianceをプレイする方法</a> 
+        <a href="https://alexandregames.com/gaming-guide/review/appgallery-review-en.html">ヒーローウォーズの割引を利用するためのアップギャラリー導入方法</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/guide/how-to-play-hero-wars-on-pc-and-mac-en.html">パソコンとマックでヒーローウォーズ・アライアンスをプレイする方法</a>
         <br><br><br>
         <br><br><br>
     </div>
@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <div class="dropdown">
    <button class="dropbtn"><span>ヒーローウォーズ アライアンス (モバイル)</span></button>
     <div class="dropdown-content"> <br>                
-        <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-ja.html">🏠 ホーム - Hero Wars Alliance</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/home/hwa-index-ja.html">🏠 ホーム — ヒーローウォーズ・アライアンス</a>
         <a href="https://alexandregames.com/hero-wars-alliance/ag-daily-gifts-hwa/gifts-hwa-ja.html">🎁 デイリーギフト</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/calendar-hwa-ja.html">📅 カレンダー：イベント＆攻略ヒント</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/heroes-guide-hwa-ja.html">📖 ヒーローガイド</a>
@@ -161,16 +161,16 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/realm-tips-and-guides-ja.html">🏰レルムの完全攻略ヒント＆ガイド</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-review-en-hwa.html">🎨 イベント攻略とレビュー</a>
         <a href="https://alexandregames.com/hero-wars-alliance/guide/relic-guide-ja.html">✨ レリックガイド</a>
-        <a href="https://alexandregames.com/hero-wars-alliance/event-special-hwa/pallant-adventure-shop-en.html">🧭 シーズンショップガイド - Elarite Heat</a>
+        <a href="https://alexandregames.com/hero-wars-alliance/event-special-hwa/pallant-adventure-shop-en.html">🧭 シーズンショップガイド — エラライト・ヒート</a>
         <a href="https://alexandregames.com/hero-wars-alliance/menu-hwa/titans-guide-hwa-ja.html">⚔️ タイタンガイド</a>
         <br><br><br><br>
     </div>
 </div>  
 
 <div class="dropdown">
-    <button class="dropbtn"><span>ヒーローウォーズ ドミニオンの時代 (Web/Facebook)</span></button>
+    <button class="dropbtn"><span>ヒーローウォーズ：ドミニオン・エラ（ウェブ版・フェイスブック版）</span></button>
     <div class="dropdown-content"> <br>  
-        <a href="https://alexandregames.com/hero-wars-dominion-era/home/hwde-ja.html">🏠 ホーム - Hero Wars: Dominion Era</a>
+        <a href="https://alexandregames.com/hero-wars-dominion-era/home/hwde-ja.html">🏠 ホーム — ヒーローウォーズ：ドミニオン・エラ</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/ag-daily-gifts-hwde/gifts-hwde-ja.html">🎁 デイリーギフト</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/menu/calendar-hwde-ja.html">📅 カレンダー：イベント＆攻略ヒント</a>
         <a href="https://alexandregames.com/hero-wars-dominion-era/guide/best-war-flag-en.html">⚔️ ベストウォーフラッグ</a>
@@ -206,14 +206,14 @@ document.addEventListener('DOMContentLoaded', () => {
         <button class="dropbtn">その他のゲーム</button>
         <div class="dropdown-content"><br>
             <a href="https://alexandregames.com/MobileLegends-English.html">モバイル・レジェンド</a>
-            <a href="https://alexandregames.com/roblox-us.html">ロブロックス（PC／モバイル）</a>
-            <a href="https://alexandregames.com/top-troops/top-troops-en-home.html"><span class="notranslate">Top Troops</span></a>
-            <a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-en.html"><span class="notranslate">Throne and Liberty</span></a>
-            <a href="https://alexandregames.com/ragnarok-origin/codes-ragnarok-us.html"><span class="notranslate">Ragnarok ROO</span></a>
-            <a href="https://alexandregames.com/gaming-guide/review/tales-of-wind-review-en.html"><span class="notranslate">Tales of Wind: RR</span></a>
-            <a href="https://alexandregames.com/gaming-guide/review/the-dragon-odyssey-gameplay-en.html"><span class="notranslate">The Dragon Odyssey</span></a>                    
-            <a href="https://alexandregames.com/gaming-guide/review/echoes-of-eternity-game-review-en.html"><span class="notranslate">Echoes of Eternity</span></a>
-            <a href="https://alexandregames.com/gaming-guide/review/path-of-exile-2-en.html"><span class="notranslate">Path of Exile 2 - Tier List</span></a>
+            <a href="https://alexandregames.com/roblox-us.html">ロブロックス（パソコン／モバイル）</a>
+            <a href="https://alexandregames.com/top-troops/top-troops-en-home.html"><span class="notranslate">トップ・トゥループス</span></a>
+            <a href="https://alexandregames.com/throne-and-liberty/menu-throne-and-liberty/menu-throne-and-liberty-en.html"><span class="notranslate">スローン・アンド・リバティ</span></a>
+            <a href="https://alexandregames.com/ragnarok-origin/codes-ragnarok-us.html"><span class="notranslate">ラグナロク・ルー</span></a>
+            <a href="https://alexandregames.com/gaming-guide/review/tales-of-wind-review-en.html"><span class="notranslate">テイルズ・オブ・ウィンド：アールアール</span></a>
+            <a href="https://alexandregames.com/gaming-guide/review/the-dragon-odyssey-gameplay-en.html"><span class="notranslate">ザ・ドラゴン・オデッセイ</span></a>
+            <a href="https://alexandregames.com/gaming-guide/review/echoes-of-eternity-game-review-en.html"><span class="notranslate">エコーズ・オブ・エタニティ</span></a>
+            <a href="https://alexandregames.com/gaming-guide/review/path-of-exile-2-en.html"><span class="notranslate">パス・オブ・エグザイル 2 — ティアリスト</span></a>
             <a>_____________</a>
             <a href="https://alexandregames.com/Documentos/Contact.html">お問い合わせ</a>            
             <a href="https://alexandregames.com/Documentos/about.html">当サイトについて</a>
@@ -222,39 +222,39 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
     <div class="language-dropdown">
         <button class="language-switch">
-            <strong>🌎Global</strong>
+            <strong>🌎言語</strong>
         </button>
         <div class="language-dropdown-content">
             <a href="#" class="lang-option" data-lang="pt">
-                <img src="https://alexandregames.com/imagens/flag-brazil-32x32.png" alt="Brazil flag" title="Brazil flag" style="width:24px;height:16px">
-                <strong>PT</strong>
+                <img src="https://alexandregames.com/imagens/flag-brazil-32x32.png" alt="ブラジルの国旗" title="ブラジルの国旗" style="width:24px;height:16px">
+                <strong>ポルトガル語</strong>
             </a>
             <a href="#" class="lang-option" data-lang="en">
-                <img src="https://alexandregames.com/imagens/flag-usa-32x32.png" alt="USA flag" title="USA flag" style="width:24px;height:16px">
-                <strong>EN</strong>
+                <img src="https://alexandregames.com/imagens/flag-usa-32x32.png" alt="アメリカの国旗" title="アメリカの国旗" style="width:24px;height:16px">
+                <strong>英語</strong>
             </a>
             <a href="#" class="lang-option" data-lang="es">
-                <img src="https://alexandregames.com/imagens/flag-spain-32x32.png" alt="Spain flag" title="Spain flag" style="width:24px;height:16px">
-                <strong>ES</strong>
+                <img src="https://alexandregames.com/imagens/flag-spain-32x32.png" alt="スペインの国旗" title="スペインの国旗" style="width:24px;height:16px">
+                <strong>スペイン語</strong>
             </a>
             <a href="#" class="lang-option" data-lang="de">
-                <img src="https://alexandregames.com/imagens/flag-germany-32x32.png" alt="Germany flag" title="Germany flag" style="width:24px;height:16px">
-                <strong>DE</strong>
+                <img src="https://alexandregames.com/imagens/flag-germany-32x32.png" alt="ドイツの国旗" title="ドイツの国旗" style="width:24px;height:16px">
+                <strong>ドイツ語</strong>
             </a>
             <a href="#" class="lang-option" data-lang="fr">
-                <img src="https://alexandregames.com/imagens/flag-france-32x32.png" alt="France flag" title="France flag" style="width:24px;height:16px">
-                <strong>FR</strong>
+                <img src="https://alexandregames.com/imagens/flag-france-32x32.png" alt="フランスの国旗" title="フランスの国旗" style="width:24px;height:16px">
+                <strong>フランス語</strong>
             </a>
             <a href="#" class="lang-option" data-lang="ja">
-                <img src="https://alexandregames.com/imagens/flag-japan-32x32.png" alt="Japan flag" title="Japan flag" style="width:24px;height:16px">
-                <strong>JA</strong>
+                <img src="https://alexandregames.com/imagens/flag-japan-32x32.png" alt="日本の国旗" title="日本の国旗" style="width:24px;height:16px">
+                <strong>日本語</strong>
             </a>
             <br>
         </div>
     </div>
     </ul>
     <div class="menu-icon">
-        <img src="https://alexandregames.com/imagens/menu.png" alt="Menu" style="width:48px;height:48px;">
+        <img src="https://alexandregames.com/imagens/menu.png" alt="メニュー" style="width:48px;height:48px;">
     </div>
     `;
 
@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
         navElement.querySelectorAll('a').forEach(a => {
             const href = a.getAttribute('href') || '';
             if (href.includes('-en.html') || href.includes('Hero%20Wars%20English') || href.includes('MobileLegends-English') || href.includes('herowars-alliance-en.html')) {
-                if (!a.textContent.includes('(EN)')) a.textContent = a.textContent + ' (EN)';
+                if (!a.textContent.includes('（英語）')) a.textContent = a.textContent + '（英語）';
             }
         });
     } catch (e) {}

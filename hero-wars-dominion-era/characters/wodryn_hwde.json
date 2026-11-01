@@ -1,0 +1,243 @@
+{
+  "id": "wodryn",
+  "name": "Wodryn",
+  "gender": "male",
+  "role": [
+    "tank"
+  ],
+  "main_role": "Tank",
+  "position": "5",
+  "main_stat": "Strength",
+  "how_to_get_soul_stones": "not defined",
+  "basic_attack_formula": "(100% physical attack)",
+  "basic_attack": 46606,
+  "basic_attack_cooldown": "4.2s",
+  "stats": {
+    "intelligence": 2701,
+    "agility": 2831,
+    "strength": 18226,
+    "health": 1054126,
+    "physical_attack": 46606,
+    "magic_attack": 9653,
+    "armor": 44397,
+    "magic_defense": 45689,
+    "dodge": 0,
+    "crit_hit_chance": 8453,
+    "accuracy": 18226,
+    "crit_resistance": 18226,
+    "vampirism": 0,
+    "magic_penetration": 0,
+    "armor_penetration": 0,
+    "power": 179842
+  },
+  "skills": [
+    {
+      "id": 1,
+      "variant": "base",
+      "level": 130,
+      "name": "Canopy Grace",
+      "type": [
+        "ultimate",
+        "white"
+      ],
+      "damage_formula": "Main stat per charge: 150.2 (0.2% physical attack + 0.4 * level + 5). Pure damage reduction cap: 60,256 (100% physical attack + 105 * level)",
+      "scales_with": [
+        "Physical Attack"
+      ],
+      "charges_granted": 25,
+      "maximum_charges": 75,
+      "main_stat_per_charge": 150.2,
+      "pure_damage_reduction_percent": 80,
+      "damage_reduction_cap": 60256,
+      "description": "Grants the team 25 protective charges, up to 75. Every charge boosts each ally's main stat. Receiving pure damage consumes a charge, reducing that hit by 80% within the reduction cap."
+    },
+    {
+      "id": 2,
+      "variant": "base",
+      "level": 130,
+      "name": "Hungry Roots",
+      "type": [
+        "periodic",
+        "green"
+      ],
+      "damage_formula": "Damage per hit: 12,571 (20% physical attack + 25 * level). Main stat drained per hit: 414.6 (0.6% physical attack + 1 * level + 5)",
+      "scales_with": [
+        "Physical Attack"
+      ],
+      "cooldown_seconds": 12,
+      "duration_seconds": 8,
+      "tick_interval_seconds": 1,
+      "stat_modification_duration_seconds": 10,
+      "damage_per_hit": 12571,
+      "main_stat_drained_per_hit": 414.6,
+      "description": "For 8 seconds, roots hit enemies in their area once per second, damaging them and draining their main stat. The drained amount becomes Strength for Wodryn; stat changes last 10 seconds."
+    },
+    {
+      "id": 3,
+      "variant": "base",
+      "level": 130,
+      "name": "Wrath of Thorns",
+      "type": [
+        "periodic",
+        "blue"
+      ],
+      "damage_formula": "Counterattack damage: 59,067 (110% physical attack + 60 * level)",
+      "scales_with": [
+        "Physical Attack"
+      ],
+      "cooldown_seconds": 10,
+      "initial_cooldown_seconds": 5,
+      "duration_seconds": 8,
+      "counterattack_damage": 59067,
+      "description": "An 8-second bark effect makes Wodryn retaliate with a damaging thorn whenever he receives damage."
+    },
+    {
+      "id": 4,
+      "variant": "base",
+      "level": 130,
+      "name": "Will of Shoots",
+      "type": [
+        "passive",
+        "violet"
+      ],
+      "damage_formula": "Healing: 55,706 (100% physical attack + 70 * level). Bonus energy: 120 (0.9 * level + 3)",
+      "scales_with": [
+        "Physical Attack"
+      ],
+      "healing": 55706,
+      "bonus_energy": 120,
+      "description": "Critical basic attacks knock enemies airborne. Critical hits from other skills instead restore Wodryn's health and grant bonus energy.",
+      "nota do alexndre": "essa skill tem sinergia muito grande com k'arkh skill Deadly tendrils: While K'arkh is alive, he strikes every enemy who was thrown into the air. If the enemy level is equal to or less than 130, K'arkh deals double damage "
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "Rootbreaker",
+      "stats": {
+        "armor": 50190,
+        "power": 12547
+      }
+    },
+    {
+      "name": "Defender's Covenant",
+      "stats": {
+        "magic_defense": 12546,
+        "armor": 12546,
+        "power": 12546
+      }
+    },
+    {
+      "name": "Ring of Strength",
+      "stats": {
+        "strength": 6249,
+        "power": 17184
+      }
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": {
+        "strength": 1365,
+        "power": 3753
+      }
+    },
+    {
+      "name": "Sakura Skin",
+      "stats": {
+        "magic_defense": 21300,
+        "power": 10650
+      }
+    }
+  ],
+  "glyphs": [
+    {
+      "name": "Health Glyph",
+      "stats": {
+        "health": 62200,
+        "power": 3110
+      }
+    },
+    {
+      "name": "Strength Glyph",
+      "stats": {
+        "strength": 1135,
+        "power": 3121
+      }
+    },
+    {
+      "name": "Physical attack Glyph",
+      "stats": {
+        "physical_attack": 4340,
+        "power": 3255
+      }
+    },
+    {
+      "name": "Armor Glyph",
+      "stats": {
+        "armor": 6500,
+        "power": 3250
+      }
+    },
+    {
+      "name": "Critical hit chance Glyph",
+      "stats": {
+        "crit_hit_chance": 1995,
+        "power": 3591
+      }
+    }
+  ],
+  "equipment": {
+    "stats": {
+      "health": 129226,
+      "strength": 2978,
+      "intelligence": 867,
+      "agility": 867,
+      "physical_attack": 10937,
+      "magic_defense": 5010,
+      "armor": 6392,
+      "crit_hit_chance": 1808,
+      "power": 36577
+    }
+  },
+  "tree_of_wisdom": {
+    "stats": {
+      "health": 81160,
+      "physical_attack": 5001,
+      "magic_attack": 1550,
+      "magic_defense": 4132,
+      "armor": 3808,
+      "power": 12553
+    }
+  },
+  "miscellaneous": {
+    "levels": {
+      "stats": {
+        "strength": 3510,
+        "intelligence": 1430,
+        "agility": 1560,
+        "power": 17875
+      }
+    },
+    "gift_of_the_elements": {
+      "stats": {
+        "strength": 720,
+        "intelligence": 360,
+        "agility": 360,
+        "power": 3960
+      }
+    }
+  },
+   "best teams": {
+     "team1": "flag of Recovery, Axel, Sebastian(Fenris), Guus(robin), Yasmine(albus), Lyria(biscuit), Wodryn(axel)",
+    
+    "team2": "flag of Recovery, Axel, Faceless(Mara), Byrna(Robin), Sebastian(Fenris), K'arkh(Vex), Wodryn(axel)"
+  },
+  "release": {
+     "nota-release": "nao colocar essas informacoes no guia de herois",
+    "event": "Roots of Destiny",
+    "month": "2026-11",
+    "available_in_soul_atrium": false,
+    "available_in_soul_chests": false
+  }
+}

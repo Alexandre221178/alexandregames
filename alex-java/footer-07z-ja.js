@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // 1. セクションタイトルの追加
     const socialLinksContainer = document.getElementById("social-links");
     const socialTitle = document.createElement("h2");
-    socialTitle.textContent = "Alexandre Games をフォロー";
+    socialTitle.textContent = "アレクサンドレ・ゲームズをフォロー";
     socialTitle.classList.add("social-title"); // 中央揃えのためのクラス
     socialLinksContainer.appendChild(socialTitle);
 
@@ -12,34 +12,34 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             href: "https://www.youtube.com/channel/UCVXIv4Movg3KAaPHVE7dstw",
             src: "https://alexandregames.com/imagens/youtube-black.webp",
-            alt: "Alexandre Games Alliance",
-            title: "Alexandre Games Alliance"
+            alt: "アレクサンドレ・ゲームズ — アライアンス",
+            title: "アレクサンドレ・ゲームズ — アライアンス"
         },
         {
             href: "https://www.youtube.com/channel/UCtzRcfrI2dlPB9gEN4h92Zg",
             src: "https://alexandregames.com/imagens/youtube-black.webp",
-            alt: "Alexandre Games Dominion",
-            title: "Alexandre Games Dominion"
+            alt: "アレクサンドレ・ゲームズ — ドミニオン",
+            title: "アレクサンドレ・ゲームズ — ドミニオン"
         },
         {
             href: "http://facebook.com/profile.php?id=100093242163291",
             src: "https://alexandregames.com/imagens/facebookblack.webp",
-            alt: "Alexandre Games Facebook",
-            title: "Alexandre Games Facebook"
+            alt: "アレクサンドレ・ゲームズ — フェイスブック",
+            title: "アレクサンドレ・ゲームズ — フェイスブック"
         },
        
         {
             href: "https://discord.gg/37BRnhBv6r",
             src: "https://alexandregames.com/imagens/discord-black.webp",
-            alt: "Discordコミュニティに参加",
-            title: "Discordコミュニティに参加"
+            alt: "ディスコードのコミュニティに参加",
+            title: "ディスコードのコミュニティに参加"
         },
        
         {
             href: "https://chat.whatsapp.com/Ls6TKVfqscx87WkugvfQOY",
             src: "https://alexandregames.com/imagens/logo-whatsapp.webp",
-            alt: "WhatsAppコミュニティに参加",
-            title: "WhatsAppコミュニティに参加"
+            alt: "ワッツアップのコミュニティに参加",
+            title: "ワッツアップのコミュニティに参加"
         }
     ];
 
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 4. 著作権の追加
     const footerMessage = document.getElementById("message");
-    const messageText = document.createTextNode("©2023-2026 Alexandre Games Blog - CNPJ 60.473.728/0001-62");
+    const messageText = document.createTextNode("©2023-2026 アレクサンドレ・ゲームズのブログ — ブラジル法人登録番号 60.473.728/0001-62");
     footerMessage.appendChild(messageText);
 
     // 詳細な著作権情報とスクレイパー対策の追加
@@ -83,8 +83,8 @@ document.addEventListener("DOMContentLoaded", function () {
     detailDiv.style.fontSize = "0.85em";
     detailDiv.style.marginTop = "10px";
     detailDiv.innerHTML = `
-        <strong>Hero Wars (Alliance & Dominion Era)</strong>、 
-        <strong>Mobile Legends</strong>、および <strong>Roblox</strong> のすべてのコンテンツは著作権で保護されています。 
+        <strong>ヒーローウォーズ（アライアンス＆ドミニオン・エラ）</strong>、
+        <strong>モバイル・レジェンド</strong>、および <strong>ロブロックス</strong> のすべてのコンテンツは著作権で保護されています。
         無断での複製や翻訳は禁止されています。
         
         <span style="display:none; visibility:hidden; font-size: 0px;">
