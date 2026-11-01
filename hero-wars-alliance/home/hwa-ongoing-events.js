@@ -9,7 +9,7 @@
   alt: "Balance of Power Guide for Hero Wars Alliance",
   title: "Balance of Power Event Group for Hero Wars Alliance",
   strong: "Guide: Balance of Power Event Group- Hero Wars Alliance",
-  updated: "Updated: September, 2026."
+  updated: "Updated: November, 2026."
 },
 {
   link: "/hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html",
@@ -18,7 +18,7 @@
   alt: "Defiant Edge Guide for Hero Wars Alliance",
   title: "Defiant Edge Guide for Hero Wars Alliance",
   strong: "Guide: Defiant Edge - Hero Wars Alliance",
- updated: "Updated: September, 2026."
+updated: "Updated: November, 2026."
 },
 {
   link: "/hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html",
@@ -27,7 +27,7 @@
   alt: "Gear and Glory Guide for Hero Wars Alliance",
   title: "Gear and Glory Guide for Hero Wars Alliance",
   strong: "Guide: Gear and Glory - Hero Wars Alliance",
-  updated: "Updated: September, 2026."
+updated: "Updated: November, 2026."
 },
 {
   link: "/hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html",
@@ -36,7 +36,7 @@
   alt: "Unbroken Bond Guide for Hero Wars Alliance",
   title: "Unbroken Bond Guide for Hero Wars Alliance",
   strong: "Guide: Unbroken Bond - Hero Wars Alliance",
-  updated: "Updated: September, 2026."
+updated: "Updated: November, 2026."
 },
 {
   link: "/hero-wars-alliance/events-tips-hwa/sanctum-of-balance-shop-en.html",
@@ -45,7 +45,7 @@
   alt: "Sanctum of Balance Shop Guide for Hero Wars Alliance",
   title: "Sanctum of Balance Shop for Hero Wars Alliance",
   strong: "Guide: Sanctum of Balance- Xe'sha Shop - Hero Wars Alliance",
-  updated: "Updated: September, 2026."
+updated: "Updated: November, 2026."
 },
 
 
