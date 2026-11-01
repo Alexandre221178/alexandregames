@@ -3,6 +3,9 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+   { date:'2026-11-01', type:'hub', code:'REALMBATTLES', note:'until|2026-11-23T01:00:00Z',
+    rewards:['energy x20', 'world-energy x30', 'random-resources-chest-100k x6'] },
+
   { date:'2026-11-01', type:'hub', code:'CRIMSONGROVE', note:'until|2026-11-23T01:00:00Z',
     rewards:['energy x10', 'intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350'] },
 
