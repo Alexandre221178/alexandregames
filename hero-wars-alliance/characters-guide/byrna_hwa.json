@@ -15,28 +15,28 @@
       "faction": "Way of Nature",
       "stats": {
         "Bearocious_talisman": {
-          "intelligence": 15558,
-          "agility": 3549,
-          "strength": 4154,
-          "health": 898279,
-          "physical_attack": 31496,
-          "magic_attack": 167436,
-          "armor": 21777,
-          "magic_defense": 33909,
-          "toughness": 2790,
+          "intelligence": 15955,
+          "agility": 3626,
+          "strength": 4289,
+          "health": 1031861,
+          "physical_attack": 39242,
+          "magic_attack": 185611,
+          "armor": 50071,
+          "magic_defense": 38504,
+          "toughness": 3069,
           "magic_reflection": 6600,
           "magic_penetration": 24488
         },
         "talisman_of_the_orc_princess": {
-          "intelligence": 17558,
-          "agility": 3549,
-          "strength": 4154,
-          "health": 898279,
-          "physical_attack": 33496,
-          "magic_attack": 173436,
-          "armor": 9777,
-          "magic_defense": 35909,
-          "toughness": 2790,
+          "intelligence": 17955,
+          "agility": 3626,
+          "strength": 4289,
+          "health": 1031861,
+          "physical_attack": 41242,
+          "magic_attack": 191611,
+          "armor": 35971,
+          "magic_defense": 40504,
+          "toughness": 3069,
           "magic_penetration": 44288
         }
       },
@@ -44,7 +44,7 @@
         "Bearocious_talisman": {
           "level": 50,
           "main_stat": "Armor",
-          "main_stat_bonus": 12000,
+          "main_stat_bonus": 14100,
           "derived_bonuses": {},
           "reroll_slots": [
             { "stat": "Magic Reflection", "value": 2200 },
@@ -224,6 +224,22 @@
           "name": "Winter Skin",
           "stat": "Magic Penetration",
           "bonus": 10650,
+          "evolution_priority": "High"
+        },
+        {
+          "name": "Tribal Skin+",
+          "stat": "Magic Attack",
+          "bonus": 10650,
+          "is_skin_plus": true,
+          "bonus_with_skin_plus": 21300,
+          "evolution_priority": "Extremely High"
+        },
+        {
+          "name": "Crimson Grove Skin+",
+          "stat": "Armor",
+          "bonus": 10650,
+          "is_skin_plus": true,
+          "bonus_with_skin_plus": 21300,
           "evolution_priority": "High"
         }
       ],
