@@ -3,9 +3,11 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+{ date:'2026-11-06', type:'daily', mission:'3-14', note:'daily|80',
+    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+
 { date:'2026-11-05', type:'hub', code:'10HWASTREAM', note:'until|2026-11-08T01:00:00Z',
      rewards:['energy x500', 'boxys-gift x3', 'realm-gift x3', 'large-skin-stone-chest x5', 'rune-stone x10000', 'titan-potion x10000',  'summoning-sphere x10',  'elemental-sphere x10' ] },   
-
     
     { date:'2026-11-05', type:'hub', code:'TITANPARTY', note:'until|2026-11-23T01:00:00Z',
      rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },   
