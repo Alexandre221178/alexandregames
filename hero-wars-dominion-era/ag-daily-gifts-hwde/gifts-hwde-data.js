@@ -10,6 +10,9 @@
   rewards:['energy x500'] },
 
 */window.HWDE_GIFTS = [
+   { date:'2026-11-07', type:'link', giftId:'76d6f1b7f10a0ff036e921f9bfafc977', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] }, 
+   
   { date:'2026-11-06', type:'link', giftId:'8c437ab2a8ce3807288fc1a6d6603474', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
    
