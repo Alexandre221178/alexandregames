@@ -1,0 +1,9 @@
+Generation mode: built-in image_gen.
+Assets: dominion-day-{1200,800,400}px.jpg and grand-feast-{1200,800,400}px.jpg.
+Both illustrations are editorial artwork, not gameplay screenshots.
+
+DOMINION DAY
+Use case: stylized-concept. Asset type: wide 16:9 website thumbnail for an English Hero Wars Alliance 2026 birthday event guide. Primary request: festive fantasy illustration, enormous magical tiered birthday cake in a medieval fantasy courtyard, glowing purple holiday particles, gold gift boxes, confetti and fireworks, vibrant polished mobile fantasy game art. Composition: strong readable central silhouette, wide cinematic framing, no characters required. Text (verbatim): "HAPPY BIRTHDAY 2026" in large crisp gold lettering, smaller subtitle "HERO WARS ALLIANCE". Avoid watermarks, fake game UI, tiny text. Save the generated image file and return its local path.
+
+GRAND FEAST
+Use case: stylized-concept. Asset type: wide 16:9 website thumbnail for the Grand Feast birthday event in Hero Wars Alliance 2026. Primary request: a sumptuous fantasy birthday banquet with glowing magical artifact coins, violet rune spheres, blue crystals and ornate treasure chests around a celebratory cake, polished colorful mobile fantasy game illustration. Composition: cinematic wide thumbnail, clear shapes, rich purple and warm gold lighting, visually distinct from a courtyard cake scene. Text (verbatim): "GRAND FEAST" large legible gold letters and "BIRTHDAY 2026" smaller. Constraints: no watermark, no fake game interface, no invented prices or rewards. Save generated image file and return local path.

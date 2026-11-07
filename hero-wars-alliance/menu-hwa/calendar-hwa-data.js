@@ -707,19 +707,19 @@ window.CALENDAR_DATA = [
     "weekday": "Sunday",
     "date": "Nov, 08",
     "titles": { "en": "🎂 Dominion Day — 10th anniversary", "pt": "🎂 Dominion Day — 10º aniversário", "de": "🎂 Dominion Day — 10. Jubiläum", "es": "🎂 Dominion Day — 10.º aniversario", "fr": "🎂 Dominion Day — 10e anniversaire", "ja": "🎂 Dominion Day — 10周年" },
-    "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+    "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
     "image": "../../imagens/image-shared/mojo-300px.webp",
     "alt": "Dominion Day - Mojo",
     "noStrip": true,
     "extra": [
       {
         "titles": { "en": "👕 Mojo — Crimson Grove Skin & Skin+ (Shop)", "pt": "👕 Mojo — Crimson Grove: Skin e Skin+ na loja", "de": "👕 Mojo — Crimson Grove: Skin und Skin+ im Shop", "es": "👕 Mojo — Crimson Grove: Skin y Skin+ en la tienda", "fr": "👕 Mojo — Crimson Grove : Skin et Skin+ en boutique", "ja": "👕 Mojo — Crimson Groveスキン＆Skin+（ショップ）" },
-        "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+        "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
         "noStrip": true
       },
       {
         "titles": { "en": "🎂 Grand Feast — Guild birthday cake", "pt": "🎂 Grand Feast — Bolo de aniversário da guilda", "de": "🎂 Grand Feast — Geburtstagskuchen der Gilde", "es": "🎂 Grand Feast — Tarta de cumpleaños del gremio", "fr": "🎂 Grand Feast — Gâteau d’anniversaire de guilde", "ja": "🎂 Grand Feast — ギルドの誕生日ケーキ" },
-        "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+        "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
         "noStrip": true
       },
       {
@@ -743,19 +743,19 @@ window.CALENDAR_DATA = [
     "weekday": "Monday",
     "date": "Nov, 09",
     "titles": { "en": "🎂 Dominion Day — 10th anniversary", "pt": "🎂 Dominion Day — 10º aniversário", "de": "🎂 Dominion Day — 10. Jubiläum", "es": "🎂 Dominion Day — 10.º aniversario", "fr": "🎂 Dominion Day — 10e anniversaire", "ja": "🎂 Dominion Day — 10周年" },
-    "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+    "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
     "image": "../../imagens/image-shared/mojo-300px.webp",
     "alt": "Dominion Day - Mojo",
     "noStrip": true,
     "extra": [
       {
         "titles": { "en": "👕 Mojo — Crimson Grove Skin & Skin+ (Shop)", "pt": "👕 Mojo — Crimson Grove: Skin e Skin+ na loja", "de": "👕 Mojo — Crimson Grove: Skin und Skin+ im Shop", "es": "👕 Mojo — Crimson Grove: Skin y Skin+ en la tienda", "fr": "👕 Mojo — Crimson Grove : Skin et Skin+ en boutique", "ja": "👕 Mojo — Crimson Groveスキン＆Skin+（ショップ）" },
-        "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+        "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
         "noStrip": true
       },
       {
         "titles": { "en": "🎂 Grand Feast — Guild birthday cake", "pt": "🎂 Grand Feast — Bolo de aniversário da guilda", "de": "🎂 Grand Feast — Geburtstagskuchen der Gilde", "es": "🎂 Grand Feast — Tarta de cumpleaños del gremio", "fr": "🎂 Grand Feast — Gâteau d’anniversaire de guilde", "ja": "🎂 Grand Feast — ギルドの誕生日ケーキ" },
-        "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+        "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
         "noStrip": true
       },
       {
@@ -775,19 +775,19 @@ window.CALENDAR_DATA = [
     "weekday": "Tuesday",
     "date": "Nov, 10",
     "titles": { "en": "🎂 Dominion Day — 10th anniversary", "pt": "🎂 Dominion Day — 10º aniversário", "de": "🎂 Dominion Day — 10. Jubiläum", "es": "🎂 Dominion Day — 10.º aniversario", "fr": "🎂 Dominion Day — 10e anniversaire", "ja": "🎂 Dominion Day — 10周年" },
-    "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+    "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
     "image": "../../imagens/image-shared/mojo-300px.webp",
     "alt": "Dominion Day - Mojo",
     "noStrip": true,
     "extra": [
       {
         "titles": { "en": "👕 Mojo — Crimson Grove Skin & Skin+ (Shop)", "pt": "👕 Mojo — Crimson Grove: Skin e Skin+ na loja", "de": "👕 Mojo — Crimson Grove: Skin und Skin+ im Shop", "es": "👕 Mojo — Crimson Grove: Skin y Skin+ en la tienda", "fr": "👕 Mojo — Crimson Grove : Skin et Skin+ en boutique", "ja": "👕 Mojo — Crimson Groveスキン＆Skin+（ショップ）" },
-        "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+        "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
         "noStrip": true
       },
       {
         "titles": { "en": "🎂 Grand Feast — Guild birthday cake", "pt": "🎂 Grand Feast — Bolo de aniversário da guilda", "de": "🎂 Grand Feast — Geburtstagskuchen der Gilde", "es": "🎂 Grand Feast — Tarta de cumpleaños del gremio", "fr": "🎂 Grand Feast — Gâteau d’anniversaire de guilde", "ja": "🎂 Grand Feast — ギルドの誕生日ケーキ" },
-        "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+        "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
         "noStrip": true
       },
       {
@@ -807,19 +807,19 @@ window.CALENDAR_DATA = [
     "weekday": "Wednesday",
     "date": "Nov, 11",
     "titles": { "en": "🎂 Dominion Day — 10th anniversary", "pt": "🎂 Dominion Day — 10º aniversário", "de": "🎂 Dominion Day — 10. Jubiläum", "es": "🎂 Dominion Day — 10.º aniversario", "fr": "🎂 Dominion Day — 10e anniversaire", "ja": "🎂 Dominion Day — 10周年" },
-    "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+    "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
     "image": "../../imagens/image-shared/mojo-300px.webp",
     "alt": "Dominion Day - Mojo",
     "noStrip": true,
     "extra": [
       {
         "titles": { "en": "👕 Mojo — Crimson Grove Skin & Skin+ (Shop)", "pt": "👕 Mojo — Crimson Grove: Skin e Skin+ na loja", "de": "👕 Mojo — Crimson Grove: Skin und Skin+ im Shop", "es": "👕 Mojo — Crimson Grove: Skin y Skin+ en la tienda", "fr": "👕 Mojo — Crimson Grove : Skin et Skin+ en boutique", "ja": "👕 Mojo — Crimson Groveスキン＆Skin+（ショップ）" },
-        "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+        "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
         "noStrip": true
       },
       {
         "titles": { "en": "🎂 Grand Feast — Guild birthday cake", "pt": "🎂 Grand Feast — Bolo de aniversário da guilda", "de": "🎂 Grand Feast — Geburtstagskuchen der Gilde", "es": "🎂 Grand Feast — Tarta de cumpleaños del gremio", "fr": "🎂 Grand Feast — Gâteau d’anniversaire de guilde", "ja": "🎂 Grand Feast — ギルドの誕生日ケーキ" },
-        "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+        "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
         "noStrip": true
       },
       {
@@ -839,19 +839,19 @@ window.CALENDAR_DATA = [
     "weekday": "Thursday",
     "date": "Nov, 12",
     "titles": { "en": "🎂 Dominion Day — 10th anniversary", "pt": "🎂 Dominion Day — 10º aniversário", "de": "🎂 Dominion Day — 10. Jubiläum", "es": "🎂 Dominion Day — 10.º aniversario", "fr": "🎂 Dominion Day — 10e anniversaire", "ja": "🎂 Dominion Day — 10周年" },
-    "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+    "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
     "image": "../../imagens/image-shared/mojo-300px.webp",
     "alt": "Dominion Day - Mojo",
     "noStrip": true,
     "extra": [
       {
         "titles": { "en": "👕 Mojo — Crimson Grove Skin & Skin+ (Shop)", "pt": "👕 Mojo — Crimson Grove: Skin e Skin+ na loja", "de": "👕 Mojo — Crimson Grove: Skin und Skin+ im Shop", "es": "👕 Mojo — Crimson Grove: Skin y Skin+ en la tienda", "fr": "👕 Mojo — Crimson Grove : Skin et Skin+ en boutique", "ja": "👕 Mojo — Crimson Groveスキン＆Skin+（ショップ）" },
-        "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+        "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
         "noStrip": true
       },
       {
         "titles": { "en": "🎂 Grand Feast — Guild birthday cake", "pt": "🎂 Grand Feast — Bolo de aniversário da guilda", "de": "🎂 Grand Feast — Geburtstagskuchen der Gilde", "es": "🎂 Grand Feast — Tarta de cumpleaños del gremio", "fr": "🎂 Grand Feast — Gâteau d’anniversaire de guilde", "ja": "🎂 Grand Feast — ギルドの誕生日ケーキ" },
-        "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+        "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
         "noStrip": true
       },
       {
@@ -871,19 +871,19 @@ window.CALENDAR_DATA = [
     "weekday": "Friday",
     "date": "Nov, 13",
     "titles": { "en": "🎂 Dominion Day — 10th anniversary", "pt": "🎂 Dominion Day — 10º aniversário", "de": "🎂 Dominion Day — 10. Jubiläum", "es": "🎂 Dominion Day — 10.º aniversario", "fr": "🎂 Dominion Day — 10e anniversaire", "ja": "🎂 Dominion Day — 10周年" },
-    "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+    "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
     "image": "../../imagens/image-shared/mojo-300px.webp",
     "alt": "Dominion Day - Mojo",
     "noStrip": true,
     "extra": [
       {
         "titles": { "en": "👕 Mojo — Crimson Grove Skin & Skin+ (Shop)", "pt": "👕 Mojo — Crimson Grove: Skin e Skin+ na loja", "de": "👕 Mojo — Crimson Grove: Skin und Skin+ im Shop", "es": "👕 Mojo — Crimson Grove: Skin y Skin+ en la tienda", "fr": "👕 Mojo — Crimson Grove : Skin et Skin+ en boutique", "ja": "👕 Mojo — Crimson Groveスキン＆Skin+（ショップ）" },
-        "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+        "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
         "noStrip": true
       },
       {
         "titles": { "en": "🎂 Grand Feast — Guild birthday cake", "pt": "🎂 Grand Feast — Bolo de aniversário da guilda", "de": "🎂 Grand Feast — Geburtstagskuchen der Gilde", "es": "🎂 Grand Feast — Tarta de cumpleaños del gremio", "fr": "🎂 Grand Feast — Gâteau d’anniversaire de guilde", "ja": "🎂 Grand Feast — ギルドの誕生日ケーキ" },
-        "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+        "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
         "noStrip": true
       },
       {
@@ -911,19 +911,19 @@ window.CALENDAR_DATA = [
     "weekday": "Saturday",
     "date": "Nov, 14",
     "titles": { "en": "🎂 Dominion Day — 10th anniversary", "pt": "🎂 Dominion Day — 10º aniversário", "de": "🎂 Dominion Day — 10. Jubiläum", "es": "🎂 Dominion Day — 10.º aniversario", "fr": "🎂 Dominion Day — 10e anniversaire", "ja": "🎂 Dominion Day — 10周年" },
-    "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+    "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
     "image": "../../imagens/image-shared/mojo-300px.webp",
     "alt": "Dominion Day - Mojo",
     "noStrip": true,
     "extra": [
       {
         "titles": { "en": "👕 Mojo — Crimson Grove Skin & Skin+ (Shop)", "pt": "👕 Mojo — Crimson Grove: Skin e Skin+ na loja", "de": "👕 Mojo — Crimson Grove: Skin und Skin+ im Shop", "es": "👕 Mojo — Crimson Grove: Skin y Skin+ en la tienda", "fr": "👕 Mojo — Crimson Grove : Skin et Skin+ en boutique", "ja": "👕 Mojo — Crimson Groveスキン＆Skin+（ショップ）" },
-        "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+        "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
         "noStrip": true
       },
       {
         "titles": { "en": "🎂 Grand Feast — Guild birthday cake", "pt": "🎂 Grand Feast — Bolo de aniversário da guilda", "de": "🎂 Grand Feast — Geburtstagskuchen der Gilde", "es": "🎂 Grand Feast — Tarta de cumpleaños del gremio", "fr": "🎂 Grand Feast — Gâteau d’anniversaire de guilde", "ja": "🎂 Grand Feast — ギルドの誕生日ケーキ" },
-        "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+        "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
         "noStrip": true
       },
       {
@@ -951,19 +951,19 @@ window.CALENDAR_DATA = [
     "weekday": "Sunday",
     "date": "Nov, 15",
     "titles": { "en": "🎂 Dominion Day — 10th anniversary", "pt": "🎂 Dominion Day — 10º aniversário", "de": "🎂 Dominion Day — 10. Jubiläum", "es": "🎂 Dominion Day — 10.º aniversario", "fr": "🎂 Dominion Day — 10e anniversaire", "ja": "🎂 Dominion Day — 10周年" },
-    "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+    "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
     "image": "../../imagens/image-shared/mojo-300px.webp",
     "alt": "Dominion Day - Mojo",
     "noStrip": true,
     "extra": [
       {
         "titles": { "en": "👕 Mojo — Crimson Grove Skin & Skin+ (Shop)", "pt": "👕 Mojo — Crimson Grove: Skin e Skin+ na loja", "de": "👕 Mojo — Crimson Grove: Skin und Skin+ im Shop", "es": "👕 Mojo — Crimson Grove: Skin y Skin+ en la tienda", "fr": "👕 Mojo — Crimson Grove : Skin et Skin+ en boutique", "ja": "👕 Mojo — Crimson Groveスキン＆Skin+（ショップ）" },
-        "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+        "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
         "noStrip": true
       },
       {
         "titles": { "en": "🎂 Grand Feast — Guild birthday cake", "pt": "🎂 Grand Feast — Bolo de aniversário da guilda", "de": "🎂 Grand Feast — Geburtstagskuchen der Gilde", "es": "🎂 Grand Feast — Tarta de cumpleaños del gremio", "fr": "🎂 Grand Feast — Gâteau d’anniversaire de guilde", "ja": "🎂 Grand Feast — ギルドの誕生日ケーキ" },
-        "links": { "en": "#section4", "pt": "#section4", "de": "#section4", "es": "#section4", "fr": "#section4", "ja": "#section4" },
+        "links": { "en": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "pt": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "de": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "es": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "fr": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html", "ja": "../../hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html" },
         "noStrip": true
       },
       {
