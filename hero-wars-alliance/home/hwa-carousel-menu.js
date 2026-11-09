@@ -2,6 +2,15 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
     {
+  link: "/hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html",
+  src500: "/hero-wars-alliance/images/events-special-hwa/hwa-happy-birthday-2026/dominion-day-400px.jpg",
+  src400: "/hero-wars-alliance/images/events-special-hwa/hwa-happy-birthday-2026/dominion-day-400px.jpg",
+  alt: "Plan Hero Wars Alliance Birthday 2026: Dominion Day and Grand Feast quests",
+  title: "Plan Hero Wars Alliance Birthday 2026: Dominion Day and Grand Feast quests",
+  strong: "Guide: Plan Hero Wars Alliance Birthday 2026: Dominion Day and Grand Feast quests",
+updated: "Updated: November, 2026."
+},
+    {
       link: "/hero-wars-alliance/characters-guide/mushy-and-shroom-en.html",
       src500: "/hero-wars-alliance/images/hero/mushy/mushy-500px.webp",
       src400: "/hero-wars-alliance/images/hero/mushy/mushy-400px.webp",

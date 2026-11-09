@@ -3,41 +3,33 @@
   var slides = [
 
 {
-  link: "/hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html",
-  src500: "/hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-500px.webp",
-  src400: "/hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-400px.webp",
-  alt: "Balance of Power Guide for Hero Wars Alliance",
-  title: "Balance of Power Event Group for Hero Wars Alliance",
-  strong: "Guide: Balance of Power Event Group- Hero Wars Alliance",
-  updated: "Updated: November, 2026."
-},
-{
-  link: "/hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html",
-  src500: "/hero-wars-alliance/images/events/balance-of-power/defiant-edge-500px.webp",
-  src400: "/hero-wars-alliance/images/events/balance-of-power/defiant-edge-400px.webp",
-  alt: "Defiant Edge Guide for Hero Wars Alliance",
-  title: "Defiant Edge Guide for Hero Wars Alliance",
-  strong: "Guide: Defiant Edge - Hero Wars Alliance",
+  link: "/hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html",
+  src500: "/hero-wars-alliance/images/events-special-hwa/hwa-happy-birthday-2026/dominion-day-400px.jpg",
+  src400: "/hero-wars-alliance/images/events-special-hwa/hwa-happy-birthday-2026/dominion-day-400px.jpg",
+  alt: "Plan Hero Wars Alliance Birthday 2026: Dominion Day and Grand Feast quests",
+  title: "Plan Hero Wars Alliance Birthday 2026: Dominion Day and Grand Feast quests",
+  strong: "Guide: Plan Hero Wars Alliance Birthday 2026: Dominion Day and Grand Feast quests",
 updated: "Updated: November, 2026."
 },
 {
-  link: "/hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html",
-  src500: "/hero-wars-alliance/images/events/balance-of-power/gear-and-glory-500px.webp",
-  src400: "/hero-wars-alliance/images/events/balance-of-power/gear-and-glory-400px.webp",
-  alt: "Gear and Glory Guide for Hero Wars Alliance",
-  title: "Gear and Glory Guide for Hero Wars Alliance",
-  strong: "Guide: Gear and Glory - Hero Wars Alliance",
-updated: "Updated: November, 2026."
-},
+      link: "/hero-wars-alliance/guide/relic-guide-en.html",
+      src500: "/hero-wars-alliance/images/guides/relic/relic-guide-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/relic/relic-guide-400px.webp",
+      alt: "Relic Guide for Hero Wars Alliance",
+      title: "Relic Guide for Hero Wars Alliance",
+      strong: "Guide: Relics - Hero Wars Alliance",
+      updated: "Updated: 2026."
+    },
 {
-  link: "/hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html",
-  src500: "/hero-wars-alliance/images/events/balance-of-power/unbroken-bond-500px.webp",
-  src400: "/hero-wars-alliance/images/events/balance-of-power/unbroken-bond-400px.webp",
-  alt: "Unbroken Bond Guide for Hero Wars Alliance",
-  title: "Unbroken Bond Guide for Hero Wars Alliance",
-  strong: "Guide: Unbroken Bond - Hero Wars Alliance",
-updated: "Updated: November, 2026."
-},
+      link: "/hero-wars-alliance/guide/talisman-guide-hwa-en.html",
+      src500: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-500px.webp",
+      src400: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-400px.webp",
+      alt: "All Talisman Guides for Hero Wars Alliance",
+      title: "Talisman Guide for Hero Wars Alliance",
+      strong: "Guide: All Talisman - Hero Wars Alliance",
+      updated: "Updated: 2026."
+    },
+
 {
   link: "/hero-wars-alliance/events-tips-hwa/sanctum-of-balance-shop-en.html",
   src500: "/hero-wars-alliance/images/events-tips-hwa/sanctum-of-balance-shop/sanctum-of-balance-shop-500px.webp",
@@ -50,15 +42,7 @@ updated: "Updated: November, 2026."
 
 
     //#############################################
-    {
-      link: "/hero-wars-alliance/guide/talisman-guide-hwa-en.html",
-      src500: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-500px.webp",
-      src400: "/hero-wars-alliance/images/guides/talisman-hwa/talisman-guide-hwa-400px.webp",
-      alt: "All Talisman Guides for Hero Wars Alliance",
-      title: "Talisman Guide for Hero Wars Alliance",
-      strong: "Guide: All Talisman - Hero Wars Alliance",
-      updated: "Updated: 2026."
-    },
+    
    {
       link: "/hero-wars-alliance/event-hwa/trade-routes-caravan-hall-en.html",//link do shop
       src500: "/hero-wars-alliance/images/events/trade-routes/caravan-hall-500px.webp",
@@ -613,22 +597,13 @@ https://alexandregames.com/hero-wars-alliance/event-hwa/ascendant-glory-champion
 /* Sanctum of Balance Power - Balance of Power - Grupo do Evento 
 
 {
-  link: "/hero-wars-alliance/events-tips-hwa/sanctum-of-balance-shop-en.html",
-  src500: "/hero-wars-alliance/images/events-tips-hwa/sanctum-of-balance-shop/sanctum-of-balance-shop-500px.webp",
-  src400: "/hero-wars-alliance/images/events-tips-hwa/sanctum-of-balance-shop/sanctum-of-balance-shop-400px.webp",
-  alt: "Sanctum of Balance Shop Guide for Hero Wars Alliance",
-  title: "Sanctum of Balance Shop for Hero Wars Alliance",
-  strong: "Guide: Sanctum of Balance- Xe'sha Shop - Hero Wars Alliance",
-  updated: "Updated: September, 2026."
-},
-{
   link: "/hero-wars-alliance/event-hwa/balance-of-power-event-group-en.html",
   src500: "/hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-500px.webp",
   src400: "/hero-wars-alliance/images/events/balance-of-power/balance-of-power-event-group-400px.webp",
   alt: "Balance of Power Guide for Hero Wars Alliance",
   title: "Balance of Power Event Group for Hero Wars Alliance",
   strong: "Guide: Balance of Power Event Group- Hero Wars Alliance",
-  updated: "Updated: September, 2026."
+  updated: "Updated: November, 2026."
 },
 {
   link: "/hero-wars-alliance/event-hwa/balance-of-power-defiant-edge-en.html",
@@ -637,7 +612,7 @@ https://alexandregames.com/hero-wars-alliance/event-hwa/ascendant-glory-champion
   alt: "Defiant Edge Guide for Hero Wars Alliance",
   title: "Defiant Edge Guide for Hero Wars Alliance",
   strong: "Guide: Defiant Edge - Hero Wars Alliance",
- updated: "Updated: September, 2026."
+updated: "Updated: November, 2026."
 },
 {
   link: "/hero-wars-alliance/event-hwa/balance-of-power-gear-and-glory-en.html",
@@ -646,7 +621,7 @@ https://alexandregames.com/hero-wars-alliance/event-hwa/ascendant-glory-champion
   alt: "Gear and Glory Guide for Hero Wars Alliance",
   title: "Gear and Glory Guide for Hero Wars Alliance",
   strong: "Guide: Gear and Glory - Hero Wars Alliance",
-  updated: "Updated: September, 2026."
+updated: "Updated: November, 2026."
 },
 {
   link: "/hero-wars-alliance/event-hwa/balance-of-power-unbroken-bond-en.html",
@@ -655,7 +630,16 @@ https://alexandregames.com/hero-wars-alliance/event-hwa/ascendant-glory-champion
   alt: "Unbroken Bond Guide for Hero Wars Alliance",
   title: "Unbroken Bond Guide for Hero Wars Alliance",
   strong: "Guide: Unbroken Bond - Hero Wars Alliance",
-  updated: "Updated: September, 2026."
+updated: "Updated: November, 2026."
+},
+{
+  link: "/hero-wars-alliance/events-tips-hwa/sanctum-of-balance-shop-en.html",
+  src500: "/hero-wars-alliance/images/events-tips-hwa/sanctum-of-balance-shop/sanctum-of-balance-shop-500px.webp",
+  src400: "/hero-wars-alliance/images/events-tips-hwa/sanctum-of-balance-shop/sanctum-of-balance-shop-400px.webp",
+  alt: "Sanctum of Balance Shop Guide for Hero Wars Alliance",
+  title: "Sanctum of Balance Shop for Hero Wars Alliance",
+  strong: "Guide: Sanctum of Balance Shop - Hero Wars Alliance",
+updated: "Updated: November, 2026."
 },
 
 // links para compartilhar
