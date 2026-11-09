@@ -10,6 +10,8 @@
   rewards:['energy x500'] },
 https://www.hero-wars.com/?nx_source=group_posting_giftweb&gift_id=
 */window.HWDE_GIFTS = [
+     { date:'2026-11-09', type:'link', giftId:'b4c252c81c32ed0053bb2df0d9917987', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
 { date:'2026-11-09', type:'link', giftLinkWeb:'https://herowars.me/3WqNL5C', giftLinkFb:'https://herowars.me/4BRnZYg', note:'until|2026-11-15T02:00:00Z',
   rewards:['barrel-key x2500', 'energy x500'] },
 
