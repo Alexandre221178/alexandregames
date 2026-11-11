@@ -3,6 +3,7 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+    
 { date:'2026-11-11', type:'special', mission:'2-13', note:'until|2026-11-23T01:00:00Z',
     rewards:['boxys-gift x10', 'summoning-sphere x10', 'hwa-gift x10', 'energy x500'] },
     
