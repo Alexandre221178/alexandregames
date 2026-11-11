@@ -1,7 +1,7 @@
 /* npm run update-gifts-hwa - Whats - HubLink: https://hwa.nexters.com/c/ALEXANDREGAMES
 { date:'2026-11-##', type:'daily', mission:'#', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-'alexandregames NAME x1'*/
+*/
 window.HWA_GIFTS = [    
     
 { date:'2026-11-11', type:'special', mission:'2-13', note:'until|2026-11-23T01:00:00Z',
@@ -123,6 +123,7 @@ Lista de codigos:
 adventure-coin
 adventure-energy
 agility-skin-stone
+'alexandregames NAME x1'
 alexandregames-13px
 alexandregames-75px
 alexandregames
