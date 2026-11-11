@@ -3,6 +3,9 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [
+    { date:'2026-11-21', type:'hub', ,Code:  'HWABIRTHDAY26' note:'until|2026-11-23T01:00:00Z',
+    rewards:['birth-day-coin x600'] },
+    
   { date:'2026-11-11', type:'daily', mission:'2-12', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-11-10', type:'daily', mission:'3-11', note:'daily|80',
