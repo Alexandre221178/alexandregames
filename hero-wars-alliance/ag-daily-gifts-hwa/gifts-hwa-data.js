@@ -6,7 +6,7 @@ window.HWA_GIFTS = [
 { date:'2026-11-11', type:'special', mission:'2-13', note:'until|2026-11-23T01:00:00Z',
     rewards:['boxys-gift x10', 'summoning-sphere x10', 'hwa-gift x10', 'energy x500'] },
     
-    { date:'2026-11-11', type:'hub', ,Code:'HWABIRTHDAY26', note:'until|2026-11-23T01:00:00Z',
+    { date:'2026-11-11', type:'hub', Code:'HWABIRTHDAY26', note:'until|2026-11-23T01:00:00Z',
     rewards:['birth-day-coin x600'] },
     
   { date:'2026-11-11', type:'daily', mission:'2-12', note:'daily|80',
