@@ -1,14 +1,14 @@
 /* npm run update-gifts-hwa - Whats - HubLink: https://hwa.nexters.com/c/ALEXANDREGAMES
 { date:'2026-11-##', type:'daily', mission:'#', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-*/
+'alexandregames NAME x1'*/
 window.HWA_GIFTS = [
     
 { date:'2026-11-11', type:'special', mission:'2-13', note:'until|2026-11-23T01:00:00Z',
-    rewards:['boxys-gift x10', 'summoning-sphere x10', 'hwa-gift x10', 'energy x500'] },
+    rewards:['boxys-gift x10', 'summoning-sphere x10', 'alexandregames GIFT x1', 'energy x500'] },
     
     { date:'2026-11-11', type:'hub', Code:'HWABIRTHDAY26', note:'until|2026-11-23T01:00:00Z',
-    rewards:['birth-day-coin x600'] },
+    rewards:['alexandregames birth-day-coin x600'] },
     
   { date:'2026-11-11', type:'daily', mission:'2-12', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
