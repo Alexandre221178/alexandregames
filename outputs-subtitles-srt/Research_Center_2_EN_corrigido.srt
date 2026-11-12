@@ -1,0 +1,520 @@
+1
+00:00:00,000 --> 00:00:08,450
+Is Research Center 2 worth about twenty dollars,
+or will you pay to
+
+2
+00:00:08,450 --> 00:00:12,800
+unlock upgrades you can't afford to finish?
+
+3
+00:00:12,800 --> 00:00:17,600
+Hey guys, Alexandre here from Alexandre Games.
+
+4
+00:00:17,600 --> 00:00:24,000
+I took a while to buy this myself.
+
+5
+00:00:24,000 --> 00:00:29,660
+I wanted to know what it unlocked,
+how it worked, and
+
+6
+00:00:29,660 --> 00:00:34,400
+whether I would get enough value from it.
+
+7
+00:00:34,400 --> 00:00:40,530
+So today, I'll show you what you're paying for,
+what
+
+8
+00:00:40,530 --> 00:00:43,760
+still needs work after the purchase,
+
+9
+00:00:43,760 --> 00:00:47,440
+and why I finally decided to buy it.
+
+10
+00:00:47,440 --> 00:00:51,760
+Twenty dollars means different things
+to different people.
+
+11
+00:00:51,760 --> 00:00:58,490
+If you spend a little now and then,
+this is a decision
+
+12
+00:00:58,490 --> 00:01:00,960
+worth thinking about.
+
+13
+00:01:00,960 --> 00:01:06,880
+The first Research Center opens
+through normal progress.
+
+14
+00:01:06,880 --> 00:01:12,080
+The second requires a purchase.
+
+15
+00:01:12,080 --> 00:01:17,920
+Buying it gives you a second research queue
+and access to
+
+16
+00:01:17,920 --> 00:01:20,560
+extra research branches.
+
+17
+00:01:20,560 --> 00:01:26,400
+But it doesn't give you all their bonuses
+right away.
+
+18
+00:01:26,400 --> 00:01:30,560
+You still need to develop those technologies.
+
+19
+00:01:30,560 --> 00:01:37,340
+That means spending resources,
+waiting for research, and
+
+20
+00:01:37,340 --> 00:01:39,920
+collecting Honor Marks.
+
+21
+00:01:39,920 --> 00:01:45,040
+So before looking at the bonuses,
+understand this:
+
+22
+00:01:45,040 --> 00:01:52,710
+The purchase opens the door.
+You still have to build what's
+
+23
+00:01:52,710 --> 00:01:53,520
+behind it.
+
+24
+00:01:53,520 --> 00:01:59,100
+This branch improves heroes from the tank,
+support, healer,
+
+25
+00:01:59,100 --> 00:02:00,720
+and control classes.
+
+26
+00:02:00,720 --> 00:02:04,630
+Different technologies improve different stats,
+including
+
+27
+00:02:04,630 --> 00:02:07,200
+armor, magic defense, and attack.
+
+28
+00:02:07,200 --> 00:02:12,150
+For example, a technology that gives
+support heroes more
+
+29
+00:02:12,150 --> 00:02:12,480
+armor
+
+30
+00:02:13,360 --> 00:02:15,920
+benefits heroes in that class.
+
+31
+00:02:15,920 --> 00:02:22,640
+It doesn't give that armor bonus
+to every hero.
+
+32
+00:02:22,640 --> 00:02:26,160
+That matters when choosing your research.
+
+33
+00:02:26,160 --> 00:02:31,840
+Look at the classes in the teams
+you actually use.
+
+34
+00:02:31,840 --> 00:02:38,600
+A bonus for several heroes you play every day
+may help
+
+35
+00:02:38,600 --> 00:02:42,480
+your account more than a bonus for heroes
+
+36
+00:02:43,040 --> 00:02:44,400
+you rarely use.
+
+37
+00:02:44,400 --> 00:02:51,570
+One early upgrade gives support heroes
+half a percent
+
+38
+00:02:51,570 --> 00:02:53,200
+more armor.
+
+39
+00:02:53,200 --> 00:02:59,760
+That sounds small. But a percentage bonus
+can give a larger
+
+40
+00:02:59,760 --> 00:03:00,160
+number
+
+41
+00:03:00,160 --> 00:03:05,680
+of extra armor points to a hero
+who already has more armor.
+
+42
+00:03:05,680 --> 00:03:09,040
+It's still half a percent.
+
+43
+00:03:09,760 --> 00:03:13,760
+It doesn't suddenly become a huge bonus.
+
+44
+00:03:13,760 --> 00:03:20,160
+The value comes from building
+several useful upgrades over
+
+45
+00:03:20,160 --> 00:03:20,560
+time.
+
+46
+00:03:20,560 --> 00:03:27,040
+And each upgrade benefits all your heroes
+in that class.
+
+47
+00:03:27,040 --> 00:03:29,920
+More armor can help against physical damage.
+
+48
+00:03:29,920 --> 00:03:33,920
+More magic defense helps against magic damage.
+
+49
+00:03:33,920 --> 00:03:37,200
+Neither makes your team unbeatable.
+
+50
+00:03:37,200 --> 00:03:43,200
+And these hero stat bonuses work
+across game modes, so
+
+51
+00:03:43,200 --> 00:03:46,960
+their value goes beyond the Realm.
+
+52
+00:03:46,960 --> 00:03:52,080
+If simple, honest guides like this
+help you understand
+
+53
+00:03:52,080 --> 00:03:55,280
+the game, consider subscribing.
+
+54
+00:03:55,280 --> 00:03:59,520
+Now, let's look at the troop upgrades.
+
+55
+00:03:59,520 --> 00:04:04,840
+Troops PRO improves infantry,
+spearmen, and archers
+
+56
+00:04:04,840 --> 00:04:06,080
+together.
+
+57
+00:04:06,080 --> 00:04:11,760
+You can develop stats such as attack,
+defense, health, and
+
+58
+00:04:11,760 --> 00:04:17,440
+lethality, along with troop capacity.
+
+59
+00:04:17,440 --> 00:04:22,400
+For me, this is an important part
+of the purchase.
+
+60
+00:04:22,400 --> 00:04:27,240
+I'm thinking about my troops
+and the Realm battles being
+
+61
+00:04:27,240 --> 00:04:28,880
+added to the game.
+
+62
+00:04:28,880 --> 00:04:33,840
+And the Realm battles being added to the game,
+as well as
+
+63
+00:04:33,840 --> 00:04:35,600
+my heroes.
+
+64
+00:04:36,240 --> 00:04:40,710
+But I wouldn't buy something only because
+a future battle
+
+65
+00:04:40,710 --> 00:04:42,800
+might be difficult.
+
+66
+00:04:42,800 --> 00:04:49,200
+Look at what the purchase offers
+your account today.
+
+67
+00:04:49,200 --> 00:04:53,680
+Combat Classes is another branch.
+
+68
+00:04:53,680 --> 00:05:00,960
+It focuses on warriors, marksmen, and mages.
+
+69
+00:05:00,960 --> 00:05:07,540
+In the requirements I'm showing here,
+this branch needs twenty percent
+
+70
+00:05:07,540 --> 00:05:11,120
+progress in Troops PRO before it opens.
+
+71
+00:05:11,120 --> 00:05:17,360
+So you can't jump straight to every hero
+upgrade you want.
+
+72
+00:05:17,360 --> 00:05:20,710
+Depending on the class,
+you'll find physical attack,
+
+73
+00:05:20,710 --> 00:05:24,900
+magic penetration, health,
+critical hit chance, and
+
+74
+00:05:24,900 --> 00:05:26,560
+other bonuses.
+
+75
+00:05:26,560 --> 00:05:34,630
+There's even magic critical hit chance,
+starting at one percent on the
+
+76
+00:05:34,630 --> 00:05:38,800
+first level of that technology.
+
+77
+00:05:38,800 --> 00:05:42,480
+That adds a chance for a magic critical hit.
+
+78
+00:05:42,480 --> 00:05:47,280
+It doesn't mean every spell becomes stronger
+every time.
+
+79
+00:05:47,280 --> 00:05:50,240
+Now comes the part I
+
+80
+00:05:50,240 --> 00:05:54,320
+would check before spending money:
+Honor Marks.
+
+81
+00:05:54,320 --> 00:06:00,940
+Advanced research needs them,
+along with regular
+
+82
+00:06:00,940 --> 00:06:05,600
+resources like wood, iron, food, and stone.
+
+83
+00:06:05,600 --> 00:06:09,770
+You earn Honor Marks through
+Guild Versus rewards,
+
+84
+00:06:09,770 --> 00:06:12,480
+including progress
+
+85
+00:06:12,480 --> 00:06:15,920
+chests and weekly or seasonal rewards.
+
+86
+00:06:15,920 --> 00:06:20,100
+If you rarely participate,
+that can slow your progress
+
+87
+00:06:20,100 --> 00:06:21,280
+after buying the center.
+
+88
+00:06:21,280 --> 00:06:26,930
+Two research queues are useful
+when you have enough
+
+89
+00:06:26,930 --> 00:06:30,880
+resources to keep them working.
+
+90
+00:06:30,880 --> 00:06:34,560
+They can't solve a shortage of Honor Marks.
+
+91
+00:06:34,560 --> 00:06:38,880
+Some events also reward you
+for spending Honor Marks.
+
+92
+00:06:38,880 --> 00:06:42,800
+I understand why that makes
+buying the center tempting.
+
+93
+00:06:43,520 --> 00:06:47,280
+But I wouldn't buy it just to finish
+one mission.
+
+94
+00:06:47,280 --> 00:06:51,860
+If you already planned an upgrade,
+doing it during a
+
+95
+00:06:51,860 --> 00:06:55,040
+matching event can give you extra rewards.
+
+96
+00:06:55,040 --> 00:07:00,270
+Also, space for more research
+doesn't confirm when
+
+97
+00:07:00,270 --> 00:07:02,720
+new technologies will arrive.
+
+98
+00:07:02,720 --> 00:07:08,960
+I would judge the purchase
+by what's available now.
+
+99
+00:07:08,960 --> 00:07:11,120
+So, was it worth it for me?
+
+100
+00:07:11,840 --> 00:07:15,520
+Yes. I bought it because I want to develop
+
+101
+00:07:15,520 --> 00:07:17,440
+both my heroes and my troops.
+
+102
+00:07:17,440 --> 00:07:24,130
+For a low spender who plays regularly
+and plans to keep
+
+103
+00:07:24,130 --> 00:07:25,680
+developing the Realm,
+
+104
+00:07:25,680 --> 00:07:29,600
+I consider this one of the more useful
+purchases.
+
+105
+00:07:29,600 --> 00:07:34,870
+But if money is tight,
+or resources already stop
+
+106
+00:07:34,870 --> 00:07:36,080
+your research,
+
+107
+00:07:36,720 --> 00:07:41,110
+I wouldn't rush. You still have progress
+to make through
+
+108
+00:07:41,110 --> 00:07:42,560
+your first center.
+
+109
+00:07:42,560 --> 00:07:49,940
+If you decide this purchase is right for you,
+you can
+
+110
+00:07:49,940 --> 00:07:53,840
+support my work by using Creator Code
+
+111
+00:07:53,840 --> 00:07:58,800
+ALEXANDREGAMES in the Hero Wars Alliance
+Web Shop.
+
+112
+00:07:58,800 --> 00:08:01,520
+It costs you nothing extra.
+
+113
+00:08:01,520 --> 00:08:06,960
+Would you buy the second Research Center,
+or would you
+
+114
+00:08:06,960 --> 00:08:09,760
+rather keep playing without it?
+
+115
+00:08:09,760 --> 00:08:12,800
+Tell me why in the comments.
+
+116
+00:08:12,800 --> 00:08:17,200
+Leave a like, subscribe,
+and I'll see you in the next guide.
+
