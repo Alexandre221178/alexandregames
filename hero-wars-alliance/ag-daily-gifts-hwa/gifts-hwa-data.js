@@ -5,7 +5,7 @@
 window.HWA_GIFTS = [  
     
 { date:'2026-11-13', type:'hub', code:'ENEMYHUNT', note:'until|2026-11-23T01:00:00Z',
-    rewards:['energy x20', 'world-energy x30', 'random-resources-chest-100k x6'] },
+    rewards:['energy x20', 'world-energy x30', 'alexandregames Random resources chest x6'] },
     
     { date:'2026-11-13', type:'special', mission:'3-9', note:'until|2026-11-23T01:00:00Z',
        rewards:['adventure-coin x1000', 'energy x20', 'adventure-energy x50' ] },
