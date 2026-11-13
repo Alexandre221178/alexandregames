@@ -798,6 +798,21 @@
     },
     "guides": {}
   },
+   "Wodryn": {
+    "image": "../../imagens/image-shared/wodryn.webp",
+    "names": {
+      "pt": "Wodryn",
+      "ja": "ウォドリン"
+    },
+    "guides": {
+      "en": "../characters/wodryn-en.html",
+      "pt": "../characters/wodryn-pt.html",
+      "de": "../characters/wodryn-de.html",
+      "es": "../characters/wodryn-es.html",
+      "fr": "../characters/wodryn-fr.html",
+      "ja": "../characters/wodryn-ja.html"
+    }
+  },
   "Ziri": {
     "image": "../../hero-wars-dominion-era/images/hero/ziri/ziri.webp",
     "names": {
