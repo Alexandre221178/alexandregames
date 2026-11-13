@@ -15,9 +15,9 @@
   },
   "stats": {
     "health": 8662432,
-    "power": 234204,
+    "power": 265506,
     "attack": 1261688,
-    "elemental_attack": 479475,
+    "elemental_attack": 939795,
     "elemental_armor": 224532
   },
   "appearance": {
@@ -77,6 +77,16 @@
       "availability": {
         "exclusive_from": "2026-09-24",
         "publicly_available_from": "2027-01-24"
+      }
+    },
+    {
+      "name": "Tyranny Skin",
+      "stats": {
+        "elemental_damage": 460320,
+        "power": 31302
+      },
+      "availability": {
+        "exclusive": true
       }
     }
   ],
