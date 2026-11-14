@@ -1,4 +1,4 @@
-/* npm run update-gifts-hwa - Whats - HubLink: https://hwa.nexters.com/c/ALEXANDREGAMES
+/* npm run update-gifts-hwa - Whats - Bonus_Link: https://hwa.nexters.com/c/ALEXANDREGAMES
 { date:'2026-11-##', type:'daily', mission:'#', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
