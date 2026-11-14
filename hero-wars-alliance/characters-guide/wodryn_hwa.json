@@ -12,6 +12,7 @@
       "position": "Front Line",
       "main_stat": "Strength",
       "faction": "Way of Nature",
+      "relic_note": "Wodryn becomes even more dangerous with his Relic! More frequent damage means more value from crits, Oak Bark builds up faster, and the whole team deals more physical critical damage. Incoming pure damage also turns into magic damage - Wodryn's specialty!",
       "stats": {
         "talisman_of_two_forms": {
           "intelligence": 3916,
@@ -161,7 +162,8 @@
           "magic_defense_to_extra_physical_damage_percent": 100,
           "description": "For 9 seconds, critical hits of Wodryn and his allies deal extra physical damage every 15 seconds. The extra damage depends on each Hero's Magic defense.",
           "extra_physical_damage_formula": "100% attacking hero Magic Defense",
-          "extra_physical_damage_for_wodryn": 33048
+          "extra_physical_damage_for_wodryn": 33048,
+          "note_alexandre": "Por que complicar quando você pode bater mais forte? Acerte seus inimigos com ainda mais dano!"
         },
         {
           "id": 2,
@@ -176,7 +178,12 @@
           "hit_counter_resets_when_oak_bark_expires": true,
           "description": "While Oak Bark is active, Wodryn deals damage to enemies in front of him after every 6 hits he takes. The hit counter resets when Oak Bark expires.",
           "physical_damage_formula": "150% Physical Attack",
-          "physical_damage": 139368
+          "physical_damage": 139368,
+          "note_alexandre": "Os ataques inimigos saem pela culatra! Quanto mais vezes eles atacam, mais vezes recebem dano. Ótima contra Iris e heróis com dano ao longo do tempo, como Phobos e Peech.",
+          "great_against": {
+            "category": "Heroes with frequent damage ticks",
+            "heroes": ["Iris", "Phobos", "Peech"]
+          }
         },
         {
           "id": 4,
@@ -189,7 +196,8 @@
             "Legendary"
           ],
           "oak_bark_layers_on_damage_reduction": 2,
-          "description": "Whenever Wodryn's incoming damage is reduced by Unbowed Oak, he gains 2 layers of Oak Bark."
+          "description": "Whenever Wodryn's incoming damage is reduced by Unbowed Oak, he gains 2 layers of Oak Bark.",
+          "note_alexandre": "Simples e eficaz: mais camadas de Oak Bark significam mais Energia e uma Chance de Acerto Crítico maior!"
         },
         {
           "id": 6,
@@ -204,6 +212,11 @@
           "requires_wodryn_alive": true,
           "incoming_damage_type": "Pure Damage",
           "converted_damage_type": "Magic Damage",
+          "relic_tip": "Wodryn is built to counter Mages and withstand magic damage. That's why incoming pure damage now turns into magic damage!",
+          "great_against": {
+            "category": "Heroes with pure damage",
+            "heroes": ["Cleaver", "Kendle", "Lian"]
+          },
           "description": "As long as Wodryn is alive, all pure damage dealt by enemies to his team is converted into magic damage.",
           "note_alexandre": "Essa skill é forte contra heróis que causam dano puro, como Kendle, Cleaver, Yasmine, Kayla, Corvus entre outros. Ela não afeta dano físico ou mágico, apenas dano puro."
         }
