@@ -2,6 +2,56 @@
   // Active guides shown below the main calendar - carousel.
   var slides = [
 
+    {
+      link: "/hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html",
+      src500: "/hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ascendant-glory/ascendant-glory-400px.webp",
+      alt: "Ascendant Glory Event Group Guide for Hero Wars Alliance",
+      title: "Ascendant Glory Event Group Guide for Hero Wars Alliance",
+      strong: "Ascendant Glory Event Group Guide",
+      updated: "Updated: November, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/ascendant-glory-rising-legend-en.html",
+      src500: "/hero-wars-alliance/images/events/ascendant-glory/rising-legend-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ascendant-glory/rising-legend-400px.webp",
+      alt: "Rising Legend Event Guide for Hero Wars Alliance",
+      title: "Rising Legend Event Guide for Hero Wars Alliance",
+      strong: "Rising Legend Event Guide",
+      updated: "Updated: November, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/ascendant-glory-spark-of-glory-en.html",
+      src500: "/hero-wars-alliance/images/events/ascendant-glory/spark-glory-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ascendant-glory/spark-glory-400px.webp",
+      alt: "Spark of Glory Skin Plus Event Guide for Hero Wars Alliance",
+      title: "Spark of Glory Skin Plus Event Guide for Hero Wars Alliance",
+      strong: "Spark of Glory Skin+ Event Guide",
+      updated: "Updated: November, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html",
+      src500: "/hero-wars-alliance/images/events/ascendant-glory/trial-of-legends-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ascendant-glory/trial-of-legends-400px.webp",
+      alt: "Trial of Legends Event Guide for Hero Wars Alliance",
+      title: "Trial of Legends Event Guide for Hero Wars Alliance",
+      strong: "Trial of Legends Event Guide",
+      updated: "Updated: November, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/ascendant-glory-champions-gallery-en.html",
+      src500: "/hero-wars-alliance/images/events/ascendant-glory/champions-gallery-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ascendant-glory/champions-gallery-400px.webp",
+      alt: "Champion's Gallery Shop Guide for Hero Wars Alliance",
+      title: "Champion's Gallery Shop Guide for Hero Wars Alliance",
+      strong: "Byrna Skin+ - Champion's Gallery Shop Guide",
+      updated: "Updated: November, 2026."
+    },
+    
+
+
+//#############################################    
+
 {
   link: "/hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html",
   src500: "/hero-wars-alliance/images/events-special-hwa/hwa-happy-birthday-2026/dominion-day-400px.jpg",
@@ -43,57 +93,7 @@ updated: "Updated: November, 2026."
 
     //#############################################
     
-   {
-      link: "/hero-wars-alliance/event-hwa/trade-routes-caravan-hall-en.html",//link do shop
-      src500: "/hero-wars-alliance/images/events/trade-routes/caravan-hall-500px.webp",
-      src400: "/hero-wars-alliance/images/events/trade-routes/caravan-hall-400px.webp",
-      alt: "Caravan Hall Shop Guide for Hero Wars Alliance",
-      title: "Caravan Hall Shop Guide for Hero Wars Alliance",
-      strong: "Guide: Caravan Hall Shop - Hero Wars Alliance",
-      updated: "Updated: October, 2026."//shop
-    }, 
-
-    
-    {
-      link: "/hero-wars-alliance/event-hwa/trade-routes-event-group-en.html",
-      src500: "/hero-wars-alliance/images/events/trade-routes/trade-routes-500px.webp",
-      src400: "/hero-wars-alliance/images/events/trade-routes/trade-routes-400px.webp",
-      alt: "Trade Routes Event Group Guide for Hero Wars Alliance",
-      title: "Trade Routes Event Group Guide for Hero Wars Alliance",
-      strong: "Guide: Trade Routes Event Group - Hero Wars Alliance",
-      updated: "Updated: October, 2026."
-    },
-    
-    {
-      link: "/hero-wars-alliance/event-hwa/trade-routes-bountiful-roads-en.html",
-      src500: "/hero-wars-alliance/images/events/trade-routes/bountiful-roads-500px.webp",
-      src400: "/hero-wars-alliance/images/events/trade-routes/bountiful-roads-400px.webp",
-      alt: "Bountiful Roads Event Guide for Hero Wars Alliance",
-      title: "Bountiful Roads Event Guide for Hero Wars Alliance",
-      strong: "Guide: Bountiful Roads Event Guide - Hero Wars Alliance",
-      updated: "Updated: October, 2026."
-    },
-{
-      link: "/hero-wars-alliance/event-hwa/trade-routes-roads-unlocked-en.html",
-      src500: "/hero-wars-alliance/images/events/trade-routes/roads-unlocked-500px.webp",
-      src400: "/hero-wars-alliance/images/events/trade-routes/roads-unlocked-400px.webp",
-      alt: "Roads Unlocked Event Guide for Hero Wars Alliance",
-      title: "Roads Unlocked Event Guide for Hero Wars Alliance",
-      strong: "Guide: Roads Unlocked Best Tower Strategy to Push for 25 Chests - Hero Wars Alliance",
-      updated: "Updated: October, 2026."
-    },
    
-    
-    {
-      link: "/hero-wars-alliance/event-hwa/trade-routes-grand-caravan-en.html",
-      src500: "/hero-wars-alliance/images/events/trade-routes/grand-caravan-500px.webp",
-      src400: "/hero-wars-alliance/images/events/trade-routes/grand-caravan-400px.webp",
-      alt: "Grand Caravan Event Guide for Hero Wars Alliance",
-      title: "Grand Caravan Event Guide for Hero Wars Alliance",
-      strong: "Guide: Grand Caravan Event Guide - Hero Wars Alliance",
-      updated: "Updated: October, 2026."
-    },
-    
     
 
        
@@ -384,6 +384,7 @@ https://alexandregames.com/hero-wars-alliance/event-hwa/ancient-awakening-event-
       strong: "Guide: Caravan Hall Shop - Hero Wars Alliance",
       updated: "Updated: October, 2026."//shop
     }, 
+
     
     {
       link: "/hero-wars-alliance/event-hwa/trade-routes-event-group-en.html",
@@ -424,7 +425,7 @@ https://alexandregames.com/hero-wars-alliance/event-hwa/ancient-awakening-event-
       strong: "Guide: Grand Caravan Event Guide - Hero Wars Alliance",
       updated: "Updated: October, 2026."
     },
-    
+       
     
 {
       link: "/hero-wars-alliance/guide/talisman-guide-hwa-en.html",
