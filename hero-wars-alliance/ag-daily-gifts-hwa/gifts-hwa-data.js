@@ -7,61 +7,31 @@ window.HWA_GIFTS = [
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
   { date:'2026-11-14', type:'hub', code:'HAPPYBDAYHWA26', note:'until|2026-11-17T01:00:00Z',
    rewards:['birthday-coin x600'] },
-    { date:'2026-11-14', type:'daily', mission:'3-7', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-
+    
 { date:'2026-11-13', type:'hub', code:'ENEMYHUNT', note:'until|2026-11-23T01:00:00Z',
     rewards:['energy x20', 'world-energy x30', 'random-resources-chest-100k x6'] },
 
-    
     { date:'2026-11-13', type:'special', mission:'3-9', note:'until|2026-11-23T01:00:00Z',
        rewards:['adventure-coin x1000', 'energy x20', 'adventure-energy x50' ] },
-{ date:'2026-11-13', type:'daily', mission:'2-2', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
-    { date:'2026-11-12', type:'daily', mission:'3-5', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 { date:'2026-11-11', type:'special', mission:'2-13', note:'until|2026-11-23T01:00:00Z',
     rewards:['boxys-gift x10', 'sweet-treat x10', 'summoning-sphere x10', 'energy x500'] },
 
     { date:'2026-11-11', type:'hub', code:'HWABIRTHDAY26', note:'until|2026-11-17T01:00:00Z',
    rewards:['birthday-coin x600'] },
-   
-    
-  { date:'2026-11-11', type:'daily', mission:'2-12', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-  { date:'2026-11-10', type:'daily', mission:'3-11', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
+     
 { date:'2026-11-09', type:'hub', code:'RESOURCES', note:'until|2026-11-23T01:00:00Z',
    rewards:['summoning-sphere x5', 'gold 250k', 'energy x20'] },
 
-    
-{ date:'2026-11-09', type:'daily', mission:'2-8', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-
 { date:'2026-11-08', type:'special', mission:'3-4', note:'until|2026-11-16T01:00:00Z',
     rewards:['holiday-coin x20.000', 'energy x100'] },
-
-  { date:'2026-11-08', type:'daily', mission:'3-3', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-{ date:'2026-11-07', type:'daily', mission:'2-4', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-
-{ date:'2026-11-06', type:'daily', mission:'3-14', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
 { date:'2026-11-05', type:'hub', code:'10HWASTREAM', note:'until|2026-11-08T01:00:00Z',
      rewards:['energy x500', 'boxys-gift x3', 'realm-gift x3', 'large-skin-stone-chest x5', 'rune-stone x10000', 'titan-potion x10000',  'summoning-sphere x10',  'elemental-sphere x10' ] },   
     
     { date:'2026-11-05', type:'hub', code:'TITANPARTY', note:'until|2026-11-23T01:00:00Z',
      rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },   
-    
-  { date:'2026-11-05', type:'daily', mission:'2-11', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-      
-  { date:'2026-11-04', type:'daily', mission:'3-2', note:'daily|80',
-    rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
-
+ 
 { date:'2026-11-02', type:'special', mission:'2-3', note:'until|2026-11-23T01:00:00Z',
     rewards:['artifact-chest-key x5', 'energy x20', 'adventure-energy x50'] },
 
@@ -80,12 +50,10 @@ window.HWA_GIFTS = [
  
   { date:'2026-10-30', type:'hub', code:'SHROOMS', note:'until|2026-11-23T01:00:00Z',
     rewards:['energy x100', 'large-skin-stone-chest x5'] },
-    
- 
+     
      { date:'2026-10-29', type:'hub', code:'LILIAN', note:'until|2026-11-23T01:00:00Z',
     rewards:['energy x100', 'artifact-chest-key x5'] },
-    
-  
+      
      { date:'2026-10-28', type:'hub', code:'SUPPUMPKINGIFT', note:'until|2026-11-23T01:00:00Z',
     rewards:['energy x150', 'artifact-coin x400', 'artifact-chest-key x5'] },
  
