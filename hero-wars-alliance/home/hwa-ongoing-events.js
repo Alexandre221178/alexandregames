@@ -504,7 +504,7 @@ https://alexandregames.com/hero-wars-alliance/event-hwa/ascendant-glory-spark-of
 ⚔️ **Trial of Legends Event Guide**  
 https://alexandregames.com/hero-wars-alliance/event-hwa/ascendant-glory-trial-of-legends-en.html
 
-🛍️ **Champion's Gallery Shop Guide – Kendle**  
+🛍️ **Champion's Gallery Shop Guide **  
 https://alexandregames.com/hero-wars-alliance/event-hwa/ascendant-glory-champions-gallery-en.html
 
 🎮 Check out the guides for tips and strategies to get the most out of the Ascendant Glory event!
