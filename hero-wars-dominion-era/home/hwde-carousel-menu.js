@@ -10,15 +10,7 @@
       strong: "Guide: Wodryn - Hero Wars: Dominion Era",
       updated: "Updated: November, 2026."
     },
-    {
-      link: "../../hero-wars-dominion-era/events-special-hwde/mead-festival-missions-en.html",
-      src500: "../../hero-wars-dominion-era/images/events-special/mead-festival-missions/mead-festival-missions-500px.webp",
-      src400: "../../hero-wars-dominion-era/images/events-special/mead-festival-missions/mead-festival-missions-400px.webp",
-      alt: "Mead Festival Missions for Hero Wars: Dominion Era",
-      title: "Mead Festival Missions for Hero Wars: Dominion Era.",
-      strong: "Guide: Mead Festival Missions - Hero Wars: Dominion Era",
-      updated: "Updated: November, 2026."
-    },
+   
     {
       link: "../../hero-wars-dominion-era/events-special-hwde/unleashing-power-new-hero-en.html",
       src500: "../../hero-wars-dominion-era/images/events-special/unleashing-power-new-hero/unleashing-power-new-hero-500px.webp",
@@ -161,6 +153,17 @@
   ];
 
   /* - Eventos Especiais(traducoes esta abaixo):
+ {
+      link: "../../hero-wars-dominion-era/events-special-hwde/mead-festival-missions-en.html",
+      src500: "../../hero-wars-dominion-era/images/events-special/mead-festival-missions/mead-festival-missions-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/events-special/mead-festival-missions/mead-festival-missions-400px.webp",
+      alt: "Mead Festival Missions for Hero Wars: Dominion Era",
+      title: "Mead Festival Missions for Hero Wars: Dominion Era.",
+      strong: "Guide: Mead Festival Missions - Hero Wars: Dominion Era",
+      updated: "Updated: November, 2026."
+    },
+
+
  {
       link: "../../hero-wars-dominion-era/events/heroes-awakening-event-en.html",
       src500: "../../hero-wars-dominion-era/images/events/heroes-awakening-event-guide/heroes-awakening-event-guide-500px.webp",
