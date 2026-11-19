@@ -1,6 +1,15 @@
 (function(){
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
+     {
+      link: "/hero-wars-alliance/best-teams/wodryn-and-mushy-best-teams-en.html",
+      src500: "/hero-wars-alliance/images/best-teams/wodryn-and-mushy/wodryn-and-Mushy-500px.webp",
+      src400: "/hero-wars-alliance/images/best-teams/wodryn-and-mushy/wodryn-and-Mushy-400px.webp",
+      alt: "Wodryn and Mushy: Best PvP Teams for Hero Wars Alliance",
+      title: "Wodryn and Mushy: Best PvP Teams for Hero Wars Alliance",
+      strong: "Guide: Wodryn and Mushy - Hero Wars Alliance",
+      updated: "Updated: November, 2026."
+    },    
     {
       link: "/hero-wars-alliance/characters-guide/wodryn-en.html",
       src500: "/hero-wars-alliance/images/hero/wodryn/wodryn-500px.webp",
