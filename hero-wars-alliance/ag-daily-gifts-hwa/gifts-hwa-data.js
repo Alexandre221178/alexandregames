@@ -3,6 +3,8 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [  
+  { date:'2026-11-20', type:'hub', code:'VALDURTRAILER', note:'until|2026-11-20T01:00:00Z',
+    rewards:['energy x100', 'large-skin-stone-chest x5'] },
   { date:'2026-11-20', type:'daily', mission:'3-2', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
     { date:'2026-11-19', type:'special', mission:'2-7', note:'until|2026-11-23T01:00:00Z',
