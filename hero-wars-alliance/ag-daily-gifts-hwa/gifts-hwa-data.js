@@ -4,7 +4,7 @@
 */
 window.HWA_GIFTS = [  
   { date:'2026-11-20', type:'hub', code:'VALDURTRAILER', note:'until|2026-11-20T01:00:00Z',
-     rewards:['boxys-gift x3', 'energy x100', 'realm-gift x3'] },
+     rewards:['boxys-gift x3', 'realm-gift x3','energy x100' ] },
   { date:'2026-11-20', type:'daily', mission:'3-2', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
     { date:'2026-11-19', type:'special', mission:'2-7', note:'until|2026-11-23T01:00:00Z',
@@ -103,10 +103,15 @@ window.HWA_GIFTS = [
 
 ];
 
-/* Templates tipos de gifts hub e special
+/* Templates tipos de gifts hub code
 { date:'2026-##-##', type:'hub', code:'######', expires:'2026-##-##',
 rewards:['energy x20', 'rune-stone x1500', 'artifact-chest-key x5'] },
 
+/* Templates tipos de gifts yt hub youtube 
+{ date:'2026-##-##', type:'hub', code:'######', expires:'2026-##-##',
+ rewards:['boxys-gift x3', 'realm-gift x3','energy x100' ] },
+
+/* Templates tipos de gifts special mission
 { date:'2026-##-##', type:'special', mission:'#-##', note:'until|2026-##-##T01:00:00Z',
     rewards:['artifact-chest-key x5', 'energy x100', 'avatar x1'] },
 
