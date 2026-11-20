@@ -2,6 +2,15 @@
   // Carousel multi-language injector ( npm run update-hwa-index-hwa )
   const slides = [
      {
+      link: "../../hero-wars-alliance/titans-guide/valdur-en.html",
+      src500: "../../hero-wars-alliance/images/titans/valdur/valdur-500px.webp",
+      src400: "../../hero-wars-alliance/images/titans/valdur/valdur-400px.webp",
+      alt: "Valdur Guide for Hero Wars Alliance",
+      title: "Titan Valdur Guide for Hero Wars Alliance",
+      strong: "Guide: Titan Valdur for Hero Wars Alliance",
+      updated: "Updated: November, 2026."
+    }, 
+     {
       link: "/hero-wars-alliance/best-teams/wodryn-and-mushy-best-teams-en.html",
       src500: "/hero-wars-alliance/images/best-teams/wodryn-and-mushy/wodryn-and-Mushy-500px.webp",
       src400: "/hero-wars-alliance/images/best-teams/wodryn-and-mushy/wodryn-and-Mushy-400px.webp",
