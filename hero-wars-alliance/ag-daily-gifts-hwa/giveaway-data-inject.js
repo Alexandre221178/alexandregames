@@ -144,6 +144,51 @@ function injectGiveawayStyles() {
       align-items: center;
     }
 
+    #giveaway-content .giveaway-compact h2 {
+      margin: 0 0 0.75rem;
+    }
+
+    #giveaway-content .giveaway-compact h3 {
+      margin: 1rem 0 0.6rem;
+    }
+
+    #giveaway-content .giveaway-compact p {
+      margin: 0.65rem 0;
+      text-indent: 0;
+    }
+
+    #giveaway-content .giveaway-compact .giveaway-entry-list li {
+      margin: 0.35rem 0;
+    }
+
+    #giveaway-content .giveaway-compact .giveaway-reward-cell {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.6rem;
+    }
+
+    #giveaway-content .giveaway-compact .giveaway-reward-item {
+      width: auto;
+      min-width: 0;
+      max-width: none;
+    }
+
+    #giveaway-content .giveaway-compact .giveaway-reward-item figcaption {
+      overflow-wrap: anywhere;
+    }
+
+    #giveaway-content .giveaway-details {
+      margin-top: 1rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid #c7cfd7;
+    }
+
+    #giveaway-content .giveaway-details summary {
+      cursor: pointer;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
     @media (max-width: 600px) {
       #giveaway-content .alexandre-tips {
         padding: 0.75rem;
@@ -268,6 +313,32 @@ function injectGiveawayContent() {
   const hasRewards = rewards.length > 0;
 
   if (!hasAnnouncement && !hasRewards) return;
+
+  if (giveaway.layout === 'compact' && announcementSource === giveawaySource) {
+    const prizeCards = rewards.map(reward => {
+      const images = Array.isArray(reward.images) ? reward.images : [];
+      return images.map(image => {
+        const item = typeof image === 'string' ? { src: image, caption: reward.item } : image;
+        const caption = escapeGiveawayHtml(item.caption || reward.item || '');
+        return `<figure class="giveaway-reward-item"><img src="${escapeGiveawayHtml(item.src || '')}" alt="${caption}" title="${caption}" loading="lazy" width="72" height="72"><figcaption>${caption}</figcaption></figure>`;
+      }).join('');
+    }).join('');
+    const winners = rewards.filter(reward => String(reward.winner_id || '').trim()).map(reward =>
+      `<p class="giveaway-winner">${escapeGiveawayHtml(giveaway.winnerHeader || 'Winner ID')}: <strong>${escapeGiveawayHtml(reward.winner_id)}</strong></p>`
+    ).join('');
+    container.innerHTML = `<section class="alexandre-tips giveaway-compact">
+      ${announcementTitle ? `<h2>${announcementTitle}</h2>` : ''}
+      <div>${giveaway.para1 || ''}</div>
+      ${prizeCards ? `<h3>${escapeGiveawayHtml(giveaway.rewardsTitle || 'Rewards')}</h3><div class="giveaway-reward-cell">${prizeCards}</div>` : ''}
+      <div>${giveaway.para4 || ''}</div>
+      <div>${giveaway.para2 || ''}</div>
+      <div>${giveaway.para5 || ''}</div>
+      ${winners}
+      <div>${giveaway.para3 || ''}</div>
+      ${giveaway.detailsHtml ? `<details class="giveaway-details"><summary>${escapeGiveawayHtml(giveaway.detailsLabel || 'Details')}</summary>${giveaway.detailsHtml}</details>` : ''}
+    </section>`;
+    return;
+  }
 
   let html = '';
 
