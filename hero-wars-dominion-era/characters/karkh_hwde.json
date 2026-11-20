@@ -1,0 +1,339 @@
+{
+  "id": "karkh",
+  "name": "K'arkh",
+  "gender": "male",
+  "role": [
+    "warrior"
+  ],
+  "main_role": "Warrior",
+  "main_stat": "Agility",
+  "how_to_get_soul_stones": "Soul Chests, Soul Atrium, Elemental Tournament Shop",
+  "pet_patronage": "Fenris, Mara, Vex",
+  "sinergy": "Wodryn, Kai, Faceless",
+  "basic_attack_formula": "(100% physical attack)",
+  "basic_attack": 107314,
+  "basic_attack_cooldown": "5.2s",
+  "stats": {
+    "intelligence": 2572,
+    "agility": 18021,
+    "strength": 3145,
+    "health": 429412,
+    "physical_attack": 107314,
+    "magic_attack": 7716,
+    "armor": 49217,
+    "magic_defense": 47143,
+    "dodge": 0,
+    "crit_hit_chance": 0,
+    "accuracy": 18021,
+    "crit_resistance": 18021,
+    "vampirism": 0,
+    "magic_penetration": 0,
+    "armor_penetration": 48671,
+    "power": 216164
+  },
+  "skills": [
+    {
+      "id": 1,
+      "variant": "base",
+      "level": 130,
+      "name": "Nexus of Horror",
+      "type": [
+        "ultimate",
+        "white"
+      ],
+      "damage_formula": "",
+      "scales_with": [],
+      "targets": 3,
+      "stun_duration_seconds": 2,
+      "description": "K'arkh throws into the air three enemies with the lowest health. When the affected enemies fall back down, they are stunned for 2 seconds. Chance to stun is lowered if the target's level is above 130.",
+      "ascension": {
+        "rank": "II",
+        "name": "Echo of Horror",
+        "duration_seconds": 8,
+        "description": "After using Nexus of Horror, an area appears under the enemy with the lowest health, dealing damage per second for 8 seconds. The supplied text also calls the triggering skill Singularity of Horror.",
+        "initial": {
+          "damage_per_second": 6029,
+          "damage_formula": "(4.5% physical attack + 1,200)"
+        },
+        "upgrades": [
+          {
+            "level": 1,
+            "damage_per_second": 8039,
+            "damage_formula": "(6% physical attack + 1,600)",
+            "costs": {
+              "ascension_dust": 200,
+              "gold": 1450000
+            }
+          },
+          {
+            "level": 2,
+            "damage_per_second": 10156,
+            "damage_formula": "(7.6% physical attack + 2,000)",
+            "costs": {
+              "ascension_dust": 300,
+              "gold": 2900000
+            }
+          },
+          {
+            "level": 3,
+            "damage_per_second": 10156,
+            "damage_formula": "(7.6% physical attack + 2,000)",
+            "description": "When the area disappears, the enemy closest to its center is knocked into the air.",
+            "costs": {
+              "ascension_dust": 750,
+              "gold": 4350000
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "variant": "base",
+      "level": 130,
+      "name": "Negator of Laws",
+      "type": [
+        "periodic",
+        "green"
+      ],
+      "damage_formula": "Physical attack block chance: 52% (0.2 * level + 26). Extra energy per blocked attack: 15.5% (0.05 * level + 9)",
+      "scales_with": [],
+      "duration_seconds": 8,
+      "cooldown_seconds": 18,
+      "physical_attack_block_chance_percent": 52,
+      "extra_energy_per_blocked_attack_percent": 15.5,
+      "description": "K'arkh opens an interdimensional rift that can block enemy physical attacks for 8 seconds. He gains extra energy for each blocked attack."
+    },
+    {
+      "id": 3,
+      "variant": "base",
+      "level": 130,
+      "name": "Deadly Tendrils",
+      "type": [
+        "passive",
+        "blue"
+      ],
+      "damage_formula": "Damage from attack: 107,314 (100% physical attack)",
+      "scales_with": [
+        "Physical Attack"
+      ],
+      "damage": 107314,
+      "description": "While K'arkh is alive, he strikes every enemy thrown into the air. If the enemy's level is equal to or less than 130, he deals double damage. Chance to deal double damage is lowered if the target's level is above 130."
+    },
+    {
+      "id": 4,
+      "variant": "base",
+      "level": 130,
+      "name": "Survival Factor",
+      "type": [
+        "passive",
+        "violet"
+      ],
+      "damage_formula": "Health recovered: 27.5% (0.25 * level - 5) of damage dealt",
+      "scales_with": [],
+      "healing_percent_of_damage_dealt": 27.5,
+      "description": "Attacks against enemies thrown into the air heal K'arkh for a fraction of the damage dealt.",
+      "ascension": {
+        "rank": "V",
+        "name": "Immortal Abyss",
+        "initial": {
+          "additional_healing_percent_of_damage_dealt": 5
+        },
+        "upgrades": [
+          {
+            "level": 1,
+            "additional_healing_percent_of_damage_dealt": 7,
+            "costs": {
+              "ascension_shard": 200,
+              "gold": 1750000
+            }
+          },
+          {
+            "level": 2,
+            "additional_healing_percent_of_damage_dealt": 10,
+            "costs": {
+              "ascension_shard": 300,
+              "gold": 3500000
+            }
+          },
+          {
+            "level": 3,
+            "additional_healing_percent_of_damage_dealt": 10,
+            "health_threshold_percent": 20,
+            "duration_seconds": 2,
+            "healing": 100486,
+            "healing_formula": "(75% physical attack + 20,000)",
+            "scales_with": [
+              "Physical Attack"
+            ],
+            "maximum_triggers_per_battle": 1,
+            "description": "If K'arkh's health drops below 20%, he teleports into the abyss for 2 seconds, avoiding enemy attacks and restoring 100,486 health. This effect triggers once per battle.",
+            "costs": {
+              "ascension_shard": 750,
+              "gold": 5250000
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "K'arkh's Essence",
+      "stats": {
+        "physical_attack": 33459,
+        "power": 12547
+      }
+    },
+    {
+      "name": "Alchemist's Folio",
+      "stats": {
+        "physical_attack": 5577,
+        "armor_penetration": 16731,
+        "power": 12548
+      }
+    },
+    {
+      "name": "Ring of Agility",
+      "stats": {
+        "agility": 6249,
+        "power": 17184
+      }
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": {
+        "agility": 1365,
+        "power": 3753
+      }
+    },
+    {
+      "name": "Stellar Skin",
+      "stats": {
+        "armor_penetration": 10650,
+        "power": 5325
+      }
+    },
+    {
+      "name": "Dark Depths Skin",
+      "stats": {
+        "magic_defense": 10650,
+        "power": 5325
+      }
+    },
+    {
+      "name": "Celestial Skin",
+      "stats": {
+        "physical_attack": 7095,
+        "power": 5321
+      }
+    },
+    {
+      "name": "Masquerade Skin",
+      "stats": {
+        "physical_attack": 7095,
+        "power": 5321
+      }
+    },
+    {
+      "name": "Solar Skin",
+      "stats": {
+        "armor": 10650,
+        "power": 5325
+      }
+    },
+    {
+      "name": "Winter Skin",
+      "stats": {
+        "magic_defense": 21300,
+        "power": 10650
+      }
+    }
+  ],
+  "glyphs": [
+    {
+      "name": "Health Glyph",
+      "stats": {
+        "health": 62200,
+        "power": 3110
+      }
+    },
+    {
+      "name": "Agility Glyph",
+      "stats": {
+        "agility": 1135,
+        "power": 3121
+      }
+    },
+    {
+      "name": "Physical attack Glyph",
+      "stats": {
+        "physical_attack": 4340,
+        "power": 3255
+      }
+    },
+    {
+      "name": "Armor Glyph",
+      "stats": {
+        "armor": 6500,
+        "power": 3250
+      }
+    },
+    {
+      "name": "Armor penetration Glyph",
+      "stats": {
+        "armor_penetration": 6500,
+        "power": 3250
+      }
+    }
+  ],
+  "equipment": {
+    "name": "The Vanquished Absolute",
+    "stats": {
+      "health": 68472,
+      "agility": 3168,
+      "intelligence": 738,
+      "strength": 786,
+      "physical_attack": 18413,
+      "magic_defense": 2491,
+      "armor": 2490,
+      "armor_penetration": 6770,
+      "power": 36011
+    }
+  },
+  "tree_of_wisdom": {
+    "stats": {
+      "health": 40440,
+      "physical_attack": 5411,
+      "magic_defense": 3810,
+      "armor": 3396,
+      "armor_penetration": 5740,
+      "power": 12553
+    }
+  },
+  "miscellaneous": {
+    "levels": {
+      "stats": {
+        "agility": 3120,
+        "intelligence": 1430,
+        "strength": 1950,
+        "power": 17875
+      }
+    },
+    "gift_of_the_elements": {
+      "stats": {
+        "agility": 720,
+        "intelligence": 360,
+        "strength": 360,
+        "power": 3960
+      }
+    }
+  },
+  "best teams": {
+    "team1": "Axel, Martha(Robin), Faceless(Merlin), Jorgen(Oliver), K'arkh(Fenris), Wodryn(Axel)",
+    "team2": "Axel, Martha(Robin), Faceless(Merlin), Jorgen(Oliver), K'arkh(Fenris), Astaroth(Axel)"
+  },
+  "synergy_notes": "Nos testes do Alexandre, K'arkh teve bastante sinergia com Wodryn. Assim como Kai e Faceless, Wodryn pode jogar inimigos para o alto, ativando os ataques de Deadly Tendrils de K'arkh."
+}

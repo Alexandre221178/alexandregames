@@ -2,6 +2,15 @@
   // Carousel multi-language injector  npm run update-hwde-hwde 
   const slides = [
     {
+      link: "../../hero-wars-dominion-era/characters/karkh-en.html",
+      src500: "../../hero-wars-dominion-era/images/hero/karkh/karkh-500px.webp",
+      src400: "../../hero-wars-dominion-era/images/hero/karkh/karkh-400px.webp",
+      alt: "K'arkh for Hero Wars: Dominion Era",
+      title: "K'arkh for Hero Wars: Dominion Era.",
+      strong: "Guide: K'arkh - Hero Wars: Dominion Era",
+      updated: "Updated: November, 2026."
+    },
+    {
       link: "../../hero-wars-dominion-era/characters/wodryn-en.html",
       src500: "../../hero-wars-dominion-era/images/hero/wodryn/wodryn-500px.webp",
       src400: "../../hero-wars-dominion-era/images/hero/wodryn/wodryn-400px.webp",

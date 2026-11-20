@@ -145,6 +145,7 @@
 
     "update-fluffy-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js fluffy",
     "update-galahad-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js galahad",
+  "update-karkh-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js karkh",
     "update-kayla-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js kayla",
     "update-lyria-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js lyria",
    "update-martha-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js martha",
