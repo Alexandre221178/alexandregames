@@ -155,7 +155,7 @@
             <h2 id="directory-heading">Build stronger Titan teams</h2>
             <p>Choose an element, find a Titan, and open the guide for skills, counters, artifacts, skins, upgrade priorities, and battle strategy.</p>
             <ul class="directory-stats" aria-label="Directory statistics">
-              <li><strong>29</strong>Titans</li>
+              <li><strong>30</strong>Titans</li>
               <li><strong>26</strong>Guides</li>
               <li><strong>6</strong>Elements</li>
             </ul>
@@ -179,7 +179,7 @@
             <button type="button" data-filter="dark" aria-pressed="false">Darkness</button>
             <button type="button" data-filter="elarite" aria-pressed="false">Elarite</button>
           </div>
-          <p id="directory-status" class="directory-status" aria-live="polite">Showing all 29 Titans.</p>
+          <p id="directory-status" class="directory-status" aria-live="polite">Showing all 30 Titans.</p>
         </section>
 
         <section id="fire-titans" class="element-group" data-element-group="fire" style="--element-color:#d84335">
@@ -243,9 +243,10 @@
         </section>
 
         <section id="elarite-titans" class="element-group" data-element-group="elarite" style="--element-color:#573b9d">
-          <div class="element-heading"><h2>Elarite Titans</h2><span>1 Titan</span></div>
+          <div class="element-heading"><h2>Elarite Titans</h2><span>2 Titans</span></div>
           <div class="titan-grid">
             <a class="titan-card" data-titan-card data-name="Metida super titan elarite" data-element="elarite" data-elarite="true" href="../titans-guide/metida-en.html"><div class="titan-portrait"><img src="../../imagens/image-shared/metida-300px.webp" alt="Metida ? Elarite Super Titan" width="300" height="260" loading="lazy"></div><div class="titan-card-body"><span class="elarite-label">Elarite</span><h3>Metida</h3><p class="titan-role">Super Titan</p><span class="card-action">Open guide &rarr;</span></div></a>
+            <a class="titan-card" data-titan-card data-name="valdur valdur summoner summoner elarite elarite" data-element="elarite" data-elarite="true" href="../titans-guide/valdur-en.html"><div class="titan-portrait"><img src="../../imagens/image-shared/valdur-300px.webp" alt="Valdur Elarite Summoner Titan" title="Valdur Elarite Summoner Titan" width="300" height="260" loading="lazy"></div><div class="titan-card-body"><span class="elarite-label">Elarite</span><h3>Valdur</h3><p class="titan-role">Summoner</p><span class="card-action">Open guide →</span></div></a>
           </div>
         </section>
 
@@ -344,7 +345,7 @@
         group.hidden=!group.querySelector('[data-titan-card]:not([hidden])');
       });
       empty.style.display=visible?'none':'block';
-      status.textContent=visible===29?'Showing all 29 Titans.':`Showing ${visible} of 29 Titans.`;
+      status.textContent=visible===30?'Showing all 30 Titans.':`Showing ${visible} of 30 Titans.`;
     }
 
     buttons.forEach(function(button){

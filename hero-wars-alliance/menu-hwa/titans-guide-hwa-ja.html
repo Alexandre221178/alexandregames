@@ -155,7 +155,7 @@
             <h2 id="directory-heading">より強力なタイタンチームを編成しよう</h2>
             <p>属性を選び、タイタンを見つけてガイドを開くと、スキル、対策、アーティファクト、スキン、育成優先度、バトル戦略を確認できます。</p>
             <ul class="directory-stats" aria-label="ディレクトリの統計">
-              <li><strong>29</strong>体のタイタン</li>
+              <li><strong>30</strong>体のタイタン</li>
               <li><strong>26</strong>件のガイド</li>
               <li><strong>6</strong>属性</li>
             </ul>
@@ -243,9 +243,10 @@
         </section>
 
         <section id="elarite-titans" class="element-group" data-element-group="elarite" style="--element-color:#573b9d">
-          <div class="element-heading"><h2>エラライトタイタン</h2><span>1体のタイタン</span></div>
+          <div class="element-heading"><h2>エラライトタイタン</h2><span>2体のタイタン</span></div>
           <div class="titan-grid">
             <a class="titan-card" data-titan-card data-name="メティダ スーパータイタン エラライト" data-element="elarite" data-elarite="true" href="../titans-guide/metida-ja.html"><div class="titan-portrait"><img src="../../imagens/image-shared/metida-300px.webp" alt="メティダ &#8212; エラライト スーパータイタン" width="300" height="260" loading="lazy"></div><div class="titan-card-body"><span class="elarite-label">エラライト</span><h3>メティダ</h3><p class="titan-role">スーパータイタン</p><span class="card-action">ガイドを開く &rarr;</span></div></a>
+            <a class="titan-card" data-titan-card data-name="ヴァルドゥル valdur 召喚士 summoner エラライト elarite" data-element="elarite" data-elarite="true" href="../titans-guide/valdur-ja.html"><div class="titan-portrait"><img src="../../imagens/image-shared/valdur-300px.webp" alt="ヴァルドゥル — エラライトの召喚士タイタン" title="ヴァルドゥル — エラライトの召喚士タイタン" width="300" height="260" loading="lazy"></div><div class="titan-card-body"><span class="elarite-label">エラライト</span><h3>ヴァルドゥル</h3><p class="titan-role">召喚士</p><span class="card-action">ガイドを開く →</span></div></a>
           </div>
         </section>
 
@@ -344,7 +345,7 @@
         group.hidden=!group.querySelector('[data-titan-card]:not([hidden])');
       });
       empty.style.display=visible?'none':'block';
-      status.textContent=visible===29?'全29体のタイタンを表示しています。':`29体中${visible}体のタイタンを表示しています。`;
+      status.textContent=visible===30?'全29体のタイタンを表示しています。':`29体中${visible}体のタイタンを表示しています。`;
     }
 
     buttons.forEach(function(button){
