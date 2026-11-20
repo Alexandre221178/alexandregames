@@ -1,0 +1,154 @@
+{
+  "id": "valdur",
+  "name": "Valdur",
+  "title": "Voice of Elarite",
+  "type": "titan",
+  "game_id": "Hero Wars Alliance",
+  "role": ["summoner"],
+  "main_role": "Summoner",
+  "position": "back line",
+  "main_stat": "Physical Attack",
+  "element": ["elarite"],
+  "class": {
+    "titan class": "summoner titan"
+  },
+  "synergy": {
+    "type": "Elarite Titans",
+    "elements": ["elarite"],
+    "members": ["Metida", "Orm", "Alecto", "Pallant"],
+    "description": "Valdur shines in a full Elarite team, where enemies take damage when they move. Pallant, Metida, and Valdur move enemies with their skills, while Elarite Resonance deals extra damage whenever affected enemies change position."
+  },
+  "stats": {
+    "health": 14936503,
+    "physical_attack": 528271,
+    "extra_defense_from_light_and_dark_titans": 120600,
+    "extra_damage_to_light_and_dark_titans": 213000
+  },
+  "description": "Valdur is a mighty Summoner who completes the Elarite element and unleashes its true power. He interrupts enemy skills and keeps opponents taking damage by constantly moving them around the battlefield. With him in the fight, enemies struggle to put their plans into action.",
+  "skills": [
+    {
+      "id": 1,
+      "variant": "base",
+      "name": "Child of Elarite",
+      "type": ["ultimate", "summon", "control", "damage"],
+      "duration_seconds": 4,
+      "target": "center of the enemy team",
+      "description": "Summons Child of Elarite at the center of the enemy team. It cannot move. Upon spawning, it knocks back enemies, dealing damage. After 4.0 seconds, Child of Elarite disappears, pulling enemies to itself and dealing damage. Child of Elarite is an Elarite Titan and cannot be attacked.",
+      "effects": {
+        "summon": {
+          "name": "Child of Elarite",
+          "type": "titan",
+          "element": "elarite",
+          "can_move": false,
+          "can_be_attacked": false
+        },
+        "spawn_control": "knockback",
+        "damage_upon_spawn": 52827,
+        "damage_upon_spawn_formula": "10% physical attack",
+        "disappearance_control": "pulls enemies to the summon",
+        "damage_upon_disappearance": 52827,
+        "damage_upon_disappearance_formula": "10% physical attack"
+      },
+      "scales_with": ["Physical Attack"]
+    },
+    {
+      "id": 2,
+      "variant": "base",
+      "name": "Elarite Resonance",
+      "type": ["passive", "buff", "damage"],
+      "target": "allied Elarite Titans",
+      "description": "Passive. Empowers allied Elarite Titans. Bonuses stack and depend on the number of Elarite Titans alive. With 2, grants extra damage to Water, Earth, and Fire Titans. With 3, grants extra defense against Water, Earth, and Fire Titans. With 4, Valdur receives 400 Energy when using skills. With 5, when an allied Elarite Titan deals damage to an enemy, the target suffers an effect for 4 seconds, taking damage every 0.5 seconds if they have changed position during that interval. With 6, reduces incoming damage by 50%.",
+      "effects": {
+        "bonuses_stack": true,
+        "counted_titans": "living allied Elarite Titans",
+        "bonuses_by_alive_elarite_titans": [
+          {
+            "required_count": 2,
+            "extra_damage_to_elements": ["water", "earth", "fire"],
+            "extra_damage": 132068,
+            "extra_damage_formula": "25% physical attack"
+          },
+          {
+            "required_count": 3,
+            "extra_defense_against_elements": ["water", "earth", "fire"],
+            "extra_defense": 132068,
+            "extra_defense_formula": "25% physical attack"
+          },
+          {
+            "required_count": 4,
+            "target": "Valdur",
+            "trigger": "using skills",
+            "energy_gain": 400
+          },
+          {
+            "required_count": 5,
+            "trigger": "an allied Elarite Titan deals damage to an enemy",
+            "target": "damaged enemy",
+            "duration_seconds": 4,
+            "tick_interval_seconds": 0.5,
+            "damage_condition": "The target has changed position during the interval.",
+            "effect_damage": 2641,
+            "effect_damage_formula": "0.5% physical attack"
+          },
+          {
+            "required_count": 6,
+            "incoming_damage_reduction_percent": 50
+          }
+        ]
+      },
+      "scales_with": ["Physical Attack", "Number of living allied Elarite Titans"]
+    }
+  ],
+  "skins": [
+    {
+      "name": "Default Skin",
+      "stats": {
+        "physical_attack": 196800
+      }
+    },
+    {
+      "name": "Primordial Skin+",
+      "stats": {
+        "health": 5255950
+      },
+      "skin_plus": {
+        "enabled": true,
+        "base_skin_name": "Primordial Skin"
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "Zorval's Call",
+      "type": "weapon",
+      "activation_chance": 100,
+      "stats": {
+        "physical_attack": 120000
+      }
+    },
+    {
+      "name": "Elarite Crown",
+      "type": "crown",
+      "stats": {
+        "extra_damage_to_light_and_dark_titans": 213000,
+        "extra_defense_from_light_and_dark_titans": 120600
+      }
+    },
+    {
+      "name": "Chthonic Summon Seal",
+      "type": "seal",
+      "stats": {
+        "physical_attack": 97500,
+        "health": 3975000
+      }
+    }
+  ],
+  "best_teams": [
+    {
+      "id": 1,
+      "name": "Full Elarite",
+      "members": ["Valdur", "Metida", "Orm", "Alecto", "Pallant"],
+      "notes": "Pallant, Metida, and Valdur move enemies, enabling the movement damage from Elarite Resonance."
+    }
+  ]
+}
