@@ -125,7 +125,7 @@
 "update-pallant-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide pallant",
 
     "update-umbra-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide umbra",
-    
+    "update-valdur-hwa": "node hero-wars-alliance/update-data-menu-hwa.js titans-guide valdur",
       
     "update-gifts-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js ag-daily-gifts-hwde gifts-hwde",
     "update-mysterious-island-hwde": "node hero-wars-dominion-era/update-data-menu-hwde.js mysterious-island",
