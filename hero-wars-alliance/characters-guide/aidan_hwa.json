@@ -266,18 +266,19 @@
           "total_intelligence_skin_stones": 50410
         },
         {
-          "name": "Masquerade Skin",
-          "stat": "Armor",
-          "bonus": 10650,
-          "total_intelligence_skin_stones": 50410
-        },
-        {
           "name": "Cybernetic Skin+",
           "stat": "Magic Attack",
           "bonus": 21300,
           "total_intelligence_skin_stones": 50410,
           "is_skin_plus": true
         },
+        {
+          "name": "Masquerade Skin",
+          "stat": "Armor",
+          "bonus": 10650,
+          "total_intelligence_skin_stones": 50410
+        },
+        
         {
           "name": "Blazing Skin+",
           "stat": "Health",
@@ -380,7 +381,7 @@
           "heroes": [
             {
               "hero": "Aidan",
-              "talisman": "T2"
+              "talisman": "T1"
             },
             {
               "hero": "Kendle",
@@ -433,7 +434,7 @@
           "heroes": [
             {
               "hero": "Aidan",
-              "talisman": "T2"
+              "talisman": "T1"
             },
             {
               "hero": "Dorian",
@@ -485,7 +486,7 @@
           "heroes": [
             {
               "hero": "Aidan",
-              "talisman": "T2"
+              "talisman": "T1"
             },
             {
               "hero": "Peech",
@@ -501,16 +502,76 @@
             },
             {
               "hero": "Wodryn",
-              "talisman": null
+              "talisman": "T1"
             }
           ],
           "optional_tank_replacements": {
             "replaces": "Wodryn",
+            "matchup_recommendations": {
+              "Wodryn": "Use against pure-damage teams; his level 30 Law of the Forest converts enemy pure damage into magic damage while he is alive.",
+              "Julius": "Use as the general frontline choice against most teams.",
+              "Luther": "Use to disrupt the enemy formation as he jumps into the enemy team alongside Kayla."
+            },
             "heroes": [
               "Luther",
               "Julius"
             ]
           }
+        }
+      ],
+      "old_teams": [
+        {
+          "rank": 1,
+          "heroes": ["Aidan", "Kayla", "Oya", "Tristan", "Cleaver"]
+        },
+        {
+          "rank": 2,
+          "heroes": ["Aidan", "Kayla", "Oya", "Tristan", "Astaroth"]
+        },
+        {
+          "rank": 3,
+          "heroes": ["Aidan", "Kayla", "Oya", "Tristan", "Luther"]
+        },
+        {
+          "rank": 4,
+          "heroes": ["Fafnir", "Aidan", "Kayla", "Tristan", "Astaroth"]
+        },
+        {
+          "rank": 5,
+          "heroes": ["Julius", "Kayla", "Sebastian", "Aidan", "Jet"],
+          "youtube_url": "https://youtube.com/shorts/MezxsHBH_Ow?feature=share"
+        },
+        {
+          "rank": 6,
+          "heroes": ["Luther", "Tristan", "Kayla", "Aidan", "Fafnir"]
+        },
+        {
+          "rank": 7,
+          "heroes": ["Chabba", "Tristan", "Oya", "Kayla", "Aidan"]
+        },
+        {
+          "rank": 8,
+          "heroes": ["Chabba", "Tristan", "Karkh", "Kayla", "Aidan"]
+        },
+        {
+          "rank": 9,
+          "heroes": ["Julius", "Oya", "Kayla", "Isaac", "Aidan"]
+        },
+        {
+          "rank": 10,
+          "heroes": ["Tristan", "Oya", "Ninja Turtles", "Kayla", "Aidan"]
+        },
+        {
+          "rank": 11,
+          "heroes": ["Julius", "Tristan", "Ninja Turtles", "Kayla", "Aidan"]
+        },
+        {
+          "rank": 12,
+          "heroes": ["Julius", "Kayla", "Judge", "Soleil", "Aidan"]
+        },
+        {
+          "rank": 13,
+          "heroes": ["Fafnir", "Aidan", "Kayla", "Oya", "Tristan"]
         }
       ]
     }

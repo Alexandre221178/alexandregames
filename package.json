@@ -63,6 +63,7 @@
 "update-stats-guide-hwa-hwa": "node hero-wars-alliance/update-data-menu-hwa.js beginners-guide-hwa stats-guide-hwa",
 
     
+"update-aidan-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide aidan",
     "update-alvanor-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide alvanor",
     "update-byrna-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide byrna",
     "update-cascade-hwa": "node hero-wars-alliance/update-data-menu-hwa.js characters-guide cascade",
