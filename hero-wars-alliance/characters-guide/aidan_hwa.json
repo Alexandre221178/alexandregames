@@ -1,0 +1,518 @@
+{
+  "game": "Hero Wars Alliance",
+  "heroes": [
+    {
+      "id": "aidan",
+      "name": "Aidan",
+      "gender": "male",
+      "role": [
+        "Healer"
+      ],
+      "main_class": "Healer",
+      "position": "Back Line",
+      "level": 120,
+      "main_stat": "Intelligence",
+      "way": "Way of Chaos",
+      "stats": {
+        "max_with_talisman_of_ashes": {
+          "intelligence": 17843,
+          "agility": 3679,
+          "strength": 4137,
+          "health": 1129442,
+          "physical_attack": 37314,
+          "magic_attack": 230375,
+          "armor": 39840,
+          "magic_defense": 43200,
+          "dodge": 0,
+          "vampirism": 0,
+          "armor_penetration": 0,
+          "magic_penetration": 0,
+          "crit_hit_chance": 0,
+          "magical_crit_hit_chance": 0,
+          "toughness": 3380,
+          "crushing": 0,
+          "magic_reflection": 0,
+          "total_power": 278122
+        },
+        "max_with_talisman_of_relentlessness": {
+          "intelligence": 15843,
+          "agility": 3679,
+          "strength": 4137,
+          "health": 1315480,
+          "physical_attack": 35314,
+          "magic_attack": 203585,
+          "armor": 39840,
+          "magic_defense": 41200,
+          "dodge": 0,
+          "vampirism": 0,
+          "armor_penetration": 0,
+          "magic_penetration": 0,
+          "crit_hit_chance": 0,
+          "magical_crit_hit_chance": 0,
+          "toughness": 7780,
+          "crushing": 0,
+          "magic_reflection": 0,
+          "total_power": 279449
+        }
+      },
+      "talisman_details": {
+        "talisman_of_ashes": {
+          "display_name": "Talisman of Ashes",
+          "level": 50,
+          "main_stat": "Intelligence",
+          "main_stat_bonus": 2000,
+          "reroll_slots": [
+            {
+              "stat": "Magic Attack",
+              "value": 6600
+            },
+            {
+              "stat": "Magic Attack",
+              "value": 6600
+            },
+            {
+              "stat": "Magic Attack",
+              "value": 6600
+            }
+          ],
+          "total_reroll_bonus": {
+            "stat": "Magic Attack",
+            "value": 19800
+          },
+          "derived_bonuses": {
+            "physical_attack": 2000,
+            "magic_attack": 6000,
+            "magic_defense": 2000
+          }
+        },
+        "talisman_of_relentlessness": {
+          "display_name": "Talisman of Relentlessness",
+          "level": 50,
+          "main_stat": "Toughness",
+          "main_stat_bonus": 4000,
+          "reroll_slots": [
+            {
+              "stat": "Health",
+              "value": 60500
+            },
+            {
+              "stat": "Health",
+              "value": 60500
+            },
+            {
+              "stat": "Health",
+              "value": 60500
+            }
+          ],
+          "total_reroll_bonus": {
+            "stat": "Health",
+            "value": 181500
+          }
+        },
+        "talisman_2_available": true
+      },
+      "skills": [
+        {
+          "id": 1,
+          "variant": "base",
+          "color": "gray",
+          "level": 120,
+          "is_ultimate": true,
+          "name": "Phoenix Ritual",
+          "type": [
+            "Health Increase",
+            "Burn",
+            "Resurrection",
+            "Self-Damage"
+          ],
+          "description": "Aidan spends 20% of his maximum Health to raise allied current and maximum Health. The affected allies burn for 8 seconds, losing the additional Health over that duration. Revives Kayla if she has fallen. His skills stop damaging allied heroes below 25% Health.",
+          "self_damage_percent_max_health": 20,
+          "allied_health_increase": "20% Health + 2400",
+          "burn_duration_seconds": 8,
+          "burn_total_damage": "Equal to the bonus Health granted",
+          "revives": "Kayla",
+          "allied_damage_safety_threshold_percent_health": 25
+        },
+        {
+          "id": 2,
+          "variant": "base",
+          "color": "green",
+          "level": 120,
+          "name": "Fire Embrace",
+          "type": [
+            "Healing"
+          ],
+          "description": "Restores Health to the ally with the lowest Health percentage and to allies damaged by friendly skills since the previous cast. Chaos heroes receive stronger healing.",
+          "healing": "30% Magic Attack + 4800",
+          "healing_for_chaos_heroes": "60% Magic Attack + 9600",
+          "relic_boost": {
+            "legendary_relic_level": 10,
+            "description": "Allies healed by Fire Embrace take less damage from each attack for 8 seconds.",
+            "incoming_damage_reduction_per_attack": "10% Magic Attack",
+            "duration_seconds": 8
+          }
+        },
+        {
+          "id": 3,
+          "variant": "base",
+          "color": "blue",
+          "level": 100,
+          "name": "Bonds of Fire",
+          "type": [
+            "Healing",
+            "Health Increase",
+            "Self-Damage"
+          ],
+          "description": "Takes 2.5% of maximum Health from the ally with the highest Health percentage and from other allies above 80% Health. Aidan gains that amount as current and maximum Health and heals himself.",
+          "allied_damage_percent_max_health": 2.5,
+          "additional_allies_threshold_percent_health": 80,
+          "health_increase": "Total Health sacrificed by affected allies",
+          "healing": "50% Magic Attack + 10000"
+        },
+        {
+          "id": 4,
+          "variant": "base",
+          "color": "violet",
+          "level": 80,
+          "name": "Flame Shield",
+          "type": [
+            "Shield"
+          ],
+          "description": "Shields Aidan or an ally who was present at the start of combat when their Health falls below 30%. The shield absorbs physical and magical damage for 4 seconds and has a separate 15-second cooldown for each hero.",
+          "trigger_below_percent_health": 30,
+          "shield_durability": "16% of the combined maximum Health of allied heroes",
+          "absorbs_damage_types": [
+            "physical",
+            "magical"
+          ],
+          "duration_seconds": 4,
+          "cooldown_per_hero_seconds": 15,
+          "relic_boost": {
+            "legendary_relic_level": 20,
+            "description": "When Flame Shield is removed, the protected ally receives healing. Chaos heroes receive more healing.",
+            "healing": "30% Magic Attack",
+            "healing_for_chaos_heroes": "60% Magic Attack"
+          }
+        },
+        {
+          "id": 5,
+          "variant": "legendary",
+          "legendary_relic_level": 1,
+          "name": "Phoenix's Pact",
+          "type": [
+            "Resurrection",
+            "Healing"
+          ],
+          "description": "Every 15 seconds, if allied Kayla is dead, Aidan revives her and then heals his allies. Chaos heroes receive more healing.",
+          "interval_seconds": 15,
+          "condition": "Allied Kayla is dead",
+          "revives": "Kayla",
+          "healing": "20% Magic Attack",
+          "healing_for_chaos_heroes": "40% Magic Attack"
+        },
+        {
+          "id": 6,
+          "variant": "legendary",
+          "legendary_relic_level": 30,
+          "name": "Price of Wisdom",
+          "type": [
+            "Buff"
+          ],
+          "description": "When the total damage taken by the team from allied skills reaches the activation threshold, Aidan gains Intelligence for the rest of the battle. The Intelligence bonus stacks up to 5 times.",
+          "allied_skill_damage_threshold": "100% Health",
+          "intelligence_increase_per_stack": "5% Magic Attack",
+          "maximum_stacks": 5,
+          "duration": "Until the end of battle"
+        }
+      ],
+      "realm_skills": [
+        {
+          "name": "Heart of the Phoenix",
+          "level": 5,
+          "description": "Increases the Health of all troops by 12%.",
+          "troop_health_increase_percent": 12
+        },
+        {
+          "name": "Heat of Eternity",
+          "level": 5,
+          "description": "Troop attacks have a 15% chance to grant a shield that absorbs 15% damage for 1 turn.",
+          "trigger_chance_percent": 15,
+          "damage_absorption_percent": 15,
+          "duration_turns": 1
+        }
+      ],
+      "skins": [
+        {
+          "name": "Default Skin",
+          "stat": "Intelligence",
+          "bonus": 1365,
+          "total_intelligence_skin_stones": 30825,
+          "derived_bonuses": {
+            "physical_attack": 1365,
+            "magic_attack": 4095,
+            "magic_defense": 1365
+          }
+        },
+        {
+          "name": "Solar Skin",
+          "stat": "Magic Attack",
+          "bonus": 10650,
+          "total_intelligence_skin_stones": 50410
+        },
+        {
+          "name": "Celestial Skin",
+          "stat": "Health",
+          "bonus": 106645,
+          "total_intelligence_skin_stones": 50410
+        },
+        {
+          "name": "Masquerade Skin",
+          "stat": "Armor",
+          "bonus": 10650,
+          "total_intelligence_skin_stones": 50410
+        },
+        {
+          "name": "Cybernetic Skin+",
+          "stat": "Magic Attack",
+          "bonus": 21300,
+          "total_intelligence_skin_stones": 50410,
+          "is_skin_plus": true
+        },
+        {
+          "name": "Blazing Skin+",
+          "stat": "Health",
+          "bonus": 213290,
+          "total_intelligence_skin_stones": 50410,
+          "is_skin_plus": true
+        }
+      ],
+      "artifacts": {
+        "weapon": {
+          "name": "Phoenix Seal",
+          "level": 100,
+          "stars": 6,
+          "trigger_skill": "Phoenix Ritual",
+          "trigger_chance_percent": 100,
+          "duration_seconds": 9,
+          "team_buff": {
+            "stat": "Magic Defense",
+            "bonus": 32040
+          }
+        },
+        "book": {
+          "name": "Tome of Arcane Knowledge",
+          "level": 100,
+          "stars": 6,
+          "stats": [
+            {
+              "stat": "Magic Attack",
+              "bonus": 10680
+            },
+            {
+              "stat": "Health",
+              "bonus": 53394
+            }
+          ]
+        },
+        "ring": {
+          "name": "Ring of Intelligence",
+          "level": 100,
+          "stars": 6,
+          "stat": "Intelligence",
+          "bonus": 3990,
+          "derived_bonuses": {
+            "physical_attack": 3990,
+            "magic_attack": 11970,
+            "magic_defense": 3990
+          }
+        }
+      },
+      "glyphs": {
+        "class": "Healer",
+        "stats": [
+          {
+            "name": "Magic Attack",
+            "level": 80,
+            "bonus": 12850
+          },
+          {
+            "name": "Armor",
+            "level": 80,
+            "bonus": 12850
+          },
+          {
+            "name": "Magic Defense",
+            "level": 80,
+            "bonus": 12850
+          },
+          {
+            "name": "Health",
+            "level": 80,
+            "bonus": 122800
+          },
+          {
+            "name": "Intelligence",
+            "level": 80,
+            "bonus": 2110,
+            "derived_bonuses": {
+              "physical_attack": 2110,
+              "magic_attack": 6330,
+              "magic_defense": 2110
+            }
+          }
+        ]
+      },
+      "legendary_relic_level": 30,
+      "relic_total_stats_gain": {
+        "health": 215429,
+        "magic_attack": 64542
+      },
+      "relic_power_calculation": {
+        "health_power_factor": 0.05,
+        "magic_attack_power_factor": 0.5,
+        "power_gain_before_rounding": 43042.45,
+        "rounding": "Total Power is rounded to the nearest integer after adding the relic stat contribution."
+      },
+      "best_teams": [
+        {
+          "rank": 1,
+          "name": "Vampirism and Sustained Chaos",
+          "heroes": [
+            {
+              "hero": "Aidan",
+              "talisman": "T2"
+            },
+            {
+              "hero": "Kendle",
+              "talisman": "T1"
+            },
+            {
+              "hero": "Dorian",
+              "talisman": "T2"
+            },
+            {
+              "hero": "Peech",
+              "talisman": "T2"
+            },
+            {
+              "hero": "Cleaver",
+              "talisman": "T1"
+            }
+          ],
+          "description": "Dorian provides sustain and Vampirism while Aidan, Kendle, and Peech maintain the Chaos and Sacrifice pressure. Cleaver protects the front line, disrupts enemy positioning, and benefits from enough sustain to cycle his skills repeatedly."
+        },
+        {
+          "rank": 2,
+          "name": "Chaos Critical Pressure",
+          "heroes": [
+            {
+              "hero": "Aidan",
+              "talisman": "T2"
+            },
+            {
+              "hero": "Kendle",
+              "talisman": "T1"
+            },
+            {
+              "hero": "Peech",
+              "talisman": "T2"
+            },
+            {
+              "hero": "Guus",
+              "talisman": "T2"
+            },
+            {
+              "hero": "Kayla",
+              "talisman": "T2"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Aidan, Dorian, Kendle, Byrna, and Cleaver",
+          "heroes": [
+            {
+              "hero": "Aidan",
+              "talisman": "T2"
+            },
+            {
+              "hero": "Dorian",
+              "talisman": "T2"
+            },
+            {
+              "hero": "Kendle",
+              "talisman": "T1"
+            },
+            {
+              "hero": "Byrna",
+              "talisman": "T1"
+            },
+            {
+              "hero": "Cleaver",
+              "talisman": "T1"
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Aidan, Polaris, Guus, Byrna, and Leonel",
+          "heroes": [
+            {
+              "hero": "Aidan",
+              "talisman": "T2"
+            },
+            {
+              "hero": "Polaris",
+              "talisman": "T2"
+            },
+            {
+              "hero": "Guus",
+              "talisman": "T2"
+            },
+            {
+              "hero": "Byrna",
+              "talisman": "T1"
+            },
+            {
+              "hero": "Leonel",
+              "talisman": "T1"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Aidan, Peech, Guus, Kayla, and Wodryn",
+          "heroes": [
+            {
+              "hero": "Aidan",
+              "talisman": "T2"
+            },
+            {
+              "hero": "Peech",
+              "talisman": "T2"
+            },
+            {
+              "hero": "Guus",
+              "talisman": "T2"
+            },
+            {
+              "hero": "Kayla",
+              "talisman": "T2"
+            },
+            {
+              "hero": "Wodryn",
+              "talisman": null
+            }
+          ],
+          "optional_tank_replacements": {
+            "replaces": "Wodryn",
+            "heroes": [
+              "Luther",
+              "Julius"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
