@@ -11,6 +11,15 @@
       updated: "Updated: November, 2026."
     }, 
     {
+      link: "/hero-wars-alliance/characters-guide/aidan-en.html",
+      src500: "/hero-wars-alliance/images/hero/aidan/aidan-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/aidan/aidan-400px.webp",
+      alt: "Aidan Guide for Hero Wars Alliance",
+      title: "Aidan Guide for Hero Wars Alliance",
+      strong: "Guide: Aidan - Relic, Hero Wars Alliance",
+      updated: "Updated: November, 2026."
+    },   
+    {
       link: "/hero-wars-alliance/characters-guide/julius-en.html",
       src500: "/hero-wars-alliance/images/hero/julius/julius-500px.webp",
       src400: "/hero-wars-alliance/images/hero/julius/julius-400px.webp",

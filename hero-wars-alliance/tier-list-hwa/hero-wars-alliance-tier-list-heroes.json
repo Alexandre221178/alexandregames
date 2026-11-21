@@ -46,10 +46,15 @@
   },
   "Aidan": {
     "image": "../../imagens/image-shared/aidan.webp",
-    "guides": {
-      "en": "../../hero-wars-alliance/characters-guide/aidan-en.html",
-      "pt": "../../hero-wars-alliance/characters-guide/aidan-pt.html"
-    },
+    "guide": "../characters-guide/aidan-{lang}.html",
+    "languages": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "fr",
+      "ja"
+    ],
     "names": {
       "ja": "エイダン"
     }
