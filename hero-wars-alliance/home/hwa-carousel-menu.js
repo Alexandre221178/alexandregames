@@ -10,6 +10,15 @@
       strong: "Guide: Titan Valdur for Hero Wars Alliance",
       updated: "Updated: November, 2026."
     }, 
+    {
+      link: "/hero-wars-alliance/characters-guide/julius-en.html",
+      src500: "/hero-wars-alliance/images/hero/julius/julius-500px.webp",
+      src400: "/hero-wars-alliance/images/hero/julius/julius-400px.webp",
+      alt: "Julius Guide for Hero Wars Alliance",
+      title: "Julius Guide for Hero Wars Alliance",
+      strong: "Guide: Plasma Skin - Julius for Hero Wars Alliance",
+      updated: "Updated: November, 2026."
+    },   
      {
       link: "/hero-wars-alliance/best-teams/wodryn-and-mushy-best-teams-en.html",
       src500: "/hero-wars-alliance/images/best-teams/wodryn-and-mushy/wodryn-and-Mushy-500px.webp",
@@ -84,15 +93,7 @@
       strong: "Guide(2nd Talisman): Crow for Hero Wars Alliance",
       updated: "Updated: October, 2026."
     },   
-    {
-      link: "/hero-wars-alliance/characters-guide/julius-en.html",
-      src500: "/hero-wars-alliance/images/hero/julius/julius-500px.webp",
-      src400: "/hero-wars-alliance/images/hero/julius/julius-400px.webp",
-      alt: "Julius Guide for Hero Wars Alliance",
-      title: "Julius Guide for Hero Wars Alliance",
-      strong: "Guide: Julius for Hero Wars Alliance",
-      updated: "Updated: October, 2026."
-    },   
+    
     {
       link: "../../hero-wars-alliance/titans-guide/metida-en.html",
       src500: "../../hero-wars-alliance/images/titans/metida/metida-500px.webp",

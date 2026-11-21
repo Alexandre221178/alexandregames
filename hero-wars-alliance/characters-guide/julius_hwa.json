@@ -42,7 +42,7 @@
           "magic_penetration": 0,
           "crit_hit_chance": 13567,
           "magical_crit_hit_chance": 0,
-          "toughness": 9053,
+          "toughness": 12013,
           "crushing": 0,
           "magic_reflection": 0,
           "total_power": 297274
@@ -62,7 +62,7 @@
           "magic_penetration": 0,
           "crit_hit_chance": 13567,
           "magical_crit_hit_chance": 0,
-          "toughness": 17303,
+          "toughness": 20263,
           "crushing": 0,
           "magic_reflection": 0,
           "total_power": 302724
@@ -314,6 +314,12 @@
           "bonus": 14190,
           "total_strength_skin_stones": 50410,
           "is_skin_plus": true
+        },
+        {
+          "name": "Plasma Skin",
+          "stat": "Toughness",
+          "bonus": 2960,
+          "total_strength_skin_stones": 50410
         }
       ],
       "artifacts": {
@@ -800,7 +806,11 @@
       "data_notes": [
         {
           "field": "stats.max_with_talisman_of_purrfection.toughness",
-          "note": "The supplied profiles differ by 8250 Toughness (17303 minus 9053), while the listed talisman rerolls total 6600. Both source values are preserved; no unexplained modifier has been inferred."
+          "note": "Both profiles include the additional 2960 Toughness from Plasma Skin: 9053 + 2960 = 12013 and 17303 + 2960 = 20263. The profiles still differ by 8250 Toughness (20263 minus 12013), while the listed talisman rerolls total 6600. The source discrepancy is preserved; no unexplained modifier has been inferred."
+        },
+        {
+          "field": "stats.*.total_power",
+          "note": "Total Power retains the source values from before Plasma Skin. Its additional power has not been calculated because no verified Toughness-to-power conversion is available in the project."
         },
         {
           "field": "stats.max_with_talisman_of_purrfection.armor_penetration",
