@@ -1289,33 +1289,24 @@ window.CALENDAR_DATA = [
     ]
   },
   {
-    "weekday": "Valdur Guide",
+    "weekday": "Season - Guide",
     "date": "",
     "image": "../../imagens/image-shared/valdur-300px.webp",
     "alt": "Valdur Guide",
     "titles": { "en": "🛡️ Valdur Guide", "pt": "🛡️ Guia do Valdur", "de": "🛡️ Valdur-Leitfaden", "es": "🛡️ Guía de Valdur", "fr": "🛡️ Guide de Valdur", "ja": "🛡️ ヴァルドゥル ガイド" },
     "links": { "en": "../../hero-wars-alliance/titans-guide/valdur-en.html", "pt": "../../hero-wars-alliance/titans-guide/valdur-pt.html", "de": "../../hero-wars-alliance/titans-guide/valdur-de.html", "es": "../../hero-wars-alliance/titans-guide/valdur-es.html", "fr": "../../hero-wars-alliance/titans-guide/valdur-fr.html", "ja": "../../hero-wars-alliance/titans-guide/valdur-ja.html" },
     "noStrip": true,
-    "extra": []
-  },
-  {
-    "weekday": "Eva Guide",
-    "date": "",
-    "image": "../../imagens/image-shared/eva-300px.webp",
-    "alt": "Eva Guide",
-    "titles": { "en": "🦸 Eva Guide", "pt": "🦸 Guia da Eva", "de": "🦸 Eva-Leitfaden", "es": "🦸 Guía de Eva", "fr": "🦸 Guide d’Eva", "ja": "🦸 エヴァ ガイド" },
-    "links": { "en": "../../hero-wars-alliance/characters-guide/eva-en.html", "pt": "../../hero-wars-alliance/characters-guide/eva-pt.html", "de": "../../hero-wars-alliance/characters-guide/eva-de.html", "es": "../../hero-wars-alliance/characters-guide/eva-es.html", "fr": "../../hero-wars-alliance/characters-guide/eva-fr.html", "ja": "../../hero-wars-alliance/characters-guide/eva-ja.html" },
-    "noStrip": true,
-    "extra": []
-  },
-  {
-    "weekday": "Aidan Guide",
-    "date": "",
-    "image": "../../imagens/image-shared/aidan-300px.webp",
-    "alt": "Aidan Guide",
-    "titles": { "en": "🦸 Aidan Guide", "pt": "🦸 Guia do Aidan", "de": "🦸 Aidan-Leitfaden", "es": "🦸 Guía de Aidan", "fr": "🦸 Guide d’Aidan", "ja": "🦸 エイダン ガイド" },
+    "extra": [
+      {
+         "titles": { "en": "🦸 Aidan Guide", "pt": "🦸 Guia do Aidan", "de": "🦸 Aidan-Leitfaden", "es": "🦸 Guía de Aidan", "fr": "🦸 Guide d’Aidan", "ja": "🦸 エイダン ガイド" },
     "links": { "en": "../../hero-wars-alliance/characters-guide/aidan-en.html", "pt": "../../hero-wars-alliance/characters-guide/aidan-pt.html", "de": "../../hero-wars-alliance/characters-guide/aidan-de.html", "es": "../../hero-wars-alliance/characters-guide/aidan-es.html", "fr": "../../hero-wars-alliance/characters-guide/aidan-fr.html", "ja": "../../hero-wars-alliance/characters-guide/aidan-ja.html" },
     "noStrip": true,
-    "extra": []
+      },
+       {
+         "titles": { "en": "🦸 Eva Guide", "pt": "🦸 Guia da Eva", "de": "🦸 Eva-Leitfaden", "es": "🦸 Guía de Eva", "fr": "🦸 Guide d’Eva", "ja": "🦸 エヴァ ガイド" },
+    "links": { "en": "../../hero-wars-alliance/characters-guide/eva-en.html", "pt": "../../hero-wars-alliance/characters-guide/eva-pt.html", "de": "../../hero-wars-alliance/characters-guide/eva-de.html", "es": "../../hero-wars-alliance/characters-guide/eva-es.html", "fr": "../../hero-wars-alliance/characters-guide/eva-fr.html", "ja": "../../hero-wars-alliance/characters-guide/eva-ja.html" },
+ "noStrip": true,
+      },
+    ]
   }
 ];
