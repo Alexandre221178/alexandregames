@@ -292,9 +292,9 @@
       var displayTitle = titleText + (usedFallback ? ' (EN)' : '');
       var linkClass = usedFallback ? 'event-title lang-fallback' : 'event-title';
       if(ev.labelOnly){
-        html += '    <br>    <span class="event-label">' + displayTitle + '</span>\n';
+        html += '    <span class="event-label">' + displayTitle + '</span>\n';
       } else {
-        html += '    <br>    <a' + buildLinkAttributes(linkInfo) + ' class="' + linkClass + '">' + displayTitle + '</a>\n';
+        html += '    <a' + buildLinkAttributes(linkInfo) + ' class="' + linkClass + '">' + displayTitle + '</a>\n';
       }
     }
     if(ev.extra && ev.extra.length){

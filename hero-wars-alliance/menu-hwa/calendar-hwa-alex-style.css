@@ -37,7 +37,7 @@ div.calendar #calendar-container > .event-container {
   font-size: 14px !important;
   position: relative !important;
   padding: 10px !important;
-  background-color: lab(65.19% 80.9 -47.02) !important;/* cor calendário mobile */
+  background-color: lab(55.91% 27.17 -68.91) !important;/* cor calendário mobile */
   border-radius: 5px !important;
   text-align: center !important;
   min-height: 337px !important;
@@ -67,24 +67,31 @@ div.calendar .event {
   overflow: hidden !important;
   width: 100% !important;
   height: auto !important;
-  padding-bottom: 30px !important;/* espaço para os deslocamentos de links e notas */
+  padding-bottom: 30px !important;
   box-sizing: border-box !important;
 }
 
-/* Event links */
-div.calendar .event a {
+/* Keep links and labels in the same flow so either can come first. */
+div.calendar .event :is(a, .event-label) {
   display: block !important;
   line-height: 14px !important;
-  margin-bottom: 7px !important;
-  color: yellow !important;
+  margin: 0 0 7px !important;
   text-decoration: none !important;
   position: relative !important;
+  inset: auto !important;
   font-weight: bold !important;
-  top: 9px !important;/* altura das letras 25 para brancas nao sobreporem as amarelas */
-  left: 2px !important;
   z-index: 10 !important;
   overflow-wrap: anywhere !important;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000 !important;
+}
+
+div.calendar .event a {
+  color: yellow !important;
+}
+
+div.calendar .event .event-label {
+  color: white !important;
+  cursor: default !important;
 }
 
 /* Event images */
@@ -112,49 +119,16 @@ div.calendar .overlay {
 
 /* Date label */
 div.calendar .date {
-  position: absolute !important;
-  z-index: 2 !important;
-  color: #fff !important;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) !important;
-  top: 1px !important;
-  left: 2px !important;
-  font-weight: bold !important;
-}
-
-/* Event title */
-div.calendar .event-title {
-  position: absolute !important;
-  z-index: 2 !important;
-  color: #fff !important;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) !important;
-  bottom: 5px !important;
-  left: 5px !important;
-  right: 5px !important;
-  text-align: center !important;
-  font-weight: bold !important;
-}
-
-/* Non-clickable label style - same as old HTML:
-   <a style="color: white; text-decoration: none;" onmouseover="this.style.color='white'" onmouseout="this.style.color='white'">Text</a>
-*/
-div.calendar .event-label,
-div.calendar .event .event-label {
-  color: white !important;
-  text-decoration: none !important;
-  cursor: default !important;
-  display: block !important;
-  line-height: 14px !important;
-  margin-bottom: 7px !important;
   position: relative !important;
+  inset: auto !important;
+  z-index: 2 !important;
+  color: #fff !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) !important;
+  min-height: 1lh;
+  margin-bottom: 3px !important;
+  padding-left: 2px;
+  text-align: left;
   font-weight: bold !important;
-  top: 25px !important;
-  left: 2px !important;
-  z-index: 10 !important;
-  overflow-wrap: anywhere !important;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000 !important;
-}
-div.calendar .event-label:hover {
-  color: white !important;
 }
 
 /* -------------------------------------------------------------------------
@@ -182,36 +156,7 @@ div.calendar .event-label:hover {
   /* altura Mobile do container */
   div.calendar > .event-container,
   div.calendar #calendar-container > .event-container {
-    min-height: 493px !important;/* altura mínima, sem cortar os eventos */
-  }
-  /* altura Mobile do container */
-  div.calendar .event a {
-    top: 1px !important;
-  }
-
-  div.calendar .event-label,
-div.calendar .event .event-label {
-  color: white !important;
-  text-decoration: none !important;
-  cursor: default !important;
-  display: block !important;
-  line-height: 14px !important;
-  margin-bottom: 13px !important;
-  position: relative !important;
-  font-weight: bold !important;
-  top: 15px !important;
-  left: 2px !important;
-  z-index: 10 !important;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000 !important;
-}
-  
-  /* Label (labelOnly) em mobile: reduz espaçamento */
-  div.calendar .event-label {
-    position: static !important;
-    top: auto !important;
-    margin-top: -12px !important;
-    margin-bottom: 0 !important;
-    line-height: 11px !important;
+    min-height: 378px !important;/* altura mínima, sem cortar os eventos antes 493px */
   }
 }
 
@@ -284,11 +229,7 @@ div.calendar[data-layout="group-by-image"] .event-container .weekday {
 }
 
 div.calendar[data-layout="group-by-image"] .event-container .date {
-  position: static !important;
-  display: block !important;
-  top: auto !important;
-  left: auto !important;
-  margin-bottom: 6px !important;
+  padding-left: 0;
   font-size: 13px !important;
 }
 
@@ -306,17 +247,15 @@ div.calendar[data-layout="group-by-image"] .event-container .overlay {
   display: none !important;
 }
 
-div.calendar[data-layout="group-by-image"] .event-container .event a,
-div.calendar[data-layout="group-by-image"] .event-container .event-title {
+div.calendar[data-layout="group-by-image"] .event-container .event :is(a, .event-label) {
   position: static !important;
   display: block !important;
   top: auto !important;
   left: auto !important;
   bottom: auto !important;
   right: auto !important;
-  margin: 4px 0 !important;
+  margin: 0 0 4px !important;
   line-height: 1.4 !important;
-  color: yellow !important;
   font-size: 13px !important;
 }
 
@@ -411,14 +350,13 @@ div.calendar[data-layout="group-by-date"] .event-container .overlay {
   display: none !important;
 }
 
-div.calendar[data-layout="group-by-date"] .event-container .event a,
-div.calendar[data-layout="group-by-date"] .event-container .event-title {
+div.calendar[data-layout="group-by-date"] .event-container .event :is(a, .event-label) {
   position: static !important;
   top: auto !important;
   left: auto !important;
   bottom: auto !important;
   display: block !important;
-  margin: 4px 0 !important;
+  margin: 0 0 4px !important;
 }
 
 /* Responsive for group-by-date */
