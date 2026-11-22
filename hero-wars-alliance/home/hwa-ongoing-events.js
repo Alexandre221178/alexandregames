@@ -1,6 +1,53 @@
 (function(){
   // Active guides shown below the main calendar - carousel.
   var slides = [
+{
+      link: "/hero-wars-alliance/event-hwa/ancient-awakening-event-shop-en.html",
+      src500: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-400px.webp",
+      alt: "Ancient Awakening Shop Guide for Hero Wars Alliance",
+      title: "Ancient Awakening Shop Guide for Hero Wars Alliance",
+      strong: "Guide (Ancient Awakening): Valdur - Event Shop - Hero Wars Alliance",
+      updated: "Updated: November, 2026."
+    },
+    
+{
+      link: "/hero-wars-alliance/event-hwa/ancient-awakening-main-event.html",
+      src500: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-400px.webp",
+      alt: "Ancient Awakening Guide for Hero Wars Alliance",
+      title: "Ancient Awakening Guide for Hero Wars Alliance",
+      strong: "Guide (Ancient Awakening): Ancient Awakening - Hero Wars Alliance",
+      updated: "Updated: November, 2026."
+    },
+    
+    {
+      link: "/hero-wars-alliance/event-hwa/ancient-awakening-firstborn-force.html",
+      src500: "/hero-wars-alliance/images/events/ancient-awakening/events-firstborn-force-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ancient-awakening/events-firstborn-force-400px.webp",
+      alt: "Firstborn Force Guide for Hero Wars Alliance",
+      title: "Firstborn Force Guide for Hero Wars Alliance",
+      strong: "Guide (Ancient Awakening): Firstborn Force - Hero Wars Alliance",
+      updated: "Updated: November, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/ancient-awakening-unstable-equilibrium.html",
+      src500: "/hero-wars-alliance/images/events/ancient-awakening/events-unstable-equilibrium-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ancient-awakening/events-unstable-equilibrium-400px.webp",
+      alt: "Unstable Equilibrium Guide for Hero Wars Alliance",
+      title: "Unstable Equilibrium Guide for Hero Wars Alliance",
+      strong: "Guide (Ancient Awakening): Unstable Equilibrium - Hero Wars Alliance",
+      updated: "Updated: November, 2026."
+    },
+    {
+      link: "/hero-wars-alliance/event-hwa/ancient-awakening-event-shop-en.html",
+      src500: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-500px.webp",
+      src400: "/hero-wars-alliance/images/events/ancient-awakening/ancient-awakening-event-shop-400px.webp",
+      alt: "Ancient Awakening Event Shop Guide for Hero Wars Alliance",
+      title: "Ancient Awakening Event Shop Guide for Hero Wars Alliance",
+      strong: "Guide (Ancient Awakening): Event Shop - Hero Wars Alliance",
+      updated: "Updated: November, 2026."
+    },
 
     {
       link: "/hero-wars-alliance/event-hwa/ascendant-glory-event-group-en.html",
@@ -53,15 +100,6 @@
 //#############################################    
 
 {
-  link: "/hero-wars-alliance/event-special-hwa/hwa-happy-birthday-2026-en.html",
-  src500: "/hero-wars-alliance/images/events-special-hwa/hwa-happy-birthday-2026/dominion-day-400px.jpg",
-  src400: "/hero-wars-alliance/images/events-special-hwa/hwa-happy-birthday-2026/dominion-day-400px.jpg",
-  alt: "Plan Hero Wars Alliance Birthday 2026: Dominion Day and Grand Feast quests",
-  title: "Plan Hero Wars Alliance Birthday 2026: Dominion Day and Grand Feast quests",
-  strong: "Guide: Plan Hero Wars Alliance Birthday 2026: Dominion Day and Grand Feast quests",
-updated: "Updated: November, 2026."
-},
-{
       link: "/hero-wars-alliance/guide/relic-guide-en.html",
       src500: "/hero-wars-alliance/images/guides/relic/relic-guide-500px.webp",
       src400: "/hero-wars-alliance/images/guides/relic/relic-guide-400px.webp",
@@ -80,15 +118,7 @@ updated: "Updated: November, 2026."
       updated: "Updated: 2026."
     },
 
-{
-  link: "/hero-wars-alliance/events-tips-hwa/sanctum-of-balance-shop-en.html",
-  src500: "/hero-wars-alliance/images/events-tips-hwa/sanctum-of-balance-shop/sanctum-of-balance-shop-500px.webp",
-  src400: "/hero-wars-alliance/images/events-tips-hwa/sanctum-of-balance-shop/sanctum-of-balance-shop-400px.webp",
-  alt: "Sanctum of Balance Shop Guide for Hero Wars Alliance",
-  title: "Sanctum of Balance Shop for Hero Wars Alliance",
-  strong: "Guide: Sanctum of Balance Shop - Hero Wars Alliance",
-updated: "Updated: November, 2026."
-},
+
 
 
     //#############################################
