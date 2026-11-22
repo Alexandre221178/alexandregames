@@ -635,6 +635,16 @@
       "ja": "ジンジャー"
     }
   },
+  "Heidi": {
+    "image": "../../imagens/image-shared/heidi.webp",
+    "guides": {
+      "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/heidi-english.html",
+      "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/heidi.html"
+    },
+    "names": {
+      "ja": "ハイディ"
+    }
+  },
   "Helios": {
     "image": "../../imagens/image-shared/helios.webp",
     "guides": {
@@ -995,7 +1005,7 @@
     }
   },
   "Markus": {
-    "image": "../../imagens/image-shared/thea.webp",
+    "image": "../../imagens/image-shared/markus.webp",
     "guides": {
       "en": "../../hero-wars-alliance/characters-guide/markus-en.html",
       "pt": "../../hero-wars-alliance/characters-guide/markus-pt.html",
