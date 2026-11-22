@@ -3,12 +3,15 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 */
 window.HWA_GIFTS = [  
+{ date:'2026-11-22', type:'hub', code:'VALDURCALENDAR', note:'until|2026-12-20T01:00:00Z',
+   rewards:['intelligence-skin-stone x350', 'strength-skin-stone x350', 'agility-skin-stone x350','energy x20',] },
+
   { date:'2026-11-22', type:'daily', mission:'3-14', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 { date:'2026-11-21', type:'daily', mission:'2-11', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
-  { date:'2026-11-20', type:'hub', code:'VALDURTRAILER', note:'until|2026-11-20T01:00:00Z',
+  { date:'2026-11-20', type:'hub', code:'VALDURTRAILER', note:'until|2026-12-20T01:00:00Z',
      rewards:['boxys-gift x3', 'realm-gift x3','energy x100' ] },
   { date:'2026-11-20', type:'daily', mission:'3-2', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
