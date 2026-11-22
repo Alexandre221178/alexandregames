@@ -1,8 +1,6 @@
 /* ==========================================================================
    Calendar Component Styles for Hero Wars Alliance
-   - Desktop: 7 columns
-   - Tablet: 4 columns  
-   - Mobile: 2 columns
+   - 7 columns per week, with horizontal scrolling on narrow screens
    ========================================================================== */
 
 /* -------------------------------------------------------------------------
@@ -31,9 +29,25 @@ div.calendar #calendar-container {
   box-sizing: border-box !important;
 }
 
+.calendar-week {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+.calendar-week-heading {
+  margin: 0 0 8px;
+}
+
+.calendar-week-days {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 10px;
+}
+
 /* Event container styling */
 div.calendar > .event-container,
-div.calendar #calendar-container > .event-container {
+div.calendar #calendar-container > .event-container,
+div.calendar .calendar-week-days > .event-container {
   font-size: 14px !important;
   position: relative !important;
   padding: 10px !important;
@@ -135,7 +149,7 @@ div.calendar .date {
    RESPONSIVE BREAKPOINTS
    ------------------------------------------------------------------------- */
 
-/* Tablet: 4 columns */
+/* Tablet: scroll the weeks, use 4 columns for undated cards. */
 @media (max-width: 768px) {
   div.calendar {
     grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
@@ -143,9 +157,14 @@ div.calendar .date {
   div.calendar #calendar-container {
     grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
   }
+  .calendar-week-days {
+    grid-template-columns: repeat(7, minmax(150px, 1fr));
+    overflow-x: auto;
+    padding-bottom: 8px;
+  }
 }
 
-/* Mobile: 2 columns */
+/* Mobile: use 2 columns for undated cards. */
 @media (max-width: 480px) {
   div.calendar {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
@@ -155,7 +174,8 @@ div.calendar .date {
   }
   /* altura Mobile do container */
   div.calendar > .event-container,
-  div.calendar #calendar-container > .event-container {
+  div.calendar #calendar-container > .event-container,
+  div.calendar .calendar-week-days > .event-container {
     min-height: 378px !important;/* altura mínima, sem cortar os eventos antes 493px */
   }
 }

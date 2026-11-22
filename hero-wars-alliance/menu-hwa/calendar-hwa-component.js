@@ -368,6 +368,36 @@
     return html;
   }
 
+  function renderWeeks(data, lang){
+    var weekLabels = { en: 'Week', pt: 'Semana', de: 'Woche', es: 'Semana', fr: 'Semaine' };
+    var html = '';
+    var days = '';
+    var week = 0;
+
+    function closeWeek(){
+      if(!days) return;
+      week++;
+      var heading = lang === 'ja' ? '第' + week + '週' : (weekLabels[lang] || weekLabels.en) + ' ' + week;
+      var headingId = 'calendar-week-' + week;
+      html += '<section class="calendar-week">\n';
+      html += '  <h4 class="calendar-week-heading" id="' + headingId + '">' + heading + '</h4>\n';
+      html += '  <div class="calendar-week-days" role="region" aria-labelledby="' + headingId + '" tabindex="0">\n';
+      html += days + '  </div>\n</section>\n';
+      days = '';
+    }
+
+    data.forEach(function(ev){
+      if(!ev.date || (ev.weekday || '').trim().toLowerCase() === 'monday') closeWeek();
+      if(ev.date){
+        days += buildEventHTML(ev, lang);
+      } else {
+        html += buildEventHTML(ev, lang);
+      }
+    });
+    closeWeek();
+    return html;
+  }
+
   function renderCalendar(){
     var calendarElem = document.querySelector('.calendar');
     if(!calendarElem) return;
@@ -390,7 +420,7 @@
     } else if(layout === 'group-by-date'){
       html = renderGroupedByDate(data, lang);
     } else {
-      data.forEach(function(ev){ html += buildEventHTML(ev, lang); });
+      html = renderWeeks(data, lang);
     }
     // If there is a dedicated container, render into it to avoid removing scripts
     var container = calendarElem.querySelector('#calendar-container');
