@@ -1,6 +1,7 @@
 /*  npm run update-gifts-hwde
 // ── daily 1, 2026 ─────────────────────────────
-   
+{ date:'2026-11-##', type:'link', giftId:'#', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
 // ── daily 2, 2026 ──────────────────────────────
   { date:'2026-11-##', type:'link', giftId:'###', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }, 'titan-artifact-sphere x5'] }, 
