@@ -8,8 +8,13 @@
 // ── 2 Link Exclusivo Web/FB ──────────────────────────────
 { date:'2026-11-##', type:'link', giftLinkWeb:'https://herowars.me/##', giftLinkFb:'https://herowars.me/##', note:'until|2026-11-##T02:00:00Z',
   rewards:['energy x500'] },
-https://www.hero-wars.com/?nx_source=group_posting_giftweb&gift_id=bf552b47cd163ded3ee2f6fb23b97000
+https://www.hero-wars.com/?nx_source=group_posting_giftweb&gift_id=ed4f0b4cdcb0482c914f3aecb5f0d96d
 */window.HWDE_GIFTS = [
+{ date:'2026-11-25', type:'link', giftLinkWeb:'https://herowars.me/4jz4cFU', giftLinkFb:'https://herowars.me/49dEukj', note:'until|2026-11-30T02:00:00Z',
+    rewards:['valor-coin x12500', 'sapphire-medallion x3','energy-crystal x12',  ] },
+
+   { date:'2026-11-24', type:'link', giftId:'ed4f0b4cdcb0482c914f3aecb5f0d96d', note:'level',
+  rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
   { date:'2026-11-23', type:'link', giftId:'d83ba308a2c6ffc41cc7ac0f54c05bb1', note:'level',
   rewards:[{ web:'platinum-box x3', fb:'fb-platinum-box x3' }] },
   { date:'2026-11-23', type:'link', giftLinkWeb:'https://herowars.me/3XkXElB', giftLinkFb:'https://herowars.me/4eTJIVP', note:'until|2026-11-30T02:00:00Z',
