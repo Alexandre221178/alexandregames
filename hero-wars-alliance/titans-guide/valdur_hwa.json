@@ -150,5 +150,52 @@
       "members": ["Valdur", "Metida", "Orm", "Alecto", "Pallant"],
       "notes": "Pallant, Metida, and Valdur move enemies, enabling the movement damage from Elarite Resonance."
     }
-  ]
+  ],
+  "nota_pvp": {
+    "titulo": "Melhores times de Valdur",
+    "fonte": "Testes do Alexandre Games",
+    "resumo": "Já estou com o Valdur na minha conta e ele se saiu muito bem nas batalhas que testei sem a Skin+, fora do Titans Brawls. Eu estava decepcionado com meus titãs Elarite: mesmo maximizados, eles chegavam a perder para times de iniciantes. Com a chegada do invocador Valdur, senti que o time ficou mais firme.",
+    "time_testado": "Full Elarite",
+    "adversarios": "Times de um único elemento",
+    "ataque": {
+      "venceu": ["Luz", "Escuridão", "Terra", "Água", "Fogo"]
+    },
+    "defesa": {
+      "segurou_apenas": ["Água", "Luz"],
+      "perdeu_para": ["Escuridão", "Terra", "Fogo"]
+    },
+    "titans_brawls": "No evento Titans Brawls, o time Elarite com Valdur também segurou uma defesa contra um time full Luz, algo que eu ainda não tinha conseguido.",
+    "proximo_video": "Ainda estou testando. Meu próximo vídeo vai ser um guia completo dos melhores times do Valdur que encontrei. Inscreva-se no canal e ative o sininho para não perder!"
+  },
+  "developer_notes": {
+    "title": "Notas extras dos desenvolvedores sobre Valdur",
+    "overview": "Here are a few tips to help you figure Valdur out faster. Valdur is the Elarite Summoner, and the idea behind him is simple: the enemy moved, the enemy took damage. He breaks enemy casts with his ultimate, and in the right team he punishes every step the enemy takes.",
+    "child_of_elarite": [
+      "Valdur summons the Child of Elarite right in the middle of the enemy team. When it appears, it pushes enemies away and deals damage. A few seconds later it disappears, pulls everyone back in and hits them again. All that shoving can interrupt enemy skills mid-cast, and that's probably the easiest thing to catch on video.",
+      "The Child doesn't move and can't be attacked. Even if Valdur falls first, the Child still pulls enemies back when it disappears. It also counts as an Elarite titan, so keep it in mind for the next part."
+    ],
+    "elarite_resonance": {
+      "overview": "This passive buffs allied Elarite titans, and the bonuses stack with the number of living Elarite titans.",
+      "tiers": [
+        { "required_count": 2, "bonus": "Extra attack against Water, Earth and Fire titans." },
+        { "required_count": 3, "bonus": "Extra defense against them." },
+        { "required_count": 4, "bonus": "Valdur gets extra energy when he uses skills." },
+        { "required_count": 5, "bonus": "Every hit from an allied Elarite titan marks the enemy, and a marked enemy takes damage each time its position changes." },
+        { "required_count": 6, "bonus": "Allies take less damage." }
+      ],
+      "notes": "The fifth tier is where the pack comes alive. On his own, Valdur only pushes and pulls. With a full Elarite team behind him, every push and pull turns into extra hits."
+    },
+    "team_suggestions": {
+      "synergy": "Pallant and Metida move enemies with their skills too. In a full Elarite team their skills also trigger the position damage, so three titans out of five keep shoving the enemy around and every move costs them.",
+      "teams": [
+        "Full Elarite team: Valdur, Pallant, Metida, Orm and Alecto. Start in attack, that's where it shows off best.",
+        "Valdur and Metida with fire titans, worth a try when the enemy brings a lot of Earth."
+      ]
+    },
+    "video_ideas": [
+      "The same fight with two, three, four and five Elarite titans, so viewers see each Resonance tier switch on.",
+      "A slowed down replay of Child of Elarite breaking an enemy cast.",
+      "Valdur in attack and in defense against different enemy teams. Tell your audience where he shines and how you'd build around him."
+    ]
+  }
 }
