@@ -311,10 +311,20 @@ function injectGiveawayContent() {
   const rewards = Array.isArray(giveaway.rewards) ? giveaway.rewards : [];
   const hasAnnouncement = Boolean(announcementTitle || announcementBlocks.trim());
   const hasRewards = rewards.length > 0;
+  const useCompactLayout = giveaway.layout === 'compact';
 
   if (!hasAnnouncement && !hasRewards) return;
 
-  if (giveaway.layout === 'compact' && announcementSource === giveawaySource) {
+  let html = '';
+
+  if (hasAnnouncement && (!useCompactLayout || announcementSource !== giveawaySource)) {
+    html += `<div class="alexandre-tips">
+  ${announcementTitle ? `<h2>${announcementTitle}</h2>` : ''}
+${announcementBlocks}
+</div>`;
+  }
+
+  if (useCompactLayout) {
     const prizeCards = rewards.map(reward => {
       const images = Array.isArray(reward.images) ? reward.images : [];
       return images.map(image => {
@@ -323,11 +333,16 @@ function injectGiveawayContent() {
         return `<figure class="giveaway-reward-item"><img src="${escapeGiveawayHtml(item.src || '')}" alt="${caption}" title="${caption}" loading="lazy" width="72" height="72"><figcaption>${caption}</figcaption></figure>`;
       }).join('');
     }).join('');
-    const winners = rewards.filter(reward => String(reward.winner_id || '').trim()).map(reward =>
-      `<p class="giveaway-winner">${escapeGiveawayHtml(giveaway.winnerHeader || 'Winner ID')}: <strong>${escapeGiveawayHtml(reward.winner_id)}</strong></p>`
-    ).join('');
-    container.innerHTML = `<section class="alexandre-tips giveaway-compact">
-      ${announcementTitle ? `<h2>${announcementTitle}</h2>` : ''}
+    const winners = rewards.filter(reward => String(reward.winner_id || '').trim()).map(reward => {
+      const winnerId = escapeGiveawayHtml(reward.winner_id);
+      const winnerLabel = escapeGiveawayHtml(reward.winner_label || '');
+      return `<p class="giveaway-winner">${escapeGiveawayHtml(giveaway.winnerHeader || 'Winner ID')}: <strong>${winnerLabel || winnerId}</strong>${winnerLabel ? `<span>ID ${winnerId}</span>` : ''}</p>`;
+    }).join('');
+    const giveawayTitle = announcementSource === giveawaySource
+      ? announcementTitle
+      : giveaway.title || giveaway.heading;
+    container.innerHTML = html + `<section class="alexandre-tips giveaway-compact">
+      ${giveawayTitle ? `<h2>${giveawayTitle}</h2>` : ''}
       <div>${giveaway.para1 || ''}</div>
       ${prizeCards ? `<h3>${escapeGiveawayHtml(giveaway.rewardsTitle || 'Rewards')}</h3><div class="giveaway-reward-cell">${prizeCards}</div>` : ''}
       <div>${giveaway.para4 || ''}</div>
@@ -338,15 +353,6 @@ function injectGiveawayContent() {
       ${giveaway.detailsHtml ? `<details class="giveaway-details"><summary>${escapeGiveawayHtml(giveaway.detailsLabel || 'Details')}</summary>${giveaway.detailsHtml}</details>` : ''}
     </section>`;
     return;
-  }
-
-  let html = '';
-
-  if (hasAnnouncement) {
-    html += `<div class="alexandre-tips">
-  ${announcementTitle ? `<h2>${announcementTitle}</h2>` : ''}
-${announcementBlocks}
-</div>`;
   }
 
   if (hasRewards) {
