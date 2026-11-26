@@ -3,6 +3,8 @@
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 nao esquecer zap*/
 window.HWA_GIFTS = [  
+    { date:'2026-11-26', type:'hub', code:'SNOW', note:'until|2026-12-20T01:00:00Z',
+   rewards:['artifact-chest-key x5', 'energy x100' ] },
 { date:'2026-11-26', type:'daily', mission:'3-11', note:'daily|80',
     rewards:['silver-casket x1', 'energy x20', 'realm-casket x1'] },
 
