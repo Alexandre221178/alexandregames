@@ -381,7 +381,7 @@ function checkFile(filePath) {
         $('img[src]').each((i, elem) => {
             const src = $(elem).attr('src');
             if (src && !src.startsWith('http') && !src.startsWith('#') && !src.startsWith('mailto:')) {
-                const decodedSrc = decodeURIComponent(src);
+                const decodedSrc = decodeURIComponent(src.split('#')[0].split('?')[0]);
                 const fullPath = decodedSrc.startsWith('/') ? path.resolve(ROOT_DIR, decodedSrc.slice(1)) : path.resolve(path.dirname(filePath), decodedSrc);
                 if (!fs.existsSync(fullPath)) {
                     issues.push(`Imagem quebrada: ${src}`);
