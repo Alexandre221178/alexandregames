@@ -1,10 +1,6 @@
-/* calendar-hwa data for Alexandre Games - Last updated: 2026-11-22T09:48:17-03:00
-   - Official season dates, rewards and offers: https://hwa.nexters.com/pt-BR/news-hub-news/valdurs-season/valdurs-season-calendar
+/* calendar-hwa data for Alexandre Games - Last updated: 2026-11-25T21:44:51-03:00
    - Keep links per language empty when you want to fill them manually
    - Image and paths are relative to the page that includes the calendar
-   - crie uma nova thumb para cada evento, com o mesmo nome do arquivo da imagem do evento, pegue a thumb principal da pagina do evento oficial; pasta das img no blog hero-wars-alliance/images/calendar/calendar-1200px.webp depois 500x e 400px
-  - atualize as thumbs nas pag. <meta property="og:image" content="https://alexandregames.com/hero-wars-alliance/images/calendar/calendar-1200px.webp?v=2026-10wodryns">
-
 */
 window.CALENDAR_MONTH_HEADER = {
   "en": "Season of Winter’s Eye — November 23–December 20, 2026",
@@ -13,6 +9,21 @@ window.CALENDAR_MONTH_HEADER = {
   "es": "Temporada del Ojo del Invierno — 23 de noviembre al 20 de diciembre de 2026",
   "fr": "Saison de l’Œil de l’hiver — du 23 novembre au 20 décembre 2026",
   "ja": "冬の瞳シーズン — 2026年11月23日～12月20日"
+};
+
+const relicSeasonMissions = {
+  "titles": { "en": "🧩 Relic Season — Missions", "pt": "🧩 Estação de Relíquias — Missões", "de": "🧩 Relikt-Saison — Aufgaben", "es": "🧩 Temporada de Reliquias — Misiones", "fr": "🧩 Saison des reliques — Missions", "ja": "🧩 レリックシーズン — ミッション" },
+  "links": { "en": "../../hero-wars-alliance/event-hwa/relic-season-event-en.html", "pt": "../../hero-wars-alliance/event-hwa/relic-season-event-pt.html", "de": "../../hero-wars-alliance/event-hwa/relic-season-event-de.html", "es": "../../hero-wars-alliance/event-hwa/relic-season-event-es.html", "fr": "../../hero-wars-alliance/event-hwa/relic-season-event-fr.html", "ja": "../../hero-wars-alliance/event-hwa/relic-season-event-ja.html" }
+};
+
+const judgeRelicHero = {
+  "titles": { "en": "Judge’s Relic", "pt": "Relíquia do Judge", "de": "Judges Relikt", "es": "Reliquia de Judge", "fr": "Relique de Judge", "ja": "ジャッジのレリック" },
+  "links": { "en": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Judge%20-%20English.html", "pt": "../../Hero%20Wars/Guia%20de%20Her%C3%B3is%20Hero%20Wars/Juiz.html", "de": "", "es": "", "fr": "", "ja": "" }
+};
+
+const aidanRelicHero = {
+  "titles": { "en": "Aidan’s Relic", "pt": "Relíquia do Aidan", "de": "Aidans Relikt", "es": "Reliquia de Aidan", "fr": "Relique d’Aidan", "ja": "エイダンのレリック" },
+  "links": { "en": "../../hero-wars-alliance/characters-guide/aidan-en.html", "pt": "../../hero-wars-alliance/characters-guide/aidan-pt.html", "de": "../../hero-wars-alliance/characters-guide/aidan-de.html", "es": "../../hero-wars-alliance/characters-guide/aidan-es.html", "fr": "../../hero-wars-alliance/characters-guide/aidan-fr.html", "ja": "../../hero-wars-alliance/characters-guide/aidan-ja.html" }
 };
 
 window.CALENDAR_DATA = [
@@ -322,6 +333,8 @@ window.CALENDAR_DATA = [
     "titles": { "en": "🛤️ Bountiful Roads — Event Group", "pt": "🛤️ Bountiful Roads — Grupo de eventos", "de": "🛤️ Bountiful Roads — Eventgruppe", "es": "🛤️ Bountiful Roads — Grupo de eventos", "fr": "🛤️ Bountiful Roads — Groupe d’événements", "ja": "🛤️ Bountiful Roads — イベントグループ" },
     "links": { "en": "https://hwa.nexters.com/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Event%20Group%3A%20Bountiful%20Roads", "pt": "https://hwa.nexters.com/pt-BR/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Event%20Group%3A%20Bountiful%20Roads", "de": "", "es": "", "fr": "", "ja": "" },
     "extra": [
+      relicSeasonMissions,
+      judgeRelicHero,
       {
         "titles": { "en": "💠 Judge & Polaris — Talismans", "pt": "💠 Judge e Polaris — Talismãs", "de": "💠 Judge und Polaris — Talismane", "es": "💠 Judge y Polaris — Talismanes", "fr": "💠 Judge et Polaris — Talismans", "ja": "💠 ジャッジ＆ポラリス — タリスマン" },
         "labelOnly": true
@@ -363,6 +376,8 @@ window.CALENDAR_DATA = [
     "titles": { "en": "🛤️ Bountiful Roads — Event Group", "pt": "🛤️ Bountiful Roads — Grupo de eventos", "de": "🛤️ Bountiful Roads — Eventgruppe", "es": "🛤️ Bountiful Roads — Grupo de eventos", "fr": "🛤️ Bountiful Roads — Groupe d’événements", "ja": "🛤️ Bountiful Roads — イベントグループ" },
     "links": { "en": "https://hwa.nexters.com/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Event%20Group%3A%20Bountiful%20Roads", "pt": "https://hwa.nexters.com/pt-BR/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Event%20Group%3A%20Bountiful%20Roads", "de": "", "es": "", "fr": "", "ja": "" },
     "extra": [
+      relicSeasonMissions,
+      judgeRelicHero,
       {
         "titles": { "en": "💠 Judge & Polaris — Talismans", "pt": "💠 Judge e Polaris — Talismãs", "de": "💠 Judge und Polaris — Talismane", "es": "💠 Judge y Polaris — Talismanes", "fr": "💠 Judge et Polaris — Talismans", "ja": "💠 ジャッジ＆ポラリス — タリスマン" },
         "labelOnly": true
@@ -405,6 +420,8 @@ window.CALENDAR_DATA = [
     "titles": { "en": "🛤️ Bountiful Roads — Event Group", "pt": "🛤️ Bountiful Roads — Grupo de eventos", "de": "🛤️ Bountiful Roads — Eventgruppe", "es": "🛤️ Bountiful Roads — Grupo de eventos", "fr": "🛤️ Bountiful Roads — Groupe d’événements", "ja": "🛤️ Bountiful Roads — イベントグループ" },
     "links": { "en": "https://hwa.nexters.com/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Event%20Group%3A%20Bountiful%20Roads", "pt": "https://hwa.nexters.com/pt-BR/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Event%20Group%3A%20Bountiful%20Roads", "de": "", "es": "", "fr": "", "ja": "" },
     "extra": [
+      relicSeasonMissions,
+      judgeRelicHero,
       {
         "titles": { "en": "💠 Judge & Polaris — Talismans", "pt": "💠 Judge e Polaris — Talismãs", "de": "💠 Judge und Polaris — Talismane", "es": "💠 Judge y Polaris — Talismanes", "fr": "💠 Judge et Polaris — Talismans", "ja": "💠 ジャッジ＆ポラリス — タリスマン" },
         "labelOnly": true
@@ -446,6 +463,8 @@ window.CALENDAR_DATA = [
     "titles": { "en": "🛤️ Bountiful Roads — Event Group", "pt": "🛤️ Bountiful Roads — Grupo de eventos", "de": "🛤️ Bountiful Roads — Eventgruppe", "es": "🛤️ Bountiful Roads — Grupo de eventos", "fr": "🛤️ Bountiful Roads — Groupe d’événements", "ja": "🛤️ Bountiful Roads — イベントグループ" },
     "links": { "en": "https://hwa.nexters.com/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Event%20Group%3A%20Bountiful%20Roads", "pt": "https://hwa.nexters.com/pt-BR/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Event%20Group%3A%20Bountiful%20Roads", "de": "", "es": "", "fr": "", "ja": "" },
     "extra": [
+      relicSeasonMissions,
+      judgeRelicHero,
       {
         "titles": { "en": "💠 Judge & Polaris — Talismans", "pt": "💠 Judge e Polaris — Talismãs", "de": "💠 Judge und Polaris — Talismane", "es": "💠 Judge y Polaris — Talismanes", "fr": "💠 Judge et Polaris — Talismans", "ja": "💠 ジャッジ＆ポラリス — タリスマン" },
         "labelOnly": true
@@ -487,6 +506,8 @@ window.CALENDAR_DATA = [
     "titles": { "en": "🛤️ Bountiful Roads — Event Group", "pt": "🛤️ Bountiful Roads — Grupo de eventos", "de": "🛤️ Bountiful Roads — Eventgruppe", "es": "🛤️ Bountiful Roads — Grupo de eventos", "fr": "🛤️ Bountiful Roads — Groupe d’événements", "ja": "🛤️ Bountiful Roads — イベントグループ" },
     "links": { "en": "https://hwa.nexters.com/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Event%20Group%3A%20Bountiful%20Roads", "pt": "https://hwa.nexters.com/pt-BR/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Event%20Group%3A%20Bountiful%20Roads", "de": "", "es": "", "fr": "", "ja": "" },
     "extra": [
+      relicSeasonMissions,
+      judgeRelicHero,
       {
         "titles": { "en": "💠 Judge & Polaris — Talismans", "pt": "💠 Judge e Polaris — Talismãs", "de": "💠 Judge und Polaris — Talismane", "es": "💠 Judge y Polaris — Talismanes", "fr": "💠 Judge et Polaris — Talismans", "ja": "💠 ジャッジ＆ポラリス — タリスマン" },
         "labelOnly": true
@@ -528,6 +549,8 @@ window.CALENDAR_DATA = [
     "titles": { "en": "🛤️ Bountiful Roads — Event Group", "pt": "🛤️ Bountiful Roads — Grupo de eventos", "de": "🛤️ Bountiful Roads — Eventgruppe", "es": "🛤️ Bountiful Roads — Grupo de eventos", "fr": "🛤️ Bountiful Roads — Groupe d’événements", "ja": "🛤️ Bountiful Roads — イベントグループ" },
     "links": { "en": "https://hwa.nexters.com/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Event%20Group%3A%20Bountiful%20Roads", "pt": "https://hwa.nexters.com/pt-BR/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Event%20Group%3A%20Bountiful%20Roads", "de": "", "es": "", "fr": "", "ja": "" },
     "extra": [
+      relicSeasonMissions,
+      judgeRelicHero,
       {
         "titles": { "en": "💠 Judge & Polaris — Talismans", "pt": "💠 Judge e Polaris — Talismãs", "de": "💠 Judge und Polaris — Talismane", "es": "💠 Judge y Polaris — Talismanes", "fr": "💠 Judge et Polaris — Talismans", "ja": "💠 ジャッジ＆ポラリス — タリスマン" },
         "labelOnly": true
@@ -569,6 +592,8 @@ window.CALENDAR_DATA = [
     "titles": { "en": "🛤️ Bountiful Roads — Event Group", "pt": "🛤️ Bountiful Roads — Grupo de eventos", "de": "🛤️ Bountiful Roads — Eventgruppe", "es": "🛤️ Bountiful Roads — Grupo de eventos", "fr": "🛤️ Bountiful Roads — Groupe d’événements", "ja": "🛤️ Bountiful Roads — イベントグループ" },
     "links": { "en": "https://hwa.nexters.com/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Event%20Group%3A%20Bountiful%20Roads", "pt": "https://hwa.nexters.com/pt-BR/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Event%20Group%3A%20Bountiful%20Roads", "de": "", "es": "", "fr": "", "ja": "" },
     "extra": [
+      relicSeasonMissions,
+      judgeRelicHero,
       {
         "titles": { "en": "💠 Judge & Polaris — Talismans", "pt": "💠 Judge e Polaris — Talismãs", "de": "💠 Judge und Polaris — Talismane", "es": "💠 Judge y Polaris — Talismanes", "fr": "💠 Judge et Polaris — Talismans", "ja": "💠 ジャッジ＆ポラリス — タリスマン" },
         "labelOnly": true
@@ -961,6 +986,8 @@ window.CALENDAR_DATA = [
     "titles": { "en": "🪙 Balance of Power — Event Group", "pt": "🪙 Equilíbrio de Poder — Grupo de eventos", "de": "🪙 Gleichgewicht der Kräfte — Eventgruppe", "es": "🪙 Equilibrio de Poder — Grupo de eventos", "fr": "🪙 Équilibre des forces — Groupe d’événements", "ja": "🪙 力の均衡 — イベントグループ" },
     "links": { "en": "https://hwa.nexters.com/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Balance%20of%20Power%20Event%20Group", "pt": "https://hwa.nexters.com/pt-BR/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Balance%20of%20Power%20Event%20Group", "de": "", "es": "", "fr": "", "ja": "" },
     "extra": [
+      relicSeasonMissions,
+      aidanRelicHero,
       {
         "titles": { "en": "👕 Arachne — Plasma Skin & Skin+ (shop)", "pt": "👕 Arachne — Skin e Skin+ de Plasma (loja)", "de": "👕 Arachne — Plasma-Skin und Skin+ (Shop)", "es": "👕 Arachne — Aspecto y Aspecto+ de plasma (tienda)", "fr": "👕 Arachne — Skin et Skin+ plasma (boutique)", "ja": "👕 アラクネ — プラズマスキン＆スキン+（ショップ）" },
         "labelOnly": true
@@ -1006,6 +1033,8 @@ window.CALENDAR_DATA = [
     "titles": { "en": "🪙 Balance of Power — Event Group", "pt": "🪙 Equilíbrio de Poder — Grupo de eventos", "de": "🪙 Gleichgewicht der Kräfte — Eventgruppe", "es": "🪙 Equilibrio de Poder — Grupo de eventos", "fr": "🪙 Équilibre des forces — Groupe d’événements", "ja": "🪙 力の均衡 — イベントグループ" },
     "links": { "en": "https://hwa.nexters.com/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Balance%20of%20Power%20Event%20Group", "pt": "https://hwa.nexters.com/pt-BR/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Balance%20of%20Power%20Event%20Group", "de": "", "es": "", "fr": "", "ja": "" },
     "extra": [
+      relicSeasonMissions,
+      aidanRelicHero,
       {
         "titles": { "en": "👕 Arachne — Plasma Skin & Skin+ (shop)", "pt": "👕 Arachne — Skin e Skin+ de Plasma (loja)", "de": "👕 Arachne — Plasma-Skin und Skin+ (Shop)", "es": "👕 Arachne — Aspecto y Aspecto+ de plasma (tienda)", "fr": "👕 Arachne — Skin et Skin+ plasma (boutique)", "ja": "👕 アラクネ — プラズマスキン＆スキン+（ショップ）" },
         "labelOnly": true
@@ -1051,6 +1080,8 @@ window.CALENDAR_DATA = [
     "titles": { "en": "🪙 Balance of Power — Event Group", "pt": "🪙 Equilíbrio de Poder — Grupo de eventos", "de": "🪙 Gleichgewicht der Kräfte — Eventgruppe", "es": "🪙 Equilibrio de Poder — Grupo de eventos", "fr": "🪙 Équilibre des forces — Groupe d’événements", "ja": "🪙 力の均衡 — イベントグループ" },
     "links": { "en": "https://hwa.nexters.com/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Balance%20of%20Power%20Event%20Group", "pt": "https://hwa.nexters.com/pt-BR/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Balance%20of%20Power%20Event%20Group", "de": "", "es": "", "fr": "", "ja": "" },
     "extra": [
+      relicSeasonMissions,
+      aidanRelicHero,
       {
         "titles": { "en": "👕 Arachne — Plasma Skin & Skin+ (shop)", "pt": "👕 Arachne — Skin e Skin+ de Plasma (loja)", "de": "👕 Arachne — Plasma-Skin und Skin+ (Shop)", "es": "👕 Arachne — Aspecto y Aspecto+ de plasma (tienda)", "fr": "👕 Arachne — Skin et Skin+ plasma (boutique)", "ja": "👕 アラクネ — プラズマスキン＆スキン+（ショップ）" },
         "labelOnly": true
@@ -1096,6 +1127,8 @@ window.CALENDAR_DATA = [
     "titles": { "en": "🪙 Balance of Power — Event Group", "pt": "🪙 Equilíbrio de Poder — Grupo de eventos", "de": "🪙 Gleichgewicht der Kräfte — Eventgruppe", "es": "🪙 Equilibrio de Poder — Grupo de eventos", "fr": "🪙 Équilibre des forces — Groupe d’événements", "ja": "🪙 力の均衡 — イベントグループ" },
     "links": { "en": "https://hwa.nexters.com/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Balance%20of%20Power%20Event%20Group", "pt": "https://hwa.nexters.com/pt-BR/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Balance%20of%20Power%20Event%20Group", "de": "", "es": "", "fr": "", "ja": "" },
     "extra": [
+      relicSeasonMissions,
+      aidanRelicHero,
       {
         "titles": { "en": "👕 Arachne — Plasma Skin & Skin+ (shop)", "pt": "👕 Arachne — Skin e Skin+ de Plasma (loja)", "de": "👕 Arachne — Plasma-Skin und Skin+ (Shop)", "es": "👕 Arachne — Aspecto y Aspecto+ de plasma (tienda)", "fr": "👕 Arachne — Skin et Skin+ plasma (boutique)", "ja": "👕 アラクネ — プラズマスキン＆スキン+（ショップ）" },
         "labelOnly": true
@@ -1141,6 +1174,8 @@ window.CALENDAR_DATA = [
     "titles": { "en": "🪙 Balance of Power — Event Group", "pt": "🪙 Equilíbrio de Poder — Grupo de eventos", "de": "🪙 Gleichgewicht der Kräfte — Eventgruppe", "es": "🪙 Equilibrio de Poder — Grupo de eventos", "fr": "🪙 Équilibre des forces — Groupe d’événements", "ja": "🪙 力の均衡 — イベントグループ" },
     "links": { "en": "https://hwa.nexters.com/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Balance%20of%20Power%20Event%20Group", "pt": "https://hwa.nexters.com/pt-BR/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Balance%20of%20Power%20Event%20Group", "de": "", "es": "", "fr": "", "ja": "" },
     "extra": [
+      relicSeasonMissions,
+      aidanRelicHero,
       {
         "titles": { "en": "👕 Arachne — Plasma Skin & Skin+ (shop)", "pt": "👕 Arachne — Skin e Skin+ de Plasma (loja)", "de": "👕 Arachne — Plasma-Skin und Skin+ (Shop)", "es": "👕 Arachne — Aspecto y Aspecto+ de plasma (tienda)", "fr": "👕 Arachne — Skin et Skin+ plasma (boutique)", "ja": "👕 アラクネ — プラズマスキン＆スキン+（ショップ）" },
         "labelOnly": true
@@ -1186,6 +1221,8 @@ window.CALENDAR_DATA = [
     "titles": { "en": "🪙 Balance of Power — Event Group", "pt": "🪙 Equilíbrio de Poder — Grupo de eventos", "de": "🪙 Gleichgewicht der Kräfte — Eventgruppe", "es": "🪙 Equilibrio de Poder — Grupo de eventos", "fr": "🪙 Équilibre des forces — Groupe d’événements", "ja": "🪙 力の均衡 — イベントグループ" },
     "links": { "en": "https://hwa.nexters.com/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Balance%20of%20Power%20Event%20Group", "pt": "https://hwa.nexters.com/pt-BR/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Balance%20of%20Power%20Event%20Group", "de": "", "es": "", "fr": "", "ja": "" },
     "extra": [
+      relicSeasonMissions,
+      aidanRelicHero,
       {
         "titles": { "en": "👕 Arachne — Plasma Skin & Skin+ (shop)", "pt": "👕 Arachne — Skin e Skin+ de Plasma (loja)", "de": "👕 Arachne — Plasma-Skin und Skin+ (Shop)", "es": "👕 Arachne — Aspecto y Aspecto+ de plasma (tienda)", "fr": "👕 Arachne — Skin et Skin+ plasma (boutique)", "ja": "👕 アラクネ — プラズマスキン＆スキン+（ショップ）" },
         "labelOnly": true
@@ -1231,6 +1268,8 @@ window.CALENDAR_DATA = [
     "titles": { "en": "🪙 Balance of Power — Event Group", "pt": "🪙 Equilíbrio de Poder — Grupo de eventos", "de": "🪙 Gleichgewicht der Kräfte — Eventgruppe", "es": "🪙 Equilibrio de Poder — Grupo de eventos", "fr": "🪙 Équilibre des forces — Groupe d’événements", "ja": "🪙 力の均衡 — イベントグループ" },
     "links": { "en": "https://hwa.nexters.com/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Balance%20of%20Power%20Event%20Group", "pt": "https://hwa.nexters.com/pt-BR/news-hub-news/valdurs-season/valdurs-season-calendar#:~:text=Balance%20of%20Power%20Event%20Group", "de": "", "es": "", "fr": "", "ja": "" },
     "extra": [
+      relicSeasonMissions,
+      aidanRelicHero,
       {
         "titles": { "en": "👕 Arachne — Plasma Skin & Skin+ (shop)", "pt": "👕 Arachne — Skin e Skin+ de Plasma (loja)", "de": "👕 Arachne — Plasma-Skin und Skin+ (Shop)", "es": "👕 Arachne — Aspecto y Aspecto+ de plasma (tienda)", "fr": "👕 Arachne — Skin et Skin+ plasma (boutique)", "ja": "👕 アラクネ — プラズマスキン＆スキン+（ショップ）" },
         "labelOnly": true
